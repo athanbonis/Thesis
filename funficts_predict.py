@@ -2,6 +2,19 @@
 import argparse
 import json
 import os
+import glob
+import codecs
+from fastai.text import *
+
+def read_files(path,label):
+    # Reads all text files located in the 'path' and assigns them to 'label' class
+    files = glob.glob(path+os.sep+label+os.sep+'*.txt')
+    texts=[]
+    for i,v in enumerate(files):
+        f=codecs.open(v,'r',encoding='utf-8')
+        texts.append((f.read(),label))
+        f.close()
+    return texts
 
 def init(ds_path,answers_path,n=3,ft=5,classifier='OneVsRest'):
     collection = ds_path + os.sep + 'collection-info.json'
@@ -11,8 +24,29 @@ def init(ds_path,answers_path,n=3,ft=5,classifier='OneVsRest'):
         for attrib in json.load(f):
             problems.append(attrib['problem-name'])
             language.append(attrib['language'])
-    print(problems)
-    print(language)
+    
+    for idx,problem in enumerate(problems):
+        problemInfo = ds_path + os.sep + problem + os.sep + "problem-info.json"
+        candidates = []
+        with open(problemInfo, 'r') as f:
+            jsonFile = json.load(f)
+            #unknownFolder = jsonFile['uknown-folder']
+            for attrib in jsonFile['candidate-authors']:
+                candidates.append(attrib['author-name'])
+        train_docs=[]
+        for candidate in candidates:
+            train_docs.extend(read_files(ds_path+os.sep+problem,candidate))
+        train_texts = [text for i,(text,label) in enumerate(train_docs)]
+        train_labels = [label for i,(text,label) in enumerate(train_docs)]
+        train_data = list(zip(train_texts,train_labels))
+        with open('answers' + os.sep + 'ds' + str(idx) + '.csv', mode='w') as employee_file:
+            employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            for row in train_data:
+                employee_writer.writerow([row[0], row[1]])
+        #df = pd.DataFrame(train_data)
+        #data_lm = TextLMDataBunch.from_df('',df,df)
+        #data_clas = TextClasDataBunch.from_df('', df, df,vocab=data_lm.train_ds.vocab, bs=42)
+
 
 def main():
      parser = argparse.ArgumentParser()
