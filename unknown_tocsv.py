@@ -5,7 +5,7 @@ import os
 import json
 
 def main():
-    collection = 'pan18' + os.sep + 'collection-info.json'
+    collection = 'pan18' + os.sep + 'datasets' + os.sep + 'collection-info.json'
     problems = []
     with open(collection, 'r') as f:
         for attrib in json.load(f):
