@@ -26,6 +26,8 @@ def init(ds_path,answers_path,n=3,ft=5,classifier='OneVsRest'):
             language.append(attrib['language'])
     
     for idx,problem in enumerate(problems):
+        if(idx != 0):
+            return
         problemInfo = ds_path + os.sep + problem + os.sep + "problem-info.json"
         candidates = []
         with open(problemInfo, 'r') as f:
@@ -39,14 +41,34 @@ def init(ds_path,answers_path,n=3,ft=5,classifier='OneVsRest'):
         train_texts = [text for i,(text,label) in enumerate(train_docs)]
         train_labels = [label for i,(text,label) in enumerate(train_docs)]
         train_data = list(zip(train_texts,train_labels))
-        with open('answers' + os.sep + 'ds' + str(idx) + '.csv', mode='w') as employee_file:
-            employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            for row in train_data:
-                employee_writer.writerow([row[0], row[1]])
-        #df = pd.DataFrame(train_data)
-        #data_lm = TextLMDataBunch.from_df('',df,df)
-        #data_clas = TextClasDataBunch.from_df('', df, df,vocab=data_lm.train_ds.vocab, bs=42)
 
+        
+        
+        with open('answers' + os.sep + 'ds' + str(idx) + '.csv', mode='w') as employee_file:
+            #getting the number of text for each author
+            author_counters = [0] * len(candidates)
+            counter = 0
+            for i in range(0,len(train_data)):
+                if i != 0:
+                    if train_data[i][1] != train_data[i-1][1]:
+                        counter += 1
+                author_counters[counter] += 1
+            #writes to csv
+            employee_writer = csv.writer(employee_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            employee_writer.writerow(["label", "text"])
+            counter = 0
+            local_counter = 0
+            for row in train_data:
+                is_valid = False
+                index = train_data.index(row)
+                if(index > 0):
+                    if(train_data[index][1] != train_data[index-1][1]):
+                            counter += 1
+                            local_counter = 0
+                if (counter != 20 and local_counter/author_counters[counter] > 0.7):
+                    is_valid = True
+                employee_writer.writerow([row[1], row[0]])
+                local_counter += 1
 
 def main():
      parser = argparse.ArgumentParser()
