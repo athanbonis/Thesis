@@ -1,0 +1,50 @@
+         
+
+... Making the Web accessible to all.
+
+The Web Design Group was founded to promote the creation of non-browser specific, non-resolution specific, creative and informative sites that are accessible to all users worldwide. To this end, the WDG offers material on a wide range of HTML related topics. We hope that with this site as a reference, you will be able to create Web sites that can be used by every person on the Internet, regardless of browser, platform, or settings.
+
+What's New at htmlhelp.com
+
+Search HTMLHelp.com: 
+
+Primary site in USA: www.htmlhelp.com
+Mirror site in UK: uk.htmlhelp.com
+
+Web Authoring Reference
+
+Includes the HTML 4.0 Reference, the HTML 3.2 (Wilbur) Reference, and our Cascading Style Sheets Guide. Offline versions are also available, as well as the HTML 4.0 Reference in Japanese, the CSS Guide in Japanese, the CSS Guide in Chinese, and the CSS Guide in Spanish.
+
+Tools
+
+Online tools including our HTML Validator; CSSCheck, a Cascading Style Sheets lint; cg-eye, a CGI test kit; Link Valet, a Link Checker; and WiDGets, authoring tools and accessibility add-ons for IE4 for Win95/NT4. 
+NEW! Site Valet, a deluxe website monitoring service incorporating online tools.
+
+FAQ Archives
+
+Features Web authoring Frequently Asked Questions and the CGI Programming FAQ.
+
+Design Elements
+
+Features a Style Guide, Standards for HTML Authoring, An Introduction to Frames, a Guide to Accessibility, a discussion of Document Types and the WDG DTD, Image Tips, and a handy list of RGB Color Codes.
+
+Feature Article
+
+Currently featuring Alan Flavell's Use of ALT text in IMGs.
+
+HTML Help BBS
+
+Have a question or something to discuss? Novices and experts alike are encouraged to participate in our HTML Help BBS.
+
+Links
+
+Helpful Web authoring links, including links to FAQs, Tutorials, Validators, and more.
+
+For a quick look at the site, see our Index page. If you have any comments, suggestions, or questions about this site, contact liam@htmlh&#101;lp.com.
+
+Thanks to blueyonder for providing the UK mirror.
+
+---------------------------------------------------------------------
+Copyright © 1996-2002 All rights reserved.
+
+

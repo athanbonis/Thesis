@@ -1,0 +1,566 @@
+
+
+MORE JSTOR TIPS	 
+
+Basic Searching
+
+This help information describes how to perform a basic search. You may also perform an advanced search. If you have particular keywords, author's names, or titles in mind, you can search JSTOR®. 
+
+You may also browse the collection one issue at a time to find a citation or article. Browsing can be useful if the context of an article is important, or if you would like to skim other articles surrounding a particular article or issue.
+
+* What is being searched 
+* How to enter a basic search 
+* Limiting searches 
+* Searching captions 
+* How your search results are displayed 
+* Finding your search terms in a retrieved article 
+* Search strategies and tips 
+
+---------------------------------------------------------------------
+
+What Is Being Searched
+
+The JSTOR archive contains the full text of scholarly journals, beginning with the very first issue of each title. There is a gap, typically from 1 to 5 years, between the most recently published journal issue and the content available through JSTOR. You may choose to search the full text (every word) in any or all of the disciplines presented on the search page.When searching full-text, your search terms are compared with every word in the body of the articles as well as the citation information (e.g., author, title). You may also choose more narrowly-defined searches where only the author, title, abstract, or caption field is searched
+
+In addition to the full text available in the JSTOR archive, you are also able to search and browse the metadata (title, author, and abstract) for more recent issues of select titles. For these titles, direct links to the full text articles available at other online resources will be provided. In order for users to access the full text of the linked articles, they must have a subscription to the other resource, either through their library or individually. To learn more about this, including which titles have the links, see our Links to Recent Content informational page.
+ 
+
+NOTE: When searching the abstract field, remember that roughly 10% of articles in the JSTOR collection include abstracts. 
+
+---------------------------------------------------------------------
+
+How to Enter a Search
+
+JSTOR allows you to use keywords to search the collection. You may combine keywords using the Boolean operators AND, OR, and NEAR. When you combine keywords with "AND" in a full-text search, you find all instances in which both keywords appear in the same article. Using "OR" between keywords allows to you find all articles which contain either keyword. Searches using "NEAR" finds instances when the keywords occur within 10 words (a typical sentence) or 25 words (paragraph) of each other.
+
+1.  
+
+Here Is a Sample Search: 
+
+  
+
+OR 1. ENTER SEARCH TERMS:       What content will be searched?    
+TIP: See drop-down menus for more options. 
+
+ 	 in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+Clicking the Search button submits the search. The Reset Search Form button clears the search form, allowing you to start again.
+
+ 
+
+2.  
+
+Changing Default Search Options
+
+The default options in the search form can be changed by selecting the desired option from the drop down menu. For example, the previous search can easily be changed to:
+
+OR 
+
+1. ENTER SEARCH TERMS:       What content will be searched?    
+TIP: See drop-down menus for more options. 
+
+ 	 in 
+full-text 
+author 
+title 
+abstract       
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract       
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+3.  
+
+Searching for Plurals 
+
+JSTOR allows you to search for the singular and plural form of a word at the same time, by adding a + to the end of the singular form of the word. The search engine:
+
+Adds s and es where applicable. Searching on
+
+cat+ will find cat and cats;
+ box+ will find box and boxes.
+ 
+
+Doubles s and z before adding es. Searching on
+
+bus+ will find bus and busses;
+ quiz+ will find quiz and quizzes.
+ 
+
+Changes y to i and f to v before adding es. Searching on
+
+sky+ will find sky and skies;
+ knife+ will find knife and knives.
+ 
+
+The search engine does NOT handle rules for plurals in foreign languages such as Latin, Greek, French, Italian, etc. Therefore, it will NOT find the plurals of words such as hippopotamus (hippopotami) or vertex (vertices).
+
+  
+
+4.  
+
+Searching for a Phrase
+
+Multiple words on the same line are interpreted as a phrase. This search finds all articles that include the phrase "pork barrel":
+
+OR 
+
+1. ENTER SEARCH TERMS:       What content will be searched?    
+TIP: See drop-down menus for more options. 
+
+ 	 in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+  
+
+5.  
+
+Searching for an Author
+
+To find all instances of an author's name using the author field, with or without the author's middle name or initial, enter an author's first name and last name on the same line, and select the author field. The search will find the author's name without a middle name or initial, and will also find the author's name with any middle name or initial. If you search using the author's middle name or initial, the search results will only include the author's name with the middle name or initial.
+
+  
+
+6.  
+
+Combining Keyword Searches
+
+You can combine keyword searches with full-text, author, title, or abstract fields. This search finds articles in which "liberty" appears within full-text, and "Patrick Henry" appears within the author field.
+
+  
+
+OR 
+
+1. ENTER SEARCH TERMS:       What content will be searched?    
+TIP: See drop-down menus for more options. 
+
+ 	 in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract      
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in 
+full-text 
+author 
+title 
+abstract 
+caption 
+
+  
+
+7.  
+
+Using the NEAR Connector
+
+In order to perform a NEAR search, the selected field types must be the same. You cannot use the connector NEAR to combine a search term from one type of field with a search term from another type of field. For example, if you changed the connector in the above search from AND to NEAR, you would get an error message. 
+
+---------------------------------------------------------------------
+
+Limiting Searches
+
+While it is possible to search every page in the collection, most users will find the appropriate search results much more quickly if they limit the scope of their search. 
+
+1.  
+
+Limiting Searches by Journal
+
+A particular journal or set of journals must be designated in your search. (Leaving this option empty will result in notice to "Select one or more journals"): 
+
+2. SELECT DISCIPLINES/JOURNALS TO SEARCH (required):
+ to search specific journals: 
+Ecology 
+Economics 
+History 
+Political Science	 
+
+Choosing "Expand the list" will allow you to select specific journal titles to search. For example, it is possible to search only in The American Economic Review and The Journal of Economic Perspectives.
+
+2.  
+
+Limiting by Type of Article
+
+The default setting is to search all full length articles:
+
+3. LIMIT YOUR SEARCH (optional): 
+Limit by Type:
+ articles   reviews   opinion pieces   other items   
+TIP: "Other items" may include announcements, bibliographies, or other non-research related items. 
+
+3.  Limit by Date Range:
+ between: and: 
+TIP: Specify dates as yyyy, yyyy/mm or yyyy/mm/dd. 
+
+4.  Limit by Content Availability:
+ All Content   Full Text Only   
+TIP: "All Content" includes full text JSTOR articles and, for some titles, citations and links for articles not contained in JSTOR.   
+
+5.  Sort Results: 
+Highest Scoring 
+Most Recent 
+Oldest 
+
+However, it is also possible to search for a different type of item, such as book reviews. You may select multiple types:
+
+3. LIMIT YOUR SEARCH (optional): 
+Limit by Type:
+ articles   reviews   opinion pieces   other items   
+TIP: "Other items" may include announcements, bibliographies, or other non-research related items. 
+
+6.  Limit by Date Range:
+ between: and: 
+TIP: Specify dates as yyyy, yyyy/mm or yyyy/mm/dd. 
+
+7.  Limit by Content Availability:
+ All Content   Full Text Only   
+TIP: "All Content" includes full text JSTOR articles and, for some titles, citations and links for articles not contained in JSTOR.   
+
+8.  Sort Results: 
+Highest Scoring 
+Most Recent 
+Oldest 
+
+ 
+
+9.  
+
+Limiting Searches by Date Range
+
+To search only for articles within a certain range of dates, enter a date range: 
+
+3. LIMIT YOUR SEARCH (optional): 
+
+10. Limit by Type:
+ articles   reviews   opinion pieces   other items   
+TIP: "Other items" may include announcements, bibliographies, or other non-research related items. 
+
+Limit by Date Range:
+ between: and: 
+TIP: Specify dates as yyyy, yyyy/mm or yyyy/mm/dd. 
+
+11. Limit by Content Availability:
+ All Content   Full Text Only   
+TIP: "All Content" includes full text JSTOR articles and, for some titles, citations and links for articles not contained in JSTOR.   
+
+12. Sort Results: 
+Highest Scoring 
+Most Recent 
+Oldest 
+
+This search would find all articles published between September 1, 1939 and August 1, 1945. 
+
+However, searching: 
+
+3. LIMIT YOUR SEARCH (optional): 
+
+13. Limit by Type:
+ articles   reviews   opinion pieces   other items   
+TIP: "Other items" may include announcements, bibliographies, or other non-research related items. 
+
+Limit by Date Range:
+ between: and: 
+TIP: Specify dates as yyyy, yyyy/mm or yyyy/mm/dd. 
+
+14. Limit by Content Availability:
+ All Content   Full Text Only   
+TIP: "All Content" includes full text JSTOR articles and, for some titles, citations and links for articles not contained in JSTOR.   
+
+15. Sort Results: 
+Highest Scoring 
+Most Recent 
+Oldest 
+
+would find all articles published from the beginning of 1939 through the end of 1945. 
+
+If a date range is not selected, the entire range of dates will be searched. If the first date field is entered and the second date field is left blank, the search will be done from the first date to the most recent issue. 
+
+16. Limit by Content Availability 
+
+For some titles, the citation information (author, title, abstract) of the recent articles is searchable through JSTOR. The full text of these articles may be accessed via direct links from JSTOR to other online resources. Access to the full text articles may be restricted. You may be authorized to access the article if you or your institution has a subscription to the resource.
+
+The default is to search all content, both full text articles in JSTOR and the citation information for the more recent articles for a smaller group of titles. To learn more about this, including which titles have the links, see our Links to Recent Content informational page. If you choose to limit your search to include only the full text articles available at JSTOR, you should select "Full Text Only": 
+
+3. LIMIT YOUR SEARCH (optional): 
+
+17. Limit by Type:
+ articles   reviews   opinion pieces   other items   
+TIP: "Other items" may include announcements, bibliographies, or other non-research related items. 
+
+18. Limit by Date Range:
+ between: and: 
+TIP: Specify dates as yyyy, yyyy/mm or yyyy/mm/dd. 
+
+Limit by Content Availability:
+ All Content   Full Text Only   
+TIP: "All Content" includes full text JSTOR articles and, for some titles, citations and links for articles not contained in JSTOR.   
+
+19. Sort Results: 
+Highest Scoring 
+Most Recent 
+Oldest 
+
+---------------------------------------------------------------------
+
+Searching Captions
+
+Searching by caption is supported only for titles in Art & Art History, Architecture & Architectural History, and portions of other disciplines. In all disciplines, captions are included as part of the full-text search. 
+
+Tips for Searching in Captions
+Searching for
+
+ 	 	in   
+full-text 
+author 
+title 
+abstract 
+caption
+ 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in    
+full-text 
+author 
+title 
+abstract 
+caption
+ 
+
+will search for articles that contain both the word "cat" and the word "dog" in one or more captions. The search results may include articles where the words are in the same caption or in different captions. 
+
+Users searching for words in the same caption may use the NEAR operator: 
+
+ 	 	in   
+full-text 
+author 
+title 
+abstract 
+caption
+ 
+
+AND 
+OR 
+NEAR (10 words) 
+NEAR (25 words) 
+
+in      
+full-text 
+author 
+title 
+abstract 
+caption
+ 
+
+Using the "NEAR (10 words)" or "NEAR (25 words)" options will return search results with articles that have both "cat" and "dog" in the same caption, as long as the words are no more than that distance apart. 
+
+---------------------------------------------------------------------
+
+How Your Search Results Are Displayed
+
+Your search results are scored according to how many times your search terms appear and how close your terms appear to the beginning of the article. You may also choose to view your search results in ascending or descending chronological order.
+
+Each page that shows your search results includes up to 10 citations. If your search yields more than 10 citations, you can view other search results pages by choosing their number at the bottom of the search results page. The second search results page includes citations 11-20, search results page 3 includes citations 21-30, etc.
+
+If your search yields more than 200 results, you will be prompted to refine your search, in order to save processing time and better help you find relevant articles. You may still choose to view these citations, however, if you so wish.
+
+---------------------------------------------------------------------
+
+Finding Your Search Terms in a Retrieved Article
+
+The citations of search results are displayed with choices for you to select: 
+
+Citation / Abstract | Page of First Match | Print | Download | Save Citation 
+
+or 
+
+Citation / Abstract | First Match is in the Citation | Print | Download | Save Citation 
+
+"First match" refers to the first occurrence of one of your search terms. If you entered more than one term, it may be any of the terms that were entered. If the word is found in the title or author's name, your results will indicate that the "First Match is in the Citation." 
+
+If you perform a full-text search, you may move from the "page of first match" to other pages within the same article where your full-text search terms may appear. Again, it may be any of the search terms that were entered into the full-text field of the search form. When you view a page of an article that was included in your search results, a list of hypertext links appears at the top of the page. These numbers are links to the pages on which at least one of your search terms may be found. You may select any page in this list to follow the occurrences of your search terms throughout the article. 
+
+Example: 
+
+At least one of your search terms appears on each of the following pages:
+ 479 | 480 | 482 
+
+If a search term is entered in the title or author field, these links do not appear. A title search is satisfied when a specific article is found; an author search when the article or articles by that individual are retrieved. 
+
+NOTE: For technical reasons, if search terms appear on the 63rd page of an article or beyond, these pages cannot be individually identified. When this is the case, the phrase "and in pp. 63ff." signifies that one or more search terms may be found on the 63rd page or following, but cannot be enumerated. 
+
+---------------------------------------------------------------------
+
+Search Strategies and Tips
+
+Since neither stemming nor truncation is currently implemented (with the exception of plurals, see Searching for Plurals), the search engine is extremely literal. Therefore, you must search "region or regional" to find variants of the stem "region". Also, use variant spelling of words (e.g., "labor" or "labour") and also try spelling out acronyms (e.g., "NATO" or "North Atlantic Treaty Organization"). For keyword searches, use synonyms: (e.g., "regions or locales or areas").
+
+What to do if you get too many hits
+
+* Add additional search terms. 
+* Use more specific search terms. 
+* Try searching for the same keywords in the title or abstract fields, rather than in the full-text field. 
+* Limit your search by date, journal, or type of article. 
+
+What to do if you get too few hits
+
+* If you have limited your search, try expanding your search (e.g., search in full-text rather that title or abstract, use a wider date range.) 
+* Check for misspellings or other typing errors. 
+* Try using synonyms or variations of words. 
+* Use plurals or other word endings. 
+
+Last updated November 12, 2003. 
+MORE JSTOR TIPS
+ JSTOR HOME | SEARCH | BROWSE | TIPS | SET PREFERENCES | ABOUT JSTOR | CONTACT JSTOR | TERMS & CONDITIONS  
+
+©2000-2004 JSTOR 
+
+ 
+
+

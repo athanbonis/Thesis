@@ -1,0 +1,290 @@
+Getting the Slashdot headlines by 'finger @www.slashdot.org' would be nice, don't you think? Slashdot should cache pages to prevent the Slashdot Effect! Is is possible to have META tags that Slashdot looks for in a story link before allowing it to be submitted/posted? Many times a server can't handle the load of a Slashdotting. So can the site have tags to prevent it from being added to a slashdot story? It seems that many moderators, because of the way they read comments, (higher thresholds, older comments first), only see comments that are posted with a bonus, or have already been moderated up. Wouldn't it make more sense to require moderators to read at a threshold of 0 with newest comments first? Have you ever thought about hiding comment scores when people are moderating? It might help alleviate "Group Think." I have a suggestion for improving moderation. What about other moderation models such as those used by Kuro5hin, everything2, or advogato.org? Will some of the subsections spin off as sites in their own right? I need information about Slashdot for a paper I'm writing! Can I use Slashdot icons freely on my site? I have found a bug on Slashdot, Who do I contact? Ad astra per aspera. [To the stars by aspiration.] All trademarks and copyrights on this page are owned by their respective owners. Comments are owned by the Poster. The Rest © 1997-2003 OSDN . [ home | awards | contribute story | older articles | OSDN | advertise | self serve ad system | about | terms of service | privacy | faq | rss ]   --> 
+ OSDN : Browse SourceForge - Shop ThinkGeek - freshmeat Downloads - Newsletters - Personals	 Search » 	  X 	 
+
+ Login	 
+ Why Login?
+  Why Subscribe?
+
+ Sections	 
+ Main	 
+ Apache	 
+ Apple
+  2 more	 
+ Askslashdot
+  6 more	 
+ Books	 
+ BSD
+  1 more	 
+ Developers
+  1 more	 
+ Games
+  8 more	 
+ Interviews	 
+ Science
+  1 more	 
+ YRO
+  2 more	 	
+ 	 
+ Help	 
+ FAQ
+  Bugs
+
+ Stories	 
+ Old Stories
+  Old Polls
+  Topics
+  Hall of Fame
+  Submit Story
+
+ About	 
+ Supporters
+  Code
+  Awards
+
+ Services	 
+ Tech Jobs
+  Advertising
+  PriceGrabber
+  Personals
+
+ 	 
+ 	 
+
+Slashdot FAQ
+
+FAQ Meta
+
+* What is this document? 
+* I have a question that is not answered in this FAQ. What should I do? 
+* Who is responsible for the FAQ? 
+
+Editorial
+
+* How do I submit stories to Slashdot? 
+* Where do I submit Press Releases? 
+* Can I submit a story anonymously? 
+* How do I "Ask Slashdot?" 
+* Why didn't you post my story? 
+* Why hasn't my story been accepted or rejected yet? 
+* Why do some stories show up in the index, but not on the homepage 
+* My story submission was "accepted", how come I never saw it? 
+* Sometimes I see duplicate stories on Slashdot. What's up with that? 
+* I submitted that a month ago! 
+* Someone else got credit for a story I submitted! 
+* I want to write an editorial. What should I do? 
+* I want to write a book review. What should I do? 
+* Why is your grammar/spelling so bad? 
+* Why did you post story X? 
+* How do you verify the accuracy of Slashdot stories? 
+* Slashdot seems to be very U.S.-centric. Do you have any plans to be more international in your scope? 
+* Would you be interested in creating mirror sites in other languages and have people translate articles? Different articles for different sites? 
+* "The Omelette" 
+* What are the Slashdot Sections for? 
+
+UI
+
+* I want a Slashbox that does X 
+* What is this little [?] I see in stories? 
+* How can I see old stories? 
+* Why do I see Some Other User's Nickname in my Menu? 
+
+Slashdot Interviews
+
+* How many questions can I ask? 
+* My question was moderated to +5 -- how come it didn't get passed along for an answer? 
+* Hey, that Eleventh question wasn't even one of the highly moderated ones! 
+* The questions that were sent to ___ were awful -- How could you ask such idiotic things?! 
+* The answers from ___ were awful -- Why didn't he have better answers? 
+* How do I suggest an interview guest? 
+
+Comments and Moderation
+
+* What's up with flat/threaded/nested comments? 
+* Will you delete my comment? 
+* Why did my comment get deleted? 
+* Why did it take so long for my comment to appear? 
+* What's up with "First Post" comments? 
+* Comment posts are getting crappy. What are you doing about it? 
+* Moderation seems restrictive. Is it really necessary? 
+* Most of the trolls and useless stuff comes from "Anonymous Coward" posters. Have you thought about eliminating anonymous posting? 
+* Doesn't this open posting policy ever get you into trouble? 
+* Why am I receiving the message "You can't post to this page."? 
+* How did the moderation system develop? 
+* How does moderation work? 
+* Do editors moderate? 
+* What are thresholds? 
+* What is karma? 
+* What does "Good", "Bad" etc. Karma Mean? 
+* Karma used to be a number, now it is a word, this sucks! 
+* Is there a limit to how much karma you can accumulate? 
+* It seems unfair that I can't get any more karma than that even if I earn it. 
+* Why didn't I get karma for a Quickie or a Slashback story? 
+* What is karma Good For? 
+* Why is my karma not what I expect? 
+* My Karma: How low can it go? 
+* Whenever I use my +1 Bonus, I get moderated down and lose karma! 
+* I'm not getting the Karma I deserve (or Unfairly Losing it!) for posts once I get near the Karma Ceiling 
+* I just got moderator access. What do I do? 
+* Why can't I moderate any more? 
+* Why don't you give moderators unlimited moderator access to 5 stories instead of giving them just 5 points? 
+* I found a comment that was unfairly moderated! 
+* What about separating the rating (+1,-1), from the qualifier (off-topic, informative)? Often times a post may be flamebait, but of excellent quality, nevertheless. 
+* Is this censorship? 
+* I found a comment rated -2 or 6! 
+* What is a good comment? A bad comment? 
+* 3 days is not enough time to moderate! 
+* If I post in a discussion I moderated, why don't I get my points back? 
+* How can I improve my karma? 
+* Lots of early posts that "seem" to be informative/insightful and get modded up when they really shouldn't be. If the author sounds confident, people seem to just give him points. By the time an actual informative post makes it in, it's too late to go back. How could you accommodate this in the moderation system? 
+* What sorts of anti-troll filters exist? 
+* What about comments copy-and-pasted from other sources? 
+* Why can't I search or filter archived stories? 
+* What is this  
+* What are post modes? ? 
+* A comment I posted shows a different score on my user page than in the comments page. 
+* What do the choices in the moderation drop-down boxes mean? 
+* What does it mean when I see an Asterisk following a user's ID number? 
+* Does the Karma Bonus Disappear On Highly Moderated Comments? 
+
+Meta-moderation
+
+* What do these M1 and M2 abbreviations mean? 
+* What is M2? 
+* Why was M2 started? 
+* Who can M2? 
+* How can I M2? 
+* How often can I M2? 
+* How does M2 affect the moderator's karma? 
+* How often do moderations appear for M2? 
+* Why are there duplicate comments? 
+* Why isn't there a link to M2 on my index.pl? 
+* How should I M2 if the M1er called it "Insightful" and I think it should be "Informative?" 
+* Can I post to stories I'm M2ing? 
+* Does M2 affect my karma? 
+
+Accounts
+
+* Why should I log in? 
+* Can I change my nickname? 
+* How do I change my password or email address? 
+* How can I delete my account? 
+* I forgot/can't get my password! 
+* I'm having trouble logging in. 
+* I'm having trouble logging into Slashdot Sections (Like Apple, YRO, or BSD) 
+* I don't want to accept a cookie! 
+* Someone is posting under a false identity, or an account designed to look like someone else! 
+* Why do I keep getting randomly logged out? 
+* Do you ban people from Slashdot? 
+* Why is my IP banned? 
+* How do I get an IP Unbanned? 
+* My RSS Headline Reader Tells me I Was Banned! 
+* Why is someone else's User Name appearing on my User Page's Menu? 
+
+Friends and Journals
+
+* Where is my journal? 
+* What can I use my journal for? 
+* Can slashdot censor my journal? 
+* Who can read my journal / Can I read anyone else's journal? 
+* Can I ban people from reading my journal? 
+* How do I find other people's journals? 
+* Where can I see my friends / foes? 
+* Can I see other people's friends and foes? 
+* What are fans / freaks? 
+* What are Friends of Friends / Foes of Friends? 
+* How do comment modifiers work / What is http://slashdot.org/my/comments ? 
+* How do I add users to my friends / foes list? 
+
+Subscriptions
+
+* Why does Slashdot have subscriptions? 
+* Where / How can I purchase a subscription to slashdot? 
+* Can I purchase a subscription for someone else? Can I do so anonymously? 
+* How much does a subscription cost? 
+* Paypal? Why Paypal? 
+* I have an idea for a feature for subscription users. 
+* Do I have to subscribe? 
+* How do I see how many pages I've used up on my subscription? 
+* I'm helping Slashdot by posting comments. Why are you charging people who help you? 
+* How long does it take my payment to go through? 
+* I paid for a subscription and ads are still popping up! 
+* Will non-subscribers receive fewer Slashdot features than subscribers? 
+* When subscribed, will re-loading a comments page count as another page towards the 1000? 
+* In general, what pages count towards my subscription base? 
+* How can I control how many ads I suppress daily? 
+* Besides ad-free pages, are there any advantages to being a subscriber? 
+
+About Slashdot
+
+* Who does this? 
+* What does the name "Slashdot" Mean? 
+* Do Rob and Jeff ever regret the decision to sell Slashdot? 
+* Now that you have sold it, does this mean you've become corporate drones? 
+* If you're not corporate drones, whose idea was the Slashdot PT Cruiser? 
+* I would like Slashdot to... 
+* A lot of people have the impression you spend more time arguing with the Slashdot readers than listening to them. Do you think this is true, and if not, why do so many people have this idea? 
+* A lot of Slashdot readers don't feel sufficiently included in how things are done. Is there any possibility of getting more meta-discussion about Slashdot happening? 
+* How much traffic does Slashdot serve? 
+* Why has Slashdot become so successful? 
+* Where did the nicknames "CmdrTaco" and "Hemos" come from? 
+* Why do reporters care where your nicknames come from? 
+* What is this "Free Speech/Free Beer" thing that I see discussed in the comments? 
+* What is the "Slashdot Effect?" 
+* What's the coolest story Slashdot's ever had? 
+* Will there be any more episodes of "Geeks in Space"? 
+* What's your exact attitude about the hidden sids? 
+* Who/What is CowboyNeal? 
+* I thought everyone on Slashdot hated the RIAA, the MPAA, and Microsoft. Why do you keep hyping CDs, movies, and Windows games? 
+
+Tech
+
+* What kind of hardware does Slashdot run on? 
+* Why doesn't Slashdot display in browser X? 
+* Where/why do you use cookies? 
+* What kind of logging does Slashdot do with regard to its readers? 
+* Can I have your poll scripts? 
+* Can I import Slashdot headlines? 
+* Why are you generating so many pages dynamically? 
+* What about the source code to this site? 
+* If you were just starting to code Slashdot.org today, what would you code the site in PHP or mod_perl? 
+* Do you guys ever worry that some site might steal Slashcode and try and outdo Slashdot? 
+* How did it feel when you opensourced slashcode, allowing people to tinker with your 'baby' as it were? Are you still involved with the process as much, or is your time taken up by reading email and such? 
+* What's the biggest benefit to come out of the opening of Slash so far? Better efficiency? Tighter security? 
+
+Advertising
+
+* Can I advertise on Slashdot? 
+* What is AdFu? 
+* Why aren't you using AdFu any more? 
+* A banner ad is screwing up my browser! 
+
+Suggestions & Requests
+
+* How about an NNTP news gateway? 
+* Have you considered rewriting Slashdot in C? 
+* Have you considered PHP? 
+* How about a page for rejected or pending story submissions? 
+* How about giving us a reason for rejecting submissions? 
+* How about allowing readers to directly administer the submissions bin? 
+* How about an AvantGo channel, or some other PDA interface? 
+* Getting the Slashdot headlines by 'finger @www.slashdot.org' would be nice, don't you think? 
+* Slashdot should cache pages to prevent the Slashdot Effect! 
+* Is is possible to have META tags that Slashdot looks for in a story link before allowing it to be submitted/posted? Many times a server can't handle the load of a Slashdotting. So can the site have tags to prevent it from being added to a slashdot story? 
+* It seems that many moderators, because of the way they read comments, (higher thresholds, older comments first), only see comments that are posted with a bonus, or have already been moderated up. Wouldn't it make more sense to require moderators to read at a threshold of 0 with newest comments first? 
+* Have you ever thought about hiding comment scores when people are moderating? It might help alleviate "Group Think." 
+* I have a suggestion for improving moderation. 
+* What about other moderation models such as those used by Kuro5hin, everything2, or advogato.org? 
+* Will some of the subsections spin off as sites in their own right? 
+* I need information about Slashdot for a paper I'm writing! 
+* Can I use Slashdot icons freely on my site? 
+* I have found a bug on Slashdot, Who do I contact? 
+ 	 
+ 	 
+ 	 
+ 	 
+ 
+  	  
+  	    	  Ad astra per aspera.  [To the stars by aspiration.]   	  
+   All trademarks and copyrights on this page are owned by their respective owners. Comments are owned by the Poster. The Rest © 1997-2003 OSDN. 	   
+ [   home |   awards |   contribute story |   older articles |   OSDN |   advertise |   self serve ad system |   about |   terms of service |   privacy |   faq |   rss ]  	
+

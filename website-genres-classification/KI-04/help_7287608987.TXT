@@ -1,0 +1,131 @@
+         
+
+Web Authoring FAQ: Other Documents
+
+English - Nederlands - Français 
+Table of Contents - Entire FAQ (HTML) - Entire FAQ (Text) 
+
+This document answers questions asked frequently by web authors. While its focus is on HTML-related questions, this FAQ also answers some questions related to CSS, HTTP, JavaScript, server configuration, etc. 
+
+This document is maintained by Darin McGrew <darin@htmlh&#101;lp.com> of the Web Design Group, and is posted regularly to the newsgroup comp.infosystems.www.authoring.html. It was last updated on October 20, 2001. 
+
+Section 2: Other Documents
+
+1.  Where can I learn about the WWW? 
+2.  Where can I learn about HTML? 
+3.  Where can I find a list of all the current HTML tags? 
+4.  Where can I learn about CSS? 
+5.  Where can I learn about SGML? 
+6.  Where can I learn about XML (XSL)? 
+7.  Where can I learn about XHTML? 
+8.  Where can I learn about SSI ("SHTML")? 
+9.  Where can I learn about CGI? 
+10. Where can I learn about JavaScript (LiveScript, JScript, EMCAScript, DOM)? 
+
+2.1. Where can I learn about the WWW?
+
+The World Wide Web is "the universe of network-accessible information (available through your computer, phone, television, or networked refrigerator...)." The World Wide Web began as a networked information project at CERN. 
+
+* A Little History of the World Wide Web  <URL:http://www.w3.org/History.html> 
+* About the World Wide Web  <URL:http://www.w3.org/WWW/> 
+* W3C in 7 Points  <URL:http://www.w3.org/Consortium/Points/> 
+[Table of Contents]
+
+2.2. Where can I learn about HTML?
+
+HyperText Markup Language is a simple markup language used to create platform-independent hypertext documents on the World Wide Web. Most hypertext documents on the web are written in HTML. 
+
+* W3C's HTML 4.01 Recommendation  <URL:http://www.w3.org/TR/html4/> 
+* WDG's HTML 4.0 Reference  <URL:http://www.htmlhelp.com/reference/html40/> 
+* Jukka Korpela's "Getting Started with HTML"  <URL:http://www.cs.tut.fi/~jkorpela/html-primer.html> 
+[Table of Contents]
+
+2.3. Where can I find a list of all the current HTML tags?
+
+The current recommendation is XHTML 1.0, which is a reformulation of HTML 4.01 as an XML 1.0 application. HTML 4.01 is an update with minor corrections to HTML 4.0. HTML 4 extends HTML 3.2 to include support for frames, internationalization, style sheets, advanced tables, and more. The new markup introduced by HTML 4 is not well supported by current browsers, but much of it can be used safely in non-supporting browsers. 
+
+HTML 4
+
+* http://www.w3.org/TR/html4/ -- the official HTML 4.01 Recommendation 
+* http://www.htmlhelp.com/reference/html40/ -- a handy HTML 4.0 reference, with notes on using poorly supported features safely 
+
+HTML 3.2
+
+* http://www.w3.org/TR/REC-html32 -- the official HTML 3.2 Recommendation 
+* http://www.htmlhelp.com/reference/wilbur/ -- a more readable version of the above 
+* http://www.cs.tut.fi/~jkorpela/HTML3.2/ -- Jukka Korpela's "Learning HTML 3.2 by Examples" 
+
+Browser-Specific Markup
+
+* http://www.blooberry.com/indexdot/html/supportkey/a.htm -- Brian Wilson's checklist of browser support for HTML tags and attributes 
+* http://developer.netscape.com/docs/manuals/htmlguid/index.htm -- a list of Netscape HTML tags (early 1998) 
+* http://msdn.microsoft.com/workshop/author/html/reference/elements.asp#ie40_html -- a list of Microsoft HTML tags 
+[Table of Contents]
+
+2.4. Where can I learn about CSS?
+
+Cascading Style Sheets are a standards-based mechanism for suggesting presentational style (e.g., fonts, colors, layout) for HTML documents. CSS is flexible and cross-platform, and is designed to preserve the accessibility of the document's structural content (even when all or part of the author's style sheet is ignored). A single style sheet can be used by multiple documents to suggest a common cohesive style, which is more efficient than using repetitive presentational markup in each individual document. 
+
+* W3C's CSS Level 2 Recommendation  <URL:http://www.w3.org/TR/REC-CSS2/> 
+* WDG's Guide to Cascading Style Sheets  <URL:http://www.htmlhelp.com/reference/css/> 
+* The CSS Pointers Group  <URL:http://css.nu/> 
+* The HTML Writers Guild's CSS FAQ  <URL:http://www.hwg.org/resources/faqs/cssFAQ.html> 
+[Table of Contents]
+
+2.5. Where can I learn about SGML?
+
+Standard Generalized Markup Language is a language used to define the syntax of markup languages. HTML is an SGML application (a markup language defined in SGML). 
+
+* W3C's "On SGML and HTML"  <URL:http://www.w3.org/TR/html401/intro/sgmltut.html> 
+* A Tutorial Introduction to SGML Architectures  <URL:http://www.isogen.com/papers/archintro.html> 
+[Table of Contents]
+
+2.6. Where can I learn about XML (XSL)?
+
+Extensible Markup Language is another language used to define the syntax of markup languages. XML is a subset of SGML, and is designed to represent arbitrary structured data in a text format. XSL is a stylesheet language for styling XML documents. 
+
+* W3C's XML 1.0 Recommendation  <URL:http://www.w3.org/TR/REC-xml> 
+* W3C's "XML in 10 Points"  <URL:http://www.w3.org/XML/1999/XML-in-10-points.html> 
+* W3C's XSL Specification  <URL:http://www.w3.org/Style/XSL/> 
+[Table of Contents]
+
+2.7. Where can I learn about XHTML?
+
+Extensible HyperText Markup Language is a reformulation of HTML as an XML application. Because it is an XML application, the syntax requirements of XHTML are more restrictive than those of HTML. Otherwise, XHTML 1.0 mirrors the functionality of HTML 4.01. 
+
+* W3C's XHTML 1.0 Recommendation  <URL:http://www.w3.org/TR/xhtml1/> 
+[Table of Contents]
+
+2.8. Where can I learn about SSI ("SHTML")?
+
+Server-Side Includes allow various directives (e.g., to include the content of another file) to be embedded within web documents. The web server processes SSI directives each time a document that uses SSI is retreived. Documents that use SSI are often identified with a .shtml filename extension, but there is no "SHTML" language as such. Implementation details vary among web servers; consult your server documentation for details. 
+
+* SSI Tutorial for the Apache server  <URL:http://httpd.apache.org/docs/howto/ssi.html> 
+* SSI Documentation for the Apache server  <URL:http://httpd.apache.org/docs/mod/mod_include.html> 
+[Table of Contents]
+
+2.9. Where can I learn about CGI?
+
+Common Gateway Interface is a standard interface between external programs and web servers. Unlike static HTML documents, CGI programs can produce dynamic information based on form data submitted by the user, on information in a database, or on any other data available to the program. 
+
+* WDG's CGI Programming FAQ  <URL:http://www.htmlhelp.com/faq/cgifaq.html>. 
+* CGI Tutorial for the Apache server  <URL:http://httpd.apache.org/docs/howto/cgi.html> 
+[Table of Contents]
+
+2.10. Where can I learn about JavaScript (LiveScript, JScript, EMCAScript, DOM)?
+
+JavaScript is a cross-platform, interpretted, object-oriented language originally designed for client-side web scripting. The elements of web pages can be manipulated via JavaScript as objects specified by the Document Object Model (DOM). This enables dynamic effects like image roll-overs and interactive effects like pages that change in response to user input without being reloaded from the server. 
+
+LiveScript was Netscape's initial pre-release name for JavaScript. JScript is Microsoft's implementation of the language. ECMAScript is a standardized version based upon Netscape's JavaScript and Microsoft's JScript. 
+
+* ECMA Standard ECMA-262 (ECMAScript Language Specification)  <URL:http://www.ecma.ch/ecma1/stand/ecma-262.htm> 
+* W3C's Document Object Model, level 2 (DOM2)  <URL:http://www.w3.org/TR/WD-DOM-Level-2/> 
+* W3C's Document Object Model, level 1 (DOM1)  <URL:http://www.w3.org/TR/REC-DOM-Level-1/> 
+* Netscape's JavaScript Developer Central (DevEdge Online)  <URL:http://developer.netscape.com/tech/javascript/> 
+* Microsoft's Scripting Technologies: JScript  <URL:http://msdn.microsoft.com/scripting/jscript/> 
+* WDG's advice on JavaScript and accessibility  <URL:http://valet.htmlhelp.com/page/js.html> 
+[Table of Contents]
+
+Table of Contents - Entire FAQ (HTML) - Entire FAQ (Text) 
+---------------------------------------------------------------------
+Home, Reference, FAQs, Tools, Design, Feature Article, BBS, Links Copyright © 1996-2001 by the Web Design Group. This material may be distributed only subject to the terms and conditions set forth in the Open Publication License, v1.0 or later (the latest version is presently available at http://www.opencontent.org/openpub/). 

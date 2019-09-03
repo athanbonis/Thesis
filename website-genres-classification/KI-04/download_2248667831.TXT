@@ -1,0 +1,253 @@
+
+ 	 	          All Products  |      Support  |      Search  |      microsoft.com Home       	
+ 	 	
+         Windows Home  |    	 
+ 
+         
+              
+    	        Search for 
+
+Using Windows 98	   	           Downloads	    	        Support	 
+
+  Windows 98 Home
+
+Contents
+
+Get the updates you need for your personal computer on Windows Update, the online extension of Windows.	     
+    	     
+  	  	  	  	 	 
+           
+          This page contains critical updates and other beneficial updates for Windows 98. Check this page for ways to keep your computer current and tuned. Be sure to visit the Internet Explorer Security Area for additional security updates. 	      
+                          
+
+ CRITICAL UPDATES 	
+
+823559: Security Update for Microsoft® Windows 98 and Windows 98 Second Edition	
+
+297 KB | 3 Min @ 28.8	
+
+Microsoft has released this patch to eliminate a security vulnerability in Microsoft® Windows 98 and Windows 98 Second Edition. The vulnerability could allow an attacker to compromise a Microsoft Windows-based system and then take a variety of actions.
+
+811630: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update is a companion update to 810847: Security Update for Internet Explorer. Q810847 is required to address a security vulnerability in Help. However, Q810847 affects the normal behavior of Help. This update restores normal Help functionality after installing Q810847.	 
+
+Q329115: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Certificate Validation Flaw Could Enable Identity Spoofing" vulnerability in Windows 98. Download now to prevent an attacker from attempting identity spoofing using certificates.	
+
+Q329045: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Unchecked Buffer in File Decompression Functions" security vulnerability in Windows 98. Download now to help prevent a specially malformed file from causing unauthorized code to run on your computer.	
+
+Q323255: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Unchecked buffer in HTML Help can lead to Code Execution" security vulnerability in Windows 98. Download now to help prevent a malicious user from running an unauthorized program on your computer.	
+
+Q323172: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Flaw in Digital Certificate Enrollment Component Allows Certificate Deletion" security vulnerability in Windows 98. Download now to stop a Web site or HTML e-mail from deleting digital certificates on your computer and preventing you from using the services they are associated with.	
+
+Q314147: Security Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Unchecked Buffer in SNMP Service Could Enable Arbitrary Code to be Run" security vulnerability in Windows 98, and is discussed in Microsoft Security Bulletin MS02-006. Download now to help prevent a malicious user from running code of his or her choice or launching a denial of service (DoS) attack on your computer.	
+
+Security Update, March 7, 2002	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Unchecked Buffer in Windows Shell Could Lead to Code Execution" security vulnerability in Windows 98, and is discussed in Microsoft Security Bulletin MS02-014. Download now to help prevent a malicious user from running programs on your computer.	
+
+Security Update, April 2, 2001	
+
+127 KB | 1 Min @ 28.8	
+
+This update resolves the "Erroneous VeriSign-Issued Digital Certificates Pose Spoofing Hazard" security vulnerability, and is discussed in Microsoft Security Bulletin MS01-017. Download now to help prevent an unauthorized user from running code on your computer by digitally signing programs as "Microsoft Corporation."	
+
+Q273727: Critical Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update eliminates a security vulnerability in Windows 98 and Windows 98 Second Edition systems with IPX installed. Download now to help prevent a malicious user from delivering a malformed NMPI packet to your system.	
+
+Q274548: Critical Update	
+
+127 KB | 1 Min @ 28.8	
+
+This update eliminates a security vulnerability in the HyperTerminal application that ships with Microsoft® Windows 98 and Windows 98 Second Edition. Download now to help prevent a malicious user from executing arbitrary code on another user?s system.	
+
+Windows IDE Hard Drive Cache Package	
+
+The Windows IDE Hard Drive Cache Package provides a workaround to a recently identified issue with computers that have the combination of Integrated Drive Electronics (IDE) hard disk drives with large caches and newer/faster processors. Computers with this combination may risk losing data if the hard disk shuts down before it can preserve the data in its cache.	
+
+Security Update, May 19, 2000	
+
+Posted 19 May 00	
+
+This update resolves the "IP Fragment Reassembly" security vulnerability in Windows 98 and Windows 98 Second Edition. Installing this update will help minimize the negative effects that fragmented Internet Protocol (IP) datagrams could have on your computer's central processing unit (CPU). IP datagrams are a necessary part of network and Internet communication. If a continuous stream of fragmented IP datagrams with a particular malformation were sent to an affected computer, it could be made to devote most or all of its CPU availability to processing these fragments. The vulnerability does not allow a malicious user to compromise data on the computer or usurp administrative control over it.	
+
+Security Update, March 17, 2000	
+
+Posted 17 Mar 00	
+
+This update will eliminate the "DOS Device in Path Name" security vulnerability found in Windows 98 and Windows 98 Second Edition. With this update, you can help prevent a malicious user from causing your computer to crash by accessing a file or folder whose path contained certain reserved words.	
+
+Critical Update, March 3, 2000	
+
+Posted 3 Mar 00	
+
+Update for Web Connections using SGC. Unable to connect to Web sites using Server Gated Cryptography (SGC)? Some computers may be unable to connect to Web servers using SGC for strong encryption when a secure connection is required. Installing this update will help eliminate these connection failures.	
+
+Security Update, January 17, 2000	
+
+Posted 17 Jan 00	
+
+This update will eliminate the "Malformed RTF Control Word" vulnerability. With this update, you can help prevent a malicious user from sending a specially malformed e-mail and crashing your e-mail reader.	
+
+Security Update 2, November 29, 1999	
+
+Posted 29 Nov 99	
+
+This update eliminates the "Legacy Credential Caching" vulnerability in Microsoft Windows® 98. Installing this update will help prevent a malicious user from acquiring your network password.	
+
+Security Update 1, November 29, 1999	
+
+192 KB | 2 Min @ 28.8 | Posted 29 Nov 99	
+
+This update eliminates the "Spoofed Route Pointer" and "Fragmented IGMP Packet" vulnerabilities in Microsoft Windows 98 and is discussed in Microsoft Security Bulletins MS99-038 and MS 99-034. Download now to help prevent a malicious user from using source routing to obtain network information through your Windows 98 computer, and to protect your computer's performance when it encounters fragmented data packets.	
+
+Security Update, November 12, 1999	
+
+Posted 12 Nov 99	
+
+This update eliminates the "File Access URL" vulnerability in Microsoft Windows® 98. Installing this update will prevent a malicious web site or e-mail message from exploiting that vulnerability to cause your computer to crash or run arbitrary code.	
+
+Security Update, September 9, 1999	
+
+127 KB | 1 Min @ 28.8 | Posted 9 Sep 99	
+
+Malformed Telnet Argument. This update eliminates a vulnerability in the Telnet client that ships as part of Windows 98. The vulnerability could allow a web page to take malicious action on the computer of the user who visited the page.	
+
+Security Update, September 7, 1999	
+
+109 KB | 1 Min @ 28.8 | Posted 7 Sep 99	
+
+Update for Security Vulnerabilities in "Scriptlet.typlib" and "Eyedog" ActiveX Controls. This update eliminates the "scriptlet.typlib/eyedog" security vulnerability. Without this update, these ActiveX controls can be maliciously used to perform unauthorized actions on a user's computer.	
+
+Security Update, April 21, 1999	
+
+Info & Privacy Update. This update eliminates a vulnerability in DHTML Edit control, an ActiveX control, which is distributed with Internet Explorer 5 and that can be downloaded for use in Internet Explorer 4.0. The vulnerability could allow someone to read information that you have loaded into the control, and it also could allow files with known names to be copied from your local hard drive.	
+
+ RECOMMENDED UPDATES 	
+
+Dial Up Networking 1.4	
+
+Get additional features for Windows 98 Dial-Up Networking that improve the performance, reliability, and security of Windows-based communications. 	
+
+Windows Share Level Password Update	
+
+This update resolves the "Windows Share Level Password" vulnerability in Windows 98 and Windows 98 Second Edition.If a computer that is linked to a network has File and Print Sharing enabled, and has at least one password-protected folder shared, it may be possible for a user on the network to gain unauthorized access to the folder. This vulnerability exists because of the way the password feature of share level access is implemented for Windows 98 and Windows 98 SE computers. A malicious user can exploit this vulnerability and use a special client utility to gain access to a share without knowing the entire password, and may be able to retrieve, modify, or delete any file within that share. Download now to help prevent unauthorized access to files that are shared over a network that uses share level security	
+
+Windows 98 Second Edition Mapped Drives Shutdown Update	
+
+Posted 22 May 00	
+
+This update resolves a shutdown issue in Windows 98 Second Edition, where Windows may stop responding if there are a significant number of mapped network drives on your computer. The larger the number of drives that are mapped, the more likely the problem may occur.	
+
+Windows 98 Second Edition 1394 Storage Supplement	
+
+Posted 22 Dec 99	
+
+April 2000 Update. Download this component to install a Safe Removal utility that allows you to safely stop a Plug and Play storage device prior to physically unplugging the device. This component also includes an update for 1394 drivers, to resolve issues related to the surprise removal of peripheral devices.	
+
+Windows 98 Large IDE Update	
+
+This update addresses an issue on Windows� 98 and Windows 98 Second Edition computers that have an integrated device electronics (IDE) hard disk that is larger than 32 gigabytes (GB) in size. If you use the protected-mode (graphical) version of ScanDisk to perform a thorough scan (which includes a surface scan) on an IDE hard disk that is larger than 32 GB, ScanDisk may report errors on every cluster after approximately cluster number 967,393.	
+
+Windows 98 Second Edition Shutdown Supplement	
+
+502 KB | 4 Min @ 28.8	
+
+Addresses shutdown issues on systems with specific hardware/software configurations running Windows 98 Second Edition. These issues include systems restarting when selecting shutdown and systems hanging on shutdown. NOTE: This supplement has been updated as of November, 1999. Please install this latest version.	
+
+Windows 98 Year 2000 Update 2	
+
+This component is part of the Windows 98 Customer Service Pack. This new update to Windows 98 corrects some minor issues associated with generating dates on your computer on or after January 1, 2000. It does not include previously identified issues, included in Windows 98 Year 2000 Update, and should be installed along with that update.	
+
+Windows 98 Year 2000 Update	
+
+This component is part of the Windows 98 Customer Service Pack. This update corrects several minor issues associated with generating dates on your computer on or after January 1, 2000. They include the display of leap year calculations in some circumstances, handling of some date/time settings, and incorrect logging of on-line calling. 	
+
+System Update	
+
+This System Update includes features for networking, security and accessibility issues. It is part of the Windows 98 Customer Service Pack.	
+
+Microsoft Virtual Private Networking	
+
+This update improves Virtual Private Networking stability while adding some security features previously released in the Windows 98 Dial-up Networking Security Upgrade.	
+
+Microsoft Libraries Update	
+
+1,434 KB | 12 Min @ 28.8	
+
+This update resolves an issue that can cause some third party software to behave unexpectedly after the installation of the Microsoft Works Suite 99, Encarta Encyclopedia 99 (U.S. only), Encarta Virual Globe 99, Studio Greetings 99, and/or other third party software.	
+
+Windows Script Support	
+
+680 KB | 6 Min @ 28.8	
+
+Windows Script provides an integrated script platform for Windows for use in your Web browser and other Windows applications. Included in this release are new versions of Visual Basic Scripting Edition (VBScript®), JScript®, the Window Script Runtime, Windows Script Components and Windows Script Host. To make scripts run faster, performance in this version has been considerably improved over the previous version.	
+
+Zero Administration Kit for Windows 98	
+
+552 KB | 5 Min @ 28.8	
+
+Make it easier to manage your Windows 95, Windows 98, and Windows NT Workstation 4.0 environments.	
+
+2 to 4 Digit Date Conversion Tool	
+
+89 KB | 1 Min @ 28.8 | Posted 10 Sep 99	
+
+ MULTIMEDIA 	
+
+Windows Media Player 6.0	
+
+4,352 KB | 36 Min @ 28.8	
+
+Microsoft Windows Media Player upgrades the previous versions of Media Player, NetShow player, and ActiveMovie player and plays most multimedia content formats located on the Internet or your computer, including Windows Media, Real Audio/RealVideo 4.0, QuickTime, AVI, WAV, MP3 and more.	
+
+NetMeeting 3.0	
+
+Download this component and turn your PC into a videophone to see and talk to family or friends. At work, hold business meetings online and collaborate on documents over your company network or the Web.	
+
+NetMeeting 2.1	
+
+At home, use your computer as a videophone to see and talk to family or friends. At work, hold business meetings and share programs to collaborate on projects over the Web.	
+
+ PREVIEWS 	
+
+Internet Print Services	
+
+This beta release allows you to send your documents to the printers of friends, co-workers, and partners as easily as you send documents to your own printer.	
+
+Top of Page  
+
+---------------------------------------------------------------------
+  
+
+Last updated: Thursday, July 10, 2003   
+� 2001 Microsoft Corporation. All rights reserved. Terms of Use.
+
+

@@ -1,0 +1,79 @@
+
+
+Current Statistics:	 
+
+Listeners - 55,570
+Servers - 5,321
+759,500,235 served
+ All Natural
+ No Preservatives
+ 98% FAT FREE!	 
+
+  listen | home | news | download | winamp | documentation | buy | stats | support/forums 	
+
+Everyone wants to be a D.J.! 	Released
+ 08.10.01	 
+
+So you want to be a D.J.? Installing and using SHOUTcast broadcasting software is a little challenging, but with some patience you can be broadcasting in no time at all.
+
+* Download the latest version of Winamp 2.0 (SHOUTcast does not currently work with Winamp 3) 
+* Download the latest version of the SHOUTcast Broadcasting Tools for Winamp 2.x 
+* Download the latest version of the SHOUTcast Broadcasting Tools for Mac OS X, Linux, and FreeBSD 
+* Download Miscellaneous SHOUTcast Broadcasting Tools 
+* Installing your SHOUTcast Broadcasting Tools 
+* Installing your Miscellaneous Broadcasting Tools 
+* Configure your SHOUTcast plug-in to connect to SHOUTcast server to begin your broadcast 
+* Complying with copyright laws 
+
+Download Winamp!
+
+To broadcast SHOUTcast streams, although Winamp version 2.05 and above are capable of broadcasting SHOUTcast streams, we recommend you get the latest version 2.x. The reason we recommend the latest version is due to the fact, as time progresses, new features are added to better accomodate DJs as well as add further functionality to SHOUTcast. In order to take advantage of those features, you would need the newest versions of all the files that enable SHOUTcast support in Winamp. Note that the SHOUTcast DSP does not currently work with Winamp 3.x.	 
+Download the SHOUTcast DSP Plug-In for Winamp 2.x
+
+In order to broadcast to a running SHOUTcast server, you will need the SHOUTcast Source for Winamp 2.x DSP Plug-in, a piece of software which adds SHOUTcast broadcast ability to the Winamp 2.x software. The DSP Plug-in acts as a bridge between your Winamp software and a SHOUTcast DNAS server (which you or a friend need to be running to broadcast). To obtain the latest copy of the plugin, please click here. [filesize - 225k] Instructions are included with the installer.
+
+Download the SHOUTcast DSP Plug-In for Mac OS X, Linux and FreeBSD
+
+This archive is for advanced users who wish to source content on their Mac OS X, Linux or FreeBSD servers and feed the audio into a SHOUTcast DNAS instead of using Windows. The Linux version permits input from a soundcard in addition to MP3 files on disk. Please refer to the example .conf file included with the archive for more information on using this beta unsupported method of broadcasting.
+
+To download these tools, please click here. [filesize - 226k] Instructions are included with the installer.
+
+Download Miscellaneous SHOUTcast Broadcasting Tools
+
+Every radio station has commercials right? Well, if you are insterested in supporting SHOUTcast, then here are a bunch of one liner commercials that we recommend you toss randomly into your SHOUTcast stream playlists. If you are interested in having your own commercials made, you can attain the services of JJ McKay, the image voice of radio and television. If you are serious about actually getting some promos done and willing to spend a little doe, you can have extremely professional radio promos done. The quality of the promos he produces are unmatched at very reasonable prices, so please give him a try. Please don't bother him with requests for free spots, after all, he is an actual broadcasting professional, and we don't want to waste his time. 
+* "SHOUTcast Radio!" v1 [filesize - 96.1k] 
+* "SHOUTcast Radio!" v2 [filesize - 54.9k] 
+* "Radio Free Internet sponsored by Nullsoft SHOUTcast" [filesize - 86.5k] 
+* "This station is being brought to you via Nullsoft SHOUTcast streaming technology. For more information, visit shoutcast.com!" [filesize - 214k] 
+* "Now, back to some ass-kickin' shiznat from Nullsoft SHOUTcast!" [filesize - 84.7k] 
+* "Milking our bandwidth for all it's worth with SHOUTcast streaming audio!" [filesize - 94.8k]
+
+Install the SHOUTcast DSP Broadcasting Tools
+
+Once the download has completed, you will need to install the software. Verify that Winamp is not running before proceding. Simply open the dsp software installer by doubleclicking on it in the location you saved it to, and follow the onscreen instructions to install. Once you have installed the DSP, start Winamp, open the preferences(CTRL+P) and click on the DSP/Effects subcategory under the Plug-ins tree. Please refer to the picture below: 
+
+Figure 1.1: Preferences: DSP/Effects subcategory.
+ If you see "SHOUTcast Source for Winamp v1.8.2" in the right pane, then you have correctly installed the SHOUTcast Broadcast DSP Plug-in.
+
+Install the Miscellaneous Broadcasting Tools
+
+This section is no longer required as of DSP version 1.8.2. 	
+Configure the SHOUTcast Broadcasting Plug-In
+
+For the most current configuration information for the DSP, please refer to the README text that accompanies the installation software. 
+
+Complying with copyright laws
+
+Musical compositions and sound recordings are creative works that are protected by the copyright laws of the United States (title 17, U.S. Code) and other countries. Under U.S. law, the owner of a copyright has the exclusive right to (and to authorize others to) reproduce the work, use parts of the work in a new creation, distribute the work in whole or in part, and to publicly display or perform the work (including on web pages and through webcasting). With few exceptions, it is illegal to reproduce, distribute or broadcast a sound recording without the permission of the copyright owner. It is your responsibility to comply with the copyright laws when you become a webcaster. 
+
+There have been recent amendments to the copyright law regarding webcasting of sound recordings. These new provisions allow webcasting under the terms of a statutory license, as a way to help webcasters get permission without having to go to each sound recording's owner. The statutory license, however, has strict requirements that you must follow. Some of these requirements include the payment of license fees, limitations on the number of songs from the same album or artist that may be played in a three hour period (called the sound recording performance complement); a prohibition on publishing advance playlists; and a requirement to identify the song, artist and album on the website. There are other requirements as well. The Recording Industry Association of America provides quite a bit of information on copyright law as it applies to webcasting, and both ASCAP and BMI have created license agreements that they are willing to grant to webcasters that they believe conform to the provisions of the new copyright rules for webcasting. For additional information on the statutory license and other aspects of webcasting, please visit the following sites: 
+
+* The U.S. Copyright Office 
+* The Recording Industry Association of America - particularly http://www.riaa.com/weblic/weblic.htm 
+* ASCAP - particularly http://www.ascap.com/weblicense/webintro.html 
+* BMI - particularly http://www.bmi.com/iama/webcaster/index.asp 
+
+If you are uncertain about what you can and cannot do, we suggest you check with the copyright owner or the owner's representatives (such as through the organizations above), or consult a lawyer. 	
+
+Copyright Nullsoft Inc, 1999
+[terms of use / disclaimer / copyright complaints] 

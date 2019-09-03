@@ -1,0 +1,25 @@
+
+
+Diagnosis	 	Mind	 
+
+Modelling in Diagnosis	 
+
+Foundation for the Use of
+Multiple Models in Diagnostic Systems 
+
+Substantial progress has been made within the past decade in the development of techniques for modelling and reasoning about physical systems or plants. However, there lacks a fundamental understanding of the relationship between different approaches and, more importantly, knowledge of which particular techniques are more appropriate for a given application problem. Thus, different modelling techniques are used in isolation and very little cross-fertilization occurs. Also, this lack of understanding is cu rrently restricting the development of techniques that utilise multiple models to enhance the generality, effectiveness and efficiency of existing automated application systems. In particular, there is no agreement as to the primitive modelling dimensions between different approaches, thereby lacking a formal basis for the development of multiple models. Without such a foundation for characterising different models, it will be impossible to create a coherent approach to the use of multiple models, and hen ce such important developments will remain ad hoc. The MIND project is to establish a formal foundation for the use of multiple models in diagnostic systems. 
+
+More concretely, this two-year project aims at achieving the following four objectives: 
+
+* To establish a basis for classifying models, and their associated inference techniques, used in diagnostic systems on the basis of their fundamental properties. This considers equational models, both quantitative and qualitative, associational models , generally characterised by rule-based representations, and procedural models in the form of graphical methods or decision trees, with a focus on equation-based approaches. 
+* To determine the relationships between these modelling techniques and hence to develop a methodology that relates the most appropriate modelling technique to the characteristics of the diagnostic application. 
+* To develop a coherent framework for the development of systems based on the use of multiple models, determining what types of models should be used and how they should be instantiated within a given diagnostic process. 
+* To verify the proposed framework with reference to a case study taken from the domain of Intelligent Fault Diagnosis of CNC Machine Tools and, further, to identify an appropriate diagnostic problem within the CNC industry for a subsequent application s-driven proposal. 
+
+In short, it is envisaged that such work will provide a foundation for the effective comparison of existing (mono-model) approaches and formalise the basis of the next-generation of diagnostic systems based on the use of multiple models. Although the work is of a fundamental nature, the project is conducted within an industrial relevant context. The intermediate outcome of this project has set up a firm basis for the planned objectives to be successfully fulfilled in due course. 
+
+---------------------------------------------------------------------
+
+Download a postscript version of the MIND Final Report. 
+
+

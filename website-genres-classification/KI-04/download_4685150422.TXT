@@ -1,0 +1,72 @@
+
+
+Download 	
+
+New Mersenne Prime Found!!!	 
+
+Free - you can't beat that price! You need a Pentium-class computer with Windows 3.1, Windows 95/98/Me, Windows NT/2000/XP, OS/2, Linux, or FreeBSD. You must also agree to abide by the prize distribution rules. PowerPC owners can also participate. Unix and non-x86 users should check out Ernst Mayer's source code timings page for guidance as to which code is best for their platform.
+
+The How it works and FAQ pages answer many questions you may have before downloading the software. In case of downloading difficulties, European and Russian mirror sites are available.
+
+---------------------------------------------------------------------
+Version 23 released! Upgrade instructions 
+---------------------------------------------------------------------
+
+This version contains many performance improvements for Pentium 4 users. It is up to 25% faster than version 22. Athlon and Pentium 3 users will see a small speed increase too. The Windows version also has small improvements in the torture test. See whatsnew.txt for the full list of improvements.
+
+Step 1. You can upgrade even if you are in the middle of testing an exponent. Stop and exit the current version of the program. Optionally back up the directory. 
+Step 2. Download the appropriate program for your OS. 
+Step 3. Install the new version overwriting the previous version. 
+Step 4. Read whatsnew.txt.
+
+---------------------------------------------------------------------
+Instructions for new users 
+---------------------------------------------------------------------
+
+Step 1. Download the appropriate program for your OS. 
+
+* Windows 95/98/Me/NT/2000/XP: Download either p95v237.exe(1MB HTTP) or (FTP), or p95v237.zip(909K HTTP) or (FTP), version 23.7 last updated September 6, 2003. 
+* Linux: Download mprime235.tar.gz(417K), or the staticly linked sprime235.tar.gz(607K) for systems that do not have the glibc 2.1 runtime libraries. Version 23.5, last updated July 3, 2003. 
+* FreeBSD: Download mprime235-freebsd.tar.gz(409K) or the staticly linked sprime235-freebsd.tar.gz(494K). Version 23.5, last updated July 3, 2003. 
+* Windows NT/2000/XP Service: This is for administrators that want the extra security of running a traditional GUI-less service. You will still need to download the standard windows executable to configure the client. This program is for Windows NT experts only. Download winnt235.zip(429K). Version 23.5, last updated July 3, 2003. 
+* OS/2: Max Alekseyev has ported the Linux version to OS/2. Download his os2v236.zip(722K) zipped executable. Version 23.6, last updated August 23, 2003. 
+* Windows 3.1: Download prime.zip(202K). This version is not fully automatic, but you can use the PrimeNet server's web-based forms to get exponents and report results. ECM factoring is not supported. Version 18.1, last updated April 2, 1999. 
+
+Step 2. If you downloaded p95v237.exe then run it. Ghost Installer has generously made their setup program free for all. Thus, you can run the prime95 setup program and simply follow the instructions to install Prime95. All other platforms will need to create a directory and decompress the file you just downloaded. Windows users can choose from a variety of decompression programs. Some are PKZip, WinZip, or dozens of others at Tucows. Linux and FreeBSD users should use the standard tar and gzip decompression utilities.
+
+Step 3. Read the readme.txt file for more detailed instructions. Generally, joining GIMPS is as simple as running the program, answering a few questions, and the program does the rest. It contacts a central server to get some work to do. There are several ways to set up the program to run every time you restart your computer. You can track your progress on a stats page the server updates every hour.
+
+Step 4. Questions and problems. Consult the readme.txt file for possible answers. You can also search for an answer, or ask for help in the GIMPS forums. Otherwise, you will need to address your question to one of the two people who wrote the program. Networking and server problems should be sent to Scott Kurowski, but please consult his FAQ first. Such problems include errors contacting the server, problems with assignments or userids, and errors on the server's statistics page. All other problems and questions should be sent to George Woltman, but please consult his FAQ first.
+
+Disclaimers: It is up to you to get your employer's permission before installing this software on any office machines. Many companies have a strict policy against running any non-business software. Every effort has been made to ensure that you will be assigned an exponent that no one else has tested or is testing. We are not responsible for lost prize money, fame, credit, etc. should, for any reason whatsoever, someone else tests the number you are working on and finds it to be prime. We are not responsible should the program determine a number composite even though it is prime - the program's heavy use of memory and FPU could trigger an error that goes undetected. You should decide beforehand how you are going to split any prize money if you are using a company, friend's, or co-worker's machine. Finally, as with all freeware, the program is provided "as is". However, please do send bug reports and suggestions for improvements.
+
+---------------------------------------------------------------------
+Software for Apple/PowerPC machines 
+---------------------------------------------------------------------
+
+What to do if you own a PowerMac? Glucas has been released for Macintosh clients! This program is likely to be superior to the previous Mac version of John Sweeney's original program for the Macintosh. Even better, you should be able to get support for this new version.
+
+Floyd has compiled the Glucas program above (and Mlucas from Ernst Mayer) to the Mac OS X platform. You can get the binaries here.
+
+---------------------------------------------------------------------
+Software for StrongARM machines 
+---------------------------------------------------------------------
+
+What to do if you own a StrongARM? Nick Craig-Wood has written a program for this CPU! His web site has all the details.
+
+---------------------------------------------------------------------
+Software for UNIX machines 
+---------------------------------------------------------------------
+
+What to do if you're running UNIX? Luke Welsh has a web page that points to available source code you can use to help search for Mersenne primes. At this time, Ernst Mayer's Mlucas program is the fastest available.
+
+---------------------------------------------------------------------
+
+Last updated: December 14, 2003 
+
+Getting started: Main page | How it works | Download | FAQ | Benchmarks | Prizes
+Learning more: History | The math | Source code | Mailing list
+Project status: Status | Top producers | PrimeNet
+Miscellaneous: Manual testing | Credits | Links | Feedback | Other projects 
+
+

@@ -1,0 +1,56 @@
+
+ 	 	 	 	 	 	 	 	 	 	 	 	 	
+ 	
+   
+
+ Blender  3D web plug-in  Source Code  Resources    	  	        
+
+Blender 2.31a
+
+Blender 2.31a is the latest release from the Blender Foundation. Due to licensing issues, Blender's realtime engine is not yet operational in this release. If you need the realtime engine features, please use Blender 2.25 for the time being. For a list of new features and bugs fixed, please read the 2.30 release notes or the 2.31a release notes. 
+
+To download Blender 2.31a, please select your platform and location.
+
+Note: static Linux versions use no h/w OpenGL
+
+Platform	 Location	 
+Windows 98/ME/2000/XP (2.2 MB)	 Europe	 USA	 Australia	 
+Mac OS X 10.2 (2.9 MB)	 Europe	 USA	 Australia	 
+Linux i386 2.2.5 (2 MB)	 Europe	 USA	 Australia	 
+Linux i386 static 2.2.5 (2.1 MB)	 Europe	 USA	 Australia	 
+Linux PPC 2.2.5 (2.2 MB)	 Europe	 USA	 Australia	 
+Linux PPC static 2.2.5 (2.3 MB)	 Europe	 USA	 Australia	 FreeBSD 4.9 (1.6 MB) 	Europe	 USA	 Australia	 
+Irix 6.5 mips3 (3.8 MB) 	Europe	 USA	 Australia	 
+Solaris 2.8 sparc (3.1 MB) 	Europe	 USA	 Australia	 
+NetBSD i386 1.6 (11 MB) 	ftp site	  	 	
+
+Blender 2.25
+
+If you need the game engine features that are missing in the 2.31 release, please download Blender 2.25. You may also want to download and install a key file, to unlock the additional 'publisher' features that were previously available only as a commercial product.
+
+Platform	 Location	 
+Windows (1.7 MB)	 Europe	 USA	 Australia	 
+Mac OS X (1.7 MB)	 Europe	 USA	 Australia	 
+Linux (1.7 MB)	 Europe	 USA	 Australia	 
+FreeBSD (1.6 MB) 	Europe	 USA	 Australia	 
+Irix (2.5 MB) 	Europe	 USA	 Australia	 
+Solaris (2.7 MB) 	Europe	 USA	 Australia	 
+Download Publisher key file   (right-click, select 'Save Target As...') 
+And here you can download the release notes and user documentation for the entire 2.2x series up to 2.25. 
+
+Release Archive
+
+Other releases of Blender are available at http://download.blender.org/release/. Here you can find older versions such as 2.26, 2.27 and the iPaq port.
+
+Installation instructions
+
+To install Blender, download the appropriate package for your platform to your computer. The Windows version comes with a self-extracting installer, for other operating systems you can unpack the compressed file to the location of your choice. There is a more detailed installation guide chapter in the Blender Documentation Project, to guide you through installing and starting Blender on Windows, Linux and Mac OS X.
+
+To unlock additional 'Publisher' features of Blender 2.25, you will need to install the key file. Previously, the key file was only available as a commercial product, however you can now download a key file free of charge.
+
+To install the key, start up Blender. In the File menu (top bar, left), select 'Install Key' . Use the Blender file selection window to browse to the location where you saved the key, select the key file with the left mouse button, and press the "LOAD" button.
+
+If the install was successful, a new splash screen will appear, a new P icon in the top header will be visible, and extra 'Publisher' functionality will be unlocked.
+
+ 	 
+

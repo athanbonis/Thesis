@@ -1,0 +1,529 @@
+Visualizing Graphs with Java
+
+(VGJ)
+
+ 
+
+CONTENTS
+
+Introduction
+
+Welcome
+
+About This Document
+
+Legal Stuff
+
+Getting Started
+
+Running VGJ
+
+Running VGJ as an Applet
+
+Running VGJ as an Application
+
+Installing VGJ
+
+VGJ Basics
+
+Areas of Note
+
+Creating a graph
+
+Creating Nodes
+
+Creating Edges
+
+Editing a Graph
+
+Moving and Resizing Nodes
+
+Selecting Multiple Objects
+
+Deleting Edges and Nodes
+
+Editing Node Attributes
+
+Editing Edge Attributes
+
+Editing a Graph's Properties
+
+Other Graph Properties
+
+Saving and Loading Work
+
+Groups
+
+Automatic Layouts
+
+Tree algorithm
+
+Spring embedder
+
+Directed graphs
+
+Menu Commands
+
+---------------------------------------------------------------------
+
+Introduction
+
+Welcome
+
+Visualizing Graphs with Java (VGJ) is a tool for graph drawing and graph layout. Graphs can be input into VGJ in two ways: loading a textual description in GML (graph modeling language) or drawing a graph using the graph editor. The user can then select an algorithm which will layout the graph in an organized and (hopefully) aesthetically pleasing way. 
+
+ VGJ has two major components: the graph editor and the layout algorithms. A full-featured graphical user interface is provided. The graph editor contains the typical features of tools that support graph drawing. Layout algorithms are being developed and implemented to layout different categories of graphs such as trees, planar graphs, directed and undirected graphs, and series-parallel graphs. For the directed graphs, the drawing method uses a unique graph-grammar decomposition to identify intrinsic substructures (clans) in the graph. The method provides for a two-dimensional analysis of the graph while the typical approach to drawing digraphs uses the single dimension, level, to arrange the nodes. 
+
+Corresponding to every visual graph is a textual representation in GML. GML was developed by Michael Himsolt at the University of Passau and is an attempt to standardize graph input formats. GML facilitates the attachment of arbitrary information to graphs, nodes, and edges. The user can also convert the VGJ drawn graph to PostScript format. This format can then be printed or saved into a user's local file and used as desired.
+
+About This Document
+
+This document has five major sections: 
+
+* Introduction - this section 
+* Getting Started - how to download and run VGJ 
+* VGJ Basics - a tutorial on how to accomplish basic tasks in VGJ 
+* Automatic Layouts - an overview about the graph layout capabilities of VGJ and the algorithms they are based on 
+* Menu Commands - a listing and a brief description of the commands available through the menu bar
+ 
+
+In VGJ Basics, a long method for accomplishing a task is first shown. This method is more intuitive and can be accomplished with a single-button mouse, but there are quicker methods. Shorter methods will be described following the first method. The following symbols are used for quick reference.
+
+* Indicates a short cut using the right mouse button.
+
+** Indicates a short cut using the middle mouse button.
+
+*** Indicates a key short cut.
+
+Legal Stuff
+
+VGJ may be distributed under the terms of the GNU General Public License, Version 2.
+
+This graph drawing project is currently not funded. If you like what we're doing or if you want to use it commercially, please help support the graduate students working on the project. You may hire us to customize the tool to your needs.
+
+---------------------------------------------------------------------
+
+Getting Started
+
+Running VGJ
+
+Running VGJ as an Applet
+
+The easiest way to run VGJ is to use a Java enabled web browser such as Netscape or Internet Explorer.
+
+1.  Start your web browser 
+2.  Point your browser at the VGJ web page located at: 
+
+www.eng.auburn.edu/department/csse/research/research_groups/research/graph_drawing/graph_drawing.html
+
+3.  Launch the applet. Click on the button labeled
+
+Start a Graph Window
+
+Your web browser may prohibit file operations, in which case you must run the program as an application and not an applet for file i/o to work.
+
+Running VGJ as an Application
+
+To run VGJ as an application you must first install VGJ (see next section.) VGJ was developed using Sun's Java Development Kit. If you are using the same, perform the following steps to run VGJ as an application: 
+
+1.  Go to a command prompt (how will depend on the operating system being used) 
+2.  Change to the graph_drawing directory. The command will vary depending on the operating system but should be something similar to: 
+
+cd graph_drawing
+
+3.  Execute the applet 
+
+java EDU.auburn.VGJ.VGJ
+
+If you are not using JDK, consult your documentation to determine how to run an application.
+
+When VGJ is run as an application, the first window loaded will contain two buttons. Start a Graph Window will load the graph editor just like the button on the web page. Exit will close the VGJ application. 
+
+Installing VGJ
+
+1. Download the software
+
+VGJ is available in two different compressed file formats:
+
+VGJ.tar (larger) is available for Unix systems without unzip.
+
+VGJ.zip (smaller).
+
+Both files contain the whole project (sources, classes, documentation.)
+
+2. Uncompress the files
+
+For VGJ.tar, at a command prompt, type
+
+&#9;tar xf VGJ.tar
+
+For VGJ.zip, you must use PKZip for Windows, unzip for UNIX, or similar software that supports long file names and can decompress the file. If PKZip for Windows is installed, you can double-click on the file to decompress it.
+
+Both files when decompressed correctly will create a directory called graph_drawing. All needed files will be placed in this directory.
+
+---------------------------------------------------------------------
+
+VGJ Basics
+
+The following figure shows the VGJ main window.
+
+Areas of Note
+
+* Menu Bar - a standard menu bar where many of VGJ functions can be reached and called. A detailed explanation can be found in a later section. 
+* Mouse Action - this area is a group of action buttons. Only one item can be selected at a time. The item selected determines what functionality a click will have in the graph window. 
+* Viewing Offset - the big square represents the entire drawing space while the little square represents the area being displayed in the graph window. The area viewed in the graph window can be moved by using the scrollbars on the graph window or clicking on the little square and dragging it to a new location in the drawing space. 
+* Scale - these buttons allow the user to zoom in and out in the graph window. Note that the Scale/2 and Scale*2 can be pressed multiple times. 
+* Viewing Angles - allows you to adjust the direction from which you view your graph. By default, the x-axis is right and left, the y-axis is up and down, and z-axis is forward and back. You can adjust the view by using the buttons below the window to set which axes are parallel to the screen, by clicking anywhere in the viewing angle box, or by clicking and dragging inside the viewing angle box. 
+* Graph Window - this is where the graph is displayed and edited.
+
+Creating a graph
+
+To create a graph in VGJ, you must first create nodes and then create edges to connect them.
+
+ Creating Nodes
+
+1.  Select Create Nodes from the Mouse Action area of the window 
+2.  Left-click in the graph window where you want the node to be located 
+3.  Repeat as many times as necessary
+
+By default, a node's label is its assigned number in the graph. This can be changed by editing a node's attributes, or by changing a global setting, as explained in later sections.
+
+ Creating Edges
+
+1.  Select Create Edges from the Mouse Action area of the window 
+2.  Left-click on the node in which the edge will start 
+3.  (Optional) Hold down the Shift key and click on a clear space in the graph window to create bends in the edge 
+4.  Left-click on the node in which the edge will end
+
+ 
+
+** The middle button of a three-button mouse can be used without modifying the selection in the Mouse Action area.
+
+1.  Middle-click on the node in which the edge will start 
+2.  (Optional) Hold down the Shift key and click on a clear space in the graph window to create bends in the edge 
+3.  Middle-click on the node in which the edge will end
+
+ 
+
+*** A second alternative is:
+
+1.  Hold down the Ctrl key 
+2.  Click with any mouse button on the node in which the edge will start. (The Ctrl key can be released.) 
+3.  (Optional) Hold down the Shift key and left-click on a clear space in the graph window to create bends in the edge 
+4.  Click with any mouse button on the node in which the edge will end
+
+Again, it does not matter what is selected in Mouse Action.
+
+ 
+
+By default, VGJ draws edges for a directed graph and the order in which nodes are clicked determines the direction of the edge. To make an edge bi-directional, draw two edges between the nodes: one from A to B and one from B to A.
+
+A graph can be made non-directional by unselecting Directed on the Properties menu.
+
+Self edges are allowed. They can be created by making the same node be the start and end of the edge. Self edges are initialized with a small triangular path above the node.
+
+Editing a Graph
+
+An existing graph can be manipulated in several ways: nodes can be moved to new positions, nodes and edges can be deleted, nodes can be resized, the attributes of nodes and edges can be modified, and graph properties can be set.
+
+Moving and Resizing Nodes
+
+1.  Select Select Nodes or Select Nodes or Edges from the Mouse Action area 
+2.  Left-click on a Node, red clickable objects will appear around the node. 
+
+3.  To move a node, hold down the left mouse button with the pointer on the movement bar and drag the node to its new location. 
+4.  To size a node, hold down the left mouse button with the pointer on one of the sizing bars and drag it until the size is as desired
+
+The bottom bar sizes the node vertically.
+
+The left bar sizes the node horizontally.
+
+The upper right bar sizes the node in both directions proportionally.
+
+ 
+
+* The right mouse button can be used without modifying the selection in the Mouse Action area.
+
+1.  Right-click on a Node, red clickable objects will appear around the node. 
+2.  To move or size the Node, hold down the right mouse button on the appropriate bar and perform the desired drag.
+
+ 
+
+Selecting Multiple Objects
+
+1.  Select one of the Select options from the Mouse Action area. 
+2.  Hold down the left mouse button with the cursor on the drawing area and drag the mouse in any direction. This will form a box with one corner at the starting position and one at the pointer's current position. 
+3.  Move the pointer around so that the objects to be selected are inside the box. 
+4.  Release the mouse button. 
+5.  The objects selected are dependent on the Mouse Action selected.
+
+Select Nodes - all nodes inside the box will be selected
+
+Select Edges - all edges inside the box will be selected
+
+Select Nodes and Edges - everything in the box will be selected
+
+* Again, the same functionality is available by using the right mouse button, and it does not matter what Mouse Action is selected. Using this option will select both edges and nodes.
+
+ 
+
+*** Groups of nodes and edges may also be selected one at a time by holding down the Shift key while selecting.
+
+1.  Select one of the Select options from the mouse area. 
+2.  Hold down the Shift key. 
+3.  Left-click on nodes and/or edges.
+
+* The right mouse button may also be used in conjunction with the Shift key regardless of what Mouse Action is selected. This method can also be used to add objects to an existing selection of objects.
+
+All objects in the graph may be selected by choosing Select All from the Edit menu.
+
+When multiple nodes are selected, moving or sizing one of the selected nodes will apply the same transformations to all selected nodes.
+
+ 
+
+Deleting Edges and Nodes
+
+1.  Select the object(s) to be deleted. 
+2.  Choose Delete Selected Items from the Edit menu, or press the Delete key. The key command may not work properly in some web browsers.
+
+Deleting a node will also delete any edges associated with that node.
+
+ 
+
+Editing Node Attributes
+
+1.  Select Select Nodes or Select Nodes or Edges from the Mouse Action area 
+2.  Double-click with the left mouse button on a Node, and the Node's attributes dialog box will appear.
+
+* Double-clicking with the right mouse button will also bring up the attribute dialog box regardless of what Mouse Action is selected.
+
+ 
+
+ 
+
+Attributes:
+
+* Position - the Cartesian coordinates of the node 
+* Bounding Box - this determines the size of the node 
+* Shape - nodes can have a rectangular or oval shape 
+* Label - a text string that identifies the node (use "\n" to split lines) 
+* Label Position - there are three choices for label position 
+
+* Below - label is below the node 
+* In (autosize) - label is inside the node. The node is automatically sized to the minimum size in which the text will fit. 
+* Center - label is inside the node, but autoresizing does not occur.
+ 
+* Image - the node shape can be replaced with an image. The image source can be an URL or a file and path name.
+ 
+
+ 
+
+Editing Edge Attributes
+
+1.  Select Select Edges or Select Nodes or Edges from the Mouse Action area 
+2.  Double-click with the left mouse button on an Edge, and the Edge's attributes dialog box will appear.
+
+* Double-clicking with the right mouse button will also bring up the attribute dialog box regardless of what Mouse Action is selected.
+
+ 
+
+ 
+
+Attributes:
+
+* Label - a text string that identifies the edge 
+* Points - a series of Cartesian coordinates that determines bends in the edge. The coordinates indicate where the bends will occur.
+ 
+
+ 
+
+Editing a Graph's Properties
+
+There are several properties that can be set that affect the entire graph. The following four properties can be set by clicking on the appropriate choice in the Properties menu and only have two values. Selecting a property once will set the property to the second value. Selecting it again will return it to the original.
+
+* Show Controls - if there is a checkmark beside this menu choice, the Mouse Action, Viewing Offset, Scale, and Viewing Angles sections on the left side of the GUI are displayed. Otherwise, those sections are hidden and more of the graph window is available for work. *** Pressing the s key will toggle this feature. 
+* Directed - if there is a checkmark beside this menu choice, the graph is directed (i.e. edges are arrows and the direction of the edges are important.) Otherwise the graph is undirected - edge direction is unimportant. 
+* Scale Node Size - if there is a checkmark beside this menu choice, new nodes will maintain the default size. If not checked, the default size of new nodes will be scaled to correlate with the current graph scale. For example, if the graph scale is 2 then the new node size will be halved. 
+* Use Node ID as Default Label - if there is a checkmark beside this menu choice, new nodes will be labeled with their ID number until a new label is entered. Otherwise, new nodes will not be labeled. 
+* High Quality Display - if there is a checkmark beside this menu choice, an edge attached to a node represented by an image will appear to touch the image. Otherwise, there may appear to be a gap between the image and the edge.
+ 
+
+ 
+
+Other Graph Properties
+
+* Set New Node Properties - when this item is selected, the node attributes dialog box will appear. Changes in this box will be applied to new nodes when they are created. 
+* Set Node Spacing - this setting is used by the tree and CGD layout algorithms to determine the amount of space reserved for nodes in the layout. 
+* Set Font - when this item is selected a dialog box will appear. In this box, you can supply the name and the point size of the font to be used for node and edge labels.
+ 
+
+Saving and Loading Work
+
+VGJ stores graphs in a text file using GML format. This text can be edited in VGJ by choosing Edit Text Representation from the edit menu. Files can be saved by using the Save and Save As choices in the File menu. Choosing Save will replace the current file you're working on with the new version. If the graph has not been saved before, choosing Save will function the same as Save As. Choosing Save As will allow you to select a file name and a directory for the file.
+
+The graph can also be saved in Postscript format for printing. To do so, select Postscript Output from the file menu.
+
+Please note that file functions may not be allowed when running VGJ as an applet in a web browser. This is dependent on the web browser's implementation of Java.
+
+Groups
+
+VGJ provides the capability to represent groups of nodes as a single node. Groups in VGJ are indicated visually by nodes having a double border.
+
+An example:
+
+&#9;Original graph
+
+ 
+
+&#9;Two nodes grouped together
+
+ 
+
+&#9;Two nodes and a group grouped together
+
+ 
+
+There are two methods to work with groups. One, you can use the Group Control dialog box. To open the box, select Group Control from the Edit menu. Two, the letters in square brackets in this box represent the keys that can be pressed to get the same functionality as clicking on the related button. The dialog box does not have to be opened to use these key commands.
+
+ 
+
+ 
+
+* Create Group [c] - when this button is pressed, selected nodes (see Selecting Multiple Objects above) will be combined into a single node. Note that groups can be nested - that is both nodes and groups can be selected to form a group. Also note that nodes/groups do not have to be connected to be grouped. 
+* Destroy Group [d] - when this button is pressed, selected groups will be destroyed. The nodes/groups inside the selected group(s) will be returned to their original position. 
+* Group [g] - when this button is pressed, selected nodes will transform into their groups. Note that it is not necessary for all nodes of a group to be selected for this button to work. For example, suppose nodes A and B are in group 1 and nodes C and D are in group 2. If nodes A and C are selected when the Group button is pressed, groups 1 and 2 will be formed. 
+* Ungroup [u] - when this button pressed, the nodes/groups in the selected group(s) will be returned to their original position. The group can be reformed later by using the Group button. 
+* Cancel - closes the dialog box.
+ 
+
+Note that group nodes can be edited just like non-group nodes. If the group is scaled, all nodes in the group will be scaled proportionally. If the group is moved, all nodes in the group will be moved by the same amount.
+
+---------------------------------------------------------------------
+
+Automatic Layouts
+
+Currently VGJ offers three layout algorithms:
+
+* Tree - to layout rooted trees 
+* CGD - for directed graphs 
+* Spring - for undirected graphs
+ 
+
+There is also an algorithm to test a graph for biconnectivity or make it biconnected by adding edges.
+
+The objectives of the layout algorithms are to draw graphs that are aesthetically pleasing and useful for visual analysis. For each algorithm the particular aesthetic criteria is specialized to the category of graph on which it operates. 
+
+Tree algorithm
+
+The tree algorithm implementation is that of Walker. Trees are drawn so that
+
+* Nodes at same level lie on a straight line 
+* Parents are centered over their children 
+* There is vertical symmetry 
+* Isomorphic subtrees are drawn identically 
+
+Given the above properties and a minimum horizontal spacing, the tree has the minimum possible width. The algorithm does adjust for different sized nodes.
+
+If the graph is not a tree, a depth-first search will be used to identify a spanning tree, which will be used for layout. If the graph contains cycles, a node which will serve as the root must be selected before the algorithm is run.
+
+Spring embedder
+
+We are concerned with drawing undirected graphs with the aim to meet some accepted aesthetic criteria. They should have (1) few edge crossings, (2) straight edges and (3) edges of uniform length. The algorithm of Kamada and Kawai meets the last two criteria by defining "energy" between pairs of graph points and minimizing the total energy of the graph. 
+
+ 
+
+The concept of "spring embedder" or "force-directed" layout algorithms, is to model a graph as a set of rings (nodes) connected by springs (edges). The nodes are placed in some initial state and the springs move the nodes toward a minimum energy state. This energy is reduced by solving a partial differential equation for each vertex. Each vertex is repositioned in turn until the energy goes below some threshold.
+
+Directed graphs 
+
+CGD, clan-based graph drawing, produces a layout for directed graphs. The goals of the layout are to (1) follow the direction of the arcs so that ancestor nodes always lie above their descendants; (2) balance the nodes from right to left within each level; (3) have few edge crossings; (4) have few edge bends. The node layout is determined by the combination of (1) parsing of the graph into logically cohesive subgraphs and (2) defining layout attributes to apply to the resulting parse tree. The parse is based on a simple graph grammar, and the attributes that are now programmed into CGD produce a layout whose nodes are balanced both vertically and horizontally. Attributes are attached to the parse tree that determine space requirements for graph nodes and assign node locations. The method allows nodes of varying sizes to be incorporated into the graph.
+
+---------------------------------------------------------------------
+
+Menu Commands
+
+File
+
+Open - loads a text file containing a GML description of a graph into the editor.
+
+Save - saves the current graph, replacing the old version on disk. If the graph has not been saved before, functions the same as Save As. Files saved as a text file with a GML description of the text.
+
+Save as - requests a file name and a directory for saving the current graph. Files saved as a text file with a GML description of the text.
+
+Open Example Graph - loads an example graph into the graph editor
+
+Postscript Output - requests a file name and a directory for saving the current graph for printing. File is saved as a Postscript file.
+
+Exit This Window - closes VGJ.
+
+ 
+
+Algorithms
+
+Tree
+
+Tree Down - runs the tree layout algorithm and has the tree span down from the root.
+
+Tree Up - runs the tree layout algorithm and has the tree span up from the root.
+
+Tree Left - runs the tree layout algorithm and has the tree span left from the root.
+
+Tree Right - runs the tree layout algorithm and has the tree span right from the root.
+
+Random - generates a random layout for the graph.
+
+CGD
+
+CGD - runs a layout algorithm for directed graphs.
+
+Show CGD Parse Tree - displays the parse tree from the CGD algorithm in a dialog box.
+
+Spring - runs a layout algorithm for directed graphs.
+
+Biconnectivity
+
+Remove Articulation Points - 
+
+Find Articulation Points - 
+
+ 
+
+Edit
+
+Edit Text Representation (GML) - loads the GML representation of the current graph into a dialog box with text editing capabilities
+
+Delete Selected Items - removes selected items from the graph window. If a node is deleted, edges attached to it will also be deleted.
+
+Select All - selects all nodes and edges in the graph.
+
+Remove All Edge Bends - forces all edges to be straight lines.
+
+Remove All Groups - destroys any groups in the graph.
+
+Group Control - displays the group control dialog box.
+
+ 
+
+Properties
+
+&#9;Show Controls - determines whether or not the controls on the left of the GUI will be displayed.
+
+Directed - determines whether or not a graph is directed
+
+Set New Node Properties - loads the node attribute dialog box. Attributes set here determine the properties of nodes when they are created.
+
+Set Node Spacing - brings up a dialog box to set the node spacing properties used in layout algorithms.
+
+Set Font - brings up a dialog box to determine the type and size of the font used in the graph.
+
+Scale Node Size - determines whether or not new nodes will be scaled.
+
+Use Node ID as Default Label - determines whether or not the Node ID is used as the default label for new nodes.
+
+High Quality Display - determines whether or not the High Quality Display is active.
+
+ 
+
+ 
+
+

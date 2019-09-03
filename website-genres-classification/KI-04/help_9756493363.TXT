@@ -1,0 +1,184 @@
+
+
+Version Date: 24th November 2003
+
+Usenet Physics FAQ
+
+This is the web version of the Usenet Physics FAQ (Frequently Asked Questions).  Its purpose is to provide good answers to questions that have been discussed often in sci.physics and related usenet newsgroups.  The articles in this FAQ are based on those discussions and on information from good reference sources.  That does not mean that they are always perfect and complete.  If you have corrections, updates or additional points to make please send an email to the editor, Don Koks (his cv is here).  If you want to write up an article following a news group discussion about a subject not yet covered here then feel free to send it to the editor, but please do not use this address to ask new questions.  Ask them in the appropriate newsgroup instead.
+
+If you are new to the Physics newsgroups, welcome!  Please read the article An Introduction to the Physics Newsgroups.  It will help you find the right newsgroup for your questions and will give you other crucial advice about appropriate netiquette for these groups.  Above all you should check carefully to see if your questions are answered in this FAQ before posting.
+
+This FAQ was created by Scott Chase in 1992.  The web version was created, maintained and enlarged by Michael Weiss and Philip Gibbs.  Others who have written for the FAQ are credited at the top of the items they submitted while many more who have made smaller contributions have been thanked privately.
+
+The FAQ is not available in text only form and is no longer posted to the usenet groups.  This is because it is too big and some articles use images and equations which cannot be transformed into text.
+
+This document is copyright.  Please read the copyright notice for copyright details and archival information.
+
+---------------------------------------------------------------------
+
+Index of Subjects
+
+General Physics
+
+* What is Occam's Razor? 
+* Hot water freezes faster than cold! 
+* Why are golf balls dimpled? 
+* What is a dippy bird, and how is it used? 
+* Why do mirrors reverse left and right? 
+* Which way will my bathtub drain? 
+* How does a light-mill work? 
+* Why do stars twinkle while planets do not? 
+* Is glass solid or liquid? 
+* I know a place where things can roll uphill! 
+* What do you call rate of change of acceleration? 
+* Is magnetic levitation possible? 
+* Why is the sky blue? 
+* Open questions in physics 
+* Does centrifugal force hold the Moon up?  
+
+Particle and Nuclear Physics
+
+* Below absolute zero - what does negative temperature mean? 
+* How to change nuclear decay rates 
+* Have physical constants changed with time? 
+* Do tachyons exist? 
+* The particle zoo 
+* Does antimatter fall up or down? 
+* Baryogenesis: why are there more protons than antiprotons? 
+* The solar neutrino problem 
+* What is the mass of a photon? 
+* Why are there eight gluons? 
+* What are half lives and mean lives? 
+
+Quantum Physics
+
+* The EPR Paradox and Bell's Inequality 
+* Some frequently asked questions about virtual particles 
+* What is the Casimir Effect? 
+* Can the human eye detect a single photon? 
+
+Relativity and Cosmology
+
+There are a large number of relativity questions that have been separated into separate sections. 
+
+Speed of Light
+
+* Why is c the symbol for the speed of light? 
+* Is the speed of light constant? 
+* How is the speed of light measured? 
+* Why is the speed of light so high? 
+* Is there an equivalent of the sonic boom for light? 
+* Is it possible to go faster than light? 
+* I am going at the speed of light and I turn on my headlights. . .? 
+* Apparent superluminal velocity of galaxies 
+
+Special Relativity
+
+* What is the experimental basis of special relativity? 
+* How do you add velocities in special relativity? 
+* Can special relativity handle acceleration? 
+* Does a clock's acceleration affect its timing rate? 
+* What are the equations for the relativistic rocket? 
+* The barn and the pole 
+* The rigid rotating disk in relativity 
+* The Twin Paradox 
+* Bell's Spaceship Paradox 
+* The superluminal scissors 
+* Can you see the Lorentz-Fitzgerald Contraction? 
+* Relativity in chemistry: the color of gold 
+* Does mass change with velocity? 
+* Does light have mass? 
+* What would a relativistic interstellar traveller see? 
+
+General Relativity and Cosmology
+
+* What causes gravity? 
+* Is pi constant in relativity? 
+* What is gravitational radiation? 
+* Does gravity travel at the speed of light? 
+* Is energy conserved in General Relativity? 
+* Olbers' Paradox 
+* What is dark matter? 
+* Do atoms get bigger as the universe expands? 
+* What causes the Hubble redshift? 
+* Where is the centre of the universe? 
+* Mercury's orbital precession 
+* Time travel - fact or fiction? 
+* Is the cosmological constant nonzero? 
+
+Black Holes
+
+* What is a black hole, really? 
+* How does the gravity get out of the black hole? 
+* What happens to you if you fall into a black hole? 
+* If you go too fast do you become a black hole? 
+* What is Hawking Radiation? 
+* The black hole information loss problem 
+* Is the Big Bang a black hole? 
+
+Administrivia and Reference
+
+* An introduction to the physics newsgroups 
+* The care and feeding of kill files 
+* Accessing and using on-line physics resources 
+* Useful physics resources on the Web 
+* Notation and abbreviations used in the FAQ and newsgroups 
+* A physics booklist 
+* The Nobel Prize for physics 
+* Possible topics for discussion on sci.physics.relativity 
+* A guide to relativity books 
+
+---------------------------------------------------------------------
+
+Related FAQs
+
+There are many other places where you may find answers to your question.  This is a list of other FAQs and answer archives that are related to physics.
+
+* sci.astro FAQ 
+* sci.chem FAQ 
+* Space FAQ 
+* rec.puzzles FAQ (physics) 
+* Alternative Physics FAQ 
+* Measurement in quantum mechanics FAQ 
+* Conventional Fusion FAQ 
+* Urban Legends FAQ (science) 
+* New Scientist's Last Word 
+* Scientific American's Ask The Experts (Physics) 
+* Scientific American's Ask The Experts (Astronomy) 
+* Kevin Brown's Physics Answers 
+* Space FAQ 
+* Jason Hinson's Relativity and FTL Travel FAQ 
+* Ted Bunn's Black Holes FAQ 
+* Ned Wright's Cosmology FAQ 
+* Douglas Scott's Cosmic Microwave Background FAQ 
+* Sten Odenwald's Ask the Space Scientist 
+* John Simonetti's Astronomy and Physics FAQ 
+* Chris Hillman's Relativity on the WWW 
+* Wayne Throop's Relativity 
+* StarStrider 
+
+---------------------------------------------------------------------
+
+Mirror sites
+
+This FAQ is currently available from these web sites:
+
+Australia: 
+http://hermes.physics.adelaide.edu.au/~dkoks/Faq 
+Canada: 
+http://www.stillmoving.ca/physics/usenetFAQ.php 
+Germany: 
+http://www.desy.de/pub/www/projects/Physics 
+Netherlands: 
+http://www.xs4all.nl/~johanw/PhysFAQ 
+Taiwan: 
+http://www.phys.ncku.edu.tw/mirrors/physicsfaq 
+USA: 
+http://math.ucr.edu/home/baez/physics 
+http://scope.joemirando.net/faqs 
+http://www.obscure.org/physics-faq 
+http://www.edu-observatory.org/physics-faq 
+
+Thanks go to John Baez, Jay Brown, Jon Butterworth, Alan Cairns, Dave Edsall, Harald Falkenberg, Philip Gibbs, Chung-rui Kao, Matthew Parry, Johan Wevers, and the various organisations for hosting us!  If any other non-commercial sites would like to mirror this FAQ, please contact the editor.
+
+

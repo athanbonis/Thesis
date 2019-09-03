@@ -1,0 +1,115 @@
+    
+ 	 » search tips  |  Search: 	 	 	 		
+
+ 	 	
+
+  
+java.net > Weblogs > 		
+
+  Most Recent Weblogs 
+
+Login Register Get Involved   
+
+Community 
+- 	Community Homepage	 
+- 	Community Directory	 
+- 	Project Listing	 
+- 	Request a Project	 
+- 	Project Help Wanted Ads	 
+  
+
+Content 
+- 	Articles	 
+
+Weblogs  - James Gosling  - Daniel Steinberg 	
+- 	Wiki	 
+- 	Javapedia	 
+  
+
+News 
+- 	News Headlines	 
+- 	Submit News	 
+  
+
+Events 
+- 	Events Calendar	 
+- 	Submit an Event	 
+  
+
+About java.net 
+- 	java-net Project	 
+- 	Press Center	 
+- 	java.net Members	 
+- 	Governance	 
+- 	Principles	 
+- 	Vision	 
+  
+
+Related Links 
+- 	java.com	 
+- 	java.sun.com	 
+- 	jcp.org	 
+- 	wireless.java.sun.com	 
+- 	JavaOne Conference	 
+- 	JavaOne Online	 
+- 	Java Research License	 
+- 	Java Wear & Books	 
+
+  
+
+    
+
+View by: Most Recent | Topics | Communities | Webloggers | Top Weblogs	 Monthly Archive  
+Choose month...
+ 
+January 2004
+ 
+December 2003
+ 
+November 2003
+ 
+October 2003
+ 
+September 2003
+ 
+August 2003
+ 
+July 2003
+ 
+June 2003
+ 
+   	
+  
+
+January 24, 2004
+
+PD4J - Is Process Driven Design the next big thing?: According to the published schedule, the final specification for JSR-207, Process Definition for Java (PD4J), will soon be released. For those who now work with Business Processes on a daily basis, this is going to be a godsend, but why should all Java developers take note? John Reynolds   (January 24, 2004 1:29PM PT) »&nbspDiscuss ()    » Permalink A Security Analysis of the Secure Electronic Registration and Voting Experiment (SERVE): Read the report from the four security gurus articulating the vulnerabilities of the SERVE internet voting system. John D. Mitchell   (January 24, 2004 9:17AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 23, 2004
+
+Developments in Nokia-land: Nokia's making some very interesting moves...how will other wireless vendors respond? Bill Day   (January 23, 2004 6:48PM PT) »&nbspDiscuss (3)    » Permalink The 3rd Dimension of Java Freedom: Java is all about freedom. The JVM gives us freedom from being stuck on a particular operating system or a hardware platform. The JCP gives us freedom from being tied to a particular vendor by allowing many implementation choices certified for each approved specification. What most developers miss is that the Java language is capable of giving us the long-term freedom to move from one specification to another with minimal effort. I urge you to not abandon your principals by tying your code to current technologies. Find a way to stay free and make use of the full benefits of the Java platform. Lance Young   (January 23, 2004 10:47AM PT) »&nbspDiscuss (2)    » Permalink The Testing Bug: You may be tired of hearing about test-driven development, but have you tried it yet? Daniel H Steinberg   (January 23, 2004 8:03AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 22, 2004
+
+How to style a simple block menu in HTML using CSS: Recently I wanted to create a block menu in my html pages. I want this block menu to have a header indicating the category of the menu and a set of menu items. There may be more than one way of doing this exercise. There may also be a better way of doing the same. But here is how I have done it and it seem to work well for now. Satya Komatineni   (January 22, 2004 10:32PM PT) »&nbspDiscuss (12)    » Permalink Extra! Extra! Lomboz has gone open source!: Lomboz - a J2EE plug-in for Eclipse - has become open source. That is great news for the Eclipse and Open Source communities. Felipe Leme   (January 22, 2004 11:23AM PT) »&nbspDiscuss (8)    » Permalink What's the deal with Delegates?: Though ignorant, I nonetheless attempt to take on Microsoft's "delegate" language feature. Erb Cooper   (January 22, 2004 8:21AM PT) »&nbspDiscuss (6)    » Permalink The java.net Linux community: Today we've expanded our java.net family with our new Linux community. Daniel H Steinberg   (January 22, 2004 7:34AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 21, 2004
+
+Open Source Developer: Will Work for Food!: The difference between open source developers and commercial developers is the pretty much the same as the difference between a starving fine artist and a fat and happy commercial artist. Richard Monson-Haefel   (January 21, 2004 11:06PM PT) »&nbspDiscuss (18)    » Permalink Welcome to linux.java.net: Welcome to linux.java.net! We're launching this site with a simple mission, to ensure that Linux becomes and remains a first-tier platform for Java, enjoying equality and parity with other operating systems like Solaris. Chris DiBona   (January 21, 2004 6:18PM PT) »&nbspDiscuss (15)    » Permalink Learn the new handshake!: Matt and Rick of Javalobby invented a new handshake for Java developers. Learn it! John "jbob" Bobowicz   (January 21, 2004 2:15PM PT) »&nbspDiscuss (4)    » Permalink State of Web Services 2004?: So, it's 2004 - where are your web services? Are you using them? Hype or reality? Inquiring minds need to know... Will Iverson   (January 21, 2004 1:52PM PT) »&nbspDiscuss (1)    » Permalink Do you floss every day?: The rationale for testing and high test-coverage rates is exactly the same as for brushing your teeth and flossing everyday. John D. Mitchell   (January 21, 2004 11:21AM PT) »&nbspDiscuss ()    » Permalink Testing MVC actions, mock objects and code coverage: Mock objects are the subject of several blogs again this week and they reminded me of a question that several people have asked me. In a web application, how do you unit test an MVC action? Simon Brown   (January 21, 2004 8:41AM PT) »&nbspDiscuss (16)    » Permalink Starting Simple: "Once we get something on the screen, we can look at it. If it needs to be more we can make it more. Our problem is we've got nothing." Daniel H Steinberg   (January 21, 2004 5:08AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 20, 2004
+
+A quick refresher on CSS selectors: While working with CSS recently I have found that a quick list of CSS selectors is handy. Take a look at this item if you are keen. Satya Komatineni   (January 20, 2004 2:31PM PT) »&nbspDiscuss ()    » Permalink Easier but not dumbing down: You want to attract more people to your field and so you need to lower the barrier to entry. Can you make learning a difficult subject easier without dumbing it down? Daniel H Steinberg   (January 20, 2004 8:02AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 19, 2004
+
+What's so bad about making it easier to learn Java?: What's all this grumbling about "dumbing down" Java? Is it really so bad to make it easier to learn and develop in Java? Lately, I've found I can divide many folks into two camps: those who hate and fear the "let's get to 10 million" and those who don't. Kathy Sierra   (January 19, 2004 12:55PM PT) »&nbspDiscuss (24)    » Permalink Endorsing a front runner: In political races, candidates drop out and endorse front runners for a variety of reasons. Are there analogous reasons for some open source software projects to drop out of a race, endorse a front runner, and help with its campaign? Daniel H Steinberg   (January 19, 2004 8:22AM PT) »&nbspDiscuss ()    » Permalink 
+
+January 18, 2004
+
+Is Critical Thinking for Software Developers?: Contrary to popular belief, developers suffer from piss-poor thinking just like everybody else. John D. Mitchell   (January 18, 2004 9:15PM PT) »&nbspDiscuss (4)    » Permalink Endorsing the Candidates: When should an open source project abandon it's own campaign in order to endorse another open source project? I examine two candidates in the object/relational mapping space, Hibernate and OJB. Jim Cushing   (January 18, 2004 8:55PM PT) »&nbspDiscuss (3)    » Permalink 	
+
+Feedback  |  FAQ  |  Terms of Participation Terms of Use  |  Privacy  |  Trademarks | Site Map   Your use of this web site or any of its content or software indicates your agreement to be bound by these Terms of Participation.   Copyright © 1995-2003 Sun Microsystems, Inc. 	
+Powered by Sun Microsystems, Inc., O'Reilly and CollabNet 	
+
+

@@ -1,0 +1,173 @@
+
+
+Sendmail 
+Frequently Asked Questions (FAQ)
+
+Last updated January 25, 2004 
+
+Comments and questions on this FAQ should be directed to sendmail+faq@sendmail.org. 
+General questions about sendmail should be directed to sendmail-questions@sendmail.org. 
+Bug reports should be directed to sendmail-bugs@sendmail.org. 
+
+If you post a message to comp.mail.sendmail and send it to one of the above addresses, please clearly indicate so at the top of your message.
+
+---------------------------------------------------------------------
+
+Top 5 - the most frequently asked questions about sendmail
+
+1.  Local config error: see 4.5 
+2.  Relaying denied: see 3.27 
+3.  Directory permissions: see 3.33 
+4.  Virtual hosting: see 3.7 & 3.28 
+5.  POP / IMAP: see 4.19 
+
+---------------------------------------------------------------------
+
+Table of Contents
+
+* 0. Plain-text version now available. 
+* 1. COPYRIGHT NOTICE / REDISTRIBUTION  REQUIREMENTS 
+* 2. INTRODUCTION / MISCELLANEOUS  
+ 
+* 2.1 What is this newsgroup?  
+* 2.2 What is the scope of this FAQ?  
+* 2.3 Where can I find the latest   version of this FAQ?  
+* 2.4 How do I access   comp.mail.sendmail by email?  
+* 2.5 Where can I ask email-related   DNS questions?  
+* 2.6 How can I subscribe to these   newsgroups?  
+* 2.7 Which version of sendmail should   I run?  
+* 2.8 What is the latest release of   sendmail?  
+* 2.9 Where can I find it?  
+* 2.10 What are the differences between   Version 8 and other versions?  
+* 2.11 What's the best platform for   running sendmail?  
+* 2.12 What is BIND and where can I get   the latest version?  
+* 2.13 What is smrsh and where can I   get it?  
+* 2.14 What is smap and where can I get   it?  
+* 2.15 What is TCP-Wrappers and where   can I get it?  
+* 2.16 Why won't db 1.85 build on my   machine?  
+* 2.17 What is makemap and where can I   get it?  
+
+* 3. VERSION 8 SPECIFIC ISSUES  
+ 
+* 3.1 How do I make all my addresses   appear to be from a single host?  
+* 3.2 How do I rewrite my "From:"   lines to read ``First_Last@My.Domain'' or   ``Different_Name@My.Domain''?  
+* 3.3 But what about   fully-qualified addresses, such as those from   Pine or FEATURE(always_add_domain)?  
+* 3.4 So what was the user database   feature intended for?  
+* 3.5 Why the hostility toward using   full names for email addresses?  
+* 3.6 deprecated  
+* 3.7 How do I manage several   (virtual) domains?  
+* 3.8 There are four UUCP mailers   listed in the configuration files. Which one should I use?  
+* 3.9 How do I fix "undefined symbol   inet_aton" and "undefined symbol _strerror" messages?  
+* 3.10 How do I solve "collect: I/O   error on connection" or "reply: read error from host.name"   errors?  
+* 3.11 Why can't my users forward their   mail to a program?  
+* 3.12 Why do connections to the SMTP   port take such a long time?  
+* 3.13 Why do I get "unknown mailer   error 5 -- mail: options MUST PRECEDE recipients" errors?  
+* 3.14 Why does version 8 sendmail   panic my SunOS box?  
+* 3.15 Why does the Unix From line get   mysteriously munged when I send to an alias?  
+* 3.16 Why doesn't MASQUERADE_AS (or   the user database) work for envelope addresses as well as   header addresses?  
+* 3.17 How do I run version 8 sendmail   and support the MAIL11V3 protocol?  
+* 3.18 Why do messages disappear from   my queue unsent?  
+* 3.19 When is sendmail going to   support RFC 2047 MIME header encoding?  
+* 3.20 Why can't I get mail to some   places, but instead always get the error "reply: read error   from name.of.remote.host"?  
+* 3.21 Why doesn't "FEATURE(xxx)"   work?  
+* 3.22 How do I configure sendmail not   to use DNS?  
+* 3.23 How do I get all my queued mail   delivered to my Unix box from my ISP?  
+* 3.24 Why do I get the error message   unable to write /etc/mail/sendmail.pid?  
+* 3.25 Why can't I compile sendmail   with Berkeley DB 2.X?  
+* 3.26 What operating systems has   Berkeley sendmail been ported to?  
+* 3.27 How do I prevent Relaying   Denied errors for my clients?  
+* 3.28 Why isn't virtual hosting   working, even after I added a Kvirtuserline   to sendmail.cf ?  
+* 3.29 How can I add a header   specifying the actual recipient when having multiple   users in a virtual domain go to a single mailbox?  
+* 3.30 What do I do when   Buildfails because groff  was not found?  
+* 3.31 What does "class
+  hash not available" mean?  
+* 3.32 How do I configure   majordomo with sendmail 8.9 without relaxing the   DontBlameSendmailoption?  
+* 3.33 How do I configure my   system in general with sendmail 8.9?  
+* 3.34 What does "foo
+  not available for sendmail programs" mean?  
+* 3.35 How do I add a footer/signature   to all (outgoing) e-mail messages?  
+* 3.36 What does "Cannot open
+  hash database ... Invalid argument" mean?  
+* 3.37 What does "parse error
+  before `NDBM'" mean?  
+* 3.38 What does "may be
+  forged" mean?  
+* 3.39 How do I send using an   alternate port?  
+* 3.40 Why can't I use BerkeleyDB   4.1.x?  
+* 3.41 How do I use CIDR notation   in the access map (or other places)?  
+* 3.42 Why isn't CIDR notation   directly supported by sendmail?  
+* 3.43 What does "Need to
+  recompile with -DNEWDB for hash support" mean?  
+* 3.44 I disabled sendmail on some   machines which don't receive mail, but since upgrading to   8.12 they can't send mail either; why?  
+
+* 4. GENERAL SENDMAIL ISSUES  
+ 
+* 4.1 Should I use a wildcard MX for   my domain?  
+* 4.2 How can I set up an   auto-responder?  
+* 4.3 How can I get sendmail to deliver   local mail to $HOME/.mail instead of into /usr/spool/mail (or   /usr/mail)?  
+* 4.4 Why does it deliver the mail   interactively when I'm trying to get it to go into queue   only mode?  
+* 4.5 How can I solve "MX list for   hostname points back to hostname" and "config error:   mail loops back to myself" messages?  
+* 4.6 Why does my sendmail process   sometimes hang when connecting over a SLIP/PPP link?  
+* 4.7 How can I summarize the   statistics generated by sendmail in the syslog? 
+* 4.8 How can I check my sendmail.cf   to ensure that it's re-writing addresses correctly?  
+* 4.9 What is procmail, and where can   I get it?  
+* 4.10 How can I solve "cannot alias   non-local names" errors?  
+* 4.11 Is sendmail Year 2000 (Y2K)   compliant?  
+* 4.12 How can I batch remote mail to   be sent using my ISP while delivering local mail   immediately?  
+* 4.13 What does "unknown mailer
+  error 1" mean?  
+* 4.14 How do I queue mail for   another domain?  
+* 4.15 How do I create attachments   with sendmail?  
+* 4.16 How do I find sendmail's version   number?  
+* 4.17 How do I handle user names with   upper-case characters?  
+* 4.18 What does "NOQUEUE: Null
+  connection from ..." mean?  
+* 4.19 How do I configure sendmail for   POP/IMAP/... ?  
+* 4.20 How can I automatically copy   messages based on sender or recipient addresses?  
+* 4.21 How can I send mail to all   users?  
+* 4.22 Why can't I receive external   mail?  
+
+* 5. VENDOR/OS SPECIFIC SENDMAIL ISSUES  
+ 
+* 5.1 Sun Microsystems SunOS/Solaris   1.x/2.x   
+  
+* 5.1.1 How can I solve "line    273: replacement $3 out of bounds" errors?   
+* 5.1.2 How can I solve "line    445: bad ruleset 96 (50 max)" errors?   
+* 5.1.3 Why does version 8    sendmail (< 8.7.5) sometimes hang under Solaris    2.5?   
+* 5.1.4 Why can't I use    SunOS/Solaris to get email to certain large sites?   
+* 5.1.5 Why do I have trouble    compiling on Solaris?   
+* 5.1.6 How does 8.X    compare to 8.X+Sun?   
+ 
+* 5.2 IBM AIX   
+  
+* 5.2.1 The system resource    controller always reports sendmail as "inoperative".    What's wrong?   
+* 5.2.2 Why can't I use AIX    to get email to some sites?   
+* 5.2.3 Why can't I get    sendmail 8.7.1 to use MX records with AIX 3.2.5?   
+ 
+* 5.3 Linux   
+  
+* 5.3.1 Red Hat    
+   
+* 5.3.1.1 Why     do I have so many sendmail problems after     configuring sendmail with linuxconf?    
+* 5.3.1.2 I built     sendmail.cf from sendmail.mc and it works     until the next reboot of the machine. What     is going on?    
+* 5.3.1.3 Why can't     I receive mail with Red Hat 7.1 and later?    
+  
+* 5.3.2 SuSE    
+   
+* 5.3.2.1 Where     is the sendmail.mc file on SuSE Linux?    
+  
+ 
+
+* 6. ADDITIONAL INFORMATION SOURCES (RFC 1807   bibliography format)  
+ 
+* 6.1 Reference material devoted   exclusively to sendmail  
+* 6.2 Reference material with chapters   or sections on sendmail  
+* 6.3 Reference material on subjects   related to sendmail  
+* 6.4 World-wide web index pages on   sendmail  
+* 6.5 World-wide web index pages   Internet email in general  
+* 6.6 Online tutorials for sendmail  
+* 6.7 Online archives of mailing lists   and Usenet newsgroups, relating to Internet email  
+
+* 7. THANKS! 
+
+

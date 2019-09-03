@@ -1,0 +1,83 @@
+
+
+Downloading Mutt
+
+The current stable public release version is 1.4.1. 
+
+CVS
+
+CVS is available from cvs.mutt.org in the /home/roessler/cvs directory: 
+
+cvs -d :pserver:anonymous@cvs.mutt.org:/home/roessler/cvs login
+
+cvs -z3 -d :pserver:anonymous@cvs.mutt.org:/home/roessler/cvs co mutt
+
+The password is anonymous. 
+
+Source
+
+The source releases are signed with Thomas Roessler's PGP key. 
+
+* ftp://ftp.mutt.org/mutt/ (primary site) 
+* ftp://ftp.gbnet.net/pub/mutt-international/ 
+* ftp://does-not-exist.org/mutt/ 
+* ftp://ftp.fu-berlin.de/pub/unix/mail/mutt/ 
+* ftp://ftp.gwdg.de/pub/unix/mail/mutt/international/ 
+* ftp://ftp.iks-jena.de/pub/mitarb/lutz/crypt/software/pgp/mutt/ 
+* ftp://uiarchive.cso.uiuc.edu/pub/packages/mail/mutt/ 
+* ftp://ftp.lip6.fr/pub/unix/mail/mutt/ 
+* ftp://ftp.42.org/pub/unix/mail/mutt/ 
+* ftp://gd.tuwien.ac.at/infosys/mail/mutt/ 
+* ftp://ftp.demon.co.uk/pub/mirrors/mutt/ 
+* ftp://ftp.ntua.gr/pub/net/mail/mutt/ 
+* ftp://ftp.freesoftware.com/pub/mutt/ 
+* ftp://ftp.kfki.hu/pub/packages/mail/mutt/ 
+* ftp://sunsite.uio.no/pub/mail/mutt/ 
+* ftp://pgp.rasip.fer.hr/pub/mutt/ 
+* ftp://ftp.arch.pwr.wroc.pl/pub/mutt/ 
+* ftp://ftp.uib.no/pub/mutt/ 
+* ftp://ftp.spyda.net/pub/mutt/ 
+* ftp://ftp.linux.it/pub/mirrors/mutt/ 
+* ftp://ftp3.linux.it/pub/mirrors/mutt/ 
+* ftp://ftp.funet.fi/pub/unix/mail/mutt/ 
+* ftp://ftp.jp.qmail.org/mutt/ (Japanese) 
+* ftp://ftp.is.co.za/networking/mail/mua/mutt/ 
+* ftp://ftp.medasys-digital-systems.fr/pub/unix/mutt/ 
+* ftp://ftp.strasbourg.linuxfr.org/pub/mutt/ 
+* ftp://ftp.parodius.com/pub/mutt/ 
+* ftp://dimonieta.udg.es/mirror/mutt/ 
+* ftp://ftp.gigabell.net/pub/mutt/ 
+* ftp://ftp.gin.cz/pub/MIRRORS/ftp.mutt.org/ 
+* ftp://unix.nitnet.com.br/pub/mutt/ 
+* ftp://ftp.nluug.nl/pub/mail/mutt/ 
+* ftp://ftp.franken.de/pub/linux/mutt/ 
+* ftp://ftp.stealth.net/pub/mirrors/ftp.mutt.org/pub/mutt/ 
+* ftp://ftp.exobit.org/pub/mail/mutt/ 
+* http://mirrors.sunsite.dk/mutt/ 
+* ftp://sunsite.dk/mirrors/mutt/ 
+
+Packages and Precompiled Binaries
+
+RPMS: 
+
+* Note that most distributions ship with their own versions of Mutt. 
+* http://www.ribbrock.org/muttix/ (Linux binaries and SRPMs) 
+* http://wh58-508.st.uni-magdeburg.de/sparemint/html/packages/mutt.html (MiNT) 
+
+Debian GNU/Linux: 
+
+* http://www.debian.org/Packages/stable/mail/mutt.html (Debian stable branch) 
+* http://www.debian.org/Packages/unstable/mail/mutt.html (Debian unstable branch) 
+
+NetBSD: ftp://ftp.netbsd.org/pub/NetBSD/packages/pkgsrc/mail/mutt/README.html 
+
+SGI IRIX: http://www.igd.fhg.de/~zach/mutt/ 
+
+MS Windows (may require Cygwin/etc.): 
+
+* http://www.geocities.com/win32mutt/index.html 
+* http://unixmail-w32.sourceforge.net/ 
+
+---------------------------------------------------------------------
+Last updated on December 12, 2003 by Jeremy Blosser. URL:<http://www.mutt.org/download.html>
+ 

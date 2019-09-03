@@ -1,0 +1,77 @@
+
+
+United States and Canada 	 Online Store   Contact   Sitemap   Links   Register Software 	
+Search 	  		
+
+Home Users
+
+Home	 		Overview	 		Products	 		Support	 		Download	 		Online Store	 	
+
+SUSE LINUX	 		Updates	 		KDE	 		GNOME	 		XFree86	 		Samba	 		Apache	 		FTP Server	 	
+
+Printable page 	
+
+SUSE LINUX Download 
+
+---------------------------------------------------------------------
+
+If possible, please download SUSE LINUX from a mirror in your vicinity. 
+
+Please note that download versions of SUSE LINUX are not eligible for free installation support. However, you can make use of our advanced support offer. 
+
+---------------------------------------------------------------------
+
+SUSE LINUX for i386 
+
+SUSE LINUX for i386 can be installed free of charge directly from the FTP server. Before you start, please read the installation guideline! 
+
+The path to the installation directory is ftp.suse.com/pub/suse/i386/current/ 
+
+If you want to install SUSE LINUX on several hosts in a network, download the entire installation directory together with all subdirectories. After you export these data to the local network with NFS, you can install SUSE LINUX on any client in the network. 
+
+Important note: 
+Download the files only if you can export the data to your local network with NFS! If you do not have this possibility or want to install SUSE LINUX on one host only, perform the FTP installation as described above. 
+It is not possible to generate installation CDs from a complete download. 
+
+SUSE LINUX for i386 Live-Eval 
+
+SUSE makes the live-eval version of SUSE LINUX available for download as an ISO image. This version runs entirely from the bootable CD and is not installed on the hard disk. 
+
+If you want to get to know SUSE LINUX or test if your hardware is fully supported, the live-eval version is the right choice for you. 
+
+The ISO image is located in the respective directory under ftp://ftp.suse.com/pub/suse/i386/ 
+
+SUSE LINUX for PPC 
+
+SUSE LINUX for PPC can be installed free of charge directly from the FTP server. Before you start, please read the installation guideline and the README! 
+
+The path to the installation directory is ftp.suse.com/pub/suse/ppc/current/ 
+
+Important note: 
+It is not possible to generate installation CDs from a complete download. Instead, perform the FTP installation. 
+
+Further Information 
+
+Reviews 	
+
+Support Database 	
+
+Hardware Database 	
+
+Education Program 	
+
+Quicklinks 
+
+Security 	
+
+Support Portal 	
+
+Mailinglists 	
+
+Feedback 	
+
+This server is powered by NPS. 
+Linux is a registered trademark of Linus Torvalds. 
+Last changed: 10/01/2003 by webmaster@suse.de 		
+
+

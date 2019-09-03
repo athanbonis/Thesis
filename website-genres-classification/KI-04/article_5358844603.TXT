@@ -1,0 +1,39 @@
+
+
+PL Concepts: Lambda Calculus
+
+Lambda calculus is a notation that allows the definition of "unnamed" functions. In particular, the notation permits treating functions mathematically as first-class objects (well, math doesn't really deal with objects...). The notation that defines a function consists of a lambda, a variable to be used as the input of the function, a period, and an expression (in terms of the variable) that defines the output of the function.
+
+In the examples below, L is used in place of a lambda since HTML doesn't support Greek letters or equations (yet).
+
+A simple function is the identity function:
+Id = Lx.x
+Id is defined to be a function of a variable x that simply returns x. Note that this notation is essentially equivalent to
+Id(x) = x
+
+Lambda notation is particularly useful in dealing with curried functions, in that one can define functions without having to give all the arguments immediately. For example,
+a = Lx.Ly.x+y
+defines a function a which, depending on how you look at it,
+
+* takes two arguments (and adds them),  
+* takes one argument and returns a function of one argument, or  
+* takes no arguments and returns a function of two arguments. 
+
+The utility of the lambda notation, particularly with respect to currying, is thus clear: it allows the manipulation of functions without excessive concern for naming the function or defining its arguments immediately.
+
+Lambda calculus is used extensively in denotational semantics; it also motivated various language constructs, particularly those in Lisp and Scheme.
+
+Lambda Capture
+
+Lambda capture is the process of "capturing" the meaning of a function's arguments in the environment in which they belong. That is, when a function is applied to its arguments, the function's parameters are bound to the meaning of the arguments outside the function's environment. Hence, if the argument contains free variables, then the parameter is bound to the argument with its free variables.
+
+The importance of lambda capture is visible primarily when a function's parameters have the same name as one or more free variables--for example,
+(Lm.(Ln.n+1)(m))(2n)
+Here, the n in the inner lambda expression is a bound variable, while the n in the function's argument is a free variable. When the outer function (Lm...) is applied to its argument, the free variable n is captured and is therefore not confused with the bound variable n.
+
+---------------------------------------------------------------------
+
+Contributors: John Doppke <doppke@cs.colorado.edu>
+
+---------------------------------------------------------------------
+PL Prelim Home Page 

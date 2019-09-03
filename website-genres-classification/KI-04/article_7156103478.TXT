@@ -1,0 +1,70 @@
+
+
+---------------------------------------------------------------------
+
+Next: Background 
+
+---------------------------------------------------------------------
+
+Optimal Selection of Partners in Agile Manufacturing
+ 
+
+Principal Investigator: Ioannis Minis
+Department of Mechanical Engineering and
+ Institute for Systems Research
+ University of Maryland, College Park, Maryland 20742
+
+Project Team:
+Arun Candadai, M.E. and ISR
+Jeffrey W. Herrmann, M.E. and ISR
+ Giang Lam, M.E. and ISR
+Edward Lin, ISR
+Rakesh Nagi, Dept. of Industrial Engineering, SUNY at Buffalo
+Vijay Ramanchandran, M.E. and ISR
+
+Abstract 
+
+The Optimal Selection of Partners in Agile Manufacturing (OSPAM) project focuses on design evaluation and partner selection in distributed manufacturing. It is being conducted at the Institute for Systems Research of the University of Maryland in cooperation with the State University of New York at Buffalo, Westinghouse ESG, Martin Marietta, Orlando and The National Institute of Standards and Technology. The work is funded by the U.S. Army TACOM. 
+
+The focus of this project is the design for distributed manufacture of electronic products, such as microwave modules and hybrid assemblies. The project is developing methods for critiquing the design of such products with respect to the production capabilities of potential partners, alerting the designer to elements of the design that correspond to costly operations, and selecting a good combination of partners that contribute to the manufacture of the design. Thus, we are developing a design advisor that integrates partnering (including make or buy) decisions in the design phase, and facilitates design improvements with respect to partner capabilities. 
+
+The research contributions of this project include the following: 
+
+* Information infrastructure: 
+
+* Developed a STEP-based product information model for Microwave Modules, and implemented of this model in an Object Oriented database. 
+* Developed Object Oriented Group Technology (OOGT) codes for design retrieval and variant design critiquing. 
+* Developed a manufacturing resource model to represent the process capabilities and historical performance of manufacturing firms. 
+
+* Decision support: 
+
+* Automated generation of a product's OOGT from its STEP information model. 
+* Methods for variant design critiquing. 
+* Methods for high-level process planning in distributed manufacturing. 
+* Methods for plan-based design critiquing in distributed manufacturing. 
+* Methods for multi-objective partner selection in distributed manufacturing. 
+
+The following functional diagram will navigate the user through the OSPAM architecture. Hypertext within the blocks representing the major modules of the system allows the user to access more detailed descriptions of these modules. (This functionality is still under construction and will be available soon.) 
+
+---------------------------------------------------------------------
+
+In the following, hypertext links pointing to the major modules of the system allow the user to access more detailed description of these modules. 
+
+---------------------------------------------------------------------
+
+* Background 
+* Information Requirements 
+* Design Processing and Retrieval 
+* High-level Process Planning and Manufacturability Evaluation 
+* Selection of Manufacturing Partners 
+* Summary 
+* References 
+* About this document ... 
+
+---------------------------------------------------------------------
+Note: Most of the contents on the OSPAM Web pages have been submitted to IIE Transaction for publishing. 
+
+---------------------------------------------------------------------
+
+Edward Lin 
+Wednesday Nov. 14 15:01:45 EDT 1995 

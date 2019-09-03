@@ -1,0 +1,135 @@
+SCO SUPPORT Support Home Page Self Help Support's Download Area Certified and Compatible Hardware Knowledge Center Product Documentation Bug Reporting Obtaining Support Product Support Status Security Advisories Link 14 --> PARTNER LOGINS Online Service Manager Partner Online eLearning Link 14 --> RELATED TOPICS eLearning Community Forums Third-Party Solutions Product Informationa Product Registration Partner Near You Developer Community TITLE GOES HERE link link link link --> Contact SCO Legal Privacy Download Product Registration Search   -->                         
+  	      
+      Home 	       How To Buy 	       Shop 	       Worldwide 	             
+  	  
+         
+     	       
+  	 
+ 
+   
+       
+                 
+  	  Support Download Area	  
+
+---------------------------------------------------------------------
+
+Locate patches, supplements, updates, RPMs, SRPMs, device drivers and security advisories for SCO products.
+
+NOTE: If you have landed on this page by clicking on a link from within our Knowledge Center (technical articles) please proceed by selecting a link from this page that best relates to the item you are looking for. 
+
+NOTICE: SCO has suspended new sales and distribution of SCO Linux until the intellectual property issues surrounding Linux are resolved. SCO will, however, continue to support existing SCO Linux and Caldera OpenLinux customers consistent with existing contractual obligations. SCO offers at no extra charge to its existing Linux customers a SCO UNIX IP license for their use of prior SCO or Caldera distributions of Linux in binary format. The license also covers binary use of support updates distributed to them by SCO. This SCO license balances SCO's need to enforce its intellectual property rights against the practical needs of existing customers in the marketplace. 
+
+For further information on how to obtain RPMS/SRPMS for OpenLinux, eDesktop and eServer see:
+
+http://www.sco.com/support/linux_info.html
+
+For further information on how to obtain RPMS/SRPMS for SCO Linux 4.0 see:
+
+http://www.sco.com/support/scolinux_info.html or the SCO Linux 4.0 Update Download Page.
+
+SCO Product and Download Information
+
+Security Advisories
+
+SCO Updates, Maintenance, Supplements and Drivers for:
+
+* OpenServer 5.0.7 
+* UnixWare 7.1.3 
+* SCOoffice 2.0 
+* SCO Linux 4.0 
+
+Updates, Supplements and Drivers for:
+
+* Clustering 
+* OpenServer 5.0.6 and earlier 
+
+* Drivers 
+
+* OpenLinux 3.1.1 
+* Open UNIX 8 (aka UnixWare 7.1.2) 
+
+* Drivers 
+
+* Unixware 7.1.1 and earlier 
+
+* Drivers 
+
+* Volution Messaging Server 
+
+Retired Products:
+
+* eDesktop 2.4 
+* eServer 2.3 
+* OpenLinux 1.x-2.2 
+* UnixWare 2 
+* XENIX, UNIX, ODT 
+
+* Patches 
+* Supplements 
+* Device Drivers 
+
+ 
+
+SCO's Main FTP site: 
+
+* ftp://ftp.SCO.com 
+
+SCO's Skunkware and Supplemental Open Source Packages:
+
+* ftp://ftp2.SCO.com. 
+
+Visit SCO's Product Download site for ISO images, Free, Evaluation and Pre-Release software for SCO Products
+
+SCO's Technical Library Supplements (TLS)
+
+SCO Linux Distribution Packages:
+
+* OpenLinux 3.1.1 Server and Workstation 
+* OpenLinux 3.1 Server and Workstation 
+
+ 
+
+ SCO SERVICES 
+---------------------------------------------------------------------
+Services Home Page
+ Certification
+ Developer
+ Education
+ Professional Services
+ Support Services
+ Upgrade Services
+ 
+ SCO SUPPORT 
+---------------------------------------------------------------------
+Support Home Page
+ Self Help
+ Support's Download Area
+ Certified and Compatible Hardware
+ Knowledge Center
+ Product Documentation
+ Bug Reporting
+ Obtaining Support
+ Product Support Status
+ Security Advisories
+ 
+ PARTNER LOGINS 
+---------------------------------------------------------------------
+Online Service Manager
+ Partner Online
+ eLearning
+ 
+ RELATED TOPICS 
+---------------------------------------------------------------------
+eLearning
+ Community Forums
+ Third-Party Solutions
+ Product Informationa
+ Product Registration
+ Partner Near You
+ Developer Community
+ 
+
+ 	      Contact SCO	      	     Legal	      	     Privacy	      	     Download	      	     Product Registration	      	     Search	       	        
+  	  	  
+  	  
+

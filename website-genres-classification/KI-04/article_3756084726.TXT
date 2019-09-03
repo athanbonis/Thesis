@@ -1,0 +1,79 @@
+
+
+BASIC CONCEPTS OF STATISTICAL MODELS
+
+A probability experiment is one where the outcome is subject to chance. 
+
+Consider a probability experiment where one random observation, y[1], is drawn from a population whose mean is 10 and whose variance is 4. 
+
+The expected value of the single observation is its average if we were to repeat the experiment a great many times. If the experiment is repeated many times, we would find that the average of y[1] from all of these experiments would be 10, the mean of the population from which the observations is drawn. In symbols, E{y[1]} = 10. In words, the expected value of the single observation is the mean of the population from which it was drawn. 
+
+Likewise, if we were to repeat the experiment a great many times, we could calculate the variance of repeated observations of y[1] and we would find that the variance is just equal to the variance of the population from which y[1] is drawn. Var{y[1]} = 4. 
+
+Thus, for a single observation, y[1], in a probability experiment, we say that its expected value is the mean of the population from which it comes and its variance is the variance of the population from which it comes. When we give the expected value and variance of a single observation, we are actually referring to conceptual values that would occur if the experiment were repeated many times. 
+
+Now, consider a probability experiment in which two values, y[1] and y[2], are drawn at random, and independent of each other, from a population with mean 10 and variance 4.
+ 
+
+Expected value of y[1] : E{y[1]} = 10, the mean of the population.
+Variance of y[1] : Var{y[1]} = 4, the variance of the population. 
+Expected value of y[2] : E{y[2]} = 10, the mean of the population.
+Variance of y[2] : Var{y[2]} = 4, the variance of the population. 
+
+If y[1] and y[2] are selected at random and independently of each other, there should be no covariance between them; Cov{y[1],y[2]} = 0. 
+
+Suppose, however, that we divide the original population into two groups - putting all of the high values in group 1 and all of the low values in group 2. Further, suppose that this grouping results in a variance among group means of 3, and an average variance within each of the two groups of 1; thus, Va = 3 and Vw = 1. 
+
+Now, consider a probability experiment where sampling is restricted so that y[1] and y[2] must both come from the same group. We could choose y[1] at random and then select y[2] at random from the same group from which we selected y[1]. With this restriction, high values of y[1] will be associated with high values of y[2], and low values of y[1] will be associated with low values of y[2]. The two observations will have a positive covariance! 
+
+If m[1] is the mean of group 1 and m[2] is the mean of group 2, then, on average, whenever y[1] and y[2] are chosen from group 1, they will have means of m[1]. Likewise, when they are both chosen from group 2, they will have means of m[2]. For this reason, their covariance will merely be the variance of groups means; Va = 3. 
+
+With this particular type of probability experiment,
+E{y[1]} = 10
+Var{y[1]} = 4
+E{y[2]} = 10
+Var{y[2]} = 4
+Cov{y[1],y[2]} = 3
+
+In specifying models for statistical analysis, the data analyst must specify an expected value for every possible observation, a variance for every possible observation, and covariances between every pair of possible observations. 
+
+EXAMPLES OF MODELS 
+
+Example 1 : One-way analysis of variance (Completely Random Design)
+ 
+
+* n[1] random observations, y[1j], from population 1 with mean 10 and variance 4. 
+* n[2] random observations, y[2j], from population 2 with mean 15 and variance 6. Model : 
+* E{y[1j]} = 10 
+* E{y[2j]} = 15 
+* Var{y[1j]} = 4 
+* Var{y[2j]} = 6 
+* Cov{y[1j],y[1j']} = 0; j not equal j' 
+* Cov{y[2j],y[2j']} = 0; j not equal j' 
+* Cov{y[1j],y[2j']} = 0; all j,j' 
+NOTE : Usual models do not include heterogeneous errors among treatments. 
+
+Example 2 : Two-way analysis of variance (Randomized block design) 
+
+* r observations, y[1j], from population 1 with mean 10 and variance 4 
+* r observations, y[2j], from population 2 with mean 15 and variance 4 
+* observations grouped by block; variance among blocks = 3 Model : 
+* E{y[1j]} = 10 
+* E{y[2j]} = 15 
+* Var{y[ij]} = 4 for i = 1 or 2 and all j 
+* Cov{y[1j],y[2j']} = 3 for j = j'; 0 otherwise 
+NOTE : Most textbooks consider block differences to be fixed so that Var{y[ij]} is specified as variance within blocks (4 - 3 = 1); and all covariances are assumed to equal zero. 
+
+Example 3 : Simple linear regression 
+
+* one observation from population 1 with mean 2 + 2(0.7) and variance 5 
+* one observation from population 2 with mean 2 + 3(0.7) and variance 5 
+* one observation from population 3 with mean 2 + 5(0.7) and variance 5 
+* one observation from population 4 with mean 2 + 10(0.7) and variance 5 Model : 
+* E{y[i]} = 2 + 0.7X where X = 2, 3, 5 or 10 
+* Var{y[i]} = 5 for i = 1, 2, 3 or 4 
+* Cov{y[i],y[i']} = 0 for i not equal i' 
+
+---------------------------------------------------------------------
+Proceed to discussion of Mixed Model [Alt+M]
+Return to Table of contents [Alt+T] 

@@ -1,0 +1,164 @@
+re: msmsgs.exe Sunday, November 2, 2003 at 12:17 pm Windows XP Annoyances Discussion Forum Posted by anon [ find other messages by anon ] I found this info on this web page: http://www.reger24.de/prozesse/msmsgs.exe.html How to uninstall msmsgs.exe (found in microsoft.public.windowsxp.general): 1) Stop it (right click on systray icon and select Exit) 2) Open a Command prompt (Start --> Run... --> cmd) 3) Type in rundll32 advpack.dll,LaunchINFSection %windir%\INF\msmsgs.inf,BLC.Remove 4) This worked on a WinXP system with SP1 and Office XP Standard installed On Friday, August 1, 2003 at 2:51 am, Dave wrote: >How do I stop Windows Messenger from loading to run in the background each time I >start Windows XP? If I use Task Manager to end the (msmsgs.exe) process, it comes >right back in a few moments. Written in response to: msmsgs.exe (Dave: Friday, August 1, 2003 at 2:51 am) There are presently no replies to this message. All messages in this thread [ show all ] msmsgs.exe (Dave: Friday, August 1, 2003) re: msmsgs.exe (Bob Cerelli: Friday, August 1, 2003) re: msmsgs.exe (Dave: Friday, August 1, 2003) re: msmsgs.exe (Mike Stepansky: Thursday, September 18, 2003) re: msmsgs.exe Port 1900 (DDK: Saturday, September 20, 2003) re: msmsgs.exe Port 1900 (Mete: Friday, October 31, 2003) re: msmsgs.exe Port 1900 (Jeruvy: Wednesday, December 31, 2003) re: msmsgs.exe Port 1900 (TAWNY: Tuesday, January 13, 2004) re: msmsgs.exe (Barbara: Friday, January 9, 2004) re: msmsgs.exe (robert tan: Monday, January 12, 2004) re: msmsgs.exe (Barbara: Monday, January 12, 2004) re: msmsgs.exe (Barbara: Monday, January 12, 2004) re: msmsgs.exe (Ed: Saturday, January 17, 2004) re: msmsgs.exe (martin: Sunday, January 18, 2004) re: msmsgs.exe (Barbara: Monday, January 19, 2004) re: msmsgs.exe (martin: Monday, January 19, 2004) re: msmsgs.exe (Jeff: Friday, August 1, 2003) re: msmsgs.exe (Adam Bradley: Friday, August 1, 2003) re: msmsgs.exe (Ron: Tuesday, August 12, 2003) re: msmsgs and firewall (Ammo: Thursday, August 21, 2003) re: msmsgs and firewall (JOse: Tuesday, September 9, 2003) re: msmsgs.exe (anonymous: Saturday, August 16, 2003) re: msmsgs.exe (Dave: Saturday, August 16, 2003) re: msmsgs.exe (internet user: Friday, September 12, 2003) re: msmsgs.exe (Tone: Monday, August 18, 2003) re: msmsgs.exe (mark: Tuesday, August 19, 2003) How to disable msmsgs.exe (bbb: Thursday, August 21, 2003) re: How to disable msmsgs.exe (bbb: Thursday, August 21, 2003) re: How to disable msmsgs.exe (budwiizer: Sunday, August 31, 2003) re: How to disable msmsgs.exe (Thankful: Tuesday, September 9, 2003) re: How to disable msmsgs.exe (a01hjd: Tuesday, October 21, 2003) re: msmsgs.exe (methegrate: Thursday, August 21, 2003) re: msmsgs.exe - this was the fix!! (fuol: Friday, October 3, 2003) re: msmsgs.exe - this REALLY was the fix!! (Gastric: Tuesday, October 28, 2003) re: msmsgs.exe - this REALLY was the fix!! (BillFinkRI: Tuesday, December 16, 2003) re: msmsgs.exe - this REALLY was the fix!! (wb: Sunday, December 28, 2003) re: msmsgs.exe (carlos: Thursday, October 16, 2003) re: msmsgs.exe (Paul: Friday, November 7, 2003) re: msmsgs.exe (Yonatan: Wednesday, December 31, 2003) re: msmsgs.exe (Anon: Saturday, January 3, 2004) re: msmsgs.exe (ezywoo: Sunday, January 18, 2004) re: msmsgs.exe (Raphael: Friday, January 23, 2004) re: msmsgs.exe (Nazir: Tuesday, August 19, 2003) re: msmsgs.exe (donganos: Friday, December 26, 2003) re: msmsgs.exe (RZ150XM: Tuesday, September 2, 2003) re: msmsgs.exe (checkon: Wednesday, September 3, 2003) re: msmsgs.exe (Jyothi: Wednesday, September 10, 2003) re: msmsgs.exe and Outlook (John Welch: Thursday, September 11, 2003) re: msmsgs.exe and Outlook (john: Thursday, September 11, 2003) re: msmsgs.exe and Outlook (Mr A.: Friday, September 12, 2003) re: msmsgs.exe and Outlook (Martin: Tuesday, September 16, 2003) re: msmsgs.exe and Outlook (me: Monday, January 5, 2004) re: msmsgs.exe and Outlook (Scott: Saturday, November 15, 2003) re: msmsgs.exe (Mark: Friday, October 10, 2003) re: msmsgs.exe (Karl Kemerait: Friday, October 31, 2003) re: msmsgs.exe (mario: Sunday, November 2, 2003) re: msmsgs.exe (anon: Sunday, November 2, 2003) re: msmsgs.exe (Webwoef: Tuesday, November 4, 2003) re: msmsgs.exe (Andy Radtke: Tuesday, November 4, 2003) re: msmsgs.exe (ALL The info u need: Monday, November 24, 2003) re: msmsgs.exe (Mike: Tuesday, December 2, 2003) re: msmsgs.exe (steve crouch: Tuesday, January 6, 2004) re: msmsgs.exe (Jose Morales: Tuesday, January 13, 2004) Reply to this message Search this forum Find my most recent posts Post a new message Report abuse of the forum Return to the Windows XP Discussion Forum All content at Annoyances.org is Copyright © 1995-2004 Creative Element tm All rights reserved. Please do not plagiarize; redistributing these pages without permission is strictly prohibited.   -->  
+   
+     
+       	       	   
+    Home » Windows XP Discussion Forum » Message 1067804274        	         Search | Help | Home        	  
+  	 
+ 	 
+    
+           
+       
+     Get the Book     	    
+     
+Creative Element Power Tools          	   
+   	  
+  
+         
+       
+     Articles      	     
+         
+* Getting Started      
+     
+* Registry Tips      
+     
+* Software      
+     
+* Books      
+     
+     
+* Using Windows      
+     
+* Customizing      
+     
+* Annoyances      
+     
+* Networking      
+     
+* Reducing Clutter      
+     
+* Performance      
+     
+* Troubleshooting      
+     
+* Applications      
+     
+* Humor      
+     
+* FAQ          	   
+   	  
+  
+         
+       
+    Discussion Forum     	    
+             
+* Windows XP      
+     
+* Windows Me      
+     
+* Windows 2000      
+     
+* Windows 98      
+     
+* Windows 95          	   
+   	  
+  
+          
+        	        	  
+       
+     re: msmsgs.exe 
+Sunday, November 2, 2003 at 12:17 pm
+Windows XP Annoyances Discussion Forum 
+Posted by anon   [find other messages by anon]           
+
+I found this info on this web page: http://www.reger24.de/prozesse/msmsgs.exe.html How to uninstall msmsgs.exe (found in microsoft.public.windowsxp.general): 1) Stop it (right click on systray icon and select Exit) 2) Open a Command prompt (Start --> Run... --> cmd) 3) Type in rundll32 advpack.dll,LaunchINFSection %windir%\INF\msmsgs.inf,BLC.Remove 4) This worked on a WinXP system with SP1 and Office XP Standard installed 
+
+On Friday, August 1, 2003 at 2:51 am, Dave wrote:
+>How do I stop Windows Messenger from loading to run in the background each time I 
+>start Windows XP? If I use Task Manager to end the (msmsgs.exe) process, it comes 
+>right back in a few moments. 
+
+Written in response to: 
+msmsgs.exe (Dave: Friday, August 1, 2003 at 2:51 am) 
+
+There are presently no replies to this message. 	
+
+All messages in this thread [show all]   
+msmsgs.exe (Dave: Friday, August 1, 2003)   
+re: msmsgs.exe (Bob Cerelli: Friday, August 1, 2003)   
+re: msmsgs.exe (Dave: Friday, August 1, 2003)   
+re: msmsgs.exe (Mike Stepansky: Thursday, September 18, 2003)   
+re: msmsgs.exe Port 1900 (DDK: Saturday, September 20, 2003)   
+re: msmsgs.exe Port 1900 (Mete: Friday, October 31, 2003)   
+re: msmsgs.exe Port 1900 (Jeruvy: Wednesday, December 31, 2003)   
+re: msmsgs.exe Port 1900 (TAWNY: Tuesday, January 13, 2004)   
+re: msmsgs.exe (Barbara: Friday, January 9, 2004)   
+re: msmsgs.exe (robert tan: Monday, January 12, 2004)   
+re: msmsgs.exe (Barbara: Monday, January 12, 2004)   
+re: msmsgs.exe (Barbara: Monday, January 12, 2004)   
+re: msmsgs.exe (Ed: Saturday, January 17, 2004)   
+re: msmsgs.exe (martin: Sunday, January 18, 2004)   
+re: msmsgs.exe (Barbara: Monday, January 19, 2004)   
+re: msmsgs.exe (martin: Monday, January 19, 2004)   
+re: msmsgs.exe (Jeff: Friday, August 1, 2003)   
+re: msmsgs.exe (Adam Bradley: Friday, August 1, 2003)   
+re: msmsgs.exe (Ron: Tuesday, August 12, 2003)   
+re: msmsgs and firewall (Ammo: Thursday, August 21, 2003)   
+re: msmsgs and firewall (JOse: Tuesday, September 9, 2003)   
+re: msmsgs.exe (anonymous: Saturday, August 16, 2003)   
+re: msmsgs.exe (Dave: Saturday, August 16, 2003)   
+re: msmsgs.exe (internet user: Friday, September 12, 2003)   
+re: msmsgs.exe (Tone: Monday, August 18, 2003)   
+re: msmsgs.exe (mark: Tuesday, August 19, 2003)   
+How to disable msmsgs.exe (bbb: Thursday, August 21, 2003)   
+re: How to disable msmsgs.exe (bbb: Thursday, August 21, 2003)   
+re: How to disable msmsgs.exe (budwiizer: Sunday, August 31, 2003)   
+re: How to disable msmsgs.exe (Thankful: Tuesday, September 9, 2003)   
+re: How to disable msmsgs.exe (a01hjd: Tuesday, October 21, 2003)   
+re: msmsgs.exe (methegrate: Thursday, August 21, 2003)   
+re: msmsgs.exe - this was the fix!! (fuol: Friday, October 3, 2003)   
+re: msmsgs.exe - this REALLY was the fix!! (Gastric: Tuesday, October 28, 2003)   
+re: msmsgs.exe - this REALLY was the fix!! (BillFinkRI: Tuesday, December 16, 2003)   
+re: msmsgs.exe - this REALLY was the fix!! (wb: Sunday, December 28, 2003)   
+re: msmsgs.exe (carlos: Thursday, October 16, 2003)   
+re: msmsgs.exe (Paul: Friday, November 7, 2003)   
+re: msmsgs.exe (Yonatan: Wednesday, December 31, 2003)   
+re: msmsgs.exe (Anon: Saturday, January 3, 2004)   
+re: msmsgs.exe (ezywoo: Sunday, January 18, 2004)   
+re: msmsgs.exe (Raphael: Friday, January 23, 2004)   
+re: msmsgs.exe (Nazir: Tuesday, August 19, 2003)   
+re: msmsgs.exe (donganos: Friday, December 26, 2003)   
+re: msmsgs.exe (RZ150XM: Tuesday, September 2, 2003)   
+re: msmsgs.exe (checkon: Wednesday, September 3, 2003)   
+re: msmsgs.exe (Jyothi: Wednesday, September 10, 2003)   
+re: msmsgs.exe and Outlook (John Welch: Thursday, September 11, 2003)   
+re: msmsgs.exe and Outlook (john: Thursday, September 11, 2003)   
+re: msmsgs.exe and Outlook (Mr A.: Friday, September 12, 2003)   
+re: msmsgs.exe and Outlook (Martin: Tuesday, September 16, 2003)   
+re: msmsgs.exe and Outlook (me: Monday, January 5, 2004)   
+re: msmsgs.exe and Outlook (Scott: Saturday, November 15, 2003)   
+re: msmsgs.exe (Mark: Friday, October 10, 2003)   
+re: msmsgs.exe (Karl Kemerait: Friday, October 31, 2003)   
+re: msmsgs.exe (mario: Sunday, November 2, 2003)   
+re: msmsgs.exe (anon: Sunday, November 2, 2003)   
+re: msmsgs.exe (Webwoef: Tuesday, November 4, 2003)   
+re: msmsgs.exe (Andy Radtke: Tuesday, November 4, 2003)   
+re: msmsgs.exe (ALL The info u need: Monday, November 24, 2003)   
+re: msmsgs.exe (Mike: Tuesday, December 2, 2003)   
+re: msmsgs.exe (steve crouch: Tuesday, January 6, 2004)   
+re: msmsgs.exe (Jose Morales: Tuesday, January 13, 2004) 	
+
+* Reply to this message 
+
+* Search this forum 
+* Find my most recent posts 
+* Post a new message 
+
+* Report abuse of the forum 	
+Return to the Windows XP Discussion Forum     	   
+   	  
+ 
+
+All content at Annoyances.org is Copyright © 1995-2004 Creative Elementtm All rights reserved. 
+Please do not plagiarize; redistributing these pages without permission is strictly prohibited. 
+
+

@@ -1,0 +1,64 @@
+
+
+Home	
+
+VLC Media Player	
+
+Streaming	
+
+Documentation	
+
+Support	
+
+Developers	
+
+Download	
+
+Features	
+
+Screenshots	
+
+Skins	
+
+Download skin	
+
+Main site (VIA)
+ 
+Mirror site (Zoy)
+ 
+
+VLC media player 
+
+VLC - the cross-platform media player and streaming server
+
+VLC (initially VideoLAN Client) is a highly portable multimedia player for various audio and video formats (MPEG-1, MPEG-2, MPEG-4, DivX, mp3, ogg, ...) as well as DVDs, VCDs, and various streaming protocols. It can also be used as a server to stream in unicast or multicast in IPv4 or IPv6 on a high-bandwidth network. 
+
+Features
+
+For more information about what features are supported on your operating system, please see the full features list. You can also have a look at some VLC screenshots. 
+
+Download VLC
+
+Select your operating system to download precompiled binaries: 
+
+ Windows 	 Mac OS X 	 BeOS 	
+ Debian GNU/Linux 	 Mandrake Linux 	 Red Hat Linux 	
+ Familiar Linux 	YOPY/Linupy 	Zaurus 	
+
+For the other operating systems supported, there are no precompiled binaries. You will have to get the source code for VLC and its required libraries and build them yourself:
+
+ NetBSD 	 OpenBSD 	 FreeBSD 	
+ Solaris 	 QNX 	 Gentoo Linux 	
+
+You can also directly get the source code:
+
+ Source code 			
+
+Documentation
+
+Document	 Status	 Download	 
+VLC user guide	 Up-to-date	 English French 	
+VideoLAN FAQ	 Up-to-date	 English French German Italian Spanish 	
+
+VideoLAN  -  See the statistics  -  $Id: index.html,v 1.75 2004/01/12 17:08:00 kuehne Exp $ 	valid XHTML 1.1 & CSS 	
+

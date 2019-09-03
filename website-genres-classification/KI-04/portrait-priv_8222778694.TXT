@@ -1,0 +1,67 @@
+
+
+Florian Weimer's Home Page
+
+Florian WeimerPoppenweilerstraÃe 1370439 Stuttgartfw@deneb.enyo.de (other addresses)OpenPGP Keys
+
+Resources
+
+* 
+
+Computer Security
+
+* 
+
+Hardware Toys
+
+* 
+
+OpenPGP
+
+* 
+
+Script Collection
+
+* 
+
+Software Toys
+
+Some documents have not been sorted and appear on a separate page (which is rather funny because most of the categories contain only a single document anyway, at least for the moment).
+
+Recent Changes
+
+* 
+
+How to Download Software With GNU arch(published 2003-12-14)
+
+GNU arch is a version control system which is also suitable for software distribution. This memo describes how you can obtain software from the archives stored at arch.enyo.de. 
+
+* 
+
+doscan(published 2003-07-30, updated 2003-11-30)
+
+Version 0.2.5 released.
+
+* 
+
+Running GNU/Linux on the IBM ThinkPad T40p(published 2003-11-16)
+
+This page collects some information about the GNU/Linux installation on my T40p notebook. 
+
+* 
+
+bgpdns(published 2003-03-30, updated 2003-09-28)
+
+The testbed is operational again. A Perl script to query the testbed service is provided. 
+
+* 
+
+Script Collection(published 2002-02-17, updated 2003-09-22)
+
+Script to convert nnmlto maildirfolders added. 
+
+---------------------------------------------------------------------
+
+Florian WeimerHome Security Software Hardware Impressum 
+
+

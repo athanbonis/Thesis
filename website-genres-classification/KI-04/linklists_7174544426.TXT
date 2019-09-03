@@ -1,0 +1,178 @@
+GNU programs for OS/2 --> GNUish VMS GNUish utilities for DOS GNU programs for the Amiga and BeOS GNU programs for the Atari --> GCC for Microsoft operating systems --> GNU/Linux for AMD's new x86-64 architecture. Collections of free software DJ Delorie's site . GNU Emacs Lisp FTP archive at Ohio State Reuse RKT is an index of free software listings. The FreeDOS Project (A free version of DOS) Uninet Free Perl Scripts Other Free Software Dynebolic , The instant bootable GNU/Linux GNU Darwin ICOT Free Software ReactOS , a free replacement for Windows NT (not yet finished) Free Software Documentation Note that documentation at these sites may be older then the latest ones distributed by the FSF. GNUjdoc is a central archive of Japanese translations of GNU documents. GNU Pascal manual --> GNU Manuals at delorie.com GNU manuals at cl.cam.ac.uk --> A Collection of User Guides for Popular Software Packages (CSUWEB) Postscript Versions of GNU Manuals Reuse RKT provides links to FAQs, standards and references. Unofficial GNU Sites Trent's pages A GNU page in Czech Organizations related to free software GNU Spain Belgeler.org - A very compherensive Turkish Translation project including philosophical writings about Free Software APRIL European Software Patent Horror Gallery FFII: Protecting Information Innovation against the Abuse of the Patent System Mutopia collects and distributes free music, and information about free music. Public Library of Science organizes support for online public libraries of science. OpenCores.Org is a repository of open source, free IP synthesizable blocks and supplemental prototype boards. The Free Model Foundry - for electrical engineers, free simulation models of digital components. Archives of the Free Software Business mailing list Czech Free Software Foundation Association For a Free Informational Infrastructure (FFII) Malaysian Open Source Software Organisation SEUL-EDU The educational interest section of the Simple End User Linux site. Removed because they promote non-free software --> Brazilian Linux Club Removed because link was dead, 2000 Dec 13, paulv --> OpenCode Open Source Initiative FreeGIS Project Translation Project OFSET - The Organization for Free Software in Education and Teaching. Openroot --> FSF Europe , Free Software Foundation Europe. FSF France , Free Software Foundation France. FSF India , the Indian branch of the FSF. FSF China , the Chinese branch of the FSF. --> CIPSGA Free Software Consortium Sites about the use and development of free software This list tracks a broad spectrum of free software uses, particularly in government. gnuino.org - a Spanish introduction to free software. Companies that support free software development, and exclusively free software development. Solis Coop (partly in Portuguese) Ada Core Technologies Cendio Systems AB Wingnut Project (in Japanese) PROSA (partly in italian) Copyleft Cool Screen --> Intevation GmbH Organizations that Work for Freedom in Computer Development and Electronic Communications NY Fair Use NY Fair Use is digital freedom advocacy group lobbying for the Free Software Usage in government. openrevolt.org This site is devoted to providing information about the European Copyright Directive and similar legislation. This site concentrates on the two principal problems of the EUCD from a computer user's perspective: the ``Takedown'' Clause, which makes it easier for copyright holders to censor webpages on ISPs, and the Anti-Circumvention Clauses, which give legal protection to copy-protection measures, and in the process compromise public policy goals in copyright itself, human rights, competition policy and hinder academic research. OpenCores The OpenCores project exists to further the aims of the Open IP Core definition, which includes the following tenets: Information on using the hardware must be available. The design of the hardware must be available. Design software for hardware must be available. chillingeffects.org Chilling Effects is a collection point for cease and desist notices concerning online activity -- we invite visitors to enter C&Ds they have received or sent. The website collects the C&Ds in a searchable database and hyperlinks them to explanations of the legal issues. freedmitry.org freedmitry.org has several links to resources regarding the case of Dmitry Sklyarov. Sklyarov is a Russian programmer who was arrested upon coming to the United States with the intent to give a presentation about the flaws in Adobe's e-book encryption. For more information about this case, and how it could seriously damage programming freedoms, see this interview with Lawrence Lessig. --> The League for Programming Freedom The League for Programming Freedom is an organization that opposes software patents and user interface copyrights. Free Protocols Foundation The Free Protocols Foundation (FPF) is an independent public forum, dedicated to the support of patent-free protocols. Electronic Frontier Foundation EFF, the Electronic Frontier Foundation, is a non-profit, non-partisan organization working in the public interest to protect fundamental civil liberties, including privacy and freedom of expression, in the arena of computers and the Internet. Electronic Privacy Information Center EPIC is a public interest research center in Washington, D.C. It was established in 1994 to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. Computer Professionals for Social Responsibility CPSR is a public-interest alliance of computer scientists and others concerned about the impact of computer technology on society. We work to influence decisions regarding the development and use of computers because those decisions have far-reaching consequences and reflect our basic values and priorities. American Civil Liberties Union The American Civil Liberties Union is the nation's foremost advocate of individual rights -- litigating, legislating, and educating the public on a broad array of issues affecting individual freedom in the United States. Global Internet LibertyCampaign The GILC comprises of members from American Civil Liberties Union, the Electronic Privacy Information Center, Human Rights Watch, the Internet Society, Privacy International, the Association des Utilisateurs d'Internet, and other civil liberties and human rights organizations. They advocate the prohibition of censorship of on-line communication, and insist that on-line free expression should not be restricted by indirect means such as excessively restrictive governmental or private controls over computer hardware or software, telecommunications infrastructure, or other essential components of the Internet. FreeDevelopers.net FreeDevelopers is a democratic entity for the development of free software. The free company, probably the first of its kind in the world, will be owned and run by developers worldwide on a democratic basis in a sacred trust for the benefit and protection of the world's citizens. It will pay all developers to work on free software, and all developers will receive company shares and stock options, also. All software of the free company will be licensed under the General Public License (GPL) and remain free/open forever, because all software must be available to all current and future generations of developers, so that they can be the first line of defense to protect the world from the inevitable tyrannical tendencies of proprietary software. Glass Watchdog Glass Watchdog is a website dedicated to covering free software solutions for civil society in cyberspace, with information about upcoming events, advocacy, how-tos, news articles, and more. Return to GNU's home page . FSF & GNU inquiries & questions to gnu@gnu.org . Other ways to contact the FSF. Comments on these web pages to webmasters@gnu.org , send other questions to gnu@gnu.org . Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003 Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved. Updated: $ Date: 2003/11/14 11:23:04 $ $ Author: jpw $   --> 
+
+Links to Other Free Software Sites
+
+[ English | French | Portuguese | Spanish ] 
+
+To help promote knowledge of free software that isn't GNU software distributed by the FSF, we have collected the following links to other web sites that contain free software, or is directly related to the issue of free software. 
+
+We do not have links to web sites of the well-known GNU/Linux system distributions, or to the well-known BSD system distributions, because all those sites explicitly describe, and facilitate access to, various non-free programs. 
+
+The FSF is not responsible for the content of other web sites, or how up-to-date their content is. 
+
+---------------------------------------------------------------------
+
+Table of Contents
+
+* Ports of GNU software 
+* Collections of free software 
+* Other Free Software 
+* Free Software Documentation 
+* Unofficial GNU Sites 
+* Organizations related to free software 
+* Sites about the use and development of free software 
+* Companies that support free software development, and exclusively free software development 
+* Organizations that Work for Freedom in Computer Development and Electronic Communications 
+
+---------------------------------------------------------------------
+
+Ports of GNU software
+
+* GNUish VMS 
+* GNUish utilities for DOS 
+* GNU programs for the Amiga and BeOS  
+* GNU/Linux for AMD's new x86-64 architecture. 
+
+Collections of free software
+
+* DJ Delorie's site. 
+* GNU Emacs Lisp FTP archive at Ohio State 
+* Reuse RKT is an index of free software listings. 
+* The FreeDOS Project (A free version of DOS) 
+* Uninet Free Perl Scripts 
+
+Other Free Software 
+
+* Dynebolic, The instant bootable GNU/Linux 
+* GNU Darwin 
+* ICOT Free Software 
+* ReactOS, a free replacement for Windows NT (not yet finished) 
+
+Free Software Documentation 
+
+Note that documentation at these sites may be older then the latest ones distributed by the FSF. 
+
+* GNUjdoc is a central archive of Japanese translations of GNU documents. 
+* GNU Manuals at delorie.com 
+* A Collection of User Guides for Popular Software Packages (CSUWEB) 
+* Postscript Versions of GNU Manuals 
+* Reuse RKT provides links to FAQs, standards and references. 
+
+Unofficial GNU Sites 
+
+* Trent's pages 
+* A GNU page in Czech 
+
+Organizations related to free software 
+
+* GNU Spain 
+* Belgeler.org - A very compherensive Turkish Translation project including philosophical writings about Free Software 
+* APRIL 
+* European Software Patent Horror Gallery 
+* FFII: Protecting Information Innovation against the Abuse of the Patent System 
+* Mutopia collects and distributes free music, and information about free music. 
+* Public Library of Science organizes support for online public libraries of science. 
+* OpenCores.Org is a repository of open source, free IP synthesizable blocks and supplemental prototype boards. 
+* The Free Model Foundry - for electrical engineers, free simulation models of digital components. 
+* Archives  of the Free Software Business mailing list 
+* Czech Free Software Foundation 
+* Association For a Free Informational Infrastructure (FFII) 
+* Malaysian Open Source Software Organisation 
+* OpenCode 
+* Open Source Initiative 
+* FreeGIS Project 
+* Translation Project 
+* OFSET - The Organization for Free Software in Education and Teaching. 
+* FSF Europe, Free Software Foundation Europe. 
+* FSF France, Free Software Foundation France. 
+* FSF India, the Indian branch of the FSF. 
+* CIPSGA 
+* Free Software Consortium 
+
+Sites about the use and development of free software
+
+* This list tracks a broad spectrum of free software uses, particularly in government. 
+* gnuino.org - a Spanish introduction to free software. 
+
+Companies that support free software development, and exclusively free software development. 
+
+* Solis Coop (partly in Portuguese) 
+* Ada Core Technologies 
+* Cendio Systems AB 
+* Wingnut Project (in Japanese) 
+* PROSA (partly in italian) 
+* Copyleft 
+* Intevation GmbH 
+
+Organizations that Work for Freedom in Computer Development and Electronic Communications 
+
+* NY Fair Use 
+
+NY Fair Use is digital freedom advocacy group lobbying for the Free Software Usage in government. 
+
+* openrevolt.org 
+
+This site is devoted to providing information about the European Copyright Directive and similar legislation. This site concentrates on the two principal problems of the EUCD from a computer user's perspective: the ``Takedown'' Clause, which makes it easier for copyright holders to censor webpages on ISPs, and the Anti-Circumvention Clauses, which give legal protection to copy-protection measures, and in the process compromise public policy goals in copyright itself, human rights, competition policy and hinder academic research. 
+
+* OpenCores 
+
+The OpenCores project exists to further the aims of the Open IP Core definition, which includes the following tenets: 
+
+* Information on using the hardware must be available. 
+* The design of the hardware must be available. 
+* Design software for hardware must be available. 
+ 
+
+* chillingeffects.org 
+
+Chilling Effects is a collection point for cease and desist notices concerning online activity -- we invite visitors to enter C&Ds they have received or sent. The website collects the C&Ds in a searchable database and hyperlinks them to explanations of the legal issues.  
+
+* The League for Programming Freedom 
+
+The League for Programming Freedom is an organization that opposes software patents and user interface copyrights. 
+
+* Free Protocols Foundation  
+
+The Free Protocols Foundation (FPF) is an independent public  forum, dedicated to the support of patent-free protocols.  
+
+* Electronic Frontier Foundation 
+
+EFF, the Electronic Frontier Foundation, is a non-profit, non-partisan organization working in the public interest to protect fundamental civil liberties, including privacy and freedom of expression, in the arena of computers and the Internet. 
+
+* Electronic Privacy Information Center 
+
+EPIC is a public interest research center in Washington, D.C. It was established in 1994 to focus public attention on emerging civil liberties issues and to protect privacy, the First Amendment, and constitutional values. 
+
+* Computer Professionals for Social Responsibility 
+
+CPSR is a public-interest alliance of computer scientists and others concerned about the impact of computer technology on society. We work to influence decisions regarding the development and use of computers because those decisions have far-reaching consequences and reflect our basic values and priorities. 
+
+* American Civil Liberties Union 
+
+The American Civil Liberties Union is the nation's foremost advocate of individual rights -- litigating, legislating, and educating the public on a broad array of issues affecting individual freedom in the United States. 
+
+* Global Internet LibertyCampaign 
+
+The GILC comprises of members from American Civil Liberties Union, the Electronic Privacy Information Center, Human Rights Watch, the Internet Society, Privacy International, the Association des Utilisateurs d'Internet, and other civil liberties and human rights organizations. They advocate the prohibition of censorship of on-line communication, and insist that on-line free expression should not be restricted by indirect means such as excessively restrictive governmental or private controls over computer hardware or software, telecommunications infrastructure, or other essential components of the Internet. 
+
+* FreeDevelopers.net 
+
+FreeDevelopers is a democratic entity for the development of free software. The free company, probably the first of its kind in the world, will be owned and run by developers worldwide on a democratic basis in a sacred trust for the benefit and protection of the world's citizens. It will pay all developers to work on free software, and all developers will receive company shares and stock options, also. All software of the free company will be licensed under the General Public License (GPL) and remain free/open forever, because all software must be available to all current and future generations of developers, so that they can be the first line of defense to protect the world from the inevitable tyrannical tendencies of proprietary software. 
+* Glass Watchdog 
+
+Glass Watchdog is a website dedicated to covering free software solutions for civil society in cyberspace, with information about upcoming events, advocacy, how-tos, news articles, and more. 
+
+---------------------------------------------------------------------
+Return to GNU's home page. 
+
+FSF & GNU inquiries & questions to gnu@gnu.org. Other ways to contact the FSF. 
+
+Comments on these web pages to webmasters@gnu.org, send other questions to gnu@gnu.org. 
+
+Copyright (C) 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003 Free Software Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111, USA 
+
+Verbatim copying and distribution of this entire article is permitted in any medium, provided this notice is preserved.
+
+Updated: $Date: 2003/11/14 11:23:04 $ $Author: jpw $ 
+---------------------------------------------------------------------
+

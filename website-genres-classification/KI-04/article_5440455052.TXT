@@ -1,0 +1,387 @@
+
+
+web hosting	 domain names	 email addresses	 			
+
+ map-ipa-2 
+
+Mapping Different Orthographies on to IPA 
+  This page was developed in response to a request received on  
+the simplified spelling mailing list  for a way to relate different 
+solutions to the alphabet problem to the Int'l Phonetic Alphabet 
+Select the orthography you want to see mapped from the list below:  map-ipa-1.html 	1.BroadRomic 
+2.Chkt Spelling 2 
+3.SaundSpel 
+4. New Spelling 
+5. ALC Fonetic 
+6.Truespel 
+7.OGD-Positional 
+8.Anjel 
+9.Unigraf      -  
+  Text samples	 
+
+The Phoneme Inventory . . .  
+
+ What are the significant speech sounds in English? 
+This is easy to visualize and remember:     12  pure  vowels 
+plus 9 diphthongs or vowel combinations:  Total 21 in RP (British BBC English) 
+What is unessential for RP (received pronunciation) may be essential for another dialect
+    By adding a few unessential combinations, it is even easier to remember as simple multiples of 6 
+. 
+6 checked, 6 unchecked, 6 diphthongs, and 6 R-combinations or shwa combinations. 
+There is no agreement on the total number of combinations.  It depends on the dialect and the number of combinations that the orthographer thinks are not self evident.  If the sound of a combination is not obvious, there may be a need to make it explicit.  The following table lists 13 bringing the total number of vowel phonemes to 25. 
+
+Vowel Phoneme Table for British English (RP) with key words 
+Three notations for the 21 essential sounds for RP English - 4x6 table 
+(Jones was searching for the minimum number of phonemes and did not include 3  listed below (with peach background)) 
+6 checked  +  6 unchecked  + 5 diphthongs + 4 ending with schwa = 21 essential vowels 
+IPA-SAMPA & Broad Romic Vowel Notation 
+   6 checked   |  6 unchecked  |  5 -6 diphthongs  |   4 - 8 with shwa 
+ Chekt - short	  Free - long	  Difthongs	  4 with schwa	 
+æ{(æ)	 a:A:(a)	 aiaI(ay)	 aca@ | aic aI@	 
+at, ax, ask,  cat	 alms, want, star  5	 eye, ice, bite	 are, care  |  ire, fire	 
+ee(e)	 c:3:()@@	 eieI(ey)	 ece@(e)	 
+edge get, elbow  3	 her, girl, urban	 ace, ape, vein	 air, care, there, barely	 
+i I( i )	 i: i:(iy)	 oi oI(oy)	 i:c I@(i)	 
+it, in, index, ill	 eel, east, very	 oil, boy, loyal	 ear, fear, deer, mere	 
+o turned aQ 	 o:o:(ao)	 ou @U(oa)	 or o@(o)	 
+ox, cot, otter	 awe, call, cost	 oh, oat, low	 for, four, floor, more	 
+u U (u)	 u: u:(uu)	  ju yU	 uc u@(u)	 
+hook, put, could	 ooze, zulu, zoo	 you, few, fuse	 your,  sure, cure	 
+^   V()	 c turned e@ 	 au aU(a)	 auc au@  au	 
+up, cut, putt	 ago, sofa, unit	 out, down	 our, flower, power	 
+ 	   The IPA turned e, turned a, and turned c are unavailable in ASCII and Latin-1 
+  The peachcolored cells are not included in the Jones/Wijk essential phoneme inventory. 
+  All checked vowels (vowels which are checked or stopped by a consonant) are short and all free vowels, with the exception of schwa in an initial position, are long.  If a vowel occurs at the end of a word, it is by definition a free vowel and does not need to be distinguished from a checked vowel. Thus "Siy may hælou" could be "Si may hælo." in BR or "Si m'y halo." in CKS 	 
+Only when the free vowel is followed by a consonant does it need to be distinguished from a closely related short vowel. 
+
+An adequate orthography for English should have a unique character assigned to 10 of the 12 pure vowels and a unique graf, digraf or trigraf for 24 of the 25 sound categories (or phonemes) listed above.  
+
+Ideally, the letters assigned to the pure vowels in the first two columns can be reused in the diphthongs and other vowel blends.   Notice that most of the variants of New Spelling below do not always reuse the pure vowels (ai=ie) 
+
+1. Broad Romic IPA notation 
+  Sample Text 2 
+
+2. Mapping of checkt spelling including consonants. Chekt Speling  Vowel Map 
+  
+
+3. Mapping of Ian's SaundSpel    Sample Text 
+
+Ian Ascott has spent over 30 years perfecting this particular IPA ASCII notation. Originally it was an augmented alphabet that used Greek letters, eg, alpha for /æ/. to provide a unique unigraph for all of the 34 pure vowels. The ASCII version (below) has one Latin-1 character, the rest of the Greek characters has been converted to a digraph or marked character. The notation includes a letter for schwa [c] but it is rarely used: eg, Dont puz hR araund. or Dont puz h3 araund. 
+
+Ian's SaundSpel is one of the few orthographies that clearly distinguishes between the 3 pronunciations of R  (r, R /3/, c). The notation adds an extra sound segment for the [long e] between [e] and [ei]. It is always possible to distinguish sounds between any two phonemes in a minimalist phoneme inventory such as the one created for broad romic. Thus [barely] is transcribed as [beeli] instead of [be@li]. 
+
+The based pronunciation for SaundSpel is RP. For a discussion of the differences beween RP and the more traditional base pronunciations, see David Kelley's page. 
+  
+Chekt	 Free	 Difthongs	 w.schwa 	 Short-chkt	 Extended	 Difthongs	  R-endings	 
+a'  9	 aa	 ai	 aac, aic	 a't  9t 	 aalmz	 aiz (eyes)	 aa (are) aic (ire)	 
+e	 R  3	 ee  |  ei	 ee  ec	 elbou	 hR (her)	 eis (ace)	 ee (air)	 
+i	 j	 oi	 ic	 it, index	 jst (east)	 oil, boy	 ic (ear)	 
+o	 oo	 ø ou 6	 oo  oc	 ox, cot	 coot (caught)	 øt (oat)	 moc (more)	 
+u	 uu	 iu	 uc	 huk, gud	 luut (lute)	 iu (you)	 piuc (pure)	 
+a	 c =	 au	 auc	 ap (up)	 cgo (ago)	 aut (out)	 auc (our)	 
+
+[IA] I wud now write 'air' as 'ee'.  [SB] I would write it as eaÂ’ or er (which amounts to the same thing)  the r can be the same. As /e:/  so er = eh-uh.  I see little justification for ee except for the fact that you say that many people can hear the difference between ehh and eh-uh.  I am going to follow Jones on this one. 
+
+SaundSpel leaves out the R when it is not pronounced in RP 
+
+[IA]  I kno that Americans sound the 'r' in 'air',  but I go for the simplest skjm posibl. John wants tu leav the r's in  tu be ignored by the non-rhotic community, whereas I ljv it out, putiq  the onus on the Scots and Americanos tu add the 'r' when impelled.something close to ei - ee (SS) e: (NF)  I sj no prob here: ei as in keik(cake), and ee as in beeli(barely)eat - iit (SS) i:t (NF) jt (SS)  For me 'j' is the simplest option. 'ii' is fiddly and 'i: ' hq tu put in  colons hinders the flow of writiqice - ais (SS) ys (NF)  We both understand my use of IFA 'ai'ire - air (SS) yr (NF) - aic (SS) ya' or aia' (NF)  I spoze I wht (will have tu) stei with aic or aia, tho I'd prefer abolishiq   the word 'ire' altugether!oat - out (SS) o't (NF)  
+
+oo for awe and  or, ee for air. 
+
+My IFA use of ou / dxou (though) yuu'l understand.or - our? ooc? (SS) or (NF) (could be o:r)  Followiq my use of 'ee' for 'air', I must use 'oo' for 'or'.  
+
+My com-  ments abov re Scots/American 'r' apply here tuu.use - iuz or juuz (SS) iuz (NF)  yuuz (verb) / yuus (noun)  
+
+loot - luut  lu:tlook - luk lu'kluck - lxk luk  luck - lak ...I agrj that my doubl yuus of 'a' is a bit haad tu teik...  there is no-one in NZ with whom tu argu it thruu with.  PS duu yuu equate ei and e: ? Let mj kno...with examples.Ian 
+
+I have experimented with equating ei with e:  This is simply a prescription e: = ei and has nothing to do with the way you may now pronounced an extended e.  This is based on the fact that many languages pronounce their EÂ’s two ways - eh and ei.  [comments by Ian Ascott, Jan, 1999] 
+
+Numbers as phonograms 
+
+Following the modest use of  phononumerals in CKS, Ian has come up with this extension 
+pure short and long vowels...finiziq wi4 (with) 4 dif7oq2 (diphthongs). 
+
+2 = TO z,   as in 2uu, niu2 (zoo, news) 
+3 = TO er, as in b3d, w3m, 3li (bird, worm, early)  3: is also used in IPA, looks something like an R 
+4 = TO dh, as in 4is, wi4, 4 (this, with, the) 
+5 = TO zh, as in me5a, a5ua (measure, azure) 
+6 = TO oh, as in k6k6, fol6 (cocoa, follow) 
+7 = TO th, as in 7ik, 7iqk, 79tz (thick, think, thatch) 
+9 = TO a,  as in f9t, k9t, at9tz (fat, cat, attach)  looks like a script a or a  turned a 
+
+tz =  TO ch, - tch:          tzip, itzi, butza  (chip, itchy, butcher) 
+d5 = TO ge, -dge, j:  d5amp, ed5i, sled5 (jump, edgy, sledge) 
+
+The problem with numeric phonograms is their inability to handle new fonts [e.g., shavian] [A] 
+IF the converted /ae/ looks nothing like a [9], then the script is without numeric representation. 
+
+---------------------------------------------------------------------
+
+         VAULS   (Vowels) ------ 12 simple vowels, saundspel notation, key words 
+  
+a 
+aa 
+
+e 
+ee 
+
+i 
+j 
+
+o 
+oo 
+
+u 
+uu 
+
+9 
+3	 kat, ma4a, wari, sam (cut, mother, worry, some) 
+kaat, faa4a, laafiq (cart, father, laughing) 
+
+feri, beli, meni (ferry, belly, many) 
+feeri, beeli, zee (fairy, barely, share) 
+
+pik, siti, likwid, risjv (pick, city, liquid, receive) 
+pjk, sjtiq, pjpl, tzjri (peak, seating, people, cheery) 
+
+kot, sori, soq, biloq (cot, sorry, song, belong) 
+koot, gloori, brood, oo (caught, glory, broad, or/oar/oar) 
+
+put, fut, zud, pudiq (put, foot, should, pudding) 
+fruut, muuv, skruu, tuu (fruit, move, screw, too/two) 
+
+m9t, 9ktiq, 9nt, fr9ntik (mat, acting, ant, frantic) 
+f3n, b3d, t3n, w3m, 3li (fern, bird, turn, worm, early) 
+
+---------------------------------------------------------------------
+
+D 
+ai 
+ei 
+oi 
+au 
+iu 
+6	 DIF7OQ2   (Diphthongs) 
+ail, fairi, ai-brau       (aisle, fiery, eye-brow) 
+eibl, rein, teibl, vein   (able, rain, table, vain/vane/vein) 
+boi, oil, oista, boiliq    (boy, oil, oyster, boiling) 
+kau, aut, haus, zaua  (cow, out, house, shower) 
+biuti, fiu, hiuma         (beauty, few, humor) 
+46, fl6, k6k6, b6t       (though, flow, cocoa, boat)	 
+
+  
+
+4. Mapping of New Spelling onto IPA   3 Sample Text 
+
+There have been various attempts to update this approach beginning in 1910 when it was circulated by Ellis under the name of Simplied Spelling.  After 1930 the most common title was New Spelling.  Walter Ripman and Walter Archer updated the notation in 1955 and published a book on the topic.  New Spelling is the basis for  Anglic (1930), WES (World English Spelling), and ALC Fonetik.  The basic difference between these notational systems is in the number and type of concessions to TO (tradtional orthography).  New Spelling used to have 11 word signs (including the, to, a, I, be, he, we, me, she) which are used over 8,000 times in 100,000 running words. In Anglic the number of word signs was extended to 42. It could be extended to the 200 most frequent words since the point is to have a way to spell unfamiliar words.  Another option is to find a system where the, me, and be are not irregular exceptions but this requires positional spelling. 
+
+The latest New Spelling 90  brochure from the Simplified Spelling Society substitutes y for /ai/.  Most versions use [ie] to index this phoneme (see SpelRiet). 
+
+The goal of New Spelling was to take one frequently used TO spelling pattern and use it consistently.  The system of orthography is easy to read for those familiar with TO.  It should be relatively easy to learn and spell.  ITA (augmented roman) was essentially New Spelling with a special font that changed digrafs into joined letters or ligatures [ ae became æ ]. 
+
+The chief failing of NS is space efficiency.  A passage in NS tends to be longer than the same passage in TO.  In NS, letter combinations are considered to be new symbols. It would be more elegant if they were blends of the sounds of component letters (ae is not ah+eh). 
+  
+Chekt	 Free	 Difthongs	 w.schwa 	 Short-chkt	 Extended	 Difthongs	  R-endings 	 
+a	 aa	 ie	 aar, ier	 at	 aalmz (alms)	 iez (eyes)	 aar (are) ier (ire)	 
+e	 eur	 ae	 er	 elboe	 heur (her)	 aes (ace)	 aer (air)	 
+i	 ee	 oi, oy	 eer	 it, index	 eest (east)	 oil, boi	 eer (ear)	 
+o	 aw	 oe	 or, oer	 ox, cot	 cawt (caut)	 oet (oat)	 moer (more)	 
+oo	 uu	 ue	 ur	 hook (hook)	 luut (lute)	 ue (you)	 puer (pure)	 
+u	 a e i u	 ou	 our	 up, but	 ugo (ago)	 out (out)	 our (our)	 
+
+Quiz 
+Sentences in New Spelling,  Broad Romik, and other systematic notations.  
+(Can you guess which is which?): 
+Thae sae it iz her faet.  Ðey sey it iz h  feyt.   Xei sei it iz h'r feit.   Thay say it is her fayt.  (click for answers) 	
+
+ List of all New Spelling phonemes including consonants 
+
+5. Mapping ALC Fonetik on to IPASample Text 
+
+Fonetic is closely related to WES (World English Spelling) which was based on Anglic and New Spelling. Fonetic is very well documented. The BTRSPL conversion dictionary contains nearly 40,000 words and the Dictionary of American Spelling contains 43,000 words in this notation. 
+
+The Fonetik table is almost identical to the one for New Spelling. However, Fonetik translations may be quite different. This is because Fonetik is less phonemic than New Spelling. Fonetik tries to minimize the differences between fonetik spelling and TO by using various devices such as logograms (sight words) and positional spelling. These compromises make the spelling less systematic and predictable but reduce the liklihood that the spelling will be unfamiliar and disturbing for those used to TO. 
+
+Positional spelling can be systematic and predictable. For example, [your highly..] can be spelled [yur hyly..]. In positional spelling, the sound of Y depends on its position in the word. In the initial position itis a consonant, in the medial position it indicates the /ai/ vowel sound, and in the terminal position it represents the /i:/ sound. 
+
+Fonetic does not have a separate symbol for the schwa and does not show stress. [ago] is spelled as if it were pronounced ah-goh (see chart). [more] is spelled as if it were pronounced /mour/. 
+  
+Chekt	 Free	 Difthongs	 w.schwa 	 Short-chkt	 Extended	 Difthongs	  R-endings	 
+a	 aa, o	 ie, i	 aar, ier	 at	 aalmz	 iez (eyes)	 aar (are) ier (ire)	 
+e	 er..	 ae, ay, a	 air, er	 elboe	 her (her)	 aes (ace)	 aer (air)	 
+i	 ee	 oi, oy	 eer, ir	 it, index	 eest (east)	 oil, boi	 eer (ear)	 
+o	 aw	 oe, o	 oer, or	 ox, cot	 cawt (caut)	 oet (oat)	 moer (more)	 
+oo	 uu	 ue, u	 ur, uer	 hook, good	 luut (lute)	 ue (you)	 puer (pure)	 
+u	 a e i u	 ou	 our	 up, but	 agoe (ago)	 out (out)	 our (our)	 
+Sample 5: Speling Reformers tipicaly wont to riet with a dicshunairy pronunsiaeshun gied rather than tradishunal English speling. Thay wont the speling sistem to be neerly 100% alfabetic insted of 40%. English speling is hard becauz thair ar too meny orthografic opshuns  
+
+6. Mapping Truespel onto IPASample Text 
+This table is based on the BTRSPL translations, not on a grapheme/phoneme correspondence chart. 
+TS does not have a separate symbol for the schwa or ng. Truespel and Troospel are closely related. 
+Both are derivitives of WES (World English Spelling) which makes the GPC table very familiar. 
+
+In tabular form, Truespel looks like ALC Fonetic. The unique aspect of TS is the use of double consonants to mark stress: dubool kaansunint leed u stresd silubool.  Fer instints thu TO werdz "desert" and "dessert".  In truespel theez wood bee speld dezert and dizzert. [CKS: desrt, dizert]. Thair iz noe reezin naat tue maek good yues uv dubool kaansunints.  Stres shood bee indikaetid in enee nue speleeng.  -Taam 5/99 
+
+Although based on the same principles, passages written in TS and Fonetic look quite different.  Truespel is the most space inefficient of all the notations displayed on this page.  To mark stress, a passage written in Truespel will be 10% longer than one written in ALC fonetic.  See: Automated Spelling Converter: 
+  
+  
+Chekt 	 Free	 Difthongs	 w.schwa	 Short-chkt	 Extended	 Difthongs	  R-endings	 
+a	 aa	 ie  i	 aar	 at	 paalm (palm)	 iez (eyes)	 ar (are) ier (ire)	 
+e	 er	 ae	 er	 elboe	 her (her)	 aes (ace)	 aer (air)	 
+i	 ee	 oi	 eer	 it, index	 eest (east)	 oil, boi	 eer (ear)	 
+aa	 au	 oe	 or	 aax, caat	 caut (caught)	 oet (oat)	 mor (more)	 
+oo	 ue	 yue	 uer	 huuk, guud	 luet (lute)	 yue (you)	 yuer (your)	 
+u	 a e i o	 ou	 our	 up, but	 uggoe (ago)	 out (out)	 our (our)	 
+ Sample 6: Speleeng reformers tipikoollee waant tue riet withh u dikshunairee prununseeyyaeshun giede rather than truddishunool Eenglish speleeng. Thae waant thu speleeng sistem tue bee neerlee 100% alfubbetikool instted uv 40%. Eenglish speleeng iz haard beekkuz thair aar tue menee orthografik opshunzns.  
+
+see RES 
+7. Mapping of OGD Restored English Spelling onto IPA   (by John Reilly)   Sample Text 7 
+
+This nu noataytion is wun ov the beter sceems a'round. Thair ar stil a fiu ambigiuities tu be werked out. Moast ov the problems are relayted tu incorporayting morfemic speling:  plurals=s [munky-munkees]  past=ed  [cairy-caireed]  
+The isiu on plurals is wether the s ending counts as a consonant.  If so, munkys wuud not be a lejitimat speling and wuid hav tu be converted tu munkees.  
+
+Since TO is a grafo-morfeemic sistem of speling, so is OGD positional speling.  
+
+The notaytion dus not employ the majic-e or dubl consonants as short vowel (voul) markers.  
+In a rscent Speling Sosyity Jurnal articl, it was observd that Cut Speling ofen reprodooses Midl Inglish forms. Eeven wen respelings ar novl,  the sceems that produess them ar jeneraly just reaserting prinsipels that wer part ov Inglish ortthografy frum its inseption, but that becaim obsciured in erly modern tyms.  OGD is a sistematic form of cut speling which contrains the number of orthografic options for a particiular sound (or foneem) tu three or less.  
+
+The foloweeng is an atempt to condenss all the rools for positional speling into a singl chart. John Reilly is of the opinion that tu charts ar required, won for singl silabl werds and won for multisilaabic werds.  
+
+Letrs such as Y and W cuud posibly mark silabl boundarees as in OYster.  Stress is normaly falls on the penultimat silabl. Not every combyned voul operayts exactly the saim way.  
+  
+ OGD Positions  OGD spelling depends on the position of the sound in the word 
+1. Initial letter of an initial syllable (-alone), ,     2. before a consonant,     3. at the end of word or syllable 
+Chekt	  Free	 Diphthongs	 with -r	 
+- a - /æ/	 oaa, o   aa, ah	 i-     i-e   y      y  ye	 araar |  ier  ire	 
+AT, AL, PAT 	alms-oms, waant-wont	 ice-iess, eye-ie, like-lyk,  my-my	 are-ar, CAR  |  ire-ier, fyr	 
+- e -	 ur     er     er	 ay-   ai     ay	 airayrer	 
+edge-ej, PET 	URBAN, bird-berd, HER 	ace-aiss, aip, MAIL, faze-faiz, MAY 	AIR, there-thair, swair, bair, FAIR 	
+- i -	 ea     ee     e-y	 oy/oi  - oi     oy	 eer earir	 
+IT, pijen, PIT 	eat, neet, ME, VERY 	OY-STER, BOIL, loyal-loil, BOY 	EAR, fear- feer, speer, neer 	
+- o -	 aw-all    au    aw	 o-    oa       o	 or awr	 
+OX, POT	 all, hauk, caust, paw	 obey-obay, OAT, boal, silo-sylo, 	 OR, soar -sor, ore-or, four-for, flor	 
+- ui -	 oo     oo      u	 u-  iu      iu	 oor  |  iur	 
+hook-huik, puit	 ooz, POOL,  zulu, do-du	 UNIT, use-iuss, you-u, suit-siut	 pour-poor, tour-toor | your-iur, fiury	 
+- u  -	 a'   aeiou    a-e	 o-   u      ow	 our ower	 
+UP, CUP, put	 a'go, u'nder, SOFA,THE	 OUTer, house-houss, NOW, COW 	 OUR, FLOUR,  flower-flour	 
+ consonants	 THE  o'ther  tthin  witth 	z    z    s 	s    s    ss 	
+pl=s, past=ed 	us-u'ss, sofa, fiesta, o'ther 
+what- whaat- wot, of-ov 	zoo-zu, froze-froaz, nose-nos, does-dus, BEERS, tears-teers 	SO, use-iuss, deuce-dooss, moose-mooss, mice-myss 	
+ ©1999 BETA  OGD words that match TO are in caps	 
+ Grafic version 
+The schwa sound could be marked with a schwapostrophe to reduce ambiguity. a'go, u'nder, u-nity  
+The shwaa sound cwd be marked with a' shwapostrofe tu re'dooss ambigiuity. 
+X 5wa saund cu.d bi markt with a' 5wapostrofi tu ridus ambigiuiti. 
+
+8. Mapping of ANJeL onto IPASample Text 8 
+The ANJel notation has been optimized for video captions on television screens. Notice that there are no characters with descenders [gqpy] because the descenders are short, only one pixel wide, and almost invisible in video captions. The system represents 9 of the 12 pure vowels with unique characters. [aa, o, and o:] are merged into a single phoneme which is represented with an x. [Shwa and 3:] are both rerpresented with [r]. U is used for /^/ and shwa: [apple/ aPUL]. The diphthongs or vowel blends are all represented with a single letter. The most frequently used letters are displayed in upper case. The small u is not used. Instead m and k are used for the other U vowels. 
+  
+Chekt	 Free	 Difthongs	 w.schwa 	 Short-chkt	 Extended	 Difthongs	  R-endings	 
+a	 x	 I	 xr, Ir	 aT	 xLMZ (alms)	 IZ (eyes)	 xr (are) Ir (ire)	 
+e	 r	 A	 er	 eLBX	 HR (her)	 AS (ace)	 er (air)	 
+i	 E	 b	 ir, Er	 iT (it)	 EST (east)	 bL (oil) 	 Er (ear)	 
+x	 x	 X	 Xr	 xKS (ox)	 CxT (caught)	 XT (oat)	 MXr (more)	 
+m	 k	 Yk	 kr	 HmK (hook)	 LkT (lute)	 Yk (you)	 PYkr (pure)	 
+U	 U	 d	 dr	 UP (up)	 UGX (ago)	 dT (out)	 dr (our)	 
+apple/aPUL, church/crc, boil/BbL, vicious/VisUS, show her around/ sX Hr URdnD 
+
+Sample 8: SPeLn REFXRMrZ TiPiKLE WxNT Tk RIT Wih U DiKsUNerE PRUNUNSIAsUN GID Rahr haN TRUDisUNUL EnGLis SPeLin. hA WxNT U SPeLin SiSTUM Tk BE NiRLE 100% aLFUBeTiK iNSTeD UV 40%. EnGLis SPeLin iZ HarD BEKxZ her xR Tk MeNE XRhXGRaFiK xPsUNZ.  
+  
+
+9. Mapping of Unigraf onto IPA (under construction)    Sample Text 9 
+
+Unigraf means one mark and implies one symbol per sound.  Unigraf sounds 
+This notational system is quite workable but is not quite as easy to read as one might 
+expect.  While it is true that the most frequent representation of the long vowels in TO 
+is with a single letter, using single letters doesn't always make for easy reading. 
+
+There is a good case for eliminating digraphs for non-combinations but a much weaker case for 
+replacing true combinations (diphthongs).  dVsIz is much more difficult to read than daunsaiz. 
+(That's downsyz in OGD). 
+
+Unigraf has several variations. The one below is optimized for Keyboard Shavian.  The original keyboard Shavian is shown in gray brackets.  
+The modifications are marked in yellow.  
+We ate good food at the table = wE At gcd fCd æt x tAbL 
+  
+Chekt 	Free 	Difthongs 	with schwa 	
+@  /æ/ [A] 	q V  [y] 	Y /ai/  [F] 	Vr/qr H R  Yr F X 	
+e 	R  [D] 	A /ei/  [E] 	er  B  [xX] 	
+i 	E  [I]  	Q /oi/  [q] 	ir  D  [C] 	
+q  [o] 	o [Y] 	O /ou/ 	or  P 	
+c  [U] 	C  [M] 	U /ju/ 	Ur 	
+u 	a 	W /au/ [Q] 	Wr 	
+
+  
+Chekt	 Free	 Difthongs	 w.schwa 	 Short-chkt	 Extended	 Difthongs	  R-endings	 
+a	 q	 I	 qr, Ir	 at	 qmz (alms)	 Iz (eyes)	 qr (are) Ir (ire)	 
+e	 R	 A	 Ar, er	 elbO	 HR (her)	 As (ace)	 Ar (air)	 
+i	 E	 Q	 Er, ir	 it  (it)	 Est (east)	 QL (oil) 	 Er (ear)	 
+q	 o	 O	 or	 qX (ox)	 kot (caught)	 Ot (oat)	 mor (more)	 
+c	 C	 U, yC	 Ur	 hck (hook)	 lCt (lute)	 U (you)	 PUr (pure)	 
+u	 ^	 V	 Vr	 up (up)	 ^gO (ago)	 dT (out)	 dr (our)	 
+apple/apl, church/KrK, boil/bQL, vicious/Visus, show her around/ SO hR a'rVnd  Sample 9 
+
+Mapping different orthographies on to IPA 
+ This page was developed in response to a request received on the simplified spelling mailing list 
+  for a way to relate different solutions to the alphabet problem to the Int'l Phonetic Alphabet (l897) 
+1Broad Romic  - 2 Chkt Spelling2  -  3 SaundSpel 4New Spelling  - 5ALC Fonetic  -  
+6Truespel  -   7. OGD8. ANJeL9. Unigraf 	
+
+2. Broad Romic IPA notation 
+Sample 1 (broad romic) 
+Speling rifomz tipikli wont tu rayt wið  dikSneri prnnsieySn gayd rað ðæn tradiSanl IngliS speling. ðey wont ð speling sistm tu bi niyrli 100% ælfbetic insted v 40%. IngliS speling iz hard bikaoz ther ar tuu meni orthogræfik opSnz.
+ 
+Sample 2 (chkt speling) [does not include x for th and 5 for sh] 
+Speling riform'rz tipikly want tu r'yt with 'a diksh'anery pr'anu'nsieish'an g'yd rathr tha.n tr'adish'anl Inglish speling.  They want th' speling sistm tu bi nirly 100% alfabetik insted ov 40%.  Inglish speling iz hard bikoz ther ar tu meny orthografik opsh'anz.
+ 
+Sample 3 (saund spel) 
+Speliq rifoomcz tipikli wont tu rait widx a dikzcneri prcnansieezcn gaid rcdxc dxa'n tradizanl Iqgliz speliq. dxei wont dxc speliq sistcm tu bi nirli 100% a'lfabetik insted cv 40%. Iqgliz speliq iz haard bikooz dxer aar tuu meni oortxougra'fik opzcnz.
+ 
+  
+Sample 4 (nu speling) [see spelriet] 
+Speling Reformerz tipikli wont tuu riet with a dikshunairi pronunsiaeshun gied rathr than tradishunul English speling. Thay wont the speling sistem to be neerly 100% alfabetic insted of 40%. English speling is hard becauz thair ar too meny orthografic opshuns.
+ 
+  
+Sample 5 (alc fonetik) [this text was converted by the automated BTRSPL conversion program] 
+Speling Reformers tipicaly wont to riet with a dicshunairy pronunsiaeshun gied rather than tradishunal English speling. Thay wont the speling sistem to be neerly 100% alfabetic insted of 40%. English speling is hard becauz thair ar too meny orthografic opshuns.
+ 
+Sample 6 (truespel) 
+Speleeng reformers tipicoollee waant tue riet withh u dikshunairee prununseeyyaeshun gied rather than truddishunool Eenglish speleeng. Thae waant thu speleeng sistem tue bee neerlee 100% alfubbetikool instted uv 40%. Eenglish speleeng iz haard beekkuz thair aar tue menee orthografik opshuns.
+ 
+Sample 7 (OGD - Restored English Spelling) 
+Speling reformers tipicaly waant tu ryt witth a dictionairy pronunseaytion gyd rather than traditional English speling. Thay waant the speling sistem tu be neerly 100% alfabetic insted of 40%. English speling is hard becauz thair ar tu meny orthografic options.
+ 
+ Sample 8 (ANJeL) [see www.webpal.org] 
+SPeLin REFXRMrZ TiPiKULE WxNT Tk RIT Wit U DiKsUNerE PRUNUNSIAsUN GID Rahr haN TRUDisUNUL EnGLis SPeLin. hA WxNT hU SPeLin SiSTUM Tk BE NERLi 100% aLFUBeTiKUL iNSTeD UV 40%. EnGLis SPeLin iZ HarD BEKxZ her xR Tk MeNE XRhOGRAFiK xPsUNZ.
+ 
+
+Sample 9 (Unigraf) downsize  (Cc = lazy Uu,  x=dh, u=up and schwa) 
+speliN riformRz tipikli wqnt tC rIt wiT u dikSuneri prununsIASun gId raxr xan trudiSunul EngliS speliN.  xA wqnt xu speliN sistum tC bE nErli 100% alfubetikul insted uv 40%.  engliS speliN iz hqrd bEkoz xer qr tC meni orTografik qpSunz.
+ 
+
+---------------------------------------------------------------------
+base:  http://pages.whowhere.com/community/sbett/map-ipa-2.html 
+More alternate notations and transcriptions:  I say nu boy go out (RES) 
+For more spelling links go to the Spelreform forum. www.delphi.com/spelreform 
+
+or go directly to the message board at 
+http://forums.delphi.com/m/main.asp?sigdir=spelreform 
+
+The delphi site reached its message limit in 1998.  The new message board with threaded messages is located at http://www.egroups.com/group/saundspel 
+
+Glossary    
+ 
+---------------------------------------------------------------------
+last revised:  April, 1999 
+
+Local (relative) links 	Spelling Links 	SiteMap-index 	Address 	
+Remote (absolute) links 	Spelling Links 	SiteMap-index 	Map-IPA 	
+Comments or Problems? Contact 	Steve Bett 	Alt. notations 	CKS 	
+Original page elements:  Copyright ©1998 BETA Interactive 	
+
+web hosting &bull; domain names &bull; web design
+online games &bull; online dating &bull; long distance
+digital cameras &bull; advertising online
+ 
+
+

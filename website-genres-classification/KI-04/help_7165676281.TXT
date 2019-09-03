@@ -1,0 +1,242 @@
+
+Perseus · Tufts
+---------------------------------------------------------------------
+
+Collections: Classics · Papyri · Renaissance · London · California · Upper Midwest · Tufts History	
+ 
+Configure display · Help · Tools · Copyright · FAQ · Publications · Collaborations · Support Perseus	 	
+
+Perseus Atlas/London Atlas: Frequently Asked Questions (FAQ)
+
+---------------------------------------------------------------------
+
+1.  Java enabled version (Windows and Linux platforms): Basic Use and Navigation Questions 
+2.  How do I use the map controls? 
+
+* Java disabled version (Macintosh platforms): Basic Use and Navigation Questions 
+* How do I use the map controls? 
+
+* Plotting features (all platforms): 
+* How do I add features to the map? 
+
+* General Troubleshooting
+ 
+* Why two versions of the atlas? Why can't an Apple computer use the Java version? 
+* I'm using Netscape 6.0 on a PC why can't I use the Java version 
+* What to do when things go wrong. 
+* I can't get the map to draw completely, what do I do? 
+* Why can't I read all the site/feature labels, it looks like a few labels are missing? 
+* Hey, my whole screen is green and I can't see anything! 
+* You're missing a lot of sites. Why don't you have X, Y, or Z in your atlas? 
+
+* Technical Information and Collection info 
+* About the map server 
+* The Bolles collection home page 
+
+---------------------------------------------------------------------
+
+* Java enabled version (Windows and Linux platforms): How do I use the map controls	 
+
+The Navigation tools allow users to focus the map view on a particular geographic area. Navigation tools are located on the top row of the atlas interface. There are seven navigation options: 
+
+* Zoom In  
+* Zoom Out 
+* Query a point 
+* Query a box 
+* Refresh map view  
+* Erase features  
+* Delete map (create a new map)  
+* Change map view to... 
+
+London Atlas 
+These option are always available for the City View of Modern London. When the map view is changed to an historic map from the Bolles collection, "Query a point", and "Query a box" are not available. 
+
+We are still in the process of digitizing the 17th and 19th century placename gazetteers for these historic maps. As more data for individual maps has been added to the London database, query capabilities will automatically be activated. 
+
+---------------------------------------------------------------------
+Zoom In : Use this tool to zoom in on an area of the map. 
+
+Click on this image to set the navigation mode to "Zoom In." When "Zoom In" mode has been set, users are able to zoom in on an area by drawing a box on the map. To draw on the map, position the cursor in the appropriate location, click on the mouse button, hold the mouse button down and drag the mouse cursor to draw a box around the area of interest. The map will redraw with the new area of intersted focused in the map view. 
+
+Users may also recenter the map by clicking on a new location on the map -- the map will redraw with this new location as the central focus 
+
+---------------------------------------------------------------------
+Zoom Out : use this tool to automatically zoom out on an area of the map. 
+
+Click on this image to set the navigation mode to "Zoom Out." When "Zoom In" mode has been set, users are able to automatically zoom out on the current map focus. The map will automatically zoom out and redraw. 
+
+---------------------------------------------------------------------
+Query a point : Use this tool to search the Peseus Digital Library for more information about a building or street on the map. 
+
+Click on this image to set the navigation mode to "Query a point." To use this feature, click on the image and then click directly on the building or street you wish to identify. The Pereus Lookup tool will then display, in a new window, a list of resources that are available elsewhere in the digital library. Please note that there may not be any additional information about a particular feature on the atlas and your search may yield no results. 
+
+For best results make sure the map view is zoomed in to a scale that will allow the clear selection of an individual building or street. 
+
+---------------------------------------------------------------------
+Query a box : Use this tool to search the Peseus Digital Library for more information about an area on the map. 
+
+Click on this image to set the navigation mode to "Query a box." To use this feature, click on the image and then cdraw a box around the area you wish to query. The Pereus Lookup tool will then display, in a new window, a list of resources that are available elsewhere in the digital library for all features in the box area. Please note that there may not be any additional information about a particular feature on the atlas and your search may yield no results. 
+
+For best results draw boxes on small topographic areas. Larger box queries will result in a very slow response from the Perseus servers simply because there will be a tremendous amount of data to process. 
+
+---------------------------------------------------------------------
+Refresh map view : Use this tool to reload the map view. 
+
+Click on this image to automatically reload the map view so gazetteer or legend selections can be plotted on the map. First make a selection from the gazetteer if available, or turn a layer on or off in the map view legend, then click the "Refresh map view" button to redraw the map according to the new gazetteer or legend settings. 
+
+For best results make sure the map view is zoomed in to a scale that will allow the clear selection of an individual building or street. 
+
+---------------------------------------------------------------------
+Erase features : Use this tool to delete features plotted on the map from the gazetteer. 
+
+Click on this image to automatically erase all features that have been plotted on the map view from the gazetteer. 
+
+---------------------------------------------------------------------
+Delete map (create a new map) : Use this tool to delete the current map view and settings and start a new atlas session. 
+
+Click on this image to automatically clear all maps and map view settings to start over a again. 
+
+---------------------------------------------------------------------
+Change map view to ... (London Atlas) : Use this tool to view historic maps of London. 
+
+Allows users to change the map view from the modern city to an historic map. For comparative purposes, the historic map will first appear 'underneath' the roads layer of the modern city feature. To turn off the roads layer, uncheck the "Modern Major Roads" layer in the Legend on the right hand side of the screen and then click on the "Refresh map view" image, . 
+
+To add an historic map to the map view, select a map from the drop down menu -- the map will load automatically in a few seconds. If you wish to remove the modern roads from the map view, click on the "View this selection as a base map" checkbox and refresh the map. 
+
+Once an historic map has been added to the view, you can perform any of the navigation functions listed in the navigation menu. 
+
+back to table of contents 	
+
+* Java disabled version (Macintosh platforms): Basic Use and Navigation Questions	 
+
+The Navigation tools allow users to focus the map view on a particular geographic area. Navigation tools are located on the top row of the atlas interface. There are seven navigation options: 
+
+* Zoom In  
+* Zoom Out  
+* Recenter map 
+* Query a point  
+* Query a box  
+* Refresh map view  
+* Erase features  
+* Delete map (create a new map)  
+* Change map view to... 
+
+London Atlas 
+These option are always available for the City View of Modern London. When the map view is changed to an historic map from the Bolles collection, "Query a point", and "Query a box" are not available. 
+
+We are still in the process of digitizing the 17th and 19th century placename gazetteers for these historic maps. As more data for individual maps has been added to the London database, query capabilities will automatically be activated. 
+
+---------------------------------------------------------------------
+Zoom In : Use this tool to zoom in on an area of the map. 
+
+Click on this image to set the navigation mode to "Zoom In." When "Zoom In" mode has been set, users are able to zoom in on an area by clicking on the map. To zoom in the map, select a zoom factor from the adjacent popup menu. The zoom factor is the degree to which the map extent will scale down. The default is 2, select a number between 2 and 5. Once you have set the zoom factor, click your mouse over the location on which you wish to scale down. The map view will redraw at the new scale and will be centered at the point on which you clicked. 
+---------------------------------------------------------------------
+Zoom Out : use this tool to zoom out on an area of the map. 
+
+Click on this image to set the navigation mode to "Zoom Out." When "Zoom Out" mode has been set, users are able to zoom in on an area by clicking on the map. To zoom out the map, select a zoom factor from the adjacent popup menu. The zoom factor is the degree to which the map extent will scale up. The default is 2, select a number between 2 and 5. Once you have set the zoom factor, click your mouse over the location on which you wish to scale up. The map view will redraw at the new scale and will be centered at the point on which you clicked. 
+
+---------------------------------------------------------------------
+Recenter map : use this tool to refocus the map on a particular location 
+
+Click on this image to set the navigation mode to "Recenter map." When "Recenter map" mode has been set, users are able to refocus the map to a new location by clicking on the map. If, for example, you would like to shift the map to a new location without changing the scale of the map, click on the "Recenter map" button radio button, and click on the new area. The map will redraw with the new location as it's center point. 
+
+---------------------------------------------------------------------
+Query a point : Use this tool to search the Peseus Digital Library for more information about a building or street on the map. 
+
+Click on this image to set the navigation mode to "Query a point." To use this feature, click on the image and then click directly on the building or street you wish to identify. The Pereus Lookup tool will then display, in a new window, a list of resources that are available elsewhere in the digital library. Please note that there may not be any additional information about a particular feature on the atlas and your search may yield no results. 
+
+For best results make sure the map view is zoomed in to a scale that will allow the clear selection of an individual building or street. 
+
+---------------------------------------------------------------------
+Query a box : Use this tool to automatically search the Peseus Digital Library for more information about an area on the map. 
+
+Click on this image to set the navigation mode to "Query a box." To use this feature, click on the "Query a box" image. This will automatically query the Perseus look up tool for all the buildings and streets in the current map view. The The Pereus Lookup tool will then display, in a new window, a list of resources that are available elsewhere in the digital library. Please note that there may not be any additional information about a particular feature on the atlas and your search may yield no results. 
+
+For best results make sure the map view is zoomed in to a scale that that covers a fairly small area of topgraphy. Using the "Query a box" tool on large topographic areas will result in a very slow response from the Perseus servers simply because there will be a tremendous amount of data to process. 
+
+---------------------------------------------------------------------
+Refresh map view : Use this tool to reload the map view. 
+
+Click on this image to automatically reload the map view so gazetteer or legend selections can be plotted on the map. First make a selection from the gazetteer if available, or turn a layer on or off in the map view legend, then click the "Refresh map view" button to redraw the map according to the new gazetteer or legend settings. 
+
+For best results make sure the map view is zoomed in to a scale that will allow the clear selection of an individual building or street. 
+
+---------------------------------------------------------------------
+Change map view to ... : Use this tool to view historic maps of London. 
+
+Allows users to change the map view from the modern city to an historic map. For comparative purposes, the historic map will first appear 'underneathe' the roads layer of the modern city feature. To turn off the roads layer, uncheck the "Modern Major Roads" layer in the Legend on the right hand side of the screen and then click on the "Refresh map view" image, . 
+
+To add an historic map to the map view, select a map from the drop down menu -- the map will load automatically in a few seconds. If you wish to remove the modern roads from the map view, click on the "View this selection as a base map" checkbox and refresh the map. 
+
+Once an historic map has been added to the view, you can perform any of the navigation functions listed in the navigation menu. 
+
+back to table of contents 
+---------------------------------------------------------------------
+
+* How do I add features and sites to the map 
+
+Building and Street Gazetteer : The Building and Street Gazetteer lists all the buildings and streets that are available for plotting in a given map view. The number of features will change depending on the scale of your map view. 
+
+Because of the large number of buildings available for viewing at certain scales (over 2000), buildings are sorted in alphabetical order and may be accessed by clicking on the popup menu, selecting a letter of the alphabet, and refreshing the map. 
+
+Because of the very large number of streets (over 30,000), available streets will only become visible at a scale of 1:8000. The current map scale is visible in the grey map view bar at the top of the map. 
+
+To draw features click the checkbox next to the feature name and then click on "Refresh Map." 
+
+n.b. : note that fewer buidlings and more streets become visible as you scale down into the map. You will notice occasional slow reload times if there are a large number of sites available in the map view. 
+
+back to table of contents 	
+
+* General Troubleshooting	 
+
+1.  Why two versions of the London atlas? Why can't an Apple computer use the Java version?
+Mac users will automatically be presented with a non-Java enabled version of the London atlas. It is the same in nearly every way as the Java version. The only difference between the two versions is the ablility to define areas of interest by drawing boxes on the map. 
+
+The reason the Java enabled atlas will not work on Macintosh computers has to do with the way Macs handle Java-JavaScript interaction. Two java classes (called LiveConnect) are used to allow Java and JavaScript to exchange information in a web page. These Java classes have not been implemented on Macs by web browser manufacturers because of the complexities of Macintosh Java configurations. 
+
+This situation is expected to change with Mac OS X and both Netscape and Microsoft are reportedly working on fixing the LiveConnect bug in Macintosh systems in the next generation of their web browsers. 
+
+2.  I'm using Netscape 6.0 on a PC why can't I use the Java version
+Netscape 6.0 users will automatically be presented with a non-Java enabled version of the London atlas. It is the same in nearly every way as the Java version. The only difference between the two versions is the ablility to define areas of interest by drawing boxes on the map. 
+
+Netscape 6.0 was released without the LiveConnect Java classes and therefor cannot manage Java - JavaScript communication (see the previous question). 
+
+Netscape claims LiveConnect will be activated again is a future release. 
+
+3.  What to do when things go wrong.
+If the map view does not draw properly, click on the "Refresh map view" button . 
+To clear all topographic and site selections and preserve the scale of the mapview click on the "Erase features" button 
+If all else fails, click on "Delete map" to start a new session . 
+
+4.  I can't get the map to draw completely, what do I do? 
+Internet Explorer sometimes has trouble drawing HTML tables properly. If you notice that the atlas interface is out of whack, or that the map view only partially draws, hit your web browser's Reload button. The interface should then redraw properly. 
+
+The version of the London atlas requires that Java and JavaScript be activated in the web browser's preferences. The atlas will not function correctly if Java and/or JavaScript are not activated. 
+
+5.  Why can't I read all the site/feature labels; it looks like a few labels are missing? 
+To avoid overlapping labels the mapping program will usually only draw labels that do not obscure other site/feature labels. Keep zooming in on the area in which you are interested and the labels should appear. 
+
+6.  Hey my whole screen is green (yellow, grey, white, etc..) and I can't see anything! 
+You have zoomed in too far. Look at the Scale Bar at the bottom of the main map view to get some idea of the map scale. If the Scale Bar is missing or garbled, you have definitely zoomed in too much. Just zoom out a few times and you should begin to recognize where you are in the world. Alternatively, hit New Map to start over. 
+
+7.  You're missing a lot of buildings and streets. Why don't you have X, Y, or Z in your map browser? 
+The quality and quantity of information that makes up the Perseus databases will improve over time as we acquire more data. 
+
+back to table of contents 	
+
+* Technical Information and Data Sources	 
+
+1.  About the map server 
+The Perseus Atlas interface was written in Perl and uses MapServer for image processing and dynamic delivery of geospatial data. MapServer is an OpenSource Internet GIS application developed by the University of Minnesota in cooperation with NASA and the Minnesota Department of Natural Resources. For more information about MapServer please vist the MapServer web site http://mapserver.gis.umn.edu/index.html 
+
+Geospatial data is stored in PostGreSQL, an OpenSource database. For more information about PostGreSQL please visit the PostgreSQL web site http://www.postgresql.org/ 
+
+2.  For more information about the Bolles collection, please visit the Bolles collection gateway or read the Bolles Collection Overview. 
+
+back to table of contents 	
+
+---------------------------------------------------------------------
+
+document created: 11/16/2000
+document last revised: 04/27/2001 	
+

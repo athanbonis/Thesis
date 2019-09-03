@@ -1,0 +1,205 @@
+Simple File Backup Solution - reByte Looking for a Simple Backup Solution? - Powered by Linux Operating Sytem "in a chip" - It's the lowest-cost NAS solution on the market - Automatic backup - Remote access with SSL encryption - It's a kit ("Build your own NAS" for under $ 150) - RAID 5 support! Check out reByte!! Linux Forum · Posting Rules Help Search Members Calendar Welcome Guest ( Log In | Register ) Resend Validation Email Linux Forum -> Linux Troubleshooting -> Linux Video Problems ATI drivers in slackware Track this topic | Email this topic | Print this topic edudlive Posted: Dec 29 2003, 04:11 AM Member Group: Members Posts: 2 Member No.: 8,173 Joined: 29-December 03 When I tried to install the ATI drivers for Slackware 9 (yes I got the version for my version of xfree86), it'll never let me. I think I need glibc 2.2...where can I get that? If I used rpm2targz would that solve the dependancy issue? If so where can I get that? nil Posted: Dec 30 2003, 06:12 PM Linux Freak Group: Moderators Posts: 2,649 Member No.: 653 Joined: 7-May 03 glibc is very fundamental part of a linux distro. If u change that then that may make ur whole system unbootable. Its better to upgrade the entire distro (to slack 9.1) since that will have a more recent version of glibc. 0 User(s) are reading this topic (0 Guests and 0 Anonymous Users) 0 Members: « Next Oldest | Linux Video Problems | Next Newest » Close Topic Options Track this topic Receive email notification when a reply has been made to this topic and you are not active on the board. Subscribe to this forum Receive email notification when a new topic is posted in this forum and you are not active on the board. Download / Print this Topic Download this topic in different formats or view a printer friendly version. Forum Home Search Help General Linux Issues - Linux Programming - Linux Security - Linux Kernel Support - Linux How-To's Linux Troubleshooting - Linux Sound Problems - Linux Video Problems - Linux Networking Support - Linux Printing Support - Linux Human Interface Devices Support - Linux Data Storage Support - Linux Applications Support - Linux Installation Support - Linux Laptops Support - Linux Motherboard, Chipsets, CPU, Memory - Miscellaneous Linux Distribution Specific - Debian Linux Support - Gentoo Linux Support - Mandrake Linux Support - Redhat / Fedora Linux Support - Slackware Linux Support - SuSe Linux Support - LiveCD Discussions - Fedora Linux Support (Redirect Forum) Linux Server Administration - Linux Web Servers - Linux DNS Servers - Linux Database Servers - Linux Email Servers - Linux FTP Servers - Linux Squid Proxy Server Linux Control Panels - Linux cPanel Help - Linux Ensim Help - Linux Plesk Help - Linux Webmin / Usermin Help - Qmail Toaster Help Miscellaneous - Operating System Rant Forum - Off Topic and Unrelated Discussions - Linux Polls Forum Issues - Discussions About This Website © Copyright 2002-2004 - The Web Freaks, INC. - LinuxForum.com All Rights Reserved Random Command diff3 Sponsors View Sponsors Shoes Clogs Dansko Free Texas Hold Em Online Poker Software Pacific Poker Internet Business Consultants Friends Free Scripts Copyright Â© 2002-2003 The Web Freaks , Inc. All Rights Reserved.   --> 
+
+Linux Forum Forums
+
+   
+Search 		
+ Membership
+
+Username: 		
+Password: 		
+Use Cookie?	 	
+
+Lost Your Password? Join Now! There are 10275 Members
+
+Resources
+
+* Index 
+* Linux News Articles 
+* Linux Shell Commands 
+* Linux Tutorials 
+* Linux Discussions   
+* Linux Downloads  
+* Linux Sites 
+* Contact Linux Forum 
+Linux Support
+
+* Linux Forums 
+* Linux FAQ 
+* Linux Web IRC Chat 
+* Linux IRC Channel 
+Linux Manuals
+
+* Linux Man Pages   
+* Linux Introduction   
+* Linux Dictionary   
+* Bash Reference   
+* Linux FileSystem   
+* Linux Network Admin   
+* Linux Cookbook   
+* Linux Pocket Guide   
+* Linux Kernel Programming   
+* Bind DNS Manual   
+* GNOME Manual 
+LAMP
+
+* What is LAMP?   
+* Linux Introduction  
+* Apache Manual 
+* MySQL Manual 
+* PHP Manual 
+Linux Media
+
+* Linux Wallpaper   
+* Linux MP3 
+Linux Distros
+
+* Debian Linux 
+* Fedora Linux 
+* Gentoo Linux 
+* Knoppix Live Linux 
+* Mandrake Linux 
+* Red Hat Linux 
+* Slackware Linux 
+* SUSE Linux 
+Statistics
+
+* Visitors Online: 209 
+* Members Online: 13 
+* Total Members: 10,275 
+* Total Visits: 784,728 
+
+      
+---------------------------------------------------------------------
+
+Simple File Backup Solution - reByte
+
+Looking for a Simple Backup Solution?
+
+- Powered by Linux Operating Sytem "in a chip"   - It's the lowest-cost NAS solution on the market   - Automatic backup   - Remote access with SSL encryption   - It's a kit ("Build your own NAS" for under $150)   - RAID 5 support! 	
+Check out reByte!!	 
+
+---------------------------------------------------------------------
+
+Linux Forum · Posting Rules	  Help      Search      Members      Calendar 	
+
+Welcome Guest ( Log In | Register )	 Resend Validation Email	 
+ Linux Forum -> Linux Troubleshooting -> Linux Video Problems 
+ 	 	
+ ATI drivers in slackware    Track this topic |  Email this topic |  Print this topic    
+edudlive	 Posted: Dec 29 2003, 04:11 AM 	
+Member Group: Members Posts: 2 Member No.: 8,173 Joined: 29-December 03 	When I tried to install the ATI drivers for Slackware 9 (yes I got the version for my version of xfree86), it'll never let me.I think I need glibc 2.2...where can I get that?If I used rpm2targz would that solve the dependancy issue? If so where can I get that? 	
+
+nil	 Posted: Dec 30 2003, 06:12 PM 	
+Linux Freak Group: Moderators Posts: 2,649 Member No.: 653 Joined: 7-May 03 	glibc is very fundamental part of a linux distro. If u change that then that may make ur whole system unbootable. Its better to upgrade the entire distro (to slack 9.1) since that will have a more recent version of glibc. 	
+
+0 User(s) are reading this topic (0 Guests and 0 Anonymous Users)  0 Members: « Next Oldest | Linux Video Problems | Next Newest » 
+
+ Close Topic Options   Track this topic   Receive email notification when a reply has been made to this topic and you are not active on the board.   Subscribe to this forum   Receive email notification when a new topic is posted in this forum and you are not active on the board.   Download / Print this Topic   Download this topic in different formats or view a printer friendly version.  
+
+Forum Home
+ 
+Search
+ 
+Help
+ 
+General Linux Issues
+ 
+  - Linux Programming 
+
+  - Linux Security 
+
+  - Linux Kernel Support 
+
+  - Linux How-To's 
+
+Linux Troubleshooting
+ 
+  - Linux Sound Problems 
+
+  - Linux Video Problems 
+
+  - Linux Networking Support 
+
+  - Linux Printing Support 
+
+  - Linux Human Interface Devices Support 
+
+  - Linux Data Storage Support 
+
+  - Linux Applications Support 
+
+  - Linux Installation Support 
+
+  - Linux Laptops Support 
+
+  - Linux Motherboard, Chipsets, CPU, Memory 
+
+  - Miscellaneous 
+
+Linux Distribution Specific
+ 
+  - Debian Linux Support 
+
+  - Gentoo Linux Support 
+
+  - Mandrake Linux Support 
+
+  - Redhat / Fedora Linux Support 
+
+  - Slackware Linux Support 
+
+  - SuSe Linux Support 
+
+  - LiveCD Discussions 
+
+  - Fedora Linux Support (Redirect Forum)
+
+Linux Server Administration
+ 
+  - Linux Web Servers 
+
+  - Linux DNS Servers 
+
+  - Linux Database Servers 
+
+  - Linux Email Servers 
+
+  - Linux FTP Servers 
+
+  - Linux Squid Proxy Server 
+
+Linux Control Panels
+ 
+  - Linux cPanel Help 
+
+  - Linux Ensim Help 
+
+  - Linux Plesk Help 
+
+  - Linux Webmin / Usermin Help 
+
+  - Qmail Toaster Help 
+
+Miscellaneous
+ 
+  - Operating System Rant Forum 
+
+  - Off Topic and Unrelated Discussions 
+
+  - Linux Polls 
+
+Forum Issues
+ 
+  - Discussions About This Website 
+
+  © Copyright 2002-2004 - The Web Freaks, INC. - LinuxForum.com All Rights Reserved 	Random Command
+ diff3 Sponsors
+View SponsorsShoes Clogs DanskoFree Texas Hold EmOnline Poker SoftwarePacific PokerInternet Business Consultants Friends
+Free Scripts 	
+
+  
+
+Copyright Â© 2002-2003 The Web Freaks, Inc. All Rights Reserved.
+
+

@@ -1,0 +1,146 @@
+Nostalgia Updated plugins Jan 15 XMMS-SID Jan 11 XMMS-SID Nov 30 Simple Level Meter Nov 27 Nebulus DVB Input Plugin libvtx EQ Graphical Equalizer UADE Nov 26 xmmscorba SAP plug-in "I don't know why and I'm not yet motivated to fix it since my views on esd are mostly unprintable." - Alan Cox Source XMMS 1.2.9-pre1 XMMS 1.2.9-pre1 (tar.gz): ( http ftp -->) XMMS 1.2.9-pre1 (tar.bz2): ( http ftp -->) XMMS 1.2.8-1.2.9-pre1 (patch.gz): ( http ftp -->) XMMS 1.2.8-1.2.9-pre1 (patch.bz2): ( http ftp -->) XMMS 1.2.8 XMMS 1.2.8 (tar.gz): ( http ftp -->) XMMS 1.2.8 (tar.bz2): ( http ftp -->) Mirrors / Older versions ftp.xmms.org/pub/xmms ftp.sunet.se/pub/multimedia/xmms ftp.stealth.net/xmms --> Requirements Esound output: esound 0.2.8 or better. Mikmod input: libmikmod 3.1.10 Ogg Vorbis input: libvorbis OpenGL Visual plugin: Mesa 3.0 or better. Binary Redhat 7.x XMMS 1.2.8: ( http / ftp readme -->) XMMS 1.2.8 devel: ( http / ftp ) Plugins Esound output: ( http / ftp ) Mikmod input: ( http / ftp ) Ogg Vorbis input: ( http / ftp ) OpenGL Visual plugin: ( http / ftp ) Redhat 8.x XMMS 1.2.8: ( http / ftp readme -->) XMMS 1.2.8 devel: ( http / ftp ) Plugins Esound output: ( http / ftp ) Mikmod input: ( http / ftp ) Ogg Vorbis input: ( http / ftp ) OpenGL Visual plugin: ( http / ftp ) Redhat 9.x XMMS 1.2.8: ( http / ftp readme -->) XMMS 1.2.8 devel: ( http / ftp ) XMMS 1.2.8 debug: ( http / ftp ) Plugins Esound output: ( http / ftp ) Mikmod input: ( http / ftp ) Ogg Vorbis input: ( http / ftp ) OpenGL Visual plugin: ( http / ftp ) Contributed binaries Slackware 8: 1.2.6 ( www.linuxpackages.net ) --> Debian: 1.2.8 ( http ) Solaris 8 Sparc: 1.2.5 ( http / mirrored ) CVS Instructions XMMS source is available from a CVS server (thanks to Falsehope ) from where you can download the latest development version. It's rather easy to use CVS, first of all if your system lacks CVS, download it from http://www.loria.fr/~molli/cvs-index.html . Once you've made sure that CVS is on your system you have to set an enviroment variable: for bash: export CVSROOT=":pserver:anonymous@cvs.xmms.org:/cvs" for csh: setenv CVSROOT :pserver:anonymous@cvs.xmms.org:/cvs When you have set the variable use cvs login to login to the CVS server. (just hit enter when it asks for the password) cd to the dir where you want the XMMS source to be downloaded to, then run cvs -z3 checkout xmms Please use the -z3 option to minimize network bandwidth (-z9 eats too much CPU time - please don't use it). Once the checkout is completed, cd xmms/ and then ./autogen.sh to create the configure script. Once autogen is completed run make and make install to compile and install XMMS. If you want to update your source tree with the latest changes simply use cvs -z3 update -Pd xmms and do as described above. Other ways of getting the CVS: Development snapshots ( http://havardk.xmms.org/dist/cvs/ ) CVS RPMs ( http://ftp.falsehope.com/pub/xmms/cvs ) CVS Web ( http://cvs.xmms.org ) Copyright © 1997-2004, 4Front Technologies / XMMS Team. All rights reserved.   --> 
+
+Download
+
+News About XMMS Support Next Version 
+Download / CVS Plugins Sound Enhancing Plugins 
+Skins Icons Nostalgia 
+
+Updated plugins
+
+Jan 15
+ XMMS-SID Jan 11
+ XMMS-SID Nov 30
+ Simple Level Meter Nov 27
+ Nebulus DVB Input Plugin libvtx EQ Graphical Equalizer UADE Nov 26
+ xmmscorba SAP plug-in "I don't know why and I'm not yet motivated to fix it since my views on esd are mostly unprintable."
+- Alan Cox 
+
+Source
+
+XMMS 1.2.9-pre1
+
+* XMMS 1.2.9-pre1 (tar.gz): (http)  
+* XMMS 1.2.9-pre1 (tar.bz2): (http) 
+
+* XMMS 1.2.8-1.2.9-pre1 (patch.gz): (http)  
+* XMMS 1.2.8-1.2.9-pre1 (patch.bz2): (http) 
+
+XMMS 1.2.8
+
+* XMMS 1.2.8 (tar.gz): (http)  
+* XMMS 1.2.8 (tar.bz2): (http) 
+
+Mirrors / Older versions
+
+* ftp.xmms.org/pub/xmms
+ 
+* ftp.sunet.se/pub/multimedia/xmms
+ 
+
+Requirements
+
+* Esound output: esound 0.2.8 or better.  
+* Mikmod input: libmikmod 3.1.10  
+* Ogg Vorbis input: libvorbis  
+* OpenGL Visual plugin: Mesa 3.0 or better. 
+
+Binary
+
+Redhat 7.x
+
+* XMMS 1.2.8: (http / ftp)
+ 
+* XMMS 1.2.8 devel: (http / ftp)
+ 
+* 
+
+Plugins
+
+* Esound output: (http/ftp)
+  
+* Mikmod input: (http/ftp)
+  
+* Ogg Vorbis input: (http/ftp)
+  
+* OpenGL Visual plugin: (http/ftp)
+ 
+ 
+
+Redhat 8.x
+
+* XMMS 1.2.8: (http / ftp)
+ 
+* XMMS 1.2.8 devel: (http / ftp)
+ 
+* 
+
+Plugins
+
+* Esound output: (http/ftp)
+  
+* Mikmod input: (http/ftp)
+  
+* Ogg Vorbis input: (http/ftp)
+  
+* OpenGL Visual plugin: (http/ftp)
+ 
+ 
+
+Redhat 9.x
+
+* XMMS 1.2.8: (http / ftp)
+ 
+* XMMS 1.2.8 devel: (http / ftp)
+ 
+* XMMS 1.2.8 debug: (http / ftp)
+  
+* 
+
+Plugins
+
+* Esound output: (http/ftp)
+  
+* Mikmod input: (http/ftp)
+  
+* Ogg Vorbis input: (http/ftp)
+  
+* OpenGL Visual plugin: (http/ftp)
+ 
+ 
+
+Contributed binaries
+
+* Debian: 1.2.8 (http)
+ 
+* Solaris 8 Sparc: 1.2.5 (http / mirrored) 
+
+CVS
+
+Instructions
+
+XMMS source is available from a CVS server (thanks to Falsehope) from where you can download the latest development version. It's rather easy to use CVS, first of all if your system lacks CVS, download it from http://www.loria.fr/~molli/cvs-index.html. Once you've made sure that CVS is on your system you have to set an enviroment variable:
+
+for bash:
+ export CVSROOT=":pserver:anonymous@cvs.xmms.org:/cvs"
+
+for csh:
+ setenv CVSROOT :pserver:anonymous@cvs.xmms.org:/cvs
+
+When you have set the variable use cvs login to login to the CVS server. (just hit enter when it asks for the password) cd to the dir where you want the XMMS source to be downloaded to, then run
+
+cvs -z3 checkout xmms
+ Please use the -z3 option to minimize network bandwidth (-z9 eats too much CPU time - please don't use it).
+
+Once the checkout is completed, cd xmms/ and then ./autogen.sh to create the configure script. Once autogen is completed run make and make install to compile and install XMMS.
+
+If you want to update your source tree with the latest changes simply use cvs -z3 update -Pd xmms and do as described above.
+
+Other ways of getting the CVS: 
+
+* Development snapshots (http://havardk.xmms.org/dist/cvs/) 
+* CVS RPMs (http://ftp.falsehope.com/pub/xmms/cvs) 
+* CVS Web (http://cvs.xmms.org) 
+Copyright © 1997-2004, 4Front Technologies / XMMS Team. All rights reserved.
+
+

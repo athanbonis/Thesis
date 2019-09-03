@@ -1,0 +1,637 @@
+An instantaneous introduction to CGI scripts and HTML forms, Academic Computing Services, University of Kansas and tags installed here by insert-targets-with-anchors.pl. They are not necessary. --> An instantaneous introduction to CGI scripts and HTML forms World Wide Web (WWW) browsers display hypertext documents written in the Hypertext Markup Language (HTML). Web browsers can also display "HTML forms" that allow users to enter data. By using forms browsers can collect as well as display infomation. When information is collected by a browser it is sent to a HyperText Transfer Protocol (HTTP) server specified in the HTML form, and that server starts a program, also specified in the HTML form, that can process the collected information. Such programs are known as "Common Gateway Interface" programs, or CGI scripts. This document is available in two formats: Standard HTML (this document), and Expandable HTML (with "twist down" knobs) . Table of Contents Introduction The Canonical Browser-Server Interaction Executing "scripts" Executing a Script via an HTML Form HTML Tags Related to Forms Mode An Example Form What a Post Query Looks Like What the Server Does A Custom Events Database Possible Input Tag Data Types The SELECT Tag The TEXTAREA Tag Some Forms Don't Really Exist Using the GET Method HTML Forms as an Interface to Databases Sources of Additional Information Introduction This document describes the Common Gateway Interface in some detail. It focuses on the ways in which a form, a client browser, a server, and the HTTP protocol work together. To understand this complex interaction, you must first understand how a client and a server work together to deliver a "normal" HTML document. This is the "canonical" Web activity; the "usual" Web function. Then you need to understand how scripts are executed in the Web environment without mediating forms. Once these two processes are clear, you have the foundation to understand the interaction bewteen HTML forms and the scripts that process the data from those forms. For a different approach to this same topic consult its companion piece Building blocks for CGI scripts in Perl , which provides Perl code for many common CGI tasks, making script creation fairly simple. The Canonical Browser-Server Interaction During a "normal" document exchange a WWW client (Netscape, Mosaic, Lynx, etc.) requests a document from a WWW server and displays that document on a user display device. If that document contains a link to another document, and the user activates that link, the WWW client will then fetch and display the linked document. The following diagram shows a WWW client running on a desktop system, Computer A, interacting with two servers: An HTTP server running on Computer B and an HTTP server running on Computer C. The client running on Computer A gets a document, stored in a file named docu1.html, from the HTTP server running on Computer B. This document contains a link to another document, stored in a file named docu2.html on Computer C. The Uniform Resource Locator (URL) for that link might look something like: http://ComputerC.domain/docu2.html If the user activates that link, the client retrieves the file from the HTTP server running on Computer C and displays it on the monitor connected to Computer A. The HyperText Transfer Protocol defines communication between the client and an HTTP server. The following example shows what an HTTP exchange between a Lynx client and an HTTP server running on Computer C might look like as the client fetches docu2.html. The client sends the following text to server: GET /docu2.html HTTP/1.0 Accept: www/source Accept: text/html Accept: image/gif User-Agent: Lynx/2.2 libwww/2.14 From: montulli@www.ku.edu * a blank line * The "GET" request indicates which file the client wants and announces that it is using HTTP version 1.0 to communicate. The client also lists the Multipurpose Internet Mail Extension (MIME) types it will accept in return, and identifies itself as a Lynx client. (The "Accept:" list has been truncated for brevity.) The client also identifies its user in the "From:" field. Finally, the client sends a blank line indicating it has completed its request. The server then responds by sending: HTTP/1.0 200 OK Date: Wednesday, 02-Feb-94 23:04:12 GMT Server: NCSA/1.1 MIME-version: 1.0 Last-modified: Monday, 15-Nov-93 23:33:16 GMT Content-type: text/html Content-length: 2345 * a blank line * . . . . . .etc. In this message the server agrees to use HTTP version 1.0 for communication and sends the status 200 indicating it has successfully processed the client's request. It then sends the date and identifies itself as an NCSA HTTP server. It also indicates it is using MIME version 1.0 to describe the information it is sending, and includes the MIME-type of the information about to be sent in the "Content-type:" header. Finally, it sends the number of characters it is going to send, followed by a blank line and the data itself. Things to note here: Client and server headers are RFC 822 compliant mail headers. A Client may send any number of Accept: headers and the server is expected to convert the data into a form the client can accept. Executing "scripts" An HTTP URL may identify a file that contains a program or script rather than an HTML document. That program may be executed when a user activates the link containing the URL. The diagram below shows an hypertext document on Computer B with a link to a file on Computer C that holds the CGI program that will be executed if a user activates the link. This link is a "normal" http: link, but the file is stored in such a way that the HTTP server on Computer C can tell that the file contains a program that is to be run, rather than a document that is to be sent to the client as usual. When the program runs, it prepares an HTML document on the fly, and sends that document to the client, which displays the document as it would any other HTML document. Such programs are sometimes called HTTP scripts or "Common Gateway Interface" (CGI) scripts. Note that CGI scripts may be written in scripting languages (like Perl, TCL, etc.) or in any other programming language (like C, Pascal, Basic). On some HTTP servers these CGI programs are stored in a directory called cgi-bin, and so they are also sometimes called "cgi-bin scripts." Here is a simple AppleScript program that can be run by a MacHTTP server when it receives a request for the file containing the script. When it runs, this program builds an HTML document containing the current time and returns the document to the WWW client that requested it. set crlf to (ASCII character 13) & (ASCII character 10) set header to "HTTP/1.0 200 OK" & crlf - & "Server: MacHTTP" & crlf set header to header & "MIME-Version: 1.0" - & crlf & "Content-type: text/html" set header to header & crlf & crlf - & " Server Script " set body to " The time is: " - & (current date) & " " return header & body The program is stored in a file named "date", in a folder called "scripts". When a user activates a link that points to this script, the Web client will generate an HTTP request that might look like: GET /scripts/date HTTP/1.0 Accept: www/source Accept: text/html Accept: image/gif User-Agent: Lynx/2.2 libwww/2.14 From: montulli@www.ku.edu * a blank line * When the script runs it will generate an HTTP response that might look like: HTTP/1.0 200 OK" Server: MacHTTP" MIME-Version: 1.0 Content-type: text/html * blank line * Server Script The time is: September 15, 1994 3:15 pm This looks just like any HTTP response from an HTTP server returning a normal HTML document. It just happens to have been generated on the fly. Executing a Script via an HTML Form The ability to process fill-out forms within the Web required modifications to HTML, Web clients, and Web servers (and eventually to HTTP, as well). A set of tags was added to HTML to direct a WWW client to display a form to be filled out by a user and then forward the collected data to an HTTP server specified in the form. Servers were modified so that they could then start the CGI program specified in the form and pass the collected data to that program, which could, in turn, prepare a response (possibly by consulting a pre-existing database) and return a WWW document to the user. The following diagram shows the various components of the process. In this diagram, the Web client running on Computer A acquires a form from some Web server running on Computer B. It displays the form, the user enters data, and the client sends the entered information to the HTTP server running on Computer C. There, the data is handed off to a CGI program which prepares a document and sends it to the client on Computer A. The client then displays that document. HTML Tags Related to Forms Mode The tags added to HTML to allow for HTML forms are: <FORM>. . . </FORM> Define an input form. Attributes: ACTION, METHOD, ENCTYPE <INPUT> Define an input field. Attributes: NAME, TYPE, VALUE, CHECKED, SIZE, MAXLENGTH <SELECT> . . . </SELECT> Define a selection list. Attributes: NAME, MULTIPLE, SIZE <OPTION> Define a selection list selection (within a SELECT). Attribute: SELECTED <TEXTAREA> . . . </TEXTAREA> Define a text input window. Attribute: NAME, ROWS, COLS An Example Form This section presents a simple form and shows how it can be represented using the HTML forms facility, filled out by a user, passed to a server, and generate a reply. The form asks for information about using the World Wide Web. This is a practice form. Please help us to improve the World Wide Web by filling in the following questionaire: Your organization? _________________________________ Commercial? ( ) How many users? ____________________ Which browsers do you use? 1. Cello ( ) 2. Lynx ( ) 3. X Mosaic ( ) 4. Others ___________________________________ A contact point for your site: __________________________________________ Many thanks on behalf of the WWW central support team. Submit Reset Here is an HTML document that defines the Example Form just presented (courtesy of Dave Raggett, Hewlett-Packard, but modified to reflect the current implementation of HTML) You can select this link to see what this form looks like from your browser This is a practice form. Please help us to improve the World Wide Web by filling in the following questionaire: Your organization? Commercial? How many users? Which browsers do you use? Cello Lynx X Mosaic Others A contact point for your site: Many thanks on behalf of the WWW central support team. When this document gets filled out by the user, it might look something like this from Lynx: This is a practice form. Please help us to improve the World Wide Web by filling in the following questionaire: Your organization? Academic Computing Services____ Commercial? ( ) How many users? 10000______________ Which browsers do you use? 1. Cello (*) 2. Lynx (*) 3. X Mosaic (*) 4. Others Mac Mosaic, Win Mosaic____________________ A contact point for your site: Michael Grobe grobe@kuhub.cc.ku.edu___ Many thanks on behalf of the WWW central support team. Submit Reset What a Post Query Looks Like When the form is "submitted" as filled out above, the following information is sent to www.ku.edu by the client: POST /cgi-bin/post-query HTTP/1.0 Accept: www/source Accept: text/html Accept: video/mpeg Accept: image/jpeg Accept: image/x-tiff Accept: image/x-rgb Accept: image/x-xbm Accept: image/gif Accept: application/postscript User-Agent: Lynx/2.2 libwww/2.14 From: grobe@www.ku.edu Content-type: application/x-www-form-urlencoded Content-length: 150 * a blank line * org=Academic%20Computing%20Services &users=10000 &browsers=lynx &browsers=cello &browsers=mosaic &others=MacMosaic%2C%20WinMosaic &contact=Michael%20Grobe%20grobe@kuhub.cc.ku.edu This query is a "POST" query addressed for the program residing in the file at "/cgi-bin/post-query". Post-query is a script that simply echoes the values it receives. Once again the client lists the MIME-types it is capable of accepting, and identifies itself and the version of the WWW library it is using. Finally, it indicates the MIME-type it has used to encode the data it is sending, the number of character included, and the list of variables and their values it has collected from the user. The MIME-type application/x-www-form-urlencoded means that the variable name-value pairs will be encoded the same way a URL is encoded. In particular, any special characters, including puctuation characters, will be encoded as %nn where nn is the ASCII value for the character in hexidecimal. What the Server Does The server takes the incoming data and passes it to the program post-query, which uses it to construct a file to return to the client. The reply may be HTML, an image file, or any other kind of document, though returning an HTML document is most common. The script's response to the example query is an HTML document that lists the variable values it received. The HTML looks like: Content-type: text/html * a blank line * Query Results You submitted the following name/value pairs: org = Academic Computing Services users = 10000 browsers = cello browsers = lynx browsers = xmosaic others = Mac Mosaic, Win Mosaic contact = Michael Grobe grobe@kuhub.cc.ku.edu Which looks like this on the Lynx user's screen: QUERY RESULTS You submitted the following name/value pairs: * org = Academic Computing Services * users = 10000 * browsers = cello * browsers = lynx * browsers = xmosaic * others = Mac Mosaic, Win Mosaic * contact = Michael Grobe grobe@kuhub.cc.ku.edu Post-query is written in C and can be inspected by activating this link . Scripts can written in other languages, and frequently are written in whatever language a particular server interacts with most gracefully: a version in AppleScript for MacHTTP, and a version in VisualBasic for WinHTTP a version in Perl . Note that all three programs are short; each is about one page long. Of course they all call some subroutines that are not shown, but these subroutines are not large and are available with the servers each program was designed to work with, or from some other net source. For more information see below . A Custom Events Database The KU Events database is accessed via an HTML form that looks like this from Lynx: UNIVERSITY OF KANSAS EVENTS DATABASE Search for events Beginning search date: January__, 27, 1993 Ending search date: May______, 1_, 1994 (*)Academic field (*)Museum & gallery (*)Academic year (*)Music (*)Athletic (*)Other cultural (*)Parties (*)Ceremonies & recognitions (*)Recreational (*)Club & group meeting (*)Theatre (*)Conferences & workshops (*)Film (*)Special academic matters (*)Holidays, etc (*)Service & charitable (*)Lecture (*)Training events (*)Local & area (*)University governance & structure Search for events Reset to default values (Form submit button) Use right-arrow or to submit form. Arrow keys: Up and Down to move. Right to follow a link; Left to go back. H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list To see the Event Calendar from your browser click here . The following query is being sent to the Event Calendar. It's very similar to the one generated by the simple example, but somewhat longer due to the complexity of the event form. POST /cgi-bin/events-form HTTP/1.0 Accept: www/source Accept: text/html Accept: video/mpeg Accept: image/jpeg Accept: image/x-tiff Accept: image/x-rgb Accept: image/x-xbm Accept: image/gif Accept: application/postscript User-Agent: Lynx/2.2 libwww/2.14 From: montulli@www.ku.edu Content-type: application/x-www-form-urlencoded Content-length: 681 start_month=January &start_day=27 &start_year=1993 &end_month=May &end_day=1 &end_year=1994 &event_type=Academic%20field &event_type=Museum%20%26%20gallery &event_type=Academic%20year &event_type=Music &event_type=Athletic &event_type=Other%20cultural &event_type=Parties &event_type=Ceremonies%20%26%20recognitions &event_type=Recreational &event_type=Club%20%26%20group%20meetings &event_type=Theatre &event_type=Conferences%20%26%20workshops &event_type=Film &event_type=Special%20academic%20matters &event_type=Holidays%2C%20etc &event_type=Service%20%26%20charitable &event_type=Lecture &event_type=Training%20events &event_type=Local%20%26%20area &event_type=University%20governance%20%26%20structure Possible Input Tag Data Types The input tag currently supports the following data types (depending somewhat on which client you are using): TEXT For entering a single line of text. The SIZE attribute can be used to specify the visible width of the field. The MAX attribute can be used to specify the maximum number of characters that can be typed into the field. CHECKBOX For Boolean variables, or for variables which can take multiple values at the same time. When a box is checked, the value specified in its VALUE attribute is assigned to the variable specified in its NAME attribute. If several checkbox fields each specify the same variable NAME, they can be used to assign multiple values to the named variable, since each checkbox field may have a VALUE attribute. RADIO For variables which can take only a single value from a set of alternatives. If several radio buttons have the same NAME, selecting one of the buttons will cause any already selected button in the group to be deselected. SUBMIT Selecting this link or pressing this button submits the form. RESET Selecting this link or pressing this button resets the form's fields to their initial values as specified by their VALUE attributes. HIDDEN For passing state information from one form to the next or from one script to the next. An input field of type HIDDEN will not appear on the form, but the value specified in the "VALUE" attribute will be passed along with the other values when the form is submitted. IMAGE For displaying an image map within a form and returning the coordinates of a mouse click within the image. The SELECT Tag The RADIO and CHECKBOX fields can be used to specify multiple choice forms in which every alternative is visible as part of the form. An alternative is to use the SELECT element which produces a pull down list. Every alternative is specified in an OPTION element. Cello Lynx X Mosaic Mac Mosaic Win Mosaic Line Mode Some other The next example shows how Lynx would render a select list used with the Web info form presented earlier. Click here to see how the select list would be rendered by your browser. This is a practice form. Please help us to improve the World Wide Web by filling in the following questionaire: Your organization? ___________________________________________ Commercial? ( ) How many users? ____________________ Which browser do you use most often? [Cello_____] A contact point for your site: __________________________________________ Many thanks on behalf of the WWW central support team. Submit Reset (Option list) Hit return and use arrow keys and return to select option Arrow keys: Up and Down to move. Right to follow a link; Left to go back. H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list When you move to the question about browsers, you see a window open showing the options. It will look something like this in Lynx: This is a practice form. Please help us to improve the World Wide Web by filling in the following questionaire: Your organization? ___________________________________________ Commercial? ( ) How many users? ____________________ ************** Which browsers do you use most often? * Cello * * Lynx * A contact point for your site: * X Mosaic * ______________________________________* Mac Mosaic * * Win Mosaic * Many thanks on behalf of the WWW centr* Line Mode *m. * Some other * Submit Reset ************** (Option list) Hit return and use arrow keys and return to select option Arrow keys: Up and Down to move. Right to follow a link; Left to go back. H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list You can then use the up- and down-arrow keys to select an option which will be set when you press enter to leave the pull down menu. If you include the MULTIPLE attribute in the <SELECT> tag, the user should be able to select more than one optional value from the list. Click here to see how multiple selects works with your browser. Lynx will render a multiple select as a set of checkboxes, rather than as pull-down menu. The TEXTAREA Tag When you need to let users enter more than one line of text, you should use the TEXTAREA element: Academic Computing Services The University of Kansas Lawrence, Kansas 66045 The text between the <TEXTAREA> and </TEXTAREA> tags is used to initialize the text area variable value. This </TEXTAREA> tag is always required even if the field is initially blank. The ROWS and COLS attributes determine the visible dimension of the field in characters. Click here to see how text areas are rendered by your browser. Some Forms Don't Really Exist Some forms don't really exist as HTML documents; they are produced by programs (CGI scripts). Once they are filled out, the information provided by the user may then be sent to another program for processing. For example, the link to the KU events database is: http://www.ku.edu/events_form/events-form-get which generates the event query form for the user to fill out. There is no free-standing HTML document containing the event query form. Note also that the program that generates the form and the program that processes the form may be the same program. For example, the event query form generated by events-form-get contains the <form> tag: which points to the program stored in /events_form/events-form, which is actually the same program as in /events_form/events-form-get. In fact, the two files are really the same file with two different names (a UNIX symbolic link). events-form-get is accessed with a standard HTTP GET method, since any http: URL within an HTML anchor is accessed by using an HTTP GET method, as described earlier. However, events-form will be accessed by using the POST method as specified in the <form> tag. Since the program can tell which method is being used it can act accordingly. That is, it will send the event query form when accessed with a GET method and will process form data when accessed with the POST method. Using the GET Method Form data may be sent to scripts for processing by using the GET method as well as the POST method. For example, the first form example above could have been encoded as If a GET method is used, an HTTP request from the client would look something like: GET /cgi-bin/post-query?org=Academic%20Computing%20Services &users=10000&browsers=lynx&browsers=cello&browsers=mosaic &others=MacMosaic%2C%20WinMosaic &contact=Michael%20Grobe%20grobe@kuhub.cc.ku.edu HTTP/1.0 Accept: www/source Accept: text/html Accept: video/mpeg Accept: image/jpeg Accept: image/x-tiff Accept: image/x-rgb Accept: image/x-xbm Accept: image/gif Accept: application/postscript User-Agent: Lynx/2.2 libwww/2.14 From: grobe@www.ku.edu * a blank line * This request is very similar to the POST request except that the values of the form variables are sent as part of the URL. That is, the variable values are appended to the URL following a question mark (?), and special characters are escaped just as special characters in URLs must be escaped to assure interoperability. Hence the MIME type designation: application/x-www-form-urlencoded. The server script can unpack the data shipped in the URL somewhat as it can unpack data sent via the POST method. The ability to append data to an arbitrary URL makes it possible to construct HTML anchors that send data to server scripts when they are activated. This allows document creators to prepare "canned queries" within their documents, something that is not possible with the POST method. For example, the anchor below could generate a list of activites related to athletic events at the University of Kansas when activated if the event script could recognize GET queries with extended URLs (which it does not). Click here for a list of Kansas Athletic events Here the user does not have to interface with a form, because the document creator has already decided what information must be sent to the form script. In general, GET should probably be used when a URL access will not change the state of a database (by, for example, adding or deleting information) and POST should be used when an access WILL cause a change. However, due to bugs in some server software you might not be able to use a GET method if the query is too long. HTML Forms as an Interface to Databases One of the forces behind the development of the Common Gateway Interface was the desire to integrate databases with the Web. There are several alternative approaches , and the CGI is one of the most widely used. There are several advantages to the CGI approach: One client can serve as a front end for multiple databases One database can talk to multiple clients, each with its native platform interface characteristics. Changing the database query model does not require changing all clients in the field--only the form documents accessed by clients And, of course, there are some difficulties: The interface does not support an exhaustive set of data types The forms interface is form oriented rather than field oriented, so that it is not as robust as it could be: The forms interface does not support client-side range checking for data values. This disadvantage has been attenuated with the advent of JavaScript, which may be used to write scripts that execute on the client and perform data validation before sending the data to the server, and The forms interface requires the user to press a submit button for any server involvement. This disadvantage has also been attenuated with the advent of JavaScript. Navigation among various input fields can be awkward on some platforms CGI is built over HTTP which is a "stateless" protocol. That is, the connection between the client and the server is broken as soon as the server responds. Implementing "statefulness" in this environment is awkward, complex, and can be wasteful of computing resources. Sources of Additional Information For an introduction to CGI scripting and HTML forms organized around writing Perl scripts see "Building Blocks for CGI Scripts in Perl" at http://www.ku.edu/~acs/docs/other/cgi-with-perl.shtml Information describing the NCSA implementation of NCSA httpd and its forms interface is provided at: http://hoohoo.ncsa.uiuc.edu/cgi/overview.html Information about the Windows implementation of the NCSA server and its forms interface is available from: http://www.city.net/win-httpd/ For a brief description of the tags used to implement forms in HTML see http://www.ku.edu/~acs/docs/other/HTML_quick.shtml Additional Information about writing CGI scripts in Perl is available at http://www.yahoo.com/Computers/World_Wide_Web/Programming/Perl_Scripts/ Michael Grobe Academic Computing Services The University of Kansas grobe@kuhub.cc.ku.edu First version: Sometime in 1994 Current version: July 22, 1998 Updates and additions made by: Hasan Naseer June 1998 Academic Computing Services at the University of Kansas ACS Main ACS Help Search ACS KU Main Search KU The current URL is http://www.ku.edu/~acs/docs/other/forms-intro.shtml. This file was last modified Thursday, 15-Mar-2001 15:50:14 CST. Questions about Academic Computing Services to question@ku.edu Problems, comments about this Web site to acsweb@ku.edu . June 1998 Academic Computing Services at the University of Kansas ACS Main ACS Help Search ACS KU Main Search KU The current URL is http://www.ku.edu/~acs/docs/other/forms-intro.shtml. This file was last modified Thursday, 15-Mar-2001 15:50:14 CST. Questions about Academic Computing Services to question@ku.edu Problems, comments about this Web site to acsweb@ku.edu . ="below.shtml"-->   --> "> 
+
+An instantaneous introduction to CGI scripts and HTML forms
+
+World Wide Web (WWW) browsers display hypertext documents written in the Hypertext Markup Language (HTML). Web browsers can also display "HTML forms" that allow users to enter data. By using forms browsers can collect as well as display infomation. 
+
+When information is collected by a browser it is sent to a HyperText Transfer Protocol (HTTP) server specified in the HTML form, and that server starts a program, also specified in the HTML form, that can process the collected information. Such programs are known as "Common Gateway Interface" programs, or CGI scripts. 
+
+This document is available in two formats: 
+
+* Standard HTML (this document), and 
+* Expandable HTML (with "twist down" knobs). 
+
+Table of Contents
+
+* Introduction 
+* The Canonical Browser-Server Interaction 
+* Executing "scripts" 
+* Executing a Script via an HTML Form 
+* HTML Tags Related to Forms Mode 
+* An Example Form 
+* What a Post Query Looks Like 
+* What the Server Does 
+* A Custom Events Database 
+* Possible Input Tag Data Types 
+* The SELECT Tag 
+* The TEXTAREA Tag 
+* Some Forms Don't Really Exist 
+* Using the GET Method 
+* HTML Forms as an Interface to Databases 
+* Sources of Additional Information 
+
+Introduction
+
+This document describes the Common Gateway Interface in some detail. It focuses on the ways in which a form, a client browser, a server, and the HTTP protocol work together. 
+
+To understand this complex interaction, you must first understand how a client and a server work together to deliver a "normal" HTML document. This is the "canonical" Web activity; the "usual" Web function. Then you need to understand how scripts are executed in the Web environment without mediating forms. Once these two processes are clear, you have the foundation to understand the interaction bewteen HTML forms and the scripts that process the data from those forms. 
+
+For a different approach to this same topic consult its companion piece Building blocks for CGI scripts in Perl, which provides Perl code for many common CGI tasks, making script creation fairly simple. 
+
+The Canonical Browser-Server Interaction
+
+During a "normal" document exchange a WWW client (Netscape, Mosaic, Lynx, etc.) requests a document from a WWW server and displays that document on a user display device. If that document contains a link to another document, and the user activates that link, the WWW client will then fetch and display the linked document. 
+
+The following diagram shows a WWW client running on a desktop system, Computer A, interacting with two servers: An HTTP server running on Computer B and an HTTP server running on Computer C. 
+
+The client running on Computer A gets a document, stored in a file named docu1.html, from the HTTP server running on Computer B. This document contains a link to another document, stored in a file named docu2.html on Computer C. The Uniform Resource Locator (URL) for that link might look something like: 
+
+http://ComputerC.domain/docu2.html 
+
+If the user activates that link, the client retrieves the file from the HTTP server running on Computer C and displays it on the monitor connected to Computer A. 
+
+The HyperText Transfer Protocol defines communication between the client and an HTTP server. The following example shows what an HTTP exchange between a Lynx client and an HTTP server running on Computer C might look like as the client fetches docu2.html. 
+
+The client sends the following text to server: 
+
+GET /docu2.html HTTP/1.0
+Accept: www/source
+Accept: text/html
+Accept: image/gif
+User-Agent:  Lynx/2.2  libwww/2.14
+From:  montulli@www.ku.edu
+     * a blank line *
+
+The "GET" request indicates which file the client wants and announces that it is using HTTP version 1.0 to communicate. The client also lists the Multipurpose Internet Mail Extension (MIME) types it will accept in return, and identifies itself as a Lynx client. (The "Accept:" list has been truncated for brevity.) The client also identifies its user in the "From:" field. 
+
+Finally, the client sends a blank line indicating it has completed its request. 
+
+The server then responds by sending: 
+
+HTTP/1.0 200 OK
+Date: Wednesday, 02-Feb-94 23:04:12 GMT
+Server: NCSA/1.1
+MIME-version: 1.0
+Last-modified: Monday, 15-Nov-93 23:33:16 GMT
+Content-type: text/html
+Content-length: 2345
+     * a blank line *
+ . . .etc.
+
+In this message the server agrees to use HTTP version 1.0 for communication and sends the status 200 indicating it has successfully processed the client's request. It then sends the date and identifies itself as an NCSA HTTP server. It also indicates it is using MIME version 1.0 to describe the information it is sending, and includes the MIME-type of the information about to be sent in the "Content-type:" header. Finally, it sends the number of characters it is going to send, followed by a blank line and the data itself. 
+
+Things to note here: 
+
+* Client and server headers are RFC 822 compliant mail headers. 
+* A Client may send any number of Accept: headers and the server is expected to convert the data into a form the client can accept. 
+
+Executing "scripts"
+
+An HTTP URL may identify a file that contains a program or script rather than an HTML document. That program may be executed when a user activates the link containing the URL. 
+
+The diagram below shows an hypertext document on Computer B with a link to a file on Computer C that holds the CGI program that will be executed if a user activates the link. This link is a "normal" http: link, but the file is stored in such a way that the HTTP server on Computer C can tell that the file contains a program that is to be run, rather than a document that is to be sent to the client as usual. 
+
+When the program runs, it prepares an HTML document on the fly, and sends that document to the client, which displays the document as it would any other HTML document. 
+
+Such programs are sometimes called HTTP scripts or "Common Gateway Interface" (CGI) scripts. Note that CGI scripts may be written in scripting languages (like Perl, TCL, etc.) or in any other programming language (like C, Pascal, Basic). 
+
+On some HTTP servers these CGI programs are stored in a directory called cgi-bin, and so they are also sometimes called "cgi-bin scripts." 
+
+Here is a simple AppleScript program that can be run by a MacHTTP server when it receives a request for the file containing the script. When it runs, this program builds an HTML document containing the current time and returns the document to the WWW client that requested it. 
+
+set crlf to (ASCII character 13) & (ASCII character 10)
+
+set header to "HTTP/1.0 200 OK" & crlf    -
+& "Server: MacHTTP" & crlf 
+set header to header & "MIME-Version: 1.0"     -
+& crlf & "Content-type: text/html" 
+set header to header & crlf & crlf     -
+& ""
+
+set body to "
+
+The time is:
+
+"      -
+& (current date) & "
+
+
+
+"
+
+return header & body
+
+
+
+The program is stored in a file named "date", in a folder called "scripts". When a user activates a link that points to this script, the Web client will generate an HTTP request that might look like: 
+
+GET /scripts/date HTTP/1.0
+Accept: www/source
+Accept: text/html
+Accept: image/gif
+User-Agent:  Lynx/2.2  libwww/2.14
+From:  montulli@www.ku.edu
+     * a blank line *
+
+When the script runs it will generate an HTTP response that might look like: 
+
+HTTP/1.0 200 OK"
+Server: MacHTTP"
+MIME-Version: 1.0
+Content-type: text/html
+* blank line *
+
+The time is:
+
+September 15, 1994 3:15 pm 
+
+This looks just like any HTTP response from an HTTP server returning a normal HTML document. It just happens to have been generated on the fly. 
+
+Executing a Script via an HTML Form
+
+The ability to process fill-out forms within the Web required modifications to HTML, Web clients, and Web servers (and eventually to HTTP, as well). 
+
+A set of tags was added to HTML to direct a WWW client to display a form to be filled out by a user and then forward the collected data to an HTTP server specified in the form. 
+
+Servers were modified so that they could then start the CGI program specified in the form and pass the collected data to that program, which could, in turn, prepare a response (possibly by consulting a pre-existing database) and return a WWW document to the user. 
+
+The following diagram shows the various components of the process. 
+
+In this diagram, the Web client running on Computer A acquires a form from some Web server running on Computer B. It displays the form, the user enters data, and the client sends the entered information to the HTTP server running on Computer C. There, the data is handed off to a CGI program which prepares a document and sends it to the client on Computer A. The client then displays that document. 
+
+HTML Tags Related to Forms Mode
+
+The tags added to HTML to allow for HTML forms are: 
+<FORM>. . . </FORM> 
+Define an input form.
+Attributes: ACTION, METHOD, ENCTYPE 
+<INPUT> 
+Define an input field.
+Attributes: NAME, TYPE, VALUE, CHECKED, SIZE, MAXLENGTH 
+<SELECT> . . . </SELECT>  
+Define a selection list.
+ Attributes: NAME, MULTIPLE, SIZE 
+<OPTION>  
+Define a selection list selection (within a  SELECT). 
+Attribute: SELECTED 
+<TEXTAREA> . . . </TEXTAREA> 
+Define a text input window.
+Attribute: NAME, ROWS, COLS 
+
+An Example Form
+
+This section presents a simple form and shows how it can be represented using the HTML forms facility, filled out by a user, passed to a server, and generate a reply. The form asks for information about using the World Wide Web. 
+
+This is a practice form.
+
+Please help us to improve the World Wide Web by filling in the 
+   following questionaire:
+
+Your organization?  _________________________________
+
+Commercial? ( ) How many users? ____________________
+
+Which browsers do you use?
+    1. Cello ( )
+    2. Lynx ( )
+    3. X Mosaic ( )
+    4. Others ___________________________________
+
+A contact point for your site:
+   __________________________________________
+
+Many thanks on behalf of the WWW central support team.
+
+Submit Reset
+
+Here is an HTML document that defines the Example Form just presented (courtesy of Dave Raggett, Hewlett-Packard, but modified to reflect the current implementation of HTML) 
+
+You can select this link to see what this form looks like from your browser 
+
+Please help us to improve the World Wide Web by filling in 
+the following questionaire:
+
+Your organization? 
+
+Commercial? 
+
+How many users? 
+
+Which browsers do you use?
+
+1.  Cello 
+    
+2.  Lynx 
+    
+3.  X Mosaic 
+    
+4.  Others 
+   
+
+A contact point for your site: 
+
+Many thanks on behalf of the WWW central support team.
+
+When this document gets filled out by the user, it might look something like this from Lynx: 
+
+This is a practice form.
+
+Please help us to improve the World Wide Web by filling in the 
+   following questionaire:
+
+Your organization? Academic Computing Services____
+
+Commercial? ( ) How many users? 10000______________
+
+Which browsers do you use?
+    1. Cello (*)
+    2. Lynx (*)
+    3. X Mosaic (*)
+    4. Others
+       Mac Mosaic, Win Mosaic____________________
+
+A contact point for your site:
+   Michael Grobe grobe@kuhub.cc.ku.edu___
+
+Many thanks on behalf of the WWW central support team.
+
+Submit Reset
+
+What a Post Query Looks Like
+
+When the form is "submitted" as filled out above, the following information is sent to www.ku.edu by the client: 
+
+POST /cgi-bin/post-query HTTP/1.0
+Accept: www/source
+Accept: text/html
+Accept: video/mpeg
+Accept: image/jpeg
+Accept: image/x-tiff
+Accept: image/x-rgb
+Accept: image/x-xbm
+Accept: image/gif
+Accept: application/postscript
+User-Agent:  Lynx/2.2  libwww/2.14
+From:  grobe@www.ku.edu
+Content-type: application/x-www-form-urlencoded
+Content-length: 150
+     * a blank line *
+org=Academic%20Computing%20Services
+&users=10000
+&browsers=lynx
+&browsers=cello
+&browsers=mosaic
+&others=MacMosaic%2C%20WinMosaic
+&contact=Michael%20Grobe%20grobe@kuhub.cc.ku.edu
+
+This query is a "POST" query addressed for the program residing in the file at "/cgi-bin/post-query". Post-query is a script that simply echoes the values it receives. Once again the client lists the MIME-types it is capable of accepting, and identifies itself and the version of the WWW library it is using. Finally, it indicates the MIME-type it has used to encode the data it is sending, the number of character included, and the list of variables and their values it has collected from the user. 
+
+The MIME-type application/x-www-form-urlencoded means that the variable name-value pairs will be encoded the same way a URL is encoded. In particular, any special characters, including puctuation characters, will be encoded as %nnwhere nnis the ASCII value for the character in hexidecimal. 
+
+What the Server Does
+
+The server takes the incoming data and passes it to the program post-query, which uses it to construct a file to return to the client. 
+
+The reply may be HTML, an image file, or any other kind of document, though returning an HTML document is most common. 
+
+The script's response to the example query is an HTML document that lists the variable values it received. The HTML looks like: 
+
+Content-type: text/html
+     * a blank line *
+
+Query Results
+
+You submitted the following name/value pairs:
+
+* org = Academic Computing Services
+
+* users = 10000
+
+* browsers = cello
+
+* browsers = lynx
+
+* browsers = xmosaic
+
+* others = Mac Mosaic, Win Mosaic
+
+* contact = Michael Grobe grobe@kuhub.cc.ku.edu
+
+Which looks like this on the Lynx user's screen: 
+
+QUERY RESULTS
+
+You submitted the following name/value pairs:
+
+* org = Academic Computing Services
+     * users = 10000
+     * browsers = cello
+     * browsers = lynx
+     * browsers = xmosaic
+     * others = Mac Mosaic, Win Mosaic
+     * contact = Michael Grobe grobe@kuhub.cc.ku.edu
+
+Post-query is written in C and can be inspected by activating this link. Scripts can written in other languages, and frequently are written in whatever language a particular server interacts with most gracefully: 
+
+* a version in AppleScript for MacHTTP, and 
+* a version in VisualBasic for WinHTTP 
+* a version in Perl . 
+Note that all three programs are short; each is about one page long. Of course they all call some subroutines that are not shown, but these subroutines are not large and are available with the servers each program was designed to work with, or from some other net source. For more information see below. 
+
+A Custom Events Database
+
+The KU Events database is accessed via an HTML form that looks like this from Lynx: 
+
+UNIVERSITY OF KANSAS EVENTS DATABASE
+
+Search for events
+
+Beginning search date: January__, 27, 1993
+      Ending search date: May______, 1_, 1994
+
+(*)Academic field    (*)Museum & gallery
+(*)Academic year     (*)Music
+(*)Athletic          (*)Other cultural
+(*)Parties           (*)Ceremonies & recognitions
+(*)Recreational      (*)Club & group meeting
+(*)Theatre           (*)Conferences & workshops
+(*)Film              (*)Special academic matters
+(*)Holidays, etc     (*)Service & charitable
+(*)Lecture           (*)Training events
+(*)Local & area      (*)University governance & structure
+
+Search for events  Reset to default values
+
+(Form submit button)   Use right-arrow or  to submit form.
+  Arrow keys: Up and Down to move. Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list
+
+To see the Event Calendar from your browser click here. 
+
+The following query is being sent to the Event Calendar. It's very similar to the one generated by the simple example, but somewhat longer due to the complexity of the event form. 
+
+POST /cgi-bin/events-form HTTP/1.0
+Accept: www/source
+Accept: text/html
+Accept: video/mpeg
+Accept: image/jpeg
+Accept: image/x-tiff
+Accept: image/x-rgb
+Accept: image/x-xbm
+Accept: image/gif
+Accept: application/postscript
+User-Agent:  Lynx/2.2  libwww/2.14
+From:  montulli@www.ku.edu
+Content-type: application/x-www-form-urlencoded
+Content-length: 681
+
+start_month=January
+&start_day=27
+&start_year=1993
+&end_month=May
+&end_day=1
+&end_year=1994
+&event_type=Academic%20field
+&event_type=Museum%20%26%20gallery
+&event_type=Academic%20year
+&event_type=Music
+&event_type=Athletic
+&event_type=Other%20cultural
+&event_type=Parties
+&event_type=Ceremonies%20%26%20recognitions
+&event_type=Recreational
+&event_type=Club%20%26%20group%20meetings
+&event_type=Theatre
+&event_type=Conferences%20%26%20workshops
+&event_type=Film
+&event_type=Special%20academic%20matters
+&event_type=Holidays%2C%20etc
+&event_type=Service%20%26%20charitable
+&event_type=Lecture
+&event_type=Training%20events
+&event_type=Local%20%26%20area
+&event_type=University%20governance%20%26%20structure
+
+Possible Input Tag Data Types 
+
+The input tag currently supports the following data types (depending somewhat on which client you are using): 
+
+TEXT 
+ For entering a single line of text. The SIZE attribute can be used to specify the visible width of the field. The MAX attribute can be used to specify the maximum number of characters that can be typed into the field. 
+CHECKBOX 
+ For Boolean variables, or for variables which can take multiple values at the same time. When a box is checked, the value specified in its VALUE attribute is assigned to the variable specified in its NAME attribute. If several checkbox fields each specify the same variable NAME, they can be used to assign multiple values to the named variable, since each checkbox field may have a VALUE attribute. 
+RADIO 
+ For variables which can take only a single value from a set of alternatives. If several radio buttons have the same NAME, selecting one of the buttons will cause any already selected button in the group to be deselected. 
+SUBMIT 
+ Selecting this link or pressing this button submits the form. 
+RESET 
+ Selecting this link or pressing this button resets the form's fields to their initial values as specified by their VALUE attributes. 
+HIDDEN 
+For passing state information from one form to the next or from one script to the next. An input field of type HIDDEN will not appear on the form, but the value specified in the "VALUE" attribute will be passed along with the other values when the form is submitted. 
+IMAGE 
+ For displaying an image map within a form and returning the coordinates of a mouse click within the image. 
+
+The SELECT Tag
+
+The RADIO and CHECKBOX fields can be used to specify multiple choice forms in which every alternative is visible as part of the form. An alternative is to use the SELECT element which produces a pull down list. Every alternative is specified in an OPTION element. 
+
+Cello
+       
+ Lynx
+       
+ X Mosaic
+       
+ Mac Mosaic
+       
+ Win Mosaic
+       
+ Line Mode
+       
+ Some other
+
+The next example shows how Lynx would render a select list used with the Web info form presented earlier. Click here to see how the select list would be rendered by your browser. 
+
+This is a practice form.
+
+Please help us to improve the World Wide Web by filling in the
+   following questionaire:
+
+Your organization? ___________________________________________
+
+Commercial? ( ) How many users? ____________________
+
+Which browser do you use most often? [Cello_____]
+
+A contact point for your site:
+   __________________________________________
+
+Many thanks on behalf of the WWW central support team.
+
+Submit Reset
+
+(Option list)  Hit return and use arrow keys and return to select option
+  Arrow keys: Up and Down to move. Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list
+
+When you move to the question about browsers, you see a window open showing the options. It will look something like this in Lynx: 
+
+This is a practice form.
+
+Please help us to improve the World Wide Web by filling in the
+   following questionaire:
+
+Your organization? ___________________________________________
+
+Commercial? ( ) How many users? ____________________
+                                         **************
+   Which browsers do you use most often? * Cello      *
+                                         * Lynx       *
+   A contact point for your site:        * X Mosaic   *
+   ______________________________________* Mac Mosaic *
+                                         * Win Mosaic *
+   Many thanks on behalf of the WWW centr* Line Mode  *m.
+                                         * Some other *
+   Submit Reset                          **************
+
+(Option list)  Hit return and use arrow keys and return to select option
+  Arrow keys: Up and Down to move. Right to follow a link; Left to go back.
+ H)elp O)ptions P)rint G)o M)ain screen Q)uit /=search [delete]=history list
+
+You can then use the up- and down-arrow keys to select an option which will be set when you press enter to leave the pull down menu. 
+
+If you include the MULTIPLE attribute in the <SELECT> tag, the user should be able to select more than one optional value from the list. Click here to see how multiple selects works with your browser. 
+
+Lynx will render a multiple select as a set of checkboxes, rather than as pull-down menu. 
+
+The TEXTAREA Tag
+
+When you need to let users enter more than one line of text, you should use the TEXTAREA element: 
+
+Academic Computing Services
+           The University of Kansas
+           Lawrence, Kansas 66045
+       
+
+The text between the <TEXTAREA> and </TEXTAREA> tags is used to initialize the text area variable value. This </TEXTAREA> tag is always required even if the field is initially blank. 
+
+The ROWS and COLS attributes determine the visible dimension of the field in characters. Click here to see how text areas are rendered by your browser. 
+
+Some Forms Don't Really Exist
+
+Some forms don't really exist as HTML documents; they are produced by programs (CGI scripts). Once they are filled out, the information provided by the user may then be sent to another program for processing. 
+
+For example, the link to the KU events database is: 
+
+http://www.ku.edu/events_form/events-form-get
+
+which generates the event query form for the user to fill out. There is no free-standing HTML document containing the event query form. 
+
+Note also that the program that generates the form and the program that processes the form may be the same program. For example, the event query form generated by events-form-get contains the <form> tag: 
+
+which points to the program stored in /events_form/events-form, which is actually the same program as in /events_form/events-form-get. In fact, the two files are really the same file with two different names (a UNIX symbolic link). 
+
+events-form-get is accessed with a standard HTTP GET method, since any http: URL within an HTML anchor is accessed by using an HTTP GET method, as described earlier. 
+
+However, events-form will be accessed by using the POST method as specified in the <form> tag. Since the program can tell which method is being used it can act accordingly. That is, it will send the event query form when accessed with a GET method and will process form data when accessed with the POST method. 
+
+Using the GET Method
+
+Form data may be sent to scripts for processing by using the GET method as well as the POST method. For example, the first form example above could have been encoded as 
+
+If a GET method is used, an HTTP request from the client would look something like: 
+
+GET /cgi-bin/post-query?org=Academic%20Computing%20Services
+&users=10000&browsers=lynx&browsers=cello&browsers=mosaic
+&others=MacMosaic%2C%20WinMosaic
+&contact=Michael%20Grobe%20grobe@kuhub.cc.ku.edu HTTP/1.0
+Accept: www/source
+Accept: text/html
+Accept: video/mpeg
+Accept: image/jpeg
+Accept: image/x-tiff
+Accept: image/x-rgb
+Accept: image/x-xbm
+Accept: image/gif
+Accept: application/postscript
+User-Agent:  Lynx/2.2  libwww/2.14
+From:  grobe@www.ku.edu
+     * a blank line *
+
+This request is very similar to the POST request except that the values of the form variables are sent as part of the URL. That is, the variable values are appended to the URL following a question mark (?), and special characters are escaped just as special characters in URLs must be escaped to assure interoperability. Hence the MIME type designation: application/x-www-form-urlencoded. 
+
+The server script can unpack the data shipped in the URL somewhat as it can unpack data sent via the POST method. 
+
+The ability to append data to an arbitrary URL makes it possible to construct HTML anchors that send data to server scripts when they are activated. This allows document creators to prepare "canned queries" within their documents, something that is not possible with the POST method. For example, the anchor below could generate a list of activites related to athletic events at the University of Kansas when activated if the event script could recognize GET queries with extended URLs (which it does not). 
+
+Click here for a list of
+Kansas Athletic events
+
+Here the user does not have to interface with a form, because the document creator has already decided what information must be sent to the form script. 
+
+In general, GET should probably be used when a URL access will not change the state of a database (by, for example, adding or deleting information) and POST should be used when an access WILL cause a change. However, due to bugs in some server software you might not be able to use a GET method if the query is too long. 
+
+HTML Forms as an Interface to Databases
+
+One of the forces behind the development of the Common Gateway Interface was the desire to integrate databases with the Web. There are several alternative approaches, and the CGI is one of the most widely used. There are several advantages to the CGI approach: 
+
+* One client can serve as a front end for multiple databases 
+* One database can talk to multiple clients, each with its native platform interface characteristics. 
+* Changing the database query model does not require changing all clients in the field--only the form documents accessed by clients 
+And, of course, there are some difficulties: 
+
+* The interface does not support an exhaustive set of data types 
+* The forms interface is form oriented rather than field oriented, so that it is not as robust as it could be: 
+
+* The forms interface does not support client-side range checking for data values. This disadvantage has been attenuated with the advent of JavaScript, which may be used to write scripts that execute on the client and perform data validation before sending the data to the server, and 
+* The forms interface requires the user to press a submit button for any server involvement. This disadvantage has also been attenuated with the advent of JavaScript. 
+
+* Navigation among various input fields can be awkward on some platforms 
+* CGI is built over HTTP which is a "stateless" protocol. That is, the connection between the client and the server is broken as soon as the server responds. Implementing "statefulness" in this environment is awkward, complex, and can be wasteful of computing resources. 
+
+Sources of Additional Information
+
+* For an introduction to CGI scripting and HTML forms organized around writing Perl scripts see "Building Blocks for CGI Scripts in Perl" at
+ http://www.ku.edu/~acs/docs/other/cgi-with-perl.shtml 
+* Information describing the NCSA implementation of NCSA httpd and its forms interface is provided at:
+  http://hoohoo.ncsa.uiuc.edu/cgi/overview.html 
+* Information about the Windows implementation of the NCSA server and its forms interface is available from: 
+ http://www.city.net/win-httpd/ 
+* For a brief description of the tags used to implement forms in HTML see
+ http://www.ku.edu/~acs/docs/other/HTML_quick.shtml 
+* Additional Information about writing CGI scripts in Perl is available at http://www.yahoo.com/Computers/World_Wide_Web/Programming/Perl_Scripts/ 
+
+Michael Grobe
+Academic Computing Services
+The University of Kansas
+grobe@kuhub.cc.ku.edu
+First version: Sometime in 1994
+Current version: July 22, 1998
+Updates and additions made by:
+Hasan Naseer
+June 1998 
+
+---------------------------------------------------------------------
+
+Academic Computing Services at the University of Kansas
+
+ACS Main	 ACS Help	 Search ACS	 KU Main 	Search KU 	
+
+The current URL is http://www.ku.edu/~acs/docs/other/forms-intro.shtml. 
+This file was last modified Thursday, 15-Mar-2001 15:50:14 CST.
+ Questions about Academic Computing Services to question@ku.edu
+ Problems, comments about this Web site to acsweb@ku.edu. 
+
+June 1998 
+
+---------------------------------------------------------------------
+
+Academic Computing Services at the University of Kansas
+
+ACS Main	 ACS Help	 Search ACS	 KU Main 	Search KU 	
+
+The current URL is http://www.ku.edu/~acs/docs/other/forms-intro.shtml. 
+This file was last modified Thursday, 15-Mar-2001 15:50:14 CST.
+ Questions about Academic Computing Services to question@ku.edu
+ Problems, comments about this Web site to acsweb@ku.edu. 
+
+="below.shtml"--> 

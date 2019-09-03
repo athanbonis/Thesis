@@ -1,0 +1,333 @@
+
+Developer Shed Network  |  Dev Shed  |   ASP Free  |   Dev Articles  |   Dev Hardware  |   SEO Chat  |  itsALLnet&nbsp |&nbsp; Web Hosters&nbsp&nbsp	 
+
+//--> 	
+
+ Forums: » Register « |  User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+Dev Shed Forums
+      
+Advanced Forums Search
+      
+Dev Shed Site
+ 
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+//--> 	
+
+Dev Shed Forums > Operating Systems > UNIX > Unix Crontab	  
+ 	
+
+//--> 	
+
+ 	    Last Thread     Next Thread   	
+
+Author	     
+  Thread	  	      	   	    	   	  
+  	
+
+kraghupa
+ Junior Member
+ 
+
+Registered: Oct 2003
+ Location: 
+ Posts: 1	    Unix Crontab  
+
+Hi i have written a shell script which runs some sql queries in oracle. the code looks like this sqlplus username@NJCMTOMS/password < $HOME/devel/oms/arg/cleanupsql.sh cleanupsql.sh has the sqls to be executed. This works fine if i run from the prompt but when i run from a cron,then cron is not able to find sqlplus.i also tried giving the absolute path for sqlplus ,still no success. Pls tell me what is the exact way of doing this.
+
+Report this post to a moderator | IP: Logged
+
+October 20th, 2003 08:24 AM	       
+            	            	    
+ 	
+
+chuck_meister
+ Junior Member
+ 
+
+Registered: Jan 2004
+ Location: Australia
+ Posts: 2	    Similar problem  
+
+Hi I've also got the same issue. I've created a ksh that uses sql+ to do select statements. It also works fine when executed from the prompt, but does not work when scheduled to run on cron. The sql in my script is like this: sqlplus -s USERNAME/PASSWORD@DATABASE <<END >$wsfile set heading off SELECT SQL QUERY HERE / END I've tried adding the oracle home to the script but this still does not help. Any assistance will be greatly appreciated.
+
+Report this post to a moderator | IP: Logged
+
+January 7th, 2004 11:28 PM	       
+            	            	    
+ 	
+
+chuck_meister
+ Junior Member
+ 
+
+Registered: Jan 2004
+ Location: Australia
+ Posts: 2	     
+
+I found the solution. I had to include: export ORACLE_HOME=/ora/product/v9203 Also to define the full path for the sql path. /ora/product/v9203/bin/sqlplus -s user/password@database
+
+Report this post to a moderator | IP: Logged
+
+January 8th, 2004 01:14 AM	       
+            	            	    
+ 	
+
+fpmurphy
+ Junior Member
+ 
+
+Registered: Dec 2003
+ Location: 
+ Posts: 22	     
+
+Whenever creating scripts run by cron, always - include full paths to all necessary executables i.e. /usr/bin/cat and so on. - define all necessary environmental variables. and export same. Do not assume that cron runs the script in your environment. It does not. - Finnbarr
+
+Report this post to a moderator | IP: Logged
+
+January 12th, 2004 03:19 PM	       
+            	            	    
+ 	
+
+All times are GMT. The time now is 02:14 AM.	  	      	   	    	   	  
+  	
+
+ 	    Last Thread     Next Thread   	
+
+Dev Shed Forums > Operating Systems > UNIX > Unix Crontab 
+
+>> More Related Threads	 
+Thread	 Thread Starter	 Forum	 Replies	 Last Post	 
+How to Crontab 	lowspeed 	UNIX 	2 	
+August 7th, 2003 08:17 PM
+ by lowspeed	  	 
+
+crontab not working 	Oddish 	UNIX 	3 	
+November 19th, 2003 09:03 PM
+ by druuna	  	 
+
+running script with crontab 	mikeShank 	UNIX 	13 	
+November 14th, 2002 05:54 PM
+ by M.Hirsch	  	 
+
+Unix is? 	mizzory 	UNIX 	12 	
+October 31st, 2002 07:51 PM
+ by CHR15T0	  	 
+
+Show Printable Version |   Email this Page |   Subscribe to this Thread  	
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+Popular Programming Languages
+
+-- PHP
+
+-- Perl
+
+-- C Languages (C, C++, Obj-C)
+
+-- Java, Java Servlets & JSP
+
+-- Python
+
+Other Programming Languages
+
+-- ASP
+
+-- .Net (ASP.Net, VB.Net, C#)
+
+-- Visual Basic
+
+-- Software Design & Algorithms
+
+-- Cold Fusion
+
+-- Delphi & Kylix
+
+-- XML & XUL
+
+ Web Design
+
+-- HTML, JavaScript & CSS
+
+-- Adobe Photoshop
+
+-- Macromedia Flash
+
+-- General Web Design
+
+-- Reviews & Critiques
+
+-- Web Site Promotion
+
+Web Site Management
+
+-- Business & Legal Issues
+
+-- Development Software
+
+-- Scripts
+
+Databases
+
+-- General Database Discussion
+
+-- MySQL
+
+-- PostgreSQL
+
+-- Firebird SQL
+
+-- MS SQL
+
+-- Oracle
+
+-- LDAP
+
+System Administration
+
+-- Mail Servers
+
+-- Apache
+
+-- Security
+
+-- DNS
+
+-- IIS
+
+-- Networking
+
+Operating Systems
+
+-- *BSD
+
+-- Linux
+
+-- UNIX
+
+-- Windows NT/2000/XP
+
+Web Hosting
+
+-- Web Hosting
+
+-- Free Web Hosting
+
+-- Web Hosting Offers
+
+-- Web Hosting Requests
+
+Computer Hardware
+
+-- General Hardware
+
+-- CPUs & Overclocking
+
+-- Cooling
+
+-- Motherboards
+
+-- Video Cards & Sound Cards
+
+Other
+
+-- Dev Shed Lounge
+
+-- Articles & Tutorials
+
+---- PHP Tutorials
+
+---- Perl Tutorials
+
+---- Administration Tutorials
+
+---- Python Tutorials
+
+---- MySQL Tutorials
+
+---- XML Tutorials
+
+---- Java Tutorials
+
+---- Zope Tutorials
+
+---- Development Practices Articles
+
+---- DHTML Tutorials
+
+---- Flash Tutorials
+
+---- JavaScript Tutorials
+
+---- Style Sheets Tutorials
+
+---- WML Tutorials
+
+---- Multimedia Tutorials
+
+-- Beginners
+
+-- Hire A Programmer
+
+-- Project Help Wanted
+  
+ 	
+
+Register Now	 
+Get Full Access	 
+It's Free!	 
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+
+   	
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+ Forums: » Register « | User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+> 
+Dev Shed Forums
+        
+Advanced Forums Search
+        
+Dev Shed Site
+ 
+
+//--> 
+
+//--> 	
+Powered by: vBulletin Version 2.3.0
+
+Dev Shed Forums  |  ASP Free Forums  |  Dev Articles Forums  |  Dev Hardware Forums  |  SEO Chat Forums 	
+
+Â© 2001-2004. All rights reserved. (Privacy Policy) Dev Shed hosted by Hostway. 		
+
+

@@ -1,0 +1,393 @@
+Forums : » Register « | User CP | Calendar | Members | FAQs | Archive Dev Hardware Forums Advanced Forums Search Dev Hardware Site Dev Shed Forums | ASP Free Forums | SEO Chat Forum s | Newsletter | PHP Web Hosting | ASP Web Hosting Dev Hardware Forums > SOFTWARE > Operating Systems > just a question Last Thread Next Thread Author Thread hansito n00b OC'er Registered: Nov 2003 Location: Posts: 60 just a question what happens if i dont register windows xp???? __________________ I have a p4 2.4 533fsb 3000 khx 9600 pro ai7 ill change cpu soon :P Report this post to a moderator | IP: Logged 01-02-2004 05:23 AM Soulburner AWOL Registered: Aug 2003 Location: Posts: 6257 Nothing. Report this post to a moderator | IP: Logged 01-02-2004 06:44 AM KaoMAN Pimp Whore Registered: Jul 2001 Location: New Jersey Posts: 2161 do you mean activation? in most cases you do. http://www.annoyances.org/exec/show/article03-200 __________________ Report this post to a moderator | IP: Logged 01-02-2004 08:45 AM climbski Banned Registered: Mar 2003 Location: Reno NV Posts: 4653 Gee ... why would you have to do ANY of that I never have __________________ 3678mhz 306fsb P4C800-E 2.4C SL6Z3 SP-94 KHXPC3200 @ 245mhz AIRCOOLED 23279 Unless you are Macro or Ukcuf...your system is slower than mine ...so shut up and listen Report this post to a moderator | IP: Logged 01-02-2004 08:47 AM KaoMAN Pimp Whore Registered: Jul 2001 Location: New Jersey Posts: 2161 me neither. but lets not openly talk about that =) __________________ Report this post to a moderator | IP: Logged 01-02-2004 08:58 AM climbski Banned Registered: Mar 2003 Location: Reno NV Posts: 4653 Umm I didn't say nuthin And I sugest nobody else say nuthin either. __________________ 3678mhz 306fsb P4C800-E 2.4C SL6Z3 SP-94 KHXPC3200 @ 245mhz AIRCOOLED 23279 Unless you are Macro or Ukcuf...your system is slower than mine ...so shut up and listen Report this post to a moderator | IP: Logged 01-02-2004 09:07 AM Soulburner AWOL Registered: Aug 2003 Location: Posts: 6257 He means registration, thats a little different from activation...in that case look in your registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion Regdone = 1 As a disclaimer this has nothing to do with piracy, it is posted at Tweaktown and I don't think that it even does anything. Report this post to a moderator | IP: Logged 01-02-2004 09:20 AM KaoMAN Pimp Whore Registered: Jul 2001 Location: New Jersey Posts: 2161 ?? registration could be easily confused with activation, dunno how you know exactly what he was thinking Soul. In any case yes you're right you dont need to register XP.. you never need to register anything. __________________ Report this post to a moderator | IP: Logged 01-02-2004 04:39 PM Soulburner AWOL Registered: Aug 2003 Location: Posts: 6257 quote: Originally posted by KaoMAN ?? registration could be easily confused with activation, dunno how you know exactly what he was thinking Soul Um maybe because he asked this... quote: what happens if i dont register windows xp???? __________________ 3DMark2001 [ 20,208 ] - 3DMark2003 [ 7,281 ] - Aquamark3 [ 56,694 ] Report this post to a moderator | IP: Logged 01-02-2004 09:36 PM hansito n00b OC'er Registered: Nov 2003 Location: Posts: 60 hey what i meant was activation.... sry thx Report this post to a moderator | IP: Logged 01-04-2004 02:55 AM hansito n00b OC'er Registered: Nov 2003 Location: Posts: 60 i have a problem when i put my key to registrate it my it says its invalid what can i do??? thx Report this post to a moderator | IP: Logged 01-04-2004 03:00 AM All times are GMT. The time now is 02:14 AM. Last Thread Next Thread Dev Hardware Forums > SOFTWARE > Operating Systems > just a question >> More Related Threads Thread Thread Starter Forum Replies Last Post Question on hypertherading and os System Halt Operating Systems 9 11-09-2003 06:39 AM by FroGGer A question, for da geniuses.. Titus Operating Systems 10 01-15-2004 06:09 AM by climbski Linux question *SOF2*VTX{2}8R+ Operating Systems 8 11-18-2003 06:13 PM by n00854180t winXP question PowerChord Operating Systems 9 02-12-2003 01:24 PM by fishaholic18 Show Printable Version | Email this Page | Subscribe to this Thread Forum Jump: Please select one: -------------------- Private Messages User Control Panel Who's Online Search Forums Forums Home -------------------- IMPORTANT INFORMATION -- Forum Rules -- Latest Hardware Reviews and Articles -- Dev Folding HARDWARE -- AMD Processors -- Intel Processors -- Motherboards -- Memory -- Video Cards ---- 3dfx Resource Center ---- ATI Resource Center ---- nVIDIA Resource Center -- PC Cooling -- Computer Cases, Case Mods, & Power Supplies -- Computer Monitors and Displays  TFT-LCD, CRT, Plasma... -- Hard Drives, CD, DVD+RW, & Other Storage -- Wired and Wireless Networking -- Hardware Benchmarking Tools -- Hardware Development and Firmware OVERCLOCKING -- Video Card Overclocking -- CPU Overclocking -- Water and Extreme Cooling HOME COMPUTING -- PC Hardware, General -- Apple -- Laptop, PDA, & Mobile Computing -- Audio & Multimedia -- Printers, Keyboards, Mice, & Other Peripherals -- Computer Gadgets and Tech Toys -- Gaming Consoles  PlayStation 2, XBox, GameCube SOFTWARE -- Computer Games -- Operating Systems -- Software and Applications -- Programming and Scripting GENERAL GooSH! -- Local Pub -- Politics and News -- Science for Everyone MARKET PLACE -- Hot Deals -- Trading Post Forum Rules: You may not post new threads You may not post replies You may not post attachments You may not edit your posts HTML code is OFF vB code is ON Smilies are ON [IMG] code is ON Dev Shed Forums | ASP Free Forums | SEO Chat Forums | Newsletter | PHP Web Hosting | ASP Web Hosting Forums : » Register « | User CP | Calendar | Members | FAQs | Archive Dev Hardware Forums Advanced Forums Search Dev Hardware Site Powered by: vBulletin Version 2.3.2 Dev Shed Forums | ASP Free Forums | Dev Articles Forums | Dev Hardware Forums | SEO Chat Forums © 2001-2004. All rights reserved. ( Privacy Policy ) Dev Hardware hosted by Hostway .   --> Developer Shed Network | Dev Shed | Asp Free | Dev Articles | Dev Hardware | SEO Chat | itsALLnet | Web Hosters //--> 
+Forums: » Register « | User CP | Calendar | Members | FAQs | Archive  	      
+Dev Hardware Forums
+ 
+Advanced Forums Search
+ 
+Dev Hardware Site
+ 
+
+Dev Shed Forums | ASP Free Forums | SEO Chat Forums | Newsletter | PHP Web Hosting | ASP Web Hosting	 
+//--> 
+ Dev Hardware Forums > SOFTWARE > Operating Systems > just a question	  
+ 	
+
+//--> 	
+
+ 	    Last Thread     Next Thread   	
+
+Author	     
+  Thread	  	      	   	    	   	  
+  	
+
+hansito
+ n00b OC'er
+ 
+
+Registered: Nov 2003
+ Location: 
+ Posts: 60	    just a question  
+
+what happens if i dont register windows xp????
+
+__________________
+I have a p4 2.4 533fsb 3000 khx 9600 pro ai7 ill change cpu soon :P
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 05:23 AM	       
+            	            	    
+ 	
+
+Soulburner
+ AWOL
+ 
+
+Registered: Aug 2003
+ Location: 
+ Posts: 6257	     
+
+Nothing.
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 06:44 AM	       
+            	            	    
+ 	
+
+KaoMAN
+ Pimp Whore
+ 
+
+Registered: Jul 2001
+ Location: New Jersey
+ Posts: 2161	     
+
+do you mean activation? in most cases you do. http://www.annoyances.org/exec/show/article03-200
+
+__________________
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 08:45 AM	       
+            	            	    
+ 	
+
+climbski
+ Banned
+ 
+
+Registered: Mar 2003
+ Location: Reno NV
+ Posts: 4653	     
+
+Gee ... why would you have to do ANY of that I never have 
+
+__________________
+3678mhz 306fsb P4C800-E 2.4C SL6Z3 SP-94 KHXPC3200 @ 245mhz AIRCOOLED 23279 Unless you are Macro or Ukcuf...your system is slower than mine ...so shut up and listen
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 08:47 AM	       
+            	            	    
+ 	
+
+KaoMAN
+ Pimp Whore
+ 
+
+Registered: Jul 2001
+ Location: New Jersey
+ Posts: 2161	     
+
+me neither. but lets not openly talk about that =)
+
+__________________
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 08:58 AM	       
+            	            	    
+ 	
+
+climbski
+ Banned
+ 
+
+Registered: Mar 2003
+ Location: Reno NV
+ Posts: 4653	     
+
+Umm I didn't say nuthin And I sugest nobody else say nuthin either.
+
+__________________
+3678mhz 306fsb P4C800-E 2.4C SL6Z3 SP-94 KHXPC3200 @ 245mhz AIRCOOLED 23279 Unless you are Macro or Ukcuf...your system is slower than mine ...so shut up and listen
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 09:07 AM	       
+            	            	    
+ 	
+
+Soulburner
+ AWOL
+ 
+
+Registered: Aug 2003
+ Location: 
+ Posts: 6257	     
+
+He means registration, thats a little different from activation...in that case look in your registry: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion Regdone = 1 As a disclaimer this has nothing to do with piracy, it is posted at Tweaktown and I don't think that it even does anything.
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 09:20 AM	       
+            	            	    
+ 	
+
+KaoMAN
+ Pimp Whore
+ 
+
+Registered: Jul 2001
+ Location: New Jersey
+ Posts: 2161	     
+
+?? registration could be easily confused with activation, dunno how you know exactly what he was thinking Soul. In any case yes you're right you dont need to register XP.. you never need to register anything.
+
+__________________
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 04:39 PM	       
+            	            	    
+ 	
+
+Soulburner
+ AWOL
+ 
+
+Registered: Aug 2003
+ Location: 
+ Posts: 6257	     
+
+quote:
+---------------------------------------------------------------------
+Originally posted by KaoMAN ?? registration could be easily confused with activation, dunno how you know exactly what he was thinking Soul
+---------------------------------------------------------------------
+
+Um maybe because he asked this... 
+quote:
+---------------------------------------------------------------------
+what happens if i dont register windows xp????
+---------------------------------------------------------------------
+
+__________________
+ 3DMark2001 [20,208] - 3DMark2003 [7,281] - Aquamark3 [56,694] 
+
+Report this post to a moderator | IP: Logged
+
+01-02-2004 09:36 PM	       
+            	            	    
+ 	
+
+hansito
+ n00b OC'er
+ 
+
+Registered: Nov 2003
+ Location: 
+ Posts: 60	     
+
+hey what i meant was activation.... sry thx
+
+Report this post to a moderator | IP: Logged
+
+01-04-2004 02:55 AM	       
+            	            	    
+ 	
+
+hansito
+ n00b OC'er
+ 
+
+Registered: Nov 2003
+ Location: 
+ Posts: 60	     
+
+i have a problem when i put my key to registrate it my it says its invalid what can i do??? thx
+
+Report this post to a moderator | IP: Logged
+
+01-04-2004 03:00 AM	       
+            	            	    
+ 	
+
+All times are GMT. The time now is 02:14 AM.	  	      	   	    	   	  
+  	
+
+ 	    Last Thread     Next Thread   	
+
+Dev Hardware Forums > SOFTWARE > Operating Systems > just a question 
+
+>> More Related Threads	 
+Thread	 Thread Starter	 Forum	 Replies	 Last Post	 
+Question on hypertherading and os 	System Halt 	Operating Systems 	9 	
+11-09-2003 06:39 AM
+ by FroGGer	  	 
+
+A question, for da geniuses.. 	Titus 	Operating Systems 	10 	
+01-15-2004 06:09 AM
+ by climbski	  	 
+
+Linux question 	*SOF2*VTX{2}8R+ 	Operating Systems 	8 	
+11-18-2003 06:13 PM
+ by n00854180t	  	 
+
+winXP question 	PowerChord 	Operating Systems 	9 	
+02-12-2003 01:24 PM
+ by fishaholic18	  	 
+
+Show Printable Version |   Email this Page |   Subscribe to this Thread  	
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+IMPORTANT INFORMATION
+
+-- Forum Rules
+
+-- Latest Hardware Reviews and Articles
+
+-- Dev Folding
+
+HARDWARE
+
+-- AMD Processors
+
+-- Intel Processors
+
+-- Motherboards
+
+-- Memory
+
+-- Video Cards
+
+---- 3dfx Resource Center
+
+---- ATI Resource Center
+
+---- nVIDIA Resource Center
+
+-- PC Cooling
+
+-- Computer Cases, Case Mods, & Power Supplies
+
+-- Computer Monitors and Displays  TFT-LCD, CRT, Plasma...
+
+-- Hard Drives, CD, DVD+RW, & Other Storage
+
+-- Wired and Wireless Networking
+
+-- Hardware Benchmarking Tools
+
+-- Hardware Development and Firmware
+
+OVERCLOCKING
+
+-- Video Card Overclocking
+
+-- CPU Overclocking
+
+-- Water and Extreme Cooling
+
+HOME COMPUTING
+
+-- PC Hardware, General
+
+-- Apple
+
+-- Laptop, PDA, & Mobile Computing
+
+-- Audio & Multimedia
+
+-- Printers, Keyboards, Mice, & Other Peripherals
+
+-- Computer Gadgets and Tech Toys
+
+-- Gaming Consoles  PlayStation 2, XBox, GameCube
+
+SOFTWARE
+
+-- Computer Games
+
+-- Operating Systems
+
+-- Software and Applications
+
+-- Programming and Scripting
+
+GENERAL GooSH!
+
+-- Local Pub
+
+-- Politics and News
+
+-- Science for Everyone
+
+MARKET PLACE
+
+-- Hot Deals
+
+-- Trading Post
+  
+ 	
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is ON  	
+
+   	
+
+Dev Shed Forums | ASP Free Forums | SEO Chat Forums | Newsletter | PHP Web Hosting | ASP Web Hosting 	
+
+Forums: » Register « | User CP | Calendar | Members | FAQs | Archive 	
+
+Dev Hardware Forums
+ 
+Advanced Forums Search
+ 
+Dev Hardware Site
+ 
+
+//--> 
+//--> 
+Powered by: vBulletin Version 2.3.2
+
+Dev Shed Forums  |  ASP Free Forums  |  Dev Articles Forums  |  Dev Hardware Forums  |  SEO Chat Forums 	
+
+© 2001-2004. All rights reserved. (Privacy Policy) Dev Hardware hosted by Hostway. 		
+
+

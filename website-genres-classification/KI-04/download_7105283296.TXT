@@ -1,0 +1,48 @@
+
+
+AbiWord Home   Take a Tour   Screenshots   Download   Plugins   Reviews   Awards Information   About AbiWord   Weekly News   License   Mailing Lists Publications Support   System Reqs.   User's Manual   FAQ   Report a Bug   Vote on Bugs   Get Help   Twiki Contribute   Suggest Ideas   Triage Bugs   Quality Assurance   Translate Developers Search:
+---------------------------------------------------------------------
+Printer FriendlyVersion	 
+
+AbiWord Downloads
+
+This page list the lastest supported AbiWord downloads. AbiWord plugins are available here as well. Plugins expand AbiWord's functionality, and users are thus advised to download these additional packages as well.
+
+Note that other downloads might exist, but are not listed here, such as dependencies and source packages for various operating systems. These packages can be found at our general SourceForce download area.
+
+If you don't need stability, and just want the latest cutting edge development version of AbiWord, then head over to our AbiWord Development Downloads.
+
+AbiWord 
+Description	 File	 Dependencies	 
+AbiWord v2.0.3 (Windows)	 abiword-setup-2.0.3.exe	 None	 
+AbiWord v2.0.3 (RedHat Linux 9)	 abiword-2.0.3-1.rh9.i386.rpm (GNOME version)	 FriBidi	 
+AbiWord v2.0.2 (Fedora Core 1)*	 abiword-gnome-2.0.2-1.Fedora.i386.rpm (GNOME version)	 Enchant	 
+AbiWord v2.0.3 (SuSE Linux 9)	 abiword-2.0.3-100.SuSE.90.ulb.2.i586.rpm	 Enchant	 
+AbiWord v2.0.2 (QNX)**	 abiword-2-0-2.qpr	 None	 
+AbiWord v2.0.3 (Source Code)	 abiword-2.0.3.tar.gz	 None	 
+* Fedora Core 1 binaries for AbiWord v2.0.3 will follow as soon as possible. ** QNX binaries for AbiWord v2.0.3 will follow as soon as possible. AbiWord Import / Export Plugins* 
+Description	 File	 Dependencies	 
+Import / Export plugins (Windows)	 abiword-plugins-impexp-2.0.3.exe	 None	 
+Import / Export plugins (RedHat Linux 9)	 abiword-plugins-impexp-2.0.3-1.rh9.i386.rpm	 libwpd	 
+Import / Export plugins (Fedora Core 1)	 abiword-plugins-impexp-2.0.2-1.Fedora.i386.rpm	 None	 
+Import / Export plugins (SuSE Linux 9)	 abiword-plugins-impexp-2.0.3-100.SuSE.90.ulb.2.i586.rpm	 libwpd, gnomedb, libgda	 
+Import / Export plugins (QNX)	 Included in the main QNX AbiWord package.	 None	 
+Import / Export plugins (Source Code)	 Included in the main AbiWord tarball. No longer available separately.	 None	 
+* The Import / Export package includes (amongst others) file importers and exporters for WordPerfect, OpenOffice.org and various image formats. AbiWord Tools Plugins* 
+Description	 File	 Dependencies	 
+Tools plugins (Windows)**	 abiword-plugins-tools-2.0.3.exe	 None	 
+Tools plugins (RedHat Linux 9)	 abiword-plugins-tools-2.0.3-1.rh9.i386.rpm	 None	 
+Tools plugins (Fedora Core 1)	 abiword-plugins-tools-2.0.2-1.Fedora.i386.rpm	 AikSaurus, AikSaurus-GTK	 
+Tools plugins (SuSE Linux 9)	 abiword-plugins-tools-2.0.3-100.SuSE.90.ulb.2.i586.rpm	 OTS	 
+Tools plugins (QNX)	 Included in the main QNX AbiWord package.	 None	 
+Tools plugins (Source Code)	 Included in the main AbiWord tarball. No longer available separately.	 None	 
+* The Tools package includes (amongst others) tools such a online dictionary checker and a text summarizer. ** Windows package does not contain the OTS text summarizer. AbiWord ClipArt 
+Description	 File	 
+ClipArt (Windows)	 Available from the main AbiWord installer	 
+ClipArt (RedHat Linux 9)	 abiword-clipart-2.0.3-1.rh9.i386.rpm	 
+ClipArt (Fedora Core 1)	 abiword-clipart-2.0.2-1.Fedora.i386.rpm	 
+ClipArt (SuSE Linux 9)	 abiword-clipart-2.0.3-100.SuSE.90.ulb.2.i586.rpm	 
+ClipArt (QNX)	 Not available	 
+
+---------------------------------------------------------------------
+Copyright (C) 1998-2002 SourceGear Corporation (C) 2003-2004 other contributors. All rights reserved. AbiSource, AbiSuite, and AbiWord are trademarks of SourceGear Corporation. All other product names, company names, or logos cited herein are property of their respective owners. Site feedback to webmaster@abisource.com 

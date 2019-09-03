@@ -1,0 +1,41 @@
+setCategoryLevel("0,","0,","0,","0,","0,","0,"); var region = ""; var searchResultTotal = "526"; var searchFilterPayment = "0"; var category_level1 = "20625"; var server = "location.hostname.toLowerCase();"; var tab = "all"; var pageAbsolute = "1"; var category_level3 = "32884"; var searchFilterSort = "current"; var cat1_name = "Kitchen, Dining & Bar"; var cat = "yes"; var cat3_name = "Cookie Cutters"; var category_level2 = "20635"; var cat0_name = "Home"; var cat2_name = "Tools & Gadgets"; var channel = ""; var category_level5 = ""; var pageRelative = "1"; var category_level0 = "11700"; var productFinder = 0; var writeLL = "1"; var pageName = "Listings"; var category_level4 = ""; var count = "501.1000"; //-->    includeHost = 'http://include.ebaystatic.com/';      typeof(writeCBHeader)!= "undefined"?writeCBHeader():'';   
+
+typeof(writeCBBrow)!="undefined"?writeCBBrow():false;      	
+
+home | pay    writeCBSignInLink("register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US","","");          | register    writeCBSignInLink("sign in","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US","sign out","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sout:US");     | sign in/out | services | site map   | help		
+
+headerpartner('', HdrSponsorEnable, sponsorLink);          	
+
+var view_item_path = "http://cgi.ebay.com/ws/eBayISAPI.dll?ViewItem&item="; var isWebTV = (navigator.appVersion.indexOf("WebTV") != -1) ? true:false; var searchTitleURL = "http://search.ebay.com/search/search.dll?GetResult"; var searchDescURL = "http://search.ebay.com/search/search.dll?GetResult"; var searchBaseURL = "http://search.ebay.com/search/search.dll?GetResult"; //-->         This page was last updated:           Jan-25 18:09	 eBay official time 18:11:47 PST	
+
+ 	 		
+
+var imgDir = "http://pics.ebaystatic.com/aw/pics/"; var nbsp = " "; var halfURL = "http://www.ebay.com/sfpromo/everything_home.html"; var fs3 = "3"; var fs2 = "2"; var fs1 = "1"; var ff3 = "Verdana, Arial, Helvetica, sans-serif"; var recentItems; if (recentItems == 0) { document.write('
+'); document.write('
+
+'); document.write(''+nbsp+'	'+nbsp+'	'); document.write('
+
+'); document.write(''); document.write(''); //str +=""; document.write(''); document.write('
+'); document.write('
+'); document.write('
+'+nbsp+''+nbsp+'	'); document.write('Find it now at Half.com!	'); document.write('
+'+nbsp+''+nbsp+'	'); document.write('What you\'re looking for may be available for immediate purchase at amazing prices. To find it now at Half.com, click the link below.	'); document.write('
+'+nbsp+''+nbsp+'	'); document.write('Find "keywords" at Half.com!	'); document.write('
+
+'); document.write('
+
+'); document.write(''+nbsp+''+nbsp+'	'); document.write('eBay\'s Half.com is a quick and easy way to get deals online.Just find the item you want at a great price and buy it. No waiting. It\'s that simple. 	'); document.write('
+
+'); document.write('	
+
+'); } //-->var SBR = "S7;I501;H1;W11700;C0;O5;T1;Q0;DN;G2;A111;F0;L0;B0;R4;Y1;E0;M0;J222;"; //-->
+
+---------------------------------------------------------------------
+
+Announcements   |   Register   |   Security Center   |   Policies   |   Feedback Forum   |   About eBay
+
+Copyright © 1995-2003 eBay Inc. All Rights Reserved.
+Designated trademarks and brands are the property of their respective owners.
+Use of this Web site constitutes acceptance of the eBay User Agreement and Privacy Policy.
+
+var recentItems; if (recentItems == 0) { document.write(""); //var str = ""; //str += '" width="440" height="201" visibility="hidden" onLoad="moveToAbsolute(layer1.pageX,layer1.pageY);clip.height=201;clip.width=440; visibility=\'show\';" />'; //document.write(str); } //--> 

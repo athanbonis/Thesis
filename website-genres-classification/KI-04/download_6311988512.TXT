@@ -1,0 +1,21 @@
+MailWasher Free Mailwasher free (2.0.40) has just been released. Contains several small bug fixes, but is limited to one e-mail account and does not include Hotmail support. Download the MailWasher Pro trial for multiple accounts and Hotmail. Download MailWasher The latest version of MailWasher Free is always available from this page. To download the trial version of MailWasher Pro or to purchase a MailWasher Pro license, please head to the Firetrust web site . Latest Stable Version: 2.0.40 MailWasher Free is the latest version of MailWasher (released 14 March 2003). No beta version is currently available Other versions MailWasher Free 2.0.40 - French Language version . With thanks to Georges for translation and resource stringing.   -->  p, td, body { font-family: arial, helvetica; font-size: 10pt; color: #515151 } td.comparison { border-left: 2px solid #88C1CF; border-top: 2px solid #88C1CF } td.comparison_right { border-left: 2px solid #88C1CF; border-top: 2px solid #88C1CF; border-right: 2px solid #88C1CF } td.comparison_base { border-left: 2px solid #88C1CF; border-top: 2px solid #88C1CF; border-bottom: 2px solid #88C1CF } h1 { font-family: arial, helvetica; font-size: 14pt; color: #919191 } h3 { font-family: arial, helvetica; font-size: 12pt; color: #919191 } hr { color: #88C1CF } .FAQQuestion { font-weight: bold; font-family: arial, helvetica; font-size: 11pt; color: 515151 } 
+
+MailWasher FreeMailwasher free (2.0.40) has just been released. Contains several small bug fixes, but is limited to one e-mail account and does not include Hotmail support. Download the MailWasher Pro trial for multiple accounts and Hotmail.      	     	        
+
+Download MailWasher
+
+The latest version of MailWasher Free is always available from this page. To download the trial version of MailWasher Pro or to purchase a MailWasher Pro license, please head to the Firetrust web site. 	
+  
+---------------------------------------------------------------------
+
+  Latest Stable Version: 2.0.40
+
+MailWasher Free is the latest version of MailWasher (released 14 March 2003).   
+
+  No beta version is currently available
+
+  Other versions
+
+MailWasher Free 2.0.40 - French Language version. With thanks to Georges for translation and resource stringing.
+
+

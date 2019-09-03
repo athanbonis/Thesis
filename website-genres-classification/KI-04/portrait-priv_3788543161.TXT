@@ -1,0 +1,78 @@
+
+
+Chris Palmer 
+
+School of Computer Science 
+Carnegie Mellon University 
+crpalmer+@cs.cmu.edu 
+
+---------------------------------------------------------------------
+Brief Personal History 
+---------------------------------------------------------------------
+
+I was born in London, Ontario (Canada) but most of my growing up was spent in Ottawa, Ontario (Canada). After graduating from high school, I attended the University of Waterloo for an entire month before deciding that I needed some time away from school. I spent the next two years doing everything from running a computer consulting company to manual labour. Finally, I ended up working as an accounts payable clerk at Revenue Canada. It seems that this gave me sufficient motivation to return to school and so I did. 
+
+Not being deterred by having failed once, I returned once again to the University of Waterloo where I stayed for 5 years. Finally, in August of 1998 I finished my last course and graduated with a B.Math (Honours Computer Science) degree. 
+
+After that, I moved to the U.S. to go to graduate school. I received my M.S. from Carnegie Mellon in December, 2000 and am still working ever so slowly toward the Ph.D. 
+
+If you want to see what I look like, you can see Carrie and I dressed for Halloween or you can see us dressed for a wedding. Slightly more recently, you can see pictures of us with her sister's little-bitty puppy. 
+
+---------------------------------------------------------------------
+My Schooling 
+---------------------------------------------------------------------
+
+As I said, I'm a PhD student at CMU (in my third year). My advisor is Christos Faloutsos . The first work I did here was some research into clustering algorithms that can handle very large databases (many gigabytes or terabytes of data) with high dimensional data (hundreds or thousands of dimensions). 
+
+Since then, I have done so research into network topologies (trying to understand more about what the Internet and the Web look like, as a graph). I've worked on an approximation to the neighbourhood function and I'm working on some ideas for similarity in data bases containing categorical data. 
+
+For fun, I also work with Vivisimo , a CMU start up. I did some work with them at CMU which in part lead to the founding of the company. 
+
+---------------------------------------------------------------------
+Research Interests 
+---------------------------------------------------------------------
+
+My research interests are quite varied. Right now they are mostly surrounding applications of graphs to data mining and text clustering. In my past lives, I have done some sampling work, text data base work, a hybrid text/relational data base (combining SQL and full text search) as well as some groupware research. 
+
+You can find pointers to this work in my publications . 
+
+I also find graph algorithms to be very interesting. At one point, I wrote a little description of Dijkstra's algorithm (single source shortest path) and there is some source code available. 
+
+---------------------------------------------------------------------
+Other Interests 
+---------------------------------------------------------------------
+
+My main hobbies are hiking, climbing and beer brewing. I currently hike in Pennsylvania but plan to try some trails in West Virginia when the weather warms up. I have only climbed in the real world a couple of times because I took up the hobby late in the fall. 
+
+Before coming to CMU, my main hobby was canoeing and camping. There are two major parks in Ontario that have serious canoe routes. They are Algonquin Park and Killarney Park. During the summer of 1998 I took two nine day trips into Algonquin Park. So far, I've managed to find time for one trip in the summer of 1999. I hope to visit Killarney sometime as it is supposed to have beautiful cliffs. 
+
+Beyond that, I enjoy many typical student activities such as playing pool, hanging out in bars and generally not taking life too seriously. I even tune out the world every now and again and watch some TV, much easier with a TV Guide. 
+
+Finally, I used to work on tile-based adventure games. These are games such as the old Ultima series and King Quest series. I wrote an explanation of Dijkstra's algorithm (source code is available) and I derived a very simple method of doing field of vision testing ( displayable.c ) for games like the Ultima series (when the screen is relatively small). 
+
+---------------------------------------------------------------------
+
+Short-cuts 
+
+* My algonquin trips 
+
+* Trip 1 (notes and route) 
+* Trip 2 (notes and route) 
+* Trip 3 (notes, route and photos) 
+
+* My publications 
+* Description of Dijkstra's algorithm 
+
+* Source code 
+
+* Field of view testing for tile games 
+
+* displayable.c 
+* Version put in some FAQ for tile games 
+
+* Past projects 
+
+* MultiText Project 
+* T/RDBMS Project 
+
+

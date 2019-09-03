@@ -1,0 +1,41 @@
+ActivePerl Notes Verify that your system meets the minimum requirements The Windows AS Package provides NO uninstall functionality, and is recommended only if you are unable to install ActivePerl using the MSI installer. Windows Installer 2.0+ is required for Windows. download for 9x/Me download for NT ActivePerl source distributions are also available: build 635 (.tgz) build 635 (.zip) AP635_diff.txt build 808 (.tgz) build 808 (.zip) AP808_diff.txt --> Privacy Policy | Email Opt-out | Site Map | Feedback © 2003 ActiveState, a division of Sophos All rights reserved   -->  
+  	  	  	  	  	 
+ 
+  	  	  	  	  	  	  	  	  	  	 
+
+1	 Register	 
+ 2	 Download	 
+
+ActivePerl 5.6.1 build 635 	 Windows	  MSI	  8.6MB	 
+ Windows	  AS package	  8.4MB	 
+
+Solaris	  pkgadd	  9.2MB	 
+ Solaris	  AS package	  9.3MB	 
+
+Linux (*)	  RPM	  9.4MB	 
+
+Linux	  DEB	  9.5MB	 
+ Linux	  AS package	  9.2MB	 
+
+ActivePerl 5.8.2 build 808 	 Windows	  AS package	  11.8MB	 
+ Windows	  MSI	  11.9MB	 
+
+Solaris	  AS package	  14.4MB	 
+ Solaris	  pkgadd	  14.4MB	 
+
+Linux (*)	  RPM	  14.3MB	 
+
+Linux	  AS package	  14MB	 
+ Linux	  DEB	  14.4MB	 
+
+ActivePerl Notes Verify that your system meets the minimum requirements 
+
+The Windows AS Package provides NO uninstall functionality, and is recommended only if you are unable to install ActivePerl using the MSI installer. 
+
+Windows Installer 2.0+ is required for Windows. download for 9x/Me download for NT ActivePerl source distributions are also available:   build 635 (.tgz)   build 635 (.zip)   AP635_diff.txt   build 808 (.tgz)   build 808 (.zip)   AP808_diff.txt 	
+
+ 	 	
+
+Privacy Policy |      Email Opt-out      |      Site Map | Feedback           © 2003 ActiveState, a division of Sophos All rights reserved                	       
+  	 
+

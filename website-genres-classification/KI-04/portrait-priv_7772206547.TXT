@@ -1,0 +1,106 @@
+
+
+Barbara J. Grosz
+Higgins Professor
+ of Natural Sciences
+Harvard University
+
+Contact Information and Office Hours Representative Recent Papers Courses 	
+
+Research 
+
+Artificial Intelligence
+Collaborative Planning and Human-Computer Communication
+
+One of the major challenges for computer science in the next decade is to create the scientific and technological base for easy-to-use, large-scale information systems. Better systems for human-computer communication are an essential part of this challenge. Theories and models of collaboration are important to this endeavor as well as to providing the foundations for constructing systems able to work with each other and their users. The ability to collaborate is critical if we are to have systems that are helpful assistants and not merely tools. 
+
+Professor Grosz's research group is addressing fundamental problems in modeling collaborative activity, developing systems ("agents") able to collaborate with each other and their users, and constructing collaborative, multi-modal systems for human-computer communication. Professor Grosz is also attempting to identify the basic structures and processes by which people use natural languages to communicate, focusing in particular on the mechanisms involved in dialogue and spontaneous speech. 
+
+Because collaborative action comprises actions by different agents, collaborative planning and activity involve the intentions of multiple agents. The collaborative planning process is a refinement process: a partial plan description is modified over the course of planning by the multiple participants involved in the collaboration. The SharedPlans model of collaboration (developed in collaboration with S. Kraus) handles multiple levels of action decomposition and is comprehensive in its treatment of partiality of belief and intention. Professor Grosz's research group is extending this model and using it in developing intelligent computer "agents" that work together in teams. 
+
+Professor Grosz has developed a theory of discourse structure that specifies how discourse interpretation depends on interactions among speaker intentions, attentional state, and linguistic form. Her current research in discourse processing has two foci. First, with colleagues at AT&T Bell Laboratories, she is using the theory to study the information about discourse structure conveyed by intonation, i.e., how tones demark, in spoken language, some of the structure that paragraphs and parentheses indicate in written language. Applications of this work should lead to better computer speech-synthesis systems. Second, she is involved in an interdisciplinary investigation of the connections between centering of attention and form of reference. 
+
+These two strands of research are being combined in an effort (joint with Professor Stuart Shieber) that aims to provide the scientific and technological base for a new paradigm for human-computer interaction, one that would enable the principled design of multi-modal dialogue-supporting interfaces. This research is investigating ways in which a theoretical understanding of collaborative activity can inform in a principled manner the design of concrete software interfaces. As a first step in this direction, Professor Grosz's research group has developed the DIAL system, a collaborative web interface for distance learning. / 
+
+Representative Recent Publications
+
+Request print copies of papers. All papers, including those not available online, can also be requested directly from Prof. Grosz's assistant Peter Arvidson. 
+
+Modeling Collaboration
+
+* Sanmay Das, Barbara Grosz and Avi Pfeffer. 2002. "Learning and Decision-Making for Reconciliation." In the Proceedings of the First Joint Conference on Autonomous Agents and Multi-agent Systems, Bologna, Italy. July, 2002.[pdf]
+
+* Pedro Sander, Denis Peleshcuk, and Barbara Grosz. 2002. "A Scalable, Distributed Algorithm for Efficient Task Allocation." In the Proceedings of the First Joint Conference on Autonomous Agents and Multi-agent Systems, Bologna, Italy. July, 2002.
+
+* Alyssa Glass and Barbara Grosz, 2000. "Socially Conscious Decision-Making." In the Proceedings of Agents2000 Conference, Barcelona, Spain, June 3-7, 2000. pp. 217 - 224.[pdf]
+
+* Luke Hunsberger and Barbara J. Grosz, 2000. A Combinatorial Auction for Collaborative Planning. In Proceedings of the Fourth International Conference on Multi-Agent Systems (Boston, Massachusetts), IEEE Computer Society Press, pp. 151 - 158.[pdf]
+
+* David Sullivan, Barbara Grosz, and Sarit Kraus. 2000. Intention Reconciliation by Collaborative Agents." In Proceedings of the Fourth International Conference on Multi-Agent Systems (Boston, Massachusetts), IEEE Computer Society Press, pp. 293-300.[pdf]
+
+* David G. Sullivan, Alyssa Glass, Barbara J. Grosz, Sarit Kraus. 1999."Intention reconciliation in the context of teamwork: an initial empirical investigation." In Klusch, M., Shehory, O.M., Weiss, G., eds., Cooperative Information Agents III, Lecture Notes in Artificial Intelligence, Vol. 1652, Springer-Verlag, pp. 149-162.[pdf]
+
+* Barbara Grosz and Sarit Kraus. 1999. "The Evolution of SharedPlans."   In Foundations and Theories of Rational Agencies, A. Rao and M. Wooldridge, eds. pp. 227-262.[pdf]
+
+* Grosz, Barbara. 1999. "The Contexts of Collaboration." In Cognition, Agency and Rationality, K. Korta, E Sosa, and X. Arrazola, eds. Dordrecht: Kluwer Press, pp. 175-188, (also presented at ICCS-97).
+
+* Barbara Grosz and Sarit Kraus. 1996. "Collaborative Plans for Complex Group Action." In Artificial Intelligence. 86(2), pp. 269-357.[pdf]
+
+* Barbara Grosz. 1996. " Collaborative Systems: 1994 AAAI Presidential Address." 2(17), pp. 67 - 85.
+
+Discourse Structure
+
+* Karen Lochbaum, Barbara J. Grosz, and Candace Sidner, 1999. "Discourse Structure & Intention Recognition." To appear in A Handbook of Natural Language Processing: Techniques and Applications for the Processing of Language as Text. R. Dale, H. Moisl, and H. Somers, eds., 1999. 
+
+* Grosz, B.J., and Sidner, C.L., "Attention, Intentions, and the Structure of Discourse", Computational Linguistics, 12:3 (1986)
+
+Discourse Structure & Intonation
+
+* Christine Nakatani, Julia Hirschberg, and Barbara Grosz. March 1995. "Discourse Structure in Spoken Language: Studies on Speech Corpora."  In Working Notes of the AAAI-95 Spring Symposium in Palo Alto, CA, on Empirical Methods in Discourse Interpretation. pp. 106-112.[pdf] 
+
+* Barbara Grosz and Julia Hirschberg. 1992. "Some Intonational Characteristics of Discourse Structure." In Ohala et al., eds., Proceedings of the International Conference on Spoken Language Processing, Vol. 1, pp. 429-432.[pdf]
+
+Centering
+
+* Barbara Grosz and Candace Sidner. 1998. "Lost Intuitions and Forgotten Intentions."  In Centering in Discourse, Marilyn Walker, Aravind Joshi and Ellen Prince, eds., Oxford University Press. pp. 39-51.[pdf] 
+
+* Barbara Grosz and Yael Ziv. 1998. "Centering, Global Focus, and Right Dislocation.."  In Centering in Discourse, Marilyn Walker, Aravind Joshi, and Ellen Prince, eds., Oxford University Press. pp. 293-307.[pdf] 
+
+* Barbara Grosz, Aravind Joshi, and Scott Weinstein. June 1995. "Centering: A Framework for Modeling the Local Coherence of Discourse."  In Computational Linguistics 2(21), pp. 203-225.[pdf] 
+
+* Peter Gordon, Barbara Grosz, and Laura Gillom. 1993. "Pronouns, Names, and the Centering of Attention in Discourse." Cognitive Science 3(17), pp. 311-347. 
+
+Collaborative Interfaces
+
+* Babaian, Tamara, Barbara J. Grosz and Stuart M. Shieber. 2002. "A Writer's Collaborative Aid."  Proceedings of the Intelligent User Interfaces Conference, San Francisco, CA. January 13-16. ACM Press.[pdf]
+
+* Ortiz, Charles L. and Barbara Grosz. 2002. "Interpreting Information Requests in Context: A Collaborative Web Interface for Distant Learning". Autonomous Agents and Multi-Agent Systems, 5, 429-465, 2002. Kluwer Academic Publishers.[pdf]
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Courses
+
+* CS 288 - Computational Models of Discourse
+
+---------------------------------------------------------------------
+
+Contact Information
+
+Maxwell-Dworkin Laboratory, Room 249
+33 Oxford Street
+Cambridge, MA 02138
+E-mail: my_last_name@eecs.harvard.edu
+
+Office Hours for the Fall 2003 semester: 
+
+Special office hours will be held on Thursday, September 18th from 2:30-3:30pm and on Friday the 19th from 11-noon. In general, Prof. Grosz will be working in Maxwell Dworkin on Tuesdays and Thursdays. Please contact Peter Arvidson (617-495-3963, peter@deas.harvard.edu) if you would like to arrange an appointment on one of those days during the semester.
+
+---------------------------------------------------------------------
+[Return to the top | Return to the Division's top page] 
+
+For information about the contents of this page, requests for articles,
+ or other information, please contact Peter Arvidson - (617)495-3963.
+
+

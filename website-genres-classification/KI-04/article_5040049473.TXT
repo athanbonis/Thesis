@@ -1,0 +1,201 @@
+
+
+Model-Based Reasoning 
+
+A common theme in any qualitiative reasoning system is to explain how physical systems work. Each attempts to formalize this "common sense knowledge" about the physical world. 
+
+Naive Physics
+
+Qualitative Reasoning
+
+Common Sense Reasoning
+
+Causal Reasoning
+
+Deep Reasoning (vs Compiled)
+
+With different researchers, each views the task somewhat differently. One universal criterion for these systems was that the description of the system must be derivable from the structure of the system - the components, their behavior, and their connections. (No-function-in-structure Principle of deKleer) In representing systems in this way, we also obtain explanation through "local" propogation of effects (through "causal chains").
+
+One could also call this reasoning: What-would-happen-if
+
+deKleer & Brown - physical components
+
+Kuipers - constraints
+
+Forbus - processes
+
+Keuneke - radical, revolutionary :-) functional components
+
+The methods of deKleer/Brown and Forbus illustrate two of the choices possible for primitive elements of the structural description. The device-centered paradigm of deKleer and Brown chooses as primitives the component devices themselves. Network laws provide constraints (on variables of component devices) at connection points. The system then can specify components behavior independently from a particular situation - thus the device model need not embed unstated assumptions about the context in which the device exists.
+
+Forbus, in contrast, uses a processed based schema. Here a single process can effect a number of substances. A process is the basic source of change in physical systems. Using this technique Forbus' system can express combinations of effects more easily (candle example). However, then it is harder to determine all ways (completeness and compactness) that a system can effect a specific substance (as compared to deKleer and Brown where connections are explicit and determine possible effects.)
+
+Kuiper's work is based on simulations and constraints using the QSIM algorithm. Here structural descriptions would be simply constraints (arithmetic, derivative, inequality, functional, and conditional). Qualitative simulation is an inference process which is applied to contraint equations to predict behaviors of a system.
+
+Envisioning -  what will happen if
+
+how things work
+
+Keuneke.... One universal criterion for these systems was that the description of the system must be derivable from the structure of the system ... problems in paper acceptance, etc...
+
+Paper in the Journal for Experimental and Theoretical AI
+
+The following looks at a the work of deKleer & Brown, Forbus and Kuipers. I will not go into full detail of any method, but you should look at them and be able to discuss high-level perspectives
+
+Qualitative Reasoning About Physical Processes
+
+Kenneth Forbus
+
+Forbus uses the notion of physical processes as the basis of his qualitative physics theory. He proposes a Qualitative Process Theory (QP theory).
+
+Reasoning involves capturing changes in the physical world. ??  They all do...
+
+deKleer deals with causal reasoning, particularly causal explanations of devices (in the form of logic proofs).
+
+Kuiper's uses various types of constraints on objects and a causal structural description to arrive at various causal explanations of devices.
+
+Forbus qualitiative dynamics theory is more general in that process is aimed at a range of phenomena, those which correspond to basic physical laws to the working of (simple or complicated) mechanical devices which require more than one such basic principle.
+
+He would say that causal reasoning (aka the other two) are just special cases of the qualitative reasoning on the process.
+
+QP theory is involved with determining "primitives" of process.
+
+Claim: while deKleer's work is very useful for causal reasoning "it cannot be used to deduce the limits of physical processes. This is because it does not represent quantities, only changes in them."
+
+Example (Forbus paper)
+
+deKleer could deduce that the temperature of the water is rising, but not that it might boil.
+
+A parameter of a physical system is represented by a quantity. For the purposes of QP analysis, a quantity had three components:
+
+an amount
+
+a rate
+
+an IQ value (IQ is for Incremental Qualitative Physics...vaules can be (U, D, C, or ?) for increasing, decreasing, constant, or indeterminate)
+
+A process is specified by : (see paper, pg. 327)
+
+* quantity conditions   
+* preconditions   
+* the relations among variables   
+* the influences imposed on variables 
+"Discontinuous changes in processes occur at limit points, which serve as boundary conditions. The points are chosen according to the quantity conditions of the processes that can affect that parameter. For example, the temperature quantity space for a fluid could be: T(ice) --> T(boiling) where temperatures at T(ice) and below correspond to the solid state, temperatures at T(boiling) and above correspond to the gaseous state, and any temperatures in between to being a liquid."
+
+Forbus work is very good in that it is general. 
+
+It describes (for processes) rules for detecting and determining changes. All rules that are satisfied are activated and run in parallel. The consequences indicate changes. 
+
+More specifically, his work addresses how to locate interesting points in time - places where interesting things happen (of course, this is a matter of perspective)
+
+Foundations of Envisioning
+
+Johan deKleer and John Seely Brown
+
+"The kinds of mental models of a mechanistic system that we are interested in are generated, metaphorically speaking, by running a qualitative simulation in the mind's eye. We call the result of such simulation 'envisionment'."
+
+In "Mental Models of Physical Mechanisms and Their Acquisition"
+
+Envisioning is a form of reasoning that produces a causal explanation of a physical device by explaining how disturbances from equilibrium in the device propogate.
+
+deKleer and Brown have implemented envisioning in a program called ENVISION which can analyze a wide variety of devices. They use a Pressure Regulator as an example giving output of ENVISION in the form of causal proofs.
+
+Structure and Function (Behavior)
+
+objective: causal reasoning that correctly predicts ensuing behavior in that device
+
+"Is causal reasoning doing something interesting, or is most of the work it appears to be doing actually pre-encoded in the evidence provided to it?" They claim the worth of a qualitative physics system is measured by the complexity of the relationship between input and output...if these relationships are precompiled, then this is not interesting... (thus no-function-in-structure)
+
+Question might be: At what level of causation? 
+
+page 435 - discuss behavior/function meanings 
+
+(how chose states?)
+
+Device Topology
+
+Component Models - devices
+
+* components and connections   
+* confluences of components (qualitative equations 
+Extra Knowledge
+
+* device state (i.e., valve open, closed, etc.)   
+* process confluences   
+* assumptions (if necessary) 
+
+Process
+
+Output of the system tries to be a compelling causal explanation of the device behavior (in the form of a logical proof)
+
+Undesirable characteristics
+
+* introduction of premises is unmotivated and arbitrary   
+* explanation-proofs are non-unique    
+* explanation proofs can be causally inverted (no cause-effect order) 
+(VonFraussen - on logical proofs as explanation)
+
+Note: Architecture of problem-solving...
+
+* based on logic proofs, carries with it any problems of logic 
+Problems with proof as explanation
+
+* process of reasoning vs reconstructed explanation 
+How many explanations can be generated? (15 for 2 components) (page 105)
+
+causality? (page 106)
+
+How does one know when through?
+
+How does one know when a statement of interest has been reached? no focus ... except through limiting states (or confluences) that can generate only behaviors of interest
+
+(no-function-in-structre?)
+
+Qualitative Simulation
+
+Benjamin Kuipers
+
+Purpose: to provide an efficient and robost means to providing knowledge of "deep models" in which an underlying mechanism, whose state variables may not be directly observable, accounts for the observable facts
+
+Approach: using qualitative causal models
+
+Domain of Origin: Medical physiology
+
+deKleer(?) calls "textbook" definition
+
+Qualitative Simulation: the derivative of a description of the behavior of a mechanism from the qualitative constraint equations. (Kuipers claims that all of the above authors are using a form of QS)
+
+Constraints:
+
+* Arithmetic  ( X = Y + Z)   
+* Functional ( Y = M+(X)) monotonic increasing   
+* Derivative ( Y = dX/dt) changes in X over time   
+* Inequality   
+* Conditional 
+Qualitative Simulation of a system starts with a description of the known structure of a system, and an initial state
+
+and produces a directed graph consisting of the possible future states of the system and the "immediate successor" relation between states. (page 293)
+
+The structure of the system is described as
+
+* Physical parameters: A set of symbols describing the structure of a system   
+* Constraint equations: describe how those parameters may be related to each other. 
+Each physical parameter is a continuously differentiable real-valued function of time. Its value at any given point in time is specified quantitatively in terms of its relationship with a totally ordered set of landmark values.
+
+The landmark values may be either numerical or symbolic.
+
+Two qualitative states in the same operating region are identical if all parameters are equal to the landmark values, and all the directions of change are the same. This allows the ability to detect cycles!
+
+Example: the water tank U-tube
+
+Constraints:
+
+* Each tank has a pressure which depends on its amount of water  
+* The rate of flow through the tube depends on the difference between the pressures  
+* A flow through the tube increases the amount in one tank and decreases the other Behavior:  
+* After the increment of water, the amount and pressure are increased in tank A, leading to a flow from A to B  
+* Water flows from A to B. The level in A falls, the level in B rises, and the pressure difference and rate of flow approach zero  
+* The pressure difference and rate of flow become zero as the U-tube reaches equilibrium with the level in both tanks higher than before the increment (page 295) 
+Don't forget here - on Kuiper's systems, we are not sure how the "thing" works... we are working with constraints
+
+

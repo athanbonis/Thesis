@@ -1,0 +1,168 @@
+Italian Mirror: ftp.siena.linux.it   --> 
+
+Source code 
+
+  	
+  The source code covers the Amiga port,   all Unix variants, MS Windows using GTK+ for Windows or Cygwin, and the native Windows (win32) port.
+  See also the CVS snapshot overview   and the Freeciv quickstart guide.  	 
+  	 
+  VERSION	   Download File	   Size	   
+latest release:	 freeciv-1.14.1.tar.gz	 7.49 MB	 
+latest release:	 freeciv-1.14.1.tar.bz2	 5.58 MB	 
+unstable development snapshot:	 freeciv-cvs-Jan-24.tar.bz2 Updated 25/01 	6.83 MB	 
+  	
+
+Binaries 
+
+  	
+  
+  Most binaries are not created by the   main Freeciv developers,   they are contributed by third parties.
+  Please note that we don't verify their contents;   problems with these packages are better   reported to the maintainer of the package.
+  Also check the dir link and your vendor/distributor's   site; they may have   more recent updates than the ones listed here.
+  1.14.0 is not client/server compatible with 1.13.0   and earlier versions. The tilesets are compatible.   	  
+ 	 
+  	 
+  README	   Maintainer	   Download File	   Dir.	   Size	  
+Amiga, native:	 Sebastian Bauer	 Freeciv 1.12.0	 dir	 878 KB	 
+Caldera:	 Shane Smit	 Freeciv 1.11.4 i386	 dir	 1.75 MB	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (GTK+ 2 client)	 dir	  	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (Xaw3d client)	 dir	  	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (server)	 dir	  	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (data files)	 dir	  	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (GTK+ 2 client + server + data)	 dir	  	 
+Debian GNU/Linux (unstable, i386):	 Jordi Mallach	 Freeciv 1.14.1 i386 (Xaw3d client + server + data)	 dir	  	 
+FreeBSD 5.1 release:	 Adam Kranzel	 Freeciv 1.13.0 i386 (GTK+ client)	 dir	  	 
+FreeBSD current:	 Adam Kranzel	 Freeciv 1.14.0 i386 (GTK+ client)	 dir	  	 
+Mandrake Linux 7.0 (glibc 2.1):	 Laurent Julliard	 Freeciv 1.12.0	 dir	 2.83 MB	 
+Mandrake Linux 9.0:	 Tim Stoop	 Freeciv 1.14.0 (server and GTK+ client) (i586)	 dir	 4.12 MB	 
+Mandrake Linux 9.0:	 Tim Stoop	 Freeciv 1.14.0 (server and GTK+ client) (Athlon)	 dir	 4.12 MB	 
+Mandrake Linux 9.0:	 Tim Stoop	 Freeciv 1.14.0 (source)	 dir	 6.32 MB	 
+Mandrake Linux 8.0 (glibc 2.2):	 Jan Dittberner	 Freeciv 1.12.0	 dir	 1.67 MB	 
+MacOS/X (Darwin) + X (Fink):	 Matt Stephenson	 Freeciv 1.14.0	 dir	  	 
+MacOS/X (Darwin) + X (server):	 GNU/Darwin	 Freeciv 1.11.4	 dir	  	 
+MacOS/X (Darwin) + X (GTK+ client):	 GNU/Darwin	 Freeciv 1.11.4	 dir	  	 
+MS Windows (win32), w/o sound set:	 Andreas Kemnade	 Freeciv 1.14.1	 dir	 3.63 MB	 
+MS Windows (win32), sound set included:	 Andreas Kemnade	 Freeciv 1.14.0 (EXE file)	 dir	 5.16 MB	 
+MS Windows (win32):	 Andreas Kemnade	 Freeciv 1.14.1 (ZIP file)	 dir	 3.41 MB	 
+MS Windows (win32):	 Andreas Kemnade	 unstable development snapshot (ZIP file) Updated 25/01 	dir	 3.98 MB	 
+MS Windows (with GTK+, click here for README):	 Per Inge Mathisen	 Freeciv 1.14.1 (GTK+ 2.0) (EXE file)	 dir	 4.90 MB	 
+MS Windows (with GTK+, click here for README):	 Andreas Kemnade	 unstable development snapshot (GTK+ 2.0) (ZIP file) Updated 25/01 	dir	 3.95 MB	 
+NetBSD 1.5 + 1.6:	 Tomasz Luchowski	 Freeciv 1.11.4 + 1.12.0 (data files)	 dir	  	 
+NetBSD 1.5 + 1.6:	 Tomasz Luchowski	 Freeciv 1.11.4 + 1.12.0 (server)	 dir	  	 
+NetBSD 1.5 + 1.6:	 Tomasz Luchowski	 Freeciv 1.11.4 + 1.12.0 (GTK+ client)	 dir	  	 
+NetBSD 1.5 + 1.6:	 Tomasz Luchowski	 Freeciv 1.11.4 + 1.12.0 (Xaw client)	 dir	  	 
+OpenBSD 2.8:	 Christian Gruber	 Freeciv 1.11.4 (Xaw)	 dir	 1.59 MB	 
+OpenBSD 2.8:	 Christian Gruber	 Freeciv 1.11.4 (GTK+)	 dir	 1.58 MB	 
+OS/2:	 Alexander Mai	 Freeciv 1.12.0 (Xaw)	 dir	 1.38 MB	 
+QNX:	 Travis Coady	 Freeciv 1.13.0 (XPhoton + GTK)	 dir	 2.72 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 8 i386	 dir	 4.98 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 8 i686	 dir	 4.97 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 8/9 (source)	 dir	 6.75 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 9 i386	 dir	 4.98 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 9 i686	 dir	 4.98 MB	 
+Red Hat Linux:	 Luis Hernandez	 Freeciv 1.14.1 RH 9 athlon	 dir	 4.96 MB	 
+SGI IRIX 6.5.20:	 Steve Queen	 Freeciv 1.14.1	 dir	 4.56 MB	 
+Slackware Linux 8.1:	 Stepan Roh	 Freeciv 1.14.1 (common files needed for all other packages)	 dir	 2.81 MB	 
+Slackware Linux 8.1:	 Stepan Roh	 Freeciv 1.14.1 (sounds - optional for clients)	 dir	 1.17 MB	 
+Slackware Linux 8.1:	 Stepan Roh	 Freeciv 1.14.1 (GTK+ Client)	 dir	 274 KB	 
+Slackware Linux 8.1:	 Stepan Roh	 Freeciv 1.14.1 (Xaw3D Client)	 dir	 232 KB	 
+Slackware Linux 8.1:	 Stepan Roh	 Freeciv 1.14.1 (server)	 dir	 274 KB	 
+Slackware Linux 9.0:	 Stepan Roh	 Freeciv 1.14.1 (common files needed for all other packages)	 dir	 2.81 MB	 
+Slackware Linux 9.0:	 Stepan Roh	 Freeciv 1.14.1 (sounds - optional for clients)	 dir	 1.17 MB	 
+Slackware Linux 9.0:	 Stepan Roh	 Freeciv 1.14.1 (GTK+ 2.0 Client)	 dir	 285 KB	 
+Slackware Linux 9.0:	 Stepan Roh	 Freeciv 1.14.1 (Xaw3D Client)	 dir	 241 KB	 
+Slackware Linux 9.0:	 Stepan Roh	 Freeciv 1.14.1 (server)	 dir	 287 KB	 
+Solaris 2 (SPARC):	 Bryan Blackburn	 Freeciv 1.13.0	 dir	 3.00 MB	 
+Stampede Linux:	 Martin Willemoes Hansen	 Freeciv 1.11.0	 dir	 895 KB	 
+SuSE Linux 8.1:	 Charles Samuels	 Freeciv 1.14.0 (source)	 dir	 5.17 MB	 
+SuSE Linux 8.1:	 Charles Samuels	 Freeciv 1.14.0 (server, GTK+ 1.2 client; i386)	 dir	 2.95 MB	 
+SuSE Linux 8.1:	 Charles Samuels	 Freeciv 1.14.0 (server, GTK+ 1.2 client; i686)	 dir	 2.95 MB	 
+SuSE Linux 8.1:	 Charles Samuels	 Freeciv 1.14.0 (server, GTK+ 1.2 client; P4)	 dir	 2.93 MB	 
+SuSE Linux 8.0:	 SuSE	 Freeciv 1.12.0 i386	 dir	  	  
+  	
+
+Tilesets 
+
+   
+ To use a tileset, download and unpack it into a Freeciv data  directory. Most tilesets are available in both XPM format (required for the Xaw and GTK+ X/Unix clients up to 1.14.0) and PNG format (required for all other clients). You can use an existing one or create your own; an existing one already has some tilesets in it, e.g.  trident. Unpacking produces a file foo.tilespec and a subdirectory foo/. Now make sure the directory is listed in your $FREECIV_PATH variable before you start civclient.  
+ 
+ Please let us know  if you upgrade or contribute any tilesets.  
+ 
+ See also how to design tilesets.  	
+
+  	 
+  README	   Status	   Download	   Dir.	   Size	 
+r-hires.4:	 up to date	 r-hires.4.tar.gz	 dir	 263 KB	 
+r-hires.4:	 up to date	 r-hires.4.zip	 dir	 281 KB	 
+NeoTrident_30x30_256-1.12.0-1.2:	 up to date	 NeoTrident_30x30_256-1.12.0-1.2.tar.gz	 dir	 200 KB	 
+NeoTrident_30x30_256-1.12.0-1.2:	 up to date	 NeoTrident_30x30_256-1.12.0-1.2.zip	 dir	 1.11 MB	 
+ft_64x32-1.13-1.1:	 up to date	 ft_64x32-1.13-1.1.tar.gz	 dir	 596 KB	 
+ft_64x32-1.13-1.1:	 up to date	 ft_64x32-1.13-1.1.zip	 dir	 4.52 MB	 
+lexxy13:	 up to date	 lexxy13.tar.gz	 dir	 445 KB	 
+lexxy13:	 up to date	 lexxy13.zip	 dir	 3.00 MB	 
+isotrident11:	 up to date	 isotrident11.tar.gz	 dir	 162 KB	 
+isotrident11:	 up to date	 isotrident11.zip	 dir	 2.43 MB	 
+macroisotrident9:	 up to date	 macroisotrident9.tar.gz	 dir	 211 KB	 
+macroisotrident9:	 up to date	 macroisotrident9.zip	 dir	 2.94 MB	 
+engels-1.12.0:	 up to date	 engels-1.12.0.tar.gz	 dir	 202 KB	 
+engels-1.12.0:	 up to date	 engels-1.12.0.zip	 dir	 1.24 MB	 
+isoengels2:	 up to date	 isoengels2.tar.gz	 dir	 260 KB	 
+isoengels2:	 up to date	 isoengels2.zip	 dir	 2.57 MB	 
+tinydent-png-1.14.1:	 up to date	 tinydent-png-1.14.1.tar.gz	 dir	 48 KB	 
+tinydent-png-1.14.1:	 up to date	 tinydent-png-1.14.1.zip	 dir	 66 KB	 
+tinydent-xpm-1.14.1:	 up to date	 tinydent-xpm-1.14.1.tar.gz	 dir	 51 KB	 
+tinydent-xpm-1.14.1:	 up to date	 tinydent-xpm-1.14.1.zip	 dir	 302 KB	 
+dinydent-1.14.0:	 up to date	 dinydent-1.14.0.tar.gz	 dir	 73 KB	 
+dinydent-1.14.0:	 up to date	 dinydent-1.14.0.zip	 dir	 532 KB	 
+winydent-png-1.14.1:	 up to date	 winydent-png-1.14.1.tar.gz	 dir	 54 KB	 
+winydent-png-1.14.1:	 up to date	 winydent-png-1.14.1.zip	 dir	 73 KB	 
+winydent-xpm-1.14.1:	 up to date	 winydent-xpm-1.14.1.tar.gz	 dir	 54 KB	 
+winydent-xpm-1.14.1:	 up to date	 winydent-xpm-1.14.1.zip	 dir	 343 KB	 
+dizzy_20x20_truecolor-1.13.0:	 up to date	 dizzy_20x20_truecolor-1.13.0.tar.gz	 dir	 102 KB	 
+dizzy_20x20_truecolor-1.13.0:	 up to date	 dizzy_20x20_truecolor-1.13.0.zip	 dir	 521 KB	 
+isophex-1.14.0:	 up to date	 isophex-1.14.0.tar.gz	 dir	 1.56 MB	 
+isophex-1.14.0:	 up to date	 isophex-1.14.0.zip	 dir	 5.25 MB	 
+mono-trident_30x30_2-1.12.1-1:	 up to date (?)	 mono-trident_30x30_2-1.12.1-1.tar.gz	 dir	 47 KB	 
+mono-trident_30x30_2-1.12.1-1:	 up to date (?)	 mono-trident_30x30_2-1.12.1-1.zip	 dir	 606 KB	 
+trident+.1.0.0:	 up to date (?)	 trident+.1.0.0.tar.gz	 dir	  	 
+trident+.1.0.0:	 up to date (?)	 trident+.1.0.0.zip	 dir	  	 
+brunus_30x30-1.9.1-1.1b:	 for 1.9.1, outdated	 brunus_30x30-1.9.1-1.1b.tar.gz	 dir	 57 KB	 
+brunus_30x30-1.9.1-1.1b:	 for 1.9.1, outdated	 brunus_30x30-1.9.1-1.1b.zip	 dir	 476 KB	 
+classic_30x30-1.9.1-1.0:	 for 1.9.1, outdated	 classic_30x30-1.9.1-1.0.tar.gz	 dir	 53 KB	 
+classic_30x30-1.9.1-1.0:	 for 1.9.1, outdated	 classic_30x30-1.9.1-1.0.zip	 dir	 474 KB	 
+dwp_30x30-1.9.1-1.0:	 for 1.9.1, outdated	 dwp_30x30-1.9.1-1.0.tar.gz	 dir	 89 KB	 
+dwp_30x30-1.9.1-1.0:	 for 1.9.1, outdated	 dwp_30x30-1.9.1-1.0.zip	 dir	 475 KB	  
+
+Nations 
+
+Browse Contributed Nation Rulesets	 
+
+Modpacks 
+ 
+  	 
+  README	   Maintainer	   Download File	   Dir.	   Size	  
+Ancients:	 Bobby Bryant	 for Freeciv 1.12.0	 dir	 151 KB	 
+Fantasy:	 Mark Polo	 for Freeciv 1.14.0	 dir	 160 KB	 
+Detailed:	 Jared Blackburn	 1.3.0, for Freeciv 1.13.0	 dir	  	 
+
+Utilities 
+
+CivWorld map editor:	 patch against 1.14.1	 dir	 90 KB	 
+GUI Client Launcher:	 XCivClient-1.0.0	 dir	 21 KB	 
+Technology Tree Chart Maker:	 TechTree-3.0	 dir	 96 KB	 
+Window Maker Freeciv Dock:	 WMCiv-0.2	 dir	 18 KB	 
+Graphical Log File Display:	 CivLog-0.6	 dir	 511 KB	 
+GUI Server/Client Frontend:	 CivGo-0.8.0	 dir	 37 KB	 
+GUI Frontend for Windows:	 WinCivGo	 dir	 -	 
+
+Sounds (version 1.13.0 required) 
+
+Standard sound set	 
+  Browse Contributed Sound Sets	 
+
+Browse FTP 
+
+Freeciv FTP Site: 	  ftp.freeciv.org	 
+Italian Mirror: 	  ftp.siena.linux.it	 
+
+

@@ -1,0 +1,32 @@
+CIspace : tools for learning Computational Intelligence. We have applets for learning about graph searching , constraint satisfaction problem solving , stochastic local search , neural network learning , and robot control . Online Code for the book Solved exam-style problems ( not exercises from the book). Overhead Transparencies Errata Sample 12 week course based on the book. CILog (or PDF format ), a representation and reasoning system with declarative debugging and explanation tools. CI's unofficial home page --> Order a copy of the book Price Compare (put in your own country or state and currency then redisplay the result). We make no guarantees about this service, but it seems to be a good idea. accesses since 6 November 1997. Copyright © 1998, 1999, David Poole , Alan Mackworth , Randy Goebel .   --> 
+
+Computational Intelligence
+
+A Logical Approach
+
+David Poole
+Alan Mackworth
+ Randy Goebel
+
+Published by Oxford University Press, New York. 
+
+Computational Intelligence: A Logical Approach is a textbook on artificial intelligence. It was published in January 1998. 
+
+* Table of Contents (or front matter in PDF format). 
+* Preface (or PDF format). 
+* Chapter 1 (in PDF format) 
+* CIspace: tools for learning Computational Intelligence. We have applets for learning about graph searching, constraint satisfaction problem solving, stochastic local search, neural network learning, and robot control. 
+* Online Code for the book 
+* Solved exam-style problems (not exercises from the book). 
+* Overhead Transparencies 
+* Errata 
+* Sample 12 week course based on the book. 
+* CILog(or PDF format), a representation and reasoning system with declarative debugging and explanation tools. 
+* Order a copy of the book 
+* Price Compare (put in your own country or state and currency then redisplay the result). We make no guarantees about this service, but it seems to be a good idea. 
+
+---------------------------------------------------------------------
+accesses since 6 November 1997. 
+
+---------------------------------------------------------------------
+Copyright © 1998, 1999, David Poole, Alan Mackworth, Randy Goebel. 

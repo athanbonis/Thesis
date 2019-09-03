@@ -1,0 +1,472 @@
+  
+lynda.com - links
+
+Product Specific | Design Resources | Misc. | Web Intro | Browsers | Cross-Platform Considerations | Stock Photography Fast Graphics | Web Color | Hexadecimal | Background Tiles | Transparency | Typography | Aligning Stuff | Rules | Bullets | ImageMaps |
+ Tables | Web Animation and Sound | The Future? 
+
+These links relate to Web design, Web graphics, and Web authoring tools.
+
+PRODUCT SPECIFIC	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     ADOBE GOLIVE       GoLive Heaven
+
+A source for up-to-date GoLive news, support, and plug-ins.
+
+ADOBE PHOTOSHOP
+
+Russell Brown's homepage
+
+A veritable plethora of quality photoshop tips & techniques.
+
+MACROMEDIA DREAMWEAVER
+
+Studio Seven Design
+
+Offers a nice collection of Dreamweaver tutorials and step-by-step examples.
+
+Dreamweaver Depot
+
+An amazing resource for everything Dreamweaver related.
+
+Yaromat
+
+Offers a multitude of Dreamweaver files for additional extensibility.
+
+MACROMEDIA FLASH
+
+moock.org
+
+Wonderful source for Flash™. He offers free, downloadable Flash™ .fla's, step-by-step tutorials, and even workflow suggestions. A "must visit" for any Flash™ developer.
+
+Flash Kit
+
+Another great Flash resource with tons of free how-to's and downloadable examples that you can deconstruct.	      	        
+     	        
+     	       
+   
+
+STOCK PHOTOGRAPHY 		
+
+Comstock 
+
+For over 25 years COMSTOCK has been one of the world's most renowned photo agencies with a reputation for professionalism and integrity amongst the clients it serves and the photographers it represents. 		
+
+GRAPHIC DESIGN RESOURCES 		
+
+CMYK MAGAZINE
+ 
+The Next Generation of Visual Communication
+ 
+Celebrates the graphic arts through a quintessential display of the
+ freshest, most uncensored creative work published today, combined with coverage on issues, ideas, teachings, and practice -  to inspire all levels of the industry food chain.
+ 
+ThePowerXChange, LLC
+
+The world's largest collection of extensions for all sorts of applications -- from Acrobat to QuarkXPress. Visit their site and search for a solution, or sign up for their electronic newsletter.
+ 
+
+Creativepro.com 
+
+Resources for Creative Professionals 
+
+The Graphic Design Resource Center 
+
+Everything a Graphic Designer could want or need. 		
+
+DIGITAL DESIGN TOOLS 		
+
+Adobe
+ 
+Developers of Adobe Photoshop, Illustrator, InDesign, After Effects, Acrobat and other digital design tools, Adobe helps people and businesses communicate better through its world-leading digital imaging, design, and document technology platforms for consumers, creative professionals, and enterprises.
+ 
+Apple Computer
+
+Developers of the insanely great Macintosh Operating System and equally innovative computer hardware, Apple ignited the personal computer revolution in the 1970s with the Apple II and reinvented the personal computer in the 1980s with the Macintosh. Apple is committed to bringing the best personal computing experience to students, educators, creative professionals and consumers around the world through its innovative hardware, software and Internet offerings.
+ 
+Corel 
+
+Developers of CorelDRAW, Bryce and other digital design tools, Corel's goal is to give customers the power to create, exchange and instantly interact with visual content that is always relevant, accurate and available. 
+
+Macromedia 
+
+Developers of Flash, Dreamweaver, Fireworks, Director and other digital design tools, Macromedia is motivated by the belief that great experiences build great businesses. Their software empowers millions of business users, developers, and designers to create and deliver effective, compelling, and memorable experiences - on the Internet, on fixed media, on wireless, and on digital devices. 		
+
+MISC.	 	
+
+The Association of Macintosh Trainers 
+
+An international network of Macintosh computer professionals who provide computer support and assistance to anyone in need.
+
+Internet Advertising Bureau 
+
+Ad banner size standards. A great resource for figuring out the "official" sizes for the varying types (and sizes) of ad banners. 		
+
+WEB INTRO	      	        
+     	        
+     	       
+          
+     	        
+     	     	     	        
+     	     WWW Authoring FAQ 
+
+Excellent FAQ assembled by Tom Boutelle of PNG and Mapedit fame. 
+
+Lynda's Books 
+
+Lynda Weinman's series of Web Graphics books.	      	        
+     	        
+     	       
+   
+
+BROWSERS	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Yahoo Search  
+
+Check Yahoo's browser list for new browser arrivals. 
+
+InfoSeek Search 
+
+Check InfoSeek's browser list for new browser arrivals. 
+
+Browser Watch 
+
+Browser statistics. 
+
+W3C 
+
+Get the latest HTML info from the source. W3C. 
+
+HTML+ Specs 
+
+Description of HTML+.	      	        
+     	        
+     	       
+   
+
+CROSS-PLATFORM CONSIDERATIONS	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Monitor Gamma 
+
+Everything you ever wanted to know about monitor differences by Robert Berger. 
+
+Articles by Charles Poynton 
+
+Great resource for info on Gamma.	      	        
+     	        
+     	       
+   
+
+FAST GRAPHICS	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Common Internet File Formats 
+
+Excellent reference for file formats and respective viewers/helper apps. 
+
+PNG File Format
+
+Specs for a new file format - PNG - 24-bit w/full alpha channel transparency. 
+
+DeBabelizer
+
+Software for batch processing palettes and bit-depth for Web and multimedia images. 
+
+The Bandwidth Conservation Society 
+
+The name says it all.	      	        
+     	        
+     	       
+   
+
+WEB COLOR	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     216 Safe Colors for browsers  
+
+Homegurrl's tips on using browser-safe colors. 
+
+Using Browser-Safe CLUT on Photographs 
+
+Dithering in 24-bit images.	      	        
+     	        
+     	       
+   
+
+HEXADECIMAL	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Hex Convert   
+
+Mediarama's Hex Converter. 
+
+Non-Dithering Hex Chart 
+
+The browser-safe color chart organized by color that's described in my books. 
+
+Hex on U
+
+An attempt to explain hexidecimal math.	      	        
+     	        
+     	       
+   
+
+TILES	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Netscape's Library  
+
+A library of pattern tiles.	      	        
+     	        
+     	       
+   
+
+TRANSPARENCY	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     WWW Authoring FAQ 
+
+Tom Boutell's FAQ page about interlaced and transparent GIFs. 
+
+PNG File Format
+
+PNG does better transparency than GIFs, but is not widely supported. 
+
+BoxTop's PhotoGIF Plug-in
+
+Boxtop offers a GIF89a plug-in for Photoshop on Macs. 
+
+Adobe Gif 89a Plug-in (Mac)
+
+Free Mac Photoshop plug-in for making transparent GIFs.
+
+Adobe Gif 89a Plug-in (Windows)
+
+Free Windows Photoshop plug-in for making transparent GIFs.	      	        
+     	        
+     	       
+   
+
+TYPOGRAPHY (IF YOU CAN CALL IT THAT)	 	
+
+ITC Fonts 
+
+An international leader in typeface design and marketing for over 25 years, ITC collaborates with world-class designers to provide a library of more than 1,000 classic typefaces and innovative new designs. 
+
+Letraset
+
+Letraset's www site. 
+
+Custom Handwriting Fonts 
+
+This site will take your handwriting and make an electronic version for you. 
+
+FontHead Designs
+
+Excellent independent font-designer Ethan Dunham's site, who sells his wares inexpensively over the Web. 
+
+Fonts Online 
+
+Excellent directory for online font acquisitions. 
+
+Emigre
+
+One of the most innovative font design houses in the world goes online. 
+
+Agfatype
+
+Agfatype's online type foundry. 
+
+Fonts FAQ 
+
+Great resource for learning about fonts. 
+
+Typofile 
+
+Typofile Magazine for essays on computer-screen–based typography assembled by Daniel Will-Harris. 
+
+Choosing and Using Type
+
+Great tutorial on type design by Daniel Will Harris.
+
+ 
+
+ALIGNING STUFF	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     David Seigal's Alignment Tips  
+
+Alignment Tips from Web Wonk. 
+
+Creating High-Impact Documents
+
+Nescape's instructions on using image sizing tags.	      	        
+     	        
+     	       
+   
+
+RULES	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Buttons, Bullets and Bars  
+
+Chris Stephen's clip art collection.	      	        
+     	        
+     	       
+   
+
+BULLETS	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Matterform 
+
+Michael Herrick's clip art and Web-bullet philosophy.	      	        
+     	        
+     	       
+   
+
+IMAGEMAPS	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Imagemaps Tutorials  
+
+One site that lists you to eight others for imagemap instruction. 
+
+Imagemap Help Page
+
+Help for imagemap makers. 
+
+Client-Side Imagemap Help Page 
+
+ihip's client-side imagemapping info. 
+
+MapEdit 
+
+Tom Boutell's software for imagemaps — supports client-side. 
+
+Imagemaps
+
+How to do Imagemaps, courtesy of Netscape.	      	        
+     	        
+     	       
+   
+
+TABLES	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Tables in Netscape 1.1 
+
+Netscape's Tables Tutorial.	      	        
+     	        
+     	       
+   
+
+WEB ANIMATION & SOUND	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     Flash and Video 
+
+Macromedia's support page. 
+
+GIF Construction Kit for Windows 
+
+PC Authoring software for GIF89a animations. 
+
+Real Audio Page 
+
+Info on Real Audio — audio streaming over the www.
+
+QuickTime
+
+The official QuickTime site. 
+
+MPEG FAQ
+
+Everything you want to know about MPEG, plus some. 
+
+FUTURE?	      	        
+     	        
+     	       
+       
+     	        
+     	     	     	        
+     	     The Future of Visual Design on the Web  
+
+The chapter from my book Designing Web Graphics that is only published on the Web.
+
+SGI/VRML/Inventor 
+
+See what's up with VRML.
+
+Director on the Web 
+
+Director documents as inline images on Web pages? Yes! Check out Shockwave. 
+
+Sun's HotJava
+
+Applets and caffeine! 
+
+Adobe Acrobat
+
+Get the latest on Acrobat. 
+
+My Brother Bill's book on CGI 
+
+CGI at it's best, and it's in the family....	      	        
+     	        
+     	       
+   
+
+home | books | CD-ROMS | online training movie library | bookstore | links 
+downloads | Web color | inspiration | interviews | tips | email 
+
+Call us toll free at 1-888-335-9632 
+International callers: 1-805-646-7076 
+
+read our privacy statement. 
+
+

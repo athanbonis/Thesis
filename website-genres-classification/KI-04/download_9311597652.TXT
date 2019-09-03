@@ -1,0 +1,14 @@
+Nessus 2.0 The current stable version, for Unix-compatible systems only This is the brand new version of Nessus NessusWX A native Win32 client Note that you will need to install nessusd on a Unix server for this software to be of any use to you ! NeWT 1.4 A native port of Nessus under Windows, which is very easy to install and to use This is a commercial product from Tenable Network Security This web page is Copyright (C) 2003 Renaud Deraison   --> 
+Home	 Introduction	 News	 Features	 Download	 Docs	 Demo	 Plugins	 Contacts	 
+
+Nessus is made up of two parts : a server and a client. The server (nessusd) is actually in charge of the attacks, whereas the client is just a frontend designed to collect the results. As of today, there is only one version of the server which works on POSIX systems (Solaris, FreeBSD, GNU/Linux and others), and there are multiple clients : one which works with GTK (the Gimp ToolKit, see the GTK website, others have been written for Win32.
+
+The server is not an option. It performs the security checks. 
+
+Package name	 Description	 Comment	 Nessus 2.0	 The current stable version, for Unix-compatible systems only	 This is the brand new version of Nessus	 
+NessusWX	 A native Win32 client	 Note that you will need to install nessusd on a Unix server for this software to be of any use to you !	 
+
+NeWT 1.4	 A native port of Nessus under Windows, which is very easy to install and to use	 This is a commercial product from Tenable Network Security	 
+
+---------------------------------------------------------------------
+This web page is Copyright (C) 2003 Renaud Deraison 

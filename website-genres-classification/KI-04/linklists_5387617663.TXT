@@ -1,0 +1,76 @@
+
+
+Validators and Checkers
+
+Don't forget to check out the Web Design Group's own validators and checkers in our Tools section.
+
+W3C MarkUp Validation Service 
+Online HTML and XHTML validator.
+ 
+A Real Validator 
+Shareware HTML validator for Windows; offline version of the WDG HTML Validator.
+ 
+Validator-Lite 
+Free HTML and XHTML validator for Linux and other Unix-like systems.
+ 
+SP 
+James Clark's multi-platform SGML parser that includes the SGML validator nsgmls.
+ 
+HTML TIDY 
+Dave Raggett's free cross-platform utility for cleaning up HTML.
+ 
+BBEdit 
+Shareware text and HTML editor for the Macintosh that includes an HTML validator.
+ 
+STG XML Validation Form 
+Syntax validator for XML documents.
+ 
+Web Page Backward Compatibility Viewer 
+Allows authors to view a page with selected tags unsupported--a good tool for ensuring cross-browser compatibility.
+ 
+Web Page Purifier 
+Allows authors to view a page "purified" to be compliant with HTML 2.0, HTML 2.0+Tables, HTML 3.2, or webtv 1.1.
+ 
+Bobby 
+Checks HTML for browser compatibility and accessibility.
+ 
+W3C CSS Validation Service 
+A free, easy-to-use CSS checker.
+ 
+W3C Link Checker 
+A free, easy-to-use link checker.
+ 
+LinkAlarm 
+Fee-based service that regularly checks a site's links and sends a report by e-mail.
+ 
+NetMechanic 
+Link tester and HTML lint that scans a site and sends a report by e-mail.
+ 
+HTML PowerTools 
+Shareware Windows program that includes an offline link checker and a configurable quasi-validator.
+ 
+Watchfire WebQA 
+Link checker and site management tool for Windows.
+ 
+MOMspider 
+Perl-based link checker and analyzer for Unix.
+ 
+CyberSpyder Link Test 
+Shareware Windows program to check the validity of hyperlinks.
+ 
+LinkScan 
+Server-based link checker for UNIX and Windows NT.
+ 
+Robots.txt Checker 
+Online checker for robots.txt syntax.
+ 
+Web Link Validator 
+Shareware link checker for Windows.
+ 
+Open Directory HTML Validators and Debuggers 
+A list of validation and checking links.
+ Maintained by Liam Quinn <liam@htmlh&#101;lp.com> Reference ~ FAQs ~ Tools ~ Design ~ Feature Article ~ BBS ~ Links
+
+Copyright � 1996-2003 Liam Quinn. All rights reserved.
+
+

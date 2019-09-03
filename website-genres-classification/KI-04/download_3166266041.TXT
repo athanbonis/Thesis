@@ -1,0 +1,229 @@
+Localizer Md5Sums About X11 Installing Apple X11 Start OpenOffice.org Finder Integration End User Support Having Problems Installing? Mac OS X Porting Page Notes The links below are arranged by region. All the mirrors listed carry OpenOffice.org 1.0.3 for MacOS X (in English) and utilities for translating OpenOffice.org into other languages. While stable enough for usage and offering the majority of the functionality to OpenOffice.org on other platforms, this is not a traditional MacOS X user-friendly application. The X11 release is about functionality, not looks. This build is meant for the Darwin community and Unix-savvy MacOS X user community and forming a platform for us to build the Quartz and Aqua tracks for the traditional Mac user. The 1.0.3 release runs on the Mac OS X 10.2.x and DarwinPPC platforms. It requires additional software to run, such as the XWindows windowing system from the XFree86 project (included in the install package). Everyone is invited to join the project and lend a hand! To join in the effort, please click on the " Join this project " link. If you are not a registered member of OpenOffice.org, you can join now. If you have difficulties installing, please visit the various support forums to get a helping hand. Choose the mirror site closest to you. The link goes (or should go) directly to the application file; a click should start the download of the dmg.gz installation file. File. You want this: ooo103darwingm.dmg README . Read it. The README provides additional late-breaking information. OpenOffice.org 1.0.3 MacOS X (X11) | 173 MB Location Type URL Connection Maintainer Australia FTP Planet Mirror *** Jason Andrade Australia HTTP Planet Mirror *** Jason Andrade Austria HTTP Goodie Domain Service (Vienna Univ. of Tech.) *** Antonin Sprinzl Austria FTP Goodie Domain Service (Vienna Univ. of Tech.) *** Antonin Sprinzl Belgium HTTP Belnet ?? Antoine Delvaux Belgium FTP KULeuvenNet ** Yves Tavernier Belgium FTP Skynet *** Cedric Gavage Brazil HTTP Linorg *** Linorg Brazil HTTP OpenOffice.org Projeto Brasil ** Claudio Ferreira Filho Czech Republic HTTP CVUT *** Silicon Hill Czech Republic FTP CVUT *** Silicon Hill China (HK) FTP Gnupilgrims.org <??> HK Linux Users Group Denmark HTTP sunsite.dk *** mirror@sunsite.dk Denmark FTP sunsite.dk *** mirror@sunsite.dk Finland FTP Finnish University and Research Network (FUNET) *** oo-adm@nic.funet.fi France FTP CICT ** Philippe BaquÃÂ© Germany FTP ftp://ftp.tu-chemnitz.de/ (Chemnitz) ** Guenther Fischer Germany FTP Aachen *** Timon Schroeter Germany FTP LEO *** Daniel Lang Germany HTTP LEO *** Daniel Lang Germany FTP ftp://ftp.join.uni-muenster.de/ (Uni-Muenster) *** Christian Schild Germany FTP ftp://openoffice.tu-bs.de/ (Tu-bs) *** M.Kubiak@tu-bs.de Germany HTTP StarDiv ** Stefan Taxhet Germany FTP ftp://ftp-stud.fht-esslingen.de/ (Esslingen) ** Adrian Indonesia HTTP http://sapi.vlsm.org/openoffice/ <??> Rahmat M. Samik-Ibrahim =--> Indonesia FTP ftp://sapi.vlsm.org/ <??> Rahmat M. Samik-Ibrahim =--> Japan FTP KDDI R&D Labs, INC. <??> ftpadmin@kddlabs.co.jp Japan HTTP Ring *** Contact Japan FTP Ring *** Contact Malaysia HTTP AsiaOSC MIMOS ** Mohd Pazli Sulong Netherlands FTP SNT FTP Server *** Michael Niblett Netherlands HTTP SNT Server *** Michael Niblett Netherlands FTP ftp://borft.student.utwente.nl *** Michael Niblett Netherlands HTTP http://borft.student.utwente.nl/ *** Michael Niblett Poland FTP ftp://ftp.openoffice.pl/ *** B.Maruszewski Portugal HTTP http://tux.cprm.net/ ** Vitor Domingos =--> Portugal FTP ftp://tux.cprm.net/ (Tux) ** Vitor Domingos =--> Romania FTP ftp://ftp.iasi.roedu.net/pub/mirrors/openoffice.org/ (RoEduNet) *** Subredu Manuel Romania HTTP http://ftp.iasi.roedu.net/mirrors/openoffice.org/ (RoEduNet) ** Subredu Manuel South Korea FTP ftp://ftp.kr.freebsd.org/pub/openoffice *** Choi Junho Korea FreeBSD Users Group Spain FTP Cyberfenix <??> Felix Valle Spain HTTP http://ftp.rediris.es/ <??> JosÃÂ© Manuel Macias Spain FTP ftp://ftp.rediris.es/ <??> JosÃÂ© Manuel Macias Sweden FTP http://ftp.sunet.se/ *** archive@ftp.sunet.se Switzerland FTP Swiss SunSITE *** Sunsite Maintainers U.K. HTTP UK Mirror Service *** The UK Mirror Service U.S.A. FTP Indiana University *** Corey Shields U.S.A. FTP SecsUp *** Christopher Morrow U.S.A. HTTP SecsUp *** Christopher Morrow U.S.A. HTTP ftp://mirror.telentente.com/ ** Dave O'Shea U.S.A. FTP ftp://ftp.mn-linux.org/linux/ (US domains only) *** Bob Tanner U.S.A. HTTP BinaryCode.org *** Stephan Jau U.S.A. HTTP ibiblio.org *** Donald Sizemore / John Reuning U.S.A. FTP ibiblio.org *** Donald Sizemore / John Reuning U.S.A. FTP pair *** Kevin Martin U.S.A. HTTP pair *** Kevin Martin U.S.A. FTP ftp://mirrors.umbc.edu/ *** Randy Philipp Taiwan FTP ftp://ftp.nctu.edu.tw/ *** ftpadm@ftp.nctu.edu.tw Turkey FTP ftp://ftp.comu.edu.tr/ ** Necdet Y�cel =--> Localizer (Translating OpenOffice.org) The OpenOffice.ort 1.0.3 Localizer translates the interface of OpenOffice.org into over a dozen native languages. It also installs foreign language dictionaries and hyphenation tools. To translate OpenOffice.org, you must first download the full OpenOffice.org MacOS X (X11) package above, install it first, then run the localizer. Note : Not all languages may have usable X11 fonts at this time, particularly Asian language fonts. The interface may be translated correctly, but without fonts it will not be drawn properly on the screen. This localizer supports the following languaes (a " d " indicates foreign language dictionaries are available, an " h " hyphenation support): US English ( dh ), UK English ( dh ), Canadian English ( dh ), Catalan ( d ), Chinese-traditional, Danish ( dh ), Dutch ( dh ), Finnish, French ( dh ), German ( dh ), Greek ( d ), Italian ( dh ), Japanese, Korean, Polish ( d ), Portugese ( dh ), Russian ( dh ), Spanish ( dh ), Sweedish ( d ), Turkish. Dictionaries are available for the following languages: US English, UK English, Canadian English, Catalan, Danish,   File. You want this: ooo103l18ngm.dmg OpenOffice.org 1.0.3 Localizer | 36MB Location Type URL Connection Maintainer Australia FTP Planet Mirror *** Jason Andrade Australia HTTP Planet Mirror *** Jason Andrade Austria HTTP Goodie Domain Service (Vienna Univ. of Tech.) *** Antonin Sprinzl Austria FTP Goodie Domain Service (Vienna Univ. of Tech.) *** Antonin Sprinzl Belgium HTTP Belnet ?? Antoine Delvaux Belgium FTP KULeuvenNet ** Yves Tavernier Belgium FTP Skynet *** Cedric Gavage Brazil HTTP Linorg *** Linorg Brazil HTTP OpenOffice.org Projeto Brasil ** Claudio Ferreira Filho =--> Czech Republic HTTP CVUT *** Silicon Hill Czech Republic FTP CVUT *** Silicon Hill China (HK) FTP Gnupilgrims.org <??> HK Linux Users Group Denmark HTTP sunsite.dk *** mirror@sunsite.dk Denmark FTP sunsite.dk *** mirror@sunsite.dk Finland FTP Finnish University and Research Network (FUNET) *** oo-adm@nic.funet.fi France FTP CICT ** Philippe BaquÃÂ© Germany FTP ftp://ftp.tu-chemnitz.de/ (Chemnitz) ** Guenther Fischer Germany FTP Aachen *** Timon Schroeter Germany FTP LEO *** Daniel Lang Germany HTTP LEO *** Daniel Lang Germany FTP ftp://ftp.join.uni-muenster.de/ (Uni-Muenster) *** Christian Schild Germany FTP ftp://openoffice.tu-bs.de/ (Tu-bs) *** M.Kubiak@tu-bs.de Germany HTTP StarDiv ** Stefan Taxhet Germany FTP ftp://ftp-stud.fht-esslingen.de/ (Esslingen) ** Adrian Indonesia HTTP http://sapi.vlsm.org/openoffice/ <??> Rahmat M. Samik-Ibrahim Indonesia FTP ftp://sapi.vlsm.org/ <??> Rahmat M. Samik-Ibrahim Japan FTP KDDI R&D Labs, INC. <??> ftpadmin@kddlabs.co.jp Japan HTTP Ring *** Contact Japan FTP Ring *** Contact Malaysia HTTP AsiaOSC MIMOS ** Mohd Pazli Sulong Netherlands FTP SNT FTP Server *** Michael Niblett Netherlands HTTP SNT Server *** Michael Niblett Netherlands FTP ftp://borft.student.utwente.nl *** Michael Niblett Netherlands HTTP http://borft.student.utwente.nl/ *** Michael Niblett Poland FTP ftp://ftp.openoffice.pl/ *** B.Maruszewski Portugal HTTP http://tux.cprm.net/ ** Vitor Domingos Portugal FTP ftp://tux.cprm.net/ (Tux) ** Vitor Domingos Romania FTP ftp://ftp.iasi.roedu.net/pub/mirrors/openoffice.org/ (RoEduNet) *** Subredu Manuel Romania HTTP http://ftp.iasi.roedu.net/mirrors/openoffice.org/ (RoEduNet) ** Subredu Manuel South Korea FTP ftp://ftp.kr.freebsd.org/pub/openoffice *** Choi Junho Korea FreeBSD Users Group Spain FTP Cyberfenix <??> Felix Valle Spain HTTP http://ftp.rediris.es/ <??> JosÃÂ© Manuel Macias Spain FTP ftp://ftp.rediris.es/ <??> JosÃÂ© Manuel Macias Sweden FTP http://ftp.sunet.se/ *** archive@ftp.sunet.se Switzerland FTP Swiss SunSITE *** Sunsite Maintainers U.K. HTTP UK Mirror Service *** The UK Mirror Service U.S.A. FTP Indiana University *** Corey Shields U.S.A. FTP SecsUp *** Christopher Morrow U.S.A. HTTP SecsUp *** Christopher Morrow U.S.A. HTTP ftp://mirror.telentente.com/ ** Dave O'Shea =--> U.S.A. FTP ftp://ftp.mn-linux.org/linux/ (US domains only) *** Bob Tanner U.S.A. HTTP BinaryCode.org *** Stephan Jau U.S.A. HTTP ibiblio.org *** Donald Sizemore / John Reuning U.S.A. FTP ibiblio.org *** Donald Sizemore / John Reuning U.S.A. FTP pair *** Kevin Martin U.S.A. HTTP pair *** Kevin Martin U.S.A. FTP ftp://mirrors.umbc.edu/ *** Randy Philipp Taiwan FTP ftp://ftp.nctu.edu.tw/ *** ftpadm@ftp.nctu.edu.tw Turkey FTP ftp://ftp.comu.edu.tr/ ** Necdet YÃÂ¼cel About X11 X11 is a windowing system used on Linux and other U*ix platforms. A windowing system provides the core functionality needed to construct graphical user interfaces and interact with the user. Because of Mac OS X's BSD roots, it is possible to use X11 on Darwin and Mac OS X. This makes it possible to port U*nix applications that use X11, such as OpenOffice.org, to run on Mac OS X. If you're a Mac user just getting started out with X11, read the Using X11 section of the online Documentation installed by the OpenOffice.org installer to learn more about using X11. Hopefully you can get comfortable to explore the wide range of open source and free software that can run on top of X11! The OpenOffice.org installer includes the open source XFree86 4.3 X11 windowing system and offers a choice of window managers (how the windows look). If you choose, you may also use Apple X11 to gain tighter integration with the Dock and other MacOS X features. Installing Apple X11 In order to use OpenOffice.org with Apple's X11, you first have to download and install the latest X11 build from Apple. See Apple's page on X11 for information and download links. It is safe to update existing versions of X11. If you have questions, don't hesitate to pose them to the OpenOffice.org discuss list or to the many MacOS X and X11 support forums . Note : When you install X11, click on the "Options" box and then on the "X11 Config" box in the Installer, at the very bottom of the options panel that opens. If you already have a copy of X11 on your computer, you may need to change some things to fully use Apple's Quartz engine (later versions of X11 do this automatically). The change is easy. The Fink project has some excellent instructions. End User Support Check out the support resources page for more information on various places where real people can answer your questions! Start OpenOffice.org Finder Integration The MacOS X installer includes version 1.0b8 of Start OpenOffice.org [geocities.com] by Terry Teague. This project provides a double-clickable way of launching both XDarwin and OpenOffice.org and provides Finder integration for double-clicking OpenOffice.org files from the Finder to open them, customizable icons for OpenOffice.org files, and other goodness. Visit the link above to keep informed as to further updates to Start OpenOffice.org for printing support and configuration as well as integration with other X servers! Having Problems Installing? If you're having problems successfully running an installer downloaded from one of the mirrors listed above, attempt to perform the following: Make sure you have all of the required other open source projects installed properly. You will need XFree86, an X server if you do not choose to use XDarwin, libfreetype 6.2 or newer, and dlcompat. Check to see if you have the file libdl.dylib and libdl.0.dylib in the /usr/local/lib directory. This is where the installer expects the file to exist and is the default install location for the OSXGNU dlcompat installer. If you have installed dlcompat through another method (e.g.Fink), you will need to either run the OSXGNU dlcompat installer , or you must find your libdl.dylib library and copy it into the /usr/local/lib directory and create a symlink to libdl.0.dylib in that location. Check to make sure you have sufficient permissions to write into the destination directory. The installer will place OpenOffice.org into Applications by default. Search through the online forums to see if someone else has experienced your install problems. Someone else may have already solved it, so go check! Thank you again for your interest in OpenOffice.org.   $ Revision: 1.60 $ We welcome your feedback . By any use of this Website, you agree to be bound by these Policies and Terms of Use CollabNet, Inc. CollabNet is a trademark of CollabNet, Inc. Sun, Sun Microsystems, the Sun Logo, Solaris, Java, StarOffice, StarOffice 7 and StarSuite 7 are trademarks or registered trademarks of Sun Microsystems, Inc., in the United States and other countries. This site sponsored by Sun Microsystems, Inc.   --> 
+
+User: Password: Register | Login help 	
+
+Home 	Download	 Support	 Development	 Projects My pages 	
+Projects  >  porting 
+Project tools Project home Membership Announcements Mailing lists Documents & files Version control Search 
+This project
+ 
+All projects
+ 
+Advanced search Google search Help Sitemap FAQ Get help?   	
+
+OpenOffice.org 1.0 for Mac OS X (X11)
+
+2003-08
+
+Contents
+
+* News 
+* Notes 
+* General FAQ 
+* Screenshots 
+* Download (You want ooo103darwingm.dmg) 
+* Localizer 
+* Md5Sums 
+* About X11 
+* Installing Apple X11 
+* Start OpenOffice.org Finder Integration 
+* End User Support 
+* Having Problems Installing? 
+* Mac OS X Porting Page 
+
+---------------------------------------------------------------------
+Notes
+
+* The links below are arranged by region. All the mirrors listed carry OpenOffice.org 1.0.3 for MacOS X (in English) and utilities for translating OpenOffice.org into other languages. While stable enough for usage and offering the majority of the functionality to OpenOffice.org on other platforms, this is not a traditional MacOS X user-friendly application. The X11 release is about functionality, not looks. This build is meant for the Darwin community and Unix-savvy MacOS X user community and forming a platform for us to build the Quartz and Aqua tracks for the traditional Mac user. 
+* The 1.0.3 release runs on the Mac OS X 10.2.x and DarwinPPC platforms. It requires additional software to run, such as the XWindows windowing system from the XFree86 project (included in the install package). Everyone is invited to join the project and lend a hand! 
+* To join in the effort, please click on the " Join this project" link. If you are not a registered member of OpenOffice.org, you can join now. 
+* If you have difficulties installing, please visit the various support forums to get a helping hand. 
+
+Choose the mirror site closest to you. The link goes (or should go) directly to the application file; a click should start the download of the dmg.gz installation file.
+
+File. You want this: ooo103darwingm.dmg
+
+README. Read it. The README provides additional late-breaking information.
+
+---------------------------------------------------------------------
+
+OpenOffice.org 1.0.3 MacOS X (X11) | 173 MB 
+Location Type URL Connection Maintainer 
+Australia	 FTP	 Planet Mirror 	***	 Jason Andrade 	
+Australia	 HTTP	 Planet Mirror 	***	 Jason Andrade 	
+Austria	 HTTP	 Goodie Domain Service (Vienna Univ. of Tech.)	 ***	 Antonin Sprinzl	 
+Austria	 FTP	 Goodie Domain Service (Vienna Univ. of Tech.)	 ***	 Antonin Sprinzl	 
+Belgium	 HTTP	 Belnet	 ??	 Antoine Delvaux	 
+Belgium	 FTP	 KULeuvenNet 	**	 Yves Tavernier 	
+Belgium	 FTP	 Skynet 	***	 Cedric Gavage 	
+Brazil	 HTTP	 Linorg	 ***	 Linorg	 
+Brazil	 HTTP	 OpenOffice.org Projeto Brasil	 **	 Claudio Ferreira Filho	 
+Czech Republic	 HTTP	 CVUT	 ***	 Silicon Hill	 
+Czech Republic	 FTP	 CVUT	 ***	 Silicon Hill	 
+China (HK)	 FTP	 Gnupilgrims.org 	<??>	 HK Linux Users Group	 
+Denmark	 HTTP	 sunsite.dk 	***	 mirror@sunsite.dk 	
+Denmark	 FTP	 sunsite.dk 	***	 mirror@sunsite.dk 	
+Finland	 FTP	 Finnish University and Research Network (FUNET) 	***	 oo-adm@nic.funet.fi 	
+France	 FTP	 CICT	 **	 Philippe BaquÃÂ© 	
+Germany	 FTP	 ftp://ftp.tu-chemnitz.de/ (Chemnitz)	 **	 Guenther Fischer 	
+Germany	 FTP	 Aachen	 ***	 Timon Schroeter 	
+Germany	 FTP	 LEO	 ***	 Daniel Lang	 
+Germany	 HTTP	 LEO	 ***	 Daniel Lang	 
+Germany	 FTP	 ftp://ftp.join.uni-muenster.de/ (Uni-Muenster)	 ***	 Christian Schild 	
+Germany	 FTP	 ftp://openoffice.tu-bs.de/ (Tu-bs)	 ***	 M.Kubiak@tu-bs.de 	
+Germany	 HTTP	 StarDiv 	**	 Stefan Taxhet 	
+Germany	 FTP	 ftp://ftp-stud.fht-esslingen.de/ (Esslingen)	 **	 Adrian 	
+Japan	 FTP	 KDDI R&D Labs, INC. 	<??>	 ftpadmin@kddlabs.co.jp 	
+Japan	 HTTP	 Ring	 ***	 Contact	 
+Japan	 FTP	 Ring	 ***	 Contact	 
+Malaysia	 HTTP	 AsiaOSC MIMOS	 **	 Mohd Pazli Sulong 	
+Netherlands	 FTP	 SNT FTP Server	 ***	 Michael Niblett 	
+Netherlands	 HTTP	 SNT Server	 ***	 Michael Niblett 	
+Netherlands	 FTP	 ftp://borft.student.utwente.nl	 ***	 Michael Niblett 	
+Netherlands	 HTTP	 http://borft.student.utwente.nl/ 	***	 Michael Niblett 	
+Poland	 FTP	 ftp://ftp.openoffice.pl/ 	***	 B.Maruszewski	 
+Romania	 FTP	 ftp://ftp.iasi.roedu.net/pub/mirrors/openoffice.org/ (RoEduNet)	 ***	 Subredu Manuel	 
+Romania	 HTTP	 http://ftp.iasi.roedu.net/mirrors/openoffice.org/ (RoEduNet)	 **	 Subredu Manuel	 
+South Korea	 FTP	 ftp://ftp.kr.freebsd.org/pub/openoffice	 ***	 Choi Junho Korea FreeBSD Users Group	 
+Spain	 FTP	 Cyberfenix	 <??>	 Felix Valle 	
+Spain	 HTTP	 http://ftp.rediris.es/	 <??>	 JosÃÂ© Manuel Macias 	
+Spain	 FTP	 ftp://ftp.rediris.es/	 <??>	 JosÃÂ© Manuel Macias 	
+Sweden	 FTP	 http://ftp.sunet.se/	 ***	 archive@ftp.sunet.se 	
+Switzerland	 FTP	 Swiss SunSITE	 ***	 Sunsite Maintainers 	
+U.K.	 HTTP	 UK Mirror Service	 ***	 The UK Mirror Service 	
+U.S.A.	 FTP	 Indiana University 	***	 Corey Shields	 
+U.S.A.	 FTP	 SecsUp 	***	 Christopher Morrow	 
+U.S.A.	 HTTP	 SecsUp 	***	 Christopher Morrow	 
+U.S.A.	 HTTP	 ftp://mirror.telentente.com/ 	**	 Dave O'Shea	 
+U.S.A.	 FTP	 ftp://ftp.mn-linux.org/linux/ (US domains only)	 ***	 Bob Tanner 	
+U.S.A.	 HTTP	 BinaryCode.org	 ***	 Stephan Jau	 
+U.S.A.	 HTTP	 ibiblio.org	 ***	 Donald Sizemore / John Reuning	 
+U.S.A.	 FTP	 ibiblio.org	 ***	 Donald Sizemore / John Reuning	 
+U.S.A.	 FTP	 pair	 ***	 Kevin Martin	 
+U.S.A.	 HTTP	 pair	 ***	 Kevin Martin	 
+U.S.A.	 FTP	 ftp://mirrors.umbc.edu/ 	***	 Randy Philipp 	
+Taiwan	 FTP	 ftp://ftp.nctu.edu.tw/	 ***	 ftpadm@ftp.nctu.edu.tw	 
+
+Localizer (Translating OpenOffice.org)
+
+The OpenOffice.ort 1.0.3 Localizer translates the interface of OpenOffice.org into over a dozen native languages. It also installs foreign language dictionaries and hyphenation tools. To translate OpenOffice.org, you must first download the full OpenOffice.org MacOS X (X11) package above, install it first, then run the localizer.
+
+Note: Not all languages may have usable X11 fonts at this time, particularly Asian language fonts. The interface may be translated correctly, but without fonts it will not be drawn properly on the screen.
+
+This localizer supports the following languaes (a "d" indicates foreign language dictionaries are available, an "h" hyphenation support):
+
+US English (dh), UK English (dh), Canadian English (dh), Catalan (d), Chinese-traditional, Danish (dh), Dutch (dh), Finnish, French (dh), German (dh), Greek (d), Italian (dh), Japanese, Korean, Polish (d), Portugese (dh), Russian (dh), Spanish (dh), Sweedish (d), Turkish.
+
+Dictionaries are available for the following languages: US English, UK English, Canadian English, Catalan, Danish,
+
+  File. You want this: ooo103l18ngm.dmg
+
+OpenOffice.org 1.0.3 Localizer | 36MB 
+Location Type URL Connection Maintainer 
+Australia	 FTP	 Planet Mirror 	***	 Jason Andrade 	
+Australia	 HTTP	 Planet Mirror 	***	 Jason Andrade 	
+Austria	 HTTP	 Goodie Domain Service (Vienna Univ. of Tech.)	 ***	 Antonin Sprinzl	 
+Austria	 FTP	 Goodie Domain Service (Vienna Univ. of Tech.)	 ***	 Antonin Sprinzl	 
+Belgium	 HTTP	 Belnet	 ??	 Antoine Delvaux	 
+Belgium	 FTP	 KULeuvenNet 	**	 Yves Tavernier 	
+Belgium	 FTP	 Skynet 	***	 Cedric Gavage 	
+Brazil	 HTTP	 Linorg	 ***	 Linorg	 
+Czech Republic	 HTTP	 CVUT	 ***	 Silicon Hill	 
+Czech Republic	 FTP	 CVUT	 ***	 Silicon Hill	 
+China (HK)	 FTP	 Gnupilgrims.org 	<??>	 HK Linux Users Group	 
+Denmark	 HTTP	 sunsite.dk 	***	 mirror@sunsite.dk 	
+Denmark	 FTP	 sunsite.dk 	***	 mirror@sunsite.dk 	
+Finland	 FTP	 Finnish University and Research Network (FUNET) 	***	 oo-adm@nic.funet.fi 	
+France	 FTP	 CICT	 **	 Philippe BaquÃÂ© 	
+Germany	 FTP	 ftp://ftp.tu-chemnitz.de/ (Chemnitz)	 **	 Guenther Fischer 	
+Germany	 FTP	 Aachen	 ***	 Timon Schroeter 	
+Germany	 FTP	 LEO	 ***	 Daniel Lang	 
+Germany	 HTTP	 LEO	 ***	 Daniel Lang	 
+Germany	 FTP	 ftp://ftp.join.uni-muenster.de/ (Uni-Muenster)	 ***	 Christian Schild 	
+Germany	 FTP	 ftp://openoffice.tu-bs.de/ (Tu-bs)	 ***	 M.Kubiak@tu-bs.de 	
+Germany	 HTTP	 StarDiv 	**	 Stefan Taxhet 	
+Germany	 FTP	 ftp://ftp-stud.fht-esslingen.de/ (Esslingen)	 **	 Adrian 	
+Indonesia	 HTTP	 http://sapi.vlsm.org/openoffice/	 <??>	 Rahmat M. Samik-Ibrahim 	
+Indonesia	 FTP	 ftp://sapi.vlsm.org/	 <??>	 Rahmat M. Samik-Ibrahim 	
+Japan	 FTP	 KDDI R&D Labs, INC. 	<??>	 ftpadmin@kddlabs.co.jp 	
+Japan	 HTTP	 Ring	 ***	 Contact	 
+Japan	 FTP	 Ring	 ***	 Contact	 
+Malaysia	 HTTP	 AsiaOSC MIMOS	 **	 Mohd Pazli Sulong 	
+Netherlands	 FTP	 SNT FTP Server	 ***	 Michael Niblett 	
+Netherlands	 HTTP	 SNT Server	 ***	 Michael Niblett 	
+Netherlands	 FTP	 ftp://borft.student.utwente.nl	 ***	 Michael Niblett 	
+Netherlands	 HTTP	 http://borft.student.utwente.nl/ 	***	 Michael Niblett 	
+Poland	 FTP	 ftp://ftp.openoffice.pl/ 	***	 B.Maruszewski	 
+Portugal	 HTTP	 http://tux.cprm.net/	 **	 Vitor Domingos	 
+Portugal	 FTP	 ftp://tux.cprm.net/ (Tux)	 **	 Vitor Domingos	 
+Romania	 FTP	 ftp://ftp.iasi.roedu.net/pub/mirrors/openoffice.org/ (RoEduNet)	 ***	 Subredu Manuel	 
+Romania	 HTTP	 http://ftp.iasi.roedu.net/mirrors/openoffice.org/ (RoEduNet)	 **	 Subredu Manuel	 
+South Korea	 FTP	 ftp://ftp.kr.freebsd.org/pub/openoffice	 ***	 Choi Junho Korea FreeBSD Users Group	 
+Spain	 FTP	 Cyberfenix	 <??>	 Felix Valle 	
+Spain	 HTTP	 http://ftp.rediris.es/	 <??>	 JosÃÂ© Manuel Macias 	
+Spain	 FTP	 ftp://ftp.rediris.es/	 <??>	 JosÃÂ© Manuel Macias 	
+Sweden	 FTP	 http://ftp.sunet.se/	 ***	 archive@ftp.sunet.se 	
+Switzerland	 FTP	 Swiss SunSITE	 ***	 Sunsite Maintainers 	
+U.K.	 HTTP	 UK Mirror Service	 ***	 The UK Mirror Service 	
+U.S.A.	 FTP	 Indiana University 	***	 Corey Shields	 
+U.S.A.	 FTP	 SecsUp 	***	 Christopher Morrow	 
+U.S.A.	 HTTP	 SecsUp 	***	 Christopher Morrow	 
+U.S.A.	 FTP	 ftp://ftp.mn-linux.org/linux/ (US domains only)	 ***	 Bob Tanner 	
+U.S.A.	 HTTP	 BinaryCode.org	 ***	 Stephan Jau	 
+U.S.A.	 HTTP	 ibiblio.org	 ***	 Donald Sizemore / John Reuning	 
+U.S.A.	 FTP	 ibiblio.org	 ***	 Donald Sizemore / John Reuning	 
+U.S.A.	 FTP	 pair	 ***	 Kevin Martin	 
+U.S.A.	 HTTP	 pair	 ***	 Kevin Martin	 
+U.S.A.	 FTP	 ftp://mirrors.umbc.edu/ 	***	 Randy Philipp 	
+Taiwan	 FTP	 ftp://ftp.nctu.edu.tw/	 ***	 ftpadm@ftp.nctu.edu.tw	 
+Turkey	 FTP	 ftp://ftp.comu.edu.tr/ 	**	 Necdet YÃÂ¼cel 	
+About X11
+
+X11 is a windowing system used on Linux and other U*ix platforms. A windowing system provides the core functionality needed to construct graphical user interfaces and interact with the user. Because of Mac OS X's BSD roots, it is possible to use X11 on Darwin and Mac OS X. This makes it possible to port U*nix applications that use X11, such as OpenOffice.org, to run on Mac OS X.
+
+If you're a Mac user just getting started out with X11, read the Using X11 section of the online Documentation installed by the OpenOffice.org installer to learn more about using X11. Hopefully you can get comfortable to explore the wide range of open source and free software that can run on top of X11!
+
+The OpenOffice.org installer includes the open source XFree86 4.3 X11 windowing system and offers a choice of window managers (how the windows look). If you choose, you may also use Apple X11 to gain tighter integration with the Dock and other MacOS X features.
+
+Installing Apple X11
+
+In order to use OpenOffice.org with Apple's X11, you first have to download and install the latest X11 build from Apple. See Apple's page on X11 for information and download links. It is safe to update existing versions of X11. If you have questions, don't hesitate to pose them to the OpenOffice.org discuss list or to the many MacOS X and X11 support forums.
+
+Note: When you install X11, click on the "Options" box and then on the "X11 Config" box in the Installer, at the very bottom of the options panel that opens.
+
+If you already have a copy of X11 on your computer, you may need to change some things to fully use Apple's Quartz engine (later versions of X11 do this automatically). The change is easy. The Fink project has some excellent instructions.
+
+End User Support
+
+Check out the support resources page for more information on various places where real people can answer your questions!
+
+Start OpenOffice.org Finder Integration
+
+The MacOS X installer includes version 1.0b8 of Start OpenOffice.org [geocities.com] by Terry Teague. This project provides a double-clickable way of launching both XDarwin and OpenOffice.org and provides Finder integration for double-clicking OpenOffice.org files from the Finder to open them, customizable icons for OpenOffice.org files, and other goodness. Visit the link above to keep informed as to further updates to Start OpenOffice.org for printing support and configuration as well as integration with other X servers!
+
+Having Problems Installing?
+
+If you're having problems successfully running an installer downloaded from one of the mirrors listed above, attempt to perform the following:
+
+1.  Make sure you have all of the required other open source projects installed properly. You will need XFree86, an X server if you do not choose to use XDarwin, libfreetype 6.2 or newer, and dlcompat. 
+2.  Check to see if you have the file libdl.dylib and libdl.0.dylib in the /usr/local/lib directory. This is where the installer expects the file to exist and is the default install location for the OSXGNU dlcompat installer. If you have installed dlcompat through another method (e.g.Fink), you will need to either run the OSXGNU dlcompat installer, or you must find your libdl.dylib library and copy it into the /usr/local/lib directory and create a symlink to libdl.0.dylib in that location. 
+3.  Check to make sure you have sufficient permissions to write into the destination directory. The installer will place OpenOffice.org into Applications by default. 
+4.  Search through the online forums to see if someone else has experienced your install problems. Someone else may have already solved it, so go check! 
+
+Thank you again for your interest in OpenOffice.org.
+
+ 
+
+---------------------------------------------------------------------
+
+$Revision: 1.60 $
+
+We welcome your feedback.
+
+By any use of this Website, you agree to be bound by these Policies and Terms of Use
+
+CollabNet, Inc. CollabNet is a trademark of CollabNet, Inc. Sun, Sun Microsystems, the Sun Logo, Solaris, Java, StarOffice, StarOffice 7 and StarSuite 7 are trademarks or registered trademarks of Sun Microsystems, Inc., in the United States and other countries.
+
+This site sponsored bySun Microsystems, Inc.
+
+

@@ -1,0 +1,92 @@
+
+
+What is Artificial Intelligence?
+ 
+
+By
+ 
+
+István S. N. Berkeley Ph.D. 
+
+(istvan@USL.edu) 
+
+Philosophy, 
+
+The University of Southwestern Louisiana 
+
+Historical Perspective: It All Sounds So Good&#133;. 
+
+Probably everybody has heard of Artificial Intelligence (AI for short), but relatively few people have a really good idea of what the term really means. For most people, AI is associated with artifacts like the Hal 9000 Computer in the movie 2001: A Space odyssey. Such images are the product of Hollywood, rather than the kind of thing which actually happens in the research labs of the world today. My purpose here is to introduce a few of the basic ideas behind AI, and to try and offer a means by which people can come to grips with the current state of the art in the field.
+ 
+
+Roughly speaking, Artificial Intelligence is the study of man-made computational devices and systems which can be made to act in a manner which we would be inclined to call intelligent. The birth of the field can be traced back to the early 1950s. Arguably, the first significant event in the history of AI was the publication of a paper entitled "Computing Machinery and Intelligence" by the British Mathematician Alan Turing. In this paper, Turing argued that if a machine could past a certain test (which has become known as the 'Turing test') then we would have grounds to say that the computer was intelligent. The Turing test involves a human being (known as the 'judge') asking questions via a computer terminal to two other entities, one of which is a human being and the other of which is a computer. If the judge regularly failed to correctly distinguish the computer from the human, then the computer was said to have passed the test. In this paper Turing also considered a number of arguments for, and objections to, the idea that computers could exhibit intelligence. 
+
+It is commonly believed that AI was born as a discipline at a conference called "The Dartmouth Summer research Project on Artificial Intelligence", organized by amongst others, John McCarthy and Marvin Minsky. At this conference a system known as LOGIC THEORIST was demonstrated by Alan Newell and Herb Simon. LOGIC THEORIST was a system which discovered proofs to theorems in symbolic logic. The significance of this system was that, in the words of Feigenbaum and Feldman (1963: p. 108) LOGIC THEORIST was "&#133;the first foray by artificial intelligence into high-order intellectual processes." This initial success was rapidly followed by a number of other systems which could perform apparently intelligent tasks. For example, a system known as "DENDRAL" was able to mechanize aspects of the scientific reasoning found in organic chemistry. Another program, known as "MYCIN", was able to interactively diagnose infectious diseases.
+ 
+
+The fundamental strategy which lay behind all these successes led to the proposal of what is known as the Physical Symbol Systems Hypothesis, by Newell and Simon in 1976. The Physical Symbol System Hypothesis amounts to a distillation of the theory which lay behind much of the work which had gone on up until that date and was proposed as a general scientific hypothesis. Newell and Simon (1976: p. 41) wrote;
+ 
+
+"A physical symbol system has the necessary and sufficient means for general intelligent action."
+ 
+
+Although there has been a great deal of controversy about exactly how this hypothesis should be interpreted, there are two important conclusions which have been drawn from it. The first conclusion is that computers are physical symbol systems, in the relevant sense, and thus there are grounds (should the hypothesis be correct) to believe that they should be able to exhibit intelligence. The second conclusion is that, as we humans also are intelligent, we too must be physical symbol systems and thus are in a significant sense, similar to computers.
+ 
+
+Current Perspective: The Problems and the Successes 
+
+With all these apparently positive results and interesting theoretical work, a fairly obvious question seems to be 'Where are the intelligent machines, like the HAL 9000'? Although there have been many impressive successes in the field, there have also been a number of significant problems which AI research has run into. As yet, there is no HAL 9000 and realistically, it will be a good while before such systems become available, if indeed they ever prove to be possible at all. 
+
+The early successes in AI led researchers in the field to be wildly optimistic. Unfortunately, the optimism was somewhat misplaced. For example, in 1957 Simon predicted that it would take only ten years for a computer to be the world's chess champion. Of course, this particular feat was not accomplished until this year, by the Deep Blue system. There are deeper problems which AI has run into however.
+ 
+
+For most people, if they know that President Clinton is in Washington, then they also know that President Clinton's right knee is also in Washington. This may seem like a trivial fact, and indeed it is for humans, but it is not trivial when it comes to AI systems. In fact, this is an instance of what has come to be known as 'The Common Sense Knowledge Problem'. A computational system only knows what it has been explicity told. No matter what the capacities of a computational system, if that system knows that President Clinton was in Washington, but doesn't know that his left knee is there too, then the system will not appear to be too clever. Of course, it is perfectly possible to tell a computer that if a person is in one place, then their left knee is in the same place, but this is only the beginning of the problem. There are a huge number of similar facts which would also need to be programmed in. For example, we also know that if President Clinton is in Washington, then his hair is also in Washington, his lips are in Washington and so on. The difficulty, from the perspective of AI, is to find a way to capture all these facts. The Problem of Common Sense Knowledge is one of the main reasons why we do not have as yet the intelligent computers predicted by science fiction, like the HAL 9000.
+ 
+
+The Problem of Common Sense Knowledge runs very deep in AI. For example, it would be very difficult for a computer to pass the Turing test, if it lacked the kind of knowledge described above. The point can be illustrated by considering the case of ELIZA. ELIZA is an AI system designed by Weizenbaum in 1966 which was supposed to emulate a psychotherapist. There are many variants of this software these days, quite a few of which can be downloaded. Although in some senses ELIZA can be quite impressive, it doesn't take much to get the system confused, or off track. It becomes clear very quickly that the system is far from intelligent.
+ 
+
+There have been a number of responses to The Problem of Common Sense Knowledge within the AI research community. One strategy is to attempt to build systems which are only designed to operate in limited domains. This is the strategy which lies behind the Loebner Prize, a modern day competition based upon a limited version of the Turing test. Some recent entries to this contest, such as the TIPS system are really quite impressive, when compared to ELIZA. 
+
+Another more ambitious strategy has been adopted by AI researcher Doug Lenat. Lenat and his colleagues have been working for a number of years on a system which is known as CYC. The goal of the CYC project is to develop a large computational database and search tools which enables AI systems to access all the knowledge which makes up common sense. The CYC project tries to meet the Problem of Common Sense Knowledge head on. At the current time, the results of the project are just beginning to emerge. It is not yet clear whether the massive effort has been a success.
+ 
+
+Other researchers have adopted a different tack to try and deal with the problem. They reason that human being have common sense, because of the vast wealth of experiences which we have as we grow up and learn. They prefer to attempt to deal with the Problem of Common Sense by adopting a machine learning strategy. Perhaps, if a computer could learn, in a manner similar to a human being, the it too would develop common sense. This strategy is still being pursued and it is too early to tell if it will be successful.
+ 
+
+Another problem which AI research has run into is that tasks which are hard for human beings, like mathematics, or playing chess, turn out to be quite easy for computers. On the other hand, tasks which human beings find easy, like learning to navigate through a room full of furniture, or recognizing faces, computers find comparatively hard to do. This has inspired some researchers to try and develop systems which have (at least superficially) brain-like properties. The research based upon this strategy has come to be known as the field of Artificial Neural Networks (also called Connectionism), and is currently one of the major specialist sub-areas within AI. On interesting aspect of Artificial Neural Networks is that many of these systems also learn, thereby incorporating some of the advantages of the machine learning strategy to solving the Common Sense Knowledge Problem. Artificial Neural Network systems have been successful at solving many problems, such as those involving pattern recognition, which have proved hard for other approaches. 
+
+It is important to realize though that not everybody accepts the premises which AI research operates under. The whole project of AI has come under sharp criticisms from time to time. One well-known critic is Herbert Dreyfus. He has argued on a variety of grounds that the whole enterprise of AI is doomed to failure, as it makes assumptions about the world and minds which are not tenable, when critically assessed. Another well-known critic of AI is John Searle. Searle has proposed an argument based on a thought experiment, known as the Chinese Room argument. This argument purports to show that the goal of building intelligent machines is not possible. Even though this argument was originally published in the 1980s, it is still a hot topic of discussion on internet newsgroups such as comp.ai.philosophy. 
+
+Whether the critics of AI are correct or not, only time will tell. However, there have been two important sets of consequences which have arisen since the initial inception of the field. The first of these has been the birth of a new and exciting academic discipline which has come to be known as 'Cognitive Science'. Cognitive Science shares with AI the fundamental premise that, in some sense, mental activity is computational in nature. The goal of Cognitive Science though is different from that of AI. Cognitive scientists set themselves the goal of unraveling the mysteries of the human mind. This is no small task, given that the human brain is the most complicated device known to mankind. For example, even when various simplifying assumptions are made, it seem highly likely that the number of distinct possible states of a single human brain is actually greater than the number of atoms of the Universe! Nonetheless, the lessons learned and progress made in the pursuit of the goal of AI, along with progress in other disciplines, seem to show that project of Cognitive Science is viable, though hard to attain. 
+
+The second set of consequences which have arisen from the study of AI are perhaps a little less obvious. There are many programs and systems around today which make use of the fruits of AI research. Although we do not have a HAL 9000 as yet, many of the early goals of AI have been achieved, albeit not in a single grand system. Perhaps the saddest thing though is that AI seldom gets credit for its contribution to other areas. There is a saying in academic circles that "The best fruits of AI, become plain old computer science". As we learn to do more and more, what was once almost miraculous, becomes mundane. Now that the goal of a really fine chess playing computer has been realized, it is likely that this too will no longer thrill or surprise us. However, there are still many challenging and exciting frontiers to be conquered within AI. There are also numerous thorny questions which need to be thought through. In the articles which follow this one, I will try and introduce some of the fascinating work which is being done in AI, so that the contribution of this research program to the world as we know it will be better known and understood. 
+
+© István S. N. Berkeley Ph.D. 1997. All rights reserved.
+ 
+
+Suggested Further Reading
+ 
+
+Campbell, J., (1989), The Improbable Machine, Simon & Schuster (New York).
+ 
+
+Copeland, J. (1993), Artificial Intelligence, Blackwells (Oxford).
+ 
+
+Churchland, P. (1988), Matter and Consciousness, MIT Press (Cambridge, MA).
+ 
+
+Haugeland, J. (1985), Artificial Intelligence: The Very Idea, MIT Press (Cambridge MA).
+
+Bibliography 
+
+Feigenbaum, E. and Feldman, J. (1963), Computers and Thought, McGraw-Hill (New York).
+ 
+
+Haugeland, J. (1981) Mind Design, MIT Press (Cambridge, MA).
+ 
+
+Newell, A. and Simon, H., (1976), "Computer Science as Empirical Inquiry: Symbols and Search" reprinted in Haugeland (1981: pp. 35-66).
+
+

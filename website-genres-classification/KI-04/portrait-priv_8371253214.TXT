@@ -1,0 +1,194 @@
+
+
+Rina Dechter
+
+Position: Associate Professor
+ Area: Artificial Intelligence 
+Offices: CS 424E, 335 CS/E
+ Office 
+Phone: (714) 824-6556 CS 424E
+(714) 824-4694 335 CS/E
+ 
+
+Artificial Intelligence
+
+CONCENTRATION IN ARTIFICIAL INTELLIGENCE (AI)
+
+Artificial intelligence has as its twin goals the understanding of living intelligence and the creation of intelligent artifacts. Inherently interdisciplinary, work in the field draws heavily on solid results from the theory of computation, cognitive and behavioral psychology, and neuroscience. Topics range from "bottom-up" modeling of brain operation and its emergent function to high-level operations such as problem- solving and reasoning, learning, and language understanding. 
+
+The ICS artificial intelligence group maintains a balance between these two concerns, recognizing that each contributes to the other through the following three distinguished areas:
+ 1. On findings from psychology and neurobiology that suggest computational algorithms, and analyses of such algorithms that suggest explanations for capabilities and limitations of human cognition.
+ 2. On machine learning---the mechanisms by which knowledge is acquired through experience.
+ 3. On Knowledge representation and reasoning -- the methods by which the acquired knowledge is summarized, organized, and utilized to help solve real-life problems.
+ 
+
+---------------------------------------------------------------------
+
+Affiliated Graduate Students: 
+
+Dan Frost Email: 
+Kalev Kask Email: kkask@uci.edu
+ Irina Rish Email: irish@uci.edu
+ Eddie Schwalb Email: eschwalb@uci.edu
+ 
+
+---------------------------------------------------------------------
+
+Course Offerings:
+
+H198 Honors Research (4) F, W, S. Directed independent research in computer science for honors students. Prerequisites: ICS H197; upper-division standing and satisfactory completion of the lower-division writing requirement; participation in the ICS Honors Program or Campuswide Honors Program; consent instructor. 
+
+275B Network-Based Reasoning / Belief Networks (4). Focuses on reasoning with uncertainty using "Bayes Networks" that encode knowledge as probabilistic relations between variables, and the main task is, given some observations, to update the degree of belief in each proposition. Prerequisite: a basic course in probability or consent of instructor. Formerly ICS 274. 
+
+280 Special Topics in Information and Computer Science (4) F, W,S. 
+
+298 Thesis Supervision (2 to 12). Individual research or investigation conducted in preparation for the dissertation requirements for the Ph.D. 
+
+299 Individual Study (2 to 12). Individual research or investigation under the direction of an individual faculty member. 
+
+---------------------------------------------------------------------
+
+Research Interests:
+
+The overall aim of my research is to devise methods of automated reasoning via the understanding and exploitation of tractable classes of reasoning tasks. I believe that approximation methods based on tractable models cover a significant portion of intelligent activities and, hence, should serve as the cornerstone in automated reasoning systems. This principle has motivated my previous research on greedy problems, mechanical generation of heuristics, topological decompositions, and local computations in constraint networks [TI-1,TI-2,TI-3,EE-1]. 
+
+Constraint networks have proven to be a useful language for modeling and solving computationally intensive tasks in Artificial Intelligence. The language of constraints expresses information in terms of the desired relationships among entities without specifying how such relationships are to be achieved. Constraint networks are used to model mundane cognitive tasks (e.g., vision, language comprehension, default reasoning, abduction) as well as applications such as scheduling, design, and diagnosis which require high levels of human expertise. In general, the tasks posed in this language are computationally intractable (NP-hard). A survey of constraint networks appears in the following reference. 
+
+Dechter, R. "Constraint Networks," in the Encyclopedia of Artificial Intelligence, second ed., Wiley and Sons, pp. 276-285, 1992 In recent years, I have developed and analyzed a large number of techniques for finding partial and complete solutions to a variety of constraint classes, often accompanied by theoretical guarantees of worst-case performance. These techniques, including directional consistency, adaptive consistency, trei clustering, cycle cutset schemes, backjumping, and search-based learning, have become popular in many constraint-processing applications [EE-1,TI-4,TI-5,TI-6]. 
+
+My current research interests focus on developing scalable techniques in constraint processing and on applying those techniques to broader areas in automated reasoning. The following is an outline of my research projects. 
+
+Empirical evaluation of constraint processing algorithms: 
+
+One of my continuing research goals is to close the gap between theory and practice in constraint processing. To that end, I plan to perform a large-scale experimentation on both real-life and simulated systems. I am currently building an environment in which large scale constraint-based problems could be modeled, processed, evaluated, and analyzed. The project promises to yield a deeper understanding of those features in the domain that admit efficient processing. I hope that this understanding will lead to scalable algorithms, and to new software tools and languages for generic constraint-processing applications. My experimental work focuses both on comparing backtracking style algorithms as well as local search greedy algorithms. Constraint processing is described in [EE-1,EE-2,EE-3,EE-4,EE-5,EE-6,EE-7]. 
+
+Temporal Reasoning: 
+
+In the past few years, I (with I. Meiri and J. Pearl) have developed a general network-based framework for temporal reasoning capable of handling both qualitative and quantitative temporal information [TR-1,TR-2]. Using this framework I characterized new tractable problems involving qualitative networks augmented by quantitative domains. I plan to explore the applicability of this framework to two practical domains: scheduling and stories understanding. Currently, I am developing a language that will be able to express information about fluents events and constraints whose computational tool is based on temporal constraint networks [TR-4]. Initial empirical evaluation of new approximation algorithms are reported in [TR-3,TR-5]. 
+
+Qualitative reasoning and diagnosis: 
+
+A physical system can be formulated by a set of constraints and subsequently be processed by constraint processing algorithms. Such algorithms were developed for finding a best diagnosis, finding all minimal cardinality, or all minimal diagnoses [QR-1,QR-3]. These algorithms exploit the structure of the system and they are particularly useful for systems that have sparse graphs. I intend to empirically compare the performance of such structure-based diagnosis algorithms with more traditional approaches. Initial results are described in [QR-2]. 
+
+Constraint-based nonmonotonic reasoning: 
+
+I (with R. Ben-Eliyahu) have recently formed a connection between constraint-based algorithms and nonmonotonic reasoning [NM-1,NM-2,NM-3], thus uncovering new tractable classes of logic programs and default knowledge bases. I plan to extend these results to nonpropositional languages and to demonstrate the potential of such techniques in practical logic programming applications. 
+
+Distributed and connectionist-like constraint processing: 
+
+I am studying the computational features and convergence of constraint networks under local distributed computation. Initial investigations have generated new insights and general principles governing network representations [DC-1,DC-2]. Through these investigations, I hope to devise distributed and parallel architectures for processing constraint-based information. Potentially, this could lead to a substantial speed up in processing time while also simplifying programming. 
+
+Causal and directional constraint networks: 
+
+My aim is to establish a formal basis for causal theories using the language of relational algebra and (directed) constraint networks. Specifically, I wish to identify the features responsible for the computational effectiveness of causal predictions (e.g., forward analysis of combinatorial circuits), thus explaining some of the reasons that causal models are so popular in the organization of human knowledge. Initial investigation has given rise to a new representation scheme, called directional constraint networks, which promises to uncover new "islands of tractability" by imposing causal orders on unstructured specifications of constraints [CA-1]. 
+
+Tractable islands and the role of topology in reasoning: 
+
+Throughout my research I have investigated the role of the knowledge structure in enabling fast reasoning which had led to the identification of several structure-based tractable islands [TI-1,TI-2,TI-3]. I will continue to investigate this issue by exploring the role of the dependency graph of various propositional theories. I have recently shown that the Davis-Putnam original algorithm lends itself to nice complexity bounds that are based on the theory topology. My empirical tests confirm theoretical predictions by parameters like "induced width" and "diversity," showing that on problems with special structures, like chains, directional resolution (my variant of Davis-Putnam) greatly out-performs the popular Davis-Putnam procedure [TI-4]. Recently I have discovered new tractable classes that are based on the syntactic nature of the constraints. These are the row-convex constraint and tight domains and constraints [TI-5,TI-6,TI-7]. 
+
+Structure identifiability and knowledge compilation: 
+
+In the past few years I have presented algorithms for uncovering tree-structured knowledge-bases from raw data [ST-1,ST-2]. I have presented a new framework for studying the identifiability of such tractable structures and the identifiability of classes of constraint networks: Horn theories were also characterized [ST-3,ST-4,ST-6]. I am currently empirically investigating the value of such compilation methods both for identifiability and for learning [ST-5]. 
+
+---------------------------------------------------------------------
+
+Publications:
+
+Selected Works 
+
+Empirical evaluation of constraint processing algorithms: 
+
+EE-1. Dechter, R., "Enhancement Schemes for Constraint Processing: Backjumping, Learning and Cutset Decomposition," Artificial Intelligence, Vol. 41(3), pp. 273-312, January, 1990. 
+
+EE-2. Dechter, R., and Meiri, I., "Experimental Evaluation of Preprocessing Algorithms for Constraint Satisfaction Problems," Artificial Intelligence Journal, Vol 68,2, pp. 211-241, 1994. 
+
+EE-3. Frost, D., and Dechter R., "Dead-end Driven Learning," In National Conference of Artificial Intelligence, AAAI-94, Seattle, WA, August, 1994. 
+
+EE-4. Frost, D., and Dechter R., "In search of the best constraint satisfaction search," In National Conference of Artificial Intelligence, AAAI-94, Seattle, WA, August, 1994. 
+
+EE-5. Kask, K. and Dechter, R., "Combining Gsat and Path Consistency for Solving Constraint Satisfaction Problems," ICS Technical report, February, 1994. 
+
+EE-6. Frost, D., and Dechter R., "Look-ahead value ordering for constraint satisfaction problems," in International Joint Conference on Artificial Intelligence, IJCAI-95, Montreal, Canada, August, 1995. 
+
+EE-7. Kask, K. and Dechter, R., "GSAT and Local Consistency," in International Joint Conference on Artificial Intelligence, IJCAI-95, Montreal, Canada, August, 1995. 
+
+Temporal Reasoning: 
+
+TR-1. Dechter, R., Meiri, I., and Pearl, J., "Temporal Constraint Networks," Artificial Intelligence, Vol. 49, pp. 61-95, 1991. 
+
+TR-2. Meiri I., "Combining Quantitative and Qualitative Constraints in Temporal Reasoning," In AAAI-91, Anaheim, CA, July, 1991. 
+
+TR-3. Schwalb, E., and Dechter, R., "Coping with Disjunctions in Temporal Constraint Satisfaction Problems," In The National Conference on Artificial Intelligence, AAAI-93, Washington, DC, pp. 127-132, July, 1993. 
+
+TR-4. Schwalb, E., Kask, K., and Dechter, R., "Temporal Reasoning with Constraints on Fluents and Event," In National Conference of Artificial Intelligence, AAAI-94, Seattle, WA, August, 1994. 
+
+TR-5. Schwalb, E., and Dechter, R., "Processing Temporal Constraint Networks", ICS Technical report, January 1995. 
+
+Qualitative reasoning and diagnosis: 
+
+QR-1. Dechter, R., and Dechter, A., "Structure-Driven Algorithms for Truth Maintenance." To appear in Artificial Intelligence. Preliminary version was "Belief Maintenance in Dynamic Constraint Networks," in Proceedings of the Seventh National Conference on Artificial Intelligence (AAAI-88), pp. 37-42, St. Paul, MN, August, 1988. 
+
+QR-2. El Fattah, Y., and Dechter, R., "Diagnosing tree-decomposable circuits, in International Joint Conference on Artificial Intelligence, IJCAI-95, Montreal, Canada, August, 1995. 
+
+QR-3. Ben-Eliyahu, R., and Dechter, R., "On Computing Minimal Models," In the Journal of Annals of Math and AI, Special issue. 
+
+Constraint-based nonmonotonic reasoning: 
+
+NM-1. Ben-Eliyahu, R., and Dechter, R., "Propositional Semantics for Disjunctive Logic Programs," In the Journal of Annals of Math and AI, 12 (1994) 53-87. 
+
+NM-2. Ben-Eliyahu, R. and Dechter, R., "Default reasoning Using classical logic." Under review. Preliminary version appeared as "Default Logic, Propositional Logic and Constraints," in Proceedings of the Ninth National Conference on Artificial Intelligence (AAAI-91), pp. 379-385, Anaheim, CA, July, 1991. 
+
+NM-3. Ben-Eliyahu, R. and Dechter, R., "Inferences in Inheritance Networks, Using Propositional Logic and Constraint Networks Techniques," In the Canadian Artificial Intelligence Conference (AI-92), pp. 1833-189, Vancouver, British Columbia, May, 1992. 
+
+Distributed and connectionist-like constraint processing: 
+
+DC-1. Collin, Z., Dechter, R., and Katz, S., "Self-Stabilizing Distributed Constraint Satisfaction." Under review. Preliminary version appeared as "On the Feasibility of Distributed Constraint Satisfaction," in Proceedings of the Twelfth International Joint Conference of Artificial Intelligence (IJCAI-91), pp. 318-324, Sidney, Australia, August, 1991. 
+
+DC-2. Pinkas, G., and Dechter, R., "On Improving Connectionist Energy Minimization." Under review. Preliminary version appeared as "An Improved Connectionist Activation Function for Energy Minimization," in The National Conference on Artificial Intelligence, pp. 434-439, San Jose, CA, July, 1992. 
+
+Causal and directional constraint networks: 
+
+CA-1. Dechter, R., and Pearl, J., "Directed Constraint Networks: A Relational Framework for Causal Modeling," in Proceedings of the Twelfth International Joint Conference of Artificial Intelligence (IJCAI-91), pp. 1164-1170, Sidney, Australia, August, 1991. 
+
+Tractable islands and the role of topology in reasoning: 
+
+TI-1. Dechter, R. and Pearl, J., "Network-based Heuristics for Constraint-satisfaction Problems," Artificial Intelligence, Vol. 34(1), pp. 1-38, December, 1987. 
+
+TI-2. Dechter, R. and Pearl, J., "Tree-clustering Schemes for Constraint-processing," Artificial Intelligence, Vol. 38(3), pp. 353-366, April, 1989. 
+
+TI-3. Dechter, R., Dechter, A., and Pearl, J., "Optimization in Constraint-networks," In Proceedings of the Conference on Influence Diagrams for Decision Analysis, Inference, UC-Berkeley, CA, May, 1987. 
+
+TI-4. Dechter, R. and Rish I., "Directional Resolution: the Davis-Putnam Procedure, Revisited," In KR-94, Bonn, Germany, May, 1994. 
+
+TI-5. Dechter, R., "From Local to Global Consistency," Artificial Intelligence Journal, Vol. 55, pp. 87-107, 1992. 
+
+TI-6. van Beek, P. and Dechter, R., "Constraint restrictiveness versus local and global consistency"," Under review. A preliminary verion ``Constraint tightness and global consistency appears in KR-94, Bonn, Germany, May, 1994. 
+
+TI-7. van Beek, P. and Dechter, R., "On the Minimality and Decomposability of Row-convex Constraint Networks," Accepted for publication in the Journal of the ACM, January, 1994. 
+
+Structure identifiability and knowledge compilation: 
+
+ST-1. Dechter, R., "Decomposing a Relation into a Tree of Binary Relations," Journal of Computer and System Sciences, Special Issue on the Theory of Relational Databases, Vol. 41, pp. 2-24, 1990. 
+
+ST-2. Meiri, I., Dechter, R., and Pearl, J., "Tree Decomposition with Applications to Constraint Processing." Under review. Preliminary version appeared as "Tree Decomposition with Applications to Constraint Processing," In Proceedings of the Eighth National Conference on Artificial Intelligence (AAAI-90), pp. 10-16, Boston, MA, July, 1990. 
+
+ST-3. Dechter, R. and Pearl, J., "Structure Identification in Relational Data," Artificial Intelligence, Vol 58, pp. 237-270, 1992. 
+
+ST-4. Dechter, R., "On the Expressiveness of Networks with Hidden Variables," In Proceedings of the Eighth National Conference on Artificial Intelligence (AAAI-90), pp. 556-562, Boston, MA, July, 1990. 
+
+ST-5. Dechter, R. and Schwalb, E., "Compiling Relational Data into Disjunctive Structure: Empirical Evaluation," In AI/GI/VI-94, Banff, Alberta, Canada, May 1994. 
+
+ST-6. Dechter, R. and Itai, A., "Finding All Solutions If You Can Find One," Presented in the Workshop on Tractable Reasoning, AAAI-92, pp. 35-39, San Jose, CA, July, 1992. 
+
+---------------------------------------------------------------------
+
+Professional Activities:
+
+---------------------------------------------------------------------
+
+Other Interests:
+
+---------------------------------------------------------------------
+
+Information and Computer Science
+University of California, Irvine CA 92717-3425 Last modified: 16 Nov 1995 

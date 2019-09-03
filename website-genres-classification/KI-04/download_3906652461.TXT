@@ -1,0 +1,132 @@
+
+
+ 	 
+ 	 	 	 
+
+<Index> <Source> <Binaries> <SSL> <Download Directory>	 
+
+Stunnel Binaries
+
+As is unix tradition, there are no precompiled unix binaries available. You should be able to compile Stunnel using any ANSI C compiler (for example the free gcc compiler) on your system natively. 
+
+However, since C compilers are less common in the Windows environment, you can download these precompiled Windows binaries for stunnel. 
+
+Files with a .asc extension are detached PGP signatures. As of Stunnel version 3.8, Michal has begun PGP signing the Stunnel tarballs and executables. You can get a copy of his PGP public key on his home page. PGP keys for Brian Hatch can be found here, and the key used for Stunnel-3.x branch is available here. 
+
+The most recent stable Stunnel version is flagged with a red asterisk (*). You may want to check out the ChangeLog file to see what differences exist between versions. 
+
+Stunnel-4.x
+
+Stunnel-4.x is the most current and actively developed branch of Stunnel. 
+
+Bytes      Timestamp       Filename
+________ ____________________ ____________________________
+     189 Jan 12 08:54:54 2003  stunnel-4.04.exe.asc
+   59904 Jan 12 08:54:54 2003 *stunnel-4.04.exe
+     254 Oct 30 20:45:42 2002  stunnel-4.03.exe.asc
+   57856 Oct 30 20:45:42 2002  stunnel-4.03.exe
+     254 Oct 21 12:14:10 2002  stunnel-4.02.exe.asc
+   57344 Oct 21 12:14:10 2002  stunnel-4.02.exe
+     254 Oct 20 15:33:42 2002  stunnel-4.01.exe.asc
+   57856 Oct 20 15:33:42 2002  stunnel-4.01.exe
+     254 Aug 30 12:38:04 2002  stunnel-4.00.exe.asc
+   55296 Aug 30 12:38:04 2002  stunnel-4.00.exe
+
+Stunnel-3.x
+
+Stunnel-3.x is no longer under development, however we will continue to provide bugfixes as needed. All new development is on Stunnel-4.x, so you should switch to the new version when possible. 
+
+Bytes      Timestamp       Filename
+________ ____________________ ____________________________
+     189 Aug 29 21:47:22 2003  stunnel-3.26.exe.asc
+   51200 Aug 29 21:47:22 2003 *stunnel-3.26.exe
+     189 Aug  1 21:56:26 2003  stunnel-3.25.exe.asc
+   51200 Aug  1 21:56:26 2003  stunnel-3.25.exe
+     189 Jul 25 16:41:02 2003  stunnel-3.25-beta1.exe.asc
+   51200 Jul 25 16:41:02 2003  stunnel-3.25-beta1.exe
+     232 Apr 23 23:34:23 2003  stunnel-3.24.exe.asc
+   41472 Apr 23 23:34:23 2003  stunnel-3.24.exe
+     232 Apr  3 17:53:04 2003  stunnel-3.19.exe.asc
+   31232 Apr  3 17:53:04 2003  stunnel-3.19.exe
+     232 Apr  3 17:50:07 2003  stunnel-3.23.exe.asc
+   41472 Apr  3 17:50:07 2003  stunnel-3.23.exe
+     254 Dec 23 18:38:51 2001  stunnel-3.22.exe.asc
+   40448 Dec 23 18:38:51 2001  stunnel-3.22.exe
+     232 Nov 11 13:30:03 2001  stunnel-3.21c.exe.asc
+   38912 Nov 11 13:30:03 2001  stunnel-3.21c.exe
+     254 Nov  5 12:38:03 2001  stunnel-3.21b.exe.asc
+     254 Nov  5 12:38:03 2001  stunnel-3.21a.exe.asc
+     254 Nov  5 12:38:03 2001  stunnel-3.21.exe.asc
+   38400 Nov  5 12:38:03 2001  stunnel-3.21b.exe
+   38400 Nov  5 12:38:03 2001  stunnel-3.21a.exe
+   38400 Nov  5 12:38:03 2001  stunnel-3.21.exe
+     232 Aug 15 13:56:36 2001  stunnel-3.20.exe.asc
+   31744 Aug 15 13:56:36 2001  stunnel-3.20.exe
+     240 Jul 31 18:09:29 2001  stunnel-3.18.exe.asc
+   29696 Jul 31 18:09:29 2001  stunnel-3.18.exe
+     240 Jul 29 20:48:36 2001  stunnel-3.17.exe.asc
+   28672 Jul 29 20:48:36 2001  stunnel-3.17.exe
+     240 Jul 22 21:21:41 2001  stunnel-3.16.exe.asc
+   28672 Jul 22 21:21:41 2001  stunnel-3.16.exe
+     240 Jul 15 17:00:41 2001  stunnel-3.15.exe.asc
+   28160 Jul 15 17:00:41 2001  stunnel-3.15.exe
+     240 Feb 22 10:12:49 2001  stunnel-3.14.exe.asc
+   26624 Feb 22 10:12:19 2001  stunnel-3.14.exe
+     240 Jan 25 05:20:39 2001  stunnel-3.13.exe.asc
+   26624 Jan 25 05:19:48 2001  stunnel-3.13.exe
+     240 Jan 24 16:24:13 2001  stunnel-3.12.exe.asc
+   26624 Jan 24 16:24:02 2001  stunnel-3.12.exe
+     240 Dec 21 11:33:42 2000  stunnel-3.11.exe.asc
+   26624 Dec 21 11:33:42 2000  stunnel-3.11.exe
+   26624 Dec 19 11:44:35 2000  stunnel-3.10.exe
+     240 Dec 19 11:44:16 2000  stunnel-3.10.exe.asc
+     240 Dec 16 15:17:00 2000  stunnel-3.10beta1.exe.asc
+   26112 Dec 16 15:17:00 2000  stunnel-3.10beta1.exe
+     240 Dec 13 20:20:00 2000  stunnel-3.9.exe.asc
+   25088 Dec 13 20:20:00 2000  stunnel-3.9.exe
+     240 Jun 25 15:15:37 2000  stunnel-3.8p4.exe.asc
+   24576 Jun 25 15:12:55 2000  stunnel-3.8p4.exe
+     240 Jun 13 15:08:33 2000  stunnel-3.8p2.exe.asc
+   23040 Jun 13 14:58:27 2000  stunnel-3.8p2.exe
+     228 Feb 24 12:41:00 2000  stunnel-3.8.exe.asc
+   19968 Feb 24 12:41:00 2000  stunnel-3.8.exe
+   19968 Feb 10 12:38:00 2000  stunnel-3.7.exe
+   19968 Feb  4 14:10:00 2000  stunnel-3.6.exe
+   19456 Feb  2 12:37:00 2000  stunnel-3.5.exe
+   19968 Jul 13 00:00:00 1999  stunnel-3.4a.exe
+   19968 Jul 12 00:00:00 1999  stunnel-3.4.exe
+
+OpenSSL Libraries
+
+You will also require an SSL library. We suggest you use the most recent OpenSSL-0.9.7X version. If you do not already have DLLs from your own OpenSSL or SSLeay compilation, you can use these DLLs. The zip file is simply the lib* files zipped into one archive. (Not all versions of OpenSSL work with all versions of Stunnel. OpenSSL-0.9.7X or later is needed for Stunnel 4.04 and later.) 
+
+Bytes      Timestamp       Filename
+________ ____________________ ____________________________
+     189 Sep 30 11:33:30 2003  openssl.zip.asc
+     189 Sep 30 11:33:29 2003  libssl32.dll.asc
+  611705 Sep 30 11:33:29 2003  libssl32.dll
+     189 Sep 30 11:33:29 2003  libeay32.dll.asc
+ 1528135 Sep 30 11:33:29 2003  libeay32.dll
+ 1423156 Sep 30 11:33:29 2003  openssl.zip
+     189 Sep 30 11:33:29 2003  openssl.exe.asc
+ 1571073 Sep 30 11:33:29 2003  openssl.exe
+
+Note that these DLLs were compiled by Mike or Brian using the default OpenSSL compile-time options, thus these binaries may be inappropriate for your use depending on your local cryptography laws, patents on algorithms available in the DLLs, or other reasons. 
+
+You may want to use this Sample Stunnel Server Certificate for testing. We strongly suggest you generate your own Server Certificate once done testing. To do so, please read the Certificate Section of the FAQ. If you wish to generate your own stunnel.pem and cannot do it with the libraries above, as a last resort you con generate one online. 
+
+---------------------------------------------------------------------
+
+Compatibility Note
+
+The above DLLs will only work with stunnel versions 3.8p1 and later since previous versions of Stunnel did not properly seed the Pseudo Random Number Generator. 
+
+If you must use an older stunnel version (which is not advised,) you must use the OpenSSL 0.9.5 or previous DLLs (available in the windows download directory)
+
+Realize, however, that not using strong random seeds means that your session is not as cryptographically secure as it should be. 
+
+The Stunnel software package does not contain any cryptography itself, however please remember that import and/or export of cryptographic software, code providing hooks to cryptographic algorithms, and discussion about cryptography is illegal in some countries. It is imperative for you to know your local laws governing cryptography. We're not liable for anything you do that violates your local laws. 
+
+ 	 
+ 	  	  	 
+

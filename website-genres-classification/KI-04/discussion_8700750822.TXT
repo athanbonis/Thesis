@@ -1,0 +1,2172 @@
+
+ OSDN : Browse SourceForge - Shop ThinkGeek - freshmeat Downloads - Newsletters - Personals	 Search » 	  X 	 
+
+ Login	 
+ Why Login?
+  Why Subscribe?
+
+ Sections	 
+ Main	 
+ Apache	 
+ Apple
+  2 more	 
+ Askslashdot
+  6 more	 
+ Books	 
+ BSD
+  1 more	 
+ Developers	 
+ Games
+  8 more	 
+ Interviews	 
+ Science
+  1 more	 
+ YRO
+  2 more	 	
+ 	 
+ Help	 
+ FAQ
+  Bugs
+
+ Stories	 
+ Old Stories
+  Old Polls
+  Topics
+  Hall of Fame
+  Submit Story
+
+ About	 
+ Supporters
+  Code
+  Awards
+
+ Services	 
+ Tech Jobs
+  Advertising
+  PriceGrabber
+  Personals
+
+ 	 
+ 	 
+New Linux Kernel Configuration System	 
+
+Posted by CmdrTaco on Sun Sep 08, '02 10:35 AM
+from the step-in-the-right-direction dept.
+An anonymous reader writes "When Eric S. Raymond tried to replace the Linux kernel's configuration system with "something better", he got booed off the stage. Now Roman Zippel is bravely having his own go at it. Here's an interview with Roman and a look at his new configuration system, aimed for inclusion into the 2.5 development kernel. Also, find some screenshots of his new graphical configuration frontend."  
+
+ 	  	    
+   Slashdot Login	     
+       Nickname:
+
+Password:
+ 
+
+[ Create a new account ]      	
+
+Related Links	     
+    · booed off the stage
+· interview with Roman
+· screenshots of his new graphical configuration frontend
+· More on Linux
+· Also by CmdrTaco    	
+
+Developers	     
+    · SourceForge Donation System for Projects
+· Myths About Open Source Development
+· LinuxBIOS Project Usenix Paper
+· More On The 2.6 Kernel
+· PHLAK 0.2 Released
+· First Xouvert Milestone Released
+· KDE 3.2 beta 2 Released
+· Open-Source Machine Learning Library Available
+· Tomcat 5.0 Released
+· The Robots are Coming
+    	
+
+This discussion has been archived.     No new comments can be posted.       	 
+    New Linux Kernel Configuration System  |      Log in/Create an Account     | Top   | 370 comments   | Search Discussion  	 
+              Threshold:  
+-1: 370 comments
+  
+0: 358 comments
+  
+1: 243 comments
+  
+2: 126 comments
+  
+3: 34 comments
+  
+4: 21 comments
+  
+5: 10 comments
+ 
+ 
+Flat
+  
+Nested
+  
+No Comments
+  
+Threaded
+ 
+ 
+Oldest First
+  
+Newest First
+  
+Highest Scores First
+  
+Oldest First (Ignore Threads)
+  
+Newest First (Ignore Threads)
+ 
+          	 
+  The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way. 	
+        Oi! (Score:1)         
+by Coke in a Can (577836)     on Sunday September 08, @10:37AM (#4215868)        	   
+    No comments yet and it's already been /.ed? What is the world coming to?    	
+   
+        Maybe it's not a ./ effect... (Score:1)         
+by moby (96858)     on Sunday September 08, @10:56AM (#4215957)        	   
+    ...but the site has already been hacked!    		   
+        Ironic... (Score:4, Funny)         
+by cat5 (166434) <cat5&catfive,org>     on Sunday September 08, @10:42AM (#4215886)     
+(http://www.catfive.org)    	   
+    that the kerneltrap topic id is 404...    	
+   
+        Re:Ironic... (Score:5, Informative)         
+by _ganja_ (179968)     on Sunday September 08, @11:12AM (#4216030)     
+(http://www.amazon.co...956/sr=1-3/002-62836)    	   
+    
+
+How is that Ironic? I blame Alanis for this total misuse of the word... That's just a coincidence. 
+
+While I'm at it, will the people that insist on using the word Â“literallyÂ” to mean metaphorically give it a rest: Â“That was so funny I literally shit myselfÂ” or Â“That last tackle literally ripped his head offÂ”.
+
+Re:Ironic... (Score:1)         
+by quinto2000 (211211)     on Sunday September 08, @11:19AM (#4216064)     
+(http://www.indypgh.org/ | Last Journal: Monday December 09, @02:59PM)    	   
+    Democracy = "rule by the mob"    	   
+        Re:Ironic... (Score:1)         
+by cheese_wallet (88279)     on Sunday September 08, @11:28AM (#4216112)        	   
+    so would it be ironic if the topic id was 404, and the page worked?    	   
+        Re:Ironic... (Score:2)         
+by _ganja_ (179968)     on Sunday September 08, @01:26PM (#4216547)     
+(http://www.amazon.co...956/sr=1-3/002-62836)    	   
+    Just felt like a rant @ 4am :-) Ignore me. Language evolves I guess and meanings change. 
+
+I guess we could say that irony is a method of humorous or subtly sarcastic expression in which the intended meaning of the words is the direct opposite of their usual sense.
+
+Or as the Oxford English says "A condition of affairs or events of a character opposite to what was, or might naturally be, expected; a contradictory outcome of events as though in 
+mockery of the promise and fitness of things."
+
+An example of situational irony would be a man lost in a hot desert and near death from thirst, he crawled aimlessly in search of water. He could hardly believe his good fortune when he came across an oasis. He crawled forward onto its bank, leaned down and was just about to drink his fill when the bank collapsed under him. He fell in the water and drowned.
+
+As Ralph Wiggam said "Me fail English? that's unpossible".
+
+re: kratia = power (Score:1)         
+by pyrrho (167252)     on Sunday September 08, @09:29PM (#4218356)     
+(http://slashdot.org/ | Last Journal: Tuesday June 24, @03:33AM)    	   
+    kratos:
+
+I think that it also is a specific kind of power. Supported credibly if not completely enough by it's use as shown in in this document [jhu.edu] which I found when googling for a little support for my hypothesis. What kind of power it is colors it's relationship with the other word part. I believe it's an oppressive sort of power, essentially the military power required to win and the spoils that are the reward (power over the people, to tax and control their economy. Taken this way Democracy has a different meaning, probably justifiable but incomplete. The people should have power over the government but should they take the position with regard to it that historically military governments do? Similarly if people have power of the "government", this is "govern" the correct root for that word? If the intent is to free the people to govern themselves, and free the economy, "democracy" is possibly the wrong approach. 
+
+Philosophy is stored in these terms. Breaking these terms open, or comparatively considering the distinctions between irony and coincidence, ironic coincidence or literal metaphors. I post this to you because of your clear like for making closer study of terms (I paused to grok your distinction between irony and coincidence), and because you also have a pragmatists view of language, a relatively rare combination. It allows one to look for the meaning of words as a philosophist rather than as a grammarian, trying to impose as RULES what are merely interesting philological patterns.    	   
+        Re: kratia = power (Score:2)         
+by _ganja_ (179968)     on Tuesday September 10, @06:33AM (#4226720)     
+(http://www.amazon.co...956/sr=1-3/002-62836)    	   
+    I hope you read this as the topic is a few days old. You managed to pick up on something that I am very interested in, language & how it got the way it is. If only I had more time (and intellgence). 
+
+"Philosophy is stored in these terms."
+
+I couldn't agree more, there seem to be "clues" or code regarding something scatered about in language, especially root words and they seem to link in to old myths & legends.
+
+I am not nearly bright enough to express this very eloquently nor to figure it out but language seems to hold a lot more value than just basic communication and something we take for granted. 
+
+If only the birds could talk.
+
+Also, time for a new .sig :-)
+
+Re: kratia = power (Score:1)         
+by pyrrho (167252)     on Tuesday September 10, @02:54PM (#4231097)     
+(http://slashdot.org/ | Last Journal: Tuesday June 24, @03:33AM)    	   
+    all the battles in philosophy, by which I mean not the academic ones but the real battles that go on within cultures and when they collide, are all stored, I believe, in the terms and phrases of language. 
+
+I think it's fair to say that philosophers mostly mine language for knowledge, as special kinds of philologists. As for the additional part, the creativity, it's mostly aimed in the direction of creating new words and new understandings for them, and is therefore just another part of the same process.
+
+I hope to talk with you about this more in the future at some point. 
+
+Cheers.    	   
+        Re:Ironic... (Score:2)         
+by aussersterne (212916)     on Sunday September 08, @01:59PM (#4216678)     
+(http://slashdot.org/)    	   
+    While I'm at it, will the people that insist on using the word Â“literallyÂ” to mean metaphorically give it a rest: Â“That was so funny I literally shit myselfÂ”
+
+My friend, if someone says to you 'Oh man, that was so funny I literally shit myself...' I suggest that you work on putting down paper on your car seats before letting them sit in your car, rather than complaining about their particular euphemism for 'metaphorically'.
+   	    
+        Darn tootin' (Score:1)         
+by Kappelmeister (464986)     on Sunday September 08, @02:07PM (#4216705)        	   
+    I can't agree with your second point more.
+
+"Literally" is a word that you use when you want to cut through layers upon layers of misued metaphors, ambiguous sarcasm, and other kinds misdirection,
+
+It's like a reserved word. Or, better yet, it's like an escape character. Whatever follows it should not be interpreted by some high rhetorical parser; instead, it means what it says it means.
+
+Somewhere along the line, though, people misinterpreted "literally" as just another word for emphasis, so now everyone is talking about how they are "literally dying of thirst" and so on.
+
+Go ahead and redefine the rest of the language to mean new, exciting things, but take your hands off of "literally" -- it's sacred.
+
+This will probably get modded down as Offtopic, but whenever someone says they'll probably get modded down as Offtopic, they end up with 5.    	   
+        Literally = Escape Character? (Score:1)         
+by jellybear (96058)     on Sunday September 08, @03:01PM (#4216915)        	   
+    On the other hand, people use the word "like" to indicate that a simile or metaphor is coming up, sort of like a substitution marker.
+
+So, for 5pts, trace the output of the following sentence:
+
+"I'm, like, literally dying of thirst."    	   
+        Re:Ironic... (Score:1)         
+by mbogosian (537034) <mattb@columbi a . e du>     on Sunday September 08, @02:20PM (#4216739)        	   
+    While I'm at it, will the people that insist on using the word Â“literallyÂ” to mean metaphorically....
+
+Yeah, I'm anxious to see people start using words in their correct contexts as well.    	   
+        Re:Ironic... (Score:1)         
+by iabervon (1971)     on Sunday September 08, @02:43PM (#4216830)     
+(http://iabervon.org/~barkalow/ | Last Journal: Saturday May 31, @02:01AM)    	   
+    It is (now) kind of ironic, because the static page you get instead of the dynamic page actually does contain the interview. Anyway, if hosed sites give any response, they're more likely to give 500, since they recognize the URL but can't manage to serve the page.
+
+In any case, something which is unintentionally fitting is at least somewhat ironic, unlike the things in the Alanis song, which just suck.
+
+What would have been really ironic would be if the correct id had been, say 304, not 404. And then it would have been even more ironic if there was then a duplicate article...
+   	    
+        Re:Ironic... (Score:1)         
+by Trogre (513942)     on Sunday September 08, @03:47PM (#4217107)     
+(http://slashdot.org/)    	   
+    That word has been literally picked up and thrown around until its significance is literally reduced to the size of a grape.
+
+Re:Ironic... (Score:1)         
+by neafevoc (93684)     on Sunday September 08, @03:59PM (#4217148)     
+(http://singlethread.org/ | Last Journal: Monday November 11, @03:04PM)    	   
+    How is that Ironic? I blame Alanis for this total misuse of the word... That's just a coincidence.
+
+Or how Alanis puts it in her songs... unfortunate.    	   
+        Re:Ironic... (Score:1)         
+by mbogosian (537034) <mattb@columbi a . e du>     on Sunday September 08, @07:12PM (#4217941)        	   
+    Or how Alanis puts it in her songs... unfortunate.
+
+C'mon, now you're just being insensitive (okay, I think that's Jann Aarden, but I can't tell the difference between any of them anyway, I guess that's kind of ironic...).    	   
+        Re:Ironic... (Score:2)         
+by Nailer (69468)     on Sunday September 08, @05:18PM (#4217498)     
+(http://www.cyber.com.au/)    	   
+    This is how its ironic...
+
+The American Heritage Dictionary:
+
+i*ro*ny Pronunciation Key (r-n, r-)
+  n. pl. i*ro*nies 
+The use of words to express something different from and often opposite to their literal meaning.
+  An expression or utterance marked by a deliberate contrast between apparent and intended meaning.
+  A literary style employing such contrasts for humorous or rhetorical effect. See Synonyms at wit1.
+  Incongruity between what might be expected and what actually occurs: "Hyde noted the irony of Ireland's copying the nation she most hated" (Richard Kain). 
+An occurrence, result, or circumstance notable for such incongruity. See Usage Note at ironic.
+
+Well, one of the most acceptable definitions of an ironic situation was one that seemed to imply otherwise. Hence, `rain on a wedding day' isn't ironic - its just bad luck. But visiting a site talking about the latest useless kernel addon and how it will rule the world, with a link proclaiming it to be a `404' of some kind (seeming to imply it won't rule the world) could indeed be ironic.
+
+I blame Alanis for this total misuse of the word... 
+
+Me too, but I blame radio DJs who can't think of any better material for making this `its not actually ironic' discussion a popular one, especially when someone uses the word correctly
+
+Re:Ironic... (Score:1)         
+by RoofPig (590281)     on Sunday September 08, @11:22PM (#4218636)        	   
+    "Me too, but I blame radio DJs who can't think of any better material for making this `its not actually ironic' discussion a popular one, especially when someone uses the word correctly" 
+
+Don't forget the hoards of unfunny standup comedians.    	   
+        I'm with ya' on this one... literally! (Score:1)         
+by CreamsicleSeventeen (133857)     on Monday September 09, @05:59AM (#4219576)        	   
+    I think there's even more to abusing the word "literally" than giving it the opposite meaning. People who talk like that also mean some form of "very", or worse, a kind of, "Take me seriously this time because I reeaaalllly mean it!"
+
+Oddly, even though misuse of "literally" irritates the living f### out of me, I think it should have the meaning people end up giving it when they (mis)use it to add emphasis. For example:
+
+"That was so funny I literally shit myself."
+
+"How disgusting. You will go home and change your underwear. Right?"
+
+"No I won't you cyborg. There isn't any poop in my pants. It was just an expression. I meant that in a literary way!"
+
+Re:Ironic... (Score:1)         
+by Slime-dogg (120473)     on Monday September 09, @04:37PM (#4223489)        	   
+    Error 404: Page not found.    	   
+        Re:Ironic... (Score:2)         
+by AntiNorm (155641)     on Sunday September 08, @11:30AM (#4216117)        	   
+    that the kerneltrap topic id is 404... 
+
+The screenshot [resentment.org] itself is more ironic, I think..
+   	    
+        Re:Ironic... (Score:1)         
+by cat5 (166434) <cat5&catfive,org>     on Sunday September 08, @10:50AM (#4215933)     
+(http://www.catfive.org)    	   
+    It's in the URL.
+
+http://kerneltrap.org/node.php?id=404
+
+See, node.php?id=404.
+
+poor guy (Score:3, Insightful)         
+by GoatPigSheep (525460)     on Sunday September 08, @10:44AM (#4215893)     
+(Last Journal: Saturday December 14, @02:36AM)    	   
+    When Eric S. Raymond tried to replace the Linux kernel's configuration system with "something better", he got booed off the stage.
+
+Yet another thing to add to my list of "and people wounder why linux is not being readily accepted by everyone" items. I mean, come on, the guy just wanted to help make things better! Getting booed off the stage hurts!    	
+   
+        Re:poor guy (Score:1, Insightful)         
+by Anonymous Coward     on Sunday September 08, @10:59AM (#4215967)        	   
+    Yeah, he did. But his "something better" wasn't. It was a masturbatory exercise in pushing a pet language that resulted in a confusing mess that was at least as bad as the current system.    	   
+        They weren't without reason (Score:5, Informative)         
+by Bruce Perens (3872) <bruce@@@perens...com>     on Sunday September 08, @11:07AM (#4216006)     
+(http://perens.com/ | Last Journal: Sunday July 27, @06:55PM)    	   
+    The kernel developers are a pretty open-minded bunch. Eric's design was cool, he explained it to me a few years back, and it has seen use in other projects than the kernel. But I could see that it would be difficult for the kernel developers to accept:
+
+* It required Python to build the kernel. 
+* It was complicated. It included an entire theorem prover. This was sort of cool in that it would not allow you to generate a non-working configuration, but really more than was required for the job. 
+* Its language was arcane. The main language idiom is the suppress-unless statement, which is sort of the logical negation of if-then statements. 
+* And some folks questioned his motivation for getting this grandiose project into the kernel - was it just to help out, or was it primarily to establish additional hacker reputation for Eric? I'd be willing to give him the benefit of the doubt on this - he did the work. 
+I think he had a chance of getting it in, but he would have had to refactor the entire thing, write it over in C, make the language cleaner, and I guess that didn't come about. But to his credit, he didn't just talk about it. He generated a working software product with functionality that did not previously exist in Open Source as far as I could tell. His project is worth studying, and I'd encourage works derived from his ideas. I'm sure there's a paper about it online.
+
+Bruce    	   
+        Re:They weren't without reason (Score:3, Insightful)         
+by great throwdini (118430)     on Sunday September 08, @11:22AM (#4216078)        	   
+    
+
+[Eric's design] was complicated. It included an entire theorem prover. This was sort of cool in that it would not allow you to generate a non-working configuration, but really more than was required for the job. 
+
+I grasp the significance of the other three points of contention you mention, but the fourth (above) doesn't jump out and grab me as an issue in and of itself. On the one hand, it may be that the method was overly complex (evidenced in part by the Python requirement and an unfamiliar idiom). Disallowing an unworkable configuration doesn't seem unreasonable, though. Is there a down-side to building that safety into the configurator apart from any flaws [heightened complexity] in Eric's particular implementation? 
+
+Re:They weren't without reason (Score:1)         
+by dd301 (141836)     on Sunday September 08, @01:41PM (#4216617)        	   
+    
+
+Disallowing an unworkable configuration doesn't seem unreasonable, though. 
+
+I suppose this is OK as long as there is some mechanism to override it for experienced users. Imagine if ESR had left after it was merged into the kernel. Can you imagine the nightmare? 
+
+Re:They weren't without reason (Score:1)         
+by billbaggins (156118) <<jp_baggins> <at> <yahoo.com>>     on Sunday September 08, @11:54AM (#4216233)        	   
+    
+It was complicated. It included an entire theorem prover. This was sort of cool in that it would not allow you to generate a non-working configuration, but really more than was required for the job. 
+What do you expect from someone who put a LISP interpreter into a text editor? "When in doubt, make it as general as possible" seems to be the motto...    	   
+        Re:They weren't without reason (Score:1)         
+by ElMiguel (117685)     on Sunday September 08, @12:39PM (#4216399)        	   
+    If you're talking about emacs, that was Stallman, who likes Lisp because he comes from MIT.    	   
+        Re:They weren't without reason (Score:1)         
+by PissingInTheWind (573929)     on Sunday September 08, @12:41PM (#4216404)        	   
+    1- Having a LISP interpreter in a text editor is one of the best things I've ever seen, 
+(well, do you know LISP? if not, why are you talking about things you don't understand?).
+ 
+2- ESR didn't write Emacs, RMS did. Get your acronyms straight.    	   
+        Re:They weren't without reason (Score:1)         
+by dd301 (141836)     on Sunday September 08, @01:43PM (#4216625)        	   
+    
+
+What do you expect from someone who put a LISP interpreter into a text editor? "When in doubt, make it as general as possible" seems to be the motto... 
+
+You can still write code with magnets on the hard drive, if that suits you. But all (good) editors will tend to emacs in the limit. ;-)
+
+Okay, okay... (Score:1)         
+by billbaggins (156118) <<jp_baggins> <at> <yahoo.com>>     on Sunday September 08, @02:05PM (#4216695)        	   
+    Y'all can shut up now. I have been duly advised that I had the wrong TLA person writing Emacs, and that Emacs is the One True Editor. I was trying to make a point, but I missed horribly. At the time, a lisp interpreter in a text editor was a horrendously big thing to do. I use and love Emacs, I just think that, at first look, it's a ridiculous concept.    	   
+        Re:They weren't without reason (Score:1)         
+by tdelaney (458893)     on Sunday September 08, @04:41PM (#4217355)        	   
+    Indeed. Python would be a much better choice.
+
+Which is available by the way ... (pymacs).    	   
+        Re:They weren't without reason (Score:3, Interesting)         
+by Anonymous Coward     on Sunday September 08, @11:55AM (#4216235)        	   
+    Python wasn't the problem, a few people didn't like it. I don't even remember anyone trying to veto it for it's complexity or anything either. There were 2 issues. It didn't do what Linus wanted it to do, namely decentralize a few thing, Eric simply ignored the requests for that. And then he tried to slide it in some how without peer review by trying to get developers closer to Linus to endorse it an include it rather than doing it in the open. 
+
+Eric was playing games and his solution was technically superior. Done deal.    	   
+        And what game might that have been? (Score:2)         
+by Afrosheen (42464)     on Sunday September 08, @03:29PM (#4217048)     
+(http://mdkxp.by-a.com/)    	   
+    Eric was playing games and his solution was technically superior. Done deal. 
+
+  Lemme guess... ...Eric's Solitaire? (bu dum-pssssh)
+
+  Thank you, I'll be here all week. Remember to tip your waittress.    	   
+        What's wrong with that last? (Score:4, Insightful)         
+by Ungrounded Lightning (62228)     on Sunday September 08, @02:38PM (#4216805)        	   
+    
+* And some folks questioned his motivation for getting this grandiose project into the kernel - was it just to help out, or was it primarily to establish additional hacker reputation for Eric? I'd be willing to give him the benefit of the doubt on this - he did the work.
+
+What's wrong with being motivated by hacker reputaion points? Isn't that what was supposed to replace money in the open source motivational system?
+
+... was it just to help out, ...
+
+So an open source developer is evil unless he's motivated solely by altruism?
+
+(That humming sound you hear is the beat between the spin rates of Ayn Rand and Friedrich Hayek.)
+
+C'mon, Bruce. You know better than that.
+
+Regardless of how much we want to help out humanity and all that, SOME of us aren't the leisure class - with old money, idle time, and an indoctrination in the obligations of nobility to give us internal satisfaction when we do something "just to help out" the benighted masses of the common man. Some of us ARE those commoners, with a family, a mortgage, and (if we haven't been laid off in the latest recession) a paycheck that is all that stands between using a shopping cart for groceries and using it for a mobile home.
+
+If we're to contribute time and effort to the open-source codebase we need a way to keep that paycheck coming. Like "reputation points" to put on a resume, to find work the next time the current project is over or the current company goes belly-up.
+
+Maybe Eric doesn't need any more points. But let's not have a big name flaming him for maybe wanting some - and thus convince thousands of onlookers that working open source is a good way to get a BAD rep, so they'd be better off getting that MCSE instead.    	   
+        Just remember (Score:2)         
+by xenocide2 (231786) <[ude.usk] [ta] [5445dlj]>     on Sunday September 08, @04:18PM (#4217235)        	   
+    Just remember that ESR was the one who wrote about the reputation and the like to begin with, in addition to the rules of social interaction in the OSS world. He didn't write them, he wrote about them. Whether he's correct on all these points is another matter. It may be that hackers write for reputation but it seems that the appearance of writing for reputation is bad.    	   
+        Re:What's wrong with that last? (Score:2)         
+by Bruce Perens (3872) <bruce@@@perens...com>     on Sunday September 08, @10:30PM (#4218514)     
+(http://perens.com/ | Last Journal: Sunday July 27, @06:55PM)    	   
+    Well, this time I'm just reporting the news, and don't endorse the feeling I'm reporting. So, I'm not going to take this one any farther.
+
+Bruce    	   
+        The Developers Arent Always Right & Politics S (Score:5, Insightful)         
+by FreeUser (11483)     on Sunday September 08, @11:09AM (#4216019)     
+(http://jean.nu/)    	   
+    Yet another thing to add to my list of "and people wounder why linux is not being readily accepted by everyone" items. I mean, come on, the guy just wanted to help make things better! Getting booed off the stage hurts!
+
+First, GNU/Linux will never be accepted "by everyone." Nor will FreeBSD, nor will BeOS, nor will Apple's OS X.
+
+Nor will Microsoft Windows, unless Palladium and DRM is legislated into law by the likes of "Disney" Hollings, and even then Apple is likely to be kept around as a token "competitor," paying hefty patent fees to Microsoft for the privelege of being allowed to manufacture "legal" hardware in the US. Unless, of course, you get off your butt and do something [randomfoo.net] about it, but I digress.
+
+The problem is a simple and obvious one, and the solution as elusive today as it was the first time humans came to live together (and likely predates our ability to speak): Politics is ugly and banal, and people are fallible. This includes the Linux kernel developers and Linus Torvalds himself.
+
+Example: The ggi project wanted to provide a kernel abstraction layer for video hardware in the same manner such abstractions are presented for everything else, from your ethernet adapter to your system's RAM and hard drive. Linus thought the idea sucked, then ended up doing a "poor man's" version of frame buffer support instead. How much better things would have been if the original vision of the GGI folks had been realized and supported we'll never know.
+
+Example: PCMCIA. It is still a mess. The more capable userspace version got sidelined in favor of a broken and less capable rewrite ... I can only ascribe that to politics and personal pull, which every group, no matter how altruistic and well meaning, falls prey to now and then.
+
+There are other examples, and perhaps Eric S. Raymond's effort is one (though I hesitate to make that assumption), but the purpose of this post is not to catalogue the mistakes Linus and others have made, or to air my own disagreements with them (but what the hell: when will we get XFS into the main kernel tree damn it! :-)), but rather to point out their humanity and fallability, a trait they share with everyone reading this comment, the guy posting it, and probably with every sapient being, everywhere.
+
+Mistakes happen, everywhere, by everyone. The measure of a group or project's success isn't their perfection (as is so often implied in political discussions), it is by how much their mistaken decisions are outweighed by their correct decisions.
+
+And using that metric, the Kernel developers, including Linus Torvalds, have done very well indeed.    	   
+        Re:The Developers Arent Always Right & Politic (Score:2)         
+by Psiren (6145)     on Sunday September 08, @11:32AM (#4216133)        	   
+    This will happen more and more. I really do expect that at some point someone will just say fuck it and branch their own version of Linux. I see this as possibly a good thing. If this branched version gets all the cool patches that Linus and co are turning down, and they work, it may prove to be a catalyst for change. Either that or the branched version will become better than the original. It happened with XEmacs (which IMHO is much better than Emacs), I see no logical reason it couldn't happen here aswell.    	   
+        Re:The Developers Arent Always Right & Politic (Score:4, Insightful)         
+by gmack (197796) <gmack.innerfire@net>     on Sunday September 08, @11:49AM (#4216218)     
+(http://slashdot.org/~gmack/journal | Last Journal: Saturday November 15, @02:37AM)    	   
+    GGI tried to do too much and it abstracted too far.
+
+Userspace PCMCIA drivers? That's a new one. I can only imagine that you were refering to the external set of drivers that used to be the standard and where characterised as being so hard to install that Linus himself had trouble with it. I completly understand his reasons for wanting that mess replaced.
+
+ESR's configureator was massive overkill and it made life harder for developers. On top of that what killed it in the end wsa not Linus but ESR's refusal to update the patches to handle changes Linus made to the core code.
+
+Not everything gets to be black and white.
+   	    
+        Re:The Developers Arent Always Right & Politic (Score:1)         
+by dd301 (141836)     on Sunday September 08, @01:38PM (#4216602)        	   
+    
+
+GGI tried to do too much and it abstracted too far. 
+
+AFAIK, they had a lot of problem using the hardware acceleration in the video card.
+
+ESR's configureator was massive overkill and it made life harder for developers. 
+
+Why would anyone object to a text based adventure game in the configuration system? Surely not the MS excel users. ;-)
+
+Re:The Developers Arent Always Right & Politic (Score:2, Informative)         
+by Bloater (12932)     on Monday September 09, @11:04AM (#4221178)     
+(http://www.raidersofthelostfridge.org/)    	   
+    > GGI tried to do too much and it abstracted too far.
+
+KGI (the code to go into the kernel) was just a bit more sophisticated than DRI. Under KGI, the mode switching would be provided by the kernel so that you never lost all use of your console because of X crashing, text blitting routines would be included in the kernel to support Linux's in kernel terminal, for hardware with an accel engine an interface is provided for the driver to tell userspace what accel methods are available. It is as simple as that. KGI was never "acceleration in the kernel" as was shouted about a lot, it was "operations that can render your console or system bus unusable are allowed with care taken to ensure that nothing bad can happen while maintaining DRI level performance".
+
+For matrox (a good, stable accel interface), userspace could query what interface is available and the driver might respond "matrox mmap interface" since it is safe to mmap the accel registers from userspace. If there were any code to operate the accel registers they would be in a badly designed driver (or a driver for badly designed hardware), and nothing to do with KGI *at* *all*.
+
+KGI is the minimum necessary to safely support high performance graphics from userspace and that's not a lot.    	   
+        Re:The Developers Arent Always Right & Politic (Score:2)         
+by Russ Nelson (33911)     on Monday September 09, @11:47AM (#4221446)     
+(http://russnelson.com/)    	   
+    ESR's refusal to update the patches to handle changes Linus made to the core code.
+
+Sorry, you don't have permission to rewrite history. Eric updated his patches, and updated and updated, all the while waiting for Linus to suck in CML2 *like Linus promised*. Finally, he got burned out, and started to publicly wonder WTF was going on. All this time he was being roundly, soundly, and viciously abused by various people on the LKML.
+
+All of which goes to show that Linus's promises are worth nothing. But we all knew that [insecure.org], didn't we?    	   
+        Re:The Developers Arent Always Right & Politic (Score:2)         
+by gmack (197796) <gmack.innerfire@net>     on Monday September 09, @12:39PM (#4221831)     
+(http://slashdot.org/~gmack/journal | Last Journal: Saturday November 15, @02:37AM)    	   
+    He instisted in keeping in synch with both the stable and unstable versions and the killer was here [iu.edu] followed by Linus making the changes and ESR never updating to match.
+   	    
+        What Open Source communities DO lack (Score:2, Informative)         
+by Idou (572394)     on Sunday September 08, @01:30PM (#4216562)        	   
+    are the marketing and PR departments to cover up or put spin on anything that could be even remotely considered a mistake. 
+
+To parent poster: Do you honestly believe that worse things don't happens behind corporate walls!? Have you been living in a bubble!? The great thing about open source is, whatever happens, you will always have enough information to form your own opinion. As a corporate drone, I can safely assure you that you will NEVER get that level of detail from a corporation (even though the Internet has helped expose a lot). Personally, I think your shock is due to a lack of exposure to a REAL community (people argue all the time . . . that's how things get worked out), rather than anything having to due witht the Kernel developers. Goes to show how corporate our society has become . . .    	   
+        Re:The Developers Arent Always Right & Politic (Score:2)         
+by nathanh (1214)     on Sunday September 08, @09:45PM (#4218392)     
+(http://www.manu.com.au/)    	   
+    
+Example: The ggi project wanted to provide a kernel abstraction layer for video hardware in the same manner such abstractions are presented for everything else, from your ethernet adapter to your system's RAM and hard drive. Linus thought the idea sucked, then ended up doing a "poor man's" version of frame buffer support instead. How much better things would have been if the original vision of the GGI folks had been realized and supported we'll never know. 
+
+I don't agree with your interpretation for why the GGI failed. 
+
+The way I saw it, the GGI developers had very grand ideas but insufficient time/resources. In the end, the GGI lost out because FB and the DRI offered something tangible with a reduced complexity. Maybe you could argue that GGI offered more but that's just confirmation of the classic 80/20 rule.    	   
+        Re:poor guy (Score:5, Informative)         
+by ceswiedler (165311)     on Sunday September 08, @11:34AM (#4216146)        	   
+    Just to add to Bruce's points above: from what I heard, the biggest problem wasn't technical, but rather ESR's refusal to negotiate. The userbase of the kernel config system is the kernel developers; they had several tried-and-true ways of configuring kernels. Many of them were in fact quite happy with the existing system, and didn't see a need to upgrade at all; there was a general consensus that there were some shortcomings in the existing system, but those were very specific.
+
+ESR solved these problems very well with CML2. By he also added a dozen features and changed a hundred other minor things, simply because he felt it was better that way. ESR was solving problems which only he perceived. For example, he was very interested in making it easy for "Aunt Tillie" to configure a kernel. Unfortunately, Aunt Tillie doesn't have a say in whether something goes into the kernel. Linus was apparently OK with CML2, but most of the other kernel developers were very resistant. No one ever explicitly refused CML2, but it never went in either, and ESR eventually gave up.
+
+The impression I got was that ESR should have minimized the changes to the UI in his first version. If he had built something exactly like the old config, but with a new language and backend, most of the objections would have gone away. He then could have submitted the other changes; they may or may not have been accepted, but at least the underlying system would have been improved.    	   
+        Re:poor guy (Score:1)         
+by platypus (18156)     on Sunday September 08, @01:42PM (#4216619)     
+(http://slashdot.org/)    	   
+    In that discussion, alan cox pulled an extremely funny joke. Maybe someone else can elaborate, I'm short on time ATM, (or search google's archive of lkml, search for melvin and aunt tillie).
+He set up this page:
+
+http://www.aunt-tillie.org/    	   
+        Re:poor guy (Score:2, Interesting)         
+by mec (14700) <mec@shout.net>     on Monday September 09, @11:25AM (#4221314)     
+(Last Journal: Wednesday September 17, @02:06AM)    	   
+    The biggest problem wasn't technical, but rather ESR's refusal to negotiate.
+
+I was the CML1 maintainer for two years, and I had a front-row seat for the CML2 fiasco.
+
+ESR went for a big incompatible rewrite, in a new not-universally-deployed language, with a lot of paradigm shifts. Technically, this was okay. It's good to broom things out every now and then and the existing system is a mess. (The hardest part is dealing with module symbol versions, which are truly bletcherous).
+
+Socially, this made CML2 a big pill to swallow. And ESR didn't help things. In my opinion, he never acknowledged that lots of smart hard-working people were using the existing system to get a lot of work done. He came across as a bad advocate ("your system is stupid, and you are stupid for using it") rather than a good advocate ("this new system will fix the two things that you are bitching about the most").
+
+Also, it hurt a lot that there was a big mismatch between ESR's priorities of caring and the user's priorities of caring. To ESR, it was unimportant that the system was implemented in Python. To most other people, it was very important. To ESR, a correctness prover was very cool. To most other people, it wasn't very important.
+
+One notorious mismatch was between Linus's strong desire to break up the monolithic help text into hundreds of files, and Eric's assessment of that task as minor.
+
+Eventually it turned into a pissing contest, with a lot of people pissing on ESR because he was clueless about making his software work in its social/ecological niche. And when lots of people piss on a guy, of course he pisses back. And then the debacle happens, where no useful software happens, no useful ideas happen, a lot of people waste a lot of time in flame wars and stop listening to each other.
+
+During this time, Alan Cox was one of the few people who stayed calm and looked at CML2 technically, without getting into the ad hominem battles. I respect Alan very much for his ability to do that. Alan had a negative opinion and gave good reasons why he didn't like it -- reasons that ESR should have listened very carefully to, I think.
+
+Perhaps the worst part is that CML2 has lots of cool ideas, but we got into a position where the cool ideas can't even serve as experience for the next generation of people who want to take a crack at the problem, because of the ad hominem poisoning.
+   	    
+        Re:poor guy (Score:2)         
+by Russ Nelson (33911)     on Monday September 09, @11:51AM (#4221478)     
+(http://russnelson.com/)    	   
+    I asked Eric, and he says that the command-line changes were subtle, that the X and curses changes were more significant, but that nobody complained about them.
+
+And were my cousin-in-law's Aunt Tillie to compile a kernel, 1) she would be able to, and 2) she would want it to work without any muss, fuss, and bother, because 3) she would rather spend her time writing applications than fussing with kernel compiles.
+
+And perhaps Eric just didn't do a good enough sell job, because one of the purposes of CML2 was to obviate "make dep; make clean".
+-russ
+   	    
+        Re:poor guy (Score:1)         
+by Mr.roboto (112555)     on Sunday September 08, @01:07PM (#4216487)     
+(http://www.geocities.com/triodes12ax7/)    	   
+    Perhaps it was because what was already had works fine (make menuconfig is da schnizzat btw) Why fix what's not broken? Afterall, why add the extra eye candy to the already 32 meg (.tgz, bz2 is less) source download size. Cable is not standard these days, no need for the extra weight. I wish that they'd make it so you could DL just the modules you wanted to, that way you'd cut your download time a good bit. (wait a minute, I should patent that ;))    	   
+        Re:poor guy (Score:2)         
+by scotch (102596)     on Sunday September 08, @11:51AM (#4216223)     
+(http://slashdot.org/ | Last Journal: Friday January 17, @09:25PM)    	   
+    Linux already is a "mainstream OS" for any reasonable definition of that vague phrase.
+
+If you think reading slashdot gives you some special insight into the mind of the average linux user, you are woefully wrong. Just about every developer and manager at my company reads slashdot, but most of those people are not linux users.    	   
+        Re:poor guy (Score:1)         
+by dd301 (141836)     on Sunday September 08, @01:45PM (#4216634)        	   
+    
+
+If you think reading slashdot gives you some special insight into the mind of the average linux user, you are woefully wrong. Just about every developer and manager at my company reads slashdot, but most of those people are not linux users. 
+
+You only have to look at the (classified) browser stats to prove this statement. And there are so many people who are publically pro MS (and state that they are MS employees no less).
+
+does it pre-configure (Score:5, Insightful)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @10:45AM (#4215899)        	   
+    Well the site is /.ed so what i want to know is.
+
+Does it scan your hardware and create a default kernel configuration with all ther drivers for your hardware pre-selected.
+
+It could even ask if you running a desktop or server machine and turn on/off low latency, pre-emtion and supermount for the desktop.
+
+I usually have to enable evrything to get X piece of hardware working corrctly and then disable stuff to find out what the correct drivers/modules were.
+   	 
+   
+        Re:does it pre-configure (Score:4, Informative)         
+by Anonymous Coward     on Sunday September 08, @11:46AM (#4216207)        	   
+    Does it scan your hardware and create a default kernel configuration with all ther drivers for your hardware pre-selected. 
+
+for the curious, you can use dmassage for OpenBSD to get a kernel config file with only your hardware enabled (hardware that was enabled at boot time).    	   
+        Don't you know what hardware you got in your compu (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @11:17AM (#4216057)        	   
+    Well I don't know all the chipsets i have and exactly what i need to get my IDE up, etc...
+Do i want framebuffer? do i need it... 
+Oh and I forgot scsi-cdrom support for my CD-RW.
+
+I do know more-or-less what hardware I have, hardware detection can be a lot better under Linux than windows, a lot of USB devices auto load the drivers based on vendor ID/product ID.
+
+A lot of the Linux drivers are generic for XYZ chipset, under windows you need the exact driver. I should imagine that Linux also detects what hardware you have when binding devices. 
+
+I takes a short while to select all the default hardware for your system, and sometimes you might miss something. Why not automate this process.
+
+Re:Don't you know what hardware you got in your co (Score:5, Informative)         
+by AvitarX (172628) <ddwornik@f[ ].com ['lex' in gap]>     on Sunday September 08, @11:34AM (#4216144)        	   
+    You want too see the beauty of Linux Auto detection possibilities boot into knoppix.
+I booted of the CD, got fully configured X, working sound, Working Xawtv, Working network with DHCP enabled, and therefore working broadband, and a working CD burner. It took a whole of like one minute to boot and it was everything I neaded. I Actually use it instead of Debian now for my main distro, mounting my old hard drive as scrap space.
+   	    
+        but.... (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @11:37AM (#4216160)        	   
+    Did it re-compile a nice tight quick Kernel to match you configuration?
+
+I have working everything using a Mandrake distro, I had to take apart my Adsl modem and search for a driver for the chipset and get the latest version of the USB drivers to stop gphoto2 crashing.    	   
+        Re:but.... (Score:1)         
+by Nothinman (22765)     on Sunday September 08, @12:18PM (#4216318)        	   
+    Everything is modular so the kernel is already as tight and quick as you'd need it.    	   
+        Re:but.... (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @12:26PM (#4216348)        	   
+    What?
+The kernel isn't that modular, look at the 2.6 change logs...
+
+If I compile somthing into the kernel(and not as a module) then that driver is quicker but the kernel is bigger. 
+
+yada yada yada ......
+
+If there's loads of 'junk' in the kernel then the kernel is bigger than it needs to be, kernel compiles take longer than they need to.
+
+I can also compile the Kernel for my processor which makes it a bit faster....
+SMP makes the kernel a bit slower on a single processor machine but you need it if you have more than one processor.
+
+Some options make linux more responsive to the user, but can slow down high load servers.
+   	    
+        Re:but.... (Score:1)         
+by AvitarX (172628) <ddwornik@f[ ].com ['lex' in gap]>     on Sunday September 08, @12:52PM (#4216441)        	   
+    If a program can pick what modules to load, I would imagine i could pick what to compile into the kernel if you had a check box that said no modules. Autodetect does not mean no user intervention. If you can give someone instructions on what to pick based on their hardware, the configuration can do the same by scanning and picking, and asking questions for what can't be scanned. And a checkbox, this is a high load server is so much harder to implement then Low latency?
+   	    
+        the next step (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @01:19PM (#4216518)        	   
+    The next step would be to connect to an online database of linux drivers/patches and see if there any updates to drivers for your hardware.
+
+This would make a great addition to gentoo
+   	    
+        Re:but.... (Score:1)         
+by Nothinman (22765)     on Sunday September 08, @01:51PM (#4216648)        	   
+    I said 'as you'd need it', you can't expect it to be 100% perfect for everyone. Knoppix is more of a demo distro than something you'd use day to day.    	   
+        Re:but.... (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @02:02PM (#4216686)        	   
+    'You can't expect it to be 100% perfect for everyone'
+
+Well that my point, if you have the kernel source code, why not compile a Kernel that is perfect for you?
+   	    
+        Re:but.... (Score:1)         
+by ipjohnson (580042)     on Sunday September 08, @05:02PM (#4217448)        	   
+    Because not every one needs or even wants to ... if you have a fast machine its not going to make that much of a difference.
+ 
+I'm a computer nerd but often I'd rather do my work or other things than f*ck around with configs ... then again thats why I own a mac.    	   
+        a fast machine (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @05:19PM (#4217504)        	   
+    A personal kernel will give you a 'faster' machine, especially when you take into account SMP, low latency, pre-emptive kernel, the extra few MB that doesn't have to be paged to your slowwwww HDDD, page faults that occure when you have to goto a module.
+
+You don't have to touch the configs, it's automated, that's the point!    	   
+        You still have to compile it... (Score:2)         
+by mmol_6453 (231450) <short.circuit @ m a il.grnet.com>     on Monday September 09, @12:15PM (#4221642)     
+(http://www.grnet.com/sc/ | Last Journal: Thursday July 17, @08:57AM)    	   
+    Whether you compile code as a module or into the kernel, what difference does it make? You still have to compile the code, so it still takes the same amount of time t ocompile.    	   
+        Re:Don't you know what hardware you got in your co (Score:2)         
+by Perdo (151843)     on Sunday September 08, @04:16PM (#4217228)     
+(http://jobsearch.mon...http%3A%2F%2Fcompany | Last Journal: Wednesday October 23, @04:40AM)    	   
+    Exactly!
+
+How is it that Knoppix can get it so right and the major distros are a hash?
+
+Of my 7 personal computers:
+
+Knoppix boots them all, with all their devises functioning.
+
+Mandrake 8.2 fails to initialize USB on 3 of them.
+Redhat 7.3 fails to initialize the video on 2 of them (and therefore fails to start X)
+Debian 3.0r0 fails to intialize a standard PS/2 mouse on one and ethernet cards on 4.
+SUSE 8.0 does not recognize the second CPU in a dual processor machine!?
+
+I just don't understand.    	   
+        Re:Don't you know what hardware you got in your co (Score:1)         
+by powerlinekid (442532)     on Sunday September 08, @06:10PM (#4217668)     
+(http://www.geekypenguin.org/)    	   
+    Mandrake does the same. Redhat probably does too.    	   
+        Re:Don't you know what hardware you got in your co (Score:1)         
+by AvitarX (172628) <ddwornik@f[ ].com ['lex' in gap]>     on Sunday September 08, @07:28PM (#4217976)        	   
+    So more then just knoppix can autodetect beautifully and seamlessly, great. 
+Why can't I do make autoconfig for my kernel then?
+That would be the totaqlly kick as thing to have happen IMHO. The fact that more then just knoppix got this down tells me it should be a trivial task.
+   	    
+        Re:Don't you know what hardware you got in your co (Score:2)         
+by powerlinekid (442532)     on Monday September 09, @12:25AM (#4218844)     
+(http://www.geekypenguin.org/)    	   
+    Actually all you might have to do is boot up the default kernel which in most systems is full of just about every single modules and run a script that takes an lsmod and generates a config file out of it. I really can't see why this is so damn difficult, you'd think someone would of done this by now. I'm sure this isn't the right way to go about it but... hey... what do you want from a slashdot comment ;).    	   
+        Re:Don't you know what hardware you got in your co (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Monday September 09, @02:50AM (#4219187)        	   
+    Or look in /proc and look-up the device ID's in a database.
+   	    
+        Re:does it pre-configure (Score:3, Interesting)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @11:34AM (#4216148)        	   
+    Here's how it works.
+
+1: Run the kernel configuration program.
+2: Select detect my harware option.... It sets up a 'default' configuration for you.
+3: You can then go through and select/de-select anything you want.
+
+You don't have to run step 2 if you don't want to you still have the choice you had before.
+
+Now on the auto detection thing, if the script is wrong you can correct it, report a bug or whatever, just like you can with kudzu or USB driver autoloading.
+
+It could even notify you that you hardware isn't fully supported and look here for an updated driver.
+
+Re:does it pre-configure (Score:1)         
+by AvitarX (172628) <ddwornik@f[ ].com ['lex' in gap]>     on Sunday September 08, @11:38AM (#4216165)        	   
+    Nobody wants to force you to use autodetect, they just want the option to do it. 
+It might take you less then a minute, but it takes me closer to 30. And I have had positive expierience with autodetection in Linux, so why force me to go through and configure everything on my own? I don't use Linux because I can configure the kernel, I use it inspight of the fact that I must do so.
+   	    
+        Linux is often misleading (Score:5, Interesting)         
+by Trepidity (597) <<delirium-slashdot> <at> <rufus.d2g.com>>     on Sunday September 08, @01:41PM (#4216618)     
+(telnet://127.0.0.1/)    	   
+    I know what hardware I have in my computer. But Linux often either labels it strangely, or labels it completely wrongly because of its bizarre way of operating. For example, I have not a single piece of SCSI hardware in my system. Yet for my IDE CD burner to work, I have to load the ide-scsi module, because apparently CD burning in Linux has only been implemented for SCSI burners, so the only way to get IDE burners to work is to emulate them as SCSI burners. Not intuitive.
+
+Not to mention the millions of chipset names. In Windows, you choose the name of your card, and it figures out the chipset (that's in the worst case; usually it just auto-detects it in the first place). In Linux, you have to figure out who made the chipset on your card, which often isn't labeled on the box or in the manual, so requires some guessing or googling. An easy-to-find example is the emu10k1 for Soundblaster Live cards (this is actually documented by Creative); a harder-to-find example is the tulip driver for LinkSys network cards (most of the $10 LinkSys cards don't come with a manual, and the box doesn't mention what chipset they use). And so on for ever.
+
+The Debian way of solving this is by default to build almost everything in the kernel as a module. That way if you discover you need some functionality, you don't have to recompile the kernel; just load the required module. It makes kernel compiling take a bit longer (~20 mins on my Athlon 1.33 GHz), but it's worth it IMHO for never having to recompile it again (until the next kernel upgrade anyway).    	   
+        Re:Linux is often misleading (Score:2, Informative)         
+by vadim_t (324782)     on Sunday September 08, @02:08PM (#4216706)     
+(http://sheelab.homecreatures.com/)    	   
+    Nope, it makes perfect sense. Most CD drives and burners use ATAPI.
+From the google glossary at labs.google.com:
+
+Advanced Technology Packet Interface: a specification that defines device side characteristics for an IDE connected peripheral, such as CD-ROM or tape drives. ATAPI is essentially an adaptation of the SCSI command set to the IDE interface.
+
+ide-scsi is not really SCSI emulation. It is just SCSI over IDE. And Windows works the same, it just doesn't tell you about it.    	   
+        Re:Linux is often misleading (Score:2)         
+by Trepidity (597) <<delirium-slashdot> <at> <rufus.d2g.com>>     on Sunday September 08, @03:16PM (#4216995)     
+(telnet://127.0.0.1/)    	   
+    And Windows works the same, it just doesn't tell you about it.
+
+Well that's the point -- it figures out how to get it working, and does so. It'd be nice if Linux did something like that. To get my cd burner working in Linux, I had to read through the relevant HOWTO, and do the following (my cd-r drive is on /dev/hdc):
+
+unload the ide-cd module
+reload the ide-cd module with "ignore=hdc"
+load the ide-scsi module
+change the /dev/cdrom symlink to point to /dev/scd0 instead of /dev/hdc
+
+Not too difficult once you figure out what to do (especially if you use modconf on Debian so your modules and module parameters automatically get saved for the next boot), but not exactly newbie-friendly either.    	   
+        Re:Linux is often misleading (Score:1)         
+by danalien (545655)     on Sunday September 08, @03:42PM (#4217082)     
+(http://slashdot.org/)    	   
+    
+Why not just put (add) "hdc=ide-scsi" to your Lilo (in the approprite place, ofcource).
+and do the symlink:thinge?    	   
+        Re:Linux is often misleading (Score:2)         
+by Trepidity (597) <<delirium-slashdot> <at> <rufus.d2g.com>>     on Sunday September 08, @03:52PM (#4217127)     
+(telnet://127.0.0.1/)    	   
+    I suppose that'd work too. The reason I did it the way I did is that's how the HOWTO I read recommended. That and Debian has a nice modconf utility for setting up modules and their parameters, while for lilo I'd have to figure out how to edit it properly myself.    	   
+        Re:Linux is often misleading (Score:2)         
+by kasperd (592156) <vxktjfuimviy.skrammel@yaboo@dk>     on Sunday September 08, @05:31PM (#4217542)     
+(http://kasperd.kasperd.kasperd.lir.dk/)    	   
+    it figures out how to get it working, and does so. 
+
+You say it like it is some kind of magic. There is no magic to this, somebody has to figure out how the hardware is working. If you don't want to figure that out by yourself, you shouldn't compile your own kernels. All distributions comes with precompiled kernels, and you can usually also download precompiled updates.
+ 
+BTW I found almost everything I needed to know about CD recording in the CD-Writing-HOWTO.    	   
+        but they don't work automatically (Score:2)         
+by Trepidity (597) <<delirium-slashdot> <at> <rufus.d2g.com>>     on Sunday September 08, @08:15PM (#4218129)     
+(telnet://127.0.0.1/)    	   
+    At least with Debian, the precompiled kernel doesn't automatically have CD burning properly set up. You have to load the required modules and pass them the proper arguments, as I described in my previous post (and yes, I got the requisite steps from the CD-Writing-HOWTO). In Windows, it detects the hardware and sets it up for you.    	   
+        Re:but they don't work automatically (Score:2)         
+by kasperd (592156) <vxktjfuimviy.skrammel@yaboo@dk>     on Monday September 09, @09:40AM (#4220589)     
+(http://kasperd.kasperd.kasperd.lir.dk/)    	   
+    In that case, you are on the wrong thread. This discussion is about the kernel configuration utility. This is not a utility any newbie should ever touch. The people at Debian, Mandrake, Redhat, and all the others could be going to use this utility to configure the kernel for their distributions. But this is in no way related to the hardware detection and setup you are talking about.
+ 
+The installation and configuration utilities you are talking about are developed mostly by the individual distributors, and is a completely different issue.
+ 
+If a newbie want to compile his own kernel, he should use the .config file that came with his distribution and then just use "make oldconfig". A graphical version of oldconfig, that provides help about the options and sane defaults, is the best we can do to help newbies that insist on compiling their own kernels.
+ 
+Except from this the newbies should only use the kernel configuration utility if they know exactly what option they need to change.    	   
+        Re:Linux is often misleading (Score:1)         
+by 3Ddgg (603629)     on Sunday September 08, @10:06PM (#4218451)        	   
+    Whether or not it is essentially scsi over anything, it is atapi and having to use scsi names for ide hardware is quaint. Now (in_.jp) almost all CD-R(W), DVD-R(W) DVD+R(W) is either atapi, usb2 or firewire. Wether or not it 'really' is scsi, perception is reality and the box says its atapi and it works as a cd-rom using ide-atapi drivers, but EVERYONE has to go searching through the documentation to find out that Linux has this quaint approach to burners. 
+
+Why not just say THESE ARE ATAPI DRIVERS FOR YOUR ATAPI BURNER and if everyone should know that it's really just scsi over ide, tell them that it requires scsi and explain why in a note somewhere, but make the ATAPI drivers as ATAPI drivers instead of creating this headache. The use of CD and DVD media is an area where Linux is a LONG way behind in terms of usability and this is NOT just an issue with codec use in the USA. Could the virtual_/dev system coming up fix this. 
+
+1.../dev/cdrom
+2.../dev/cd-r and a disk cache
+3.../dev/cd-rw
+
+ABC
+
+anyway back to how after why. If someone could make a better configure tool to know all of these things and do a check for compatibility requirements before saving, like a package management tool and give you a chance to go back and check that one box you missed, without having to make, install and boot your kernel only to discover that you missed something somewhere (maybe).
+
+The heirarchical package selection system in a single window used by package managers might groan a little, but if it could allow you to look at a single screen and say I want drivers for CD burners (atapi or USB? :-) and USB HIDs and core linux, legacy , network and/or CD/DVD file systems and whatever else, then allow those who want/need to, to go in and look for their cards, devices, file systems, character sets, whatever.    	   
+        Re:Linux is oft.. ..Package manager (Score:1)         
+by 3Ddgg (603629)     on Sunday September 08, @10:23PM (#4218495)        	   
+    I've finally got to the site, and seen something like what I was talking about, and it's not scripted so it could be quite fast, don't you think? WOW
+
+Sorry :-)    	   
+        devfs already does this (was:Linux is often mis..) (Score:2)         
+by fizbin (2046) <martin@NoSpaM.snowplow.org>     on Monday September 09, @08:25AM (#4220126)     
+(http://www.snowplow.org/martin/)    	   
+    Whether I have the ide-scsi module installed or just the ide-cd module, my CDs are accessible at /dev/cdroms/cdrom0
+and /dev/cdroms/cdrom1
+
+Which drive is which does indeed switch depending on the order in which I choose to load the modules, but anyone who's installed a removable disk driver on windows will tell you that all the disks there jump around too. (e.g.: my wife installed the driver for a compactflash reader on her windows 98 machine, and the CD rom was moved from D: to E: to make room for the compactflash device. Later, we had to re-install it and D: and E: swapped places again)
+
+Anyone saying that linux requires you to use the scsi names hasn't tried devfs lately.    	   
+        Re:devfs already does this. (Score:1)         
+by 3Ddgg (603629)     on Tuesday September 10, @04:34AM (#4226470)        	   
+    Yeah I've installed windows systems before and its really not up to scratch. Cheers, I'll check out devfs.
+
+however the issues with the kernel config and cd burners still seems to apply    	   
+        Re:Linux is often misleading (Score:1, Funny)         
+by dyslexia (96008)     on Sunday September 08, @02:47PM (#4216850)     
+(http://www.johnsonville.com/)    	   
+    Unless they've changed, linksys puts a readme on the floppy that tells you to use the tulip driver.
+
+RTFM I guess...    	   
+        Re:Linux is often misleading (Score:2)         
+by captaineo (87164)     on Sunday September 08, @08:16PM (#4218134)     
+(http://www.dcine.com/)    	   
+    I would actually place the blame for this on hardware makers, for making it so difficult to find out exactly what chipset is driving their product.
+
+e.g. I was given a spare Asante ethernet card recently, and neither the vendor's site nor an extensive Google search could tell me what chipset it used. In desparation I peeled off the "Asante" sticker on the big chip in the middle of the board, and guess what, beneath the chip said "PNIC" on it. If the vendor had cared to mention its card was PNIC-based, I would not have had to waste so much time...
+
+Network card makers seem to be the worst about this, followed by sound card companies. At least with video cards the chipset is usually part of the product name. (e.g. Super Whizbang Turbo Alpha Killer Mega GeForce 2)    	   
+        Re:Linux is often misleading (Score:1)         
+by Tomble (579119)     on Sunday September 08, @10:24PM (#4218501)     
+(Last Journal: Sunday December 07, @09:09PM)    	   
+    
+Not to mention the millions of chipset names.[SNIP]In Linux, you have to figure out who made the chipset on your card, which often isn't labeled on the box or in the manual, so requires some guessing or googling. 
+Hmm, since I started using Linux, my own approach to this has been, to firstly get a very clear idea of what devices and chipsets Linux currently supports, and then go look for those exact devices or devices that I can see have those chipsets.
+
+The only problem arises that my Hauppauge WinTV card (supported by the bttv module), conflicts with my c-media sound card (supported by cmpci module) and apparently some other aspect of my system, to cause my machine to lock solidly if I try to use the TV card. -Note that I say there is some other aspect to it, because every other sound card I've tried with it (there have been a few) has made the TV card screw up in one stupid way or another. I've tried emailing the BTTV developer for *any* advice, or any experience of such lock-ups, etc, but he never replied.
+
+So what can I do? Well, basically I can either never use my TV card until I'm able to buy parts for a second (well, fourth...) system just to do TV capture, or I can keep trying various settings to see if I can ever make it stop hanging, whilst my FS gets slowly corrupted.. Mmm, fun.
+
+Anyway, regarding your point again, my approach doesn't really cut it for most people, especially the most everyday computer users. The situation isn't the fault of Linux or of Linux programmers, though, it's down to the manufacturers- they supply disks of drivers for windows, which AFAIK mostly consist of the chipset manufacturer's drivers, plus data to tell windows that this product is to be using those drivers, or something along those lines. Those that produce stuff that also works with Linux could fairly easily indicate so on the packaging, and some of them actually do, but most don't, because they wouldn't be able to supply some pretty installer program that would cover up the details like they could for Windows.
+
+Oh, actually, perhaps they could. Oh I don't care, it just sucks either way.    	   
+        Re:Linux is often misleading (Score:1)         
+by hazyshadeofwinter (529262) <artoNO@SPAMtelusplanet.net>     on Monday September 09, @12:00AM (#4218755)     
+(http://www3.telus.net/~arto)    	   
+    Interesting. Of all the hardware I own (which isn't much compared to most on this board) only two cards actually have manufacturer Linux support: my generic 56k hardware modem, for which the support is limited to a sticker on the box saying "Supports Linux, Windows 95/98/Me, Windows NT/2000,. yadda yadda yadda" and my D-Link ethernet card, which actually came with the driver source on floppy and a README saying (in effect) "gcc rtl8139.c && insmod 8139." I generally use the HOWTOs as first information source when installing new hardware, then if it doesn't work hit Google, and more or less expect the manufacturer's resources to be useless... Not exactly "Aunt Tillie" friendly, is it? But I expect the situation would be different if Linux was on 95% of desktops.
+   	    
+        Re:Linux is often misleading (Score:2)         
+by Xpilot (117961) <nurhussein AT yahoo DOT com>     on Monday September 09, @12:54AM (#4218945)     
+(http://slashdot.org/)    	   
+    
+Not to mention the millions of chipset names. In Windows, you choose the name of your card, and it figures out the chipset (that's in the worst case; usually it just auto-detects it in the first place)
+
+Unless autodetect fails, and you don't know the name of the card (if you bought a pre-assembled computer), you still have to open it up and see the chipset.
+
+In Linux, you have to figure out who made the chipset on your card, which often isn't labeled on the box or in the manual, so requires some guessing or googling
+
+The chipset is usually labelled on the chip. Duh.
+
+Personally I like the Linux way. The chipset is what drives the hardware, no matter who manufactured the card itself. And you have to remember, it's rare to find hardware vendors that distribute drivers for Linux.    	   
+        Re:Linux is often misleading (Score:2)         
+by zerocool^ (112121)     on Monday September 09, @01:25AM (#4219019)     
+(http://www.fredrock.org/)    	   
+    Come on. Do you expect windows 95 to know what that soundblaster live is? Then get a current linux distro. Red Hat 7.3 autodetects all that stuff. And the tulip driver? That and the 8139 are the most common drivers i've seen. The 8139 works for almost everything the tulip doesn't. And both are included with almost all linux distro's today.
+
+If you're still living with XF86Config, you need to upgrade versions. Some great things have been going on. links -source http://go-gnome.org |bash - linux is doing a lot of stuff on it's own, and some of them have good GUI control panels now.
+
+We're getting there
+
+Re:Linux is often misleading (Score:2)         
+by Trepidity (597) <<delirium-slashdot> <at> <rufus.d2g.com>>     on Monday September 09, @01:44AM (#4219065)     
+(telnet://127.0.0.1/)    	   
+    Well Debian's current version isn't exactly ancient (I'm talking about the current version if you apt-get unstable, not the currently released stable version, which is 6-12 months behind due to rigorous testing).
+
+But in any case, getting the tulip driver to work wasn't a problem. But a newbie installing Linux has likely never heard of a tulip driver, and is unlikely to leap to the conclusion that his LinkSys network card needs it. Auto-detecting it would be nice, or at least having the install say "you probably need either the tulip or the 8139".
+
+As for X, i tried the new "XFree86 -configure" method, but it hung my computer (couldn't switch virtual consoles even; had to ssh in to kill it). So I ended up manually configuring with xf86config. The new config might be nice if it works, but I haven't had a chance to see it in action...    	   
+        Re:Linux is often misleading (Score:2)         
+by crush (19364)     on Monday September 09, @11:03AM (#4221166)        	   
+    
+
+In Linux, you have to figure out who made the chipset on your card, which often isn't labeled on the box or in the manual, so requires some guessing or googling. An easy-to-find example is the emu10k1 for Soundblaster Live cards (this is actually documented by Creative); 
+
+That's a terrible example:
+ 
+/sbin/lspci -vv | grep audio
+00:0b.0 Multimedia audio controller: Creative Labs SB Live! EMU10k1 (rev 05) 
+That does it very easily and nicely. How much does it take to figure that out? If you're not capable of that then one of the recent releases of Red Hat, SuSE or Mandrake will autoconfigure it for you. I've had that particular card set up automatically with NO intervention on my part by the last two releases of Red Hat.
+
+What you argue may be true for very arcane hardware or may have been true 6 months ago, but it's hard to support that position now.
+
+The Linux problem in a nutshell. (Score:3, Insightful)         
+by NetRanger (5584)     on Sunday September 08, @10:46AM (#4215906)     
+(http://slashdot.org/)    	   
+    There is too much resistence to change in the Linux community. The problem is a simple one: in the minds of Elitists, easier is not better, it's "lamer", "suckier", or "for wussies". Thus, when someone comes up with the brilliant idea that the average person should be able to actually use the system, they're booed off. Yet these boo-ers are the same people who bash the mass market for using Microsoft or Apple's OS X. OS X is astoundingly good... a simple, intuitive, appealing interface on top of loads of raw power. That's what Linux needs.
+
+Right now, when you install pretty much anybody's distro, you start up with an interface that has tons and tons of menus, icons, widgets, and whatnot, already up and running. It's an overload, and instead of trying to learn it, newbies are balking at it.
+
+So why not have an easy-to-use kernel configuration system? Why not have an independent object model, where any distribution or window manager can use each other's dialog pages?
+
+The only answer we seem to get is: "because it's for wussies!"    	
+   
+        Re:The Linux problem in a nutshell. (Score:1, Insightful)         
+by Anonymous Coward     on Sunday September 08, @10:59AM (#4215968)        	   
+    The resistance to change is in all the wrong places. Kernel configuration really needs to be changed. Compare the effect of inserting an "autorun.inf" driver CD and "make xconfig" on a normal user. Yet Linux does change rapidly. The network system changes with every x in 2.x and drivers for 2.4.x don't work anymore in 2.4.x+y. Linux is hard to maintain as a single user machine if you expect all the bells and whistles of a modern system.    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by mark_lybarger (199098)     on Sunday September 08, @07:13PM (#4217946)        	   
+    "make xconfig" on a normal user
+
+most normal users never need to venture into the make menu config. you're stepping into the aunt millie terrortory here. most modern distributions include all drivers for all hardware (at the time if distribution) as a kernel module. if your specific hardware isn't supported by a current distribution, chances are you can compile just the driver needed (or obtain a compiled driver). hell, most sysadmins don't go around building their own kernel. they use the one that comes on the cd, and worry about their other work. kernel building is really more of a geek thing than anything else. trying to scrape that extra 5-10% performance improvement.    	   
+        Maybe other nuts ... (Score:3, Informative)         
+by A nonymous Coward (7548)     on Sunday September 08, @11:03AM (#4215985)        	   
+    I believe ESR got booe doff for two reasons. One, the new config required Python. Two, he wanted to change everything at once in ne huge patch, rather than bits and pieces which are easier to understand, back out and correct, and so on.
+   	    
+        Re:Maybe other nuts ... (Score:2)         
+by Ed Avis (5917) <ed@membled.com>     on Sunday September 08, @11:48AM (#4216213)     
+(http://membled.com/)    	   
+    Can someone explain the objection to using Python for the configuration system? Surely the kernel developers don't believe that C is the be-all-and-end-all of languages. If it's quicker and more maintainable to write in a high-level language then why not just do the job - and use the time you saved compared to writing in C for other things? It's not as if Python is something wacky or proprietary or a resource hog.    	   
+        Re:Maybe other nuts ... (Score:1, Informative)         
+by Anonymous Coward     on Sunday September 08, @12:03PM (#4216265)        	   
+    For people such as myself, it would mean that we now have to install Python on our systems - nothing major, just annoying. I'm not thinking that using C would be the best option either, but it makes sense in that the kernel is written in C, those who develop the kernel are familiar with C, so C should probably be used for a utility that configures the kernel.    	   
+        Re:Maybe other nuts ... (Score:2)         
+by WNight (23683)     on Sunday September 08, @01:56PM (#4216664)     
+(http://slashdot.org/)    	   
+    I think the main resistance to using other languages in the kernel-building process is that you have to have them installed. Neither Perl nor Python produces a stand-alone runtime.
+
+One of the goals is to make the same code compile on any platform with only a makefile difference. If you require fairly heavy-weight runtimes you limit the platforms you can run things on.
+   	    
+        Re:Maybe other nuts ... (Score:2)         
+by joto (134244)     on Sunday September 08, @03:26PM (#4217036)        	   
+    Yes Python can do that. And that was one of the reasons Eric chose it. But it would of course be huge, slow, and basically contain a Python interpreter. Perl can also do that, but I think it actually needs to link with libperl, so it would be a little bit more silly...    	   
+        Re:Maybe other nuts ... (Score:2)         
+by WNight (23683)     on Monday September 09, @12:47AM (#4218921)     
+(http://slashdot.org/)    	   
+    Yeah, I knew about encapsulating. I meant, runtimes of a reasonable size as you said.
+   	    
+        Re:Maybe other nuts ... (Score:2)         
+by joto (134244)     on Sunday September 08, @03:23PM (#4217027)        	   
+    First reason false. Second reason true. Third reason: it was complex, and nobody understood it...    	   
+        Re:Maybe other nuts ... (Score:2)         
+by kcbrown (7426) <slashdot@sysexperts.com>     on Sunday September 08, @08:09PM (#4218107)        	   
+    
+I believe ESR got booed off for two reasons. One, the new config required Python. 
+
+Yeah ... we all know the kernel config process doesn't at any time rely on any language other than C. For instance, we know that doing a "make xconfig" won't invoke Tcl/Tk, right? Oh, wait... 
+
+Including a configuration option isn't a problem provided that it isn't the only configuration option. Right now there are at least three ways of configuring the kernel ("config", "menuconfig", and "xconfig"). As long as the simplest method remains as a fallback, it should be okay to include another config method, even if it depends on Python.    	   
+        Re:Maybe other nuts ... (Score:1)         
+by CreamsicleSeventeen (133857)     on Monday September 09, @06:49AM (#4219730)        	   
+    "make xconfig" depends on Tcl/Tk, but if you don't want or can't get Tcl/Tk on your system you can still "make menuconfig" on the console or an xterm. You can even "make config" if you don't have ncurses. Keeping the required development environment to a minimum is a laudible goal.    	   
+        Take a good look at CML2 before you are so sure. (Score:5, Insightful)         
+by Bruce Perens (3872) <bruce@@@perens...com>     on Sunday September 08, @11:11AM (#4216026)     
+(http://perens.com/ | Last Journal: Sunday July 27, @06:55PM)    	   
+    You might change your mind if you examine the project in question. See this comment [slashdot.org].
+
+Bruce    	   
+        Bruce, you are a GOD! (Score:1)         
+by schlach (228441)     on Sunday September 08, @02:03PM (#4216690)     
+(Last Journal: Thursday November 06, @12:51PM)    	   
+    See this comment [slashdot.org].
+
+Even your comments that merely tell people to read your other comments are modded up...    	   
+        Re:Bruce, you are a GOD! (Score:1)         
+by Bruce Perens (3872) <bruce@@@perens...com>     on Sunday September 08, @09:21PM (#4218335)     
+(http://perens.com/ | Last Journal: Sunday July 27, @06:55PM)    	   
+    All I can do is try to use my notoriety for good :-)    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by lpontiac (173839)     on Sunday September 08, @11:12AM (#4216029)     
+(http://www.sullust.net/)    	   
+    
+Yet these boo-ers are the same people who bash the mass market for using Microsoft or Apple's OS X. 
+
+Actually, I'm pretty sure the boo-ers are different people, and there's the problem that Linux has - lots of different people trying to take it in different directions.
+
+Right now, kernel hackers tend to care more about the techie market, and the server market is where the money is, so that's the direction that things are really moving in.
+
+Apple? Kernel conf? (Score:1)         
+by Anonymous Bullard (62082)     on Sunday September 08, @11:22AM (#4216080)     
+(http://www.freetibet.org/)    	   
+    There just might be a reason why Apple has it much easier in the "easy-to-use kernel configuration system" department...
+
+All things considered, even the current Linux method works amazingly well. Not everything gets included in the official kernel releases, for various reasons, but users (incl. distro builders) are free (as in speech&beer) to add any features they feel will add value to their case.
+
+Sometimes it's in the best long-term interests not include the first available stab at a new feature.
+
+Personally, I have no reason not to trust Linus & Co's judgement in these matters.
+
+Or was your rant targeted more at the object model and UI issues instead of the ability to configure kernels?    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by krogoth (134320) <[ten.tendnarag] [ta] [todhsals]>     on Sunday September 08, @11:40AM (#4216176)     
+(http://www.garandnet.net/)    	   
+    No. I think everyone agrees that easier is better, but not everything is as easy as it wants to be. If a program can automatically configure a kernel for me that supports all the hardware and features I need, that's good, but I don't see much difference between a graphical menu and a text-based version of the same menu.    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by krogoth (134320) <[ten.tendnarag] [ta] [todhsals]>     on Sunday September 08, @11:42AM (#4216183)     
+(http://www.garandnet.net/)    	   
+    Why not have an independent object model, where any distribution or window manager can use each other's dialog pages?
+
+Why not stop war, hunger, poverty? It's a great idea, who wouldn't want it? Maybe it's just a little harder than writing a few words?    	   
+        Improvements in this new system? (Score:1)         
+by Thoron (19565)     on Sunday September 08, @11:49AM (#4216217)     
+(http://iki.fi/thoron/ | Last Journal: Saturday September 28, @04:22PM)    	   
+    What does this new system offer that "make xconfig" does not already have? 
+
+* Those screenshot shows me a system that it's even harder to use than the current one. 
+* Why do you have re-invent whell always? 
+* Current configuration system is under change on 2.5.x series, anyway and already.    	   
+        Re:The Linux problem in a nutshell. (Score:5, Insightful)         
+by Wdomburg (141264)     on Sunday September 08, @11:54AM (#4216230)        	   
+    >Thus, when someone comes up with the brilliant 
+>idea that the average person should be able to 
+>actually use the system, they're booed off. Yet 
+>these boo-ers are the same people who bash the 
+>mass market for using Microsoft or Apple's OS X. 
+
+Let's see.. When I started running Linux way back when I had to manually partition my hard drive, manually configure X (including plugging in video timings for my monitor), manually configure sound (including plugging in I/O addresses and IRQs), had to edit a config file in vi to add icons to my windowmanager (Afterstep Classic), had no real GUI filemanager, took 4 hours to figure out how to get my printer working properly, etc, etc.
+
+Now, I can stick in a CD, have it autopartition, detect all my hardware, configure X, and has a full desktop environment with a GUI filemanager, where I can simply drag an icon to the panel. I can hot plug USB and PCMCIA devices to my heart's content. I can add new hardware, and it will detect and configure it on boot. I can sit back and let my machine take care of keeping itself up to date with all the latest security patches.
+
+I must have missed an AWFUL lot of booing somewhere. 
+
+>Right now, when you install pretty much anybody's 
+>distro, 
+
+Except for Lindows, Lycoris, Libranet, OEOne, Xandros...
+
+Come the release of Red Hat 8.0, you can probably add that to the list, given the focus they've put into creating a rational, consistent desktop in the betas.
+
+>you start up with an interface that has tons and >tons of menus, icons, widgets, and whatnot, 
+>already up and running. It's an overload, and 
+>instead of trying to learn it, newbies are 
+>balking at it.
+
+Taken a look at Gnome lately? From an end user perspective, all of the changes in Gnome 2.0 are aimed at usability, accessibility, simplification, and consistency. To paraphrase Havoc, they're removing the "crack rock" features, and "proving one good way of doing things instead of six broken ones".
+
+>So why not have an easy-to-use kernel 
+>configuration system? 
+
+Noone has objected to the concept, only to the implementation. At different points there were issues with the rulesets in CML2 differing from CML1 in ways that the developers didn't agree with. The frontends used a different UI. It globally loaded rules for all architectures.
+
+It has long been Linus' policy not to accept patches which introduce more than one fundamental change. The proper course would have been to make CML2 a drop in replacement for CML1, with no changes to the rulesets, and with front ends that completely emulated the old ones. Then, and only then, discussions on rationalizing the rulesets and providing enhanced interfaces would be appropriate.
+
+Did it solve the problem it set out to solve - i.e. providing a more flexible syntax and a single parsesr? Sure, but it bundled too many other changes, and when you come down to it, it was replacing a system known to work with an unknown one.
+
+On a side note, the whole topic is moot. Does Windows provide you with an easy to use kernel configuration tool? Does MacOS? No, because the end user should NEVER have to configure a kernel.
+
+>Why not have an independent object model, where 
+>any distribution or window manager can use each 
+>other's dialog pages?
+
+Umm... what on earth is that supposed to mean?
+
+Matt    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by ceejayoz (567949) <cj@NosPAM.ceejayoz.com>     on Sunday September 08, @12:42PM (#4216408)     
+(http://www.ceejayoz.com/ | Last Journal: Saturday December 06, @02:41PM)    	   
+    Come the release of Red Hat 8.0, you can probably add that to the list, given the focus they've put into creating a rational, consistent desktop in the betas.
+
+And getting screamed at by the KDE team for it...    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by Wdomburg (141264)     on Sunday September 08, @01:00PM (#4216467)        	   
+    >And getting screamed at by the KDE team for it...
+
+What do you expect? If a Red Hat employee farted during a KDE presentation at LinuxTag, I wouldn't be suprised if there was speculation on the mailing the next day that it's part of the grand Red Hat conspiricy to sabotage KDE.
+
+Matt    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by be-fan (61476)     on Sunday September 08, @03:43PM (#4217088)        	   
+    That's because Redhat removed identification information from the "About" boxes of KDE applications. You can't blame the KDE guys for getting pissesd that they make this nice software, and the project doesn't get recognized for it. Sure its allowable by the GPL, but it isn't polite by any means. And there was no reason to do it. What did they think, that mentioning the KDE project could confuse users? ("But I thought I was running Redhat!") Come on. Take a look at common Windows apps like Yahoo messenger and AIM. They've got branding information all over them. Does it confuse users? I doubt it. People aren't that stupid.    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by Wdomburg (141264)     on Sunday September 08, @07:09PM (#4217928)        	   
+    >That's because Redhat removed identification 
+>information from the "About" boxes of KDE 
+>applications.
+
+No, they removed the "About KDE" boxes from KDE applications.
+
+>You can't blame the KDE guys for getting pissesd 
+>that they make this nice software, and the >project doesn't get recognized for it.
+
+The "About" box that IS left in still lists what version of KDE the program is built on, so yes, they do get recognized for it. They just don't get credited TWICE.
+
+>And there was no reason to do it.
+
+I personally think it's unnecessarily redundant, and potentially confusing for new users. Should they put in an About box for every single library they link against? I for one would rather not go to the Help menu and find About, About KDE, About QT, About libxml2, etc, etc.
+
+>Does it confuse users? I doubt it. People aren't 
+>that stupid.
+
+You haven't done desktop support much, have you?    	   
+        Re:The Linux problem in a nutshell. (Score:1)         
+by stor (146442)     on Monday September 09, @07:25AM (#4219845)        	   
+    >You haven't done desktop support much, have you?
+
+Haha!
+*ring* *ring*
+"Good afternoon RedHat support, Stor Speaking, how may I help you?"
+"Hello! I'm having a problem with the cd player"
+"OK sure, what version of RedHat are you running there?"
+"KDE"
+"Ahh you have KDE, OK. That's the Desktop Environment. What version of RedHat are you running there?"
+"KDE"
+"OK."
+
+Cheers
+Stor    	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by ceejayoz (567949) <cj@NosPAM.ceejayoz.com>     on Monday September 09, @09:51AM (#4220677)     
+(http://www.ceejayoz.com/ | Last Journal: Saturday December 06, @02:41PM)    	   
+    Next...
+
+"Alright, please take the computer back to where you bought it and tell them it's defective. Tell them it's an ID10T error, they'll know what to do."    	   
+        Four Hours? (Score:1)         
+by cortense (75925) <tagith1394.hotmail@com>     on Sunday September 08, @06:27PM (#4217752)     
+(http://slashdot.org/)    	   
+    It took you 4 hours to get your printer working? 
+
+I've spent 4 years, and mine still doesn't work!    	   
+        Re:The Linux problem in a nutshell. (Score:5, Insightful)         
+by slamb (119285) <slashdot@slamb.org>     on Sunday September 08, @11:56AM (#4216240)     
+(http://www.slamb.org/)    	   
+    There is too much resistence to change in the Linux community. The problem is a simple one: in the minds of Elitists, easier is not better, it's "lamer", "suckier", or "for wussies". 
+
+First, as other posters have said, there were valid reasons ESR's system was rejected. They weren't because it was for wussies. 
+
+Second, configuring a kernel will never be easy. You have to make a lot of decisions that require technical knowledge. Whether you do that in a text-based interface or a fancy graphical one doesn't matter very much. That doesn't mean a fancy graphical interface shouldn't be made, but it shouldn't be made for the reason of making it easier for mom to use Linux. 
+
+The correct solution to make hardware configuration usable for the masses is not to make building a kernel easier but to make building a kernel unnecessary. The system has become more modular over time.[1] Hardware has become friendlier to autodetection. Distributions like RedHat come with a single kernel that will work for just about anyone. When you start up with new hardware, kudzu will recognize it, ask you about it, and load the appropriate driver. 
+
+[1] and is still becoming more modular. 2.5 was supposed to completely remove the idea of compiled-in versions of stuff that is modular. I believe this got canned due to time constraints; look for it in 2.7 maybe.    	   
+        Re:The Linux problem in a nutshell. (Score:1)         
+by dd301 (141836)     on Sunday September 08, @01:35PM (#4216588)        	   
+    
+
+Second, configuring a kernel will never be easy. You have to make a lot of decisions that require technical knowledge. Whether you do that in a text-based interface or a fancy graphical one doesn't matter very much. That doesn't mean a fancy graphical interface shouldn't be made, but it shouldn't be made for the reason of making it easier for mom to use Linux. 
+
+As someone said, the idea is to make it as easy as possible, but no easier. Currently, a lot of time is wasted with trivial stuff. Of course, you will have to think a lot about the network and filesystem options. However, there are lot of options that should be selected by default too.
+
+The correct solution to make hardware configuration usable for the masses is not to make building a kernel easier but to make building a kernel unnecessary. The system has become more modular over time. 
+
+It is almost as important to lower the barrier of entry for kernel hacking, which is very important for Linux's vitality. And speaking of that, I haven't been able to get a decent patch since they implemented bitkeeper for the kernel. What's up with that?
+
+Re:The Linux problem in a nutshell. (Score:2)         
+by slamb (119285) <slashdot@slamb.org>     on Sunday September 08, @02:51PM (#4216873)     
+(http://www.slamb.org/)    	   
+    As someone said, the idea is to make it as easy as possible, but no easier. Currently, a lot of time is wasted with trivial stuff. Of course, you will have to think a lot about the network and filesystem options. However, there are lot of options that should be selected by default too. 
+
+Okay, requiring less time, not less skill, seems like a reasonable goal. But also a completely different one than you gave in your first post. 
+
+Again, average users don't need to recompile the kernel. Concessions to their lack of technical expertise would be ineffective and unnecessary. 
+
+It is almost as important to lower the barrier of entry for kernel hacking, which is very important for Linux's vitality. And speaking of that, I haven't been able to get a decent patch since they implemented bitkeeper for the kernel. What's up with that? 
+
+That wouldn't lower the barrier of entry for kernel hacking. Programming the kernel is hard and becoming more so as the system becomes more complex (with more granular locking, etc). The difficulty of running menuconfig is nothing compared to dealing with those issues. 
+
+Second, I'm happy with kernel hackers being an elite group. That's totally different than Linux users being an elite group, which I don't feel is true and am glad for. If kernel hackers were not an elite group, I believe code quality would suffer. 
+
+And speaking of that, I haven't been able to get a decent patch since they implemented bitkeeper for the kernel. What's up with that? 
+
+Don't know. You'd have to give more specifics...    	   
+        Re:The Linux problem in a nutshell. (Score:1)         
+by Flarelocke (321028)     on Sunday September 08, @07:03PM (#4217910)        	   
+    There are dozens of excellent programmers who use Linux, but don't hack the kernel. Lowering the barrier in general will allow them to work on the kernel if they feel like it, without lowering the quality of work on the kernel.
+
+Not to mention that, even if 1000 crappy programmers submitted crappy patches to the respective maintainers, they simply wouldn't get the patches included. We don't need to make it difficult for them just so we don't have to write 2 or 3 more replies("Rejected. Code quality sucks." is all that's required) every day.    	   
+        Re:The Linux problem in a nutshell. (Score:1)         
+by dd301 (141836)     on Sunday September 08, @08:18PM (#4218135)        	   
+    
+
+Again, average users don't need to recompile the kernel. Concessions to their lack of technical expertise would be ineffective and unnecessary. 
+
+How do you know technical expertise is what is needed?
+
+That wouldn't lower the barrier of entry for kernel hacking. Programming the kernel is hard and becoming more so as the system becomes more complex (with more granular locking, etc). The difficulty of running menuconfig is nothing compared to dealing with those issues. 
+
+Kernel hacking is intellectually stimulating and there is no point in putting off people with things like these which could be classified as grunt work at best. 
+
+Second, I'm happy with kernel hackers being an elite group. That's totally different than Linux users being an elite group, which I don't feel is true and am glad for. If kernel hackers were not an elite group, I believe code quality would suffer. 
+
+Fortunately, there is some sort of hierarchy that has been setup to handle just this. Most people don't submit patches to Linus directly. There is no need to eliteness. You can always start working up from the mailroom.
+
+Don't know. You'd have to give more specifics... 
+
+I was talking about the patch files. I can only see the full tarball nowadays.
+
+lftp ftp.us.kernel.org/pub/linux/kernel/v2.4 (Score:1)         
+by CreamsicleSeventeen (133857)     on Monday September 09, @07:32AM (#4219866)        	   
+    ls | grep patch
+ ...
+patch-2.4.19.bz2
+patch-2.4.19.bz2.sign
+patch-2.4.19.gz
+patch-2.4.19.gz.sign
+ ...
+   	    
+        Re:lftp ftp.us.kernel.org/pub/linux/kernel/v2.4 (Score:1)         
+by dd301 (141836)     on Monday September 09, @08:58AM (#4220301)        	   
+    Must be my local mirror then. Thanks for the info.    	   
+        modular. (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @02:10PM (#4216711)        	   
+    I would have thought making everything modular would have saved time, testing, debugging and waiting for the time when linux is modular enough that hardware vendors will actually write drivers.    	   
+        linux kernel vs. linux as an operation system (Score:1)         
+by dollargonzo (519030)     on Sunday September 08, @12:35PM (#4216381)     
+(http://slashdot.org/)    	   
+    there is a big difference between the kernel and the desktop application of the kernel underneath it. i think that change in the kernel should come slowly, after every element has been thought and rethought of. if the kernel breaks, so will the systems built on it. if there is any doubt, PLEASE don't change the underlying structure. it is the same with murder cases.
+
+i do agree that sometimes, the resistance to change in the kernel transfers over to the other elements of the system, but you should bring up that point NOT to kernel developers but the others. the average user should not be compiling kernels every day. those who do it should know what is going on. abstraction is good, but autodetection on the kernel level is NOT good, for example, because this should happen when u install the distribution, NOT the underlying system.
+  
+   	   
+        Re:The Linux problem in a nutshell. (Score:2)         
+by bfields (66644)     on Sunday September 08, @12:43PM (#4216409)     
+(http://www.umich.edu/~bfields)    	   
+    
+The only answer we seem to get is: "because it's for wussies!"
+ 
+
+Do you have any evidence for this statement? All these discussions (including the discussion over whether or not to include Raymond's configuration system in the kernel) have taken place on public, searchable forums, so if your claim is true then you should be able to produce tons of evidence. (Here's a start. [google.com])
+
+My memory of the discussion on lkml was that people had a lot of different problems with CML2, which might or might not have been showstoppers. But I don't remember anyone saying "no, this would make kernel configuration too easy for novices, and we don't want that."
+
+If you accept the premise that "Open Source" development is a magic process for the effortless production of arbitrary amounts of excellent code, or if you assume that it is obvious how to create good user interfaces, then I suppose the only reasonable explanation for a lack of user-friendliness is a conspiracy on the part of developers. Absent those premises, you're free to adopt a more reasonable explanation: writing easy-to-use software is much, much harder than it appears, developers have limited resources, and we just haven't gotten a lot of things right yet.
+
+--Bruce F.
+
+Re:The Linux problem in a nutshell. (Score:1)         
+by aje (554249) <aj@pricom.MONETdk minus painter>     on Sunday September 08, @01:23PM (#4216536)     
+(http://anders.linux.dk/)    	   
+    You're absolutely right about this - let's say - "OSS paradox". There's a great need for simplicity and unity in the GUI-corner of the complex GNU/Linux-world. KDE and Gnome are two very nice user environments right now, but if GNU/Linux is supposed to attract - for instance - my dad or mother, the system must be built upon a more monolithic structure and philosophy of development. - But that's the diametrical opposite of the original Linux-/OSS-model (the bazaar), which attracts us. Those who're really into computers and dig the shell and compiler all day. :) That's also why Linux is never going to rule the desktop. If Mac OS X got ported to i386, they really could attract a lot of users. But then again, Microsoft would stop porting their programs to the OS. As I see it right now, Mac OS is the only really alternative for average users when looking at OS'es for the desktop. As long as I may dig my Blackbox, I don't care about the rest. :)    	   
+        Re:The Linux problem in a nutshell. (Score:4, Insightful)         
+by isdnip (49656)     on Sunday September 08, @03:22PM (#4217025)        	   
+    Good comment. Easy is perceived as bad. Yes, some easy things (Microsoft Bob) are really bad, and some difficult things are good, but Linux, like Unix in general (sorry to generalize but it's a cultural inheritance), suffers from an "old boys' club" mentality in which earned knowledge of arcana is viewed as an entry point. Sort of like morse code has been to ham radio -- there aren't rational reasons to require it any more (though some of us actually like to use it, sportingly), but removing the requirement brings out all sorts of anger from old timers who had to learn it.
+
+Where it currently bugs me the most: Gentoo looks like a swell distro. Installing from source ends dependency hell and optimizes performance; I can buy it. But the setup is dreadful, basically more Linux From Scratch than anything else. The topic of an installer came up on Gentoo Forums. The "consensus" of the Gentoo user base is that "Gentoo is a hard distribution, and so the installation should be hard too." What rot! Once installed, no distribution should be gratuitously hard to live with. And while Gentoo lacks some of the GUI tools of say Mandrake or Red Hat, it's basically a clean system that shouldn't be that hard to manage. But the install procedure basically consists of printing out a lengthy set of instructions and doing a lot of hand edits of files, step by step, and hoping your system is enough like the developers' to work right.
+
+Personally I don't find the current kernel config (make xconfig) to be that hard, just a little nerve-racking where some new options show up that I don't understand. Which is what Bruce set out to fix. We can quibble about implementation details but his heart's in the right place. Linux won't prosper so long as it lives with the old boys' mentality. If I want to join the Freemasons, I will.    	   
+        Re:The Linux problem in a nutshell. (Score:1)         
+by PzyCrow (560903) <john@FORTRANmilsson.nu minus language>     on Monday September 09, @01:31AM (#4219035)        	   
+    The "consensus" of the Gentoo user base is that "Gentoo is a hard distribution, and so the installation should be hard too." What rot!
+
+Gentoo, as you say, wants the users to learn the ins an outs of a GNU/Linux system. Nothing, however, is stopping you from implementing a Gentoo based distribution with ease of use and usability in mind. After you have coded the install GUI, you could start setting the default KDE and GNOME setups and make an emerge-wrapper for packages to add correct menuitems.    		   
+        /.'d (Score:1, Offtopic)         
+by Suppafly (179830) <suppafly AT livejournal DOT com>     on Sunday September 08, @10:47AM (#4215912)     
+(http://suppafly.livejournal.com/)    	   
+    14 total comments on a sunday morning and the site with the pictures is /.'d already.. that can't be a good sign of things to come.. 
+
+At least its a good endeavor.    	
+
+Roman's system is realy great... (Score:3, Interesting)         
+by frankske (570605) <slashdot AT frankbruno DOT be>     on Sunday September 08, @10:48AM (#4215919)     
+(http://www.openminds.be/)    	   
+    It's a shame that Linus doesn't want to change, becuase Roman's system is realy great: faster, easier, and at the moment it still leaves the old system as default...    	
+
+unix people and security (Score:1, Informative)         
+by Anonymous Coward     on Sunday September 08, @10:50AM (#4215931)        	   
+    http://kerneltrap.org/includes/database.inc
+http://kerneltrap.org/includes/database.mysql.inc
+
+There are probably more...
+
+For gods sake put stuff like that outside the web root if you can't set apache up properly.    	
+   
+        Eh? No security issue I can see. (Score:2)         
+by brunes69 (86786) <t126r AT unb DOT ca>     on Sunday September 08, @11:09AM (#4216018)     
+(http://www.keirstead.org/)    	   
+    After looking at these two pages I see nothing that could be classified as a security compromise. No passwords, no ports, no UID's, nothing. They are just files with some functions in them. Sure it maybe neater if they had named them .php so visitors couldn't view them, but its not a security issue.    	   
+        Re:Eh? No security issue I can see. (Score:2)         
+by codepunk (167897)     on Sunday September 08, @12:21PM (#4216331)     
+(http://www.codepunk.com/)    	   
+    And you are a complete and utter moron. A simple http post containing a delete statement passed as the variable $query will torch the site.
+  
+Go home script kiddie!
+  
+   	   
+        Re:Eh? No security issue I can see. (Score:2)         
+by brunes69 (86786) <t126r AT unb DOT ca>     on Sunday September 08, @02:02PM (#4216684)     
+(http://www.keirstead.org/)    	   
+    
+
+Er... only if the site admin did not use the default PHP settings and turn register_globals on in their PHP.ini, which no one in their right mind ever does. Next time know what youa re talking about before you start spouting off like an idiot.
+
+Re:Eh? No security issue I can see. (Score:1)         
+by 3Ddgg (603629)     on Sunday September 08, @11:26PM (#4218644)        	   
+    Is that in a gui config tool somewhere? :-)    	   
+        Re:unix people and security (Score:2)         
+by ceejayoz (567949) <cj@NosPAM.ceejayoz.com>     on Sunday September 08, @11:10AM (#4216024)     
+(http://www.ceejayoz.com/ | Last Journal: Saturday December 06, @02:41PM)    	   
+    Well, it doesn't have the password/usernames in there, so it's not as bad as it seems... but you're right, it's a bad idea to leave it out in the open.    		   
+        Why Change? (Score:4, Insightful)         
+by PoiBoy (525770) <brian.poiholdings@com>     on Sunday September 08, @10:57AM (#4215959)     
+(http://slashdot.org/)    	   
+    Seriously, what's wrong with typing "make menuconfig" now? To me at least, an ncurses-based menu system is just as easy to use as a GUI (yuk). 
+
+Moreover, it's not like complete newbies are going to be doing kernel compiles. For anyone with enough experience to recompile the kernel, an ncurses-based system is adequate IMHO.    	
+   
+        Re:Why Change? (Score:1)         
+by PigleT (28894)     on Sunday September 08, @11:02AM (#4215983)     
+(http://spodzone.org.uk/)    	   
+    I think it might be more a case of dependencies - "if you're going to have ACPI, you need..." and so on. This was something Eric's system sort of touched on, mostly - regrouping things in a slightly more sensible way is fine by me.    	   
+        Why not? (Score:3, Insightful)         
+by brunes69 (86786) <t126r AT unb DOT ca>     on Sunday September 08, @11:03AM (#4215989)     
+(http://www.keirstead.org/)    	   
+    Its not like they are saying "Lets ditch menuconfig and replace it with this!". For you and whoever else there is still make menuconfig. But I for one would welcome a better GUI than make xconfig, which I find pretty honkey. Since when are more options bad? It's not like they are forcing you into switching.    	   
+        Re:Why not? (Score:1)         
+by gimpboy (34912) <harroldNO@SPAMsage.che.pitt.edu>     on Sunday September 08, @12:20PM (#4216326)     
+(http://sage.che.pitt.edu/~harrold/dbpack)    	   
+    as a honkey i take offense :).
+
+i must say that when i saw the screen shots it was a little disappointed. perhaps the way it works is a little different, but i dont see the changing the buttons into a tree as being that significant. now if there were a menu that said: click here for x and it either selects alot of crap for your, or prompts you with a list of questions to customize your hardware that would be neet.
+
+say you click on "enable scsi support", then it asks you: which type of adapter do you have? buslogic, adaptec, etc. then it says do you have scsi cd rom drives? yes/no, etc. 
+
+that would be nifty. romans tool might do this, if so then that would be dandy. i just dont think a treelike interface is really that big of a deal. 
+
+i agree with you that more options are better though.    	   
+        Re:Why Change? (Score:1, Redundant)         
+by Psiren (6145)     on Sunday September 08, @11:05AM (#4216002)        	   
+    Seriously, what's wrong with typing "make menuconfig" now? To me at least, an ncurses-based menu system is just as easy to use as a GUI (yuk).
+
+Seriously, what's wrong with typing "make xconfig" now? To me at least, a GUI menu system is just as easy to use as an ncurses-based one (yuk).
+
+Some people prefer a GUI. Live with it.    	   
+        Re:Why Change? (Score:2)         
+by Psiren (6145)     on Sunday September 08, @12:19PM (#4216321)        	   
+    Congratualtions. Thats the largest pile of bullshit I've read in a long while. The GUI isn't being forced on anyone. If you want to sit at a console all day, go ahead. No one's stopping you. The GUI is an option. The point I was making to the previous poster was that just becuase he doesn't want/use/like it, doesn't mean that everyone else feels the same. It's all about choice, the whole reason Linux exists in the first place. Linux will never become GUI only configuration, by virtue of the fact that many of the systems it runs on are incapable of using said GUI.    	   
+        Re:Why Change? (Score:1, Redundant)         
+by garcia (6573)     on Sunday September 08, @11:12AM (#4216031)     
+(http://www.lazylightning.org/)    	   
+    how is this method going to stop you from typing make menuconfig?
+
+Prior to the ncurses method there was make config, I am sure that no one particularly cared for make menuconfig (I use it but I hate it). If the newbie wants to use a GUI based configuration for kernel compiles that is NOT going to disable menuconfig.
+
+Get real.    	   
+        Re:Why Change? (Score:1)         
+by gimpboy (34912) <harroldNO@SPAMsage.che.pitt.edu>     on Sunday September 08, @04:19PM (#4217251)     
+(http://sage.che.pitt.edu/~harrold/dbpack)    	   
+    I also like GUIs because they allow you to multi task while most text menu and a command lines do not.
+
+really? so if i have 5 xterms up each running a text only taks am i not multitasking? or if i'm sitting in the console and type the following:
+
+$cd ~/
+$grep -ir sometring * > /tmp/somefile&
+$pine
+
+am i not multitasking?
+
+really though it's easy to multitask using only text commands. plus if you're admining a computer half way across the world, you might not want to wait for the pull down menu to be drawn on the screen.
+
+i'm not trying to be an eliteist or any of that stuff, but to say you cannot multitask using text programs is a very odd thing to say.    		   
+        Compiling kernels? (Score:1)         
+by koali (175176)     on Sunday September 08, @10:58AM (#4215965)        	   
+    
+
+Hey, anyway, compiling kernels is rarely needed. Your distro's kernel should come with *everything* that can be compiled as a module, and sane defaults for everything else. 
+
+I don't really recall that many things that require a kernel compile (although I do compile my own, of course :).
+
+Deja's log. (Score:1)         
+by Buck2 (50253)     on Sunday September 08, @11:05AM (#4216003)        	   
+    Roman's announcement to kernel list of the tool's availability is here [google.com].
+
+The beginning of discussion WRT his tool is here [google.com].
+
+Roman's suggestion is a bit more stripped down than Eric's. Eric has written an entire "configuration language" that is a tad unfinished ATM and wants to use it as a new version of the kernel configurator. Due to the fact that "make menuconfig" and "make xconfig" work pretty damn well and other problems like "What will the defaults be for each architecture?" Eric's language cml2 met some stiff resistance. 
+
+Roman is going for a more moderate change.    	
+
+Linux Kernel developers are schoolyard bullies (Score:3, Interesting)         
+by Kiwi (5214)     on Sunday September 08, @11:08AM (#4216017)     
+(http://www.samiam.org/ | Last Journal: Sunday April 20, @10:36PM)    	   
+    Linux kernel developers often times act like schoolyard bullies. 
+
+This is a pretty strong statement, and needs to be qualified. The Linux kernel developers are a very talented group of programmers that have written some impressive code which is helping stop the Microsoft machine control all of computing. 
+
+These programmers are doing professional-quality work, oftentimes on a completely volunteer basis. 
+
+We have lost a lot of good code which the kernel could have used because of some of the bullying that the kernel developers have engaged in. The lost of Eric's excellent CML2 is the most highlighted case, but we also lost a lot of improvments to the ugly IDE subsystem [lwn.net]. The IDE developer finally had enough [alaska.edu] of the schoolyard bullying games; and so Linux lost another developer. 
+
+I wonder how long Linus Torvalds will allow his "inside circle" to continue to mock and belittle attempts to improve the kernel code. If these actions continue, the kernel code will languish and become more unstable. Is Linus even considering adding next generation pthreads [ibm.com] to the kernel? I really want to see the Linux kernel become a real competitor to Solaris and AIX in the enterprise, so I hope that Linus fires some of the more nasty bullies from kernel development (I don't care how good Viro's code is; he comes off as being one of the bigger flamers) so that new ideas are truly welcome in to the kernel again. 
+
+- Sam    	
+   
+        Re:Linux Kernel developers are schoolyard bullies (Score:2, Insightful)         
+by oconnorcjo (242077)     on Sunday September 08, @02:18PM (#4216735)     
+(http://naenary.com/ | Last Journal: Tuesday February 11, @03:58PM)    	   
+    Linux kernel developers often times act like schoolyard bullies. 
+
+... The lost of Eric's excellent CML2 is the most highlighted case, but we also lost a lot of improvements to the ugly IDE subsystem [lwn.net]. The IDE developer finally had enough [alaska.edu] of the schoolyard bullying games; and so Linux lost another developer. 
+
+The people you call Â“schoolyard bulliesÂ” are the people who have done the most to make the kernel the great piece of code that it is. Linus is an amazing manager of code and people . What Linus did in both cases (CML2/ESR and IDE/Dalecki) was actually good management. Marcin said he had enough because people kept complaining that the IDE code was unstable but Linus supported him for as long as he produced good and promising code. When Marcin gave up, Linus went back to what was stable. Nobody else really knew how Marcin Dalecki's new code worked and it still had bugs so Linus made the smartest move: go back to crufty but stable and known code that works. Linus (and Linux) can not afford to have core maintainer's who are not tough with "thick hides" and "stiff backbones" who sometimes look like "bully's" because if a maintainer gives up on a project, that part of the kernel may "bit rot", and truly become unusable. Linus plays the game of "survival of the fittest" in both code and developers. If you can't take the heat, get out of the kitchen. When Marcin closed up shop, Linus did not ask "please someone take this promising code I put in of Marcin's and make it work right" or say Â“Marcin please donÂ’t go!Â”. Instead he said "fine" and went back to what worked. If someone wants to take over MarcinÂ’s work and make it work right, Linus might put it back in but Linus is not looking for ideals or promising code; he is looking for results. The case of ESR is different but similar. ESR made a lot of changes (that not everybody was happy with) with a lot of promise but he had had enough and gave up as well. Now there is someone else at the mantle of configuration (writing far less controversial code) and hopefully STRONG enough to take the heat. Linus knows that no one person or piece of code is vital to the whole. If something really needs to be fixed, he knows that someone will come along and eventually do it but he has no patience for what Â“should or could or wantÂ” in kernel development. The Â“schoolyard bulliesÂ” work hard to weed out the best code from contributors and send them on to Linus and despite people like you Â“giving them a hard timeÂ”, they have proven that they are tough enough to take it and keep on producing while ESR and Marcin Dalecki proved they werenÂ’t. Thank goodness Linus has no tolerance for weak code or people.    	   
+        Re:Linux Kernel developers are schoolyard bullies (Score:4, Insightful)         
+by Mark Bainter (2222)     on Sunday September 08, @02:26PM (#4216761)     
+(http://www.firinn.org/)    	   
+    Are you people actually READING anything about these topics or just spouting off based on a few summaries you read somewhere? There are several messages like this here and I have to wonder how you have developed the leg strength to be able to jump to these kinds of conclusions. 
+
+True, some of the developers can be caustic, but I don't think it's unreasonable for people to be adults about things. If you can't handle criticism you should go develop for a nursery school or something. The kernel developers are not babysitters. They don't have time to hold your hand, and encourage you, and give you applause and little paper prizes every time you do something right. 
+
+There were many good and valid objections to ESR's system. Not all of them were, but many were. The largest objection (iirc) was to his attitude. Particularly when it looked like things weren't going to go his way. 
+
+The IDE system issues were even more complex. Marcin was working hard to clean it up, but his changes often reached into other areas, and had consequences outside of the ide area. Some of the changes broke functionality some people depended on. Obviously, these people were upset. More than that, his changes made running 2.5 on an ide system risky. That, I think, was what got him the most negative feedback. Especially when he wrote it off as the cost of improvments. 
+
+A broken ide subsystem made it difficult for many developers to work on and test the 2.5 kernel. Which, in turn, delayed improvements to other subsystems and completion of other projects. 
+
+Was this Marcin's fault? Probably not. In general they probably would've been better off setting up a "new" ide tree like they're doing now before. Regardless, eventually he had enough. It's very sad that all of his hard work has now had to be removed from the kernel. It is a shame that it's going to go to waste. However, I don't think you can say the problem was just a bunch of schoolyard bullies knocking a newcomer. That was not the case at all. 
+
+In other areas we have things like the new kbuild that was written by Keith Owens. This is a really nice system, it still hasn't gone in. (Amazingly, it was left out of this post, though I'd count it as far more likely to get in than CML2.) The only real contention here is that keith wants a flag-day change, and linus wants it in pieces. It'll (hopefully) eventually all get in, as it is being chopped up and added in in pieces, though how it'll ever make it completely this way without something akin to a FDC is beyond me. (Doesn't mean it's not possible, I just don't see how). 
+
+All of these things are real issues that are brought up. Nobody is rejecting patches or ideas because they come from an unknown. Nobody is rejecting ideas because they don't like the way the person looks/smells/types their sig or any other superficial reasons. 
+
+The only objections I've seen have been related to the code/idea at hand. This is perfectly valid, and it's how we avoid crap getting into the kernel because of some namby pamby desire to avoid offending people. 
+
+This is the big bad world. It's full of adults. Some ideas are bad. Some code is bad. Everyone makes mistakes, and not everyone is nice. There's no naptime, and there's no milk and cookies. 
+
+Suck it up and cope.    	   
+        Re:Linux Kernel developers are schoolyard bullies (Score:1)         
+by GlassHeart (579618)     on Monday September 09, @04:19PM (#4223356)     
+(Last Journal: Friday February 21, @08:57PM)    	   
+    True, some of the developers can be caustic, but I don't think it's unreasonable for people to be adults about things. If you can't handle criticism you should go develop for a nursery school or something.
+ ...
+Suck it up and cope. 
+
+Adulthood is great. Is the "nursery school" quip an example of adulthood? 
+
+The point is, adults behave in a certain way, and one of those ways is politely. In fact, your point is well taken (that people need to learn to handle criticism) except for the insults (nursery school, milk, cookies). Is there a way to rephrase so that your actual, functional point is better delivered? Yes. 
+
+Was this Marcin's fault? Probably not. In general they probably would've been better off setting up a "new" ide tree like they're doing now before. 
+
+So if it's not his fault, and there was a viable organizational solution for him to continue developing IDE without getting in other people's way, what broke down? Was it avoidable? Will it happen again? 
+
+Not having time to be polite is a laughable excuse for people who have the spare time to write an operating system kernel.    	   
+        Re:Linux Kernel developers are schoolyard bullies (Score:2)         
+by Mark Bainter (2222)     on Monday September 09, @11:21PM (#4225633)     
+(http://www.firinn.org/)    	   
+    So if it's not his fault, and there was a viable organizational solution for him to continue developing IDE without getting in other people's way, what broke down? Was it avoidable? Will it happen again? 
+
+I don't know that I could tell you what broke down, or even if it was avoidable. IMO, I think they just weren't thinking in terms of migrating to a totally new system. I think it took Marcin's demonstrating how bad the existing ide layer was by breaking it so severely trying to fix it to bring people to think that we needed a new tree for ide. Will it happen again? I would have to say yes. Some things we can't see until we've gone down the road a bit. More than that, we're all human. Everyone makes mistakes. 
+
+Not having time to be polite is a laughable excuse for people who have the spare time to write an operating system kernel. 
+
+I never said they weren't polite. Nor did I say they didn't have time to be polite. What I said was that they didn't have time to rewrite their email a hundred times trying to find the best way to say something that won't offend everyone. 
+
+Are you always courteous and polite with everyone you know? Your friends and confidants? Your cow-orkers? To some extent yes, but I would guess you don't feel like you have to go out of your way to avoid offending them. 
+
+I think it's the same for developers. If you are here, then it's because you are ready to participate. If you can't stand the heat get out of hte kitchen. Can't run with the big dogs stay on the porch. (Add your infinate cliche's here) 
+
+And, in regards to the last part of your statement, it is precisely BECAUSE they are spending all their free time writing an os that they don't have time for all the politically correct nuances of "safe" conversation. 
+
+I'm not saying things never get out of hand. I'm not saying there are never flames, or that nobody weighs in with an ad hominem attack. But it certainly isn't the norm for the group, as it would seem to be from some of the posts in this forum.    	   
+        Re:Linux Kernel developers are schoolyard bullies (Score:2)         
+by hacker (14635)     on Sunday September 08, @02:57PM (#4216897)        	   
+    
+The Linux kernel developers are a very talented group of programmers that have written some impressive code which is helping stop the Microsoft machine control all of computing. 
+
+It's funny you should say that, because that's completely unrelated to the reason Linux was designed for in the first place... 
+
+Linux was designed to replace the non-free Unix on the larger, expensive machines at the Universities. It was basically Free Unix for PCs. It just so happens that people have extended it in the meantime to be used to replace things like the Microsoft desktop, but Linux is definately not competing for the Microsoft space, or the desktop... Microsoft, on the other hand, is competing for OUR space.    	   
+        Re:Linux Kernel developers are schoolyard bullies (Score:2)         
+by ianezz (31449)     on Sunday September 08, @03:55PM (#4217133)     
+(http://www.linuxtrent.it)    	   
+    Is Linus even considering adding next generation pthreads to the kernel? 
+
+Regardless of your points being valid or not, this specific example/question is wrong, since support for NGPT has been in the kernel since 2.5.8 (mantained by Linus), as you can read on the NGPT devel mailing list [ibm.com] (see the bits about 2.5.x). 
+
+About 2.4.x: the official mantainer is not Linus, but Marcelo Tosatti, and he has the precise mandate to keep 2.4.x stable, so I doubt he will include the support for NGPT (but I could be wrong, of course).    	   
+        I would not say such things if I were you (Score:2)         
+by iskander (9699)     on Sunday September 08, @05:03PM (#4217454)        	   
+    
+"[Al Viro] comes off as being one of the bigger flamers"
+ 
+
+I do not think that word [geocities.com] means what you think it means.
+
+OTOH, if I'm wrong, someone would need to update the Linux Gay Conspiracy [fazigu.org] to reflect this finding.
+
+Re:Linux Kernel developers are schoolyard bullies (Score:1)         
+by PzyCrow (560903) <john@FORTRANmilsson.nu minus language>     on Monday September 09, @01:42AM (#4219061)        	   
+    Linus, LKML (http://kt.zork.net/kernel-traffic/kt20020826_181. html#16), in response of a ba joke from Marc-Christian Petersen.
+
+"Actually, you apparently can't.
+
+I'm dreaming of an IDE maintainer that people (including, very much, me) can work with. I don't know why, but IDE has pretty much since day one been a fairly problematic area, and has caused a lot more maintainer headache than the rest of the kernel put together..
+
+There's been one fairly smooth IDE transition (the original transition from hd.c to ide.c), and calling even that "smooth" is pretty much all hindsight - at the time people thought it was horribly stupid to not allow big controversial changes to hd.c, and the resulting code duplication was considered a disaster.
+
+Right now it looks like Alan is at least for the moment willing to work on the IDE code, which is obviously great. I just wonder how long he'll stand it (he's maintained various IDE buglists etc issues for years, so we can hope)."    	   
+        Marcin "Schoolyard Bully" Flames with the best (Score:2)         
+by Leeji (521631) <slashdotNO@SPAMleeholmes.com>     on Monday September 09, @03:59AM (#4219359)     
+(http://www.leeholmes.com/)    	   
+    
+
+The IDE developer finally had enough [alaska.edu] of the schoolyard bullying games; and so Linux lost another developer. 
+
+Well, Marcin Dalecki is exactly the flaming bully you speak of, so it was probably for the better. If you dig higher into that thread, he clearly provoked that argument [alaska.edu]. Or perhaps you'd rather this splendid intellectual flame Linus? [linuxcare.com] 
+
+Anyways, you're right about Linux losing a lot of good developers. Unfortunately, though, they are rarely silent bystanders of the flame wars.
+
+Re:Linux Kernel developers are schoolyard bullies (Score:1)         
+by CreamsicleSeventeen (133857)     on Monday September 09, @08:15AM (#4220065)        	   
+    ...I don't care how good Viro's code is; he comes off as being one of the bigger flamers... 
+
+1)
+When I read the condensed thread I found Viro to be the most constructive participant in the debate. His posts were the only ones that didn't get personal and he pointed a way out of the morass for all involved.
+
+2)
+Viro's sexuality is the concern of Viro and his partner(s) -- not you and me.    		   
+        MIRROR (Score:1)         
+by majestynine (605494)     on Sunday September 08, @11:13AM (#4216038)        	   
+    A mirror in case of slashdotting:
+
+We are currently experiencing technical difficulties. Sorry for the inconvencience.    	
+
+Flexible enough for more than linux kernel? (Score:3, Insightful)         
+by wfmcwalter (124904)     on Sunday September 08, @11:14AM (#4216044)     
+(http://www.mcwalter.org/)    	   
+    (well, the site is still /.ed, so I'm winging it here...) 
+
+Hopefully the tool(s) in question are flexible enough that they can be adapted/generalised for other systems (i.e. other than the linux kernel). 
+
+Configuring complex systems (openoffice, mozilla, KDE, Gnome, etc.) that have to run on numerous platforms and can contain optional elements that can depend on other optional elements (or be mutually exclusive with them) is always a challenge. It would be a big saving if one tool(set) could be applied to lots of these large projects. This is a lot like autoconf replacing weird project-specific configurators. 
+
+Equally (and perhaps complicating the above goal) the tool in question really needs to be powererful enough in a particular instanciation that it's "complete" - i.e that one doesn't need to manually fix stuff up (in the config output file) to get some of the more advanced options. Windriver's VxWorks, for example, has a cool little kernel-image configuration program - but this always seems to lack GUI access to the one component I need - so one gets used to the raw config file, and the power of the GUI tool is lost. 
+
+Re:Flexible enough for more than linux kernel? (Score:1)         
+by 3Ddgg (603629)     on Sunday September 08, @11:50PM (#4218725)        	   
+    Maybe in the future, when we are installing packages (from source with our new wizzbang processors) When we select a package we can open up a configuration tree and decide what we want in each piece of software. The list of conflicts would be impressive to see (unless we also improve intuitiveness of options) but X would still need it's own special configuration. (and Mozilla)    		   
+        Priceless (Score:1)         
+by cioxx (456323)     on Sunday September 08, @11:17AM (#4216056)     
+(http://www.ubergeek.tv/switchlinux)    	   
+    Linux Kernet Configuration Website - $20/mo 
+PHP Nuke w/MySQL - Free
+Getting Slashdotted for greater good - Free
+
+Putting up a temporary page full of simple errors in front of millions of nerds 
+<img src="/themes/kerneltrap/images/logo.jpg>
+We are currently experiencing technical difficulties. Sorry for the inconvencience.[sic] 
+PRICELESS    	
+
+slashdotted... (Score:2)         
+by Xpilot (117961) <nurhussein AT yahoo DOT com>     on Sunday September 08, @11:18AM (#4216060)     
+(http://slashdot.org/)    	   
+    If you go to the main site, it just says it's "experiencing technical difficulties". The webmaster says that he picked "a wrong day to experiment". Wonder if it's because he's updating his web page or because of the server overload.    	
+
+Already Slashdotted... (Score:2)         
+by ONU CS Geek (323473) <ima_cableguy@@@yahoo...com>     on Sunday September 08, @11:31AM (#4216123)     
+(http://www.dysfunctional-household.org/)    	   
+    Go to the site, and ya get:
+ 
+Warning: Too many connections in /prod/www/virtual/kerneltrap.com/www/htdocs/includ es/database.mysql.inc on line 7 
+Too many connections
+ 
+   	
+
+A better configurator? (Score:1)         
+by KewLinux (217218)     on Sunday September 08, @11:42AM (#4216188)        	   
+    But why?
+What's wrong with
+ 
+$ yes "" | make config    	
+
+Seems like more of the Same to me (Score:1)         
+by PbHead (99044)     on Sunday September 08, @11:49AM (#4216219)     
+(http://tqy3.ath.cx/)    	   
+    Configurators like this are always called new, but they are just more of the same. Did everybody miss the Kernel Configurator in KDE3? Go dig in your Control Panel a little more. At least the KDE configurator is mouse clickable, and has decent (Not the Greatest) descriptions. I would like to see few as possible configurators come with the Linux Kernel by default. I say keep the custom configurators as optional add-ons and the like. As for me, make menuconfig.    	
+
+A great start. (Score:3, Insightful)         
+by FreeLinux (555387)     on Sunday September 08, @11:56AM (#4216239)        	   
+    After finally being able to get the page, I think that it is a great start and a tremendous improvement over Xconfig.
+
+That said, I think he still needs to go further. Most users don't have a clue what all the options are or mean. Even with the descriptions and recommendations they will quickly become overwelmed.
+
+I feel that users should be presented with a very basic and lean initial configuration screen. One that lists generic features for them to enable and disable. For example a single check box for IDE and SCSI HD support or a single checkbox to enable HAM radio support with generic or "standard" options preselected for those devices. Then there should be an advanced button that brings them to the complete configuration options, such as Roman's example.
+
+This, combined with some form of modprobe hardware detection, would make kernel configuration a breeze, even for MCSEs. Also, the fact that this configurator reads the existing config, rather than starting with a blank slate everytime, is great!!    	
+
+OMG It tells me what each option does!!! (Score:1)         
+by io333 (574963)     on Sunday September 08, @12:07PM (#4216279)        	   
+    It tells me what each option does in a little help screen below.
+
+It runs on the desktop.
+
+It tells me what each option does in a little help screen below!!!!!
+
+It tells me what each option does!!!
+
+It tells me what each option does.
+
+I want this so bad. I can't wait until there's a Gentoo [gentoo.org] ebuild!!!!!
+
+Yea!!! Hooray!!!!!! Yea!!!!
+
+Yes I am stupid and don't know what every option does. I don't care, I want it I want it I want it. Because: IT TELLS ME WHAT EACH OPTION DOES!!!!!!!!!
+
+What part of "It tells me what each option does!!!" do you not understand?    	
+   
+        Re:OMG It tells me what each option does!!! (Score:1)         
+by cioxx (456323)     on Sunday September 08, @12:12PM (#4216291)     
+(http://www.ubergeek.tv/switchlinux)    	   
+    Yes, I noticed that in the screenshots. The infobox is an incredible feature. 
+
+So this was the poor guy who got booed off the stage? WOW.    	   
+        Re:OMG It tells me what each option does!!! (Score:1)         
+by damiam (409504) <mathlete@bel[ ]uth.net ['lso' in gap]>     on Sunday September 08, @03:12PM (#4216978)     
+(http://gnaughty.sourceforge.net/)    	   
+    It's not the guy who got booed off the stage. And the infobox is nothing more than a slightly more accessible version of the "Help" button that's already next to every item in 'make xconfig'.    	   
+        Wanna see something cool? (Score:3, Insightful)         
+by 13Echo (209846)     on Sunday September 08, @01:48PM (#4216640)     
+(http://slashdot.org/ | Last Journal: Wednesday November 06, @09:42AM)    	   
+    
+"It tells me what each option does."
+ 
+
+KDE 3 does this via it's configurator with the current kernel/module system.
+
+Here's a screenshot. [rr.com]
+
+Really, I see no problem with the current system. It works well, and is totally modular. You never really even have to recompile your standard, vanilla kernel.
+
+But hey. This new system should be given a chance, I suppose, though I see no use for it personally. I would prefer that it wasn't forced upon me in 2.5.    		   
+        anybody for ./configure && make && (Score:1)         
+by richie123 (180501)     on Sunday September 08, @12:22PM (#4216336)     
+(http://slashdot.org/)    	   
+    I would be best if installing a kernel was as simple 
+as installing most Linux software. 
+  
+I would like to see some type of system that detected 
+all the hardware in my system, and built the matching 
+drivers and standard kernel modules for a desktop 
+or server system. 
+  
+The user should need to change as few options as 
+possible.
+   	 
+
+Look at the details, this shows the process (Score:4, Insightful)         
+by AxelTorvalds (544851)     on Sunday September 08, @12:26PM (#4216341)        	   
+    ESR got himself booed off the stage by trying to undermine the process. His solution was technically superior in ways, it didn't do what Linus and others wanted and he was playing politics and games trying to get it in to the kernel. When that was exposed it was done. Technically superior or not, the games undermine everything, it's a very open process and they like peer review and things done in the open. Bottom line, not too many people aren't replacable and any work you do can probably be done by somebody else, they don't need politicians. There were a few times when Linus made it very clear what he wanted changed and ESR simply didn't fix it, it was as if he didn't even hear it; look at the threads in the kernel archive. I don't know what ESR's motivation was but he made it look a little corrupt. 
+
+Further, people are working on the configuartion language but there are bigger problems to be solved, everyone knows it and still the efforts don't fully address them. Like how do you know the configuation options used on the kernel you are running? There is no reason to change just for the sake of change and compilation speed isn't a huge issue, my dual amd compiles kernels so fast I don't care if I cut the speed in half. Plus, when you're hacking you usually work on a module or two and don't rebuild the whole thing. 
+
+The process is good, they don't take crap. The VM system and the IDE system are other prime examples. Al Viro is kind of mean to people but everyone else makes it pretty clear what needs to be done, why things aren't accpeted, even Al has expectations that he makes clear. There are expectations for robustness, it's more important than performance. Hans Reiser has had issues with that, he can't explain the robustness or answers concerns but he can point to benchmarks; clue: they don't give a shit if it's not robust. 
+
+There have been a handful of people who just don't cut it. Believe me, they can be replaced. It sucks, it'll be a dark day when Alan Cox or Dave Miller quit, if they ever do but they also know the rules, they play by them and they have their own forks if they don't agree. If Linus or someone else don't like your code, it doesn't get in, fork and show that they are wrong or make it better. This isn't bullying or anything like that, it's not that they are elitests, they have real expectations that aren't meet some times. Are some people and some parts of the kernel more equal than others? Of course, we're all human. 
+
+I take exception to the suggestion that the kernel team is throwing out great stuff for non technical reasons. They aren't they throw it out because it doesn't do what it is supposed to, people are trying to get it in for non-technical reasons with non-technical means or because it's not robust. It's not easy to write a VM or IDE system, there are a ton of expectations, it's a hard job, there are working solutions already that you have to do better than.    	
+   
+        Re:Look at the details, this shows the process (Score:2)         
+by iabervon (1971)     on Sunday September 08, @03:14PM (#4216984)     
+(http://iabervon.org/~barkalow/ | Last Journal: Saturday May 31, @02:01AM)    	   
+    In particular, a new configuration system has to be able to run on rules that the old configuration system can run on, so that both can be in the kernel until people are satisfied with the new one (ironic that Linus rejected CML2 for largely this reason, but then didn't follow this principal with IDE, where it would have been much easier). In order to replace something that everyone has to use, you have to replace it with something that just works for everybody, including the people writing rules, people who want to keep their old configs, people who want to maintain code for both the new kernels and old kernels, and so forth. The whole "Aunt Tillie" thing really is an issue, because important kernel developers don't want to spend more thought on configuring the kernel they're building than Aunt Tillie would, and they already have routine ways of doing that.
+
+"Technical superiority" is a subjective thing, and "does it configure the kernel" is not the only factor. At least as important is "is switching to it easier than continuing to use the existing tools".
+
+Incidentally, the problem with the old build system was not that it was too slow to build but that, if you changes a few things and rebuilt, either you did a complete rebuild, which was too slow, or you just rebuilt the module you were working on, which didn't necessarily catch all of the changes. The new versions are moving toward giving you the ability to rebuild only those things which actually need to be rebuilt without making you know what things these are. People frequently report problems where they've forgotten to do the right thing after they've changed something.
+
+Making the current kernel's configuration available isn't actually difficult at all; it's just that userspace generally has the information anyway (most people copy the config file somewhere parallel to the kernel image). The hard thing is configuring a new kernel version to match the effects of the config file for an old kernel version: sometimes the options change, sometimes there are new options required for old things, etc.    	   
+        Eric's motivation for doing CML2 and defying Linus (Score:2)         
+by iskander (9699)     on Sunday September 08, @07:02PM (#4217908)        	   
+    
+There were a few times when Linus made it very clear what he wanted changed and ESR simply didn't fix it, it was as if he didn't even hear it; look at the threads in the kernel archive. I don't know what ESR's motivation was but he made it look a little corrupt.
+ 
+
+I think I may have found the answer in the following excerpt from his World Domination [linuxjournal.com] guest editorial on Linux Journal:
+
+Of course, articles like this are part of that game. We hackers are a playful bunch; we'll hack anything, including language, if it looks like fun (thus our tropism for puns). Deep down, we like confusing people who are stuffier and less mentally agile than we are, especially when they're bosses. There's a little bit of the mad scientist in all hackers, ready to discombobulate the world and flip authority the finger--especially if we can do it with snazzy special effects.
+ 
+
+I can't help wondering whether, in this case, Linus and Jeff are "the bosses"; indeed, stuff like pretty pictures and theorem provers and various other kitchen sinks associated with CML2 qualify (amply) as those "snazzy special effects" of which he is so fond.
+
+Now, love him or hate him, Eric is not going anywhere, even after getting booed off a very important stage. And in light of his, um, staying power and in consideration of the CML2 affair, it should be of some comfort to his detractors that at least Eric the Rich Guy hasn't lost his hackitude and keeps producing worthwhile stuff. When Eric first threatened to quit politics [slashdot.org], I looked forward to the return of Eric the Hacker and the retirement of Eric the Politician [slashdot.org]; alas, half an Eric must, ipso facto, half not be [montypython.net], and I'll take a whole Eric over half an Eric any day, thank you very much.
+
+Re:Look at the details, this shows the process (Score:2)         
+by kcbrown (7426) <slashdot@sysexperts.com>     on Sunday September 08, @07:54PM (#4218054)        	   
+    
+Like how do you know the configuration options used on the kernel you are running? 
+
+This one should be so simple to solve that I don't understand why it's an issue at all, namely: include a copy of the .config file in the kernel image and add a handler so that /proc/kconfig maps to it. On my system, the .config file is 36k in size -- small compared with the size of most running kernels these days. 
+
+Obviously that should be another configuration option, but it would certainly solve most of the problem, if not all of it.    	   
+        Re:Look at the details, this shows the process (Score:1)         
+by CreamsicleSeventeen (133857)     on Monday September 09, @08:47AM (#4220240)        	   
+    Peter T. Breuer wrote a patch that puts your .config options in /proc/config. The tarball is (was?) called proconfig-foo. Check ftp://oboe.it.uc3m.es/pub/Programs/    	   
+        Oh, you mean my CONFIG patch? (Score:2)         
+by Russ Nelson (33911)     on Monday September 09, @12:34PM (#4221800)     
+(http://russnelson.com/)    	   
+    Like how do you know the configuation options used on the kernel you are running?
+
+You just cat /proc/config, and it spits out all the CONFIG_* options that were defined when the kernel was compiled. I sent that patch to Linus years ago.
+-russ    		   
+        ESR's software won't work (Score:1, Funny)         
+by burris (122191)     on Sunday September 08, @12:26PM (#4216344)        	   
+    Many people are suggesting that a primary reason why ESR's work was rejected is because it required Python to build the kernel. Well, I would like to interject that a new build system is still desperately needed. I built a kernel the other day and had to install all sorts of extra crap to do so. Can we please have a configuration system that doesn't depend on outside tools? I do not want to have to install gcc, gmake, libc, etc... just to build a new kernel!
+
+burris
+   	 
+   
+        Re:ESR's software won't work (Score:1)         
+by Figaro (20471) <dougNO@SPAMgeekzero.net>     on Sunday September 08, @01:17PM (#4216512)     
+(http://geekzero.net/)    	   
+    Insightful??
+
+I hope this was a joke. How the heck are you supposed to *build* a new kernel without gcc?!?!    	   
+        Re:ESR's software won't work (Score:1)         
+by hazyshadeofwinter (529262) <artoNO@SPAMtelusplanet.net>     on Monday September 09, @12:16AM (#4218816)     
+(http://www3.telus.net/~arto)    	   
+    > I hope this was a joke. How the heck are you supposed to *build* a new kernel without gcc?!?!
+ 
+
+1.  Learn C. 
+2.  Learn [your-arch-here] assembler. 
+3.  Learn the quirks that (reportedly) make Linux only build on gcc 
+4.  Translate by hand to machine language 
+5.  Whistle resulting 1's and 0's into modem. Be sure to whistle *really* *high* if it's a DSL modem HTH.
+
+How about this.... (Score:2)         
+by Chanc_Gorkon (94133) <jmclaug3@nOsPAM.columbus.rr.com>     on Sunday September 08, @12:38PM (#4216394)        	   
+    Kernel changes that modularize everything that can be (pretty much that way now) and everything loaded on need (it's done that way now too mostly). So why compile your kernel (besides the because you can thing). One thing I would like is to see a standard way for non GPL'd drivers to be added to the kernel without a recompile, or having to half way compile (proprietary core) with a kernel interface needing compiled. It's kind of that way with some, but only if your binary is developed against the same kernel (the LTMODEM drivers used to be and may be still this way). Microsoft does not write all of their drivers. We should not have to either. Seems to me this would sure make alot more hardware work under Linux! I know the GNU bigots won't like it much, but I just want to be able to have more stuff supported out of the box then I do now.    	
+
+Best Quote from the article (Score:2)         
+by UnknownSoldier (67820)     on Sunday September 08, @01:15PM (#4216508)        	   
+    "Shit... don't inflate my stock more than it's worth." - Jeff Garzik
+
+Now if only more [people] were at least this humble...
+   	 
+   
+        Re:Best Quote from the article (Score:2)         
+by Prior Restraint (179698)     on Sunday September 08, @02:30PM (#4216777)     
+(http://slashdot.org/)    	   
+    
+
+Now if only more [people] were at least this humble... 
+
+I didn't see it as humility, but more as a polite way of saying, "Don't bother kissing my ass; it won't work."
+
+why are custom kernels needed? (Score:4, Interesting)         
+by mrm677 (456727)     on Sunday September 08, @01:36PM (#4216590)        	   
+    My question is why custom kernels are needed anyways? Except for embedded applications, such as Tivo, why should the common user have to build a custom kernel to get certain hardware support? Is the Linux device driver model really flawed as many claim? 
+
+Certainly its nice for development, or experimental patches such as low-latency patches. However it often seems necessary to build a kernel to get certain modules or hardware functionality. 
+
+Any comments on the Linux device driver model?
+   	 
+   
+        Re:why are custom kernels needed? (Score:1)         
+by WetCat (558132)     on Sunday September 08, @02:23PM (#4216754)        	   
+    I use custom kernels when I need to incorporate non-mainstream patches , such as http://www.solucorp.qc.ca (vserver) and rsbac(www.rsbac.de).    	   
+        Custom kernels for custom systems. (Score:2, Informative)         
+by FreeLinux (555387)     on Sunday September 08, @02:34PM (#4216790)        	   
+    Custom kernels are necessary because Linux is a monolithic kernel. That means that in order to use certain hardware or other features, the drivers have to reside in the kernel itself.
+
+Now, lets suppose that you just got the latest gee wiz device and you want to use it on your Linux box. You hook your "flux capacitor" up to the firewire port and nothing happens. Why, because either a firewire or a flux capacitor driver (or both) is required and the kernel doesn't have it installed. This means that you must rebuild the kernel with the appropriate driver in order for your new flux capacitor to work.
+
+Now, some may argue that the kernels should be pre-built with all the drivers and everything. Indeed, many distros do something like this for their stock kernels. But that still doesn't account for hardware that is yet to be invented. It also causes the kernel to grow into a giant that gives the term monolithic a whole new meaning. This large size means slow boot times and slower overall performance, in some cases. Surely, you don't want that?
+
+Indeed, many people want to trim the size of their kernel to an absolute minimum to improve the performance of their system, not to mention the security enhancement of removing unneccessary services. Do you really need HAM radio support? Most people don't, so why would most people want the HAM drivers loaded in their kernel? Do you need NTFS file system support, as I do? Probably not, especially with write access, so why include it? But at the same time, why prevent me from using it, as I need to?
+
+Even without the above reasons requiring the custom kernel, there is one more reason in favor of it. Part of the whole idea behind Linux is the ability to modify and customize it to your heart's content. That means if you want to modify your kernel you can. And this project will make such modifications easier than in the past. If you don't want to bother with customizing your kernel, then use the latest stock kernel from a major distribution, which will have mostly everything included. But, if it is slow or your flux capacitor isn't supported, you'll just have to wait and hope that the distro includes the support in its next release.    	   
+        Re:Custom kernels for custom systems. (Score:2)         
+by bhsx (458600)     on Sunday September 08, @03:16PM (#4216997)     
+(http://bhsx.yi.org/)    	   
+    Mostly correct; but the kernel is not necessarily monolithic. It CAN be; but every distribution I've used comes with a modular kernel, with most options compiled as modules which are loaded and unloaded as needed. This is also how most people compile their kernels. It is very possible to compile them monolithically; but then you're guaranteeing that you'll need a recompile with any hardware changes.    	   
+        Re:Custom kernels for custom systems. (Score:2)         
+by Eil (82413)     on Sunday September 08, @10:41PM (#4218544)     
+(http://bityard.net/ | Last Journal: Thursday August 08, @04:18PM)    	   
+    
+Er, the term "monolithic," when used in references to kernels, has nothing to do with loadable modules. Linux *is* a monolithic kernel, period, because all of its code runs at the kernel level.
+
+Contrast with microkernels which only consist of the bare minimum of code needed to manage the OS. Most of the drivers (network, disk, maybe even some memory stuff) live outside of the main kernel and execute in user space, similar to any other process only with slighly elevated priority and access to hardware.
+
+The type of loadable modules implemented in the Linux kernel gives it one of the primary advantages of a microkernel--the ability to load and remove *certain* drivers at run-time--but it doesn't change the fact that it's still monolithic.
+
+(Corrections, clarification appreciated. I'm not a kernel guru.)
+   	    
+        Re:Custom kernels for custom systems. (Score:2)         
+by Nailer (69468)     on Sunday September 08, @05:50PM (#4217606)     
+(http://www.cyber.com.au/)    	   
+    You hook your "flux capacitor" up to the firewire port and nothing happens. Why, because either a firewire or a flux capacitor driver (or both) is required and the kernel doesn't have it installed. This means that you must rebuild the kernel with the appropriate driver in order for your new flux capacitor to work.
+
+No it does not. It means, in this case, you must rebuild a module. Rebuilding an entire kernel for this purcpose is a waste of time and energy. 
+
+But realistically, you'd already have the module available - to follow your own example, user A might not use NTFS support, but having the driver available as a module doesn't harm his own system - the kernel isn't bigger because of it. It also allows user B to mount his Windows disk easily with only a slight overhead from loading the driver as a module rather than having it compile into the kernel. The solution is more modularity.
+   	    
+        Re:why are custom kernels needed? (Score:2)         
+by be-fan (61476)     on Sunday September 08, @03:37PM (#4217065)        	   
+    Its largely not needed anymore. Even from a performance standpoint, its not really an issue because Linux links in drivers as just another .o file. Thus, there is the new Linux driver model in 2.5 (it'll be awhile before everything uses it though) and Linus has stated that he wants to remove compiled-in drivers and make everything dynamic.    	   
+        compiled-in drivers (Score:1)         
+by oliverthered (187439) <oliverthered.hotmail@com>     on Sunday September 08, @05:26PM (#4217523)        	   
+    Well even if all the drivers are modular (a good thing!) your still left with am I a server or am I a workstation options. Descktop kernels require a quick response(10 milliseconds tops) but this may reduce the performance under server type coditions were a few hunderd millisecond responce is good enough.    	   
+        Re:why are custom kernels needed? (Score:2)         
+by Bishop (4500)     on Sunday September 08, @05:29PM (#4217534)        	   
+    As an end user I have had no trouble with Linux device drivers. I suspect that most users with standard machines will have no trouble with device drivers. I use Debian. It compiles many drivers into the kernel directly. It includes the rest as modules. The list of hardware that a default Debian does not run on is pretty small.
+
+I do however use a custom kernel. Not because I have to, but because I want to. In the case of Debian I wish to use devfs which is experimental. I also wish to remove the unneeded drivers, modularize other drivers, and compile the kernel specifically for the target CPU.
+
+If you must recompile your kernel it is the fault of your distrobution not the Linux kernel.
+
+Is the Linux device driver model really flawed as many claim?
+
+I take exception to your statement that "many claim." It makes you look like a troll. If you wrote "some claim" I would accept that. Regardless, I disagree. From a technology perspective Linux device drivers can do anything that "that other OS" kernel can. The big difference is that linux drivers don't usually come precompiled. There is no good reason for this other then history.
+   	    
+        Re:why are custom kernels needed? (Score:2)         
+by mrm677 (456727)     on Sunday September 08, @07:54PM (#4218055)        	   
+    I take exception to your statement that "many claim." It makes you look like a troll. If you wrote "some claim" I would accept that. Regardless, I disagree. From a technology perspective Linux device drivers can do anything that "that other OS" kernel can. The big difference is that linux drivers don't usually come precompiled. There is no good reason for this other then history. 
+
+I guess I hear this too much by being in the academic world (Computer Science). However I do know that many linux device drivers, such as the OpenAFS client file system module, rely on knowing the exact offsets of fields in the task_struct. There is no run-time method of retrieving these offsets as far as I know. So our administrators are forced to re-compile the openafs module everytime they apply a patch, or run a different kernel on a system that has changed the layout of task_struct. When maintaining systems that may serve different purposes, I can see why this would be an administration headache. We use a distributed filesystem where most binaries, such as device drivers, are maintained on a central server instead of being on each local box. 
+  
+  Constrast this scenario which Solaris, which is claimed to have a great device driver model by these people I speak of. I can use the same device driver binary I used in Solaris 2.6 as I use in Solaris 8.0.
+
+Regards...I wasn't trying to be a troll.    		   
+        missing the point (Score:3, Interesting)         
+by g4dget (579145)     on Sunday September 08, @01:39PM (#4216607)        	   
+    I'm sorry, but tinkering around with another graphical configuration app isn't going to fix the fundamental problems with Linux kernel configuration. (In fact, if anything, I find a single window application with a tree widget worse than xconfig.) 
+
+We shouldn't have to decide for hundreds of packages whether we want them or what options they should be pre-configured with in the first place. Almost everything should always be dynamically loadable and should always be dynamically loaded. Modules should be independent between minor kernel versions. There should be very few options, and those that are there should be configurable at runtime. The few remaining compile-time options shouldn't require some complicated interface. If we want single-file kernel distribution, we should be able to create a single file archive of the kernel and the required modules in a way that the bootstrap loader understands. 
+
+While parts of the Linux kernel are great--the variety of kernels and file systems, for example--I think overall kernel architecture and configuration is by far the weakest part of the Linux operating system. It's not the GUI that inhibits Linux adoption by the masses--Linux GUIs are up to par with other platforms--it's the fact that a large number of people end up having to recompile the kernel to get things like audio, FireWire, power management, cameras, and USB working, even with the modularized kernels in some distributions.    	
+   
+        Linux guis up to par? (Score:2)         
+by Otis_INF (130595)     on Sunday September 08, @02:25PM (#4216760)     
+(http://slashdot.org/)    	   
+    Check out the second screenshot. 2 scrollbars of 2 different applications. One has a normal, ugly X scrollbar, the other has a nice look, probably inheriting the selected theme.
+
+That, my friend, is a result of the true error in the whole picture: there is no consistency. People are doing what they think is right, but there is no big, guideline which will bring the whole system to a certain level because it's all worked out. 
+
+That is true for the gui, it's also true for kernel configuration. You are right about the fact that people shouldn't be hassling over which package should be installed and which option should be compiled into the kernel. On windows I just run setup and the system configs itself. I never have to recompile any kernel, because 1) I don't have the sourcecode (;)) but 2) I don't have to: WinXP will config itself and will work no matter what hw card I jam into the pci slots: install the driver (or better: xp has the driver already) and off you go. There is no need for compilation of a certain subsystem into the 'kernel'.    	   
+        Re:Linux guis up to par? (Score:2)         
+by g4dget (579145)     on Sunday September 08, @03:58PM (#4217142)        	   
+    On windows I just run setup and the system configs itself. I never have to recompile any kernel, because 1) I don't have the sourcecode (;)) but 2) I don't have to: WinXP will config itself and will work no matter what hw card I jam into the pci slots: install the driver (or better: xp has the driver already) and off you go. There is no need for compilation of a certain subsystem into the 'kernel'. 
+
+Yes, kernel modules work better on Windows and Macintosh OS X. That's the kind of kernel configurability Linux should aim for. 
+
+That, my friend, is a result of the true error in the whole picture: there is no consistency. People are doing what they think is right, but there is no big, guideline which will bring the whole system to a certain level because it's all worked out. 
+
+Windows and Macintosh had to make dynamic kernel configuration work because recompilation just wasn't an option in their markets. 
+
+Your analogy to GUIs misses the point. Hardware vendors on Windows or Macintosh don't make their drivers work because of some consistent guidelines, they make they work because otherwise they couldn't sell their products. Hardware vendors did this long before DOS/Windows even had a kernel or guidelines. Linux kernel configuration is, if anything, more consistent and standardized than Windows, it just happens to be more cumbersome for end users, too.    	   
+        Re:Linux guis up to par? (Score:2)         
+by g4dget (579145)     on Sunday September 08, @04:02PM (#4217159)        	   
+    VisualStudio.NET bombs the Linux developer right back to the stone age. 
+
+Indeed. As a Linux developer, I always feel like I'm back in the stone age when I use VisualStudio.    	   
+        Re:missing the point (Score:1)         
+by Mark Bainter (2222)     on Sunday September 08, @02:39PM (#4216806)     
+(http://www.firinn.org/)    	   
+    What a crock. It'll be a sad day for linux when you can't customize your kernel. I don't WANT all the freaking modules for every piece of hardware the kernel supports. That's just ridiculous. I only actually USE a very small percentage. Are you going to suggest that the same kernel be bootable across all architectures too? Or maybe we should just always have to have a kernel and a copy of the full binary module tree for every possible hardware platform the kernel supports? 
+
+Sheesh. It's people like you that give laziness a bad name.    	   
+        Re:missing the point (Score:2)         
+by g4dget (579145)     on Sunday September 08, @03:52PM (#4217125)        	   
+    Or maybe we should just always have to have a kernel and a copy of the full binary module tree for every possible hardware platform the kernel supports? 
+
+We should do what we do with every other piece of software on Linux: have separate packages. You have a GeeWhiz audio card? Install the GeeWhiz audio package. Want ReiserFS? Install the ReiserFS package. Want networking? Install the networking package. Kernel modules are a start, but they need a lot more work. 
+
+It'll be a sad day for linux when you can't customize your kernel. 
+
+I do want to be able to customize the kernel. In fact, I want to be able to do so much more and much more easily than I can now. I want to be able to add functionality to the kernel as easily as I can add a new command line command. We stopped recompiling our command line interpreters to add new commands some time in the 1960's--and Linux should stop requiring recompiling the kernel to add new functionality. 
+
+Sheesh. It's people like you that give laziness a bad name. 
+
+It's people like you that give Linux a bad name.    	   
+        Re:missing the point (Score:2)         
+by Eil (82413)     on Sunday September 08, @10:57PM (#4218584)     
+(http://bityard.net/ | Last Journal: Thursday August 08, @04:18PM)    	   
+    
+I thought pretty much the same thing when I saw the screen shots. "Okay, looks like a QT version of menuconfig. But what does it DO differently than the current config utilities?" And the answer, near as I can tell: nothing at all.
+
+I mean, maybe I'm missing the entire point of this new wonderful utility, but from what I've read, I could have done the same thing by hacking with Tcl/Tk for a half an hour.
+
+I'm right in line with you: what the Linux kernel needs desparately more than GUI menuconfig is the complete removal of any configuration process altogether. Many operating systems have proven in the past that a fast stable kernel that you never have to touch is indeed possible, and presumably, not overly difficult either.
+   	 	   
+        New Kernel Configuration (Score:2)         
+by hackus (159037)     on Sunday September 08, @02:11PM (#4216716)     
+(http://www.aesgi.com/)    	   
+    The primary problem I have with "graphical" anything, is that this is a Windows era issue of "every program written has to use a mouse and a window or it isn't user friendly."
+
+Simply not true. When all I had was a VT100 command set, I wrote terminal interfaces that a 4 year old could use for fairly complicated pieces of software, no mouse required.
+
+Although it did use windows....of a sort.
+
+As for configuring and building a kernel, beyond:
+
+1) Interfaces to remove and pull out components on demand....
+
+2) The interface should provide optional documentation and guidelines as well as best practices for most kernel configs given the applications the machine is going to be running.
+(i.e. Will it be a router, firewall, an app server or database server?)
+
+3) The configuration system should be easily scriptable with a minimal set of gcc utils.
+(sh, make, config..etc.) This is so that it requires less software to build the kernel.
+
+This implies inherent reduced security risks, smaller kernel distribution and less dependancies for linux systems integrators.
+
+Eric S Raymonds vision fails on all three accounts as far as I can tell, on how a kernel should be built and what the logical assumptions are for building a kernel in the first place.
+
+Primarily, users, shouldn't be building kernels anyway. Which is what I think the root problem is here. No, I don't think either, that there is something wrong with Linux if a user can't do EVERYTHING with a mouse and windows.
+
+Lets be realistic here: Users do not have the background to properly build a kernel, and building a nice graphical front end too build a kernel for a sophisticated developer gets in the way. It also, doesn't detract from Linux one iota simply because this fact exists.
+
+That is what the argument here is, and that is why many people who write kernel programs don't use graphical tools ANYWAY. Which I think breaks another assumption made by Mr. Raymond about a new config system.
+
+Dependancy graphics are nice, rules seperation parsers built to create such graphics with a language are nice.
+
+But this is really OLD SCHOOL stuff. Any computer science/computer professional can buy a book on such theory and compeently learn everything there is to know about REINVENTING the wheel.
+(ISBN: 0-13-1555045-4 Start reading at 7.3.2)
+
+And you too can write a configuration system similair to Eric's...
+
+But WHY WASTE YOUR TIME?
+
+The existing kernel configuration system is very scriptable, has supporting documentation available with each modules or options, and works with a very minimal set of build tools on the command line.
+
+Very nice, simple and it works very well very nicely without Python, X, windows, Mice a supported video driver and a whole new set of tools that basically give us the same thing we have now, just a whole lot more complicated.
+
+I would like to see Eric address points 1-3 and tell use exactly why we need all this stuff as kernel developers. He hasn't done so.
+
+His website just shows pretty pictures of a kernel configuration system.
+
+Hack    	
+   
+        Re:New Kernel Configuration (Score:2)         
+by Russ Nelson (33911)     on Monday September 09, @12:00PM (#4221531)     
+(http://russnelson.com/)    	   
+    CML2 is not about a graphical config tool. It's about having a set of rules rather than steps for configuring the kernel. CML2 is designed to be scriptable. It's designed for higher-level analysis than CML1 can ever make. It lets you say (for example) "I have no ISA bus", and all the drivers for ISA hardware get turned off.
+-russ
+   	    
+        Re:New Kernel Configuration (Score:2)         
+by hackus (159037)     on Tuesday September 10, @08:58AM (#4227577)     
+(http://www.aesgi.com/)    	   
+    I think the CML2 design is NOT what is at issue here. I also never said anything about CML2, I don't think CML2, itself is the issue here. I also never said that CML2 is a graphical interface.
+
+I am talking about assumptions, issues in my previous post that Mr. Raymond, makes, all of which I think are irrelevant or bad assumptions about a CML2 implementation for building a kernel.
+
+I am not interested in a graphical interface for a CML2 implementation, quite frankly.
+
+As I stated earlier, graphical interfaces require too much baggage to implement when we are talking about "bootstrap" software such as an OS kernel configuration utility.
+
+I also pointed to the fact that you can make very competent and very easy to use interfaces using simple menu's and windows with a curses library for example, in a CML2 implementation.
+
+I finally make note of the fact that users shouldn't be and will never need to build thier own kernel. They are users, and by definition not systems people.
+
+You can't give a calculus book to a kindegardener and then fault calculus for being TOO HARD, or designed WRONG, because the kindegardener can't figure it out.
+
+Fundamentally the arguments for making kernels buildable by users are wrong, incorrect, and detract a lot of precious time from improving the system we have that works right now.
+
+We have this mentality that everything should be driven using a mouse, and a GUI, which is fundamentally incorrect.
+
+I can't tell you how many times I have watched over bloated Microsoft crap drive perfectly competent hardware costing thousands less into the ground, simply because the idiots at Microsoft think you have to have a GUI on a server for everything....
+
+Just in case you want to load and run StarCraft or Dark Reign 2, on your SQL Server.
+
+Hack
+
+PS: Two of my personal Favorites by the way...
+
+Re:New Kernel Configuration (Score:2)         
+by Russ Nelson (33911)     on Thursday September 12, @04:10PM (#4247298)     
+(http://russnelson.com/)    	   
+    You said: That is what the argument here is, and that is why many people who write kernel programs don't use graphical tools ANYWAY. Which I think breaks another assumption made by Mr. Raymond about a new config system.
+
+You also said: 
+
+Since it is Eric Raymond who is working on CML2, I have to wonder why you keep harping on graphical tools unless you think CML2 is just a graphical kernel configuration system.
+-russ
+    		   
+        Wow! Look at that! (Score:1, Insightful)         
+by freebsd45 (530424)     on Sunday September 08, @02:28PM (#4216771)     
+(http://www.freebsd.org/ | Last Journal: Monday April 01, @09:35PM)    	   
+    I've never needed more than vi to configure, make and install my kernel on BSD: 
+
+vi MYKERNEL 
+cd /usr/src 
+make buildkernel && make installkernel 
+
+phew! I'm done. 
+   	
+   
+        Liar. (Score:1)         
+by jotaeleemeese (303437)     on Tuesday September 10, @02:51AM (#4226259)     
+(http://slashdot.org/ | Last Journal: Tuesday January 22, @05:54AM)    	   
+    What do you do during that vi session?
+
+Linux kernel configuration tools make easier to make those same changes.
+
+And if you are a masochist you can also use vi.    		   
+        This isn't the real problem anyway (Score:2)         
+by drinkypoo (153816) <drink.hyperlogos@org>     on Sunday September 08, @03:11PM (#4216970)     
+(http://slashdot.org/ | Last Journal: Friday November 21, @04:31PM)    	   
+    xconfig is good enough for me. The problem is that dependencies between drivers aren't tracked (at least not well) so it is easy to turn on an option and break your kernel. Solve THAT problem and you win a cookie; Fail to solve it and you're just painting pretty pictures. 
+
+In addition, requiring the Qt or GTK libraries is ridiculous. I don't want to link to anything that large. If you can't get it done with Xaw (or something similarly small) I'm not interested in your stupid config tool. I'd rather use something fast and ncurses-based.    	
+   
+        Re:This isn't the real problem anyway (Score:2)         
+by Russ Nelson (33911)     on Monday September 09, @12:30PM (#4221756)     
+(http://russnelson.com/)    	   
+    The problem is that dependencies between drivers aren't tracked (at least not well) so it is easy to turn on an option and break your kernel. Solve THAT problem and you win a cookie;
+
+Eric solved that problem with CML2, and all he got was flamed. I think there's a whole pile of people who should apologize to Eric, starting with Linus.
+-russ
+   	 	   
+        This is a great idea, but it's not that new. (Score:2, Interesting)         
+by Trogre (513942)     on Sunday September 08, @03:52PM (#4217126)     
+(http://slashdot.org/)    	   
+    It looks surprisingly similar to the KDE Kernel Configurator.
+
+Control Center->System->Linux Kernel Configurator
+
+Looks more complicated and is the wrong approach (Score:2)         
+by hattig (47930)     on Sunday September 08, @04:47PM (#4217379)     
+(Last Journal: Sunday October 19, @05:36PM)    	   
+    
+The screenshots look more complicated to me - just a horrible GUI interface with a single giant tree list. How horrible.
+
+The sad thing is that you should need to recompile the kernel to add support for various bits of hardware. What is wrong with using drivers that are not compiled into the kernel, and being able to add them at runtime?
+
+I can understand recompiling the kernel for certain reasons:
+
+1) Want to compile for your architecture to get the best performance
+
+2) Want to make use of a kernel patch, or non-standard kernel feature
+
+The monolithism of the Linux kernel is primitive. It should be fully modular - a small kernel core with additional services for various aspects of the kernel, and with full runtime driver addition and removal, etc. This will become even more necessary with systems that need 99.99% uptime using hot-swap PCI and the like.
+
+The kernel configuration should basically be an automated process - check how many processors you have, optimise for that processor type, etc. Compile all hardware support as drivers/modules. Install.    	
+   
+        Re:Looks more complicated and is the wrong approac (Score:1)         
+by DaCool42 (525559)     on Sunday September 08, @07:29PM (#4217978)     
+(http://slashdot.org/)    	   
+    Ummmm......the linux kernel _IS_ modular if you compile everything as modules. What do you think many distributions like redhat or mandrake are doing? You can quite successfully use their percompiled kernels on almost any system.
+ 
+The whole point of kernel configuration is that you can actually not compile what you don't need and you can make a kernel perfectly suited to your system. Without modules if you don't have a reason for them. If you never change anything, why would you need to have module supporting sitting around in your kernel?    		   
+        Question about Kernel Config and Compilation (Score:1)         
+by Why Should I (247317)     on Sunday September 08, @10:54PM (#4218576)     
+(http://www.insage.com.au/)    	   
+    I run two machines at home, one which I compile everything for and test new kernels on, and one that I do dev and personal work one.
+
+The dev/personal machine runs redhat 7.2 and uses up2date (i.e. redhat rpm's) to update all software on the system. Its the easiest way for me to have up to date, stable apps with which to run my system and get my work done. The down side is, I cant compile any extras if I want to change the kernel.
+
+That is a limitation I accept as a consequence of my wanting an easily updatable stable system. And if I need to run anything from compile I use my other machine. Here is the problem though....
+
+Both linux machines dual boot into win2k (I use for games). How do I mount the ntfs partition with my redhat box? I need to re-compile kernel with the ntfs read-only driver to beable to mount it, but that would mean I don't get to use the redhat up2date to update my kernel.
+
+An answer to that one would really make me happy in "userland" on my red hat machine.    	
+
+linux 2.5.31,32,33 borked (Score:2)         
+by dgp (11045)     on Monday September 09, @12:23AM (#4218834)     
+(Last Journal: Monday July 21, @11:43PM)    	   
+    Ive never had as much trouble with a kernel build as i have had since 2.5.31. 
+
+the IRDA stuff just wont compile, the orinoco driver wont compiler either. ive never seen the kernel not compile like this. Im having to take out module after module to get something that builds.
+
+Don    	
+
+Re:no wonder (Score:1)         
+by anarchima (585853)     on Sunday September 08, @10:45AM (#4215904)        	   
+    Hrmph..Is this really a limitation of mySQL or the hardware?    	
+   
+        Re:no wonder (Score:1)         
+by mariube (600067)     on Sunday September 08, @10:56AM (#4215958)     
+(http://www.stud.ifi.uio.no/~mariube/)    	   
+    
+Hrmph..Is this really a limitation of mySQL or the hardware? 
+Although it would be slow, it would probably be reachable if one dropped the SQL interface to the file system in favour of pure filesystem access, yes. But the ease of development and reduction in maintenance is obviuosly more important than withstanding a /. now and then. I'd do the same.    	   
+        Re:no wonder (Score:1)         
+by Dave2 Wickham (600202) <dave@aagames.co.uk>     on Sunday September 08, @11:01AM (#4215980)     
+(http://www.aagames.co.uk/ | Last Journal: Friday December 12, @11:11AM)    	   
+    How ironic; There's this ad [slashdot.org] at the top of the page...
+"Don't let Your Database Slow You Down"
+    	   
+        Re:no wonder (Score:1)         
+by Fragmented_Datagram (233743)     on Sunday September 08, @11:45AM (#4216204)     
+(http://slashdot.org/)    	   
+    The default is to allow a maximum number of 100 connections. You can set it higher if needed:
+ 
+http://www.mysql.com/doc/en/Too_many_connections.h tml 
+(Fix the html link that Slashdot breaks)    	   
+        Re:no wonder (Score:1)         
+by anarchima (585853)     on Sunday September 08, @01:22PM (#4216532)        	   
+    It says that Linux users should expect about 500-1000 connections at any one time to be the max amount. This doesn't seem like a lot when thinking of websites that get a LOT of traffic and store all their website material in databases. Are the commercial DB's more capable?    	   
+        Re:no wonder (Score:1)         
+by CaptnMArk (9003)     on Sunday September 08, @01:30PM (#4216563)        	   
+    
+What is needed in this case is some more
+serialization of the database access.
+
+If you have 1000 clients requesting the same page data from DB it would be a good idea to not to fetch the data from the DB for each of them.
+
+A well designed system could reuse the data fetched once to server several clients.    		   
+        Re:If it ain't broke... (Score:1)         
+by hackstraw (262471)     on Sunday September 08, @10:50AM (#4215934)        	   
+    I'll second this. I have no problem using 'make menuconfig', its intuitive, the help is ususally helpful, it works over a remote connection, etc. Now if we were still stuck with the 'make config' and saying Y/N over and over again, then realizing that you meant to say Y and not N three questions ago, hitting ^C, starting over, and repeating this process, then that would be an entirely different story.    	
+   
+        Re:If it ain't broke... (Score:4, Insightful)         
+by gmack (197796) <gmack.innerfire@net>     on Sunday September 08, @11:00AM (#4215979)     
+(http://slashdot.org/~gmack/journal | Last Journal: Saturday November 15, @02:37AM)    	   
+    It's also broken.. kernel developers are constantly trying to work around it's limitations. The fact that config menuconfig and xconfig all have diffrent bugs doesn't help either.
+
+We need something unified (same parser doffrent interfaces) and we need something less limmited. We need someone more sane than ESR to do it.
+
+     	   
+        Re:If it ain't broke... (Score:4, Insightful)         
+by sg_oneill (159032)     on Sunday September 08, @11:44AM (#4216198)     
+(http://guild.murdoch.edu.au/)    	   
+    Yeah. It certainly is. If you've ever done embedded work before and found oneself subject to the cosmic horror that is slaying $500 worth of flash hardware because the kernel configs made a booboo one will realise just how fantastic ESR's theorem checking autoconfigurator would of been. What a shame it's been beaten off by the anti-python mob.Stupid stupid stupid.
+   	    
+        Re:If it ain't broke... (Score:1, Interesting)         
+by Anonymous Coward     on Sunday September 08, @12:38PM (#4216391)        	   
+    I get the impression that Linus doesn't like side-effects. If you send him a patch that touches two completely different things, he'll probably reject it. So, I'd expect a new kernel config tool with the side effect of requiring Python to be rejected.
+
+If it had been written in some other language that was actually available (as in installed - the system already has a C compiler, obviously) everywhere, it would have probably seen a lot more action.
+
+But that's just me.    	   
+        OT: Your .sig (Score:1)         
+by turgid (580780)     on Monday September 09, @06:41AM (#4219692)     
+(Last Journal: Tuesday December 09, @02:17PM)    	   
+    :-) Darn lameness filter!    		   
+        Re:tip for web sites that get linked off slashdot (Score:1)         
+by anarchima (585853)     on Sunday September 08, @11:00AM (#4215976)        	   
+    So then anyone who could potentially be linked from slashdot should just change the entire technology supporting their site? Hehe, don't think so!    	
+
+Re:Man... (Score:1)         
+by testadicazzo (567430)     on Sunday September 08, @11:02AM (#4215981)     
+(http://www.glenstark.org/)    	   
+    Way OT so I shouldn't be responding to this, but... 
+
+Ironic yes, but I think it's more funny than sad. I mean, there's more anti ms info here than pro... I don't think MS will win any developers away from Linux here, so I consider it a bad business move for MS, glad they can help support the site... 
+
+just my 5 rappen.    	
+
+Re:Man... (Score:1)         
+by cioxx (456323)     on Sunday September 08, @11:07AM (#4216011)     
+(http://www.ubergeek.tv/switchlinux)    	   
+    I said the exact same thing couple of days ago in another topic.
+
+It's hillarious. I'm gonna have to go with a "smart choice" option on behalf of MS.
+
+Think about it. They are giving away a FREE DVD. Lots of people probably grabbed it for shits and giggles. Out of those 3,000 people, if MS locks just 1%, then the mission is accomplished.    	
+
+Re:no wonder (Score:1)         
+by dmp123 (547038)     on Sunday September 08, @11:07AM (#4216012)        	   
+    Erm......Slashdot doesn't get slashdotted..... and it runs MySQL... hmm... You don't think it might be the fact that they need to turn up the Maximum Concurrent Connections option? Maybe? David    	
+
+Re:They need a new security person or php develope (Score:1)         
+by faeryman (191366)     on Sunday September 08, @11:21AM (#4216075)     
+(http://slashdot.org/ | Last Journal: Friday November 16, @05:49PM)    	   
+    this is probally a stupid question, but how would a programmer protect against someone doing that?    	
+   
+        Re:They need a new security person or php develope (Score:2)         
+by ealar dlanvuli (523604) <froggie6@mchsi.com>     on Sunday September 08, @11:34AM (#4216145)     
+(http://slashdot.org/)    	   
+    sanity checking in your input values
+
+basic rule of thumb, don't let people past your nic see anything but html; don't accept anything but stuff that you can *prove* is safe.    		   
+        Re:no wonder (Score:1)         
+by Lysol (11150)     on Sunday September 08, @11:25AM (#4216097)        	   
+    Get a real Dbase like Oracle or Sql 2000(if you can afford it) 
+
+Wow, you must have a MCSE or somethin...    	
+
+Re:tip for web sites that get linked off slashdot (Score:1)         
+by Fragmented_Datagram (233743)     on Sunday September 08, @11:38AM (#4216166)     
+(http://slashdot.org/)    	   
+    The default is to allow a maximum number of 100 connections. You can set it higher if needed:
+
+http://www.mysql.com/doc/en/Too_many_connections.h tml    	
+
+Disagree (Score:2)         
+by einhverfr (238914) <<einhverfr> <at> <hotmail.com>>     on Sunday September 08, @04:37PM (#4217337)     
+(http://hermesweb.sourceforge.net/ | Last Journal: Sunday August 17, @04:07PM)    	   
+    If it ain't broke, there is no reason not to try to improve it, IMHO.
+
+However, the changes usually should be incrimental rather than all-at-once. This forces better code, and better systems, and all-round better products.    	
+
+ 	 
+ 	 
+ 	 
+ 	 
+ 
+  	  
+  	    	  Ad astra per aspera.  [To the stars by aspiration.]   	  
+   All trademarks and copyrights on this page are owned by their respective owners. Comments are owned by the Poster. The Rest © 1997-2003 OSDN. 	   
+ [   home |   awards |   contribute story |   older articles |   OSDN |   advertise |   self serve ad system |   about |   terms of service |   privacy |   faq |   rss ]  	
+

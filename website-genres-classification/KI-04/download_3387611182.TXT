@@ -1,0 +1,213 @@
+
+
+docs download news	 	
+Mirror: AU, DE, RU, SE, TH, US1, US2 
+Front Page News Download Mailing Lists Changelog Devel Feedback Docs libcurl Programs Support Libraries Icons Search 
+
+cURL " src="/arrow.png"> Download Releases and Downloads 
+
+Related: 
+Beta Releases 
+Mirrors 
+Old Releases 
+Files On CVS 
+Daily Builds 
+Changelog 
+GPG Key 
+
+Full Source Archive (all platforms)
+
+curl 7.11.0, Released on the 22nd of January 2004. 
+
+curl-7.11.0.tar.gz (gpg) (mirror) 
+curl-7.11.0.tar.bz2 (gpg) (mirror) 
+curl-7.11.0.zip (gpg) (mirror) 
+
+Binaries / Install-packages
+
+Click on the package name to get a list with links to all known mirrored versions. 
+
+AIX, AmigaOS, BeOS, DOS, FreeBSD, GNU-Darwin, HPUX, IRIX, Linux, Mac OS X, NetBSD, OS/2, OpenBSD, QNX, RISC OS, Solaris, SunOS, Tru64 UNIX, VMS, Win32 
+
+Package Version Type SSL Date Submitter Size 
+AIX	 	
+AIX 4.1 	7.10.8	 bin	 			 	 
+AIX 4.2 	7.10.8	 bin	 			 	 
+AIX 4.3 	7.10.4	 bin	 		The Written Word	  	 
+AIX 4.3 	7.10.8	 bin	 			 	 
+AIX 5.1 	7.10.4	 bin	 		The Written Word	  	 
+AIX 5.1 	7.10.8	 bin	 			 	 
+ 	 
+AmigaOS	 	
+AmigaOS 	7.10.8	 bin	 	2003-11-19	 Diego Casorran	  	 
+ 	 
+BeOS	 	
+BeOS 	7.10.8	 bin	 	2003-11-03	 Marcin "Shard" Konicki	  	 
+ 	 
+DOS	 	
+DOS 	7.10.5	 bin	 	2003-07-04	 Doug Kaufman	 718264	 
+ 	 
+FreeBSD	 	
+FreeBSD 	7.10.8	 source	 	2003-12-13	 	 	 
+ 	 
+GNU-Darwin	 
+GNU-Darwin PPC 	7.9.7	 bin	 			 	 
+GNU-Darwin i386 	7.10.3	 bin	 			 	 
+GNU-Darwin 5.2 PPC 	7.10.8	 bin	 		Lucent Exptools Admin	  	 
+ 	 
+HPUX	 	
+HPUX 10 	7.10.4	 bin	 		The Written Word	  	 
+HPUX 10 tar+gz	 7.10.8	 bin	 		Lucent Exptools Admin	  	 
+HPUX 11.00 	7.10.4	 bin	 		The Written Word	  	 
+HPUX 11i 	7.10.4	 bin	 		The Written Word	  	 
+ 	 
+IRIX	 	
+IRIX 6.2 tar+gz	 7.10.8	 bin	 		Lucent Exptools Admin	  	 
+IRIX 6.5 	7.10.4	 bin	 		The Written Word	  	 
+ 	 
+Linux - Generic	 	
+Linux Sparc 	7.9.8	 bin	 	2002-06-17	 Tomas Szepe	 350279	 
+Linux StrongARM 	7.10.8	 bin	 	2003-11-13	 Dan Fandrich	 125498	 
+Linux StrongARM 	7.9.7	 bin	 	2002-06-14	 Dominik Radziszowski	  	 
+ 	 
+Linux - Debian	 	
+Debian 	7.10.8	 bin	 	2003-11-03	 Domenico Andreoli	  	 
+ 	 
+Linux - Familiar	 
+Familiar 	7.10.8	 bin	 			 	 
+ 	 
+Linux - Gentoo	 	
+Gentoo 	7.10.8	 source	 			 	 
+ 	 
+Linux - Mandrake	 	
+Mandrake 	7.10.8	 bin	 	2003-12-14	 	 	 
+Mandrake 	7.10.8	 devel	 	2003-12-14	 	 	 
+ 	 
+Linux - PLD	 	
+PLD 	7.10.8	 bin	 			 	 
+ 	 
+Linux - Redhat	 	
+Redhat 	7.10.4	 source	 	2003-04-03	 Troy Engel	 877725	 
+Redhat 	7.10.4	 source	 	2003-04-03	 Troy Engel	 877713	 
+Redhat PPC 	7.10.4	 bin	 	2003-04-04	 Jean Robertson	 330166	 
+Redhat PPC 	7.10.4	 bin	 	2003-04-04	 Jean Robertson	 423158	 
+Redhat PPC 	7.10.4	 devel	 	2003-04-04	 Jean Robertson	 202574	 
+Redhat PPC 	7.10.4	 devel	 	2003-04-04	 Jean Robertson	 208181	 
+Redhat i386 	7.10.4	 bin	 	2003-04-03	 Troy Engel	 324412	 
+Redhat i386 	7.10.6	 bin	 	2003-10-16	 	 	 
+Redhat i386 	7.10.6	 devel	 	2003-10-16	 	 	 
+Redhat ia64 	7.10.4	 bin	 	2003-04-04	 Jean Robertson	 372337	 
+Redhat ia64 	7.10.4	 bin	 	2003-04-04	 Jean Robertson	 467529	 
+Redhat ia64 	7.10.6	 bin	 	2003-10-16	 	 	 
+Redhat ia64 	7.10.4	 devel	 	2003-04-04	 Jean Robertson	 231312	 
+Redhat ia64 	7.10.4	 devel	 	2003-04-04	 Jean Robertson	 238640	 
+Redhat ia64 	7.10.6	 devel	 	2003-10-16	 	 	 
+ 	 
+Linux - Slackware	 	
+Slackware 	7.10.7	 bin	 			 	 
+ 	 
+Linux - Suse	 	
+Suse 	7.10.5	 bin	 			 	 
+ 	 
+Linux - Trustix	 	
+Trustix 	7.10.8	 bin	 			 	 
+Trustix 	7.10.8	 devel	 			 	 
+Trustix 	7.10.8	 source	 			 	 
+ 	 
+Mac OS X	 	
+Mac OS X 	7.10.8	 bin	 		Max Horn	  	 
+Mac OS X 	7.10.8	 bin	 		Max Horn	  	 
+Mac OS X 	7.10.8	 source	 		Charlie Allom	  	 
+ 	 
+NetBSD	 	
+NetBSD 	7.10.8	 source	 	2003-12-07	 	 	 
+ 	 
+OS/2	 	
+OS/2 	7.7	 bin	 	2001-03-23	 	 	 
+OS/2 	7.4.1	 bin	 	2000-11-04	 Team OS/2 Russia	  	 
+ 	 
+OpenBSD	 	
+OpenBSD 	7.10.8	 source	 	2003-12-15	 brad	  	 
+ 	 
+QNX	 	
+QNX 6 	7.10.7	 bin	 			 	 
+ 	 
+RISC OS	 	
+RISC OS 	7.10.8	 bin	 	2003-11-04	 James Bursa	  	 
+ 	 
+Solaris	 	
+Solaris 2.5.1 Sparc pkg	 7.10.4	 bin	 		The Written Word	  	 
+Solaris 2.5.1 Sparc tar+gz	 7.10.8	 bin	 		Lucent Exptools Admin	  	 
+Solaris 2.6 Sparc pkg	 7.10.4	 bin	 		The Written Word	  	 
+Solaris 2.7 i386 tar+gz	 7.10.8	 bin	 		Lucent Exptools Admin	  	 
+Solaris 7 Sparc pkg	 7.10.4	 bin	 		The Written Word	  	 
+Solaris 8 Sparc pkg	 7.10.3	 bin	 	2003-01-14	 Jean Robertson	 999438	 
+Solaris 8 Sparc pkg	 7.10.4	 bin	 		The Written Word	  	 
+Solaris 9 Sparc pkg	 7.10.4	 bin	 		The Written Word	  	 
+Solaris 9 i386 pkg	 7.10.7	 bin	 			 	 
+ 	 
+SunOS	 
+SunOS 4.1.4 tar+gz	 7.10.8	 bin	 		Lucent Exptools Admin	  	 
+SunOS 4.1.4 	6.5.2	 bin	 	2000-04-26	 Ron Zapp	  	 
+ 	 
+Tru64 UNIX	 	
+Tru64 UNIX 4.0D 	7.10.4	 bin	 		The Written Word	  	 
+Tru64 UNIX 5.1 	7.10.4	 bin	 		The Written Word	  	 
+ 	 
+VMS	 	
+VMS 	7.10.8	 bin	 	2003-11-06	 Marty Kuhrt	 837991	 
+ 	 
+Win32 - Generic	 	
+Win32 	7.11.0	 bin	 	2004-01-22	 Jörn Hartroth	 185347	 
+Win32 	7.11.0	 bin	 	2004-01-22	 Jörn Hartroth	 278539	 
+ 	 
+Win32 - MSVC	 	
+MSVC 	7.10.8	 devel	 	2003-12-18	 Wesley Cate	  	 
+MSVC 	7.10.8	 devel	 	2003-12-18	 Wesley Cate	  	 
+ 	 
+Win32 - Mingw32	 	
+Mingw32 	7.11.0	 devel	 	2004-01-22	 Jörn Hartroth	 722549	 
+ 	 
+Win32 - cygwin	 	
+cygwin 	7.10.8	 bin	 	2003-11-03	 Kevin Roth	 350562	 
+cygwin 	7.10.8	 bin	 	2003-11-03	 Kevin Roth	 471217	 
+cygwin 	7.10.8	 devel	 	2003-11-03	 Kevin Roth	 172714	 
+cygwin 	7.10.8	 source	 	2003-11-03	 Kevin Roth	 1040377	 
+ 	 
+
+This colour means the packaged version is the latest stable version available (7.11.0)! 	
+
+If you have newer archives or archives for platforms not already present in this table, we'd like to add them to this table with a pointer to your location. Mail curl-web and tell us! 
+
+More External Sites 
+
+There are also excellent external sites that keep updated information about all sorts of mirrors where you can find all sorts of different curl packages. Try tuxfinder.com or rpmfind.net. 
+
+OpenSSL binary packages 
+
+For the SSL-compiled Curl packages you need the OpenSSL libraries/DLLs. 
+
+PlatformVersionURL 
+Windows 	various 	from shininglightpro.com	 
+Windows 	0.9.7c 	zipfile README 	
+i386 Linux RPM 	0.9.5a 	from ftp.zedz.net 	
+True64 4.0D / 5.0A	 0.9.7b 	from thewrittenword.com	 
+Solaris 2.5.1, 2.6, 7, 8/SPARC 	0.9.7b 	from thewrittenword.com	 
+IRIX 6.5 	0.9.7b 	from thewrittenword.com	 
+HP-UX 10.20, 11.00, 11i 	0.9.7b 	from thewrittenword.com	 
+any Linux 	many versions 	search with rpmfind.net 	
+
+zlib binary packages 
+
+You can download a zlib devel package for Windows from the GnuWin32 project's download page. 
+
+The Written Word provides zlib binaries for a large number of unix platforms at ftp://ftp.thewrittenword.com/packages/by-name/zlib-1.1.4 
+
+Notes 
+
+RPM is a Redhat invention, although many other distributions are using RPMs these days as well. The RPM packages should work on redhat and all other RPM based distributions. 
+
+win32 in the table means that the package runs on Windows 95, 98, ME, NT 3, NT 4, 2000, XP and similar Operating Systems. 	
+Page updated January 23, 2004.
+Mail curl-web about this web!
+Read more about this site. 

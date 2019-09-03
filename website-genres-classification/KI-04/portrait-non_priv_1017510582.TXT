@@ -1,0 +1,144 @@
+
+
+United States	 
+
+ 	     Home  |  Products & services  |  Support & downloads  |  My account	 
+
+Select country / region	
+ 
+
+Select one
+
+Canada
+ 
+China
+ 
+France
+ 
+Germany
+ 
+Italy
+ 
+Japan
+ 
+United Kingdom
+ 
+United States
+ 
+Full country list
+
+Resources for:	 
+
+Home / home office	
+
+Small & medium business	
+
+Large enterprise	
+
+Government	
+
+Education	
+
+Developers	
+
+IBM Business Partners	
+
+Investors	
+
+Journalists	
+
+Jobs at IBM	
+ Training	
+ Administrative support	
+ 	
+
+Solutions		Services		Shopping	
+ 						
+
+Solving business problems:	
+IBM solutions integrate hardware, software and services to meet the challenges of your industry.	 
+
+Select an industry
+
+Cross-industry
+
+Aerospace & defense
+
+Automotive
+
+Banking
+
+Chemical & petroleum
+
+Consumer products
+
+Digital media
+
+Education
+
+Electronics
+
+Energy & utilities
+
+Engineering
+
+Financial markets
+
+Government
+
+Healthcare & pharma
+
+Insurance
+
+Life sciences
+
+Media & entertainment
+
+Retail
+
+Telecommunications
+
+Travel & transportation
+
+Wholesale
+
+Wireless
+
+Business and IT services	 
+
+Business consulting services	 
+
+On demand services	 
+
+Infrastructure services	 
+
+Financing	 
+
+Notebook finder	 
+
+Desktop finder	 
+
+Workstation finder	 
+
+Intel-based server finder	 
+
+Ready to buy?	
+
+Special offers	
+
+NavCode&#8482;	 
+
+News	 
+
+Thought leadership: Four wishes as Web services progress in 2004	 
+
+Innovation: IBM tops U.S. patent list for 11th year and sets record	 
+
+IBM reports 2003 fourth-quarter and full-year results	 
+
+Technology: IBM and Symbol offer industry-specific pervasive computing solutions	 
+
+More news and newsletters	 
+
+  About IBM  |  Privacy  |  Terms of use  |  Contact  	 
+AddCountryToDropdown("", ""); 

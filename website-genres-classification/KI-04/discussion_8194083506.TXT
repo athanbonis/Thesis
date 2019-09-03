@@ -1,0 +1,377 @@
+
+Developer Shed Network  |  Dev Shed  |   ASP Free  |   Dev Articles  |   Dev Hardware  |   SEO Chat  |  itsALLnet&nbsp |&nbsp; Web Hosters&nbsp&nbsp	 
+
+//--> 	
+
+ Forums: » Register « |  User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+Dev Shed Forums
+      
+Advanced Forums Search
+      
+Dev Shed Site
+ 
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+//--> 	
+
+Dev Shed Forums > Operating Systems > Windows NT/2000/XP > Boot Problem: Can't get rid of the Windows Multi Boot thing	  
+ 	
+
+//--> 	
+
+ 	    Last Thread     Next Thread   	
+
+Author	     
+  Thread	  	      	   	    	   	  
+  	
+
+PhatBarren
+ Member
+ 
+
+Registered: May 2001
+ Location: Canada
+ Posts: 75	    Boot Problem: Can't get rid of the Windows Multi Boot thing  
+
+Hey, I have windows 2000 installed on my Disk 1, and I also tried Windows XP out on disk 2. I didn't like XP so I deleted the partition it was on using Partition Magic, but the windows dual boot thing still comes up asking me if i want to boot into XP. So I deleted the XP line in the boot.ini file, but it's still coming up with the dual boot thing, for WIndows 2000 or Windows Default. So there must be some other file specifying to use this multi boot thing, and I want to know how to get it back to just booting strait into Win 2K thanks 
+
+__________________
+X___________ the PhatBarren
+
+Report this post to a moderator | IP: Logged
+
+March 13th, 2002 12:06 AM	       
+            	            	    
+ 	
+
+M.Hirsch
+ Code Wizard
+ 
+
+Registered: Oct 2000
+ Location: between 0 and 1
+ Posts: 3673	     
+
+maybe XP replaced your boot code loader. try "fdisk /mbr" when running w2k on a command line. did this help? (i had the same problem using 2 installations of w2k, but it went away when i completely formatted and fdiskÂ´d my second HD, no partition magic...)
+
+__________________
+#1 resources to read before you post a question: The PHP manual The MySQL manual The best web developersÂ´ resource on the net
+
+Report this post to a moderator | IP: Logged
+
+March 13th, 2002 10:49 PM	       
+            	            	    
+ 	
+
+Ole
+ Member
+ 
+
+Registered: May 2000
+ Location: Denmark
+ Posts: 47	     
+
+hello Locate the boot.ini file in the root folder of drive C and open the file in Notepad. Remove any entries that no longer point to valid installations. Alternerly you may change the timeout to 0 sec. Ole
+
+Report this post to a moderator | IP: Logged
+
+March 22nd, 2002 01:23 AM	       
+            	            	    
+ 	
+
+M.Hirsch
+ Code Wizard
+ 
+
+Registered: Oct 2000
+ Location: between 0 and 1
+ Posts: 3673	     
+
+Hey Ole, ctb (and me) tried that already. it does not help (read the first post!!!) setting timeout to 0 is just a workaround if you have ONLY one OS running. sadly i have three. now i use LILO for MBR which helps alot already. but does anyone know in which different location MS stores these boot-infos? does ntldr do auto-detection (i guess from watching this behaviour)? greetings, Manuel
+
+__________________
+#1 resources to read before you post a question: The PHP manual The MySQL manual The best web developersÂ´ resource on the net
+
+Report this post to a moderator | IP: Logged
+
+March 22nd, 2002 08:28 PM	       
+            	            	    
+ 	
+
+Ole
+ Member
+ 
+
+Registered: May 2000
+ Location: Denmark
+ Posts: 47	     
+
+Uh... sorry!
+
+Report this post to a moderator | IP: Logged
+
+March 22nd, 2002 09:39 PM	       
+            	            	    
+ 	
+
+M.Hirsch
+ Code Wizard
+ 
+
+Registered: Oct 2000
+ Location: between 0 and 1
+ Posts: 3673	     
+
+no prob.... (sorry to ctp / phatbarren, i didnt want to mix yous up. must have read too many threads at once again...)
+
+__________________
+#1 resources to read before you post a question: The PHP manual The MySQL manual The best web developersÂ´ resource on the net
+
+Report this post to a moderator | IP: Logged
+
+March 22nd, 2002 09:42 PM	       
+            	            	    
+ 	
+
+All times are GMT. The time now is 02:14 AM.	  	      	   	    	   	  
+  	
+
+ 	    Last Thread     Next Thread   	
+
+Dev Shed Forums > Operating Systems > Windows NT/2000/XP > Boot Problem: Can't get rid of the Windows Multi Boot thing 
+
+>> More Related Threads	 
+Thread	 Thread Starter	 Forum	 Replies	 Last Post	 
+win 2k / win xp multi boot problems 	gorby 	Windows NT/2000/XP 	6 	
+April 11th, 2003 05:55 PM
+ by M.Hirsch	  	 
+
+Windows XP CD won't boot. 	Likki 	Windows NT/2000/XP 	2 	
+January 13th, 2004 12:32 AM
+ by Son_of_Jorel	  	 
+
+Duel boot into windows, please help!! 	jeffersno1 	Windows NT/2000/XP 	1 	
+October 13th, 2002 05:57 PM
+ by M.Hirsch	  	 
+
+Boot Windows from Network 	macrohard 	Windows NT/2000/XP 	0 	
+June 3rd, 2003 03:52 AM
+ by macrohard	  	 
+
+Show Printable Version |   Email this Page |   Subscribe to this Thread  	
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+Popular Programming Languages
+
+-- PHP
+
+-- Perl
+
+-- C Languages (C, C++, Obj-C)
+
+-- Java, Java Servlets & JSP
+
+-- Python
+
+Other Programming Languages
+
+-- ASP
+
+-- .Net (ASP.Net, VB.Net, C#)
+
+-- Visual Basic
+
+-- Software Design & Algorithms
+
+-- Cold Fusion
+
+-- Delphi & Kylix
+
+-- XML & XUL
+
+ Web Design
+
+-- HTML, JavaScript & CSS
+
+-- Adobe Photoshop
+
+-- Macromedia Flash
+
+-- General Web Design
+
+-- Reviews & Critiques
+
+-- Web Site Promotion
+
+Web Site Management
+
+-- Business & Legal Issues
+
+-- Development Software
+
+-- Scripts
+
+Databases
+
+-- General Database Discussion
+
+-- MySQL
+
+-- PostgreSQL
+
+-- Firebird SQL
+
+-- MS SQL
+
+-- Oracle
+
+-- LDAP
+
+System Administration
+
+-- Mail Servers
+
+-- Apache
+
+-- Security
+
+-- DNS
+
+-- IIS
+
+-- Networking
+
+Operating Systems
+
+-- *BSD
+
+-- Linux
+
+-- UNIX
+
+-- Windows NT/2000/XP
+
+Web Hosting
+
+-- Web Hosting
+
+-- Free Web Hosting
+
+-- Web Hosting Offers
+
+-- Web Hosting Requests
+
+Computer Hardware
+
+-- General Hardware
+
+-- CPUs & Overclocking
+
+-- Cooling
+
+-- Motherboards
+
+-- Video Cards & Sound Cards
+
+Other
+
+-- Dev Shed Lounge
+
+-- Articles & Tutorials
+
+---- PHP Tutorials
+
+---- Perl Tutorials
+
+---- Administration Tutorials
+
+---- Python Tutorials
+
+---- MySQL Tutorials
+
+---- XML Tutorials
+
+---- Java Tutorials
+
+---- Zope Tutorials
+
+---- Development Practices Articles
+
+---- DHTML Tutorials
+
+---- Flash Tutorials
+
+---- JavaScript Tutorials
+
+---- Style Sheets Tutorials
+
+---- WML Tutorials
+
+---- Multimedia Tutorials
+
+-- Beginners
+
+-- Hire A Programmer
+
+-- Project Help Wanted
+  
+ 	
+
+Register Now	 
+Get Full Access	 
+It's Free!	 
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+
+   	
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+ Forums: » Register « | User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+> 
+Dev Shed Forums
+        
+Advanced Forums Search
+        
+Dev Shed Site
+ 
+
+//--> 
+
+//--> 	
+Powered by: vBulletin Version 2.3.0
+
+Dev Shed Forums  |  ASP Free Forums  |  Dev Articles Forums  |  Dev Hardware Forums  |  SEO Chat Forums 	
+
+Â© 2001-2004. All rights reserved. (Privacy Policy) Dev Shed hosted by Hostway. 		
+
+

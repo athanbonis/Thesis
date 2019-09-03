@@ -1,0 +1,437 @@
+
+
+What is mtv ? 
+
+Pricing & Conditions 
+
+System Requirements 
+
+Download 
+
+Install 
+
+Libraries 
+
+Usage 
+
+Manual 
+
+Try it ! 
+
+Mailing Lists 
+
+Download mtv for Linux & Unix 	
+	
+
+ MpegTV Home 	
+ 	 PocketTV 	
+
+ About MpegTV 	 Products 	 FAQs 	 Support 	
+
+mtv 	
+ 	 PocketTV 	
+
+MpegTV SDK 	
+MPEG Movie and VCD Player for Linux and Unix 	MPEG Movie Player for Pocket PC and Handheld PC 	Toolkit includes MPEG Video+Audio real-time library and sample source code for Linux and WinCE 	
+
+April 13, 2001: 
+
+MpegTV has released PocketTV for Handheld PC (e.g. Jornada 720)
+
+Supports Handheld PC Pro and Handheld PC 2000 devices.
+Processors supported: ARM, MIPS, SH3, SH4 and x86/Transmeta. 	
+
+What is mtv ? 
+
+mtv (aka MpegTV Player) is a real-time software MPEG Video Player (with audio/sync) for Linux and other Unix platforms. The Linux and Solaris SPARC versions can play VCD's (Video CD). 
+
+Check-out a screen-shot and look at its features. 
+
+Quick links below point directly to our ftp download directories for the various platforms, but you should keep reading this page for installation instructions etc. 
+
+Download mtv for... 
+
+* Linux x86 glibc 2.1 (RPM packages available) 
+* Linux x86 glibc 2.0 (RPM packages available) 
+* Linux x86 libc5 
+
+Unsupported platforms...
+No support available, use at your own risks. 
+
+* Linux PPC / MkLinux (RPM packages available) 
+* Linux Alpha (RPM packages available) 
+* FreeBSD (with Linux emulation) 
+* Solaris SPARC 
+* Solaris x86 
+* Dec-Alpha OSF1 V4.0 
+* HP-UX 
+* IRIX 
+* BSD/OS 
+* NetBSD 
+* SCO OpenServer 
+Please tell us if you'd like mtv on a platform not currently supported. You can subscribe to our Announcement Mailing List to be notified when new releases become available. 
+
+Pricing & Conditions 
+
+Please read the end-user LICENSE before using the software. You may be liable if you download and use the software and do not comply with the terms of the license. 
+
+* Freeware: 
+
+You can use the command-line MPEG player mtvp completely free of charge for non-commercial non-governmental use (e.g. personal, educational and non-profit use are OK). 
+
+mtvp is included in the mtv distributions. This freeware license is limited to the use of mtvp and does not grant any right to use the MpegTV SDK and/or to control mtvp through its programatic API. 
+
+* Shareware license (for Linux and FreeBSD only): 
+
+mtv for Linux and FreeBSD is Shareware for personal, educational and non-profit use only. Commercial or government users must purchase a Commercial license. 
+
+For platforms other than Linux and FreeBSD a Commercial license is required. 
+
+The shareware registration fee is only $10. Registered users receive a personal key and instructions on how to trigger the easter egg. Your key will keep working with future releases/upgrades of this product for at least one year. 
+
+This is a cheap price to pay for a clean conscience and a nice piece of non-Microsoft software, so do yourself a treat and register your copy of mtv. Who knows, if we go public some day, maybe you'll be entitled to buy MpegTV stocks at the IPO offering price! 
+
+Register Shareware Now! 	
+
+* Commercial license: 
+
+After an evaluation period of 90 days, commercial or government users are required to purchase a commercial license. Commercial licenses are $95 per user and must be ordered using our Secure Online Registration Form. Commercial licenses give access to upgrades free of charge for one year. 
+
+Purchase Commercial License Now! 	
+
+System Requirements (read carefully) 
+
+General requirements: You need X Window with an 8-bit, 16-bit, 24-bit or 32-bit frame buffer supporting 8-bit Pseudo-Color or TrueColor visuals. To get audio, you need an audio device plus speakers or headphones. The Player's graphic front-end (mtv) requires a specific version of the Xforms shared library (libforms.so.0.xx or libforms.sl on HP), which can be downloaded together with the Player. 	
+
+The Linux (x86, Alpha and PPC) and Solaris SPARC versions can play VCD's (Video CDs). You may need to install some kernel patches to play VCD with Linux. See details here. 
+
+A Fullscreen mode is available for the Linux versions. See details and requirements here. 	
+
+The Linux x86 glibc 2.1 version should work on any Linux x86 system using glibc 2.1, e.g. RedHat 6.0 and higher, SuSE 6.3 and higher, Debian 2.2 and higher. This version was built and tested on a SuSE 6.3 system. If this version does not work on your system, try the Linux x86 glibc 2.0 version. 
+
+The Linux x86 glibc 2.0 version should work on any Linux x86 system using glibc 2.0, e.g. RedHat 5.x, SuSE 6.1 or 6.2, Debian 2.1, Corel. This version was built and tested on a RedHat 5.1 system. 
+
+The Linux x86 libc5 version should work on any older Linux x86 ELF system using libc.so.5 (e.g. RedHat 4.x). If you don't have kernel 2.0.0 or later, check the Linux update ftp site or Linux FTP Archive Site and upgrade your system. This version was tested with kernel 2.0.27, libc.so 5.2.18, 5.4.17 and 5.4.44. 
+
+Linux audio driver: Some older versions of "sound" module bundled in the Linux kernel have bugs preventing correct audio/video sync. If you have problems with audio/video sync, you should install a recent version of OSS/Free (3.8s or later). You can also use the commercial OSS/Linux audio driver. Users reported that the Player works well with the new (and free) ALSA sound driver. If the player is jittery with the ALSA driver, set the environment variable MTVP_AUDIO_OSS_DELAY_METHOD to the value 3.
+
+Linux X server: The Player was tested with XFree86 3.2. It was reported to work fine with Accelerated-X and Metro-X. 
+
+GNOME/Enlightenment: You need to use the esddsp wrapper. See details here. 
+
+Attn Debian users: make sure that /lib/libpthread.so.0 is a link to libpthread-0.7.so or better (mtvp does not work with libpthread-0.6.so). 		
+
+he Linux Alpha version should work on any Linux Alpha system (e.g. RedHat 5.x or 6.x, SuSE 6.x). If you have problems with the audio driver, you can try the commercial OSS/Linux audio driver. Please send us your feedback and benchmark results on various Alpha systems. The Linux Alpha version is provided as-is and is currently unsupported. 	
+
+The Linux PPC version should work on any Linux PowerPC or MkLinux system. It is tested with kernel 2.1.24 and the sound driver 3.7-beta12-961115, using libc.so.6, libX11.so.6.1 and libXext.so.6.3. Volume and Balance controls are ineffective due to a known limitation of the audio driver. To change the volume you should use sndvolmix. If you have audio/video sync problems, we recommend that you try the OSS/LinuxPPC audio driver. The Linux PPC version is provided as-is and is currently unsupported. 	
+
+There is no native support for FreeBSD, but you can run the Linux x86 glibc version of mtv with the ELF Linux emulation. You will need linuxthreads support (FreeBSD 4.0-current, 3.0-STABLE or 3.1-RELEASE), linux emulation package linux_lib-2.6 (with this bug-fix patch from Luoqi Chen). Either Luigi Rizzo's audio driver or the old OSS audio driver is fine. If you have a SMP machine, you need to apply this patch to enable linuxthreads support (on UP linuxthreads is already supported). You may also want to include posix 1003.1b support in the kernel config file: 
+
+options "P1003_1B"
+    options "_KPOSIX_PRIORITY_SCHEDULING"
+    options "_KPOSIX_VERSION=199309L"
+
+Full-screen should work if your X server has DGA support (e.g. XFree86). VCD playback was reported to work fine. 
+
+If you have an older version of FreeBSD like 2.2.0 (beta) or 2.1.6, you can try the x86-unknow-freebsd version of mtv (which is in fact a non-threaded linux libc5 version). You will still need the linux emulation package. 	
+
+The Solaris SPARC XIL-accelerated version works on any Solaris 2.5, 2.5.1, 2.5.5, 2.6 or Solaris 7 sparc/ultrasparc system. You need the XIL library (libxil.so.1), an optional package provided with the Solaris system. XIL is part of the package SUNWits of Solaris 2.5. You can install the XIL library from the Solaris system CD-ROM or ask your system administrator to do it. If the XIL library is not available on your system, you can always use our non-XIL version. The Solaris SPARC XIL version is provided as-is and is currently unsupported. 
+
+The Solaris SPARC non-XIL version works on any Solaris 2.4, 2.5, 2.5.1, 2.5.5, 2.6 or Solaris 7 sparc/ultrasparc system. If you have Solaris 2.5 and up, we recommend that you use the XIL-accelerated version, as some features (e.g. full-screen video) are only available with the XIL-accelerated version. The Solaris SPARC non-XIL version is provided as-is and is currently unsupported. 
+
+The Solaris SPARC Player supports both Sun and OSS/Sparc audio drivers. 	
+
+The Solaris x86 version should work on any Solaris 2.4, 2.5, 2.5.1, 2.5.5, 2.6 or Solaris 7 x86 system. To get optimum audio/video sync, you need version 3.8d or later of the OSS/Solaris audio driver (a bug in Sun's sbpro audio driver and an unrelated bug in earlier versions of the OSS/Solaris driver prevents correct audio/video sync). The Solaris x86 version is provided as-is and is currently unsupported. 
+
+For optimum performances with Solaris systems, you may have to adjust your system parameters. 	
+
+The Dec-Alpha (aka Digital-Unix aka Tru64 UNIX) version of mtv should work on any OSF1 V4.0 system. Digital-Unix is a recent port. If mtv works well on your system, please tell us!. The Dec-Alpha version is provided as-is and is currently unsupported. 
+
+Unfortunately the client-server audio architecture of Digital-Unix seems to offer no guarantee that the audio server (mmeserver) will have enough priority to play all the audio samples in real time (i.e. with no breaks in the sound). I don't know if it is possible to place mmeserver in a real-time scheduling class (does Digital-Unix support real-time scheduling ?). The best I could do is to increase its priority to the maximum. 	
+
+The HP-UX version was tested on HP-UX 9.05 with HPPA 1.1 processor. It was reported to work fine with 9.07 and 10.20 systems (but you may have to install the X-server recommended patches from HP). The HP-UX version is provided as-is and is currently unsupported. 	
+
+The IRIX version should work on any SGI IRIX 6.x MIPS system with a MIPS level 2 processor (R4000) or better. It should work also on any IRIX 5.3 systems (and up) as long as you don't try to use 8-bit dither mode (a bug with PseudoColor visuals in SGI's earlier versions of Xlib causes problems). The binary is ELF "old" 32-bit format (-32). The IRIX version is provided as-is and is currently unsupported. 	
+
+The BSD/OS version should work on any BSD/OS 3.x system. You don't need the Xforms library (mtv is statically linked because BSD/OS 3.0 Xforms dynamic library is not available). To get correct audio/video sync, you need version 3.8e or later of the OSS/BSDI audio driver (a bug in earlier versions, including the driver bundled with the OS, prevents correct audio/video sync). The BSD/OS version is provided as-is and is currently unsupported. 	
+
+There is no native support for NetBSD, but it has been reported that the BSD/OS version of mtv runs fine on NetBSD systems. 	
+
+The SCO OpenServer version was tested on Release 5.0.4 (uname indicates SCO_SV 3.2). To get correct audio/video sync you need a recent OSS/SCO audio driver. You can try the free audio driver from SCO, but I don't know if it will work. Note: the Player is quite slow on SCO OpenServer due to poor performances of the SCO X Server. A faster X Server like XFree86 or Accelerated-X should give you much better performances. The SCO version is provided as-is and is currently unsupported. 	
+
+Download 
+
+The Player is copyrighted © 1997,1999 by MpegTV LLC (all rights reserved). 
+
+You must accept the LICENSE terms before downloading and using the Player. 
+
+Download sites: 
+
+US (primary site)	ftp.mpegtv.com	 
+JAPAN	ftp://ftp.kddlabs.co.jp	 
+KOREA	ftp://ftp.kreonet.re.kr	 
+TAIWAN	ftp://ftp.cis.nctu.edu.tw - ftp://ftp.sinica.edu.tw	 
+THAILAND	ftp://ftp.loxinfo.co.th	 
+GERMANY	ftp://ftp.fu-berlin.de - ftp://ftp.individual.de	 
+HUNGARY	ftp://ftp.fsn.hu	 
+PORTUGAL	ftp://ftp.eq.uc.pt	 
+AUSTRIA	ftp://ftp.uni-klu.ac.at	 
+CZECH REPUBLIC	ftp://ftp.kolej.mff.cuni.cz - ftp://ftp.ms.mff.cuni.cz	 
+RUSSIAN FEDERATION	ftp://ftp.itep.ru	 
+
+Look for more mirrors courtesy of FTP search. 
+Distribution directory: 
+Select the distribution directory corresponding to your architecture. 
+
+For Linux-x86, there are three distribution directories. 
+
+* The x86-unknown-linux-glibc2.1 is for glibc 2.1 systems only. If you are using SuSE 6.3 or RedHat 6.2, then you should use this one. RPM packages are available for the Player and the libraries. 
+
+* The x86-unknown-linux-glibc is for glibc 2.0 systems only (it may work with glibc 2.1, at your own risks). If you are using SuSE 6.1 or RedHat 6.1, then you should use this one. RPM packages are available for the Player and the libraries. 
+
+* The x86-unknown-linux-libc5 is for libc5 systems only. If /usr/lib/libc.so.6 does not exist on your system, then you should use this one. 
+
+Files to download: 
+Please pay attention to the Netscape bug if you use Netscape to download the files (see boxed text below). 
+
+1.  The latest version of mtv (mtv-1.x.x.x.tar.gz, mtv-1.x.x.x.tgz or mtv-1.x.x.x-x.x.rpm). This package contain mtvp and mtv (i.e. the Player and its front-end). Download and install RPM package if available. 
+
+Note: .tgz extension is equivalent to .tar.gz i.e. this is a gzip'ed tar file. 
+
+2.  For some platforms, fullscreen support is provided in a separate package called mtv-fullscreen-extension-1.x.x.x.rpm. Download and install this RPM package if available. 
+
+3.  The following dynamic libraries (if required): 
+
+4.  The xforms library libforms.so.x.x.gz, libforms.sl.gz or xforms-x.x.x-x.x.rpm 
+5.  The SDL library libSDLx11.so.tar.gz or SDL-x.x.x-x.x.rpm, required for fullscreen support on Linux-x86. 
+6.  The patched pthread library libpthread-mpegtv.so.x.x.gz (for Linux libc5) 
+
+See Step 3 and the Libraries section for details on installing dynamic libraries. Download and install the libraries from RPM package(s) if available. 
+
+You should always use the libraries (libforms and others) from the the same distribution directory as the Player, even if you already have libraries with the same name on your system. For example there are different incompatible versions of libforms.so that have the same name. 
+
+7.  The man page for mtv (mtv.1). You don't need it if you have installed mtv's RPM. 
+
+Netscape Bug Alert: 
+
+When you download gzip'ed files with Netscape, be careful: some versions of Netscape Navigator have a bug causing it to remove the .gz extension without actually gunzip'ing the file! For example, to check that libforms.so.0.88 was properly gunzip'ed, use the command: 
+
+$ file libforms.so.0.88
+
+If it prints something like gzip compressed data, then do: 
+
+$ mv libforms.so.0.88 libforms.so.0.88.gz
+
+$ gunzip libforms.so.0.88
+
+Install 
+
+If packages are available (e.g. RPM), you can install the packages and skip steps 1 to 3. 
+
+To install or update an RPM package, you can use rpm -U <package> (you must be root to install/upgrade packages). 
+
+Sorry, we don't have packaged versions for all platforms yet, but a manual installation is easy. 
+
+For HP-UX, please see specific HP-UX installation section. 
+
+Step 1: Recover mtv/ directory
+
+To recover the contents of the .tgz archive you need to use gunzip (or gzip, since "gzip -d" is equivalent to "gunzip") and tar. The extension .tgz is equivalent to .tar.gz, i.e. this is a tar file compressed with gzip. 
+
+If you have GNU-tar, just type: 
+
+$ tar zxvf mtv-*.tgz
+
+If you don't have GNU-tar, you can type: 
+
+$ gunzip -c mtv-*.tgz | tar xvf -
+
+or if you have only gzip: 
+
+$ gzip -d -c mtv-*.tgz | tar xvf -
+
+This should create the directory mtv/ that contains the binaries mtv and mtvp, and (optionally) voh_sdl.so 
+
+mtvp is the actual Player, and mtv is its graphic front-end, which gives you a nice user interface. Both files should stay together. 
+
+voh_sdl.so (if available) is an extension for fullscreen support. 
+
+If you don't have gunzip or gzip, you can grab a copy of the GZIP package (aka GNUzip) from many archives. You can try: 
+
+* For Solaris SPARC: http://smc.vnet.net/solaris_2.5.html 
+* For Solaris x86: ftp://opcom.sun.ca/pub/freeware/x86/sunsite.unc.edu/ 
+* For HP-UX: http://hpux.cae.wisc.edu/ 
+* For IRIX: ftp://cb-iris.stanford.edu/pub/5.3/ or http://mambo.ucsc.edu/psl/sgiftp.html 
+* For SCO: SCO Skunkware '97 
+While you're at it, grab some of the other GNU tools, like the GNU-tar package, which is much better than Sun's tar program. 	
+
+Step 2: Install the files
+
+You copy the executable binaries mtv and mtvp anywhere you want on your system, preferably in a directory that is already in your PATH (e.g. /usr/local/bin/). Alternatively, you can add the directory that contains mtv and mtvp to your PATH. 
+
+voh_sdl.so (if available) is an extension for fullscreen support. It should be copied in the directory /usr/local/lib/mtvp/voh/ (you must create this directory if it does not exist). 
+
+You don't need to become superuser unless you want to install the files in a location where only root has writing permissions. 
+
+We recommend to always keep mtv and mtvp together in the same directory, and to make sure that there are no other binaries called mtv or mtvp in your PATH. 
+
+Make sure you remove any older versions of mtv and mtvp when you install new ones. 
+
+Step 3: Install the required dynamic libraries if necessary
+
+For HP-UX, please see also the specific HP-UX installation section. 
+
+Before running the Player, you should make sure that you have all the libraries required. For example, the Player's graphic front-end mtv requires a specific version of the Xforms library (e.g. libforms.so.0.88) that may not be installed on your system. 
+
+To check for missing libraries you can go in the directory where you placed mtv and type: 
+
+$ ldd mtv
+
+and 
+
+$ ldd mtvp
+
+If the system can find all the libraries, the installation is completed. 
+
+If the system cannot find some of the dynamic libraries, you may have to get the missing libraries and/or to set the environment variable LD_LIBRARY_PATH properly. Please refer to the Libraries section for details. 
+
+Step 4: Adjust your system parameters to get optimum performances
+
+Under Linux, you may have to adjust the configuration of the XFree86 X server to play the video in fullscreen mode. See details and requirements here. 	
+
+Under Solaris, the Player is sometimes very slow because it cannot allocate enough shared memory with the X server. This occurs with Zoom mode when frame size is SIF (352x240). This is caused by a silly default setting of shared-memory limit to 1 Mb. You should increase your shared-memory limit to at least 2 Mb (minimum for sharing 2x2 zoom of SIF images). We recommend a larger value like 8 Mb. 
+
+The following procedure was recommended by Sun: 
+
+1) Become superuser, edit /etc/system and add the following line to it (example is given for 8 Mb): 
+
+set shmsys:shminfo_shmmax=8388608
+set shmsys:shminfo_shmseg=24
+
+2) Reboot your system without the -r flag (reconfigure). If you reboot the -r flag the system will reconfigure some device descriptors which may cause problems. 	
+
+On Dec-Alpha systems, you should increase the priority of the audio server (mmeserver). Become root and type the following line: 
+
+$ renice -20 `ps -e | grep mmeserver | grep -v grep | awk '{print $1}'`
+
+Ask your system administrator to configure the system scripts so that this can be done automatically at boot time. 	
+
+On HP-UX 10.20 systems, you may have to increase maxssize if you get errors about a stack size too small. To do so, start sam, select Kernel Configuration and double-click on maxssize to change its value. You must be root to do that. 	
+
+Step 5: Install system patches if necessary
+
+You may need to install some kernel patches to play VCD with some older versions of Linux. For details see How do I play VCD's ? in the FAQ. 
+
+Libraries 
+
+The Xforms library
+
+The Player's graphic front-end mtv require a specific version of the Xforms library (e.g. libforms.so.0.88). 
+
+The required version of the XForms dynamic library must be downloaded from the same directory were you got the Player! 
+
+If you use another version than the one we distribute with the player, you may have problems (e.g. file selector does not work). 
+
+For more infos on XForms, visit the Xforms Website. 
+
+Note: Xforms is not public-domain. Xforms is copyright T.C. Zhao and Marc Overmars (all right reserved). 
+
+If you comply with the terms of the mtv LICENSE, you have the right to use the Xforms library in conjunction with mtv. 
+
+For other uses of Xforms: 
+
+* Permission to use Xforms for non-commercial and not-for-profit purposes is granted. 
+
+* You may not use Xforms commercially (including in-house and contract/consulting use) without contacting xforms@world.std.com for a license arrangement. 
+
+libXext.so.0 (Solaris)
+
+Under Solaris, the X11 libraries are normally located in the directory /usr/openwin/lib. If needed, include the directories containing the dynamic libraries in your LD_LIBRARY_PATH. 
+
+libpthread-mpegtv.so.0 (Linux libc5)
+
+x86-unknown-linux versions (using libc.so.5) requires libpthread-mpegtv.so.0. Download libpthread-mpegtv.so.0.7 from our FTP Site and install it. 
+
+Make sure that libpthread-mpegtv.so.0 is a symbolic link to libpthread-mpegtv.so.0.7. This link should be created automatically if you place libpthread-mpegtv.so.0.7 in /usr/lib and run ldconfig (as root). 
+
+libXext.so.6 (Linux)
+
+If you don't have libXext.so.6 for Linux, you can download a copy from your favorite Linux FTP Archive Site or grab a copy of libXext.so.6 from our library archive. 
+
+Installing a dynamic library
+
+To install dynamic libraries (.so files) in one of the standard places (e.g. /usr/lib), you need to be root. Make sure the file as the read (r) and execute (x) modes set for all. Do a chmod a+rx file.so if needed. 
+
+Under Linux, after you have copied a new library in /usr/lib, you should run ldconfig to update the dynamic loader's cache and to update the symbolic links. 
+
+You can also install dynamic libraries anywhere on your system, but in this case, make sure that your LD_LIBRARY_PATH contains all the directories where it should look for dynamic libraries. People often use the directory /usr/local/lib to install dynamic libraries. 
+
+LD_LIBRARY_PATH
+
+By default, the system will look in various standard places for dynamic libraries (e.g. /lib, /usr/lib, /usr/local/lib, /usr/X11/lib etc). 
+
+If you get a message indicating that the system cannot find some of the dynamic libraries even though they have been installed on your system, you can use the environment variable LD_LIBRARY_PATH to tell the system where to look. LD_LIBRARY_PATH should be set to a column-separated list of directories where the system should search for dynamic libraries, for example: 
+
+/lib:/usr/lib:/usr/X11R6/lib:/usr/local/lib
+
+For example, if libforms.so.0.88 is in /usr/local/lib and your system cannot locate it, make sure that LD_LIBRARY_PATH contains /usr/local/lib. 
+
+If you use the Solaris SPARC XIL-accelerated version, you may have to add the directory that contains the XIL library (libxil.so.1) in your LD_LIBRARY_PATH (e.g. /opt/SUNWits/Graphics-sw/xil/lib). 
+
+Install on HP-UX Systems 
+
+The installation procedure described in the previous section applies, with the following differences: 
+
+* The Xforms dynamic library is always called libforms.sl, regardless of its version (instead of libforms.so.0.xx). 
+
+* The lddcommand does not exist. To check if the dynamic library are found, just try to run the software with the command "mtv". 
+
+* The environment variable for specifying where to look for dynamic libraries is SHLIB_PATH (instead of LD_LIBRARY_PATH). 
+
+* Sometimes HP-UX executables don't search for shared libraries. If necessary you should run "chatr +s enable mtv"to allow searching for shared libraries. See man chatr(1) for more info. 
+
+* On HP-UX 10.20 systems, you may have to increase maxssize if you get errors about a stack size too small. To do so, start sam, select Kernel Configuration and double-click on maxssize to change its value. You must be root to do that. 
+
+Usage 
+
+mtv is very simple to use. Just type: 
+
+$ mtv	  to start the Player, then use the File Menu	 
+$ mtv file.mpg	  to play an MPEG file (video or video+audio)	 
+$ mtv directory	  to choose an MPEG file (*.mpg) in a directory	 
+$ mtv URL	  to play an MPEG stream directly from a URL (http, ftp, etc)	 
+$ mtv vcd:1	  to play VCD track #1	 
+$ mtv - <file.mpg	  to play an MPEG stream from stdin	 
+$ mtv -h	  for usage and options	 
+
+Read the User's Manual and the FAQ for more. 
+
+Try it ! 
+
+After you have installed mtv, you can try to play MPEG bitstreams or VCDs. If you have VCDs, try playing one. Put the VCD in CDROM tray and select the menu File->Play VCD. 
+
+Here are a few MPEG files that you can download to test your mtv: 
+
+* Small MPEG Video-only bitstream (38K)
+
+* 2 mn Starwars movie trailer with audio (1.7MB)
+Low bitrate, reduced quality. 
+
+* Various other sample MPEG files
+
+With MPEG, better quality and higher resolution is achieved using higher bitrate (i.e. larger files). Typical MPEG-1 files have a bitrate of about 1.5 Bbit/s and a resolution of 352x240, and are generally too large to be downloaded from the internet unless you have a fast connection. 
+
+You can find more interesting MPEG streams to download on MPEG.ORG's Bitstreams page. MPEG Systems streams have video+audio. 
+
+Mailing Lists 
+
+You can subscribe to our Announcement Mailing List to be notified when new product releases become available. 
+
+ MpegTV Home 	
+ 	 PocketTV 	
+
+ About MpegTV 	 Products 	 FAQs 	 Support 	
+
+All Rights Reserved © 1998-2004 MpegTV LLC 
+Contact us 	
+

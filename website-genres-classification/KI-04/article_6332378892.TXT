@@ -1,0 +1,269 @@
+
+ OSDN : Browse SourceForge - Shop ThinkGeek - freshmeat Downloads - Newsletters - Personals	 Search » 	  X 	 
+
+ Login	 
+ Why Login?
+  Why Subscribe?
+
+ Sections	 
+ Main	 
+ Apache	 
+ Apple
+  2 more	 
+ Askslashdot
+  6 more	 
+ Books	 
+ BSD
+  1 more	 
+ Developers	 
+ Games
+  8 more	 
+ Interviews	 
+ Science
+  1 more	 
+ YRO
+  2 more	 	
+ 	 
+ Help	 
+ FAQ
+  Bugs
+
+ Stories	 
+ Old Stories
+  Old Polls
+  Topics
+  Hall of Fame
+  Submit Story
+
+ About	 
+ Supporters
+  Code
+  Awards
+
+ Services	 
+ Tech Jobs
+  Advertising
+  PriceGrabber
+  Personals
+
+ 	 
+ 	 
+Open Source Computer Algebra Systems	 
+
+Posted by timothy on Sat Mar 30, '02 06:19 AM
+from the add-divide-multiply-sum dept.
+timdaly writes "A while back Slashdot had an article decrying the lack of a good open source computer algebra system. That is changing. There is a conference scheduled for the end of May to define the development model and strategy for future work. Students of math, science and engineering will find this valuable. If you're tired of hacking open source editors and want something with a real technical challenge this is the area for you."  
+
+ 	  	    
+   Slashdot Login	     
+       Nickname:
+
+Password:
+ 
+
+[ Create a new account ]      	
+
+Related Links	     
+    
+* timdaly 
+* lack of a good open source computer algebra system 
+* conference 
+* More on Programming 
+* Also by timothy    	
+
+Developers	     
+    · Announcing Cooperative Linux
+· freedesktop.org xlibs 1.0 Released
+· Open Source Operating System For Smart Cards
+· Man Page Project Can Now Use Official POSIX Docs
+· Are 64-bit Binaries Slower than 32-bit Binaries?
+· Perens on Patents
+· Effect of Using 64-bit Pointers?
+· MySQL Official GUI Interface
+· Creating A Mobile News Portal
+· Crack the Code and Win a Million Bucks
+    	
+
+This discussion has been archived.     No new comments can be posted.       	 
+    Open Source Computer Algebra Systems  |      Log in/Create an Account     | Top   | 36 comments   | Search Discussion  	 
+              Threshold:  
+-1: 36 comments
+  
+0: 36 comments
+  
+1: 28 comments
+  
+2: 11 comments
+  
+3: 3 comments
+  
+4: 1 comments
+  
+5: 0 comments
+ 
+ 
+Flat
+  
+Nested
+  
+No Comments
+  
+Threaded
+ 
+ 
+Oldest First
+  
+Newest First
+  
+Highest Scores First
+  
+Oldest First (Ignore Threads)
+  
+Newest First (Ignore Threads)
+ 
+          	 
+  The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way. 	
+        what will it include? (Score:1)         
+by abdulla (523920)     on Saturday March 30, @06:32AM (#3253025)     
+(Last Journal: Wednesday April 23, @06:01AM)    	   
+    maybe i'm not understanding it properly, but will this be a large maths library? if so what will it include exactly?"    	
+
+* Re:what will it include? by timdaly (Score:1) Saturday March 30, @12:02PM 
+
+* Re:what will it include? by njdj (Score:2) Saturday March 30, @04:47PM 
+
+* Re:Maxima by timdaly (Score:1) Saturday March 30, @05:07PM 
+
+GiNaC (Score:1)         
+by sultanoslack (320583)     on Saturday March 30, @07:41AM (#3253120)     
+(http://www.slackorama.net)    	   
+    Well, though it stands for GiNaC is Not a CAS (Computer Algebre System). GiNaC [ginac.de], which is a library for advanced symbolic calculations certainly would make a fine backend for a CAS. It's a pretty powerful tool wainging for an interface.    	
+
+* Re:GiNaC, C++ and Aldor by timdaly (Score:2) Saturday March 30, @01:15PM 
+
+Bad Idea (Score:2, Insightful)         
+by cperciva (102828)     on Saturday March 30, @10:34AM (#3253698)     
+(http://www.daemonology.net/)    	   
+    A computer algebra system which is built in a bazaar is a Bad Idea.
+
+With an operating system, it isn't all that critical if it crashes occasionally. Ok, it's a nuisance... but it won't go unnoticed, and someone will track down why it's crashing, and it will get fixed.
+
+Computer algebra systems are rather more prone to undiscovered errors. It's very easy, for example, to write a long integer multiplication routine which works perfectly for integers less than 2^20 digits long, but starts to fail (deterministically, but without obvious pattern) for very rare inputs above that size. In a bazaar, where code is accepted from anyone, you're very likely to see this sort of buggy code get introduced.
+
+With a closed (commercial) or pseudo-closed (not necessarily commercial, but within a university where everyone has scrutinized each other's credentials) environment, such errors are far less likely to exist. Computational mathematicians are paranoid about such errors; computational mathematicians will not introduce a piece of code unless they can *prove* that it will work.
+
+Given enough eyes, all detected bugs will be fixed; but actually detecting those bugs in the first place is far from certain.    	
+
+Re:Bad Idea (Score:4, Insightful)         
+by swillden (191260)     on Saturday March 30, @11:25AM (#3253912)        	   
+    
+
+Computer algebra systems are rather more prone to undiscovered errors. [...] In a bazaar, where code is accepted from anyone, you're very likely to see this sort of buggy code get introduced. 
+
+With a closed (commercial) or pseudo-closed (not necessarily commercial, but within a university where everyone has scrutinized each other's credentials) environment, such errors are far less likely to exist. [...] computational mathematicians will not introduce a piece of code unless they can *prove* that it will work. 
+
+Given enough eyes, all detected bugs will be fixed; but actually detecting those bugs in the first place is far from certain. 
+
+No offense, but you don't understand the open source process. I know of no open source project anywhere in which "code is accepted from anyone". Patches can be offered by anyone, but there are gatekeepers that decide what is and is not allowed into the source tree. For a project like this, I would expect the gatekeepers to be computational mathematicians and I would expect that they would reject out of hand any non-trivial submission that isn't accompanied by a formal proof of correctness. 
+
+Further, it wouldn't surprise me if *this* project used some extensive and formal peer review process, so that before (or maybe after) the gatekeeper accepts a submission there's oversight from a group of other mathematicians. 
+
+I think open source is *perfect* for this sort of application. It's certainly much more likely to produce correct code than a closed source shop where only a small number of people can review the code and there are marketing people trying to push the product out the door.    	    
+          [ Parent ]          	    
+
+* Re:Bad Idea by cperciva (Score:2) Saturday March 30, @12:36PM 
+
+* Re:Bad Idea by swillden (Score:2) Saturday March 30, @05:51PM 
+
+* Re:Bad Idea by timdaly (Score:1) Saturday March 30, @11:41AM 
+
+* Re:Bad Idea by xerofud (Score:1) Sunday April 07, @01:35AM 
+
+* Re:Bad Idea by mmusn (Score:2) Monday April 01, @01:03AM 
+
+* 2 replies beneath your current threshold.
+
+MAXIMA (Score:1)         
+by Jess (11386) <gehinjcNO@SPAMalum.mit.edu>     on Saturday March 30, @11:28AM (#3253933)        	   
+    There is alread an open source (GPL) computer algebra and calculus system available, called MAXIMA. It's based on MACSYMA. 
+
+For more info check out: http://maxima.sourceforge.net [sourceforge.net] 
+
+I've used it for some basic things, and it seems to be quite powerful. Not as full-featured as MAPLE or Mathematica, but covers most of the common needs for a CAS.    	
+
+* Re: MAXIMA by DGolden (Score:1) Sunday March 31, @02:37PM 
+
+* Re: MAXIMA by sir99 (Score:1) Tuesday April 02, @11:13AM 
+
+RPMS (redhat 7.2) of mathematics packages (Score:3, Informative)         
+by rdieter (112462) <`rdieter' `at' `math.unl.edu'>     on Saturday March 30, @12:51PM (#3254365)     
+(http://www.math.unl.edu/~rdieter/ | Last Journal: Friday June 21, @02:57PM)    	   
+    I have a collection of self-built RPMS for mathematics packages to try out if you like. Included are: drgenius, gap, geomview, gtkmathview, Macaulay2, maxima (a minor pain 'cause it depends on lisp), and others available at http://www.math.unl.edu/~rdieter [unl.edu]. Enjoy.    	
+
+Hmmm.... (Score:1)         
+by redhatbox (569534) <redhatbox AT myrealbox DOT com>     on Saturday March 30, @07:46PM (#3257212)        	   
+    
+I think they call it "FORTRAN", or something like that... ;)
+
+(yes, it's a joke) 
+
+* Re:Hmmm.... by fparnold (Score:1) Thursday April 04, @12:03PM 
+
+Lisp && Prolog (Score:1)         
+by NeuroMorphus (463324) <.neuromorphus. .at. .yahoo.com.>     on Sunday March 31, @02:12AM (#3258971)     
+(http://slashdot.org/)    	   
+    LISP and Prolog anyone?
+   	 
+
+* 1 reply beneath your current threshold.
+
+Frontends to computer algebra systems (Score:1)         
+by Joris van der Hoeven (566677)     on Sunday March 31, @05:48PM (#3262111)     
+(http://www.math.u-psud.fr/~vdhoeven)    	   
+    For anyone interested in free computer algebra systems, I would like to point to GNU TeXmacs [texmacs.org], whose version 1.0 has just been released. This program can be used as a frontend for most free computer algebra systems. Please contact us if you want to help us supporting other systems or improving the current interfaces (or adding interfaces to other scientific computation systems).    	
+
+Mathemagix (Score:2, Interesting)         
+by Joris van der Hoeven (566677)     on Sunday March 31, @05:53PM (#3262141)     
+(http://www.math.u-psud.fr/~vdhoeven)    	   
+    We plan to write a compiler for a new computer algebra system called mathemagix [www.mathemagix]. We are searching potential contributors or people who would just like to give us some useful suggestions; the development is still in a very early stage due to my work on TeXmacs.    	
+
+* 2 replies beneath your current threshold.
+
+Maxima (Score:2)         
+by mmusn (567069)     on Monday April 01, @01:10AM (#3264343)        	   
+    Let me put in another word for Maxima. It is based on Macsyma, and it is very powerful. 
+
+Still, people have learned quite a bit about algorithms, software engineering, and software reuse since Macsyma, Maple, and Mathematica were originally implemented, and it might well be worth thinking about having another go at a modern computer algebra system. I suspect that implementing it in something like ML or Haskell might help a lot with correctness and extensibility.    	
+
+Re:Development model (Score:1)         
+by timdaly (539918)     on Saturday March 30, @11:54AM (#3254063)        	   
+    There is a subtle point here. There will be many
+different computer algebra systems presented and
+they each have a community.I don't expect there
+will be an uber-system that converges them. But
+it is well worth discussing the future directions
+and shared concerns (like a common front-end (e.g.
+TeXmacs)), common test suites, common graphics
+packages. I also expect the license issues to
+be wonderfully warmth-generating :-)    	    
+          [ Parent ]          	    
+
+* Re:Development model by Anonymous Coward (Score:1) Saturday March 30, @04:26PM 
+
+* Re: GAP by timdaly (Score:1) Saturday March 30, @04:52PM 
+
+* 1 reply beneath your current threshold.
+
+* Re:Development model by joto (Score:3) Saturday March 30, @05:24PM 
+
+* Re:Development model by Anonymous Coward (Score:1) Sunday March 31, @12:26AM 
+
+* 2 replies beneath your current threshold.	   
+ 	 	 	 
+ 	 	 	 
+ 
+  	  
+  	    	  Ad astra per aspera.  [To the stars by aspiration.]   	  
+   All trademarks and copyrights on this page are owned by their respective owners. Comments are owned by the Poster. The Rest © 1997-2003 OSDN. 	   
+ [   home |   awards |   contribute story |   older articles |   OSDN |   advertise |   self serve ad system |   about |   terms of service |   privacy |   faq |   rss ]  	
+

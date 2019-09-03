@@ -1,0 +1,135 @@
+var startLeft = 'page.winW() / 2 - 195'; var startTop = 67; var currentSection = "products"; var _acct="DM530512FMMR96EN3";  //account number(s) var _pn="index"; //page name(s) var _mlc="/en/Products"; //multi-level content category var _seg=""; // visitor segmentation var _cmp=""; // campaign id var _gp=""; // campaign goal var _cmpn="";// campaign id in query var _gpn=""; // campaign goal in query var _fnl=""; // funnels var _pec=""; // error codes var _fv=""; // form validation function name var _dcmp="";// dynamic campaign var _dcmpn="";//dynamic campaign in query var _hra=""; // response attribute var _hcn=""; // conversion var _hcv=""; // conversion value var _hlt=""; // lead tracking var _hla=""; // lead attribute var _hqsr="";// response attribute in referrer query var _hqsp="CRA";// response attribute in query var _hc1=""; // custom 1 var _hc2=""; // custom 2 var _hc3=""; // custom 3 var _hc4=""; // custom 4 var _cid=""; // customer id var _cp="null"; // campaign var _cpd=""; // campaign domain var _pndef="title"; //default page name var _ctdef="full"; //default content category var _dlf="n"; //download filter var _elf="n"; //exit link filter var _epg="n"; //event page identifier var _vpc="090000r"; var _gn="ehg-acdsystems.hitbox.com",_mn="we36"; //gateway and machine name if(navigator.appName!='Netscape'&&parseInt(navigator.appVersion)==4)document.write("  
+  	  	  
+                  
+Site Language
+      
+Deutsch
+      
+English
+      
+Español
+      
+Français
+      
+Italiano
+      
+Nederlands
+      
+Português
+      
+Svenska
+           
+&#31616;&#20307;&#20013;&#25991;
+      
+&#32321;&#39636;&#20013;&#25991;
+      
+&#26085;&#26412;&#35486;
+            
+Korean
+          
+          	  	  	 
+     
+   Location: Not Defined  Choose Your Location     
+* 
+
+Free Trials
+
+* Top Picks 
+* Image Management 
+* Illustration 
+* Product Plug-ins 
+* Additional Products 
+* Business Solutions 
+* Free Trials 
+      	  Home > Product Information > Free Trials 
+
+Free Trials
+
+Try the picture viewer, image management and photo editing software used by millions at home and work: ACDSee, ACDSee PowerPack, ACD mPower Tools and many more.
+
+Select your product language
+
+English	 	French	 	Italian	 	German	 	Spanish	  
+   
+
+Top Picks
+
+Product     Download Free Trial            
+         	               ACDSee&trade; 6.0.2 - English       ACDSee digital photo software makes it easy to import, view, organize, print, enhance, share and archive your digital photos.      	                             	            
+         	               ACDSee&trade; 6.0.2 PowerPack - English       ACDSee PowerPack digital camera software combines three popular products for superior image organizing, editing, sharing and printing - at a great price.      	                             	            
+         	               ACD VideoMagic&trade; - English       ACD VideoMagic digital video editing software automatically combines video clips and photos from your digital still or video camera with your favorite music to create polished videos quickly.      	                             	            
+         	               ACD FotoSlate&trade; 3.0 - English       ACD FotoSlate is your easy-to-use digital photo printing software. Print photos for framing, calendars and contact sheets in popular sizes from pre-made layouts.      	                             	            
+         	               Canvas 9 Professional Edition - English       Canvas is a photo and graphics editor, print and web publishing tool, and technical drawing program trusted by companies like Boeing.      	                             	           
+    
+
+Image Management
+
+Product     Download Free Trial            
+         	               ACDSee&trade; 6.0.2 - English       ACDSee digital photo software makes it easy to import, view, organize, print, enhance, share and archive your digital photos.      	                             	            
+         	               ACDSee&trade; 6.0.2 PowerPack - English       ACDSee PowerPack digital camera software combines three popular products for superior image organizing, editing, sharing and printing - at a great price.      	                             	            
+         	               ACD mPower Tools&trade; 1.0.2 - English       ACD mPower Tools saves you hours by extending the image viewing and management features of Windows®.      	                             	            
+         	               ACDSee&trade; 1.6 for Mac - English       ACDSee 1.6 for Mac is a fast image viewing and management tool compatible with Mac OS X software.      	                             	            
+         	               ACDSee&trade; Classic - English       ACDSee Classic (formerly ACDSee 32) is ACD Systems' original fast and easy-to-use image viewer and thumbnail browser.      	                             	            
+         	               ACDSee&trade; Mobile 1.2 for Palm OS® - English       ACDSee Mobile 1.2 for Palm OS software is a fast image viewer and browser that lets you see and manage photos...anytime, anywhere.      	                             	            
+         	               ACDSee&trade; Mobile for Windows CE - English       ACDSee Mobile for Windows CE software lets you transfer photos from your desktop PC to Pocket or Handheld PC.      	                             	           
+    
+
+Illustration
+
+Product     Download Free Trial            
+         	               Canvas 9 Professional Edition - English       Canvas is a photo and graphics editor, print and web publishing tool, and technical drawing program trusted by companies like Boeing.      	                             	            
+         	               Canvas 9 GIS Mapping Edition - English       Canvas GIS Mapping Edition is a photo and graphics editor, print and web publishing tool, and technical drawing program that supports GIS mapping file formats.      	                             	            
+         	               Canvas 9 Scientific Imaging Edition - English       Canvas Scientific Imaging Edition is a photo and graphics editor, print and web publishing tool, and technical drawing program that supports scientific imaging file formats.      	                             	           
+    
+
+Product Plug-ins
+
+Product     Download Free Trial            
+         	               ACD FotoSlate&trade; 3.0 - English       ACD FotoSlate is your easy-to-use digital photo printing software. Print photos for framing, calendars and contact sheets in popular sizes from pre-made layouts.      	                             	            
+         	               2D Vector Pak - English       2D Vector Pak lets you manage DWF, HPGL and CGM vector graphics quickly using ACDSee or ACD mPower Tools.      	                             	            
+         	               ACD FotoCanvas&trade; 3.0.2 - English       ACD FotoCanvas, your easy and affordable photo editing software, includes all the essential editing and correction tools, plus fun filters, talk bubbles and more.      	                             	            
+         	               Stitcher EZ - English       Stitcher EZ automatically creates panoramas, posters and virtual tours from your photos. In two steps get a beautiful wide-angle or 360-degree picture. Cool photos have never been so easy.      	                             	            
+         	               Stitcher 3.5 - English       Stitcher is a full featured photo stitcher for professionals. Create impressive panoramas in industry-standard output formats with this ACDSee plug-in.      	                             	            
+         	               Morpheus Photo Animator - English       Morpheus Photo Animator is a popular and award-winning graphics program that lets you morph and warp your photos.      	                             	            
+         	               Morpheus Photo Animator Pro - English       Morpheus Photo Animator Pro is a popular and award-winning graphics program that lets you morph and warp your photos and movies.      	                             	            
+         	               RoboEnhancer&trade; - English       RoboEnhancer is a batch image processing plug-in for ACDSee and ACD mPower Tools that saves you time with multi-image editing scripts.      	                             	            
+         	               ACD FotoAngelo&trade; 2.0 - English       ACD FotoAngelo 2.0 the slide show software and screen saver creator that lets you add sound, text and transition effects.      	                             	            
+         	               ACD VideoMagic&trade; - English       ACD VideoMagic digital video editing software automatically combines video clips and photos from your digital still or video camera with your favorite music to create polished videos quickly.      	                             	            
+         	               ACD VideoMagic&trade; with DivX Pro&trade; - English       ACD VideoMagic with DivX Pro is the automatic digital video editing software for creating small, web-sharable DivX videos.      	                             	            
+         	               VideoGenesis - English       VideoGenesis is an easy-to-use wizard for ACDSee that fixes and creatively enhances video. Designed for video from digital still cameras or digital video cameras.      	                             	            
+         	               RealOptimizer® - English       RealOptimizer image optimizer plug-in for ACDSee and ACD mPower Tools lets you shrink images for web and e-mail quickly and interactively.      	                             	            
+         	               RealOptimizer Pro® - English       RealOptimizer Pro is the advanced image optimizer plug-in for ACDSee that lets you quickly and interactively shrink AND enhance images for web and e-mail sharing.      	                             	            
+         	               Realview 3D® - English       Realview 3D is a plug-in for ACDSee that lets you quickly create impressive and useful interactive 3D objects ready for your website.      	                             	            
+         	               Realview 3D Pro® - English       Realview 3D Pro is a plug-in for ACDSee that lets you quickly create interactive 3D objects and tours for your website.      	                             	           
+    
+
+Additional Products
+
+Product     Download Free Trial            
+         	               ACDZip&trade; - English       ACDZip is a zipping and unzipping program that gives you the power to compress image, audio, video and document files.      	                             	            
+         	               ACD FotoAngelo&trade; 2.0 - English       ACD FotoAngelo 2.0 the slide show software and screen saver creator that lets you add sound, text and transition effects.      	                             	            
+         	               ImageFox&trade; 2.0 - English       ImageFox 2.0 is an "add-on" graphics previewer for most Windows Open/Save As dialog boxes.      	                             	            
+         	               FotoVac&trade; - English       FotoVac is an Internet newsgroup scanner that automatically finds and stores images for you.      	                             	            
+         	               ACDSee 5.0 Manual - English       ACDSee 5.0 Manual: Get a detailed guide for setting up ACDSee 5.0, enjoying its many features, using shortcut keys and operating the built-in photo enhancer, FotoCanvas Lite. Newly expanded and updated!      	                             	           
+   
+
+If you would like to check for the latest free product updates, visit our product updates page.
+
+I want to
+         
+Organize my images
+     
+Get Mobile
+     
+Print my images
+     
+Stitch Images
+     
+Enhance my photos
+    
+           Products | Store | Support | Community | Partners | Company 
+
+Copyright © 1996-2004 ACD Systems. All rights reserved. Legal Notices | Privacy Policy
+Protected by the copyright laws of the United States and Canada and by international treaties.
+
+

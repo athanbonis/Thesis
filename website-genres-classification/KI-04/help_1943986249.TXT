@@ -1,0 +1,204 @@
+  
+
+The World Wide Web Security FAQ
+
+Lincoln D. Stein <lstein@cshl.org>  & John N. Stewart <jns@digitalisland.net> 
+Version 3.1.2, February 4, 2002 
+
+---------------------------------------------------------------------
+
+DISCLAIMER
+
+This information is provided by Lincoln Stein (lstein@cshl.org) and John Stewart (jns@digitalisland.net). The World Wide Web Consortium (W3C) hosts this document as a service to the Web Community; however, it does not endorse its contents. For further information, please contact Lincoln Stein or John Stewart, directly. 
+
+---------------------------------------------------------------------
+
+Table of Contents	 Forward to Introduction>" BORDER=0 height=22 width=20 align="middle">	 
+
+---------------------------------------------------------------------
+
+New
+
+1.  version 3.1.2, added Lithuanian mirror site. 
+2.  version 3.1.1, fixed a vulnerability introduced by the untainting a variable example. 
+
+---------------------------------------------------------------------
+
+Mirrors
+
+The master copy of this document can be found at http://www.w3.org/Security/Faq/. 
+
+See this page for a listing of mirror sites or if you are interested in becoming a mirror site yourself. 
+---------------------------------------------------------------------
+
+CONTENTS
+
+1.  Introduction 
+2.  What's New? 
+3.  General Questions 
+ 
+4.   Q1 What's to worry about?  
+5.   Q2 Exactly what security risks are we talking  about?  
+6.   Q3 Are some Web servers and operating systems  more secure than others?  
+7.   Q4 Are some Web server software programs more  secure than others?  
+8.   Q5 Are CGI scripts insecure?   
+9.   Q6 Are server-side includes insecure?   
+10.  Q7 What general security precautions should  I take?   
+11.  Q8 Where can I learn more about network security? 
+
+12. Client Side Security 
+ 
+13.  Q1 How do I turn off the "You are submitting  the contents of a form insecurely" message in Netscape? Should I worry  about it?  
+14.  Q2 How secure is the encryption used by  SSL?  
+15.  Q3 When I try to view a secure page, the  browser complains that the site certificate doesn't match the server and  asks me if I wish to continue. Should I?  
+16.  Q4 When I try to view a secure page, the  browser complains that it doesn't recognize the authority that signed its  certificate and asks me if I want to continue. Should I?   
+17.  Q5 How private are my requests for Web documents?  
+18.  Q6 What's the difference between Java and  JavaScript?  
+19.  Q7 Are there any known security holes in  Java?  
+20.  Q8 Are there any known security holes in  JavaScript?  
+21.  Q9 What is ActiveX? Does it pose any risks?   
+22.  Q10 Do "Cookies" Pose any Security Risks?  
+23.  Q11 I hear there's an e-mail message making  the rounds that can trash my hard disk when I open it. Is this true?  
+24.  Q12 Can one Web site hijack another's content?  
+25.  Q13 Can my web browser reveal my LAN login  name and password?  
+26.  Q14 Are there any known problems with Microsoft  Internet Explorer?  
+27.  Q15 Are there any known problems with Netscape  Communicator?  
+28.  Q16 Are there any known problems with Lynx  for Unix?  
+29.  Q17 Someone suggested I configure /bin/csh  as a viewer for documents of type application/x-csh. Is this a good idea?   
+30.  Q18 Is there anything else I should keep  in mind regarding external viewers?  
+
+31. Server Side Security 
+ 
+32.  General  
+ 
+33. Q1 How do I set the file permissions of my   server and document roots?  
+34. Q2 I'm running a server that provides a   whole bunch of optional features. Are any of them security risks?  
+35. Q3 I heard that running the server as "root"   is a bad idea. Is this true?  
+36. Q4 I want to share the same document tree   between my ftp and Web servers. Is there any problem with this idea?  
+37. Q5 Can I make my site completely safe by   running the server in a "chroot" environment?  
+38. Q6 My local network runs behind a firewall.   How can I use it to increase my Web site's security?  
+39. Q7 My local network runs behind a firewall.   How can I get around it to give the rest of the world access to the Web   server?  
+40. Q8 How can I detect if my site's been broken   into?  
+  
+41.  Windows NT Servers  
+ 
+42.   Q9 Are there any known problems with the   Netscape Servers?    
+43.   Q10 Are there any known problems with the   WebSite Server?    
+44.   Q11 Are there any known problems with Purveyor?    
+45.   Q12 Are there any known problems with Microsoft   IIS?    
+46.   Q13Are there any known security problems   with Sun Microsystem's JavaWebServer?    
+47.   Q14Are there any known security problems   with the MetaInfo MetaWeb Server?  
+  
+48.  Unix Servers  
+ 
+49.   Q15 Are there any known problems with NCSA   httpd?    
+50.   Q16 Are there any known problems with Apache   httpd?    
+51.   Q17 Are there any known problems with the   Netscape Servers?    
+52.   Q18 Are there any known problems with the   Lotus Domino Go Server?    
+53.   Q19 Are there any known problems with the   WN Server?  
+  
+54.  Macintosh Servers  
+ 
+55.   Q20 Are there any known problems with WebStar?    
+56.   Q21 Are there any known problems with MacHTTP?  
+57.   Q22 Are there any known problems with Quid   Pro Quo?  
+  
+58.  Other Servers  
+ 
+59.   Q23 Are there any known problems with Novell   WebServer?  
+  
+60.  Server Logs and Privacy  
+ 
+61.   Q24 What information do readers reveal that   they might want to keep private?  
+62.   Q25 Do I need to respect my readers' privacy?  
+63.   Q26 How do I avoid collecting too much information?  
+64.   Q27 How do I protect my readers' privacy?  
+ 
+
+65. CGI Scripts 
+ 
+66.  General  
+ 
+67.   Q1 What's the problem with CGI scripts?  
+68.   Q2 Is it better to store scripts in the   cgi-bin directory or to identify them using the .cgi extension?  
+69.   Q3 Are compiled languages such as C safer   than interpreted languages like Perl and shell scripts?  
+70.   Q4 I found a great CGI script on the Web   and I want to install it. How can I tell if it's safe?  
+71.   Q5 What CGI scripts are known to contain   security holes?  
+  
+72.  Language Independent Issues  
+ 
+73.   Q6 I'm developing custom CGI scripts. What   unsafe practices should I avoid?  
+74.   Q7 But if I avoid eval(), exec(), popen()   and system(), how can I create an interface to my database/search engine/graphics   package?  
+75.   Q8 Is it safe to rely on the PATH environment   variable to locate external programs?  
+76.   Q9 I hear there's a package called cgiwrap   that makes CGI scripts safe?  
+77.   Q10 People can only use scripts if they're   accessed from a form that lives on my local system, right?  
+78.   Q11 Can people see or change the values in   "hidden" form variables?  
+79.   Q12 Is using the "POST" method for submitting   forms more private than "GET"?  
+80.   Q13 Where can I learn more about safe CGI   scripting?  
+  
+81.  Safe Scripting in Perl  
+ 
+82.   Q14 How do I avoid passing user variables   through a shell when calling exec() and system()?  
+83.   Q15 What are Perl taint checks? How do I   turn them on?  
+84.   Q16 OK, I turned on taint checks like you   said. Now my script dies with the message: "Insecure path at line XX"   every   time I try to run it!  
+85.   Q17 How do I "untaint" a variable?  
+86.   Q18 I'm removing shell metacharacters from   the variable, but Perl still thinks it's tainted!  
+87.   Q19 Is it true that the pattern matching   operation $foo=~/$user_variable/ is unsafe?  
+88.   Q20 My CGI script needs more privileges than   it's getting as user "nobody". How do I run a Perl script as suid?  
+ 
+
+89. Protecting Confidential Documents at Your Site 
+ 
+90.  Q1 What types of access restrictions are  available?  
+91.  Q2 How safe is restriction by IP address  or domain name?  
+92.  Q3 How safe is restriction by user name  and password?  
+93.  Q4 What is user verification?  
+94.  Q5 How do I restrict access to documents  by the IP address or domain name of the remote browser?  
+95.  Q6 How do I add new users and passwords?  
+96.  Q7 Isn't there a CGI script to allow users  to change their passwords online?  
+97.  Q8 Using .htaccess to control access  in individual directories is so convenient, why should I use access.conf?   
+98.  Q9 How does encryption work?   
+99.  Q10 What are: SSL, SHTTP, Shen?   
+100.  Q11 Are there any "freeware" secure servers?   
+101.  Q12 Can I use Personal Certificates to Control  Server Access?  
+102.  Q13 How do I accept credit card orders over  the Web?  
+103.  Q14 What are: CyberCash, SET, Open Market? 
+
+104. Denial of Service Attacks 
+ 
+105.  Overview  
+ 
+106.   Q1 What is a Denial of Service attack?    
+107.   Q2 What is a Distributed Denial of Service   attack?    
+108.   Q3 How is a DDoS executed against a website?    
+109.   Q4 Is there a quick and easy way to secure   against a DDoS attack?  
+110.   Q5 Can the U.S. Government make a difference?  
+  
+111.  Step-by-Step   
+ 
+112.   Q6 How do I check my servers to see if they   are active DDoS hosts?  
+113.   Q7 What should I do if I find a DDoS host   program on my server?    
+114.   Q8 How can I prevent my servers from being   used as DDoS hosts in the future?    
+115.   Q9 How can I prevent my personal computer   from being used as a DDoS host?    
+116.   Q10 What is a "smurf attack" and how do I   defend against it?  
+117. Q11 What is "trinoo" and how do I defend   against it?     
+118. Q12 What are "Tribal Flood Network" and "TFN2K"   and how do I defend against them?  
+119.   Q13 What is "stacheldraht" and how do I   defend against it?  
+120.   Q14 How should I configure my routers,   firewalls, and intrusion detection systems against DDoS attacks?   
+ 
+
+121. Bibliography 
+
+---------------------------------------------------------------------
+
+Corrections and Updates
+
+We welcome bug reports, updates, reports about broken links, comments and outright disagreements. Please send your comments to lstein@cshl.org and/or jns@digitalisland.net. Please make sure that you are referring to the most recent version of the FAQ (maintained at http://www.w3.org/Security/Faq/); someone else might have caught the problem before you. 
+
+Please understand that we maintain the FAQ on a purely voluntary basis, and that we may fall behind on making updates when other responsibilities intrude. You can help us out by making an attempt to identify replacement links when reporting a broken one, and by suggesting appropriate rewording when you have found an error in the text. Suggestions for new questions and answers are welcomed, particularly if you are willing to contribute the text yourself. ;-) 
+Table of Contents	  Forward to Introduction>" BORDER=0 height=22 width=20 align="middle">	 
+
+---------------------------------------------------------------------
+Lincoln D. Stein (lstein@cshl.org) and John N. Stewart (jns@digitalisland.net) 
+
+$Id: index.html,v 1.13 2002/02/04 18:59:43 lstein Exp $ 

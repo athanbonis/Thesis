@@ -1,0 +1,317 @@
+OS/2 TeX , setup for OS2/ put together by Juergen Kleinboehl Commercial TeX vendors The AMS TeX pages have a good list of Commercial TeX implementations . Applied Symbols : OpenType Computer Modern and Unimath, an OpenType math font. Blue Sky Research sells Textures for Macintosh. Ideal Fonts : sells virtual fonts for Textures Mackichan Software, Inc. sells Scientific Word for Windows and Mac, a WYSIWYG program using TeX in the background. Personal TeX Inc : sells packages for Windows users True TeX is a TrueType based TeX for Windows. VTeX : includes TeX IDE, outline fonts, visual tools, HTML and PDF backends. Y&Y Inc: TeX systems for Windows; also the main providers of the Lucida families of PostScript fonts. 3B2 , made by Advent Publishing Systems, Ltd., high-end professional publishing with built-in WYSIWYG TeX support and full SGML conformance. There are offices in the UK, Ireland, USA. TeX extension projects e-TeX , extended TeX (available on CTAN in systems/e-tex ). LaTeX 3 ,the successor to LaTeX (one day). Omega , Unicode-based TeX (available on CTAN as part of systems/web2c/ ) pdfTeX , a TeX variant by Han The Thanh which can produce Acrobat PDF instead of dvi (available on CTAN as part of systems/web2c/ ); the manual, useful examples, and a FAQ can be found at /applications/pdftex/ Typesetting Chinese or Japanese . Packages and programs LaTeX , biggest and most widely used TeX macro package Context , Hans Hagen's powerful, modern, TeX macro package; a serious contender for those wanting a production-quality publishing system AASTeX (Version5.0 as of November 1999) AMS-TeX and AMS-LaTeX , the American Mathematical Society's TeX packages EDMAC , Dominik Wujastyk and John Lavagnino's package for typestting critical editions Eplain , extended plain format Eukleides , geometry diagrams with output in pstricks, including graphical frontend Feynmf , Thorsten Ohl's package for doing Feynman diagrams using LaTeX and Metafont/Metapost Harvard package , for bibliographies in LaTeX, by Peter Williams LaTeXPiX , Windows program that generates LaTeX pictures. PSTricks Notes by Denis Girou (including bug list) The REVTeX package Seminar (LaTeX slides), notes by Denis Girou (including bug list and FAQ) TeXnicCenter , an integrated environment LaTeX composition under Windows. Xy-pic , Kristoffer Rose and Ross Moore's graphics package, specialising in commutative diagrams. EMTEXGI , a Windows interface for emTeX AUC-TeX ,a sophisticated Emacs mode for TeX dvips , Tom Rokicki's widely-used dvi to PostScript driver Excalibur , the Mac TeX-aware spell checker LaTeXEdit(English) A LaTeX Editor, spellchecker and viewer for Windows. iTeXMac teTeX frontend for MacOS X, written by J. Laurens. This project migrated to SourceForge.net in July of 2002. Kile , a LaTeX front end for KDE under Linux. LaTable , an interactive table designer for LaTeX. LyX , a Unix X Windows front end for TeX. PyTeX , Python programming plus TeX typesetting. Metapost ,John Hobby's version of Metafont that makes EPS files Metagraf , a drawing package that creates Metapost files stepTeX , porting the famous NeXTStep TeX previewer TechWriter Pro Used in connection with EasiWriter, TechWriter provides an equation editor which exports to HTML, as a TeX file, and has Java support. TeXaide , a special free version of Mathtype's Equation Editor, generating TeX markup TeXShop , MacOS X frontend for TeX, developed by Richard Koch. LaTeX Generator , for making LaTeX template documents (in German). WinEdt , a very powerful TeX editor and shell for Windows 9X/NT (shareware) pfe (Programmer's File Editor) Another editor for a Windows system preview-latex , WYSIWYGish in-line previews right in your Emacs source buffer texd , TeX as a daemon with a callable interface, written in Python. xdvi , Paul Vojta's widely-used X Windows TeX previewer; the `kpathsea' variant is currently maintained as xdvik gsftopk is Paul Vojta's program to make PK bitmaps from Type1 fonts, useful for many TeX previewers TeXmacs A WYSIWYG editor for typing technical and mathematical text. TeXpict is a useful drawing package which exports to LaTeX Xindy ,a new index processor designed to replace makeindex xtem_TeXmenu , X11 GUI for TeX and LaTeX dvii , a useful program by Adam H. Lewenberg for looking at dvi files and summarizing the contents (fonts, specials, etc) dvipdfm , Mark Wicks' dvi to PDF converter word2tex , shareware for converting Word documents to LaTeX (and tex2word for the other direction). DiffDoc , shareware for comparing html, pdf, and other documents. Typesetting in scripts around the world: Ekushey typing system -- Bengali for Microsoft Word. This is a GNU licenced add-in for Word 97/2000/XP that enables Bengali typing.It has an export to TEX option, meaning that it can be used either as a conversion tool or as a WYSIWYG Bengali TEX editor. CSTeX , LaTeX and plain TeX support for Czech and Slovak users, including special fonts. Japanese LaTeX (Platex) and related tools for pdf authoring by Young Joon Moon, as part of a self-initiated project to guide Japanese learners and Japanese to master kanji (Japanese/Chinese characters) with minimal effort. sinhala_tex , Metafont fonts and a preprocessor for writing in the Sinhala script. BibTeX: BibDB , a BibTeX Database Manager (DOS and Windows) by Eyal Doron. gbib , a BibTeX manager for Linux, including integration with LyX. BibTeXMng , a BibTeX manager for Windows. JabRef , Java-based GUI for managing BibTeX databases. Pybliographer , a BibTeX tool which can be used for searching, editing, reformatting, etc. It provides Python classes, has a graphical GNOME interface, and references can be inserted directly into LyX (version 1.0.x running on the GNOME desktop. HotReference.com , a community site for sharing bibliography citations and article reviews, with BibTeX support. TeX web projects HyperTeX , conventions for TeX hypertext The Hyperlatex package LaTeX2HTML translator to create Web pages from LaTeX documents. See also the manual . TeX4ht , TeX and LaTeX for Hypertext, by Eitan Gurari. It supports LaTeX to XML, including MathML See also an update page talking about MathML. There is a useful guide on how to set it all up with MikTeX by Philip Viton here tex2page , Scheme-based TeX-to-HTML conversion for TeX and LaTeX. ltoh , Russel Quong's customizable LaTeX to HTML converter tth TeX to HTML converter. IDVI a Java dvi viewer tbookdtd , XML DTD for LaTeX documents, and HTML generation TTMath a TrueType/TeX Solution --> HTeX A simplified LaTeX interface for Web documents H e V e A . A LaTeX to HTML translater, written in objective Caml . tex2html , commercial TeX to HTML conversion system, which renders maths using the Symbol font (and other tricks) Texpider , MicroPress' version of TeX that writes HTML directly Techexplorer , a Web browser plugin from IBM which renders TeX markup MathType and the Equation Editor in MS Word. MathType is a WYSIWYG equation editor that outputs TeX. txt2TeX , Kalvis M. Jansons' Perl script (which is part of the KalTeX package) converts plain text into something with a little LaTeX formatting. ASTER demo (spoken mathematics) Supporting (La)TeX equations within HTML: webmath , equation typesetting for web pages via an applet. mimetex.cgi , equation typesetting for web pages via a cgi script. Gladtex , equations to images via batch perl/Ghostscript/LaTeX/dvips. EquationService , equations to pdf (by Doug Rowland). If you are interested in math and XML, look at MathML , the proposal for math on the Web, and a standard DTD. There is a comprehensive general guide to the Mathematical Markup Language , maintained by Pankaj Kamthan. Also check out: Web Math News , a newsletter about math on the Web --> istorm , shareware for MacOS X, collaboration tool including dynamic conversion of math to pdf. MINSE: a math polymediator WebEQ a Java Equation viewer MathView: an interactive math plug-in from Waterloo Maple Communicating Math with Hypertext Including Math Notation in Web Pages Mathscape Michael Barnettt's work on symbolic calculation for electronic publishing. (See mcmt.ps for a PostScript file [size about 7700k].) Publisher-provided TeX and LaTeX Styles Often the immediate need for TeX or LaTeX is the publication of a paper. If the publisher sends instructions asking for a specific style, you should ask them for a ready-made style package. Here are some of these: AAAI Press publications: How to Obtain AAAI Macros and Templates (LaTeX) Academic Press: Preparation and Transmission of Electronic Materials (LaTeX) American Mathematical Society Author Packages for Publishing with the AMS (AMS-TeX and AMS-LaTeX). Atmospheric Chemistry and Physics ACP - Manuscript preparation: Technical instructions for LaTeX . Cambridge University Press: The Journal of Functional Programming (LaTeX) Elsevier Science Publishers: Elsevier LaTeX package (LaTeX). IEEE Publications: IEEE information for authors (LaTeX). Kluwer Academic Publishers: Journal Author Instructions (LaTeX). Reviews of Modern Physics: LaTeX Macros for Compuscript Submissions SIAM Publications: SIAM TeX resources (TeX, LaTeX and AMS-TeX). Springer Verlag: Welcome to Authors (TeX and LaTeX) Also, check out the wonderful page on Journals accepting Manuscripts written using LaTeX by Gabriel Valiente. Miscellaneous Museums of Typography LaTeX publicity leaflet by Peter Flynn. A list of Typography, Calligraphy & Type-Related Books by Delve Withrington Typozines This page contains links to online magazines, e-zines and journals covering typography and graphic design. Shyster , James Popple's case-based legal expert system which produces LaTeX output Nelson Beebe's home page Rogue's gallery of past TUG presidents TeX merchandising to benefit user groups WYSIWYG Word Processors Allin Cottrell's entertaining article with a strong bias for LaTeX and against word processors. GNU TeXmacs: A free, structured, wysiwyg and technical editor An article by Joris van der Hoeven demonstrating why structured WYSIWYG editing is possible and desirable. Humanities books typeset with TeX , Tseng Books. SGML/XML Web Page . Project Gutenberg Distributed Proofreaders - proofread OCR'd text of public domain books a page at a time, when you have time. All books are distributed freely. Includes math books, which are entered using TeX. Or take a break from all this TeX stuff and admire Sebastian's daughter Matilde circa 2000 , visiting the Protestant Cemetery in Rome, or circa 2002 , painted as a Kathakali dancer in India. $ Date: 2004/01/08 15:26:26 $ ; TUG home page ; search ; contact webmaster .   --> 
+
+TeX Resources on the Web
+
+This page was originally compiled for the TeX Users Group by Sebastian Rahtz, with the help of many other contributors. Suggestions and corrections are always welcome, please email webmaster@tug.org. 
+
+---------------------------------------------------------------------
+
+1.  CTAN (Comprehensive TeX Archive Network): downloads, software, documentation. 
+2.  TeX user groups around the world. 
+3.  FAQ, documentation 
+4.  Free TeX implementations 
+5.  Shareware TeX implementations 
+6.  Commercial TeX vendors 
+7.  TeX extension projects 
+8.  Packages and programs 
+9.  TeX web projects 
+10. Publisher styles 
+11. Miscellaneous 
+12. Donald Knuth's home page 
+
+---------------------------------------------------------------------
+
+Where to find help and documentation 
+
+If you have a general question, start with the TeX Frequently Asked Questions! Or, if you are new to TeX, try this basic introduction to the system. 
+
+* TeX Frequently Asked Questions list prepared by the UK TeX Users Group; this is also available in various other formats. 
+* Pointers to Frequently Asked TeX Questions. 
+* LaTeX Navigator: A (La)TeX encyclopaedia, with many links on (La)TeX, typography, tools, graphics, bibliographies, and literate programming. 
+* DE-TeX-FAQ - Fragen und Antworten über TeX und DANTE e.V. for German speakers, from Dante. 
+* Foire Aux Questions française ; n'oubliez pas le groupe fr.comp.text.tex si vous n'avez pas trouvé de réponse à vos questions. 
+* TeX-related documentation at the University of Cambridge. 
+* The Wiki encyclopedia article on TeX. 
+* TeX category in the Open Directory Project. (Please also submit new sites there.) 
+
+If you have questions not answered by the above, read on for more documentation links, or the basic general help forum for TeX is the newsgroup comp.text.tex. 
+
+You can also email texhax@tug.org. (No guarantees, this is all done by volunteers!) 
+
+For general help with LaTeX: 
+
+* List of (La)TeX tutorials and reference documentation given in the TeX FAQ. 
+* The LaTeX 2e home page, and the LaTeX bugs database ,a searchable back log of bugs and fixes. 
+* LaTeX 2e reference pages (from Martin Herbert Dietze). 
+* Online tutorials on LaTeX from the tutorial team for the Indian TeX Users Group. 
+* Formatting Information, by Peter Flynn (html or pdf). Includes installation and usage information. 
+* The not so Short Introduction to LaTeX2e, by Tobias Oetiker (pdf, ps, source in many languages). 
+* Hypertext Help with LaTeX by Sheldon Green at NASA (a reference document for LaTeX 2.09, but still a nice supplement to the above). 
+* LaTeX Comprehensive Symbol List, by Scott Pakin. 
+* LaTeX help from Emory University. 
+* Essential LaTeX ++ by Jon Warbrick et al. (TeX source file) 
+* A Simplified Introduction to LaTeX by Harvey J. Greenberg (PS file-1.1M). 
+* Word-processor-to-LaTeX converters (and back the other way), maintained by Wilfried Hennings. 
+
+For plain TeX: 
+
+* A book on plain TeX: TeX by Topic, A TeXnician's Reference, by Victor Eijkhout (Addison-Wesley, 1992; 307pp). 
+* TeX for the Impatient, by Paul Abrahams, Kathryn Hargreaves, and Karl Berry (Addison-Wesley, 1990; 357pp). 
+* Plain TeX , from Norm Walsh. 
+
+Online help for other aspects of TeX software: 
+
+* tex-refs, reference information on many parts of the TeX system, including LaTeX. 
+* MetaPost. 
+* BibTeX, from Norm Walsh. 
+* MakeIndex, from Norm Walsh. 
+* Reference cards for AMSTeX and Plain TeX, by Joseph Silverman. 
+
+More references to works on typography, printing, and TeX that are available online. 
+
+Fonts: 
+
+* Discussion of available fonts, both free and commercial. 
+* Font Installation Guide: Using PostScript fonts to their full potential with LaTeX, by Philipp Lehman (91pp, pdf). 
+* Installing PostScript fonts in LaTeX, by Peter Flynn. 
+* Typeface sampler, by Peter Flynn, showing all the Type 1 and Type 3 typefaces which are freely available (pdf, with sources and more samples). 
+* Using TrueType fonts with (pdf)(La)TeX, by Damir Rakityansky. 
+* Fontname, a naming scheme for TeX fonts. 
+
+Graphics: 
+
+* Graphics links on tex.loria.fr, especially Using Imported Graphics in LaTeX 2e by Keith Recksdahl, and Graphics and Colour by Patrick Daly. 
+* Graphics for inclusion in electionic documents, by Ian Hutchinson. Real-world problems and discussion of getting images into a form that will import properly in (La)TeX documents. 
+* Comparison of screen presentation systems, mostly (La)TeX-based, by Michael Wiedmann. (See also the seminar documentation here on tug.org.) 
+
+The overall TeX system: 
+
+* TDS, the TeX Directory Standard, a recommended layout for TeX systems.
+ 
+* A book on the TeX system: Making TeX Work, by Norman Walsh (O'Reilly, 1994; 15 chapters, 6 appendices). 
+
+Books on plain TeX: 
+
+* A Beginner's Book of TeX, by Silvio Levy and Raymond Seroul (Springer Verlag, ISBN 0-387-97562-4). 
+* TeX for the Beginner, by Wynter Snow (Addison-Wesley, ISBN 0-201-54799-6). 
+* TeX starting from square one, by Michael Doob, (Springer Verlag, ISBN 0-387-56441-1, 1993). 
+* To proto vima sto TeX, Greek translation and enhancement of TeX starting from square one, by Dimitrios Filippou (Paratiritis Editions, ISBN 960-374-081-0, 2001). 
+
+Books on LaTeX: 
+
+* The LaTeX Companion, by Michel Goossens, Frank Mittelbach and Alexander Samarin (Addison-Wesley, ISBN 0-201-54199-8). 
+* The LaTeX Graphics Companion, by Michel Goossens, Sebastian Rahtz, and Frank Mittelbach (Addison-Wesley, ISBN 0-201-85469-4). 
+* The LaTeX Web Companion: Integrating TeX, HTML, and XML, by Michel Goossens, Sebastian Rahtz, Eitan Gurari, Ross Moore and Robert Sutor (Addison-Wesley, ISBN 0-201-43311-7). 
+* Math into LaTeX, by George Grätzer (Birkhauser Boston and Springer Verlag New York, ISBN 0-8176-4131-9 and ISBN 3-7648-4131-9). Download Part I of the book in Postscript or PDF format. 
+
+Also see the AMS list of TeX resources and TeX-related publications. You may also want to check out Bibliography on TeX & Co from LORIA, Nancy, France. 
+---------------------------------------------------------------------
+
+Free TeX implementations 
+
+TeX Live is a distribution from most TeX user groups which contains setups for many Unix systems, Macintosh, and 32-bit Windows, starting from teTeX and web2c-win32 (see below).
+ 
+
+Web2c, a widely-used system for compiling all the important TeX software in C.
+teTeX, Thomas Esser's packaging of Web2c for many Unix systems.
+TeXLive-teTeX for MacOS X, a highly-regarded setup developed by Gerben Wierda.
+web2c-win32 (fpTeX) a complete port of web2c for Win32 by Fabrice Popineau, including a port of Xdvi for windows (windvi); also on CTAN in systems/win32/we2bc
+ 
+
+emTeX, the classic DOS and OS/2 TeX setup by Eberhard Mattes.
+
+Knoppix, a live Linux system on a bootable CD that includes TeX.
+MikTeX, a highly-regarded setup for Windows 95/NT
+NTeX, (Unix and Linux TeX based on Web2c 7.2)
+PasTeX, for Amiga.
+ 
+
+The AMS TeX pages have a good list of public domain TeX implementations and sources. 
+
+Shareware TeX implementations 
+
+OzTeX for the Macintosh, by Andrew Trevorrow
+CMacTeX for Macintosh, by Tom Kiffe
+TeXgX , a Macintosh TeX by Jonathan Kew that can access the sophisticated features of GX fonts (such as automatic ligatures, contextual swashes, etc)
+ OS/2 TeX , setup for OS2/ put together by Juergen Kleinboehl
+ 
+---------------------------------------------------------------------
+
+Commercial TeX vendors 
+
+The AMS TeX pages have a good list of Commercial TeX implementations. 
+
+Applied Symbols: OpenType Computer Modern and Unimath, an OpenType math font.
+Blue Sky Research sells Textures for Macintosh.
+Ideal Fonts: sells virtual fonts for Textures
+Mackichan Software, Inc. sells Scientific Word for Windows and Mac, a WYSIWYG program using TeX in the background.
+Personal TeX Inc: sells packages for Windows users 
+True TeX is a TrueType based TeX for Windows.
+ VTeX: includes TeX IDE, outline fonts, visual tools, HTML and PDF backends.
+Y&Y Inc: TeX systems for Windows; also the main providers of the Lucida families of PostScript fonts.
+3B2, made by Advent Publishing Systems, Ltd., high-end professional publishing with built-in WYSIWYG TeX support and full SGML conformance. There are offices in the UK, Ireland, USA. 
+---------------------------------------------------------------------
+
+TeX extension projects 
+
+e-TeX, extended TeX (available on CTAN in systems/e-tex).
+ LaTeX 3 ,the successor to LaTeX (one day).
+ Omega, Unicode-based TeX (available on CTAN as part of systems/web2c/)
+ pdfTeX, a TeX variant by Han The Thanh which can produce Acrobat PDF instead of dvi (available on CTAN as part of systems/web2c/); the manual, useful examples, and a FAQ can be found at /applications/pdftex/
+ Typesetting Chinese or Japanese.
+ 
+---------------------------------------------------------------------
+
+Packages and programs 
+
+LaTeX, biggest and most widely used TeX macro package
+Context, Hans Hagen's powerful, modern, TeX macro package; a serious contender for those wanting a production-quality publishing system 
+
+AASTeX (Version5.0 as of November 1999) 
+AMS-TeX and AMS-LaTeX , the American Mathematical Society's TeX packages
+EDMAC , Dominik Wujastyk and John Lavagnino's package for typestting critical editions
+Eplain, extended plain format 
+Eukleides , geometry diagrams with output in pstricks, including graphical frontend
+Feynmf , Thorsten Ohl's package for doing Feynman diagrams using LaTeX and Metafont/Metapost
+ Harvard package , for bibliographies in LaTeX, by Peter Williams
+LaTeXPiX, Windows program that generates LaTeX pictures.
+PSTricks Notes by Denis Girou (including bug list)
+The REVTeX package 
+Seminar (LaTeX slides), notes by Denis Girou (including bug list and FAQ)
+TeXnicCenter, an integrated environment LaTeX composition under Windows.
+Xy-pic, Kristoffer Rose and Ross Moore's graphics package, specialising in commutative diagrams.
+EMTEXGI , a Windows interface for emTeX 
+
+AUC-TeX ,a sophisticated Emacs mode for TeX
+dvips , Tom Rokicki's widely-used dvi to PostScript driver
+ 
+
+Excalibur , the Mac TeX-aware spell checker
+LaTeXEdit(English) A LaTeX Editor, spellchecker and viewer for Windows. 
+iTeXMac teTeX frontend for MacOS X, written by J. Laurens. This project migrated to SourceForge.net in July of 2002.
+ Kile, a LaTeX front end for KDE under Linux.
+LaTable, an interactive table designer for LaTeX.
+LyX, a Unix X Windows front end for TeX.
+PyTeX, Python programming plus TeX typesetting.
+Metapost ,John Hobby's version of Metafont that makes EPS files
+Metagraf, a drawing package that creates Metapost files 
+stepTeX , porting the famous NeXTStep TeX previewer
+ TechWriter Pro   Used in connection with EasiWriter, TechWriter provides an equation editor which exports to HTML, as a TeX file, and has Java support. 
+TeXaide , a special free version of Mathtype's Equation Editor, generating TeX markup
+TeXShop , MacOS X frontend for TeX, developed by Richard Koch.
+LaTeX Generator, for making LaTeX template documents (in German).
+WinEdt , a very powerful TeX editor and shell for Windows 9X/NT (shareware)
+pfe (Programmer's File Editor) Another editor for a Windows system
+preview-latex, WYSIWYGish in-line previews right in your Emacs source buffer
+texd, TeX as a daemon with a callable interface, written in Python.
+xdvi , Paul Vojta's widely-used X Windows TeX previewer; the `kpathsea' variant is currently maintained as xdvik
+gsftopk is Paul Vojta's program to make PK bitmaps from Type1 fonts, useful for many TeX previewers
+TeXmacsA WYSIWYG editor for typing technical and mathematical text.
+TeXpict is a useful drawing package which exports to LaTeX
+Xindy ,a new index processor designed to replace makeindex
+xtem_TeXmenu , X11 GUI for TeX and LaTeX
+dvii, a useful program by Adam H. Lewenberg for looking at dvi files and summarizing the contents (fonts, specials, etc) 
+dvipdfm, Mark Wicks' dvi to PDF converter 
+word2tex, shareware for converting Word documents to LaTeX (and tex2word for the other direction).
+DiffDoc, shareware for comparing html, pdf, and other documents.
+
+Typesetting in scripts around the world:
+Ekushey typing system -- Bengali for Microsoft Word. This is a GNU licenced add-in for Word 97/2000/XP that enables Bengali typing.It has an export to TEX option, meaning that it can be used either as a conversion tool or as a WYSIWYG Bengali TEX editor.
+CSTeX, LaTeX and plain TeX support for Czech and Slovak users, including special fonts.
+ Japanese LaTeX (Platex) and related tools for pdf authoring by Young Joon Moon, as part of a self-initiated project to guide Japanese learners and Japanese to master kanji (Japanese/Chinese characters) with minimal effort.
+sinhala_tex, Metafont fonts and a preprocessor for writing in the Sinhala script.
+ 
+
+BibTeX:
+BibDB, a BibTeX Database Manager (DOS and Windows) by Eyal Doron.
+gbib, a BibTeX manager for Linux, including integration with LyX.
+BibTeXMng, a BibTeX manager for Windows.
+JabRef, Java-based GUI for managing BibTeX databases.
+Pybliographer, a BibTeX tool which can be used for searching, editing, reformatting, etc. It provides Python classes, has a graphical GNOME interface, and references can be inserted directly into LyX (version 1.0.x running on the GNOME desktop.
+HotReference.com, a community site for sharing bibliography citations and article reviews, with BibTeX support. 
+---------------------------------------------------------------------
+
+TeX web projects 
+
+HyperTeX , conventions for TeX hypertext
+The Hyperlatex package 
+LaTeX2HTML translator to create Web pages from LaTeX documents. See also the manual.
+TeX4ht, TeX and LaTeX for Hypertext, by Eitan Gurari. It supports LaTeX to XML, including MathML See also an update page talking about MathML. There is a useful guide on how to set it all up with MikTeX by Philip Viton here
+tex2page, Scheme-based TeX-to-HTML conversion for TeX and LaTeX.
+ltoh , Russel Quong's customizable LaTeX to HTML converter
+tth TeX to HTML converter.
+IDVI a Java dvi viewer
+tbookdtd, XML DTD for LaTeX documents, and HTML generation
+ HTeX A simplified LaTeX interface for Web documents
+HeVeA. A LaTeX to HTML translater, written in objective Caml. 
+tex2html , commercial TeX to HTML conversion system, which renders maths using the Symbol font (and other tricks)
+Texpider , MicroPress' version of TeX that writes HTML directly
+Techexplorer, a Web browser plugin from IBM which renders TeX markup 
+MathType and the Equation Editor in MS Word. MathType is a WYSIWYG equation editor that outputs TeX. 
+txt2TeX, Kalvis M. Jansons' Perl script (which is part of the KalTeX package) converts plain text into something with a little LaTeX formatting.
+ASTER demo (spoken mathematics)
+ 
+
+Supporting (La)TeX equations within HTML:
+webmath, equation typesetting for web pages via an applet.
+mimetex.cgi, equation typesetting for web pages via a cgi script.
+Gladtex, equations to images via batch perl/Ghostscript/LaTeX/dvips.
+EquationService, equations to pdf (by Doug Rowland).
+ 
+
+If you are interested in math and XML, look at MathML , the proposal for math on the Web, and a standard DTD. There is a comprehensive general guide to the Mathematical Markup Language, maintained by Pankaj Kamthan. 
+
+Also check out: 
+
+* istorm, shareware for MacOS X, collaboration tool including dynamic conversion of math to pdf.
+
+* MINSE: a math polymediator
+
+* WebEQ a Java Equation viewer
+ 
+* MathView: an interactive math plug-in from Waterloo Maple
+
+* Communicating Math with Hypertext 
+* Including Math Notation in Web Pages 
+* Mathscape Michael Barnettt's work on symbolic calculation for electronic publishing. (See mcmt.ps for a PostScript file [size about 7700k].) 
+
+---------------------------------------------------------------------
+
+Publisher-provided TeX and LaTeX Styles
+
+Often the immediate need for TeX or LaTeX is the publication of a paper. If the publisher sends instructions asking for a specific style, you should ask them for a ready-made style package. Here are some of these: 
+
+* AAAI Press publications: How to Obtain AAAI Macros and Templates (LaTeX) 
+* Academic Press: Preparation and Transmission of Electronic Materials (LaTeX) 
+* American Mathematical Society Author Packages for Publishing with the AMS (AMS-TeX and AMS-LaTeX). 
+* Atmospheric Chemistry and Physics ACP - Manuscript preparation: Technical instructions for LaTeX. 
+* Cambridge University Press: The Journal of Functional Programming (LaTeX) 
+* Elsevier Science Publishers: Elsevier LaTeX package (LaTeX). 
+* IEEE Publications: IEEE information for authors (LaTeX). 
+* Kluwer Academic Publishers: Journal Author Instructions (LaTeX). 
+* Reviews of Modern Physics: LaTeX Macros for Compuscript Submissions 
+* SIAM Publications: SIAM TeX resources (TeX, LaTeX and AMS-TeX). 
+* Springer Verlag: Welcome to Authors (TeX and LaTeX) 
+Also, check out the wonderful page on Journals accepting Manuscripts written using LaTeX by Gabriel Valiente. 
+
+---------------------------------------------------------------------
+
+Miscellaneous 
+
+Museums of Typography
+ LaTeX publicity leaflet by Peter Flynn. A list of Typography, Calligraphy & Type-Related Books by Delve Withrington
+ Typozines This page contains links to online magazines, e-zines and journals covering typography and graphic design. 
+Shyster , James Popple's case-based legal expert system which produces LaTeX output
+ Nelson Beebe's home page 
+Rogue's gallery of past TUG presidents
+ TeX merchandising to benefit user groups 
+WYSIWYG Word Processors Allin Cottrell's entertaining article with a strong bias for LaTeX and against word processors.
+ GNU TeXmacs: A free, structured, wysiwyg and technical editor An article by Joris van der Hoeven demonstrating why structured WYSIWYG editing is possible and desirable.
+ Humanities books typeset with TeX, Tseng Books.
+ SGML/XML Web Page.
+ Project Gutenberg Distributed Proofreaders - proofread OCR'd text of public domain books a page at a time, when you have time. All books are distributed freely. Includes math books, which are entered using TeX.
+ 
+
+Or take a break from all this TeX stuff and admire Sebastian's daughter Matilde circa 2000, visiting the Protestant Cemetery in Rome, or circa 2002, painted as a Kathakali dancer in India. 
+---------------------------------------------------------------------
+$Date: 2004/01/08 15:26:26 $; TUG home page; search; contact webmaster. 

@@ -1,0 +1,588 @@
+Pointers Compression Pointers Compression Links by Markus F.X.J. Oberhumer Compression Links by Kawabata Lab. Compression Links by Hiroaki Sakaguchi Compression Links by Haruhiko Okumura Compression Links by Helger Lipmaa Compression Links by Compression Communications Compression Source Code Guide and some Links by Takayuki Fukushima (in Japanese) Compression Links by Common Archivers Library (in Japanese) Compression and Signal Processing Links by Robert M. Gray Information Theory and Cryprography Links by Lars Bumer Yakov Nekrich's Lossless Image Compression Links comp.compression FAQ (1) comp.compression FAQ (2) Compression FAQ (FTP) MPEG-1 FAQ MPEG-2 FAQ JPEG FAQ Information Content and Compression Limit FAQ Hypertext Bibliography of Measures of Complexity Annotated Bibliography of Perfectly Random Sampling with Markov Chains Books and Lecture Notes Book List on Data Compression The Ergodic Theory of Discrete Sample Paths Home Page Author: Paul C. Shields The Data Compression Book Home Page Authors: Mark Nelson and Jean-loup Gailly Adaptive Data Compression Author: Ross Williams Managing Gigabytes Home Page Authors: Ian H. Witten , Alistair Moffat , and Timothy C. Bell MG system Introduction to Data Compression Home Page Author: Khalid Sayood Introduction to Information Theory and Data Compression Home Page Authors: Darrel Hankerson, Greg A. Harris, and Peter D. Johnson Jr. Data Compression: The Complete Reference Home Page Author: David Salomon Compression Algorithms for Real Programmers Home Page Author: Peter Wayner Dr. Dobb's Journal Home Page Online Lecture Notes and Surveys Some Paper and Books about Information Theory Information Theory II by Woon-Tack Woo, UCSC Data Compression Seminar by John C. Kieffer , U. of Minnesota Source Coding and Quantization by John C. Kieffer , U. of Minnesota Information Theory and Coding by Roberto Togneri , U. of W.Australia Information and Coding Theory by Giorgos Tziritas , U. of Crete Information Theory by John Lafferty, CMU D.A. Lelewer and D.S. Hirschberg, "Data Compression," Computing Surveys Vol.19, No.3, pp.261-297, 1987, Reprinted in BIT, Special issue in Computer Science , pp.165-195, 1989. A Short Course in Information Theory by David J.C. MacKey, Cavendish Laboratory. Information Theory by Thomas Cover CS294-3: Algorithms in the Real World---Topic 1: Compression by Guy E. Blelloch at U.C. Berkeley. Standard Data for Performance Evaluation Calgary/Canterbury Text Compression Corpus Calgary/Canterbury Corpus Home Page Calgary Corpus New Canterbury Corpus Ross Arnold and Tim Bell, "A Corpus for the Evaluation of Lossless Compression Algorithms", Proc. IEEE Data Compression Conference, Snowbird, Utah, March 1997. Standard Image Data Base (SIDBA) Grayscale and Color Test Images CCITT standard images Standard Movie Data Standard Movie Data ("Flower Garden" and "Table Tennis") IUE Data Base Multi-Modal Data Base Data Compression Program Archives http://www.csdinc.co.jp/archiver/ (in Japanses) ftp://ftp.matsusaka-u.ac.jp (FTP) ftp://garbo.uwasa.fi (FTP) ftp://ftp.uu.net (FTP) ftp://ftp.iij.ad.jp (FTP) ftp://ftp.elf.stuba.sk mirror at ftp://ftp.cs.tu-berlin.de (FTP) ftp://ftp.win.tue.nl/pub/compression/ (FTP) http://wwwperso.hol.fr/~grenault/ Archive Comparison Test by Jeff Gilchrist PKZIP-compatible library http://www.csdinc.co.jp/archiver/ ftp://ftp.ross.net/clients/ross/compression/ Data Compression Algorithms Computer Journal, Joint Special Issue on Lossless Compression , Vol.40, Issue 2/3, 1997. Links of Compression Source Code Compression Page by Dario Phong Arithmetic Coding IBM Patent #5422734 Mark Nelson, "Arithmetic Coding + Statistical Modeling = Data Compression," Dr. Dobbs Journal, Feb. 1991. A. Moffat, R. Neal, I.H. Witten, "Arithmetic Coding Revisited," Proc. IEEE Data Compression Conference, Snowbird, Utah, March 1995, pages 202-211. Colin Boyd, John G. Cleary, Sean A. Irvine, Ingrid Rinsma-Melchert, and Ian H. Witten, "Integrating Error Detection into Arithmetic Coding," IEEE Transactions on Information Theory , vol. 45, no. 1, Jan. 1997. Source Code (FTP) Source code of Arithmetic and Huffman coding by Xiaolin Wu (FTP) Range encoder --- Source Code by Michael Schindler ELS Coder (Pegasus arithmetic coder) paper and source code (FTP) --- licensing info Source Code by Frederick W. Wheeler Charles Bloom, "Virtual Queue for Arithmetic Coding." Context Tree Weighting Method Frans M.J. Willems The Context Tree Weighting Project Frans M.J. Willems, Yuri M. Shtarkov, and Tjalling J. Tjalkens, "The Context Tree Weighting Method: Basic Properties," IEEE Trans. Inform. Theory , May 1995. (one-page poster) Frans M.J. Willems, Yuri M. Shtarkov, and Tjalling J. Tjalkens, "Context Weighting for General Finite-Context Sources," IEEE Trans. Inform. Theory, Sept. 1996. Frans M.J. Willems, "Extensions to the Context Tree Weighting Method," Proc. ISIT'94, Trondheim, Norway, June 1994. Frans M.J. Willems, "Coding for a Binary Independent Piecewise-Identically Distributed Source," submitted to IEEE Trans. Inform. Theory. Hiroaki Sakaguchi --- Demonstration in JavaScript Block Sorting Algorithm In comp.compression FAQ Michael Burrows and David J. Wheeler, "A Block-sorting Lossless Data Compression Algorithm," Digital Systems Research Center Research Report 124, May 1994. Peter Fenwick Peter Fenwick's Page Peter Fenwick, "Block Sorting Text Compression," Proceedings of the 19th Australasian Computer Science Conference, Melbourne, Australia. Jan 31 - Feb 2, 1996. Peter Fenwick, "Experiments with a Block-Sorting Text Compression Algorithm," The University of Auckland, Department of Computer Science, Technical Report 111, March 1995. Peter Fenwick, "Improvements to the Block-Sorting Text Compression Algorithm," The University of Auckland, Department of Computer Science, Technical Report 120, July 1995. Peter Fenwick, "Block Sorting Text Compression --- Final Report," The University of Auckland, Department of Computer Science, Technical Report 130, April 1996. Mark Nelson, "Data Compression with the Burrows-Wheeler Transform," Dr.Dobb's Journal, Sep. 1996. Michael Schindler, "A Fast Block-Sorting Algorithm for Lossless Data Compression," Proc. of Data Compression Conference (DCC97), Snowbird, Utah, pp.~469, March 1997. Mitsuharu Arimura Mitsuharu Arimura and Hirosuke Yamamoto, ``A Performance Analysis of Block Sorting Algorithm,'' Simposium on Information Theory and Its Applications (SITA97) , Matsuyama, Ehime-ken, Japan, Dec. 2-5, 1997 (in Japanese). Mitsuharu Arimura and Hirosuke Yamamoto, ``Asymptotic Optimality of the Block Sorting Data Compression Algorithm,'' IEICE Trans. Fundamentals , Vol.E81-A, No.10, pp.2117-2122, Oct. 1998. Mitsuharu Arimura and Hirosuke Yamamoto, ``Almost Sure Convergence Coding Theorem for Block Sorting Data Compression Algorithm,'' International Simposium on Information Theory and its Applications (ISITA98) , Mexico City, Mexico, Oct. 14-16, 1998. Implementations Zzip --- by Damien DEBIN szip --- by Michael Schindler bzip --- by Julian Seward bzip2 --- by Julian Seward bred --- by David J. Wheeler bwc --- by Willem-Jan Monsuwe Ziv-Lempel and related methods gzip, zlib, deflate http://quest.jpl.nasa.gov/zlib/ ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html GZIP file format specification version 4.3 LZP algorithm Charles Bloom, "LZP: a new data compression algorithm," Proc. IEEE Data Compression Conference, 1996. Home Page LHA LHA World by Haruyasu Yoshizaki lha for UNIX 1.14f JZip --- written in Java LZO --- a real-time data compression library LZOP --- a compressor using LZO library InfoZip LZW and GIF encoder Hybrid LZ77 RLE Data Compression Program LZW-FP and FPA--- Optimal Parsing for Dictionary Based Compression Schemes ACB by George M. Buyanovsky by Leonid A. Broukhis Recency Rank Coding Peter Fenwick, "Symbol Ranking Text Compression with Shannon Recodings," Journal of Universal Computer Science, Vol.3, No.2, pp.70-85, 1997. Marcelo J. Weinberger and Gadiel Seroussi, "Sequential Prediction and Ranking in Universal Context Modeling and Data Compression," HP Labs Technical Reports, HPL-94-111, Jan. 1997. PPM PPM Papers by Bill Teahan PPM Programs by Bill Teahan (FTP) PPM R --- implementation by Rogerio Brito (FTP) PPMZ --- implementation by Charles Bloom BICOM (Bijective Compressor) implementation by Matt Timmermans Zip-A-Pic --- A new global multimedia zipping and mailing system http://www.fis.lv/olympic/ mirror at http://www.winsite.com/info/pc/win3/misc/fullview.zip/ Microsoft CABinet File http://msdn.microsoft.com/library/sdkdoc/setupapi/setupapi_35mb.htm http://www.ddj.com/ftp/1997/1997.05/cabinet.zip ftp://ftp.mv.com/pub/ddj/1997/1997.05/cabinet.zip Huffman Coding http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html http://www.cs.mu.oz.au/~alistair/inplace.c DMC Dynamic Markov Compression (FTP) (including source code of Tong Lai Yu, ``Dynamic Markov Compression,'' Dr. Dobb's Journal #243, 30-33, 96-100, Jan. 1996.) S.Bunton, ``On-Line Stochastic Processis in Data Compression,'' Ph.D. Dissertation, University of Washington, 1996.(FTP) iZ --- Compression of Image and Text together ftp://ftp.imag.fr/pub1/compression/codecs/ (FTP) Squeeze USES (Universal Source Encoder for Science data) MINC --- universal lossless data compressor ACE A Neural Network based method for Data Compression Minimum Message Length (MML) Inference rkive SP Theory and SP System Still Picture/Image Compression Binary Tree Predictive Coding (lossy/lossless) EW Code (lossless) (FTP) ELS algorithm (lossless) MMR Compression (used in FAX, lossless) pbm2cps --- PBM to PS converter with Compression pbm2cps report PGM DCT image compression system 3D DCT image compression system Howard Taylor's Master Thesis Graphic File Formats YCbCr Color Space MPEG, JPEG, JBIG, H.261, H.263, H.324 The AVI Graphics Format Overview Bitmap File Formats(1) Bitmap File Formats(2) (FTP) TIFF 6.0 spec (FTP) QV10 FAQ QV10 source (FTP) Compressed Postscript Documents FAQ TrueVision targa (TGA) file GIF (Graphics Interchange Format) GIF 87a format (FTP) GIF 89a format (FTP) Animated GIF PNG (Portable Network Graphics) http://quest.jpl.nasa.gov/PNG/ (official page) http://www.boutell.com/boutell/png/ http://www.w3.org/pub/WWW/Graphics/PNG/ FTP site of source code MPEG --- ftp://ftp.mni.mcgill.ca/pub/mpeg/ MPEG --- ftp://ftp.arc.umn.edu/pub/GVL/ PNG --- ftp://ftp.uu.net/graphics/png/src/ ra_ppm --- ftp://hobbes.lbl.gov/Radiance3R0.tar.gz Utah Raster Toolkit --- ftp://ftp.cs.utah.edu/pub/urt-3.1b.tar.Z TIFF --- ftp://ftp.sgi.com/graphics/tiff/tiff-v3.4beta035-tar.gz TILE --- http://the-tech.mit.edu/cgi-bin/KPT_bgs2.pl JPEG --- ftp://ftp.uu.net/graphics/jpeg/jpegsrc.v6b.tar.gz JBIG --- ftp://ftp.informatik.uni-erlangen.de/pub/doc/ISO/JBIG/ HDF --- ftp://ftp.ncsa.uiuc.edu/HDF/HDF4.0r2/tar/HDF4.0r2.tar.gz Fractal Image Compression Links on Fractal Image Encoding by Yuval Fisher Links on Fractal Image Encoding on Tokunaga Lab. Iterated Systems, Inc. Mitsubishi Corp. Fractal Papers (FTP) Fractal Softwares (FTP) yuvpak (FTP) byte Oct. 1993 (FTP) Lucia Vences and Isaac Rudomin Introduction by Jason Stewart Wavelet and Subband Coding Wavelet Digest Summus, Ltd. Amara's Wavelet Page An Introduction to Wavelets Wavelet Digest Collection of Papers Wavelet and other papers EPIC (FTP) wavelet.reg (FTP) hcompress (FTP) Jian Lu Filter Banks Multirate Signal Processing Wavelet Music Compression Technology Wavelet Image Compression Construction Kit SPIHT --- Image Compression with Set Partitioning in Hierarchical Trees Wavelet and predictor-based image compression http://www.coastnet.com/~darkblade UCB Wavelet Group Publications of Image Communications Lab, UCLA. ICompress v.II Robert W. Buccigrossi and Eero P. Simoncelli, "Image Compression via Joint Statistical Characterization in the Wavelet Domain," GRASP Laboratory Technical Report #414, Univ. of Pennsylvania, May 30, 1997. Digital Video Recorders --- Wavelet Compression Cards for PCI slot Wavelet Image Compression Demo Page Video Compression QuickTime Intel Indeo Microsoft Multimedia File Formats Digital Video Coding activities at Telenor R&D XAnim SoftMPEG GIF Animator CU-SeeMe Audio Compression Lossless Audio Compression TwinVQ --- one of MPEG4 Audio Compression Methods SoundVQ ATRAC --- MiniDisc Audio Compression RealAudio RealAudio to WAV file comverter Image/Video/Audio Compression Standards FAQ, Pointers MPEG Pointers at www.cs.waikato.ac.nz MPEG-1 FAQ at U.C. Berkeley MPEG-2 FAQ at U.C. Berkeley MPEG FAQ MPEG FAQ (FTP) JPEG FAQ JPEG FAQ (FTP) Journal of Video Coding Related Links (H.263, H.261, and MPEG) Still Picture Compression List of relevant patents given in the JPEG spec Independent JPEG Group JBIG2 Standard IJG JPEG Codec (FTP) JBIG-KIT library Ver.1.0 (FTP) http://www.jpg.com/ MPEG, H.261, JPEG (/w lossless) by Stanford PVRG (FTP) PVRG (FTP in Japan) JPEG with arithmetic coding (with patch to IJG JPEG-v6b ) LOCO-I/JPEG-LS software JJ2000 --- JPEG2000 implementation on Java Video Compression MPEG Pointers and Resources (http://www.mpeg.org/) The MPEG Home Page --- MPEG-1, MPEG-2, MPEG-4, MPEG-7, etc. MPEG Research at U.C. Berkeley MPEG Codec (UCB FTP) MPEG1, MEPG2, VMPEG (netcom FTP) H.261 Codec H.261 capture and player for Win95 H.263 Software H.263 Encoder H.323 Motion JPEG Software MpegTV converter from AVI to MPEG MPEG2Tool at University of Pennsylvania (FTP) MPEG, H.261, JPEG (/w lossless) by Stanford PVRG (FTP) PVRG (FTP in Japan) http://www.visiblelight.com/ http://www.ids-net.com/mpeg/mpeg.html http://www.womble.com --- MPEG editor. Java MPEG Player Java H.261 Player UCL --- Communications and Remote Sensing Laboratory (TELE) Audio Compression MPEG audio page MPEG audio (FTP) MPEG audio program (FTP) G.722 audio compression (FTP) Maplay 1.2+ for Win32 --- for Layer I, II, and III MPEG audio player MPEG audio player (FTP) MP3 --- ISO/MPEG Audio Layer 3 MP4 encoder/decoder --> ML3CD Specification MP3 Jukebox DCC, CD-I, and MPEG multichannel audio A DSP-based decompressor unit for high-fidelity MPEG-Audio over TCP/IP networks Xaudio Player --- MPEG Audio MP1, MP2, and MP3 Decoder data MPEG Movie Clips MPEG data ftp://sotka.cs.tut.fi/cost/Ossi/sequences/ Organizations and Symposiums Organizations ISO ITU IEEE IEEE Information Theory Society IEEE Communication Society IEEE Signal Processing Society ACM AMS IEICE IPSJ ITE Simposiums List of Conferences related to Compression Schedule of International Conferences I and C Data Compression Conference (DCC) (Snowbird, Utah, USA) Compression and Complexity of SEQUENCES 1997 SITA '96 (Hakone, Japan) ISITA '96 (Victoria, Canada) ISITA '96 Information ITW '96 PCS '97 ITW '99 (June 20-25, 1999, South Africa) ITW '99 (June 27-July 1, 1999, Greece) CPM '99 (July 22-24, 1999, Univ. Warwick, UK) IBIS '99 (Aug. 26-27, 1999, Shuzenji, Japan) PCSJ99 and IMPS99 (Sep. 27-29, Karuizawa, Japan) IEE Data Compression Colloquium: Methods and Implementations (Nov. 23, 1999, London, UK) SITA '99 (Nov. 30-Dec. 3, 1999, Yuzawa, Japan) ISIT 2000 (June 25-30, 2000, Sorrento, Italy) IBIS 2000 (July 17-18, 2000, Shuzenji, Japan) SITA 2000 (Oct. 10-Oct. 13, 2000, Aso, Japan) ISITA 2000 (Nov. 5-8, 2000, Honolulu, USA) Information Theory Researchers / Data Compression Programmers Directory of IT Researchers Directory of People on Data Compression (in Compression Pointers) Ahlswede, Rudolf Abrahams, Julia Bell, Timothy C. -- Managing Gigabytes , Calgary/Canterbury Text Compression Corpus Berger, Toby Berlekamp, Wlwyn Blahut, Richard E. Bloom, Charles -- LZP algorithm , PPMZ , Binary Range Encoder Cover, Thomas Cleary, John G. Cormack, Gordon V. -- DMC Fenwick, Peter -- Some Analyses on Block Sorting Compression Forney, G. David Gray, Robert M. Huffman, David A. Kieffer, John C. Gailly, Jean-loup -- comp.compression FAQ , The Data Compression Book , gzip Glen G. Langdon, Jr. Merhav, Neri Moffat, Alistair -- Managing Gigabytes Nelson, Mark -- The Data Compression Book Nevill-Manning, Craig Rao, T. R. N. Reed, Irving S. Sloane, Neil J.A. Storer, Jim -- Data Compression Conference Szpankowski, Wojciech Teahan, Bill -- PPM Turpin, Andrew -- Huffman Coding Verdu, Sergio Williams, Ross N. -- LZRW1 , LZRW4 , Adaptive Data Compression Willems, Frans M.J. -- Context Tree Weighting Method Witten, Ian H. -- Managing Gigabytes , PPM Wyner, Aaron D. Yang, En-Hui Mitsuharu Arimura's Page This page is maintained by Mitsuharu Arimura ( arimura@hn.is.uec.ac.jp ) . Please do not publish the copy of the source file of this page by FTP/WWW without noting it is based on this page. $ Id: compression_links.html,v 1.113 2001/10/19 10:06:11 arimura Exp $   --> 
+---------------------------------------------------------------------
+
+Mitsuharu ARIMURA's Bookmarks on Source Coding/Data Compression
+
+This page is http://www.hn.is.uec.ac.jp/~arimura/compression_links.html. 
+Check out the Bibliography on Source Coding/Data Compression too. 
+---------------------------------------------------------------------
+
+Contents
+
+* Data Compression 
+
+* Pointers and FAQs 
+* Books and Lecture Notes 
+* Standard Data for Performance Evaluation 
+* Data Compression Program Archives 
+* Data Compression Algorithms 
+
+* Image/Video/Audio Compression 
+
+* Still Picture/Image Compression 
+* Graphic File Formats 
+* Fractal Image Compression 
+* Wavelet and Subband Coding 
+* Video Compression 
+* Audio Compression 
+* Image/Video/Audio Compression Standards (JPEG, MPEG, etc.) 
+
+* Committee 
+
+* Organizations and Symposiums 
+* People 
+
+---------------------------------------------------------------------
+
+Pointers 
+
+*  Compression Pointers 
+*  Compression Links by Markus F.X.J. Oberhumer 
+*  Compression Links by Kawabata Lab. 
+*  Compression Links by Hiroaki Sakaguchi 
+*  Compression Links by Haruhiko Okumura 
+*  Compression Links by Helger Lipmaa 
+*  Compression Links by Compression Communications 
+*  Compression Source Code Guide and some Links by Takayuki Fukushima (in Japanese) 
+*  Compression Links by Common Archivers Library (in Japanese) 
+*  Compression and Signal Processing Links  by   Robert M. Gray 
+*  Information Theory and Cryprography Links by Lars Bumer 
+*  Yakov Nekrich's Lossless Image Compression Links 
+*  comp.compression FAQ (1) 
+*  comp.compression FAQ (2) 
+*  Compression FAQ (FTP) 
+*  MPEG-1 FAQ 
+*  MPEG-2 FAQ 
+*  JPEG FAQ 
+*  Information Content and Compression Limit FAQ 
+*  Hypertext Bibliography of Measures of Complexity 
+*  Annotated Bibliography of Perfectly Random Sampling with Markov Chains 
+
+---------------------------------------------------------------------
+
+Books and Lecture Notes 
+
+*  Book List on Data Compression 
+* The Ergodic Theory of Discrete Sample Paths 
+
+*  Home Page 
+* Author:  Paul C. Shields 
+
+* The Data Compression Book 
+
+*  Home Page 
+* Authors:  Mark Nelson and  Jean-loup Gailly 
+
+* Adaptive Data Compression 
+
+* Author:  Ross Williams 
+
+* Managing Gigabytes 
+
+*  Home Page 
+* Authors:  Ian H. Witten,  Alistair Moffat, and  Timothy C. Bell
+ 
+*  MG system 
+
+* Introduction to Data Compression 
+
+*  Home Page 
+* Author: Khalid Sayood 
+
+* Introduction to Information Theory and Data Compression 
+
+*  Home Page 
+* Authors: Darrel Hankerson, Greg A. Harris, and Peter D. Johnson Jr. 
+
+* Data Compression: The Complete Reference 
+
+*  Home Page 
+* Author:  David Salomon 
+
+* Compression Algorithms for Real Programmers 
+
+*  Home Page 
+* Author: Peter Wayner 
+
+* Dr. Dobb's Journal 
+
+*  Home Page 
+
+* Online Lecture Notes and Surveys 
+
+*  Some Paper and Books about Information Theory 
+*  Information Theory II by Woon-Tack Woo, UCSC 
+*  Data Compression Seminar by   John C. Kieffer, U. of Minnesota 
+*  Source Coding and Quantization by   John C. Kieffer, U. of Minnesota 
+*  Information Theory and Coding by   Roberto Togneri, U. of W.Australia 
+*  Information and Coding Theory by   Giorgos Tziritas, U. of Crete 
+*  Information Theory by John Lafferty, CMU 
+* D.A. Lelewer and D.S. Hirschberg,   "Data Compression,"  Computing Surveys Vol.19, No.3, pp.261-297, 1987,
+ Reprinted in  BIT, Special issue in Computer Science,  pp.165-195, 1989. 
+*  A Short Course in Information Theory by David J.C. MacKey, Cavendish Laboratory. 
+*  Information Theory by   Thomas Cover 
+*  CS294-3: Algorithms in the Real World---Topic 1:  Compression by   Guy E. Blelloch at U.C. Berkeley. 
+
+---------------------------------------------------------------------
+
+Standard Data for Performance Evaluation 
+
+* Calgary/Canterbury Text Compression Corpus 
+
+*  Calgary/Canterbury Corpus Home Page 
+*  Calgary Corpus 
+*  New Canterbury Corpus 
+* Ross Arnold and Tim Bell,   "A Corpus for the Evaluation of Lossless Compression Algorithms",   Proc. IEEE Data Compression Conference,  Snowbird, Utah, March 1997. 
+
+*  Standard Image Data Base (SIDBA) 
+*  Grayscale and Color Test Images 
+*  CCITT standard images 
+*  Standard Movie Data 
+*  Standard Movie Data ("Flower Garden" and "Table Tennis") 
+*  IUE Data Base 
+*  Multi-Modal Data Base 
+
+---------------------------------------------------------------------
+
+Data Compression Program Archives 
+
+*  http://www.csdinc.co.jp/archiver/ (in Japanses) 
+*  ftp://ftp.matsusaka-u.ac.jp(FTP) 
+*  ftp://garbo.uwasa.fi (FTP) 
+*  ftp://ftp.uu.net (FTP) 
+*  ftp://ftp.iij.ad.jp (FTP) 
+*  ftp://ftp.elf.stuba.sk mirror at ftp://ftp.cs.tu-berlin.de (FTP) 
+*  ftp://ftp.win.tue.nl/pub/compression/ (FTP) 
+*  http://wwwperso.hol.fr/~grenault/ 
+*  Archive Comparison Test by Jeff Gilchrist 
+*  PKZIP-compatible library 
+*  http://www.csdinc.co.jp/archiver/ 
+*  ftp://ftp.ross.net/clients/ross/compression/ 
+
+---------------------------------------------------------------------
+
+Data Compression Algorithms 
+
+*  Computer Journal, Joint Special Issue on Lossless  Compression, Vol.40, Issue 2/3, 1997. 
+*  Links of Compression Source Code 
+*  Compression Page by Dario Phong 
+* Arithmetic Coding 
+
+* IBM Patent   #5422734 
+* Mark Nelson,   "Arithmetic Coding + Statistical Modeling = Data Compression,"  Dr. Dobbs Journal, Feb. 1991. 
+*  A. Moffat, R. Neal, I.H. Witten,   "Arithmetic Coding Revisited,"  Proc. IEEE Data Compression Conference,  Snowbird, Utah, March 1995, pages 202-211. 
+* Colin Boyd, John G. Cleary, Sean A. Irvine, Ingrid  Rinsma-Melchert, and Ian H. Witten,   "Integrating Error Detection into Arithmetic Coding,"  IEEE Transactions on Information Theory,  vol. 45, no. 1, Jan. 1997. 
+*  Source Code (FTP) 
+*  Source code of Arithmetic and Huffman coding by Xiaolin Wu (FTP) 
+*  Range encoder --- Source Code by Michael Schindler 
+*  ELS Coder (Pegasus arithmetic coder) paper and source code (FTP)  ---  licensing info 
+*  Source Code by Frederick W. Wheeler 
+* Charles Bloom,   "Virtual Queue for Arithmetic Coding." 
+
+* Context Tree Weighting Method 
+
+* Frans M.J. Willems 
+
+*  The Context Tree Weighting Project 
+*  Frans M.J. Willems, Yuri M. Shtarkov, and Tjalling J. Tjalkens,   "The Context Tree Weighting Method: Basic Properties,"  IEEE Trans. Inform. Theory, May 1995.  
+ (one-page poster) 
+*  Frans M.J. Willems, Yuri M. Shtarkov, and Tjalling J. Tjalkens,   "Context Weighting for General Finite-Context Sources,"  IEEE Trans. Inform. Theory, Sept. 1996. 
+*  Frans M.J. Willems,   "Extensions to the Context Tree Weighting Method,"  Proc. ISIT'94, Trondheim, Norway, June 1994. 
+*  Frans M.J. Willems,   "Coding for a Binary Independent Piecewise-Identically  Distributed Source,"  submitted to IEEE Trans. Inform. Theory. 
+
+*  Hiroaki Sakaguchi ---   Demonstration in JavaScript 
+
+* Block Sorting Algorithm 
+
+*  In comp.compression FAQ 
+*  Michael Burrows and David J. Wheeler,   "A Block-sorting Lossless Data Compression Algorithm,"  Digital Systems Research Center Research Report 124,  May 1994. 
+* Peter Fenwick 
+
+*  Peter Fenwick's Page 
+*  Peter Fenwick,   "Block Sorting Text Compression,"  Proceedings of the 19th Australasian Computer Science Conference,   Melbourne, Australia. Jan 31 - Feb 2, 1996. 
+*  Peter Fenwick,   "Experiments with a Block-Sorting Text Compression Algorithm,"  The University of Auckland, Department of Computer Science,  Technical Report 111, March 1995. 
+*  Peter Fenwick,   "Improvements to the Block-Sorting Text Compression Algorithm,"  The University of Auckland, Department of Computer Science,  Technical Report 120, July 1995. 
+*  Peter Fenwick,   "Block Sorting Text Compression --- Final Report,"  The University of Auckland, Department of Computer Science,  Technical Report 130, April 1996. 
+
+*  Mark Nelson,   "Data Compression with the Burrows-Wheeler Transform,"  Dr.Dobb's Journal, Sep. 1996. 
+*  Michael Schindler,   "A Fast Block-Sorting Algorithm for Lossless Data Compression,"  Proc. of Data Compression Conference (DCC97),  Snowbird, Utah, pp.~469, March 1997. 
+* Mitsuharu Arimura 
+
+*  Mitsuharu Arimura and Hirosuke Yamamoto,   ``A Performance Analysis of Block Sorting Algorithm,''  Simposium on Information Theory and Its Applications (SITA97),  Matsuyama, Ehime-ken, Japan, Dec. 2-5, 1997 (in Japanese). 
+*  Mitsuharu Arimura and Hirosuke Yamamoto,   ``Asymptotic Optimality of the Block Sorting Data  Compression Algorithm,''  IEICE Trans. Fundamentals,  Vol.E81-A, No.10, pp.2117-2122, Oct. 1998. 
+*  Mitsuharu Arimura and Hirosuke Yamamoto,   ``Almost Sure Convergence Coding Theorem for Block Sorting Data  Compression Algorithm,''  International Simposium on Information Theory and its  Applications (ISITA98), Mexico City, Mexico,  Oct. 14-16, 1998. 
+
+* Implementations 
+
+*  Zzip --- by   Damien DEBIN 
+*  szip --- by   Michael Schindler 
+*  bzip --- by   Julian Seward 
+*  bzip2 --- by   Julian Seward 
+*  bred --- by David J. Wheeler 
+*  bwc --- by Willem-Jan Monsuwe 
+
+* Ziv-Lempel and related methods 
+
+* gzip, zlib, deflate 
+
+*  http://quest.jpl.nasa.gov/zlib/ 
+*  ftp://ftp.uu.net/graphics/png/documents/zlib/zdoc-index.html 
+*  GZIP file format specification version 4.3 
+
+* LZP algorithm 
+
+* Charles Bloom,   "LZP: a new data compression algorithm,"  Proc. IEEE Data Compression Conference, 1996. 
+*  Home Page 
+
+* LHA 
+
+*  LHA World by Haruyasu Yoshizaki 
+*  lha for UNIX 1.14f 
+
+*  JZip --- written in Java 
+*  LZO --- a real-time data compression library 
+*  LZOP --- a compressor using LZO library 
+*  InfoZip 
+*  LZW and GIF encoder 
+*  Hybrid LZ77 RLE Data Compression Program 
+*  LZW-FP and FPA--- Optimal Parsing for Dictionary Based  Compression Schemes 
+
+* ACB 
+
+*  by George M. Buyanovsky 
+*  by Leonid A. Broukhis 
+
+* Recency Rank Coding 
+
+* Peter Fenwick,   "Symbol Ranking Text Compression with Shannon Recodings,"  Journal of Universal Computer Science,  Vol.3, No.2, pp.70-85, 1997. 
+* Marcelo J. Weinberger and Gadiel Seroussi,   "Sequential Prediction and Ranking in Universal Context  Modeling and Data Compression,"  HP Labs Technical Reports,  HPL-94-111, Jan. 1997. 
+
+* PPM 
+
+*  PPM Papers by Bill Teahan 
+*  PPM Programs by Bill Teahan (FTP) 
+*  PPM R --- implementation by Rogerio Brito (FTP) 
+*  PPMZ --- implementation by Charles Bloom 
+*  BICOM (Bijective Compressor) implementation by Matt Timmermans 
+
+* Zip-A-Pic --- A new global multimedia zipping and mailing system 
+
+*  http://www.fis.lv/olympic/ 
+*  mirror at http://www.winsite.com/info/pc/win3/misc/fullview.zip/ 
+
+* Microsoft CABinet File 
+
+*  http://msdn.microsoft.com/library/sdkdoc/setupapi/setupapi_35mb.htm 
+*  http://www.ddj.com/ftp/1997/1997.05/cabinet.zip 
+*  ftp://ftp.mv.com/pub/ddj/1997/1997.05/cabinet.zip 
+
+* Huffman Coding 
+
+*  http://www.ics.uci.edu/~dan/pubs/DC-Sec4.html 
+*  http://www.cs.mu.oz.au/~alistair/inplace.c 
+
+* DMC 
+
+*  Dynamic Markov Compression (FTP)  
+(including source code of  Tong Lai Yu, ``Dynamic Markov Compression,''  Dr. Dobb's Journal #243, 30-33, 96-100, Jan. 1996.) 
+* S.Bunton,  ``On-Line Stochastic Processis in Data  Compression,'' Ph.D. Dissertation, University of  Washington, 1996.(FTP) 
+
+*  iZ --- Compression of Image and Text together 
+*  ftp://ftp.imag.fr/pub1/compression/codecs/ (FTP) 
+*  Squeeze 
+*  USES (Universal Source Encoder for Science data) 
+*  MINC --- universal lossless data compressor 
+*  ACE 
+*  A Neural Network based method for Data Compression 
+*  Minimum Message Length (MML) Inference 
+*  rkive 
+*  SP Theory and SP System 
+
+---------------------------------------------------------------------
+
+Still Picture/Image Compression 
+
+*  Binary Tree Predictive Coding (lossy/lossless) 
+*  EW Code (lossless) (FTP) 
+*  ELS algorithm (lossless) 
+*  MMR Compression (used in FAX, lossless) 
+*  pbm2cps --- PBM to PS converter with Compression 
+*  pbm2cps report 
+*  PGM DCT image compression system 
+*  3D DCT image compression system 
+*  Howard Taylor's Master Thesis 
+
+---------------------------------------------------------------------
+
+Graphic File Formats 
+
+*  YCbCr Color Space 
+*  MPEG, JPEG, JBIG, H.261, H.263, H.324 
+*  The AVI Graphics Format Overview 
+*  Bitmap File Formats(1) 
+*  Bitmap File Formats(2) (FTP) 
+*  TIFF 6.0 spec (FTP) 
+*  QV10 FAQ 
+*  QV10 source (FTP) 
+*  Compressed Postscript Documents FAQ 
+*  TrueVision targa (TGA) file 
+* GIF (Graphics Interchange Format) 
+
+*  GIF 87a format (FTP) 
+*  GIF 89a format (FTP) 
+*  Animated GIF 
+
+* PNG (Portable Network Graphics) 
+
+*  http://quest.jpl.nasa.gov/PNG/ (official page) 
+*  http://www.boutell.com/boutell/png/ 
+*  http://www.w3.org/pub/WWW/Graphics/PNG/ 
+
+* FTP site of source code 
+
+*  MPEG --- ftp://ftp.mni.mcgill.ca/pub/mpeg/ 
+*  MPEG --- ftp://ftp.arc.umn.edu/pub/GVL/ 
+*  PNG --- ftp://ftp.uu.net/graphics/png/src/ 
+*  ra_ppm --- ftp://hobbes.lbl.gov/Radiance3R0.tar.gz 
+*  Utah Raster Toolkit --- ftp://ftp.cs.utah.edu/pub/urt-3.1b.tar.Z 
+*  TIFF --- ftp://ftp.sgi.com/graphics/tiff/tiff-v3.4beta035-tar.gz 
+*  TILE --- http://the-tech.mit.edu/cgi-bin/KPT_bgs2.pl 
+*  JPEG --- ftp://ftp.uu.net/graphics/jpeg/jpegsrc.v6b.tar.gz 
+*  JBIG --- ftp://ftp.informatik.uni-erlangen.de/pub/doc/ISO/JBIG/ 
+*  HDF --- ftp://ftp.ncsa.uiuc.edu/HDF/HDF4.0r2/tar/HDF4.0r2.tar.gz 
+
+---------------------------------------------------------------------
+
+Fractal Image Compression 
+
+*  Links on Fractal Image Encoding by Yuval Fisher 
+*  Links on Fractal Image Encoding on Tokunaga Lab. 
+*  Iterated Systems, Inc. 
+*  Mitsubishi Corp. 
+*  Fractal Papers (FTP) 
+*  Fractal Softwares (FTP) 
+*  yuvpak (FTP) 
+*  byte Oct. 1993 (FTP) 
+*  Lucia Vences and Isaac Rudomin 
+*  Introduction by Jason Stewart 
+
+---------------------------------------------------------------------
+
+Wavelet and Subband Coding 
+
+*  Wavelet Digest 
+*  Summus, Ltd. 
+*  Amara's Wavelet Page 
+*  An Introduction to Wavelets 
+*  Wavelet Digest 
+*  Collection of Papers 
+*  Wavelet and other papers 
+*  EPIC (FTP) 
+*  wavelet.reg (FTP) 
+*  hcompress (FTP) 
+*  Jian Lu 
+*  Filter Banks 
+*  Multirate Signal Processing 
+*  Wavelet Music Compression Technology 
+*  Wavelet Image Compression Construction Kit 
+*  SPIHT --- Image Compression with Set Partitioning in  Hierarchical Trees 
+*  Wavelet and predictor-based image compression 
+*  http://www.coastnet.com/~darkblade 
+*  UCB Wavelet Group 
+*  Publications of Image Communications Lab, UCLA. 
+*  ICompress v.II 
+* Robert W. Buccigrossi and Eero P. Simoncelli,
+   "Image Compression via Joint Statistical Characterization in the Wavelet Domain,"
+ GRASP Laboratory Technical Report #414, Univ. of Pennsylvania,  May 30, 1997. 
+*  Digital Video Recorders --- Wavelet Compression Cards for PCI slot 
+*  Wavelet Image Compression Demo Page 
+
+---------------------------------------------------------------------
+
+Video Compression 
+
+*  QuickTime 
+*  Intel Indeo 
+*  Microsoft Multimedia File Formats 
+*  Digital Video Coding activities at Telenor R&D 
+*  XAnim 
+*  SoftMPEG 
+*  GIF Animator 
+*  CU-SeeMe 
+
+---------------------------------------------------------------------
+
+Audio Compression 
+
+*  Lossless Audio Compression 
+*  TwinVQ --- one of MPEG4 Audio Compression Methods 
+*  SoundVQ 
+*  ATRAC --- MiniDisc Audio Compression 
+*  RealAudio 
+*  RealAudio to WAV file comverter 
+
+---------------------------------------------------------------------
+
+Image/Video/Audio Compression Standards 
+
+* FAQ, Pointers 
+
+*  MPEG Pointers at www.cs.waikato.ac.nz 
+*  MPEG-1 FAQ at U.C. Berkeley 
+*  MPEG-2 FAQ at U.C. Berkeley 
+*  MPEG FAQ 
+*  MPEG FAQ (FTP) 
+*  JPEG FAQ 
+*  JPEG FAQ (FTP) 
+*  Journal of Video Coding Related Links  (H.263, H.261, and MPEG) 
+
+* Still Picture Compression 
+
+*  List of relevant patents given in the JPEG spec 
+*  Independent JPEG Group 
+*  JBIG2 Standard 
+*  IJG JPEG Codec (FTP) 
+*  JBIG-KIT library Ver.1.0 (FTP) 
+*  http://www.jpg.com/ 
+*  MPEG, H.261, JPEG (/w lossless) by Stanford PVRG (FTP) 
+*  PVRG (FTP in Japan) 
+*  JPEG with arithmetic coding  (with  patch to IJG JPEG-v6b) 
+*  LOCO-I/JPEG-LS software 
+*  JJ2000 --- JPEG2000 implementation on Java 
+
+* Video Compression 
+
+*  MPEG Pointers and Resources (http://www.mpeg.org/) 
+*  The MPEG Home Page --- MPEG-1, MPEG-2, MPEG-4, MPEG-7, etc. 
+*  MPEG Research at U.C. Berkeley 
+*  MPEG Codec (UCB FTP) 
+*  MPEG1, MEPG2, VMPEG (netcom FTP) 
+*  H.261 Codec 
+*  H.261 capture and player for Win95 
+*  H.263 Software 
+*  H.263 Encoder 
+*  H.323 
+*  Motion JPEG Software 
+*  MpegTV 
+*  converter from AVI to MPEG 
+*  MPEG2Tool at University of Pennsylvania (FTP) 
+*  MPEG, H.261, JPEG (/w lossless) by Stanford PVRG (FTP) 
+*  PVRG (FTP in Japan) 
+*  http://www.visiblelight.com/ 
+*  http://www.ids-net.com/mpeg/mpeg.html 
+*  http://www.womble.com --- MPEG editor. 
+*  Java MPEG Player 
+*  Java H.261 Player 
+*  UCL --- Communications and Remote Sensing Laboratory (TELE) 
+
+* Audio Compression 
+
+*  MPEG audio page 
+*  MPEG audio (FTP) 
+*  MPEG audio program (FTP) 
+*  G.722 audio compression (FTP) 
+*  Maplay 1.2+ for Win32 --- for Layer I, II, and III 
+*  MPEG audio player 
+*  MPEG audio player (FTP) 
+*  MP3 --- ISO/MPEG Audio Layer 3 
+*  ML3CD Specification 
+*  MP3 Jukebox 
+*  DCC, CD-I, and MPEG multichannel audio 
+*  A DSP-based decompressor unit for high-fidelity  MPEG-Audio over TCP/IP networks 
+*  Xaudio Player --- MPEG Audio MP1, MP2, and MP3 Decoder 
+
+* data 
+
+*  MPEG Movie Clips 
+*  MPEG data 
+*  ftp://sotka.cs.tut.fi/cost/Ossi/sequences/ 
+
+---------------------------------------------------------------------
+
+Organizations and Symposiums 
+
+* Organizations 
+
+*  ISO 
+*  ITU 
+*  IEEE 
+*  IEEE Information Theory Society 
+*  IEEE Communication Society 
+*  IEEE Signal Processing Society 
+*  ACM 
+*  AMS 
+*  IEICE 
+*  IPSJ 
+*  ITE 
+
+* Simposiums 
+
+*  List of Conferences related to Compression 
+*  Schedule of International Conferences 
+*  I and C 
+*  Data Compression Conference (DCC) (Snowbird, Utah, USA) 
+*  Compression and Complexity of SEQUENCES 1997 
+*  SITA '96 (Hakone, Japan) 
+*  ISITA '96 (Victoria, Canada) 
+*  ISITA '96 Information 
+*  ITW '96 
+*  PCS '97 
+*  ITW '99 (June 20-25, 1999, South Africa) 
+*  ITW '99 (June 27-July 1, 1999, Greece) 
+*  CPM '99 (July 22-24, 1999, Univ. Warwick, UK) 
+*  IBIS '99 (Aug. 26-27, 1999, Shuzenji, Japan) 
+*  PCSJ99 and IMPS99 (Sep. 27-29, Karuizawa, Japan) 
+*  IEE Data Compression Colloquium: Methods and Implementations (Nov. 23, 1999, London, UK) 
+*  SITA '99 (Nov. 30-Dec. 3, 1999, Yuzawa, Japan) 
+*  ISIT 2000 (June 25-30, 2000, Sorrento, Italy) 
+*  IBIS 2000 (July 17-18, 2000, Shuzenji, Japan) 
+*  SITA 2000 (Oct. 10-Oct. 13, 2000, Aso, Japan) 
+*  ISITA 2000 (Nov. 5-8, 2000, Honolulu, USA) 
+
+---------------------------------------------------------------------
+
+Information Theory Researchers / Data Compression Programmers 
+
+*  Directory of IT Researchers 
+*  Directory of People on Data Compression(in Compression Pointers) 
+*  Ahlswede, Rudolf 
+*  Abrahams, Julia 
+*  Bell, Timothy C. --   Managing Gigabytes,   Calgary/Canterbury Text Compression Corpus 
+*  Berger, Toby 
+*  Berlekamp, Wlwyn 
+*  Blahut, Richard E. 
+*  Bloom, Charles --   LZP algorithm,   PPMZ,   Binary Range Encoder 
+*  Cover, Thomas 
+*  Cleary, John G. 
+*  Cormack, Gordon V. --   DMC 
+*  Fenwick, Peter --  Some Analyses on Block Sorting Compression 
+*  Forney, G. David 
+*  Gray, Robert M. 
+*  Huffman, David A. 
+*  Kieffer, John C. 
+*  Gailly, Jean-loup --   comp.compression FAQ,   The Data Compression Book,   gzip 
+*  Glen G. Langdon, Jr. 
+*  Merhav, Neri 
+*  Moffat, Alistair --   Managing Gigabytes 
+*  Nelson, Mark --   The Data Compression Book 
+*  Nevill-Manning, Craig 
+*  Rao, T. R. N. 
+*  Reed, Irving S. 
+*  Sloane, Neil J.A. 
+*  Storer, Jim --   Data Compression Conference 
+*  Szpankowski, Wojciech 
+*  Teahan, Bill --   PPM  
+*  Turpin, Andrew --   Huffman Coding  
+*  Verdu, Sergio 
+*  Williams, Ross N. --   LZRW1,   LZRW4,  Adaptive Data Compression 
+*  Willems, Frans M.J. --   Context Tree Weighting Method 
+*  Witten, Ian H. --   Managing Gigabytes,   PPM  
+*  Wyner, Aaron D. 
+*  Yang, En-Hui 
+
+---------------------------------------------------------------------
+Mitsuharu Arimura's Page 
+---------------------------------------------------------------------
+This page is maintained by Mitsuharu Arimura ( arimura@hn.is.uec.ac.jp). 
+Please do not publish the copy of the source file of this page by FTP/WWW without noting it is based on this page. 
+$Id: compression_links.html,v 1.113 2001/10/19 10:06:11 arimura Exp $ 

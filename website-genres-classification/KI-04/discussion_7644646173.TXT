@@ -1,0 +1,239 @@
+
+
+Our Publishing Partners:	 Addison-Wesley	 Cisco Press	 New Riders	 Peachpit Press	 Prentice Hall PTR	 Que Publishing	 Sams Publishing	 
+
+if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || navigator.userAgent.indexOf("WebTV")>= 0) { document.write(''); document.write('') } 	    	     
+
+Log InView Cart
+
+All Products
+ 
+Book Store
+ 
+Online Books
+ 
+Articles
+ 
+Reference Guides
+ 
+Free Library
+
+Advanced |       Help	 
+
+Home > Articles > Operating Systems > Linux > 	
+
+Save
+
+ 	
+
+Discuss
+
+Print
+
+  	
+
+E-mail
+
+Building a Linux KernelDEC 19, 2003 By Russ Hunter. 
+
+1	Introduction	
+2	Things You'll Need	
+3	Kernel Configuration	
+4	Building the Kernel	
+5	In Case of Emergency...	
+6	Conclusion	
+
+If you like this article read this related book, Linux Kernel Development.
+
+Burn It and Boot It: "Live CD" Linux	
+Security Scanning with Nessus	
+more&#133;	
+
+Installing Fedora	
+Burn It and Boot It: "Live CD" Linux	
+TOURCast: A Real-Time Golf Coverage Application on Linux	
+more&#133;	
+
+Red Hat Linux 9: Visual QuickPro Guide	
+Red Hat Linux Fedora Unleashed	
+Linux Shell Scripting with Bash	
+more&#133;	
+
+Managing Linux Systems with Webmin: System Administration and Module Development	
+Real World Linux Security	
+Multitool Linux: Practical Uses for Open Source Software	
+more&#133;	
+
+ 
+
+Advertise With Us	 
+
+Kernel Configuration
+
+Here's a summary of the steps:
+
+1.  
+
+make mrproper.
+
+2.  
+
+make xconfig (or make menuconfig).
+
+3.  
+
+Load the saved config file, if you have one.
+
+4.  
+
+make dep.
+
+5.  
+
+make bzImage.
+
+6.  
+
+make modules.
+
+7.  
+
+make modules_install.
+
+8.  
+
+Copy arch/architecture/boot/bzImage to /boot/bzImage.name.
+
+9.  
+
+Configure the bootloader.
+
+The master configuration for your kernel is stored in /usr/src/version/.config. This file is created by the config process you'll run, and it's a good idea to copy it somewhere else in case you need to build another kernel with minor changes later on. A number of configuration templates are provided with the kernel source; they're located in the configs directory. These templates can be used as a starting point for creating your own kernel.
+
+Before configuring your kernel, clean up your source directory:
+
+[root@heinz linux-2.4.20-8]# make mrproper
+
+The make mrproper command cleans up any leftover files from previous kernel builds in your source directory.
+
+NOTE
+
+It also wipes out any .config files in your source directory.
+
+Next, you need to name your kernel by editing the Makefile, located in your source directory. The first four lines of the Makefile define the kernel version:
+
+VERSION = 2
+PATCHLEVEL = 4
+SUBLEVEL = 20
+EXTRAVERSION = -8
+
+Just change the EXTRAVERSION entry to a unique identifier for the kernel you're building:
+
+EXTRAVERSION = -oct-03
+
+This identifier will show up in your boot menu, and will also define a unique module directory for the kernel.
+
+Now you're ready to configure the kernel. There are a number of interface choices, and the README file provides a full list. The most important ones to know are menuconfig (text-based, as shown in Figure 2) and xconfig (X11-based, as shown in Figure 3). The xconfig interface is much easier to work with, and I wouldn't recommend using menuconfig unless your system lacks X11 support. Here's the syntax:
+
+[root@heinz linux-2.4.20-8]# make xconfig
+
+or
+
+[root@heinz linux-2.4.20-8]# make menuconfig
+
+Figure 2 The menuconfig interface.
+
+Figure 3 The xconfig interface.
+
+The configuration interface presents an exhaustive list of options. For each option, three choices are available:
+
+* 
+
+Yes. Support will be compiled directly into the kernel.
+
+* 
+
+Module. Support will be provided via a loadable kernel module.
+
+* 
+
+No. Support is not included.
+
+NOTE
+
+Loadable kernel modules offer a way for drivers to be loaded dynamically into the kernel. Loading drivers only if needed keeps the overall size of the kernel to a minimum. If you want to leave the door open for hardware upgrades in the future, include modules for anything you might be adding to the system.
+
+As you start to drill down into the individual categories, you may find the choices a bit overwhelming. The xconfig interface really helps out here, as there's a help option for almost every choice. Knowing the hardware in your system will simplify the process as well. After you've made all your choices, click the Save button to store everything in the .config file (located in your source directory), and exit the configuration tool. If you're storing copies of your .config files in another location, don't forget to copy the new one over.
+
+ 	  	
+Next Section4. Building the Kernel		
+
+ 	
+
+How would you rate this article?	  	
+1 - Poor
+
+2
+
+3 - Average
+
+4
+
+5 - Good
+
+  		
+
+ 	
+
+Comment	Author	Replies	Posted	
+
+ nothing new
+
+my_all@postmaster.co.uk
+
+5	DEC 22, 2003 02:44:08 AM	
+
+ Kernel buld How-To
+
+Larry
+
+5	DEC 21, 2003 12:39:32 PM	
+
+ Read the source? Get real.
+
+barius
+
+3	DEC 22, 2003 05:58:17 PM	
+
+ Over-general subject
+
+paulbowman
+
+3	DEC 22, 2003 01:36:09 PM	
+
+ no root
+
+barius
+
+1	DEC 22, 2003 05:46:28 PM	
+
+See All Comments 	
+ 	
+
+Make a New Comment	
+
+Subject:
+
+Username:
+
+Message:
+
+if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || navigator.userAgent.indexOf("WebTV")>= 0) { document.write(''); document.write('') } 	
+
+About Us | Advertise On InformIT | Contact Us | Site Map | Book Registration
+
+© 2004 Pearson Education, Inc. InformIT Division. All rights reserved.	 
+800 East 96th Street Indianapolis, Indiana 46240	 
+Legal Notice | Privacy Policy	 
+
+

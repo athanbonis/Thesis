@@ -1,0 +1,196 @@
+20%. (I also got 1848 hits for _gage_.) For _misspell/misspelling_, some use the hyphenated forms _mis-spell_ etc. instead. Further, _misspelled_ is common in the U.S., while _misspelt/mis-spelt_ is the usual form in most other English-speaking countries. I didn't count the hyphenated forms of _mis-spell_ one way or the other. I found 486 instances of _misspell_, 52 for _mis-spell_, and 87 for _mispell_. Cases of _misspelled_ total 2254; _mis-spelled_ 209; _mispelled_ 452. For _misspelt_, 148; _mis-spelt_ 70; _mispelt_ 32. Note about _supersede_... There is Asymetrix's "SuperCede for Java." Some of the posts I found in searching for _supercede_ were indeed about Asymetrix's SuperCede. (It's not case sensitive, so _supercede, Supercede, SuperCede_, etc. all turn up). I searched for occurrences of _supersede, supercede, superceed_, and _superseed_. The form _supersede_ made up about 45% of the total. There were just a few hits for _superceed_ or _superseed_, while almost all the rest -- almost 55% -- were _supercede_. From reading thru many of the posts, I determined that at least two-thirds of the time _supercede_ was being used for the word _supersede_, while one-third or less it was for Asymetrix's SuperCede. Notes about _mischievous_ and _height_... With each of these words, some of the non-standard spellings I found also reflect widespread non-standard pronunciations each of these words have. _Mischievous_ is often (erroneously) pronounced as if there were an "i" (or "e") between the "v" and the "ous." The spellings and number of occurrences found in this survey: mischievous 1203 mischevious 255 mischeivous 51 mischievious 182 mischevous 15 mischeivious 30 mischivous 8 mischieveous 7 mischiveous 7 mischeiveous 2 _Height_ is sometimes pronounced as if the final "t" were "th" as in _think_. However, only some of the misspellings of _height_ were those ending in "-th"; and the most common non-standard spellings of _height_ were _hight_ and _hieght_. _Hight_, incidentally, is given as a valid variant of _height_ in some unabridged dictionaries. Here are the numbers of individual spellings found for some of the other words in this study: occurrence 5508 occurring 6747 occurance 2109 occuring 3823 occurence 1983 ocurring 111 occurrance 221 ocuring 4 ocurrence 43 ocurrance 8 ocurence 3 accommodate 9220 accommodation 4135 accomodate 5862 accomodation 2395 accomadate 233 accomadation 104 accommadate 32 acommodation 57 acommodate 23 accommadation 42 acomodate 21 acomodation 6 acommadate 1 acommadation 1 noticeable 7888 harass 3037 noticable 3819 harrass 1262 noticible 322 harras 305 noticeble 36 haress 15 noticiable 18 herass 13 noteceable 5 harress 1 notacible 1 embarrass 2425 embarrassment 6585 embarass 877 embarassment 7121 embarras 135 embarrasment 578 embarress 33 embarasment 75 embaress 19 embarressment 63 embaras 1 embaressment 48 (and a handful each of: emberassment, emberrasment, embaresment, emberasment) privilege 7035 priviledge 1050 privalege 38 privelege 521 privelidge 36 privledge 331 privlage 21 priveledge 238 privaledge 18 privilage 212 privalage 15 privelage 134 privellege 12 privelige 61 privlidge 12 privlege 40 privlige 11 (and a few each of: privillege, privalige, privalidge, privillige, privillage, privelledge) definitely 90565 rhythm 8341 definately 17904 rythm 452 definitly 2434 rythym 307 definatly 1609 rythem 140 definitley 322 rhythym 121 definatley 247 rhythem 78 defenitely 158 rythum 46 defenitly 48 rhythum 19 defenatly 44 rithm 11 (a few each of: defenately, (a few each of: rythim, rhythim, defanatly, defanately) rithum, rithem, rithim) ================================================= Before doing the study of Internet newsgroups, I surveyed published lists of frequently misspelled words. The scope of the lists was American English (I live in the U.S. and used what material I could find), and the study covered nine lists which I found in books. I have recently added into that study two lists from British sources, a total now of eleven lists. The words found most often on those lists: On ten of the eleven lists of commonly misspelled words: accommodate embarrass grammar forty separate On nine of the lists: business harass necessary parallel privilege And on eight of the eleven: all right existence occurrence calendar government perseverance commitment height rhythm committee immediately seize conscientious indispensable transferred description maintenance (For the pool of words I used in the study of Usenet postings, I used those listed here which appeared in the majority of the published lists of commonly misspelled words, and added to that other words that were high-ranking on those lists or which had been mentioned as "candidates" by others.) Below I have a sort of "combined results," and of course there are a number of ways that one could show combined results for this. I have taken the words which appeared on nine or more of the eleven published lists; I have taken the words which were misspelled 20% or more of the time in my study of posts to Usenet discussion groups; and I have combined them, into the following chart. This then has those words that appeared on at least nine of the published lists *and* were misspelled 20%-plus of the time on the Usenet discussion groups; it also has those which appeared on at least nine of the lists, but which were misspelled *less* than 20% of the time on Usenet; and it has those which were misspelled 20%-plus of the time on Usenet, but which appeared on *fewer* than nine of the published lists: Misspelled On N of Misspelled On N of Approx N% the 11 Approx N% the 11 of Time Published of Time Published on Usenet Lists on Usenet Lists accommodate 33%+ 10 embarrass 20-33% 10 harass 33+ 9 separate 20-33 10 occurrence 33+ 8 privilege 20-33 9 perseverance 33+ 8 indispensable 20-33 8 embarrassment 33+ fewer than 8 definitely 20-33 fewer than 8 inoculate 33+ (A final note: Many search engines, such as Deja News, now allow one to search items from just a particular language, so this could be conducted in other languages for comparison.) ================================================= Here are the sources for the eleven published lists of commonly misspelled words: Cassell Encyclopaedia Dictionary (1990), (205 Misspellings). This list is headed "Words Commonly Mis-Spelt" Davidson, Wilma, _Business Writing What Works, What Won't_ (1994), St. Martin's Press (New York), pages 196-201 (397 Such Words). Aimed, as the title says, at those writing business letters, etc. The heading for this list is "Easily Misspelled Words." Furness, Edna L., _Guide to Better English Spelling_ (1990), National Textbook Company (Lincolnwood, Illinois), pages 233-236 (500 Words). This book actually has several lists of such words, based on different levels. This particular list is headed, "THE REMINGTON RAND LIST OF WORDS MOST FREQUENTLY MISSPELLED BY ADULTS." Furness, Edna L., _Guide to Better English Spelling_ (1990), National Textbook Company (Lincolnwood, Illinois), pages 175-195 (605 Demons). As stated above, this book contains a number of lists for different levels, and those other lists (like the Remington Rand list noted above) are from other sources as well. This particular list is the author's own, the introduction of which begins "The 605 spelling demons. . . . . These 605 are among the most frequently misspelled words in the English language." Lederer, Richard, _Adventures of a Verbivore_ (1994), Simon & Schuster (New York), pages 242-243 (100 Words). This book, aimed at the general reader, contains many "tidbits" and anecdotes about the English language. Part of the preface to this particular list reads, "During my thirty years as a high school English teacher, I have compiled a list of the hundred words that my students have most consistently misspelled." Mersand, Joseph and Griffith, Francis, _Spelling Your Way to Success_ (1974), Barron's Educational Series, pages 161-165 (500 Common Misspellings). The introduction to this list includes, "The 500 words which follow are those which are most commonly misspelled in business correspondence. . . . . The list was compiled by the National Office Management Association after a comprehensive study of 10,652 letters collected from business concerns and government agencies. . . . . " The New Webster's Desk Reference (formerly _The New Lexicon Library of Knowledge_) (1991), Lexicon Publications (New York), pages 64-71 (A List of 440). Aimed at the general reader seeking information. The preface to this list reads "440 WORDS FREQUENTLY MISSPELLED In business letters and reports and in reports or papers prepared by students in high school and college, there are certain words which are misspelled more often than others. Following is a list of words which are frequently misspelled. . . . . " The New York Public Library Writer's Guide to Style and Usage (1994), HarperCollins (New York), page 390 (50 words). This book is aimed at journalists and other professional writers. The heading for this list reads: "THE TOP 50 MISSPELLED WORDS Here we include our candidates for the 50 most commonly misspelled words. Not included are words that are troublesome pairs with similar spellings but different meanings principle/principal, affect/effect, complement/ compliment, stationery/stationary, and capital/capitol. . . . . " Pitman Secretarial School, (120 Words). A list of 120 "spelling demons." Shaw, Harry, _Spell It Right!_ (Fourth Edition) (1993), HarperCollins (New York), pages 158-170 (860 Trip-Ups). The heading for this is "List of 860 Words Often Misspelled." The footnote to that heading reads: "The list given has been checked against some of the major studies of frequency word use and frequency misspellings . . . . " and cites some of these references. The World Almanac and Book of Facts 1995 (1995), Funk & Wagnalls (Mahwah, New Jersey), page 597 (52 such words). This book is aimed at the general reader seeking information. The heading for this list of 52 words simply reads, "Commonly Misspelled English Words." By Cornell Kimball   --> 
+
+A Study of Some of the Most Commonly Misspelled Words
+
+I made a search of posts to Internet (Usenet) newsgroups using
+Deja News coming up with a count of how many times a word was spelled with the conventional spelling and comparing this with how often it was spelled with an alternative form, or "misspelled." (This was inspired by a discussion in the newsgroup "alt.usage.english" in which a similar, but smaller, study of a few misspelled forms was done using a search engine.) Spellings other than the standard form were used more than 33% of the time for these words in posts to Usenet discussion groups: 
+minuscule 68% of the time spelled otherwise 
+millennium57 
+embarrassment55 (embarrassing 35%) 
+occurrence44 (occurring 37) 
+accommodate40 (accommodation 39) 
+perseverance36 
+supersede 35-50 (superseded 44) 
+noticeable35 
+harass34 
+inoculate34
+
+Next are words that were misspelled between about 20% and 33% of the time in posts to the newsgroups: 
+mischievous 32% 
+ pastime  24%
+
+occurred 31   
+separate 23 (inseparable 21%)
+
+embarrass 30 (embarrassed 29) 
+preceding 22 (preceded 21)
+
+indispensable 29
+
+definitely 20
+
+privilege 28   
+gauge 20 (gauges 25)
+
+questionnaire 28
+
+And these were misspelled between 10% and 19% of the time: existence 18% miniature 14% 
+publicly18 precede  13 (precedes 11%) 
+weird  17 rhythm  12 
+separately 17 (separated 16%) conscientious 11 (conscious 10) 
+misspell 16 hierarchy 11 
+grammar 15 calendar  10 
+withhold 15
+
+Anecdotal evidence and personal observation indicate that a few other cases where a "non-standard" spelling is frequently used on the Internet are _alright_ for _all right_, _alot_ for _a lot_, and _it's_ for the possessive _its_. However, search engines don't look for extremely common words (asking one to search for posts with the word _the_ would turn up just about every post ever made) and looking for two-word phrases (_all right, a lot_) is trickier than for a single word. Too, to determine the rate for the possessive _its,_ one must look thru each individual post to determine whether _it's_ was used incorrectly for the possessive _its_ or whether _it's_ was used correctly for the contractions _it is/it has_. So, I didn't search for these three cases, but it may well be that _all right, a lot_, and the possessive _its_ are among the most frequently misspelled words in Internet postings.
+
+A few other words to note, with misspelling rates below 10% in items posted to Usenet discussion groups: commitment, conceding, occasionally, seize 9%; conceded, paralleled, sovereign 8%; repetition 7%; commission, concede, counterfeit, forfeit, maintenance 6%; concedes, height, receive, threshold 5%; committee, deceive, forty, immediately, proceed 4%; conscience, foreign, parallel, proceeds, sincerely 3%; government 2%; business, necessary 1%.
+
+Notes about _minuscule_, _gauge,_ and _misspell_.... For these words there are also dictionary-given alternative spellings. _Minuscule_ has been "misspelled" as _miniscule_ so many times in so many places that _miniscule_ is now a valid variant in some dictionaries, > as you can read in this linkas you can read in this link. Now since _miniscule_ is given as a variant spelling in dictionaries, it could be said that technically one isn't "misspelling" _minuscule_ by writing _miniscule_. However, the purpose of the study here is to see how many people spell a word in a way other than the (one) accepted standard -- thus the distinction is between "standard" spellings on one hand versus anything else.
+
+With _gauge_, the dictionary-accepted variant is _gage_, and the situation is different from that of _miniscule_. In certain fields (science, engineering), _gage_ is the more commonly used, that is "standard," spelling. In the figures above, I have simply not counted _gage_ one way or the other (by using the criteria I mentioned in the previous paragraph, _gage_ would be in with the "other than standard forms. Thus, by Deja News, I had 8879 hits for _gauge_ and 2211 for _guage_. I computed the position above from those two: 2211 / (8879+2211) --> 20%. (I also got 1848 hits for _gage_.)
+
+For _misspell/misspelling_, some use the hyphenated forms _mis-spell_ etc. instead. Further, _misspelled_ is common in the U.S., while _misspelt/mis-spelt_ is the usual form in most other English-speaking countries. I didn't count the hyphenated forms of _mis-spell_ one way or the other. I found 486 instances of _misspell_, 52 for _mis-spell_, and 87 for _mispell_. Cases of _misspelled_ total 2254; _mis-spelled_ 209; _mispelled_ 452. For _misspelt_, 148; _mis-spelt_ 70; _mispelt_ 32.
+
+Note about _supersede_... There is Asymetrix's "SuperCede for Java." Some of the posts I found in searching for _supercede_ were indeed about Asymetrix's SuperCede. (It's not case sensitive, so _supercede, Supercede, SuperCede_, etc. all turn up). I searched for occurrences of _supersede, supercede, superceed_, and _superseed_. The form _supersede_ made up about 45% of the total. There were just a few hits for _superceed_ or _superseed_, while almost all the rest -- almost 55% -- were _supercede_. From reading thru many of the posts, I determined that at least two-thirds of the time _supercede_ was being used for the word _supersede_, while one-third or less it was for Asymetrix's SuperCede.
+
+Notes about _mischievous_ and _height_... With each of these words, some of the non-standard spellings I found also reflect widespread non-standard pronunciations each of these words have. _Mischievous_ is often (erroneously) pronounced as if there were an "i" (or "e") between the "v" and the "ous." The spellings and number of occurrences found in this survey: 
+      mischievous  1203    mischevious   255    mischeivous  51
+      mischievious  182 mischevous   15
+      mischeivious   30    mischivous    8
+      mischieveous    7
+      mischiveous     7
+      mischeiveous    2
+
+_Height_ is sometimes pronounced as if the final "t" were "th" as in _think_. However, only some of the misspellings of _height_ were those ending in "-th"; and the most common non-standard spellings of _height_ were _hight_ and _hieght_. _Hight_, incidentally, is given as a valid variant of _height_ in some unabridged dictionaries.
+
+Here are the numbers of individual spellings found for some of the other words in this study:
+
+occurrence  5508        occurring  6747
+    occurance   2109    occuring   3823
+    occurence   1983    ocurring    111
+    occurrance 221    ocuring  4
+    ocurrence  43
+    ocurrance   8
+    ocurence   3
+
+accommodate  9220 accommodation  4135
+    accomodate 5862    accomodation   2395
+    accomadate  233    accomadation    104
+    accommadate   32    acommodation     57
+    acommodate   23    accommadation    42
+    acomodate   21    acomodation      6
+    acommadate    1    acommadation      1
+
+noticeable  7888 harass   3037
+    noticable   3819    harrass   1262    
+    noticible 322    harras     305    
+    noticeble  36    haress      15    
+    noticiable  18    herass      13    
+    noteceable   5    harress 1    
+    notacible   1
+
+embarrass  2425  embarrassment  6585
+    embarass    877    embarassment   7121
+    embarras    135    embarrasment    578
+    embarress 33    embarasment      75
+    embaress 19    embarressment    63
+    embaras  1    embaressment     48
+       (and a handful each of: emberassment,
+      emberrasment, embaresment, emberasment)
+
+privilege   7035
+    priviledge  1050    privalege 38
+    privelege 521    privelidge 36
+    privledge 331    privlage 21
+    priveledge 238    privaledge 18
+    privilage 212    privalage 15
+    privelage 134    privellege 12
+    privelige  61    privlidge 12
+    privlege  40    privlige 11
+   (and a few each of: privillege, privalige, privalidge,
+             privillige, privillage, privelledge)
+
+definitely  90565  rhythm   8341
+    definately  17904     rythm    452
+    definitly 2434     rythym   307
+    definatly 1609     rythem   140
+    definitley  322     rhythym  121
+    definatley  247     rhythem   78
+    defenitely  158     rythum    46
+    defenitly   48     rhythum   19
+    defenatly   44     rithm     11
+ (a few each of: defenately,    (a few each of: rythim, rhythim,
+   defanatly, defanately)      rithum, rithem, rithim)
+
+=================================================
+
+Before doing the study of Internet newsgroups, I surveyed published lists of frequently misspelled words. The scope of the lists was American English (I live in the U.S. and used what material I could find), and the study covered nine lists which I found in books. I have recently added into that study two lists from British sources, a total now of eleven lists. The words found most often on those lists:
+
+On ten of the eleven lists of commonly misspelled words:
+      accommodate
+      embarrass
+      grammar
+      forty
+      separate
+
+On nine of the lists:
+      business
+      harass
+      necessary
+      parallel
+      privilege
+
+And on eight of the eleven:
+     all right  existence     occurrence
+     calendar  government     perseverance
+     commitment  height      rhythm
+     committee  immediately     seize
+     conscientious indispensable     transferred
+     description maintenance
+
+(For the pool of words I used in the study of Usenet postings, I used those listed here which appeared in the majority of the published lists of commonly misspelled words, and added to that other words that were high-ranking on those lists or which had been mentioned as "candidates" by others.)
+
+Below I have a sort of "combined results," and of course there are a number of ways that one could show combined results for this. I have taken the words which appeared on nine or more of the eleven published lists; I have taken the words which were misspelled 20% or more of the time in my study of posts to Usenet discussion groups; and I have combined them, into the following chart. This then has those words that appeared on at least nine of the published lists *and* were misspelled 20%-plus of the time on the Usenet discussion groups; it also has those which appeared on at least nine of the lists, but which were misspelled *less* than 20% of the time on Usenet; and it has those which were misspelled 20%-plus of the time on Usenet, but which appeared on *fewer* than nine of the published lists:
+
+Misspelled   On N of         Misspelled   On N of
+     Approx N% the 11   Approx N%    the 11
+      of Time   Published    of Time   Published
+     on Usenet    Lists     on Usenet    Lists
+
+accommodate  33%+  10      embarrass    20-33%    10
+  harass   33+   9      separate    20-33     10
+  occurrence  33+   8      privilege    20-33      9
+  perseverance  33+   8      indispensable 20-33      8
+  embarrassment  33+  fewer than 8   definitely    20-33  fewer than 8
+  inoculate  33+  
+
+(A final note: Many search engines, such as Deja News, now allow one to search items from just a particular language, so this could be conducted in other languages for comparison.)
+
+=================================================
+
+Here are the sources for the eleven published lists of commonly misspelled words:
+
+Cassell Encyclopaedia Dictionary (1990), (205 Misspellings). This list is headed "Words Commonly Mis-Spelt"
+
+Davidson, Wilma, _Business Writing What Works, What Won't_ (1994), St. Martin's Press (New York), pages 196-201 (397 Such Words). Aimed, as the title says, at those writing business letters, etc. The heading for this list is "Easily Misspelled Words." 
+
+Furness, Edna L., _Guide to Better English Spelling_ (1990), National Textbook Company (Lincolnwood, Illinois), pages 233-236 (500 Words). This book actually has several lists of such words, based on different levels. This particular list is headed, "THE REMINGTON RAND LIST OF WORDS MOST FREQUENTLY MISSPELLED BY ADULTS."
+
+Furness, Edna L., _Guide to Better English Spelling_ (1990), National Textbook Company (Lincolnwood, Illinois), pages 175-195 (605 Demons). As stated above, this book contains a number of lists for different levels, and those other lists (like the Remington Rand list noted above) are from other sources as well. This particular list is the author's own, the introduction of which begins "The 605 spelling demons. . . . . These 605 are among the most frequently misspelled words in the English language."
+
+Lederer, Richard, _Adventures of a Verbivore_ (1994), Simon & Schuster (New York), pages 242-243 (100 Words). This book, aimed at the general reader, contains many "tidbits" and anecdotes about the English language. Part of the preface to this particular list reads, "During my thirty years as a high school English teacher, I have compiled a list of the hundred words that my students have most consistently misspelled."
+
+Mersand, Joseph and Griffith, Francis, _Spelling Your Way to Success_ (1974), Barron's Educational Series, pages 161-165 (500 Common Misspellings). The introduction to this list includes, "The 500 words which follow are those which are most commonly misspelled in business correspondence. . . . . The list was compiled by the National Office Management Association after a comprehensive study of 10,652 letters collected from business concerns and government agencies. . . . . "
+
+The New Webster's Desk Reference (formerly _The New Lexicon Library of Knowledge_) (1991), Lexicon Publications (New York), pages 64-71 (A List of 440). Aimed at the general reader seeking information. The preface to this list reads "440 WORDS FREQUENTLY MISSPELLED In business letters and reports and in reports or papers prepared by students in high school and college, there are certain words which are misspelled more often than others. Following is a list of words which are frequently misspelled. . . . . "
+
+The New York Public Library Writer's Guide to Style and Usage (1994), HarperCollins (New York), page 390 (50 words). This book is aimed at journalists and other professional writers. The heading for this list reads: "THE TOP 50 MISSPELLED WORDS Here we include our candidates for the 50 most commonly misspelled words. Not included are words that are troublesome pairs with similar spellings but different meanings principle/principal, affect/effect, complement/ compliment, stationery/stationary, and capital/capitol. . . . . "
+
+Pitman Secretarial School, (120 Words). A list of 120 "spelling demons."
+
+Shaw, Harry, _Spell It Right!_ (Fourth Edition) (1993), HarperCollins (New York), pages 158-170 (860 Trip-Ups). The heading for this is "List of 860 Words Often Misspelled." The footnote to that heading reads: "The list given has been checked against some of the major studies of frequency word use and frequency misspellings . . . . " and cites some of these references.
+
+The World Almanac and Book of Facts 1995 (1995), Funk & Wagnalls (Mahwah, New Jersey), page 597 (52 such words). This book is aimed at the general reader seeking information. The heading for this list of 52 words simply reads, "Commonly Misspelled English Words."
+
+By Cornell Kimball 

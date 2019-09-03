@@ -1,0 +1,63 @@
+
+ 	
+ 	 	 Members Login | E-mail This Page | Site Map | Content Library | Search      	 
+ 	  
+ 	 	  
+
+ 	 	RSA Security Home > RSA Laboratories > Crypto FAQ > Cryptography > Simple Applications of Cryptography > 2.2.3	 
+
+Crypto FAQ	    	  
+   	  
+
+CryptoBytes	    	  
+   	  
+
+RSA Algorithm	    	    
+   	  
+
+PKCS	    	    
+   	  
+
+Advanced Encryption
+Standard	    	    
+   	  
+
+Tech Notes	    	    
+   	  
+
+Staff & Associates	    	    
+   	  
+
+Standards	    	    
+   	    
+
+Bulletins	    	    
+   	  
+
+Challenges	    	
+
+< Previous | Up one level | Next >	 
+2.2.3 What is a key agreement protocol?
+
+A key agreement protocol, also called a key exchange protocol, is a series of steps used when two or more parties need to agree upon a key to use for a secret-key cryptosystem. These protocols allow people to share keys freely and securely over any insecure medium, without the need for a previously-established shared secret.
+
+Suppose Alice and Bob want to use a secret-key cryptosystem (see Question 2.1.2) to communicate securely. They first must decide on a shared key. Instead of Bob calling Alice on the phone and discussing what the key will be, which would leave them vulnerable to an eavesdropper, they decide to use a key agreement protocol. By using a key agreement protocol, Alice and Bob may securely exchange a key in an insecure environment. One example of such a protocol is called the Diffie-Hellman key agreement (see Question 3.6.1). In many cases, public-key cryptography is used in a key agreement protocol. Another example is the use of digital envelopes (see Question 2.2.4) for key agreement.
+
+ 
+
+United States: 1-877-RSA-4900 or 781 515 5000, Europe, Middle East, Africa: +44 (0)1344 781000, 
+Asia/Pacific: + 61 2 9463 8400, Japan: +81 3 5222 5200 
+Home | Contact Us | Search | Site Map | Terms of Use and Privacy Statement
+
+ 
+
+© Copyright 2003 RSA Security Inc. - all rights reserved.
+ Reproduction of this Web Site, in whole or in part, in any form or medium
+ without express written permission from RSA Security is prohibited.
+    RSA, Keon, SecurID, ClearTrust and BSAFE are either registered trademarks
+or trademarks of RSA Security Inc.     in the United States and/or other countries.
+All other products and services mentioned are trademarks     of their respective companies.	 
+
+ 
+
+

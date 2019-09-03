@@ -1,0 +1,376 @@
+
+
+Section 1: Basic Questions 
+
+This section aims to deal with basic questions, addressing the role and
+nature of CGI, and its place in Web programming. Questions/answers which
+just don't appear to 'fit' under any other section may also be included
+here.
+
+1.1: What is CGI?
+
+[ from the CGI reference http://hoohoo.ncsa.uiuc.edu/cgi/overview.html ]
+
+The Common Gateway Interface, or CGI, is a standard for external
+gateway programs to interface with information servers such as HTTP servers.
+A plain HTML document that the Web daemon retrieves is static,
+which means it exists in a constant state: a text file that doesn't change.
+A CGI program, on the other hand, is executed in real-time, so that it
+can output dynamic information.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.2: Is it a script or a program?
+
+The distinction is semantic.   Traditionally, compiled executables
+(binaries) are called programs, and interpreted programs are usually
+called scripts.   In the context of CGI, the distinction has become
+even more blurred than before.   The words are often used interchangably
+(including in this document).   Current usage favours the word "scripts"
+for CGI programs.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.3: When do I need to use CGI?
+
+There are innumerable caveats to this answer, but basically any
+Webpage containing a form will require a CGI script or program
+to process the form inputs.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.4: Should I use CGI or JAVA?
+
+[answer to this non-question hopes to try and reduce the noise level of
+the recurrent "CGI vs JAVA" threads].
+
+CGI and JAVA are fundamentally different, and for most applications
+are NOT interchangable.
+
+CGI is a protocol for running programs on a WWW server.  Whilst JAVA
+can also be used for that, and even has a standardised API (the servlet,
+which is indeed an alternative to CGI), the major role of JAVA on the
+Web is for clientside programming (the applet).
+
+In certain instances the two may be combined in a single application:
+for example a JAVA applet to define a region of interest from a
+geographical map, together with a CGI script to process a query
+for the area defined.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.5: Should I use CGI or SSI or ... { PHP/ASP/... }
+
+CGI and SSI (Server-Side Includes) are often interchangable, and it may
+be no more than a matter of personal preference.   Here are a few
+guidelines:
+  1) CGI is a common standard agreed and supported by all major HTTPDs.
+     SSI is NOT a common standard, but an innovation of NCSA's HTTPD
+     which has been widely adopted in later servers.   CGI has the
+     greatest portability, if this is an issue.
+  2) If your requirement is sufficiently simple that it can be done
+     by SSI without invoking an exec, then SSI will probably be
+     more efficient.   A typical application would be to include
+     sitewide 'house styles', such as toolbars, netscapeised <body>
+     tags or embedded CSS stylesheets.
+  3) For more complex applications - like processing a form -
+     where you need to exec (run) a program in any case, CGI
+     is usually the best choice.
+  4) If your transaction returns a response that is not an HTML page,
+     SSI is not an option at all.
+
+Many more recent variants on the theme of SSI are now available.
+Probably the best-known are PHP which embeds server-side scripting
+in a pre-html page, and ASP which is Microsoft's version of a
+similar interface.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.6: Should I use CGI or an API?
+
+APIs are proprietary programming interfaces supported by particular
+platforms.   By using an API, you lose all portability.   If you know
+your application will only ever run on one platform (OS and HTTPD),
+and it has a suitable API, go ahead and use it.   Otherwise stick to CGI.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.7: So what are in a nutshell the options for webserver programming?
+
+Too many to enumerate - but I'll try and summarise.  Briefly, there
+are several decisions you have to make, including:
+  * Power.  Is it up to a complex task?
+  * Complexity.  How much programming manpower is it worth?
+  * Portability.  Might you want to run your program on another system?
+
+So here's an overview of the main options.  It's inevitably subjective,
+but may be helpful to someone:
+
+Basic SSI:  Simple interface for basic dynamic content.
+   Non-standard - read your server docs.
+Enhanced SSI[1]: Suitable for more complex tasks within
+   an HTML page.
+CGI:   The standardised, portable general-purpose API,
+   not limited to working with HTML pages.
+Enhanced CGI-like[2]: Typically gain efficiency but lose portability
+   compared to standard CGI.
+Servlets:  An alternative API for JAVA, that overcomes
+   the limitation of JAVA not supporting
+   environment variables.
+Server API:  Generally the most powerful and most complex option.
+
+[1] For example, PHP, ASP.
+[2] For example, CGI adapted to mod_perl or fastcgi.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.8: What do I absolutely need to know?
+
+If you're already a programmer, CGI is extremely straightforward, and just
+three resources should get you up to speed in the time it takes to read them:
+  1) Installation notes for your HTTPD.   Is it configured to run CGI
+     scripts, and if so how does it identify that a URL should be executed?
+     (Check your manuals, READMEs, ISP webpages/FAQS, and if you still can't
+     find it ask your server administrator).
+  2) The CGI specification at NCSA tells you all you need to know
+     to get your programs running as CGI applications.
+     http://hoohoo.ncsa.uiuc.edu/cgi/interface.html
+  3) WWW Security FAQ.   This is not required to 'get it working', but
+     is essential reading if you want to KEEP it working!
+     http://www.w3.org/Security/Faq/www-security-faq.html
+
+If you're NOT already a programmer, you'll have to learn.   If you would
+find it hard to write, say, a 'grep' or 'cat' utility to run from the
+commandline, then you will probably have a hard time with CGI.   Make
+sure your programs work from the commandline BEFORE trying them with CGI,
+so that at least one possible source of errors has been dealt with.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.9: Does CGI create new security risks?
+
+Yes.   Period.
+There is a lot you can do to minimise these.   The most important thing
+to do is read and understand Lincoln Stein's excellent WWW security
+FAQ, at http://www.w3.org/Security/Faq/www-security-faq.html
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.10: Do I need to be on Unix?
+
+No, but it helps.   The Web, along with the Internet itself, C, Perl,
+and almost every other Good Thing in the last 20 years of computing,
+originated in Unix.   At the time of writing, this is still the
+most mature and best-supported platform for Web applications.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.11: Do I have to use Perl?
+
+No - you can use any programming language you please.   Perl is simply
+today's most popular choice for CGI applications.   Some other widely-
+used languages are C, C++, TCL, BASIC and - for simple tasks -
+even shell scripts.
+
+Reasons for choosing Perl include its powerful text manipulation
+capabilities (in particular the 'regular' expression) and the fantastic
+WWW support modules available.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.12: What languages should I know/use?
+
+It isn't really that important.  Use what you're comfortable with,
+or what you're constrained (eg by your manager) to use.
+
+If you're just dabbling with programming, Perl is a good choice, simply
+because of the wealth of ready-to-run Perl/CGI resources available.
+
+If you're serious about programming, you should be at home in a
+range of languages.  C, the industry standard, is a must (at least to
+the level of comfortably reading other people's code).  You'll
+certainly want at least one scripting language such as Perl, Python
+or Tcl.  C++ is also a good idea.
+
+In response to a Usenet newbie question:
+>  I am seriously wanting to learn some CGI programming languages
+
+J.M. Ivler wrote some eloquent words of wisdom:
+> If you want to learn a programming language, learn a programming language.
+> If you want to learn how to do CGI programming, learn a programming
+> language first.
+> 
+> My book is one of the few that tackles two languages at the same time.
+> Why? because it's not about languages (which are just syntax for logic).
+> CGI programming is about programming, and how to leverage the experience
+> for the person coming to the site, or maintaining the site, or in some way
+> meeting some requirements. Language is just a tool to do so.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.13: Do I have to put it in cgi-bin?
+
+see next question
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.14: Do I have to call it *.cgi? *.pl?
+
+Maybe.   It depends on your server installation.
+
+These types of filenames are commonly used conventions - no more.
+It is up to the server administrator whether or not CGI scripts are
+enabled, and (if so) what conventions tell the server to run or
+to print them.
+
+If you are running your own server, read the manual.
+If you're on ISP or other rented webspace, check their webpages for
+information or FAQs.   As a last resort, ask the server administrator.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.15: What is the "CGI Overhead", and should I be worried about it?
+
+The CGI Overhead is a consequence of HTTP being a stateless protocol.
+This means that a CGI process must be initialised for every "hit"
+from a browser.
+
+In the first instance, this usually means the server forking a
+new process.  This in itself is a modest overhead, but it can
+become important on a heavily-used server if the number of
+processes grows to problem levels.
+
+In the second place, the CGI program must initialise.  In the
+case of a compiled language such as C or C++ this is negligible,
+but there is a small penalty to pay for scripting languages such as Perl.
+
+Thirdly, CGI is often used as 'glue' to a backend program, such as
+a database, which may take some considerable time to initialise.
+This represents a major overhead, which must be avoided in any
+serious application.  The most usual solution is for the backend
+program to run as a separate server doing most of the work, while
+the actual CGI simply carries messages.
+
+Fourthly, some CGI scripts are just plain inefficient, and may
+take hundreds of times the resources they need.  Programs using
+system() or `backtick` notation often fall into this category.
+
+Note that there are ways to reduce or eliminate all these overheads,
+but these tend to be system- or server-specific.  The best-supported
+server is probably Apache, as commercial server-vendors may prefer to
+push their proprietary solutions in preference to CGI.
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.16: What do I need to know about file permissions and "chmod"?
+
+Unix systems are designed for multiple users, and include provision
+for protecting your work from unauthorised access by other users
+of the system.  The file permissions determine who is permitted
+to do what with your programs, data, and directories.  The command
+that sets file permissions is chmod.
+
+Web servers typically run as user "nobody".  That means that, setting
+aside serious bugs (such as those in certain versions of the Frontpage
+extensions), your files are absolutely secure from damage through the
+webserver.  It also means that you may have to make explicit changes to
+enable the server to access them in a CGI context.
+
+There are two ways to run CGI:
+- by default they run as the webserver user (nobody)
+ For most purposes this is safest, as your programs and data
+ are protected by the operating system from unauthorised access
+ through possible bugs in your CGI.  However, when the CGI has
+ to write to a file, that file must be writable to every web
+ user on the system, and is therefore completely unprotected.
+- setuid, they run under your own userid.
+ This means that files written by your CGI can be secure.
+ On the other hand, any bugs in your CGI could now compromise
+ *all* your programs and data on the server.
+ As an elementary security precaution, scripts (e.g. Perl) are
+ prevented from running setuid by most OSs.  The "cgiwrap"
+ program offers a workaround for this.
+
+A third way you should *never* permit CGI to be run is:
+- as root or setuid root, they can run as any user.
+ This is extremely dangerous, as any bugs could compromise the
+ entire server, including every user's files.  Fortunately only
+ the system administrator can install setuid root programs.  If
+ you are *at all* concerned about security, make sure that no such
+ programs (in particular Frontpage extensions) are installed,
+ regardless of whether you use them yourself.
+
+For a proper overview, "man chmod".  Some modes that may be useful
+in a typical CGI context are:
+
+* CGI programs, 0755
+* data files to be readable by CGI, 0644
+* directories for data used by CGI, 0755
+* data files to be writable by CGI, 0666 (data has absolutely no security)
+* directories for data used by CGI with write access, 0777 (no security)
+* CGI programs to run setuid, 4755
+* data files for setuid CGI programs, 0600 or 0644
+* directories for data used by setuid CGI programs, 0700 or 0755
+* For a typical backend server process, 4750
+
+Finally, if this answer tells you anything you didn't already know,
+don't even think about trying to set up a secure server!
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.17: What is CGIWrap, and how does it affect my program?
+
+[ quoted from http://www.umr.edu/~cgiwrap/intro.html ]
+
+> CGIWrap is a gateway program that allows general users to use CGI scripts
+> and HTML forms without compromising the security of the http server.
+> Scripts are run with the permissions of the user who owns the script. In
+> addition, several security checks are performed on the script, which will not
+> be executed if any checks fail. 
+> 
+> CGIWrap is used via a URL in an HTML document. As distributed, cgiwrap
+> is configured to run user scripts which are located in the
+> ~/public_html/cgi-bin/ directory. 
+
+See http://www.umr.edu/~cgiwrap/
+
+[Table of Contents] [Index]
+---------------------------------------------------------------------
+
+1.18: How do I decode the data in my Form?
+
+The normal format for data in HTTP requests is URLencoded.   All Form data
+is encoded in a string, of the form
+ param1=value1&param2=value2&...paramn=valuen
+Many non-alphanumeric characters are "escaped" in the encoding:
+the character whose hexadecimal number is "XY" will be represented by
+the character string "%XY".
+
+Decoding this string is a fundamental function of every CGI library.
+
+Another format is "multipart/form-data", also known as "file upload".
+You will get this from the HTML markup
+<form method="POST" enctype="multipart/form-data">
+
+(but note you must accept URLencoded input in any case, since not all
+browsers support multipart forms).
+
+Most(?) CGI libraries will handle this transparently.
+
+[Table of Contents] [Index] 

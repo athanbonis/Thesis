@@ -1,0 +1,48 @@
+
+
+Professor William H. Sanders
+
+University of Illinois
+212 Coordinated Science Laboratory, MC-228
+1308 West Main Street
+Urbana, IL 61801-2307
+USA
+Tel: +1 (217) 333-0345
+Fax: +1 (217) 244-3359
+Email: whs@crhc.uiuc.edu
+
+Head of Performability Engineering Research Group (PERFORM). (Click here for non-frames version.)
+ 
+
+Interests: 
+
+* Performance and dependability evaluation 
+* Fault-tolerant computing 
+* Computer networks and protocols 
+* Stochastic Petri nets 
+
+Editorships: 
+
+* Associate Editor of IEEE Transactions on Reliability 
+* Area Editor for Simulation and Modeling of Computer Systems for the ACM Transactions on Modeling and Computer Simulation 
+
+Currently teaching: 
+
+* ECE 441: Computer Systems Analysis, Fall 2003 
+
+Current and Recent Conference Organizational Activities: 
+
+* General Chair of the 2003 Illinois International Multiconference on Measurement, Modelling, and Evaluation of Computer-Communication Systems 
+* Program Co-Chair of PNPM 2003 (the 10th International Workshop on Petri Nets and Performance Models) 
+* Program Co-Chair of Performance TOOLS 2003 (13th International Conference on Modelling Techniques and Tools for Computer Performance Evaluation) 
+* Program Co-Chair of the ACM SIGMETRICS 2003: the International Conference on Measurement and Modeling of Computer Systems 
+* Program Co-Chair of the 29th International Symposium on Fault-Tolerant Computing (FTCS-29) 
+
+Biography: 
+
+William H. Sanders is a Professor in the Department of Electrical and Computer Engineering and the Coordinated Science Laboratory at the University of Illinois . He is Vice-Chair of IFIP Working Group 10.4 on Dependable Computing. In addition, he serves on the editorial board of IEEE Transactions on Reliability, and is the Area Editor for Simulation and Modeling of Computer Systems for the ACM Transactions on Modeling and Computer Simulation. He is a past Chair of the IEEE Technical Committee on Fault-Tolerant Computing. He is a Fellow of the IEEE. Dr. Sanders's research interests include performance/dependability evaluation, dependable computing, and reliable distributed systems. He has published more than 140 technical papers in these areas. He is currently serving as the General Chair of the 2003 Illinois International Multiconference on Measurement, Modelling, and Evaluation of Computer-Communication Systems. He has served as co-Chair of the program committees of the 29th International Symposium on Fault-Tolerant Computing (FTCS-29), the 6th IFIP Working Conference on Dependable Computing for Critical Applications, Sigmetrics 2003, PNPM 2003, and Performance Tools 2003, and has served on the program committees of numerous conferences and workshops. He is a co-developer of three tools for assessing the performability of systems represented as stochastic activity networks: METASAN, UltraSAN, and Möbius. Möbius and UltraSAN have been distributed widely to industry and academia; more than 300 licenses for the tools have been issued to universities, companies, and NASA for evaluating the performance, dependability, security, and performability of a variety of systems. He is also a co-developer of the Loki distributed system fault injector and the AQuA/ITUA middlewares for providing dependability/security to distributed and networked applications. 
+
+---------------------------------------------------------------------
+This site was last updated on October 30, 2003
+ Comments to J. Applequist 
+

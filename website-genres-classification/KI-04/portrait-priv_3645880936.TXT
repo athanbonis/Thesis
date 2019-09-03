@@ -1,0 +1,38 @@
+   CDR Staff 
+
+Charles J. Petrie
+
+Sr. Research Scientist, Center for Design Research 	
+  	Visit Charles' home page. and his biography. 	
+
+---------------------------------------------------------------------
+
+Degrees
+B.S. Lousisiana State University - Mathematics (1969)
+M.S. University of Texas at Austin - Computer Science (1989)
+Ph.D. University of Texas at Austin - Computer Science (1991)
+
+Research Interests
+ Charles J. Petrie joined the CDR in 1993 from the AI Lab of MCC. His research is the development of generic methods for coordination of multi-disciplinary engineering tasks using agent-based infrastructures.
+
+Recent Publications
+     
+
+``The Redux' Server,'' Proc. Internat. Conf. on Intelligent and Cooperative Information Systems (ICICIS), Rotterdam, May, 1993. Abstract / Report 
+
+``Design Space Navigation as a Collaborative Aid,'' Proc. AI in Design: 3rd Internat. Conf., pp. 611-623, Lausanne, August, 1994. Abstract / Report 
+
+``Using Pareto Optimality to Coordinate Distributed Agents,'' with T. Webster and M. Cutkosky, AIEDAM 9, 269-281, 1995. Abstract / Report in PS / HTML 
+
+"Agent-Based Engineering, the Web, and Intelligence", IEEE Expert, 11:6, pp. 24-29, December, 1996. Report.
+
+"Combining Constraint Propagation and Backtracking
+ for Distributed Engineering", with H. Jeon and M. Cutkosky, Working Notes of the ECAI-96 Workshop on Non-Standard Constraint Processing, 1996. A revised version was published in the notes of AAAI'97 Workshop on Constraints and Agents, AAAI Press, Technical Report WS-97-05, August, 1997. Abstract/ /Report in PostScript / HTML.
+
+Projects
+ The ProcessLink project is developing an agent-based framework for the integration of heterogeneous engineering software packages and the coordination of agents in engineering projects.
+     
+
+---------------------------------------------------------------------
+CDR Home	 cjp   6.6.96	 
+

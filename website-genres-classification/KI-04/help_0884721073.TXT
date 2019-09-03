@@ -1,0 +1,176 @@
+
+
+Address Munging FAQ: 
+Spam-Blocking Your Email Address 
+
+This FAQ is intended to be a concise discourse on "spam-blocking". Otherwise known as "munging", or breaking one's email address, this is usually done when posting to Usenet, for the purposes of avoiding junk email. It is very important to "mung" in ways that minimize possible damage to third parties. Contact the author/maintainer: emailfaq@aol.com 
+
+---------------------------------------------------------------------
+
+DISCLAIMER: 
+This document reflects the opinions of the author. This document is provided "as is" without any express or implied warranties.  While every effort has been taken to ensure the accuracy of the information contained in this article, the author/maintainer and/or contributors assume(s) no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein. 
+
+---------------------------------------------------------------------
+
+Basics:  Who is responsible for this FAQ?   What is the purpose of this FAQ?  When was this FAQ last updated?
+               Where can I get it?  Credits & Contributors
+
+What does 'spam-blocking' or 'address munging' mean?
+Munging DOES NOT MEAN MAKING YOURSELF ANONYMOUS
+Why should I mung my address?
+Why should I NOT mung my address?
+How should I mung my address?
+How should I NOT mung my address?
+If I mung, when should I be sure to use my REAL address?
+What else can I do besides munging to avoid junk email?
+Instructions for AOL members 
+
+---------------------------------------------------------------------
+
+Who is responsible for this FAQ? 
+WD Baseley. Use emailfaq@aol.com to contact the author regarding this FAQ. 
+
+What is the purpose of this FAQ? 
+This FAQ is intended to be a concise discourse on "spam-blocking". Otherwise known as "munging", or breaking one's email address, this is usually done when posting to Usenet, for the purposes of avoiding junk email. It is very important to "mung" in ways that minimize possible damage to third parties. The author intends that this FAQ be understood without need of a doctorate in computer science. Those desiring more depth and/or technical information should refer to the Email Abuse Resource List. 
+
+When was this FAQ last updated? 
+August 8, 1999. 
+
+Where can I get it? 
+This FAQ will be posted to news.admin.net-abuse.email once per month. The latest version is always available at:
+ URL: http://members.aol.com/emailfaq/mungfaq.html
+ TEXT: ftp://members.aol.com/emailfaq/mungfaq.txt
+ It is also posted weekly to these newsgroups: 
+news.answers
+ news.newusers.questions
+ news.admin.net-abuse.email 
+
+Credits & Contributors 
+The genesis of this FAQ was Gregory Byshenk's FAQ titled, "Help! I've Been Spammed! What do I do?" Sundry other folk who have discussed, harangued, badgered, cajoled, and otherwise assisted in bringing it to its present state, are held in grateful regard by the author. 
+
+---------------------------------------------------------------------
+
+What does 'spam-blocking' or 'address munging' mean? 
+Both terms refer to the same thing - from this point on, the author will use the terms 'mung' and 'munging' term to refer to the practice.
+ 
+Address munging is the act of modifying one's email address so that email sent to that address will not be delivered to the person doing the modifications. Typically, this is done in posts to Usenet, in order to avoid receiving unsolicited commercial/bulk/boilerplate email (UCE/UBE).
+ 
+The Jargon File defines 'mung' as `Mash Until No Good', probably originating at MIT; sometime later the recursive acronym `Mung Until No Good' became popular. It means 'to make large changes to a file', or 'to destroy data either accidentally or maliciously'. It was probably derived from 'munge', which is why you will see both words used to describe the practice. Then of course there are the Chinese beans. 
+
+Munging DOES NOT MEAN MAKING YOURSELF ANONYMOUS 
+Trying to hide your identity by faking your email address simply does not work; even an amateur detective can quickly identify the source of a message if the From: line is the only thing that's been tampered with. It is possible to be truly anonymous when doing almost anything on the Internet, but it takes a lot more work than simply changing the From: line.
+ 
+Trying to hide from spammers by changing the "name" or "real name" portion of your posted address also does not work, because that part of the address has nothing to do with email delivery. In fact, you should make it a point *not* to change your "name" if you decide to mung your address. Many people on the Internet have a consistent name or handle by which they become known. Changing this part of your identity only makes you unidentifiable to people who have come to know you on the net. 
+
+---------------------------------------------------------------------
+
+Why should I mung my address?
+ 
+
+* It is an effective way to avoid junk email.
+ Junk emailers "harvest" email addresses from Usenet posts. Most address harvesting software used by junk emailers does not discriminate; anything with an '@' sign is considered an address. By changing what appears in the From: and/or Reply-To: headers of Usenet posts, the amount of unsolicited bulk/commercial email (UBE/UCE) received drops considerably. 
+
+* It is easy to do compared to other methods of avoiding UBE/UCE.
+ 
+* It lowers the percentage of good addresses harvested by the address thieves.
+
+Why should I NOT mung my address?
+
+* It breaks the automated 'reply by email' feature found in most newsreaders, forcing people to manually de-mung the address in order to email topical replies to your posts.
+ 
+* If you use the same software for Usenet and email, you will have to change the address regularly, to avoid sending regular email with a munged address.
+ 
+* It violates RFCs, the rules upon which Usenet is built. 
+
+(It should also be noted that munging does not automatically cause messages to bounce back to junk emailers; if you are considering munging for this reason, you would not accomplish your goal. Also, depending on what and where you post, a junkster *may* take the time to manually de-mung your address, just for spite.) 
+
+How should I mung my address?
+     (AOLers! Be sure to read  the Instructions for AOL members) 
+
+IMPORTANT! Make sure that modifications to your email address do not violate any of the policies of your service provider!
+
+* Be creative with your mung, and change it often as well. These steps will prevent harvesters from picking up on patterns, and possibly changing their software to defeat them.
+ 
+* Make it obvious to humans.
+ DO: yourname(AT)example(DOT)com
+ DO: yournamZ@ZxamplZ.nZt (Replace Z with E)
+ DO: yourname@example.invalid
+          (use ONLY .invalid to do this!) 
+DO: see_my_sig@for.my.real.address
+ DON'T: yourname@foo.example.com 
+
+* If you decide to add a "spamblock" to your existing address, put it on the right-hand side of the @ sign. This avoids making your provider's email server handle undeliverable mail. Also, you want your mung to affect the rightmost portion of the domain name; if you add something immediately after the @ sign, many times the email will be delivered anyway.
+ DO: yourname@example-REMOVE_THIS-.com
+        (be sure to read this!)
+ DO: yourname@example.invalid
+        (use ONLY .invalid to do this!)
+ DON'T: yourname-SPAMBLOCK-@example.com 
+
+* Tell folks how to de-mung your address somewhere in your message. The signature (sig) that gets added to the end of each message is a good place to do this.
+ DO: "To reply via email, remove '-REMOVE-THIS-' from my address."
+ DO: "Real address is myrealname AT example DOT com"
+ DO: "Replace all the Z's with E's to reply"
+ DO: "Replace 'invalid' with 'net' to reply" 
+
+NOTE:  DO NOT put a directly usable address in your sig, because many harvesters collect everything with an @ sign in it.
+ DO: "Send email to myrealname; ISP is example DOT com"
+ DON'T: "Real address is myrealname@example.com"
+ 
+
+How should I NOT mung my address?
+       (AOLers! Be sure to read  the Instructions for AOL members)
+ 
+IMPORTANT! Do not make up domain names! Most of them actually exist, and your fakery could cause them a lot of woe. Certain domains are already virtually useless because of folks using them in mungs and forgeries. Plus, new domain names are being added all the time, and you never know if someone might want to use your mung; your actions today -do- have an effect on the future! It is almost as harmful to add something directly after the @ sign, and doing so may not prevent the delivery of messages anyway.
+ DON'T: yourname@NOSPAM.your-isp.com
+ DON'T: yourname@REMOVE-THIS.com
+ DON'T: yourname@your-isp.ORG (instead of COM)
+ DO: yourname@your-isp.INVALID
+         (Use -only- .INVALID to do this!) 
+
+* Do not use a totally faked address, especially one that looks real. 
+DON'T: not-your-real-name@some-other-isp.com 
+
+* Do not make it *too* obvious by using a 'standard' mung. Invent your own, or choose an unusual one of those you have seen. If everyone uses the same mung, it becomes easier for junk emailers to strip them out.
+ DON'T: yourname@example-NOSPAM-.com
+ DO: yourname@exampleDO-DO-DO.comDAH-DAH-DAH 
+
+If I mung, when should I be sure to use my REAL address?
+
+* When sending email.
+ 
+* When subscribing to a mailing list. 
+
+What else can I do besides munging to avoid junk email?
+
+* Ask your provider to give you the option of having the most egregious junk emailers blocked by them.
+ 
+* If your ISP/domain offers one, you can use a "spam sink" address; all email to this address should be deleted, unread, by your ISP. 
+EX: devnull@example.com 
+
+NOTE: Usenet conventions allow topical replies to posts, so if you choose this you should include a usable address somewhere in the message. 
+
+* Use filters to sort email either at the server or after it has been downloaded to your machine. Most standalone email software includes filters, and some of them (notably Pegasus Mail) are free.  Those who have shell accounts, or server access, can use a Unix tool called procmail to handle messages as they arrive at the server. Filtering rules can be VERY simple and still be effective. 
+
+Instructions for AOL members 
+AOL members can add characters to the end of their address as it appears in Usenet posts. Here's a before-and-after example:
+ BEFORE: emailfaq@aol.com 
+AFTER: emailfaq@aol.com.if.you.spam.me.you.suck.rocks
+ 
+Here's how: 
+
+*  Go to keyword newsgroups 
+*  Click on Set Preferences 
+*  In the box labeled Junk block, add the text you would like to append  to the end of your address 
+*  In the box labeled Signature be sure to tell people how to fix your  address, or what your replyable address is. (You can also add other stuff  to your signature, but you should keep it to 5 lines or less in length.)
+ EX: "My real address is emailfaq(AT)aol(DOT)com"
+ EX: "Remove 'p.mil' from my address to reply" 
+
+Suggested additions (be sure to include the periods!) 
+
+*  .oops!.invalid 
+*  p.mil 
+*  monly.anti.spam 
+*  .take.a.hike.spammer 
+
+Back to the beginning of the Mung FAQ 
+

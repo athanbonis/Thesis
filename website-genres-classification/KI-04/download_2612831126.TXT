@@ -1,0 +1,81 @@
+DOWNLOAD Download --> --> OVERVIEW Features Screenshots --> SUPPORT Support Manuals Discussion Mailing List --> Bug Report --> --> PURCHASE Details Buy Now --> CORPORATE Contact Donation --> Guestbook Affiliate Identity Search Language Download SmartFTP Online Setup - RECOMMENDED The setup routine automatically checks which files are required for SmartFTP, then downloads and installs them on your computer. Please see the Download HowTo and Installation HowTo for help. Online Setup (72 KB) Online Setup (72 KB) --> SmartFTP Full Setup Select "Auto Platform Detection" to let our server automatically choose the best setup package for you. The "All Platform" setup package contains the MSI installers for Win98/ME/NT/2k/XP and is only recommended for CD distributions. Full Setup (Auto Platform Selection) Full Setup (All Platforms) (6 MB) Alternate Setup We also have a setup which is free of the MSI (Microsoft Installer). NOTE: When using this setup the automatic "Upgrade" function in SmartFTP won't work. NSIS Setup (2 MB) The developer build can be downloaded for beta testing. Developer Build Browse File Area Miscellaneous SmartFTP Backup Tool SmartFTP.com Offline Package (~13 MB) Once you click the Download button, you will see the File Download dialog box. You"ll need to click its Open button to proceed. Would you like to open the... Open Save Always ask before... Copyright © 1998-2004 SmartFTP   -->  
+  
+
+| Contact |	  	
+
+    DOWNLOAD
+ Download  
+ 
+    OVERVIEW 
+Features 
+Screenshots 
+
+    SUPPORT 
+Support 
+Manuals 
+Discussion 
+
+    PURCHASE 
+Details
+ Buy Now 
+
+    CORPORATE 
+Contact 
+Guestbook 
+Affiliate 
+Identity
+  
+Search 
+  		
+
+Language 	
+
+Download	 
+
+SmartFTP Online Setup - RECOMMENDED	 
+
+The setup routine automatically checks which files are required for SmartFTP, then downloads and installs them on your computer.
+    Please see the Download HowTo and Installation HowTo for help.
+ 
+Online Setup (72 KB) 	
+
+SmartFTP Full Setup	 
+
+Select "Auto Platform Detection" to let our server automatically choose the best    setup package for you. The "All Platform" setup package contains the MSI installers for Win98/ME/NT/2k/XP and is only recommended for CD distributions.
+ 
+Full Setup (Auto Platform Selection) 
+Full Setup (All Platforms) (6 MB)    	
+
+Alternate Setup	 
+
+We also have a setup which is free of the MSI (Microsoft Installer). 
+NOTE: When using this setup the automatic "Upgrade" function in SmartFTP won't work. 
+   NSIS Setup (2 MB) 
+   
+The developer build can be downloaded for beta testing. 
+Developer Build 
+Browse File Area 	
+
+Miscellaneous	 
+
+SmartFTP Backup Tool   
+SmartFTP.com Offline Package (~13 MB)     	
+
+Once you click the Download button, you will see the File Download dialog box. You"ll need to click its Open button to proceed.
+
+ 	    	    Would you like to open the...	     	     
+  	  	  	  
+    	    Open	    	   Save	    	       
+   	   	   	    
+   	     	    Always ask before...	    	    
+   	    
+  	  
+ 	
+
+ 	 
+
+---------------------------------------------------------------------
+
+Copyright © 1998-2004 SmartFTP 	
+
+

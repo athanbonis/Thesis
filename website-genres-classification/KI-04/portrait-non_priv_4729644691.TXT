@@ -1,0 +1,121 @@
+'); //-->  -->            var CORP = 0; var HHO = 1; var SMB = 2; var ENT = 3; var seg_choices = new Array(CORP, HHO, SMB, ENT); var cycle = seg_choices[Math.floor(Math.random() * seg_choices.length)]; var src_b1 = new Array(); var src_b1_photo = new Array(); var src_b2 = new Array();  var map_b1 = new Array();  var map_b2 = new Array();  var theme_color = new Array(); theme_color[CORP] = '#990000'; src_b1[CORP] = '';  src_b1_photo[CORP] = '';  src_b2[CORP] = '';  /* end image map code for B2/B3 */ //--> theme = theme_color[cycle]; // Date Display Function function displayDate(){ var this_month = new Array(12); this_month[0] = "January"; this_month[1] = "February"; this_month[2] = "March"; this_month[3] = "April"; this_month[4] = "May"; this_month[5] = "June"; this_month[6] = "July"; this_month[7] = "August"; this_month[8] = "September"; this_month[9] = "October"; this_month[10] = "November"; this_month[11] = "December"; var today = new Date(); var day = today.getDate(); var month = today.getMonth(); var year = today.getYear(); if (year 
+
+document.write(displayDate());Current date is displayed here by JavaScript code	 
+Select:	 	
+United States-English 
+Africa-English 
+Africa-French 
+Argentina-Spanish 
+Australia-English 
+Austria-German 
+Belgium-Dutch 
+Belgium-French 
+Bolivia-Spanish 
+Brazil-Portuguese 
+Bulgaria-Bulgarian 
+Canada-English 
+Canada-French 
+Caribbean-English 
+Central America-Spanish 
+Chile-Spanish 
+China-Simplified Chinese 
+Colombia-Spanish 
+Croatia-Croatian 
+Czech Republic-Czech 
+Denmark-Danish 
+Ecuador-Spanish 
+Estonia-Estonian 
+Finland-Finnish 
+France-French 
+Germany-German 
+Greece-Greek 
+Hong Kong-English 
+Hong Kong-Traditional Chinese 
+Hungary-Hungarian 
+India-English 
+Indonesia-English 
+Ireland-English 
+Israel-Hebrew 
+Italy-Italian 
+Japan-Japanese 
+Kazakhstan-Russian 
+Korea-Korean 
+Latvia-Latvian 
+Lithuania-Lithuanian 
+Luxembourg-French 
+Malaysia-English 
+Mexico-Spanish 
+Middle East-English 
+Netherlands-Dutch 
+New Zealand-English 
+Norway-Norwegian 
+Paraguay-Spanish 
+Peru-Spanish 
+Philippines-English 
+Poland-Polish 
+Portugal-Portuguese 
+Puerto Rico-Spanish 
+Romania-Romanian 
+Russia-Russian 
+Singapore-English 
+Slovak Republic-Slovak 
+Slovenia-Slovenian 
+South Africa-English 
+Spain-Spanish 
+Sweden-Swedish 
+Switzerland-French 
+Switzerland-German 
+Taiwan-Traditional Chinese 
+Thailand-English 
+Turkey-Turkish 
+Ukraine-Russian 
+United Kingdom-English 
+United States-English 
+Uruguay-Spanish 
+Venezuela-Spanish 
+Vietnam-English 
+All Countries/Regions 
+
+country select page for javascript disabled browsers	 
+
+»	 Home & Home Office	 	
+
+»	 Small & Medium Business	 	
+
+»	 Large Enterprise Business	 	
+
+»	 Government & Education	 	
+
+»	 Partners & Developers	 	
+
+»	 Desktops & Workstations	 
+»	 Notebooks & Tablet PCs	 
+»	 Handheld Devices	 
+»	 Monitors & Projectors	 
+
+»	 Printing & Multifunction	 
+»	 Fax, Copiers & Scanners	 
+»	 Digital Photography	 
+
+»	 Storage	 
+»	 Servers	 
+»	 Networking	 
+
+»	 Software Products	 
+»	 
+Supplies & Accessories	 
+»	 Services	 
+
+»	 Online Shopping	 	
+
+»	 Support & Drivers	 
+
+» Contact HP	 
+
+Search:	 				
+
+» Company information	 	» Jobs at HP	 	» Newsroom	 	» Promotions	 	» Subscribe	 	
+
+Privacy statement	 Using this site means you accept its terms	 Safety recalls	 	© 2004 Hewlett-Packard Development Company, L.P.	 	
+
+

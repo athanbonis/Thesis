@@ -1,0 +1,156 @@
+       
+           	               I.D.I.S.           
+           Artificial Intelligence Resources          	      
+               Bayesian Networks       Pragmatics          	  
+
+---------------------------------------------------------------------
+  This page provides discussions on the pragmatics of building and   using Bayesian Networks. Special thanks for Russ Greiner    (greiner@scr.siemens.com)   for gathering much of this information. 
+---------------------------------------------------------------------
+               Table of Contents              
+          	           Why Bayesian Networks?      	        
+          	           Knowledge Acquisition/Engineering      	        
+          	           General Discussion      	       
+    
+
+---------------------------------------------------------------------
+  
+
+Why Bayesian Networks?              
+        
+     From nowledge Industries home page - 
+
+Comparison with Rule-Based Expert Systems:  
+  
+* [...], it is worth pointing out some differences between traditional expert systems and probability-based diagnosis systems. In an expert system, the knowledge engineer attempts to capture the reasoning process of that an expert uses during diagnosis. Probability-based systems, on the other hand, capture the expert's qualitative physical understanding of the system under diagnosis and use this knowledge to construct diagnostic models. While it is possible to capture diagnostic information directly in a probabilistic system, our experience shows that it is much faster and easier to assess causal models.  
+     	        
+     Eric Horvitz (horvitz@microsoft.com) writes: 
+ 
+* One of the strongest reasons is that uncertainty is indeed prevalent in the real world and it is critical to represent that uncertainty in at least a semi-coherent manner. Another reason is that Bayesian networks are a fundamentally more modular representation of uncertain knowledge than rule-based systems. This makes them easier to maintain, and to adapt them to different contexts, than there rule-based relatives.  
+
+[...]  
+
+The uncertain decision making context, and the modularity and ease of maintenance, make the Bayesian networks quite attractive.  
+
+[..]  
+
+Bayesian networks are very intuitive for nonexperts. We had a United Airlines engine person drawing and debugging these models within a few hours of exposure to them.  
+
+The NASA Vista people needed to have a way to fuse together the implications of multiple sensors, some noisy, when we began the Vista project. There was no good way to take into consideration all of the sensors and their failure modes with a fault tree. 
+     	        
+     Bruce D'Ambrosio (dambrosi@chert.cs.orst.edu) writes: 
+ 
+* I am currently doing some work with Litton Data Systems. The strong arguments there are primarily technological: improved performance, better communication with experts (model-based reps are modular and easy to work with). 
+     	        
+     Stuart Russell (russell@cs.berkeley.edu) writes:  
+  
+* The commonsense case for BNs over eg NNs is  
+  
+1.  the expert can provide knowledge in the form of causal structure    quite easily   
+2.  the resulting network after training is understandable and    extensible and provides probabilities on variables of interest, and    can also be used easily with arbitrary missing data (in both    training and use).  
+
+Russ Greiner (greiner@scr.siemens.com) writes:  
+  
+* I was told that many of the papers at the recent   
+   
+* NIPS'95 Workshop on Learning in Bayesian Networks and     Other Graphical Models   
+contained (often implicit) comparisions between Bayesian nets and neural nets, especially in terms of learning.      	        
+     In response to  
+  
+* I am looking for a concrete BUSINESS arguments for using Bayesian    nets. In particular, it would be useful to have a host of    testimonials, of the form [...]  
+Wray Buntine (wray@ptolemy-ethernet.arc.nasa.gov) writes:  
+  
+* Note on what follows: I'm all in the question and the positive    responses, I'm just being flippant and trying to inject    a different perspective.   
+* I always thought that concrete BUSINESS arguments for using Bayesian nets are rather like concrete BUSINESS arguments for using the product rule of calculus. Bayesian nets in the narrow sense are the kind of graph plus probability tables that have dominated UAI conferences in previous years. I'd have a hard time putting a case for these on anything but very specific narrow problems. Bayesian networks in the broader sense of "probabilistic networks" are a set of methods and representation for probabilistic calculation that applies to most problems with probabilities. On any serious sized problem, people will grind through similar operations anyway. Whether you call this Bayesian nets or not is a matter of which scientific tribe you belong to. I would never recommend a business use probabilistic networks. But I would recommend a business employ R&D people with some good graduate training in probabilistic networks. 
+
+So instead, here are some more apt questions and answers I believe. I'm going to replace the phrase "Bayesian nets", by the phrase "The Magic Button" in what follows. If you object to this phrase, then use "Genetic Algorithms" or "Neural Networks" instead or any of the other magic buttons that the research community is busily constructing for industry to push.  
+  
+* Q1. I am looking for a concrete BUSINESS arguments for  using The Magic Button.   
+* A1. Put smart people on the job and have them use the right  tools. Don't necessarily use The Magic Button, but  if your specific problem has a need for the kind of  analysis that The Magic Button can help with, then  by all means push the The Magic Button. 
+
+i.e., I believe there are no concrete BUSINESS arguments for   using probabilistic networks in general.   
+* Q2. Should I employ an expert in The Magic Button to solve    my problem.   
+* A2. Most likely "no". Most problems require a combination of  different skills, database work, systems programming,  Windows-UNIX interfaces, visualization, probabilistic reasoning.  Have the expert act as a consultant, maybe.  
+Now this is rather quickly starting to sound like I believe no-one should be using probabilistic networks. Course I don't believe this. For the following reasons. 
+
+Probabilistic networks in the broader sense are the way to address issues of probabilistic calculation. They are unavoidable. If you are addressing any problem with uncertainty (vision, image processing, database mining, diagnosis, etc.) then you are invariably doing something that is at least a rough approximation to probabilistic computation. So if your smart people are using the right tools, then they will be using variations of probabilistic networks anyway. The question is, whether they have been properly trained in the more elegant framework of probabilistic networks, or whether they grind through the same kinds of calculations on their own. My experience is that applications out in industry aren't solved properly because FEW people are willing to go out and acquire the right tools for the particular problem they are looking at, and are rarely trained in the different neighboring fields where they could get useful ideas. Furthermore, experts in the The Magic Button run around looking for applications suited for their Magic Button, and a large pool of applications exist that require a 5% input from The Magic Button A, another 5% from The Magic Button B, another 5% from The Magic Button C, and then 85% of good old sweat and toil. 
+
+So instead the relevant questions are:  
+  
+* Q3. Are probabilistic networks the right tools for    addressing uncertainty (in its many forms) ? 
+
+(Rhetorical question only, don't want to start THIS discussion)   
+* Q4. If the answer to Q3 is yes, then why aren't   probabilistic networks  a basic option for all computer scientists, statisticians, etc., in  graduate school ?  
+ 
+     	       
+    
+
+---------------------------------------------------------------------
+  
+
+Knowledge Acquisition              
+        
+     Edward J. Wright (EJWright@smtpgate.read.tasc.com) writes:  
+  
+* [We tried] to encode the "rules" for some simple photo-geology [within a public domain expert system shell]. But I could never get it to work. Later I found another expert system shell that included certainty factors. I could not get that to work either. 
+
+[I recently] used the same problem as a class project for a Bayesian network class. I will emphasize that the system I built is a very simple subset of the photo-geology problem, but it does provide answers that are always reasonable and usually correct. And I spent much less time building the Bayes net model then I did playing with the rule based systems. 
+
+I think the problem was too many interrelated variables and no way to deal with uncertain relationships, but this was no challenge for the Bayesian net.      	        
+     Eric Horvitz (horvitz@microsoft.com) writes:  
+  
+* [...] thought you might find reading    [Henrion 87]    interesting, given your recent question on rationale for using    influence diagrams and belief networks. [Also] a discussion of    efficiency of knowledge acquisition and modularity and its    implications for maintaining knowledge bases [can be found] in    [Horvitz 88].  
+Russ Greiner (greiner@scr.siemens.com) writes:  
+  
+* As the title suggests, the first article compares the challenge of building an effective diagnostic system (for the diagnosis and treatment of root disorders of apple trees) within first a standard rule-based expert system framework (ES), and then an influence diagram (ID).   
+
+There were several relevant findings:  
+  
+1.  The two systems produced had similar graphical structures, modulo    the directions of the links.   
+2.  While an ID can, in principle, require a great many numbers, here    the expert had to specify only a few. (Most of the values    degenerated to either 0 or 1, or were determined by other values.)    Moreover, a sensitivity analysis suggests that even rough    assessments were usually sufficient.   
+3.  While it was easier to produce an *initial* ES than an ID (as the  rule-based ES requires fewer numbers, etc), the ES requires more  extensive testing, debugging and tuning, as the initial ES will  cover only the combinations that the expert explicitly anticipated.  This also means an ID can handle situations that the expert did  expect, perhaps better than the initial expert could have.  
+
+The second article is also superb. Among other things, it discusses the need for handling uncertainties, motivates the use of probabilities and decision theory, and reviews some early attempts. It also states that  
+  
+* "although recent research on the application of decision-science    seems promising, for the most part only prototype systems have been    demonstrated"  
+ 
+     	       
+    
+  General Discussion   
+Expert Systems and Probabilistic Network Models (1997)
+ E. Castillo, J. M. Gutirrez, and A. S. Hadi.
+ Springer-Verlag, New York.
+
+Spanish version:
+ Sistemas Expertos y Modelos de Redes Probabilsticas (1997)
+ E. Castillo, J. M. Gutirrez, and A. S. Hadi.
+ Monografas de la Academia Espa1ola de Ingeniera, Madrid.  	 
+ Symbolic Propagation Algorithms:
+
+"Sensitivity Analysis in Discrete Bayesian Networks" (1997)
+ E. Castillo,J.M. Gutirrez, and A.S. Hadi
+ IEEE Transactions on Man, Cybernetics and Systems 27(4), 403-412.
+
+"A new Method for Symbolic Propagation in Bayesian Networks" (1996)
+ E. Castillo,J.M. Gutirrez, and A.S. Hadi
+ Networks 28, 31-43.  	 
+ Learning:
+
+"Learning and Updating of Uncertainty in Dirichlet Models" (1997)
+ Castillo, E., Hadi, A. S., and Solares, C.
+ Machine Learning, in press.
+ 	  
+ Modeling Continuous and Discrete-Continuous Models:
+
+"Modeling Networks of Discrete and Continuous Variables with an Application to Damage Assessment" (1997)
+ E. Castillo,J.M. Gutirrez, and A.S. Hadi
+ Multivariate Analysis, in press.
+
+"Symbolic Propagation and Sensitivity Analysis in Gaussian Bayesian Networks with Application to Damage Assessment" (1997)
+ E. Castillo,J.M. Gutirrez, and A.S. Hadi
+ Artificial Intelligence in Engineering 11, 173-181.  	
+
+---------------------------------------------------------------------
+  Administrator: Dr. Eugene Santos ---  eugene@cse.uconn.edu 
+ Webmaster: Mitchell Saba ---   saba@cse.uconn.edu 
+---------------------------------------------------------------------
+Last Update:    

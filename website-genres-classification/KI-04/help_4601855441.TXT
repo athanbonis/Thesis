@@ -1,0 +1,107 @@
+· How do I search by category? · How do I search by date? · How can I get better search results? · How do I search Variety's classified ads? · How do I search for events? · How do I search for reviews? · Where do I get more general help? · Power search tips Do you have an "Advanced Search"? Yes. Click in the left navigation on "Archives" and you can search by keywords, author or a date range. Back to top How do I search by keyword or phrase? You can search by a single word: ...or by phrase: ...or by several words: You don't need to use quotation marks. You can also use AND, OR, NEAR, "AND NOT" and parenthesis () to form more complex searches ( see below ) Back to top What are "search filters" and how do I use them? You must select a FILTER when you search by keyword or phrase. These are the buttons located next to the search box. Your search results will vary depending on the filter you select. Here is an overview: · ALL of the words - Choose this filter when you want the database to return results that contain all of the words in the text box. · ANY of the words - Choose this filter if you are unsure of your entry. The more keywords you enter, the more results the database is likely to return. · EXACT phrase - Choose this filter if you know the exact word or phrase that you are looking for. If your search is not successful, try selecting a different filter. Need help getting better search results? Click here . Back to top --> How do I search by category? "Categories" refers to the type of information you are looking for: news, reviews, columns, events and so on. In the box at the very top of the page, enter a word or phrase, then select a category to search. Click Go. If you are unsure of the category, select "ALL". You are not required to select a category. Back to top How do I search by date? From the Archives page (in the left navigation), you can search by date. "Date" refers to the online pubilcation date of the article you are looking for. (Note: This date may or may not correspond to the date the article appeared in print.) Variety's Advanced Search allows to search by a specific date, or within a date range. To search for a particular date, use the pulldown menus to select the month, day and year. If you are unsure of the date, try entering a date range. Enter a start and end date. The wider the range, the more results the database will return. You are not required to specify a date or date range. Keep in mind that if you select a date and the article you want was not published on that date, your search will not be successful. Back to top How can I get better search results? If you are having trouble finding the information you want, these tips can help you get better results: 1. Double-check your spelling. 2. Make your search more general. Enter fewer words. 3. Be sure that you separate related words with AND. 4. Check with Variety's Slanguage dictionary -- we use terms like pix and helmer instead of movies and director. 5. Try related words: Universal might not be mentioned in a story about Vivendi, and vice versa. You can also try our power search tips . Back to top How do I search Variety's classified ads? From the classifieds page (in the left navigation), you can search Variety's classified ads by category or keyword, or both. First, select the category you want to search. If you don't know, select ALL, then refine your search by entering a keyword or phrase in the text box. If you select a category and there are no listings in that category, your search will not be successful. Back to top How do I search Variety's Showbiz Calendar for events? You can search Variety's Showbiz Calendar (in the left navigation) by event name, event type, or event date. When searching by Event Name, if no results are returned, double-check your spelling and try again, or try searching by Event Type. Back to top How do I search Variety's reviews and credits? You can search Variety's Reviews back to 1914 by title or performer. First, entering a keyword or phrase in the text box. Then select the review type you want to search: film, music, tv or theater (legit). Remember when entering names that the match must be exact. If a stage name contains a middle initial, you must include it (though you can search by last or first name only as well). Back to top Where do I get more general help about the site? There's a link at the bottom of every page that takes you to the main site help page. Back to top Power Search Tips Boolean Operations: Keyword Search Action AND Finds only documents containing all of the specified words or phrases. Sonny AND Cher finds documents with both the word Sonny and the word Cher, not necessarily next to each other. OR Finds documents containing at least one of the specified words or phrases. Los Angeles OR New York finds documents containing either Los Angeles OR New York. The documents found could contain both, but might only contain one. NOT Excludes documents containing the specified word or phrase. Artisan AND NOT Blair Witch finds documents with Artisan but not containing Blair Witch. NOT cannot stand alone--use it with another operator, like AND. For example, the search does not accept Disney NOT Eisner ; instead, specify Disney AND NOT Eisner . NEAR Finds documents containing both specified words or phrases within 10 words of each other. Sony NEAR video would probably find documents related to the Sony's home video or video gaming industries, but likely not corporate announcements or computer hardware. Case Sensitivity: Use only lower case unless you want your search to be case sensitive. If you search for Fox , you'll get only documents that include that word with just that capitalization. If you search for fox , you'll get any page with that word. Grouping Use parentheses ( ) to specify grouping in a query. For example, to search for documents that contain information about both Universal and 20th Century Fox, try this advanced query: studio and ((Univeral OR Vivendi) AND ((20th OR Twentieth) NEAR Century)) studio and ((Univeral OR Vivendi) AND ((20th OR Twentieth) NEAR Century)) Wildcards: --> Use an asterisk (*) to broaden your search. To find any words that start with "screen," use screen* . This will match screens, screenplay, screenwriter and screenings, among others. Use this if the word you are searching for could have different endings. (for example, don't search for peripheral , search for peripheral* if it could be plural) Back to top   --> 
+
+Search Help
+
+Search provides fast access to Variety's online archives, including news, reviews, columns and stories from other news sources. You can also search classifieds, slanguage, our reviews and credits database and the showbiz calendar of entertainment events.
+
+Help Topics
+ 
+ · Do you have an "Advanced Search"?
+· How do I search by keyword or phrase?
+ · How do I search by category?
+· How do I search by date?
+· How can I get better search results?
+· How do I search Variety's classified ads?
+· How do I search for events?
+· How do I search for reviews?
+· Where do I get more general help?
+· Power search tips
+ 
+ Do you have an "Advanced Search"?
+ 
+ Yes. Click in the left navigation on "Archives" and you can search by keywords, author or a date range.
+ 		
+
+Back to top	 
+
+How do I search by keyword or phrase?
+ 
+ You can search by a single word: 
+ 
+ ...or by phrase:
+ 
+ ...or by several words:
+ 
+ You don't need to use quotation marks. You can also use AND, OR, NEAR, "AND NOT" and parenthesis () to form more complex searches (see below)
+ 	 	 
+
+Back to top	 
+ 	 
+ 	 
+How do I search by category?
+ 
+ "Categories" refers to the type of information you are looking for: news, reviews, columns, events and so on. In the box at the very top of the page, enter a word or phrase, then select a category to search. Click Go. If you are unsure of the category, select "ALL". You are not required to select a category.
+ 	 	 
+
+Back to top	 
+ 	 
+How do I search by date?
+ 
+ From the Archives page (in the left navigation), you can search by date. "Date" refers to the online pubilcation date of the article you are looking for. (Note: This date may or may not correspond to the date the article appeared in print.)
+
+Variety's Advanced Search allows to search by a specific date, or within a date range. To search for a particular date, use the pulldown menus to select the month, day and year. If you are unsure of the date, try entering a date range. Enter a start and end date. The wider the range, the more results the database will return. You are not required to specify a date or date range. Keep in mind that if you select a date and the article you want was not published on that date, your search will not be successful.
+ 	 	 
+
+Back to top	 
+ 	 
+How can I get better search results?
+ 
+ If you are having trouble finding the information you want, these tips can help you get better results:
+ 
+ 1. Double-check your spelling.
+2. Make your search more general. Enter fewer words.
+3. Be sure that you separate related words with AND.
+4. Check with Variety's Slanguage dictionary -- we use terms like pix and helmer instead of movies and director.
+5. Try related words: Universal might not be mentioned in a story about Vivendi, and vice versa.
+ You can also try our power search tips. 	 	 
+
+Back to top	 
+ 	 
+How do I search Variety's classified ads?
+ 
+ From the classifieds page (in the left navigation), you can search Variety's classified ads by category or keyword, or both. First, select the category you want to search. If you don't know, select ALL, then refine your search by entering a keyword or phrase in the text box. If you select a category and there are no listings in that category, your search will not be successful.
+ 	 	 
+
+Back to top	 
+ 	 
+How do I search Variety's Showbiz Calendar for events?
+ 
+ You can search Variety's Showbiz Calendar (in the left navigation) by event name, event type, or event date. When searching by Event Name, if no results are returned, double-check your spelling and try again, or try searching by Event Type.
+
+ 	 
+
+Back to top	 
+ 	 
+How do I search Variety's reviews and credits?
+ 
+ You can search Variety's Reviews back to 1914 by title or performer. First, entering a keyword or phrase in the text box. Then select the review type you want to search: film, music, tv or theater (legit). Remember when entering names that the match must be exact. If a stage name contains a middle initial, you must include it (though you can search by last or first name only as well).
+
+ 	 
+
+Back to top	 
+ 	 
+Where do I get more general help about the site?
+ 
+ There's a link at the bottom of every page that takes you to the main site help page.
+
+ 	 
+
+Back to top	 
+
+Power Search Tips
+
+Use an asterisk (*) to broaden your search. To find any words that start with "screen," use screen*. This will match screens, screenplay, screenwriter and screenings, among others. Use this if the word you are searching for could have different endings. (for example, don't search for peripheral, search for peripheral* if it could be plural) 		
+
+Back to top	 
+
+

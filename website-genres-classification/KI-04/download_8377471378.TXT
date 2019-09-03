@@ -1,0 +1,39 @@
+
+Current version:
+ v1.5.10 (18160) 
+---------------------------------------------------------------------
+VirtualDub homepage	
+
+VirtualDub download (at SourceForge)
+
+Downloadable files for VirtualDub are hosted by SourceForge, which provides free services for open-source and free software projects.  Please support them in their noble quest.
+
+---------------------------------------------------------------------
+
+Note: The material in these files is released under the GNU General Public License.  Please read it before redistributing or mirroring.  If you would like to mirror VirtualDub, be aware that it is not legal under the GPL to mirror the binary alone. It is better if you link to this page instead, in order to avoid becoming stale as new versions are released. Please do not link to the files directly, as direct linking is a bandwidth and administrative hassle.  Thank you.
+
+Note 2: All download links here lead to the SourceForge mirroring system, so you must not do a Save As from these links, or you will just get an HTML file. If the "list mirror" links are coming up as zip files, your browser is misconfigured, as it is ignoring the Content-Type: text/html declaration from the server. Release build -- 1.5.10 (stable)
+
+This is the current release of VirtualDub for end users, containing the executable and supporting files. Unzip the contents into a new folder and run VirtualDub.exe. (Do not run it directly from the zip file!) There is no version of 1.5.10 specifically optimized for P4 (although the general build does have some P4 optimizations).
+
+List download mirrors for V1.5.10 release build (VirtualDub-1.5.10.zip) 
+
+Source code
+
+You'll want this file to look at the innards of VirtualDub and to recompile the program. This codebase will build both the normal and P4 versions. All tools necessary to build the release executable and help file are included (verinc, mapconv, disasm, and Lina). You need Microsoft Visual C++ 6.0 Service Pack 5 + Processor Pack or later to build the general release, and Intel C/C++ 6.0 or later to build the P4 version.
+
+Note: The source code archive is an uncompressed zip file packed using the bzip2 block-sorting compressor.
+
+List download mirrors for V1.5.10 source code (VirtualDub-1.5.10-src.zip.bz2)
+
+Past versions
+
+To download past releases, go to VirtualDub's file list page on SourceForge.
+
+Note: VirtualDub's build process was cleaned up in 1.5.0, so if you are attempting to compile 1.4.13 or earlier you may have some problems; contact me for detailed directions if you are having trouble. For the most part, the 1.5.0 build tools should be backwards compatible to at least 1.4.10.
+
+---------------------------------------------------------------------
+ 
+http://virtualdub.sourceforge.net/	 Avery Lee <virtualdub.org / phaeron (at)>	
+
+

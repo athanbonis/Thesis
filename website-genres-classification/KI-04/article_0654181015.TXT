@@ -1,0 +1,23 @@
+
+
+                          
+
+What can algebraic geometry be used for?
+
+Many problems can be translated into solving polynomial equations, and algebraic geometry is precisely the study of the solutions of such equations. 
+
+The wavelet transformation uses a central theorem in algebraic geometry called Bezout's Theorem. Netscape's browser has a plug-in for image compression based on wavelets. 
+
+Another example is Groebner bases (or standard bases) which is a method for finding certain bases for ideals. Groebner bases has many applications. For example, the problem of adjusting the joints of a robot arm to bring the grabber from point A to point B can be solved using Groebner bases. See J. Baillieul et al (1990). Groebner bases are also of interest in connection with artificial intelligence where the method can be used for automated theorem proving in geometry. See W.-T. Wu (1983) which is a reprint of the original ideas for this. Groebner bases also has uses in image processing. In order to draw three dimensional objects one has to work with projections and this can be done in, what is called, a projective space. See Foley et al (1990). 
+
+It is possible to define addition of points on an elliptic curve. This arithmetic has been used successfully in coding theory and cryptography. It is assumed, but not proved, that cryptosystems based on such arithmetic are more secure then cryptosystems based on conventional arithmetic. 
+
+References
+
+* J. Baillieul et al. (1990), Robotics, Proceedings of Symposia in Applied Mathematics 41, American Mathematical Society, Providence, Rhode Island. 
+* J. Foley, A. van Damm, S. Feiner, and J. Hughes (1990), Computer Graphics: Principles and Practice, Second Edition, Addison-Wesley, Reading, Massachusetts. 
+* W.-T. Wu (1983), On the decision problem and the mechanization of theorem-proving in elementary geometry, in Automated Theorem Proving: After 25 Years, edited by W. Blesoe and D. Loveland, Contemporary Mathematics 29, American Mathematical Society, Provedence, Rhode Island, 213-234. 
+
+                          
+
+

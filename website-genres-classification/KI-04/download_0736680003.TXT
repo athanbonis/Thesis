@@ -1,0 +1,105 @@
+ Download Software 
+---------------------------------------------------------------------
+
+Here's where you can download the newest software for your keyboard, mouse, desktop set, or trackball.
+
+» Learn more about IntelliType Pro and IntelliPoint software.
+ 	
+
+Select your product
+
+-- Select your product --
+
+Basic Mouse (discontinued)
+
+Basic Optical Mouse
+
+Cordless Wheel Mouse (discontinued)
+
+IntelliMouse (discontinued)
+
+IntelliMouse Explorer
+
+IntelliMouse Optical
+
+IntelliMouse with IntelliEye (discontinued)
+
+Notebook Optical Mouse
+
+Optical Mouse
+
+Wheel Mouse
+
+Wheel Mouse Optical
+
+Wireless IntelliMouse Explorer
+
+Wireless IntelliMouse Explorer for Bluetooth
+
+Wireless Optical Mouse
+
+Wireless Wheel Mouse
+
+-----
+
+Trackball Explorer
+
+Trackball Optical
+
+-----
+
+Internet Keyboard
+
+Internet Keyboard Pro (discontinued)
+
+MultiMedia Keyboard
+
+Natural Keyboard Elite
+
+Natural Keyboard Pro (discontinued)
+
+Natural MultiMedia Keyboard
+
+Office Keyboard (discontinued)
+
+-----
+
+Basic Wireless Optical Desktop
+
+Wireless Desktop (discontinued)
+
+Wireless Optical Desktop
+
+Wireless Optical Desktop Elite
+
+Wireless Optical Desktop for Bluetooth
+
+Wireless Optical Desktop Pro
+
+Tilt Wheel Technology
+
+Learn how to scroll side to side.	
+
+Go BluetoothÂ®
+
+Discover the wonder of wireless	
+
+ 	
+
+Select your operating system
+
+-- Select your operating system --
+
+» Check system requirements.	
+
+ 	
+
+Select your operating system language
+
+-- Select your operating system language --
+
+function selectProduct(ctrl) { var prodCode = ctrl.options[ctrl.selectedIndex].value; var ddlOS = document.getElementById("ddlOS"); var btnDownload1 = document.getElementById("btnDownload1"); var ddlLang = document.getElementById("ddlLang"); var ddlSysreqHider = document.getElementById("ddlSysreqHider"); var ddlSysreq = document.getElementById("ddlSysreq"); switch(prodCode) { case 'pd_wodbt': case 'm_wiebt': ddlOS.selectedIndex = 0; ddlOS.disabled = true; ddlLang.selectedIndex = 0; ddlLang.disabled = true; ddlSysreqHider.disabled = true; ddlSysreq.href='#'; alert('The software download for this product is only available on the CD-ROM included in the package.'); return; case 'm_nom': case 'm_bom': case 'm_bm': ddlOS.selectedIndex = 0; ddlOS.disabled = true; ddlLang.selectedIndex = 0; ddlLang.disabled = true; ddlSysreqHider.disabled = true; ddlSysreq.href='#'; alert('This product is not supported for use with IntelliPoint software.'); return; case 'pk_nke': ddlOS.selectedIndex = 0; ddlOS.disabled = true; ddlLang.selectedIndex = 0; ddlLang.disabled = true; ddlSysreqHider.disabled = true; ddlSysreq.href='#'; alert('This product is not supported for use with IntelliType Pro software.'); return; } if(prodCode != "0") { //set the OS list switch(prodCode) { // none case "m_wiebt": case "m_nom": case "m_bom": case "m_bm": case "pd_wodbt": case "pk_nke": break; case "m_wime": case "m_wom": case "pd_wode": case "pd_wodp": case "pd_wod": case "pd_bwod": case "m_wie": setOSList(false,false,false,true,false); break; //95, no MAC case "m_im": case "m_wm": case "m_wwm": case "pk_ik": setOSList(true,true,true,false,false); break; case "m_om": setOSList(true,true,false,true,true); break; case "pk_nmk": case "pk_mmk": setOSList(true,true,false,false,false); break; default: setOSList(true,true,true,true,true); break; } ddlOS.selectedIndex = 0; ddlOS.disabled = false; if ("p" == prodCode.substr(0, 1)) { ddlSysreq.href='/hardware/mouseandkeyboard/systemrequirements.aspx?pid=024'; } else { ddlSysreq.href='/hardware/mouseandkeyboard/systemrequirements.aspx?pid=025'; } ddlSysreqHider.disabled = false; } else { ddlOS.selectedIndex = 0; ddlOS.disabled = true; ddlSysreq.href='#'; ddlSysreqHider.disabled = true; } btnDownload1.disabled = true; ddlLang.selectedIndex = 0; ddlLang.disabled = true; } function selectOS(ctrl) { var os = ctrl.options[ctrl.selectedIndex].value; var ddlOS = document.getElementById("ddlOS"); var ddlLang = document.getElementById("ddlLang"); var btnDownload1 = document.getElementById("btnDownload1"); var ddlKeyboard = document.getElementById("ddlKeyboard"); if(os == "0") {  setLangList(false,false,false,false,false,false); ddlLang.disabled = true; btnDownload1.disabled = true; return; } //set the lang list properly var prod = ddlKeyboard.options[ddlKeyboard.selectedIndex].value; if ("p" != prod.substr(0, 1)) { switch(os) { case "xp": case "2k": setLangList(true,true,true,true,true,true); break; case "macos": case "macos10": setLangList(false,false,false,true,false,true); break; default: setLangList(true,false,true,true,false,true); break; } } else { switch(os) { case "xp": case "2k": setLangList(true,true,true,true,true,true); break; case "macos": case "macos10": setLangList(false,false,false,false,false,false); break; default: setLangList(true,false,true,true,true,true); break; } } ddlLang.selectedIndex = 1; ddlLang.disabled = false; selectLang(ddlLang); } function addOpts(a_ctrl, a_opts) { for (n in a_opts) { a_ctrl[a_ctrl.length] = new Option(a_opts[n], n) } } function setOSList(oldWin, NT, win95, mac10, mac) { var ddlOS = document.getElementById("ddlOS"); var opts = {}; opts[ddlOS.options[0].value] = ddlOS.options[0].text; while(ddlOS.length > 0) ddlOS[0] = null; opts["xp"] = "Windows XP"; opts["2k"] = "Windows 2000"; if(oldWin) { opts["me"] = "Windows Me"; opts["98"] = "Windows 98"; } if(NT) { opts["nt"] = "Windows NT (SP 6 or Later)"; } if(win95) { opts["95"] = "Windows 95"; } addOpts(ddlOS, opts); opts = {}; if(mac10 || mac) { opts["0"] = "-----"; } if(mac10) { opts["macos10"] = "Mac OS 10.1-10.2.x (excluding OS X)"; } if(mac) { opts["macos"] = "Mac OS 8.6-9x"; } addOpts(ddlOS, opts); } function setLangList(chinese, greek, korean, portBraz, portIb, span) { var ddlLang = document.getElementById("ddlLang"); var opts = {}; opts[ddlLang.options[0].value] = ddlLang.options[0].text; while (ddlLang.length > 0)  ddlLang[0] = null; opts["en"] = "English (US)"; if(chinese) { opts["chs"] = "Chinese (Simplified)"; opts["cht"] = "Chinese (Traditional)"; } opts["fre"] = "French"; opts["deu"] = "German"; if(greek) { //opts["grk"] = "Greek"; } opts["ita"] = "Italian"; opts["jpn"] = "Japanese"; if(korean) { opts["kor"] = "Korean"; } if(portBraz) { opts["ptb"] = "Portuguese (Brazil)"; } if(portIb) { opts["pti"] = "Portuguese (Iberian)"; } if(span) { opts["spn"] = "Spanish"; } addOpts(ddlLang, opts); } function selectLang(ctrl) { var lang = ctrl.options[ctrl.selectedIndex].value; var btnDownload1 = document.getElementById("btnDownload1"); if(lang == "0") { btnDownload1.disabled = true; return; } btnDownload1.disabled = false; } function getSoftwareURL(prod, os, lang) { return "/hardware/mouseandkeyboard/DownloadResult.aspx?prod=" + prod + "&os=" + os + "&lang=" + lang; } function submitForm(){ var ddlKeyboard = document.getElementById("ddlKeyboard"); var dl_Form1 = document.getElementById("dl_Form1"); var ddlLang = document.getElementById("ddlLang"); var lang = ddlLang.options[ddlLang.selectedIndex].value; var ddlOS = document.getElementById("ddlOS"); dl_Form1.action = getSoftwareURL(ddlKeyboard.options[ddlKeyboard.selectedIndex].value, ddlOS.options[ddlOS.selectedIndex].value, lang); dl_Form1.submit(); } selectProduct(document.getElementById("ddlKeyboard")); 	
+
+ Contact Us 	
+ Â©2004 Microsoft Corporation. All rights reserved. Terms of Use | Privacy Statement 	
+    function mnpFooterMouse(el, co)    {     if (el.style) el.style.color = co;    }   

@@ -1,0 +1,80 @@
+               
+    	       
+     	     
+      Tune into the power of personal web publishing	      	        
+         
+     UserLand Home Radio UserLand Download Purchase Radio Renew Radio Upgrade Storage Documentation FAQ News Directory Developers Discuss Mail List Search      
+
+Members       	         
+                  Join Now
+              	         
+                  Login
+              	         
+   	   
+
+Radio Features             Radio Buzz             Documentation             Quick Start Guide                           
+
+Download
+
+Radio UserLand 8.0.8 is available for Microsoft Windows, Macintosh OS X and Macintosh Classic.
+
+See the System Requirements page for operating system and hardware requirements. You can download the full software package here, and may use it at no charge for up to thirty days. At any time you can purchase Radio UserLand 8.0.8 at the store site. It's only $39.95. 
+
+Please read the license, and do not download or use the software unless you agree to its terms.
+
+Radio UserLand is set-up to publish your weblog to UserLand's hosting servers. You have the option to publish your weblog to a Web server at your ISP or your Intranet. Radio is an Internet product. To properly set it up, you need a connection to the Internet.
+
+You can download 30-day trial version of the French, German and Italian versions of Radio from our partner, eVectors in Europe.
+
+Upgrading Note: If you're upgrading from version 8.0.x, follow the instructions on this page to get the new Radio application. The installers below cannot be used to upgrade Radio. To upgrade from version 7.0, follow the instructions on the Upgrade page.
+
+  
+
+Radio UserLand 8.0.8 exe file for Windows (3.0MB)
+
+Via HTTP.    	   
+       
+
+Radio UserLand 8.0.8 sit file for Macintosh OS X (3.9MB)
+
+Via HTTP.    	   
+       
+
+Radio UserLand 8.0.8 sit file for Macintosh OS 7.5.5 or greater (3.0MB)
+
+Via HTTP.    	   
+
+Windows
+
+Run the installer, RadioUserLand808Setup.exe, and follow the instructions in the setup dialogs. 
+
+At the end of the installation process, the installer will (optionally) launch the program for you.
+
+Your web browser will open the Radio UserLand Setup page. Follow the instructions on the page.
+
+To uninstall: From the Start menu, choose Programs->UserLand->Radio UserLand Uninstaller, and click Yes in the confirmation dialog. 
+
+Macintosh OS X
+
+Extract the downloaded archive, double-click the extracted disk image to mount it on your desktop, and copy the Radio UserLand folder into the Applications folder.
+
+Make sure that your web browser is running, and then double-click the Radio UserLand application icon.
+
+The browser will open the Radio UserLand Setup page. Follow the instructions on the page.
+
+To Uninstall: Drag the Radio UserLand folder to the Trash.
+
+MacOS Classic
+
+Unstuff the archive if it hasn't been unstuffed automatically, and launch Radio UserLand 8.0.8 Installer. Follow the instructions in the installer. At the end of the installation process, it will (optionally) launch the program for you.
+
+Your web browser will open the Radio UserLand Setup page. Follow the instructions on the page.
+
+To Uninstall: Drag the Radio UserLand folder to the Trash.
+
+� Copyright 2000-2004 UserLand Software, Inc.
+   Radio UserLand and Radio are trademarks of UserLand Software.
+   Last update: Tuesday, October 7, 2003 at 10:24:15 AM.
+   Email: webmaster@userland.com
+   
+              

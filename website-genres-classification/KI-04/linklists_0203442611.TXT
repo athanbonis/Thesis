@@ -1,0 +1,83 @@
+
+
+Quick Search      		Select your language 	     		
+
+Home  |     JBIG  |     PR  |     JURA  |     Members only  |     Forum  |     Sponsorship  |     Contact	      	
+
+  About JPEG
+
+  News
+
+  Links
+
+  Contact  	
+
+The following links have been suggested or found to exist to JPEG related information.
+
+No checks have been applied to this list - they are simply as reported, and neither Elysium Ltd nor the JPEG committee accept any responsibility for the information they point to, or their accuracy and relevancy. They are simply provided as useful pointers to additional information for anyone working with JPEG image compression. No questions can be answered on information found through these links by the JPEG committee - address any questions to the author of the referenced software/information.
+
+Information and background to JPEG2000
+
+This information now has its own page!
+
+Introduction to JPEG compression and graphics FAQs
+
+* JPEG Image Compression FAQ 
+* Graphics File Formats FAQ 
+* General compression FAQ 
+
+Available JPEG committee related documents
+
+* The SPIFF JPEG file format specification. Release of this document was permitted by ISO as an extract from IS 10918-3 
+* Final version of the committee draft for public comment of JPEG lossless, CD 14495. Caution - Please note that this should shortly be available as a published standard from either ISO as IS14495, or ITU-T as T.87. The main changes are editorial corrections and changes to the values of some marker codes used in the standard. 
+* JPEG-LS object code and conformance data - from one of the editors 
+* JPEG-LS sources from another JPEG member 
+* JFIF V1.02 - the file format used in most JPEG images (not a JPEG document though...) 
+
+Advanced JPEG Topics
+
+* Further JPEG-LS information resources from the medical community 
+* Progressive JPEG Information 
+* Q table generation 
+* The Web site for the I3A - formed on the merger between the Digital Imaging Group and PIMA
+ 
+
+JPEG Software
+
+* A key reference - Independent JPEG Group (IJG) Web site 
+* IJG FTP Site - Alternative for all systems 
+
+* Educational C++ source code linked to a book 
+* IJG code modified for Delphi and C++ Builder users (low-cost shareware) 
+* Pegasus Imaging - tuneup and extensions to baseline JPEG 
+* Progressify - Apple Macintosh 
+* IJG 'cjpeg' for Mac 
+* CImageBuffer C++/MFC library for JPEG 
+
+Commercial Companies
+
+* AutoGraph International Inc. 
+* Aware Inc. 
+* Cloanto 
+* Imagepower 
+* Integrated Silicon Systems - silicon cores for JPEG VLSI 
+* Lead Technologies - imaging toolkits 
+* Luratech - Lurawave, soon with JPEG2000... 
+* Pegasus Imaging Corporation 
+* ZORAN compression software 
+
+Miscellaneous
+
+* Kodak: Image Pac (PhotoCD) compression 
+* Some information on Kodak's Picture CD format
+ 
+
+JPEG feature demonstrations
+
+* JPEG encoding comparison to non JPEG encoding 
+
+Return to the top   				
+
+© 2003. Website designed and maintained by Elysium Ltd and 	Site sponsors include: 
+
+

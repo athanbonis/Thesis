@@ -1,0 +1,222 @@
+
+
+The Secure Shell TM Frequently Asked Questions
+
+---------------------------------------------------------------------
+
+0. Meta-info
+
+* 0.1. Where can I get this document? 
+* 0.2. Who maintains this document? 
+* 0.3. Where do I send questions, additions, corrections etc. about this document? 
+* 0.4. Revision history 
+* 0.5. Legalese 
+* 0.6. Trademarks 
+* 0.7. Credits 
+
+---------------------------------------------------------------------
+
+1. About Secure Shell 
+
+* 1.1. What is Secure Shell? 
+* 1.2. How widespread is its use? 
+* 1.3. What protocols does it use? 
+* 1.4. What encryption algorithms does Secure Shell use? 
+* 1.5. How does Secure Shell authenticate? 
+* 1.6. What does Secure Shell protect against? 
+* 1.7. What doens't Secure Shell protect against? 
+* 1.8. What is the difference between SSH1 and SSH2? 
+* 1.9. Who maintains Secure Shell? 
+* 1.10. Can I run Secure Shell legally? 
+
+* 1.10.1. Licensing 
+* 1.10.2. Cryptography laws 
+* 1.10.3. Patents on cryptographic algorithms 
+
+* 1.11. What operating systems does Secure Shell run on? 
+* 1.12. Shouldn't I be using only SSH2? 
+
+---------------------------------------------------------------------
+
+2. Getting Secure Shell
+
+* 2.1. Where is the official Secure Shell distribution and mirror sites? 
+
+* 2.1.1. Official Site 
+* 2.1.2. Mirrors 
+
+* 2.2. How about getting other relatively free versions of Secure Shell? 
+
+* 2.2.1. UNIX 
+* 2.2.2. Java 
+* 2.2.3. Windows 
+* 2.2.4. Macintosh 
+* 2.2.5. OpenVMS 
+* 2.2.6. Handheld devices 
+* 2.2.7. BeOS 
+* 2.2.8. OS/2 
+* 2.2.9. DOS 
+
+* 2.3. How about getting commerically supported versions of Secure Shell? 
+
+* 2.3.1. SSH Secure Shell 
+* 2.3.2. Van Dyke Software SecureCRT 
+* 2.3.3. F-Secure Tunnel and Terminal 
+* 2.3.4. Appgate Client and Server 
+* 2.3.5. EmTec ZOC 
+
+---------------------------------------------------------------------
+
+3. Installing Secure Shell
+
+* 3.1. What is the latest version of Secure Shell? 
+* 3.2. How do I install Secure Shell? 
+* 3.3. Does it make sense to install Secure Shell as a non-root user on UNIX? 
+* 3.4. Where do I get pre-compiled binaries for Secure Shell? 
+
+---------------------------------------------------------------------
+
+4. Running Secure Shell
+
+* 4.1. How do I run SSH1? 
+
+* 4.1.1. ssh1 
+* 4.1.2. scp1 
+* 4.1.3. sshd1 
+* 4.1.4. ssh-agent1 
+* 4.1.5. ssh-add1 
+
+* 4.2. How do I run SSH2? 
+
+* 4.2.1. ssh2 
+* 4.2.2. scp2 
+* 4.2.3. sshd2 
+* 4.2.4. ssh-agent2 
+* 4.2.5. ssh-add2 
+* 4.2.6. sftp2 
+
+* 4.3. How do I administer Secure Shell after I have the daemon running? 
+* 4.4. How do I get hostbased authentication to work with SSH2? 
+* 4.5. How do I get user public key authentication to work with SSH2? 
+* 4.6. Can I run Secure Shell from inetd? 
+
+---------------------------------------------------------------------
+
+5. Secure Shell and other applications
+
+* 5.1. Can I run backups over ssh? 
+* 5.2. Can I use ssh to communicate across a firewall? 
+* 5.3. Can I use rdist or rsync with ssh? 
+* 5.4. Can I use ssh to securely connect two subnets across the Internet? 
+* 5.5. Can I use ssh to securely forward UDP-based services, such as NFS or NIS? 
+* 5.6. Can I use ssh to protect services like ftp or POP? 
+* 5.7. Can I use ssh across a Socks firewall? 
+* 5.8. Is there ssh support for AFS/Kerberos? 
+* 5.9. Can I use TCP wrappers for added security on Secure Shell? 
+* 5.10. How do I tunnel X through Secure Shell?
+ 
+* 5.10.1. Basic configuration 
+* 5.10.2. Can I configure XDM to go through Secure Shell?
+ 
+* 5.11 Can I forward SGI GL connections over ssh? 
+* 5.12 Does Secure Shell support digital certificates? 
+* 5.13 Does Secure Shell work with PGP keys? 
+
+---------------------------------------------------------------------
+
+6. Patches for Secure Shell
+
+* 6.1. Applying patches for Secure Shell 
+* 6.2. Official patch distribution from Secure Shell Communications Security 
+* 6.3. Other patch distributions 
+
+---------------------------------------------------------------------
+
+7. Troubleshooting Secure Shell
+
+* 7.1. Common compiling problems 
+
+* 7.1.1. Compiling fails with some error messages from the assembler. 
+* 7.1.2. The configure process cannot find xauth! 
+* 7.1.3. The configure process cannot find nm 
+
+* 7.2. General troubleshooting tips 
+
+* 7.2.1. Ssh is doing wrong things for multi-homed hosts! 
+* 7.2.2. Ssh asks me for passwords despite .rhosts! 
+* 7.2.3. Why does ssh loop with "Secure connection refused'? 
+* 7.2.4. ssh hangs when forwarding multiple TCP connections. 
+* 7.2.5. I still see cleartext packages on the net when I run ssh! 
+* 7.2.6. I have problems with RSAREF, something to do with too many bits! 
+* 7.2.7. Connections are forwarded as root by ssh! 
+* 7.2.8. Why do I get a connection refused message? 
+
+* 7.3. X11 Forwarding problems 
+
+* 7.3.1 ssh otherhosh xclient & does not work 
+* 7.3.2 ssh-agent does not work with rxvt! 
+* 7.3.3 X authorization always fails. 
+* 7.3.4 What does Warning: remote host denied X11 forwarding mean? 
+
+* 7.4. Linux 
+
+* 7.4.1 X11 forwarding does not work for an SCO binary with the iBCS2 emulator under Linux. 
+* 7.4.2 On Linux, compilation aborts with some error message about libc.so.4 
+
+* 7.5. Solaris 
+
+* 7.5.1 Compiling with Solaris 2.5 fails! 
+* 7.5.2 Ssh fails with "Resource temporarily unavailable" for Solaris 
+* 7.5.3 Sshd hangs under Solaris 2.5! 
+* 7.5.4 ssh-keygen dumps core on Solaris or SunOS 
+* 7.5.5 I can't get TCP wrappers to work under Solaris 
+
+* 7.6. Other operating systems 
+
+* 7.6.1 ssh-keygen dumps core on Alpha OSF! 
+* 7.6.2 On HP-UX 9, X authorization sometimes fails. 
+* 7.6.3 Userid swapping is broken under AIX! 
+
+---------------------------------------------------------------------
+
+8. Getting support for Secure Shell
+
+* 8.1. Who provides support for Secure Shell? 
+
+* 8.1.1. What groups can help me with the "free" versions? 
+* 8.1.2. How can I get commercial support for UNIX Secure Shell? 
+
+* 8.2. So, I'm confused. If Datafellows sells Secure Shell, what does SSH Communications Security do? 
+* 8.3. Secure Shell Mailing list 
+* 8.4. Tutorials 
+* 8.5. Web pages 
+* 8.6. Publications 
+
+---------------------------------------------------------------------
+
+9. Tips and Tricks of Secure Shell
+
+* 9.1. Making Secure Shell more transparent to users 
+* 9.2. How do I find out which version of Secure Shell is running at the remote end? 
+* 9.3. How do I get SSH2 to compile on a MacOSX server? 
+* 9.4. Running SSH2 With SSH1 Compatibility 
+
+* 9.4.1 What Is SSH1 Compatibility? 
+* 9.4.2 Setting Up Compatibility 
+* 9.4.3 About TCP Wrappers and SSH1 Compatibility 
+* 9.4.4 Authentication in Compatibility Mode 
+* 9.4.5 How do I get hostbased authentication to work with SSH2 and SSH1? 
+
+---------------------------------------------------------------------
+
+10. The ever-popular miscellaneous section
+
+* 10.1. Should I turn encryption off, for performance reasons? 
+* 10.2. Known security bugs with Secure Shell 
+* 10.3. I don't like the commercial aspects of Secure Shell. 
+* 10.4. Alternatives to Secure Shell 
+
+---------------------------------------------------------------------
+Last updated: 09 March 2001. Maintainer - satch@employees.org. 
+
+This SSH FAQ mirror is made available by Brian Hatch and Onsight, Inc. Contact the FAQ maintainers if you have changes or comments on this material. 

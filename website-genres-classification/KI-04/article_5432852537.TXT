@@ -1,0 +1,213 @@
+The September 11th Fund --> CTK Exchange Front Page Movie shortcuts Personal info Awards Reciprocal links Terms of use Privacy Policy Interactive Activities Cut The Knot! MSET99 Talk Games & Puzzles Arithmetic/Algebra Algebra --> Geometry Probability Eye Opener Analog Gadgets Inventor's Paradox Did you know?... Proofs Math as Language Things Impossible My Logo Math Poll Other Math sites Guest book News sites Recommend this site Distance Between Strings It's a nice feature of the latest word processor programs that they are capable of suggesting a replacement for a mistyped word. Spelling checkers know how to evaluated distance between a misspelled word and the words in its files. Words whose evaluated distance is the smallest are offered as candidates for replacement. The applet below helps you acquaint yourself with two possible distances between strings. These metric functions attempt to ascribe a numeric (actually, integer) value to the degree of dissimilarity between two strings. That the functions do indeed satisfy the metric axioms can be shown by induction . (Which is a good exercise too.) Hamming Distance The Hamming distance H is defined only for strings of the same length. For two strings s and t, H(s, t) is the number of places in which the two string differ, i.e., have different characters. Levenshtein Distance The Levenshtein (or edit ) distance is more sophisticated. It's defined for strings of arbitrary length. It counts the differences between two strings, where we would count a difference not only when strings have different characters but also when one has a character whereas the other does not. The formal definition follows. For a string s, let s(i) stand for its i th character. For two characters a and b, define r(a, b) = 0 if a = b. Let r(a, b) = 1, otherwise. Assume we are given two strings s and t of length n and m, respectively. We are going to fill an (n+1)×(m+1) array d with integers such that the low right corner element d(n+1, m+1) will furnish the required values of the Levenshtein distance L(s, t). The definition of entries of d is recursive. First set d(i, 0) = i, i = 0, 1,..., n, and d(0, j) = j, j = 0, 1, ..., m. For other pairs i, j use (1) d(i, j) = min(d(i-1, j)+1, d(i, j-1)+1, d(i-1, j-1) + r(s(i), t(j))) (Type your strings in the two edit controls at the bottom of the applet. Click "Do It!".) You can experiment with the applet to verify the triangle inequality before trying to prove it. You may try to discover other features of functions H and L. If strings s and t have the same length then both H(s, t) and L(s, t) are defined. Must they be equal? Copyright © 1996-2004 Alexander Bogomolny Assume two strings s and t have the same length. Is it true that H(s, t) = L(s, t)? No, not necessarily. For example, as you can easily check, H("abc", "bca") = 3, whereas L("abc", "bca") = 2. Copyright © 1996-2004 Alexander Bogomolny Both Hamming and Levenshtein functions are metrics . The only portion of the definitions that may appear non-trivial is the triangle inequality. We show it by induction. What do functions H and L stand for? H(s, t), by definition, is the number of places at which strings s and t differ. In other words, it takes H(s, t) changes to make string t out of string s. The triangle inequality H(s, t) H(s, r) + H(r, t) just asserts that changing s to t "via" r could not be worse than changing s into t directly. L(s, t) has a similar interpretation, although the allowed "changes" are more sophisticated, e.g. one is allowed to add or remove a character. These are known as edit operations . L(s, t) is the minimum number of edit operations that transform s into t. (As a matter of fact, this assertion requires a proof of its own, see below.) However, to edit s into t one may first edit s into r and then r into t. That such a change from s to t is not necessarily optimal is exactly the subject of the triangle inequality: L(s, t) L(s, r) + L(r, t). Now, why is L(s, t) is the minimum number of edit operations that transform s into t. Let's look more carefully at the definition: (1) d(i, j) = min(d(i-1, j)+1, d(i, j-1)+1, d(i-1, j-1) + r(s(i), t(j))) To estimate the effort needed to transform s(0, i) - the first i characters of s - into t(0, j) - the first j characters of t - consider the three terms in (1), which correspond to the following situations: Delete s(i) from s(0, i) and use d(i-1, j) operations to edit s(0, i-1) into t(0, j) . Use d(i, j-1) operations to edit s(0, i) into t(0, j-1) and then append t(j). Use d(i-1, j-1) operations to edit s(0, i-1) into t(0, j-1) and then replace s(i) with t(j), if necessary. If the three terms on the right in (1) are optimal, then the term on the left is also optimal, for, on the last step of editing, one can't do better than making a single change or not making any change at all. Copyright © 1996-2004 Alexander Bogomolny 8504604 . --> --> Advertise --> --> Buy It Now! --> --> G o o g l e Web Search Latest on CTK Exchange Just For Fun! Magic T Posted by DoubleE 1 messages 05:07 PM, Jan-24-04 math problem no answer in sight Posted by Dmom 17 messages 01:00 PM, Jan-15-04 solving exponential equations Posted by Ray 5 messages 07:21 PM, Jan-25-04 ShadowFire's Ideas Posted by ShadowFire 4 messages 09:39 PM, Jan-24-04 Math OWNZ! SO does cut the knot! ^^ Posted by ShadowFire 0 messages 10:58 PM, Jan-22-04 Ceva in Circumscribed Quadrilateral Posted by darij 2 messages 09:05 AM, Jan-25-04   --> 
+
+CTK Exchange Front Page
+ Movie shortcuts
+ Personal info
+ Awards
+ Reciprocal links
+ Terms of use
+ Privacy Policy
+ 
+
+Interactive Activities
+ 
+
+Cut The Knot!
+ MSET99 Talk
+ Games & Puzzles
+ Arithmetic/Algebra
+ Geometry
+ Probability
+ Eye Opener
+ Analog Gadgets
+ Inventor's Paradox
+ Did you know?...
+ Proofs
+ Math as Language
+ Things Impossible
+ My Logo
+ Math Poll
+ Other Math sites
+ Guest book
+ News sites
+
+Recommend this site
+
+Distance Between Strings
+
+It's a nice feature of the latest word processor programs that they are capable of suggesting a replacement for a mistyped word. Spelling checkers know how to evaluated distance between a misspelled word and the words in its files. Words whose evaluated distance is the smallest are offered as candidates for replacement. The applet below helps you acquaint yourself with two possible distances between strings. These metric functions attempt to ascribe a numeric (actually, integer) value to the degree of dissimilarity between two strings. That the functions do indeed satisfy the metric axioms can be shown by induction. (Which is a good exercise too.)
+
+Hamming Distance
+
+The Hamming distance H is defined only for strings of the same length. For two strings s and t, H(s, t) is the number of places in which the two string differ, i.e., have different characters.
+
+Levenshtein Distance
+
+The Levenshtein (or edit) distance is more sophisticated. It's defined for strings of arbitrary length. It counts the differences between two strings, where we would count a difference not only when strings have different characters but also when one has a character whereas the other does not. The formal definition follows.
+
+For a string s, let s(i) stand for its ith character. For two characters a and b, define
+
+ 	 r(a, b) = 0 if a = b. Let r(a, b) = 1, otherwise. 
+
+Assume we are given two strings s and t of length n and m, respectively. We are going to fill an (n+1)×(m+1) array d with integers such that the low right corner element d(n+1, m+1) will furnish the required values of the Levenshtein distance L(s, t).
+
+The definition of entries of d is recursive. First set d(i, 0) = i, i = 0, 1,..., n, and d(0, j) = j, j = 0, 1, ..., m. For other pairs i, j use
+
+(1)	 d(i, j) = min(d(i-1, j)+1, d(i, j-1)+1, d(i-1, j-1) + r(s(i), t(j))) 
+
+ 	 
+
+(Type your strings in the two edit controls at the bottom of the applet. Click "Do It!".)
+
+You can experiment with the applet to verify the triangle inequality before trying to prove it. You may try to discover other features of functions H and L. If strings s and t have the same length then both H(s, t) and L(s, t) are defined. Must they be equal?
+
+Copyright © 1996-2004 Alexander Bogomolny 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Assume two strings s and t have the same length. Is it true that H(s, t) = L(s, t)? No, not necessarily. For example, as you can easily check, H("abc", "bca") = 3, whereas L("abc", "bca") = 2.
+
+Copyright © 1996-2004 Alexander Bogomolny 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Both Hamming and Levenshtein functions are metrics. The only portion of the definitions that may appear non-trivial is the triangle inequality. We show it by induction.
+
+What do functions H and L stand for? H(s, t), by definition, is the number of places at which strings s and t differ. In other words, it takes H(s, t) changes to make string t out of string s. The triangle inequality
+
+ 	 H(s, t) H(s, r) + H(r, t) 	
+
+just asserts that changing s to t "via" r could not be worse than changing s into t directly.
+
+L(s, t) has a similar interpretation, although the allowed "changes" are more sophisticated, e.g. one is allowed to add or remove a character. These are known as edit operations. L(s, t) is the minimum number of edit operations that transform s into t. (As a matter of fact, this assertion requires a proof of its own, see below.) However, to edit s into t one may first edit s into r and then r into t. That such a change from s to t is not necessarily optimal is exactly the subject of the triangle inequality:
+
+ 	 L(s, t) L(s, r) + L(r, t). 	
+
+Now, why is L(s, t) is the minimum number of edit operations that transform s into t. Let's look more carefully at the definition:
+
+(1)	 d(i, j) = min(d(i-1, j)+1, d(i, j-1)+1, d(i-1, j-1) + r(s(i), t(j))) 
+
+To estimate the effort needed to transform s(0, i) - the first i characters of s - into t(0, j) - the first j characters of t - consider the three terms in (1), which correspond to the following situations:
+
+1.  
+
+Delete s(i) from s(0, i) and use d(i-1, j) operations to edit s(0, i-1) into t(0, j).
+
+2.  
+
+Use d(i, j-1) operations to edit s(0, i) into t(0, j-1) and then append t(j).
+
+3.  
+
+Use d(i-1, j-1) operations to edit s(0, i-1) into t(0, j-1) and then replace s(i) with t(j), if necessary.
+
+If the three terms on the right in (1) are optimal, then the term on the left is also optimal, for, on the last step of editing, one can't do better than making a single change or not making any change at all.
+
+Copyright © 1996-2004 Alexander Bogomolny 	
+
+8504604	
+
+Google
+Web Search        	
+
+Latest on CTK Exchange  	   
+ Just For Fun! Magic T  
+ Posted by DoubleE 
+1 messages
+ 05:07 PM, Jan-24-04
+ 	    
+ math problem no answer in sight  
+ Posted by Dmom 
+17 messages
+ 01:00 PM, Jan-15-04
+ 	    
+ solving exponential equations  
+ Posted by Ray 
+5 messages
+ 07:21 PM, Jan-25-04
+ 	    
+ ShadowFire's Ideas  
+ Posted by ShadowFire 
+4 messages
+ 09:39 PM, Jan-24-04
+ 	    
+ Math OWNZ! SO does cut the knot! ^^  
+ Posted by ShadowFire 
+0 messages
+ 10:58 PM, Jan-22-04
+ 	    
+ Ceva in Circumscribed Quadrilateral  
+ Posted by darij 
+2 messages
+ 09:05 AM, Jan-25-04
+ 	   
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+

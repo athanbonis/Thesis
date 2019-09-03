@@ -1,0 +1,35 @@
+Algorithms and Complexity | Computer Science Department | School of Computer Science This page maintained by Avrim Blum (avrim@cs.cmu.edu).   --> 
+
+Welcome to the Graphplan Home Page
+
+School of Computer Science, Carnegie Mellon University, Pittsburgh PA 15213-3891
+  People: Avrim Blum, Merrick Furst, John Langford  	
+
+---------------------------------------------------------------------
+
+About Graphplan
+ Graphplan is a general-purpose planner for STRIPS-style domains, based on ideas used in graph algorithms. Given a problem statement, Graphplan explicitly constructs and annotates a compact structure called a Planning Graph, in which a plan is a kind of "flow" of truth-values through the graph. This graph has the property that useful information for constraining search can quickly be propagated through the graph as it is being built. Graphplan then exploits this information in the search for a plan. Graphplan was created by Avrim Blum and Merrick Furst, with subsequent extensions and improvements made by many researchers at many different institutions around the world. 
+
+How to try it out
+ To try out Graphplan, go to the Graphplan home directory. This directory contains source  code, object code for the DECstation and Sparcstation, a variety of sample domains, and a README file that describes how to run Graphplan and how to make up your own domains and problems. The program allows you to see an animation (in X) of what it's doing. For instance, look at a simple TSP domain. Here is what the animation looks like on a more interesting Flat Tire World (fixit) domain (graph creation omitted). Here is an explanation of what's going on. 
+
+Publications
+ A. Blum and M. Furst, "Fast Planning Through Planning Graph Analysis", Artificial Intelligence, 90:281--300 (1997). This is the original paper that describes the algorithm used. 
+
+A. Blum and J. Langford, "Probabilistic Planning in the Graphplan Framework", in Proceedings of ECP'99. (c)  Springer-Verlag. Describes how the planning graph structure can be used for probabilistic planning. See the Probabilistic Graphplan page. 
+
+Related Work
+ Since the initial creation of Graphplan, a number of researchers have pushed these ideas in a variety of exciting directions, including: 
+
+* broadening the class of problems for which this style of planning can be applied, 
+* reducing the running time (via improvements both to the basic strategy and to the code itself), and 
+* using Graphplan as a preprocessor to other search strategies. 
+In particular, check out the BLACKBOX (AT&T/Washington), IPP (U. Freiburg), STAN (U. Durham), and Sensory Graphplan (U. Washington) planners. See also John Langford's Plan compilation page. 	
+
+---------------------------------------------------------------------
+
+Algorithms and Complexity | Computer Science Department | School of Computer Science
+
+This page maintained by Avrim Blum  (avrim@cs.cmu.edu).
+
+

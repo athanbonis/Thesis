@@ -1,0 +1,209 @@
+Merchandise | About | Home Host Department Web Hosting | Reseller Hosting | Search engine optimization - SEO | phpBB Hosting at $ 7.95 Advertising Link 4 | Advertising Link 5 --> Powered by phpBB © 2001, 2003 phpBB Group :: Hosting donated by Doreo Hosting   -->  
+     
+    	         
+             
+        	        	                	        	        	             
+
+ 	   	  
+     
+
+ Latest Release &nbspLanguage & Image Packs Converters to phpBB subSilver SDK
+
+phpBB logos
+
+Please feel free to use this logo on your site to help promote phpBB
+
+88x31 pixels
+
+Use the following HTML to link back to phpBB
+
+<a href="http://www.phpbb.com/" target="_blank"><img src="[LOCAL PATH TO IMAGE]" width="88" height="31" alt="Powered by phpBB2" title="Powered by phpBB2" border="0" /></a>	        
+                   	         
+     Latest Release	         
+                             
+
+phpBB 2.0.6c :: 31st Dec 2003
+
+phpBB2 is the successor to the highly popular phpBB opensource bulletin board system. Re-written from the ground up to be even more flexible, secure and feature packed than its predecesor. phpBB 2.0 features all that was good about phpBB 1.x; one-click install, multiple language packs, simple and intuitive user interfaces, support for BBCode and powerful administration features. It extends this offering complete customisation through a powerful template system, fulltext based searching, advanced permissions system, powerful modularised administration controls, multiple database support, new moderator functions and much more.
+
+phpBB is released free of charge. However, you must read and fully understand the license agreement before you download and use the software.-+- License Agreement -+-
+
+phpBB 2.0.6c 	          [ Full Package ] 	           	           	           	               
+        	              
+        phpBB 2.0.6c 	          [ Changed Files Only ] 	           	           	           	               
+        	              
+        phpBB 2.0.6c 	          [ Patch File Only ] 	           	           	           	               
+        	             
+      
+
+Changes & New Features
+
+For a list of changes in this version please see the Changelog. For an overview of phpBB2's feature set please see our Feature list.             
+
+Installation and Support
+
+For details on how to install this release please see the Installation documents enclosed within the package. For general questions on using and administering phpBB 2 a complete Userguide is now available on our support pages. Additional support can be found in our Support Forums. Please make use of the search facility before asking questions.
+
+Reporting Bugs
+
+&bull; Security or Vulnerability related
+
+If you have found a vulnerability in phpBB2 please email the following address:
+
+se&#99;urity@phpbb.&#99;om
+
+Please do not release any information on vulnerabilities before contacting us (and allowing time for a fix to be produced). Please do not use this address for support questions, etc. such emails will be ignored.
+
+&bull; General bugs
+
+To report any other type of bug please use our Bug Tracker.
+
+If you do post a new bug (i.e. one that isn't already listed in the bug tracker, remember to search before posting!) please include the following details:
+
+* Your server type/version, eg. Apache 1.2.22, IIS 4, Sambar, etc.        
+* PHP version and mode of operation, eg. PHP 4.1.1 as a module, PHP 4.0.1 running as CGI, etc.        
+* DB type/version, eg. MySQL 3.23.32, PostgreSQL 7.1.2, MSSQL Server 2000 SP1, etc.       
+      
+
+Be as detailed as you can with your report including steps on how to reproduce theproblem. Only include attachments if they are essential to the report, only include patches if you are 100% sure they do not cause other issues and meet our coding guidelines (small code examples are fine and can be included in the report).
+
+Please remember that running any PHP application on a developmental version of PHP can lead to strange results so we recommend you upgrade to the newest stable version.
+
+Copyright
+
+This application is opensource software released under the GPL. A copy of the licence can be viewed online as noted at the top of this page. Copies of the licence are also contained within the package. This package and its contents are Copyright © 2001 phpBB Group, All Rights Reserved.
+
+Thanks
+
+Storage of the phpBB 2.0.0, language, image localisation and convertor packs is courteousy of Sourceforge.net
+
+Language & Image Packs	         
+           
+
+phpBB2 has been localised into several languages by a dedicated team of translators. All official packs are listed below, please note that we cannot support language sets downloaded from other sites.       
+
+Installation
+
+To install a language pack simply decompress the downloaded package into the languages/ directory. It will immediately become available to all users.
+
+Do not forget to download the related subSilver package, this contains localised button images for the default subSilver style. These should be decompressed in the templates/ directory. Support for these is automatic when the appropriate language is utilised.
+
+Remember when decompressing the package that you must retain the directory or folder structure. If you are unsure how to do this with your software please check its documentation. Failure to retain the directory structure will result in the language not being available.
+
+New Translations
+
+If your language is not listed below and you have the time please feel free to start a new translation. It is not particularly difficult to do but will take some time. Before starting please first read our Knowledge Base article. There you can find whether an existing person is already working on your language. If not you will also find details of how to go about localising phpBB2.
+
+Language	      Language	      subSilver	      Authors	         
+     Shqip Albanian Updated: 13 Dec 2002	           	           	      alket	         
+     &#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577; Arabic Updated: 27 Jun 2003	           	           	      waheed	         
+     Asturianu (Llion√©s) Asturian Updated: 01 Nov 2003	           	           	      Dangerous piper	         
+     Az&#601;rbaycan dili Azerbaijani Updated: 02 Oct 2003	           	           	      Verqa Simurq	         
+     Euskera Basque Updated: 03 Nov 2003	           	           	      Dangerous piper	         
+     Bosanski Bosnian Updated: 06 Jan 2003	           	           	      Mrmot	         
+     &#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; Bulgarian Updated: 04 Nov 2002	           	           	      Boby Dimitrov	         
+     Catal√† Catalan Updated: 04 Nov 2002	           	           	      xEik	         
+     &#20013;&#22269; Chinese [ Simplified ] Updated: 04 Nov 2002	           	           	      sundoit	         
+     &#21488;&#28771; Chinese [ Traditional ] Updated: 25 Jun 2003	           	           	      OOHOO	         
+     Hrvatski Croatian Updated: 19 Jun 2003	           	           	      Ancica	         
+     &#x010C;esky Czech Updated: 04 Nov 2002	           	           	      Azu	         
+     Dansk Danish Updated: 07 Oct 2003	           	           	      AlleyKat	         
+     Nederlands Dutch [ Netherlands ] Updated: 04 Nov 2002	           	           	      BartVB	         
+     Eesti Estonian Updated: 28 Oct 2003	           	           	      delos	         
+     &#1601;&#1575;&#1585;&#1587;&#1610; Farsi Updated: 15 Oct 2003	           	           	      mehdi	         
+     Suomea Finnish Updated: 04 Nov 2002	           	           	      Bullitt	         
+     Fran√ßais French Updated: 20 Apr 2003	           	           	      Helix	         
+     Galego Galician Updated: 25 Jul 2003	           	           	      sergio.ares	         
+     Deutsch German Updated: 10 Oct 2003	           	           	      Rici	         
+     Deutsch [ Sie ] German [ formal ] Updated: 04 Nov 2002	           	           	      easysite	         
+     &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; Greek Updated: 03 Sep 2003	           	           	      arttor	         
+     &#1506;&#1489;&#1512;&#1497;&#1514; Hebrew Updated: 04 Nov 2002	           	           	      dolfin	         
+     Magyarul Hungarian Updated: 07 Nov 2003	           	           	      Iranon, mauzi	         
+     √çslenska Icelandic Updated: 17 Jan 2003	           	           	      oreind	         
+     Bahasa Indonesia Indonesian Updated: 17 Jun 2003	           	           	      ivanlanin	         
+     Italiano Italian Updated: 04 Nov 2002	           	           	      teosno, Adrien	         
+     &#26085;&#26412;&#35486; Japanese Updated: 04 Nov 2002	           	           	      Yoichi, laszlo	         
+     &#54620;&#44397;&#50612; Korean Updated: 04 Feb 2003	           	           	      ksoonson, TankTonk	         
+     Kurdi Kurdish Updated: 05 Jul 2003	           	           	      agit, KURDISH-phpBB	         
+     Lietuvi&#371; Lithuanian Updated: 16 Sep 2003	           	           	      ProTON	         
+     &#1084;&#1072;&#1082;&#1077;&#1076;&#1086;&#1085;&#1089;&#1082;&#1080; Macedonian Updated: 22 Apr 2003	           	           	      bobanstojanov	         
+     &#1052;&#1086;&#1085;&#1075;&#1086;&#1083; Mongolian Updated: 12 Aug 2003	           	           	      hujii	         
+     Norsk Norwegian Updated: 04 Nov 2002	           	           	      water	         
+     Polski Polish Updated: 19 Nov 2003	           	           	      SuperSonic, Taz40	         
+     PortuguÍs Portuguese Updated: 04 Nov 2002	           	           	      Pincel	         
+     Portugu√™s [Brasil] Portuguese [ Brazil ] Updated: 24 Apr 2003	           	           	      JuniorZ	         
+     Rom√¢neste Romanian Updated: 01 Sep 2003	           	           	      bog_tom, danielt2	         
+     Rom√¢neste [ fara - diacritice ] Romanian [ No - Diacritics ] Updated: 01 Sep 2003	           	           	      bog_tom, danielt2	         
+     &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; Russian Updated: 08 Feb 2003	           	           	      borz_off	         
+     &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; [ &#1085;&#1072; "&#1090;&#1099;" ] Russian [ Tu ] Updated: 08 Feb 2003	           	           	      	        
+     Srpski Serbian Updated: 20 Apr 2003	           	           	      simke	         
+     &#1057;&#1088;&#1087;&#1089;&#1082;&#1072; Serbian [ Cyrillic ] Updated: 13 Aug 2003	           	           	      Bubica	         
+     Slovensk√° Slovakian Updated: 04 Nov 2002	           	           	      	        
+     Slovensko Slovenian Updated: 18 Mar 2003	           	           	      Natasa Holy	         
+     EspaÒol Spanish Updated: 04 Nov 2002	           	           	      alexis, Pato[100%Q]	         
+     EspaÒol de Argentina Spanish [ Argentina ] Updated: 04 Nov 2002	           	           	      Angel Olivera	         
+     Svenska Swedish Updated: 13 Aug 2003	           	           	      Virtuality	         
+     &#3652;&#3607;&#3618; Thai Updated: 20 Apr 2003	           	           	      Mr.LonelyWinter	         
+     T¸rkÁe Turkish Updated: 04 Nov 2002	           	           	      postexitus, erdem	         
+     Uyghurche Uighur Updated: 26 Sep 2003	           	           	      abdireyim, M.Erdem	         
+     &#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; Ukrainian Updated: 07 Aug 2003	           	           	      GZero	         
+     Cymraeg Welsh Updated: 21 Apr 2003	           	           	      nicdafis	        
+          
+     Forum Converters	         
+           
+
+If you are currently running other forum software then do not fret you can upgrade to phpBB2 with a forum converter.
+
+Note
+
+Please note that these convertors are not generally written or maintained by phpBB Group. We cannot guarantee the status of each convertor and take no responsibility for any results good or bad which may occur. You use these at your own risk! Please read any documentation provided within each package before using them! All enquires for convertors should be directed at the relevant author and not phpBB developers. More recent versions may be available from the convertor authors, please check the forums for details.
+
+Please do not link to these convertors directly from other sites, please link to this page.
+
+Convert From	      Download	      Version	      Author	         
+     ezBoard Updated: 04 Jan 2003	                 	     DWM	         
+     ikonBoard 2.1.x Updated: 04 Jan 2003	                 	     hsim	         
+     IPB 1.x Updated: 02 Aug 2003	                 1.1	      Ni[o	         
+     UBB.classic 6.x Updated: 09 Nov 2003	                 0.2.6	      DPK, Graham	         
+     UBB.threads 6.x Updated: 23 Nov 2003	                 0	      Graham	         
+     vBulletin 2.x Updated: 04 Feb 2003	                 1.33	      Matthijs	         
+     XMB 1.5 Silver/Gold Updated: 04 Jan 2003	                 1.0.1	      hijacker	         
+     YaBB Updated: 04 Jan 2003	                 1.3.1	      Moonbase	         
+     Unified Convertor System	         
+           
+
+The following convertors all use the Unified Convertor System developed and written by Ashe.
+
+Useage
+
+You should download the Common UCS package and the appropriate convertor package for your existing board. Be sure to read the README enclosed with the Common convertor package before proceeding with the conversion.
+
+Common UCS Updated: 27 Feb 2003	           	      1.3.4	      Ashe	         
+     Convert From	      Download	      Version	      Author	         
+     BlazeBoard 0.98 Updated: 04 Jan 2003	                 1.2	      Ashe	         
+     Burning Board 1.1.1e Updated: 04 Jan 2003	                 1.1	      Ashe	         
+     OpenBB 1.0.2 Updated: 28 Feb 2003	                 1.2-beta1	      Ashe	         
+     tForum 0.925p5 Updated: 04 Jan 2003	                 1.0	      Ashe	         
+     ThWboard 3 Beta 2.73 Updated: 04 Jan 2003	                 1.0	      Ashe	         
+     XMB 1.6 v2b Updated: 04 Jan 2003	                 1.0	      Ashe	         
+     YaBB SE v1.4 Updated: 04 Jan 2003	                 1.1	      Ashe	        
+              
+     subSilver SDK	         
+           
+
+The subSilver SDK contains the original graphics used to produce phpBB 2's subSilver style. This package includes both the original Photoshop 6 only graphic plus versions compatible with Photoshop 5 and other packages (such as GIMP, Paint Shop Pro, etc.). Please note that the subSilver SDK is not released under the GPL (see Licence below).
+
+phpBB 2.0.x 	          [ subSilver SDK ] 	           	           	              
+      
+
+Licence
+
+The subSilver SDK is not released under the GPL and is not subject to that licence.
+
+You are permitted to use the files contained within this package for personal use only. You may not use the files in any commercial package in part or in full without the express permission of phpBB Group. You may not re-distribute this package in any way, shape or form without prior agreement from phpBB Group (this includes linking directly to the package on this site). If the files in this package are used to produce images for any non-phpBB Group product the images or packaged image set should carry a name which indicates its origins as being phpBB or otherwise clearly state that phpBB originated the graphics. This package and its contents are Copyright © 2001 phpBB Group, All Rights Reserved.
+
+News |      Features |      Demo |      Downloads |      Support |      Community |      Styles |      Mods |           Merchandise |      About |      Home           Host Department Web Hosting |      Reseller Hosting |      Search engine optimization - SEO |      phpBB Hosting at $7.95               	     
+  	 
+Powered by phpBB © 2001, 2003 phpBB Group :: Hosting donated by Doreo Hosting
+
+

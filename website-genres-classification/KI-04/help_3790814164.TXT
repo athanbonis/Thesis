@@ -1,0 +1,199 @@
+        
+  	       
+    Home	     	        Hot Topics               
+      Active Directory	                
+      Exchange & Outlook	           
+      Migration	           
+      Mobile & Wireless	           
+      Networking	           
+      Scripting	           
+      Security	           
+      Small Business Server	           
+      SQL Server & Database	           
+      Storage	           
+      Web Administration	           
+      All Articles by Subject	          
+    	    	   Recent Articles	     	        Publications Archive               
+      Windows & .NET Magazine	                
+      Exchange & Outlook Administrator	                
+      Windows Scripting Solutions	            
+      Security Administrator	            
+      Email Newsletters	            
+      All Publications	           
+            	    	            Forums               
+      Windows Server 2003	           
+      Windows .NET Framework	            
+      Windows XP	            
+      Windows 2000	           
+      Windows NT	           
+      Windows 95/98/ME	           
+      Exchange and Outlook	           
+      Hardware and Software	           
+      IIS and Web Administration	           
+      Mobile & Wireless	           
+      Networking	           
+      Scripting	           
+      Security	           
+      Small Business Server	           
+      Systems Management	           
+      Storage/Backup/Recovery	           
+      Terminal Server/Server-Based Computing	           
+      Home Technology	           
+      Job Opportunities	           
+      All Forums	          
+        	    	                Events               
+      Web Seminars	              
+      Roadshows	            
+      Conferences	             
+      All Events	          
+        	    	        My Account     	     
+  	  
+  	  
+       
+            	     	                   	     	       Advanced Search	      
+  	       
+    	         LOG ON	          
+
+Driving the Enterprise Network NT 2000 XP 2003	     	     
+
+if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || navigator.userAgent.indexOf("WebTV")>= 0) {      document.write('');      document.write('')      }                               	   
+                  	   
+ 
+            
+           
+---------------------------------------------------------------------
+                     
+         [January 16, 2004]	                                     
+                              How can I upgrade from Exchange Server 5.5 to Exchange Server 2003?
+               Windows NT/2000 FAQ - John Savill        
+                     
+         [January 15, 2004]	                                     
+                              How can I use the Active Directory Connector (ADC) tools for Exchange Server 2003?
+               Windows NT/2000 FAQ - John Savill        
+                     
+         [January 14, 2004]	                                     
+                              How can I determine which domain is the forest root domain?
+               Windows NT/2000 FAQ - John Savill        
+                     
+         [January 13, 2004]	                                     
+                              How can I determine whether the Exchange Server 2003 ForestPrep and DomainPrep tasks have run?
+               Windows NT/2000 FAQ - John Savill        
+                     
+         [January 12, 2004]	                                     
+                              How can I change the amount of memory that the Store can use in Microsoft Exchange 2000 Server and later?
+               Windows NT/2000 FAQ - John Savill        
+            Add these Headlines to your Website             
+---------------------------------------------------------------------
+     	       
+          
+               
+                           if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || navigator.userAgent.indexOf("WebTV")>= 0) {      document.write('');      document.write('')      }                               	   
+     	       
+   
+     	            
+           
+
+  Subscriptions	
+
+Windows XP and 2000 Tips & Tricks	     
+  
+  
+
+ More Email Newsletters  	
+
+  FAQ Topics	
+
+• Active Directory (124)
+                  • BackOffice Server (24)
+                  • Backup (36)
+                  • Batch Files (25)
+                  • Certificate Services (4)
+                  • Command Prompt (40)
+                  • Compatibility (17)
+                  • Core (12)
+                  • Desktop Environment (105)
+                  • DFS (10)
+                  • DHCP (25)
+                  • DNS (38)
+                  • Domains (49)
+                  • Exchange/Outlook (205)
+                  • File systems (147)
+                  • Group Policy (25)
+                  • Hardware (81)
+                  • Home Technology (18)
+                  • IIS (48)
+                  • Installation (157)
+                  • Internet Explorer (115)
+                  • ISA (16)
+                  • License (6)
+                  • Macintosh (11)
+                  • Mobile and Wireless (41)
+                  • Multimedia (41)
+                  • NetWare (17)
+                  • Network (101)
+                  • Performance (26)
+                  • Printing (52)
+                  • Problem Solving (213)
+                  • Proxy Server (18)
+                  • RAID (17)
+                  • RAS (51)
+                  • Recovery (30)
+                  • Registry (34)
+                  • Security (59)
+                  • Service Packs (58)
+                  • SQL (392)
+                  • Support (3)
+                  • System Configuration (315)
+                  • System Information (23)
+                  • System Policy (6)
+                  • TCP/IP (65)
+                  • Terminal Services (71)
+                  • Training & Certification (35)
+                  • User Configuration (101)
+                  • Utilities (39)
+                  • Various (77)
+                  • Windows 2000 (20)
+                  • Windows 95/98 (22)
+                  • Windows Scripting Host (9)
+                  • Windows Server 2003 (1)
+                  • Windows XP (24)
+                  • WINS (12)
+                	           
+     
+
+ Submit an FAQ  	
+
+  Mobile Edition	
+
+Subscribe to the Windows & .NET Magazine Network Mobile Edition         	             
+     	       
+     	            
+                                        
+                                                          
+                          
+                           if ((!document.images && navigator.userAgent.indexOf('Mozilla/2.') >= 0) || navigator.userAgent.indexOf("WebTV")>= 0) {      document.write('');      document.write('')      }                               	   
+    	          
+
+Sponsored Links
+                                         • Royal Caribbean launches a smooth-sailing Active Directory.
+                                         • Maximize server speed automaticallyÂ—Click to try DiskeeperÂ® FREE!
+                                         • Modify AD attributes in bulk plus extensive reports! Free trial!
+                   	       
+
+Featured Links
+                                         • Get a free sample issue of Windows & .NET Magazine
+                                         • Find a web seminar, conference, roadshow-Events Central
+                                         • Email is a Service-Manage it Like One: Free Web Seminar
+                                         • Download a free ebook - A Guide to Group Policy
+                                         • Sign Up Today - Free Microsoft Security Strategies Roadshow
+                                         • Get 5 years worth of SQL Server content here!
+                   	       
+
+    Our Other Websites:     CertTutor   |     Connected Home   |     JSI FAQ   |     IT Library/eBooks   |     SuperSite   |     Windows FAQ   |     WinInfo News	  
+
+Home   |     Subscribe / Register   |     About Us   |     Contact Us / Customer Service   |     Affiliates / Licensing   |     Press Room   |     Media Kit
+
+Windows & .NET Magazine Network is a Division of Penton Media Inc.
+  Copyright © 2004 Penton Media, Inc., All rights reserved. Legal | Privacy Policy
+
+

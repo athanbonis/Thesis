@@ -1,0 +1,132 @@
+
+
+ 	 
+downloads | documentation | faq | getting help | mailing lists | reporting bugs | php.net sites | links | my php.net  	
+
+search for in the 
+function list
+ 
+whole site
+ 
+online documentation [en]
+ 
+bug database
+ 
+general mailing list
+ 
+developer mailing list
+ 
+documentation mailing list 
+
+  	
+
+PHP Handbuch 
+* PHP Handbuch 
+* Vorwort 
+* EinfÃ¼hrung 
+* Sprachreferenz 
+* Sicherheit 
+* Features 
+* Funktionsreferenz 
+* Zend API 
+* PHP API FAQ 
+* Anhang 
+
+Stream open options	Allgemeine Informationen	
+
+view the 
+printer friendly
+ 
+printer friendly [+notes]
+ 
+English
+ 
+Brazilian Portuguese
+ 
+Chinese (Simplified)
+ 
+Chinese (Hong Kong Cantonese)
+ 
+Chinese (Traditional)
+ 
+Czech
+ 
+Dutch
+ 
+Finnish
+ 
+French
+ 
+Greek
+ 
+Hebrew
+ 
+Hungarian
+ 
+Italian
+ 
+Japanese
+ 
+Korean
+ 
+Polish
+ 
+Romanian
+ 
+Russian
+ 
+Slovak
+ 
+Slovenian
+ 
+Spanish
+ 
+Swedish
+ 
+Turkish
+ 
+version of this page	Last updated: Sat, 09 Aug 2003	
+ VIII. FAQ: Frequently Asked QuestionsInhaltsverzeichnis44. Allgemeine Informationen45. Mailing-Listen46. Obtaining PHP47. Database issues48. Installation49. Probleme bei der Compilierung50. PHP benutzen51. PHP und HTML52. PHP and COM53. PHP und andere Sprachen54. Von PHP 2 auf PHP 3 umsteigen55. Von PHP 3 auf PHP 4 umsteigen56. Verschiedene Fragen add a note User Contributed Notes FAQ: Frequently Asked Questions PietroAbbatiMarescotti p dot abbati at ieee dot org 09-Jan-2004 12:16 
+Regarding implode and explode function, they do not allow to save keys as well. Basing on function wrote by static (14-May-2002 07:43), I wrote these two functions that allow to export and import  an array with its keys:
+
+function implode_with_keys($glue, $keyglue, $array) {
+       $output = array();
+       foreach( $array as $key => $item )
+               $output[] = $key . $keyglue . $item;
+       return implode($glue, $output);
+}
+
+function explode_with_keys($glue, $keyglue, $string) {
+        $imported_array = array();
+        $original_array = array();
+        $imported_array = explode($glue,$string);
+        foreach($imported_array as $row){
+               list($key,$value) = explode($keyglue,$row);
+               $original_array[$key] = $value;}
+        return $original_array;
+}
+
+Obviously, $glue and $keyglue MUST be different, and no one of them should appear in values.
+
+Ciao - PietroAM
+johannes at schlueters dot de 05-Apr-2003 01:49 
+A great German FAQ can be found on http://www.dclp-faq.de
+philip at cornado dot com 30-Dec-2002 09:07 
+A lot of faqts here:
+http://php.faqts.com/
+14-Jul-2002 12:49 
+For more PHP faq in russian please see :
+http://www.php-tutor.com
+
+Konstantin.
+add a note 
+
+Stream open options	Allgemeine Informationen	
+
+ 	Last updated: Sat, 09 Aug 2003	
+ 	
+
+show source | credits | sitemap | contact | mirror sites  	
+
+Copyright © 2001-2004 The PHP GroupAll rights reserved.	 This mirror generously provided by: @GLOBE GmbH Last updated: Mon Jan 26 00:20:46 2004 CET 	
+

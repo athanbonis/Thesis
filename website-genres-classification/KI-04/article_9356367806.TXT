@@ -1,0 +1,83 @@
+Stochastic program A point x is feasible if it is in X and satisfies the constraints: g(x) <= 0 and h(x) = 0. A point x* is optimal if it is feasible and if the value of the objective function is not less than that of any other feasible solution: f(x*) >= f(x) for all feasible x. The sense of optimization is presented here as maximization , but it could just as well be minimization , with the appropriate change in the meaning of optimal solution: f(x*) <= f(x) for all feasible x. A mathematical program is often extended to indicate a family of mathematical programs over a parameter space , say P. This merely involves extending the domain of the functions, f, g and h, and we use the semi-colon to separate the decision variables from the parameters. Maximize f(x; p): x in X, g(x; p) <= 0, h(x; p) = 0. (We could also have X depend on p, but this form generally suffices.) Mathematical programming is the study or use of the mathematical program. It includes any or all of the following: Theorems about the form of a solution, including whether one exists; Algorithms to seek a solution or ascertain that none exists; Formulation of problems into mathematical programs, including understanding the quality of one formulation in comparison with another; Analysis of results, including debugging situations, such as infeasible or anomalous values; Theorems about the model structure, including properties pertaining to feasibility, redundancy and/or implied relations (such theorems could be to support analysis of results or design of algorithms); Theorems about approximation arising from imperfections of model forms, levels of aggregation, computational error, and other deviations; Developments in connection with other disciplines, such as a computing environment. One taxonomy for mathematical programming is by its defining ingredients: Abstract Biconvex Bilinear Composite concave Convex Disjunctive Dynamic Factorable Fractional Geometric Integer Infinite Lattice Linear Mixed-Integer Multilevel Nonlinear Pseudo-boolean Reverse convex Semi-definite Semi-infinite Separable This glossary contains some mathematical programming problems , which you might examine as examples. Other web sources that explain the nature of mathematical programming are given in the NEOS Guide . You might also consult my Myths and Counterexamples in Mathematical Programming . Notation Last updated: Sunday, January 25, 2004 Send questions and comments to Harvey.Greenberg@cudenver.edu . Copyright © 1996 &#8211; 2003, Mathematical Programming Glossary, by Harvey Greenberg   --> 
+
+ 	 
+
+ 	 
+
+  
+
+The Nature of Mathematical Programming
+ 
+
+George B. Dantzig 
+Father of Mathematical Programming 
+
+Here is a biography. 	
+
+A mathematical program is an optimization problem of the form: Maximize f(x): x in X, g(x) <= 0, h(x) = 0, 
+
+where X is a subset of R^n and is in the domain of the real-valued functions, f, g and h. The relations, g(x) <= 0 and h(x) = 0 are called constraints, and f is called the objective function. 
+
+There are, however, forms that deviate from this paradigm, and it is typically a modeling issue to find an equivalent standard form. Important examples are as follows: 
+
+* Fuzzy mathematical program 
+* Goal program 
+* Multiple objectives 
+* Randomized program 
+* Stochastic program 
+
+A point x is feasible if it is in X and satisfies the constraints: g(x) <= 0 and h(x) = 0. A point x* is optimal if it is feasible and if the value of the objective function is not less than that of any other feasible solution: f(x*) >= f(x) for all feasible x. The sense of optimization is presented here as maximization, but it could just as well be minimization, with the appropriate change in the meaning of optimal solution: f(x*) <= f(x) for all feasible x. 
+
+A mathematical program is often extended to indicate a family of mathematical programs over a parameter space, say P. This merely involves extending the domain of the functions, f, g and h, and we use the semi-colon to separate the decision variables from the parameters. Maximize f(x; p): x in X, g(x; p) <= 0, h(x; p) = 0. 
+
+(We could also have X depend on p, but this form generally suffices.) 
+
+Mathematical programming is the study or use of the mathematical program. It includes any or all of the following: 
+
+* Theorems about the form of a solution, including whether one exists; 
+* Algorithms to seek a solution or ascertain that none exists; 
+* Formulation of problems into mathematical programs, including understanding the quality of one formulation in comparison with another; 
+* Analysis of results, including debugging situations, such as infeasible or anomalous values; 
+* Theorems about the model structure, including properties pertaining to feasibility, redundancy and/or implied relations (such theorems could be to support analysis of results or design of algorithms); 
+* Theorems about approximation arising from imperfections of model forms, levels of aggregation, computational error, and other deviations; 
+* Developments in connection with other disciplines, such as a computing environment. 
+
+One taxonomy for mathematical programming is by its defining ingredients: 
+
+* Abstract 
+* Biconvex 
+* Bilinear 
+* Composite concave 
+* Convex 
+* Disjunctive 
+* Dynamic 
+* Factorable 
+* Fractional 
+* Geometric 
+* Integer 
+* Infinite 
+* Lattice 
+* Linear 
+* Mixed-Integer 
+* Multilevel 
+* Nonlinear 
+* Pseudo-boolean 
+* Reverse convex 
+* Semi-definite 
+* Semi-infinite 
+* Separable 
+
+This glossary contains some mathematical programming problems, which you might examine as examples. Other web sources that explain the nature of mathematical programming are given in the NEOS Guide. You might also consult my Myths and Counterexamples in Mathematical Programming. 
+
+    
+
+---------------------------------------------------------------------
+Notation 
+---------------------------------------------------------------------
+
+Last updated: Sunday, January 25, 2004 
+Send questions and comments to Harvey.Greenberg@cudenver.edu. 
+Copyright© 1996 &#8211; 2003, Mathematical Programming Glossary, by Harvey Greenberg 
+
+ 	 
+

@@ -1,0 +1,490 @@
+ExamVouchers.com - CompTIA discount exam vouchers - save money Sponsor: Cert21.com Free Online practice tests HOME Microsoft software > Windows 2000 > Windows 2000 Setup > Boot problem with boot floppy Last Thread Next Thread Author Aaqs Guest Registered: Not Yet Location: Country: Total Posts: N/A Boot problem with boot floppy Hello! I formatted the C partition of HDD and transfered system files from Win98SE bootdisk. When I restart the computer, it says "no system media, boot failure". I want to boot from HDD and then switch to my WinME installation folder in D drive to install manually. What is the problem? Any ideas?? Report this post to a moderator 12-16-03 11:17 AM Edit/Delete IP: Logged Richar d Harris Guest Registered: Not Yet Location: Country: Total Posts: N/A Re: Boot problem with boot floppy Reboot using the Windows 98SE bootdisk and format the hard disk again, this time using the following switch: format c: /s This should copy over the system files required to boot your machine from the hard disk. Rich "Aaqs" <anonymous@discussions.microsoft.com> wrote in message news:074001c3c3be $ ba6b42a0 $ a501280a@phx.gbl... > Hello! > I formatted the C partition of HDD and transfered system > files from Win98SE bootdisk. When I restart the computer, > it says "no system media, boot failure". I want to boot > from HDD and then switch to my WinME installation folder in > D drive to install manually. What is the problem? Any ideas?? > Report this post to a moderator 12-16-03 11:17 AM Edit/Delete IP: Logged Guest Registered: Not Yet Location: Country: Total Posts: N/A Re: Boot problem with boot floppy Hi Rich, I have the system files IO.SYS, MSDOS.SYS. COMMAND.COM in my C drive, but still it says BOOT FAILURE. But when I install win98se and delete it manually from C drive and then tranfer SYS from floppy A, then it works fine and boot from HDD. But why with a clean HDD I cant boot if I transfer SYS C: from A drive?? Really confused... >-----Original Message----- >Reboot using the Windows 98SE bootdisk and format the hard disk again, this >time using the following switch: > >format c: /s > >This should copy over the system files required to boot your machine from >the hard disk. > >Rich > > >"Aaqs" <anonymous@discussions.microsoft.com> wrote in message >news:074001c3c3be $ ba6b42a0 $ a501280a@phx.gbl... ideas??[color=blue] > > >. > Report this post to a moderator 12-16-03 01:17 PM Edit/Delete IP: Logged Bjorn Landem oo Guest Registered: Not Yet Location: Country: Total Posts: N/A Re: Boot problem with boot floppy Check that the partition is set as active (bootable) by booting from your floppy and running FDISK. Also ensure that BIOS is set to boot from your hard disk. Best regards Bjorn -- Bjorn Landemoo - mvp2@landemoo.com - http://landemoo.com/ Microsoft MVP - Windows Server Networking <anonymous@discussions.microsoft.com> wrote: [color=blue] >Hi Rich, > >I have the system files IO.SYS, MSDOS.SYS. COMMAND.COM in >my C drive, but still it says BOOT FAILURE. But when I >install win98se and delete it manually from C drive and >then tranfer SYS from floppy A, then it works fine and boot >from HDD. But why with a clean HDD I cant boot if I >transfer SYS C: from A drive?? Really confused... > > > >disk again, this >your machine from >ideas?? Report this post to a moderator 12-16-03 08:18 PM Edit/Delete IP: Logged All times are GMT. The time now is 02:09 AM. Featured sites Featured site: MCSE, MCSD, CompTIA, CCNA training videos Popular forums A+ (A Plus) Windows 2000 Active directory Exchange 2000 information store Network+ Windows XP Security Exchange 2000 server administration MCSE .NET Web services SQL Server Cisco certification ASP .NET SQL 2000 Programming Windows 2000 Registry .NET XML Viruses Show a Printable Version | Email This Page to Someone! | Receive updates to this thread Forum Jump: Please select one: -------------------- Private Messages User Control Panel Who's Online Search Forums Forums Home -------------------- Microsoft Certifications -- Microsoft Certifications General -- MCSA -- MCDBA -- MCAD -- MCDST -- MOS -- MCT -- alt.certification.mcse -- Microsoft Solutions Framework Practitioner (MSF) -- MCSE -- MCSD Microsoft software -- Windows 2000 ---- Windows 2000 General ---- Windows 2000 Hardware ---- Windows 2000 Setup ---- Windows 2000 Networking ---- Active Directory ---- DNS ---- Windows 2000 RAS ROUTING ---- Windows 2000 Group Policy ---- Windows 2000 Security ---- Windows 2000 File system ---- Win2000 New User administration ---- Windows 2000 Printing ---- MSI ---- Windows 2000 Advanced Server ---- Windows 2000 Registry -- Windows XP ---- General ---- Windows XP basics ---- Windows XP Hardware ---- Windows XP New Users ---- Windows XP Accessibility ---- Windows XP Customize ---- Windows XP Device Drivers ---- Windows XP Networking and Web ---- Windows XP Printer and Fax ---- Windows XP Performance and Maintainance ---- Windows XP Setup and Deployment ---- Windows XP Configuration and Management ---- Work Remotely ---- WMI ---- Windows XP Messenger ---- Windows XP Help and Support ---- Windows XP Security Admin -- Exchange server ---- Exchange 2000 General ---- Exchange 2000 Setup Installation ---- Exchange 2000 Admin ---- Exchange 2000 Clients ---- Connectivity ---- Exchange 2000 Clustering ---- Exchange 2000 Information Store ---- Transport ---- Active Directory Integration -- SQL server ---- SQL Server ---- SQL Server Setup ---- SQL Server Tools ---- SQL Server Clustering ---- Connect ---- SQL Server ODBC ---- SQL Server Datamining ---- Datawarehouse ---- Fulltext ---- SQL Server JBDC Driver ---- MSDE ---- SQL MSEQ ---- SQL Server Client ---- SQL Server Programming ---- SQL Server Replication ---- SQL Server XML ---- SQL Server Security ---- Security Tools -- Dot Net ---- General ---- FAQs ---- .NET Framework Setup ---- .NET Framework SDK ---- .NET Framework ODBC ---- .NET Framework Webservices ---- .NET Scripting ---- .NET Languates / VB ---- .NET Languages / VC ---- ASP .NET ---- ASP .NET Webcontrols ---- .NET XML ---- .NET Datatools ---- .NET Security -- Security ---- Security ---- Baseline Analyzer ---- HFNETCHK Tool ---- Toolkit ---- Virus -- ISA Server -- Internet Explorer 6 Browser -- Internet Explorer 6 Setup CompTIA -- A+ -- Network+ -- I-NET+ Cisco -- Cisco Certifications -- General Cisco talk Novell -- CNE Oracle -- Oracle Server -- Oracle Tools -- Marketplace Microsoft Office -- Excel ---- Excel General ---- Excel Setup ---- Charting ---- Datamap ---- Excel Printing ---- Excel Programming ---- Excel Templates -- Outlook ---- Outlook General ---- Outlook Calendar ---- Outlook Contacts ---- Outlook Fax ---- Outlook Installation ---- Outlook Printing ---- Outlook Team Folders ---- Third Party Utilities for Outlook -- Word ---- Documents Management ---- Menus and Toolbars ---- Conversions ---- Drawing and Graphics ---- Mail ---- Page Layout ---- Spelling and Grammar ---- Tables ---- Web Authoring -- Access ---- Access General ---- Setup and Configuration ---- Getting Started ---- Tables Design ---- Access Reports ---- Access Queries ---- Access Replication ---- Security ---- Dataaccess Pages ---- Access Forms ---- Access Forms Coding ---- Access Macros ---- Access ODBC Client/Server -- PowerPoint Citrix -- Citrix Nortel -- Nortel Rate This Thread: Select a rating... 5 .. Best 4 3 .. Average 2 1 .. Worst Forum Rules: You may not post new threads You may not post replies You may not post attachments You may not edit your posts HTML code is OFF vB code is ON Smilies are ON [IMG] code is OFF Link partners: Exam Notes | MCSE Braindumps | Braindump | MCSE Education | Web Design forum Copyright 2003 - 2004 MCSE.MS Forum by Vbulletin   --> 
+Midtown Computer Systems Enterprise
+Convenient web based access to our favorite computer related Usenet groups. 
+MCSE.MS is not affiliated with Microsoft corporation, Cisco corporation, Oracle, CompTIA or any other vendor.
+
+               	
+
+ExamVouchers.com - CompTIA discount exam vouchers - save money
+
+Sponsor: Cert21.com
+Free Online practice tests
+
+HOME Microsoft software > Windows 2000 > Windows 2000 Setup > Boot problem with boot floppy	 
+
+ 	    Last Thread     Next Thread   	
+
+Author	 
+
+   	 	
+
+Aaqs
+Guest
+
+Registered: Not Yet
+
+Location: 
+Country: 
+
+Total Posts: N/A 	
+
+Boot problem with boot floppy 
+
+Hello! I formatted the C partition of HDD and transfered system files from Win98SE bootdisk. When I restart the computer, it says "no system media, boot failure". I want to boot from HDD and then switch to my WinME installation folder in D drive to install manually. What is the problem? Any ideas?? 
+
+Report this post to a moderator
+
+12-16-03 11:17 AM 	
+
+   	Edit/Delete IP: Logged 	
+
+Richar d Harris
+Guest
+
+Registered: Not Yet
+
+Location: 
+Country: 
+
+Total Posts: N/A 	
+
+Re: Boot problem with boot floppy 
+
+Reboot using the Windows 98SE bootdisk and format the hard disk again, this time using the following switch: format c: /s This should copy over the system files required to boot your machine from the hard disk. Rich "Aaqs" <anonymous@discussions.microsoft.com> wrote in message news:074001c3c3be$ba6b42a0$a501280a@phx.gbl... > Hello! > I formatted the C partition of HDD and transfered system > files from Win98SE bootdisk. When I restart the computer, > it says "no system media, boot failure". I want to boot > from HDD and then switch to my WinME installation folder in > D drive to install manually. What is the problem? Any ideas?? > 
+
+Report this post to a moderator
+
+12-16-03 11:17 AM 	
+
+   	Edit/Delete IP: Logged 	
+
+Guest
+
+Registered: Not Yet
+
+Location: 
+Country: 
+
+Total Posts: N/A 	
+
+Re: Boot problem with boot floppy 
+
+Hi Rich, I have the system files IO.SYS, MSDOS.SYS. COMMAND.COM in my C drive, but still it says BOOT FAILURE. But when I install win98se and delete it manually from C drive and then tranfer SYS from floppy A, then it works fine and boot from HDD. But why with a clean HDD I cant boot if I transfer SYS C: from A drive?? Really confused... >-----Original Message----- >Reboot using the Windows 98SE bootdisk and format the hard disk again, this >time using the following switch: > >format c: /s > >This should copy over the system files required to boot your machine from >the hard disk. > >Rich > > >"Aaqs" <anonymous@discussions.microsoft.com> wrote in message >news:074001c3c3be$ba6b42a0$a501280a@phx.gbl... ideas??[color=blue] > > >. >
+
+Report this post to a moderator
+
+12-16-03 01:17 PM 	
+
+   	Edit/Delete IP: Logged 	
+
+Bjorn Landem oo
+Guest
+
+Registered: Not Yet
+
+Location: 
+Country: 
+
+Total Posts: N/A 	
+
+Re: Boot problem with boot floppy 
+
+Check that the partition is set as active (bootable) by booting from your floppy and running FDISK. Also ensure that BIOS is set to boot from your hard disk. Best regards Bjorn -- Bjorn Landemoo - mvp2@landemoo.com - http://landemoo.com/ Microsoft MVP - Windows Server Networking <anonymous@discussions.microsoft.com> wrote: [color=blue] >Hi Rich, > >I have the system files IO.SYS, MSDOS.SYS. COMMAND.COM in >my C drive, but still it says BOOT FAILURE. But when I >install win98se and delete it manually from C drive and >then tranfer SYS from floppy A, then it works fine and boot >from HDD. But why with a clean HDD I cant boot if I >transfer SYS C: from A drive?? Really confused... > > > >disk again, this >your machine from >ideas?? 
+
+Report this post to a moderator
+
+12-16-03 08:18 PM 	
+
+   	Edit/Delete IP: Logged 	
+
+All times are GMT.
+The time now is 02:09 AM.    		   	 	
+
+eatured sites 	
+
+Featured site: MCSE, MCSD, CompTIA, CCNA training videos 
+
+opular forums 	
+A+ (A Plus) 	Windows 2000 Active directory 	Exchange 2000 information store 	
+Network+ 	Windows XP Security 	Exchange 2000 server administration 	
+MCSE 	.NET Web services 	SQL Server 	
+Cisco certification 	ASP .NET 	SQL 2000 Programming 	
+Windows 2000 Registry 	.NET XML 	Viruses 	
+
+Show a Printable Version | Email This Page to Someone! | Receive updates to this thread	 
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+Microsoft Certifications
+
+-- Microsoft Certifications General
+
+-- MCSA
+
+-- MCDBA
+
+-- MCAD
+
+-- MCDST
+
+-- MOS
+
+-- MCT
+
+-- alt.certification.mcse
+
+-- Microsoft Solutions Framework Practitioner (MSF)
+
+-- MCSE
+
+-- MCSD
+
+Microsoft software
+
+-- Windows 2000
+
+---- Windows 2000 General
+
+---- Windows 2000 Hardware
+
+---- Windows 2000 Setup
+
+---- Windows 2000 Networking
+
+---- Active Directory
+
+---- DNS
+
+---- Windows 2000 RAS ROUTING
+
+---- Windows 2000 Group Policy
+
+---- Windows 2000 Security
+
+---- Windows 2000 File system
+
+---- Win2000 New User administration
+
+---- Windows 2000 Printing
+
+---- MSI
+
+---- Windows 2000 Advanced Server
+
+---- Windows 2000 Registry
+
+-- Windows XP
+
+---- General
+
+---- Windows XP basics
+
+---- Windows XP Hardware
+
+---- Windows XP New Users
+
+---- Windows XP Accessibility
+
+---- Windows XP Customize
+
+---- Windows XP Device Drivers
+
+---- Windows XP Networking and Web
+
+---- Windows XP Printer and Fax
+
+---- Windows XP Performance and Maintainance
+
+---- Windows XP Setup and Deployment
+
+---- Windows XP Configuration and Management
+
+---- Work Remotely
+
+---- WMI
+
+---- Windows XP Messenger
+
+---- Windows XP Help and Support
+
+---- Windows XP Security Admin
+
+-- Exchange server
+
+---- Exchange 2000 General
+
+---- Exchange 2000 Setup Installation
+
+---- Exchange 2000 Admin
+
+---- Exchange 2000 Clients
+
+---- Connectivity
+
+---- Exchange 2000 Clustering
+
+---- Exchange 2000 Information Store
+
+---- Transport
+
+---- Active Directory Integration
+
+-- SQL server
+
+---- SQL Server
+
+---- SQL Server Setup
+
+---- SQL Server Tools
+
+---- SQL Server Clustering
+
+---- Connect
+
+---- SQL Server ODBC
+
+---- SQL Server Datamining
+
+---- Datawarehouse
+
+---- Fulltext
+
+---- SQL Server JBDC Driver
+
+---- MSDE
+
+---- SQL MSEQ
+
+---- SQL Server Client
+
+---- SQL Server Programming
+
+---- SQL Server Replication
+
+---- SQL Server XML
+
+---- SQL Server Security
+
+---- Security Tools
+
+-- Dot Net
+
+---- General
+
+---- FAQs
+
+---- .NET Framework Setup
+
+---- .NET Framework SDK
+
+---- .NET Framework ODBC
+
+---- .NET Framework Webservices
+
+---- .NET Scripting
+
+---- .NET Languates / VB
+
+---- .NET Languages / VC
+
+---- ASP .NET
+
+---- ASP .NET Webcontrols
+
+---- .NET XML
+
+---- .NET Datatools
+
+---- .NET Security
+
+-- Security
+
+---- Security
+
+---- Baseline Analyzer
+
+---- HFNETCHK Tool
+
+---- Toolkit
+
+---- Virus
+
+-- ISA Server
+
+-- Internet Explorer 6 Browser
+
+-- Internet Explorer 6 Setup
+
+CompTIA
+
+-- A+
+
+-- Network+
+
+-- I-NET+
+
+Cisco
+
+-- Cisco Certifications
+
+-- General Cisco talk
+
+Novell
+
+-- CNE
+
+Oracle
+
+-- Oracle Server
+
+-- Oracle Tools
+
+-- Marketplace
+
+Microsoft Office
+
+-- Excel
+
+---- Excel General
+
+---- Excel Setup
+
+---- Charting
+
+---- Datamap
+
+---- Excel Printing
+
+---- Excel Programming
+
+---- Excel Templates
+
+-- Outlook
+
+---- Outlook General
+
+---- Outlook Calendar
+
+---- Outlook Contacts
+
+---- Outlook Fax
+
+---- Outlook Installation
+
+---- Outlook Printing
+
+---- Outlook Team Folders
+
+---- Third Party Utilities for Outlook
+
+-- Word
+
+---- Documents Management
+
+---- Menus and Toolbars
+
+---- Conversions
+
+---- Drawing and Graphics
+
+---- Mail
+
+---- Page Layout
+
+---- Spelling and Grammar
+
+---- Tables
+
+---- Web Authoring
+
+-- Access
+
+---- Access General
+
+---- Setup and Configuration
+
+---- Getting Started
+
+---- Tables Design
+
+---- Access Reports
+
+---- Access Queries
+
+---- Access Replication
+
+---- Security
+
+---- Dataaccess Pages
+
+---- Access Forms
+
+---- Access Forms Coding
+
+---- Access Macros
+
+---- Access ODBC Client/Server
+
+-- PowerPoint
+
+Citrix
+
+-- Citrix
+
+Nortel
+
+-- Nortel
+  
+ 	
+
+Rate This Thread:
+    
+Select a rating...
+   
+5 .. Best
+   
+4
+   
+3 .. Average
+   
+2
+   
+1 .. Worst
+  
+ 	
+
+Forum Rules:
+
+You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+
+ 	 
+
+  Link partners: Exam Notes | MCSE Braindumps | Braindump | MCSE Education | Web Design forum	 
+  Copyright 2003 - 2004 MCSE.MS                   	  Forum by Vbulletin                         	  	
+
+ 
+
+

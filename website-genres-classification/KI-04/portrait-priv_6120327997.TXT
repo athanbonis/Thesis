@@ -1,0 +1,104 @@
+
+
+Eric Horvitz
+
+Senior Researcher and Group Manager
+Adaptive Systems & Interaction Group
+Microsoft Research 
+
+---------------------------------------------------------------------
+Address:
+Microsoft Research, One Microsoft Way, Redmond WA 98052-6399, USA
+Tel. (425) 706-2127, 936-7329 (fax)
+ Other contact information
+
+---------------------------------------------------------------------
+
+Research overview
+
+I'm interested in computational foundations of intelligent sensing, reasoning, and action---with a particular focus on methods for grappling with incompleteness in representations and uncertainty about environments or situations. Much of my work centers on harnessing probability and decision theory, decision analysis, and, in particular, the use of Bayesian and decision-theoretic principles in the construction and operation of intelligent, flexible computer-based reasoning systems. My interests and research span both theoretical issues and concrete, real-world applications, including systems for performing diagnosis and for prescribing ideal action for user interfaces, operating systems, information retrieval, machine repair, and communications. I've been interested in methods and languages for guiding computer actions in accordance with the preferences and goals of people, and on principles of mixed-initiative interaction that can support fluid, efficient collaborations between people and computing systems. Other interests include information triage and alerting, spanning work on notification systems and psychological studies of disruption. I've also been long interested in offline and real-time optimization of the expected value of computational systems under limited and varying resources. Areas of concentration in this realm include flexible computation, ideal metareasoning for guiding computation, compilation for reducing real-time deliberation, continual computation, and the construction of bounded-optimal reasoning systems--systems that maximize the expected utility of the people they serve, given the expected costs of reasoning, the problems encountered over time, and assertions about a system's constitution. Recent research in this arena includes tackling hard reasoning problems with learning and decision making methods. 
+
+---------------------------------------------------------------------
+
+* 
+
+Several recent publications by topic
+
+* 
+
+Representation and reasoning under limited computational resources
+
+* 
+
+Learning, inference, and action under uncertainty
+
+* 
+
+Probability and utility in human-computer interaction
+
+* 
+
+Access online papers and abstracts
+
+---------------------------------------------------------------------
+
+* 
+
+Recent panels, studies, and reports
+
+* 
+
+Activities and service
+
+* 
+
+Recent invited talks
+
+* 
+
+In the news...
+
+---------------------------------------------------------------------
+
+J.ACM: Decisions, Uncertainty, and Computation Area
+
+The Decisions, Uncertainty, and Computation Area of the Journal of the Association for Computing Machinery (JACM) serves as a platform for publishing important results on the computational foundations of methods and processes for decision making under uncertainty. 
+
+Prospective authors should refer to the submission information on the home page of the Journal of the Association for Computing Machinery (JACM). Questions about appropriateness of submissions should be directed to the Area Editor at horvitz@microsoft.com. 
+
+---------------------------------------------------------------------
+
+Special Issue of Artificial Intelligence Journal
+
+We recently completed a special issue of AI Journal on Computational Tradeoffs Under Bounded Resources: Click here to review the editorial of the special issue.
+
+---------------------------------------------------------------------
+
+Special Issue of Decision Analysis Journal
+
+We're putting together a special issue of Decision Analysis Journal on Graph-Based Methods in Decision Analysis. Prospective authors should see the call for papers. 
+
+---------------------------------------------------------------------
+
+Some Background
+
+* PhD/MD Stanford University 
+Doctoral dissertation (1990): Computation and Action under Bounded Resources. 
+More information, download doctoral dissertation. 
+
+---------------------------------------------------------------------
+
+Beyond work...
+
+* Paying respects. 
+
+* Several members of the Decision Science and Computer Science communities at the wedding reception for Eric and Mary. 
+
+* Share your beliefs about mind via a Bayesian assessment.. 
+
+---------------------------------------------------------------------
+
+Feel free to send email if you have any questions or comments about material, ptrs on these web pages: horvitz@microsoft.com
+ 
+---------------------------------------------------------------------
+Last Updated: 11/20/03 

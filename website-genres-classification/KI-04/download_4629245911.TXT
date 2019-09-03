@@ -1,0 +1,92 @@
+Français Deutsch --> &#31616;&#20307;&#20013;&#25991; --> Nederlands --> K-Meleon How often do you use K-Meleon? All the time Frequently Rarely Never Current results --> K-Meleon Download KMeleonWiki > Download Looking for K-Meleon add-ons, plugins, skins, and translations? Check out the Resources page! Version 0.8.2 (12/23/03): One more bug fix release after the unfortunate K-Meleon 0.8 release. Hopefully this brings back the stability and reliability we want to associate K-Meleon with. This release comes both as a full release and as a service pack to K-Meleon 0.8.1. It is built on the Mozilla 1.5 milestone. Full package with installer Service Pack Download Source Code Read the Release Notes before you install K-Meleon 0.8.2. Version 0.8.1 (12/13/03): This release includes important bug fixes to K-Meleon 0.8. This is a full release and all K-Meleon users are encouraged to upgrade to this release. Built on the Mozilla 1.5 milestone. Additional improvements to core K-Meleon files Better dialog displays Support to read and write UTF-8 encoded bookmarks and hotlists New Mouse Gesture plugin Full package with installer (4.96 mb) Read the Release Notes before you install K-Meleon 0.8.1. Version 0.8 (11/10/03): More new features and improvements. Built on the Mozilla 1.5 milestone. Major improvements to core K-Meleon features Additional features in Bookmarks, Favorites and Hotlist plugins Enhanced history features Improved "tabbed" browsing with Layers plugin Full package with installer (4.96 mb) Read the Release Notes before you install K-Meleon 0.8. 0.7 Service Pack 1 (02/13/03): A nice little package to make .7 even better. Important Note: You must already have K-Meleon 0.7 installed before using this Service Pack. Favorites plugin rewritten, much faster Hotlist plugin enhanced Bookmarks plugin enhanced New Macro Events (OnStartup, etc) Service Pack Download (225k) Read the Release Notes before you install the service pack. Version 0.7 (10/31/02): Loads of new features and improvements. Built on the Mozilla 1.2b milestone. Bookmarks plugin rewritten Macros plugin considerably enhanced New Opera Bookmarks plugin New Layers plugin for "tabbed" browsing Full package with installer (4.95 mb) Source Code - (385k) Read the Release Notes before you install K-Meleon 0.7. last changed on Wed Dec 24 03:45:18 2003 (c) 2000-2001 kmeleon.org. All rights reserved. design by splif .   --> pre.code { background-color: #dddddd; } a.menu:hover { text-decoration: none } a.lbmenu:hover { text-decoration: none; color: none; } a.lbmenu { text-decoration: none } a { text-decoration: none; } a:hover { text-decoration: underline; color: #F5BEB4; } TD { font-size:11px; font-family : Verdana,Arial,Geneva,sans-serif; } .small { font-size:9px; font-family : Verdana,Arial,Geneva,sans-serif; } .small:link { font-size:9px; font-family : Verdana,Arial,Geneva,sans-serif; color: #000000; } .small:visited { font-size:9px; font-family : Verdana,Arial,Geneva,sans-serif; color: #000000; } .small:hover { text-decoration: underline; color: #F5BEB4; } .leftlink { font-size:11px; font-family : Verdana,Arial,Geneva,sans-serif; } .leftlink:link { font-size:11px; font-family : Verdana,Arial,Geneva,sans-serif; color: #114422; } .leftlink:visited { font-size:11px; font-family : Verdana,Arial,Geneva,sans-serif; color: #114422; } .leftlink:hover { text-decoration: underline; color: #2222DD; } .big { font-size:18px; } .txt { font-size:12px; font-family : Courier New,sans-serif; } .txtfooter { color: #101818; } INPUT {font-family: Arial, Helvetica;font-size: 10pt;} TEXTAREA {font-family: Arial, Helvetica;font-size: 10pt;width: 500px;} .forum_title {font-family: Arial, Helvetica;font-size: large;} .forum {  font-family: Arial, Helvetica;  font-size: medium; } .nav {font-family: Verdana,Arial,Geneva,sans-serif;font-size: 8pt;} border-style : none; } 
+
+ 	 
+
+Home/News
+Screenshots
+Download
+Documentation
+Resources
+Get Involved
+Forum
+Bugs
+Development
+
+Switch to:
+ Français
+ 
+
+ 	 
+
+ 
+
+ 
+
+ 
+
+ 	  
+
+K-Meleon
+
+Download
+
+KMeleonWiki > Download 
+
+Looking for K-Meleon add-ons, plugins, skins, and translations? Check out the Resources page! 
+
+Version 0.8.2 (12/23/03):
+
+One more bug fix release after the unfortunate K-Meleon 0.8 release. Hopefully this brings back the stability and reliability we want to associate K-Meleon with. This release comes both as a full release and as a service pack to K-Meleon 0.8.1. It is built on the Mozilla 1.5 milestone. 
+* Full package with installer 
+* Service Pack Download 
+* Source Code 
+* Read the Release Notes before you install K-Meleon 0.8.2. 
+
+Version 0.8.1 (12/13/03):
+
+This release includes important bug fixes to K-Meleon 0.8. This is a full release and all K-Meleon users are encouraged to upgrade to this release. Built on the Mozilla 1.5 milestone. 
+* Additional improvements to core K-Meleon files 
+* Better dialog displays 
+* Support to read and write UTF-8 encoded bookmarks and hotlists 
+* New Mouse Gesture plugin 
+* Full package with installer (4.96 mb) 
+* Read the Release Notes before you install K-Meleon 0.8.1. 
+
+Version 0.8 (11/10/03):
+
+More new features and improvements. Built on the Mozilla 1.5 milestone. 
+* Major improvements to core K-Meleon features 
+* Additional features in Bookmarks, Favorites and Hotlist plugins 
+* Enhanced history features 
+* Improved "tabbed" browsing with Layers plugin 
+* Full package with installer (4.96 mb) 
+* Read the Release Notes before you install K-Meleon 0.8. 
+
+0.7 Service Pack 1 (02/13/03): 
+
+A nice little package to make .7 even better. 
+Important Note: You must already have K-Meleon 0.7 installed before using this Service Pack. 
+* Favorites plugin rewritten, much faster 
+* Hotlist plugin enhanced 
+* Bookmarks plugin enhanced 
+* New Macro Events (OnStartup, etc) 
+* Service Pack Download (225k) 
+* Read the Release Notes before you install the service pack. 
+
+Version 0.7 (10/31/02): 
+
+Loads of new features and improvements. Built on the Mozilla 1.2b milestone. 
+* Bookmarks plugin rewritten 
+* Macros plugin considerably enhanced 
+* New Opera Bookmarks plugin 
+* New Layers plugin for "tabbed" browsing 
+* Full package with installer (4.95 mb) 
+* Source Code - (385k) 
+* Read the Release Notes before you install K-Meleon 0.7. 
+
+---------------------------------------------------------------------
+last changed on Wed Dec 24 03:45:18 2003 
+
+(c) 2000-2001 kmeleon.org. All rights reserved.
+design by splif.
+ 

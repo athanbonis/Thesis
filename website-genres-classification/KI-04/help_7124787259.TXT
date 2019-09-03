@@ -1,0 +1,419 @@
+U-Wash IMAP I downloaded and compiled the IMAP software from ftp.cac.washington.edu. It compiled fine, but it looked for the mail in the wrong spot. I went to src/osdep/unix/Makefile and added the following line to the osx stanza: MAILSPOOL=/private/var/mail \ The osx stanza now looks like this: osx: # Mac OS X $ (BUILD) `cat EXTRASPECIALS` OS= $ @ \ MAILSPOOL=/private/var/mail \ CRXTYPE=nfs \ BASECFLAGS="-g -O I've only tested out the pop3d function, (Once I reconfigured inetd.conf) but it does work. James Hammett fetchmail Fetchmail compiles and seems to execute fine under OSXPB. You must copy the /usr/libexec/config* stuff locally setenv LDFLAGS " " (there is a space between the quotes) ./configure (Contributed by Howard Moftich) pine From: "Soren Spies" <sspies@apple.com> To: <darwin-development@public.lists.apple.com> Sent: Monday, October 23, 2000 11:26 PM Subject: ported pine I got pine (version 4.21) to compile a little while ago and today formalized my changes. I submitted it to softrak.stepwise.com (everyone should put tools here -- it is linked from darwinfo and will look good for our fledgling free OS to have lots of stuff ported to it ... though of course it looks better when most packages support Darwin out of the box :). If anyone wants to download pine and make sure it builds for them (I did this on Public Beta), go at it. I'm not a pine user so don't ask me questions about it. :) Pine 4.21 for Darwin is available from (mmm, wget): http://www.techhouse.org/~soren/osx/pine4.21.darwin.tgz ftp://ftp.techhouse.org/pub/osx/pine4.21.darwin.tgz http://www.bigw.org/~sspies/osx/pine4.21.darwin.tgz untar and run 'build dar' to go. (It hasn't shown up in the search of softrak yet, but it is marked "pending" and should show up eventually). Follow-up... > On Monday, October 23, 2000, at 08:11 PM, Raghuram Kalletla wrote: > > Soren , > > Thanks for all the help you guys provided. I wish I could > > actually try out all the steps Soren mentioned but there is a PINE binary > > sitting on MacAddict's website > > built for Darwin. All I had to do was download it and unstuff it...then I > > was on my way. NcFTP According to the Mac OS X section of VersionTracker.com: http://www.versiontracker.com/vt_mac_osx.shtml they list a port of NcFTP 3.0.2: http://www.versiontracker.com/moreinfo.fcgi?id=9119 Hope this is useful! Eugene Lee <eugene@anime.net> libpcap and snort I've put instructions on the web at http://pad.au.com/~mindsnar/macosx.html for compiling and installing libpcap and snort on osx. "Loukas" <loukas@acay.com.au> curl Thought I'd let you know that I have built "cURL" for OS X. It's a pretty handy utility for URL stuff. We use it extensively at work for managing our web applications, and I figured I'd use it to learn how to build for OS X... Anyway, check out http://www.qtm.net/~saywake/curl/index.php3 . Ken Sayward <saywake@qtm.netgt; Digital Camera Online KVM Switches Online LCD Monitors Online LCD Projectors Online USB 2.0 Online Server Racks Online KVM Switch Solutions Copyright © 2000-2004 OSXFAQ. All rights reserved. Apple assumes no responsibility with regard to the selection, performance, or use of the products or services. All understandings, agreements, or warranties, if any, take place directly between the vendors and prospective users. Apple, the Apple logo, Mac, PowerMac G4, PowerMac G5, Xserve, Xserve RAID, PowerBook, iBook, Airport, AirPort Extreme, iMac, eMac, iLife, iMovie, iCal, iPhoto, iTunes, QuickTime, FireWire, iPod, iSight, AppleWorks, Macintosh, Jaguar, Panther, Mac OS, Mac OS X and Mac OS X Server are trademarks of Apple Computer, Inc.   -->                                                
+     	     	     	     	     	     	     	        
+     	     	     	        
+     	        
+     	     	     	     	     	           
+          
+                    
+    NAVIGATION	         
+    	    Home	         
+    	    Store	         
+    	    	            
+    Daily Tips	         
+    	    Mac OS X	         
+    	    Mac OS X UNIX	         
+    	    	            
+    COMMUNITY	         
+    	    Forums	         
+    	    Surveys	         
+    	    	            
+    NEWS	         
+    	    Current	         
+    	    Press	         
+    	    Archive	         
+    	    	            
+    FEATURES	         
+    	    Editorial	         
+    	    Dr. Mac	         
+    	    Reviews	         
+    	    Reader Reports	         
+    	    	         
+    RESOURCES	         
+    	    FAQ	         
+    	    Documentation	             
+    	    Learning Center	         
+    	    MAN pages	         
+    	    Glossary	         
+    	    Tutorials	         
+    	    Tips	         
+    	    Links	         
+    	    	             
+    	        
+
+Mac Products Guide	     	        
+    	    	    	        
+    	         
+        New Arrivals
+New and updated products added to the Guide.
+
+Hot DealsGreat prices on hot selling Mac products from your favorite Macintosh resellers.
+
+Special OffersPromotions and offers direct from Macintosh developers and magazines.
+
+SoftwareBrowse the software section for over 17,000 Macintosh applications and software titles.
+    HardwareOver 4,000 peripherals and accessories such as cameras, printers, scanners, keyboards, mice and more.
+
+OUR PARTNERS	         
+    	    	             
+    	        
+
+FAQ 
+
+Porting Applications
+
+Analog	 
+ 	 pw	 
+ 	 fetch or lwp-download	 
+ 	 AIM	 
+ 	 GNU bash 2, BitchX, coldsync, & deco	 
+ 	 Screensavers	 
+ 	nmap	 
+
+xemacs	 
+
+lynx	 
+
+courier-imap	 
+
+qpopper	 
+
+U-Wash IMAP	 
+
+fetchmail	 
+
+Pine	 
+
+NcFTP	 
+
+libpcap and snort	 
+
+curl	 
+
+---------------------------------------------------------------------
+Analog 
+
+1.  Download the Analog 4.11 source distribution. 
+2.  uncompress it on your hard drive, ie tar zxvf analog-4.11.tar.gz
+3.  cd to the new folder, ie cd analog-4.11
+4.  edit the Makefile, and change the third line to CC = cc(instead of gcc) 
+5.  type "make" (as long as you've got the developer tools installed) 
+6.  mkdir /usr/local/analog-4.11 
+7.  mv lang /usr/local/analog-4.11 
+8.  mv analog.cfg /usr/local/analog-4.11 
+9.  read the docs at http://www.analog.cx/docs/Readme.html for more help 
+10. note that, in analog.cfg, you have to use DNS OFF  (or DNS READ, if you have a cached file available) -- the DNS lookup  portion of the code doesn't seem to work with NetInfo 
+
+---------------------------------------------------------------------
+pw 
+
+Mark Zieg began a re-write (not a port) here, but so far all it does is add users -- it doesn't let you modify or delete anything, or add groups. 
+
+---------------------------------------------------------------------
+fetch or lwp-download 
+
+I haven't been able to get a working makefile for fetch, but lwp-download works fine: 
+
+1.  backup /usr/bin/head, if you have one, to /usr/bin/head.save 
+2.  First you have to grab the Perl LWP module:  
+  shell$ su
+  root# perl -MCPAN -e shell;  
+
+3.  Walk through the configuration process, then install the LWP modules:  
+  cpan> install LWP
+  cpan> quit  
+
+4.  Now fix the poorly-named and -placed LWP "head" method like so:  
+  root# mv /usr/bin/head /usr/bin/HEAD
+  root# mv /usr/bin/head.save /usr/bin/head     
+
+Tracy Snell notes that wget is included with OS-X and works fine :-) 
+---------------------------------------------------------------------
+AIM 
+
+The current AOL version works fine in Classic, of course, but Epicware's Fire is OS-X native and looks a lot cooler. 
+
+---------------------------------------------------------------------
+GNU bash 2, BitchX, coldsync, & deco 
+
+See Gary Danko's private site. Questions may be addressed to the author at s00p@mac.com. 
+
+Note: if you have trouble downloading any of Gary's programs (he's tied to a Windows NT FTP server, so deserves some sympathy in addition to our gratitude for his prodigious porting efforts!), try the following command-line procedure: (I colorized the text that you type) 
+
+Note2: Gary has graciously allowed me to mirror his server, if you want to ftp the files from my site. 
+
+os-X [/www/htdocs] mzieg $ ftp hekal.dyndns.org
+Connected to hekal.dyndns.org.
+220 hekal2000 Microsoft FTP Service (Version 5.0).
+Name (hekal.dyndns.org:mzieg): osx
+331 Password required for osx.
+Password: osx
+230 User osx logged in.
+Remote system type is Windows_NT.
+ftp> dir
+200 PORT command successful.
+150 Opening ASCII mode data connection for /bin/ls.
+-r--r--r--   1 owner    group          887898 Oct  3 22:12 bash2.04.tar.gz
+-r--r--r--   1 owner    group         2867200 Oct  3 19:01 BitchXPB.tar
+-r--r--r--   1 owner    group          243203 Oct  3 17:09 coldsync1.4.6.tar.gz
+-r--r--r--   1 owner    group          126609 Oct  3 10:26 deco383.tar.gz
+-r--r--r--   1 owner    group            5469 Oct  5 17:15 obliterate0.4.tar.gz
+-r--r--r--   1 owner    group           77129 Oct  5  8:20 wClock16.tar.gz
+226 Transfer complete.
+ftp> binary
+200 Type set to I.
+ftp> get obliterate0.4.tar.gz
+local: obliterate0.4.tar.gz remote: obliterate0.4.tar.gz
+200 PORT command successful.
+150 Opening BINARY mode data connection for obliterate0.4.tar.gz(5469 bytes).
+226 Transfer complete.
+5469 bytes received in 0.258 seconds (21213 bytes/s)
+ftp> prompt
+Interactive mode off.
+ftp> mget *
+ [...]
+ftp> bye
+
+---------------------------------------------------------------------
+Screensavers 
+
+The OpenGL parade has begun!...http://www.epicware.com/macosxsavers.html 
+
+---------------------------------------------------------------------
+nmap 
+
+Scott Sheller has instructions for compiling nmap. 
+
+Moreover, T. Gimenez is working on a GUI version: 
+
+I wanted you to know that I just started to write a simple, free 
+(cocoa-based) front-end for nmap. At this moment, it's only a work in 
+progress , but I'd like to make my first-pre-alpha version available for 
+everyone, as well as the sources (coming soon!).
+
+The link is:
+
+http://cad-x.port5.com/files/nmapfe-osx.img.sit.hqx
+
+The archive contains the front-end app, a binary version of nmap and the 
+man file. Simply copy the nmap binary to /usr/bin, the man file to 
+/usr/share/man/man1, and the app to your applications folder. Some chmod 
+may be necessary.
+
+Best regards,
+
+Tegim
+
+---------------------------------------------------------------------
+xemacs 
+
+Q) I've been using xtools to run xemacs off my school's machines. Is xemacs a free program? Can I download it somewhere and run it off my own machine? 
+
+A) Xemacs is free. There is a port for OSX at  http://my.ispchannel.com/~pjarvis/xemacs.html.  There are a few problems with  it still (like you have to use ESC for meta, not ALT). But they are being  worked on. 
+
+---------------------------------------------------------------------
+lynx 
+
+1.  You may either download the binary...   
+   
+2.  lynx.gz: ungzip and place into /usr/local/bin(or anywhere in your $PATH).    
+3.  lynx.cfg: edit (or don't) and place into /usr/local/lib/.   
+  
+
+4.  or compile the sources yourself:   
+
+Tracy Snell has provided instructions on how to compile lynx, an excellent text-mode web browser, under the Public Beta. 
+ 
+5.  wget http://lynx.isc.org/lynx-2.8.3/lynx2.8.3.tar.gz  
+6.  tar zxvf lynx2.8.3.tar.gz  
+7.  cd lynx2-8-3  
+8.  cp /usr/libexec/config.guess .  
+9.  ./configure  
+10. make  
+11. sudo make install 
+
+Sadly, these instructions fail on OS-X final: 
+
+cc: Internal compiler error: program cpp-precomp got fatal signal 10
+  make[1]: *** [UCdomap.o] Error 1
+  make: *** [all] Error 2 
+Nor was I able to get the version at VersionTracker (2.8.2) to make. 
+
+However, I was able to 2.8.3 working after playing with the Darwin libraries a little bit. I'm not entirely sure which of the following steps were "key", or whether they'll work for you, but I think that this is basically what I did: 
+ 
+1.  First, get a copy of Darwin 1.2, accessible from OS-X. This isn't exactly easy:   
+
+2.  Make sure you have a "free" partition or hard drive (I never have fewer than 3 partitions on any of my computers:     "main" OS, "alternate" OS (or backup), and "play/spare".    
+3.  Download the image, with all of the     registration and password goofiness that Apple requires.    
+4.  Boot into 9.1 (you can't install it from OS-X, apparently).    
+5.  Install Darwin onto the spare partition.    
+6.  Reboot into OS-X    
+7.  To save space, at this point I copy the Darwin tree to someplace on the main OS-X partition, ie 'cp -r /Volumes/Darwin ~/Darwin', and then reformat the Darwin partition. You should now have about 800MB of Darwin stuff stored somewhere. I have mine in /Users/mzieg/Darwin. I'm going to call this directory $DARWIN for the remainder of the instructions.   
+
+* Put some Darwin libraries where your main system can find them:   
+sudo cp -r $DARWIN/usr/libexec/ppc /usr/libexec
+ 
+* I don't know whether this was significant or not, but during previous mucking about I'd changed   my path so that I was using the Darwin 'cc', instead of the OS-X/Developer version. As you can see, they're   apparently quite different: 
+
+-r-xr-xr-x  1 mzieg  staff  223560 Sep 25  2000 /Users/mzieg/Darwin/usr/bin/cc
+  -r-xr-xr-x  1 root   wheel  113460 Mar 27 09:47 /usr/bin/cc 
+  You can confirm which 'cc' you're using by typing 'which cc': 
+
+G4 [/Users/mzieg/received/lynx2-8-3] mzieg $ which cc
+  /home/mzieg/Darwin/usr/bin/cc 
+ 
+* Anyway, after taking these steps, I was able to make lynx using Tracy's instructions from the Public Beta. Let me know whether they do or don't work for you.   
+
+---------------------------------------------------------------------
+courier-imap 
+
+courier-imap is a popular IMAP mail server supporting the "maildir" format (does NOT support the older 'mbox' format). Adding IMAP capabilities is a wonderful addition to any internet server. Moreover, since MacOS X Public Beta perplexingly doesn't include any POP server at all, this is currently one of the few ways you can turn your OS X box into a functioning mail server. (recommended for use in combination with postfix) 
+ 
+1.  Obtain the source and patch it, using one of the   following options:   
+
+2.  Option A: Use the osXfaq.com patched distribution:     
+     
+3.  Download the       patched source distribution      
+4.  tar zxvf courier-imap.1.1.patched.tar.gz      
+5.  cd courier-imap.1.1.patched     
+
+or...     
+
+* Option B: Follow these steps to manually download the public     source distribution, and then patch it yourself:     
+     
+1.  wget ftp://download.sourceforge.net/pub/sourceforge/courier/courier-imap-1.1.tar.gz      
+2.  tar zxvf courier-imap-1.1.tar.gz      
+3.  cd courier-imap-1.1      
+4.  wget http://www.osxfaq.com/downloads/courier-imap-1.1.osx.patch      
+5.  patch -p1     
+
+* Run configure:
+
+./configure \
+   --prefix=/usr/local \
+   --with-authpwd=YES \
+   --without-authuserdb \
+   --without-authcram
+  
+* make  
+* make check  
+* There should only be one error, it doesn't seem to effect anything.  
+* If make check works (besides the one error):   
+   
+1.  su    
+2.  make install   
+
+* read the author-supplied INSTALL file, especially the installation section. 
+
+---------------------------------------------------------------------
+U-Wash IMAP 
+
+I downloaded and compiled the IMAP software from  ftp.cac.washington.edu. It compiled fine, but it looked for the  mail in the wrong spot.  
+
+I went to src/osdep/unix/Makefile and added the following line to the osx stanza:  
+
+MAILSPOOL=/private/var/mail \
+  
+
+The osx stanza now looks like this: 
+
+osx:    # Mac OS X
+            $(BUILD) `cat EXTRASPECIALS` OS=$@ \
+            MAILSPOOL=/private/var/mail \
+            CRXTYPE=nfs \
+            BASECFLAGS="-g -O
+ I've only tested out the pop3d function, (Once I reconfigured inetd.conf) but it does work. 
+
+James Hammett
+ 
+
+---------------------------------------------------------------------
+fetchmail 
+
+Fetchmail compiles and seems to execute fine under OSXPB. You must
+ 
+1.  copy the /usr/libexec/config* stuff locally 
+2.  setenv LDFLAGS " " (there is a space between the quotes) 
+3.  ./configure 
+
+(Contributed by Howard Moftich) 
+
+---------------------------------------------------------------------
+pine 
+
+From: "Soren Spies" <sspies@apple.com>
+To: <darwin-development@public.lists.apple.com>
+Sent: Monday, October 23, 2000 11:26 PM
+Subject: ported pine
+
+I got pine (version 4.21) to compile a little while ago and today formalized
+my changes.  I submitted it to softrak.stepwise.com (everyone should put
+tools here -- it is linked from darwinfo and will look good for our
+fledgling free OS to have lots of stuff ported to it ... though of course it
+looks better when most packages support Darwin out of the box :).
+
+If anyone wants to download pine and make sure it builds for them (I did
+this on Public Beta), go at it.  I'm not a pine user so don't ask me
+questions about it.  :)
+
+Pine 4.21 for Darwin is available from (mmm, wget):
+http://www.techhouse.org/~soren/osx/pine4.21.darwin.tgz
+ftp://ftp.techhouse.org/pub/osx/pine4.21.darwin.tgz
+http://www.bigw.org/~sspies/osx/pine4.21.darwin.tgz
+
+untar and run 'build dar' to go.
+
+(It hasn't shown up in the search of softrak yet, but it is marked "pending"
+and should show up eventually).
+
+Follow-up... 
+
+> On Monday, October 23, 2000, at 08:11 PM, Raghuram Kalletla wrote:
+> > Soren ,
+> >             Thanks for all the help you guys provided. I wish I could
+> > actually try out all the steps Soren mentioned but there is a PINE binary
+> > sitting on MacAddict's website 
+> > built for Darwin. All I had to do was download it and unstuff it...then I
+> > was on my way.
+
+---------------------------------------------------------------------
+NcFTP 
+
+According to the Mac OS X section of VersionTracker.com:
+    http://www.versiontracker.com/vt_mac_osx.shtml
+they list a port of NcFTP 3.0.2:
+    http://www.versiontracker.com/moreinfo.fcgi?id=9119
+Hope this is useful!
+Eugene Lee <eugene@anime.net>
+
+---------------------------------------------------------------------
+libpcap and snort 
+
+I've put instructions on the web at http://pad.au.com/~mindsnar/macosx.html
+for compiling and installing libpcap and snort on osx.
+
+"Loukas" <loukas@acay.com.au>
+
+---------------------------------------------------------------------
+curl 
+
+Thought I'd let you know that I have built "cURL" for OS X. It's a pretty handy 
+utility for URL stuff. We use it extensively at work for managing our web 
+applications, and I figured I'd use it to learn how to build for OS X...
+
+Anyway, check out http://www.qtm.net/~saywake/curl/index.php3.
+
+Ken Sayward <saywake@qtm.netgt;
+
+Digital Camera Online	 
+KVM Switches Online	 
+LCD Monitors Online	 
+LCD Projectors Online	 
+USB 2.0
+ Online	 
+Server Racks Online	 
+KVM Switch Solutions	 
+
+Copyright © 2000-2004 OSXFAQ. All rights reserved.	          
+      Apple assumes no responsibility with regard to the selection, performance, or use of the products or services. All understandings, agreements, or warranties, if any, take place directly between the vendors and prospective users.	       
+   Apple, the Apple logo, Mac, PowerMac G4, PowerMac G5, Xserve, Xserve RAID, PowerBook, iBook, Airport, AirPort Extreme, iMac, eMac, iLife, iMovie, iCal, iPhoto, iTunes, QuickTime, FireWire, iPod, iSight, AppleWorks, Macintosh, Jaguar, Panther, Mac OS, Mac OS X and Mac OS X Server are trademarks of Apple Computer, Inc.	          
+                

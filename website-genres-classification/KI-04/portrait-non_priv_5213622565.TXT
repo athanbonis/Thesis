@@ -1,0 +1,132 @@
+var d=1; var s=new Date(); function netcruz() { if (d) { d=0;(new Image()).src='http://203.239.2.79/vvv?r='+((new Date()).getTime()-window.s.getTime() +'&s=1&d='+(new Date()).getTime()+'&x=Homepage'); }} function Go_global() { var obj = document.global; var url = obj.url.value; if (url == "") { alert("Select a Country"); obj.url.focus(); return; } window.open(url,"","") }  
+ 	        
+     	     	     	     	     	     	       
+ 	
+
+Select a Country
+     
+Argentina 
+    
+Australia 
+    
+Austria 
+    
+Belgium 
+    
+Brazil 
+    
+Canada 
+    
+Chile 
+    
+China (Group) 
+    
+China (Electronics) 
+    
+Colombia 
+    
+Europe 
+    
+Finland 
+    
+France 
+    
+Germany 
+    
+Hong Kong 
+    
+Hungary 
+    
+India 
+    
+Indonesia
+     
+Italy 
+    
+Japan 
+    
+Kazakhstan 
+    
+Korea (Group) 
+    
+Korea (Electronics) 
+    
+Latvia 
+    
+Lithuania 
+    
+Malaysia 
+    
+Mexico 
+    
+Middle East 
+    
+Netherlands 
+    
+Panama 
+    
+Peru 
+    
+Philippines 
+    
+Poland 
+    
+Portugal 
+    
+Russia 
+    
+Singapore 
+    
+South Africa 
+    
+Spain 
+    
+Sweden 
+    
+Taiwan 
+    
+Thailand 
+    
+Turkey 
+    
+United Kingdom 
+    
+United States 
+        
+Ukraine 
+    
+Vietnam 
+    
+
+U.S. Customers	 
+
+Sales Locations 	
+
+Service Locations	 
+
+SAMSUNG is proud to be affiliated with these great companies and partners.
+ 	
+
+The first fully high definition & the highest resolution plasma TV in the world
+ 	
+
+SGH-X600 Camera Phone with Integrated Flash 
+
+Home network solution homevita makes possible the digital life
+ 	
+
+SAMSUNG Electronics Releases 4Q Earnings 	
+
+SAMSUNG Launches Chipset for HD-TV and STB Market 	
+
+SAMSUNG Sets New Standard for Single-Mode Optical Fiber 	
+
+SAMSUNG Showcases State-Of-Art Home Network Solutions 	
+
+Spark of Digital Revolution, 
+SAMSUNG Semiconductor! 
+
+Fall in: Get on board with the coolest travel tips, from Paris to Seoul to NY with DigitAll magazine.
+ 	
+
+

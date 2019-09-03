@@ -1,0 +1,41 @@
+[Home] . . . Search by [Problem] [Package] [Module] [Keyword] . . . [Math at NIST] 
+---------------------------------------------------------------------
+
+Project Summary
+
+The Guide to Available Mathematical Software project of the National Institute of Standards and Technology (NIST) studies techniques to provide scientists and engineers with improved access to reusable computer software components which are available to them for use in mathematical modeling and statistical analysis. One of the products of this work is an on-line cross-index of available mathematical software. This system also operates as a virtual software repository. That is, it provides centralized access to such items as abstracts, documentation, and source code of software modules that it catalogs; however, rather than operate a physical repository of its own, this system provides transparent access to multiple repositories operated by others. 
+
+Currently two software repositories are indexed: one maintained for use by NIST staff (parts of which are accessible to public), and netlib, a publically accessible software collection maintained by Oak Ridge National Laboratory and the University of Tennessee at Knoxville (netlib in Tennessee) and Bell Labs (netlib at Bell Labs). This represents some 9,000 problem-solving modules from more than 100 software packages. The majority of this software consists of Fortran subprograms for mathematical problems which commonly occur in computational science and engineering, such as solution of systems of linear algebraic equations, computing matrix eigenvalues, solving nonlinear systems of differential equations, finding minima of nonlinear functions of several variables, evaluating the special functions of applied mathematics, and performing nonlinear regression. These components are especially useful to research scientists developing applications software. Among the packages cataloged are : the IMSL, NAG, PORT, and SLATEC libraries; the BLAS, EISPACK, FISHPAK, FNLIB, FFTPACK, LAPACK, LINPACK, and STARPAC packages; the DATAPLOT and SAS statistical analysis systems; as well as other collections such as the Collected Algorithms of the ACM. Note that some of the libraries and packages cataloged are proprietary, and are available only from vendors. (The developers are identified for each package.) Source code of proprietary software products are not available through GAMS, although related items such as documentation and example programs often are. These are cataloged here since they are available for use internally at NIST. Software from freely available packages can be downloaded directly via GAMS. 
+
+All cataloged problem-solving software modules are assigned one or more problem classifications from a tree-structured taxonomy of mathematical and statistical problems. Users can browse through modules in any given problem class. To find an appropriate class, one can utilize the taxonomy as a decision tree, or enter keywords which are then mapped to problem classes. Search filters can be declared which allow users to specify preferences such computing precision or programming language. In addition, users can browse through all modules in a given package, all modules with a given name, or all modules with user-supplied keywords in their abstracts. 
+
+Several user interfaces to the system have been developed : 
+
+* an HTTP gateway (you are using it now) 
+* a Java-powered World Wide Web client 
+
+Please report any problems to gams@nist.gov. 
+
+For further information, contact 
+
+Dr. Ronald F. Boisvert 
+Mail Stop 8910 
+Mathematical and Computational Sciences Division 
+National Institute of Standards and Technology 
+Gaithersburg, MD 20899-8910 USA 
+Phone : 301-975-3812 
+Email : boisvert@nist.gov 
+
+Disclaimer:This system catalogs mathematical and statistical software made available for use at NIST by its Information Technology Laboratory. Identification of commercial products does not imply recommendation or endorsement by NIST. 
+
+---------------------------------------------------------------------
+
+Note: This service is not related to the Generalized Algebraic Modeling System (GAMS), software marketed by GAMS Development Corporation, 1217 Potomac St NW, Washington, DC 20007.
+
+---------------------------------------------------------------------
+
+GAMS is a service of the Mathematical and Computational Sciences Division / Information Technology Laboratory / National Institute of Standards and Technology 
+
+Last change in this page : 12 February 2002. [ gams@nist.gov ]. 
+
+

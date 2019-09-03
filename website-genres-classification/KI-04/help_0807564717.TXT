@@ -1,0 +1,177 @@
+Daily News Vendor News Newsletter Archives This Week in print Tests/reviews Buyer's guides White papers Special Reports Vendor View Webcasts Columnists Forums Weblogs Network World Store • Former CA executive pleads guilty to SEC charges • Cisco warns of IP PBX security hole on IBM hardware • Microsoft tweaks protocol licensing • NAI's McAfee the latest to add anti-spyware • AOL testing new anti-spam technology • Consumer, corporate buying boost Microsoft revenue • Savvis to acquire C&W&#8217;s U.S. assets All of today's news Enterprise Networks / / Search help • Simple search tips • More advanced search tips • Quickly finding an article that appeared in print • Finding an article by a specific writer • Archive: Finding older articles • What is DocFinder? Simple search tips Just type in a few words or phrases. Try to use discriminating terms that are likely to be found only in the documents you seek. The more words you give, the better results you'll get. Verizon's VPN strategy The search engine will find documents containing as many of these words and phrases as possible, ranked so that the documents most relevant to your query are presented first. Don't worry about missing a document because it doesn't have one of the words in your search -- our search engine returns relevant results even if they don't contain all query terms. To search for a specific phrase, surround it with double quotation marks. For example, "Computer Associates" will return links to articles that specifically mention that vendor, as opposed to article that might mention "computers" or "associates." By default, our search engine queries an article database for the current and previous year, containing articles from Network World and Network World Fusion, along with archives of our e-mail newsletters (forum postings, however, are not included; the Forum has its own search engine). If you want to search our archives back to 1995, use our archive search . Also by default, our search engine will scan documents across the entire site. A drop-down menu next to the search box lets you narrow the search by selecting a specific channel or topic (for example, you could limit your search to just the Service Provider Networks channel). Many Topics and other resource pages also have even narrower search engines (for example, the LANs page lets you search just LANs resources on Network World Fusion). More advanced search tips Our Advanced Search page lets you do more complex searches easily by filling out some boxes and making choices via drop-down menus. What follows are instructions for power users who like to build their own queries. You can force the search engine to return only documents that mention specific words or phrases by putting a plus sign in front of the word or phrase. For example: +Novell +"Chris Stone" will only give you links to articles that specifically mention both Novell and Chris Stone. You can exclude words or phrases with a minus sign, for example: +Novell -"Chris Stone" The search engine is case sensitive by default. If you're unsure about whether a word or phrase is capitalized, typing it in lower case will force the search engine into case insensitivity, mcnealy will match McNealy . Quickly finding an article that appeared in print You can find a specific article by combining all or part of the headline with the title: attribute, like this: title: "IT buyers swap price-cutting tips" Finding an article by a specific author Use the author: attribute and, where appropriate, double quotation marks and + or - signs. For example: +author:"Jim Duffy" +cisco -nortel will bring up all articles by Jim Duffy that mention Cisco but not Nortel. Archive: Finding older articles Our default search engine currently finds documents from 2002 and 2003. We also have an archive of articles from 1995 through 2001, accessible here . What is DocFinder? DocFinder is our system to get readers of the print edition of Network World more information on the stories they've read. Many Network World articles have one or more DocFinder numbers associated with them. Type one of these numbers into the DocFinder/Search box and you'll be taken to the relevant article or resource. Apply for your free subscription to Network World. Click here . Or get Network World delivered in PDF each week. Request a reprint or permission to use this article. To top WE INVITE YOU TO VISIT New to NW Fusion is the Network World Store. Browse our &#8220;aisles&#8221; for tools to help you evaluate solutions, books and training to educate you, a digital version of our great newsweekly and more. Visit the Network World Store today! --> • Complete Payroll by Intuit Payroll Svcs The better way to help you do payroll. Process from within QuickBooks then outsource time consuming tasks - payroll tax calculations, payment, filing. Backed by our "No-Penalties" guarantee. • Need a MS Exchange Spam Filter?? Spam sucks. Your life shouldn't. iHateSpam SE was uniquely developed to be both user- and admin-friendly. Control spam according to the needs of your company and users. Reader's Choice Winner 2003, Best Antispam Tool. • Identity Management optimized for Service Providers Pivot Path is the only Identity Management software solution built for Service Providers. It provides an operations infrastructure that can deliver the process efficiency and flexibility required to deliver profitable operations. • Intuit Network and Asset Management Software Intuit IT Solutions provides Track-It! - the leading help desk software solution with integrated components for IT asset management, PC/LAN auditing & inventory, license management, electronic software distribution, and problem resolution. Free demo • HelpSTAR - Help Desk Software and Asset Management Download HelpSTAR Quick Evaluation Edition. Experience first hand how HelpSTAR help desk software can provide tangible improvements in response time, end user self help, first call resolution, and cost-justification of staff and equipment. » Buy a link now Cisco Systems - Click here for enterprise applications and benefits of optical solutions slm-info.org - Your source for information about IT service management, SLM, SLAs, SLOs, BPM, ITIL, and Six Sigma. Microsoft - Achieve more with the new Microsoft Office System. See how. AlterPoint Inc. - FREE eBook: Get over 100 pages of tips on Network Configuration Management Covad S-DSL - Great service level guarantees. Up to $ 500 rebate. Sprint Managed Network Services - Take care of your business; let Sprint manage your network. Statscout - Statscout - Highly Scalable Network Monitoring Software - FREE Evaluations Lucent Technologies - Improving network security - FREE WHITEPAPER - Overcoming Common Firewall Limitations Ceonex Internet Consulting - Let us help you grow your online business with our consulting, development and design expertise. Sun Microsystems - See how your company wins with the Sun Fire[tm] V480 server. Contact us | Terms of Service/Privacy | How to Advertise Reprints and links | Partnerships | Subscribe to NW About Network World, Inc. Copyright , 1994-2004 Network World, Inc. All rights reserved. Sign Up! DATA CENTER NEWSLETTER Soon to launch is NW's Data Center newsletter. Written by experts at Nemertes Research, this new newsletter will include an ongoing assessment of current business drivers and future trends of the new Data Center. Sign up now!   -->                              
+  else document.write(' 
+   	  	
+  	 
+   	
+           
+    Research centers:	        Applications	       Convergence	       LANs	       Net/Systems Mgmt	          NOSes 	     Outsourcing	        
+   	        
+      
+                 Routers/Switches	       Security	         Storage	       WAN Services	       Web/E-business	          Wireless/Mobile	        
+
+All channels
+        
+Enterprise nets
+        
+Service providers
+        
+SMB nets
+        
+News
+        
+Reviews
+        
+Opinion
+        
+Newsletters
+       
+        	
+Advanced search	 
+Help | Site map	 
+  	            	     
+
+Daily News Vendor News Newsletter Archives This Week in print   	
+
+Tests/reviews Buyer's guides White papers    Special Reports    Vendor View    Webcasts   	
+
+Columnists Forums Weblogs   	
+
+Network World Store  	
+    
+      
+   	    
+              
+              
+ •	      Former CA executive pleads guilty to SEC charges    	   
+ 	   
+ •	      Cisco warns of IP PBX security hole on IBM hardware    	   
+ 	   
+ •	      Microsoft tweaks protocol licensing    	   
+ 	   
+ •	      NAI's McAfee the latest to add anti-spyware    	   
+ 	   
+ •	      AOL testing new anti-spam technology    	   
+ 	   
+ •	      Consumer, corporate buying boost Microsoft revenue    	   
+ 	   
+ •	      Savvis to acquire C&W&#8217;s U.S. assets    	   
+ 	   
+
+All of today's news	    
+          	        
+   	       
+  	 
+   		          Enterprise Networks / /                     
+
+Search help
+
+• Simple search tips • More advanced search tips • Quickly finding an article that appeared in print • Finding an article by a specific writer • Archive: Finding older articles • What is DocFinder?
+
+Simple search tips
+
+Just type in a few words or phrases. Try to use discriminating terms that are likely to be found only in the documents you seek. The more words you give, the better results you'll get. 
+
+Verizon's VPN strategy 
+
+The search engine will find documents containing as many of these words and phrases as possible, ranked so that the documents most relevant to your query are presented first. Don't worry about missing a document because it doesn't have one of the words in your search -- our search engine returns relevant results even if they don't contain all query terms. 
+
+To search for a specific phrase, surround it with double quotation marks. For example, 
+"Computer Associates" 
+will return links to articles that specifically mention that vendor, as opposed to article that might mention "computers" or "associates."
+
+By default, our search engine queries an article database for the current and previous year, containing articles from Network World and Network World Fusion, along with archives of our e-mail newsletters (forum postings, however, are not included; the Forum has its own search engine). If you want to search our archives back to 1995, use our archive search.
+
+Also by default, our search engine will scan documents across the entire site. A drop-down menu next to the search box lets you narrow the search by selecting a specific channel or topic (for example, you could limit your search to just the Service Provider Networks channel). Many Topics and other resource pages also have even narrower search engines (for example, the LANs page lets you search just LANs resources on Network World Fusion).
+
+More advanced search tips
+
+Our Advanced Search page lets you do more complex searches easily by filling out some boxes and making choices via drop-down menus. What follows are instructions for power users who like to build their own queries.
+
+You can force the search engine to return only documents that mention specific words or phrases by putting a plus sign in front of the word or phrase. For example: 
++Novell +"Chris Stone" 
+
+will only give you links to articles that specifically mention both Novell and Chris Stone.
+
+You can exclude words or phrases with a minus sign, for example: 
++Novell -"Chris Stone" 
+
+The search engine is case sensitive by default. If you're unsure about whether a word or phrase is capitalized, typing it in lower case will force the search engine into case insensitivity, mcnealy will match McNealy.
+
+Quickly finding an article that appeared in print
+
+You can find a specific article by combining all or part of the headline with the title: attribute, like this: 
+title: "IT buyers swap price-cutting tips" 
+
+Finding an article by a specific author
+
+Use the author: attribute and, where appropriate, double quotation marks and + or - signs. For example: 
++author:"Jim Duffy" +cisco -nortel 
+will bring up all articles by Jim Duffy that mention Cisco but not Nortel. 
+
+Archive: Finding older articles
+
+Our default search engine currently finds documents from 2002 and 2003. We also have an archive of articles from 1995 through 2001, accessible here.
+
+What is DocFinder?
+
+DocFinder is our system to get readers of the print edition of Network World more information on the stories they've read. Many Network World articles have one or more DocFinder numbers associated with them. Type one of these numbers into the DocFinder/Search box and you'll be taken to the relevant article or resource.
+
+Apply for your free subscription to Network World. Click here. Or get Network World delivered in PDF each week.
+
+Request a reprint or permission to use this article. 
+
+To top                         
+
+WE INVITE YOU TO VISIT 
+
+New to NW Fusion is the Network World Store. Browse our &#8220;aisles&#8221; for tools to help you evaluate solutions, books and training to educate you, a digital version of our great newsweekly and more. Visit the Network World Store today! 	
+
+• 	Complete Payroll by Intuit Payroll Svcs	 
+
+The better way to help you do payroll. Process from within QuickBooks then outsource time consuming tasks - payroll tax calculations, payment, filing. Backed by our "No-Penalties" guarantee. 	
+
+• 	Need a MS Exchange Spam Filter??	 
+
+Spam sucks. Your life shouldn't. iHateSpam SE was uniquely developed to be both user- and admin-friendly. Control spam according to the needs of your company and users. Reader's Choice Winner 2003, Best Antispam Tool. 	
+
+• 	Identity Management optimized for Service Providers	 
+
+Pivot Path is the only Identity Management software solution built for Service Providers. It provides an operations infrastructure that can deliver the process efficiency and flexibility required to deliver profitable operations. 	
+
+• 	Intuit Network and Asset Management Software	 
+
+Intuit IT Solutions provides Track-It! - the leading help desk software solution with integrated components for IT asset management, PC/LAN auditing & inventory, license management, electronic software distribution, and problem resolution. Free demo 	
+
+• 	HelpSTAR - Help Desk Software and Asset Management	 
+
+Download HelpSTAR Quick Evaluation Edition. Experience first hand how HelpSTAR help desk software can provide tangible improvements in response time, end user self help, first call resolution, and cost-justification of staff and equipment. 	
+
+» Buy a link now	 
+
+Cisco Systems - Click here for enterprise applications and benefits of optical solutions
+ slm-info.org - Your source for information about IT service management, SLM, SLAs, SLOs, BPM, ITIL, and Six Sigma.
+ Microsoft - Achieve more with the new Microsoft Office System. See how.
+ AlterPoint Inc. - FREE eBook: Get over 100 pages of tips on Network Configuration Management
+ Covad S-DSL - Great service level guarantees. Up to $500 rebate.
+ Sprint Managed Network Services - Take care of your business; let Sprint manage your network.
+ Statscout - Statscout - Highly Scalable Network Monitoring Software - FREE Evaluations
+ Lucent Technologies - Improving network security - FREE WHITEPAPER - Overcoming Common Firewall Limitations
+ Ceonex Internet Consulting - Let us help you grow your online business with our consulting, development and design expertise.
+ Sun Microsystems - See how your company wins with the Sun Fire[tm] V480 server.
+
+Contact us | Terms of Service/Privacy | How to Advertise 
+Reprints and links | Partnerships | Subscribe to NW About Network World, Inc. 
+
+Copyright, 1994-2004 Network World, Inc. All rights reserved.
+
+Sign Up!
+
+DATA CENTER NEWSLETTER
+
+Soon to launch is NW's Data Center newsletter. Written by experts at Nemertes Research, this new newsletter will include an ongoing assessment of current business drivers and future trends of the new Data Center.
+
+Sign up now!
+
+skysrc = "http://ad.doubleclick.net/adi/idg.us.nwf.news/;pos=skyscraper;sz=160x600;tile=3;ord=091710?"; 
+
+

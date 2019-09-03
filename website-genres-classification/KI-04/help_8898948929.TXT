@@ -1,0 +1,63 @@
+
+
+      	  Guides    Forums    Downloads  	   	
+
+  Home Desktops Distributions ISO Images Logos Newbies Reviews Software Support & Resources 	
+
+Welcome to Linux Help! 	January 25th, 2004.   	
+
+Greetings and welcome to Linux Help.
+
+Linux Help was started back in 1997 by myself and a small group of Linux enthusiasts. Our goal was to create a one-stop Linux Help site that was easy to follow and understand. Linux Help is still an active project and we try to keep the content as up to date as possible. If you require assistance please poke around the site and hopefully you'll find what you are looking for. If not, please feel free to use the Help Forums and ask one of the experts!. If you notice anything unusual (broken links, missing images, typos etc) please contact us and let us know. 
+
+As always, thank you for your continuous support!
+Joey Olson
+Linux Help Administrator. 	
+
+Recent Topics In Our Linux Help Forums 	Random Linux User Groups (LUGs) 	
+
+* Vid Card Detected, No Video When X(?) Starts Last updated by hughesjr  (15 Views)
+
+* What Am I Doing Wrong? Last updated by hughesjr  (5 Views)
+
+* Mandrake 10 Last updated by hughesjr  (3 Views)
+
+* Ssh Server Trouble Last updated by hughesjr  (5 Views)
+
+* Funky Internet Problems Last updated by Linux Victim  (84 Views)
+ 	
+Reno Linux Users Group
+
+* Site: http://www.rlug.org
+
+* Email: info@rlug.org
+
+* Location: Reno, Nevada
+
+* Country: United States
+
+Linux Today Headlines  (Updated every 30 minutes) 	Current Linux Kernels  (Updated daily) 	
+
+Andrew Morton: Linux 2.6.2-rc1-mm3 
+eWeek: Is SCO Denting Customers' Buying Plans? 
+Advogato: A True Story; Selling Open Source 
+Marcelo Tosatti: Linux 2.4.25-pre7 
+Andrew Morton: Linux 2.6.2-rc1-mm2 
+InformationWeek: Linux's Brave New World 
+OfB.biz: Basic Lesson #3: Talk to Me 
+Editor's Note: Expo Provides Common Ground for Two Linux Camps 
+Update: NewsForge: X.org and Xfree86 Reform as a Single Group 
+OSNews: Interview with Lindows.com's Carmony, LindowOS for Free 	
+The latest stable version of the Linux kernel is: 2.6.1 
+The latest prepatch for the stable Linux kernel tree is: 2.6.2-rc1 
+The latest snapshot for the stable Linux kernel tree is: 2.6.2-rc1-bk3 
+The latest 2.4 version of the Linux kernel is: 2.4.24 
+The latest prepatch for the 2.4 Linux kernel tree is: 2.4.25-pre7 
+The latest 2.2 version of the Linux kernel is: 2.2.25 
+The latest 2.0 version of the Linux kernel is: 2.0.39 
+The latest prepatch for the 2.0 Linux kernel tree is: 2.0.40-rc7 
+The latest -mm patch to the stable Linux kernels is: 2.6.2-rc1-mm3 	
+
+Copyright © 2004 Joey Olson. All rights reserved.
+Linux is a registered trademark of Linus Torvalds. All other trademarks and copyrights are the property of their respective owners.
+| Contact Us | Link to Us | Server Stats | Staff | 

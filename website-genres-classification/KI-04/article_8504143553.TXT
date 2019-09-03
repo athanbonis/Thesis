@@ -1,0 +1,83 @@
+
+
+   gibney.de >> fuzzy textsearch 	 
+
+Spelling tolerant text search 
+
+One of the basic issues in user-software interaction is to deal with free text input. People more and more expect to be corrected if they do typos. Most of the big players like Amazon and Google who deal with user-input have already integrated quite good fault-tolerance into their systems. 
+
+Recently I started writing an add-on for gnod.net that is able to search gnod's ten thousands of artist names for similar occurrences of a chosen name. It's still beta, but already produces results of quality similar to the search implemented by Amazon. 
+
+I'm not displaying the link to the test-page here. The algorithm is not yet completely optimized for speed, and (dependant on the current search-depth settings) sometimes still needs too much processing resources, especially when searching for terms like "a" or something. Guess you can imagine why :o) 
+
+In case you want to try it, please contact me, and I will mail you the link. 
+
+Update: since I did this code in asp, the textsearch live-demo is currently not available because I ported Gnod to php lately. 
+
+However, here are some "screenshots" (well copy & paste actually): 
+
+Results for elfis pressli:
+no exact match
+similar names:
+[x] Elvis Presley
+
+Results for madona:
+found: Madonna
+
+Results for john sebustin buch:
+no exact match
+no similar names found.
+
+Results for john sebustin bach:
+no exact match
+similar names:
+[x] J. S. Bach
+
+Results for rem:
+found: R.E.M.
+
+Results for tschaikowski:
+no exact match
+similar names:
+[x] Tchaikowsky
+
+Results for tscheikofsky:
+no exact match
+no similar names found.
+
+Results for depesche mote:
+no exact match
+similar names:
+[x] Depeche Mode
+
+Results for irfana:
+no exact match
+similar names:
+[x] Nirvana
+[x] Bananarama
+[x] Arcana
+[x] Garmana
+[x] Rosana
+
+Results for peter and the test tube babies:
+found: Peter & The Test Tube Babies
+
+Results for peter's testtube babies:
+no exact match
+similar names:
+[x] Peter & The Test Tube Babies
+[x] Backyard Babies
+
+Results for mosart:
+no exact match
+similar names:
+[x] Mozart
+
+Results for mohsard:
+no exact match
+no similar names found.
+
+Search the Web.
+Type it and go!	
+
+

@@ -1,0 +1,95 @@
+About the Statistical Engineering Division The Statistical Engineering Division, part of NIST 's Information Technology Laboratory , provides statistical consulting to the NIST laboratories and performs statistical research. SED Mission Statement SED Staff SED Division Chief NIST users can also access the SED internal web site . (Note: The search button is temporarily inactive. Please use the NIST search link for now). Search ITL Webspace --> Search NIST Webspace SED Consulting Program SED Products and Services Current SED Projects Bayesian Metrology Project Education and Training Project Process Characterization Project IT Performance Project Statistical Software SED Sponsored Seminars SED Publications Conferences and Professional Meetings NRC Postdoctoral Associate Program Other Statistics Information on the Web Privacy Policy/Security Notice Disclaimer | FOIA NIST is an agency of the U.S. Commerce Department's Technology Administration. Date created: 3/20/2001 Last updated: 12/8/2003 --> Click on the calender for information on upcoming events sponsored by the Statistical Engineering Division. Introduction to ANOVA for Scientists and Engineers Course Functional Data Analysis Course --> Kevin Coakley , a mathematical statistician in the Statistical Engineering Division, is one of five holders of a patent on the invention of a new technique to measure the residual stress on a structure. Coakley helped to develop the measurement technique in collaboration with colleagues in NIST's Materials Science and Engineering Laboratory. James Filliben , Statistical Engineering Division, was named a Fellow of the American Statistical Association. Filliben was recognized "for exemplary work in statistical consulting with physical scientists and engineers, for leadership in the development of statistical software, and for technical contributions of national importance." The announcement appeared in the October issue of Amstat News, the membership magazine of the American Statistical Association. NIST Update story on CLEAN NIST Visitor Information Postdoctoral Opportunities General SED inquiries - Contact: Dr. Nell Sedransk, Division Chief nell.sedransk@nist.gov 301-975-2839 Statistical Engineering Division, NIST Room 330, Nist North, Stop 8980 Gaithersburg, MD 20899-8980 SED website comments: sedwww@nist.gov . General NIST inquiries: Public Inquiries Unit: (301) 975-NIST (6478) TTY (301) 975-8295   --> "SurveyWindowInformative", "width=1,height=1,top=3000,left=3000" ); } else { if (scoutTracker != triggerParms["mid"] ) { // get reference to existing window if any window.runningscout = window.open("/scripts/site1/scout.html", "SurveyWindowInformative", "width=1,height=1,top=1000,left=1000"); // close it window.runningscout.close(); // open new window window.runningscout = window.open("/scripts/site1/scout.html", "SurveyWindowInformative", "width=1,height=1,top=3000,left=3000" ); OnExitInstallationInstructions1 } } } else { return; } } var ip = '80.138.92.26' //document . writeln ("
+
+Your IP Address is: " + ip + "."); if (ip.substr(0,5) != "129.6" && ip.substr(0,7) != "132.163") {openScoutInformative();} 
+
+About the Statistical Engineering Division 
+
+The Statistical Engineering Division, part of NIST's Information Technology Laboratory, provides statistical consulting to the NIST laboratories and performs statistical research. 
+
+SED Mission Statement 
+SED Staff 
+SED Division Chief 
+
+NIST users can also access the SED internal web site. 	
+  	
+
+  	
+
+(Note: The search button is temporarily inactive. Please use the NIST search link for now). 	
+  	
+
+Search NIST Webspace 	
+  	
+
+ 
+
+SED Consulting Program 
+
+SED Products and Services 
+
+Current SED Projects 
+
+Bayesian Metrology Project 
+
+Education and Training Project 
+
+Process Characterization Project 
+
+IT Performance Project 
+
+Statistical Software 
+
+SED Sponsored Seminars 
+
+SED Publications 
+
+Conferences and Professional Meetings 
+
+NRC Postdoctoral Associate Program 
+
+Other Statistics Information on the Web 
+
+Privacy Policy/Security Notice 
+Disclaimer | FOIA 
+
+NIST is an agency of the U.S. Commerce Department's Technology Administration. 
+
+Date created: 3/20/2001
+ Last updated: 12/8/2003
+ 	
+
+Click on the calender for information on upcoming events sponsored by the Statistical Engineering Division. 
+
+---------------------------------------------------------------------
+
+Kevin Coakley, a mathematical statistician in the Statistical Engineering Division, is one of five holders of a patent on the invention of a new technique to measure the residual stress on a structure. Coakley helped to develop the measurement technique in collaboration with colleagues in NIST's Materials Science and Engineering Laboratory. 
+James Filliben, Statistical Engineering Division, was named a Fellow of the American Statistical Association. Filliben was recognized "for exemplary work in statistical consulting with physical scientists and engineers, for leadership in the development of statistical software, and for technical contributions of national importance." The announcement appeared in the October issue of Amstat News, the membership magazine of the American Statistical Association. 
+NIST Update story on CLEAN
+ 
+
+NIST Visitor Information
+ 
+
+Postdoctoral Opportunities 
+
+General SED inquiries -
+ Contact:
+ Dr. Nell Sedransk,
+ Division Chief
+ nell.sedransk@nist.gov
+ 301-975-2839
+ 
+Statistical Engineering Division,
+ NIST
+ Room 330, Nist North, Stop 8980
+ Gaithersburg, MD 20899-8980 
+
+SED website comments: 
+sedwww@nist.gov. 
+
+General NIST inquiries:
+ Public Inquiries Unit:
+ (301) 975-NIST (6478)
+ TTY (301) 975-8295
+
+

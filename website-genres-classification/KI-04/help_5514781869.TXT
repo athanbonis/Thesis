@@ -1,0 +1,203 @@
+
+
+ Matt's Script Archive: WWWBoard: Frequently Asked Questions	View All FAQs @ MSA	
+
+ 
+ 
+  Other sites by Matt:	 
+ FormMail.com
+   - hosted form processor
+ CGI Resource Index
+   - 3,000+ CGI Scripts!
+ PHP Resource Index
+   - 650+ PHP Scripts!
+ Web Hosting Index
+   - web hosting solutions
+ chumpsoft, inc.
+   - online survey software	
+ 
+---------------------------------------------------------------------
+
+  Matt's Script Archive
+     FormMail
+     Guestbook
+     phpQuestionnaire
+     WWWBoard
+       Readme
+       Download
+       Demo
+       > FAQ 
+     Simple Search
+     Counter
+     TextCounter
+     Random Text
+     TextClock
+     Free for all Links
+     Random Link
+     HTTP Cookie Library
+     Countdown
+     Random Image
+     SSI Random Image
+     TextCounter C++
+     TextClock C++
+
+---------------------------------------------------------------------
+ 		
+WWWBoard Frequently Asked Questions	 
+    1. WWWAdmin Just Won't Work!
+    2. WWWAdmin works, but the password parts don't!
+    3. Does WWWBoard run on Windows NT4.0?
+    4. I think my WWWBoard was hacked, how so?	 
+1. WWWAdmin Just Won't Work!	 
+One possibility is that you have your base messages in a directory other than messages/ If this is the case, go through the wwwadmin.pl and change all of the messages/ references to the correct directory.
+
+Also, if you have changed the way that messages appear on the main page, it could affect the way that WWWAdmin tries to read WWWBoard html files and then it might not properly work.	 
+2. WWWAdmin works, but the password parts don't!	 
+Short Answer:
+
+This is most likely because you do not have the crypt function available to use or the crypt function on your OS us different than the one on the machine I created these scripts on.
+
+Long Answer:
+
+Here are some fixes:
+
+FreeBSD Changes:
+ From: Ron Crisco 
+To: mattw@worldwidemart.com
+Subject: FIXED - WWWBOARD wwwadmin.pl password problem
+
+The problem was the difference in FreeBSD's crypt. The default passwd.txt file (password WebBoard) should be:
+
+WebAdmin:$1$ae$eVdFF2d.W9C3JSO3qluZ70
+
+And the wwwadmin.pl file must be changed, too.
+
+Three occurrences of
+
+substr($passwd, 0, 2)
+
+were changed to
+
+substr($passwd, 3, 2)
+
+Red Hat Commercial Linux 2.0
+ I was told by Mark Reynolds that under Red Hat Commercial Linux 2.0 with a Kernel 1.2.13 on a i586 he had to change the password.txt file to read:
+
+WebAdmin:aeb/uHhRv6x2LQvxyii4Azf1
+
+Systems Not Supporting Crypt (Macintosh, Windows, etc..):
+Near line 521 in wwwadmin.pl, you will see a block of code which looks like:
+
+$test_passwd = crypt($FORM{'password'}, substr($passwd, 0, 2));
+ if ($test_passwd eq $passwd && $FORM{'username'} eq $username) {
+ open(PASSWD,">$basedir/$passwd_file") || &error(no_change);
+ $new_password = crypt($FORM{'passwd_1'}, substr($passwd, 0, 2));
+...
+
+Change this to:
+
+if ($FORM{'password'} eq $passwd && $FORM{'username'} eq $username) {
+ open(PASSWD,">$basedir/$passwd_file") || &error(no_change);
+ $new_password = $FORM{'passwd_1'};
+...
+
+Then, on line 678 (almost the end) you will find a block of code:
+
+$test_passwd = crypt($FORM{'password'}, substr($passwd, 0, 2));
+ if (!($test_passwd eq $passwd && $FORM{'username'} eq $username)) {
+ &error(bad_combo);
+ }
+
+Change this to:
+
+if (!($FORM{'password'} eq $passwd && $FORM{'username'} eq $username)) {
+ &error(bad_combo);
+ }
+
+Then, open up passwd.txt (or whatever you renamed your password file to) and change the line from:
+
+WebAdmin:aepTOqxOi4i8U
+
+To:
+
+WebAdmin:WebBoard
+
+Or whatever you want your new username:password combination to be.	 
+3. Does WWWBoard run on Windows NT4.0?	 
+Short Answer:
+
+WWWBoard was originally written to run on a Unix based system, but it can be modified to run on other platforms.
+
+Long Answer:
+
+I have received the following two messages about converting WWWBoard to NT. It doesn't sound difficult, however I do not guarauntee that either of the following solutions will work for you:
+
+Date: Sun, 16 Mar 1997 16:03:26 -0400
+ From: Jon Robison
+ Subject: WWWBoard on NT - One Solution
+
+I would like to offer the solution I found.
+
+On systems using Win Nt 4.0 Server, with IIS, and using
+ Perl.exe associated with .pl files rather than PerlIS, the
+ following is the only change needed:
+
+For the $basedir variable, use double backslashes. i.e., mine
+ is set to: "c:\\inetsrv\\wwwroot\\..........\\wwwboard"
+
+This was the only change needed beyond ensuring read/write
+ permission for both the main board directory (wwwboard) and
+ it subdirectory /messages.
+
+From: Steve Whan 
+Subject: WWWBoard on NT 4.0
+
+We only had to make two types of fixes:
+
+1) $basedir = "q:\\InetPub\\wwwroot\\live\\buysell";
+2) The OPEN statements now look like this: 
+open(NEWFILE,">$basedir\\$mesgdir\\$num\.$ext") || die $!;	 
+4. I think my WWWBoard was hacked, how so?	 
+Short Answer:
+
+WWWBoard doesn't have the tightest security. If you are you are using version 2.0 ALPHA 2, upgrade to ALPHA 2.1, as I fixed a couple major problems. 
+
+Long Answer: 
+
+WWWBoard 2.0 ALPHA 2 did not check the value of the followup field, and some people found an exploit that would clobber specific messages, or overload the size of the HTML file and fill up the disk using this exploit. This has been fixed in version 2.0 ALPHA 2.1, and can be fixed simply by finding lines 133 - 135 (in the standard distribution of ALPHA 2.0) which look like: 
+
+if ($FORM{'followup'}) {
+ $followup = "1";
+ @followup_num = split(/,/,$FORM{'followup'}); 
+
+and adding the following afterwards which refuses to allow any form that has a followup number duplicated or non-numeric to be posted: 
+
+# Changes based in part on information contained in BugTraq archives
+ # message 'WWWBoard Vulnerability' posted by Samuel Sparling Nov-09-1998.
+ # Also requires that each followup number is in fact a number, to 
+# prevent message clobbering.
+
+local(%fcheck);
+ foreach $fn (@followup_num) {
+ if ($fn !~ /^\d+$/ || $fcheck{$fn}) { &error('followup_data'); }
+ $fcheck{$fn} = 1;
+ }
+ @followup_num = keys %fcheck; 
+
+Another common trick is for people to test dictionary attacks against the well-known location of passwd.txt. In order to help secure the board further you can choose a password that is not easily guessed (not a word) or even move your password file to a new location (and change the appropriate filename in wwwadmin.pl). 	
+
+ 
+
+ Useful Web Resources:	
+HostingMetro.com
+Cheap Cpanel web hosting as low as $3.99/month!
+
+Research Hotels and Vacations
+Free unbiased reviews, articles and great deals ...
+
+[ Linking to MSA | Advertising Opportunities ]	
+
+Matt Wright - mattw@scriptarchive.com
+© 1995 - 2002 Matt's Script Archive, Inc.	
+
+

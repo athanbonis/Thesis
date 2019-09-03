@@ -1,0 +1,115 @@
+// navigation functions function doSubmit(gvnStr) { document.formInfo.action=gvnStr; document.formInfo.submit(); } function goToMainIndex() { indexStr = "wtv-tricks:help"; history.go(indexStr); location.href = "wtv-tricks:help"; } function tryApp() { location.href = unescape(document.formInfo.tryItUrl.value); }         
+         
+           
+       if (boxtype != "!other!") {   document.write("");  } else {   document.write("");  }            
+            Help Center FAQ    
+ 
+          
+   
+   
+   
+   
+         
+            if (boxtype != "!other!") {   document.write("");   document.write("");   document.write("
+Main Help Index");  }             if (boxtype != "!mercury!"){   if (boxtype != "!other!") {    document.write("");    document.write("");    document.write("
+Find an Answer");   } else {    document.write("• ");    document.write("Find an Answer");   }  }              
+ if (boxtype != "!other!") {   document.write("");  } else {   document.write("");  }      
+   
+        
+     
+ 
+• Billing
+       • Account information
+       • Automatic Bank Payment
+       • Billing
+       • Billing
+       • Canceling the service
+       • Gift Card
+       • Legal
+
+• Centers
+       • Around Town
+       • Autos
+       • Entertainment
+       • Games
+       • Health
+       • Member Center
+       • Money
+       • News
+       • Romance
+       • Shopping
+       • Sports
+       • Things to Try
+       • Travel
+
+• Contact Us
+
+• CS Survey
+
+• Email
+       • Hotmail
+
+• Equipment
+       • Manufacturers
+       • Printing
+       • Remote control
+       • WebTV Info
+       • Wireless keyboard
+
+• Features
+       • Chat
+       • Discuss
+       • Favorites
+       • Mail
+       • Microsoft .NET Passport
+       • MSN Messenger
+       • Page Builder
+       • Search
+       • Streaming Media
+       • Transloading
+       • TV Home
+       • Upgrades
+
+• How MSN TV dials
+       • Moving
+       • Numbers
+       • Trouble connecting
+       • Using an ISP
+
+• Internet Info
+       • Discuss
+       • Harassment
+       • Internet
+       • Parents
+       • Web Page
+
+• IRC
+
+• Latest News
+
+• Latest Upgrades
+
+• MSN Integration
+       • Branding
+       • Hotmail
+       • Web Home
+
+• New Users
+
+• Settings
+       • Parental Help
+       • Password
+       • Setup
+
+• Top Questions
+  
+ 
+     
+        
+   
+   
+   
+   
+ 
+ 
+

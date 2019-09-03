@@ -1,0 +1,321 @@
+          
+
+Search & Book			
+
+Domicile	Route	 		
+
+Argentina
+
+Australia
+
+Austria
+
+Bahrain
+
+Belarus
+
+Belgium
+
+Bolivia
+
+Brazil
+
+Bulgaria
+
+Canada
+
+Chile
+
+China
+
+Colombia
+
+Costa Rica
+
+Cyprus
+
+Czech Republic
+
+Denmark
+
+Dom. Republic
+
+Ecuador
+
+Egypt
+
+El Salvador
+
+Eritrea
+
+Ethiopia
+
+Finland
+
+France
+
+Germany
+
+Ghana
+
+Greece
+
+Guatemala
+
+Honduras
+
+Hong Kong
+
+Hungary
+
+India
+
+Indonesia
+
+Iran
+
+Ireland
+
+Israel
+
+Italy
+
+Japan
+
+Jordan
+
+Korea, Republic of
+
+Kuwait
+
+Latvia
+
+Lebanon
+
+Libya
+
+Luxembourg
+
+Malaysia
+
+Malta
+
+Mexico
+
+Morocco
+
+Namibia
+
+Netherlands
+
+Nigeria
+
+Norway
+
+Oman
+
+Pakistan
+
+Panama
+
+Peru
+
+Philippines
+
+Poland
+
+Portugal
+
+Puerto Rico
+
+Romania
+
+Russia & C.I.S.
+
+Saudi Arabia
+
+Singapore
+
+Slovakia
+
+South Africa
+
+Spain
+
+Sudan
+
+Sweden
+
+Switzerland
+
+Taiwan
+
+Thailand
+
+Tunisia
+
+Turkey
+
+U.A.E.
+
+Ukraine
+
+United Kingdom
+
+U.S.A.
+
+Venezuela
+
+Vietnam
+
+Yemen
+
+Zimbabwe
+
+One Way
+
+Round Trip
+
+Direct flights		
+
+from	Outbound	Airlines		
+
+  			
+
+All Airlines
+
+Lufthansa
+
+Star Alliance
+
+to	Return	
+  Adults
+(from 12 years)	 
+
+  			
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+Booking Class	 		
+
+Economy
+
+Business
+
+First
+
+Help	Show Flights		
+
+Flexible		
+
+Restrictive		
+
+Children
+(2-11 years)	 Babies
+(<2 years)	 
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+0
+
+1
+
+2
+
+3
+
+var strCityfrominput0 = "Please insert the departure airport!"; var strCitytoinput0 = "Please insert the destination airport!"; var strOutbound = "Outbound:\t\n"; var strReturn = "Return flight:\t\n"; var strDayEmpty = "Please insert the day!\n\n"; var strDayFails00 = "Please insert day in correct format, has to be a number using the format \'DD\' and not:\t\n\t\'"; var strDayFails05 = "\'\t\n\n"; var strMonthEmpty = "Please insert a month!\n\n"; var strMonthFails00 = "Please insert month in correct format, has to be a number using the format \'MM\' and not:\t\n\t\'"; var strMonthFails05 = "\'\t\n\n"; var strDateFails00 = "Please correct your date: given month "; var strDateFails05 = " has "; var strDateFails10 = " and not "; var strDateFails15 = " days!\n"; var strTooManyPersons = "The total number of adults and children must not exceed 6. Please correct and try again."; var strTooManyInfants = "The number of infants travelling cannot exceed the number of adults. Please correct and try again."; generateBookingclass('') var language = 'EN'; var pointOfSale = 'de'; highlightLayer(layerBooking) function efInputCheck(){  if (ns4) {   var ef=document.fmLayerEditable.document.emailform;var errmsg="";  } else {   var ef=document.emailform;var errmsg="";  } if (errmsg != "" ) {alert("\n\n"+errmsg) } else {ef.submit()}} 
+
+Flight and Service Portal	   	  
+
+www.lufthansa.de 	 	
+
+Offers & Bookings 	 	
+
+Arrival / Departure 	 	
+
+Timetable 	 	
+
+Check-in 	 	
+
+Lufthansa Services 	 	
+
+My Lufthansa 	 	
+
+Login	   	  
+
+User-ID
+(or Miles & More 
+card number)	    	    
+   	   	   	    
+
+Password
+(or Miles & More PIN)	    	    
+   	   	   	    
+   	   	   	    
+   	               
+Flight Booking
+     
+Award Booking
+     
+Mileage Account
+     
+My Bookings
+     
+My Profile
+     
+       	      	    
+
+Forgotten Password?	   	  
+
+New Registration	   	  
+
+Why sign-up?	   	  
+
+"Future European Operations"	  	   
+
+Charting a new course    	  	   
+
+Lufthansa's realignment strategy on continental traffic	  	   
+
+Miles & More Germany	  	   
+
+Our Frequent Flyer Program    	  	   
+
+Registration, Mileage Account, Award Booking	  	   
+
+The new A340-600	  	   
+
+A successful premier    	  	   
+
+Worlds longest passenger jet went into service with Lufthansa	  	   
+
+The Group	  	   
+
+The Aviation Group    	  	   
+
+Latest Press Releases, About us, Sustainability, Investor Relations	  	   
+
+|	 Star Alliance|	 Imprint|	 Privacy Statement|	 Lufthansa AG |	 
+
+

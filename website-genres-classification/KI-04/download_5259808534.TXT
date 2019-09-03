@@ -1,0 +1,83 @@
+
+
+Home 
+
+Download 
+
+FAQ
+
+Help!
+
+Education
+
+News
+
+Stats
+
+Science
+
+Results
+
+Papers
+
+Press
+
+Awards
+
+About
+
+ 
+
+Downloading the Folding@home v.4 software 
+
+To join the Folding@home public distributed computing effort, simply click on a link appropriate for your computer's operating system. Check out the notes below for help in deciding what type of client (console, graphical, or screensaver) to run and in choosing a user name if any (certain characters are reserved).
+ 
+
+Operating system	 Version #	 Click to download	 Installation instructions	 License info (legal stuff)	   MD5-sum of download	 
+
+Windows 98/ME/NT/2000/XP Graphical client 
+
+Recommended client for all Windows versions
+
+4.00	 
+download 	Install info 	License 	36c8132eef5615e28b9ea45962b8911f	 
+Windows NT/ 2000/XP Only 
+Screensaver	 4.00 	
+download 	Install info 	License 	  d01e385580f86be01ae74069b2be9c19	 
+Windows 98/ME/NT/ 2000/XP 
+"No-nonsense" text-only console	 4.00 	
+download 	Console info	 License 	04396d4798fc37d622862de7e2c9d314	 
+Linux Console
+(x86)	    4.00	    
+   download 	      Install info 
+   
+   Console info	       License 	   d8ca3f78a3fff62059b780891d4c1e06	     
+   Mac OS X Graphical client
+(PPC) 	4.00	 
+download 	Install info 	License 	7727b930a351a95d98bba44a9dfede89	 
+Mac OS X
+Screensaver
+(PPC) 	4.00	 
+download 	Install info 	License 	0c307c3159fb5d9f651cbaf33ec77096	 
+Mac OS X
+Text console
+(PPC) 	4.00	 
+download 	Install info
+ 
+Console info 	License 	daad38fa66fe5cc2ee826ad962bf18fa	 
+
+You only need to download one of the clients above. 
+
+What are the different types of clients? The Consoles run in the background and are launched from a terminal, to which they output text messages about the simulation's progress. The Graphical client runs in the background and has a graphics window available that allows you to see the protein being simulated. The screensaver runs just like any other screensaver, except that it also runs our calculation in the background. 
+
+How do I choose a username? To check to see if a name is already being used, you can do a stats seach below. You can choose any user name you like, as long as it contains only letters or numbers (to insert a space, you can use the underscore "_" character). If you choose your email as your username, we will NOT print your full email anywhere. Instead, just the part before the @ sign will be used in any stats listing, etc. 
+
+Type your name above (where it says "YourName") to see if the name you've chosen is already being used. You can also choose not to have a username and just donate your CPU time anonymously. 
+
+Beta clients: If you would like to help test our forthcoming clients, visit our beta section to see if there are any beta clients available for your platform and what their new features are.	  
+
+ 	 (c) 2000-2004 Vijay Pande and Stanford University 	
+
+ 
+
+

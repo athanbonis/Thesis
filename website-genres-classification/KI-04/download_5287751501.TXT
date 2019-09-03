@@ -1,0 +1,122 @@
+Conectiva Linux ( README / LEIAME ) : 9.0: Intel i386 and SRPMs 8.0: Intel i386 and SRPMs 7.0: Intel i386 and SRPMs --> Debian ( README ) : Debian stable (woody) (Intel i386, IBM PowerPC, DEC Alpha) : deb http://download.kde.org/stable/3.1.5/Debian stable main --> FreeBSD ( README ) --> Mac OS / OpenDarwin (downloads via the Fink project): X --> Mandrake Linux ( README ): 8.2: Intel i586 --> Red Hat ( README ) : Language packages (all versions and architectures) 9: Intel i386 --> Slackware (Unofficial contribution): Language packages (all versions and architectures) 9.1: Intel i386 9.0: Intel i386 8.1: Intel i386 IBM AIX (Not IBM endorsed): 5.1+: PowerPC --> SUN Solaris (Unofficial contribution): 8.0: Intel x86 --> SuSE Linux README , SORRY ) --> : Language packages (all versions and architectures) 9.0: Intel i586 and AMD x86-64 8.2: Intel i586 and AMD x86-64 8.1: Intel i586 8.0: Intel i386 Turbolinux ( README ): Language packages (all versions and architectures) 8.0: Intel i586 7.0: Intel i586 --> Tru64 ( README ): 4.0d, e, f and g and 5.x: Compaq Alpha --> YellowDog : 2.2 --> Yoper : 1.0: Intel i686 tgz --> VECTORLINUX : ( README ): 3.2: Intel i386 3.0: Intel i386 --> KDE 3.1.5 consists of the following source packages: Location Size MD5 Sum arts-1.1.5 969KB 1d34348e805715559fcd0d978272f031 kdeaddons-3.1.5 1.1MB 789f4ff2037a9ce1ae0219f7e2fc4db6 kdeadmin-3.1.5 1.5MB abaa80f34c3b4cbeac18c598cbfe79de kdeartwork-3.1.5 14MB 3d58cd50865714e8b489802d3c5968b6 kdebase-3.1.5 15MB 88c94a1a6b3381c67164e1051b2e070e kdebindings-3.1.5 6.0MB 8bfe1598db8112eab9f2d09af57a4237 kdeedu-3.1.5 20MB 093b3ca0ad0401935671611189c4e461 kdegames-3.1.5 8.2MB 6611d73c37dbd648f556e1370ba00031 kdegraphics-3.1.5 4.4MB ba16a4a71381d57928325bc55ce7fe4c kde-i18n-3.1.5 143MB cca8b1090a8c0e30dcf18d752bae8482 kdelibs-3.1.5 11MB 6e33c0f7c124e77d807da0ddb537b369 kdemultimedia-3.1.5 5.7MB f588d3aeb6f25387dee74befa096de0b kdenetwork-3.1.5 4.8MB d202929df2d5d88dca187c3d09f6ab44 kdepim-3.1.5 3.2MB a3bc4986bd6e2a635f9c0ca67e2c8bb9 kdesdk-3.1.5 2.1MB 7b7bdc08b774c98e99ce185e0612dd77 kdetoys-3.1.5 1.8MB ef9ad9c79647a8c72aa72285810c50d8 kdeutils-3.1.5 1.4MB a9e8c413f332448b547d12d15cf5707c quanta-3.1.5 2.8MB 4998f3159bf9f5986a6b86ba7a9b2be7 The Konstruct build toolset can help you downloading and installing these tarballs. Inform Home What is KDE? Screenshots Announcements General Information Documentation Supporting KDE People Awards KDE Stuff History Download Stable Version Distributions with KDE KDE on CD-ROM Development Source Code Applications (external) Communicate Contact Us Mailing Lists Deploy Enterprise Application Documentation Sysadmin Documentation Develop Getting Involved Developer Information Bug Database Translation, Documentation Source Reference WebCVS Explore Mirrors KDE Family International Search Search: in kde.org kde-look.org Applications Documentation KDE Home | KDE Accessibility Home | Description of Access Keys Maintained by kde.org Webmaster KDE and K Desktop Environment are trademarks of KDE e.V | Legal   --> 
+Skip to Content | Location: KDE Homepage / Stable Version 	Settings | Sitemap | Help | Contact Us 	
+
+  Skip to Link Menu 
+
+Getting KDE
+
+Getting KDE is easy if you use the major Linux distributions; it's included on nearly all of them! Here is a somewhat complete list: Distributions Shipping KDE 
+
+There are also several vendors that ship KDE on CD-ROM. Here is a partial list: KDE on CD-ROM 
+
+If, however, you do not use GNU/Linux or just want to get a more up to date version of KDE, then read below. 
+
+First, read the INSTALL section of the KDE FAQ: Install Guide 
+
+Then, download the proper sources from one of the KDE FTP mirrors: FTP Mirrors 
+
+There are also instructions available for source code. 
+
+For the impatient, here are some quick links to binaries. Wonder why your favorite distribution isn't on the list? Read the KDE Package Policy first.
+
+KDE 3.1.5
+
+Please see the KDE 3.1.5 Info Page for details.
+
+Currently, the following binary packages are known:
+
+* Slackware (Unofficial contribution): 
+* Language packages (all versions and architectures) 
+* 9.1: Intel i386 
+* 9.0: Intel i386 
+* 8.1: Intel i386 
+
+* SuSE Linux : 
+* Language packages (all versions and architectures) 
+* 9.0: Intel i586 and AMD x86-64 
+* 8.2: Intel i586 and AMD x86-64 
+* 8.1: Intel i586 
+* 8.0: Intel i386 
+
+KDE 3.1.5 consists of the following source packages:
+
+Location Size MD5 Sum 
+arts-1.1.5	 969KB	 1d34348e805715559fcd0d978272f031	 
+kdeaddons-3.1.5	 1.1MB	 789f4ff2037a9ce1ae0219f7e2fc4db6	 
+kdeadmin-3.1.5	 1.5MB	 abaa80f34c3b4cbeac18c598cbfe79de	 
+kdeartwork-3.1.5	 14MB	 3d58cd50865714e8b489802d3c5968b6	 
+kdebase-3.1.5	 15MB	 88c94a1a6b3381c67164e1051b2e070e	 
+kdebindings-3.1.5	 6.0MB	 8bfe1598db8112eab9f2d09af57a4237	 
+kdeedu-3.1.5	 20MB	 093b3ca0ad0401935671611189c4e461	 
+kdegames-3.1.5	 8.2MB	 6611d73c37dbd648f556e1370ba00031	 
+kdegraphics-3.1.5	 4.4MB	 ba16a4a71381d57928325bc55ce7fe4c	 
+kde-i18n-3.1.5	 143MB	 cca8b1090a8c0e30dcf18d752bae8482	 
+kdelibs-3.1.5	 11MB	 6e33c0f7c124e77d807da0ddb537b369	 
+kdemultimedia-3.1.5	 5.7MB	 f588d3aeb6f25387dee74befa096de0b	 
+kdenetwork-3.1.5	 4.8MB	 d202929df2d5d88dca187c3d09f6ab44	 
+kdepim-3.1.5	 3.2MB	 a3bc4986bd6e2a635f9c0ca67e2c8bb9	 
+kdesdk-3.1.5	 2.1MB	 7b7bdc08b774c98e99ce185e0612dd77	 
+kdetoys-3.1.5	 1.8MB	 ef9ad9c79647a8c72aa72285810c50d8	 
+kdeutils-3.1.5	 1.4MB	 a9e8c413f332448b547d12d15cf5707c	 
+quanta-3.1.5	 2.8MB	 4998f3159bf9f5986a6b86ba7a9b2be7	 
+
+The Konstruct build toolset can help you downloading and installing these tarballs.
+
+Inform
+
+* Home 
+* What is KDE? 
+* Screenshots 
+* Announcements 
+* General Information 
+* Documentation 
+* Supporting KDE 
+* People 
+* Awards 
+* KDE Stuff 
+* History 
+Download
+
+* Stable Version 
+
+* Distributions with KDE 
+* KDE on CD-ROM 
+
+* Development Source Code 
+* Applications (external) 
+Communicate
+
+* Contact Us 
+* Mailing Lists 
+Deploy
+
+* Enterprise 
+* Application Documentation 
+* Sysadmin Documentation 
+Develop
+
+* Getting Involved 
+* Developer Information 
+* Bug Database 
+* Translation, Documentation 
+* Source Reference 
+* WebCVS 
+Explore
+
+* Mirrors 
+* KDE Family 
+* International 
+Search
+
+Search: in 
+kde.org
+ 
+kde-look.org
+ 
+Applications
+ 
+Documentation
+ 
+KDE Home | KDE Accessibility Home | Description of Access Keys 	
+Maintained by kde.org Webmaster KDE and K Desktop Environment are trademarks of KDE e.V | Legal 	
+

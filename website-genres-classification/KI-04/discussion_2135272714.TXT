@@ -1,0 +1,237 @@
+                                                                                                                                        body    { color: #000000; font: 9pt Verdana,Arial,Helvetica; padding: 0px; scrollbar-face-color: #; scrollbar-arrow-color: #; scrollbar-track-color: #; scrollbar-darkshadow-color: #; scrollbar-3dlight-color: #; scrollbar-shadow-color: #; scrollbar-highlight-color: #; } table, td   { color: #000000; font: 9pt Verdana,Arial,Helvetica; } a     { color: #3366CC; text-decoration: none; } a:hover    { text-decoration: underline; } u     { color: #000000; font: 9pt Verdana,Arial,Helvetica; padding: 0px; background-color:transparent;} BODY {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } TABLE {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } TD {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } FORM {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } INPUT {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } SELECT {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } TEXTAREA {  FONT-SIZE: 11px; COLOR: #666; FONT-FAMILY: verdana } BODY {  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px } DIV {  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px } FORM {  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px } .base-copy-price-1 {  FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #ff0000; FONT-FAMILY: verdana } .base-copy-price-1 SUP {  FONT-SIZE: 11px } .base-copy-price-2 {  FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: verdana } .base-copy-price-3 {  FONT-SIZE: 11px; COLOR: #000; FONT-FAMILY: verdana } .base-copy-price-4 {  FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; FONT-FAMILY: verdana } .base-copy-error {  FONT-SIZE: 11px; COLOR: #cc0000; FONT-FAMILY: verdana } .base-copy-disclaimer {  FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: verdana } .base-copy-body {  FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: verdana } .base-copy-header-1 {  FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: verdana } .base-copy-header-2 {  FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: verdana } .base-copy-header-3 {  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #666666; FONT-FAMILY: verdana } .base-copy-header-4 {  FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cccccc; FONT-FAMILY: verdana } A.base-link-accessibility {  DISPLAY: none } A.base-link-primary {  FONT-WEIGHT: bold; FONT-SIZE: 20px; COLOR: #3366cc; FONT-FAMILY: arial; TEXT-DECORATION: none } A.base-link-primary:hover {  COLOR: #666 } A.base-link-primary IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 4px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } A.base-link-secondary {  FONT-SIZE: 11px; COLOR: #3366cc; FONT-FAMILY: verdana; TEXT-DECORATION: none } A.base-link-secondary:hover {  COLOR: #666666 } A.base-link-secondary IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 1px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } A.base-link-tertiary-1 {  FONT-SIZE: 9px; FONT-FAMILY: verdana; TEXT-DECORATION: underline } A.base-link-tertiary-2 {  FONT-SIZE: 9px; FONT-FAMILY: verdana; TEXT-DECORATION: underline } A.base-link-tertiary-3 {  FONT-SIZE: 9px; FONT-FAMILY: verdana; TEXT-DECORATION: underline } A.base-link-tertiary-1 {  COLOR: #3366cc } A.base-link-tertiary-2 {  COLOR: #ff3300 } A.base-link-tertiary-3 {  COLOR: #666660 } A.base-link-action {  FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #0033cc; FONT-FAMILY: verdana; TEXT-DECORATION: none } A.base-link-action:hover {  COLOR: #666666 } A.base-link-action IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: -3px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } A.base-link-footer {  FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #3366cc; FONT-FAMILY: verdana; TEXT-DECORATION: none } A.base-link-footer:hover {  COLOR: #666666 } A.base-link-footer IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 1px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } DIV.base-line-vertical-1 {  BACKGROUND-IMAGE: url(/attws/i/layout/base_line_vertical_1.gif); WIDTH: 1px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 100% } TD.base-line-vertical-1 {  BACKGROUND-IMAGE: url(/attws/i/layout/base_line_vertical_1.gif); WIDTH: 1px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 100% } DIV.base-line-horizontal-1 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_1.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } TD.base-line-horizontal-1 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_1.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } DIV.base-line-vertical-2 {  BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_vertical_2.gif); WIDTH: 1px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 100% } TD.base-line-vertical-2 {  BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_vertical_2.gif); WIDTH: 1px; BACKGROUND-REPEAT: repeat-y; HEIGHT: 100% } DIV.base-line-horizontal-2 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_vertical_2.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } TD.base-line-horizontal-2 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_vertical_2.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } DIV.base-line-horizontal-3 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_3.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 10px } TD.base-line-horizontal-3 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_3.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 10px } DIV.base-line-horizontal-4 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_4.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 5px } TD.base-line-horizontal-4 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_4.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 5px } DIV.base-line-horizontal-5 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_5.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } TD.base-line-horizontal-5 {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/base_line_horizontal_5.gif); WIDTH: 100%; BACKGROUND-REPEAT: repeat-x; HEIGHT: 1px } INPUT.base-form-element-type-1 {  WIDTH: 310px } SELECT.base-form-element-type-1 {  WIDTH: 310px } TEXTAREA.base-form-element-type-1 {  WIDTH: 310px } INPUT.base-form-element-type-2 {  WIDTH: 210px } SELECT.base-form-element-type-2 {  WIDTH: 210px } TEXTAREA.base-form-element-type-2 {  WIDTH: 210px } INPUT.base-form-element-type-3 {  WIDTH: 150px } SELECT.base-form-element-type-3 {  WIDTH: 150px } TEXTAREA.base-form-element-type-3 {  WIDTH: 150px } INPUT.base-form-element-type-4 {  WIDTH: 55px } SELECT.base-form-element-type-4 {  WIDTH: 55px } TEXTAREA.base-form-element-type-4 {  WIDTH: 55px } INPUT.base-form-element-type-5 {  WIDTH: 40px } SELECT.base-form-element-type-5 {  WIDTH: 40px } TEXTAREA.base-form-element-type-5 {  WIDTH: 40px } .base-block {  PADDING-BOTTOM: 10px; POSITION: relative } .base-block-nobottom {  POSITION: relative } .base-block-indent {  PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 10px; POSITION: relative } .base-block-indent-2 {  PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; POSITION: relative } .base-block-indent-nobottom {  PADDING-RIGHT: 20px; PADDING-LEFT: 20px; POSITION: relative } .base-segment-copy-header-1 {  FONT-WEIGHT: bold; FONT-SIZE: 24px; FONT-FAMILY: arial } .base-segment-copy-header-2 {  FONT-WEIGHT: bold; FONT-SIZE: 18px; FONT-FAMILY: arial } .base-segment-copy-header-3 {  FONT-WEIGHT: bold; FONT-SIZE: 14px; FONT-FAMILY: arial } .base-segment-copy-header-4 {  FONT-WEIGHT: bold; FONT-SIZE: 11px; FONT-FAMILY: verdana } TABLE.base-bubble {  BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; WIDTH: 100%; BORDER-BOTTOM: 0px; BACKGROUND-COLOR: #fff } TABLE.base-bubble TR TD.base-bubble-top-left {  FONT-SIZE: 2px; WIDTH: 10px; HEIGHT: 10px } TABLE.base-bubble TR TD.base-bubble-top-right {  FONT-SIZE: 2px; WIDTH: 10px; HEIGHT: 10px } TABLE.base-bubble TR TD.base-bubble-bottom-left {  FONT-SIZE: 2px; WIDTH: 10px; HEIGHT: 10px } TABLE.base-bubble TR TD.base-bubble-bottom-right {  FONT-SIZE: 2px; WIDTH: 10px; HEIGHT: 10px } .base-segment-bg {  } TABLE.base-table {  BORDER-TOP: #cccccc 1px solid; WIDTH: 100% } TABLE.base-table TD {  PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; BORDER-LEFT: #cccccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #cccccc 1px solid } TABLE.base-table TD.base-table-left {  BORDER-LEFT: 0px } TABLE.base-table TD.base-table-no-vertical {  BORDER-LEFT: 0px } TABLE.base-table TD.base-table-right {  } TABLE.base-table TD.base-table-title {  BORDER-LEFT: 0px } TABLE.base-table TR.base-table-bg-1 {  BACKGROUND-COLOR: #f6f6f6 } TABLE.base-table TR TD.base-table-bg-1 {  BACKGROUND-COLOR: #f6f6f6 } TABLE.base-table TR.base-table-bg-2 {  BACKGROUND-COLOR: #ebf5d6 } TABLE.base-table TR TD.base-table-bg-2 {  BACKGROUND-COLOR: #ebf5d6 } TABLE.base-table TR.base-table-bg-3 {  BACKGROUND-COLOR: #deefff } TABLE.base-table TR TD.base-table-bg-3 {  BACKGROUND-COLOR: #deefff } A.base-anchor-img-swap {  } INPUT.base-input-img-swap {  } BODY {  TEXT-ALIGN: center } DIV#container-persistent-nav {  PADDING-RIGHT: 15px; TEXT-ALIGN: right } DIV#container-persistent-nav2 {  PADDING-RIGHT: 15px; TEXT-ALIGN: left } DIV#container-persistent-nav DIV#container-persistent-nav-placeholder-1 {  FONT-SIZE: 1px; HEIGHT: 7px } DIV#container-persistent-nav DIV#container-persistant-nav-wrapper {  FLOAT: right; } DIV#container-persistent-nav2 DIV#container-persistant-nav-wrapper2 {  FLOAT: left; } DIV#container-persistent-nav DIV#container-persistant-nav-wrapper A {  FONT-SIZE: 10px; COLOR: #fff; FONT-FAMILY: verdana; TEXT-DECORATION: none } DIV#container-persistent-nav2 DIV#container-persistant-nav-wrapper2 A {  FONT-SIZE: 10px; COLOR: #fff; FONT-FAMILY: verdana; TEXT-DECORATION: none } DIV#container-persistent-nav DIV#container-persistant-nav-wrapper A:hover {  COLOR: #666 } DIV#container-persistent-nav2 DIV#container-persistant-nav-wrapper2 A:hover {  COLOR: #666 } DIV#container-persistent-nav DIV#container-persistant-nav-wrapper A IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 20px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } DIV#container-persistent-nav2 DIV#container-persistant-nav-wrapper2 A IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 20px; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } DIV#container-persistent-nav DIV#container-persistent-nav-placeholder-2 {  CLEAR: both; FONT-SIZE: 1px; HEIGHT: 9px } DIV#container-parent {  MARGIN-LEFT: auto; WIDTH: 90%; MARGIN-RIGHT: auto; POSITION: relative; TEXT-ALIGN: left } DIV#container-parent DIV#container-parent-header {  POSITION: relative; BACKGROUND-COLOR: #fff } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-top-left-corner {  LEFT: 0px; WIDTH: 10px; POSITION: absolute; TOP: 0px; HEIGHT: 10px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-shop {  Z-INDEX: 1; RIGHT: -1px; WIDTH: 137px; POSITION: absolute; TOP: 0px; HEIGHT: 25px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-shop A IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-logo {  Z-INDEX: 1; LEFT: 25px; POSITION: absolute; TOP: 14px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-logo A IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-search {  Z-INDEX: 1; LEFT: 345px; POSITION: absolute; TOP: 22px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-search IMG {  MARGIN-RIGHT: 14px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-placeholder {  POSITION: relative; HEIGHT: 57px } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-main-menu {  POSITION: relative; BACKGROUND-COLOR: #fff } DIV#container-parent DIV#container-parent-content {  POSITION: relative } DIV#container-parent DIV#container-parent-content DIV#container-parent-content-titlebar {  POSITION: relative; HEIGHT: 44px; BACKGROUND-COLOR: #3266cc } DIV#container-parent DIV#container-parent-content DIV#container-parent-content-titlebar DIV#container-parent-content-titlebar-title {  LEFT: 20px; POSITION: absolute; TOP: 11px } DIV#container-parent DIV#container-parent-content DIV#container-parent-content-titlebar DIV#container-parent-content-titlebar-caption {  PADDING-RIGHT: 20px; FLOAT: right; POSITION: relative; TOP: 7px; BACKGROUND-COLOR: pink } DIV#container-parent DIV#container-parent-content DIV#container-parent-content-template {  MARGIN-TOP: 2px; POSITION: relative } DIV#container-parent DIV#container-parent-footer {  POSITION: relative; BACKGROUND-COLOR: #fff; TEXT-ALIGN: center } DIV#container-parent DIV#container-parent-footer DIV#container-parent-footer-links {  MARGIN-TOP: 10px; MARGIN-BOTTOM: 12px } DIV#container-parent DIV#container-parent-footer DIV.container-parent-footer-divider {  MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px; POSITION: relative } DIV#container-parent DIV#container-parent-footer DIV#container-parent-footer-phone {  MARGIN-TOP: 6px; MARGIN-BOTTOM: 7px } DIV#container-parent DIV#container-parent-footer DIV#container-parent-footer-legal {  MARGIN-TOP: 6px; PADDING-BOTTOM: 35px } TABLE#container-template-type-1 {  BACKGROUND-COLOR: #ffffff } TABLE#container-template-type-1 TR TD#container-template-type-1-left-nav {  VERTICAL-ALIGN: top; WIDTH: 150px } TABLE#container-template-type-1 TR TD#container-template-type-1-divider {  WIDTH: 1px } TABLE#container-template-type-1 TR TD#container-template-type-1-content-area {  VERTICAL-ALIGN: top; WIDTH: 599px } TABLE#container-template-type-2 {  BACKGROUND-COLOR: #ffffff } TABLE#container-template-type-2 TR TD#container-template-type-2-content-area {  VERTICAL-ALIGN: top; WIDTH: 598px } TABLE#container-template-type-2 TR TD#container-template-type-2-divider {  WIDTH: 2px } TABLE#container-template-type-2 TR TD#container-template-type-2-related-links {  VERTICAL-ALIGN: top; WIDTH: 150px } TABLE#container-template-type-3 {  BACKGROUND-COLOR: #ffffff } TABLE#container-template-type-3 TR TD#container-template-type-3-left-nav {  VERTICAL-ALIGN: top; WIDTH: 150px } TABLE#container-template-type-3 TR TD#container-template-type-3-divider-1 {  WIDTH: 1px } TABLE#container-template-type-3 TR TD#container-template-type-3-divider-2 {  WIDTH: 2px } TABLE#container-template-type-3 TR TD#container-template-type-3-content-area {  VERTICAL-ALIGN: top; WIDTH: 447px } TABLE#container-template-type-3 TR TD#container-template-type-3-related-links {  VERTICAL-ALIGN: top; WIDTH: 150px } TABLE#container-template-type-4 {  BACKGROUND-COLOR: #ffffff } TABLE#container-template-type-4 TR TD#container-template-type-4-content-area {  WIDTH: 90% } TABLE#container-template-type-5 {  BACKGROUND-COLOR: #ffffff } TABLE#container-template-type-5 TR TD#container-template-type-5-left-content-area {  VERTICAL-ALIGN: top; WIDTH: 149px } TABLE#container-template-type-5 TR TD#container-template-type-5-divider-1 {  WIDTH: 2px } TABLE#container-template-type-5 TR TD#container-template-type-5-center-content-area {  VERTICAL-ALIGN: top; WIDTH: 448px } TABLE#container-template-type-5 TR TD#container-template-type-5-divider-2 {  WIDTH: 2px } TABLE#container-template-type-5 TR TD#container-template-type-5-right-content-area {  VERTICAL-ALIGN: top; WIDTH: 149px } BODY {  BACKGROUND-COLOR: #3399ff } DIV#container-parent DIV#container-parent-content {  BACKGROUND-COLOR: #3399ff } .base-segment-bg {  BACKGROUND-COLOR: #3399ff } .base-segment-copy-header-1 {  COLOR: #3399ff } .base-segment-copy-header-2 {  COLOR: #3399ff } .base-segment-copy-header-3 {  COLOR: #3399ff } .base-segment-copy-header-4 {  COLOR: #3399ff } TABLE.base-bubble TR TD.base-bubble-top-left {  BACKGROUND-IMAGE: url(/attws/i/layout/default_t_l_corner.gif); BACKGROUND-REPEAT: no-repeat } TABLE.base-bubble TR TD.base-bubble-top-right {  BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(/attws/i/layout/default_t_r_corner.gif); BACKGROUND-REPEAT: no-repeat } TABLE.base-bubble TR TD.base-bubble-bottom-left {  BACKGROUND-IMAGE: url(/attws/i/layout/default_b_l_corner.gif); BACKGROUND-REPEAT: no-repeat } TABLE.base-bubble TR TD.base-bubble-bottom-right {  BACKGROUND-POSITION: right 50%; BACKGROUND-IMAGE: url(/attws/i/layout/default_b_r_corner.gif); BACKGROUND-REPEAT: no-repeat } DIV#container-parent DIV#container-parent-header DIV#container-parent-header-top-left-corner {  BACKGROUND-IMAGE: url(/attws/i/layout/default_t_l_corner.gif); BACKGROUND-REPEAT: no-repeat } DIV#main-menu {  WIDTH: 100% } DIV#main-menu DIV.main-menu-categories {  FONT-SIZE: 1px; HEIGHT: 18px } DIV#main-menu DIV.main-menu-categories UL {  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none } DIV#main-menu DIV.main-menu-categories UL LI {  FLOAT: left; MARGIN: 0px } DIV#main-menu DIV.main-menu-sub-categories {  CLEAR: both; FONT-SIZE: 1px } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category {  DISPLAY: none } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active {  DISPLAY: block; BACKGROUND-IMAGE: url(/attws/i/layout/menu_sub_cat_bg.gif); HEIGHT: 22px } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active DIV.main-menu-sub-category-divider {  FONT-SIZE: 1px; BACKGROUND-IMAGE: url(/attws/i/layout/black.gif); HEIGHT: 4px } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL {  PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI {  FLOAT: left; MARGIN: 0px 0px 0px 12px; BACKGROUND-COLOR: #F0F4F5 } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI A {  FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #3366cc; FONT-FAMILY: verdana; TEXT-DECORATION: none } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI IMG {  BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; MARGIN-RIGHT: 5px; BORDER-BOTTOM: medium none } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI A:hover {  COLOR: #666 } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI.main-menu-sub-category-active A {  COLOR: #666 } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI.main-menu-sub-category-additional {  PADDING-RIGHT: 90px; FLOAT: right; BACKGROUND-COLOR: #fff } DIV#main-menu DIV.main-menu-sub-categories DIV.main-menu-sub-category-active UL LI.main-menu-sub-category-additional A {  FONT-WEIGHT: normal }      }else{    (e=d.createElement("script")).setAttribute("src",s);    e.setAttribute("type",ty);    d.getElementsByTagName("head")[0].appendChild(e);   }  }  t.anchorImgSwap = function(){   var imgObj = this.getElementsByTagName("IMG")[0];   if(imgObj){    imgObj.src = t.swapImgParse(imgObj.src);   }  }  var anchorImgSwapInit = function(aObj,events){   var imgObj = aObj.getElementsByTagName("IMG")[0];   if(imgObj){    var img = new Image();    img.src = t.swapImgParse(imgObj.src);    for(var i=0; i
+';  openItem += '';  openItem += '
+';   var midItem = '	';  midItem += '';  var closeItem = '	
+
+';   var tableStart = '\n';   var tableEnd = '
+\n';  var tableStr = "";  var theArray = aryName;  for(var j=1; j ';    tableStr += openItem;    tableStr += theArrow;    tableStr += midItem;    tableStr += '';    tableStr += theArray[j].itemText;    tableStr += '';    tableStr += closeItem;   }  }  var navTable = tableStart+tableStr+tableEnd;  return navTable } /*********************************************/ /* drawNav(aryName) builds layer and writes to browser */ /*********************************************/ var layerStart; // declare to make available globally var layerEnd; // declare to make available globally function drawNav(ImgId,aryName,colorsAry,menuSize){  var innerColor = colorsAry[0];  var outerColor = colorsAry[1];  var colorName = colorsAry[2];  var layerStart = "";  var layerEnd = "";  var subNavName = aryName[0].itemText + '_subnav';  var LayerWidth = "";  if (menuSize == "narrow"){   LayerWidth = menuWidths[0];  }else if(menuSize == "wide"){   LayerWidth = menuWidths[1];  } if (app=="N"){  var ParentImg = "";  // let's get a bead on the parent image  for ( x=0; x';  layerEnd = ''; } if (app=="E"){  // first, let's get the x,j of the parent image  var ImgX = document.all[ImgId].offsetLeft;  var ImgY = document.all[ImgId].offsetTop;  var layerX = ImgX + "px";  var layerY = (ImgY + 15) + "px";  layerStart = '';  layerEnd = ''; } if (app=="N5"){  // first, let's get the x,j of the parent image  var ImgX = document.images[ImgId].offsetLeft;  var ImgY = document.images[ImgId].offsetTop;  var layerX = (parseInt(ImgX) + parseInt(plusX)) + "px";  var layerY = (parseInt(ImgY) + parseInt(plusY)) + "px";  layerStart = '';  layerEnd = ''; } var navTable = createLinkTable(aryName,outerColor,innerColor,colorName,subNavName,LayerWidth); var navLayer = layerStart+navTable+layerEnd; //alert("navLayer = " + navLayer); document.write(navLayer); } function getPosition(ObjID){  if (app=="N"){   var ParentImg = "";   // let's get a bead on the parent image   for ( x=0; x= 4) { win.window.focus(); } } //used for text msg demo added Aug 24, 2001 by mmp function MM_openBrWindow(theURL,winName,features) { //v2.0 window.open(theURL,winName,features); } function leaving_site(compName,compURL){ companyName = compName; companyURL= compURL; newWindow=window.open("","","scrollbars=no,toolbar=no,directories=no,menubar=no,resizable=no,status=yes,width=500,height=250"), newWindow.focus(); subWrite() } function goi(to_url){ pop_up = window.open(to_url,'pop_up','toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=no,resizable=yes,width=400,height=415,screenX=100,screenY=100,left=100,top=100'); pop_up.focus(); } function subWrite() {  if (newWindow.closed){   leaving_site()  }  var newContent = "\n" newContent +=" newContent +="\n" newContent +="\n" newContent +="
+\n" newContent +="	\n" newContent +="
+\n" newContent +="
+\n" newContent +="
+\n" newContent +="
+ \n" newContent +="
+\n" newContent +="You are now leaving the AT&T Wireless \n" newContent +="website and entering a site operated by another party. \n" newContent +="AT&T Wireless is not responsible for any information or content \n" newContent +="contained on other sites and any information you provide \n" newContent +=" automatically or otherwise will be governed by the other party's policies. 
+
+\n" newContent +="
+
+ \n" newContent +="Continue        \n" newContent +="\n" newContent +="Return to AT&T Wireless\n" newContent +="	
+
+"  newWindow.document.write(newContent)  newWindow.document.close() } function leaving_site4(compName,compURL){ companyName = compName; companyURL= compURL; newWindow=window.open("","","scrollbars=no,toolbar=no,directories=no,menubar=no,resizable=no,status=yes,width=500,height=300"), newWindow.focus(); subWrite2() } function subWrite2() {  if (newWindow.closed){   leaving_site()  }  var newContent = "\n" newContent +=" newContent +="\n" newContent +="\n" newContent +="
+\n" newContent +="
+\n" newContent +="	\n" newContent +="
+\n" newContent +="
+\n" newContent +=" \n" newContent +="You are now entering the AT&T Wireless Personal Website. The AT&T Wireless Personal Website allows access to external sites which are not controlled by AT&T Wireless. AT&T Wireless is not responsible for any inaccuracies or other errors on external sites. Any information you provide to external sites, either automatically as part of the browsing experience or voluntarily, will be governed by the site's User Agreement and Privacy Policy.	\n" newContent +="
+ 	\n" newContent +="\n" newContent +="\n" newContent +="Return to AT&T Wireless.\n" newContent +="	
+
+"  newWindow.document.write(newContent)  newWindow.document.close() } //Start of popup warning function formHandler(form) { var windowprops = "height=400,width=600,location=no," + "scrollbars=yes,menubars=no,toolbars=no,resizable=yes"; var URL = "storelocator_detail.jhtml?state=" + form.stateToSelect.options[form.stateToSelect.selectedIndex].value; popup = window.open(URL,"MenuPopup",windowprops), popup.focus(); } function warningMsg(str) {  var result;  result = window.confirm("Thanks for visiting! You are now leaving the AT&T Wireless website and entering " +    "a site operated by another party. AT&T Wireless is not responsible for any information " +    "or content contained on other sites and any information you provide " +    "automatically or otherwise will be governed by the other party's policies." +    // " CA " +    "\n\n");  if (result) {  popup = window.open(str, "MapQuest", "height=600,width=800,location=yes,status=yes,scrollbars=yes,menubar=yes,toolbars=yes,resizable=yes"), popup.focus();  } } function loadUrl(url) { window.opener.location = url; window.close(); } function pop700x500(URL) { newwindow=open(URL,"","scrollbars=yes,toolbar=yes,directories=no,menubar=no,resizable=yes,status=yes,width=700,height=500"); newwindow.focus(); window.close(); }        
+  AT&T Wireless home     	     att.com home AT&T Wireless Personal AT&T Wireless Business 	
+                
+
+* 
+* 
+* 
+* 
+
+* Support Home 
+
+* Device Support 
+
+* Setup Tools 
+
+* Device Tutorials 
+
+* Data Services 
+
+* Downloads 
+
+* Site Map 
+                      
+   
+        Members Forum        	           
+  
+Go To....
+            
+-- Boards --                          
+-- Chats --                
+Private Support Chat - By Invitation Only                     
+Tech Support Chat                 
+== General Support ==        
+-- Boards --       
+Announcements       
+Report Network/Service Issue       
+Hot Topics            
+         
+== Customer Care ==        
+-- Boards --       
+Web Orders       
+Online Customer Service (OCS)       
+General Care       
+Billing            
+         
+== Data Service Support ==        
+-- Boards --       
+EDGE       
+mMode       
+Mobile Professional       
+Office Online       
+Wi-Fi       
+Members Forum            
+         
+== GSM(TM)/GPRS Support ==        
+-- Boards --       
+GSM(TM)/GPRS/EDGE General Discussion       
+Motorola       
+NEC       
+Nokia       
+PalmOne       
+Panasonic       
+RIM BlackBerry       
+Samsung       
+Siemens       
+Sony-Ericsson            
+      
+    	   
+ 	         
+               Register  �     Sign In           �     Help     �     FAQ     �     Guidelines          	       
+
+AT&T Wireless Support :            Data Service Support :            Members Forum :            Re: Forums & Safari              	              
+      
+                                            
+     	       	     	          Reply	      	            
+              	          
+
+  	    Message Options	      	    
+
+  	   
+                         
+               
+
+Mark Message as New	    	  
+          
+   	   Mark Thread as New	    	  
+        
+   	   Mark Thread as Read	    	  
+        
+
+Float this Message to the Top	    	  
+          
+   	   Float this Thread to the Top	    	  
+           
+   	   Add This Message to My Bookmarks	    	  
+          
+   	   Add This Thread to My Bookmarks	    	  
+           
+   	   Add This Message to My Subscriptions	    	  
+          
+   	   Add This Thread to My Subscriptions	    	  
+        
+
+E-Mail this Message to a Friend	    	  
+            
+   	   Print This Message	    	  
+             
+
+Report Abuse to a Moderator	    	  
+           	   	  
+
+ 	               
+     	       	     	          Message Listing	      	            
+   	         
+
+  	       	     	          Previous Message	      	            
+   	                 
+
+  	          Next Message	      	          	     	         
+   	                  
+    	                                         
+                      
+                        	        
+
+Re: Forums & Safari               [ Edited ]          	           	              
+                                                          XDORKX      
+                            Forum Regular           
+           Posts: 774
+                Registered: 07-25-2003                 
+                                
+                             My Device: eric t616,moto t720, siem sx56                 
+                                     Location: california, the home of yo mama!  
+                                             
+
+Viewed 76 times
+                                      	         
+
+yeah, i dont like it, the menu on the side was nice, now i'm not sure how to get to anything fast...
+
+Message Edited by XDORKX on 10-14-2003 05:04 PM                               
+
+take care :-) -Jeff
+_____________________
+What's a Signature?                                	   
+                 10-14-2003 05:02 PM         	                                             	           
+   	         
+      
+          	               
+     	       	     	          Message Listing	      	            
+   	         
+
+  	       	     	          Previous Thread	      	            
+   	                
+
+  	          Next Thread	      	          	     	         
+   	                  
+    	      
+        	       SUBJECT	   AUTHOR	      RATING	     DATE/TIME	                                                                             
+               	                      
+         	      Forums & Safari&                            	    
+
+trstack 	                 	       10-11-2003 07:35 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Deltan 	           	       10-20-2003 11:57 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Musashi 	                 	       10-22-2003 07:49 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Tanic 	                 	       10-22-2003 09:26 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Tanic 	                 	       10-19-2003 10:38 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Deltan 	           	       10-13-2003 04:37 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+Musashi 	                 	       10-18-2003 06:57 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+ratatosk 	                 	       10-11-2003 10:16 PM	                                                      
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+timesucker 	                 	       10-12-2003 08:33 PM	                                               
+                	                       
+         	      Re: Forums & Safari&                            	    
+
+XDORKX 	                 	       10-14-2003 05:02 PM	                 
+   
+                    	   	   	   	       User Search        �     Advanced       	           	          
+   	 
+   	      
+               
+       
+ company infodeveloper resourcescontact us
+                                       �2003 AT&T Wireless, All Rights Reserved.
+     Acceptable Use PolicySite Access AgreementPrivacy PolicyReviewed by Trust-E              	  
+
+ 
+
+ 
+
+

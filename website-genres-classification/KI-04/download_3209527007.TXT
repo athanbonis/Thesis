@@ -1,0 +1,95 @@
+
+    	  	      Download VNC 3.3.7     	
+
+r e a l v n c   
+      about us	   
+      make a contribution	   
+      buy a t-shirt	   
+      buy a document bag	   
+      buy a mouse pad	   
+ 
+ v n c   
+      what is it?	   
+      how can i use it?	   
+      why is it different?	   
+      download it now	   
+      get it on CDROM	   
+ 
+ e n t e r p r i s e   
+      support	   
+      development	   
+ 
+ i n f o r m a t i o n   
+      documentation	   
+      mailing lists	   
+      search	   
+      FAQ	   
+      contact	   
+
+VNC is available for general use under the conditions of the GNU General Public Licence. You should be aware of the terms and conditions of this licence, which is also contained in the distribution itself. Please fill in your details below to download VNC. It's not required, but we'd be grateful if you did. This information will not be disclosed to any other party. 
+
+If you have questions about VNC or want help getting started, please read the documentation! For a summary of the changes in this version, please read the release notes. See also the upgrade notes if you already have a version of VNC installed. There is a list of known bugs & features. MD5 checksums are available here. 
+
+Your details:	 
+ 	 Name:	  	 	
+ 	 Email:	  	 	
+ 	 Organisation:	  	 	
+ 	 Category:	  	 
+select a category
+ 
+personal
+ 
+company
+ 
+government
+ 
+non profit
+ 
+university
+ 
+school
+ 
+
+ 	 Deployment:	  	 
+current or intended size of VNC deployment
+ 
+up to 10 computers
+ 
+up to 100 computers
+ 
+up to 1,000 computers
+ 
+over 1,000 computers
+ 
+
+ 	 Comments:	  	 	
+
+We're interested in your views!	 
+
+Click here for version 4.0 beta release 
+
+Click here for previous versions 
+
+Click here for other VNC platforms and resources 	
+
+Installable packages:	 
+ 	 	Windows 9x/2000/NT/XP (x86)	  	 
+ 	 	Linux (x86)	  	 
+ 	 	Solaris 2.5 (SPARC)	  	 
+
+Source code & documentation:	 
+
+Windows sources	 
+
+Unix/Linux sources	 
+
+Documentation	 
+
+ 	 	 	 
+
+ 
+ 
+ 	
+
+Copyright © 2002-2004 RealVNC Ltd	 RealVNC and the RealVNC logos are trademarks of RealVNC Ltd	 
+

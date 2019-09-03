@@ -1,0 +1,307 @@
+
+
+The World's Most Popular Open Source Database	 Online shop | Site map | Search MySQL.com:	   	
+
+Company	 	Products	 	Support & Consulting	 	Training & Certification	 	Downloads	 	Documentation	 	
+
+ 	 Overview	 Mirrors	  	 
+
+MySQL 4.0 Downloads
+
+The software from MySQL AB listed below is licensed under the GNU General Public License (GPL) and is provided "as is" and is without any warranty.
+
+You need to purchase commercial non-GPL MySQL licenses: 
+
+* If you distribute MySQL Software with your non open source software, 
+* If you want warranty from MySQL AB for the MySQL software, 
+* If you want to support MySQL development. 
+
+Support, training, and certification are also all available.
+
+If you want to be updated on the latest MySQL news and receive tips and hints, you can subscribe to the MySQL Newsletter, and if you want to earn money by selling MySQL products, join the MySQL Affiliate Program.
+
+---------------------------------------------------------------------
+
+This is the current production release of the MySQL database server. It is recommended for most users
+
+You can find a description of the major new features in MySQL 4.0 here.
+
+The complete list of changes can be found here. You can find how to upgrade from MySQL 3.23 here.
+
+The Standard binaries are recommended for most users, and includes the InnoDB storage engine. The Max version includes additional features such as the Berkeley DB storage engine and other features that have not been exhaustively tested or are not required for general usage, such as user-defined functions (UDFs), and BIG_TABLE support. When these features have matured and proven to be stable, they will be incorporated into future releases of the Standard binaries. The Debug binaries have been compiled with extra debug information, and are not intended for production use, because the included debugging code may cause reduced performance.
+
+We suggest that you use the MD5 checksums and GnuPG signatures to verify the integrity of the packages you download.
+
+Linux downloads (platform notes)
+
+Linux (x86, libc6)	Standard	4.0.17	14.7M	Pick a mirror	
+MD5: 60f5fe969d61c8f82e4f7f62657e1f06| Signature	
+ 	Max	4.0.17	10.0M	Pick a mirror	
+MD5: 3c17781ece904b7d587d34ddbb320275| Signature	
+ 	Debug	4.0.17	43.6M	Pick a mirror	
+MD5: 7cdab8c2e795f0c8e73e67be31d4dc17| Signature	
+Linux (S/390)	Standard	4.0.17	15.3M	Pick a mirror	
+MD5: d878d7b5747b0527523d2725ee0093fd| Signature	
+ 	Max	4.0.17	10.4M	Pick a mirror	
+MD5: 1bda7e0a8d1c9d357edf21e0080b08ce| Signature	
+ 	Debug	4.0.16	44.0M	Pick a mirror	
+MD5: 5d303036fd3fafa159aef7fd91515ec0| Signature	
+Linux (IA64)	Standard	4.0.17	24.7M	Pick a mirror	
+MD5: cb3ddb0f4678cada20f4b025dab9bd88| Signature	
+ 	Max	4.0.17	24.8M	Pick a mirror	
+MD5: 35ab42e5037db1b10875bc82af20145d| Signature	
+ 	Debug	4.0.17	72.1M	Pick a mirror	
+MD5: 2d13f24e80d16d6398ed2b15cb41c5b4| Signature	
+Linux (Alpha)	Standard	4.0.17	14.9M	Pick a mirror	
+MD5: 917684d432157082d5492091974407f3| Signature	
+ 	Max	4.0.17	15.1M	Pick a mirror	
+MD5: aa75478e4a4842647d14994817656ad2| Signature	
+ 	Debug	4.0.17	39.9M	Pick a mirror	
+MD5: a8f0d58f274355c7f2ab729b515f763b| Signature	
+Linux (AMD64)	Standard	4.0.17	11.1M	Pick a mirror	
+MD5: 942cc14a163552f673d21afce2a2bd10| Signature	
+ 	Max	4.0.17	11.1M	Pick a mirror	
+MD5: d5378a98c85710065a69ec63d731d5d3| Signature	
+ 	Debug	4.0.17	37.5M	Pick a mirror	
+MD5: 064eff1c858147b78b394cebf36b1a2e| Signature	
+Linux x86 RPM downloads
+
+Server		4.0.17-0	9.0M	Pick a mirror	
+MD5: 821f9cf17c1ba0e43828e4f49c93de1b	
+ 	Max	4.0.17-0	1.5M	Pick a mirror	
+MD5: da50e7086069d899a849c9684c35a016	
+Benchmark/test suites		4.0.17-0	1.7M	Pick a mirror	
+MD5: c56801364ad0e70a69a92c0dcbff1e4e	
+Client programs		4.0.17-0	2.6M	Pick a mirror	
+MD5: 64ff4c7fb45eb48c307e0f0e80c60d05	
+Libraries and header files		4.0.17-0	925.8K	Pick a mirror	
+MD5: c26eee03c3d109337dd1bd8c0f2c8c22	
+Dynamic client libraries		4.0.17-0	256.6K	Pick a mirror	
+MD5: 948b78a4c6dc6ccafd3020d1a1f13558	
+Embedded server		4.0.17-0	2.0M	Pick a mirror	
+MD5: 8c179cd252d62d72a47ff9eab972390e	
+Dynamic client libraries(including 3.23.x libraries)		4.0.17-0	479.4K	Pick a mirror	
+MD5: 09af217f22374cc01a2f9964d44f6e6b	
+Linux IA64 RPM downloads
+
+Server		4.0.17-0	11.9M	Pick a mirror	
+MD5: 9ce637ff3d29e80d3f0edd0487b820ed	
+ 	Max	4.0.17-0	2.7M	Pick a mirror	
+MD5: 66fe20a1dfa15646f04e3e24b1e57ce3	
+Benchmark/test suites		4.0.17-0	2.1M	Pick a mirror	
+MD5: 08615850f0a91ba1c9a00b8bc3660fde	
+Client programs		4.0.17-0	3.6M	Pick a mirror	
+MD5: 810d980bb740f36a614e81d3144142cc	
+Libraries and header files		4.0.17-0	1.3M	Pick a mirror	
+MD5: 76dec44c9e485c1aaf39aecd64792fd3	
+Dynamic client libraries		4.0.17-0	349.2K	Pick a mirror	
+MD5: 01a515f561f1f0c339e12201dc1f21b5	
+Embedded server		4.0.17-0	3.4M	Pick a mirror	
+MD5: a7c69504b418aa9ad4651736519e3f43	
+Dynamic client libraries(including 3.23.x libraries)		4.0.17-0	645.0K	Pick a mirror	
+MD5: 4b997c71f2bc76c1ec5b4f972da66c6e	
+Linux AMD64 RPM downloads
+
+Server		4.0.17-0	9.1M	Pick a mirror	
+MD5: b17db580352bc0b0a07757bc9ba73b11	
+ 	Max	4.0.17-0	1.7M	Pick a mirror	
+MD5: ff68900e14df310a4bf721cb9db33f03	
+Benchmark/test suites		4.0.17-0	1.7M	Pick a mirror	
+MD5: 5d1db7bd262cc4d35c3d2759c660c3ed	
+Client programs		4.0.17-0	2.5M	Pick a mirror	
+MD5: 3579ad9c26d9263d6e50a258d6e16561	
+Libraries and header files		4.0.17-0	10.5M	Pick a mirror	
+MD5: 7702ecdfc26d63d0c1da89cde8d2a777	
+Dynamic client libraries		4.0.17-0	570.3K	Pick a mirror	
+MD5: 5e0d8b12f3767a48feb961294626b626	
+Embedded server		4.0.17-0	15.4M	Pick a mirror	
+MD5: 6ba7ddb6ceb26f6caf01924a203be314	
+Windows downloads (platform notes)
+
+The Windows download contains both the Standard and Max server binaries. It also contains a version of the command-line client which uses the Cygwin library to provide command history and editing. Source code for the version of Cygwin we have used is available on this page.
+
+Windows 95/98/NT/2000/XP/2003 (x86)		4.0.17	22.8M	Pick a mirror	
+MD5: fa8e81989f7cb62ba3d740b7ced10dbd| Signature	
+Without installer (unzip in C:\)		4.0.17	19.9M	Pick a mirror	
+MD5: a2aa73331cc099b171ab5b59d6d8ed53| Signature	
+Solaris downloads (platform notes)
+
+Note: Because of a bug in the Solaris version of tar, you must use gnu tar to unpack these downloads.
+
+Solaris 9 (SPARC, 64-bit)	Standard	4.0.17	11.2M	Pick a mirror	
+MD5: c4c8c713f1691e71bbe5d5d67c8902d0| Signature	
+ 	Max	4.0.17	11.9M	Pick a mirror	
+MD5: 5332bfa3c222920ff005e5c1a51b4389| Signature	
+ 	Debug	4.0.17	30.3M	Pick a mirror	
+MD5: 10ac54bb4cdaa33dad60ae0a1c3e89c3| Signature	
+Solaris 9 (SPARC, 32-bit)	Standard	4.0.17	10.5M	Pick a mirror	
+MD5: e587e87a1af1cfca1aed49b29b3ea31d| Signature	
+ 	Max	4.0.17	11.2M	Pick a mirror	
+MD5: 4e521764c2214b1e73f36454e409a0e9| Signature	
+ 	Debug	4.0.17	53.2M	Pick a mirror	
+MD5: 64a31c47ac00c15f787ce00c2692db3d| Signature	
+Solaris 8 (x86, 32bit)	Standard	4.0.17	9.7M	Pick a mirror	
+MD5: a8981d0ce9a56bc6efc52a2a1ebb6ce0| Signature	
+ 	Max	4.0.17	10.3M	Pick a mirror	
+MD5: 44c48835a216e3b31f79fb6ce7072cea| Signature	
+ 	Debug	4.0.17	50.0M	Pick a mirror	
+MD5: 365a629949524581270addb38209efe3| Signature	
+Solaris 8 (SPARC)	Standard	4.0.17	10.5M	Pick a mirror	
+MD5: c22ee5dd78c492e3edaa6468388982e3| Signature	
+ 	Max	4.0.17	11.1M	Pick a mirror	
+MD5: 849bc276ef7d38a7eaccca390f82f439| Signature	
+ 	Debug	4.0.17	50.8M	Pick a mirror	
+MD5: 695356f2d051d230957fd9441d71b351| Signature	
+Solaris 8 (SPARC, 64-bit)	Standard	4.0.17	11.9M	Pick a mirror	
+MD5: 4e98c98303428b2cea2b2446c343de8d| Signature	
+ 	Max	4.0.17	12.6M	Pick a mirror	
+MD5: 46ee695c949f0b1c79c2bf45b7d1628c| Signature	
+ 	Debug	4.0.17	45.3M	Pick a mirror	
+MD5: 3692fb89c77ed78775eea0c3caf6d10a| Signature	
+FreeBSD downloads (platform notes)
+
+FreeBSD 4.x (x86)	Standard	4.0.17	9.1M	Pick a mirror	
+MD5: 67ba0c51118ea486012520d53b3bf695| Signature	
+ 	Max	4.0.17	9.6M	Pick a mirror	
+MD5: f0b32eeedbfa26d91704d4cd76f1e096| Signature	
+ 	Debug	4.0.17	21.5M	Pick a mirror	
+MD5: 7558c16c6fc3713dc050a79bef92f060| Signature	
+FreeBSD 5.0 (sparc64)	Standard	4.0.16	10.2M	Pick a mirror	
+MD5: 981aaa6f5232331daa1fb21080babb49| Signature	
+ 	Max	4.0.16	10.9M	Pick a mirror	
+MD5: fab25a7afb19bb3e77950907efd643d2| Signature	
+FreeBSD 5.1 (sparc64)	Standard	4.0.17	10.3M	Pick a mirror	
+MD5: 785061bfac68af6cd0147df60bf6e968| Signature	
+ 	Max	4.0.17	11.0M	Pick a mirror	
+MD5: 4af2b7c6d2c39130aa7ba9b74e559fa0| Signature	
+Mac OS X Package Installer downloads (platform notes)
+
+Note: If you are using Microsoft Internet Explorer, the downloaded file may be named download.php. You will need to rename the file with a .dmgextension to be able to mount the disk image with Disk Copy.
+
+Mac OS X v10.2 or later	Standard	4.0.17	10.8M	Pick a mirror	
+MD5: 87aed39beec5a5ae5fa667016b28606a| Signature	
+ 	Max	4.0.17	9.9M	Pick a mirror	
+MD5: f3980e57be0dab523f274e1bab45454a| Signature	
+ 	Debug	4.0.17	24.0M	Pick a mirror	
+MD5: 4f520182b411236f1e77914dec9b17bc| Signature	
+Mac OS X downloads
+
+Mac OS X v10.2 or later	Standard	4.0.17	10.7M	Pick a mirror	
+MD5: 8bc156e33009c89737efc32beba17e24| Signature	
+ 	Max	4.0.17	9.8M	Pick a mirror	
+MD5: 2dbb3e2ba1b4ddba6b92342659b4a12b| Signature	
+ 	Debug	4.0.17	23.6M	Pick a mirror	
+MD5: 932c02d274a9721faa5403ab9596f65a| Signature	
+HP-UX downloads (platform notes)
+
+HP-UX 11.00 (PA-RISC 1.1)	Standard	4.0.17	13.0M	Pick a mirror	
+MD5: 0162c17e9fd7ed985d444ee9a79f43f3| Signature	
+ 	Max	4.0.17	13.7M	Pick a mirror	
+MD5: 81efb1c17a624f076c71a7939977ec42| Signature	
+ 	Debug	4.0.17	53.3M	Pick a mirror	
+MD5: 0afd8788a19f0f04fc7b7acec18c2f1c| Signature	
+HP-UX 11.11 (PA-RISC 1.1 and 2.0)	Standard	4.0.17	13.1M	Pick a mirror	
+MD5: 3f6a9b3cc5a072f1f8c7250200971f1a| Signature	
+ 	Max	4.0.17	13.7M	Pick a mirror	
+MD5: 2e4dfed361a5f32657612a9982903926| Signature	
+ 	Debug	4.0.17	48.9M	Pick a mirror	
+MD5: e5702a42ac379c41ac9f2dd4749f93ba| Signature	
+HP-UX 11.11 (PA-RISC 2.0, 64-bit only)	Standard	4.0.17	14.2M	Pick a mirror	
+MD5: 12891a8f7cf8d3af0d6a829be9c6484c| Signature	
+ 	Max	4.0.17	15.0M	Pick a mirror	
+MD5: 26df79281b00fcddbaab9b6450c98471| Signature	
+ 	Debug	4.0.17	41.2M	Pick a mirror	
+MD5: 04d8ebc6e2346ae075a6f92efdfb2f23| Signature	
+HP-UX 11.22 (IA64, 64bit)	Standard	4.0.17	26.8M	Pick a mirror	
+MD5: d1bded62daef95f680daa8ebc3b1e5d3| Signature	
+ 	Max	4.0.16	26.6M	Pick a mirror	
+MD5: 6452690d071ecf520a1609f50306a807| Signature	
+ 	Debug	4.0.17	34.1M	Pick a mirror	
+MD5: dc1fb9c6611e154697f01bd343777962| Signature	
+IBM AIX downloads (platform notes)
+
+AIX 5.1 (RS6000)	Standard	4.0.17	11.4M	Pick a mirror	
+MD5: 4c5917da4caf7f7a7755e43007c343eb| Signature	
+ 	Max	4.0.17	12.1M	Pick a mirror	
+MD5: 3fd1f0b94343870634fa32051b140c65| Signature	
+ 	Debug	4.0.17	37.6M	Pick a mirror	
+MD5: d54f04cd830b77783d75dede52322386| Signature	
+AIX 4.3.3 (RS6000, IBM VisualAge C++)	Standard	4.0.17	9.9M	Pick a mirror	
+MD5: 7afa509198aefe002b563c2b59332939| Signature	
+ 	Max	4.0.17	10.5M	Pick a mirror	
+MD5: 157dbedbc8603dc95de80a093be54682| Signature	
+ 	Debug	4.0.17	20.3M	Pick a mirror	
+MD5: 37cc5d628396d69cf5e20cbb9a8e27e5| Signature	
+AIX 4.3.2 (RS6000, gcc)	Standard	4.0.17	11.4M	Pick a mirror	
+MD5: cbbde575c66d15f8323ad72eda903eb8| Signature	
+ 	Debug	4.0.17	66 bytes	Pick a mirror	
+MD5: b57c78c753c9fec1f866e78f915d792f| Signature	
+QNX downloads
+
+QNX 6.2.1 (x86)	Standard	4.0.17	9.2M	Pick a mirror	
+MD5: a40b8e4d44f7f4c5854ee623a96881ca| Signature	
+ 	Max	4.0.17	9.3M	Pick a mirror	
+MD5: 21d12e9805e903a4f45de482ac5bc235| Signature	
+ 	Debug	4.0.17	23.8M	Pick a mirror	
+MD5: f75aec15b1a6fd898af7858ae30659d2| Signature	
+Novell NetWare downloads (platform notes)
+
+Note: The following packages require NetWare 6 SP2 or higher (with the latest LibC), and an NSS volume for the data directory.
+
+Novell NetWare 6 (x86)	Standard	4.0.17	6.6M	Pick a mirror	
+MD5: edffe3397e4271afecd960346aea8b2f| Signature	
+ 	Debug	4.0.16	7.3M	Pick a mirror	
+MD5: 914348af2eb6d4092578cfbb0d13754f| Signature	
+OpenBSD downloads (platform notes)
+
+OpenBSD 3.4 (x86)	Standard	4.0.17	8.8M	Pick a mirror	
+MD5: 5f214cba0e45ddb124a2a1a8077cd02d| Signature	
+ 	Max	4.0.17	9.3M	Pick a mirror	
+MD5: d3935d8ba1093207139c6f593e1dcb35| Signature	
+ 	Debug	4.0.17	18.9M	Pick a mirror	
+MD5: 92f423f7b5370929a16657835af57693| Signature	
+SGI Irix downloads (platform notes)
+
+SGI Irix 6.5	Standard	4.0.17	16.5M	Pick a mirror	
+MD5: 3e64af7d6a8bc693f5841bd72f44ce40| Signature	
+ 	Debug	4.0.17	29.5M	Pick a mirror	
+MD5: 6b0675e5ee90102c73e67d926161f948| Signature	
+Dec OSF downloads (platform notes)
+
+DEC OSF 5.1 (Alpha)	Standard	4.0.17	12.7M	Pick a mirror	
+MD5: b7d5fbf8a566d5d760ff8fde23236b7a| Signature	
+ 	Max	4.0.17	12.7M	Pick a mirror	
+MD5: 5d4cd83839a91aa650b1ae22f4b220c6| Signature	
+ 	Debug	4.0.17	27.5M	Pick a mirror	
+MD5: 7ba29bf8eeaaf6d74b9fed0a8f906a82| Signature	
+Source downloads
+
+Compiler Advisory: Several users have reported random crashes and table corruptions when using MySQL binaries compiled with gcc 2.96 on the x86 Linux platform. We suggest that you use gcc 2.95 or gcc 2.91 to compile your own binaries. It should also be safe to use gcc 3.2.
+
+For maximum stability and performance, we recommend that you use the binaries we provide.
+
+Tarball (tar.gz)		4.0.17	12.4M	Pick a mirror	
+MD5: 141511e1b7cab3a886fb68bbb507a1ab| Signature	
+Source RPM		4.0.17-0	12.3M	Pick a mirror	
+MD5: 40a4f297b868594563e1f17297b88c91	
+Windows Source (zip)		4.0.17	9.2M	Pick a mirror	
+MD5: f7b238837c187ee08ba7e45fbf1d8e10| Signature	
+ 	Standard	4.0.17	7.6M	Pick a mirror	
+MD5: 4982f3d83e03a71457d4ce4c8b9dc3a0| Signature	
+ 
+
+Sell MySQL products, support and training from your web site. Start earning today!
+
+Related pages:
+
+* Source Downloads
+* MySQL 3.23 Downloads
+* MySQL 4.1 Downloads
+* MySQL 5.0 Downloads
+* Product Information
+
+Get your own MySQL Box
+
+Send this page to a friend.
+
+Subscribe to the monthlyMySQL Newsletter! MySQL.com home | Site map | Contact us | Press | Jobs | Privacy policy | Trademark info | © 1995-2004 MySQL AB. All rights reserved. 

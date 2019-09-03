@@ -1,0 +1,85 @@
+
+
+Newsgroups: comp.lang.java.programmer,comp.lang.java.help,
+comp.lang.java.gui,comp.answers,news.answers 
+Approved: news-answers-request@MIT.EDU 
+Subject: Java Programmers FAQ 
+Followup-To: poster 
+Summary: This posting answers frequently-asked questions by Java programmers
+Supersedes:  
+
+Archive-name: computer-lang/java/programmers/faq 
+Posting-Frequency: weekly 
+Last-modified: 2001/02/27
+URL: http://www.afu.com/javafaq.html
+
+Frequently Asked Questions (with answers) for programmers using the JavaTM language
+
+_____________________________________________________
+  ________|                                                     |________
+  \       |   Java Programmers FAQ         http://www.afu.com   |       /
+   \      |   Last modified Feb 27, 2001   Peter van der Linden |      /
+   /      |_____________________________________________________|      \
+  /___________)                                              (__________\
+
+The Java FAQs here are intended for people who already have some programming experience, though maybe not in the JavaTM programming language. 
+
+Go to the FAQ home page at http://www.afu.com for other Java technology information and downloads, and the most up-to-date copy of the FAQ. Report FAQ updates to faqs at the address afu.com. 
+
+---------------------------------------------------------------------
+
+The sections of the Java FAQ are: 
+
+* 1. Book Information 
+* 2. Getting Started 
+* 2.5 Portability 
+* 3. General Information 
+* 4. Compilers and Tools 
+* 5. Compiler Messages 
+* 6. Java Language issues 
+* 7. I/O 
+* 8. Core library issues 
+* 9. Computer Dating 
+* 10. AWT 
+* 11. Swing 
+* 12. Browsers 
+* 13. Applets 
+* 14. Multi-Media 
+* 15. Networking 
+* 16. Security 
+* 17. For C, C++ Fans 
+* 18. Java Idioms 
+* 19. Java Gotcha's 
+* 20. Further Resources 
+* 21. Acknowledgements 
+
+---------------------------------------------------------------------
+           
+---------------------------------------------------------------------
+
+FAQ copyright 1997, 1998, 1999, 2000, 2001 by Peter van der Linden. Contributions and help from: 
+
+Matt Kennel, Patric Jonsson, Brad Van Tighem, Tony Hursh, Glenn L Vanderburg, Peter Jones, John McDowall, Jim Driscoll, Uday, Dave Harris, Bill Wilkinson, Tom Valesky, Dan Drake, Giles Thomas, Mitch Baltuch, Guy Ruth Hammond, Gordon Keith, Jason Brome, Shani Kerr, Steve Chapel, Timothy Wolters, Robert Lynch, Jake Cormier, Sean C Sullivan, Joseph A. Millar, Jim Frost, Jim Balter, Jeff Bauer, John Kochmar, Carl Burke, William Stubbs, Mark Smith, Volker Turau, Real Gagnon, Russell Gold, Max Hailperin, Bill Tschumy, Marco Nijdam, Marc Pawlowsky, Laurence Vanhelsuwe, Ian Macgregor, Mike Faulkner, Rich Koch, Will Clark, Govind Seshadri, Rich Simkin, Ian Stiles, Kieren, Darren Christie, Tom Lane, Michael Jungmann, Rob Mayoff, George Ruban, Tom McCann, David Hopwood, Thomas Phan, Kai Stuke, Rolf Howarth, Derek Snider, David Boydston, Andy Godwin, John F. Dumas, Doug Bell, David J. Biesack, Tiger Quimpo, Martin Hugh Rogers, Brian Krahmer, Ian Burrell, Nikki Locke, Bin Li, Jackson Thompson, Steve Odendahl, Greg Smith, Jeffrey C. Ollie, Mark Halvin, Jeremy Cook, Lak Ming Lam, Peter S. Morris, Mark Halvin, Juergen Keil, Alex Stewart, Mike Abney, Rodney Stephenson, Mark Gritter, Satish Talim, Tamminen Eero, Alexander Gridnev, Eric Hodges, Jamey Graham, Will Lockhart, Scott Plante, Tom Sanfilippo, Jan Newmarch, Sean Breslin, Stuart D. Gathman, rhino@wwdc.com, C Matthew Curtin, Tor Iver Wilhelmsen, A.N.Pryke, Phil Race, David Holmes, David Rodal, Dominique Plante, Trent Jarvi, Ingrid Biery, Gopal Unni Krishnan, Grant Lewis, Tov Are Jacobsen, Gary McGath, Marty Hall, Will Forster, Colin Mummery, Darin McBride, Mayank Shah, Jens Alfke, Glen Stampoultzis, Philip Brown, Peter Steiner, Kurt Spaugh, Rasmus Ekman, Jonathan Revusky, Ken Kalish, Dave Sanders, Bill Hyden, James Cloughley, Philip "diodes" Gustafson, Paul Kinnucan, Juan Vald�z, Antranig Basman, Felix Pahl, David N. Still, Simon Arthur, Mark Hammond, Dan Kegel, Thomas Weidenfeller, Pavel Shvartsman, Christen Monberg, George Reese, Ian Macgregor, John Sublett, David Zimmerman, Tony Dahlman, Druid, Chris Kelly, Patricia Shanahan, Paul Hill, Lyne Lamoureux, Don Kennedy, Alec Muffett, Andrew Mickish, Pavel Shvartsman, Neil of Parkway Consultants, Chris Thiessen, David Michaels, Bob Sutherland, Michael Allen Latta, Joshy, Eric Albert, Wes Isberg, Lisa Retief, Michael Park, Dave Postill, Thomas Weidenfeller, Konstantin Laufer, Håkan Gustavsson, James Stauffer, Reuben Firmin, David Lim, Eamonn Maher, Craig West, Pavel Shvartsman, Jay Dunning, Kevin Swan, Grant Gainey, Dan Schmitt, Benjamin Goldberger, Jake Hamby, Yaakov Itzhaki, Robert Lynch, Laura Werner, Tomm Hoeft, King Dale, Joe Halpin, Daniel M. Pomerantz, Kevin Kelley, misnomer@earthling.net, Peter Seibel, Werner Zsolt, Hank Stuck, David M. Karr, John J. Bartholdi, III, Garry Turkington, John Bokma, Frank McCreedy, Nat Pryce, Jeff Luszcz, Brent Callaghan, Neil Allen, Joe Preston, Tim Bell, Rajesh, Jeffrey Galyan, Nick Matsakis, Larry Hamel, David Lamb, Mr Tines, Bill McHardy, Phillip Lord, Jon K. Hellan, Diego T. Parra, Mark Thornton, David Ripton, Paul Hammant, Wayne Kovsky, Lucas Gonze, Jim Yingst, Don Vining, Rickard Öberg, Ken Kalish, Jim Sculley, Justin Couch, Cameron Hayne, Carl Braesicke, David Hook, David Hamill, Marc Prud'hommeaux, Paul Ward 
+
+---------------------------------------------------------------------
+
+I am maintaining a FAQ list to address specifically programming issues 
+(not a general tutorial on Java). Please mail suggested FAQ entries including answer to faqidea-NOSPAM@afu.com. Be sure to leave NOSPAM in the address, it's a zen spamblocker. 
+Question with answer gets you a credit in the FAQ. 
+Peter van der Linden, Sun Certified Java Programmer. 
+---------------------------------------------------------------------
+
+Cross references
+
+Most cross reference links inside this document are still to be filled in after the great FAQ re-org. If you'd like to contribute a few, send me the new text for the NAME= and the HREF=, and I'll fold them in as time permits. Look at the FAQ source for the style to follow. 
+
+Copyright
+
+Copyright (c), 1997,1998,1999,2000,2001 Peter van der Linden. Permission to copy all or part of this work is granted for individual use, and for copies within a scholastic or academic setting. Copies may not be made or distributed for resale. The no warranty, and copyright notice must be retained verbatim and be displayed conspicuously. You need written authorization before you can include this FAQ in a book and/or a CDROM archive, and/or make a translation, and/or publish/mirror on a website (scholastic and academic use excepted). If anyone needs other permissions that aren't covered by the above, please contact the author. 
+
+No Warranty
+
+This work is provided on an "as is" basis. The copyright holder makes no warranty whatsoever, either express or implied, regarding the work, including warranties with respect to merchantability or fitness for any purpose. Furthermore the author has been known to wear socks that don't match his pants, and to commit other egregious lapses of good fashion sense. 
+
+---------------------------------------------------------------------
+

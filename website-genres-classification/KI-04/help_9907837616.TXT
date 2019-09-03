@@ -1,0 +1,1296 @@
+
+
+SSLeay and SSLapps FAQ
+
+(Draft) T J Hudson tjh@cryptsoft.com, E A Young  eay@cryptsoft.com 24 September 1998 
+---------------------------------------------------------------------
+
+Table of Contents
+
+1. What is this stuff? 
+2. What is New 
+3. Is this legal? 
+4. What does it cost? 
+5. Can I use it in a commercial product? 
+6. What documentation is there?
+ 6.1. SSL Protocol Reference Information 
+6.2. SSL Client Certificates 
+6.3. Other Reference Information 
+6.4. Other information
+ 
+7. SSLeay articles available online 
+8. CA Reference Information
+ 8.1. Nortel's Certificate Management Service API version 1.0 
+8.2. Intel's Common Data Security Architecture (CDSA) 
+8.3. Microsoft's CryptoAPI version 2 (ZIP file) 
+8.4. The SESAME V4 Public Key Management API 
+8.5. SECUDE - Security Development Environment 
+8.6. General PKI
+ 
+9. Will Netscape talk to NCSA httpd with your patches?
+ 9.1. Will Verisign issue certificates for use with non-Netscape SSL servers 
+9.2. Can you legally use an existing RSA certificate?
+ 
+10. Will NCSA Mosaic talk to Netscape secure servers with your patches? 
+11. What about the recently released source for Netscape Navigator 
+12. How can I help with this stuff?
+ 12.1. ssl-users archive sites
+ 
+13. Who can I email to if I have problems? 
+14. How do I contact Eric and Tim? 
+15. Is there an archive of the mailing list? 
+16. Where to get SSLeay - FTP site list
+ 16.1. FTP Mirrors 
+16.2. Other SSL-enabled applications
+ 
+17. Other platforms
+ 17.1. Microsoft Windows 
+17.2. Apple Macintosh 
+17.3. Amiga 
+17.4. Pilot 
+17.5. Java 
+17.6. Pascal / Delphi
+ 
+18. Generating certificates and private keys
+ 18.1. create random state 
+18.2. generate a private key 
+18.3. generate a private key protected with a passphrase 
+18.4. remove a passphrase from a private key 
+18.5. add a passphrase to a private key 
+18.6. generate a certificate signing request (CSR) 
+18.7. generate a dummy self-signed certificate
+ 
+19. How to be your own CA
+ 19.1. Base level ca support in SSLeay 
+
+19.2. This sounds too hard ... what are my options?
+ 
+20. Mini-CAs and testing with Client Certificates
+ 20.1. Holger Reif - test certificate issuing 
+20.2. Tim Hudson - test certificate issuing 
+20.3. Clifford Heath - basic CA setup 
+20.4. Simon Gerraty - QuickCA
+ 
+21. Key export and import 
+22. Problems 
+23. Troubleshooting
+ 23.1. Apache-SSL pass-phrase prompt
+ 
+24. Porting from SSLeay-0.4.x to SSLeay-0.5.x 
+25. What ciphers does netscape support
+ all versions 
+us version only 
+fortezza version only
+ 
+26. PGP Public Keys 
+
+27. Standard SSLapps command line options 
+28. Standard SSLapps environment variables 
+29. What non-commercial software is available that uses SSLeay?
+ 29.1. SSLrsh 
+29.2. Apache-SSL 
+29.3. Cryptozilla 
+29.4. TinyWeb
+ 
+30. What commercial software is available that uses SSLeay?
+ 30.1. WWW Servers 
+30.2. WWW Browers 
+30.3. Others
+ 
+31. What libraries are available that use or build on top of SSLeay?
+ 31.1. PGPlib
+ 
+32. List of Certification Authorities 
+33. Recommended consultants
+ 
+---------------------------------------------------------------------
+
+1. What is this stuff?
+
+FAQ last updated 24 September 1998.
+
+SSLeay is a free implementation of Netscape's Secure Socket Layer - the software encryption protocol behind the Netscape Secure Server and the Netscape Navigator Browser.
+
+SSLeay is pronounced S-S-L-e-a-y (i.e. each letter is pronounced individually).
+
+SSLeay implements both SSLv2 (version 2) and SSLv3 (version 3) and TLSv1 as of the release of SSLeay-0.9.0.
+
+There is a test server operational at https://tls.cryptsoft.com and any interoperability issues should be emailed to tls@cryptsoft.com.
+
+This implementation was coded from scratch using only the publicly available documentation of the various protocols by Eric Young eay@cryptsoft.com.
+
+The initial prompting to tackle an SSL implementation, the alpha testing, SSL developer (i.e. Eric) hassling, Windows port and documentation was done by Tim Hudson tjh@cryptsoft.com.
+
+This implementation has been used by Tim Hudson tjh@cryptsoft.com to add SSL support to the following:
+
+* telnet (server and client) [now called SSLtelnet] 
+* ftp (server and client) [now called SSLftp] 
+* NCSA Mosaic 2.5 
+* NCSA Mosaic 2.6b1 
+* NCSA Mosaic 2.6b2 
+* NCSA httpd 1.3
+ 
+
+The following applications are also now available based on the earlier work with input from others:
+
+* NCSA httpd 1.4.2
+ 
+
+Support for the following are also available:
+
+* Apache 
+* CERN (or W3C) httpd 
+* Lynx 
+* mSQL
+ 
+
+SSLeay implements the following encryption algorithms:
+
+* DES 
+* RSA 
+* RC4 
+* IDEA 
+* Blowfish
+ 
+
+This documentation is Copyright Tim Hudson tjh@cryptsoft.com See the COPYRIGHT file for the usage and redistribution restrictions.
+
+---------------------------------------------------------------------
+
+2. What is New
+
+* Ralf Engelschall (rse@engelschall.com) has released an excellent module that integrates Apache and SSLeay (based on Apache-SSL). See http://www.engelschall.com/sw/mod_ssl/ for more details. 
+* All SSLeay security related announcements will now be make available at http://www.ssleay.org/announce/ 
+* Details of the recently announced PKCS#1 problem are available at http://www.ssleay.org/announce/pkcs1.html 
+* Verisign are now signing certificate requests from any Apache varient which uses SSLeay as its security library - more details are online at http://digitalid.verisign.com/server/apacheNotice.htm 
+* SSLeay-0.9.0 released with TLSv1 support 
+* The Mozilla Crypto Group have produced Cryptozilla! See details online at http://mozilla-crypto.ssleay.org. 
+* SSLeay-0.8.0 is available with SSLv3 support. The API has changed in a few places and you should read README.080 included in the distribution if you are a developer which includes notes on the minor changes required in an application to move from using SSLeay-0.6.6 to using SSLeay-0.8.0 
+* Eric has started placing some more documentation online at http://www.psy.uq.edu.au/~ftp/Crypto/ssleay/ 
+* A Japanese version of this FAQ is now available at http://www.infoscience.co.jp/technical/crypto/ssleay_jp.html thanks to Infoscience Corporation ... feedback on this version of the FAQ should be directed to ssleay@infoscience.co.jp 
+* SSLeay now has a logo of sorts which you can include on your home page if you wish to show support for SSLeay. We suggest that you make it link to the SSLeay FAQ. 
+        
+Thanks to Taufiq Hoven (taufiq@cryptsoft.com). 
+* SSLtel - SSLtelnet for Windows has been made available - still an alpha release at the moment. See ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/ssltel02.zip 
+* Some more documentation links have been added (see SSL Client Certificates and Other information.
+ 
+---------------------------------------------------------------------
+
+3. Is this legal?
+
+That is one of the hard questions on which there is as yet no clear answer. You need to read quite a bit of information to draw your own conclusions - and then go and talk to a lawyer. Again this document is my opinion and as such should be treated in that light - reality could be quite different to how I happen to see things :-).
+
+In short:
+
+* outside the USA there should be no problems 
+* inside the USA RSA hold patents over the RSA algorithms, however if you use RSAREF (which SSLeay can link to) then non-commercial use is probably okay. For commercial purposes you need to talk to RSA to license one of their toolkits (BSAFE) or come to some other licensing arrangement with them. 
+* IDEA may be a problem inside Europe and RC4 inside the USA; both can be removed with a simple compile-time option or you can licence the IDEA algorithm.
+ 
+---------------------------------------------------------------------
+
+4. What does it cost?
+
+Nothing. The package itself is free. There are a couple of minor conditions which are outlined clearly in the COPYRIGHT file in the source distribution. In short - attribution is mandatory, and no publicly available version of this code can have a different license.
+
+Check the exact text in the COPYRIGHT file that details what the requirements of any package using SSLeay are in terms of the form that the acknowledgement must take ... it does change occasionally from release to release so don't forget to check the requirements of the release that you are building with before you make any products available.
+
+---------------------------------------------------------------------
+
+5. Can I use it in a commercial product?
+
+Yes. Free of charge. Read the license carefully (see the COPYRIGHT file in the SSLeay source distribution). If there are issues that you are not clear on in terms of the COPYRIGHT contact Eric Young directly via eay@cryptsoft.com.
+
+---------------------------------------------------------------------
+
+6. What documentation is there?
+
+At present the documentation from a programmer's point of view is fairly light and you really need to work through the code that is included in the library itself and have a look at how the patches are put together. It is fairly straight forward to add SSL support to an existing application.
+
+Most of the issues that need to be considered if you are going to start using SSL either as an end user or as a developer are covered in the documentation - certainly there needs to be more work done on this documentation; however reading the documentation should answer most questions (and raise quite a few more too).
+
+Eric has finally been hassled into starting documentation on the library itself ... see the doc directory in the SSLeay distribution and the online stuff at http://www.psy.uq.edu.au/~ftp/Crypto/ssleay/
+
+The best starting point is to look at example code ... either in the sample client and server program included with SSLeay or in any of the patched applications - the structure of each of the applications internally is quite similar.
+
+If you really get stuck then have a look through the ssl-users mailing list archives ... or ask us directly via email to ssleay@cryptsoft.com.
+
+6.1. SSL Protocol Reference Information
+
+The SSL Protocol Specification is detailed at:
+
+* http://www.netscape.com/newsref/std/SSL_old.html - SSLv2 
+* http://www.netscape.com/newsref/std/SSL.html - SSLv3
+ 
+
+Details of TLS (the next-generation of SSL) are available at:
+
+* http://www.ietf.org/html.charters/tls-charter.html
+ 
+
+SSLRef (The Netscape Reference Implementation of SSL) is located at http://www.netscape.com/newsref/std/sslref.html
+
+There is also a mailing list for discussion of SSL managed by Netscape at ssl-talk@netscape.com. You can join this list by sending mail to ssl-talk-request@netscape.com with subscribe as the subject line or the message body.
+
+The SSL-Talk List FAQ is available at http://www.consensus.com/security/ssl-talk-faq.html and it contains a large amount of useful information.
+
+6.2. SSL Client Certificates
+
+A document describing Netscape use of certificates is available at: http://www.netscape.com/newsref/std/ssl_2.0_certificate.html It contains a description of the "application/x-x509-ca-cert" MIME type.
+
+General Netscape security information can be found at http://www.netscape.com/eng/security
+
+Additionally Jeff Weinstein jsw@netscape.com has also put together a description of Key Generation, Certificate Extensions, and Certificate Downloading in Netscape Navigator 3.0 at http://www.netscape.com/eng/security/certs.html. This is worth reading!
+
+6.3. Other Reference Information
+
+A rather extensive list of cryptographic material is maintained at http://www.cs.hut.fi/crypto and a handy list of publicly available software is available directly at http://www.cs.hut.fi/crypto/software.html.
+
+Crypto Log contains a comprehesive list of internet cryptography resources at http://www.enter.net/~chronos/cryptolog.html
+
+There is a good overview of certificate services in general available from RSA at ftp://ftp.rsa.com/pub/csc/docs/wp.eps. It is a 40 page July 1993 document that is good background reading.
+
+Adam Shostack (adam@homeport.org) has an interesting comparison of most generally available cryptographic libraries at http://www.homeport.org/~adam/crypto.
+
+Raph Levien raph@c2.org has a document on the different encryption options for email called "A brief comparison of email encryption protocols" at http://www.c2.net/~raph/comparison.html
+
+Xcert Software Inc maintain a large list of references to online information in the field of cryptography and general electronic commerce at http://www.xcert.com/support/sites.html.
+
+Peter Guttman (pgut001@cs.auckland.ac.nz) maintains a comprehensive list of links to reference information (including X509 information) at:
+
+* http://www.cs.auckland.ac.nz/~pgut001/links.html
+ 
+
+Peter also has an useful (and practical) description of some of the "joys" of working with X509 at:
+
+* http://www.cs.auckland.ac.nz/~pgut001/x509guide.txt
+ 
+
+Stefan Kelm (kelm@pca.dfn.de) maintains a useful collection of links to information about certificate and toolkits at:
+
+* http://www.pca.dfn.de/eng/team/ske/pem-dok.html
+ 
+
+6.4. Other information
+
+As part of working on SSLeay I've thown together a number of small documents that contain notes of things that I think are important when writing SSL-enabled applications. Naturally the documentation is not as current as I'd like but it does contain a lot of useful information.
+
+* SSLeay Programmer Reference 
+* Certificate Handling Interface
+ 
+
+I also wrote porting notes for the following applications when I converted them to use SSLeay so that others could see how much work it is to SSL-enable an application and also the things that should be done when writing an application to make supporting SSLeay easy.
+
+* NCSA Mosaic 2.5 
+* SRA Telnet - now SSLtelnet 
+* NCSA HTTPD 1.3
+ 
+---------------------------------------------------------------------
+
+7. SSLeay articles available online
+
+Holger Reif (Holger.Reif@PrakInf.TU-Ilmenau.DE) has a very readable writeup on SSLeay-0.5.x at http://www.heise.de/ix/artikel/E/9606128. It is also available in German.
+
+Dave Madden dhm@paradigm.webvision.com has put together notes from various sources on what you need to do to set things up as your own CA available at http://paradigm.webvision.com/developers/casetup.html.
+
+Frederick J. Hirsch (f.hirsch@opengroup.org) has a paper titled Introducing SSL and Certificates using SSLeay available online at http://www.opengroup.org/RI/www/prism/wwwj/
+
+Rudolph Pienaar (rudolph@enterprise.mikom.csir.co.za) has a collection of useful HOWTOs online at http://www.mikom.csir.co.za/SSLeay/.
+
+---------------------------------------------------------------------
+
+8. CA Reference Information
+
+Thanks to Stephan Kolletzki kolletzki@darmstadt.gmd.de and David P Kemp dpkemp@missi.ncsc.mil for the following list of online resources in the area of APIs related to Certification Authority issues.
+
+8.1. Nortel's Certificate Management Service API version 1.0
+
+http://www.nortel.com/entrust
+
+Version 1, Dec 1995 is currently visible. Version 2.0 is the current version and is available for download from http://www.entrust.com/downloads/cmsapi.pdf
+
+8.2. Intel's Common Data Security Architecture (CDSA)
+
+http://www.intel.com/ial/security/specs.htm
+
+8.3. Microsoft's CryptoAPI version 2 (ZIP file)
+
+http://www.microsoft.com/intdev/security/capi/capiref.zip
+
+8.4. The SESAME V4 Public Key Management API
+
+http://www.esat.kuleuven.ac.be/cosic/sesame
+
+The SESAME V4 Public Key Management Application Developers' Guide describes the PKM API (pkm_begin, pkm_get_pub_key, etc).
+
+* http://www.esat.kuleuven.ac.be/cosic/sesame/doc-txt/pkm_adg.txt 
+* http://www.esat.kuleuven.ac.be/cosic/sesame/doc-ps/pkm_adm.ps.Z
+ 
+
+8.5. SECUDE - Security Development Environment
+
+http://www.darmstadt.gmd.de/secude
+
+European multipurpose security toolkit + applications for Unix and PC including APIs for crypto/X.509/GSSv2/PEM/PKCS/SMIME and utilities/GUI for digital ID maintainance
+
+8.6. General PKI
+
+* http://www.xcert.com/~marcnarc/PKI/ - Marc's useful PKI and X509 links
+ 
+---------------------------------------------------------------------
+
+9. Will Netscape talk to NCSA httpd with your patches?
+
+This (believe it or not) used to be the most commonly asked question.
+
+The whole dependence on RSA (actually now Verisign) for certificates began because Netscape browsers at release 1.x did not allow the user to configure which Certification Authorities are trusted and only trusted four hardcoded CAs.
+
+The Netscape Navigator starting with release 2.x (beta) added support for user configurable CAs. If the user connects to service that is using a certificate that is not signed by one of the hardcoded CAs then the user is asked if they want to add it to the list of trusted CAs. This basically means that the security trust policy is now in the hands of the user. This policy has continued with release 3.x and Netscape have also expanded their list of standard CAs to include some non-USA based CAs (including Thawte Consulting http://www.thawte.com). There is a full list of the CAs that have contacted me in List of Certification Authorities.
+
+9.1. Will Verisign issue certificates for use with non-Netscape SSL servers
+
+Yes. Verisign have changed their policy on issuing certificates such that certificates will now be issued for use with both registered applications and Apache varients that use SSLeay as the security library.
+
+More details on the current policy are at:
+
+* http://digitalid.verisign.com/server/apacheNotice.htm
+ 
+
+Formerly Verisign required that have been though an external Cryptographic analysis. (and SSLeay itself doesn't automatically fit in any of their current categories).
+
+9.2. Can you legally use an existing RSA certificate?
+
+If you already have a certificate from RSA can you (legally) use it with an SSLeay-ized httpd? According to information I've received from Verisign doing this would be in violation of the licence agreement that was part of getting a certificate from Verisign. Contact Verisign directly if you are unsure of your situation.
+
+You really should read the details of the process that Alex Tang altitude@cic.net went through if you are "blessed" with being inside the USA. This is detailed at http://petrified.cic.net/~altitude/ssl/ssl.saga.html and makes quite "interesting reading".
+
+---------------------------------------------------------------------
+Note: Microsoft complicated the picture with Internet Explorer 3.0 which does not support automatic user configurable CAs (and is in that respect back to the state of the Navigator 2.x times).
+
+MSIE3 does support the user being able to add in their own CAs, however when an unknown CA is encountered the user is not presented with the option of adding them into the CA list (which is how Navigator 3.x behaves).
+
+MSIE4 supports continuing a connection request even if the server certificate is not signed by a known CA; however the site certificate is not saved so that each time you restart your browser you have to again explicitly allow a connection to the site.
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+10. Will NCSA Mosaic talk to Netscape secure servers with your patches?
+
+The patches to Mosaic were done so that there is no checking of the certificate of the server such that Mosaic will connect and work with any of the existing secure servers without a problem. This however is probably not the policy you should run if you are planning on issuing credit card transactions - the client should have some form of security verification procedure in place where it checks the server against a trusted list before handing over any important information.
+
+Exactly how the whole certificate management and authorisation process is going to work on a global basis is really unknown at this stage.
+
+Adding in your own server verification process into the patches that are available is fairly easy to do; however given the investment that Netscape and Microsoft have put into their products and are continuing to do so I don't personally see NCSA Mosaic as being a long-term viable browser alternative (hence I've not bothered tracking the continuing updates as I don't see any point myself as I can no longer use a browser without decent table support).
+
+---------------------------------------------------------------------
+
+11. What about the recently released source for Netscape Navigator
+
+Netscape released the source for the Netscape Navigator browser on the 31st of March, 1998. Details are online at http://www.mozilla.org.
+
+As Netscape are based in the USA, all cryptographic and security related code was removed from the source release.
+
+The Mozilla Crypto Group was formed to put the crypto back into Mozilla using SSLeay. Details of their work (which has been named Cryptozilla) can be found at:
+
+* http://www.cryptozilla.org or http://mozilla-crypto.ssleay.org
+ 
+---------------------------------------------------------------------
+
+12. How can I help with this stuff?
+
+Rather simply put, we need people who are prepared to contribute to the effort under the same conditions that we work (which is simply attribution is mandatory but everything generated is totally free otherwise) so that we have a wider supported set of applications. If you do add SSL support to an application please drop us a line (and the patches if at all possible).
+
+However if you wish to send donations of almost any form, neither of us will say no and it may influence what we work on next and how quickly things are done. If in doubt about this contact us directly via ssleay@cryptsoft.com
+
+If you have access to a Unix varient that we do not and you are well connected (bandwidth-wise) and don't mind a little extra load then we can speed up the spread of the SSL applications (the library itself is very portable - it's the applications (at the moment) that are significantly less so.
+
+Also join the ssl-users@lists.cryptsoft.com mailing list (send email to ssl-users-request@lists.cryptsoft.com for instructions for using the majordomo varient that manages this list - which in short are send mail to factotum@lists.cryptsoft.com with a message body of subscribe ssl-users).
+
+If you work for a Unix vendor then suggest to them that they loan or donate us equipment in return for a high-performance assembler version of the inner loops of the RSA and DES ciphers for their platform. Intel is the only platform on which we have invested significant amounts of time doing this so far (other platforms have asm version but they haven't been tweaked as much).
+
+12.1. ssl-users archive sites
+
+Tom Kee tom.kee@magnets.com maintains an archive of the mailing list at http://www.magnets.com/lists/
+
+Holger Reif Holger.Reif@PrakInf.TU-Ilmenau.DE also maintains an archive at http://remus.prakinf.tu-ilmenau.de/ssl-users/
+
+---------------------------------------------------------------------
+
+13. Who can I email to if I have problems?
+
+Well, as this has been in essence an unpaid effort there is no guarantee of support (you get what you pay for :-); however there is a mailing list which has those people subscribed to it who are interested in SSLeay and it's furthur development. There are also a number of consultants available that have expertise in working with SSLeay.
+
+Join the ssl-users@lists.cryptsoft.com mailing list (send email to ssl-users-request@lists.cryptsoft.com for instructions for using the majordomo varient that manages this list - which in short are send mail to factotum@lists.cryptsoft.com with a message body of subscribe ssl-users).
+
+---------------------------------------------------------------------
+
+14. How do I contact Eric and Tim?
+
+Eric Young eay@cryptsoft.com
+
+Tim Hudson tjh@cryptsoft.com
+
+Or to get hold of both of us (which is probably the "right" thing to do for most questions) use ssleay@cryptsoft.com
+
+Eric concentrates on the library side of thing and Tim (that's me) has done all the applications and documentation; however it is better to contact both of us unless it's a really specific question as we do know what each other is working on and work different hours (and have different opinions on some things too :-) and take holidays at different times. I also did most of the Windows infrastructure code.
+
+---------------------------------------------------------------------
+
+15. Is there an archive of the mailing list?
+
+Tom Kee tom.kee@magnets.com maintains an archive of the mailing list at http://www.magnets.com/lists/
+
+Holger Reif Holger.Reif@PrakInf.TU-Ilmenau.DE also maintains an archive at http://remus.prakinf.tu-ilmenau.de/ssl-users/
+
+---------------------------------------------------------------------
+
+16. Where to get SSLeay - FTP site list
+
+The master location for SSLeay source and the SSLapps is the following:
+
+* ftp://ftp.psy.uq.oz.au/pub/Crypto/SSL - SSLeay source 
+* ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps - SSL applications 
+* http://www.psy.uq.oz.au/~ftp/Crypto/ssl.html - SSLeay Programmer Reference 
+* ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/PORT4-5 porting notes
+ 
+
+Note: the SSLeay Programmer Reference is in the process of being updated to SSLeay-0.6 so what is there doesn't exactly match the current version.
+
+16.1. FTP Mirrors
+
+SSLeay is also mirrored at the following locations:
+
+Christoph Martin christoph.martin@uni-mainz.de mirrors the SSLeay distribution (updated every 24 hours) in the following location:
+
+* ftp://ftp.uni-mainz.de/pub/internet/security/ssl 
+* ftp://ftp.uni-mainz.de/pub/internet/security/ssl/SSL 
+* ftp://ftp.uni-mainz.de/pub/internet/security/ssl/SSLapps
+ 
+
+The German CERT server in Hamburg
+
+* ftp://ftp.cert.dfn.de/pub/tools/crypt/sslapps 
+* ftp://ftp.cert.dfn.de/pub/tools/crypt/ssleay
+ 
+
+For those close to Finland
+
+Panu Rissanen bande@nic.funet.fi mirrors SSLeay updated biweekly at:
+
+* ftp://ftp.funet.fi/pub/crypt/mirrors/ftp.psy.uq.oz.au
+ 
+
+Sites in Sweeden
+
+* ftp://ftp.sunet.se/ftp/pub/security/tools/crypt/ssleay 
+* http://ftp.sunet.se/ftp/pub/security/tools/crypt/sslapps
+ 
+
+Tein Yuan tyuan@beta.wsl.sinica.edu.tw mirrors SSLeay related stuff at:
+
+* phi.sinica.edu.tw:/pub/security/SSL
+ 
+
+Sites in South Africa
+
+John Hay jhay@zibbi.mikom.csir.co.za and Johan Eksteen Johan.Eksteen@dent.mikom.csir.co.za mirrors SSLeay updated daily at:
+
+* ftp://skeleton.mikom.csir.co.za/pub/Crypto/SSL 
+* ftp://internat.freebsd.org/pub/Crypto/SSL
+ 
+
+Sites in Korea
+
+Lee, Ho-sun ahmlhs@cair.kaist.ac.kr mirrors SSLeay related stuff at:
+
+* ftp://FTP.kaist.ac.kr/pub/WWW/Security/Crypto
+ 
+
+Sites in Japan
+
+Takahiro Kiuchi kiuchi@rick.epistat.m.u-tokyo.ac.jp mirrors SSLeay related stuff at:
+
+* ftp://ftp.epistat.m.u-tokyo.ac.jp/pub/Crypto
+ 
+
+Ayamura Kikuchi (ayamura@ayamura.org) mirrors SSLeay related stuff updated daily at:
+
+* ftp://ftp.win.or.jp/pub/network/security/Crypto/
+ 
+
+Sites in the UK
+
+Steve Kennedy steve@gbnet.net mirrors SSLeay updated daily at:
+
+* ftp://ftp.gbnet.net/pub/security/Crypto
+ 
+
+Simon Gornall simon@oyster.co.uk mirrors SSLeay updated daily at:
+
+* ftp://ftp.oyster.co.uk/pub/SSL
+ 
+
+Sites in Hong Kong
+
+Enzo Michelangeli enzo@ima.net mirrors SSLeay updated daily at:
+
+* ftp://ftp.ima.com/pub/security/SSL
+ 
+
+Sites in Taiwan
+
+CS Lee (Lee Chee Siong) ftpowner@ftp.nchu.edu.tw mirrors SSLeay updated daily at:
+
+* ftp://ftp.nchu.edu.tw/pub/Crypto
+ 
+
+Sites in Poland
+
+Martin E. Bednarz specula@lodz.pdi.net mirrors SSLeay updated daily at:
+
+* ftp://xenium.lodz.pdi.net/pub/Crypto/SSL 
+* ftp://xenium.lodz.pdi.net/pub/Crypto/SSLapps
+ 
+
+Sites in Italy
+
+Aniello Castiglione (anicas@cert.unisa.it) and Gerardo Maiorano (germai@cert.unisa.it) of the Salerno CERT-IT at the Dipartimento di Informatica ed Applicazioni of the Universita' di Salerno mirror SSLeay and SSLapps updated daily at:
+
+* http://cert.unisa.it/pub/Tools/Network/ssleay 
+* ftp://cert.unisa.it/pub/Tools/Network/ssleay 
+* http://cert.unisa.it/pub/Tools/Network/sslapps 
+* ftp://cert.unisa.it/pub/Tools/Network/sslapps
+ 
+
+Bruno Crispo (Bruno.Crispo@di.unito.it) from the Security Group - Department of Computer Science, University of Turin, Italy mirrors SSLeay updated weekly at:
+
+* http://maga.di.unito.it/security/resources/mirrors/SSLeay
+ 
+
+Sites in Holland
+
+Prebuilt packages for Linux (RedHat and Debian) for SSLeay itself and the apps are at the following location:
+
+* ftp://ftp.replay.com/pub/replay/pub/crypto/SSLapps/ 
+* http://www.replay.com
+ 
+
+---------------------------------------------------------------------
+Note: If you are outside of the USA and not covered by legal restrictions on the export and import of encryption technology and you are prepared to mirror the SSLeay distribution then drop me a line at tjh@cryptsoft.com with details similar to the current mirrors and you will be added to this list.
+
+---------------------------------------------------------------------
+
+16.2. Other SSL-enabled applications
+
+The following is a list of those applications for which there are freely available patches to support SSL using SSLeay.
+
+16.2.1. MZtelnet
+
+4.4BSD-Lite telnet (NEtelnet) patches done by Christoph Martin christoph.martin@uni-mainz.de are located at:
+
+* ftp://ftp.uni-mainz.de/pub/internet/security/ssl/SSL-MZapps
+ 
+
+Note: Christoph and myself are still in the process of merging our code to get back to having a single version of the source.
+
+16.2.2. stelnet
+
+Simon J. Gerraty (sjg@zen.quick.com.au) has implemented another telnet variant with SSLeay support that is compatible with SSLtelnet (based on my original patches).
+
+* http://www.quick.com.au/ftp/pub/sjg/help/ - Documentation 
+* http://www.quick.com.au/ftp/pub/sjg/ - Download
+ 
+
+Note: Simon also has SSLrsh available at the same location
+
+Simon's version requires bmake to build ... pointers to an autoconf enabled version of bmake are included off his documentation page.
+
+16.2.3. Apache with SSL support
+
+The first fully functional version of Apache with SSL support was implemented by Ben Laurie ben@algroup.co.uk. This server is probably the best choice at the moment if you are looking for a freely available SSL capable WWW server and don't mind building, configuring and maintaining it yourself.
+
+Note: If you are in the USA and want to use this server for commercial purposes you probably need a commerical RSAref or BSAFE license in order to do so.
+
+* ftp://ftp.ox.ac.uk/pub/crypto/SSL
+ 
+
+You should also have a look at mod_ssl which is based on Apache-SSL and provides a more supported implementation.
+
+* http://www.engelschall.com/sw/mod_ssl/ - Apache Interface to SSLeay
+ 
+
+16.2.4. CERN (or W3C) httpd with SSL support
+
+SSL support for CERN httpd was implemented by Gertjan van Oosten gertjan@West.NL. See http://www.west.nl/archive/cern_httpd/HTTPS.patch for the patches.
+
+16.2.5. Lynx with SSL support
+
+Thomas Zerucha tz@execpc.com is maintaining a patch to Lynx to support SSLeay.
+
+See http://www.mich.com/~thomas/ftp for details of where to get the current lynx with SSL support ... follow the link to http://www.mich.com/~thomas/ftp/sslprox.html under the might-be-export-controlled section.
+
+Lynx is a text based WWW browser that supports Unix, VMS and apparently DOS. For more information see http://lynx.browser.org
+
+16.2.6. Perl with SSL support
+
+There is a Perl5 module for SSLeay available at http://www.neuronio.pt/SSLeay.pm.html
+
+16.2.7. mSQL
+
+Sascha Kettler (kettler@rummelplatz.uni-mannheim.de) has patched mSQL version 1.0.16 such that it supports SSL. The patch is available at:
+
+* ftp://bond.edu.au/pub/Minerva/msql/Contrib/msql-1.0.16-patch.tar.gz
+ 
+
+16.2.8. Cryptozilla
+
+The Mozilla Crypto Group (mcg@ssleay.org) have added crypto back into the Netscape Mozilla source release to create Cryptozilla.
+
+* http://mozilla-crypto.ssleay.org - The Mozzilla Crypto Group
+ 
+
+16.2.9. mod_ssl
+
+Ralf Engelschall (rse@engelschall.com) has released and excellent module that integrates Apache and SSLeay (based on Apache-SSL).
+
+* http://www.engelschall.com/sw/mod_ssl/ - Apache Interface to SSLeay
+ 
+---------------------------------------------------------------------
+
+17. Other platforms
+
+SSLeay has been ported to a wide range of platforms. If you are about to undertake a port to a platform that is not listed here then please let us know via ssleay@cryptsoft.com.
+
+The base release of SSLeay includes support for building on
+
+* Unix 
+* DOS 
+* Windows (WIN16, WIN32) 
+* VMS
+ 
+
+17.1. Microsoft Windows
+
+SSLeay-0.6.1 and above support WIN16 and WIN32. The base release has command line makefile support for building with Microsoft Visual C++. The build files are in the ms directory.
+
+---------------------------------------------------------------------
+Note: I've also build WIN16 setups for Borland C++ 4.x but the build procedure is not yet integrated into the standard distribution. Contact me if you wish to get the current Borland C support tjh@cryptsoft.com. I've not been maintaining this as I don't have access to the current release of the Borland C++ compiler. If you wish to fix this problem then let me know.
+
+---------------------------------------------------------------------
+
+SSLeay-0.6.4 includes multi-threaded support for WIN32.
+
+We have tested Windows 3.11, Windows 95 and Windows NT.
+
+17.2. Apple Macintosh
+
+SSLeay itself doesn't support the Mac as we don't have a decent Mac development environment available (my old Mac 2ci doesn't count as a development machine). If you feel like donating a PowerMac with a complete development environment to Eric or myself then I'm sure something could be arranged :-)
+
+Apparently using CodeWarrior and a freely available Berkely sockets compatibility library (GUSI) it is possible to build SSLeay-0.6.3 for the Macintosh.
+
+17.3. Amiga
+
+SSLeay builds pretty much out of the box for the Amiga.
+
+Holger Kruse (kruse@nordicglobal.com) of Nordic Global Inc. has compiled SSLeay 0.6.6 for the Amiga 'Miami' TCP/IP stack.
+
+The library binary is freely distributable and is linked with RSAref and without RC4, so it can be legaly used inside the USA. This is available from http://www.nordicglobal.com/. There is also a international compile which has RC4 and is linked with the standard SSLeay RSA implementation; it's freely available from http://www.vapor.com/voyager/.
+
+The Voyager Amiga Web browser now supports SSL with SSLeay 0.6.6. The SSL module supports full strength encryption with RC4, IDEA and DES. Support for SSLeay is included in latest releases available from http://www.vapor.com/voyager/
+
+Note: I'll update this information with Amiga build instructions once they are forwarded through to me.
+
+17.4. Pilot
+
+Ian Goldberg (iang@CS.Berkeley.EDU) has ported of most of the crypto parts of SSLeay-0.6.6 to the PalmPilot Professional organizer. It also works on the old Pilots, and probably works on the Personal but that hasn't been tested.
+
+* ftp://csclub.uwaterloo.ca/pub/pilotSSLeay/pilotSSLeay-1.0.tar.gz
+ 
+
+17.5. Java
+
+Various Java related things. SSLeay itself has not been ported to Java, nor is there a porting effort underway that we know about.
+
+17.5.1. SSLava
+
+There is a USA-only toolkit available from http://www.phaos.com. The product itself works with both JDK 1.0.2 and 1.1.
+
+17.5.2. NET.DLL replacement
+
+Scott Jewell (jewellsc@pop.mts.kpnw.org) has a NET.DLL replacement for Java so that socket routines use SSLeay. Details can be found at http://noc.kpnw.org/~scott
+
+17.5.3. Crypto goodies in Java
+
+While not actually providing an SSL implementation, Cryptix does provide a lot of the framework that would be required for a Java SSL implementation.
+
+* http://www.systemics.com/software/cryptix-java/
+ 
+
+17.5.4. IAIK
+
+* http://jcewww.iaik.tu-graz.ac.at/iSaSiLk/isasilk.htm
+ 
+
+17.5.5. Baltimore JSSL
+
+Baltimore have an SSL implementation in Java
+
+* http://www.baltimore.ie/jssl/
+ 
+
+17.5.6. JCP SSL-Pro
+
+UK company JCP produce a full-strength Java implementation of SSL outside US export restrictions.
+
+* http://www.jcp.co.uk/technology/ssl_index.htm
+ 
+
+17.6. Pascal / Delphi
+
+Max Masyutin (max@ritlabs.com) is the author of TinyWeb server for Win32 (written in Delphi), which supports SSL using SSLeay.
+
+* http://www.ritlabs.com/tinyweb/ - TinyWeb
+ 
+---------------------------------------------------------------------
+
+18. Generating certificates and private keys
+
+In order to generate a private key, or a certificates, or a certificate signing request (CSR) you simply need to have a "ssleay" executable built.
+
+This is normally installed in /usr/local/ssl/bin and if this is not in your path then you need to use /usr/local/ssl/bin/ssleay rather than just ssleay in the following examples.
+
+18.1. create random state
+
+You need to generate some random information for input into the key generation process. You can delete or alter the rand.dat file at any time as the exact contents of it are not important.
+
+head -25 * > rand.dat
+ OR
+ ssleay md5 * > rand.dat
+ OR
+ cat file1 file2 file3 > rand.dat
+
+18.2. generate a private key
+
+ssleay genrsa -rand rand.dat > key.pem
+
+18.3. generate a private key protected with a passphrase
+
+ssleay genrsa -rand rand.dat -des 1024 > key.pem
+ OR (if you want to use triple DES)
+ ssleay genrsa -rand rand.dat -des3 1024 > key.pem
+
+---------------------------------------------------------------------
+Note: Do not forget your passphrase otherwise your key will be unable to be used.
+
+---------------------------------------------------------------------
+
+18.4. remove a passphrase from a private key
+
+If you want to remove the passphrase from a key you can simply use the following command:
+
+ssleay rsa -in key1.pem -out key2.pem
+
+You will be prompted for your passphrase and the output file will not be encrypted (as you didn't include any of the encryption options (-des/-des3/-idea).
+
+You can then use key2.pem where you currently use key1.pem.
+
+18.5. add a passphrase to a private key
+
+ssleay rsa -des -in key1.pem -out key2.pem
+ OR (if you want to use triple DES)
+ ssleay rsa -des3 -in key1.pem -out key2.pem
+
+You should probably remove key1.pem after doing this as if you want a passphrase protected key, leaving a non-passphrase protected form of key around may defeat the purpose of having a passphrase.
+
+---------------------------------------------------------------------
+Note: Do not forget your passphrase otherwise your key will be unable to be used.
+
+---------------------------------------------------------------------
+
+18.6. generate a certificate signing request (CSR)
+
+A certificate signing request (CSR) is what you send to a certification authority (CA) for them to sign and return in the form of a certificate which can used in combination with the private key you have generated (which is not sent to the CA).
+
+If the request is for use with a secure web server, then when you are prompted for the "Common Name" you should enter the name that matches the name in the https URL that you are planning to use. It should be a fully qualified domain name - i.e. something like www.domain.com
+
+If you are prompted for "extra attributes" then simply ignore them and leave them blank (unless you have been directed to do otherwise by your CA).
+
+ssleay req -new -key key.pem -out csr.pem
+
+The contents of csr.pem should look something like the following:
+
+-----BEGIN CERTIFICATE REQUEST-----
+MIIBETCBvAIBADBXMQswCQYDVQQGEwJBVTETMBEGA1UECBMKU29tZS1TdGF0ZTEh
+MB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMRAwDgYJKoZIhvcNAQkB
+FgFgMFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAL6nPTy3avNgbubx+ESmD4LV1LQG
+fcSh8nehEOIxGwmCPlrhTP87PaA0XvGpvRQUjCGStrlQsd8lcYVVkOaytNUCAwEA
+AaAAMA0GCSqGSIb3DQEBBAUAA0EAXcMsa8eXgbG2ZhVyFkRVrI4vT8haN39/QJc9
+BrRh2nOTKgfMcT9h+1Xx0wNRQ9/SIGV1y3+3abNiJmJBWnJ8Bg==
+-----END CERTIFICATE REQUEST-----
+
+Most CAs will have a location in the server certificate request process where you have to cut and paste in the CSR. The CA will typically email you either the signed certificate or a URL from which you can fetch the signed certificate after they have verified that the details of your certificate request match according to whatever criteria the CA applies to requests.
+
+18.7. generate a dummy self-signed certificate
+
+If you wish to operate with a self-signed (i.e. completely worthless test certificate) then you can generate one yourself via:
+
+ssleay req -new -x509 -key key.pem -out dummy.pem
+
+---------------------------------------------------------------------
+
+19. How to be your own CA
+
+There is a ca program in SSLeay-0.5.x that includes the initial support for basically operating as your own certifying authority.
+
+---------------------------------------------------------------------
+Note: There is a lot more to being a CA then having the software to issue certificates. If you plan on starting your own CA for public issuing of certificates then you should start with reading all the information about being a CA that is available from Verisign at http://www.verisign.com.
+
+---------------------------------------------------------------------
+
+19.1. Base level ca support in SSLeay
+
+I've wrapped a script around the ca program it to make it a little easier to work with and it is included in the current SSLeay releases as apps/CA.sh.
+
+CA.sh -newca ... will setup the right stuff for using ca
+ CA.sh -newreq ... will generate a certificate request
+ CA.sh -sign ... will sign the generated request and output a cert
+
+Documentation for ca itself is very light but here are some of the basics:
+
+The ca program uses the ssleay.conf file for most of its configuration. You will want to read through this file and customise it to match your own requirements.
+
+Use ca -help for the standard brief usage instructions. The follow documents more information and is not yet complete but should have enough information to encourage you to experiment.
+
+19.1.1. ca policies
+
+ca supports the concept of policies to define the order of fields certificate request and what fields are mandatory at what attributes get filled in.
+
+The options for each policy are stored in sections in the configuration file (the default configuration file is called ssleay.conf)
+
+Sections in the configuration file basically match the "normal" Windows INI file concept of named lists of variables with values.
+
+[section name]
+variable1=value
+variable2=value
+
+19.1.2. ca options
+
+* verbose - talk a lot while doing things 
+* config file - use a different config file 
+* name arg - select a named CA definition
+ 
+
+In the config file, the section to use for parameters. This lets multiple setups to be contained in the one file. By default, the default_ca variable is looked up in the [ ca ] section. So in the shipped ssleay.conf, the CA definition used is CA_default. It could be any other name.
+
+* gencrl days - Generate a new CRL, days specifies when the next CRL is due
+ 
+
+This will generate a new certificate revocation list.
+
+* days arg - number of days to certify the certificate for
+ 
+
+When certifiying certificates, this is the number of days for which the certified certificate is valid - i.e. the number of days from now at which the certificate will expire.
+
+* md arg - message digest to use, one of md2, md5, sha or sha1 
+* policy arg - the CA 'policy' to support
+ 
+
+These are described later. There are 2 policies definied in the default ssleay.conf configuration file.
+
+* keyfile arg - PEM RSA private key file 
+* key arg - key to decode the RSA private key if it is encrypted
+ 
+
+We always want to keep the CA's RSA key encrypted!
+
+* cert - the CA certificate 
+* in file - the input PEM encoded certificate request(s) 
+* out file - where to put the output file(s) 
+* outdir dir - where to put output certificates
+ 
+
+The -out options concatenate all the resultant certified certificates to one file, -outdir puts them in a directory, named by serial number.
+
+* infiles file ... - the last argument, list the files that contain the requests to process
+ 
+
+19.1.3. ca configuration
+
+Most parameters have their default values defined in the configuration file ssleay.conf (and naturally the standard defaults are reasonable :-). Note that SSLeay-0.6.3+ renames the configuration ssleay.cnf to be more MS-DOS friendly.
+
+The standard defaults for most of the options are in ssleay.conf in the "section" CA_default.
+
+name 	description 	
+dir 	where all the CA database stuff is kept. 	
+certs 	where all the previously issued certificates are kept. 	
+database file 	a simple text database containing a record of the status of issued certificates 	
+policy 	the default policy name 	
+
+The policy section specifies the requirements for each of the "objects" that go into the certificates in the terms of:
+
+* match - must match the CA certificate 
+* optional - does not have to be present 
+* supplied - must be supplied in the certficate request
+ 
+
+The defaults for policy_match are
+
+countryName             = match
+stateOrProvinceName     = match
+organizationName        = match
+organizationalUnitName  = optional
+commonName              = supplied
+emailAddress            = optional
+
+The order in which the "objects" are listed in the policy section is the order in which they will occur in the generated certificate.
+
+19.1.4. Format of the CA index file
+
+status: a value of 'R' - revoked, 'E' -expired or 'V' valid.
+expiry date:  When the certificate will expire.
+revoked date:  When it was revoked, blank if not revoked.
+serial number:  The certificate serial number.
+certificate:    Where the certificate is located.
+CN:     The name of the certificate.
+
+---------------------------------------------------------------------
+Note: The demo file has quite a few made up values it it. The last 2 were added by the ca program and are accurate.
+
+The ca program does not update the 'certificate' file correctly right now. The serial field should be unique as should the CN/status combination be correct. The ca program checks these at startup. What still needs to be written is a program to 'regenerate' the database file from the issued certificate list (and a CRL list).
+
+---------------------------------------------------------------------
+
+19.1.5. Why have different policies?
+
+If you think about how the Persona requests operate, it is similar to the policy_match policy and the policy_anything is similar to what Verisign are doing.
+
+19.2. This sounds too hard ... what are my options?
+
+Naturally the easist thing to do is to use one of the commercial CAs listed in List of Certification Authorities. Each CA listed has their own policies (and pricing) for providing this service. Some of the CAs will also sell you a package including the necessary details for acting as your own CA.
+
+---------------------------------------------------------------------
+
+20. Mini-CAs and testing with Client Certificates
+
+A number of people have put together web based environments for demonstrating how to issue client certificates for Netscape Navigator and Microsoft Internet Explorer. You can use these for testing or as a base on which to build your own internal company CA if you wish.
+
+If you want a commercial supported CA for using internal to your company then none of the following are what you are after. You should talk to CA vendors about products.
+
+20.1. Holger Reif - test certificate issuing
+
+Holger (Holger.Reif@PrakInf.TU-Ilmenau.DE) has put together a series of shell scripts along with sed and awk that demonstrate the fun you have to go through to do MSIE client certificate issuing. Holger also takes the credit for letting me know that the eight parameter of the GenerateKeyPair() call had to be 1 rather than 0 which was not clearly documented.
+
+* http://www.easterngraphics.com/certs/IX9704/msie-enroll.tar
+ 
+
+20.2. Tim Hudson - test certificate issuing
+
+I'm running a test server for issuing zero value certificates for both NSNAV and MSIE. It uses the standard SSLeay tools and is a single 1200 line perl script that does everything needed to issue certificates immediately for testing purposes.
+
+* http://www.cryptsoft.com/~tjh/usercert.cgi
+ 
+
+If you want the code for this then email me tjh@cryptsoft.com asking for it and I'll send it to you.
+
+20.3. Clifford Heath - basic CA setup
+
+Clifford has put together a CA that works by accepting requests and emailing authorisation requests to a designated address which then can authorise the request and email is sent back to the user informing them of where to connect to in order to download their certificate. Clifford uses a series of shell scripts and sed and awk to do this.
+
+* http://www.osa.com.au/~cjh/software/crypto/
+ 
+
+20.4. Simon Gerraty - QuickCA
+
+Simon (sjg@quick.com.au) has a test CA operational at:
+
+* http://www.quick.com.au/ca/
+ 
+
+It is a perl script that handles the WEB interface to generate the request which is e-mailed to the CA. A script at the CA end handles signing via ssleay ca and mails the result back to the user.
+
+There is also additional information available at
+
+* http://www.quick.com.au/ftp/pub/sjg/help/certs.html
+ 
+---------------------------------------------------------------------
+
+21. Key export and import
+
+Getting keys to and from packages that don't use the standard PEM style encoding that SSLeay uses can range from frustrating to impossible. Prior to Nagivator 4.04 and Internet Explorer 4.0 there were no official export mechanisms available.
+
+The modern way is to use PKCS#12 and there is a detailed FAQ on this and software available from Dr Stephen Henson (shenson@bigfoot.com) at:
+
+* http://www.drh-consultancy.demon.co.uk/pkcs12faq.html
+ 
+---------------------------------------------------------------------
+
+22. Problems
+
+If you have any problems with SSLeay then please take the following steps:
+
+* Remove the ASM version of the BN routines (edit Configure) 
+* Remove the compiler optimisation flags 
+* Add in the compiler debug flags (-g)
+ 
+
+---------------------------------------------------------------------
+Note: if using gcc then remove -fomit-frame-pointer before you try to debug things.
+
+---------------------------------------------------------------------
+
+If you wish to report a bug then please include the following information in any bug report: (perhaps I should turn this into a bug submission FORM?)
+
+SSLeay Details
+    - Version
+Operating System Details
+    - OS Name
+    - OS Version
+    - Hardware platform
+Compiler Details
+    - Name
+    - Version
+Application Details
+    - Name
+    - Version
+Problem Description
+    - include steps that will reproduce the problem (if known)
+Stack Traceback (if the application dumps core)
+
+For example:
+
+SSLeay-0.5.1a
+SunOS 5.3, SPARC, SunC 3.0
+SSLtelnet-0.7
+
+Core dumps when using telnet with SSL support in bn_mul() with
+the following stack trackback
+...
+
+Report the bug to either ssleay@cryptsoft.com (Eric and Tim) or ssl-bugs@lists.cryptsoft.com (mailing list of active developers)
+
+---------------------------------------------------------------------
+
+23. Troubleshooting
+
+The following are some useful solutions to common "problems"
+
+23.1. Apache-SSL pass-phrase prompt
+
+If you want to remove the pass-phrase from a key you can simply use the following command:
+
+* rsa -in file1.pem -out file2.pem
+ 
+
+You will be prompted for your pass-phrase and the output file will not be encrypted (as you didn't include any of the encryption options (-des/-des3/-idea).
+
+---------------------------------------------------------------------
+
+24. Porting from SSLeay-0.4.x to SSLeay-0.5.x
+
+See ftp://ftp.psy.uq.oz.au/pub/Crypto/SSLapps/PORT4-5 notes for brief details on the most visible changes.
+
+---------------------------------------------------------------------
+
+25. What ciphers does netscape support
+
+Netscape currently implements the following cipher suites: (current at 12-Mar-97)
+
+all versions
+
+* SSL_RSA_EXPORT_WITH_RC4_40_MD5 
+* SSL_RSA_EXPORT_WITH_RC2_CBC_40_MD5 
+* SSL_RSA_WITH_NULL_MD5 /* off by default */
+ 
+
+us version only
+
+* SSL_RSA_WITH_RC4_128_MD5 
+* SSL_RSA_WITH_3DES_EDE_CBC_SHA 
+* SSL_RSA_WITH_DES_CBC_SHA
+ 
+
+fortezza version only
+
+* SSL_FORTEZZA_DMS_WITH_RC4_128_SHA 
+* SSL_FORTEZZA_DMS_WITH_FORTEZZA_CBC_SHA 
+* SSL_FORTEZZA_DMS_WITH_NULL_SHA
+ 
+---------------------------------------------------------------------
+
+26. PGP Public Keys
+
+If you happen to wish to send non-plaintext email then the following is the PGP key for tjh@cryptsoft.com. (And yes I do know that the key size is small).
+
+Type Bits/KeyID    Date       User ID
+pub   512/4D799671 1997/02/20 Tim Hudson <tjh@cryptsoft.com>
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: 2.6.3ia
+
+mQBNAjMMyzgAAAECAOZEuKvH4qzwgA0nzFlqGmFTrNoqpSsXAoldy9kSfjFYBfg2
+SVFar9GTMUpgTZqXStyvDezce8b1BqZXPE15lnEABRG0HlRpbSBIdWRzb24gPHRq
+aEBjcnlwdHNvZnQuY29tPokAVQIFEDMMyzkGplc8TXmWcQEBaUYB/0iDS6thkxqn
+wXAqQrsxhFAS7u1ASn681gXieam853lfvpmzQ0e5HR1exITD3SbT2t3FveU5UB4Q
+96gqA+tXJVk=
+=4FmU
+-----END PGP PUBLIC KEY BLOCK-----
+
+---------------------------------------------------------------------
+
+27. Standard SSLapps command line options
+
+-z ssl 	use only SSL mode; don't even try to negotiate something different 	
+-z secure 	(ftp, ftpd, telnet, telnetd) don't fall back into a nonsecure mode if SSL-handshake fails. 	
+-z verify=level 	
+
+* 0 - server doesn't ask for a client cert; client doesn't check the server cert but uses it for establishing a SSL connection 
+* 1 - server asks for client cert; both do a cert check; if it fails because of unknown issuer certificate the connection still gets established 
+* 2 - server asks for client cert; both do a cert check; SSL connection gets only established if the cert check is successful
+ 	
+-z cert=certfile 	(default <appname>.pem) look for an alternative file containing the certificate 	
+-z key=keyfile 	(default <appname>.pem) look for an alternative file containing the private RSA key 	
+-z certsok 	(server only) checks for a client cert and then checks the Oneline version and if it matches an entry in /etc/ssl.users then that is used as the authentication rather than the "normal" username and password. 	
+-z cipher 	which cipher suite is prefered; (could be given as the environment variable SSL_CIPHER) 	
+
+---------------------------------------------------------------------
+
+28. Standard SSLapps environment variables
+
+SSL_CERT_DIR 	directory containing the cert files 	
+SSL_CERT_FILE 	file containing a number of certificates 	
+SSL_CIPHER 	which cipher suite is prefered 	
+
+---------------------------------------------------------------------
+
+29. What non-commercial software is available that uses SSLeay?
+
+The following is a list of the freeware/shareware/etc software that I know about that uses SSLeay. They are in the order that we've found out about them and in no way constitutes our relative opinion of the various packages.
+
+29.1. SSLrsh
+
+Simon J. Gerraty (sjg@zen.quick.com.au) has implemented an SSLeay version of rcmd() called ssl_rcmd() that uses X509 certificates rather than .rhosts files for authentication.
+
+* http://www.quick.com.au/ftp/pub/sjg/help/SSLrsh.html - Documentation 
+* http://www.quick.com.au/ftp/pub/sjg/ - Download
+ 
+
+This package includes SSLrsh, SSLrshd, SSLrcp, and SSLrdist.
+
+29.2. Apache-SSL
+
+Ben Laurie (ben@algroup.co.uk) has details on his patches for Apache to add SSL support using SSLeay at:
+
+* http://www.apache-ssl.org
+ 
+
+29.3. Cryptozilla
+
+The Mozilla Crypto Group (mcg@ssleay.org) have added crypto back into the Netscape Mozilla source release to create Cryptozilla.
+
+* http://mozilla-crypto.ssleay.org - The Mozzilla Crypto Group
+ 
+
+29.4. TinyWeb
+
+Max Masyutin (max@ritlabs.com) is the author of TinyWeb server for Win32 (written in Delphi), which supports SSL using SSLeay.
+
+* http://www.ritlabs.com/tinyweb/ - TinyWeb
+ 
+---------------------------------------------------------------------
+
+30. What commercial software is available that uses SSLeay?
+
+The following is a list of the commercial software that I know about that uses SSLeay. They are in the order that we've found out about them and in no way constitutes our relative opinion of the various packages.
+
+If you wish to have your product added to this list then drop me email at tjh@cryptsoft.com with the brief details that you would like added.
+
+30.1. WWW Servers
+
+30.1.1. Stronghold
+
+Stronghold (originally known as Apache-SSL-US) is available with full-strength encryption world-wide for commercial and non-commercial use. Developed by C2Net (formerly known as Community ConneXion) for the USA http://stronghold.c2.net and UK Web for international use http://stronghold.ukweb.com.
+
+Note: C2Net have the appropriate licenses from RSA for commercial use of the RSA algorithms inside the USA.
+
+30.1.2. Roxen
+
+Roxen uses SSLeay. More details are available at http://www.roxen.com.
+
+30.1.3. iNETstore
+
+iNETstore is a specialised online shop and catalogue building system which includes an SSL-enabled Web Server. More details are available at http://www.smi.com.au/~cb2000/.
+
+30.2. WWW Browers
+
+I still don't know of any commercial browsers based on SSLeay for Microsoft Windows or Unix ... perhaps Netscape and Microsoft have got this market to themselves.
+
+30.2.1. Voyager
+
+The Voyager Amiga Web browser now supports SSL with SSLeay 0.6.6. The SSL module supports full strength encryption with RC4, IDEA and DES. Support for SSLeay is included in latest releases available from http://www.vapor.com/voyager/
+
+30.3. Others
+
+Things that are not actually Web Browsers or Web Servers.
+
+30.3.1. SafePassage
+
+SafePassage is a full-strength, encrypting Web proxy that transparently intercedes between your browser and the Web, much like a proxy server.
+
+For more details see http://stronghold.ukweb.com/safepassage
+
+30.3.2. Secure Socket Relay
+
+Celocom has an SSLeay based secure socket relay available for evaluation by download and is free for non-commercial use.
+
+http://www.celocom.se/ssr
+
+30.3.3. PersonalSecure Web Proxy
+
+The PersonalSecure Web Proxy is a small Windows 95/Windows 3.1-based middleware product that establishes strongly encrypted SSL connections on behalf of export versions of browser. It currently works with Netscape Navigator and Internet Explorer.
+
+http://www.security.is.co.za/Pages/HTTPPersonalSecure.htm
+
+---------------------------------------------------------------------
+
+31. What libraries are available that use or build on top of SSLeay?
+
+The following is a list of the freeware/shareware/etc libraries that I know about that use SSLeay.
+
+31.1. PGPlib
+
+Tage Stabell-Kuloe (tage@ACM.org) has a library for manipulating PGP packets without having to run PGP.
+
+* ftp://dslab1.cs.uit.no/pub/PGPlib-0.0.tar.gz - source distribution
+ 
+
+Tage also runs a PGP key server using this library at:
+
+* telnet://dslab1.cs.uit.no:24162
+ 
+---------------------------------------------------------------------
+
+32. List of Certification Authorities
+
+* http://www.verisign.com - Verisign 
+* http://www.thawte.com/certs - Thawte Consulting 
+* http://www.cost.se - COST 
+* http://www.xcert.com - Xcert Software Inc 
+* http://www.entrust.com - Entrust Technologies (was Nortel) 
+* http://www.surgeons.co.za/certificate.html - BiNARY SuRGEONS 
+* http://www.keywitness.ca - Keywitness 
+* http://www.softforum.co.kr/h-sf - SoftForum 
+* http://www.cybertrust.gte.com - GTE CyberTrust 
+* http://www.compusource.co.za 
+* http://www.certisign.com.br - Certisign Certificadora Digital Ltda 
+* http://eurosign.com EuroSign 
+* http://www.belsign.be Belsign
+ 
+---------------------------------------------------------------------
+
+33. Recommended consultants
+
+We've been asked quite a lot about who out there is available for doing consulting work related to SSLeay. We've got a list of knowledgable people that we can recommend so if you are interested in this area then let me know via email to tjh@cryptsoft.com.
+
+---------------------------------------------------------------------
+

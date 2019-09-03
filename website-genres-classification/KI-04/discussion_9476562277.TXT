@@ -1,0 +1,57 @@
+
+
+File sharing networks need a fair solution - Posted by Dan Bell on 30 July 2003 
+
+The situation in the online music world is becoming tense.  Music fans want better CD prices or the freedom to download songs and then create their own albums. Labels and artists say, that due to illegal downloads, revenues have been cut drastically. Some musicians dont want their albums sold in tracks, destroying their art. The RIAA is threatening illegal music downloaders with 5 figure lawsuits. Meanwhile, the excellent P2P model 60 million people use daily, is languishing in the middle becoming far too risky to use.  
+
+According to readers reactions at CDfreaks, not everyone is opposed to paying for a downloaded title. In fact, they may be open to it if the conditions are right. For instance, if they have to pay they want quality, they also want the ability to preview a song and the freedom to choose from any genre. Kokopelli Networks think they have the solution with BluFilter: Authorize. So I contacted them for more information.
+
+The purpose of the software is to provide flexible copyright detection and management to existing P2P software applications. This software component and platform, acts as an enhancement to allow users to legally transfer files. It provides support to the music and entertainment industries, by providing monetary compensation to the artists, copyright owners and to the P2P networks. For a more detailed explanation on how the system works please click here .
+
+According to Jon Cianciullo, Product Manager for Kokopelli Networks, BluFilter is integrated into the existing P2P network infrastructure, with a small modification to the client software. The quality of any files on the network after BluFilter is installed will not be affected.  As far as quality goes, it will be in the content owner's (record company) best interest to make available high quality files. Jon went on to say: The preview feature is an excellent suggestion and we have added it to our feature wish list in our Dev Zone. Our initial thoughts are that Preview would allow the user to listen to the beginning, middle and end of the song, in 5-second segments. We welcome more input on this feature. Also, once you download a song the transaction is stored on our servers for 1 year. If you download the same song again to replace a lost or damaged file within that year, you will not be charged. 
+
+In the BluFilter paradigm they will share the transaction fee with the network and the artist or label. Noticing some backlash from the P2P community Jon states that the client computer is supplying the distribution infrastructure and their position is the charge percentage will reflect this fact. Jon says: Currently, even in today's digital world, in excess 40% of every musical dollar spent goes towards distribution costs. P2P networks running BluFilter can turn that model on its head. The exact percentages will be determined during the beta phase as we evaluate and assess our cost model, suffice it to say that for now, the new distribution network can operate very successfully for a fraction of that amount.
+
+Looking at it from the artist/label side, Kokopelli Networks is working on how to handle elusive file sharing practices such as zipping up an Mp3 file. According to Jon BluFilter is different from other Digital Rights Management techniques which rely on a digital type of encryption/bar code/lock bit/watermarking etc. The fundamental flaw of all of these type of systems is that the once the music hit's the speaker, it can be recorded and re-encoded, thus the copyright loop is broken. This is what distinguishes our algorithm, as long as it sounds the same to you - it'll sound the same to BluFilter. Take the specific example with the zip file. Yes, today that would circumvent the system. However for us to add zip detection and decompression to our platform would not be a big deal. Having said that, we are not in the business of preventing any and all forms of digital piracy. People that really don't want to pay for music and other material will always find ways to circumvent systems like BluFilter and others. However, we believe that those people are actually in the minority that the majority of people will pay for music, as long the price is reasonable and the delivery mechanism is as effective as P2P networks have turned out to be.
+
+I asked Jon what they thought about Ogg Vorbis and if it would work with BluFilter. Although we have not worked with Ogg Vorbis before, it does seem like a well documented and straightforward implementation. We have added this to our feature request page.  
+
+In closing, Jon would like to point out that P2P technology has forever changed the way music is distributed. This fundamental transformation provides the capability of allowing - an artist, any artist, to record a song in the morning, share it using his favorite P2P client in the afternoon - and have it distributed to millions before dinner. BluFilter has the potential to help unleash this capability and change the P2P network from artist's worst enemy - into the artist's best friend without damaging the underlying network infrastructure.
+
+Thanks to CDfreaks readers for taking an interest in BluFilter.
+For more information on BluFilter: Authorize please click here .
+Sign up for the BluFilter Beta now at: www.kokopellinetworks.com/dev/beta/ 
+
+Thank you Jon for giving us at CDfreaks this opportunity to learn more about BluFilter: Authorize. At CDfreaks we know knowledge is power. Folks like you keep us on the cutting edge and we appreciate it.
+
+Reactions on this itemFreedom of speech is basically what Internet is all about. However, CD Freaks maintains a policy regarding reactions. Please read our reaction policy and privacy policy.
+ The reactions below are posted by the CD Freaks visitors and do not reflect the views of CD Freaks.
+
+Show reactions from level +2
+
+Show reactions from level +1
+
+Show reactions from level 0
+
+Show reactions from level -1
+
+Show reactions from level -2
+
+Reaction Posted by war4peace on 04 August 2003 - 11:03 | Moderated @ 1 | 
+ 	Hey, I am willing to pay 4 music as I am an artist too But let's first see the prices, the music availability and the flexibility of this software. If they'll charge 99 cents or so per song then people, just forget it! 	 	
+
+Reaction Posted by Crabbyappleton on 07 August 2003 - 14:59 | Moderated @ 1 | 
+ 	war4peace, you are able as an artist to set your own price with this software. If that is what you are asking. I am going to join the beta in a couple weeks as a user to see how it works. An artist such as yourself could try it as a content provider if you had time to. I am interested to see how this works as well. Maybe I will see you there. ~crabby 
+[edited by Crabbyappleton on 07.08.2003 15:00]	 	
+
+Reaction Posted by dougpaddock on 03 November 2003 - 03:46 | Moderated @ 1 | 
+ 	As long as you have to pay to download music I don't think people will want to do it. Luckily, as programs like Kazaa and Morpheus did when Napster got shut down, so too will new better programs evolve. Its just a matter of staying one step ahead of the music industries lawyers. If anyone knows a new evolved program that will allow me to download free music, free of litigation let me know. Email- dougpaddock@mail.boisestate.edu 	 	
+
+All parts of this website are © RankOne Media Group 1997 - 2004. All rights reserved.
+Goodies: Club CD Freaks Lite, Shop,News Archive and RSS Feed and News Trackers 
+
+    
+
+Other sponsors: Octave DVD Duplicator 
+
+

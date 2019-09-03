@@ -1,0 +1,299 @@
+
+
+Archive-name: Solaris2/FAQ
+Version: 1.74
+Last-Modified: 2002/11/17 12:43:54
+Maintained-by: Casper Dik <Casper.Dik@Holland.Sun.COM>
+
+The following is a list of questions that are frequently asked about Solaris 2.x and later. Where the FAQ mentions "Solaris 2.x", it really refers to Solaris 2.x, Solaris 7 and later. 
+
+You can help make it an even better-quality FAQ by writing a short contribution or update and sending it BY EMAIL ONLY to me. A contribution should consist of a question and an answer, and increasing number of people sends me contributions of the form "I don't know the answer to this, but it must be a FAQ, please answer it for me"; please don't send me those. 
+
+Thanks! 
+
+As you may have noted, I have switched employers and work for Sun as of April 1st 1995. Sun is in no way responsible for the contents of this FAQ. 
+
+The latest Solaris 2 FAQ, including an HTML version, and some other goodies can be obtained through ftp from <ftp://ftp.science.uva.nl/pub/solaris>. 
+
+A new version of the FAQ is available with an index separate from all questions, it's <http://www.science.uva.nl/pub/solaris/solaris2/>. So it's a lot quicker to download. Also, an experimental FAQ search service at <http://www.science.uva.nl/cgi-bin/sfaq.cgi> is now available. 
+
+Please note that these addresses have changed because of a reorg. Just replace "fwi" or "wins" in the old addresses with "science". 
+
+The HTML <http://www.science.uva.nl/pub/solaris/solaris2.html> version of the FAQ contains references to most FTP sites and files mentioned in the FAQ. The references to ftp sites are always to either HTML files or directories, never to binary files. 
+
+I've added an index of questions and marked changed(*) and added questions(+). The FAQ is being reorganized, time permitting. The index is generated automatically, so there may be errors there. Not all questions are in the section they belong in. Suggestions on how best to subdivide/order the FAQ are welcome. 
+
+1. GENERAL 
+
+* 1.1) What's Solaris anyway? 
+* 1.2) Why should I upgrade? 
+* 1.3) Should I move to Solaris 2.x now, or later, or never? 
+* 1.4) What is Solaris 2? Is it really SVR4 based? 
+* 1.5) What machines does Solaris 2.x run on? 
+* 1.6) Will my old applications from 4.1.x run on Solaris 2? 
+* 1.7) Will my SPARC binaries run unchanged on UltraSPARC machines? 
+* 1.8) Will my old applications from SVR3 on the 386 run on Solaris 2/x86? 
+* 1.9) Where has the XXX command gone now? 
+* 1.10) When I upgrade, should I use SunInstall "upgrade", or start over? 
+* 1.11) Is Solaris 2.x reliable/stable enough to use? 
+* 1.12) Why do some people dislike Solaris2? 
+* 1.13) Why do some people like Solaris2? 
+* 1.14) What is Sun doing to help me migrate? 
+* 1.15) Can I use my SunOS 4 disks on Solaris 2.x? 
+* 1.16) How can I enable System V IPC? Ipcs says it isn't configured in. 
+* 1.17) Solaris 7 is 64 bit, does that affect Solaris/IA-32? 
+* 1.18) Solaris 7 is 64 bit, does this mean I can no longer use my old SPARCs? 
+* 1.19) Where can I download Solaris binaries from? 
+* 1.20) What Solaris release am I running on my system? 
+
+2. SOURCES OF INFORMATION 
+
+* 2.1) How can I RTFM when I don't have it anymore? 
+* 2.2) Why is "man -k" so confused? 
+* 2.3) What Software is available for Solaris 2.x? 
+* 2.4) What FTP/WWW sites do I need to know about? 
+* 2.5) What other FAQ's do I need to know about? 
+* 2.6) What mailing lists should I get? 
+* 2.7) What books should I read? 
+* 2.8) What hardware is supported by Solaris 2.x for Intel? 
+* 2.9) What is Wabi? 
+* 2.10) I'm running into some limits of SunOS 4.x, will upgrading to Solaris 2.x help? 
+
+3. SYSTEM ADMINISTRATION 
+
+* 3.1) How much disk space do I need to install Solaris 2? 
+* 3.2) How can I convert all my local changes that I've made over the years into their corresponding forms on Solaris 2? 
+* 3.3) What are "packages"? 
+* 3.4) Why can't I write in/mount over /home? 
+* 3.5) Why can't I access CDs or floppies? 
+* 3.6) Why are there no passwords in /etc/passwd? 
+* 3.7) Why can't I rlogin/telnet in as root? 
+* 3.8) How can I have a user without a password? 
+* 3.9) How can I have a "su-only" user? 
+* 3.10) How can I set up anonymous FTP? 
+* 3.11) How can I print from a Solaris 2 (or any System V Release 4) system to a SunOS4.x (or any other BSD) system? 
+* 3.12) How can I print to a non-Postscript/non-ascii printer? 
+* 3.13) How can I print to a networked printer? 
+* 3.14) Why does lp complain about invalid content types? 
+* 3.15) My jobs stay in the queue after printing. 
+* 3.16) Are there any alternatives to the system V spooler? 
+* 3.17) What happened to /dev/MAKEDEV? How do I add devices? 
+* 3.18) Why isn't my tape/cd player or new disk/device recognized? 
+* 3.19) What happened to /etc/rc and /etc/rc.local? 
+* 3.20) Can't I have /etc/rc.local back? 
+* 3.21) Why are there two versions of shutdown? 
+* 3.22) When will somebody publish a package of the BSD (4.3BSD Net2) "init", "getty", and "rc/rc.local", so we can go back to life in the good old days? 
+* 3.23) What has happened to getty? What is pmadm and how do you use it? 
+* 3.24) How do I get the screen to blank when nobody's using it? 
+* 3.25) And what about screendump, screenload and clear_colormap? 
+* 3.26) Where did etherfind go? 
+* 3.27) Can I run SunOS 4.1.x on my SPARC Classic, LX, SS5, SS4, SS20, Voyager, SS1000, SC2000, CS6400, Ultra? 
+* 3.28) The "find" program complains that my root directory doesn't exist? 
+* 3.29) I'm having troubles with high-speed input on the Sparc serial ports. What should I do? 
+* 3.30) How do I make ksh or csh be the login shell for root? 
+* 3.31) What is this message: "automount: No network locking on host, contact administrator to install server change."? 
+* 3.32) I have all kinds of problems with SCSI disks/RAIDs under Solaris 2.x They worked fine under SunOS 4.x. 
+* 3.33) How do I make Solaris2 use my old ADAPTEC ACB-4000 and Emulex MD-21 disk controllers? 
+* 3.34) Should I wait installing the latest Solaris release until there are enough patches? 
+* 3.35) Why are there so many patches for Solaris 2.x? 
+* 3.36) What are the ``mandatory'' patches I keep hearing about? 
+* 3.37) Which patches should I apply? 
+* 3.38) Where do I get patches from? 
+* 3.39) Where can I obtain Solaris 2/x86 driver updates? 
+* 3.40) Why does installing patches take so much space in /var/sadm? 
+* 3.41) Do I need to back out previous versions of a patch? 
+* 3.42) How can I have more than 48 pseudo-ttys? 
+* 3.43) How can I have normal users chown their files? 
+* 3.44) How can I get ps to print %MEM and %CPU? 
+* 3.45) How can I get the DOS and Unix clock to agree on Solaris/x86? 
+* 3.46) How can I increase the number of file descriptors per process? 
+* 3.47) Can I install both SunOS and Solaris on the same machine, and choose between them at boot time? 
+* 3.48) How do I disable banner pages under Solaris? 
+* 3.49) How do I change my hostname? 
+* 3.50) Can I run multiple terminals on the console of Solaris x86 like those supported on Interactive Unix and SCO? 
+* 3.51) How can I prevent daemons from creating mode 666 files? 
+* 3.52) How do I change the terminal type for /dev/console? 
+* 3.53) If I login over the network, my terminal type is set to "sun"/"AT386" How can I change that? In SunOS 4.x the type would have been "network" 
+* 3.54) How can I change the SYSV IPC parameters? 
+* 3.55) How do I enable/disable dtlogin? 
+* 3.56) How do I configure dtlogin? 
+* 3.57) How can I configure a second monitor or change X server options? 
+* 3.58) How can I have more than 128 X windows clients? 
+* 3.59) Xvnc/Xnest/Xvfb can't create a socket in /tmp/.X11-unix. 
+* 3.60) How can I restrict remote access through dtlogin? 
+* 3.61) How do I disable the 2.6+ configuration assistant? 
+* 3.62) How do I convert SunOS 4.x style /etc/passwd to Solaris passwd & shadow. 
+* 3.63) How can I obtain the PROM level without halting my SPARC? 
+* 3.64) How can I use Solaris 2.6+ formatted disks on SunOS 4.x? 
+* 3.65) Can I use soft mounts with NFS? 
+* 3.66) How can I boot a 32 bit kernel when a 64 bit kernel is installed? 
+* 3.67) How can I tell whether I'm running a 32 or 64 bit kernel? 
+* 3.68) How do I get rid of the Solregis pop-up? 
+* 3.69) Where do I get Disksuite for Solaris 8? 
+* 3.70) How do perform an old-fashioned interactive install in Solaris 8? 
+* 3.71) Now that Solaris install from several CDs, how can I jumpstart? 
+* 3.72) How can I grow a UFS filesystem? 
+* 3.73) How do I install without starting OpenWindows? 
+* 3.74) How do I set up Solaris for my time zone and daylight saving rules? 
+* 3.75) I always install my own perl, can I remove the Sun installed one? 
+* 3.76) Where did kgmon go? 
+* 3.77) Why do swap -l, swap -s and /tmp disagree about the amount of swap? 
+* 3.78) How do I secure my Solaris system? 
+
+4. NETWORKING 
+
+* 4.1) How do I use DNS w/o using NIS or NIS+? 
+* 4.2) What is /etc/nsswitch.conf? 
+* 4.3) What does [NOTFOUND=return] in nsswitch.conf mean? 
+* 4.4) Can I run a nis/yp server under Solaris 2.x? 
+* 4.5) Can I run NIS+ under Solaris 1 (SunOS 4.1.x) 
+* 4.6) With NIS+ how do I find out which machine a client is bound to? 
+* 4.7) Ypcat doesn't work on the netgroup table on a NIS+ server, why? 
+* 4.8) Why is rpc.nisd such a memory pig according to ps? 
+* 4.9) How do I tell my NIS+ server to service DNS requests from 4.x clients? 
+* 4.10) How can I have multiple addresses per interface? 
+* 4.11) Solaris 2.x supports filesystem sizes up to 1TB. Will this give interoperability problems with NFS? 
+* 4.12) Where can I get an SNMP agent for Solaris? 
+* 4.13) How can I use full-duplex ethernet? 
+* 4.14) Where can I get BOOTP/DHCP for Solaris? 
+* 4.15) What kind of multicast support does Solaris have? 
+* 4.16) How can I have NAT or a firewall on Solaris? 
+* 4.17) Where can I get an IPv6 capable version of tcp wrapper? 
+
+5. TROUBLE SHOOTING 
+
+* 5.1) The Solaris 2.x application XX fails with a mysterious error condition. 
+* 5.2) In Solaris 2.5 nm is slow or dumps core. 
+* 5.3) Why can't I run Answerbook on a standalone machine? 
+* 5.4) Why can't I display Answerbook remotely? 
+* 5.5) Why can't I run filemgr, I get ``mknod: permission denied''? 
+* 5.6) Why do I get isinf undefined when linking with libdps on Solaris 2.3? 
+* 5.7) I can't get PPP to work between Solaris 2.3 and other platforms. 
+* 5.8) Using compat mode for passwd doesn't work in 2.3? 
+* 5.9) Why do I get __builtin_va_alist or __builtin_va_arg_incr undefined? 
+* 5.10) When compiling, I get "No DATAMODEL_NATIVE specified"? 
+* 5.11) My machine hangs during the boot process. It seems related to ps. 
+* 5.12) Syslogd doesn't seem to log anything. 
+* 5.13) Syslogd in 2.6 runs with -z <num> -n, what's up? 
+* 5.14) I get ``Invalid client credential'' when mounting filesystem on Solaris client from non-Sun fileserver. 
+* 5.15) After upgrade to 2.4, ls on NFS mounted directories hangs. 
+* 5.16) After installing patch 101945-xx, I have NFS problems (ksh looping). 
+* 5.17) I messed up /etc/system, now I can't boot. 
+* 5.18) The /etc/path_to_inst file is corrupted, I can't boot. 
+* 5.19) TCP/IP connections time out too soon, especially on slow links. 
+* 5.20) Sendmail connection to non-Unix hosts don't work. 
+* 5.21) Solaris 2.x can't set up any TCP/IP connections to certain hosts. 
+* 5.22) I read 5.21, but I still have connectivity problems. 
+* 5.23) When reading mail on non-Solaris clients of a Solaris mail server, or with non-Solaris mail readers, some messages get split into multiple messages. 
+* 5.24) Mail/mailx often send reply to wrong user or show wrong sender. 
+* 5.25) One of my users can't login (one some machines). 
+* 5.26) My clients with remote /var (/var/adm) partitions won't boot. 
+* 5.27) Vacation doesn't work reliably in a mixed Solaris/SunOS environment. 
+* 5.28) I have a lot of <defunct> processes. How do I get rid of them? 
+* 5.29) I get /dev/ptmx: No such device when attempting to telnet/rlogin in. 
+* 5.30) I get Could not grant slave pty on telnet/rlogin 
+* 5.31) ld bails out with msync errors. 
+* 5.32) su responds with "Sorry" and doesn't prompt for a password. 
+* 5.33) Why can't I install 2.4 from a non-Sun CD while I could do so with 2.3? 
+* 5.34) ifconfig can't find my network interface 
+* 5.35) I have an application that compiled fine, but when I run it I get: fatal: libfoo.so.2: can't open file: errno=2 or No such file or directory 
+* 5.36) Motif programs dump core almost immediately. 
+* 5.37) cc complains that "language optional software package not installed". 
+* 5.38) thr_create/pthread_create and other thread functions always return -1 
+* 5.39) Solaris 2.4 is getting slower over time/seems to have a kernel memory leak. 
+* 5.40) Why do I get ``Unable to install/attach driver 'xxx''' messages? 
+* 5.41) I can't run nfs: netdir_getbyname failure, /dev/udp: bind problem 
+* 5.42) Why do I get ``named[]: rt_malloc: memdebug overflow'' errors? 
+* 5.43) The ld command dumps core on Solaris/x86 
+* 5.44) In Solaris 2.4 my TCP performance is extremely poor. 
+* 5.45) Solaris 2.4 in.tftpd is terribly slow. 
+* 5.46) I get "df: Could not find mount point ..." 
+* 5.47) I changed root's shell, forgotten root's password, and I can't login. 
+* 5.48) How do I boot single user from CD? 
+* 5.49) How do I interrupt the system boot sequence on SPARC? 
+* 5.50) How do I reset the NVRAM to factory defaults? 
+* 5.51) When linking C++ programs, I get "_ex_keylock" undefined. 
+* 5.52) My NFS server hangs when I get filesystem full/over quota errors. 
+* 5.53) OpenWindows fails with "Binding Unix Socket: Invalid argument" 
+* 5.54) Why is Xsun such a memory pig, especially on the SX, S24 and FFB? 
+* 5.55) Solaris 2.5 and Solaris 2.4 patch 101945-34+ have poor TCP performance over slow links. 
+* 5.56) After install x86 patch 101946-29, I have problems with sockets and TCP/IP throughput. 
+* 5.57) The commands du and ls show funny block counts on NFSv3 filesystems. 
+* 5.58) When I halt/reboot my system I get "INIT: failed write of utmpx entry" 
+* 5.59) Patch installation often fails with "checkinstall" errors. 
+* 5.60) Why do I get a CPU-bound rpc.ttdbserverd process? 
+* 5.61) What is /proc? Can I safely remove the large files there? 
+* 5.62) What does "named[XX]: Lame server on 'hostname' ...." mean? 
+* 5.63) I installed Solaris on a new/big disk, but now booting fails. 
+* 5.64) I have a problem with large disk drives. 
+* 5.65) When I try a network install I get: "WARNING: using boot version 8, expected 9" 
+* 5.66) My Ultra shuts down with "WARNING: THERMAL WARNING DETECTED!!!" 
+* 5.67) Power management shuts down my monitor, but it never comes back. 
+* 5.68) I can't seem to disable power management in 2.6! 
+* 5.69) Power management no longer kicks in when xlock runs 
+* 5.70) Orainst 7.3.2 dumps core in 2.5.1 with patches and in 2.6. 
+* 5.71) My dial-on-demand link keeps dialing out, seems DNS related. 
+* 5.72) Processes hang in door_call(), hostname lookups hang. 
+* 5.73) When using Solaris 2.6, many fonts don't show up properly in Netscape 4. 
+* 5.74) When using virtual interfaces in 2.6, the system picks a random source address. How can I fix this? 
+* 5.75) A downloaded binary complains "libresolv.so.2: can't open file" 
+* 5.76) Ypserv/NIS w/ DNS is very unreliable in Solaris 2.6. 
+* 5.77) When trying to install Solaris 2.x on an Ultra-5/Ultra-10/Ultra-60, it can't find "kernel/unix". 
+* 5.78) After the system has been up for a while, freemem is only a couple of MB. 
+* 5.79) A device driver that worked fine under S2.6 stopped loading under S7 
+* 5.80) I get a lot of "late collisions", what are those? 
+* 5.81) I can't mount an NFS filesystem, I get "RPC: Program not registered". 
+* 5.82) How do I automatically NFS share inserted CD-Roms? 
+* 5.83) I cannot run remote tooltalk sessions on Solaris 8 displays and recently patched older systems. 
+* 5.84) Where is all my memory in use? 
+* 5.85) Tcpd prints "connect (refused) from 0.0.0.0" in Solaris 8 and later? 
+* 5.86) The permissions on /tmp are wrong after a reboot? 
+* 5.87) After upgrading to Solaris 9 vold no longer mounts CDs. 
+
+6. SOFTWARE DEVELOPMENT 
+
+* 6.1) Where is the C compiler or where can I get one? 
+* 6.2) Which packages do I need to install to support a C compiler? 
+* 6.3) Where has ranlib gone? 
+* 6.4) What do I need to compile X11R5? 
+* 6.5) I can't compile X11R6 on Solaris 2.4 
+* 6.6) X11R6 on Solaris 2.4 won't run. Xinit dies with "User Signal 1". Xterms won't die. Dired doesn't work in emacs-19. 
+* 6.7) I get undefined symbols when compiling R6 in Solaris 2.2. 
+* 6.8) After compiling X11R6 with gcc 2.7.0, X programs won't find their libraries. 
+* 6.9) How can I run X11R6 on my SS4 w/ TCX? 
+* 6.10) Can I run X11R6 on my SX, ZX, TCX, Creator, Creator3D or Elite3D? 
+* 6.11) I can't get perl 4.036 to compile or run. 
+* 6.12) I can't get sockets to work with perl. 
+* 6.13) I have problems compiling MH 6.8.3 
+* 6.14) I can't get XV 3.x to compile or run correctly. 
+* 6.15) What happened to NIT? What new mechanisms exist for low-level network access? 
+* 6.16) Where are all the functions gone that used to be in libc? 
+* 6.17) I'm still missing some functions: bcopy, bzero and friends. 
+* 6.18) Can I use the source compatibility package to postpone porting? 
+* 6.19) Why doesn't readdir work? It chops the first two characters of all filenames. 
+* 6.20) Why do I get undefined symbols when linking with curses/termcap? 
+* 6.21) Where are the Motif includes and libraries? 
+* 6.22) When I call semctl(), my program crashes. It works fine elsewhere. 
+* 6.23) Traceroute to Solaris 2.x machines gives many timeouts. 
+* 6.24) I have problems linking my application statically. 
+* 6.25) I get '"/usr/platform/SUNW,Ultra-1/lib/libc_psr.so.1": not in executable format: format not recognized' from gdb on my Ultra. 
+* 6.26) How can I make Gdb work with Sun's C compiler? 
+* 6.27) Does Solaris have problems with dates in the year 2000 and after? 
+* 6.28) I can't seem to get older gcc releases to work under Solaris 2.6 
+* 6.29) Gdb doesn't fully work on Solaris 2.6. 
+* 6.30) I can't get gdb to compile with Sun's C compiler 
+
+7. KERNEL PARAMETERS 
+
+* 7.1) Where can I find a list of all Solaris kernel parameters? 
+* 7.2) How can I guard my system against stack buffer overflow exploits? 
+* 7.3) How can I restrict the number of processes per user? 
+* 7.4) What purpose does the maxusers variable serve? 
+* 7.5) How can I have a clock resolution better than 10ms? 
+* 7.6) How can I have more than 16 groups per user? 
+* 7.7) How can I disable _POSIX_CHOWN_RESTRICTED? My users want to chown files? 
+* 7.8) How can I make the NFS server ignore unprivileged clients? 
+
+8. ACKNOWLEDGEMENTS 
+
+

@@ -1,0 +1,193 @@
+var homepage=0 var finished=0 var preloadFlag="on" function getCookie(Name) { var search = Name + "=" offset = document.cookie.indexOf(search) offset += search.length end = document.cookie.indexOf(";", offset) if (end == "-1") end = document.cookie.length return unescape(document.cookie.substring(offset, end)) } var nsfprefs=getCookie("nsfprefs");  prefsarray=nsfprefs.split("::")  if (prefsarray[1]){   nsfmenu=prefsarray[0];   dark=prefsarray[1];  }  else {   nsfmenu="yes";   dark=0;  } //alert(nsfmenu);  var prefs=nsfmenu + "::" + dark if ((bw.mac && !bw.ie5 && !bw.ie6) || bw.sun ) { document.writeln('') } function showmenus(menu,num){ if (bw.min && finished==1){  oCMenu2.showSubs(menu,0,num); } }  if ((bw.ie || bw.dom) && dark==1){   document.styleSheets[0].rules[0].style.color="#333333";   document.styleSheets[0].rules[1].style.color="#333333";   document.styleSheets[0].rules[2].style.color="#333333";   }  else if (bw.ns4 && dark==1){   document.tags.a.color="#333333";  }  
+  	  	  	  
+  About NSF
+   	   Funding
+   	   Publications
+   	   News & Media
+   	   Search	   	  Site Map	   
+  	  	  	  
+  	  	  	  	  	  	          	 
+ 
+
+External Links	 
+
+Partnerships
+ 	
+
+Partnerships is a new feature of the Office of Legislative and Public Affairs (OLPA) web site, featuring links to NSF partnerships with federal agencies, state and local governments, international organizations, and business and industry, and to NSF-supported Centers and Facilities.
+
+NSF - Funded Research Centers
+ 	
+
+NSF Science and Technology Centers 	
+
+Center of Plant Developmental Biology (University of California Berkeley) 	
+
+Engineering Research Centers 	
+
+Industry/University Cooperative Research Centers (I/UCRC) 	
+
+Long Term Ecological Research (LTER) Network at University of Washington	 
+
+Materials Research Science and Engineering Centers (MRSECs) 	
+
+Multidisciplinary Center for Earthquake Engineering Research (MCEER) at State University of New York at Buffalo	 
+
+National Center for Ecological Analysis and Synthesis (NCEAS) 	
+
+State/Industry/University Cooperative Research Centers (S/I/UCRC) 	
+
+NSF Supercomputing Centers
+ 	
+
+Cornell Theory Center (CTC)	 
+
+National Center for Atmospheric Research (NCAR) 	
+
+Pittsburgh Supercomputing Center (PSC) 	
+
+NSF Partnerships for Advanced Computational Infrastructure
+ 	
+
+National Computational Science Alliance (NCSA)	 
+
+National Partnership for Advanced Computational Infrastructure 	
+
+Federal Laboratories and Research and Development Centers
+ 	
+
+Lists of Laboratories and Centers	 
+
+Federally-Funded Research and Development Centers (FFRDC's) 
+(Maintained by NSF's Science Resources Studies Division) 	
+
+Individual Laboratories and Facilities	 
+
+Air Force Research Laboratory	 
+
+Ames Laboratory	 
+
+Argonne	 
+
+Army High Performance Computing Research Center 	
+
+Brookhaven	 
+
+Environmental Research Laboratories	 
+
+Fermilab	 
+
+Lawrence Berkeley 	
+
+Los Alamos	 
+
+National Aeronautics and Space Administration (NASA) Centers	 
+
+Oak Ridge 	
+
+Pacific Northwest Laboratory 	
+
+Sandia	 
+
+Stanford Linear Accelerator Center	 
+
+U.S. Federal Agencies and Interagency Projects
+ 	
+
+Air Force Office of Scientific Research	 
+
+Army Research Laboratory (ARL) 	
+
+Census Bureau 	
+
+Commerce Department 	
+
+Defense Advanced Research Projects Agency (DARPA) 	
+
+Education, U. S. Department of	 
+
+Environmental Protection Agency (EPA) 	
+
+FinanceNet of The United States Government 	
+
+Fish and Wildlife Service 	
+
+Geological Survey (USGS)	 
+
+House of Representatives, Committee on Science 	
+
+IBM Patent Server 	
+
+Library of Congress 	
+
+National Aeronautics and Space Administration (NASA) 	
+
+National Agricultural Library - USDA (NAL)	 
+
+National Geophysical Data Center (NGDC)	 
+
+National Institutes of Health (NIH, NIMH)	 
+
+National Institute of Standards and Technology (NIST)	 
+
+National Library of Medicine (NLM) 	
+
+National Oceanic and Atmospheric Administration (NOAA) 	
+
+National Performance Review (NPR) 	
+
+National Technical Information Service (NTIS) 	
+
+Naval Research Laboratory (NRL) 	
+
+Navy OnLine Home Page 	
+
+Office of Naval Research (ONR) 	
+
+Office of Science and Technology Policy (OSTP)	 
+
+Patent and Trademark Office, U.S.	 
+
+U.S. Government Information Servers via Fedworld	 
+
+White House 	
+
+U.S. Science Organizations
+ 	
+
+Link to Comprehensive List of Professional Organizations 	
+
+Selected Major Organizations
+ 	
+
+American Association for the Advancement of Science	 
+
+Chicago Academy of Sciences 	
+
+National Academy of Sciences / National Research Council	 
+
+National Science Teachers Association	 
+
+Smithsonian Institution 	
+
+Science Organizations Around the World
+ 	
+
+International Science Organizations
+ 	
+
+UNESCO 	
+
+UN and other International Organizations 	
+
+nsf.gov
+
+| About NSF | Funding | Publications | News & Media | Search | Site Map | Help	 
+
+The National Science Foundation
+4201 Wilson Boulevard, Arlington, Virginia 22230, USA
+Tel: 703-292-5111, FIRS: 800-877-8339 | TDD: 703-292-5090 	Policies
+ Contact NSF
+ Customize
+  	
+

@@ -1,0 +1,106 @@
+    includeHost = 'http://include.ebaystatic.com/';      typeof(writeCBHeader)!= "undefined"?writeCBHeader():'';   
+
+typeof(writeCBBrow)!="undefined"?writeCBBrow():false;      	
+
+home | pay    writeCBSignInLink("register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US","","");          | register    writeCBSignInLink("sign in","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US","sign out","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sout:US");     | sign in/out | services | site map   | help		
+
+headerpartner('', HdrSponsorEnable, sponsorLink);          	
+
+    	       	  Home > Help - Topics > Feedback (Your Reputation) >  Building Your Reputation > About Feedback   	  
+ 
+  	  
+  	    
+  	  
+ 
+            
+      
+  	  	  
+  	  	  
+  	   eBay Help	   
+  	  	  	  
+  	  
+  	  	  	  
+  	   Help Topics	   	  
+  	  	  	  
+  	   A-Z Index	   	  
+  	  	  	  
+  	  	  	  
+  	  	  	  
+  	   Contact Us	   	   
+  	  	  	  	  
+  	  
+  	 
+ 
+  	  	  
+  	  	  
+  	   Related Links	   
+  	  	  	  
+  	  
+  	  	  	  
+  	   Learning Center	   	  
+  	  	  	  
+  	   eBay University	   	  
+  	  	  	  
+  	   Security Center	   	  
+  	  	  	  
+  	   About Customer Support	   	  
+  	  	  	   
+  	  	  	  	  
+  	 
+     	        
+     	        
+           
+      
+
+        
+
+Search Help                    
+                                                                      	                                  	                                                                                  	                        tips            	           	                   
+        	              
+        	             
+           	           
+             
+     	       
+          
+     	     	     	        
+     	        
+     	           About Feedback            	     	        
+     	        
+     	       
+             
+   
+
+Every eBay member has a feedback profile—it includes a rating number in parentheses, as well as comments from other members you've bought from and sold to.
+
+For example: Skippy (125) means that the eBay member with the User ID Skippy has received positive feedback from at least 125 other eBay members.
+
+How it works    The feedback rating system is easy. You receive:    
+     
+* +1 point for each positive comment      
+* 0 points for each neutral comment      
+* -1 point for each negative comment      
+* A star icon for 10 or more comments.    
+      
+
+When to check it    Before you bid on an item, you can check the seller's feedback rating by clicking on the number next to the their name, or from the view feedback request form. Sellers may also want to view the feedback profiles of bidders to see how reliable they've been in the past.    
+
+How to leave it   After you make a sale or purchase, remember to leave feedback for the eBay member you bought from or sold to. This helps everyone in the community know what it's like to deal with that member.
+
+See a list of all the sales and purchases you still need to leave feedback for.
+
+Notes: Feedback cannot be erased. The feedback you give is permanent, so be sure to make only fair and factual comments.
+
+Related Help topics        
+* Building Your Reputation: Overview     
+* Frequently Asked Questions About Feedback     
+* Feedback Forum    
+      
+
+If you have not found the information you are looking for, please      	 
+
+---------------------------------------------------------------------
+Announcements  |     Register  |     Shop eBay-o-rama  |     Security Center  |  Policies  |     Feedback Forum   About eBay  |     Home  |     My eBay  |     Site Map    
+
+Browse  |     Sell  |     Services  |     Search  |     Help  |     Community       Basics  |     Buyer Guide  |     Seller Guide  |     My Info  |     Billing  |     Rules & Safety    	
+Copyright © 1995-2004 eBay Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. Use of this Web site constitutes acceptance of the eBay User Agreement and Privacy Policy. 		
+

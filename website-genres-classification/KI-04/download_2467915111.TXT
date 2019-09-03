@@ -1,0 +1,83 @@
+
+
+  	 
+Home 	www.python.org 	
+Download 	Documentation 	
+
+Home 	
+Overview 	
+License 	
+Jython 2.0 	
+Jython 2.1 	
+Installing 	
+JVM Compatibility 	
+  
+Resources 	
+Applet Demos 	
+Mailling Lists (exit) 	
+Bugs (exit) 	
+Jython Users 	
+  
+Doc Quick Links 	
+What is Jython 	
+All Documentation 	
+FAQ 	
+JimH's Slides 	
+  
+Exits 	
+Python Language 	
+PSF 	
+Java Language 	
+  
+Contact 	
+Questions on Jython?
+jython-users 	
+  	
+
+  	
+
+  	
+  	
+webmaster 	
+
+  	
+
+Download Jython
+
+Developers note: The latest snapshopts of the Jython source code is now available via CVS! 
+
+[disabled at the moment (Jul 2003) - Nightly snapshots of the CVS repository are also available as .tar.gz and .zip files.] 
+
+Here are the steps you need to perform in order to download Jython. Once you've done this, you should read the installation instructions. 
+
+1.  Check that you have a working Java 1.1 or 1.2 compatible JVM installed 
+
+If you already know that you have a JVM which is Java 1.1 or 1.2 compliant, go on to step 2. Otherwise, you should read this information on finding and installing an appropriate JVM for your platform. 
+
+2.  Download Jython 
+
+Please use the following links to view and accept the licenses for Jython 2.1. 
+
+3.  Read the license 
+4.  Download Jython 2.1 
+5.  View Installation instructions 
+
+6.  Subscribe to the Jython-users mailing list (optional) 
+
+The Jython-users mailing list is used to discuss using Jython effectively, what features Jython needs, and to make announcements of new releases. The web page below will allow you to subscribe to the list. It will also let you view the past archives of the list. This mailing list is managed by Mailman. 
+
+7.  Send a short note telling us what you're doing/what you need (optional) 
+
+We'd really like to hear what people are doing with Jython as well as what they'd like to do but can't because some feature is missing. You can drop us a note at jython-dev. Example comments: 
+
+---------------------------------------------------------------------
+ I'd love to build an amazing new FooBar with Jython, but  I can't because it's too slow/doesn't support applets well  enough/has a too restrictive license/needs to support the  foo.py module/has too many bugs/doesn't have enough  documentation/... 
+
+---------------------------------------------------------------------
+ I'm building an amazing FooBar with Jython by doing X, Y,  and Z, and it is so easy in Jython that my boss thinks I'm a  genius!
+  
+---------------------------------------------------------------------
+
+We'd love it too, if you send a short blurb about yourself, your project, or your company, so we can add it to the Jython Users page. 
+
+

@@ -1,0 +1,135 @@
+
+Home	 Introduction	 News	 Features	 Download	 Docs	 Demo	 Plugins	 Contacts	 
+
+Posix systems	 Win32	 
+
+Download the stable version of the Nessus Security Scanner for Unix-compatible systems :
+
+The Nessus Security Scanner relies on the following items: 
+
+* GTK - The Gimp Toolkit, version 1.2
+
+GTK is a set of Widgets (like Motif) which are used by many open-sourced programs such as The Gimp. GTK is used by the POSIX client nessus. 
+
+Download it at : ftp://ftp.gimp.org/pub/gtk/v1.2. 
+
+Note : If your system comes with GTK, make sure that you have the gtk-config program installed. If you do not, install the gtk-devel package that should come on your distribution CDROM.
+
+Note #2: If you do not want to install GTK and/or if your system lacks X11, then you can compile a command-line client by doing 
+./configure --disable-gtk
+in nessus-core
+
+* OpenSSL (optional but heavily recommended). OpenSSL is used for the client - server communication as well as in the testing of SSL-enabled services. Get it at http://www.openssl.org. 
+
+---------------------------------------------------------------------
+The latest stable release is Nessus 2.0.10a
+
+What is new in Nessus 2.0.10a, compared to 2.0.9 : 
+
+* changes by Renaud Deraison (deraison at cvs.nessus.org) 
+
+* Fixed MacOS X portability issues 
+* Non-intrusive OS-fingerprinting (based on xprobe's techniques) 
+* DNS fingerprinting 
+* killall -1 nessusd does not restart the bpf server on BSD systems 
+* longer connect() timeout for TCP sockets 
+* Fixed hydra.nes 
+
+* changes by Michel Arboi (mikhail at nessus.org) 
+
+* WWW fingerprinting 
+* partially fixed hydra.nes 
+
+* changes by (galt at fiberpimp.net) 
+
+* IP addresses are now sorted in EVERY reports 
+
+* changes by Laurent FACQ (facq at u-bordeaux.fr) 
+
+* Automagically rewrite banners to handle distributions which do backporting of security fixes (ie: Debian) 
+
+What is new in Nessus 2.0, compared to 1.2 : 
+
+* Huge speed gains : 
+
+* libnasl has been rewritten from scratch 
+* extended the NASL language 
+* Smarter plugin scheduler, for better parallelism 
+* Enhanced service detection 
+* Greatly reduced memory usage 
+* Support for multiple CVE and BID in the plugins 
+* New port scanner designed to be fast against firewalled hosts 
+
+---------------------------------------------------------------------
+Download and installation
+
+There are two ways to install Nessus : 
+
+* Solaris Users
+Solaris users can now download pre-compiled Nessus packages from Sunfreeware.com 
+---------------------------------------------------------------------
+
+* The easy and dangerous way (ala ximian gnome) 
+If you are installing Nessus from a computer directly connected to the internet that has lynx installed, type this command (NOT as root! ) : 
+
+lynx -source http://install.nessus.org | sh 	
+
+This method is considered as dangerous in the sense that if you do it, you are running commands that directly come from the internet. If someone is poisoning your domain name server, he may have you execute arbitrary commands as the user you will type this command as. The good point is that it completely automates the installation of Nessus, so if you are not under attack, you'll save some time.
+
+---------------------------------------------------------------------
+
+* The easy and less dangerous way
+Nessus also comes as a standalone package which auto-installs itself. To use it, download the script nessus-installer.sh (under the directory nessus-installer/, see the mirrors below) and type : 
+sh nessus-installer.sh 	
+ 
+
+You can find the installer here : 
+Location	 Server	 
+United States (East Coast, via HTTP)	 http://ftp.nessus.org/nessus/nessus-2.0.10a/nessus-installer/ 	
+United States (East Coast)	 ftp://ftp.nessus.org/pub/nessus/nessus-2.0.10a/nessus-installer/ 	
+Germany	 ftp://ftp.gwdg.de/pub/linux/misc/nessus/nessus-2.0.10a/nessus-installer/ 	
+Germany	 http://ftp.gwdg.de/pub/linux/misc/nessus/nessus-2.0.10a/nessus-installer/ 	
+Switzerland	 ftp://sunsite.cnlab-switch.ch/mirror/nessus/nessus-2.0.10a/nessus-installer/ 	
+Russia	 ftp://ftp.chg.ru/pub/security/nessus/nessus-2.0.10a/nessus-installer/ 	
+Sweden	 ftp://ftp.sekure.net/pub/nessus/nessus-2.0.10a/nessus-installer/ 	
+Thailand	 ftp://ftp.nectec.or.th/pub/mirrors/nessus/nessus-2.0.10a/nessus-installer/ 	
+Australia	 ftp://ftp.au.nessus.org/pub/nessus/nessus-2.0.10a/nessus-installer/ 	
+Austria	 ftp://ftp.at.nessus.org/pub/nessus/nessus-2.0.10a/nessus-installer/ 	
+Turkey	 ftp://ftp.linux.org.tr/pub/mirrors/nessus/nessus-2.0.10a/nessus-installer/ 	
+Japan	 ftp://ftp.ayamura.org/pub/nessus/nessus-2.0.10a/nessus-installer/ 	
+
+---------------------------------------------------------------------
+
+* OR the usual and boring way : You can also install the Nessus tar archives individually.
+To install Nessus, you have to download and compile these packages in the following order: 
+
+* nessus-libraries 
+* libnasl 
+* nessus-core 
+* nessus-plugins 
+
+See the compilation instructions if you have never compiled any tarballs before.
+
+The sources can be found there : 
+Location	 Server	 
+United States (East Coast, via HTTP)	 http://ftp.nessus.org/nessus/nessus-2.0.10a/src/ 	
+United States (East Coast, via FTP)	 ftp://ftp.nessus.org/pub/nessus/nessus-2.0.10a/src/ 	
+United States (West Coast)	 ftp://nessus.stanford.edu/nessus-2.0.10a/src/ 	
+Germany	 ftp://ftp.gwdg.de/pub/linux/misc/nessus/nessus-2.0.10a/src/ 	
+Germany	 http://ftp.gwdg.de/pub/linux/misc/nessus/nessus-2.0.10a/src/ 	
+Switzerland	 ftp://sunsite.cnlab-switch.ch/mirror/nessus/nessus-2.0.10a/src/ 	
+Russia	 ftp://ftp.chg.ru/pub/security/nessus/nessus-2.0.10a/src/ 	
+Sweden	 ftp://ftp.sekure.net/pub/nessus/nessus-2.0.10a/src/ 	
+Thailand	 ftp://ftp.nectec.or.th/pub/mirrors/nessus/nessus-2.0.10a/src/ 	
+Australia	 ftp://ftp.au.nessus.org/pub/nessus/nessus-2.0.10a/src/ 	
+Austria	 ftp://ftp.at.nessus.org/pub/nessus/nessus-2.0.10a/src/ 	
+Turkey	 ftp://ftp.linux.org.tr/pub/mirrors/nessus/nessus-2.0.10a/src/ 	
+Japan	 ftp://ftp.ayamura.org/pub/nessus/nessus-2.0.10a/src/ 	
+
+---------------------------------------------------------------------
+New scripts : 
+
+* post 2.0.10a security checks are available at www.nessus.org/scripts.php 
+
+---------------------------------------------------------------------
+This web page is Copyright (C) 1999 - 2004 Renaud Deraison 

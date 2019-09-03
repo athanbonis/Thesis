@@ -1,0 +1,78 @@
+
+
+Mathcom Home 	
+
+Services 	Customers 	Tech Info 	Contact Us 	
+
+  	 	
+
+Scientific Computing and Associated Fields Resource Guide
+
+This is a summary of Internet-related resources for a handful of fields related to Scientific Computing, primarily: 
+* scientific and engineering numerical computing 
+* numerical analysis 
+* symbolic algebra 
+* statistics 
+* operations research 
+
+This FAQ is available at: www.mathcom.com 
+
+Table of Contents:
+
+* Introduction 
+* Overview of Recent Additions 
+* Acknowledgements 
+* What is Numerical Analysis? 
+* Indices of NA Software on the Net 
+* NA Software Libraries on the Net 
+* NA Software Packages on the Net 
+* Commercial NA Libraries and Packages 
+* Newsgroups for NA 
+* Professional Societies for NA 
+* Electronic Newsletters for NA 
+* Electronic Journals for NA 
+* Online Papers for NA 
+* Miscellaneous Web Sites for NA 
+* Books, With and Without Software, for NA 
+
+Specialized Subfields Within Numerical Analysis:
+
+* Dense Linear Algebra Systems 
+* Sparse Linear Algebra Systems 
+* Random Number Generators (RNGs) 
+* Function Evaluation 
+* Finding Roots 
+* Curve Fitting, Data Modelling, Interpolation, Extrapolation 
+* Transforms (FFT, etc) and digital signal processing (DSP) 
+* Wavelets 
+* Integration and Ordinary Differential Equations (ODEs) 
+* Stochastic Differential Equations 
+* N-Body and Particle Simulation 
+* Partial Differential Equations (PDEs) and Finite Element Modeling (FEM) 
+* Operations Research: Minimization, Optimization 
+* Queueing Theory and Performance Analysis 
+* Computational Geometry 
+* Interval Arithmetic 
+* Plotting, Graphics and Scientific Visualization 
+
+Associated Fields: 
+* Probability and Statistics 
+* Chaos Theory (Nonlinear Dynamics) 
+* Symbolic Algebra 
+* Cryptography (Cryptology) 
+* Fractals 
+* Neural Networks 
+* Discrete algorithms 
+* Constraints 
+* Genetic Algorithms 
+* Simulated Annealing 
+
+Copyright 1995-2002 S. J. Sullivan. This document(s) may be copied and/or reproduced providing that the use is for non-commercial purposes only, and all copies contain this paragraph and copyright notice. The information contained in this document(s) is believed to be true but no guarantees of accuracy are made, and there is no liability of any sort for any consequences of its use. 
+
+Steve Sullivan      Mathcom, Inc.      info@mathcom.com 
+
+---------------------------------------------------------------------
+
+Copyright 1995-2002 Mathcom       info@mathcom.com       Updated July 12, 2002 
+
+

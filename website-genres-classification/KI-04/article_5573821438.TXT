@@ -1,0 +1,26 @@
+
+
+Machine learning investigates the mechanisms by which knowledge is acquired through experience. Research at UCI spans the spectrum of models for learning, including those based on statistics, logic, mathematics, neural structures, information theory, and heuristic search algorithms. 
+
+Our research involves the development and analysis of algorithms that identify patterns in observed data in order to make predictions about unseen data. New learning algorithms often result from research into the effect of problem properties on the accuracy and run-time of existing algorithms. 
+
+We investigate learning from structured databases (for applications such as screening loan applicants), image data (for applications such as character recognition), and text collections (for applications such as locating relevant sites on the World Wide Web). UCI also maintains the international machine learning database repository, an archive of over 100 databases used specifically for evaluating machine learning algorithms. 
+
+Knowledge Discovery and Data Mining 
+
+Databases with millions of records and thousands of fields are now common in business, medicine, engineering, and the sciences. The problem of extracting useful information from such data sets is an important practical problem. Research on this topic focuses on key questions such as how can one build useful descriptive models that are both accurate and understandable? Probabilistic and statistical techniques in particular, play a key role in both analyzing the inference process from a theoretical viewpoint and providing a principled basis for algorithm development. Ongoing projects include the integration of image and text health-care data for finding diagnostic rules, automated analysis of time-series engineering data from the Space Shuttle, and discovery of recurrent spatial patterns in historical pressure records of the Earth's upper-atmosphere. 
+---------------------------------------------------------------------
+
+UCI Machine Learning Information
+
+* The Machine Learning Database Repository 
+* Some machine learning programs 
+* Machine learning papers from UCI 
+* Archive issues of the Machine Learning List 
+* Other information related to machine learning 
+
+---------------------------------------------------------------------
+
+[AI Home | ICS Home | UCI Home] 
+
+

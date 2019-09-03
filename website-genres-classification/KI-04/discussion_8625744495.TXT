@@ -1,0 +1,485 @@
+» Nintendo's Clear Skies Get Cloudy in: Games » HP: Getting Its Engines Started in: Hardware News Bytes » Radio Ga Ga: An Introduction to HD Radio in: How To Get This For Your Site! $ 2.99 Web Hosting if (!document.phpAds_used) document.phpAds_used = ','; document.write (" "); // --> » Internet Browser Toolbars in: Optimization » DMOZ Tips in: Optimization » How to Optimize for Inktomi in 2004 in: Optimization Get This For Your Site! Dev Shed Forums > Operating Systems > UNIX Forum Jump: Please select one: -------------------- Private Messages User Control Panel Who's Online Search Forums Forums Home -------------------- Popular Programming Languages -- PHP -- Perl -- C Languages (C, C++, Obj-C) -- Java, Java Servlets & JSP -- Python Other Programming Languages -- ASP -- .Net (ASP.Net, VB.Net, C#) -- Visual Basic -- Software Design & Algorithms -- Cold Fusion -- Delphi & Kylix -- XML & XUL Web Design -- HTML, JavaScript & CSS -- Adobe Photoshop -- Macromedia Flash -- General Web Design -- Reviews & Critiques -- Web Site Promotion Web Site Management -- Business & Legal Issues -- Development Software -- Scripts Databases -- General Database Discussion -- MySQL -- PostgreSQL -- Firebird SQL -- MS SQL -- Oracle -- LDAP System Administration -- Mail Servers -- Apache -- Security -- DNS -- IIS -- Networking Operating Systems -- *BSD -- Linux -- UNIX -- Windows NT/2000/XP Web Hosting -- Web Hosting -- Free Web Hosting -- Web Hosting Offers -- Web Hosting Requests Computer Hardware -- General Hardware -- CPUs & Overclocking -- Cooling -- Motherboards -- Video Cards & Sound Cards Other -- Dev Shed Lounge -- Articles & Tutorials ---- PHP Tutorials ---- Perl Tutorials ---- Administration Tutorials ---- Python Tutorials ---- MySQL Tutorials ---- XML Tutorials ---- Java Tutorials ---- Zope Tutorials ---- Development Practices Articles ---- DHTML Tutorials ---- Flash Tutorials ---- JavaScript Tutorials ---- Style Sheets Tutorials ---- WML Tutorials ---- Multimedia Tutorials -- Beginners -- Hire A Programmer -- Project Help Wanted Register Now Get Full Access It's Free! Search this Forum: All times are GMT. The time now is 02:14 AM. New posts ( More than 15 replies or 150 views ) Closed thread No new posts ( More than 15 replies or 150 views ) Forum Rules: You may not post new threads You may not post replies You may not post attachments You may not edit your posts HTML code is OFF vB code is ON Smilies are ON [IMG] code is OFF ASP Free Forums | SEO Chat Forums | Newsletter | PHP Web Hosting | ASP Web Hosting Forums : » Register « | User CP | Calendar | Members | FAQs | Archive > Dev Shed Forums Advanced Forums Search Dev Shed Site Powered by: vBulletin Version 2.3.0 Dev Shed Forums | ASP Free Forums | Dev Articles Forums | Dev Hardware Forums | SEO Chat Forums Â© 2001-2004. All rights reserved. ( Privacy Policy ) Dev Shed hosted by Hostway .   --> 
+Developer Shed Network  |  Dev Shed  |   ASP Free  |   Dev Articles  |   Dev Hardware  |   SEO Chat  |  itsALLnet&nbsp |&nbsp; Web Hosters&nbsp&nbsp	 
+
+//--> 	
+
+ Forums: » Register « |  User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+Dev Shed Forums
+      
+Advanced Forums Search
+      
+Dev Shed Site
+ 
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+//--> 	
+
+Dev Shed Forums > Operating Systems > UNIX  
+
+(Moderated by: christo, M.Hirsch, Scorpions4ever)	  
+Subscribe to this Forum
+Mark this Forum Read 	 
+
+//--> 	
+
+Thread 	 Thread Starter 	 Replies 	 Views 	  Last Post 	
+ 	 	 Read This First: Contest Details 	 gnorb	  0	  44	     
+   January 5th, 2004 03:18 AM
+   by gnorb	     	   
+ 	
+ 	  	  need tcsh command line script to rename files 	 miselaineeous	  1	  1853	     
+   January 25th, 2004 05:02 PM
+   by samsm	     	   
+ 	
+ 	 	 grep CTCTL 	 riaz_mohd	  1	  20	     
+   January 24th, 2004 01:39 AM
+   by Perderabo	     	   
+ 	
+ 	 	 Detecting Shift key status 	 kalimuthu_it	  1	  19	     
+   January 23rd, 2004 01:57 PM
+   by Perderabo	     	   
+ 	
+ 	  	  Using sed on grep results... 	 bigfeller	  1	  33	     
+   January 23rd, 2004 11:41 AM
+   by bigfeller	     	   
+ 	
+ 	  	  Cron Job with Lynx 	 JoshHarvill	  3	  35	     
+   January 23rd, 2004 06:59 AM
+   by Scorpions4ever	     	   
+ 	
+ 	 	 Doubt in Unix Scripting 	 sandeept	  3	  162	     
+   January 23rd, 2004 06:28 AM
+   by sandeept	     	   
+ 	
+ 	  	  "sendmail -t" help 	 riaz_mohd	  2	  39	     
+   January 22nd, 2004 11:30 PM
+   by riaz_mohd	     	   
+ 	
+ 	  	  Sed command in Unix 	 chess	  9	  91	     
+   January 21st, 2004 05:12 AM
+   by chess	     	   
+ 	
+ 	 	 Help me to write a loop counter 	 farhad	  1	  56	     
+   January 19th, 2004 04:48 PM
+   by fpmurphy	     	   
+ 	
+ 	  	  Single line password reset. 	 margi973	  1	  43	     
+   January 19th, 2004 04:39 PM
+   by fpmurphy	     	   
+ 	
+ 	  	  pine patch installation 	 csross	  0	  28	     
+   January 16th, 2004 03:23 PM
+   by csross	     	   
+ 	
+ 	  	  Shell email script Irix after rsync 	 the_idol	  0	  31	     
+   January 15th, 2004 06:37 PM
+   by the_idol	     	   
+ 	
+ 	 	 Irix netwokring problem 	 dbsgi	  0	  30	     
+   January 15th, 2004 05:38 PM
+   by dbsgi	     	   
+ 	
+ 	  	  Solais 8 Patch Cluster 	 pliderman	  0	  45	     
+   January 15th, 2004 04:29 PM
+   by pliderman	     	   
+ 	
+ 	  	  getting database information 	 [ego]mouse	  2	  49	     
+   January 12th, 2004 04:00 PM
+   by [ego]mouse	     	   
+ 	
+ 	 	 Unix Crontab 	 kraghupa	  3	  883	     
+   January 12th, 2004 03:19 PM
+   by fpmurphy	     	   
+ 	
+ 	  	  Emailed Counter 	 philip pluckros	  0	  56	     
+   January 11th, 2004 11:58 PM
+   by philip pluckros	     	   
+ 	
+ 	  	  sendmail /mail/expn/vrfy/exrn syslog message 	 csross	  0	  106	     
+   January 9th, 2004 02:41 PM
+   by csross	     	   
+ 	
+ 	  	  Regular Expressions Issue 	 methodmano	  1	  63	     
+   January 6th, 2004 06:00 AM
+   by jayakhanna	     	   
+ 	
+ 	  	  print jobs just queueing printer not responding 	 gmakandidze	  0	  80	     
+   December 31st, 2003 09:59 AM
+   by gmakandidze	     	   
+ 	
+ 	 	 FTP files from one server to another 	 Chetan	  4	  139	     
+   December 31st, 2003 07:38 AM
+   by Chetan	     	   
+ 	
+ 	 	 diff shells 	 vslewis	  5	  124	     
+   December 24th, 2003 03:47 AM
+   by jayakhanna	     	   
+ 	
+ 	  	  run a shell without cron possible? 	 jennashton	  2	  120	     
+   December 23rd, 2003 01:13 PM
+   by izn	     	   
+ 	
+ 	  	  shell scripting 	 granmastaraj	  2	  778	     
+   December 23rd, 2003 01:02 PM
+   by izn	     	   
+ 	
+ 	  	  UNIX Process Table 	 lwhelan	  1	  172	     
+   December 23rd, 2003 02:59 AM
+   by Perderabo	     	   
+ 	
+ 	  	  somebody help 	 biggestben	  0	  13	     
+   December 23rd, 2003 02:33 AM
+   by biggestben	     	   
+ 	
+ 	 	 Finding and Removing Lines in vi 	 cliffhanger9	  1	  127	     
+   December 22nd, 2003 06:15 AM
+   by jayakhanna	     	   
+ 	
+ 	 	 using cat to create a shell script 	 wshark83	  3	  379	     
+   December 20th, 2003 11:33 PM
+   by Boomerang	     	   
+ 	
+ 	 	 regular expression 	 twlaub	  4	  129	     
+   December 19th, 2003 09:26 PM
+   by twlaub	     	   
+ 	
+ 	 	 getting a ksh variable value 	 norahgarb	  1	  138	     
+   December 17th, 2003 12:15 PM
+   by Perderabo	     	   
+ 	
+ 	 	 installing solaris 9 	 spencey501	  0	  196	     
+   December 16th, 2003 06:20 PM
+   by spencey501	     	   
+ 	
+ 	  	  How to remove the ^M? 	 tzeyik	  2	  153	     
+   December 16th, 2003 01:35 AM
+   by tzeyik	     	   
+ 	
+ 	  	  qmail and tcpserver errors 	 csross	  2	  154	     
+   December 14th, 2003 10:26 PM
+   by csross	     	   
+ 	
+ 	  	  sparc 20 key board boot error 	 robert619	  1	  148	     
+   December 13th, 2003 04:06 AM
+   by Perderabo	     	   
+ 	
+ 	  	  ttymon and logging in 	 csross	  2	  111	     
+   December 12th, 2003 05:02 PM
+   by csross	     	   
+ 	
+ 	 	 ksh alias arguments 	 vslewis	  7	  239	     
+   December 12th, 2003 12:46 PM
+   by jayakhanna	     	   
+ 	
+ 	 	 remsh 	 alanmm31	  1	  125	     
+   December 12th, 2003 02:12 AM
+   by Perderabo	     	   
+ 	
+ 	 	 ksh nested constructs (beginning student) 	 Hermine	  0	  122	     
+   December 11th, 2003 06:57 PM
+   by Hermine	     	   
+ 	
+ 	  	  remsh 	 alanmm31	  0	  101	     
+   December 11th, 2003 12:22 PM
+   by alanmm31	     	   
+ 	
+ 	  	  samba/winbind/domain help 	 ko48394	  0	  134	     
+   December 10th, 2003 08:42 PM
+   by ko48394	     	   
+ 	
+   Showing threads 1 to 40 of 244, sorted by    
+thread title
+   
+last post time
+   
+number of replies
+   
+number of views
+   
+thread starter
+   
+rating
+  
+  in    
+ascending
+   
+descending
+  
+ order, from    
+last day
+   
+last 2 days
+   
+last 5 days
+   
+last 10 days
+   
+last 20 days
+   
+last 30 days
+   
+last 45 days
+   
+last 60 days
+   
+last 75 days
+   
+last 100 days
+   
+the last year
+   
+the beginning
+  
+  	
+
+Subscribe to this Forum
+Mark this Forum Read	  Pages (7): [1] 2 3 » ... Last » 	
+
+//--> 	
+  » Mambo Open Source Content Management System in: Administration  » XForms Basics, Part 3 in: XML  » XForms Basics, Part 2 in: XML   Get This For Your Site! 	
+
+ 
+
+//--> 	
+  » FTPÂ’ing Files with ASP in: ASP  » ASP.NET Basics Part 10: Making Exceptions in: ASP.NET  » Automatic Row Height in DataGrids in: C#   Get This For Your Site! 	
+
+ 
+
+//--> 	
+  » Why Accessibility and Usability are Important to You in: HTML  » yEnc Format Files in: Web Services  » Accessing Devices Using a Web Service in: Web Services   Get This For Your Site! 	
+
+ 
+
+Register Domain Names // --> 	
+  » Nintendo's Clear Skies Get Cloudy in: Games  » HP: Getting Its Engines Started in: Hardware News Bytes  » Radio Ga Ga: An Introduction to HD Radio in: How To   Get This For Your Site! 	
+
+ 
+
+$2.99 Web Hosting // --> 	
+» Internet Browser Toolbars in: Optimization  » DMOZ Tips in: Optimization  » How to Optimize for Inktomi in 2004 in: Optimization   Get This For Your Site! 	
+
+Dev Shed Forums > Operating Systems > UNIX 
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+Popular Programming Languages
+
+-- PHP
+
+-- Perl
+
+-- C Languages (C, C++, Obj-C)
+
+-- Java, Java Servlets & JSP
+
+-- Python
+
+Other Programming Languages
+
+-- ASP
+
+-- .Net (ASP.Net, VB.Net, C#)
+
+-- Visual Basic
+
+-- Software Design & Algorithms
+
+-- Cold Fusion
+
+-- Delphi & Kylix
+
+-- XML & XUL
+
+ Web Design
+
+-- HTML, JavaScript & CSS
+
+-- Adobe Photoshop
+
+-- Macromedia Flash
+
+-- General Web Design
+
+-- Reviews & Critiques
+
+-- Web Site Promotion
+
+Web Site Management
+
+-- Business & Legal Issues
+
+-- Development Software
+
+-- Scripts
+
+Databases
+
+-- General Database Discussion
+
+-- MySQL
+
+-- PostgreSQL
+
+-- Firebird SQL
+
+-- MS SQL
+
+-- Oracle
+
+-- LDAP
+
+System Administration
+
+-- Mail Servers
+
+-- Apache
+
+-- Security
+
+-- DNS
+
+-- IIS
+
+-- Networking
+
+Operating Systems
+
+-- *BSD
+
+-- Linux
+
+-- UNIX
+
+-- Windows NT/2000/XP
+
+Web Hosting
+
+-- Web Hosting
+
+-- Free Web Hosting
+
+-- Web Hosting Offers
+
+-- Web Hosting Requests
+
+Computer Hardware
+
+-- General Hardware
+
+-- CPUs & Overclocking
+
+-- Cooling
+
+-- Motherboards
+
+-- Video Cards & Sound Cards
+
+Other
+
+-- Dev Shed Lounge
+
+-- Articles & Tutorials
+
+---- PHP Tutorials
+
+---- Perl Tutorials
+
+---- Administration Tutorials
+
+---- Python Tutorials
+
+---- MySQL Tutorials
+
+---- XML Tutorials
+
+---- Java Tutorials
+
+---- Zope Tutorials
+
+---- Development Practices Articles
+
+---- DHTML Tutorials
+
+---- Flash Tutorials
+
+---- JavaScript Tutorials
+
+---- Style Sheets Tutorials
+
+---- WML Tutorials
+
+---- Multimedia Tutorials
+
+-- Beginners
+
+-- Hire A Programmer
+
+-- Project Help Wanted
+  
+ 	
+
+Register Now	 
+Get Full Access	 
+It's Free!	 
+
+Search this Forum:       
+ 	  
+ 	
+
+All times are GMT. The time now is 02:14 AM.	 
+ 	  New posts   	  ( More than 15 replies or 150 views )  	  Closed thread	 
+ No new posts   	  ( More than 15 replies or 150 views )  	  	 
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+
+ 	 
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+ Forums: » Register « | User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+> 
+Dev Shed Forums
+        
+Advanced Forums Search
+        
+Dev Shed Site
+ 
+
+//--> 
+
+//--> 	
+Powered by: vBulletin Version 2.3.0
+
+Dev Shed Forums  |  ASP Free Forums  |  Dev Articles Forums  |  Dev Hardware Forums  |  SEO Chat Forums 	
+
+Â© 2001-2004. All rights reserved. (Privacy Policy) Dev Shed hosted by Hostway. 		
+
+

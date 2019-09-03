@@ -1,0 +1,614 @@
+MacNN Services | News Tips | About/Advertising | Feedback | Archives www.SubRosaSoft.com - OS X utilities Desktop Headlines Popular Daily Forums: 15" screen problems; G5 speed bump; OmniWeb KB: Safari autofill, Mac OS X 10.3.2, reset the iPod CNN: The Mac turns 20 (today) GarageBand helps users make political statements Sony posts beta of Panther-compatible Puppy Suite Apple denys enterprise move, makes compelling case Popular Weekly Apple posts Pepsi-iTunes teaser: "More than pop" KB: iDVD with non-SuperDrives; GarageBand performance IBM Developerworks offers Linux on Mac primer G4 installed into Tatra 613 car for GPS, audio... Matas releases "iPod Minis" icon set Tech: Coke music site, 64-bit notebooks, fuel cells.. Hot Reviews You Software Part 1 Adobe After Effects 6.0 Professional Terforma iSleeve The Photoshop Book for Digital Photographers Director's Cut Take 2 DeskMount and MacSkate Most Commented Pepsi iTunes ad to feature teens sued by RIAA 74 Comments The "new battle" between Apple and MIcrosoft 54 Comments Apple posts Pepsi-iTunes teaser: "More than pop" 37 Comments CNN: The Mac turns 20 (today) 34 Comments The modern-day equivalent of the Samurai sword 29 Comments Jobs inseparable from the Apple saga 27 Comments Top Stories CNN: The Mac turns 20 (today) Apple posts $ 63M profit on more than $ 2B in revenue Highlights from Apple's FYQ1 2004 conference call Apple posts $ 63M profit on revenues of more than $ 2B Office 2004 for Macintosh: A first look (Part II) Office 2004 for Macintosh: A first look (Part I) Expo Photo Gallery, announcements recap HP, Apple partner on iPod-based MP3 player, iTMS Apple, Microsoft make Macworld Expo announcements Apple offers QuickTime 6.5 with more 3GPP support Apple offers 20" iMac, dual-1.8GHz G5, G5 app updates Apple releases Mac OS X 10.3.1 update Sunday, January 25th Last updated: 1:45 AM EST Early Morning Edition Forums: 15" screen problems; G5 speed bump; OmniWeb Members of the MacNN forums today discuss a number of topics, including: noticeably uneven illumination on many 15" PowerBook G4 displays; a poll of when users made the switch from Mac OS 9 to Mac OS X; rumors surrounding the potential upcoming release of speed-bumped Power Mac G5 models ; the advantages and disadvantages of the 12" iBook compared to the 12" PowerBook; the Omni Group's plan to offer customizable toolbar icons in OmniWeb 5; speculation about a G5-based iMac in the near future. [ print | email ] Saturday, January 24th Last updated: 1:30 PM EST Top Stories CNN: The Mac turns 20 (today) CNN reports that The Mac turns 20 today, noting the the strength of the community and large base of passionate users: ""Macintosh users tend to be a very independent type, and they tend to be very loyal to their product," Wozniak said. "They've been threatened with [Macs] going out of business and being put out of their schools and out of their companies, and they've got to fight. There's so much passion for it." [ print | email | 34 comments ] Afternoon Edition P-Edge announces GSC for SWJK: Jedi Academy P-Edge Media has announced a new Mac OS X Game Server Configulator (GSC) application, which is specially made for Star Wars Jedi Knight: Jedi Academy: "[It] allows the user to set up and run a dedicated Jedi Academy server, without knowing Terminal commands and editing all the variables in the configuration file. GSC Jedi Academy will have over 25 configurable options and the user can load and save several different server configurations." It will run on Mac OS X and be available in the first week of February. (Pricing not available.) [ print | email ] Sony posts beta of Panther-compatible Puppy Suite Sony has posted a Mac OS X 10.3 Panther-compatible version of its Puppy Suite for Mac OS X , software for its Puppy Fingerprint Identity Device. It allows you to login to your Mac system without using a password. The version also includes support for Fast User Switching, authentication services, and screen saver unlock. A limited-time, evaluation version of the software is available now as a public beta. The full hardware is $ 160 from Sony and also available retailers around the US such as Fry's and CompUSA. [ print | email ] GarageBand helps users make political statements Though only available for less than a week, Apple's GarageBand is already making helping users make headlines , according to MacNN reader Brian Kim: " MSNBC has an article about the various remixes that parody Howard Dean's concession speech in Iowa. These remixes have been getting national airplay and media attention. The first 2 remixes that the MSNBC article links to appear to have been made with GarageBand. The blog of Jonathan Barlow , creator of one of the Dean remix spoofs, notes that Rolling Stone is working on an article on GarageBand and the interesting timing between its release and the sudden appearance of so many Howard Dean remixes." [ print | email | 8 comments ] Apple denys enterprise move, makes compelling case Infoworld notes that Apple is officially denying any stragtegic enterprise move , but yet is releasing compelling Internet product line (G5 Xserve, Xserve RAID) and current hiring choices suggest otherwise: "here are a couple of other obstacles Apple faces in selling into larger markets. For one, enterprise customers donÂ’t like to buy version-one products. They need to be tested by time....Apple also needs to convince the enterprise that its products exist in an ecosystem. The server in itself has less value if the complementary products and applications aren't ported to go with them." [ print | email | 10 comments ] 'Red tape' delays European iTunes Music Store Red tape is delaying the European launch of Apple's Internet music store iTunes, according to Reuters report: " A maze of licensing contracts, music release dates that differ by country and incompatible billing systems have combined to sidetrack the service, which many recording executives still hope will make its European debut in the first half of 2004. 'We will be here this year. I'm not going to announce the date at this time, but we are working very hard,' Eddy Cue, vice president of applications and Internet services for Apple, said at the annual MidemNet music conference on the French Riviera." [ print | email | 1 comment ] Early Morning Edition KB: Safari autofill, Mac OS X 10.3.2, reset the iPod KB roundup: Websites are able to disable Safari's autofill functions ; Mac OS X 10.3.2 should only be installed on the startup disk to avoid problems; Apple describes how to reset the iPod and the default export options of iMovie 4 and minor export glitches and spurious font message errors in GarageBand and issues joining tracks in iTunes 4 . [ print | email | 16 comments ] Friday, January 23rd Last updated: 4:10 PM EST Afternoon Edition Apps: DejaMenu, GameRanger, ViewRemote, MacLoggerDX.. DejaMenu 1.1 for Mac OS X is the latest version of the (donation-ware) application to access the menubar as a context menu. DejaMenu is intended to ease access to the main menu bar for those with large screens or multiple monitors. Version 1.1 adds keyboard navigation to the context menu, and fixes a common visual glitch. [Download - 61KB ] GameRanger 3.6 adds iChat support for setting Away status+message+icon for Premium users while in a game, an "is typing" indicator for private messages, new tooltips, and several other enhancements to the online gaming service client for Mac users. [Download - 182KB ] Digital Point Solutions has released " search this site ," a PHP script for Web developers than enables the implementation of a search function with little complexity. The system uses Google on the backend, via the Google API. The results can be formatted in any way. [Download - 3KB ] Rampell Software's ViewRemote 2.1.8 logs keystrokes and periodically snaps screenshots of activity on any Mac allows users to view the information from any computer with an Internet connection: "it's like having a surveillance camera pointed directly at your monitor. This data is securely sent to the ViewRemote data center, where it is archived and stored" It requires Mac OS X 10.2 or later and is $ 70. [Download - form ] Pod Manager , a $ 8 shareware app aimed at extracting music files from an iPod, has been updated to version 2.1 This new version improves support for 3G iPods, UTF8 iPod drive names, and fixes some other smaller issues. [Download - 388KB ] Dog Park Software has announced the release of MacLoggerDX 3.9 , a new version of its $ 95 Telnet/TNC DXCluster utility. The update adds selectable colors for terminals, fixed ADIF Import, and a bug relating to Schedule Panel. [Download - 8.8MB ] iWork 2.0 ( $ 75) is a simple time-billing and invoicing application. It integrates with iCal and Address Book, offers tax support and easily generates custom invoices. [Download - 2.6MB ] HimmelBar is a little background application that provides an icon in the menu bar to quickly access applications by scanning standard locations such as local, user, network and developer applications. Version 1.2 includes Norwegian and Danish, a version check feature, the ability to rename the custom location menu item and a bug fix. [Download - 150MB ] [ print | email ] Vicomsoft supports Panther, debuts SuperIntendent Vicomsoft today announced SpamBolt and InterGate 8.5.4 , the latest releases of the the company's Internet and network management product suite that brings full support for Mac OS X 10.3 Server (Panther). In addition, InterGate 8.5.4 includes technology enhancements to support the soon to be released SuperIntendent. Due for release in late February 2004, SuperIntendent will provide schools & businesses with the ability to produce detailed reports on Internet usage, acceptable usage policy breaches and a whole host of other customizable reports. [ print | email ] Aspyr releases Star Wars Jedi Knight demo Aspyr today released a demo of Star Wars Jedi Knight : Jedi Academy, which "allows players to immerse themselves in the classic Star Wars universe as they take on the role of a student eager to learn the ways of the Force from Master Luke Skywalker." It is available now for $ 50 and runs on Mac OS X 10.2.6 or later. Meanwhile, Feral Interactive let us know that it recently updated its website: "It's been about a year since the last serious upgrade of the Feral website. In that time we have released six new games and have put a lot more into development - so it seemed high time for a new lick of digital paint." [ 180 MB | print | email | 5 comments ] MakeMusic! ships SmartMusic Studio 8.2 for Mac OS X MakeMusic! today announced SmartMusic Studio 8.2 , the latest version of the company's interactive music practice system; it can listen to musicians perform through a microphone attached to a computer and follow their spontaneous tempo changes. Version 8.2 adds support for Mac OS X as well as thirty new accompaniments and the ability to save recordings as a compressed MP3 file. It is now available through school sponsorship ( $ 20/student) and home subscription ( $ 90/year) or for $ 10/month. [ print | email ] New multiport Gigabit Etherent PCI cards for G5s Small Tree Communications today began shipping "the first" dual-( $ 250) and quad- ( $ 550) port gigabit Ethernet cards for the Power Mac G5 and G5 Xserve. Small Tree says the cards provide an immediate performance gain over the Power Mac G5's internal Ethernet port through the use of jumbo frames. The NICs are 64-bit/133Mhz PCI-X network interface cards containing independent 10/100/1000 megabit ports on one PCI-X adapter. The cards work with Small Tree Communications' IEEE 802.3ad Link Aggregation software which provides automatic load balancing and fail over of network traffic. [ print | email | 3 comments ] Aspyr offers info, pre-orders on Call of Duty Aspyr has posted more information on Call of Duty for the Mac: "In Call of Duty, you get to fight alongside your brothers-in-arms as history comes alive. In momentous battles from D-Day to Stalingrad, youÂ’ll find yourself in incredibly real terrain, caught in breathtaking life and death combat." It features 24 single-player missions, four interconnected campaigns and multiplayer support over the Internet. It will run on Mac OS X 10.2.8 and is available for pre-order for $ 50. Call of Duty is expected to ship in April is currently at 'first playable' game status. [ print | email | comment ] Morning Edition Reindeer Graphics releases Focus Extender 1.0 Reindeer Graphics has released Focus Extender 1.0 , which provides a "simple interface to a powerful technique for blending a stack of images with varying focal depths into a single, in-focus image. Designed to integrate into an automated workflow, Focus Extender is fully recordable, and comes with an example Photoshop action demonstrating its use. With an extensive manual describing its operation, Focus Extender is a user-friendly, yet powerful method for creating extended depth of field images for analysis and measurement." It is available for $ 500 and runs on Mac OS 9/X. [ print | email ] News from the past week . Archived News: Recent Weeks ------------ - January 18th, 2004 - January 11th, 2004 - January 4th, 2004 - December 28th, 2003 - December 21st, 2003 - December 14th, 2003 - December 7th, 2003 - November 30th, 2003 Archive ------------ - January 12th, 2004 - December 29th, 2003 - December 15th, 2003 - December 1st, 2003 - November 17th, 2003 - November 3rd, 2003 - October 21st, 2003 - October 7th, 2003 - September 23rd, 2003 - September 9th, 2003 - August 26th, 2003 - August 12th, 2003 - July 29th, 2003 - July 15th, 2003 - July 1st, 2003 - June 17th, 2003 - June 3rd, 2003 - May 20th, 2003 - May 6th, 2003 - April 22nd, 2003 - April 8th, 2003 - March 24th, 2003 - March 10th, 2003 - February 24th, 2003 - February 10th, 2003 - January 27th, 2003 - January 13th, 2003 - December 30th, 2002 - December 16th, 2002 - December 2nd, 2002 - November 18th, 2002 - November 4th, 2002 - October 22nd, 2002 - October 8th, 2002 - September 24th, 2002 - September 10th, 2002 - August 27th, 2002 - August 13th, 2002 - July 30th, 2002 - July 16th, 2002 - July 2nd, 2002 - June 18th, 2002 - June 4th, 2002 - May 21st, 2002 - May 7th, 2002 - April 23rd, 2002 - April 9th, 2002 - March 25th, 2002 - March 11th, 2002 - February 25th, 2002 - February 11th, 2002 - January 28th, 2002 - January 14th, 2002 - December 31st, 2001 - December 17th, 2001 - December 3rd, 2001 - November 19th, 2001 - November 5th, 2001 - October 23rd, 2001 - October 9th, 2001 - September 25th, 2001 - September 11th, 2001 - August 28th, 2001 - August 14th, 2001 - July 31st, 2001 - July 17th, 2001 - July 3rd, 2001 - June 19th, 2001 - June 5th, 2001 - May 22nd, 2001 - May 8th, 2001 - April 24th, 2001 - April 10th, 2001 - March 26th, 2001 - March 12th, 2001 - February 26th, 2001 - February 12th, 2001 - January 29th, 2001 - January 15th, 2001 - January 1st, 2001 - December 18th, 2000 - December 4th, 2000 - November 20th, 2000 - November 6th, 2000 - June 6th, 2000 - May 23rd, 2000 - May 9th, 2000 - April 25th, 2000 - December 31st, 1969 Inside-Hollywood Digital Media Training: Go where the inside-Hollywood studio pros train. Also, immersive preparation for NEW CAREERS in film/video editing, ProTools sound editing, 3D/FX, and DVD. Apple Laptop Batteries and PDA Batteries: iBook & Powerbook batteries at factory-direct prices. Same-day shipping, 30-day money-back guarantee, and 1-year warranty. Buy and Sell Used Macs Online: Mac of All Trades buys and sells Used Macs Royalty Free 3d Animations for Video Editing: You can stop spending your time re-inventing the wheel. Now you can easily and inexpensively add visually stunning backgrounds to your work with the exciting new motion graphics series called Digital Hotcakes. Download a free clip today! Have your product or service listed here » ForumJump -------- My Messages User Control Who's Online Forum search Forum Home -------- Hardware - Power Mac - PowerBook - iMac/eMac - iBook - Peripherals - Mods Software - Mac OS X - Classic - Software - GUI Stuff - Games - UNIX - Developer Other Topics - Digital A/V - Art/Design - Web Dev - Servers - Networking Community - Lounge - Feedback - Team MacNN - Mkt place Advanced / Services Ramjet Certified G4 & G5 DDR Kits: 512MB - $ 99, 1Gig - $ 195. 2Gig - $ 379 G4 , iMac PC133 RAM: 512MB - $ 139, 1Gig - $ 269, 1.5Gig - $ 399 PB G4 Aluminum RAM 512MB DIMM $ 129, 1Gig $ 599 1-800-831-4569 Inside-Hollywood Digital Media Training Go where the inside-Hollywood studio pros train. Also, immersive preparation for NEW CAREERS in film/video editing, ProTools sound editing, 3D/FX, and DVD. Apple Laptop Batteries and PDA Batteries iBook & Powerbook batteries at factory-direct prices. Same-day shipping, 30-day money-back guarantee, and 1-year warranty. Buy and Sell Used Macs Online Mac of All Trades buys and sells Used Macs Advertise here » Recent Headlines Forums: 15" screen problems; G5 speed bump; OmniWeb P-Edge announces GSC for SWJK: Jedi Academy Sony posts beta of Panther-compatible Puppy Suite GarageBand helps users make political statements Apple denys enterprise move, makes compelling case 'Red tape' delays European iTunes Music Store CNN: The Mac turns 20 (today) KB: Safari autofill, Mac OS X 10.3.2, reset the iPod Apps: DejaMenu, GameRanger, ViewRemote, MacLoggerDX.. Vicomsoft supports Panther, debuts SuperIntendent Aspyr releases Star Wars Jedi Knight demo MakeMusic! ships SmartMusic Studio 8.2 for Mac OS X New multiport Gigabit Etherent PCI cards for G5s Aspyr offers info, pre-orders on Call of Duty Reindeer Graphics releases Focus Extender 1.0 Apple talks G5 Xserve, enterprise with Serverpipeline Badia releases XTensions with Quark 6, OS X support Pepsi iTunes ad to feature teens sued by RIAA RTAS upgrade path for SFX Machine RT offered Mac wireless drivers for third-party wireless cards Font Doctor 6.0 offers a simplified interface Sonnet ships 1GHz Encore/ZIF G4 for Power Mac G3s Griffin delays RadioSHARK orders until April NASA Langley releases TetrUSS for Mac OS X Panther eMedia offers value-priced music instruction software No Starch Press releases 'Apple Confidential 2.0' Scheduler 4.0 adds new search, hotkey support OWC offers Mercury G4/450-533MHz ZIF upgrade Melodyne 2.1 audio app supports G5, Panther Apps: Smart Folders, FinderScape, Fluid, JustLookin' Apple's 1984 among 'Super Bowl Greatest Commericals' Ovolab Phlink 1.2 adds personalized ringtone support Infoworld: Office 2004 for Mac lags in XML support Apple offers custom RSS feeds from iTunes Music Store G4 installed into Tatra 613 car for GPS, audio... Wine XT 1.7 offers wine cellar management functions KB: iDVD with non-SuperDrives; GarageBand performance CodeTek offers new VirtualDesktop 3.0 beta, pricing MacDevCenter offers tutorial on Encrypted Mail Tech: 'Net voting; RIAA lawsuits; MS settlement Xserve cluster used in Australian government Apple offers Keynote discount, themes to .Mac members Apps: Kismac, ABFR, StreamLogger, IMGCarver, AutoCat Matas releases "iPod Minis" icon set DayLite Seminars at the Apple Store Photo/Graphic Edges 6.0 released MacGIMP offers pre-compiled GIMP 2.0pre Aspyr releases demo of Wakeboarding Unleashed Intelli Innovations offers IntelliScanner OCR Pen ShapeShifter 1.1 updates theme application for OS X Desktop Headlines Contact Us: News Tips | About/Advertising | Feedback XML | RSS | Slim | Avantgo | Mobile/PDAs | Headlines | JavaScript Feed Desktop Headlines | Search | Archives Please support MacNN: Copyright ©1995-2003 Mac News Network. All rights reserved. Privacy Policy   -->  
+
+MacNN: Standard | Headlines | Categorized | Slim 	
+
+Apple Stock Quote: 22.56 () 	MacNN Services | News Tips | About/Advertising | Feedback | Archives 	
+
+ 	 
+
+www.SubRosaSoft.com - OS X utilities 
+
+Desktop Headlines 
+
+Popular Daily
+
+Forums: 15" screen problems; G5 speed bump; OmniWeb
+
+KB: Safari autofill, Mac OS X 10.3.2, reset the iPod
+
+CNN: The Mac turns 20 (today)
+
+GarageBand helps users make political statements
+
+Sony posts beta of Panther-compatible Puppy Suite
+
+Apple denys enterprise move, makes compelling case
+
+Popular Weekly
+
+Apple posts Pepsi-iTunes teaser: "More than pop"
+
+KB: iDVD with non-SuperDrives; GarageBand performance
+
+IBM Developerworks offers Linux on Mac primer
+
+G4 installed into Tatra 613 car for GPS, audio...
+
+Matas releases "iPod Minis" icon set
+
+Tech: Coke music site, 64-bit notebooks, fuel cells..
+
+Hot Reviews
+
+You Software Part 1         
+                                        
+Adobe After Effects 6.0 Professional         
+                                        
+Terforma iSleeve         
+                                
+The Photoshop Book for Digital Photographers         
+                                        
+Director's Cut Take 2         
+                                        
+DeskMount and MacSkate         
+                                
+
+Most Commented
+
+Pepsi iTunes ad to feature teens sued by RIAA
+74 Comments
+
+The "new battle" between Apple and MIcrosoft
+54 Comments
+
+Apple posts Pepsi-iTunes teaser: "More than pop"
+37 Comments
+
+CNN: The Mac turns 20 (today)
+34 Comments
+
+The modern-day equivalent of the Samurai sword
+29 Comments
+
+Jobs inseparable from the Apple saga
+27 Comments
+
+Top Stories
+
+CNN: The Mac turns 20 (today)
+
+Apple posts $63M profit on more than $2B in revenue
+
+Highlights from Apple's FYQ1 2004 conference call
+
+Apple posts $63M profit on revenues of more than $2B
+
+Office 2004 for Macintosh: A first look (Part II)
+
+Office 2004 for Macintosh: A first look (Part I)
+
+Expo Photo Gallery, announcements recap
+
+HP, Apple partner on iPod-based MP3 player, iTMS
+
+Apple, Microsoft make Macworld Expo announcements
+
+Apple offers QuickTime 6.5 with more 3GPP support
+
+Apple offers 20" iMac, dual-1.8GHz G5, G5 app updates
+
+Apple releases Mac OS X 10.3.1 update
+
+ 	 
+
+Sunday, January 25th	 Last updated: 1:45 AM EST 	
+
+Early Morning Edition 
+
+Forums: 15" screen problems; G5 speed bump; OmniWeb
+Members of the MacNN forums today discuss a number of topics, including: noticeably uneven illumination on many 15" PowerBook G4 displays; a poll of when users made the switch from Mac OS 9 to Mac OS X; rumors surrounding the potential upcoming release of speed-bumped Power Mac G5 models; the advantages and disadvantages of the 12" iBook compared to the 12" PowerBook; the Omni Group's plan to offer customizable toolbar icons in OmniWeb 5; speculation about a G5-based iMac in the near future. [print | email]  
+
+Saturday, January 24th	 Last updated: 1:30 PM EST 	
+
+Top Stories 
+
+CNN: The Mac turns 20 (today)
+CNN reports that The Mac turns 20 today, noting the the strength of the community and large base of passionate users: ""Macintosh users tend to be a very independent type, and they tend to be very loyal to their product," Wozniak said. "They've been threatened with [Macs] going out of business and being put out of their schools and out of their companies, and they've got to fight. There's so much passion for it." [print | email | 34 comments]  
+
+Afternoon Edition 
+
+P-Edge announces GSC for SWJK: Jedi Academy
+P-Edge Media has announced a new Mac OS X 
+Game Server Configulator (GSC) application, which is specially made for Star Wars Jedi Knight: Jedi Academy: "[It] allows the user to set up and run a dedicated Jedi Academy server, without knowing Terminal commands and editing all the variables in the configuration file. GSC Jedi Academy will have over 25 configurable options and the user can load and save several different server configurations." It will run on Mac OS X and be available in the first week of February. (Pricing not available.) [print | email]  
+
+Sony posts beta of Panther-compatible Puppy Suite
+Sony has posted a Mac OS X 10.3 Panther-compatible version of its Puppy Suite for Mac OS X, software for its Puppy Fingerprint Identity Device. It allows you to login to your Mac system without using a password. The version also includes support for Fast User Switching, authentication services, and screen saver unlock. A limited-time, evaluation version of the software is available now as a public beta. The full hardware is $160 from Sony and also available retailers around the US such as Fry's and CompUSA. [print | email]  
+
+GarageBand helps users make political statements
+Though only available for less than a week, Apple's GarageBand is already making helping users make headlines, according to MacNN reader Brian Kim: "MSNBC has an article about the various remixes that parody Howard Dean's concession speech in Iowa. These remixes have been getting national airplay and media attention. The first 2 remixes that the MSNBC article links to appear to have been made with GarageBand. The blog of Jonathan Barlow, creator of one of the Dean remix spoofs, notes that Rolling Stone is working on an article on GarageBand and the interesting timing between its release and the sudden appearance of so many Howard Dean remixes." [print | email | 8 comments]  
+
+Apple denys enterprise move, makes compelling case
+Infoworld notes that Apple is officially denying any stragtegic enterprise move, but yet is releasing compelling Internet product line (G5 Xserve, Xserve RAID) and current hiring choices suggest otherwise: "here are a couple of other obstacles Apple faces in selling into larger markets. For one, enterprise customers donÂ’t like to buy version-one products. They need to be tested by time....Apple also needs to convince the enterprise that its products exist in an ecosystem. The server in itself has less value if the complementary products and applications aren't ported to go with them." [print | email | 10 comments]  
+
+'Red tape' delays European iTunes Music Store
+Red tape is delaying the European launch of Apple's Internet music store iTunes, according to Reuters report: " A maze of licensing contracts, music release dates that differ by country and incompatible billing systems have combined to sidetrack the service, which many recording executives still hope will make its European debut in the first half of 2004. 'We will be here this year. I'm not going to announce the date at this time, but we are working very hard,' Eddy Cue, vice president of applications and Internet services for Apple, said at the annual MidemNet music conference on the French Riviera." [print | email | 1 comment]  
+
+Early Morning Edition 
+
+KB: Safari autofill, Mac OS X 10.3.2, reset the iPod
+KB roundup: Websites are able to disable Safari's autofill functions; Mac OS X 10.3.2 should only be installed on the startup disk to avoid problems; Apple describes how to reset the iPod and the default export options of iMovie 4 and minor export glitches and spurious font message errors in GarageBand and issues joining tracks in iTunes 4. [print | email | 16 comments]  
+
+Friday, January 23rd	 Last updated: 4:10 PM EST 	
+
+Afternoon Edition 
+
+Apps: DejaMenu, GameRanger, ViewRemote, MacLoggerDX..
+
+* DejaMenu 1.1 for Mac OS X is the latest version of the (donation-ware) application to access the menubar as a context menu. DejaMenu is intended to ease access to the main menu bar for those with large screens or multiple monitors. Version 1.1 adds keyboard navigation to the context menu, and fixes a common visual glitch. [Download - 61KB] 
+
+* GameRanger 3.6 adds iChat support for setting Away status+message+icon for Premium users while in a game, an "is typing" indicator for private messages, new tooltips, and several other enhancements to the online gaming service client for Mac users. [Download - 182KB] 
+
+* Digital Point Solutions has released "search this site," a PHP script for Web developers than enables the implementation of a search function with little complexity. The system uses Google on the backend, via the Google API. The results can be formatted in any way. [Download - 3KB] 
+
+* Rampell Software's ViewRemote 2.1.8 logs keystrokes and periodically snaps screenshots of activity on any Mac allows users to view the information from any computer with an Internet connection: "it's like having a surveillance camera pointed directly at your monitor. This data is securely sent to the ViewRemote data center, where it is archived and stored" It requires Mac OS X 10.2 or later and is $70. [Download - form] 
+
+* Pod Manager, a $8 shareware app aimed at extracting music files from an iPod, has been updated to version 2.1 This new version improves support for 3G iPods, UTF8 iPod drive names, and fixes some other smaller issues. [Download - 388KB] 
+
+* Dog Park Software has announced the release of MacLoggerDX 3.9, a new version of its $95 Telnet/TNC DXCluster utility. The update adds selectable colors for terminals, fixed ADIF Import, and a bug relating to Schedule Panel.[Download - 8.8MB] 
+
+* iWork 2.0 ($75) is a simple time-billing and invoicing application. It integrates with iCal and Address Book, offers tax support and easily generates custom invoices. [Download - 2.6MB] 
+
+* HimmelBar is a little background application that provides an icon in the menu bar to quickly access applications by scanning standard locations such as local, user, network and developer applications. Version 1.2 includes Norwegian and Danish, a version check feature, the ability to rename the custom location menu item and a bug fix. [Download - 150MB] 
+[print | email]  
+
+Vicomsoft supports Panther, debuts SuperIntendent
+Vicomsoft today announced SpamBolt and InterGate 8.5.4, the latest releases of the the company's Internet and network management product suite that brings full support for Mac OS X 10.3 Server (Panther). In addition, InterGate 8.5.4 includes technology enhancements to support the soon to be released SuperIntendent. Due for release in late February 2004, SuperIntendent will provide schools & businesses with the ability to produce detailed reports on Internet usage, acceptable usage policy breaches and a whole host of other customizable reports. [print | email]  
+
+Aspyr releases Star Wars Jedi Knight demo
+Aspyr today released a demo of Star Wars Jedi Knight: Jedi Academy, which "allows players to immerse themselves in the classic Star Wars universe as they take on the role of a student eager to learn the ways of the Force from Master Luke Skywalker." It is available now for $50 and runs on Mac OS X 10.2.6 or later. Meanwhile, Feral Interactive let us know that it recently updated its website: "It's been about a year since the last serious upgrade of the Feral website. In that time we have released six new games and have put a lot more into development - so it seemed high time for a new lick of digital paint." [180 MB | print | email | 5 comments]  
+
+MakeMusic! ships SmartMusic Studio 8.2 for Mac OS X
+MakeMusic! today announced SmartMusic Studio 8.2, the latest version of the company's interactive music practice system; it can listen to musicians perform through a microphone attached to a computer and follow their spontaneous tempo changes. Version 8.2 adds support for Mac OS X as well as thirty new accompaniments and the ability to save recordings as a compressed MP3 file. It is now available through school sponsorship ($20/student) and home subscription ($90/year) or for $10/month. [print | email]  
+
+New multiport Gigabit Etherent PCI cards for G5s
+Small Tree Communications today began shipping "the first" dual-($250) and quad- ($550) port gigabit Ethernet cards for the Power Mac G5 and G5 Xserve. Small Tree says the cards provide an immediate performance gain over the Power Mac G5's internal Ethernet port through the use of jumbo frames. The NICs are 64-bit/133Mhz PCI-X network interface cards containing independent 10/100/1000 megabit ports on one PCI-X adapter. The cards work with Small Tree Communications' IEEE 802.3ad Link Aggregation software which provides automatic load balancing and fail over of network traffic. [print | email | 3 comments]  
+
+Aspyr offers info, pre-orders on Call of Duty
+Aspyr has posted more information on Call of Duty for the Mac: "In Call of Duty, you get to fight alongside your brothers-in-arms as history comes alive. In momentous battles from D-Day to Stalingrad, youÂ’ll find yourself in incredibly real terrain, caught in breathtaking life and death combat." It features 24 single-player missions, four interconnected campaigns and multiplayer support over the Internet. It will run on Mac OS X 10.2.8 and is available for pre-order for $50. Call of Duty is expected to ship in April is currently at 'first playable' game status. [print | email | comment]  
+
+Morning Edition 
+
+Reindeer Graphics releases Focus Extender 1.0
+Reindeer Graphics has released Focus Extender 1.0, which provides a "simple interface to a powerful technique for blending a stack of images with varying focal depths into a single, in-focus image. Designed to integrate into an automated workflow, Focus Extender is fully recordable, and comes with an example Photoshop action demonstrating its use. With an extensive manual describing its operation, Focus Extender is a user-friendly, yet powerful method for creating extended depth of field images for analysis and measurement." It is available for $500 and runs on Mac OS 9/X. [print | email]  
+
+News from the past week. 
+
+Archived News: 
+Recent Weeks
+ 
+------------
+ 
+- January 18th, 2004
+ 
+- January 11th, 2004
+ 
+- January 4th, 2004
+ 
+- December 28th, 2003
+ 
+- December 21st, 2003
+ 
+- December 14th, 2003
+ 
+- December 7th, 2003
+ 
+- November 30th, 2003
+ 
+
+Archive
+ 
+------------
+ 
+- January 12th, 2004
+ 
+- December 29th, 2003
+ 
+- December 15th, 2003
+ 
+- December 1st, 2003
+ 
+- November 17th, 2003
+ 
+- November 3rd, 2003
+ 
+- October 21st, 2003
+ 
+- October 7th, 2003
+ 
+- September 23rd, 2003
+ 
+- September 9th, 2003
+ 
+- August 26th, 2003
+ 
+- August 12th, 2003
+ 
+- July 29th, 2003
+ 
+- July 15th, 2003
+ 
+- July 1st, 2003
+ 
+- June 17th, 2003
+ 
+- June 3rd, 2003
+ 
+- May 20th, 2003
+ 
+- May 6th, 2003
+ 
+- April 22nd, 2003
+ 
+- April 8th, 2003
+ 
+- March 24th, 2003
+ 
+- March 10th, 2003
+ 
+- February 24th, 2003
+ 
+- February 10th, 2003
+ 
+- January 27th, 2003
+ 
+- January 13th, 2003
+ 
+- December 30th, 2002
+ 
+- December 16th, 2002
+ 
+- December 2nd, 2002
+ 
+- November 18th, 2002
+ 
+- November 4th, 2002
+ 
+- October 22nd, 2002
+ 
+- October 8th, 2002
+ 
+- September 24th, 2002
+ 
+- September 10th, 2002
+ 
+- August 27th, 2002
+ 
+- August 13th, 2002
+ 
+- July 30th, 2002
+ 
+- July 16th, 2002
+ 
+- July 2nd, 2002
+ 
+- June 18th, 2002
+ 
+- June 4th, 2002
+ 
+- May 21st, 2002
+ 
+- May 7th, 2002
+ 
+- April 23rd, 2002
+ 
+- April 9th, 2002
+ 
+- March 25th, 2002
+ 
+- March 11th, 2002
+ 
+- February 25th, 2002
+ 
+- February 11th, 2002
+ 
+- January 28th, 2002
+ 
+- January 14th, 2002
+ 
+- December 31st, 2001
+ 
+- December 17th, 2001
+ 
+- December 3rd, 2001
+ 
+- November 19th, 2001
+ 
+- November 5th, 2001
+ 
+- October 23rd, 2001
+ 
+- October 9th, 2001
+ 
+- September 25th, 2001
+ 
+- September 11th, 2001
+ 
+- August 28th, 2001
+ 
+- August 14th, 2001
+ 
+- July 31st, 2001
+ 
+- July 17th, 2001
+ 
+- July 3rd, 2001
+ 
+- June 19th, 2001
+ 
+- June 5th, 2001
+ 
+- May 22nd, 2001
+ 
+- May 8th, 2001
+ 
+- April 24th, 2001
+ 
+- April 10th, 2001
+ 
+- March 26th, 2001
+ 
+- March 12th, 2001
+ 
+- February 26th, 2001
+ 
+- February 12th, 2001
+ 
+- January 29th, 2001
+ 
+- January 15th, 2001
+ 
+- January 1st, 2001
+ 
+- December 18th, 2000
+ 
+- December 4th, 2000
+ 
+- November 20th, 2000
+ 
+- November 6th, 2000
+ 
+- June 6th, 2000
+ 
+- May 23rd, 2000
+ 
+- May 9th, 2000
+ 
+- April 25th, 2000
+ 
+- December 31st, 1969
+ 
+
+Inside-Hollywood Digital Media Training: Go where the inside-Hollywood studio pros train. Also, immersive preparation for NEW CAREERS in film/video editing, ProTools sound editing, 3D/FX, and DVD.
+
+Apple Laptop Batteries and PDA Batteries: iBook & Powerbook batteries at factory-direct prices. Same-day shipping, 30-day money-back guarantee, and 1-year warranty.
+
+Buy and Sell Used Macs Online: Mac of All Trades buys and sells Used Macs
+
+Royalty Free 3d Animations for Video Editing: You can stop spending your time re-inventing the wheel. Now you can easily and inexpensively add visually stunning backgrounds to your work with the exciting new motion graphics series called Digital Hotcakes. Download a free clip today!
+
+Have your product or service listed here » 
+
+ForumJump
+ 
+--------
+ 
+My Messages
+ 
+User Control
+ 
+Who's Online
+ 
+Forum search
+ 
+Forum Home
+ 
+--------
+ 
+Hardware
+ 
+- Power Mac
+ 
+- PowerBook
+ 
+- iMac/eMac
+ 
+- iBook
+ 
+- Peripherals
+ 
+- Mods
+ 
+Software
+ 
+- Mac OS X
+ 
+- Classic
+ 
+- Software
+ 
+- GUI Stuff
+ 
+- Games
+ 
+- UNIX
+ 
+- Developer
+ 
+Other Topics
+ 
+- Digital A/V
+ 
+- Art/Design
+ 
+- Web Dev
+ 
+- Servers
+ 
+- Networking
+ 
+Community
+ 
+- Lounge
+ 
+- Feedback
+ 
+- Team MacNN
+ 
+- Mkt place
+ 
+
+---------------------------------------------------------------------
+ 
+Advanced / Services
+
+  
+---------------------------------------------------------------------
+
+Ramjet Certified
+   
+    G4 & G5 DDR Kits:
+    512MB - $99, 1Gig - $195. 2Gig - $379
+   
+       G4, iMac PC133 RAM:
+    512MB - $139, 1Gig - $269, 1.5Gig - $399
+   
+       PB G4 Aluminum RAM 
+512MB DIMM $129, 1Gig $599
+   
+1-800-831-4569   	 
+
+Inside-Hollywood Digital Media Training
+Go where the inside-Hollywood studio pros train. Also, immersive preparation for NEW CAREERS in film/video editing, ProTools sound editing, 3D/FX, and DVD.
+
+Apple Laptop Batteries and PDA Batteries
+iBook & Powerbook batteries at factory-direct prices. Same-day shipping, 30-day money-back guarantee, and 1-year warranty.
+
+Buy and Sell Used Macs Online
+Mac of All Trades buys and sells Used Macs
+
+Advertise here »        	        
+ 	
+
+Recent Headlines
+
+Forums: 15" screen problems; G5 speed bump; OmniWeb
+
+P-Edge announces GSC for SWJK: Jedi Academy
+
+Sony posts beta of Panther-compatible Puppy Suite
+
+GarageBand helps users make political statements
+
+Apple denys enterprise move, makes compelling case
+
+'Red tape' delays European iTunes Music Store
+
+CNN: The Mac turns 20 (today)
+
+KB: Safari autofill, Mac OS X 10.3.2, reset the iPod
+
+Apps: DejaMenu, GameRanger, ViewRemote, MacLoggerDX..
+
+Vicomsoft supports Panther, debuts SuperIntendent
+
+Aspyr releases Star Wars Jedi Knight demo
+
+MakeMusic! ships SmartMusic Studio 8.2 for Mac OS X
+
+New multiport Gigabit Etherent PCI cards for G5s
+
+Aspyr offers info, pre-orders on Call of Duty
+
+Reindeer Graphics releases Focus Extender 1.0
+
+Apple talks G5 Xserve, enterprise with Serverpipeline
+
+Badia releases XTensions with Quark 6, OS X support
+
+Pepsi iTunes ad to feature teens sued by RIAA
+
+RTAS upgrade path for SFX Machine RT offered
+
+Mac wireless drivers for third-party wireless cards
+
+Font Doctor 6.0 offers a simplified interface
+
+Sonnet ships 1GHz Encore/ZIF G4 for Power Mac G3s
+
+Griffin delays RadioSHARK orders until April
+
+NASA Langley releases TetrUSS for Mac OS X Panther
+
+eMedia offers value-priced music instruction software
+
+No Starch Press releases 'Apple Confidential 2.0'
+
+Scheduler 4.0 adds new search, hotkey support
+
+OWC offers Mercury G4/450-533MHz ZIF upgrade
+
+Melodyne 2.1 audio app supports G5, Panther
+
+Apps: Smart Folders, FinderScape, Fluid, JustLookin'
+
+Apple's 1984 among 'Super Bowl Greatest Commericals'
+
+Ovolab Phlink 1.2 adds personalized ringtone support
+
+Infoworld: Office 2004 for Mac lags in XML support
+
+Apple offers custom RSS feeds from iTunes Music Store
+
+G4 installed into Tatra 613 car for GPS, audio...
+
+Wine XT 1.7 offers wine cellar management functions
+
+KB: iDVD with non-SuperDrives; GarageBand performance
+
+CodeTek offers new VirtualDesktop 3.0 beta, pricing
+
+MacDevCenter offers tutorial on Encrypted Mail
+
+Tech: 'Net voting; RIAA lawsuits; MS settlement
+
+Xserve cluster used in Australian government
+
+Apple offers Keynote discount, themes to .Mac members
+
+Apps: Kismac, ABFR, StreamLogger, IMGCarver, AutoCat
+
+Matas releases "iPod Minis" icon set
+
+DayLite Seminars at the Apple Store
+
+Photo/Graphic Edges 6.0 released
+
+MacGIMP offers pre-compiled GIMP 2.0pre
+
+Aspyr releases demo of Wakeboarding Unleashed
+
+Intelli Innovations offers IntelliScanner OCR Pen
+
+ShapeShifter 1.1 updates theme application for OS X
+
+Desktop Headlines 	
+ 	 
+Contact Us: News Tips | About/Advertising | Feedback 
+
+XML | RSS | Slim | Avantgo | Mobile/PDAs | Headlines | JavaScript Feed 
+Desktop Headlines | Search | Archives Please support MacNN: 
+         
+Copyright ©1995-2003 Mac News Network. All rights reserved. Privacy Policy 	
+
+ 	 
+

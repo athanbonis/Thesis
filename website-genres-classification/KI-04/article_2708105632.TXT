@@ -1,0 +1,143 @@
+
+
+Fuzzy Logic Overview
+
+---------------------------------------------------------------------
+
+I've seen a lot of confusion in the first few articles posted to this newsgroup about what, exactly, fuzzy logic is. Since I've been working in the field for five years, I thought I'd help get things started by posting some introductory material. This article covers the question "What is Fuzzy Logic?" from a mathematical point of view. Succeeding articles will cover the questions "What is a Fuzzy Expert System?" and "What is Fuzzy Control?". 
+
+Warning: If you're not already familiar with fuzzy logic, you're going to see a lot of new terms defined in this article. I'll try to put _underscores_ around terms that are likely to be new. You may need to read it a few times, just to pick up all the terms. 
+
+---------------------------------------------------------------------
+
+What is Fuzzy Logic?
+
+Fuzzy logic is a superset of conventional (Boolean) logic that has been extended to handle the concept of partial truth - truth values between "completely true" and "completely false". It was introduced by Dr. Lotfi Zadeh of U.C. Berkeley in the 1960's. 
+
+---------------------------------------------------------------------
+
+Fuzzy Subsets
+
+There is a strong relationship between Boolean logic and the concept of a subset. There is a similar strong relationship between fuzzy logic and fuzzy subset theory (Note: there is no fuzzy set theory, as far as I am aware - only a fuzzy subset theory). 
+
+A subset U of a set S can be defined as a set of ordered pairs, each with a first element that is an element of the set S, and a second element that is an element of the set { 0, 1 }, with exactly one ordered pair present for each element of S. This defines a mapping between elements of S and elements of the set { 0, 1 }. The value zero is used to represent non-membership, and the value one is used to represent membership. The truth or falsity of the statement 
+
+x is in U
+
+is determined by finding the ordered pair whose first element is x. The statement is true if the second element of the ordered pair is 1, and the statement is false if it is 0. 
+
+Similarly, a fuzzy subset F of a set S can be defined as a set of ordered pairs, each with a first element that is an element of the set S, and a second element that is a value in the interval [ 0, 1 ], with exactly one ordered pair present for each element of S. This defines a mapping between elements of the set S and values in the interval [ 0, 1 ]. The value zero is used to represent complete non-membership, the value one is used to represent complete membership, and values in between are used to represent intermediate _degrees of membership_. The set S is referred to as the _universe of discourse_ for the fuzzy subset F. Frequently, the mapping is described as a function, the _membership function_ of F. The degree to which the statement 
+
+x is in F
+
+is true is determined by finding the ordered pair whose first element is x. The _degree of truth_ of the statement is the second element of the ordered pair. 
+
+That's a lot of mathematical baggage, so here's an example. Let's talk about people and "tallness". In this case the set S (the universe of discourse) is the set of people. Let's define a fuzzy subset TALL, which will answer the question "to what degree is person x tall?" To each person in the universe of discourse, we have to assign a degree of membership in the fuzzy subset TALL. The easiest way to do this is with a membership function based on the person's height.
+
+[erik - I hope this notation is clear]
+
+tall(x) = { 0,                     if height(x) < 5 ft.,
+                (height(x)-5ft.)/2ft., if 5 ft. <= height (x) <= 7 ft.,
+                1,                     if height(x) > 7 ft. }
+
+A graph of this looks like: 
+
+Warning: put on your peril-sensitive sunglasses. Bad ASCII graphics follow! 
+
+1.0 +                   +-------------------
+    |                  /
+    |                 /
+0.5 +                /
+    |               /
+    |              /
+0.0 +-------------+-----+-------------------
+                  |     |
+                 5.0   7.0
+
+height, ft. ->
+
+Given this definition, here are some example values: 
+
+Person    Height    degree of tallness
+--------------------------------------
+Billy     3' 2"     0.00 [I think]
+Yoke      5' 5"     0.21
+Drew      5' 9"     0.38
+Erik      5' 10"    0.42
+Mark      6' 1"     0.54
+Kareem    7' 2"     1.00 [depends on who you ask]
+
+So given this definition, we'd say that the degree of truth of the statement "Drew is TALL" is 0.38. 
+
+Note: Membership functions almost never have as simple a shape as tall(x). At minimum, they tend to be triangles pointing up, and they can be much more complex than that. Also, I've discussed membership functions as if they always are based on a single criterion, but this isn't always the case, although it is the most common case. One could, for example, want to have the membership function for TALL depend on both a person's height and their age (he's tall for his age). This is perfectly legitimate, and occasionally used in practice. It's referred to as a two-dimensional membership function. It's also possible to have even more criteria, or to have the membership function depend on elements from two completely different universes of discourse. 
+
+---------------------------------------------------------------------
+
+Logic Operations
+
+Ok, we now know what a statement like
+
+X is LOW
+
+means in fuzzy logic. The question now arises, how do we interpret a statement like 
+
+X is LOW and Y is HIGH or (not Z is MEDIUM)
+
+The standard definitions in fuzzy logic are: 
+
+truth (not x)   = 1.0 - truth (x)
+    truth (x and y) = minimum (truth(x), truth(y))
+    truth (x or y)  = maximum (truth(x), truth(y))
+
+which are simple enough. Some researchers in fuzzy logic have explored the use of other interpretations of the AND and OR operations, but the definition for the NOT operation seems to be safe. Note that if you plug just the values zero and one into these definitions, you get the same truth tables as you would expect from conventional Boolean logic. 
+
+Some examples - assume the same definition of TALL as above, and in addition, assume that we have a fuzzy subset OLD defined by the membership function: 
+
+old (x) = { 0,                      if age(x) < 18 yr.
+                (age(x)-18 yr.)/42 yr., if 18 yr. <= age(x) <= 60 yr.
+                1,                      if age(x) > 60 yr. }
+
+And for compactness, let 
+
+a = X is TALL and X is OLD
+    b = X is TALL or X is OLD
+    c = not X is TALL
+
+Then we can compute the following values. 
+
+height  age     X is TALL       X is OLD        a       b       c
+------------------------------------------------------------------------
+3' 2"   65?     0.00            1.00            0.00    1.00    1.00
+5' 5"   30      0.21            0.29            0.21    0.29    0.79
+5' 9"   27      0.38            0.21            0.21    0.38    0.62
+5' 10"  32      0.42            0.33            0.33    0.42    0.58
+6' 1"   31      0.54            0.31            0.31    0.54    0.46
+7' 2"   45?     1.00            0.64            0.64    1.00    0.00
+3' 4"   4       0.00            0.00            0.00    0.00    1.00
+
+---------------------------------------------------------------------
+
+Where is Fuzzy Logic Used?
+
+Directly, very few places. The only pure fuzzy logic application I know of is the Sony PalmTop, which apparently used a fuzzy logic decision tree algorithm to perform handwritten (well, computer lightpen) Kanji character recognition. 
+
+The only common use of fuzzy logic, to my knowledge, is as the underlying logic system for fuzzy expert systems, which will be the subject of the next article in this series, titled "What is a Fuzzy Expert System?". 
+
+Whew. A lot of words, wasn't it? 
+
+---
+Erik Horstkotte, Togai InfraLogic, Inc.
+The World's Source for Fuzzy Logic Solutions (The company, not me!)
+erik@til.com, gordius!til!erik - (714) 975-8522
+info@til.com for info, fuzzy-server@til.com for fuzzy mail-server
+
+---------------------------------------------------------------------
+WebMina@austinlinks.com
+
+© 2000 SiteTerrific Web Solutions. All rights Reserved 
+
+ 
+
+ 
+
+

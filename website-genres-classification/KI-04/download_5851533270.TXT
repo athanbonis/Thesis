@@ -1,0 +1,109 @@
+© Copyright 2004 ATI Technologies Inc. terms | privacy policy | about this site | print this page   --> 
+    
+
+}          function formHandler(form){     var URLcountry = document.form.site.options[document.form.site.selectedIndex].value;     document.location.href = URLcountry;    }   // -->              	
+    
+    Home         Company Info         Contact ATI         Careers           Investors         Developers         Get in the game  	           
+International
+   
+Canada/U.S.
+   
+China
+   
+France
+   
+Germany
+   
+Hong Kong
+   
+Japan
+   
+Latin America
+   
+Russia
+   
+Singapore
+   
+Taiwan
+   
+U.K.
+   
+  	  Search:	                                	
+ 	
+    
+  	      	   	 
+ 	
+
+ 	      
+   	    
+       Register your Product
+
+Find a Driver
+
+FAQ
+
+Product Identification
+
+Product Information
+
+Product Manuals
+
+Buy Accessories and Software
+
+Trade-Up Program
+
+Warranty Service
+
+Contact Customer Care
+
+Partner List
+
+ 	 
+  	 	   
+    	  
+   	     Please select your operating system, the software you wish to download, and product.
+ 
+     
+    
+Windows XP
+ 
+Windows ME
+ 
+Windows 2000
+ 
+Windows 98
+ 
+Windows NT
+ 
+Mac OS
+ 
+Linux
+ 
+    	        
+
+ 	     
+
+ 	       
+    	     
+    	   
+  	  
+
+ 	        
+   	     
+    
+    
+
+ 	   
+     
+   	    
+  
+
+ 	  
+     	
+ 
+  
+---------------------------------------------------------------------
+
+ © Copyright 2004 ATI Technologies  Inc.	   	  terms  |  privacy policy  |  about this site  |  print this page	 
+   	 
+ 

@@ -1,0 +1,99 @@
+
+
+Architecture and Design: Unified Modeling Language (UML)
+
+---------------------------------------------------------------------
+Intro 
+"The Unified Modeling Language (UML) is a language for specifying, constructing, visualizing, and documenting the artifacts of a software-intensive system. First and foremost, the Unified Modeling Language fuses the concepts of Booch, OMT, and OOSE. The result is a single, common, and widely usable modeling language for users of these and other methods. Second, the Unified Modeling Language pushes the envelope of what can be done with existing methods. As an example, the UML authors targeted the modeling of concurrent, distributed systems to assure the UML adequately addresses these domains. Third, the Unified Modeling Language focuses on a standard modeling language, not a standard process. Although the UML must be applied in the context of a process, it is our experience that different organizations and problem domains require different processes. (For example, the development process for shrink-wrapped software is an interesting one, but building shrink-wrapped software is vastly different from building hard-real-time avionics systems upon which lives depend.) Therefore, the efforts concentrated first on a common metamodel (which unifies semantics) and second on a common notation (which provides a human rendering of these semantics). The UML authors promote a development process that is use-case driven, architecture centric, and iterative and incremental. The UML specifies a modeling language that incorporates the object-oriented community's consensus on core modeling concepts. It allows deviations to be expressed in terms of its extension mechanisms." (from UML Summary, Version 1.3) 
+Contents 
+Start here Examples Fun Central Sites Related Sites Link Collections Search Tutorials FAQs Glossaries References Standards Forums Mailing Lists General Articles Special Articles Interoperability Bibliographies Books Magazines Organizations People Conferences / Workshops Utilities / Tools Contests  Other Resources 
+Other pages 
+OOAD Methods OOAD Tools Architecture & Design: General Info Frameworks Patterns 
+
+---------------------------------------------------------------------
+Start here 
+Applying the Unified Modeling Language (Sinan Si Alhir) OO Analysis and Design Using UML (Ratio Group) Standardization and the UML (Martin Fowler) Succeeding with the Unified Modeling Language (Sinan Si Alhir) The Foundation of the Unified Modeling Language (Sinan Si Alhir) 
+The UML - Two Year After Adoption of the Standard (Sinan Si Alhir) UML 2001: A Standardization Odyssey (C. Kobryn) UnderstandingTheUML (Sinan Si Alhir.) What Is OMG-UML and Why Is It Important? (OMG) What is the Unified Modeling Language (Sinan Si Alhir) 
+Examples 
+Structuring Specification of Business Systems with UML (Navision Software) Using UML for Modeling a Distributed Java Application (Klaus Bergner et al.) 
+Fun 
+Test your UML IQ! (ICONIX) 
+Central Sites 
+Resource Center (Rational Software) UML Resource Page (OMG) UML Revision Task Force 
+Related Sites 
+Advanced Analysis and Design with UML (Conrad Bock) La Boîte à Objets [French] (Ronald GUÉGAN & Stéphane MANHES) Sinan Si Alhir's Web Site (Sinan Si Alhir) Techniques for Object Oriented Analysis and Design (Martin Fowler) The Object Constraint Language (IBM) UML Center (CA / Former Platinum Technology) UML Italia Centro di Competenza [Italian] (Tecnet Dati) UML Resource Center (Software Development) UML worldwide (Rational Software) Unified Modeling Language [Italian] (Adriano Comai) Unified Modeling Language [German] (Mario Jeckle) Unified Modeling Language [German] (Bernd Oestereich) Use Case Maps (Use Case Maps User Group) Use Case Zone (Andy Pols) XML Metadata Interchange [German] (Mario Jeckle) UML Zone (DevX) 
+Link Collections 
+UML (Cris Kobryn) UML (Open Directory) UML Technology Briefing Press Kit (OMG) XMI Specification Press Kit (OMG) 
+Search 
+Search UML 1.3 (Rational Software) 
+Tutorials 
+CD: Inside the UML (Rational Software) CD: Mastering UML with Rational Rose (ICONIX) OO Modellieren mit UML und Realisation mit Java [German] (Andreas Rittershofer) CURSO ANÁLISIS Y DISEÑO ORIENTADO A OBJETOS USANDO UML [Spanish] UML Tutorial: Complex Transitions (PDF; Robert C. Martin) 
+FAQs 
+FAQ (UML Zone) UML FAQs (Microgold) UML FAQs (Rational Software) UML Q & A (OMG) 
+Glossaries 
+Glossary of XMI-Related Acronyms (OMG) UML auf gut Deutsch [German] (System Bauhaus) Unified Modeling Language Dictionary (Kendall Scott) (UML) 
+References 
+UML Official Specification Documents [German] (Mario Jeckle) UML Specification (OMG) UML Documentation (Rational Software) 
+Standards 
+Object Management Group (OMG)
+ Object Management Group (OMG) Action Semantics for UML RFP (OMG) Analysis and Design Platform Task Force (OMG) OMG Technology Adoptions: Analysis and Design Platform Task Force (OMG) 
+
+Forums 
+Discussion Groups (Software Methods & Tools) UML Café (Rational Software) 
+Mailing Lists 
+GOOAL: German Object Oriented Association Linkage [German] (Mario Jeckle) Mailing Lists - (UML Revision Task Force) 
+General Articles 
+Design-Wettbewerb Objekt-Spektrum [German]- (Susanne Strahringer, Bernd Oestereich) Extending the UML (Sinan Si Alhir) How the UML Models Fit Together - (Software Development magazine) OO Geschäftsprozeßmodellierung mit der Unified Modeling Language [German]- (Bernd Oestereich) Reuse and the UML (Sinan Si Alhir) The UML v1.1 and Beyond: The Techniques of Object-Oriented Modeling (AmbySoft) The Unified Modeling Language Takes Shape (DBMS) UML Extension Mechanisms (PDF; Sinan Si Alhir) UML gains ground (Application Development Trends) UML Misses the Boat (David C. Hay) UML Modeling (Popkin Software & Systems) The true value of the UML (PDF; Sinan Si Alhir) The Unified Modeling Language - (Magnus Penker) UML and Communication through the Life Cycle - (Software Development magazine) UML can save your next project (DevX) UML en francais (Free.fr) ViewPoint: UML Certification? (Objects by Design) Who Can Handle How Much Abstraction? [German] (Peter Hruschka) Why UML and Java? (Steve Downey) Why Use the UML? - (Software Development magazine) UML - Part I, What is the UML, Booch, OMT, and OOSE (LAN Times Magazine) UML - Part II, UML Notation - Case, Sequence, and Collaboration Diagrams (LAN Times Magazine) UML - Part III, UML Notation-Class, Object, State, and Activity Diagrams (LAN Times Magazine) UML - Part IV, UML Notation-Packages, Component Diagrams, and Deployment Diagrams (LAN Times Magazine) 
+Special Articles 
+Articles Collections
+ publications::articles (Object Mentor) UML publications (Mario Jeckle) UML White Papers (Rational Software) 
+OCL - Object Constraint Language
+ The Object Constraint Language (IBM) 
+Real Time
+ Designing Real-Time Systems With UML-Part I (i-Logix) Designing Real-Time Systems With UML-Part II (i-Logix) Designing Real-Time Systems With UML-Part III (i-Logix) Real-Time Extensions to UML (Dr. Dobb's Journal) The Object Constraint Language - (BoldSoft) UML for Real-Time - (ObjecTime) UML for Real-Time Overview - (Andrew Lyons) 
+Use Cases
+ Papers (Andy Pols) White Papers - (UseCaseHelp.com) A Critique of Use Cases (Yonat Sharon) Advanced Use Case Modeling - (Bernd Oestereich) A Hierarchical Use Case Model with Graphical Representation - (Bjorn Regnell et al.) An Introduction to Use Case Analysis - (Castek) A Survey of Approaches For Describing and Formalizing Use Cases (Expertech) A Use Cases FAQ (Chandra Vemulapalli) A Use Case Template: - (Hewlett-Packard Software Initiative) Basic references on Use Cases (U. of Nantes) Basic Use Case Template (Alistair Cockburn) Be Careful With "Use Cases" (Edward V. Berard) Configucring A Use Case Process - (Timothy Korson) Constructing Useful Use Cases - (Software Architects) Contributions to the first Workshop on Use Cases / OOPSLA '95 (Jean Bézivin) Four Roads to Use Case Discovery (Gary A. Ham) Functional Requirements and Use Cases (Dana Bredemeyer) Integrating Business Processes, Workflows, and Object Models via Use Cases - (Proforma) The Misuse of Use Cases - (Timothy Korson) OOSC2: The Use Case Principle (Bertrand Meyer) Optimizing Rose to Support Use Case Driven Object Modeling (Doug Rosenberg and Kendall Scott) Order-Dependency Between Use Cases (Yonat Sharon) Requirements Patterns via Events / Use Cases (Suzanne Robertson) Structuring Use Cases with Goals (Alistair Cockburn) Managing Requirements
+ The Misuse of Use Cases - (Software Architects) Configuring A Use Case Process - (Software Architects) 
+The Roles of Use Cases in Analysis (Daniel A. Rawsthorne) The Three R's of Use Case Formalisms: Realization, Refinement, and Reification (R. R. Hurlbut) 7 tips for writing better use cases - (M. Ratjens) UML Use Case Diagrams (Robert C. Martin) Use Case Fundamentals (Alistair Cockburn) Use Case Modelling (Edward Kenworthy) Use Cases (Martin Fowler) Use Cases: Challenges in Their Use - (Castek) Use Cases Combined With Booch/Omt/Uml : Process and Products (P. P. Texel, C. B. Williams) Use Cases vs Requirements vs Attributes/Methods (Yonat Sharon) When Are Use Cases Done? (Yonat Sharon) Why Are Use Cases So Painful? (Gary K. Evans) 
+XMI - XML Metadata Interchange Format
+ An Overview to the XMI - XML Metadata Interchange Specification (OMG) Transforming XMI to HTML, Part 1 (Objects by Design) Transforming XMI to HTML, Part 2 (Objects by Design) XMI, the XML Metadata Interchange Format (OMG) 
+Others
+ A Comparison of the Business Object Notation and the Unified Modeling Language (Richard F. Paige and Jonathan S. Ostroff) Analyse und Bewertung der Modellierungskonzepte zur Struktur- und Verhaltensmodellierung der UML [German] (Joerg Graf) Applying Design Patterns in UML (Rose Architect) Association, Aggregation and Composition (Yonat Sharon) A UML Testing Framework (Software Development magazine) Concepts for Simpler Design (Software Development magazine) Deciphering the UML (Rose Architect) Design Java Apps with UML (Fawcette Technical Publications) Extended Specification of Composite Objects in UML (SIGS) Java and UML (Fawcette Technical Publications)
+ Java and UML (Fawcette Technical Publications) Archetypes, Color, and the Domain-Neutral Component (Peter Coad) Make or Buy (Peter Coad) Sell (Peter Coad) Relate (Peter Coad) Coordinate and Support (Peter Coad) Feature-Driven Development (Peter Coad) 
+Modeling Web Application Design with UML (Rational Software) Persistence Modeling in the UML (Software Development magazine) Quantifying Quality in Your OO Models   (Brian G. Lyons) Sage: Generating Applications with UML and Components (Nathan Dykman) Software-platform-independent, Precise Action Specifications for UML (Stephen J. Mellor et al.) Tracing Your Design (Software Development magazine) UML 1.1 vs. MWOOD 0.9 (Christian Demmer) UML vs. MWOOD- I (Christian Demmer) UCMs and UML (Use Case Maps User Group) UML Deployment Modeling and Beyond (Software Development magazine) Why UML without SDL Cannot Get Real-Time Right (Telelogic) Wohin mit den Funktionen im Objektmodell? [German] (Peter Hruschka) Towards a UML Profile for a Relational Persistence Model   (Scott W. Ambler) 
+
+Interoperability 
+UML Exchange Format & Pattern Markup Language (Junichi Suzuki) 
+Bibliographies 
+The UML Bibliography (Mark Richters) 
+Books 
+Recommended reading (Rational Software) Complete UML Training Course (Grady Booch, James Rumbaugh, Ivar Jacobson) The UML Reference Manual (James Rumbaugh et al.) The UML User Guide (Grady Booch et al.) Advanced OO Analysis and Design Using UML (James J. Odell, Martin Fowler) Applying UML and Patterns : An Introduction to OO Analysis and Design (Craig Larman)
+ Applying UML and Patterns : An Introduction to OO Analysis and Design (Craig Larman) Book Review (Objects by Design) 
+Applying Use Cases : A Practical Guide (Geri Schneider et al.) A UML Pattern Language (Paul Evitts) Business Modeling With UML Business Patterns and Business Objects (Magnus Penker, Hans Erik Eriksson) Building Object Applications That Work (Scott W. Ambler) Building Web Applications with UML (Conallen Jim, Jim Conallen) Classical and OO Software Engineering : With UML and C++ (Stephen R. Schach) Database Design for Smarties: Using UML for Data Modeling (Robert J. Muller) Designing Flexible OO Systems with UML (Charles F. Richter) Designing Object-Oriented C++ Applications Using Uml (Robert Cecil Martin) Developing Applications With Visual Basic and Uml (Paul R. Jr. Reed) Developing Software with UML (Bernd Oestereich) Doing Hard Time: Developing Real-Time Systems with UML, Objects, Frameworks and Patterns (Bruce Powel Douglass) Enterprise Modeling with UML: Designing Successful Software through Business Analysis (Chris Marshall) Fundamentals of OO Design in UML (Meilir Page-Jones) Instant UML (Pierre-Alain Muller) Iterative UML Development Using Visual Basic 6.0 (Patrick Sheridan, Jean M. Sekula) Iterative UML Development Using Visual C++ 6.0 (Patrick Sheridan, Jean M. Sekula) Java Modeling In Color With UML: Enterprise Components and Process (Peter Coad, Eric Lefebvre, Jeff De Luca) Lehrbuch der Objektmodellierung. Analyse und Entwurf [German] (Heide Balzert) Mastering UML with Rational Rose (Wendy Boggs, Michael Boggs) Monster C++:An Introduction to OO Programming Using C++ & the UML (Michael S. Sandberg et al.) Objects, Components and Frameworks With UML : The Catalysis Approach (Desmond F. D'Souza et al.) Objektorientierte Prozeßmodelle. UML einsetzen mit OOTC, V- Modell, Objectory [German] (Gunter Müller-Etrich) Objektorientierte Softwareentwicklung [German] (Bernd Oestereich) Objektorientierte Softwareentwicklung mit der UML [German] (Horst A. Neumann) OO Methods : A Foundation : UML Edition (James Martin, James J. Odell) OO Project Management with UML (Murray Cantor) Oracle8 Design Using UML Object Modeling (Paul Dorsey et al.) Patterns in Java : A Catalog of Reusable Design Patterns Illustrated With Uml (Mark Grand) Professional Asp Uml (James Conallen et al.) Real-Time UML : Developing Efficient Objects for Embedded Systems (Bruce Powel Douglass) Sams Teach Yourself Uml in 24 Hours (Joseph Schmuller) Software- Entwicklung mit UML. Objektorientierte Modellierung mit Beispielen in Java [German] (J. Seemann, Jürgen Wolff von Gudenberg) The UML (M. Schader, A. Korthaus) The UML : Technical Aspects and Applications (by Martin Schader, A. Korthaus) The Object Constraint Language : Precise Modeling With UML (Jos B. Warmer, Anneke G. Kleppe) The UML : UML '98 : Beyond the Notation (J. Bezivin, Pierre-Alain Muller) The Unified Software Development Process (Ivar Jacobson et al.) Tried and True Object Development : Industry-Proven Approaches With UML (Ari Jaaksi et al.) UML and C++ : A Practical Guide to OO Development (Richard C. Lee) UML Distilled : Applying the Standard Object Modeling Language (Martin Fowler et al.) UML Distilled, Second Edition: A Brief Guide to the Standard Object Modeling Language (Martin Fowler, Kendall Scott) UML for Visual Basic 6.0 Developers: Using Visual Modeler and Rational Rose 98 (Paul Harmon, Brian Sawyer) UML in a Nutshell : A Desktop Quick Reference (Sinan Si Alhir, Andy Oram) UML. Objektorientierte Entwicklung in der Praxis [German] (M. Thron) UML Toolkit (Hans-Erik Eriksson, Magnus Penker) UML. UML. Objektorientierte Modellierung für die Praxis [German] (Rainer Burkhardt) UML Workshop [German] (Hitz) Understanding UML : The Developer's Guide : With a Web-Based Application in Java (Paul Harmon, Mark Watson) Unified Software Development Process (Ivar Jacobson, Grady Booch, James Rumbaugh) Use Case Driven Object Modeling with UML: A Practical Approach (Doug Rosenberg, Kendall Scott) Use Cases Combined With Booch/Omt/UML : Process and Products (Putnam P. Texel, Charles B. Williams) Use Cases: Requirements in Context   (Daryl Kulak, Eamonn Guiney) Using UML : Software Engineering With Objects and Components (Rob Pooley et al.) VB6 UML Design and Development (Jake Sturm) Visual Modeling With Rational Rose and UML (Terry Quatrani) Object-Oriented Software Engineering: Practical Software Development using UML and Java (Tim Lethbridge, Robert Laganière) 
+Magazines 
+Rose Architect (Rational Software) 
+Organizations 
+Object Management Group (OMG) The precise UML group UML Revision Task Force (OMG) 
+People 
+Grady Booch (Rational Software) Dr. Ivar Jacobson (Rational Software) Philippe Kruchten (Rational Software) Dr. James Rumbaugh (Rational Software) UML Revision Task Force (OMG) 
+Conferences / Workshops 
+<<UML 2000>>, <<UML 99>>, <<UML 98>> UML World: 2000,   1999 Anwendung von objektorientierten Entwicklungsstrategien und deren Unterstützung durch Vorgehensmodelle: 1998 [German] Einsatz, Bewertung und Stand der Unified Modeling Language: 1997 Formalizing UML. Why? How?: 1998 OO Behavioral Semantics: 1997 Precise Behavioral Semantics: 1998 Precise Semantics for OO Modeling Techniques: 1997 Precise Semantics for Software Modeling Techniques: 1998 RAK : 2000 [German] (Rational Anwender-Konferenz) Rigorous Modeling and Analysis with the UML: Challenges and Limitations UML'98: Beyond the Notation UML - Erweiterungen und Konzepte der Metamodellierung: 2000 [German] (Profile) Using UML in the Design of Software Architectures: 1999 WoSEF : 2000 (Workshop on Standard Exchange Format) 
+Utilities / Tools 
+See also: Cetus Links page OOAD Tools Choosing a UML Modeling Tool (Objects by Design) UML OOAD Tools (Valtech) UML Products by Company (Objects by Design) UML Tools (Mario Jeckle) UML-Tools (Bernd Oestereich) 
+Contests  
+Object-oriented Real-Time Modeling Contest 
+Other Resources 
+Artifacts (UML Revision Task Force) Component Data Book Library (ATA) The UML Poster (PLATINUM technology) UML for Java (Osvaldo Pinali Doederlein) UML Quick Reference for Rational Rose (Rational Software) UML Reference Card (Allen I. Holub) Unified Modeling Language Notationsübersicht (Bernd Oestereich) [German] (UML) Objects by Design (objectsbydesign.com) 
+
+---------------------------------------------------------------------
+Home  Mirrors/Hosts  What´s New?  Most Wanted  About Cetus  Cetus Team  Legal Download  Suggest  Moved/Broken  Feedback  URL-Minder  Link to Cetus 
+
+---------------------------------------------------------------------
+
+Search www.cetus-links.org	 
+Any	 	  Extended Search 	
+
+---------------------------------------------------------------------
+Copyright © 1996-2002 by Cetus Team Page maintained by Amit Bhagwat Last revision: 2003-Jan-10 09:02:17 (GMT) 
+---------------------------------------------------------------------
+

@@ -1,0 +1,72 @@
+
+
+OSMAN BALCI
+ Professor
+
+Department of Computer Science
+ 660 McBryde Hall, MC 0106
+ Virginia Tech
+ Blacksburg, Virginia 24061, USA
+ 
+(540) 231-4841 Tel
+ balci@vt.edu
+ (540) 231-6075 Fax
+ http://manta.cs.vt.edu/balci	 
+Education: 
+
+* Ph.D. (1981) and M.S. (1978), Syracuse University 
+* M.S. (1977) and B.S. (1975), Bogazici University 
+Areas of Expertise: 
+
+* Software Engineering 
+* E-Systems Engineering (e.g., e-solutions, e-business, e-commerce) 
+* Modeling and Simulation (M&S) 
+* VV&A, IV&V, certification, and quality assessment of M&S applications, software systems, and complex systems. 
+
+Selected Courses Taught: 
+
+* CS5704 Software Engineering 
+* CS4704 Software Engineering 
+* CS3704 Intermediate Software Design and Engineering 
+* CS5224 Systems Simulation 
+* CS4214 Simulation and Modeling 
+
+Selected Research Grants and Contracts: 
+
+Naval Surface Warfare Center Dahlgren Division (NSWCDD):	 
+2002 - 2003	 Missile Defense Agency (MDA): Modeling and Simulation (M&S) Verification, Validation, and Accreditation (VV&A); Software Independent Verification and Validation (IV&V); System IV&V	 
+2002 - 2003	 MDA Ground-based Midcourse Defense (GMD): M&S VV&A; Software IV&V; System IV&V	 
+2001 - 2002	 U.S. Navy DD21: Software Certification	 
+1998 - 2002	 National Missile Defense (NMD): M&S VV&A; Software IV&V; System IV&V	 
+Defense Modeling and Simulation Office (DMSO)	 
+1996 - 1997	 Verification, Validation and Accreditation (VV&A) Technical Support	 
+Naval Research Laboratory (NRL):	 
+1995 - 1996	 Visual Simulation Environment	 
+
+Selected Professional Activities:
+
+07/02 - present	 Director at Large for the Society for Modeling and Simulation International (SCS) Board of Directors	 
+01/99 - present	 Member of the Winter Simulation Conference Board of Directors representing the Society for Modeling and Simulation International	 
+03/90 - present	 VV&A Area Editor, ACM Transactions on Modeling and Computer Simulation	 
+04/85 - present	 Simulation and Modeling Category Editor, ACM Computing Reviews	 
+09/93 - 12/02	 Editor-in-Chief, Annals of Software Engineering, an international journal	 
+08/96 - 12/00	 Editor-in-Chief, World Wide Web, an international journal	 
+
+Selected Awards and Honors: 
+
+* Member of: Upsilon Pi Epsilon, Alpha Pi Mu, and Sigma Xi. 
+* Virginia Tech College of Arts and Sciences Certificate of Teaching Excellence, 1993 
+* Virginia Tech Department of Computer Science Teaching Excellence Award, 1988, 1991, 1992 
+Selected Publications: 
+
+1.  Osman Balci (2003), &#8220;Verification, Validation, and Certification of Modeling and Simulation Applications,&#8221; In Proceedings of the 2003 Winter Simulation Conference (New Orleans, LA, Dec. 7-10). IEEE, Piscataway, NJ, pp. 150-158. 
+2.  Osman Balci, Richard E. Nance, James D. Arthur, and William F. Ormsby (2002), &#8220;Expanding Our Horizons in VV&A Research and Practice,&#8221; In Proceedings of the 2002 Winter Simulation Conference (San Diego, CA, Dec. 8-11). IEEE, Piscataway, NJ, pp. 653-663. 
+3.  Osman Balci and Said D. Saadi (2002), &#8220;Proposed Standard Processes for Certification of Modeling and Simulation Applications,&#8221; In Proceedings of the 2002 Winter Simulation Conference (San Diego, CA, Dec. 8-11). IEEE, Piscataway, NJ, pp. 1621-1627. 
+4.  Osman Balci (2001), &#8220;A Methodology for Certification of Modeling and Simulation Applications,&#8221; ACM Transactions on Modeling and Computer Simulation, Vol. 11, No. 4 (Oct.), 352-377. 
+5.  Osman Balci, William S. Gilley, Robin J. Adams, Emre Tunar, and N. Dwight Barnette (2001), &#8220;Animations to Assist Learning Some Key Computer Science Topics,&#8221;ACM Journal on Educational Resources in Computing (JERIC), Vol. 1, No. 2 (Summer). 
+6.  Osman Balci and William F. Ormsby (2000), &#8220;Well-Defined Intended Uses: An Explicit Requirement for Accreditation of Modeling and Simulation Applications,&#8221; In Proceedings of the 2000 Winter Simulation Conference (Orlando, FL, Dec. 10-13). IEEE, Piscataway, NJ, pp. 849-854. 
+7.  Osman Balci, William F. Ormsby, John T. Carr, III and Said D. Saadi (2000), &#8220;Planning for Verification, Validation, and Accreditation of Modeling and Simulation Applications,&#8221; In Proceedings of the 2000 Winter Simulation Conference (Orlando, FL, Dec. 10-13). IEEE, Piscataway, NJ, pp. 829-839. 
+8.  Osman Balci (1998), &#8220;Verification, Validation, and Testing&#8221;, In The Handbook of Simulation, J. Banks, Editor, John Wiley & Sons, New York, NY, August, Chapter 10, pp. 335-393. 
+9.  Osman Balci (1997), &#8220;Principles of Simulation Model Validation, Verification, and Testing,&#8221; Transactions of the Society for Computer Simulation International, Vol. 14, No. 1, pp. 3-12. 
+
+

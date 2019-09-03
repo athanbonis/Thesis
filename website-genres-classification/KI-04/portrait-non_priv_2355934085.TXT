@@ -1,0 +1,296 @@
+Traveling to a tech show? Hotel Search Hotel Discounts Discount Hotels Chicago Hotels Canada Hotels California Hotels Hotels Get your gear! The first collection of official O'Reilly Gear is now available at ThinkGeek . Featured Book Perl Template Toolkit guides you through the entire process of installing, configuring, using, and extending the Template Toolkit. Written by core members of the technology's development team, the book begins with a fast-paced but thorough tutorial on building web content with the Template Toolkit, and then walks you through generating and using data files, particularly with XML. The book also provides detailed information on the Template Toolkit's modules, libraries, and tools, in addition to a complete reference manual. Sample Chapter 2, A Complete Web Site Using Template Toolkit , is available free online. Books Where Do I Start? Subscribe to O'Reilly books on Safari Bookshelf . [ Sample Chapter Archive ] Advanced Perl Programming Beginning Perl for Bioinformatics CGI Programming with Perl, 2nd Edition Computer Science & Perl Programming Embedding Perl in HTML with Mason Extreme Programming Pocket Guide Games, Diversions & Perl Culture Learning Perl Objects, References & Modules Learning Perl on Win32 Systems Learning Perl, 3rd Edition Mastering Algorithms with Perl Mastering Perl for Bioinformatics Mastering Perl/Tk Mastering Regular Expressions, 2nd Edition Perl & LWP Perl & XML Perl 6 Essentials The Perl CD Bookshelf, Version 3.0 Perl CD Bookshelf, Version 4.0 -- New! Perl Cookbook, 2nd Edition Perl Debugger Pocket Reference (January) Perl for System Administration Perl for Web Site Management Perl Graphics Programming Perl in a Nutshell, 2nd Edition Perl Pocket Reference, 4th Edition Perl Template Toolkit -- New! Perl/Tk Pocket Reference Practical mod_perl Programming Perl, 3rd Edition Programming the Perl DBI Programming Web Services with Perl Regular Expression Pocket Reference Spidering Hacks -- New! Web, Graphics & Perl/Tk Writing Apache Modules with Perl and C Books from our Publishing Partners 10 Cool Lego Mindstorms Dark Side Robots, Transports, and Creatures: 10 Cool Lego Mindstorms Robotics Invention System 2 Projects: 10 Cool Lego Mindstorms Ultimate Builder Projects: 30 Cool Lego Mindstorms Projects Kit with CDROM Building and Programming Lego Mindstorms Robots Kit Building Robots with Lego Mindstorms Journey to the Center of the Internet: Lego Mindstorms Masterpieces: Lego Software Power Tools with LDraw, MLCad, and LPub Programming Lego Mindstorms with Java with CDROM Ruby Developer's Guide Your PC Upgrade and Repair DVD Kit The Art of Assembly Language Astronomer's Computer Companion The Blender Book Book of Overclocking The Book of SCSI 2/E The Gardener's Computer Companion Hacking the Xbox Jin Sato's LEGO MINDSTORMS The Official Blender GameKit The Sound Blaster Live! Book Uncle Eli's Passover Haggadah Uncle Eli's Passover Haggadah Virtual LEGO -- New! Writer's Internet Sourcebook 3D Game Art F/X and Design 3D Programming with C++ 3DS Max 4 in Depth Digital Compositing In Depth Game Coding Complete Looking Good in Presentations Looking Good in Print, Fifth Edition Monster Gaming Painter 6 F/X and Design PC Technician Black Book Perl Black Book Perl Core Language Little Black Book Science of Debugging Resources The Perl Camel: Usage and Trademark Information -- People associate camels with Perl because O'Reilly used a camel on the cover of Programming Perl . To prevent anyone from using the camel in ways that damage the Perl programming language, we've trademarked its image. At the same time, we want to make the camel available as a symbol for Perl. So, here's our policy on using the camel image. Perl Success Stories --Learn how large and small companies are using Perl to meet their goals. ActiveState Tool Corp. creates solutions in Perl for Win32 platforms. They also help the freeware community help itself by contributing a wide range of free binary run-time products while developing high-end tools and support for professionals. Perl.com is the central Web site for the Perl language and the Perl community. Hosted by O'Reilly, the site is a CPAN mirror, in addition to helping redirect you to a local version of CPAN. News & Articles [ News Archive ] Global Developer Survey -- Software and application development have become a global endeavor. In response, MediaLive and O'Reilly have launched a survey to profile developers around the world, and we want you to be a part of it. Participate in this first study of its kind for a chance to win $ 500 USD . O'Reilly Partners with No Starch, Paraglyph, and Syngress -- We're pleased to announce a collaboration between like-minded companies: As of January 1, 2004, O'Reilly is the North American distributor for three innovative small presses: No Starch Press , Paraglyph Press , and Syngress Publishing . O'Reilly will handle retail and direct sales, warehousing, and shipping, as well as provide direct marketing and PR support for these publishers with whom our philosophies are aligned. We invite you to give them a close look. Spidering Hacks -- Want to save time as well as extra trips to your favorite web sites? Here are two hacks--the first on using Template::Extract, a Perl module that allows you to scrape a web page to generate RSS feeds; and the second on using a program called dailystrips to grab all your favorite online comic strips in one HTML file--excerpted from the recently released Spidering Hacks . One Hump or Two? If Perl is your cup of tea, O'Reilly's T-shirt featuring the Perl camel can be your sugar cube. Add some O'Reilly coasters and mugs, and you've got the ingredients for a whole tea party. Find the makings at ThinkGeek . A Chromosome at a Time with Perl, Part 2 -- In the conclusion to his two-part series on using Perl in the bioinformatics realm, James Tisdall shows how references can speed up a subroutine call, how to bypass the overhead of subroutine calls entirely, and how to quantify the behavior of your code. James is the author of Mastering Perl for Bioinformatics . A Chromosome at a Time with Perl -- James Tisdall offers a handful of tricks that will enable Perl programmers to write performance-efficient code for dealing with large amounts of biological sequence data. James is the author of the upcoming Mastering Perl for Bioinformatics . Cooking with Perl -- Learn how to use SQL without a database server and how to send attachments in mail, in the latest sample recipes from O'Reilly's recently released Perl Cookbook, 2nd Edition . Five Habits for Successful Regular Expressions -- Tony Stubblebine shows how to avoid a lot of trial and error in your regular expression development by adopting these five habits, applicable to nearly any regex implementation. Tony is the author of Regular Expression Pocket Reference . Cooking with Perl -- The second edition of Perl Cookbook is about to hit the streets. Get a taste of what we've cooked up with these sample recipes on "Matching Nested Patterns" and "Pretending a String Is a File." And reserve a copy of Perl Cookbook today. Exegesis 6 -- Damian Conway explains how the new syntax and semantics of subroutines in Perl 6 make for cleaner, simpler, and more powerful code. For a list of O'Reilly's Perl books and articles, see perl.oreilly.com . Perl Programming Syntax Summary -- Do you know what push(@{ $ bob->{'exp'}}, {bob=>1}); means? Appendix B of Advanced Perl Programming provides a complete distillation of all the Perl syntax used in the book. For a free trial and the opportunity to read this and four other O'Reilly books on Safari, sign up here . State of the Onion 2003 -- In this full-length transcript of Larry Wall's annual report on the state of Perl, Larry talks about being unreasonable, unwilling, and impossible. An Interview with the Author of Practical mod_perl -- In this ONLamp.com interview with chromatic, Stas Bekman talks about his work, mod_perl 2, and what it's like to be sponsored to work on free software full-time. Stas is the author of O'Reilly's recently released Practical mod_perl . Perl 6 Design Philosophy -- Many Perl 6 design decisions have been influenced by the principles of natural language. For an in-depth discussion of some of the most important principles and their impact on Perl 6, check out this excerpt from Chapter 3 of Perl 6 Essentials . All Articles Sponsored by: O'Reilly Home | Privacy Policy © 2004, O'Reilly & Associates, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.   --> 
+
+  	
+
+ 	 
+
+O'Reilly Home	 
+Press Room	 
+Jobs	 
+
+Resource Centers	 
+Perl	 
+Java	 
+Python	 
+C/C++	 
+Scripting	 
+Web	 
+Digital Media	 
+Web Services	 
+XML	 
+Oracle	 
+SysAdm/Networking	 
+Security	 
+Databases	 
+Linux/Unix	 
+Macintosh/OS X	 
+Windows	 
+.NET	 
+Open Source	 
+Wireless	 
+Bioinformatics	 
+
+Book Series	 
+Hacks	 
+Head First	 
+Cookbooks	 
+In a Nutshell	 
+CD Bookshelves	 
+Pocket References	 
+The Missing Manuals	 
+
+Publishing Partners	 
+No Starch Press	 
+Paraglyph Press	 
+Syngress Publishing	 
+
+Online Publications	 
+LinuxDevCenter.com	 
+MacDevCenter.com	 
+ONDotnet.com	 
+ONJava.com	 
+ONLamp.com	 
+OpenP2P.com	 
+Perl.com	 
+WebServices.XML.com	 
+XML.com	 
+
+Special Interest	 
+Events	 
+Meerkat News	 
+Ask Tim	 
+tim.oreilly.com	 
+From the Editors List	 
+Letters	 
+Beta Chapters	 
+Newsletters	 
+Open Books	 
+
+Special Sales	 
+Academic	 
+Corporate	 
+Government	 
+
+Inside O'Reilly	 
+About O'Reilly	 
+International	 
+Advertise with Us	 
+Contact Us	 
+Catalog Request	 
+User Groups	 
+Writing for O'Reilly	 
+How to Order	 
+Bookstores	 
+
+Traveling to a tech show?	 
+
+Hotel Search Hotel Discounts Discount Hotels Chicago Hotels Canada Hotels California Hotels Hotels 
+
+    Get your gear! The first collection of official O'Reilly Gear is now available at ThinkGeek. 	
+
+Featured Book	 
+
+Perl Template Toolkit guides you through the entire process of installing, configuring, using, and extending the Template Toolkit. Written by core members of the technology's development team, the book begins with a fast-paced but thorough tutorial on building web content with the Template Toolkit, and then walks you through generating and using data files, particularly with XML. The book also provides detailed information on the Template Toolkit's modules, libraries, and tools, in addition to a complete reference manual. Sample Chapter 2, A Complete Web Site Using Template Toolkit, is available free online.
+
+Books	 Where Do I Start?	 
+Subscribe to O'Reilly books on Safari Bookshelf.
+
+[Sample Chapter Archive] 
+
+Advanced Perl Programming 	
+
+Beginning Perl for Bioinformatics 	
+
+CGI Programming with Perl, 2nd Edition 	
+
+Computer Science & Perl Programming 	
+
+Embedding Perl in HTML with Mason 	
+
+Extreme Programming Pocket Guide 	
+
+Games, Diversions & Perl Culture 	
+
+Learning Perl Objects, References & Modules 	
+
+Learning Perl on Win32 Systems 	
+
+Learning Perl, 3rd Edition 	
+
+Mastering Algorithms with Perl 	
+
+Mastering Perl for Bioinformatics 	
+
+Mastering Perl/Tk 	
+
+Mastering Regular Expressions, 2nd Edition 	
+
+Perl & LWP 	
+	Perl & XML 	
+	Perl 6 Essentials 	
+
+The Perl CD Bookshelf, Version 3.0 	
+
+Perl CD Bookshelf, Version 4.0 -- New!	 
+
+Perl Cookbook, 2nd Edition 	
+
+Perl Debugger Pocket Reference (January)	 
+
+Perl for System Administration 	
+
+Perl for Web Site Management 	
+
+Perl Graphics Programming 	
+
+Perl in a Nutshell, 2nd Edition 	
+
+Perl Pocket Reference, 4th Edition 	
+
+Perl Template Toolkit -- New!	 
+
+Perl/Tk Pocket Reference 	
+
+Practical mod_perl 	
+
+Programming Perl, 3rd Edition 	
+
+Programming the Perl DBI 	
+
+Programming Web Services with Perl 	
+
+Regular Expression Pocket Reference 	
+
+Spidering Hacks -- New!	 
+
+Web, Graphics & Perl/Tk 	
+
+Writing Apache Modules with Perl and C 	
+Books from our Publishing Partners 
+
+10 Cool Lego Mindstorms Dark Side Robots, Transports, and Creatures: 	
+
+10 Cool Lego Mindstorms Robotics Invention System 2 Projects: 	
+
+10 Cool Lego Mindstorms Ultimate Builder Projects: 	
+
+30 Cool Lego Mindstorms Projects Kit with CDROM 	
+
+Building and Programming Lego Mindstorms Robots Kit 	
+
+Building Robots with Lego Mindstorms 	
+
+Journey to the Center of the Internet: 	
+
+Lego Mindstorms Masterpieces: 	
+
+Lego Software Power Tools with LDraw, MLCad, and LPub 	
+
+Programming Lego Mindstorms with Java with CDROM 	
+
+Ruby Developer's Guide 	
+
+Your PC Upgrade and Repair DVD Kit 	
+
+The Art of Assembly Language 	
+
+Astronomer's Computer Companion 	
+
+The Blender Book 	
+
+Book of Overclocking 	
+
+The Book of SCSI 2/E 	
+
+The Gardener's Computer Companion 	
+
+Hacking the Xbox 	
+
+Jin Sato's LEGO MINDSTORMS 	
+
+The Official Blender GameKit 	
+
+The Sound Blaster Live! Book 	
+
+Uncle Eli's Passover Haggadah 	
+
+Uncle Eli's Passover Haggadah 	
+
+Virtual LEGO -- New!	 
+
+Writer's Internet Sourcebook 	
+
+3D Game Art F/X and Design 	
+
+3D Programming with C++ 	
+
+3DS Max 4 in Depth 	
+
+Digital Compositing In Depth 	
+
+Game Coding Complete 	
+
+Looking Good in Presentations 	
+
+Looking Good in Print, Fifth Edition 	
+
+Monster Gaming 	
+
+Painter 6 F/X and Design 	
+
+PC Technician Black Book 	
+
+Perl Black Book 	
+
+Perl Core Language Little Black Book 	
+
+Science of Debugging 	
+
+Resources	 
+The Perl Camel: Usage and Trademark Information-- People associate camels with Perl because O'Reilly used a camel on the cover of Programming Perl. To prevent anyone from using the camel in ways that damage the Perl programming language, we've trademarked its image. At the same time, we want to make the camel available as a symbol for Perl. So, here's our policy on using the camel image.
+
+Perl Success Stories--Learn how large and small companies are using Perl to meet their goals.
+
+ActiveState Tool Corp. creates solutions in Perl for Win32 platforms. They also help the freeware community help itself by contributing a wide range of free binary run-time products while developing high-end tools and support for professionals.
+
+Perl.com is the central Web site for the Perl language and the Perl community. Hosted by O'Reilly, the site is a CPAN mirror, in addition to helping redirect you to a local version of CPAN. 
+
+News & Articles	 [News Archive]	 
+
+Global Developer Survey -- Software and application development have become a global endeavor. In response, MediaLive and O'Reilly have launched a survey to profile developers around the world, and we want you to be a part of it. Participate in this first study of its kind for a chance to win $500 USD.
+
+O'Reilly Partners with No Starch, Paraglyph, and Syngress -- We're pleased to announce a collaboration between like-minded companies: As of January 1, 2004, O'Reilly is the North American distributor for three innovative small presses: No Starch Press, Paraglyph Press, and Syngress Publishing. O'Reilly will handle retail and direct sales, warehousing, and shipping, as well as provide direct marketing and PR support for these publishers with whom our philosophies are aligned. We invite you to give them a close look.
+
+Spidering Hacks -- Want to save time as well as extra trips to your favorite web sites? Here are two hacks--the first on using Template::Extract, a Perl module that allows you to scrape a web page to generate RSS feeds; and the second on using a program called dailystrips to grab all your favorite online comic strips in one HTML file--excerpted from the recently released Spidering Hacks.
+
+One Hump or Two? If Perl is your cup of tea, O'Reilly's T-shirt featuring the Perl camel can be your sugar cube. Add some O'Reilly coasters and mugs, and you've got the ingredients for a whole tea party. Find the makings at ThinkGeek.
+
+A Chromosome at a Time with Perl, Part 2 -- In the conclusion to his two-part series on using Perl in the bioinformatics realm, James Tisdall shows how references can speed up a subroutine call, how to bypass the overhead of subroutine calls entirely, and how to quantify the behavior of your code. James is the author of Mastering Perl for Bioinformatics.
+
+A Chromosome at a Time with Perl -- James Tisdall offers a handful of tricks that will enable Perl programmers to write performance-efficient code for dealing with large amounts of biological sequence data. James is the author of the upcoming Mastering Perl for Bioinformatics.
+
+Cooking with Perl -- Learn how to use SQL without a database server and how to send attachments in mail, in the latest sample recipes from O'Reilly's recently released Perl Cookbook, 2nd Edition.
+
+Five Habits for Successful Regular Expressions -- Tony Stubblebine shows how to avoid a lot of trial and error in your regular expression development by adopting these five habits, applicable to nearly any regex implementation. Tony is the author of Regular Expression Pocket Reference.
+
+Cooking with Perl -- The second edition of Perl Cookbook is about to hit the streets. Get a taste of what we've cooked up with these sample recipes on "Matching Nested Patterns" and "Pretending a String Is a File." And reserve a copy of Perl Cookbook today.
+
+Exegesis 6 -- Damian Conway explains how the new syntax and semantics of subroutines in Perl 6 make for cleaner, simpler, and more powerful code. For a list of O'Reilly's Perl books and articles, see perl.oreilly.com.
+
+Perl Programming Syntax Summary -- Do you know what push(@{$bob->{'exp'}}, {bob=>1});means? Appendix B of Advanced Perl Programming provides a complete distillation of all the Perl syntax used in the book. For a free trial and the opportunity to read this and four other O'Reilly books on Safari, sign up here.
+
+State of the Onion 2003 -- In this full-length transcript of Larry Wall's annual report on the state of Perl, Larry talks about being unreasonable, unwilling, and impossible.
+
+An Interview with the Author of Practical mod_perl -- In this ONLamp.com interview with chromatic, Stas Bekman talks about his work, mod_perl 2, and what it's like to be sponsored to work on free software full-time. Stas is the author of O'Reilly's recently released Practical mod_perl.
+
+Perl 6 Design Philosophy -- Many Perl 6 design decisions have been influenced by the principles of natural language. For an in-depth discussion of some of the most important principles and their impact on Perl 6, check out this excerpt from Chapter 3 of Perl 6 Essentials.
+
+Sponsored by:	 
+
+---------------------------------------------------------------------
+
+O'Reilly Home | Privacy Policy © 2004, O'Reilly & Associates, Inc. 
+
+All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.
+
+navigator.appVersion)==4)document.write(" 

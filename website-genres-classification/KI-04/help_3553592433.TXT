@@ -1,0 +1,399 @@
+
+
+The Email Abuse FAQ 
+
+---------------------------------------------------------------------
+
+As of version 2.0, the Appendix is now a separate document. 
+See the Email Abuse Resource List at http://members.aol.com/emailfaq/resource-list.html 
+
+DISCLAIMER: This document reflects the opinions of the author. This document and its author are not associated with AOL in any official capacity whatever. This document is provided "as is" without any express or implied warranties. While every effort has been taken to ensure the accuracy of the information contained in this article, the author/maintainer/contributors assume(s) no reponsibility for errors or omissions, or for damages resulting from the use of the information contained herein. 
+
+---------------------------------------------------------------------
+
+Subject: 1. Table of Contents 
+
+1.  Table of Contents
+ 
+2.  Basics 
+
+3.   2a. Who is responsible for this FAQ? 
+4.   2b. What is the purpose of this FAQ? 
+5.   2c. When was this FAQ last updated? 
+6.   2d. Where can I get it? 
+7.   2e. Credits & Contributors
+ 
+
+8.  Definitions 
+
+9.   3a. When is it email, and when is it email abuse? 
+10.  3b. What is "unsolicited email"? 
+11.  3c. What is "bulk email"? 
+12.  3d. What is "commercial email"? 
+13.  3e. UBE, UCE, MMF, MLM... What do they all mean? 
+14.  3f. What is a mailbomb? 
+15.  3g. What is email harassment?
+ 
+
+16. Actions 
+
+17.  4a. I've been mailbombed - what should I do? 
+18.  4b. I've received U*E in my mailbox - who do I exterminate? 
+19.  4c. I've received U*E in my mailbox - what should I do? 
+20.  4d. Where do these people get my email address? 
+21.  4e. How do I keep my address off the lists? 
+22.  4f. I did all that and I still get U*E! 
+23.  4g. I asked to be "removed" - guess what? I got another U*E 
+24.  4h. I asked to be "removed" - guess what? The message bounced 
+25.  4i. What about "Remove Me" web sites and other global "Remove"  Lists? 
+26.  4j. List of Basic Administrative Contacts 
+27.  4k. I've contacted everyone involved - heard nothing back! 
+28.  4l. I've contacted everyone involved - they told me to go  away! 
+29.  4m. They told me they cancelled the account, but I got another  U*E! 
+30.  4n. I sent a complaint - they said they had nothing to do with  it! 
+31.  4o. I sent a complaint - they they responded with threats! 
+32.  4p. I never want to see another message from UBEs-Our-Biz.com  again!
+ 
+
+33. Etcetera 
+
+34.  5a. Who cares about this stuff? Just delete it 
+35.  5b. There ought to be a law! 
+36.  5c. I like getting U*E! 
+37.  5d. I'm seeing a lot of ads in my favorite newsgroup -  help!
+ 
+
+* End of eMail Abuse FAQ 
+
+---------------------------------------------------------------------
+
+Subject: 2. Basics 
+
+2a. Who is responsible for this FAQ? 
+
+WD Baseley. Use emailfaq@aol.com to contact the author about this document. 
+
+NOTE: This document and its author are not associated with AOL in any official capacity whatever. 
+
+Much of this information has been gleaned from AUP's, posts, and suggestions from others. The author, while attempting to be as accurate as possible, cannot vouch for the veracity of everything in this document. Please feel free to contact the author with corrections and suggested additions. 
+
+2b. What is the purpose of this FAQ? 
+
+This FAQ is about abuse of email, such as mailbombs, unsolicited commercial email and unsolicited bulk email. It is not about abuse using email, such as harassment or other forms of abuse carried on using e-mail or other forms of electronic communication. It should be regarded as a work-in-progress; contact the current maintainer of this FAQ for an up-to-date copy. 
+
+2c. When was this FAQ last updated? 
+
+June 25, 1998 
+
+2d. Where can I get it? 
+
+This FAQ will be posted to news.admin.net-abuse.email, news.answers, and other newsgroups, once per week. 
+
+The latest version is always available at:
+http://members.aol.com/emailfaq/emailfaq.html
+ftp://members.aol.com/emailfaq/emailfaq.txt 
+
+2e. Credits & Contributors 
+
+The Gentleman, the writers and maintainers of the Net Abuse FAQ, Arthur Wouk, Deon Ramsey, Denis McKeon, lucifer, Myles Williams, Rahul Dhesi, Johann E. Beda, Barry Twycross, Julian Byrne, Liz Knuth, Zoli Fekete, John Nagle, various and sundry folk who have discussed, harangued, badgered, cajoled and otherwise assisted in coming to a consensus regarding various points, and countless others whom the author has doubtless forgotten to mention. 
+
+---------------------------------------------------------------------
+
+Subject: 3. Definitions 
+
+3a. When is it email, and when is it email abuse? 
+
+Email is a tremendously powerful communications tool, used by millions of people in thousands of positive ways. Unfortunately, such a powerful tool has the potential to be used in other, less productive, ways. 
+
+Someone sending email incurs no incremental cost; sending one message costs about the same as sending 100 messages. Some folks use this feature of email to send messages to thousands, even millions, of people at once. These are usually advertisements, sometimes sermons on the sender's favorite topic, sometimes pleas for financial assistance or scams intended to defraud the unwitting. Almost all of these messages go to people who did not ask to receive them. Also, some people use email in denial-of-service attacks, using various methods to flood someone's emailbox with so many messages that their email becomes unusable. These are examples of abuse of the email system. 
+
+Also, it is possible to impersonate, threaten, disparage, or otherwise harass someone via email. These are examples of abuse on the email system, and are not the subject of this FAQ. 
+
+Notable exceptions to bulk email abuse are legitimate mailing lists, where people subscribe to receive messages pertaining to a particular subject. These lists can be large, and they can account for large numbers of messages being sent, but they are in no way abuse of the email system. Quite the opposite, in fact - they are a perfect example of the productive power of email. 
+
+3b. What is "unsolicited email"? 
+
+Unsolicited email is any email message received where the recipient did not specifically ask to receive it. 
+
+Taken by itself, unsolicited email does not constitute abuse; not all unsolicited email is also undesired email. For example, receiving "unsolicited" email from a long-lost friend or relative is certainly not abuse. The reason that it is defined separately is that email abuse takes several forms, all of which begin with the fact that the email received is unsolicited. 
+
+NOTE: Usenet convention holds that, by posting to a newsgroup, one is tacitly soliciting individual, topical replies via email. 
+
+The following are examples of soliciting email: 
+
+* posting to Usenet or saying in a chat group:
+ "please send me e-mail about foobars" 
+* sending email to an advertised auto-reply address:
+ "for more information, send email to info@some-isp.com" 
+* filling out a web form which explicitly mentions email:
+ "fill this out to get email about foo"
+ "fill this out to get on the mailing list about foo"
+ "check this box to get on the foo mailing list" 
+
+The following acts DO NOT, by themselves, constitute "soliciting" email: 
+
+* just posting a message to a Usenet newsgroup or any other public forum (although individual, topical replies to Usenet posts are have long-standing status as normal Usenet practice) 
+* chatting in IRC or other chat groups 
+* simply visiting a web site 
+* filling out a survey form at a Web site that does not explicitly say it is for mailings 
+* putting one's email address on any other form, such as product registrations or magazine subscriptions 
+* posting one's email address on a web page (web page authors should clearly specify the reason an email address appears on the page) 
+* entering into a business relationship or conducting a business transaction; for example, purchasing a product or service from a company, or downloading a free trial version of a software product from a web site. 
+
+3c. What is "bulk email"? 
+
+Bulk email is any group of messages sent via email, with substantially identical content, to a large number of addresses at once. Many ISPs specify a threshold for bulk email: ----- 25 or more recipients within a 24-hour period ----- 
+
+Once again, taken by itself, bulk email is not necessarily abuse of the email system. For example, there are legitimate mailing lists, some with hundreds or thousands of willing recipients. 
+
+3d. What is "commercial email"? 
+
+Commercial email is any email message sent for the purposes of distributing information about a for-profit institution, soliciting purchase of products or services, or soliciting any transfer of funds. It also includes commercial activities by not-for-profit institutions. 
+
+3e. UBE, UCE, MMF, MLM... What do they all mean? 
+
+First, a short lesson on the term "SPAM". Spam describes a particular kind of Usenet posting (and canned spiced ham), but is now often used to describe many kinds of inappropriate activities, including some email-related events. It is technically incorrect to use "spam" to describe email abuse, although attempting to correct the practice would amount to tilting at windmills. For more on the history of the term, look for "2.4) Where did the term 'Spam' come from?" in http://www.cybernothing.org/faqs/net-abuse-faq.html
+ 
+UBE: Unsolicited Bulk Email 
+Email with substantially identical content sent to many recipients who did not ask to receive it. Almost all UBE is also UCE (see next).
+ 
+
+UBE is undoubtedly the single largest form of email abuse today. There are automated email sending programs that can send millions of messages a day; the bandwidth, storage space, and time consumed by such massive mailing is incredible. One month's worth of mailings from one of the most nefarious bulk email outfits was estimated at over 134 gigabytes, yes that's right, gigabytes. Each message was sent over the email wires, consuming bandwidth. Then, each message was either stored locally or "bounced" back to the sender, taking up storage space and even more bandwidth. Finally, each boxholder was forced to spend time dealing with the message. 
+
+These are all legitimate, measurable costs, and they are not borne by the sender of the messages. UBE is, at best, exploitation of email for profit; at worst, theft. There are currently few regulations regarding UBE; the potential for growth is open-ended. All by itself, UBE could render the email system virtually useless for legitimate messages. 
+
+Some would argue that there is such a thing as "responsible" UBE; those who honor "remove" requests and use the lists on "Remove Me" or "No Spam" web sites would fit their description of "responsible". However, due to the types of messages contained in most UBE, and the historic lack of responsibility on the part of the sending organizations, UBE and UCE have earned a reputation as tawdry, widely unpopular methods of disseminating information. 
+
+UCE: Unsolicited Commercial Email 
+Email containing commercial information that has been sent to a recipient who did not ask to receive it.
+ 
+
+This is widely used, and confused with UBE, (see above). UCE must be commercial in nature but does not imply massive numbers. Several ISPs specify a threshold for unsolicited commercial email: ----- sending one UCE is a violation ----- 
+
+In a specific case, individuals took offense at having been sent commercial messages regarding their web sites. Their addresses were posted for the purpose of comments and suggestions about the site; the messages received were commercial offerings to buy ad space on the site or sell something to the site maintainer. 
+
+MMF: Make Money Fast 
+Messages that "guarantee immediate, incredible profits!", including such schemes as chain letters.
+ 
+
+Originally a problem in "snailmail" and on Usenet, these messages are now expanding into email. Chain letters and most MMF schemes are illegal, regardless of any claims they might make to the contrary. They should be reported to the proper authorities. Also, chain letters and MMFs don't work! No one sends the 5 dollars, and claims of unlimited wealth made by people who then ask you for money should be taken with a large grain of salt. Many chain letters and MMFs are sent by clueless college freshmen - a note to the administrator of their system is often sufficient to cure them. For the more serious offenders, the US Post Office, Inspection Service - Consumer Fraud Division, loves to hear about chain letters! Send any sightings to customer@email.usps.gov, and see their web page at http://www.usps.gov/websites/depart/inspect/consmenu.htm 
+
+MLM: Multi-Level Marketing 
+Messages that "guarantee incredible profits!", right after you send them an "initial investment" and recruit others.
+ 
+
+Some of the MMF senders will say, "This isn't one of those illegal get-rich-quick schemes. No, this is multi-level marketing, and perfectly legal." However, many MLM schemes are little more than illegal pyramid schemes with a fancy name to confuse the unwitting. Particularly popular recently are "Work at Home!" schemes. Whether or not the offer is legal is not important to this FAQ; MLM is commercial email, so go ahead and complain. 
+
+3f. What is a mailbomb? 
+
+Delivery of enough email to a mailbox to overload the mailbox or perhaps even the system that the mailbox is hosted on. 
+
+Mailbombs generally take one of two forms. A mailbox might be targeted to receive hundreds or thousands of messages; this makes it difficult or impossible for the victim to use their own mailbox, possibly subjects them to additional charges for storage space, and might cause them to miss messages entirely due to overflow. This is seen as a denial-of-service attack, perhaps also harassment, and is not tolerated by any known service providers. Alternatively, a message will be bulk-emailed, with the intended victim's address forged in the From: and/or Reply-To: lines of the headers. The victim is then deluged with responses, mostly angry. 
+
+There is a third, particularly nasty, form of mailbomb. This one forges subscription requests to many mailing lists, all for one recipient. The result is a huge barrage of email arriving in the victim's email box, all of it unwanted, but "legitimate". Many mailing list administrators are countering this form of abuse by sending a confirmation email to each subscription request, which must be returned in order to be subscribed to the list. 
+
+3g. What is email harassment? 
+
+Any message or series of messages sent via email that meet the legal definition of harassment. 
+
+---------------------------------------------------------------------
+
+Subject: 4. Actions 
+
+4a. I've been mailbombed - what should I do? 
+
+Contact your ISP immediately. They can help stop the inflow, and also help track down the source of the mailbomb. 
+
+4b. I've received U*E in my mailbox - who do I exterminate? 
+
+By responding in some kind of abusive fashion, you lower yourself to the level of the person who sent you the offending message. You might also lose Net access through your ISP. There are other ways to fight back; read on. 
+
+4c. I've received U*E in my mailbox - what should I do? 
+
+You could: ask the sender not to send you any more; complain to the appropriate people; just ignore it and delete it. 
+
+Ask to be "removed" from their list:
+Some U*E contains instructions for how to be "removed" from the sender's mailing list. Usually this amounts to sending a specifically formatted message to a particular address. While this is a relatively trivial task, it is not particularly effective; see the sections "4g. I asked to be 'removed' - guess what? I got another U*E", and, "4h. I asked to be 'removed' - guess what? The message bounced", later in this FAQ, for more on why this method is less than perfect. 
+
+Complain to the appropriate people:
+If you send a complaint, be polite, or at least civil. Most times the person receiving your complaint is not responsible for the U*E; if you expect their help, a little honey goes a long way. Be sure to include full headers when sending a complaint. 
+
+Decipher the headers and complain to postmaster@bad-guys.provider. Several sources on header-ography can be found in Appendix I of this FAQ. Some service providers also have abuse addresses; e.g., abuse@bad-guys.provider. If you are on AOL, or another service which engages in filtering, forward to the appropriate address on your system so that they can see where new sources of UBE are, and possibly add them to the list. For AOL, forward them to postmaster and abuse. 
+
+If you are so inclined, you can do a bit more detective work and possibly find more victi--- umm, legitimate recipients for your complaint. If the message originated in the US, using whois, or a visit to InterNIC at
+   http://www.internic.net/cgi-bin/whois
+or its European counterpart at
+    http://www.ripe.net
+might turn up a few more addresses. Traceroute or a similar tool (tracert from the DOS prompt in Win95) will show the sender's upstream provider; some people lodge a complaint with them also. There are several web sites available that will do a traceroute and display the results; use your favorite search engine to find them. 
+
+Also, there are usually folks on news.admin.net-abuse.email who are willing to help you decipher headers; be sure to include the complete header in your post. 
+
+(WSPING32 for Win95 has traceroute and DNS lookups built into it. The traceroute in it is much more intuitive for Windows users. It is available at TUCOWS, and many other Winsock sites. For Mac users, the program "Mac TCP Watcher" has DNS lookup and a traceroute function.) 
+
+If you have the tools available, you can also block any further email from the source of the U*E. See "I never want to see another message from UBEs-Our-Biz.com again!" in this FAQ for more information. 
+
+Just ignore it and delete it:
+If you only ever get one or two U*E messages, this is a logical and reasonable course of action. When the numbers increase, come back to this FAQ and read about other actions. 
+
+4d. Where do these people get my email address? 
+
+1.  Run programs that collect email addresses out of Usenet posting headers 
+2.  Cull them from subscriber lists (such as AOL's Member Profile list) 
+3.  Use web-crawling programs that look for mailto: codes in HTML documents 
+4.  Rip them out of online "white pages" directories 
+5.  Buy a list from someone who already has one 
+6.  Take them from you without your knowledge when you visit their web site. For the latest on web browser security issues, see http://www.cert.org/ 
+7.  Use finger on a host computer to find online users addresses 
+8.  Collect member names from online "chat rooms". 
+
+4e. How do I keep my address off the lists? 
+
+For a junk-free mailbox, don't browse the web, don't put your email address on a web page, don't subscribe to a large ISP, and don't post to Usenet. In other words, don't use the Internet. 
+
+Some people have taken to forging their own From: and Reply-to: lines in their posts. They might add an easily-recognized "spam-block" to their address, or they might use those header lines to tell folks where to look for their real address (usually in the sig). Some attempt to boast of their elitist-Unix-nerd-programmer capabilities by burying their email address in a maze of code. Such measures, while effective, are frowned upon by some as "giving in" to the bulk emailers. 
+
+If you do a lot of web browsing, be careful about filling out forms; some outfits take such action as carte blanche to stuff your mailbox. There are also those who sell addresses collected in this manner. Don't assume that because you are visiting the site of a "reputable company" that this will not happen to you. 
+
+4f. I did all that and I still get U*E! 
+
+Your options are few; your address is probably on one of the lists that gets swapped/bought/sold among the bulk email "community". Your only alternative might be a new address. Also, see "I never want to see another message from UBEs-Our-Biz.com again!" for ways to gird your mailbox against the advancing hordes. 
+
+There have been several reports of U*E dropping off considerably as soon as someone has stopped posting to Usenet; this may indicate that the U*E outfits are constantly creating new lists, and not reusing old lists. 
+
+4g. I asked to be "removed" - guess what? I got another U*E 
+
+Not surprisingly, many UBE outfits treat a "remove" request as evidence that the address is "live"; a "remove" request to some bulk emailers will actually guarantee that they will send more to you. For many others, the remove procedure does not work, either by chance or design. At this point perhaps you're starting to get a feel for the type of people with whom you are dealing. 
+
+Also, getting removed doesn't keep you from being added the next time they mine for addresses, nor will it get you off other copies of the list that have been sold or traded to others. In summary, there is no evidence of "remove" requests being an effective way to stop UBE. 
+
+4h. I asked to be "removed" - guess what? The message bounced 
+
+Probably the remove procedure was false. Any remove procedure that tells you to send remove requests to AOL, CompuServe, Prodigy, Hotmail, or Juno is certainly false. The bulk emailers are an unpopular lot; they forge headers, inject messages into open SMTP ports, use temporary accounts, and pull other stunts to avoid the tirade of complaints that follow every mailing. 
+
+4i. What about "Remove Me" web sites and other global "Remove" Lists? 
+
+They depend on the goodwill of the UBE-sending agencies to work. That is, the senders must use and honor the lists for them to be effective. There is no evidence that they do so. There is nothing to stop them from adding all those addresses to their lists! Also, because UCE and UBE is sent postage-due, such sites are effectively attempting to legitimize a form of recipient-paid advertising; you'll have to decide for yourself whether you want to support such an effort by placing your address there. 
+
+4j. List of Basic Administrative Contacts 
+
+(This section was lifted almost intact from the Net Abuse FAQ) 
+
+The search for the best person to complain to at any site has led to much speculation and arguments, even among admins at the same site. However, if a message to the original poster doesn't get you anywhere, somebody at one of the following addresses might be able to help. Be aware, though that some of the more experienced and well-financed junksters have their own domains, and simply drop complaints to some of the addresses below into the bit-bucket. Moving upstream may be your only choice. Some specific addresses are listed in Appendix I of this FAQ, under "Abuse Addresses of major service providers". 
+
+abuse
+A lot of ISP's and network backbones have created "abuse" addresses for complaints about net-abuse. That's usually the best place to start. 
+
+postmaster
+RFC 822, the document which set most of the current standards for Internet e-mail back in 1982, makes it mandatory for all sites which pass e-mail to have a postmaster address so that problems can be reported. The purpose of postmaster has expanded at many sites to include net-abuse, both e-mail and otherwise. 
+
+Administrative or Technical Contacts
+If you have access to the whois command, you can type (for example) whois
+example.comto find out who the administrative and technical contacts are for a domain. This will list their e-mail address, and often their phone and FAX numbers. Whois for InterNIC is available via the web at:
+    http://www.internic.net/cgi-bin/whois
+its European counterpart is at:
+    http://www.ripe.net
+The bulk emailers are aware of this resource as well, and InterNIC does very little to check the integrity or authenticity of the supplied information. So don't be surprised to find contact addresses such as "nobody@nowhere.com", and phone numbers that don't work. 
+
+Upstream Providers
+Determining who's upstream using email headers can often be confusing--many people get it wrong, due to their own inexperience or forgery on the part of the sender. U*E is worthless unless it contains some legitimate contact information, though. If you've been around the block vis-a-vis headers, and you're familiar with the whois and traceroute tools, you can probably find the upstream provider. 
+
+abuse.net
+Now you can send mail to domain.name@abuse.net, and it will (probably) be sent to the appropriate contact for that domain. Be advised that this is a wholly experimental service. Be sure to visit the web site before sending email to this service; it will explain the what the service does, and how to subscribe to it. You can find it at:
+    http://www.abuse.net 
+
+4k. I've contacted everyone involved - heard nothing back! 
+
+Not all ISP's respond to every complaint. With some, this is because the bulk emailer is his own ISP. With others, it is due to the volume of complaints received. Many of the larger ISPs and backbone providers will send an automated response. Don't be offended by this; they are probably deluged with complaints. The more they get, the sooner they'll find a permanent solution, so keep sending them. Also, although the responses are automated, they may still contain specific information; UUNet's replies contain a unique ID number, intended for use in any further communications regarding that particular incident. 
+
+4l. I've contacted everyone involved - they told me to go away! 
+
+Complain to the next step up the chain. If they, too, brush you off, keep complaining anyway. Some of the upstream providers claim no responsibility for the actions of their customers; in lieu of a "short, sharp, shock", the best thing to do is to keep badgering them. Still other ISPs will tell you there is nothing they can do about such activities; that is pure poppycock. If they happen to be your provider, you might consider letting them know what you think of their incompetence/laziness/irresponsibility by finding another ISP. Be sure to tell all your friends. 
+
+4m. They told me they canceled the account, but I got another U*E! 
+
+Some sites have been created for no other purpose than sending UBE. Some of these will do their best to spread confusion about their natures by misleading and outright lying to those who complain. This has included "removing" offending accounts, only to give the user another account to start over again. Also, some UBE "operators" use a "hit-and-run" strategy, getting free trial or "throwaway" accounts at other ISP's to actually send the mail. 
+
+In addition to that, forging headers is extremely common. At least one UBE'r has been kicked off an account, forged his next barrage with the (no longer valid) address from the ISP that kicked him off, and bounced the mail off of that provider's mail server. 
+
+In UBE, appearances are often deceiving. 
+
+4n. I sent a complaint - they said they had nothing to do with it! 
+
+1.  They had nothing to do with it. The headers were misread or forged. 
+2.  They're a bunch of lying, no-good such-and-so's. If you're pretty certain that's the case, send as much evidence as you have to their postmaster and their upstream provider. 
+
+4o. I sent a complaint - they responded with threats! 
+
+See 2) above. Sometimes, threats come from newbies, so simply sending evidence to their postmaster is enough to get them booted. Also, depending on the nature of the threat, other legal measures may be available to you. 
+
+4p. I never want to see another message from UBEs-Our-Biz.com again! 
+
+Some ISPs (MindSpring is one) maintain server-level junk filters. If your ISP does not do this, ask them to consider it. They may also subscribe to the Realtime Blacklist (RBL), which is a list of sites deemed to be sources of net abuse. More on the RBL can be found at http://maps.vix.com/rbl 
+
+AOL also gives its members another tool, keyword 'Mail Controls', to block email at the individual level. Ask your ISP to provide similar tools. Better still, ask them to provide even -better- tools. 
+
+Some email client programs are equipped with filters which will dump, bounce, or auto-reply to email based on user-defined criteria. Note that this does not prevent the U*E from being received and stored on your mail server until you deal with it. Some email programs will download and act on just the headers; others require the entire message to be downloaded before acting on it. 
+
+Consider getting a procmail filter set up if your connection method and ISP will allow it. Procmail is a subject in and of itself; some good starting points can be found in The Email Abuse Resource List, found at http://members.aol.com/emailfaq/resource-list.html 
+
+Also, n.a.n-a.email, .misc, and .usenet often have threads on the latest procmail tricks and stunts. In addition, there is a newsgroup, comp.mail.misc, that discusses procmail among other things. 
+
+---------------------------------------------------------------------
+
+Subject: 5. Etcetera 
+
+5a. Who cares about this stuff? Just delete it 
+
+The waste of resources, not to mention your time, has already taken place. Besides, if UBE goes unchecked, you might be looking for a keyboard with multiple DEL keys, and a few extra fingers with which to push them. 
+
+5b. There ought to be a law! 
+
+<tongue-cheek>
+Why don't we sic Those Pesky Congress Critters (TPCC)(tm) on them? Do that, and the next thing you know the sky will be filled with Black Helicopters.
+</tongue-cheek> 
+
+US FEDERAL:
+There has been a lot of discussion regarding the United States' junk fax law (47 USC Section 227) and its applicability to U*E. The text of this law is available at http://www.law.cornell.edu/uscode/47/227.html  This law has been very effective in eliminating junk faxes in the US. As of this writing, there is a bill working its way through the US House of Representatives that would amend the 47 USC 227 to include unsolicited commercial email. This effort is being led by The Coalition Against Unsolicited Commercial Email (CAUCE); the text of the amendment, which was introduced by Representative Chris Smith of New Jersey, can be found at http://www.cauce.org/amendment.html 
+
+A bill has been passed by the US Senate, S.1618. Senator Frank Murkowski of Alaska joined with Senator Frank Torricelli of New Jersey to put forth an FTC-enforced opt-out plan; this can be found at http://www.senate.gov/~murkowski/commercialemail/EmailBillText.html 
+
+As of the date of this FAQ, there have been as many as 96 cases pending where 47 USC 227 is being tested for its applicability to email. Check news.admin.net-abuse.email, and other Net news services, for updated information. 
+
+There is also another US statute. 18USC1029 is a computer anti- hacking law that could make it illegal to use false headers or fake accounts on computers. (They call it access codes, devices or services.) 
+
+STATE-LEVEL:
+Washington state has passed a law requiring truth in headers and other identification information to be included in any commercial email sent to Washington state residents. The text can be found at http://www.cauce.org/washlaw.html 
+
+Effective January 1, 1997, Section 17538(d) of the Business and Professions Code took effect in CALIFORNIA. This begins: 
+
+"A vendor conducting business through the Internet or any other electronic means of communication shall do all of the following when the transaction involves a buyer located in California:" 
+
+and goes on to mandate some very specific requirements about exactly how the legal name and address of the vendor shall be prominently disclosed. Violations of this section are punishable by up to six months in jail and a fine of up to $1,000. 
+
+Cal BPC 17538 (d) seems to say that if you make a purchase over the Internet from California, the seller must tell you their real name and address and their return or refund policy before accepting payment; this appears to be a watering-down of earlier versions, which stipulated that such information be put on the web page or in the advertisement making the offer. 
+
+The text of this California business code can be found at http://www.leginfo.ca.gov/cgi-bin/displaycode?section=bpc&group=17001-18000&file=17530-17539.6 
+
+NEVADA has passed a bill in July 1997 in its legislature that deals specifically with the issue of U*E. It appears to have been rendered nearly useless by last-minute lobbying efforts by the Direct Marketing Association. The text can be found at:
+    http://www.leg.state.nev.us./97bills/SB/SB13.HTM 
+
+The bill's sponsor was Senator Raggio:
+    wraggio@sen.state.nv.us . 
+
+If you'd like to tell the DMA what you think, the place to do it is:
+    president@the-dma.org 
+
+5c. I like getting U*E! 
+
+Post your address in n.a.n-a.e - lots of folks would be happy to forward you some more. Be sure to reserve plenty of space. 
+
+5d. I'm seeing a lot of ads in my favorite newsgroup - help! 
+
+Sorry, wrong FAQ. You want the Net Abuse FAQ, posted thrice monthly (on the 1st, 11th, and 21st) to news.admin.net-abuse.*, news.admin.misc, news.groups.questions, and news.answers. It will also be available by anonymous ftp from rtfm.mit.edu and its mirror sites. The master hypertext version is available at: 
+
+http://www.cybernothing.org/faqs/net-abuse-faq.html 
+
+---------------------------------------------------------------------
+Subject: End of eMail Abuse FAQ 
+---------------------------------------------------------------------
+

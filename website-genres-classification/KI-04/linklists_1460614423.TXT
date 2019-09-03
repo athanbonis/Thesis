@@ -1,0 +1,785 @@
+
+
+---------------------------------------------------------------------
+
+The PKI page
+
+---------------------------------------------------------------------
+
+This page contains links to various sites and documents which are related to Public Key Infrastructure (PKI) stuff, especially links to all Certification Authorities (CAs) I'm aware of. Some links may be missing, other links may be out of date so please check back from time to time since I'm regularly updating this page which by definition is far from being complete. Please let me know about missing links. 
+
+Thanks a lot to everyone, esp. the folks at DFN-PCA, who helped creating and maintaining this page while I was with the team. 
+
+This page was last updated on January 3rd, 2004 - new links are marked as 
+
+Jump directly to the following sections:
+
+* Extensive list of Certification Authorities 
+
+* PGP Certification Authorities 
+* CAs accredited by the German Digital Signature Act ("Signaturgesetz") 
+* CAs accredited by the Italian Digital Signature Act 
+* CAs licensed by the Utah Digital Signature Act 
+* CAs licensed by Washington State's Electronic Authentication Act 
+* CAs licensed by Oregon's Electronic Signature Act 
+* CAs licensed by the North Carolina Electronic Commerce Act 
+* CAs licensed by California's Digital Signature Regulations 
+* CAs licensed by Nebraska's Digital Signatures Act 
+* PKI Service Providers approved by the Texas Digital Signature Rule 
+* Information related to the European Directive for Electronic Signatures 
+* CAs licensed under the Gvmt of India IT Act 2000 
+
+* Other sites with useful information 
+
+* Cryptography 
+* Digital Signatures 
+* PGP / OpenPGP / GPG 
+* General World Wide Web Security 
+* Secure Socket Layer (SSL) / Transport Layer Security (TLS) 
+* MIME Security 
+* DNSSEC resources 
+* Secure Electronic Transactions (SET) 
+* Implementations / Toolkits / Products / Vendors 
+* Literature / Articles / Publications / RFCs 
+* Miscellaneous PKI and Security stuff 
+
+---------------------------------------------------------------------
+
+Extensive list of Certification Authorities:
+
+* DFN - PCA (The PCA for the German Research Network) 
+* The UNINETT PCA in Norway and its policy. 
+* IPRA: Internet PCA Registration Authority (MIT) 
+* CREN (US Corporation for Research and Educational Networking) CA 
+* VeriSign, Inc. and its Certificate Practice Statement (CPS) 
+* SET Demo Certificate Selection from VeriSign, Inc. 
+* Sun Certificate Authorities 
+* TradeAuthority 
+* Thawte Certification Division 
+* Initiative for Computer Authentication Technology (ICAT) (Alternative site) 
+* Free certificates by Entrust Technologies 
+* Spyrus Certification Authorities (Australia) 
+* Net.Registry (IBM) 
+* BiNARY SuRGEONS: Certification Services 
+* KEYWITNESS (Canada) 
+* SoftForum CA 
+* EuroTrust: EU Research contract for TTP/CA infrastructure 
+* Government of Canada Public Key Infrastructure 
+* AD AEQUITATEM (Univ. of Zaragoza, Spain) 
+* SISCER (Spain) 
+* Internet Publishing Services (IPS) (note: Spanish language!) 
+* SIA CA (note: Italian language!) 
+* CertCo 
+* IKS Certification Authority 
+* CompuSource 
+* CARYNET Security 
+* KeyPOST (Australia Post) 
+* BankGate 
+* Columbia CA 
+* Entropia Internet CA 
+* KAIST network CA (note: Korean language!) 
+* PVT CA (note: Czech language!) 
+* South African Certification Agency 
+* Telecom Italia Net CA (note: Italian language!) 
+* World Wide Wedlin CA 
+* Swisskey (discontinued) 
+* Australian Government Public Key Authority 
+* NLsign (note: Dutch language!) 
+* SSB - SpA CA (note: Italian language!) 
+* Agencia de Certificación Electrónica 
+* Laboratorio de Criptología (note: Spanish language!) 
+* Interneto Projektai (note: Lithuanian language!) 
+* University of Torino (note: Italian language!) 
+* The USERTRUST Network 
+* GlobalSign 
+* Netrust 
+* Baycorp ID Services Ltd 
+* Certplus 
+* Controller of Certification Authorities (Gov. of Singapore) 
+* CrossCert (Korean Electronic Certification Authority) 
+* Equifax Secure 
+* KMDs certificeringscenter (note: Danish language!) 
+* Security Domain Pty Limited 
+* Certificates Australia Pty Limited 
+* a-sign (note: German language!) 
+* FP5 Certification Service (Fifth Framework Programme of the European Community) 
+* WIS@key 
+* Tele Danmark certificeringscenter (note: Danish language!) 
+* AlphaTrust 
+* ACES - Access Certificates for Electronic Services (US General Services Administration) 
+* WildID LLC 
+* TI-TC Trustcenter of the Institute for Telematics (note: German language!) 
+* EuroPKI 
+* SURFnet PCA (note: Dutch language!) 
+* Väestörekisterikeskus: The Finnish Population Register Centre's CA (note: mostly Finnish language!) 
+* FESTE (note: Spanish language!) 
+* Powszechne Centrum Certyfikacji (note: Polish language!) 
+* Viacode (note: will cease operation!) 
+* Acepta.com (Autoridad Certificadora) (note: Spanish language!) 
+* E-certify Corporation 
+* ACES: Access Certificates for Electronic Services 
+* ORC's DoD IECA: Interim External Certification Authority 
+* freecerts.com: free WAP test certificates 
+* beTRUSTed 
+* TC TrustCenter 
+* The Bridge-CA 
+* eSign Australia 
+* Certall Finland Oy 
+* DoD PKI (DoD PKI External CAs) 
+* a-trust (note: German language!) 
+* Health eSignature Authority Pty Ltd 
+* ID.Safe 
+* IG tOP: Trägerschaft öffentliche PKI Schweiz (note: German language!) 
+* QuoVadis Limited: Bermuda Digital CA 
+* Certipor: Sociedade Portuguesa de Certificados Digitais, S.A. 
+* Acertia (note: Spanish language!) 
+* ICP-Brasil (note: Portuguese language!) 
+* Identrus 
+* E-Commerce PKI CA 
+* Certeca (Offshore CA) 
+* Digital Signature Trust Company 
+* BCA: US DoD Bridge Certification Authority Technology Demonstration 
+* DecidirCA 
+* MEDePass, Inc. 
+* euSign S.A. 
+* TrustCenter berlin.de (note: German language!) 
+* Ezitrust 
+* Keystorm 
+* Geotrust 
+* SignGATE (Korea Information CA, Inc.) 
+* SignKorea (note: Korean language!) 
+* YESSIGN (note: Korean language!) 
+* Korea Certification Authority Central 
+* NCASign (note: Korean language!) 
+* Elenco pubblico dei certificatori attivi (note: Italian language!) 
+* The Federal Bridge-CA (NIST) 
+* Belgacom E-Trust 
+* SafeWeb (note: Portuguese language!) 
+* PKI - Infraestructura de Firma Digital para el Sector Publico - Argentina (note: Spanish language!) 
+* OpenCerts 
+* SwUPKI: PKI for Universities and University Colleges in Sweden 
+* SIGEN-CA (Slovenia) 
+* SIGOV-CA (Slovenia) 
+* Gatekeeper (Australia) 
+* WISeCert 
+* Portas 
+* Cacert 
+* SwisSsign 
+* SSLpartner 
+* Scandtrust 
+* InstantSSL (Comodo Group) 
+* DigiCert, Inc. 
+* EuropePKI 
+
+PGP Certification Authorities:
+
+* DFN - PCA (The PCA for the German Research Network) 
+* IN-CA: Individual Network e.V. (note: German language!) 
+* c't - Krypto-Kampagne (note: German language!) 
+* TC TrustCenter (note: German language!) 
+* IKS Certification Authority 
+* AD Certification Service (note: German language!) 
+* GeFökoM CA (note: German language!) 
+* ID-Pro CA (note: German language!) 
+* SURFnet PCA (note: Dutch language!) 
+
+CAs accredited by the German Digital Signature Law ("Signaturgesetz")
+
+* The Root CA: Regulierungsbehörde (note: German language!) 
+
+* Deutsche Telekom / TeleSec (note: German language!) 
+* Signtrust / Deutsche Post eBusiness 
+* Bundesnotarkammer (note: German language!) 
+* DATEV eG (note: German language!) 
+* Medizon AG (note: gone out of business!) 
+* Steuerberaterkammer Nürnberg (see here also - note: German language!) 
+* Steuerberaterkammer Saarland (see here also - note: German language!) 
+* Hanseatische Steuerberaterkammer Bremen (see here also - note: German language!) 
+* Steuerberaterkammer München (see here also - note: German language!) 
+* Steuerberaterkammer Berlin (see here also - note: German language!) 
+* Steuerberaterkammer Stuttgart (see here also - note: German language!) 
+* Rechtsanwaltskammer Koblenz (see here also - note: German language!) 
+* Rechtsanwaltskammer Bamberg (see here also - note: German language!) 
+* AuthentiDate 
+* TC Trustcenter 
+* D-Trust 
+* Hanseatische Rechtsanwaltskammer Hamburg (see here also - note: German language!) 
+* Steuerberaterkammer Niedersachsen (see here also - note: German language!) 
+* Wirtschaftsprüferkammer (see here also - note: German language!) 
+* Rechtsanwaltskammer München (see here also - note: German language!) 
+* Rechtsanwaltskammer Berlin (see here also - note: German language!) 
+* Steuerberaterkammer Brandenburg (see here also - note: German language!) 
+
+* More Information on the German Digital Signature Act (note: German language!) 
+* T7 - ISIS (Industrial Signature Interoperability Specification) 
+* Rahmenwerk für die einheitliche Spezifizierung der Einsatzbedingungen für Signaturanwendungskomponenten (note: German language!) 
+
+CAs accredited by the Italian Digital Signature Law
+
+* Elenco pubblico dei certificatori attivi (note: Italian language!) 
+
+* SocietÃ  Interbancaria per l'Automazione - Cedborsa S.p.A. (SIA S.p.A.) (note: Italian language!) 
+* SOCIETA' per i SERVIZI BANCARI - SSB S.p.A. (note: Italian language!) 
+* BNL Multiservizi S.p.A. (note: Italian language!) 
+* Infocamere SC.p.A. (note: Italian language!) 
+* Finital - Finanziaria Italiana S.p.A. (note: Italian language!) 
+* Saritel S.p.A. (note: Italian language!) 
+* Postecom S.p.A. (note: Italian language!) 
+* SocietÃ  per Azioni Servizi Centralizzati - Seceti S.p.A. (note: Italian language!) 
+* Centro Tecnico per la RUPA (note: Italian language!) 
+* In.Te.S.A. S.p.A. (note: Italian language!) 
+* ENEL.IT S.p.A. (note: Italian language!) 
+* Trust Italia S.p.A. (note: Italian language!) 
+* Cedacrinord S.p.A. (note: Italian language!) 
+* ACTALIS S.p.A. (note: Italian language!) 
+
+CAs licensed by the Utah Digital Signature Act
+
+* Digital Signature Trust Company 
+* Arcanvs, Inc. 
+* Universal Secured Enryption Repository Company 
+* VeriSign, Inc. 
+
+CAs licensed by Washington State's Electronic Authentication Act
+
+* ID Certify, Inc. 
+* VeriSign, Inc. 
+* Arcanvs, Inc. 
+* Digital Signature Trust Company 
+
+CAs licensed by Oregon's Electronic Signature Act
+
+* Arcanvs, Inc. 
+* VeriSign, Inc. 
+* Digital Signature Trust Company 
+
+CAs licensed by the North Carolina Electronic Commerce Act
+
+* Arcanvs, Inc. 
+* VeriSign, Inc. 
+* Digital Signature Trust Company 
+
+CAs licensed by California's Digital Signature Regulations
+
+* VeriSign, Inc. 
+* Digital Signature Trust Company 
+* ID Certify, Inc. 
+* Entrust Technologies, Inc. 
+
+CAs licensed by Nebraska's Digital Signatures Act
+
+* VeriSign, Inc. 
+* Digital Signature Trust Company 
+* ID Certify, Inc. 
+
+PKI Service Providers approved by the Texas Digital Signature Rule
+
+* VeriSign, Inc. 
+* Digital Signature Trust Company 
+* Baltimore Technologies plc. 
+
+Information and documents related to the European Directive for Electronic Signatures
+
+* The European Commission: Information Society Website 
+* EESSI: The European Electronic Signature Standardization Initiative 
+* ETSI: European Telecommunications Standards Institute 
+* CEN/ISSS E-Sign: European Committee for Standardization (another site) 
+* European Commission: Information Society Directorate-General 
+
+* The Electronic Signatures Regulations 2002 (UK) 
+* Supervisory Authority for Electronic Signatures (Austria) 
+* Status of notification of legal acts implementing the electronic signatures directive 
+* FESA: Forum of European Supervisory Authorities for Electronic Signatures 
+* Study report: The legal and market aspects of electronic signatures (PDF version, accompanying website) 
+* VITAS: Voluntary Trust-service Approval Schemes common interest group 
+
+CAs licensed under the Gvmt of India IT Act 2000
+
+* Controller of CAs 
+* IDRBT CA 
+* TCS Certifying Authority (CA) Services 
+* National Informatics Center CA 
+* SafeScrypt 
+
+---------------------------------------------------------------------
+
+Other sites with useful information:
+
+Here are some more links to sites I find interesting. 
+
+Cryptography:
+
+* International Cryptography Pages 
+* RSA Laboratories' "CryptoBytes" technical newsletter 
+* The "CRYPT NEWSLETTER" Homepage 
+* Crypto Law Survey (Bert-Jaap Koops) 
+* Cryptography Export Control Archives 
+* Steganography Info and Archive 
+* Cryptographers Homepages 
+* European Cryptography Resources 
+* Commercial Encryption Export Controls (BXA) 
+* The Worldwide Cryptography Debate 
+* New Cryptography FAQ by RSA Labs 
+* European expert hearing on digital signatures and encryption (Copenhagen, April 23-24 1998) 
+* Counterpane Internet Security, Inc. (Bruce Schneier) 
+* Selecting Cryptographic Key Sizes (Arjen Lenstra, Eric R.Verheul) 
+* Computational number theory and data security 
+* Handbook of Applied Cryptography (Menezes, van Oorschot, Vanstone) 
+* Cryptography Publishing Project 
+* Cryptographic Software Export Controls in the EU (thesis by Simo-Pekka Parviainen) 
+* Stegdetect 
+* NIST's Key Management Standards 
+* ID-PKC: IDentity-based Public Key Cryptography (CESG) 
+
+Digital Signatures:
+
+* Digital Signatures: Software Industry Issues 
+* US State Digital Signature Laws 
+* Digital Signature Law Survey 
+* EFGA: Digital Signature Section 
+* Summary of international legislation 
+* Tutorial on Digital Signatures 
+* Digital Signature Links 
+* Internet Law & Policy Forum (ILPF): Digital Signature Working Group 
+* Digital Signature Guidelines 
+* ICC: General Usage for International Digitally Ensured Commerce 
+* European Commission Legal Advisory Board: Digital Signatures and Encryption 
+* W3: Digital Signature Initiative 
+* UNITED NATIONS (UNCITRAL): Draft Uniform Rules On Electronic Signatures 
+* ICRI: Legal Aspects of Digital Signatures 
+* Baker & McKenzie: E-Signatures and D-Signatures 
+* S.761: Electronic Signatures in Global and National Commerce Act (US federal) 
+* Bill 88: Electronic Commerce Act, 2000 (Canada) 
+* Projekt ArchiSig (note: German language!) 
+* Fst Ricerca (note: Italian language!) 
+
+PGP / OpenPGP / GPG:
+
+* The international PGP Home Page 
+* The domain pgp.net 
+* PGP Keyserver 
+* PGP Web of Trust Statistics 
+* RFC 1991: "PGP Message Exchange Formats" 
+* RFC 2015: "MIME Security with Pretty Good Privacy (PGP)" 
+* PGP Corporation 
+* PGP/MIME 
+* PGP Attack FAQ 
+* PGP International 
+* Robert (Guerra)'s PGP Links 
+* RFC 2440: "OpenPGP Message Format" 
+* PGP DH vs. RSA FAQ 
+* GnuPG - the GNU Privacy Guard 
+* Key experiments: How PGP Deals With Manipulated Keys 
+* Experimental PGP key path finder 
+* PGPdump Interface 
+* The DSA Flaw in OpenPGP 
+* PGP Keyring Analysis 
+* GPGrelay 
+* Crypt::OpenPGP 
+* A security analysis of PGP 
+* CKS: CryptNET Key Server 
+* RFC 3156: "MIME Security with OpenPGP" 
+* Public Key Servers 
+* Tom McCune's page for PGP 
+* NAI Letter sent to PGP Customers on Feb, 26th (R.I.P. PGP) 
+* OpenPKSD 
+* SKS: the synchronizing keyserver 
+* OpenCDK 
+* PKS: OpenPGP Key Server 
+* onak: OpenPGP Key Server 
+
+General World Wide Web Security:
+
+* The World Wide Web Security FAQ 
+* Java Security FAQ 
+* Terisa Systems 
+* IBM's Surf'N'Sign: Signing Documents on the Web 
+* Tha Java Security Hotlist 
+* WWW Security Pointers 
+* Java Security Resources 
+* Java Filter 
+* Java Security: Chronology of security-related bugs (Sun) 
+
+Secure Socket Layer (SSL) / Transport Layer Security (TLS):
+
+* SSL Protocol Version 2.0 (Draft) 
+* SSL Protocol Version 3.0 (Draft) 
+* Netscape Certificate Specifications 
+* SSLeay and SSLapps FAQ 
+* SSL-Talk FAQ 
+* SSLeay Certificate Cookbook (F. J. Hirsch) 
+* SSLeay 0.6.6 documentation including libcrypto docs 
+* Introducing SSL and Certificates using SSLeay (F. J. Hirsch) 
+* Setting up your own certification environment using SSLeay 0.8.1 and MSIE 4.0 (Samuel Liddicott) 
+* Set up your own CA using free software (Marint Ouwehand) 
+* Mozilla Crypto Group 
+* OpenSSL PKCS#12 Program FAQ (Stephen Henson) 
+* Enabling Network Security with SSLeay 
+* Test the strength of your browser's crypto 
+* OpenSSL: The Open Source toolkit for SSL/TLS 
+* Introduction to SSL 
+* RFC 2246: "The TLS Protocol Version 1.0" 
+* BSAFE patches for SSLeay 
+* PureTLS - free Java-only implementation of SSLv3 and TLSv1 
+* More SSL related applications from the OpenSSL web site 
+* pilotSSLeay: port of SSLeay-0.8.1 to the Pilot 
+* ssldump: SSLv3/TLS network protocol analyzer 
+* OpenSSL for Win32 
+* A design weakness of SSL/TLS (H. Krawczyk) 
+* GNU TLS library 
+* OpenSSL Examples 
+* OpenSSL based PKI 
+* SSLbar 
+* Which SSL: SSL Certificate Buyers Guide (Comodo Group) 
+
+MIME Security:
+
+* All About S/MIME (RSA) 
+* More information about S/MIME (IMC) 
+* PGP/MIME 
+* S/MIME Freeware Library (SFL) 
+* S/MIME Mail Security (IETF) 
+* S/MIME and PGP/MIME 
+* RSA's S/MIME Interoperability Center 
+* S/MIME tool 
+* NIST S/MIME Activities 
+* S/MIME Interop Matrix 
+* PM-S/MIME: S/MIME Plugin for Pegasus Mail 
+
+DNSSEC resources:
+
+* DNS Security (DNSSEC) in CAIRN 
+* NLnet Labs DNSSEC resources 
+* IETF: DNS Extensions (dnsext) System Security 
+* NIC-SE: Reports on DNSSEC 
+* Report from the Workshop on DNSSEC, Sweden 
+* DNSsec Internet Drafts 
+* DNSSEC Related Links 
+* DNSSEC Paper 
+* DNSSEC - Software Integration 
+* Report on IIS DNSSEC Workshop 
+* SIGZ.net: DNSSEC signed test zone 
+* Thesis on DNSSEC (M. Gebien) 
+* Applied Research DNSSEC Pilot 
+* DNSSEC.net 
+
+Secure Electronic Transactions (SET):
+
+* SET Specification by MasterCard and Visa 
+
+Implementations / Toolkits / Products / Vendors:
+
+* SECUDE 
+* NCSA httpd - Using PGP/PEM encryption 
+* RSA Euro - Cryptography for the World 
+* SESAME: Cryptographic applications (secure site) 
+* Information about TIS/MOSS (TIS) 
+* SSR: Secure Socket Relay 
+* Frontier Technolgies: e-Lock (alternative site) 
+* Baltimore Technologies: UniCERT Certification Authority System 
+* cryptlib: freely available Encryption Toolkit (Peter Gutmann) 
+* Apache-SSL: Secure Webserver (Ben Laurie) 
+* JCP Computer Services 
+* SSLeay 
+* mod_ssl: Apache interface to SSLeay 
+* Java Security Toolkit (TU Graz) 
+* Tools from Diversinet Corp. 
+* Jonah PKIX: a freeware PKIX (see below) reference implementation (IBM) 
+* Jonah PKIX: same as above but internationally available! (note: site seems to be dead!) 
+* J/CA Certification Toolkit (Phaos Corp.) 
+* Entrust Technologies 
+* Oscar - DSTC's Public Key Infrastructure Project 
+* Entegrity Solutions Corp 
+* Structured Arts Computing Corp 
+* The OpenCA Project 
+* SHYM Technology 
+* pyCA - Software for running a certificate authority 
+* JCSI - DSTC's Java Crypto and Security Implementation 
+* SmartTrust 
+* Radicchio 
+* Sendmail-TLS 
+* Alphaworks/IBM: KeyMan PKI client side management tool 
+* R&L GmbH: safeX 
+* M2Crypto Cryptography, SSL and S/MIMEv2 for Python 
+* NSS + PSM Open Source PKI projects on Mozilla 
+* Safelayer Secure Communications S. A. 
+* Conclusive Logic, Inc. 
+* SSH Certificate Toolkit 
+* Kyberpass Corporation 
+* PHAOS Technology 
+* Celo Communications 
+* KeyTrust Certificate Explorer 1.1 (note: German language!) 
+* Capslock 
+* Valimo Wireless Oy 
+* Cylink 
+* Awanim 
+* CrypTool 
+* IDX-PKI 
+* Biodata Systems GmbH 
+* Certicom Corp. 
+* ValiCert 
+* .pkicomplete 
+* Java Certification Path API 
+* trustsuite.de (note: German language!) 
+* timeproof 
+* e-Security, Inc. 
+* Hush Communications 
+* PKI Group Test (The NSS Group) 
+* db-order (note: German language!) 
+* upki 
+* CertPath APIs (as part of J2SE 1.4) 
+* BERViewer 
+* Project Ägypten: Free Software SPHINX Clients 
+* EJBCA: J2EE Certificate Authority 
+* AET Europe BV (Advanced Encryption Technology) 
+* Utimaco Safeware 
+* HYPERTRUST 
+* FlexiProvider 
+* iPlanet CMS 
+* RSA Keon 
+* ArticSoft 
+* SECUonline AG 
+* Baltimore Keytools 
+* gpkcs11 
+* ValiCert ASN.1 Parser 
+* CryptoEx 
+* Tekki 
+* pki.ssh.com 
+* C&A 
+* nCipher 
+* KSIGN Co. Ltd. (Korea) 
+* Dreamsecurity Co. Ltd. (Korea) 
+* INITECH Co. Ltd. (Korea) 
+* OnePKI 
+* GUIdumpASN 
+* Tellus Technologies 
+* CPKtec 
+* BCQRE (note: Korean language!) 
+* Glück & Kanja Technology AG 
+* CSP: Certificate Service Provider 
+* e-CryptIt Engine 7.0 
+* SimpleCA 
+* Evidian 
+* NewPKI 
+* Chrysalis-ITS 
+* Fortrus WebPKI 
+* Guardeonic 
+* Evincible 
+* Libgcrypt 
+* Ascertia Corp. 
+* Globus Simple CA Package 
+* Rainbow CryptoSwift 
+* AEP SureWare Keyper 
+* CML: Certificate Management Library 
+* Oasis Digital Signature Services 
+* Teraview 
+* DigiStamp 
+* Signature Perfect KG 
+* XCA 
+* Tarmin Solutions Ltd. 
+* M2Crypto 
+* IT Solution GmbH Software for qualified signatures according to German and Austrian Signature Law (Note: German language!) 
+* PCP: Pure Crypto Project (R. Senderek) 
+* CoreStreet, Ltd. 
+
+Literature / Articles / Publications / RFCs:
+
+* X.509 specification (including latest drafts on X.509v4) 
+* A Survey of Public Key Infrastructures (Marc Branchaud) 
+* PKI-related activities at NIST (also from the DFN-PCA FTP-Server) 
+* Secure E-mail (Presentation given by Harald T. Alvestrand) 
+* Several documents focusing on Electronic Cash from the DFN-PCA FTP-Server 
+* Sirene Publications 
+* Certified Electronic Mail (CEM) 
+* W3: Electronic Payment Schemes (Phillip Hallam-Baker) 
+* Security and Encryption Links (Peter Gutmann) 
+* Excellent X.509 Style Guide (Peter Gutmann) 
+* PEM implementations and documents from the DFN-PCA FTP-Server 
+* Center for Standards (DISA): PKI Standardization Home Page 
+* Publications on Java Security et al. (SIP) 
+* Rethinking PKI and digital certificates --- building in privacy (Thesis of Stefan Brands) 
+* Compliance Defects in Public-Key Cryptography (D. Davis) 
+* Ten Risks of PKI: What You're Not Being Told About Public Key Infrastructure (B. Schneier, C. Ellison) 
+
+* ...and a response to 10 Risks of PKI (A. Perez) 
+* ...and another response to 10 Risks of PKI (B. Laurie) 
+
+* The OpenSource PKI book 
+* The Public-Key Cryptography Standards (PKCS) 
+* Conventional PKI: An Artefact Ill-Fitted to the Needs of the Information Society (Roger Clark) 
+* Excerpts from "The Design and Verification of a Cryptographic Security Architecture" (PhD thesis, Peter Gutmann) 
+* PKI Publications from ETH, Zürich 
+* Public Key Cryptography based on Braid Groups 
+* The Ten Minute CEO Briefing on PKI... (note: site seems to be dead!) 
+* The Shocking Truth About Digital Signatures and Internet Commerce (J. Winn) 
+* PKI Policy Pitfalls (M. Bobbitt) 
+* List of CA's 
+* An introduction to PKI (and more PKI white papers) 
+* White Papers on PKI 
+* Digital Certificates (Roedy Green) 
+* Collection of PKI related RFCs and internet drafts 
+* Implementation Problems on PKI 
+* PKI Policy in the Business Environment (J. Sabo, Y. Dzambasow) 
+* Vergleichbarkeit von PKI-Policies mittels XML (note: German language!) 
+* Non-Repudiation in the Digital Environment (A. McCullagh, W. Caelli) 
+* No Remedy for Disappointed Trust Â– The Liability Regime for Certification Authorities Towards Third Parties Outwith the EC Directive in England and Germany Compared (S. Hindelang) 
+* Solar Trust Model (M. Clifford) 
+* Networking in The Solar Trust Model: Determining Optimal Trust Paths in a Decentralized Trust Network (M. Clifford) 
+
+RFCs and internet drafts: 
+
+* The IETF Security Area and related IETF working groups 
+
+* PKIX: Public Key Infrastructure (X.509) 
+
+* RFC 2459: "Certificate and CRL Profile" 
+* RFC 2510: "Certificate Management Protocols" 
+* RFC 2511: "Certificate Request Message Format" 
+* RFC 2527: "Certificate Policy and Certification Practices Framework" 
+* RFC 2528: "Representation of Key Exchange Algorithm (KEA) Keys in Internet X.509 Public Key Infrastructure Certificates" 
+* RFC 2559: "Operational Protocols - LDAPv2" 
+* RFC 2560: "Online Certificate Status Protocol - OCSP" 
+* RFC 2585: "Operational Protocols - FTP and HTTP" 
+* RFC 2587: "LDAPv2 Schema" 
+* RFC 2797: "Certificate Management Messages over CMS" 
+* RFC 2875: "Diffie-Hellman Proof-of-Possession Algorithms" 
+* RFC 3029: "Data Validation and Certification Server Protocols" 
+* RFC 3039: "Qualified Certificates Profile" 
+* RFC 3161: "Time-Stamp Protocol (TSP)" 
+* RFC 3279: "Algorithms and Identifiers for the PKIX Certificate and Certificate Revocation List (CRL) Profile" 
+* RFC 3280: "Certificate and CRL Profile" 
+* RFC 3281: "An Internet Attribute Certificate Profile for Authorization" 
+* RFC 3379: "Delegated Path Validation and Delegated Path Discovery Protocol Requirements" 
+
+* S/MIME: S/MIME Mail Security 
+
+* RFC 2311: "S/MIME Version 2 Message Specification" 
+* RFC 2312: "S/MIME Version 2 Certificate Handling" 
+* RFC 2630: "Cryptographic Message Syntax" 
+* RFC 2631: "Diffie-Hellman Key Agreement Method" 
+* RFC 2632: "S/MIME Version 3 Certificate Handling" 
+* RFC 2633: "S/MIME Version 3 Message Specification" 
+* RFC 2634: "Enhanced Security Services for S/MIME" 
+* RFC 2785: "Methods for Avoiding the 'Small-Subgroup' Attacks on the Diffie-Hellman Key Agreement Method for S/MIME" 
+* RFC 2876: "Use of the KEA and SKIPJACK Algorithms in CMS" 
+* RFC 2984: "Use of the CAST-128 Encryption Algorithm in CMS" 
+* RFC 3058: "Use of the IDEA Encryption Algorithm in CMS" 
+* RFC 3125: "Electronic Signature Policies" 
+* RFC 3126: "Electronic Signature Formats for long term electronic signatures" 
+* RFC 3183: "Domain Security Services using S/MIME" 
+* RFC 3185: "Reuse of CMS Content Encryption Keys" 
+* RFC 3211: "Password-based Encryption for CMS" 
+* RFC 3217: "Triple-DES and RC2 Key Wrapping " 
+* RFC 3218: "Preventing the Million Message Attack on Cryptographic Message Syntax" 
+* RFC 3274: "Compressed Data Content Type for CMS" 
+* RFC 3278: "Use of Elliptic Curve Cryptography (ECC) Algorithms in CMS" 
+* RFC 3369: "Cryptographic Message (CMS)Syntax" 
+* RFC 3370: "Cryptographic Message Syntax (CMS) Algorithms" 
+* RFC 3394: "Advanced Encryption Standard (AES) Key Wrap Algorithm" 
+* RFC 3537: "Wrapping a Hashed Message Authentication Code (HMAC) key ..." 
+* RFC 3560: "Use of the RSAES-OAEP Key Transport Algorithm in CMS" 
+* RFC 3565: "Use of the Advanced Encryption Standard (AES) Encryption Algorithm in CMS" 
+
+* TLS: Transport Layer Security 
+
+* RFC 2246: "The TLS Protocol Version 1.0" 
+* RFC 2712: "Addition of Kerberos Cipher Suites to TLS" 
+* RFC 2817: "Upgrading to TLS Within HTTP/1.1" 
+* RFC 2818: "HTTP Over TLS" 
+* RFC 2830: "LDAP v3: Extension for Transport Layer Security" 
+
+* SPKI: Simple Public Key Infrastructure (Note: WG has concluded) 
+* OpenPGP: An Open Specification for Pretty Good Privacy 
+* XML-DSig: XML Digital Signatures (see also: IETF/W3C XML Signature WG 
+* IPSEC: IP Security Protocol 
+* IPSRA: IP Security Remote Access 
+
+* The PEM specification: 
+
+* RFC 1421 --- ASCII --- PostScript (195 KB) 
+* RFC 1422 --- ASCII --- PostScript (156 KB) 
+* RFC 1423 --- ASCII --- PostScript (76 KB) 
+* RFC 1424 --- ASCII --- PostScript (46 KB) 
+
+* RFC 1847: "Security Multiparts for MIME" 
+* RFC 1848: "MIME Object Security Services (MOSS)" 
+* RFC 2015: "MIME Security with Pretty Good Privacy (PGP)" 
+* RFC 2480: "Gateways and MIME Security Multiparts" 
+* RFC 3156: "MIME Security with OpenPGP" 
+* RFC 3174: "US Secure Hash Algorithm 1 (SHA1)" 
+
+Miscellaneous PKI and Security stuff:
+
+* TERENA's Security Working Group: WG-SEC 
+* UKERNA Technology Group Secure Email Project Homepage 
+* About the Digital Notary Service 
+* MMMSec: Security in Multimedia - Mail 
+* Internet Law & Policy Forum (ILPF): CA Working Group 
+* SPKI: Simple Public Key Infrastrucure (Carl Ellison) 
+* Electronic Commerce Promotion Council (Japan) 
+* INFOSEC page from DGXIII of the European Commission 
+* Meta-Certificate Group 
+* University of Colorado Certification Practices Statement (DRAFT) 
+* The Global Trust Register (University of Cambridge) 
+* Certificate Authority Interoperability Pilot (Internet Council) 
+* Fortify for Netscape! 
+* European Certification Authority Forum (ECAF) 
+* "PKI Architecture" - Network Strategy Report by The Burton Group 
+* PKI Task Group (Open Group) 
+* Netscape Object Signing Resources 
+* Government of Canada Public Key Infrastructure Secretariat 
+* "CLOUD COVER" (UK Government) 
+* CA Resource Center 
+* The "Thin PKI" concept 
+* The PKI Forum 
+* ISETO: The International Secure Electronic Transactions Organisation 
+* ESCA: Electronic Signatures and Certification Authorities (ITU) 
+* e-STIO: Electronic Signature Testsuite for Inter-Operability 
+* Baker & McKenzie: Certification Authorities 
+* ChamberSign initiative by the British Chambers of Commerce 
+* The PKI Challenge (EEMA) 
+* HEPKI: Higher Education PKI 
+* PKI-COORD: PKI Coordination for Europe 
+* XKMS: XML Key Management Services (XKMS at w3.org) 
+* TECS: The Encyclopedia of Computer Security 
+* WebTrust Program for Certification Authorities 
+* CertificationAuthorities.com 
+* globalplatform.org 
+* SiegeSoft.com (Internet Privacy and Security) 
+* Project MailTrusT (note: German language!) 
+* Network and Information Security: Proposal for a European Policy 
+* ABA's PKI Assessment Guidelines (Draft) 
+* PKI Symposium 2003 (note: German language!) 
+* Dartmouth PKI Lab 
+
+* 3rd Annual PKI Research Workshop 
+
+* De Taskforce PKI Overheid (note: Dutch language!) 
+* Electronic Commerce for Developing Countries (ITU) 
+* OpenValidation.org (OCSP test responder ) 
+* VPNC: VPN Consortium 
+* PKC 2002 
+* tScheme Ltd 
+* Internet2 PKI Labs 
+* Healthcare PKI 
+* vpnlabs.org 
+* vpnlabs.com 
+* SSTC: XML-Based Security Services Technical Committee (OASIS) 
+* xmltrustcenter.org 
+* pkilaw.com 
+* SigLab (note: German language!) 
+* A bridge CA for Europe's public administrations 
+* Questionnaire on Public Key Infrastructure applications and requirements for the European Academic Networks 
+* ISIS-MTT Testbed 
+* X.509 path validation test suite (NIST) 
+* PKI Club 
+* FreeICP Project 
+* PKICUG (PKI for Closed User Groups) 
+* Challenge PKI Project 
+* PKI Interoperability Project (Japan PKI Forum) 
+
+---------------------------------------------------------------------
+
+This page ist best viewed with eyes. 
+
+© 2000-2004 by Stefan Kelm / Secorvo Security Consulting / http://www.pki-page.info/ 

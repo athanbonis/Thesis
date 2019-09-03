@@ -1,0 +1,42 @@
+
+
+Holger Paschke
+
+---------------------------------------------------------------------
+
+CV Lite
+
+After achieving my diploma in mathematics and computer sciences (cf. web interface for SplitsTree), I now enjoy the exciting world of *nix-based System Management as consultant of is4 IT-Services for Consumer Products & IT-Providers. 
+
+You will find my current Public GnuPG Key wrapped into the file public-key.txt, the corresponding fingerprint is:
+
+5EFE E7F4 E85A 2D75 495C ED77 EE2C 428B 472D 060E
+ 
+
+Personal Timeline of Computers
+
+* TI 99/4A: more infos 
+* Sinclair ZX Spectrum 
+* Atari 130XE: more infos 
+* Atari ST: more infos 
+* Intel 386SX-based PC (16MHz) with DOS 
+* Intel 486-based PC (33MHz, EISA-Bus) running OS/2, Windows NT, Slackware Linux, SuSE Linux 
+* Intel Pentium-based PC (166MHz resp. 200MHz) running RedHat Linux 
+* Toshiba Tecra 780 (Pentium II at 266MHz) running Debian GNU/Linux 
+* AMD K6-based PC (500MHz) still running Debian GNU/Linux 
+* Toshiba Satellite Pro 6000 (Pentium III at 1200MHz) still running Debian GNU/Linux 
+
+Techie's Delight
+
+* Home of Debian GNU/Linux  
+* GNU Hurd  
+* Debian Planet  
+* Feed Your Engine  
+* Perl Monks  
+* distributed.net: OGR-25 Statistics 
+
+---------------------------------------------------------------------
+Last modified: July 29 2003 22:31:35
+- powered by HOST EUROPE 
+
+function setCookie(name, value, expires, path, domain, secure) { var curCookie = name + "=" + escape(value) + ((expires) ? "; expires=" + expires.toGMTString() : "") + ((path) ? "; path=" + path : "") + ((domain) ? "; domain=" + domain : "") + ((secure) ? "; secure" : ""); document.cookie = curCookie; } var ad_url = "http://ads.tripod.lycos.co.uk/ad/google/frame.php?_url="+escape(self.location)+"&gg_bg=&gg_template=&mkw=&cat=computer.technics"; var ref=window.document.referrer; if(parent.LycosAdFrame) { if(parent.memberPage && parent.memberPage.document.title ) { parent.document.title=parent.memberPage.document.title; } if(parent.LycosAdFrame && parent.LycosAdFrame.location && (ref != "" && (ref+"?" != window.location) && (ref.substr(ref.length-1,1) != "/")) ) { parent.LycosAdFrame.location.replace(ad_url); } setCookie("adFrameForcePHP",0,0," "); parent.document.body.cols = "*,140"; } else if(top.LycosAdFrame && top.LycosAdFrame.location) { if ((ref != "" && (ref+"?" != top.window.location) && (ref.substr(ref.length-1,1) != "?"))) { top.LycosAdFrame.location.replace(ad_url); } setCookie("adFrameForcePHP",0,0," "); top.document.body.cols = "*,140"; } else { if (!window.opener) { setCookie("adFrameForcePHP",1,0," "); } else { setCookie("adFrameForcePHP",0,0," "); } }  if (window.top.location.href.indexOf("http://members.lycos.co.uk")!=-1) {   ad_frame = 1 ;   window.top.document.body.cols="*,140" ;  } function resizeGoogleAdFrame() {  window.top.document.body.cols = "*,140"; }  if (ad_frame == 1 && AD_clientWindowSize()) {   setInterval("resizeGoogleAdFrame()", 30);  } 

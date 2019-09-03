@@ -1,0 +1,105 @@
+
+
+Embedding R in Other Applications
+
+On Unix, it is possible to compile R as a stand-alone library that can be linked with or dynamically loaded into other applications. One can then use the programming interface defined in the Writing R Extensions to evaluate R expressions, call R functions, access the math routines, provide a well-defined and complete scripting language, etc. 
+
+Motivation
+
+There is little doubt that embedding the R library within a C routine that acts as a regular shell command is overkill. To do this, one could execute R in batch mode with a specified script that queried the vector commandArgs(). If C code is needed, it can be dynamically loaded into R (possibly with equal or less effort than creating an embedded application). In this case, the functionality of the application is achieved without the application being in control. Instead, R is the "server" in the setup. 
+
+Even graphical interfaces which would appear to need to be in control of an application need not use the embedded R library. Instead, the regular stand-alone R can be used, again in batch mode, to invoke the R commands to create the GUI (using either of the Java or TclTk packages, or coding it directly in C using one of the GUI libraries and contending with the event loop!). 
+
+However, the embedded R mechanism is useful in applications that really must be in control of initialization and execution. Long running servers are natural examples. The Postgres and MySQL servers are examples of such applications. Dynamic, event-driven processing systems that are given data at different times and update their computations accordingly (e.g. produce new reports and plots, inventory tracking, user signatures, etc.) are other examples. The Apache server is another example of where embedding a statistical environment is useful in two regards. Firstly, the R language can be used to generate pages in the same way that Perl, PHP, etc. are employed. A simple CGI command that specifies an R expression that uses the RSDBI package to extract values from a database and generate a plot (in Postscript, PNG, PDF, SVG, etc.) and return a page containing that image can be a simple way to produce high-quality graphics without the overhead of starting R each time. 
+
+Not only can servers such as Postgres, MySQL and Apache allow its users to employ R by embedding it as a module, these systems might also use the statistical facilities (either native routines or via the interpreted language) to govern their own behavior. Computing models for transactions so that Apache can pre-fetch pages for clients or reorganize its own caches to optimize current activity are natural uses of the modelling code in R. Similarly, Postgres can tailor its performance by incrementally computing statistics about its own behavior. 
+
+Test Applications
+
+The initial example that was used to test this setup was embedding R within Postgres for use as a procedural language. This allows (privileged) users to define SQL functions as R functions, expressions, etc. Additionally, tests were done by evaluating R expressions within 
+
+1.  a simple application that dynamically loaded libR.so 
+2.  ggobi that is linked against libR.so and contains a GUI callback. (This is not a very practical example as ggobi can be entirely embedded and controlled from within R.) 
+
+Linking the R library
+
+$(CC) -L$(R_HOME)/bin -lR 
+
+Initializing R from within an Application
+
+Currently, the following code will initialize the R engine. void initR() { char *argv[] = {"REmbeddedPostgres", "--gui=none", "--silent"}; int argc = sizeof(argv)/sizeof(argv[0]); Rf_initEmbeddedR(argc, argv); } 
+When this is called, the environment variables such as R_HOME, R_PROFILE, R_LIBS should be appropriately set. There are a variety of tools which can help an application read configuration details. (For example, the C++ properties library in the Omegahat distribution allows one to read a file containing name:
+valuepairs. ) 
+
+Handling Errors
+
+An application that embeds R must be careful to take care of handling errors that occur within the R engine appropriately. In the stand-alone version of R, an error will (after other on.error() activities in each evaluation frame) return control to the main input-eval-print loop. In general, this is not what is desired within another application. Instead, we want to trap such R errors and handle them from where the application passed control to the R engine. 
+
+This can be done most readily using the C routine R_tryEval to evaluate the S expression. This does exactly what we want by guaranteeing to return to this point in the calling code whether an error occurred or not in evaluating the expression. This routine is similar to eval, taking both the expression to evaluate and an environment in which to perform the evaluation. It takes a third argument which is the address of an integer. If this is non-NULL, when the call returns, this contains a flag indicating whether there was an error or not. 
+
+Example
+
+int callFoo() { SEXP e, val; int errorOccurred; int result = -1; PROTECT(e = allocVector(LANGSXP, 1)); SETCAR(e, Rf_install("foo")); val = R_tryEval(e, R_GlobalEnv, &errorOccurred); if(!errorOccurred) { PROTECT(val); result = INTEGER(val)[0]; UNPROTECT(1); } else { fprintf(stderr, "An error occurred when calling foo\n"); fflush(stderr); } /* Assume we have an INTSXP here. */ UNPROTECT(1); /* e */ return(result); } 
+Note that this will, by default, take care of handling all types of errors that R would usually handle including signals. So if the user sends an interrupt to a computation (e.g. using Ctrl-C) while an R expression is being evaluated, R_tryEval will return and report an error. If the host application however changes the signal mask and/or handlers from R's own ones, of course this will not necessarily happen. In other words, the host application can control the signal handling differently. 
+
+Handling The Event Loop
+
+As we have encountered when integrating other software into R and handling blocking I/O, software that assumes that it is in control of waiting for events can be challenging to embed in another application. So as to not inflict this same problem on others, R should be able to export the file descriptors on which it is waiting for events and also the individual callbacks associated with each these file descriptors. It is inconceivable that we can have a common C-level signature for the callbacks across different applications (other than those defined by the "standards" -- X, Gtk, Tk, etc.). Many applications that have an event loop do not admit the possibility of different sources of events, but instead assume there are only e.g. user events on a GUI and not on stdinor other connections. 
+
+Compiling the Library
+
+The library is not compiled by default during the installation of R. One can pass the argument -enable-R-shlibsto the configure script and then build, as in 
+
+<top of R source tree>/configure --enable-R-shlibs
+  make
+
+The resulting (shared) library is currently installed into the directory bin/ within the R distribution. 
+
+Future Directions
+
+It would be advantageous to decompose the functionality provided by the large libR.so into a collection of sub-libraries. Then users would be able to load just those that were needed for their applications. For example, continuing Brian's work to make the X11 be dynamically loadable and provide the Math routines as a stand-alone library, we might consider providing libraries for the following topics 
+
+* Parser and abstract syntax tree. 
+
+* Evaluator. 
+
+* Graphics. 
+
+* Modelling. 
+
+Multiple Evaluators
+
+The ability to embed R raises the issue of having multiple evaluators, multiple threads, multiple users and synchronization of all of these. 
+
+Examples
+
+This trivial example illustrates how to initialize the R environment and invoke an expression via the eval_R_command() 
+
+void
+init_R()
+{
+extern Rf_initEmbeddedR(int argc, char **argv);
+  int argc = 1;
+  char *argv[] = {"ggobi"};
+
+Rf_initEmbeddedR(argc, argv);
+}
+
+/*
+  Calls the equivalent of 
+    x 
+
+Routines for the Embedded R
+
+The following are the routines that are now visible from the shared
+library that directly relate to the embedded version of R and are not
+in the regular API (i.e. mentioned in Writing R
+Extensions).
+
+Routine	Description	 
+void  jump_now(void)Should be overridden by the  application loading libR.so  so as to handle errors in R commands. It usually calls  Rf_resetStack()  and returns control to the application.  
+int  Rf_resetStack(int resetTopLevel) Resets the R evaluator after an error so that subsequent  evaluations can proceed appropriately. This should be called with  a non-zero argument from applications that embed R.  
+int Rf_initEmbeddedR(int argc,  char **argv)Initializes the R environment,  passing the specified strings as if they were from the  command line. The appropriate environment variables  should be set before calling this routine. 
+
+---------------------------------------------------------------------
+Duncan Temple Lang (duncan@research.bell-labs.com) Last modified: Mon Aug 21 22:43:35 EDT 2000 

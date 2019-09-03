@@ -1,0 +1,120 @@
+DataArt's mission is to make our clients more competitive by means of innovations in the field of information technology. We strike to deliver the best of Russian IT talent to small to mid size US businesses in the framework of sound project management and communication practices, risk management and total focus on quality. Logic of our organization is technical excellence. Soul of our service is business goals of our clients. Key Offerings: Fast product release Team completion and extension Re-factoring and re-engineering Rapid prototyping Systems maintenance R&D Offices/Addresses: New York (Head Office) DataArt 475 Park Avenue South Floor 9 New York, NY 10016 USA Tel: +1 (212) 378-4108 info@dataart.com London DataArt Technologies UK Ltd. Queen's Wharf Queen Caroline Street London, W6 9RJ United Kingdom Tel: +44 (0) 20 8748 2877 sales@dataartuk.com Silicon Valley DataArt Technologies, Inc. 14510 Big Basin Way Suite 203 Saratoga, CA 95070 USA Tel: +1 (650) 375-8809 info@dataarttech.com St. Petersburg DataArt, Eastern Europe 10 Serpukhovskaya Street St. Petersburg, 190013 Russia Tel: +7 (812) 326-1780 info@dataart.com Events: DataArt and CIO Collective announce the EXECUTIVE Technology Leadership Forum February 4th, 2004 St. Petersburg, Russia DataArt News: » 01/12 : DataArt again announces vacancy for .NET developer. » 01/13 : Information Retrieval using Latent Semantic Indexing to be used for spam filtering. read more news »» » DataArt will be at the TECHXNY Expo on September 16-18, 2003. To chat directly with a representative of DataArt, please click on the button below (no downloads involved). Contact us now to: » Get consultation on offshore outsourcing strategies at no charge » Get instant contact with technical experts » Submit information on your potential development need and get a proposal Let us know about your potential development need even if you don't have a formal RFP yet - we will work with you to put together a winning project strategy. Featured project » Electronic Medical Records system DataArt has developed a large customizable practice automation software framework to facilitate workflow and eliminate paperwork. Questions or comments? info@DataArt.com &copy 1997-2004 DataArt   --> 
+
+Software development
+
+DataArt is an offshore software development and outsourcing company with a staff of fifty software professionals in St. Petersburg, Russia and local project management capacity in New York, San Francisco, and London. Our core competence is development on the Microsoft .NET platform. DataArt is best positioned to work with small- and mid-sized enterprises; however, our client list includes Compaq, ACNielsen, and Metropolitan Transportation Authority of New York. 
+
+Offshore software development
+
+Microsoft .NET Development Services. DataArt's core competence is development on the Microsoft .NET platform certified by participation in an exclusive Microsoft .NET Early Adopters Program. Our experience is showcased on Microsoft's website and was mentioned in Bill Gates's keynote presentation at the Microsoft .NET Launch event. Our dedicated Microsoft .NET development team enjoys full support from Microsoft. DataArt's experience and achievements make us an excellent choice for development in mixed environments and gradual technology upgrades. We already have a solid track record in the development of multi-tier Web Applications based on Microsoft .NET Framework with reusable business services and the reengineering of ASP, JSP, ColdFusion, PHP web applications to Microsoft .NET. By specializing in technology rather than industry, we feel we offer a breadth of experience and the advanced technical knowledge necessary to deliver software solutions quickly, and inexpensively. 
+
+Offshore software outsourcing
+
+Local project management, focus on quality We adhere to the project management and quality assurance principles of the Rational Unified Process, which calls for iterative development, sustainability to changes, careful QA, and risk management. A tech-savvy project coordinator with native fluency in English is available locally. Our dedicated quality assurance team is equipped with state of the art testing facilities. Web-based project management and collaboration tools are employed to control project flow and provide a real-time interface to the work process. 
+
+World Class Programming Team Most of our employees have over 5 years' field experience and industry certifications and are graduates of Russia's prestigious St. Petersburg State University, a perennial favorite in world programming championships. 
+
+Return Customers, Excellent Referrals DataArt's business foundation relies on returning clients and referrals from existing clients. During your due diligence appraisal, we are confident you will receive exceptional references from our existing client base. Our focus on measurable value and ROI helps us maintain a high level of client satisfaction and repeat business. 
+
+hotlog_js="1.1";hotlog_r+="&j="+(navigator.javaEnabled()?"Y":"N") 
+
+function img_on(img) {  document.images[img].src = '/images/' + img + '-on.gif' } function img_of(img) {  document.images[img].src = '/images/' + img + '-off.gif' } // function questionValidate(pForm) {  var aFields = new Array();  aFields[aFields.length]=new Array("FromName","Name",255,"text_string",1,null,null);  aFields[aFields.length]=new Array("FromEmail","E-mail",255,"text_email",1,null,null);  aFields[aFields.length]=new Array("MsgBody","Comment",255,"text_string",1,null,null);  var bResult = commonvalidate(aFields,pForm);  return bResult; } // test screenw = screen.width / 2 - 120; screenh = screen.height / 2 - 110;  
+
+ We look forward to your questions and feedback!
+
+Name
+ 	
+E-mail
+ 	
+Comment	 
+
+Premier Offshore Development Service Provider
+
+DataArt's mission is to make our clients more competitive by means of innovations in the field of information technology. We strike to deliver the best of Russian IT talent to small to mid size US businesses in the framework of sound project management and communication practices, risk management and total focus on quality. Logic of our organization is technical excellence. Soul of our service is business goals of our clients. 
+
+Key Offerings: 	
+  
+  	  Fast product release	     
+  	  Team completion and extension	     
+  	  Re-factoring and re-engineering	     
+  	  Rapid prototyping	     
+  	  Systems maintenance	     
+  	  R&D	           
+
+Offices/Addresses: 
+
+New York (Head Office)
+  DataArt
+  475 Park Avenue South
+  Floor 9
+  New York, NY 10016
+  USA
+  Tel: +1 (212) 378-4108
+  info@dataart.com     	     London
+  DataArt Technologies UK Ltd.
+  Queen's Wharf
+  Queen Caroline Street
+  London, W6 9RJ
+  United Kingdom
+  Tel: +44 (0) 20 8748 2877
+  sales@dataartuk.com    	
+        Silicon Valley
+  DataArt Technologies, Inc.
+  14510 Big Basin Way
+  Suite 203
+  Saratoga, CA 95070
+  USA
+  Tel: +1 (650) 375-8809
+  info@dataarttech.com      	     St. Petersburg
+  DataArt, Eastern Europe
+  10 Serpukhovskaya Street
+  St. Petersburg, 190013
+  Russia
+  Tel: +7 (812) 326-1780
+  info@dataart.com     	
+
+ 
+ 	
+  	 	 
+  
+  Events:	  
+  	  
+  DataArt and CIO Collective announce   the EXECUTIVE
+ Technology Leadership Forum
+  February 4th, 2004
+  St. Petersburg, Russia 	  
+
+DataArt News:	  
+  	 
+  »  	   01/12 : DataArt again announces vacancy for .NET developer.	  
+  	 
+  »  	   01/13 : Information Retrieval using Latent Semantic Indexing to be used for spam filtering.	  
+  read more news »»	   
+
+Contact us now to:      	
+         
+    »  	     Get consultation on offshore outsourcing strategies at no charge          
+
+»  	     Get instant contact with technical experts         
+
+»  	     Submit information on your potential development need and get a proposal         
+
+Let us know about your potential development need even if you don't have a formal RFP yet - we will work with you to put together a winning project strategy.          
+   	
+ 
+
+Featured project  	
+         
+    »  	     Electronic Medical Records system          
+
+   	         DataArt has developed a large customizable practice automation software framework to facilitate workflow and eliminate paperwork.          
+   	
+ 
+ 
+ 	 
+
+Questions or comments? info@DataArt.com
+ &copy 1997-2004 DataArt  	
+
+ 
+ 

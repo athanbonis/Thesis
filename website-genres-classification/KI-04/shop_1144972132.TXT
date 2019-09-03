@@ -1,0 +1,5 @@
+#divNewsCont {  position:absolute;  width:383;  height:80;  left:18;  top:123;  visibility:hidden;  z-index: 250;  clip: rect( ) } #divNews {  position:absolute;  z-index: 250; } 
+
+Netscape or Internet Explorer 4.0 or higher is required.	   	  
+  	  
+

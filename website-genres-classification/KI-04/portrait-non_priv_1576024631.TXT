@@ -1,0 +1,184 @@
+
+
+Data, Software and News from the Statistics Community	 Jan 25, 2004 - 09:12 PM	 
+
+Main Page :: Mailing Lists :: Forum ::  	 
+
+Search    	
+
+Main Menu	 
+
+· Home· CMU Statistics· Get Software· Get Data· Other Places· ASA/IMS· DASL· Bayes Workshop· Other Meetings· About StatLib· Your account	 
+
+Other options	 
+
+· Advanced Searches· FAQ· Feedback· Forum· Polls· Submit an event· Submit software/data	 
+
+Forum headlines	 
+
+· Structural equations software
+· Excel solver and nonlinear regression
+· Polygonal declustering
+· status of MARS software on StatLib???
+· Need help generating a model - Please
+
+Forum Stats	 
+
+Members :	2231	
+Categories :	3	
+Forums :	8	
+Subjects :	38	
+Posts :	53	
+
+User's Login	 
+
+ Username	
+
+ Password	
+
+ Remember me	
+
+Don't have an account yet? You can create one. As a registered user you have some advantages like a theme manager, comments configuration and posting comments with your name.	
+
+Welcome to StatLibWelcome to StatLib, a system for distributing statistical software, datasets, and information by electronic mail, FTP and WWW. StatLib started out as an e-mail service and some of the organization still reflects that heritage. We hope that this document will give you sufficient guidance to navigate through the archives. For your convenience there are several sites around the world which serve as full or partial mirrors to StatLib. 
+
+---------------------------------------------------------------------
+
+Please only take what you need! If you need something else later you can always get it from StatLib when you need it. 
+
+Many of the StatLib collections accept submissions. If a collection accepts submissions, you can obtain directions by looking at the file called 
+  submissions
+
+in the appropriate collection. You can also make submissions by following the "Submit software/data" link in the "Other Options" menu. 
+
+If ALL else fails, send mail to Pantelis Vlachos (vlachos_AT_stat.cmu.edu) with details of the problem. I'll try to help you, if I can. 
+
+---------------------------------------------------------------------
+
+StatLib's new features include: 
+
+* A registration system 
+* An automated data and software submission procedure 
+* An automated link submission system including registration of broken links 
+* An automated event submission system (meetings, conferences etc) 
+* A rating system for submissions 
+* A faster search engine 
+We have tried to keep the direct URLs to StatLib's "traditional" archives in tact. However, there are bound to be some broken links. We are anxious to receive any corrections you might have as well as your comments and suggestions. The familiar table-based look has been replaced by the menu on the left and the contents of StatLib have been classified in four categories: Data, Software, ASA/IMS related and Mailing lists. For those of you who find the "old look" more convenient can still access it here 
+
+--The StatLib team 	
+
+  Recent Submissions	 
+
+  arsenic.zip	 Â» Details	 
+This is a zip file containing the arsenic ... 	Â» 19.12.03	 
+
+  lasso	 Â» Details	 
+Functions for estimation of linear, gener ... 	Â» 01.12.03	 
+
+  JohnsonSystem	 Â» Details	 
+This program follows the methodology propo ... 	Â» 24.11.03	 
+
+  cov_nnve	 Â» Details	 
+The S-PLUS function cov.nnve() for robust ... 	Â» 18.11.03	 
+
+  nnclean	 Â» Details	 
+A function to find features in point proc ... 	Â» 18.11.03	 
+
+  Popular Downloads	 
+
+  Index of Applied Statistics...	 	Â» Details	
+9451 Downloads	Size:	0 bytes	
+ 
+
+  Index of Datasets Archive	 	Â» Details	
+7672 Downloads	Size:	0 bytes	
+ 
+
+  Index of Splus archive	 	Â» Details	
+4466 Downloads	Size:	0 bytes	
+ 
+
+  DASL interface	 	Â» Details	
+3732 Downloads	Size:	0 bytes	
+ 
+
+  Index of CRAN archive	 	Â» Details	
+2854 Downloads	Size:	0 bytes	
+ 
+
+[ More Downloads ]	
+
+  New links	 
+
+  Appian Analytics	 Â» Visit	 
+Appian Analytics provides statistical advi ... 	Â» 25.01.04	 
+
+  NLREG - Nonlinear regression...	 Â» Visit	 
+NLREG performs general nonlinear regressio ... 	Â» 02.01.04	 
+
+  DTREG - Decision Tree Creati...	 Â» Visit	 
+DTREG generates classification and regress ... 	Â» 02.01.04	 
+
+  Escuela de EstadÃ­stica - Uni...	 Â» Visit	 
+PÃ¡gina oficial de la Escuela de EstadÃ­stic ... 	Â» 03.11.03	 
+
+  University of Arkansas for M...	 Â» Visit	 
+Department/Division of Biostatistics 	Â» 29.10.03	 
+
+  Popular Links	 
+
+Carnegie Mellon Statistics...	 -26633- 	Â» Visit	
+ 
+
+Brown University	 -3508- 	Â» Visit	
+ 
+
+Florida State University	 -3386- 	Â» Visit	
+ 
+
+Econometrics - Forecasting -...	 -1585- 	Â» Visit	
+ 
+
+Johns Hopkins University	 -1177- 	Â» Visit	
+ 
+
+[ More links ] [ Add a link ]	
+
+Events Calendar	 
+
+td.blockmonthon    { background-color: #F6F7EB; border: 1px solid #B1B78B; } td.blockmonthoff    { background-color: #B1B78B; border: 1px solid #F6F7EB; } td.blockmonthtoday   { background-color: #FF0000; border: 1px solid #B1B78B; } td.blockmonthheader   { background-color: #B1B78B; font-size: 8pt; font-weight: bold; } table.blockmonthheader  { background-color: #B1B78B; border: 1px solid #000000; } .blockmonthheader a:link  { font-size: 8pt; font-weight: bold; text-decoration: none; padding-left: 1px; padding-right: 1px; } .blockmonthheader a:hover  { font-size: 8pt; font-weight: bold; text-decoration: none; padding-left: 1px; padding-right: 1px; } .blockmonthheader a:active  { font-size: 8pt; font-weight: bold; text-decoration: none; padding-left: 1px; padding-right: 1px; } .blockmonthheader a:visited { font-size: 8pt; font-weight: bold; text-decoration: none; padding-left: 1px; padding-right: 1px; } td.blockdaynames    { background-color: #F6F7EB; border: 1px solid #F6F7EB; font-size: 8pt; font-weight: normal; text-decoration: none; } table.blockcalcontainer  { border: 1px solid #000000; } td.blockcalcontainer   { border: 1px solid #000000; } td.blockweeklink    { background-color: #F6F7EB; border: 1px solid #F6F7EB; } .blockweeklink a:link   { color: #000000; font-size: 7pt; font-weight: normal; text-decoration: none; } .blockweeklink a:hover  { color: #000000; font-size: 7pt; font-weight: normal; text-decoration: none; } .blockweeklink a:visited { color: #000000; font-size: 7pt; font-weight: normal; text-decoration: none; } .blockweeklink a:active  { color: #000000; font-size: 7pt; font-weight: normal; text-decoration: none; } a.blockevent-none:link  { color: #000000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-none:hover { color: #000000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-none:visited { color: #000000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-none:active { color: #000000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-one:link   { color: #ff0000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-one:hover   { color: #ff0000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-one:visited { color: #ff0000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-one:active { color: #ff0000; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-two:link   { color: #006666; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-two:hover   { color: #006666; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-two:visited { color: #006666; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-two:active { color: #006666; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-three:link { color: #0066cc; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-three:hover { color: #0066cc; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-three:visited { color: #0066cc; font-size: 10px; font-weight: normal; text-decoration: none; } a.blockevent-three:active { color: #0066cc; font-size: 10px; font-weight: normal; text-decoration: none; } td.eventlink     { padding: 2px; font-size: 10px; font-weight: normal; text-decoration: none; } .eventlink a:link    { padding: 2px; font-size: 10px; font-weight: normal; text-decoration: none; } .eventlink a:hover   { padding: 2px; font-size: 10px; font-weight: normal; text-decoration: none; } .eventlink a:visited   { padding: 2px; font-size: 10px; font-weight: normal; text-decoration: none; } .eventlink a:active   { padding: 2px; font-size: 10px; font-weight: normal; text-decoration: none; } 
+<< January 2004 >> 	
+
+ 	 S	 M	 T	 W	 T	 F	 S	 
+>	 28 	29 	30 	31 	01 	02 	03 	
+>	 04 	05 	06 	07 	08 	09 	10 	
+>	 11 	12 	13 	14 	15 	16 	17 	
+>	 18 	19 	20 	21 	22 	23 	24 	
+>	 25 	26 	27 	28 	29 	30 	31 	
+
+Today's Events 	
+
+No Events	 
+
+Upcoming Events 	
+
+No Events	 
+You can submit an event (Meeting/Workshop) by clicking on the Submit-an-event link in the Other Options menu on the left block	 
+
+Advanced Searches	 
+
+NetLib	 
+
+The Netlib archive provides an archive of mathematical software, data, documents, address lists, and other useful items. You might want to send mail to netlib.org and ask for their index. Another WWW view of Netlib is available at www.netlib.org 	
+
+CMU Statistics :: CMU 	 
+
+Credit where credit is due
+If you use an algorithm, dataset, or other information from StatLib, please acknowledge both StatLib and the original contributor of the material.
+ StatLib is hosted by
+ the Department of Statistics at Carnegie Mellon University
+
+[ Terms of Use ] [ Privacy Policy ]
+  	
+
+

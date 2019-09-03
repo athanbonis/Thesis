@@ -1,0 +1,56 @@
+
+
+Download the free version of Audiograbber 1.81 or 1.82 build 1 or 2, 1.6 MB, from one of the following sites: 
+
+* agfreesetup.exe 1.81. (Random location)
+
+* agfreesetup.exe 1.82. (Site 1, USA, build 2)
+
+* agfreesetup.exe 1.82. (Site 2, Germany, build 2)
+
+* agfreesetup.exe 1.81. (Site 3, USA, build 2)
+
+* agfreesetup.exe 1.82. (Site 4, Germany, build 2)
+
+* agfreesetup.exe 1.82. (Site 5, France build 2)
+
+* agfreesetup.exe 1.82. (Site 6, France build 2)
+
+* agfreesetup.exe 1.82. (Site 7, USA, build 2)
+
+* agfreesetup.exe 1.82. (Site 8, Germany, build 2)
+
+* agfreesetup.exe 1.82. (Site 9, Spain, build 2)
+
+* agfreesetup.exe 1.80. (Site 10, Taiwan, build 4)
+
+* agfreesetup.exe 1.81. (Site 11, Australia)
+
+* agfreesetup.exe 1.81. (Site 12, Germany, download from other site)
+
+*  Get Audiograbber 1.82 (build 2) from Betanews server. 
+(Includes English, German, Spanish, French and Italian languages, English and German helpfiles). 
+
+LAME MP3 DLL. (361 Kb, ver 3.93.1). Unzip the lame_enc.dll and put in the same directory as Audiograbber and you will have an internal MP3 encoder. 
+The dll is also found at this mirror site. You can for example use Winzip to unzip the dll. 
+Language files to use with Audiograbber (40 Kb each): Albanian.lng    Bosnian.lng    Brazilian.lng    Bulgarian.lng    Catalan.lng    Chinese.lng (Simplified)    Chinese.lng (Tradional)    Croatian.lng    Czech.lng    Danish.lng    Dutch.lng    Dutch helpfile for AG 1.80!    Finnish.lng    French.lng    French helpfile for AG 1.82!    German.lng    Greek.lng    Hungarian.lng    Italian.lng    Japanese.lng    Macedonian.lng    Norwegian.lng    Polish.lng    Russian.lng    Serbian.lng    Serbian2.lng    Slovak.lng    Slovak html helpfile    Slovak html helpfile.    Slovenian.lng    Spanish.lng    Swedish.lng    Turkish.lng    Ukrainian.lng    Uzbek.lng    
+Language files to use with Audiograbber 1.70 or earlier (37 Kb each): Brazilian2.lng (alternative Brazilian file)    Latvian.lng    Portuguese.lng    Romanian.lng    
+Here are language files to use with Audiograbber 1.62 (35 Kb each): 
+(works with Audiograbber 1.70 too but some topics are of course not translated). Afrikaans.lng    Guatemala.lng    Site with Japanese helpfile    Korean.lng    Slovensk.lng    Template.lng    Dutch2.lng    
+Chile.lng (incomplete.)    
+Put the language file in the same directory as Audiograbber. German, French, Spanish and Italian are already in the setup program so you will not need to download them. The ones here might have been updated though. Go to the language page if you want to learn how to make a language file of your own. 
+
+BladeEnc's MP3 DLL. (136 Kb). Unzip the DLL and put in the same directory as Audiograbber and you will have yet another internal MP3 encoder. BLADE's official homepage is here. 
+
+Note that you need to install support for Windows Media Audio (WMA) in case you want to try Microsofts new MP3 competitor format (.wma) with Audiograbber. You can use either Sonique or Winamp to play WMA files so get the latest version of one of them and at the same time get the WMA encoder that works in Audiograbber. (A full installation of Sonique or Winamp also installs the WMA encoder). 
+
+Takabins disc exporter program. This program makes html files based on the disc info in your discs.txt from Audiograbber 1.70. Check it out! 
+
+The information, code and executables provided are provided as is without warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. In no event shall the authors of Audiograbber be liable for any damages whatsoever including direct, indirect, incidental, consequential, loss of business profits, or special damages, even if the authors of Audiograbber have been advised of the possibility of such damages.
+
+If you want to store the free audiograbber (agfreesetup.exe) on your own server then you are allowed to do that as long as you are not linking to any cracks or warez sites. I would even appreciate it since it will lower the bandwidth usuage on my own server. If you want a more formal permission then send me a request at jackie@audiograbber.com-us.net. 	
+
+Homepage | Forums | Guided Tour | Check Sums | CD-Rom drives
+Download | How to Buy | Links | Tips Tricks and Faqs | Awards 
+
+

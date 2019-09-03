@@ -1,0 +1,64 @@
+Free Stuff ACD/ChemSketch 5.0 Freeware Current ACD/ChemSketch downloads: Note: The Freeware software is presently limited to version 5.0. The global smash hit, all-purpose chemical drawing and graphics software. Use templates or free-hand. Click and draw molecules, ions, stereobonds, text, polygons, arrows, etc. Automatic calculation of MW and formula. See estimates of density, refractive index, molar volume, etc. Click here to get more information... Thank you for the overwhelmingly positive response to ChemSketch 3.5 - 4.5! You might wonder how such a good thing could get better... as of August 2001 we introduce "ChemSketch 5.0 Freeware". Now you can generate the systematic IUPAC name for small molecules, export structures in Chemical Markup Language (CML) format, convert SMILES strings to structures and structures to SMILES, and design input forms for ChemBasic programs with the Forms Manager feature. If you want to access the I-Lab site automatically (so that you have instant on-line access to ACD/Labs prediction modules), then download and install ACD/I-Lab Add-on for ChemSketch . Install the I-Lab Add-on as directed, then draw your molecule in ChemSketch 5.0, click on the I-Lab button and your input molecule will be immediately sent to the Interactive Lab for any number of predictions: NMR spectra, log P and pK a , IUPAC name generation, and so on. With the I-Lab Add-on for ChemSketch, you can also gain access to the previously predicted and stored NMR spectra using included HNMR and CNMR Viewers. Note: ChemSketch 5.0 Freeware is not compatible with all free and commercial ACD/Labs software version 4.5 and earlier and should be installed separately. The ACD/ChemSketch 5.0 Freeware package includes Tautomers , ChemSketch templates, the Name FreeWare Add-On for ChemSketch 5.0 and ACD/3D Viewer . Download ChemSketch 5.0 Freeware Download ChemSketch User's Guide: - in English, v. 5.0: PDF / DOC - in Japanese, v. 3.5: PDF / DOC - in Chinese, v. 5.0: RTF - in Czech, v. 5.0: PDF - in Spanish, v. 5.0: DOC - in Turkish, v. 5.0: PDF / DOC - New! Patches and upgrades for freeware issued before 05-November-98 Revised 3D Viewer --> Download 3D Viewer User's Guide: - in English, v. 5.0: PDF / DOC - in Japanese, v. 4.x: PDF / DOC - in Spanish, v. 5.0: PDF / DOC - in Turkish, v. 5.0: PDF / DOC - New! Note: Some User's Guides are now available in PDF format. Download the latest version of the Adobe Acrobat Reader to view or print them. Technical Information and FAQ's Read reviews of this product Download Demo Movies Related products: I-Lab Add-On for ChemSketch 5.0 This will help you connect the ChemSketch interface directly to the I-Lab, where you can run predictions or look up quantities in a database. ChemBasic for ChemSketch 5.0 Programming language similar to Basic for chemists to create their own customized applications in the ChemSketch interface. Instructions for Authors for ChemSketch 5.0 If you are preparing a manuscript for publication, or simply want to have a standard style for your reports, you should download this Add-on for ChemSketch 5.0. It is a useful compendium of style descriptions, style sheets (PDF format) and web site links for chemical, biochemical, and related journals. ACD/ChemSketch (SK2) file format description If you want to design your software so that it will read in or create output in ACD/ChemSketch format, this is the document you need. If you have got a question, please refer to the FAQ page or, if it's not dealt with there, check the ACD/Labs Freeware Newsgroup to see if others have dealt with the question you have (and you can share your wisdom, too)! To use the newsgroup, your browser must be capable of newsgroup protocol (NNTP). Download ChemSketch Goodies! 14 additional buttons that considerably extend ChemSketch functionality such as a sketch-to-VRML converter; sugar builder; peptide builder; SDF translator and more! --> TOP This page was last updated 26 December 2003 Copyright © 1996 - 2003 Advanced Chemistry Development All rights reserved   --> 
+
+ 
+ document.getElementById('test').innerHTML=''; 	
+
+ Free Stuff 	 	
+
+ACD/ChemSketch 5.0 Freeware
+
+Current ACD/ChemSketch downloads:	 
+
+  
+
+Note: The Freeware software is presently limited to version 5.0.
+
+The global smash hit, all-purpose chemical drawing and graphics       software. Use templates or free-hand. Click and draw molecules, ions, stereobonds, text, polygons, arrows, etc. Automatic calculation of MW and formula. See estimates of density, refractive index, molar volume, etc. Click here to get more information... 
+
+Thank you for the overwhelmingly positive response to ChemSketch 3.5 - 4.5! You might wonder how such a good thing could get better... as of August 2001 we introduce "ChemSketch 5.0 Freeware". Now you can generate the systematic IUPAC name for small molecules, export structures in Chemical Markup Language (CML) format, convert SMILES strings to structures and structures to SMILES, and design input forms for ChemBasic programs with the Forms Manager feature. If you want to access the I-Lab site automatically (so that you have instant on-line access to ACD/Labs prediction modules), then download and install ACD/I-Lab Add-on for ChemSketch. Install the I-Lab Add-on as directed, then draw your molecule in ChemSketch 5.0, click on the I-Lab button and your input molecule will be immediately sent to the Interactive Lab for any number of predictions: NMR spectra, logP and pKa, IUPAC name generation, and so on. With the I-Lab Add-on for ChemSketch, you can also gain access to the previously predicted and stored NMR spectra using included HNMR and CNMR Viewers. 
+
+Note: ChemSketch 5.0 Freeware is not compatible with all free and commercial ACD/Labs software version 4.5 and earlier and should be installed separately.
+
+The ACD/ChemSketch 5.0 Freeware package includes Tautomers, ChemSketch templates, the Name FreeWare Add-On for ChemSketch 5.0 and ACD/3D Viewer. 
+
+Download ChemSketch 5.0 Freeware
+
+* Download ChemSketch User's Guide: 
+    - in English, v. 5.0:  PDF / DOC 
+    - in Japanese, v. 3.5: PDF / DOC 
+    - in Chinese, v. 5.0: RTF 
+    - in Czech, v. 5.0: PDF 
+    - in Spanish, v. 5.0: DOC 
+    - in Turkish, v. 5.0: PDF / DOC - New! 
+   
+* Download 3D Viewer User's Guide:    
+    - in English, v. 5.0: PDF / DOC 
+    - in Japanese, v. 4.x: PDF / DOC 
+    - in Spanish, v. 5.0: PDF/DOC 
+    - in Turkish, v. 5.0: PDF/DOC - New!
+Note: Some User's Guides are now available in PDF format. Download the latest version of the Adobe Acrobat Reader to view or print them.    
+* Technical Information and FAQ's 
+* Read reviews of this product    
+* Download Demo Movies
+    
+
+Related products:
+
+* I-Lab Add-On for ChemSketch 5.0
+This will help you connect the ChemSketch interface directly to the I-Lab, where you can run predictions or look up quantities in a database. 
+* ChemBasic for ChemSketch 5.0
+      Programming language similar to Basic for chemists to create their own customized applications in the ChemSketch interface. 
+* Instructions for Authors for ChemSketch 5.0
+If you are preparing a manuscript for publication, or simply want to have a standard style for your reports, you should download this Add-on for ChemSketch 5.0. It is a useful compendium of style descriptions, style sheets (PDF format) and web site links for chemical, biochemical, and related journals. 
+* ACD/ChemSketch (SK2) file format description 
+If you want to design your software so that it will read in or create output in ACD/ChemSketch format, this is the document you need. 
+
+If you have got a question, please refer to the FAQ page or, if it's not dealt with there, check the ACD/Labs Freeware Newsgroup to see if others have dealt with the question you have (and you can share your wisdom, too)! To use the newsgroup, your browser must be capable of newsgroup protocol (NNTP).
+
+TOP	  
+
+This page was last updated 26 December 2003 	Copyright © 1996 - 2003 Advanced Chemistry Development
+All rights reserved	
+ 			
+
+

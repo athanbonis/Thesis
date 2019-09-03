@@ -1,0 +1,112 @@
+
+
+  OSDN:  DevChannel -   Newsletters -   Shop       	SEARCH: 	 
+All OSDN Sites
+ 
+-----------
+ 
+freshmeat
+ 
+Linux.com
+ 
+LinuxGram
+ 
+NewsForge
+ 
+OSDN.com
+ 
+OSDN PriceCompare
+ 
+Slashcode
+ 
+Slashdot
+ 
+SourceForge.net
+ 
+
+  	 	
+
+      Home |    Privacy Statement |    About   	       	  
+  	 
+ 
+      
+         Mailing Lists
+        Linux
+            linux-kernel - General Kernel
+  	Archive
+    2003 (37413 msgs)
+    2002 (72069 msgs)
+    2001 (70827 msgs)
+    2000 (63461 msgs)
+    1999 (60792 msgs)
+    1998 (55679 msgs)
+    1997 (26913 msgs)
+    1996 (12301 msgs)
+    1995 (2 msgs)
+    1990 (3 msgs)
+    1989 (1 msgs)
+  	   
+      	    
+
+Mail archive - 2003-03
+
+Thread/Subject	Author	Date/Time	  
+   RE: aic7(censored) use after free in 2.5.66	Andrew Morton	03/31/2003 23:52:05	  
+   RE: Delaying writes to disk when there's no need	John Bradford	03/31/2003 23:51:08	  
+    [ANNOUNCE] 2.5.66-lsm1	Chris Wright	03/31/2003 23:35:48	  
+   RE: 64-bit kdev_t - just for playing	Roman Zippel	03/31/2003 23:32:55	  
+    2.5.66-mjb2	Martin J. Bligh	03/31/2003 23:31:21	  
+   RE: via-rhine problem on EPIAV-1Ghz 2.4.21-pre6	Jeff Garzik	03/31/2003 23:27:34	  
+   RE: aic7(censored) use after free in 2.5.66	Andrew Morton	03/31/2003 23:22:27	  
+   RE: 64-bit kdev_t - just for playing	Alan Cox	03/31/2003 23:18:54	  
+   RE: Autorepeat problems in 2.5.66	Vojtech Pavlik	03/31/2003 23:11:10	  
+    [2.4 patch] trident 1/1 fix operator precedence bug	Adrian Bunk	03/31/2003 23:06:21	  
+   RE: Convert APIC to driver model: now it works with SMP	Martin J. Bligh	03/31/2003 23:04:42	  
+   RE: 64GB NUMA-Q after pgcl	Ingo Oeser	03/31/2003 23:02:51	  
+   RE: lm sensors sysfs file structure	Greg KH	03/31/2003 22:44:39	  
+   RE: make menuconfig error	Sam Ravnborg	03/31/2003 22:40:51	  
+   RE: 2.5 on a hp omnibook 6000	Paolo Ciarrocchi	03/31/2003 22:25:58	  
+   RE: make menuconfig error	Michael Buesch	03/31/2003 21:58:54	  
+    make menuconfig error	Michael Buesch	03/31/2003 21:34:38	  
+    Autorepeat problems in 2.5.66	Pavel Machek	03/31/2003 21:11:28	  
+   RE: 3c59x gives HWaddr FF:FF:...	Bas Vermeulen	03/31/2003 21:09:01	  
+   RE: [ds6-devel] Re: (usagi-users 02296) IPv6 duplicate address bugfix	Simone Piunno	03/31/2003 20:56:48	  
+   RE: 64GB NUMA-Q after pgcl	Andrea Arcangeli	03/31/2003 20:35:06	  
+   RE: (usagi-users 02296) IPv6 duplicate address bugfix	Peter Bieringer	03/31/2003 20:23:58	  
+    [PATCH] fix for drivers/video/logo/Makefile	Marijn Kruisselbrink	03/31/2003 20:22:10	  
+    Compilation Error my_ops has intializer but incomplete type	raman deep	03/31/2003 20:06:41	  
+   RE: I compiled the kernel but it doesn't do any thing, its a bit like typing "halt".	Felipe Alfaro Solana	03/31/2003 19:45:17	  
+   RE: 64GB NUMA-Q after pgcl	Christoph Hellwig	03/31/2003 19:41:17	  
+   RE: flash as hda causes 2.4.18 to hang in grok_partitions()...add_to_page_cache_unique()	Alan Cox	03/31/2003 19:36:09	  
+   RE: [BUG] 2.5.65: Caching MSR_IA32_SYSENTER_CS kills dosemu	Wayne Whitney	03/31/2003 19:28:38	  
+   RE: File system corruption under 2.4.21-pre5-ac1	Justin T. Gibbs	03/31/2003 19:26:27	  
+   RE: mmap-related questions	Kenny Simpson	03/31/2003 19:25:46	  
+   RE: accessing ROM on Rage 128 chips in aty128fb	Jon Burgess	03/31/2003 19:17:16	  
+    attempt to free, allready freed memory .. rfc	Grzegorz Jaskiewicz	03/31/2003 19:07:25	  
+   RE: Bad interactive behaviour in 2.5.65-66 (sched.c)	Nick Piggin	03/31/2003 18:54:37	  
+   RE: I compiled the kernel but it doesn't do any thing, its a bit like typing "halt".	John Bradford	03/31/2003 18:29:23	  
+    [PATCH][COMPAT] another net/compat fix -- for recvmsg	Stephen Rothwell	03/31/2003 18:16:44	  
+    Regarding Next Month's Paycheck		03/31/2003 18:15:58	  
+    [PATCH] Put all functions in kallsyms	Rusty Russell	03/31/2003 18:14:03	  
+    Problem created by Zoning on Linux	chandrasekhar.nagaraj	03/31/2003 17:57:09	  
+   RE: Delaying writes to disk when there's no need	Andrew Morton	03/31/2003 17:45:43	  
+   RE: Bad interactive behaviour in 2.5.65-66 (sched.c)	Jeremy Fitzhardinge	03/31/2003 17:41:50	  
+   RE: [PATCH] Put all functions in kallsyms	Kai Germaschewski	03/31/2003 17:40:27	  
+   RE: Delaying writes to disk when there's no need	Andrew Morton	03/31/2003 17:39:20	  
+    More on HID keyboard handling.	Zephaniah E. Hull	03/31/2003 17:27:43	  
+    File system corruption under 2.4.21-pre5-ac1	Samuel Flory	03/31/2003 17:25:13	  
+   RE: Delaying writes to disk when there's no need	Chris Friesen	03/31/2003 17:22:33	  
+    2.4.18 timer list corruption	Anders Holmstrom	03/31/2003 17:11:02	  
+   RE: Delaying writes to disk when there's no need	Andrew Morton	03/31/2003 17:09:27	  
+    2.5 on a hp omnibook 6000	Paolo Ciarrocchi	03/31/2003 17:06:46	  
+    PCMCIA IRQ Problems - I'm not too bright, I forget to attach :-)	Ferry van Steen	03/31/2003 16:59:53	  
+    PCMCIA IRQ Problems	Ferry van Steen	03/31/2003 16:58:36	  
+ 	 	Next Results         	             
+     	       
+
+Sponsored Content 	
+
+© Copyright 2004 - OSDN Open Source Development Network, All Rights Reserved
+About Geocrawler •  About OSDN geo •  Privacy Statement  •  Terms of Use  •  Advertise  •  Self Serve Ad System  •  Contact Us	 
+
+

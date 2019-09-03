@@ -1,0 +1,113 @@
+  
+ 
+   
+ 
+ DBMS 
+
+Defining Data Mining
+
+By Bruce Moxon
+DBMS Data Warehouse Supplement, August 1996 
+
+The Hows and Whys of Data Mining, and How It Differs From Other Analytical Techniques 
+---------------------------------------------------------------------
+
+Data mining is one of the hottest topics in information technology. This article is an introduction to data mining: what it is, why it's important, and how it can be used to provide increased understanding of critical relationships in rapidly expanding corporate data warehouses. 
+
+What is Data Mining?
+
+There are probably as many definitions of the term data mining as there are software analytical tool vendors in the market today. As with OLAP, which could mean almost anything, vendors and industry analysts have adopted the term "data mining" somewhat indiscriminately. The result is a blanket definition that includes all tools employed to help users analyze and understand their data. In this article, I explore a more narrow definition. Data mining is a set of techniques used in an automated approach to exhaustively explore and bring to the surface complex relationships in very large datasets. 
+
+I discuss only datasets that are largely tabular in nature, having most likely been implemented in relational database management technology. However, these techniques can be, have been, and will be applied to other data representations, including spatial data domains, text-based domains, and multimedia (image) domains. 
+
+A significant distinction between data mining and other analytical tools is in the approach they use in exploring the data interrelationships. Many of the analytical tools available support a verification-based approach, in which the user hypothesizes about specific data interrelationships and then uses the tools to verify or refute those hypotheses. This approach relies on the intuition of the analyst to pose the original question and refine the analysis based on the results of potentially complex queries against a database. The effectiveness of this verification-based analysis is limited by a number of factors, including the ability of the analyst to pose appropriate questions and quickly return results, manage the complexity of the attribute space, and think "out of the box." 
+
+Most available analytical tools have been optimized to address some of these issues. Query and reporting tools address ease of use, letting users develop SQL queries through point-and-click interfaces. Statistical analysis packages provide the ability to explore relationships among a few variables and determine statistical significance against a population. Multidimensional and relational OLAP tools precompute hierarchies of aggregations along various dimensions in order to respond quickly to users' inquiries. New visualization tools let users explore higher dimensionality relationships by combining spatial and non-spatial attributes (location, size, color, and so on). 
+
+Data mining, in contrast to these analytical tools, uses discovery-based approaches in which pattern-matching and other algorithms are employed to determine the key relationships in the data. Data mining algorithms can look at numerous multidimensional data relationships concurrently, highlighting those that are dominant or exceptional. 
+
+The Need and Opportunity for Data Mining
+
+Many of the techniques used by today's data mining tools have been around for many years, having originated in the artificial intelligence research of the 1980s and early 1990s. Yet these tools are only now being applied to large-scale database systems. The confluence of several key trends is responsible for this new usage. 
+
+Widespread Deployment of High-Volume Transactional Systems. Over the past 15 to 20 years, computers have been used to capture detailed transaction information in a variety of corporate enterprises. Retail sales, telecommunications, banking, and credit card operations are examples of transaction-intensive industries. 
+
+These transactional systems are designed to capture detailed information about every aspect of business. Only five years ago, database vendors were struggling to provide systems that could deliver several hundred transactions per minute. Now we routinely see TPC-C numbers (tpmC's) for large multiprocessor servers in excess of 10,000 per minute, with some clustered SMPs as high as 30,000. This growth has been accompanied by an equally impressive reduction in the cost per tpmC, which is now well under $500. Recent developments in "low-end" four- and eight-way Pentium-based SMPs and the commoditization of clustering technology promise to make this high transaction-rate technology more affordable and easier to integrate into businesses, leading to an even greater proliferation of transaction-based information. 
+
+Information as a Key Corporate Asset. The need for information has resulted in the proliferation of data warehouses that integrate information from multiple, disparate operational systems to support decision making. In addition, they often include data from external sources, such as customer demographics and household information. 
+
+Widespread Availability of Scalable Information Technology. Recently, there has been widespread adoption of scalable, open systems-based information technology. This includes database management systems, analytical tools, and, most recently, information exchange and publishing through Intranet services. 
+
+These factors put tremendous pressure on the information "value chain." At the source side, the amount of raw data stored in corporate data warehouses is growing rapidly. The "decision space" is too complex; there is too much data and complexity that might be relevant to a specific problem. And at the sink side, the knowledge required by decision makers to chart the course of a business places tremendous stress on traditional decision-support systems. Data mining promises to bridge the analytical gap by giving knowledgeworkers the tools to navigate this complex analytical space. 
+
+Data Mining Tools and Techniques
+
+Data mining applications can be described in terms of a three-level application architecture. These layers include applications, approaches, and algorithms and models. These three layers sit on top of a data repository. I discuss these three levels in the following sections; the characteristics of the data repository are addressed in the implementation section that follows. 
+
+Applications. You can classify data mining applications into sets of problems that have similar characteristics across different application domains. The parameterization of the application is distinct from industry to industry and application to application. The same approaches and underlying models used to develop a fraud-detection capability for a bank can be used to develop medical insurance fraud detection applications. The difference is how the models are parameterized - for example, which of the domain-specific attributes in the data repository are used in the analysis and how they are used. 
+
+Approaches. Each data mining application class is supported by a set of algorithmic approaches used to extract the relevant relationships in the data: association, sequence-based analysis, clustering, classification, and estimation. These approaches differ in the classes of problems they are able to solve. 
+
+* association: Association approaches address a class of problems typified by a market-basket analysis. Classic market-basket analysis treats the purchase of a number of items (for example, the contents of a shopping basket) as a single transaction. The goal is to find trends across large numbers of transactions that can be used to understand and exploit natural buying patterns. This information can be used to adjust inventories, modify floor or shelf layouts, or introduce targeted promotional activities to increase overall sales or move specific products. While these approaches had their origins in the retail industry, they can be applied equally well to services that develop targeted marketing campaigns or determine common (or uncommon) practices. In the financial sector, association approaches can be used to analyze customers' account portfolios and identify sets of financial services that people often purchase together. They may be used, for example, to create a service "bundle" as part of a promotional sales campaign. 
+
+Association approaches often express the resultant item affinities in terms of confidence-rated rules, such as, "80 percent of all transactions in which beer was purchased also included potato chips." Confidence thresholds can typically be set to eliminate all but the most common trends. The results of the association analysis (for example, the attributes involved in the rules themselves) may trigger additional analysis. 
+
+* sequence-based analysis: Traditional market-basket analysis deals with a collection of items as part of a point-in-time transaction. A variant of this problem occurs when there is additional information to tie together a sequence of purchases (for example, an account number, a credit card, or a frequent buyer/flyer number) in a time series. In this situation, not only may the coexistence of items within a transaction be important, but also the order in which those items appear across ordered transactions and the amount of time between transactions. 
+
+Rules that capture these relationships can be used, for example, to identify a typical set of precursor purchases that might predict the subsequent purchase of a specific item. In health care, such methods can be used to identify both routine and exceptional courses of treatment, such as multiple procedures over time. 
+
+* clustering: Clustering approaches address segmentation problems. These approaches assign records with a large number of attributes into a relatively small set of groups or "segments." This assignment process is performed automatically by clustering algorithms that identify the distinguishing characteristics of the dataset and then partition the n-dimensional space defined by the dataset attributes along natural cleaving boundaries. There is no need to identify the groupings desired or the attributes that should be used to segment the dataset. 
+
+Clustering is often one of the first steps in data mining analysis. It identifies groups of related records that can be used as a starting point for exploring further relationships. This technique supports the development of population segmentation models, such as demographic-based customer segmentation. Additional analyses using standard analytical and other data mining techniques can determine the characteristics of these segments with respect to some desired outcome. For example, the buying habits of multiple population segments might be compared to determine which segments to target for a new sales campaign. 
+
+* classification: Classification, perhaps the most commonly applied data mining technique, employs a set of preclassified examples to develop a model that can classify the population of records at large. Fraud detection and credit-risk applications are particularly well suited to this type of analysis. This approach frequently employs decision tree or neural network-based classification algorithms. The use of classification algorithms begins with a training set of preclassified example transactions. For a fraud detection application, this would include complete records of both fraudulent and valid activities, determined on a record-by-record basis. The classifier training algorithm uses these preclassified examples to determine the set of parameters required for proper discrimination. The algorithm then encodes these parameters into a model called a classifier. 
+
+The approach affects the explanation capability of the system. Once an effective classifier is developed, it is used in a predictive mode to classify new records into these same predefined classes. For example, a classifier capable of identifying risky loans could be used to aid in the decision of whether to grant a loan to an individual. 
+
+* estimation: A variation on the classification problem involves the generation of scores along various dimensions in the data. Rather than employing a binary classifier to determine whether a loan applicant is a good or bad risk, this approach generates a credit-worthiness "score" based on a prescored training set. 
+
+* other techniques: Additional approaches used in conjunction with these and other analytical techniques include case-based reasoning, fuzzy logic, genetic algorithms, and fractal-based transforms. Fractal-based transforms (relatively new as data analysis tools) are interesting in that they are also used as aggressive, lossless data compression algorithms. Hence, there is the possibility that pattern-matching approaches based on these techniques could exploit substantially reduced dataset sizes to increase performance. Each of these has its own strengths and weaknesses in terms of the problem characteristics best addressed, discrimination capabilities, performance, and training requirements. The algorithms are often tunable using a variety of parameters aimed at providing the right balance of fidelity and performance. 
+
+Algorithms and Models. The promise of data mining is attractive for executives and IS professionals looking to make sense out of large volumes of complex business data. The promise that programs can analyze an entire data warehouse and identify the key relationships relevant to the business is being pushed as a panacea for all data analysis woes. Yet this image is far from reality. 
+
+Today's data mining tools have typically evolved out of the pattern recognition and artificial intelligence research efforts of both small and large software companies. These tools have a heavy algorithmic component and are often rather "bare" with respect to user interfaces, execution control, and model parameterization. They typically ingest and generate Unix flatfiles (both control and data files) and are implemented using a single-threaded computational model. 
+
+This state of affairs presents challenges to users that can be summed up in a sort of "tools gap." (See Figure 1) The gap, caused by a number of factors, requires significant pre- and post-processing of data to get the most out of a data mining application. Pre-processing activities include the selection of appropriate data subsets for performance and consistency reasons, as well as complex data transformations to bridge the representational gap. Post-processing often involves subselection of voluminous results and the application of visualization techniques to provide added understanding. These activities are critical to effectively address key implementation issues such as: 
+
+* susceptibility to "dirty" data: Data mining tools have no higher-level model of the data on which they operate. They have no application-oriented (semantic) structure and, as such, they simply take everything they are given as factual and draw the resulting conclusions. Users must take the necessary precautions to ensure that the data being analyzed is "clean." This may require significant analysis of the attribute values being fed to the discovery tools. However, if the company has a good data cleansing process that cleans up data going into a data warehouse, then data mining tools benefit from this cleansing effort. 
+
+* inability to "explain" results in human terms: Many of the tools employed in data mining analysis use complex mathematical algorithms that are not easily mapped into human terms; for example, they don't always generate "if-then" rules that use the original data's attributes by name, so the ability of these systems to "explain" their results is minimal. Even with approaches such as decision trees and rule induction that are capable of generating information about the underlying attributes, the volume and format of the information may be unusable without additional post-processing and/or visualization. 
+
+* the data representation gap: Most of the source data for today's data mining applications resides in large, parallel relational database systems. The information is typically somewhat normalized and the attributes being used in a data mining application may span multiple tables. The data mining engines typically operate over a set of attribute "vectors" presented through a Unix flatfile. Conditioning code must be used to provide the denormalized representation the tools need. Large central fact tables in data warehouses designed using star schema often combine denormalized data into one flat table. 
+
+Many of the tools are constrained in terms of the types of data elements with which they can work. Users may have to categorize continuous variables or remap categorical variables. Time-series information may need to be remapped as well. For example, you might need to derive counts of the number of times a particular criterion was met in a historical database. 
+
+Although the 2GB file is becoming less important with the advance of 64-bit operating systems, many Unix implementations still have 2GB file limitations. For flatfile-based data mining tools, this limits the size of the datasets they can analyze, making sampling a necessity. 
+
+Parallel relational database systems store data that is spread across many disks and accessed by many CPUs. Current database architectures are such that result sets generated by the database engine are eventually routed through a single query coordinator process. This can cause a significant bottleneck in using parallel database resources efficiently. Because data mining applications are typically single-threaded implementations operating off Unix flat files, the process requires potentially large result sets to be extracted from the database. 
+
+Even if you're able to extract large datasets, processing them can be compute-intensive. Although most data mining tools are intended to operate against data coming from a parallel database system, most have not been parallelized themselves. 
+
+This performance issue is mitigated by "sampling" the input dataset, which poses issues of its own. Users must be careful to ensure that they capture a "representative" set of records, lest they bias the discovery algorithms. Because the algorithms themselves determine which attributes are important in the pattern matching, this presents a chicken-and-egg scenario that may require an iterative solution 
+
+For algorithms that require training sets (classification problems), the training sets must adequately cover the population at large. Again, this may lead to iterative approaches, as users strive to find reasonably sized training sets that ensure adequate population coverage. 
+
+Present-day tools are algorithmically strong but require significant expertise to implement effectively. Nevertheless, these tools can produce results that are an invaluable addition to a business' corporate information assets. As these tools mature, advances in server-side connectivity, the development of business-based models, and user interface improvements will bring data mining into the mainstream of decision-support efforts. 
+
+---------------------------------------------------------------------
+Bruce Moxon is a senior consultant at Emergent Corp., a San Mateo, California-based consultancy that specializes in implementing IT solutions based on commercial parallel processing systems. You can reach Bruce at 415-372-5800 or email him at bmoxon@emergent.com. 
+
+---------------------------------------------------------------------
+
+Figure 1
+
+The data mining "tools gap." Users, data mining tools, and SQL-based relational databases each "speak their own language" when it comes to describing the fundamental aspects of data mining applications. 
+
+---------------------------------------------------------------------
+Table of Contents - August 1996 | Home Page 
+---------------------------------------------------------------------
+Copyright © 1996 Miller Freeman, Inc. ALL RIGHTS RESERVED
+Redistribution without permission is prohibited. 
+---------------------------------------------------------------------
+Please send questions or comments to mfrank@mfi.com
+Updated Friday, August 2, 1996 

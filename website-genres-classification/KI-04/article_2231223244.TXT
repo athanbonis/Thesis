@@ -1,0 +1,51 @@
+
+
+Daylight Clustering Manual
+
+David Weininger, Jack Delany
+
+Daylight Version 4.82
+Release Date 06/16/03
+
+Daylight Chemical Information Systems, Inc. 
+
+Copyright Notice
+
+This document and the programs described herein are Copyright © 1992-2003, Daylight Chemical Information Systems, Inc. of Mission Viejo, CA . Daylight explicitly grants permission to reproduce this document under the condition that it is reproduced in its entirety, including this notice. All other rights are reserved. 
+
+---------------------------------------------------------------------
+
+Table of Contents 
+
+* 1. Intended audience 
+* 2. Introduction to the Daylight Clustering Package
+ 
+* 2.1. Clustering Package contents 
+* 2.2. Applicability 
+* 2.3. Uses of structural clustering
+ 
+* 3. Methodology
+ 
+* 3.1. Strucutural characterization 
+* 3.2. Structural similarity 
+* 3.3. Jarvis-Patrick clustering 
+* 3.4. Cluster statistics 
+* 3.5. Singletons
+ 
+* 4. Cluster package usage
+ 
+* 4.1. Relationships of Cluster package programs 
+* 4.2. Preparing data for clustering 
+* 4.3. Structural characterization 
+* 4.4. Clustering 
+* 4.5. Postprocessing and analysis
+ 
+* 5. Using clustering data with other Daylight software 
+* 6. Maintaining clustered databases and other advanced topics 
+* A1. Appendix: Examples 
+* A2. Appendix: References 
+* A3. Appendix: Release notes 
+
+---------------------------------------------------------------------
+Daylight Chemical Information Systems, Inc. 
+info@daylight.com 

@@ -1,0 +1,124 @@
+
+
+a home page for the
+AXIOM  OF  CHOICE
+-- an introduction and links collection by
+Eric Schechter, Vanderbilt University 
+
+---------------------------------------------------------------------
+
+The Axiom of Choice (AC) was formulated about a century ago, and it was controversial for a few of decades after that; it may be considered the last great controversy of mathematics. It is now a basic assumption used in many parts of mathematics. In fact, assuming AC is equivalent to assuming any of these principles (and many others): 
+
+* Given any two sets, one set has cardinality less than or equal to that of the other set -- i.e., one set is in one-to-one correspondence with some subset of the other. (Historical remark: It was questions like this that led to Zermelo's formulation of AC.) 
+* Any vector space over a field F has a basis -- i.e., a maximal linearly independent subset -- over that field. (Remark: If we only consider the case where F is the real line, we obtain a slightly weaker statement; it is not yet known whether this statement is also equivalent to AC.) 
+* Any product of compact topological spaces is compact. (This is now known as Tychonoff's Theorem, though Tychonoff himself only had in mind a much more specialized result that is not equivalent to the Axiom of Choice.) 
+
+AC has many forms; here is one of the simplest:
+
+Axiom of Choice. Let C be a collection of nonempty sets. Then we can choose a member from each set in that collection. In other words, there exists a function f defined on C with the property that, for each set S in the collection, f(S) is a member of S.	
+ 
+
+The function f is then called a choice function. 
+
+To understand this axiom better, let's consider a few examples. 
+
+1.  If C is the collection of all nonempty subsets of {1,2,3,...}, then we can define f quite easily: just let f(S) be the smallest member of S. 
+2.  If C is the collection of all intervals of real numbers with positive, finite lengths, then we can define f(S) to be the midpoint of the interval S. 
+3.  If C is some more general collection of subsets of the real line, we may be able to define f by using a more complicated rule. 
+4.  However, if C is the collection of all nonempty subsets of the real line, it is not clear how to find a suitable function f. In fact, no one has ever found a suitable function f for this collection C, and there are convincing model-theortic arguments that no one ever will. (Of course, to prove this requires a precise definition of "find," etc.) 
+
+The controversy was over how to interpret the words "choose" and "exists" in the axiom: 
+
+* If we follow the constructivists, and "exist" means "find," then the axiom is false, since we cannot find a choice function for the nonempty subsets of the reals. 
+* However, most mathematicians give "exists" a much weaker meaning, and they consider the Axiom to be true: To define f(S), just arbitrarily "pick any member" of S. 
+In effect, when we accept the Axiom of Choice, this means we are agreeing to the convention that we shall permit ourselves to use a choice function f in proofs, as though it "exists" in some sense, even though we cannot give an explicit example of it or an explicit algorithm for it. (For an introduction to constructivism, you might take a look at my paper on that subject. The term has rather different, slightly related meanings in advanced mathematics and in mathematics education; I am referring to the former meaning here.) 
+
+The "existence" of f -- or of any mathematical object, even the number "3" -- is purely formal. It does not have the same kind of solidity as your table and your chair; it merely exists in the mental universe of mathematics. Many different mathematical universes are possible. When we accept or reject the Axiom of Choice, we are specifying which universe we shall work in. Both possibilities are feasible -- i.e., neither accepting nor rejecting AC yields a contradiction; that follows from models devised by Gödel and Cohen. Some mathematicians have further investigated what happens when we reject AC but accept some weakened variant -- for example, CC (Countable Choice), which permits a sequence of arbitrary choices. However, most "ordinary" mathematicians -- i.e., most mathematicians who are not logicians or set theorists -- accept the Axiom of Choice chiefly because their work is simpler with the Axiom of Choice than without it. 
+
+The full strength of the Axiom of Choice does not seem to be needed for applied mathematics. Some weaker principle such as CC or DC generally would suffice. To see this, consider that any application is based on measurements, but humans can only make finitely many measurements. We can extrapolate and take limits, but usually those limits are sequential, so even in theory we cannot make use of more than countably many measurements. The resulting spaces are separable. Even if we use a nonseparable space such as L¥, this may be merely to simplify our notation; the relevant action may all be happening in some separable subspace, which we could identify with just a bit more effort. (Thus, in some sense, nonseparable spaces exist only in the imagination of mathematicians.) If we restrict our attention to separable spaces, then much of conventional analysis still works with AC replaced by CC or DC. However, the resulting exposition is then more complicated, and so this route is only followed by a few mathematicians who have strong philosophical leanings against AC. 
+
+A few pure mathematicians and many applied mathematicians (including, e.g., some mathematical physicists) are uncomfortable with the Axiom of Choice. Although AC simplifies some parts of mathematics, it also yields some results that are unrelated to, or perhaps even contrary to, everyday "ordinary" experience; it implies the existence of some rather bizarre, counterintuitive objects. Perhaps the most bizarre is the Banach-Tarski Paradoxical Decomposition. Banach and Tarski used the Axiom of Choice to prove that it is possible to take the 3-dimensional closed unit ball, B   =   {(x,y,z) Î R3 : x2 + y2 + z2 < 1} and partition it into finitely many pieces, and move those pieces in rigid motions (i.e., rotations and translations, with pieces permitted to move through one another) and reassemble them to form two copies of B. 
+
+At first glance, the Banach-Tarski Decomposition seems to contradict some of our intuition about physics -- e.g., the Law of Conservation of Mass, from classical Newtonian physics. Consequently, the Decomposition is often called the Banach-Tarski Paradox. But actually, it only yields a complication, not a contradiction. If we assume a uniform density, only a set with a defined volume can have a defined mass. The notion of "volume" can be defined for many subsets of R3, and beginners might expect the notion to apply to all subsets of R3, but it does not. More precisely, Lebesgue measure is defined on some subsets of R3, but it cannot be extended to all subsets of R3 in a fashion that preserves two of its most important properties: the measure of the union of two disjoint sets is the sum of their measures, and measure is unchanged under translation and rotation. Thus, the Banach-Tarski Paradox does not violate the Law of Conservation of Mass; it merely tells us that the notion of "volume" is more complicated than we might have expected. 
+
+By the way, the sets in the Banach-Tarski Decomposition cannot be described explicitly; we are merely able to prove their existence, like that of a choice function. One or more of the sets in the decomposition must be Lebesgue unmeasurable; thus a corollary of the Banach-Tarski Theorem is the fact that there exist sets that are not Lebesgue measurable. The existence of unmeasurable sets has a much shorter and easier proof, which can be found in every introductory textbook on measure theory. That proof also uses the Axiom of Choice, but doesn't mention the Banach-Tarski Decomposition. 
+
+Personally, I am not surprised to find the Axiom of Choice coming into play in a subject that is so inherently complicated as unmeasurable sets. I am much more surprised to find AC coming into play in a seemingly much simpler and more concrete setting: the integers. Let W be an infinite set (for instance, the integers). By a filter on the set W, we mean a method of classifying all subsets of W so that 
+(i)   certain subsets of W are called "large";
+(ii)   any set containing a large set is large;
+(iii)   the intersection of two large sets is large;
+(iv)   the empty set is not large. 
+It follows easily from these rules that a set and its complement cannot both be large. Thus, we do not get a filter on the integers by calling all infinite sets "large," since both the even integers and the odd integers are infinite sets. We do get an example of a filter by calling a set "large" if it is cofinite -- i.e., if its complement is finite. However, that example does not satisfy the next condition. An ultrafilter satisfies the preceding conditions plus this additional condition:
+ (v)   for each set S Í W, either S is large or the complement of S is large.
+ For an example of an ultrafilter, pick some particular point w0 in W, and use this classification scheme: say that a set S is "large" if and only if w0 Î S. However, that example does not satisfy the next condition. A nonprincipal ultrafilter satisfies the preceding conditions plus this additional requirement: 
+(vi)   no finite set is large. 
+Now, the existence of such a classification scheme can be prove using the Axiom of Choice. (Sketch of proof: start from the filter of cofinite sets, and extend it to a maximal filter using Zorn's Lemma, also known as the Kuratowski-Zorn Theorem.) However, it turns out that we cannot actually find an explicit example of a nonprincipal ultrafilter. (This result may be simpler than the Banach-Tarski Paradox, but it does not really get us away from measure theory. A nonprincipal ultrafilter is essentially the same thing as a two-valued probability measure that is finitely additive but not countably additive.) 
+
+Bertrand Russell (more famous for his work in philosophy and political activism, but also an accomplished mathematician) once said, 
+To choose one sock from each of infinitely many pairs of socks requires the Axiom of Choice, but for shoes the Axiom is not needed. 
+The idea is that the two socks in a pair are identical in appearance, and so we must make an arbitrary choice if we wish to choose one of them. For shoes, we can use an explicit algorithm -- e.g., "always choose the left shoe." Why does Russell's statement mention infinitely many pairs? Well, if we only have finitely many pairs of socks, then AC is not needed -- we can choose one member of each pair using the definition of "nonempty," and we can repeat an operation finitely many times using the rules of formal logic (not discussed here). 
+
+Jerry Bona once said, 
+The Axiom of Choice is obviously true; the Well Ordering Principle is obviously false; and who can tell about Zorn's Lemma? 
+This is a joke. In the setting of ordinary set theory, all three of those principles are mathematically equivalent -- i.e., if we assume any one of those principles, we can use it to prove the other two. However, human intuition does not always follow what is mathematically correct. The Axiom of Choice agrees with the intuition of most mathematicians; the Well Ordering Principle is contrary to the intuition of most mathematicians; and Zorn's Lemma is so complicated that most mathematicians are not able to form any intuitive opinion about it. 
+
+---------------------------------------------------------------------
+
+Links Collection for AC 
+Please write to me if you have suggestions for additions or alterations to this web page. However, I will warn you that I am not a leading authority on the Axiom of Choice; I am not knowledgeable about much of the advanced research on the subject. I have posted this web page chiefly because (i) I like the Axiom of Choice; (ii) I think I have a good understanding of the elementary aspects of the subject; and (iii) I like posting web pages.
+
+Introductory / elementary
+
+* Another online introduction currently available for AC is the Math FAQ. It also includes an introduction to the Banach-Tarski paradox. 
+* For more extensive information about the Banach-Tarski Paradox, see Stan Wagon's book. 
+* Handbook of Analysis and its Foundations, by Eric Schechter. The website is an advertisement, but it does include a few interesting excerpts from the book -- e.g., a list of 27 forms of the Axiom of Choice and a few dozen weak forms of Choice, as well as a chart showing how some of the weak forms are related. (The book is intended for beginning graduate students; only a small portion of the book is actually concerned with Choice.) 
+* The Math History Archive contains some mentions of AC. See especially: the beginnings of set theory, Cantor, Hausdorff, Zermelo, Sierpinski, Kuratowski, Zorn. Gödel, Cohen 
+* Zermelo's axiom of choice : its origins, development, and influence, by Gregory Moore. A fascinating history of AC. You may have trouble locating a copy of this book -- I think it's out of print. New York : Springer-Verlag, c1982. ISBN 0387906703. 
+* Constructivism is Difficult -- a brief introduction to constructivism. Constructivism and AC are two different but overlapping topics. AC is a nonconstructive axiom; that's what made it so controversial. 
+* Topological Equivalents of the Axiom of Choice and of Weak Forms of Choice by Eric Schechter -- a brief introduction to this subject, which I wrote for the ``Topology Atlas'' 
+* One of AC's most important applications in analysis is the Hahn-Banach Theorem. It may be viewed as a weak form of Choice. Here is an on-line survey article, The Hahn-Banach Theorem: The Life and Times, by Lawrence Narici and Edward Beckenstein. 
+* Axiome du Choix, by David Madore. This page includes a list of several equivalents and weaker consequences of AC, and a list of some of the implications among them. If your French is weak, you might try an automatic translation service, such as AV's translator. However, such translation programs don't know mathematics, and so some of the results may be a bit odd. For instance, what we call "well ordering" is what the French call "bon ordre," but the AV translator turns that into "good command." 
+* An introduction to the gauge integral, by me (Eric Schechter). We might replace the Riemann integral with the gauge integral in our freshman calculus courses. It is similar in most respects, and is better in many respects. The Axiom of Choice gets mentioned near the end of the discussion (but I'm not advocating telling the freshmen about the Axiom of Choice). 
+* The ProvenMath website includes a web page on AC. That page includes formal statements of several of the equivalents of AC, and formal proofs of equivalence. To read the statements and proofs, you'll need to familiarize yourself with the notation that ProvenMath uses for representing mathematical symbols on web pages. 
+
+Especially noteworthy books and/or researchers
+
+* Consequences of the Axiom of Choice is a book by Paul Howard and Jean E. Rubin that was published by the American Mathematical Society in 1998. It is a vast survey of Choice and its weaker relatives. It is a reference book, not intended for beginners. The authors are continuing their research project, which now goes a bit beyond the book. Their web page contains a list of the errata and addenda to the book, and a form for downloading copies of the project's main tables. You may also want to look at some related papers. 
+* Home page of Thomas Jech. Jech is the author of the book titled The Axiom of Choice, which is not recent but is still excellent. He has worked in set theory, logic, and other areas since then. Some of his papers are available online. 
+* Saharon Shelah's papers. Shelah is one of the leading logicians of our century; he has made great contributions to the theory of forcing. My favorite among his results is the fact that Con(ZF) implies Con(ZF + DC + BP); this result was shown by J.D.M.Wright to be important to functional analysis. (It's explained further in my book.) Among Shelah's subpages is a list of his coauthors, many of whom have web pages of their own. 
+* Andreas Blass's home page. It is a very old result that the Axiom of Choice implies the existence of bases for vector spaces; Blass can be credited with proving the converse. Blass also did some of the early work on proving the unconstructability of nonprincipal ultrafilters. (Those are results of his that I've understood; he has probably done some other much more important things that I don't understand.) 
+* Edward Nelson's home page. Nelson is the father of Internal Set Theory (IST), a variant of Nonstandard Analysis. IST has acquired a large following; some analysts are of the opinion that IST is the most intuitive approach to limits. (Personally, I suspect that most of those analysts were first trained as logicians, but that may be a reflection of my own ignorance.) Some of Nelson's writings are available online. 
+* Home page of Fred Richman, a leading constructivist. The page includes some amusing subpages, e.g., Confessions of a formalist, Platonist intuitionist -- (Hey, I thought those terms contradicted each other!) -- and Math without countable choice. 
+
+Slightly more advanced and specialized topics
+
+* Realism in mathematics -- book review by Morris Hirsch (in AmsTex format) of book by Penelope Maddy. 
+* The Dehn Invariant, explained by Douglas Zare. Hilbert's Third Problem, solved. One step of the solution uses AC. (David Joyce has prepared a nice website about Hilbert's 23 problems.) 
+* A theorem about polyomino tilings proved with AC by Michael Reid 
+* How to Fill n-Dimensional Space with Hoops, by Evelyn Sander [intermittent server?] 
+* This Week's Finds in Mathematical Physics (Week 68), by John Baez; includes some discussion of topoi 
+* New Foundations home page, by Randall Holmes. NF is a refinement of Russell's theory of types, introduced by Quine in 1937. Thus, it is an alternate form of set theory or higher-order logic, a little different from conventional set theory, but still capable of doing approximately the same things. Of course, it differs from the usual set theory in a few respects; an obvious difference is that there is a universal set in NF. A surprising difference is that the Axiom of Choice is false in NF; this was established in a 1953 paper by E.P.Specker. If Holmes's website interests you, you might continue with T.E.Forster's 1995 book. (For bibliographic details see Holmes's website.) 
+* Issues in commonsense set theory, an online article by MÃ¼jdat Pakkan and Varol Akman. From the abstract: "In this survey, we briefly review classical set theory from an AI perspective, and then consider alternative set theories." Includes an overview of ZF set theory, which makes it relevant to this home page. 
+
+Formal logic and / or automatic theorem-proving
+
+* Metamath Solitaire, an elementary game implemented as a Java applet that lets you prove simple theorems in logic and set theory. Includes introductory explanation. 
+* Mathematical Logic around the world -- linklist provided by the Mathematical Logic Group in Bonn 
+* Isabelle is a generic theorem prover which can support a wide variety of logics; it is available for free and will run on most Unix systems. You may be interested in some of Larry Paulson's papers on mechanizing set theory using Isabelle. Especially, you may be interested in "Mechanising Set Theory: Cardinal Arithmetic and the Axiom of Choice", coauthored by Krzysztof Grabczewski. This paper mechanizes the proof of numerous equivalents of the Axiom of Choice, covering most of Chapter 1 of Kunen's Set Theory and most of Chapters 1 and 2 of Rubin and Rubin's Equivalents of the Axiom of Choice. 
+* Merging HOL with Set Theory (Talk) -- (I don't really know what this is) 
+* Logic Eprints -- there is probably some stuff on AC in here, but I haven't explored it yet. 
+* A Survey of the QED Project and Related Topics 
+
+Miscellaneous
+
+* Newsgroups: sci.logic, sci.philosophy.tech, sci.math, sci.math.research sometimes contain something about AC. 
+* Kurt Godel in Blue Hill, a description of Godel and some of his work, by Peter Suber 
+* Adib Ben Jebara has been working on a web page about a possible connection between Fermat's Last Theorem and the Axiom of Choice. It's a work in progress, and I don't fully understand it yet, and I don't know whether he'll eventually be able to fill in the details that are still needed in his proof, but he asked me to put this link here. Fermat's Last Theorem, you recall, says that xn+yn=zn has no solution in positive integers x,y,z,n with n>2. Ben Jebara is considering xN+yN=zN, where N is the set of all positive integers; thus xN represents the Cartesian product of countably many copies of a finite set x (or, equivalently (?), the collection of all sequences that take their values in a finite set x). Of related interest is a paper by Andreas Blass, "Sums, Products, and Choice for Finite Sets". 
+* The Axiom of Choice was used for a tongue-in-cheek "proof" of the existence of God, in "God exists!", Nous 21 (1987), 345-361. The basic idea is to put a suitable partial ordering on the universe, and then use Zorn's Lemma to prove the existence of a maximal element, which is therefore God. A web page on this topic has been made available by Alexander Pruss. 
+* A musical band named Axiom of Choice. Their music is a fusion of Persian Traditional with modern. Okay, it's not math, but I couldn't resist posting this here. Iranian born guitarist Ramin Torkian and singer Mamek Khadem were both trained as mathematicians, and that's where the group gets its name. Their first album's liner notes say "There is an exciting and profound artistic value in the mathematical principle, Axiom of Choice. The mathematician has the right to choose elements without explanation. In a world where everything must be explained, these choices are voluntary and do not need explanation." 
+
+---------------------------------------------------------------------
+
+All links tested 29 Nov 2001. Latest alterations 16 Nov 2003. My thanks to Andreas Blass, who assisted me with part of this page. This page has been selected by Open Here. Also, this page was chosen by KaBoL as the "cool math site of the week" for November 9, 1999 (Knot number 184). 
+
+

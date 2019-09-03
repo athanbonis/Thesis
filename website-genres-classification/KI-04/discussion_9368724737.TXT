@@ -1,0 +1,146 @@
+
+
+[Fwd: RE: [linux-laptop] problem with new Centrino laptop (agp/nvidia)] 
+
+Florian Marchal debian-mobile@marchal.de 
+Tue, 24 Jun 2003 20:16:03 +0200 
+
+* Previous message: [linux-laptop] problem with new Centrino laptop (agp/nvidia) 
+* Next message: [linux-laptop] while shut down pcmcia services hangs my laptop (solved) 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+
+---------------------------------------------------------------------
+
+--------------090205000302000503020109
+Content-Type: text/plain; charset=us-ascii; format=flowed
+Content-Transfer-Encoding: 7bit
+
+hi,
+
+i'm sorry for being not precise enough: neither the nv-driver nor the 
+nvidia-driver (from nvidia.com) are working.
+
+the driver from nvidia works fine on my workstation gpu (geforce3) but 
+fails on my notebook.
+
+i thought someone out here might be close to this issue.
+
+i do not have the time and the ability to fix the known bugs 
+(agpgart-module with centrino) in the current kernel.
+
+thanks anyway
+
+florian marchal
+
+-------- Original Message --------
+Subject: RE: [linux-laptop] problem with new Centrino laptop (agp/nvidia)
+Date: Tue, 24 Jun 2003 13:01:46 -0500
+From: "Rockefeller, Harry" <harryr@SSD.FSI.com>
+To: Florian Marchal <debian-mobile@marchal.de>, linux-laptop@mobilix.org
+
+> i got a brand new Samsung X10 XTC1300 Centrino laptop. it has got an 
+> nvidia gpu (geforce 4 420 go).
+
+My laptop has a geforce 4 440 Go gpu and works with nvidia driver.
+I'm using the stock RedHat 9 kernel.
+
+> 
+> with all the needful hints at www.tuxmobil.org i nearly completed the 
+> installation of my debian woody distribution.
+> soundcard, nic, ide and cdrom are working fine, acpi seems to 
+> be a huge problem with centrino notebooks though.
+
+Yep.  Mine too.
+
+> i'm currently running an 4.1.0-16 xserver with the 
+> vesa-driver since the nvidia driver doesn't work at all.
+
+I'm not sure what you mean here.
+The XFree86 server: 'nv' driver, doesn't work with mine either.
+I use the 'nvidia' driver installed from www.nvidia.com.  The
+README at nvidia is very good.
+
+--------------090205000302000503020109
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+ hi,<br>
+<br>
+i'm sorry for being not precise enough: neither the nv-driver nor the nvidia-driver
+(from nvidia.com) are working.<br>
+<br>
+the driver from nvidia works fine on my workstation gpu (geforce3) but fails
+on my notebook.<br>
+<br>
+i thought someone out here might be close to this issue.<br>
+<br>
+i do not have the time and the ability to fix the known bugs (agpgart-module
+with centrino) in the current kernel.<br>
+<br>
+thanks anyway<br>
+<br>
+florian marchal<br>
+<br>
+-------- Original Message --------
+<table cellpadding="0" cellspacing="0" border="0">
+  <tbody>
+    <tr>
+      <th valign="baseline" align="right" nowrap="">Subject: </th>
+      <td>RE: [linux-laptop] problem with new Centrino laptop (agp/nvidia)</td>
+    </tr>
+    <tr>
+      <th valign="baseline" align="right" nowrap="">Date: </th>
+      <td>Tue, 24 Jun 2003 13:01:46 -0500</td>
+    </tr>
+    <tr>
+      <th valign="baseline" align="right" nowrap="">From: </th>
+      <td>"Rockefeller, Harry" <a class="moz-txt-link-rfc2396E" href="mailto:harryr@SSD.FSI.com">&lt;harryr@SSD.FSI.com&gt;</a></td>
+    </tr>
+    <tr>
+      <th valign="baseline" align="right" nowrap="">To: </th>
+      <td>Florian Marchal <a class="moz-txt-link-rfc2396E" href="mailto:debian-mobile@marchal.de">&lt;debian-mobile@marchal.de&gt;</a>, <a class="moz-txt-link-abbreviated" href="mailto:linux-laptop@mobilix.org">linux-laptop@mobilix.org</a></td>
+    </tr>
+  </tbody>
+</table>
+ <br>
+<br>
+<pre>&gt; i got a brand new Samsung X10 XTC1300 Centrino laptop. it has got an 
+&gt; nvidia gpu (geforce 4 420 go).
+
+My laptop has a geforce 4 440 Go gpu and works with nvidia driver.
+I'm using the stock RedHat 9 kernel.
+
+&gt; 
+&gt; with all the needful hints at <a class="moz-txt-link-abbreviated" href="http://www.tuxmobil.org">www.tuxmobil.org</a> i nearly completed the 
+&gt; installation of my debian woody distribution.
+&gt; soundcard, nic, ide and cdrom are working fine, acpi seems to 
+&gt; be a huge problem with centrino notebooks though.
+
+Yep.  Mine too.
+
+&gt; i'm currently running an 4.1.0-16 xserver with the 
+&gt; vesa-driver since the nvidia driver doesn't work at all.
+
+I'm not sure what you mean here.
+The XFree86 server: 'nv' driver, doesn't work with mine either.
+I use the 'nvidia' driver installed from <a class="moz-txt-link-abbreviated" href="http://www.nvidia.com">www.nvidia.com</a>.  The
+README at nvidia is very good.
+
+</pre>
+</body>
+</html>
+
+--------------090205000302000503020109--
+
+---------------------------------------------------------------------
+
+* Previous message: [linux-laptop] problem with new Centrino laptop (agp/nvidia)  
+* Next message: [linux-laptop] while shut down pcmcia services hangs my laptop (solved) 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+

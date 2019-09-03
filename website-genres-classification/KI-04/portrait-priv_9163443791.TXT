@@ -1,0 +1,102 @@
+Digital Information Infrastructure A Framework for Distributed Digital Object Services by Robert Kahn and Robert Wilensky, offers some elements. Papers: If you want to see some of my papers, take a look at my collection on the DLIB Personal Library service . Here are some of my older UC Berkeley Computer Science technical reports on various subjects: Extending the Lexicon by Exploiting Subregularities Sentences, Situations and Propositions The Berkeley UNIX Consultant Project Primal Content and Actual Content: An Antidote to Literal Meaning Some Problems and Proposals for Knowledge Representation UC--A Progress Report Talking to Unix in English: An Overview of an On-line Consultant You can examine any UC Berkeley Computer Science Technical Report, and those of quite a few other institutions, via the UC Berkeley Technical Report Server . Presentations: RESIDU Multivalent Robust Hyperlinks Robust Locations CQF clustering shape Kobus's ECCV_2002 slides Kobus's talk slides Demos General DLIB Demos Clustering demos: Kobus's official demo ; Clustering demo 1 ; Clustering demo 2 Here is a broken but robust link to the home page for CS288: An Artificial Intelligence Approach to Natural Language Processing . You'll need to download a browser hack from the Robust Hyperlinks and Robust Locations page to gracefully fail-over. Miscellaneous Some BAIR (Berkeley Artificial Intelligence Project) alumni pages, and some people working on the Digital Library Project . In addition to having recently served as Chair of UC Berkeley's Computer Science Division, as well as a brief stint as Emperor of China , I also consult on various topics. Personal Some family pictures .... Directions to 560 Spruce Street   --> 
+
+Robert Wilensky 
+
+Professor
+Computer Science Division and School of Information Management and Systems 
+721 Soda Hall
+ University of California, Berkeley
+ Berkeley, CA 94720
+ TEL: (510) 642-7034
+ FAX: (510) 643-1534 
+wilensky à CS.Berkeley.EDU 
+
+Administrative contact:
+ Winnie Wang
+ 719 Soda Hall 
+(510) 642-9575 
+catwoman à cs.Berkeley.EDU 
+
+Office hours for Spring, 2004: W 2-3, Th 2-3. 
+
+I'm teaching CS 288: An AI Approach to NLP this spring. 
+
+Interested in applying to graduate school in EECS? You need not contact me, but should follow this link instead. 
+
+Interested in applying to graduate school in SIMS? Follow this link. 
+
+I'm working on "Digital Information Services", as exemplified by . 
+
+The paper, Digital Library Resources as a Basis for Collaborative Work, describes some of our efforts. An IEEE Computer article on our previous work is available; so is an overview of our current project (in PowerPoint). 
+
+My research interests include: 
+
+* Digital Documents 
+
+See the Multivalent Browser page. 
+
+Check out the Digital Documents course home page. 
+
+* Robust Linking 
+
+Robustness in a chaotic environment poses some interesting questions. Check out the Robust Hyperlinks and Robust Locations page. 
+
+* Using Natural Language Processing to Improve Information Access 
+
+Check out the home page for CS288: An Artificial Intelligence Approach to Natural Language Processing. 
+
+I also teach CS 188: An Introduction to Artificial Intelligence . 
+
+* Digital Information Infrastructure 
+
+A Framework for Distributed Digital Object Services by Robert Kahn and Robert Wilensky, offers some elements. 
+
+Papers:
+
+If you want to see some of my papers, take a look at my collection on the DLIB Personal Library service. 
+
+Here are some of my older UC Berkeley Computer Science technical reports on various subjects: 
+
+* Extending the Lexicon by Exploiting Subregularities 
+* Sentences, Situations and Propositions 
+* The Berkeley UNIX Consultant Project 
+* Primal Content and Actual Content: An Antidote to Literal Meaning 
+* Some Problems and Proposals for Knowledge Representation 
+* UC--A Progress Report 
+* Talking to Unix in English: An Overview of an On-line Consultant 
+
+You can examine any UC Berkeley Computer Science Technical Report, and those of quite a few other institutions, via the UC Berkeley Technical Report Server. 
+
+Presentations:
+
+RESIDU 
+Multivalent 
+Robust Hyperlinks 
+Robust Locations 
+CQF 
+clustering 
+shape 
+Kobus's ECCV_2002 slides 
+Kobus's talk slides 
+
+Demos
+
+General DLIB Demos 
+
+Clustering demos: Kobus's official demo; Clustering demo 1; Clustering demo 2 
+
+Here is a broken but robust link to the home page for CS288: An Artificial Intelligence Approach to Natural Language Processing. You'll need to download a browser hack from the Robust Hyperlinks and Robust Locations page to gracefully fail-over. 
+
+Miscellaneous
+
+Some BAIR (Berkeley Artificial Intelligence Project) alumni pages, and some people working on the Digital Library Project . 
+
+In addition to having recently served as Chair of UC Berkeley's Computer Science Division, as well as a brief stint as Emperor of China, I also consult on various topics. 
+
+Personal
+
+Some family pictures.... 
+
+Directions to 560 Spruce Street 
+
+

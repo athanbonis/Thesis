@@ -1,0 +1,78 @@
+
+
+Research 
+
+"Copy from one, it's plagiarism; copy from two, it's research." 
+---------------------------------------------------------------------
+
+Interests
+
+My research interests include probabilistic reasoning with uncertainty and imcomplete knowledge, machine learning, data mining, decision making under real-time constraints, computational models of intelligence, search and NP-hard problem solving techniques, kolmogorov complexity and algorithmic complexity theory. 
+
+---------------------------------------------------------------------
+
+Bayesian networks
+
+My current research focuses on Bayesian network learning and inference techniques. A Bayesian Network, also called Bayes Belief Network (BBN), is a concise representation of a joint probability distribution defined on a finite set of random variables. It is a directed acyclic graph (DAG) with conditional probabilities for each node. In a BBN nodes represent random variables in a problem domain and arcs represent conditional dependence relationship among these variables. Each node contains a CPT(Conditional Probabilistic Table) that contains probabilities of the node being a specific value given the values of its parents. 
+
+BBN is a powerful common knowledge representation and reasoning tool for partial beliefs under uncertainty. It combines graph theory and probability theory to provide a practical tool for representing and updating probabilities(beliefs) about events of interest. The framework of BBNs offers a compact, intuitive, and efficient graphical representation of dependence relationships between entities of a problem domain. 
+
+For more information about Bayesian networks, I refer you to Kevin Murphy's page: A Brief Introduction to Graphical Models and Bayesian Networks, and E. Charniak's tutorial paper "Bayesian Networks without Tears", AI magazine, 1991. 
+
+---------------------------------------------------------------------
+
+Complexity of Inference in Bayesian Networks
+
+* [Co90] G.F. Cooper. `The computational complexity of probabilistic inference using Bayesian belief networks, Artificial Intelligence, vol. 42, pp. 393-405, 1990. 
+* [DL93] P. Dagum and M. Luby. ``Approximating probabilistic inference in Bayesian belief networks is NP-hard,'' Artificial Intelligence, vol. 60, pp. 141-153, 1993. 
+* [Sh94] S. E. Shimony. Finding MAPs for belief networks is NP-hard. Artificial Intelligence, vol. 68, pp. 399--410, 1994. 
+* [Ro96] D. Roth. On the Hardness of Approximate Reasoning. Artificial Intelligence, 82(1/2):273--302, 1996. 
+* [AH98] A. M. Abdelbar and S. M. Hedetniemi. Approximating MAPs for belief networks in NP-hard and other theorems. Artificial Intelligence vol. 102, pp. 21-38, 1998. 
+* [LMP00] M.L. Littman, S.M. Majercik, and T. Pitassi. Stochastic Boolean satisfiability. Journal of Automated Reasoning, 2000. 
+* [Pa02] J. D. Park. MAP Complexity Results and Approximation Methods. In Proceedings of the 18th Conference on Uncertainty in Artifical Intelligence(UAI) pp 388-396, 2002. 
+* [SD02] Solomon E. Shimony and Carmel Domshlak, Complexity of Probabilistic Reasoning in Singly Connected (Not Polytree!) Bayes Networks. 2002. 
+
+---------------------------------------------------------------------
+
+Developments and Downloads
+
+Since the spring of 2000, I have been working with the BNJ(Bayesian Network tools in Java ) development team at the KDD Lab on an open-source software development toolkit for research in probabilistic learning and inference using Bayesian networks. To date, we have implemented the following modules into BNJ: 
+
+* Core classes for representing main data structures 
+* A graphic Bayesian network editor for loading and manipulating the network 
+* A network format converter for converting network file formats 
+* An exact inference algorithm (the clique-tree propagation algorithm by Lauritzen and Spiegelhalter 1988) 
+* Several important sampling inference algorithms, inclduing logic sampling, liklihood weighting, self-importance sampling, and adaptive importance sampling 
+* K2, a greedy search-based Bayesian network learning algorithm using Bayesian score 
+* Data generator, generating training data set by simulating the network using forward sampling 
+* Other useful utilities 
+
+The binary code of BNJ can be downloaded from our BNJ announcement page. The user manual is located at here. And the latest source release (bnjsource-alpha1.02.zip) can also be downloaded from SourceForge. If you would like to be part of any discussions relating to the future development of this toolkit, please feel free to join our Yahoo! Group, the BNT Development Team. 
+
+---------------------------------------------------------------------
+
+Presentations
+
+* IJCAI-2003 Workshop on AI & Motonomic Computing, Acapulco, Mexico. 
+* Complexity Results of BN Inferences KDD Seminar, Friday, March 14, 2003. 
+* K2 algorithm: Learning Bayesian Networks from Data 
+* Bayesian Networks Inference and LS Clique-tree Propagation Algorithm 
+* Dynamic Bayesian networks: representation, inference, and learning KDD seminar series, Friday, August 23,fall 2002. 
+
+---------------------------------------------------------------------
+
+Workshops
+
+IJCAI-01 Workshop on Wrappers for Performance Enhancement in Knowledge Discovery in Databases(KDD). Saturday, 04 August 2001 Seattle, Washington, USA. (Program Committee) 
+
+AAAI/KDD/UAI-2002 Joint Workshop on Real-Time Decision Support and Diagnosis Systems. Monday, 29 July 2002. Edmonton, Alberta, Canada. (Organizing Chair, Program Committee) 
+
+AAAI2002 Doctoral Consortium 
+
+IJCAI-2003 workshop on Learning Graphical Models for Computational Genomics . Saturday, 09 August, 2003. Acapulco, Mexico. 
+
+---------------------------------------------------------------------
+
+Last updated : June 27, 2002 
+
+

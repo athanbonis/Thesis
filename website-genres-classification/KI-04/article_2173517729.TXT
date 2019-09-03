@@ -1,0 +1,71 @@
+Examples Feature List Papers and Articles Model Editor The model editor is a graphical and textual interface, featuring intuitive drag-and-drop capabilities. The model is assembled using components from already built up component libraries. Read more... Screenshot of Model Editor Screenshot of Notebook textual interface --> AVI demo of user interface Simulation Center Simulations and results are presented in the simulation center. Here it is possible to trim the parameters and initial values of a model between simulations. Read more... Simulation Center Screenshot AVI of Visualizations The Bouncing Ball Example --> Documentation and Analysis Live documentation and mathematical analysis using Notebooks. Read more... Example Notebooks Documentation in Mathematica AVI of Documentation and Analysis --> Component Libraries Ready made or user defined component libraries. Read more... Component Libraries The Modelica Language Model Notebooks --> Communication Communicate and integrate with other software. --> Technologies Read here about the technologies used in MathModelica. Other links that might be of interest: MathModelica Examples · Feature List · Technical Documents · MathMore's Products Questions or comments about the site? Please contact webmaster@mathcore.com . Thanks!   --> 
+
+Home > Products > What is MathModelica?
+
+What is MathModelica?
+
+MathModelica is a powerful engineering tool for virtual model building and simulation of all kinds of physical systems. MathModelica handles any kind of domain, such as mechanics, electronics, hydraulics, control systems etc. This gives a unique capability to model and simulate complex systems with high accuracy and precision, in an easy and intuitive computer environment. With its simplicity and flexibility, it is a tool that supports updated and correct decision making in all stages of a product's life cycle.
+
+General Description
+
+MathModelica is a modeling, analysis, and simulation environment for engineers at companies that design complex products or systems of heterogeneous physical character. MathModelica is useful in a variety of fields such as the automotive and aircraft industries, robotics, and complex machinery. The tool provides a technology that makes it possible to "lift" modeling and simulation one or several levels closer to the real product than is possible with todays software tools. Virtual prototyping is a common term for parts of this process but does sometimes only include the mechanical modeling part of the whole system. Full system simulation is a more accurate description of what MathModelica provides.
+
+In MathModelica models are described using the Modelica language. The Modelica Association is the key to success in the "lift" since the focus of the Modelica effort has been on efficient multi-domain modeling and simulation from the very beginning in the language design. The term multi-domain (or heterogeneous) means that subsystems or components from different physical application domains can be handled in the same model and by the same modeling tool. A construction machine is one such example, containing mechanics, hydraulics, electric servo motors, and one or several software-based regulators or control systems. The development of products or systems of this character (i.e., mixes of mechanics, hydraulics, electronics, and software) is supported today by simulation tools with rather limited scope, which means that models and simulations can usually only be carried out in subsystems within each application area. The communication between designers and groups that develop these different subsystems is usually done through specifications and discussions during formal meetings. It is hard to verify that the given specifications correspond to a correct final product, and it is not unusual that problems are detected rather late in the development process when physical prototypes are built and the different subsystems are integrated. Multi-domain modeling software overcomes these problems and makes it possible to integrate the work done by different design groups at a much earlier stage - collaborative engineering! The full system behavior can be tested and verified virtually by analyses and simulations much earlier and faster than before.
+
+MathModelica is a suite of software including Mathematica, Visio, and the Dymola kernel, which are very tightly integrated into a single engineering workbench for advanced modeling, simulation, analysis, and documentation. The user interface of MathModelica can be divided into The Model Editor and Notebooks. The Model Editor is an extension of Visio and is used for quick and easy graphical composition of models in a drag-n-drop fashion, using ready-made components from the Modelica Standard Library or other user defined component libraries. The Notebook interface provides excellent "live" documentation of the whole model and simulation process.Additionally it offers advanced scripting and pre- and post processing capabilities. By integrating the powerful Modelica modeling and simulation technology with Mathematica, advanced modeling and simulation capabilities are merged seamlessly with a technical computing system complete with built-in functions for pre- and post processing as well as advanced scripting capabilities.
+
+The process of translating the models described in Modelica into efficient, executable simulation code (equation sorting, index reduction, symbolic implication, C-code generation, compilation, solver linking, etc) is handled by the Dymola kernel which is not directly visible to the user.
+
+Examples and Documents
+
+Find out more about MathModelica by examining examples and reading documents.
+
+Examples
+
+Feature List
+
+Papers and Articles
+
+Model Editor
+
+The model editor is a graphical and textual interface, featuring intuitive drag-and-drop capabilities. The model is assembled using components from already built up component libraries. Read more...
+
+Screenshot of Model Editor
+
+AVI demo of user interface
+
+Simulation Center
+
+Simulations and results are presented in the simulation center. Here it is possible to trim the parameters and initial values of a model between simulations. Read more... 
+
+Simulation Center Screenshot
+
+AVI of Visualizations
+
+Documentation and Analysis
+
+Live documentation and mathematical analysis using Notebooks. Read more... 
+
+Example Notebooks
+
+Component Libraries
+
+Ready made or user defined component libraries. Read more...
+
+Component Libraries
+
+The Modelica Language
+
+Technologies
+
+Read here about the technologies used in MathModelica.
+
+Other links that might be of interest:
+
+MathModelica Examples · Feature List · Technical Documents · MathMore's Products         
+       
+
+---------------------------------------------------------------------
+Questions or comments about the site? Please contact webmaster@mathcore.com. Thanks! 
+
+

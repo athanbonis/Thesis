@@ -1,0 +1,65 @@
+
+
+Logistic Regression 
+
+Revised 11/18/2003 
+
+Background ||| Techie-Stuff ||| Instructions 
+
+This page performs logistic regression, in which a dichotomous (two-value) outcome is predicted by one or more variables. It generates the coefficients of a prediction formula (and standard errors of estimate and significance levels), and odds ratios (with their 95% confidence intervals). 
+
+---------------------------------------------------------------------
+
+Background Info (just what is logistic regression, anyway?): 
+
+Ordinary regression deals with finding a function that relates a continuous outcome variable (dependent variable y) to one or more predictors (independent variables x1, x2, etc.). Simple linear regression assumes a function of the form:
+y = c0 + c1 * x1 + c2 * x2 +...
+and finds the values of c0, c1, c2, etc. (c0 is called the "intercept" or "constant term"). 
+
+Logistic regression is a variation of ordinary regression, useful when the observed outcome is restricted to two values, which usually represent the occurrence or non-occurrence of some outcome event, (usually coded as 1 or 0, respectively). It produces a formula that predicts the probability of the occurrence as a function of the independent variables. 
+
+Logistic regression fits a special s-shaped curve by taking the linear regression (above), which could produce any y-value between minus infinity and plus infinity, and transforming it with the function:
+p = Exp(y) / ( 1 + Exp(y) )
+which produces p-values between 0 (as y approaches minus infinity) and 1 (as y approaches plus infinity). This now becomes a special kind of non-linear regression, which is what this page performs. 
+
+Logistic regression also produces Odds Ratios (O.R.) associated with each predictor value. The odds of an event is defined as the probability of the outcome event occurring divided by the probability of the event not occurring. The odds ratio for a predictor tells the relative amount by which the odds of the outcome increase (O.R. greater than 1.0) or decrease (O.R. less than 1.0) when the value of the predictor value is increased by 1.0 units. 
+---------------------------------------------------------------------
+
+Techie-stuff (for those who might be interested): 
+
+This page contains a straightforward JavaScript implementation of a standard iterative method to minimize the Log Likelihood Function (LLF), defined as the sum of the logarithms of the predicted probabilities of occurrence for those cases where the event occurred and the logarithms of the predicted probabilities of non-occurrence for those cases where the event did not occur. 
+
+Minimization is by Newton's method, with a very simple elimination algorithm to invert and solve the simultaneous equations. Central-limit estimates of parameter standard errors are obtained from the diagonal terms of the inverse matrix. Odds Ratios and their confidence limits are obtained by exponentiating the parameters and their lower and upper confidence limits (approximated by +/- 1.96 standard errors). 
+
+No special convergence-acceleration techniques are used. For improved precision, the independent variables are temporarily converted to "standard scores" ( value - Mean ) / StdDev. The Null Model is used as the starting guess for the iterations -- all parameter coefficients are zero, and the intercept is the logarithm of the ratio of the number of cases with y=1 to the number with y=0. Convergence is not guaranteed, but this page should work properly with most practical problems that arise in real-world situations. 
+
+This implementation has no predefined limits for the number of independent variables or cases. The actual limits are probably dependent on your web browser's available memory and other browser-specific restrictions. 
+
+The fields below are pre-loaded with a very simple example. 
+
+---------------------------------------------------------------------
+
+Instructions: 
+
+1.  Enter the number of data points: (or number of lines of date, if data is summarized). 
+2.  Enter the number of independent variables: 
+3.  Indicate whether each row contains just one case, or summarized data (check here if data is summarized). 
+4.  Type (or paste) the [x,y] data:
+ 1,0 2,0 3,0 4,0 5,1 6,0 7,1 8,0 9,1 10,1 
+Use a separate row for each data point. For each row, enter the independent variable or variables (which must be numeric), followed by the dependent variable (outcome). 
+If the data is not summarized (that is, if each row contains the values for one individual observation), then enter a single outcome number, coded as 0 (if the event did not happen) or 1 (if the event did happen).
+ If your data is summarized (that is, if each row provides information about multiple subjects having identical predictor values), then enter the outcome as two numbers: the first is the number of subject who did not experience the event (that is, had a "0" outcome); the second is the number of subjects who did experience the event (that is, had a "1" outcome).
+ Values should be separated by commas or tabs. You can copy data from another program, like a spreadsheet, and paste it into the window above. 
+5.  Click the button. The results will appear below:
+ 
+
+6.  To print out results, copy and paste the contents of the Output window above into a word processor or text editor, then Print. For best appearance, specify a fixed-width font like Courier. 
+
+---------------------------------------------------------------------
+
+Reference: Applied Logistic Regression, by D.W. Hosmer and S. Lemeshow. 1989, John Wiley & Sons, New York 
+---------------------------------------------------------------------
+
+Return to the Interactive Statistics page or to the JCP Home Page
+ 
+Send e-mail to John C. Pezzullo at johnp71@aol.com 

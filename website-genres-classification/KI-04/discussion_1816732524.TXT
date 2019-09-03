@@ -1,0 +1,288 @@
+
+Developer Shed Network  |  Dev Shed  |   ASP Free  |   Dev Articles  |   Dev Hardware  |   SEO Chat  |  itsALLnet&nbsp |&nbsp; Web Hosters&nbsp&nbsp	 
+
+//--> 	
+
+ Forums: » Register « |  User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+Dev Shed Forums
+      
+Advanced Forums Search
+      
+Dev Shed Site
+ 
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+//--> 	
+
+Dev Shed Forums > Other > Project Help Wanted > Recipe Search Portal- Looking for geeks who like to cook and program!	  
+ 	
+
+//--> 	
+
+ 	    Last Thread     Next Thread   	
+
+Author	     
+  Thread	  	      	   	    	   	  
+  	
+
+Hero Zzyzzx
+ It goes up to 11
+ 
+
+Registered: Jul 2001
+ Location: Lynn, MA
+ Posts: 3475	    Recipe Search Portal- Looking for geeks who like to cook and program!  
+
+Cooking, computers, and music have always been my passions. I'm already working on a pretty cool music app (via www.directionsincollaborativeaudio.org ) and have been tossing around in my head creating a google-like search engine specifically for recipes. I'm looking to create a recipe specific search engine that will index and crawl the numerous cooking sites and return recipe results. It will be built with perl, mod_perl, MySQL, HTML::Template, HTML::Parser, LWP::UserAgent, CGI::Application and DBIx::FullTextSearch as the framework. Data will be stored in MySQL, but pages will be served from a data warehouse I've developed, giving this site the potential to handle MASSIVE amounts of hits. I plan on getting the search engine working first, and then turning it into a user customizable portal. I have experience using all the above modules, creating relevancy ranked searches, parsing HTML, and writing web bots. I'm looking for: - Developers who use the above modules and know mod_perl to do code reviews (won't pay, but will review your code, too!), - Folks who really understand relevancy ranking to advise me on how to improve results - Designers who know how to create compatible, attractive interfaces that are browser and platform independent (again, your chance for infamy, but not pay), - Other folks who want to help as beta testers of the developing app. I'm not looking for, nor will I entertain, suggestions that this be done in PHP. Nothing against PHP, I just don't think it's the best choice for my plans with this thing. When this goes live, I will get a dedicated server and run the whole thing in mod_perl, making PHP unnecessary. There are no immediate plans to make money, but I see numerous opportunities for it, both in offering premium services and selling advertising. If it gets to the point where it makes money, I will generously take care of those who've helped significantly. (Specific terms will develop as they are needed, I suppose). Thanks for your consideration!!
+
+__________________
+Me: GeekUprising Internet Consultants mod_perl, web-enabled database, linux and web automation consultant Please don't PM me with technical questions that belong in the forum. I'll probably ignore your PM. Read: Ask Questions The Smart Way | Perl FAQ | PHP Docs | LDP | Perlmonks.org | MySQL Docs | Perl Module Installation | CPAN | Perl Docs | BlosGate- The Email to Blog Gateway NewForge NewsVac Headlines Linux To Reduce Boot Time for Win XP Media Center 2004-01-25 Queen to give knighthood to Bill Gates 2004-01-25 Slashdot Headlines Whose Desktop Would You Most Like To See? 2004-01-26 A First Look At Meridiani Planum 2004-01-25 
+
+Report this post to a moderator | IP: Logged
+
+January 16th, 2002 05:58 PM	       
+            	            	    
+ 	
+
+All times are GMT. The time now is 02:14 AM.	  	      	   	    	   	  
+  	
+
+ 	    Last Thread     Next Thread   	
+
+Dev Shed Forums > Other > Project Help Wanted > Recipe Search Portal- Looking for geeks who like to cook and program! 
+
+>> More Related Threads	 
+Thread	 Thread Starter	 Forum	 Replies	 Last Post	 
+setting up sms portal 	walshs 	Project Help Wanted 	1 	
+February 20th, 2002 08:08 PM
+ by M.Hirsch	  	 
+
+Portal Configuration 	footballdaft 	Project Help Wanted 	0 	
+January 16th, 2004 12:54 PM
+ by footballdaft	  	 
+
+Website Portal Help 	flipsided 	Project Help Wanted 	0 	
+December 20th, 2003 01:01 AM
+ by flipsided	  	 
+
+OS Development Portal Project 	PatchWorKs 	Project Help Wanted 	0 	
+February 15th, 2002 02:30 PM
+ by PatchWorKs	  	 
+
+Show Printable Version |   Email this Page |   Subscribe to this Thread  	
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+   
+Forums Home
+   
+--------------------
+   
+Popular Programming Languages
+
+-- PHP
+
+-- Perl
+
+-- C Languages (C, C++, Obj-C)
+
+-- Java, Java Servlets & JSP
+
+-- Python
+
+Other Programming Languages
+
+-- ASP
+
+-- .Net (ASP.Net, VB.Net, C#)
+
+-- Visual Basic
+
+-- Software Design & Algorithms
+
+-- Cold Fusion
+
+-- Delphi & Kylix
+
+-- XML & XUL
+
+ Web Design
+
+-- HTML, JavaScript & CSS
+
+-- Adobe Photoshop
+
+-- Macromedia Flash
+
+-- General Web Design
+
+-- Reviews & Critiques
+
+-- Web Site Promotion
+
+Web Site Management
+
+-- Business & Legal Issues
+
+-- Development Software
+
+-- Scripts
+
+Databases
+
+-- General Database Discussion
+
+-- MySQL
+
+-- PostgreSQL
+
+-- Firebird SQL
+
+-- MS SQL
+
+-- Oracle
+
+-- LDAP
+
+System Administration
+
+-- Mail Servers
+
+-- Apache
+
+-- Security
+
+-- DNS
+
+-- IIS
+
+-- Networking
+
+Operating Systems
+
+-- *BSD
+
+-- Linux
+
+-- UNIX
+
+-- Windows NT/2000/XP
+
+Web Hosting
+
+-- Web Hosting
+
+-- Free Web Hosting
+
+-- Web Hosting Offers
+
+-- Web Hosting Requests
+
+Computer Hardware
+
+-- General Hardware
+
+-- CPUs & Overclocking
+
+-- Cooling
+
+-- Motherboards
+
+-- Video Cards & Sound Cards
+
+Other
+
+-- Dev Shed Lounge
+
+-- Articles & Tutorials
+
+---- PHP Tutorials
+
+---- Perl Tutorials
+
+---- Administration Tutorials
+
+---- Python Tutorials
+
+---- MySQL Tutorials
+
+---- XML Tutorials
+
+---- Java Tutorials
+
+---- Zope Tutorials
+
+---- Development Practices Articles
+
+---- DHTML Tutorials
+
+---- Flash Tutorials
+
+---- JavaScript Tutorials
+
+---- Style Sheets Tutorials
+
+---- WML Tutorials
+
+---- Multimedia Tutorials
+
+-- Beginners
+
+-- Hire A Programmer
+
+-- Project Help Wanted
+  
+ 	
+
+Register Now	 
+Get Full Access	 
+It's Free!	 
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+
+   	
+
+ASP Free Forums  |  SEO Chat Forums  |  Newsletter  |  PHP Web Hosting  |  ASP Web Hosting  	
+
+ Forums: » Register « | User CP  |  Calendar  |  Members  |  FAQs  |  Archive 	 
+
+> 
+Dev Shed Forums
+        
+Advanced Forums Search
+        
+Dev Shed Site
+ 
+
+//--> 
+
+//--> 	
+Powered by: vBulletin Version 2.3.0
+
+Dev Shed Forums  |  ASP Free Forums  |  Dev Articles Forums  |  Dev Hardware Forums  |  SEO Chat Forums 	
+
+Â© 2001-2004. All rights reserved. (Privacy Policy) Dev Shed hosted by Hostway. 		
+
+

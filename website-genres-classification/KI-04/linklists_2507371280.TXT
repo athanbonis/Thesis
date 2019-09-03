@@ -1,0 +1,313 @@
+
+Site Info	 	Tracker	 	BT Info	 	Current BT
+Activity	 	FAQ	 	Links	 	Connection	 
+
+BitTorrent links
+
+BitTorrent Program / problems / bugs etc: 
+
+* BitTorrent Homepage. 
+* The official Windows "howto" run a server. 
+* BitTorrent Mailing list (strictly for software development and related problems) 
+* Mail-to-news interface for the above mailing list. 
+* BitTorrent Mailing list (Technical support questions) 
+* Another BitTorrent Mailing list, this time for ports eg java 
+* BitTorrent wiki. 
+* InfoAnarchy FAQ (wiki) 
+* Japanese ReadMe 
+* Java BitTorrent tools. 
+* Experimental build of Windows Client - With rate-limiting. 
+* Mac (OS X) limiting client. 
+* BeOS client. 
+* Shad0w's experimental Windows client. 
+* BT++. New BT GUI client alpha-versions. This software is currently being not-recommended, so far as I understand it it is superceded and no longer under development. 
+* Knowbuddy's download site. (with perl scripts) 
+* TorrentSpy - Another alternate build of Windows Client. Project also includes BTeasy metafile creator 
+* MakeTorrent - An alternative to completdir (for creating .torrent files). 
+* Burst! Alternate Burst client. 
+* The Hunting Of The Snark Project - Alternate client + metafile creator + web server. 
+* dyndns.org - one of several sites where you can register a domain for free 
+* Search Google for "free Dynamic DNS service" 
+* Log File analyzer Perl script from ei.kefro.st - and an example of the output from the script 
+* Extract fileset data from any .torrent file. 
+* PHP tracker from dehacked.2y.net. 
+* ChocoEd's Statistics patch 
+* Personal Torrent Collector 
+* Yet Another BitTorrent Client 
+* Andrew Brampton's BT Change 0.91 
+* Source code for the defunct Bytemonsoon Site 
+* Search sourceforge for BitTorrent projects 
+* wiki.theory.org BitTorrent Category 
+* wiki.theory.org Specifications / discussion items for BitTorrent 1.0 
+* wiki.theory.org Specifications / discussion items for BitTorrent 2.0 
+FAQs / Tutorials etc (for setting up a server): 
+
+* Gottaname 
+* Groove-Salad. 
+* www.dessent.net/btfaq/. Brian Dessents FAQ (recommended). 
+* Brian's FAQ, this time using FAQ-o-Matic 
+* sidewalkcrusaders.com. How to make a .torrent file 
+* Bram's BitTorrent Q&A session at slashdot.org - insight into the future development of BitTorrent 
+* kartoo.com Search engine. 
+* btlinks.no-ip.org French Site. 
+Other computer stuff: 
+
+* Avast! Anti-virus software. (For Windows) - free for home users. 
+* AVG Anti-virus software. (For Windows) - free version available. 
+* Free online anti-virus scan (for Windows) at symantec.com. (Hit the "Free online virus and security check" link). 
+
+Other sites where you can download using BitTorrent:
+
+* Torrent-talk yahoo group. Strictly for discussion of where to find BitTorrent download sites. 
+* BitTorrentFiles. Another yahoo group. 
+* BitTorrentItalia. Gruppo per utenti italiani del programma BitTorrent. 
+
+Sites providing database of offers or of download sites:
+
+* Taper-friendly downloads listed on etree. 
+* Etree BitTorrent Announcement forum. 
+* phishhook.com. 
+* musicfreaks.net. Database of BitTorrent music offers. 
+* frogfood.dyndns.org mostly TV & movies. You can upload your own .torrents to this site. 
+* filesoup.com. 
+* Section 31. 
+* bittorrentsites.co.nr. Lots of links to other sites. 
+* bit-torrent.org. 
+* slashtorrent.com - links site. 
+* Torrent Trader 
+* brasilhost.ods.org. Portugese Site. 
+* www.link2u.tk 
+* www.portaldasmultimidias.hpg.com.br (Brazilian?) 
+
+Individual download sites:
+
+Music: 
+* bt.etree.org etree - large number of taper friendly artists 
+* Archive.org. Some, but not all downloads are BitTorrent-ised. 
+* digitalpanic.org WSP and more. 
+* whatisee.com WSP shows. 
+* wranglerspace.org - yet more WSP. 
+* digipatch.no-ip.org. WSP, Warren Haynes, Ratdog etc. 
+* www.sharingthegroove.org/. Large music-sharing site, popular tracker. You can upload your .torrents here, read the forum for instructions. 
+* joesgarage.myftp.org. Sister site to digipatch.no-ip.org. 
+* EMULE list Paul Mather has offered Gov't Mule BT downloads via this list. 
+* Paul Mather's BitTorrent site. 
+* Bomb Session Disco Biscuits. 
+* Groove-Salad BitTorrent message board (downloads and discussion). There is also a FAQ which describes how to host shows using BitTorrent. 
+* NerdTeam. ABB, SRV. 
+* Steve Atkins site(GD material). 
+* Sonic Sense, new offers every Wednesday. 
+* Steve Atkins' site (Grateful Dead stuff). 
+* Fubegra. SCI. 
+* Aquafresh. 
+* Jason's BitTorrent. 
+* CCRyder (now moved to timminators-tunes.no-ip.org) 
+* silverphish.dyndns.org. 
+* deadhead.no-ip.org (currently offering Phish) 
+* TBird's BitTorrent Site 
+* kung.servehttp.com 
+* hatfield.etree.org 
+* Pete's BitTorrent page 
+* beatles.serveftp.com (Phish) 
+* BigHerm (Phish) 
+* sky.etree.org (Phish) 
+* Let My Data Flow Vote for the show you want to be available 
+* GD 1974 project at bt.malorkus.com 
+* Leigh Orf's BitTorrent page 
+* The Show Trader 
+* MacDaddys 
+* denance.net 
+* abbshn 
+* cotapers.org Colorado Tapers 
+* veggieburritos.com/ Medeski Martin & Wood 
+* madcapjv 
+* DotTorrent multiple downloads available 
+* Dead Torrents (GD) 
+* pearljamtour.no-ip.org Pearl Jam. 
+* www.taperfriendly.com/ various 
+* Grateful Dead BitTorrents 
+* PlanetTorrent at Taperfriendly.com 
+* easytree.org 
+* Mike B's MSN btdead group. Note: this list requires you to have a Microsoft passport in order to join (ie post messages?), but the message archive is public. 
+TV Shows: 
+
+* Zenith-net (relocated) TV shows. Also has a BT FAQ. (Gone??) 
+* More TV shows and a listing of .torrent files and trackers. 
+* More TV stuff. 
+* #tvtorrents. (turok, temporary home?) 
+* Elite-Fansubs. 
+* Animesuki.com. 
+* donkax.com. 
+* freestylin.net. 
+* Knowbuddy's download site. (with perl scripts) 
+* appletalk.no-ip.com 
+* www.torrentse.cx/ - you can upload your own .torrent files here. 
+* Instructions for offering a Fileset at torrentse.cx/ 
+* Alternate URL for SuprNova 
+* www.torrents.co.uk 
+* Efnet 
+* Torrent Episodes or browse here. You can also upload your torrents to this site. 
+* base0.net/ Anime 
+
+If you don't know what .shn files are, please check the following sites. They will tell you everything about converting .shn files to .wav files - which is what you will need to do prior to burning audio CDs.
+
+* mkwact software (for windows operating systems). 
+* etree FAQ. 
+* etree guide to mkwact. 
+* How to burn an audio CD from .SHN. 
+* Hamilton's .shn FAQ site. 
+* etree wiki .shn page. 
+* Windows lossless audio tools. 
+
+And for FLAC (Free Lossless Audio Codec):
+
+* FLAC Homepage at sourceforge.net. You can download the software from here 
+* etree FlacFAQ. 
+* Windows FLAC GUI Frontend. 
+* How-To use the Windows Flac Frontend. 
+* etree wiki FLAC page. 
+
+Other places you can download Grateful Dead music:
+
+* gdlive.com. 
+* Grateful Dead Newsgroups FAQ. 
+* Internet Archive File Manager. 
+* etree / eDonkey. 
+* TOO Fall 2002 CD covers. 
+* More TOO CD covers. 
+* Tunetree or via ftp. 
+* www.livedownload.com. 
+
+These are the places I usually announce new BitTorrent offers:
+
+* digibob yahoo group. 
+* eurotraders yahoo group. 
+* etrade etree list. 
+* www.ratdog.org (go to discussion board). 
+* etree bittorrent list 
+
+Other useful links:
+
+* Andy McFaddden's CD-Recordable FAQ. 
+* Trader Newbie Zone. 
+* B&P guidelines. 
+* MZ's CD-R Resource page. 
+* THE Rename (program for renaming files). 
+* Optimum Online issues (Read the bits about upload capping if you are on OOL). 
+* Shntool 1.2.2 (available since 22nd February 2003). 
+* Etree mailing list post concerning digital music & sample rates. (may require you to be on the etree mailing list) 
+* www.powweb.com. I understand you can run php & SQL tracker here - anyone know more, please update me 
+
+Commercial sites:
+These sites provide services that may be of interest. 
+
+* ON-U Sound. Music doesn't get much better than this 
+* phonoclub.com. Lots of ON-U stuff by mail order. Click on the Reggae link. 
+* www.blankdiscshop.co.uk. Don't confuse these folks with www.blankcdr.co.uk (see below) 
+* www.cdr-by-mail.co.uk. 
+
+No longer recommended:
+
+* I strongly recommend that you do NOT use blankcdr.co.uk. It appears that they currently are taking credit card payments, but not delivering goods. (24th March 2003) 
+
+Nothing to do with BitTorrent:
+
+A few free music downloads: 
+* Beastie Boys. 
+* Zach de la Rocha and DJ Shadow. 
+* John Mellencamp. 
+* REM. 
+* Jynkz. 
+* Lenny Kravitz. 
+* Bomb The World. 
+* Protest records (lots of links to mp3 downloads). 
+Other stuff: 
+* Jello Biafra & Alternative Tentacles. 
+* Public Enemy. 
+* Johnny Cash. 
+* Michael Moore. 
+* Greg Palast. 
+* Mark Thomas Product. 
+* Al-Masjid Al-haraam. 
+* Bill Hicks. 
+* Misty In Roots. 
+* Some lyrics by Misty In Roots. 
+* Kevin Booth's Bill Hicks site. 
+* JahSonic.com. 
+* Amnesty International. 
+* Greenpeace. 
+* Open Source Initiative. 
+* Counter-Copyright. 
+* William Burroughs Files. 
+* WHSpliff.net 
+* UKCIA.org - UK Cannabis Internet Activists 
+* MrNice.net - Howard Marks' website 
+* Magic Mushrooms net (with useful links to non-English mushroom sites) 
+* shroomtek.co.uk 
+* 0001000.org. 
+* Stop The War coalition. 
+* Cool digital clock. 
+* Echelon Watch. 
+* Rockall Times. 
+* disinformation. 
+* stopesso.com. 
+* 404 - Cannot find weapons of Mass Destruction. 
+* March To War.com. 
+* War on Iraq IQ Test. 
+* Z Communications. 
+* US Appellate Court Rules Media Can Legally Lie. 
+* Federation of American Scientists Arms Sales Monitoring Project. 
+* Matthew White's Historical Atlas of The 20th Century. 
+* Who supplied arms to who (and who supplied to both) in the First Gulf War - (from Matthew White's site). 
+* Human Rights Watch. 
+* United Nations - International law, Human Rights, Geneva Convention etc. 
+* indictsharon.net. 
+* Guardian Unlimited - website of The Guardian newspaper. 
+* Private Eye. 
+* Unknown News. 
+* get your war on. 
+* thepeoplesvoice.org or (alternate URL). 
+* Kidon media-link. Links to thousands of newspaper, radio and TV websites around the world. 
+* MediaWar.Info 
+* MediaChannel.org 
+* UK Independent Media Centre 
+* Warmonger explains war to peacenik 
+* Daddy, why did we have to attack Iraq? 
+* Campaign Against Arms Trade 
+* truthout &nbsp(Iraq War Quiz at truthout) 
+* The March For Justice 
+* Information Clearing House 
+* Gloucestershire Weapons Inspectors 
+* BadCorp.org 
+* FUCKEDCOMPANY 
+* Internal Memos 
+* John Pilgers site at carlton.com A good article to start with can be found here 
+* Where is Raed? 
+* Baghdad Burning - Riverbend's blog 
+* Buzzflash.com 
+* AWOLBUSH.COM 
+* fromthewilderness.com 
+* Iraq Occupation Watch You can't see the world dying if you have dollar signs for eyes. 
+* Robert Hunter's Letter From California. 
+* acftv Makers of the "Afghan Massacre: The Convoy of Death" documentary 
+* whatreallyhappened.com 
+
+---------------------------------------------------------------------
+" ... as I watched Jerry suffer the aches and pains, the nausea, the chills, the whole horrible experience came rushing back to me. In that moment I hated heroin more than ever, because it was destroying someone I cared so much about, someone who had such a good heart and so much to offer the world." - Steve Parish, in "Home Before Daylight". 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+This website has been inspected by Hans Blix, who has reported that no weapons of mass destruction were used in its construction. Read his report here. 
+---------------------------------------------------------------------
+A few more dead links: 
+
+* 404 - Cannot find weapons of Mass Destruction (this one you've already seen). 
+* www.somethingawful.com/nointelligence/. 
+* www.digitalsawdust.com/. 
+* www.michaelhughes.org.uk/cfs.htm. 
+* http://silverhammer.sorayume.net/error.htm. 
+* The Real Hutton Enquiry. 
+Spread 'em and enjoy, 
+email me 
+---------------------------------------------------------------------
+

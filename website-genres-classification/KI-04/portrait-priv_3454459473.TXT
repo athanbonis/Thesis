@@ -1,0 +1,63 @@
+Electronic reprints of selected papers are available on the Web. Books Leake, D. B., editor. (1996) Case-Based Reasoning: Experiences, Lessons, and Future Directions . Menlo Park, CA: AAAI Press / MIT Press , Menlo Park, CA. The overview chapter is available. This book can be ordered online from the MIT Press . Ram, A. and Leake, D. B., editors. (1995). Goal-Driven Learning . Cambridge, MA: MIT Press/Bradford Books. A condensation of the introductory chapter is available. This book can be ordered online from the MIT Press . Leake, D. B. (1992). Evaluating Explanations: A Content Theory . Hillsdale, NJ: Lawrence Erlbaum Associates. A brief description and table of contents are available. Professional service Editor of AI Magazine; past member of the editorial board of the The Journal of the Learning Sciences and the International Journal of Expert Systems Research and Applications . Co-editor of special issue Maintaining Case-Based Reasoning Systems of Computational Intelligence . Chair for the 2003 International Conference on Intelligent User Interfaces (IUI 2003); Short Paper and Demonstration Chair for the 2002 International Conference on Intelligent User Interfaces . Chair of the 1998 and 1999 Workshop Program of the AAAI National Conference on Artificial Intelligence and co-chair of the Second International Conference on Case-Based Reasoning (ICCBR-97) . Program committee member for numerous international and national conferences. Pages for Past Projects Pages are available for the SWALE project (creative case-based explanation) and the Stamping Advisor project (integrated intelligent case-based design support and knowledge management). Additional Resources The CBR/CIP archive of pedagogical "micro-versions" of conceptual information processing and CBR systems . A bibtex bibliography of AI and cognitive science publications with approximately 1600 entries, especially in case-based reasoning. The CmapTools knowledge construction toolkit at the Institute for Human and Machine Cognition (IHMC). Acknowledgments Support from Indiana University , the Knowledge Models and Cognitive Systems Program of the IRIS division of the National Science Foundation , and the NASA Ames Research Center is gratefully acknowledged. Contact information E-mail: leake at cs.indiana.edu (with the obvious change) Office phone: +1 812 855-9756 Departmental phone: +1 812 855-6486 Departmental fax: +1 812 855-4829 Office: Lindley Hall 230D Home page: http://www.cs.indiana.edu/~leake (this page) Office hours Postal and FedEx address: Computer Science Department, Indiana University Lindley Hall 215 150 S. Woodlawn Ave Bloomington, IN 47405-7104 U.S.A.   --> 
+
+David B. Leake
+
+Associate Professor of Computer Science and member of the Cognitive Science faculty at Indiana University. Ph.D., Yale University, 1990. 
+
+Research Interests
+
+Artificial intelligence and cognitive science, including case-based reasoning, intelligent information systems, intelligent user interfaces, knowledge management, knowledge modeling, multimodal reasoning, multistrategy learning, and introspective reasoning. 
+---------------------------------------------------------------------
+
+Publications
+
+Papers
+
+Electronic reprints of selected papers are available on the Web. 
+
+Books
+
+Leake, D. B., editor. (1996) Case-Based Reasoning: Experiences, Lessons, and Future Directions. Menlo Park, CA: AAAI Press/MIT Press, Menlo Park, CA. The overview chapter is available. This book can be ordered online from the MIT Press. 
+
+Ram, A. and Leake, D. B., editors. (1995). Goal-Driven Learning. Cambridge, MA: MIT Press/Bradford Books. A condensation of the introductory chapter is available. This book can be ordered online from the MIT Press. 
+
+Leake, D. B. (1992). Evaluating Explanations: A Content Theory. Hillsdale, NJ: Lawrence Erlbaum Associates. A brief description and table of contents are available. 
+---------------------------------------------------------------------
+
+Professional service 
+
+Editor of AI Magazine; past member of the editorial board of the The Journal of the Learning Sciences and the International Journal of Expert Systems Research and Applications. Co-editor of special issue Maintaining Case-Based Reasoning Systems of Computational Intelligence. Chair for the 2003 International Conference on Intelligent User Interfaces (IUI 2003); Short Paper and Demonstration Chair for the 2002 International Conference on Intelligent User Interfaces. Chair of the 1998 and 1999 Workshop Program of the AAAI National Conference on Artificial Intelligence and co-chair of the Second International Conference on Case-Based Reasoning (ICCBR-97). Program committee member for numerous international and national conferences. 
+---------------------------------------------------------------------
+
+Pages for Past Projects
+
+Pages are available for the SWALE project (creative case-based explanation) and the Stamping Advisor project (integrated intelligent case-based design support and knowledge management). 
+---------------------------------------------------------------------
+
+Additional Resources
+
+* The CBR/CIP archive of pedagogical "micro-versions" of conceptual information processing and CBR systems. 
+* A bibtex bibliography of AI and cognitive science publications with approximately 1600 entries, especially in case-based reasoning. 
+* The CmapTools knowledge construction toolkit at the Institute for Human and Machine Cognition (IHMC). 
+
+Acknowledgments 
+
+Support from Indiana University, the Knowledge Models and Cognitive Systems Program of the IRIS division of the National Science Foundation , and the NASA Ames Research Center is gratefully acknowledged. 
+---------------------------------------------------------------------
+
+Contact information
+
+E-mail:  leake at cs.indiana.edu (with the obvious change)
+Office phone:  +1 812 855-9756
+Departmental phone:  +1 812 855-6486
+Departmental fax: +1 812 855-4829
+
+Office: Lindley Hall 230D 
+Home page: http://www.cs.indiana.edu/~leake (this page) 
+Office hours 
+
+Postal and FedEx address: Computer Science Department, Indiana University 
+Lindley Hall 215 
+150 S. Woodlawn Ave 
+Bloomington, IN 47405-7104 
+U.S.A. 

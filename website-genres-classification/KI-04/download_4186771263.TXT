@@ -1,0 +1,41 @@
+   
+
+| Sitemap |  	     	   		
+
+Purchase Download Contact	 
+
+Home	 	 		Company	 	 		Products	 	 		Solutions	 	 		Support	 	   		Partners	 	 		Investors	 	 
+
+Product Support	 		Documentation	 		Downloads	 	  	Testing Zone	 		FAQ	 		Cryptography A-Z	 		Contact	 		
+
+Downloads   
+
+SSH Tectia Client/Server Solution	 
+
+SSH Tectia Connector	 
+
+SSH Tectia Client	 
+
+SSH Tectia Server (Unix)	 
+
+SSH Tectia Server (Windows)	 
+
+SSH Secure Shell	 
+
+SSH Secure Shell for Workstations	 
+
+SSH Secure Shell for Servers	 
+
+SSH Secure Shell for Windows Servers	 
+
+he existing SSH Secure Shell products have been re-branded with new product names starting from the new release version 4.0. The new product names for SSH Secure Shell for Workstations, Servers, and Windows Servers are now: 
+
+* SSH TectiaTM Client (previously SSH Secure Shell for Workstations) 
+* SSH TectiaTM Server (Unix) (previously SSH Secure Shell for Servers) 
+* SSH TectiaTM Server (Windows) (previously SSH Secure Shell for Windows Servers) 
+As a part of the SSH Tectia solution, we have also announced a new transparent desktop security product called SSH TectiaTM Connector, which is based on the original Secure Shell technology. Due to the fact that the new SSH Tectia solution has been developed to best suit the needs of large enterprises, governmental organizations and financial institutions, non-commercial versions of SSH Tectia solution is not available. SSH Tectia client / server solution will be available for non-commercial use with discounts on list prices. For more information on new products and discounts for non-commercial use, please contact SSH sales representative for any sales related questions or submit an inquiry at http://www.ssh.com/company/sales/inquiry.mpl. You can still download the SSH Secure Shell 3.2 non-commercial source code and Windows Client free of charge from various anonymous ftp sites around the globe for purposes of EVALUATION, NON-COMMERCIAL USE, AND UNIVERSITY USE as defined in the license agreement. Please note that the non-commercial version has limited functionality. For an evaluation of full functionality, please download the SSH Tectia client / server solution commercial evaluation version. Non-commercial license agreement for SSH Secure Shell for Workstations ftp://ftp.ssh.com/pub/ssh/ Australia ftp://ftp.wiretapped.net/pub/security/cryptography/apps/ssh/SSH/ http://the.wiretapped.net/security/cryptography/apps/ssh/SSH/ ftp://mirror.aarnet.edu.au/pub/ssh/ Austria ftp://gd.tuwien.ac.at/utils/shells/ssh/ Belgium ftp://gaosu.rave.org/pub/ssh Estonia ftp://ftp.ut.ee/pub/unix/security/ssh/ Finland ftp://ftp.funet.fi/pub/mirrors/ftp.ssh.com France ftp://ftp.crihan.fr/mirrors/ftp.ssh.com/ http://ftp.crihan.fr/mirrors/ftp.ssh.com/ Germany ftp://ftp.cert.dfn.de/pub/tools/net/ssh/ Greece ftp://ftp.ntua.gr/pub/security/ssh ftp://ftp.ntua.gr/mirror/ssh Italy ftp://ftp.unina.it/pub/Unix/ssh ftp://ftp.antifork.org/pub/ssh/ Japan ftp://ftp.win.ne.jp/pub/network/security/ssh/ ftp://core.ring.gr.jp/pub/net/ssh/ http://core.ring.gr.jp/archives/net/ssh/ ftp://ftp.ring.gr.jp/pub/net/ssh/ http://www.ring.gr.jp/archives/net/ssh/ ftp://ftp.ayamura.org/pub/ssh/ Korea ftp://linux.sarang.net/mirror/network/daemon/security/ssh/ ftp://ftp.sogang.ac.kr/pub/ssh Mexico ftp://mirrors.unam.mx/pub/ssh/ The Netherlands ftp://ftp.calyx.nl/pub/ssh/ Poland ftp://giswitch.sggw.waw.pl/pub/ssh ftp://ftp.wsisiz.edu.pl/pub/Unix/ssh Portugal ftp://ftp.dei.uc.pt/pub/ssh ftp://ftp.up.pt/pub/ssh/ Republic of Korea ftp://ftp.kreonet.re.kr/pub/security/ssh/ Spain ftp://ftp.cica.es/mirrors/ssh Turkey ftp://ftp.ulak.net.tr/ssh/ USA ftp://metalab.unc.edu/pub/packages/security/ssh ftp://ftp.in-span.net/pub/mirrors/ftp.ssh.com/ ftp://mirror.chpc.utah.edu/pub/ssh ftp://ftp.keystealth.org/pub/ssh ftp://ftp.epix.net/pub/ssh/ ftp://mirror.pa.msu.edu/ssh/ 	
+ 		
+
+Home   |    Company   |    Products   |    Solutions   |    Support   |    Partners   |    Investors   ||    Feedback   		
+Copyright © 2004 SSH Communications Security. Read our legal notice and privacy policy. 		
+ 

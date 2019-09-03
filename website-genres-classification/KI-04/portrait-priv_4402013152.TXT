@@ -1,0 +1,161 @@
+
+
+Roman Rudolf Liedl
+
+Professor of Mathematics
+Institut fuer Mathematik
+Technikerstrasse 25
+A-6020 Innsbruck
+Austria
+ 
+---------------------------------------------------------------------
+
+Fields of interest
+
+System Theory, Walshfunctions, Differentialequations, Pilgrim-Step-Transformation, Logic, Geometry, Didactics, Theory of Harmony of Colours, Artificial Intelligence, Rational Aesthetics, Vision Science, Computer Vision
+
+---------------------------------------------------------------------
+
+ENGLISH 
+
+Buecher:
+
+Analysis in einer Variablen.
+
+Koautor: Kristian Kuhnert
+
+Dieses einfuehrende Werk wurde von einer langjaehrigen Erfahrung in Hochschullehre und Industriemathematik inspiriert. Es versucht die Synthese zwischen moderner Exaktheit und praktischer Anwendbarkeit schon in den Anfangsgruenden des Studiums der Mathematik zu verwirklichen. Die ausfuehrliche Argumentation soll nicht zuletzt dem Anwender der Mathematik ein schnelleres Erlernen des Stoffes ermoeglichen. Die Behandlung verschiedener Standpunkte zu einem Thema entspricht den Beduerfnissen des Lehrers an den hoeheren Schulen. 
+
+Die Pracht der Farben 
+A Theory of Harmony of Colours: Eine Harmonielehre fuer Maler, Buehnenbildner, Webegraphiker, Computerkuenstler, 
+fuer das Farb-Design in der Industrie, 
+fuer Computerpraesentationstechniken, Computeranimationen, Visualisierungen beim CAD, Computermalprogramme, Farbmisch- und Farbkompositionsalgorithmen, 
+fuer die Farbfotografie und den Farbfilm, die elektronische Bildverarbeitung, die Bildnachbearbeitung und
+fuer die kuenstliche Intelligenz und das automatische Farbdesign.
+Mit Bildbeispielen (landscape pictures) von 
+Siegfried Norbert Amerstorfer. Bibliographisches Institut, Wissenschaftsverlag Mannheim -jetzt Spektrum Verlag Heidelberg 291 Seiten. ISBN 3-411-1-16691-6 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Foto (Bild: Roman R. Liedl 1996) 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Click here for copyright information. 
+
+---------------------------------------------------------------------
+In einem mathematisch theoretischen Schlussteil der Monographie "Die Pracht der Farben" wird die sogenannte "chromatische Spiegelung" eingefuehrt: 
+
+In Analogie zur Transposition in der Musik (welche die Noten eine Musikstueckes in regelhafter Weise abaendert, ohne dabei das Musikstueck wesentlich zu veraendern), aendert die chromatische Spiegelung die Farben eines Gemaeldes in regelhafter Weise ab, ohne die Farbharmonie des Gemaeldes wesentlich zu veraendern. 
+So wie das Transponieren der Noten die Intervalle zwischen den Noten unveraendert laesst, veraendert die chromatische Spiegelung die "Kontrastintervalle" zwischen den Farben nicht. Die Kontrastintervalle bei den Farben beziehen sich auf
+1. Helligkeitunterschiede von Farben,
+2. Winkelunterschiede von Farben am Farbkreis,
+3. Saettigungsunterschiede von Farben. 
+
+Fuer Nicht-Mathematiker und Nicht-Physiker: 
+
+Lesen Sie bitte beim uebernaechsten Punkt "Kunstwissenschaftlicher Wert der chromatischen Spiegelung" weiter. 
+
+Fuer Mathematiker oder Physiker: 
+
+Wegen der Dreidimensionalitaet des psychologischen Farbraumes bestimmen die Helligkeitsunterschiede, die Winkelunterschiede und die Saettigungsunterschiede der Farben ein Bild bis auf eine nicht triviale Isometrie des Farbraumes auf sich selbst, welche eben die chromatische Spiegelung von Bilder induziert. 
+Die Entsprechung von "Transposition bei Tonwerken" und "chromatischer Spiegelung bei Bildern" ist essentiell. 
+
+Kunstwissenschaftlicher Wert der chromatischen Spiegelung: 
+
+1.Durch die chromatische Spiegelung werden aus gegebenen Bildern keine neuen Kunstwerke geschaffen (so wie durch Transponieren auch keine neuen Tonwerke geschaffen werden). 
+2.Bei der chromatischen Spiegelung koennen aber spezifische Eigenschaften einzelner Farben erkannt werden, welche sich z.B. auf die Tiefenwirkung, Temperaturwirkung und (oder) persoenlich individuellen Farbwirkungen durch Assoziation projizieren. 
+3.Die chromatische Spiegelung taugt zur kunsttheoretischen Analyse von Bildwerken. 
+Beispiel:
+Nehmen Sie sich die Zeit, und betrachten Sie die chromatischen Spiegelungen einiger Bilder von Cezanne. Man koennte oberflaechlich der Meinung sein, dass sich die farbliche Wirkung der Bilder von Cezanne hauptsaechlich durch die Gegenueberstellung von warmen und kalten Farben ergibt. Die chromatische Spiegelung hebt solche Temperatureffekte aber auf. Da die chromatisch gespiegelten Bilder von Cezanne dabei nichts von ihrere Schoenheit verlieren, ist zu schliessen, dass Cezanne auch bezueglich der Wahl seiner Farben sehr konstruktiv ueberlegend vorgegangen ist. 
+---------------------------------------------------------------------
+
+30 Bilder von Paul Cezanne chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+4 Bilder von Gustav Klimt chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+3 Bilder von Paul Gauguin chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+8 Bilder von Georges Seurat chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+8 Bilder von Auguste Renoir chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Alte Meister chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Autonome Farbharmonie (Ilse Abka-Prandstetter). 
+---------------------------------------------------------------------
+
+Ein moderner Colorist (Michael Betancourt) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Ein Computerkuenstler (David Bloom) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Die Schoenheit der Fraktale (Brian Evans) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Aussergewoehnliche Farbgebung (Mike Levin) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Kuenstler mit Deuteranomalie=Gruenschwaeche (Joerg Klima) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Historische Spielkarten chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+Malerei von Kindern (Projekt Z4 TU Graz Architektur 1995) chromatisch gespiegelt. 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Die chromatische Spiegelung (=chromatic involution)
+
+Tutorium 
+---------------------------------------------------------------------
+
+Farbharmonie-Theorie
+
+Tutorium 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Namen und Gesichter in der Naturwissenschaftlichen Fakultaet 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Alle Jahre wieder 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Tel.:(++43)-512-507-6070 Fax: (++43)-512-507-2920 e-mail: Roman.Liedl@uibk.ac.at 
+---------------------------------------------------------------------
+Sie sind hier der . Besucher seit dem 8.Oktober 1998. 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+

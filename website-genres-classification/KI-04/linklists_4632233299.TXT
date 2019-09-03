@@ -1,0 +1,130 @@
+
+
+Object-Oriented Language : Tcl/Tk
+
+---------------------------------------------------------------------
+Intro 
+"Tcl stands for Tool Command Language. Tcl is really two things: a scripting language, and an interpreter for that language that is designed to be easy to embed into your application. Tcl and its associated graphical user interface toolkit, Tk, were designed and crafted by Professor John Ousterhout of the University of California, Berkeley. You can find these packages on the Internet and use them freely in your application, even if it is commercial. The Tcl interpreter has been ported from UNIX to DOS, Windows, OS/2, NT, and Macintosh environments. The Tk toolkit has been ported from the X window system to Windows and Macintosh. There are many Tcl extensions freely available on the Internet. Most extensions include a C library that provides some new functionality, and a Tcl interface to the library. Examples include database access, telephone control, MIDI controller access, and expect, which adds Tcl commands to control interactive programs. The most notable extension is Tk, a toolkit for graphical user interfaces. Tk defines Tcl commands that let you create and manipulate user interface widgets." (Brent Welch) "[incr Tcl] provides the extra language support needed to build large Tcl/Tk applications. It introduces the notion of objects, which act as building blocks for an application. Each object is a bag of data with a set of procedures or "methods" that are used to manipulate it. Objects are organized into "classes" with identical characteristics, and classes can inherit functionality from one another. This object-oriented paradigm adds another level of organization on top of the basic variable/procedure elements, and the resulting code is easier to understand and maintain." (WebNet Technologies) 
+Contents 
+Start here Examples Demos Fun Central Sites Related Sites Link Collections Search Tutorials FAQs Glossaries Support References Standards General Newsgroups National Newsgroups Forums Mailing Lists General Articles Special Articles Interoperability Books Magazines Other Publications Organizations Projects People Conferences / Workshops Development Environments Compilers / Interpreters GUIs Databases ORBs Other Software FTP Archives 
+Other pages 
+Java... CORBA... Languages 
+
+---------------------------------------------------------------------
+Start here 
+An Introduction to Tcl Syntax (Scriptics) Beginning Tcl (The Tcl'ers Wiki) History of Scripting (Scriptics) History of Tcl (Scriptics) [incr Tcl] (Bell Labs) Ousterhout wins ACM award for Tcl (Scriptics) System Programming or Scripting? (Scriptics) Tcl: A Platform for Integration Applications (Scriptics) Tcl Primer (Scriptics) Tcl/Tk's John Ousterhout (Songline Studios) Tcl Year 2000 Compliance (Scriptics) The Tcl Consortium Introduces "Tcl Blast!" (Scriptics) What is Tcl? (The Tcl'ers Wiki) What is Tk (The Tcl'ers Wiki) Why Use Tcl? (Scriptics) New Features Interest Survey (Scriptics) 
+Examples 
+A "Hello, World" in Tcl/Tk (A. Lehmkuhl) Drag-N-Drop Example (The Tcl'ers Wiki) Example Fragments of Tcl Source (Cameron Laird) SCO Visual Tcl Example Library (SCO) Show me an example (The Tcl'ers Wiki) Tcl Code Fragments (? Hops) The Hello World program as implemented in Tcl/Tk (The Tcl'ers Wiki) Tk Code Fragments (? Hops) 
+Demos 
+Demos For The Tcl Plugin (Scriptics) Photo Gallery! Pictures of Real Tcl/Tk Applications (Lick Observatory) Tcl Plug-in Demos for Netscape Navigator (Entropy Liberation Front) Visual Tcl Application Snap Shots (Stewart Allen) 
+Fun 
+A Tcl-Wear Chronology (Tom Poindexter) Hello World! (ACM) Tcl Programming Contest (Scriptics) 99 Bottles of Beer (Tim Robinson) 
+Central Sites 
+Scriptics - The Tcl Platform Company (Scriptics) Tcl/Tk Information (WebNet Technologies) TCL WWW Info (SCO) 
+Related Sites 
+Graphical Applications with Tcl and Tk (Eric Johnson) Identifier Collaboration Service (NIST) Molecular Tcl (Thomas Sicheritz) Tcl (open source IT) Tcl/Tk Resource Center (Unifix) Tcl/Tk Resources (Wade Holst) Tcl Resources à la Jeff (Jeff Hobbs) Tcl Server Pages (ServerPages.com) Tcl-URL! Archive (Jean-Claude Wippler et al.) Tcl-Url! Archives (Scriptics) The cgi.tcl Home Page (Don Libes) The Tcl'ers Wiki (Jean-Claude Wippler) Welcome to comp.lang.tcl (Andreas Kupries) 
+Link Collections 
+Advanced Tcl (The Tcl'ers Wiki) Dirty Dozen (The Tcl'ers Wiki) General Tcl/Tk References (Cameron Laird) Internet Resources (Larry W. Virden) Open Directory TCL (EarthWeb) Tcl and Tk (Bertrand Ibrahim) Tcl Resource Center Site Map (Scriptics) Tcl/Tk (Brad Appleton) TCL/TK (Eunice Project) TCL/TK (Links2Go) Tcl and Tk (Eric Foster-Johnson) Tcl/Tk References of Interest (Cameron Laird) Tcl-URL! (Cameron Laird) Web Sites (Scriptics) YAHOO I YAHOO II YAHOO III YAHOO IV 
+Search 
+Searching and bookmarking URLs on the Tcl'ers Wiki (The Tcl'ers Wiki) Tcl/Tk Resources (Unifix) 
+Tutorials 
+Personal notes on online Tcl tutorials (Cameron Laird's) Tcl/Tk Information (Robert Hill) TCL : Tutorials (EarthWeb) Tutorials (Unifix) A Tcl/Tk and Expect Tutorial (Will Morse) Expect - A Tool for Regression Testing Interactions (Dennis Butler's) How to Compile Executables With GCC That Include the Tcl and Tk Libraries (George Peter Staplin) HOWTO make a Statically Linked Tcl extension (Hops) How to use extensions in Tcl (Jean-Claude Wippler) How to use Tcl/Tk in Multimedia Applications for X (George Peter Staplin) How To Write Tclets (?) Tcl and Java Programming: Practice and Pitfalls (John Reekie) Tcl Overview (DejaGnu) Tcl/Tk Cookbook (Lakshmi Sastry & Venkat VSS Sastry) Tcl/Tk Course (E.J. Friedman-Hill) Tcl/Tk For Programmers (J Adrian Zimmer) TclTutor (Clif Flynts) 
+FAQs 
+comp.lang.tcl FAQ Launch Page (Larry W. Virden) FAQ (Scriptics) Japanized Documents (Taguchi Takeshi) Tcl/Tk FAQs (Unifix) comp.lang.tcl FAQ; Part 1: Introduction (Larry W. Virden) comp.lang.tcl FAQ; Part 2: Internet Resources (Larry W. Virden) comp.lang.tcl FAQ; Part 3: Miscellaneous Tcl-based Items (Larry W. Virden) comp.lang.tcl FAQ; Part 4: Tcl-based Programs (Larry W. Virden) comp.lang.tcl FAQ; Part 5: Tcl-based Extensions (Larry W. Virden) comp.lang.tcl Tcl/Tk Bibliography FAQ (Glenn Vanderburg) comp.lang.tcl Tcl/Tk Commercial Uses FAQ (Gerald W. Lester) comp.lang.tcl Tcl Language Usage FAQ (Joe Moss) comp.lang.tcl Tk Language Usage FAQ (Jeffrey Hobbs) comp.lang.tcl Tcl/Tk on Windows FAQ (Eric Foster-Johnson) Expect FAQ (Don Libes) [incr Tcl] FAQ (?) Mac Tk FAQs (Scriptics) Tcl Plugin FAQs (Scriptics) Tix FAQs (?) Frequently Made Mistakes in Tcl (Cameron Laird's notes) "How To" Guide (Scriptics) The Linux Tcl and Tk HOWTO (Luca Rossetti) 
+Glossaries 
+Acronym collection (The Tcl'ers Wiki) Glossary of terms (The Tcl'ers Wiki) 
+Support 
+Technical Support Center (Scriptics) The Jumbo Tcl Page (Alexandre Ferrieux) 
+References 
+Manual Pages (Scriptics) Tcl/Tk Keywords (Sun Microsystems et al.) Tcl/Tk Manual Pages (Scriptics) Tcl/Tk Quick Reference Guide (Paul Raines) 
+Standards 
+A Tcl Style Guide (Tom Tromey (tromey@drip.colorado.edu) Tcl Style Guide (Scriptics) Tk/TCL style guide (Joe VanAndel) 
+General Newsgroups 
+News Groups and Mailing Lists (Scriptics) comp.lang.tcl comp.lang.tcl Resources (PHOAKS) comp.lang.tcl Archive (Kazuro Furukawa & Shiro Kusan) comp.lang.tcl.announce comp.lang.tcl.announce Resources (PHOAKS) comp.lang.tcl.announce Archive (FindMail) comp.sys.mac.oop.tcl Deja News (Deja News) EarthWeb Discussions (EarthWeb)
+ EarthWeb Discussions (EarthWeb) EarthWeb Discussions: comp.lang.tcl (EarthWeb) 
+Reference.COM (InReference) 
+National Newsgroups 
+fj.lang.tcl fr.comp.lang.tcl 
+Forums 
+Tcl-Url! (Scriptics) Yahoo! Clubs tclandrelatedextensions (Yahoo!) 
+Mailing Lists 
+Tcl-related Mailing Lists (Cameron Laird) [incr Tcl] Mailing List (WebNet Technologies) tcl_announce Mailing List (FindMail) Visual Tcl Mailing List (Neuron.com) 
+General Articles 
+Articles Collections
+ Tcl and Scripting (Scriptics) White Papers (Scriptics) White Papers (Scriptics) 
+Comparisons
+ Tcl/Tk Comparison with other languages (Unifix) Choosing a Scripting Language (Sunworld Online) Comparison of Tcl and Python (Sjoerd Mullender) Comparisons of ICE Tcl with other Systems (Wayne Christopher) GUI toolkits: What are your options? (Cameron Laird and Kathryn Soraiz) Plenty of headroom left for Perl (SunWorld) Scripting: Higher-level Programming for Component-based Systems (Jean-Guy Schneider and Oscar Nierstrasz) Scripting the BeOS (BYTE) Why Tcl is better than Perl (Scriptics) 
+Others
+ Innovations Interviews Mark Harrison and Michael McLennan on Tcl/Tk Programming (Addison Wesley Longman) Is Tcl Different! (The Tcl'ers Wiki) OO Programming with Tcl/Tk (Ralf Lübeck) PosiTcl (The Tcl'ers Wiki) Scripting: Higher Level Programming for the 21st Century (John K. Ousterhout) Summary of Major Changes in Tcl/Tk 8.0 (? Hops) Tcl/Tk Testimonials (Sun Microsystems) Tcl's inventor leaves Sun to form start-up (SunWorld Online) Tickled pink by Ousterhout (EarthWeb) 
+
+Special Articles 
+An Introduction To Pthreads-Tcl (Richard Hipp) Are VHLLs Really High-Level? (O'Reilly) A Typing System for an Optimizing Multiple-Backend Tcl Compiler (ICEM CFD Engineering) Building Extentions on Windows (Scriptics) Building Tcl extensions (The Tcl'ers Wiki) Drag and Drop (The Tcl'ers Wiki) How can I do math in Tcl (The Tcl'ers Wiki) How to Compile Tcl (Scriptics) How to Use Tcl 8.1 Internationalization Features (Scriptics) How to Use the Tcl Stubs Library (Scriptics) How to write a transformation (A. Kupries) (channel) Implementing the SMS server, or why I switched from Tcl to Python (Frank Stajano) Integrating Tcl with the NT Shell (Nat Pryce) Introspection package (The Tcl'ers Wiki) Invoking browsers (The Tcl'ers Wiki) New Regular Expression Features in Tcl 8.1 (Scriptics) Notes on Tcl-savvy Web Servers (Cameron Laird) Patterns for Scripted Applications (Nat Pryce) Personal notes on scripting for Web applications (Cameron Laird) Practical Guide to Choosing Fonts (The Tcl'ers Wiki) Stubs (The Tcl'ers Wiki) Tcl Built-In Commands - re_syntax manual page (Scriptics et al.) Tcl data types (The Tcl'ers Wiki) Tcl Extension Architecture: Overview and Requirements (Scriptics) Tcl Performance (The Tcl'ers Wiki) Tcl Threading Model (Scriptics) Tcl Year 2000 Compliance (Scriptics) The Tcl Web Server (Steve Ball) Will's Guide To Creating Object Commands (William H. Duquette) Will's Guide to Success with Tcl 8.0 Namespaces and Packages (Will Duquette) 
+Interoperability 
+Tcl/Tk and COM
+ DLL Win32/LinuxELF - DLL Caller Package (Robin Becker) AxTcl / TclOCX (black box software consulting) OpTcl (Farzad Pezeshkpour) 
+Tcl/Tk and Java
+ Feather (Alden Dima) Notes on Jacl and Tcl Blend (Cameron Laird) Sun releases scripting technology for Java (SunWorld Online) Tcl Blend (Christopher Hylands) Tcl Blend makes for better Java (EarthWeb) Tcl + Java = A match made for scripting (sunworld) Tcl & Java Integration / Jacl & Tcl Blend (Scriptics) Tcl & Java 1.2 Integration Manual (Sun Microsystems) 
+Tcl/Tk and XML
+ Tcl and the DOM (Zveno) TclXML (Zveno) The Tcl XML Documentation Project (Hwaci) 
+Tcl/Tk and other languages
+ Adatcl: Access to Tcl thru Ada (Dennis Heimbigner) Creating Your Own Tcl Interpreter in C (Eric Foster-Johnson) Notes on how to use C with Tcl (Cameron Laird) Mktclapp - A Tool For Mixing C/C++ with Tcl/Tk (?) ProTcXl - the Prolog Interface to Tcl/Tk and Xlib (Micha Meier) SWIG (Simplified Wrapper and Interface Generator) Tcl Ada Shell: An Ada 95 Binding to Tcl/Tk (Terry Westley) Tclobj - Using C++ Objects with Tcl (Frank Pilhofer) Tcl Scripting Language Components for Borland's Delphitm 32 bit RADical Tools (William Byrne) The Perl/Tk Module List (Achim Bohnet) 
+Tcl/Tk and WWW
+ Tcl Plugin (Scriptics) 
+
+Books 
+Books (Scriptics) Books (Unifix) Where can I find a book about Tcl (The Tcl'ers Wiki) Effective Tcl/Tk Programming (Mark Harrison, Michael McLennan) Graphical Applications with Tcl and Tk (Eric Foster-Johnson) Practical Programming in Tcl and Tk (Brent Welch) Tcl and the Tk Toolkit (John Ousterhout) Tcl/Tk For Dummies (Tim Webster & Alex Francis) Tcl/Tk For Programmers (J. Adrian Zimmer) Tcl/Tk for Real Programmers (Clif Flynt) Tcl/Tk Pocket Reference (Paul Raines) Tcl/Tk Tools (Mark Harrison) Tcl/Tk Unleashed (Red Hat Press) The Visual Tcl Handbook (David H. Young) Web Tcl Complete (Stephen Ball) 
+Magazines 
+Tcl/Tk Journal (Stoian Jekov) 
+Other Publications 
+Tcl/Tk for Real Programmers CD ROM (Clif Flynt) 
+Organizations 
+What you need to know about the new Tcl/Tk Consortium (SunWorld Online)
+ What you need to know about the new Tcl/Tk Consortium (SunWorld Online) 
+Dallas Area Tcl/Tk Users Group 
+Projects 
+MacTcl Miscellany (Mark Roseman) Project E.L.M.O. (?) Tcl community projects (The Tcl'ers Wiki) Tcl/Tk Documentation Project / TTDP (The Tcl'ers Wiki) The Macintosh Tcl/Tk Project (Scriptics) The Smaller Tcl Project (Zach Frey) Various Tcl related projects and their contacts (Larry W. Virden) 
+People 
+People (Scriptics) Tcl'ers (The Tcl'ers Wiki) Ray Johnson Don Libes John K. Ousterhout Larry Wayne Virden Brent Welch 
+Conferences / Workshops 
+Events (Scriptics) Tcl/Tk Conferences and Workshops (USENIX) European Tcl/Tk User Meeting: 2000 Tcl/Tk Conference 2000 (USENIX) Tcl/Tk Conference 1999 Tcl/Tk Conference 1998 Tcl/Tk WorkShop 1997
+ Tcl/Tk WorkShop 1997 Index to the Fifth Tcl/Tk Workshop (Cameron Laird's) 
+Tcl/Tk WorkShop 1996 Tcl/Tk WorkShop 1995
+ Tcl/Tk WorkShop 1995 Frank and Rob's Notes (Olivetti Research) 
+Tcl/Tk WorkShop 1994 Tcl/Tk WorkShop 1993 Tcl Extension Architecture Summit (Scriptics) (TEA) 
+Development Environments 
+ASED Tcl/Tk IDE   (Andreas Sievers) Myrmeco   (Neatware) SCO Visual Tcl   (SCO) TclPro
+ TclPro (Scriptics) A Balancing Act: Scriptics Introduces Commercial Products for Tcl (Web-Vantage) Commercial Version Of Tcl Adds Tools, Extensions (CMP Media) TclPro tools speed up testing, ease debugging (InfoWorld Media Group) TclPro Evaluation (Scriptics) 
+Visual Tcl   (Neuron.com) 
+Compilers / Interpreters 
+The Free Compilers List (University of Geneva) NeoTcl (Neosoft) Notes on Tcl Compilers (Cameron Laird) Notes on tcl2c (Cameron Laird) The ICE Tcl/Tk Distribution (ICEM CFD Engineering) TinyTcl (Jean-Claude Wippler) 
+GUIs 
+BLT (Bell Labs) BWidget Toolkit (Unifix) Dashed and Stippled outlines in Tk (Jan Nijtmans) [incr Tk] (Bell Labs) [incr Widgets] (Bell Labs) scwoop: Simple Composite Widget Object Oriented Package (Jean-Luc Fontaine) The Expect Home Page (Don Libes) VisualGIPSY (Patzschke + Rasp Software) XF / Semi-Official Support page (Dennis R. LaBelle) 
+Databases 
+MetaKit for Tcl (Jean-Claude Wippler) Oratcl: Interface to Oracle (Tom Poindexter) Sybtcl: Interface to Sybase (Tom Poindexter) 
+ORBs 
+CORBA Scripting Language RFP (OMG) Tcl Dynamic Invocation Interface (CERC) Tcliop - Tcl/Tk scripting for CORBA (George Almási) 
+Other Software 
+Software Collections
+ Catalog of Miscellaneous Tcl-based Items (Larry W. Virden) Catalog of Tcl-based Extensions (Larry W. Virden) Catalog of Tcl-based Programs (Larry W. Virden) Free Tools (CurveSoft) Java and Tcl (Scriptics) Notes on Commercial Aspects of Tcl (Cameron Laird) Tcl extensions (freshmeat.net / Patrick Lenz) Tcl/Tk Extensions (The Tcl'ers Wiki) Tcl Resource Center: software (Scriptics) Tcl/Tk Applications: View by Name (Wade Holst) Tcl/Tk Applications: View by Subject (Wade Holst) Tcl/Tk Extensions (Scriptics) Tcl/Tk Extensions & Information Page (Michael I Schwartz) Tcl/Tk Resources (J.M. Ivler) Tcl/Tk Tools (Scriptics) The Tcl Blast! CD-ROM (Scriptics) Tk Widgets (Scriptics) 
+Object Systems Extensions
+ software.extensions.objects (Scriptics) Object Oriented Tcl/Tk (Unifix) ClassyTcl (Peter De Rijk) Extending Tcl for Dynamic Object-Oriented Programming (D. Wetherall & C. J. Lindblad) [incr Tcl] (Michael J. McLennan) jTcl: Java-like Syntax in Tcl (Fridu) Pacco -- Pavia's Active Component Compound Objects (University of Pavia) OTcl - MIT Object Tcl (David Wetherall) stooop / Simple Tcl Only Object Oriented Programming (Jean-Luc Fontaine) Tcl++ : tcl-only [incr Tcl] clone (Matt Newman) Tclpp Home Page (Stefan Sinnige) Tclpp : An Object Oriented Extension To Tcl (Stefan Sinnige) Tea:An oo environment for Tcl (John Stump) TOS (Renaud Pawlak) (for Tcl Object System) 
+Other Software
+ AutoDOC (Andreas Kupries) BSF - Bean Scripting Framework (IBM) BWidget Toolkit (Unifix) ExtraL - extra commands for Tcl (Peter De Rijk) Fmail (Andreas Kupries) Framesets (Cris Fugate) freeDelivery (Dennis LaBelle) Freewrap (Dennis LaBelle) GroupKit (Mark Roseman) Image Processing with XBit (Chengye Mao) Img Homepage (Jan Nijtmans) Jacl & Tcl Blend (Scriptics) MetaKit for TCL (Equi4 Software) Mktclapp - A Tool For Mixing C/C++ with Tcl/Tk (drh) NeoWebScript (NeoSoft) Plume: A WWW Browser (Steve Ball) Scotty - Tcl Extensions for Network Management Applications (Jürgen Schönwälder) Tcl-DP (Cornell University) Tcl Integer Command - integer (WEBSCOOL) Tcl Plugin (Scriptics) Tcl Scripting Language Components (William Byrne) Tcl Web Server (Scriptics) TclX: Extended Tcl (Karl Lehenbauer & Mark Diekhans) The cgi.tcl Home Page (Don Libes) The Ged Tcl/Tk programming editor (George Peter Staplin) The Snack Sound Extension for Tcl/Tk (Kåre Sjölander) The Visualization Toolkit (Will Schroeder et al.) TIX Mega Widgets (Gregg Squires) (Tk Interface eXtention) tkAbout (Taro Fukunaga) TkDesk (Christian Bolik) TkDiff (John Klassa) tkWorld (Wes Bailey) Trf (Andreas Kupries et al.) Trfcrypt (Andreas Kupries) Wrap: Standalone executables with Tcl/Tk (Jan Nijtmans) XOTcl - Extended OTcl (Universität GH Essen) 
+
+FTP Archives 
+The Tcl/Tk Core (Scriptics)
+ The Tcl/Tk Core (Scriptics) Tcl 8.1 and Tk 8.1 (Scriptics) Tcl 8.0 and Tk 8.0 (Scriptics) Patches (Scriptics) 
+FTP Archive (Columbia University) FTP Archive (Scriptics) FTP Archive (University of Geneva) FTP Archive Tcl Source Code (Sun Microsystems Laboratories) NeoSoft FTP Archive (NeoSoft) NetCVS Open Source Repositories (Scriptics) Tcl Archive (Donal K. Fellows) Tclet Archive (WebNet Technologies) Tcl/Tk Archive (CodeArchive.com) Tcl/Tk Archives (Mumit Khan) The Official Tcl/Tk Contributed Sources Archive (NeoSoft) 
+
+---------------------------------------------------------------------
+Home  Mirrors/Hosts  What´s New?  Most Wanted  About Cetus  Cetus Team  Legal Download  Suggest  Moved/Broken  Feedback  URL-Minder  Link to Cetus 
+
+---------------------------------------------------------------------
+
+Search www.cetus-links.org	 
+Any	 	  Extended Search 	
+
+---------------------------------------------------------------------
+Copyright © 1996-2002 by Cetus Team Page maintained by Cetus Team [Become Editor For This Page ] Last revision: 2002-Jun-27 09:15:30 (GMT) 
+---------------------------------------------------------------------
+

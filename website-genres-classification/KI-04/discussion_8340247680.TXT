@@ -1,0 +1,196 @@
+Articles Forums Contents • Home • News • Reviews • Editorials • Daily Column • Forums • Community • About Us • Policies Latest News • XPC Zen, Shuttle redefines small form factor platform • Asus Introduces A7N8X-E motherboard with Wi-Fi and Gigabit LAN • Intel Introduces Pentium 4 Extreme Edition • SiS Introduces R659 Quad Channel RDRAM Chipset • Club-3D Joins XGI as Major European Manufacturing Partner • FSC America Introduces Environmentally Sound Motherboards • ASUS Debuts Graphics Cards Powered by ATI RADEON Latest Topics • Building new computer, need some input • Iwill DCA200 Dual PIII xeon • Intel E7205 chipset device failure • SXS.DLL: syntax error in manifest or policy file • A7N8X deluxe emitting weird high pitch sound! Please help! • Half-Life issues. Please help! • HELP!!! ASUS A7N266-VM More >> Advertisement Article Spotlights Popular Articles You Are Here: / Home / Community / Forums / Software / Windows XP Boot Problem Author Date Posted Tools Jai Kin Nov 27, 2003, 05:43 PM Send Message - User Profile - Add Buddy I have a HDD that whenever I try to boot, I get the following error message. "We apologize for the inconvenience, but Windows did not start successfully. A recent hardware of software change migt have caused this. If your computer stopped responding, restarted unexpectedly, or was automatically shut down to protect your files anre folders, choose Last Known Good Configuration to revert to the most recent settings that worked. If a previous startup attempt was interrupted due to a power failure or because the Power or Reset bytton was pressed, or if you aren't sure what caused the problem, choose Start Windows Normally. Safe Mode Safe Mode with Networking Safe Mode with Command Prompt Last Known Good Configuration (your most recent settings that worked) Start Windows Normally Use the up and down arrow keys to move the hightlight to your choice" The probelmis, the keyboard always freezes at the point and then the boot fails (USB keyboard)' Any suggestions? Chris Green Dec 04, 2003, 06:14 AM Send Message - User Profile - Add Buddy Re: Windows XP Boot Problem The simplest solution to the keyboard locking up is to either get a PS/2 keyboard, or dig around until you find the USB -> PS/2 adapter that came with your keyboard, and try using that... But assumedly you've not got that possibility, so you need an operating system. What happens if you leave it? Doesn't it default to something after 30 seconds? If it defaults to Start Normally, then where's the problem?! Is this 9x? Try hitting F8 repeatedly on boot-up, to actually CALL that options screen, rather than have it automatically appear... That might help. Also, do your lights flash when you power-on? And are the USB ports on your motherboard, or on another card? Its possible that your USB ports don't even exist until Windows tells them to, which is why your keyboard won't work. Why do people have to change standards? What the hell was wrong with PS/2? It worked, it was standard, and as far as I know it has NEVER played up on me. I'm not complaining at you, just the inudstry... PS/1 was fine, but we had to go PS/2. PS/2 was fine, but we had to start putting USB plugs on the peripherals - who needs a keybard that can talk at 480Mbps, for Christ's sake!?! Post Edited On: Dec 04, 2003, 06:21 AM Ernesto Herrera Dec 07, 2003, 10:11 PM Send Message - User Profile - Add Buddy Re: Windows XP Boot Problem Im with you man... why in the hell should they put keyboard in USB? I mean the standard PS2 is the best, USB freezes etc... Ernesto Herrera Dec 07, 2003, 10:11 PM Send Message - User Profile - Add Buddy Re: Windows XP Boot Problem Im with you man... why in the hell should they put keyboard in USB? I mean the standard PS2 is the best, USB freezes etc... Post a Reply >> Advertisement Related Articles • 2003, the year in review, news and articles • Asus Introduces A7N8X-E motherboard with Wi-Fi and Gigabit LAN • Closing in on the holiday season • Home Theatre Projectors, Dell, InFocus and Sanyo • PCChips EZ-Watcher EZW-3060 Mini-PC • Intel Introduces Pentium 4 Extreme Edition • Monitor mass hysteria? Catalyze this! Newsletter A weekly newsletter featuring an editorial and a roundup of the latest articles, news and other interesting topics. Please enter your email address below and click Subscribe. About Us • Advertising • Disclaimer • Fair Use Policy • Privacy Policy • Who We Are • Link To Us • Syndicate (RDF) Copyright © 2001, 2002, 2003 Hardware Analysis • Hosted By Nxs Internet   -->         
+ Please register or login. There are 19 registered and 952 anonymous users currently online. Current bandwidth usage: 149.49 kbit/s 	 January 25 • 21:14 EST 	 
+
+}   if ( plugin ) {   document.write('');   document.write('');   document.write('');   document.write('');   document.write('"');   document.write('');   document.write('');   } else {   document.write('');  }  //-->   	   
+  	  
+  	  
+        
+   	    	     
+   	    
+   Articles Forums	       	    	    
+  	    
+ 	
+
+  Contents 	  	
+  	  
+     
+         
+   • 	    Home	     
+   • 	    News	     
+   • 	    Reviews	     
+   • 	    Editorials	     
+   • 	    Daily Column	     
+   • 	    Forums	     
+   • 	    Community	     
+   
+---------------------------------------------------------------------
+
+• 	    About Us	     
+   • 	    Policies	     
+
+ 	 
+ 	 	 	
+ 	 	 	
+
+  Latest News 	  	
+  	  
+     
+     
+• XPC Zen, Shuttle redefines small form factor platform	
+• Asus Introduces A7N8X-E motherboard with Wi-Fi and Gigabit LAN	
+• Intel Introduces Pentium 4 Extreme Edition	
+• SiS Introduces R659 Quad Channel RDRAM Chipset	
+• Club-3D Joins XGI as Major European Manufacturing Partner	
+• FSC America Introduces Environmentally Sound Motherboards	
+• ASUS Debuts Graphics Cards Powered by ATI RADEON		         
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Latest Topics 	  	
+  	  
+     
+     
+• Building new computer, need some input	
+• Iwill DCA200 Dual PIII xeon	
+• Intel E7205 chipset device failure	
+• SXS.DLL: syntax error in manifest or policy file	
+• A7N8X deluxe emitting weird high pitch sound! Please help!	
+• Half-Life issues. Please help!	
+• HELP!!! ASUS A7N266-VM		            
+     
+---------------------------------------------------------------------
+More >>	         
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Advertisement 	  	
+  	  
+     
+     	        
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Article Spotlights 	  	 	   Popular Articles 	  	
+  	  
+     
+     
+        
+     	     	        
+     	     	        
+      		        
+     	     	        
+     	     	        
+      		        
+     	     	        
+     	     	        
+      	
+
+ 	 
+ 	 	 	
+ 	 	 	
+
+  You Are Here: 	  	
+  	  
+     
+     / Home / Community / Forums / Software /	         
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Windows XP Boot Problem 	  	
+  	  
+     
+     
+  Author 	   Date Posted 	   Tools 	 
+
+Jai Kin	 Nov 27, 2003, 05:43 PM 	Send Message - User Profile - Add Buddy	 
+
+I have a HDD that whenever I try to boot, I get the following error message. "We apologize for the inconvenience, but Windows did not start successfully. A recent hardware of software change migt have caused this. If your computer stopped responding, restarted unexpectedly, or was automatically shut down to protect your files anre folders, choose Last Known Good Configuration to revert to the most recent settings that worked. If a previous startup attempt was interrupted due to a power failure or because the Power or Reset bytton was pressed, or if you aren't sure what caused the problem, choose Start Windows Normally. Safe Mode Safe Mode with Networking Safe Mode with Command Prompt Last Known Good Configuration (your most recent settings that worked) Start Windows Normally Use the up and down arrow keys to move the hightlight to your choice" The probelmis, the keyboard always freezes at the point and then the boot fails (USB keyboard)' Any suggestions? 
+
+Chris Green	 Dec 04, 2003, 06:14 AM 	Send Message - User Profile - Add Buddy	 
+
+Re: Windows XP Boot Problem	
+The simplest solution to the keyboard locking up is to either get a PS/2 keyboard, or dig around until you find the USB -> PS/2 adapter that came with your keyboard, and try using that... But assumedly you've not got that possibility, so you need an operating system. What happens if you leave it? Doesn't it default to something after 30 seconds? If it defaults to Start Normally, then where's the problem?! Is this 9x? Try hitting F8 repeatedly on boot-up, to actually CALL that options screen, rather than have it automatically appear... That might help. Also, do your lights flash when you power-on? And are the USB ports on your motherboard, or on another card? Its possible that your USB ports don't even exist until Windows tells them to, which is why your keyboard won't work. Why do people have to change standards? What the hell was wrong with PS/2? It worked, it was standard, and as far as I know it has NEVER played up on me. I'm not complaining at you, just the inudstry... PS/1 was fine, but we had to go PS/2. PS/2 was fine, but we had to start putting USB plugs on the peripherals - who needs a keybard that can talk at 480Mbps, for Christ's sake!?!
+
+Post Edited On: Dec 04, 2003, 06:21 AM 
+
+Ernesto Herrera	 Dec 07, 2003, 10:11 PM 	Send Message - User Profile - Add Buddy	 
+
+Re: Windows XP Boot Problem	
+Im with you man... why in the hell should they put keyboard in USB? I mean the standard PS2 is the best, USB freezes etc... 
+
+Ernesto Herrera	 Dec 07, 2003, 10:11 PM 	Send Message - User Profile - Add Buddy	 
+
+Re: Windows XP Boot Problem	
+Im with you man... why in the hell should they put keyboard in USB? I mean the standard PS2 is the best, USB freezes etc... 
+
+   	 
+
+Post a Reply >>	 
+
+ 	 
+ 	 	 	
+ 	 	 	
+
+  Advertisement 	  	
+  	  
+     
+     	        
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Related Articles 	  	
+  	  
+     
+          
+      • 2003, the year in review, news and articles	               
+      • Asus Introduces A7N8X-E motherboard with Wi-Fi and Gigabit LAN	               
+      • Closing in on the holiday season	               
+      • Home Theatre Projectors, Dell, InFocus and Sanyo	               
+      • PCChips EZ-Watcher EZW-3060 Mini-PC	               
+      • Intel Introduces Pentium 4 Extreme Edition	               
+      • Monitor mass hysteria? Catalyze this!	          	        
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  Newsletter 	  	
+  	  
+     
+           
+            A weekly newsletter featuring an editorial and a roundup of the latest articles, news and other interesting topics.    
+
+Please enter your email address below and click Subscribe.     
+        
+        
+          	        
+    	          
+   	        
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+  About Us 	  	
+  	  
+     
+             
+• Advertising	     
+• Disclaimer	     
+• Fair Use Policy	     
+• Privacy Policy	     
+• Who We Are	     
+• Link To Us	     
+• Syndicate (RDF)	     
+   	        
+ 	  	 
+ 	 	 	
+ 	 	 	
+
+ Copyright © 2001, 2002, 2003 Hardware Analysis • Hosted By Nxs Internet	    	 
+ 	
+
+

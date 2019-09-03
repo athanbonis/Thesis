@@ -1,0 +1,126 @@
+     function Validate_joinlistform (theForm)      {                  if (theForm.eMail )            {             if (theForm.eMail.value.length == 0 ||              theForm.eMail.value == "Â ")             {              alert ('Please define "Email"!');                            theForm.eMail.select();                                        theForm.eMail.focus();              return (false);             }            }                }     //
+
+Home	Altova	Sitemap	Language	
+
+Search	
+
+Home		Products		Download		Shop		Support		Developers		Services				
+
+Product Selection Guide				
+
+XMLSPY				
+
+MAPFORCE				
+
+STYLEVISION				
+
+AUTHENTIC				
+
+Documentation				
+
+Brochure				
+
+Components				
+
+Platforms				
+
+Software Archive				
+
+Release Notes				
+
+Industry Templates				
+
+Online Video Demos				
+
+Feature Comparison				
+
+Download the Next Generation of XML Tools!
+
+Altova offers a diverse product family of powerful, and easy-to-use XML tools which enable accelerated development and migration to the next generation of XML and Web Service applications.
+
+Altova has just published Release 3 of its new 2004 product line, which includes new features to update all our existing products, bug-fixes and enhancements, as well as an entirely new product - mapforceâ¢ 2004 - for advanced XML-to-XML and Database-to-XML mapping.
+
+xmlspyÂ®Â 2004 is the industry standard XML Development Environment for designing, editing and debugging enterprise-class applications involving XML, XML Schema, XSL/XSLT, SOAP, WSDL and Web Service technologies. It is the ultimate productivity enhancer for J2EE, .NET and database developers.
+
+xmlspyÂ®Â 2004 Enterprise EditionFor the enterprise-level XML developer, that needs the latest Web Service and database technologies.	
+
+xmlspyÂ®Â 2004 Professional EditionFor the professional developer working with XML, XSLT, and XML Schema.	
+
+xmlspyÂ®Â 2004 Home EditionFor the student, hobbyist, or casual XML user.	
+If you are looking for previous versions of xmlspyÂ®, please refer to our Software Archive.
+
+mapforceâ¢ 2004 is a new visual data mapping tool for advanced data integration projects. mapforceâ¢ 2004 auto-generates custom mapping code in Java, C++, C# or XSLT, to enable programmatic XML-to-XML or Database-to-XML data transformations. All transformations are available in one Design: multiple sources and multiple targets can be mixed without limitations, and a rich and extensible function library provides support for any kind of data manipulation.
+
+authenticâ¢Â 2004 is a standards-based, browser enabled document editor that allows business users to seamlessly capture ideas and information directly into an XML format, which are saved to any content management system, database, or XML repository, for later retrieval or transformation - unlocking corporate knowledge.
+
+authenticâ¢Â 2004 Desktop EditionWindows application for the heavy-duty XML document editing needs of the enterprise business user.	
+
+authenticâ¢Â 2004 Browser EditionBrowser plug-in that provides embedded XML document editing inside web pages.	
+
+stylevisionâ¢Â 2004 is the ultimate XML tool for Web developers. It provides powerful visual conversion utilities for painless migration of traditional HTML websites to advanced XML-based sites, that are in full compliance with new web standards: XML, XSLT & XML Schema, the technological foundation of all future web development. stylevisionâ¢Â 2004 also includes an XML Schema Editor and a graphical drag-and-drop interface for creating XSLT Stylesheets.
+
+Find out which version is right for you!Are you looking for a specific feature and unsure which version to download? - Check out the complete feature matrix, which lists all features available across the various products and editions in our entire product lineup.    
+
+Additional Downloads
+
+In addition to the product downloads above, we offer separate download sections for the following:	
+Documentation	
+Components	
+Software Archive	
+
+xmlspyÂ®Â 2004, mapforceâ¢ 2004, stylevisionâ¢Â 2004, and authenticâ¢Â 2004 are available primarily for the Windows platform and are supported on Windows 98, ME, NT, 2000, and XP. For information on running Altova products on other platforms (e.g. MacOS, Linux), please see our support section.
+
+If you wish to distribute the evaluation version within your company network, or if you plan to use it on a PC that is not connected to the Internet, you may only distribute the Setup programs provided that they are not being modified in any way.
+
+Download	
+
+Awards
+
+Evaluation information	
+
+Use this page to download your FREE 30-day evaluation version of our products. Test-drive the most powerful tools for Advanced XML Application Development.
+
+Once you have installed and registered your free evaluation copy, you will receive an e-mail message with your personalized evaluation key-code that unlocks the software. All features are fully enabled for a period of 30 days.
+
+Use of this site is governed by our   Terms & Conditions and Privacy PolicyÂ©Copyright 2004 Altova	
+
+Home	
+
+Altova	
+
+Sitemap	
+
+Search	
+
+Language	
+
+Contact Us	
+
+Management	
+
+Careers	
+
+Legal	
+
+Legal Overview	
+
+Terms of Use	
+
+Privacy Policy	
+
+EULA	
+
+Authentic EULA	
+
+Authentic DLA	
+
+Altova XSLT Engine DLA	
+
+English	
+
+Deutsch (German)	
+
+æ¥æ¬èªç (Japanese)	
+
+Preferences	
+ 

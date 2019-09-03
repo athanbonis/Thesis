@@ -1,0 +1,54 @@
+David Poole I am a Professor in the Department of Computer Science , University of British Columbia . I am a member of the Laboratory for Computational Intelligence and a principal investigator of IRIS , and a Fellow of the American Association for Artificial Intelligence. Research My main research interests are artificial intelligence, knowledge representation, reasoning under uncertainty, computational logic, diagnosis, probabilistic argumentation systems, reasoning about actions, decision theoretic planning, intelligent agents, and preference elicitation. In general, I am interested in the questions: What should an agent do based on its beliefs, abilities and preferences? How can we acquire and efficiently use information to make better decisions? I have an online research overview and a list of all of my papers (many are online), talks , and some code to play with. The research overview provides detailed information on Theorist , Probabilistic Reasoning , and Combining logic and probability. Books I am a coauthor of Computational Intelligence: A Logical Approach , Oxford University Press , 1998. This is a textbook introduction to Artificial Intelligence. We have a number of associated interactive learning tools in CIspace . I was coeditor of Proceedings of the Tenth Annual Conference on Uncertainty in Artificial Intelligence , Morgan Kaufmann , 1994. Teaching and Administrivia Students supervised . I am teaching CPSC111 - Introduction to Computation in the fall of 2003; CPSC422 - Intelligent Systems and CPSC522 - Reasoning and Action Under Uncertainty in the spring of 2004. I am an associate editor of Journal of Artificial Intelligence Research . Upcoming Conferences: AAAI-2004 , UAI-2004 , KR-2004 , NIPS . Reading groups: First-order probabilistic reasoning , user modelling . I have lots of Interesting Pointers . Contact Information Email: poole@cs.ubc.ca Phone: +1 (604) 822-6254 Fax: +1 (604) 822-5485 URL: http://www.cs.ubc.ca/spider/poole FTP: ftp://ftp.cs.ubc.ca/ftp/local/poole Address: Department of Computer Science , University of British Columbia , 2366 Main Mall, Vancouver , B.C. , Canada V6T 1Z4 accesses since 23 October 1996. Last updated 2002-01-13 - David Poole, poole@cs.ubc.ca   --> 
+
+David Poole 
+
+I am a Professor in the Department of Computer Science, University of British Columbia. I am a member of the Laboratory for Computational Intelligence and a principal investigator of IRIS, and a Fellow of the American Association for Artificial Intelligence. 
+---------------------------------------------------------------------
+
+Research
+
+My main research interests are artificial intelligence, knowledge representation, reasoning under uncertainty, computational logic, diagnosis, probabilistic argumentation systems, reasoning about actions, decision theoretic planning, intelligent agents, and preference elicitation. 
+
+In general, I am interested in the questions: What should an agent do based on its beliefs, abilities and preferences? How can we acquire and efficiently use information to make better decisions? 
+
+I have an online research overview and a list of all of my papers (many are online), talks, and some code to play with. The research overview provides detailed information on Theorist, Probabilistic Reasoning, and Combining logic and probability.
+
+---------------------------------------------------------------------
+
+Books
+
+I am a coauthor of Computational Intelligence: A Logical Approach, Oxford University Press, 1998. This is a textbook introduction to Artificial Intelligence. We have a number of associated interactive learning tools in CIspace. 
+
+I was coeditor of Proceedings of the Tenth Annual Conference on Uncertainty in Artificial Intelligence, Morgan Kaufmann, 1994. 
+
+---------------------------------------------------------------------
+
+Teaching and Administrivia
+
+* Students supervised.
+ 
+* I am teaching CPSC111 - Introduction to Computation in the fall of 2003; CPSC422 - Intelligent Systems and CPSC522 - Reasoning and Action Under Uncertainty in the spring of 2004. 
+* I am an associate editor of Journal of Artificial Intelligence Research. 
+* Upcoming Conferences: AAAI-2004, UAI-2004, KR-2004, NIPS . 
+* Reading groups: First-order probabilistic reasoning, user modelling.
+ 
+I have lots of Interesting Pointers. 
+---------------------------------------------------------------------
+
+Contact Information
+
+* Email: poole@cs.ubc.ca 
+* Phone: +1 (604) 822-6254 
+* Fax: +1 (604) 822-5485 
+* URL: http://www.cs.ubc.ca/spider/poole 
+* FTP: ftp://ftp.cs.ubc.ca/ftp/local/poole 
+* Address: 
+Department of Computer Science,   
+University of British Columbia, 
+2366 Main Mall,
+Vancouver, B.C., Canada V6T 1Z4 
+
+---------------------------------------------------------------------
+accesses since 23 October 1996. 
+
+Last updated 2002-01-13 - David Poole, poole@cs.ubc.ca 

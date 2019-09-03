@@ -1,0 +1,87 @@
+dir2frame() 
+
+* Background 
+* Algorithms and Computers 
+* Applications 
+* Challenges 
+
+---------------------------------------------------------------------
+
+Numerical Methods are intimately linked to Mathematical Models of the most diverse kind of Phenomena. Traditionally, most phenomena or processes of interest have been of physical character. Fluid dynamics, a branch of Continuum Mechanics, has for centuries been a rich source of mathematical models, which take the form of Ordinary Differential Equations, Partial Differential Equations and Integral Equations.
+
+For compressible fluids, such as a gas or a liquid at very high pressures, such mathematical models result from the formal statement of three basic physical principles, namely the principles of conservation of mass, momentum and energy. Chemical, biological, and more recently, financial phenomena, also lead to mathematical models that are expressed in terms of differential equations. Mathematical models of simple phenomena may consist of algebraic equations; these may also arise as a result of finding numerical approximations to differential equations. Differential, integral and algebraic equations are mathematical relationships satisfied by solutions that, hopefully, model the behaviour of the processes of interest. 
+
+Assuming that the fundamental properties of the phenomena of interest are actually embodied in these mathematical models, then one has the possibility of understanding such phenomena by studying the equations and their solutions. The processes of interest can thereby be simulated, with pencil and paper or with the aid of a computer.
+
+A basic problem is that of finding solutions to these mathematical objects. Indeed an even more basic problem is that of determining whether the equations do actually have a solution at all. Closely related questions of interest are: under what conditions do solutions exist, are there multiple solutions and if so which solutions are meaningful to the problem being solved and which are simply spurious mathematical solutions. 
+
+Most of these issues are the concern of professional mathematicians. Engineers or scientists would be interested in actually finding solutions to the equations. There are at present two ways of finding solutions, namely analytical methods and numerical methods. The former produces, when possible, exact analytical solutions in the form of general mathematical expressions. Solutions of differential equations will give expressions for functions, which are distinct from discrete numerical values. Numerical methods on the other hand produce approximate solutions in the form of discrete values or numbers. 
+
+The simplest of the equations mentioned above is a linear algebraic equation; the exact solution of this is immediate and consists of a single value or point. Algebraic quadratic equations can also be solved exactly, if solutions exist, leading in general to two solutions. Finding exact solutions to higher-order algebraic equations will not, in general, be a feasible task and numerical methods must be employed to find approximate solutions instead. For the case of two or more coupled non-linear algebraic equations, numerical methods are routinely used today to find approximate solutions. 
+
+Ordinary and partial differential equations are in general much more difficult to solve exactly. Exact solutions are possible only in very special circumstances. Realistic mathematical models will consists of non-linear differential equations or sets of coupled equations, possibly to be satisfied on general domains and subject to complicated initial and boundary conditions. These equations may depend on time and on one, two or three space dimensions. In such circumstances, explicit exact solutions will remain the dream of the mathematician for the foreseeable future. 
+
+The differential equations governing the behaviour of an inviscid gas, the Euler equations, have been known to scientists for centuries, but the exact solutions of these equations available today are only valid for very simple physical situations. Of course, whenever available, exact solutions are most valuable in: identifying the parameters of the problem, providing an understanding of the qualitative behaviour of the phenomena of interest and displaying the way in which such phenomena will depend on the identified parameters.
+
+Exact solutions, even for unrealistic cases, are also helpful in assessing numerical methods intended for use in more general situations. Moreover, there are numerical methods that rely on exact solutions to the equations under simplified initial conditions assumed to hold locally. 
+
+Numerical methods are techniques for finding approximate solutions to mathematical problems. Such techniques have been known for a long time; Euler is credited with having introduced, in 1768, finite differences to approximate derivatives in ordinary differential equations. The finite difference method, one of many methods available, is today capable of producing numerical solutions to both ordinary and partial differential equations. 
+
+Real progress on the development and application of numerical methods is the product of the 20th century, the beginning of which, witnessed increased efforts by scientists to invent, analyse and apply numerical methods to solve differential equations that represented mathematical models of physical phenomena. 
+
+Early contributions of historical importance were made by scientists such as Runge, Richardson, Liebmann, Courant, Friedrichs, von Neumann, amongst many others.
+
+Back to top
+
+---------------------------------------------------------------------
+
+Progress on numerical methods was made only when two basic ingredients were available, namely, numerical algorithms, along with a better understanding of their mathematical properties such as stability, and computing machines. 
+
+The first ingredient has given rise to a new branch of Mathematics, namely Numerical Analysis. Advances in this area have been slow and yet exceedingly useful in providing some basic guidelines to computational practice. Proving general theorems has been as difficult as finding exact solutions to the governing equations in the first place. Numerical methods are procedures that depend on many repetitive calculations, possibly millions; for sufficiently simple problems these can be carried out by hand, a procedure actually utilised in the early stages. 
+
+For situations of practical interest, performing the calculations by hand and storing the required information is an impossible task; it is here where the staggering progress made by computer manufactures in the last five decades has finally provided numerical methods with the necessary calculating power to make them useful approximate solution techniques. 
+
+The cost of computing resources has also decreased dramatically. It is estimated that for the last 40 years the cost of computation has dropped by one order of magnitude every eight years. However, impressive as the role of computers may appear, and contrary to widespread belief, credit for the current state of development of numerical methods does not go to the computer manufacturer alone.
+
+The invention and analysis of the numerical methods is, in the first place, the result of the research of scientists, who originate from the most diverse backgrounds, usually Mathematics, Engineering or Physics. Moreover, the production of more and better algorithms, and the corresponding numerical analysis to theoretically justify their application to extremely complex situations, must continue to be an active area of investment for further research. 
+
+Back to top
+
+---------------------------------------------------------------------
+
+Numerical methods are today a key technology to industrial and social progress in a modern society. The use of numerical methods to solve mathematical problems arising from a wide variety of applications has exploded, in the last two decades or so. 
+
+A distinctive feature of numerical methods as a discipline is its highly multidisciplinary character; it involves research workers from a wide spectrum of interests, professional numerical analysts, computer scientists, mathematicians, physicists, chemists, engineers, financial modellers and specialists from other fields. As discussed above, a key feature of numerical methods is that it makes it possible to theoretically model and simulate phenomena of interest. 
+
+For instance, 
+
+* the flight of a passenger aircraft at cruising conditions may be simulated on the computer. That means that key features of the physical phenomena involved may be studied under a wide range of conditions by performing the numerical simulations for a corresponding range of parameter values, such as cruising speed. 
+* The re-entry of a space vehicle into the atmosphere may be studied numerically for a wide range of conditions; the design engineer might be interested in predicting the temperature distribution on the surface of the vehicle. 
+* A nuclear explosion, intended or accidental, may also be simulated numerically. 
+* Government agencies might be interested in predicting the consequences of the accidental rupture of a large dam situated close to populated areas so as to put in place emergency services accordingly; such phenomena can also be simulated numerically. Traditionally, most studies of the above problems, would have been performed through physical experiments. 
+
+For some phenomena, experimentation might in fact not be feasible, as the likely physical conditions, such as temperature, are bound to severely restrict what is actually possible in the laboratory and what is not. For example, the peak temperature values when a space vehicle re-enters the atmosphere can be larger than that of the temperature on the surface of the sun. Numerical methods can be an alternative to experiments that are expensive and dangerous, and are the only useful way of studying phenomena for which experiments are impossible. Numerical methods have indeed made a very substantial contribution to scientific and industrial development, including the design and manufacturing of the computer, the twin brother of numerical algorithms. 
+
+Environmental pollution, a consequence of rapid industrialisation, is a reality that modern society is only beginning to acknowledge. Social awareness of environmental problems has resulted in an increased research activity requiring the massive use of numerical methods. In addition to the well-established activities in weather and climate prediction by numerical means, there are at present new demands from a fast-moving manufacturing industry to operate under increasing environmental constraints. 
+
+Numerical methods are also becoming an increasingly vital resource in Economics, Financial Modelling and other related disciplines. Finite difference methods are being used today for the computation of option prices; Monte Carlo methods are applied to the simulation of the market; stochastic differential equations in finance are solved numerically as are partial differential equations that are related to portfolio management strategies. 
+
+Back to top
+
+---------------------------------------------------------------------
+
+Great care is required in correctly interpreting the explosive success of numerical methods and their use to solve practical problems. Before a numerical simulation is carried out, a mathematical model of the problem at hand is required. Then, an algorithm to solve the equations must be carefully selected. 
+
+The adopted mathematical model is expected to be based on a thorough understanding of the problem in the first place, and this points us to a major limitation of numerical methods as a discipline. The numerical simulation of a problem is, at best, as good as the adopted mathematical model for the problem. If this is poor the numerical simulation will be poor, or even poorer; recall that numerical methods are approximate solution methods to solve the mathematical problem. This leads us to a second limitation of numerical methods. 
+
+In spite of the tremendous advances one needs to bear in mind that the theoretical analysis of numerical methods lags far behind the actual use of numerical methods. For instance, we routinely use numerical methods to solve systems of non-linear partial differential equations in several space dimensions and for general initial and boundary conditions, with the only theoretical justification that when applied to the simplest of model problems, usually one-dimensional scalar and linear, the schemes are convergent. Allied disciplines such as experimental methods and analytical methods will continue to play an important supportive role of numerical methods, as will further progress in theoretical numerical analysis. 
+
+This state of affairs poses serious challenges at the level of research on numerical methods and mathematical modelling, training of numerical analysts and numerical practitioners, and numerical technology transfer. Our activities, as an organisation concerned with numerical methods, are strongly motivated by the challenges identified above. 
+
+Our products and services are aimed at: teaching and research on numerical methods, the application of specialised algorithms for demanding technological applications, the dissemination of related information and numerical technology transfer. 
+
+Back to top
+
+---------------------------------------------------------------------
+
+

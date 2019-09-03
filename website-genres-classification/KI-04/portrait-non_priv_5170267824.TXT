@@ -1,0 +1,79 @@
+American Marketing Association - www.marketingpower.com help contact us site map search register | sign in View Our Sponsors View our Exhibitors --> FREE Guides and Webcasts from Marketing Experts Marketing Law Overview by Maxine Lans Retsky Financial Services Marketing Free Archived Webcast >> More Job Board and Career Services Marketing Tools & Templates Marketing Dictionary Events & Training The M-Guide - Marketing Services Directory Select the news you want - over 150 topics available. See a sample newsletter Free - sign up now Target both the AMA's 38,000 members as well as the over 750,000 marketing professionals working today in the U.S. and Canada. home page l help l feedback l about us l site map l media kit l privacy policy l AMA info l AMA member resource center l topics of interest l best practices l events & training l articles & reports l career center l marketing tools l course materials directory l Copyright © 2004 MarketingPower, Inc. The site contents may not be copied, reproduced, or redistributed without prior written permission of MarketingPower, Inc. or its affiliates. Got questions? View FAQ's or contact us at 800-262-1150. Search Engine Optimization by SEO Logic Email marketing by gravityMail   -->      //--- By Sarel van der Walt: //--- Get the window width & height: //--- This is used to size the stuff in the window, so that it does not warp. if (parseInt(navigator.appVersion)>3) { if (navigator.appName=="Netscape") { winW = window.innerWidth; winH = window.innerHeight; } if (navigator.appName.indexOf("Microsoft")!=-1) { winW = document.body.offsetWidth; winH = document.body.offsetHeight; } } 
+
+help
+contact us
+site map	 	
+
+nbsp;               	            search    
+          	         if(s_code!=' '){  s_it('mpmain')  s_code=s_dc('mpmain');  if(s_code)  document.write(s_code) } else document.write('')    	   
+
+// Write the table opening tag, with custom witdh: document.write (''); 
+            
+
+register     |     sign in      
+
+ 
+View Our Sponsors   
+View our Exhibitors  	
+  Menu_Height=224 function Go(){return}  	  // Write the td opening tag, with custom witdh: document.write (' ');    
+      
+   	   	   	    
+   	   	   	    
+   	            
+    	            
+    
+            	      
+      	    
+   	  
+  	  
+ 	 	 	 
+        
+         	         	    
+         
+   FREE Guides and Webcasts from Marketing Experts
+   
+       Marketing Law Overview   
+    by Maxine Lans Retsky   
+
+Financial Services Marketing   
+    Free Archived Webcast          	    
+   >> More   	  
+   	        
+         	         	    
+      
+
+Job Board and Career Services   
+   
+Marketing Tools & Templates   
+   
+   Marketing Dictionary    
+
+Events & Training    
+
+The M-Guide - Marketing Services Directory    
+
+Select the news you want - over 150 topics available.
+   
+   See a sample newsletter
+   
+   Free - sign up now	     
+   	  
+  	
+// Write the table opening tag, with custom witdh: document.write (''); 
+  	 // Write the td opening tag, with custom witdh: document.write (' ');    
+    
+
+Target both the AMA's 38,000 members as well as the over 750,000 marketing professionals working today in the U.S. and Canada. 
+
+home page  l  help  l  feedback  l  about us  l  site map  l  media kit  l  privacy policy  l  
+AMA info  l  AMA member resource center  l  topics of interest  l  best practices  l  events & training  l  articles & reports  l  career center  l  marketing tools  l  
+course materials directory  l   
+
+Copyright © 2004 MarketingPower, Inc.   The site contents may not be copied, reproduced, or redistributed without   prior written permission of MarketingPower, Inc. or its affiliates.
+Got questions? View FAQ's or contact us at 800-262-1150.	 
+     
+  
+  
+  Search Engine Optimization by SEO Logic  	  Email marketing by gravityMail  	
+ 	
+

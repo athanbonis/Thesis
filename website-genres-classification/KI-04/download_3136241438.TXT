@@ -1,0 +1,104 @@
+
+
+developers.sun.com	  	 » search tips  |  Search: 	 	 	 
+in Developers' Site
+ 
+in Sun.com
+ 
+
+ 	 		
+
+  
+Developers Home > Products & Technologies > Java Technology > J2SE > Core Java > J2SE 1.4.2 > 	Profile and Registration | Why Register? 	
+
+  J2SE 1.4.2 Download Java 2 Platform, Standard Edition, v 1.4.2 (J2SE) 
+
+Downloads   
+
+Reference 
+- 	 API Specifications	 
+- 	 Documentation	 
+- 	 White Papers	 
+- 	 Compatibility	 
+  
+
+Community 
+- 	 Bug Database	 
+- 	 Forums	 
+  
+
+Learning 
+- 	 Tutorials & Code Camps	 
+- 	 Online Sessions & Courses	 
+- 	 Instructor-Led Courses	 
+- 	 Course Certification	 
+  
+
+  	
+
+Doing J2SE rich client development? Tell Sun what you really want to hear at the next JavaONE in June 2004. Complete this short survey and get ready for the best JavaOne yet.
+
+Supported System Configurations 
+
+Confused or having trouble downloading or installing?
+The download help section has information that may get you going again.
+
+Download J2EE v 1.4 with J2SE v 1.4.2_02 
+
+J2EE 1.4 SDK for Windows/Linux/Solaris SPARC 	
+
+ 	  	  	  	 
+Download NetBeans IDE v 3.5.1 with J2SE v 1.4.2 COBUNDLE   (info) 
+
+Windows (.exe)	 
+
+Linux (.bin)	 
+
+Solaris SPARC&reg (.bin)	 
+
+Solaris x86 (.bin)	 
+
+Installation Instructions	 
+
+Release Notes	 
+
+License	 
+
+ 	  	  	  	 
+Download J2SE v 1.4.2_03 JRE SDK 
+
+32-bit/64-bit for Windows/Linux/Solaris SPARC
+32-bit for Solaris x86  	 
+
+Installation Instructions	 
+
+Third Party License Readme	 
+
+ReadMe	 
+
+Release Notes	 
+
+License for all platforms	 
+
+J2SE v 1.4.2 Documentation     
+
+J2SE 1.4.2 Documentation	 
+
+Installation Instructions for Documentation	 
+
+License	 
+
+ 	  	  	  	 
+Solaris OS Patches Solaris SPARC Solaris x86 
+
+Patches	 
+
+ 	  	  	  	 
+Other Downloads     
+
+Java Cryptography Extension (JCE)
+ Unlimited Strength Jurisdiction Policy Files 1.4.2	 
+
+Company Info  |  About SDN  |  Press  |  Contact Us  |  Employment How to Buy  |  Licensing  |  Terms of Use  |  Privacy  |  Trademarks     Copyright 1994-2004 Sun Microsystems, Inc. 		A Sun Developer Network Site Unless otherwise licensed, code in all technical manuals herein (including articles, FAQs, samples) is provided under this License.    Content Feeds 	
+
+

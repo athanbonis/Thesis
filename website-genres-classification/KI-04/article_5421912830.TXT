@@ -1,0 +1,170 @@
+Darwin Awards III Survival of the Fittest The Ig Nobel Prizes: The Annals of Improbable Research --> Non Campus Mentis including Florence of Arabia --> Denmark  --> 
+
+Dynamic Programming Algorithm (DPA) for Edit-Distance
+
+LA home
+ Algorithms
+ glossary
+ Dynamic P'
+  Edit dist'
+  Hirschberg's
+ 
+Bioinformatics
+ 	
+
+The words `computer' and `commuter' are very similar, and a change of just one letter, p->m will change the first word into the second. The word `sport' can be changed into `sort' by the deletion of the `p', or equivalently, `sort' can be changed into `sport' by the insertion of `p'. 
+
+The edit distance of two strings, s1 and s2, is defined as the minimum number of point mutations required to change s1 into s2, where a point mutation is one of: 
+
+1.  change a letter, 
+2.  insert a letter or 
+3.  delete a letter 
+
+The following recurrence relations define the edit distance, d(s1,s2), of two strings s1 and s2: 
+
+d('', '') = 0               -- '' = empty string
+d(s, '')  = d('', s) = |s|  -- i.e. length of s
+d(s1+ch1, s2+ch2)
+  = min( d(s1, s2) + if ch1=ch2 then 0 else 1 fi,
+         d(s1+ch1, s2) + 1,
+         d(s1, s2+ch2) + 1 )
+
+The first two rules above are obviously true, so it is only necessary consider the last one. Here, neither string is the empty string, so each has a last character, ch1 and ch2 respectively. Somehow, ch1 and ch2 have to be explained in an edit of s1+ch1 into s2+ch2. If ch1 equals ch2, they can be matched for no penalty, i.e. 0, and the overall edit distance is d(s1,s2). If ch1 differs from ch2, then ch1 could be changed into ch2, i.e. 1, giving an overall cost d(s1,s2)+1. Another possibility is to delete ch1 and edit s1 into s2+ch2, d(s1,s2+ch2)+1. The last possibility is to edit s1+ch1 into s2 and then insert ch2, d(s1+ch1,s2)+1. There are no other alternatives. We take the least expensive, i.e. min, of these alternatives. 
+
+The recurrence relations imply an obvious ternary-recursive routine. This is not a good idea because it is exponentially slow, and impractical for strings of more than a very few characters. 
+
+Examination of the relations reveals that d(s1,s2) depends only on d(s1',s2') where s1' is shorter than s1, or s2' is shorter than s2, or both. This allows the dynamic programming technique to be used. 
+
+A two-dimensional matrix, m[0..|s1|,0..|s2|] is used to hold the edit distance values: 
+
+m[i,j] = d(s1[1..i], s2[1..j])
+
+m[0,0] = 0
+m[i,0] = i,  i=1..|s1|
+m[0,j] = j,  j=1..|s2|
+
+m[i,j] = min(m[i-1,j-1]
+             + if s1[i]=s2[j] then 0 else 1 fi,
+             m[i-1, j] + 1,
+             m[i, j-1] + 1 ),  i=1..|s1|, j=1..|s2|
+
+m[,] can be computed row by row. Row m[i,] depends only on row m[i-1,]. The time complexity of this algorithm is O(|s1|*|s2|). If s1 and s2 have a `similar' length, about `n' say, this complexity is O(n2), much better than exponential! 
+
+YOU NEED A BROWSER WITH NETSC@PE'S JAVASCRIPT ON!
+
+©
+L
+.
+A
+l
+l
+i
+s
+o
+n
+
+Try `go', change the strings and experiment: 
+
+Complexity
+
+The time-complexity of the algorithm is O(|s1|*|s2|), i.e. O(n2) if the lengths of both strings is about `n'. The space-complexity is also O(n2) if the whole of the matrix is kept for a trace-back to find an optimal alignment. If only the value of the edit distance is needed, only two rows of the matrix need be allocated; they can be "recycled", and the space complexity is then O(|s1|), i.e. O(n). 
+
+Variations
+
+The costs of the point mutations can be varied to be numbers other than 0 or 1. Linear gap-costs are sometimes used where a run of insertions (or deletions) of length `x', has a cost of `ax+b', for constants `a' and `b'. If b>0, this penalises numerous short runs of insertions and deletions. 
+
+Longest Common Subsequence
+
+The longest common subsequence (LCS) of two sequences, s1 and s2, is a subsequence of both s1 and of s2 of maximum possible length. The more alike that s1 and s2 are, the longer is their LCS. 
+
+Other Algorithms
+
+There are faster algorithms for the edit distance problem, and for similar problems. Some of these algorithms are fast if certain conditions hold, e.g. the strings are similar, or dissimilar, or the alphabet is large, etc.. 
+
+Ukkonen (1983) gave an algorithm with worst case time complexity O(n*d), and the average complexity is O(n+d2), where n is the length of the strings, and d is their edit distance. This is fast for similar strings where d is small, i.e. when d<<n. 
+
+Applications
+
+File Revision
+
+The Unix command diff f1 f2finds the difference between files f1 and f2, producing an edit script to convert f1 into f2. If two (or more) computers share copies of a large file F, and someone on machine-1 edits F=F.bak, making a few changes, to give F.new, it might be very expensive and/or slow to transmit the whole revised file F.newto machine-2. However, diff F.bak F.newwill give a small edit script which can be transmitted quickly to machine-2 where the local copy of the file can be updated to equal F.new. 
+
+difftreats a whole line as a "character" and uses a special edit-distance algorithm that is fast when the "alphabet" is large and there are few chance matches between elements of the two strings (files). In contrast, there are many chance character-matches in DNA where the alphabet size is just 4, {A,C,G,T}. 
+
+Try `man diff' to see the manual entry for diff. 
+
+Remote Screen Update Problem
+
+If a computer program on machine-1 is being used by someone from a screen on (distant) machine-2, e.g. via rloginetc., then machine-1 may need to update the screen on machine-2 as the computation proceeds. One approach is for the program (on machine-1) to keep a "picture" of what the screen currently is (on machine-2) and another picture of what it should become. The differences can be found (by an algorithm related to edit-distance) and the differences transmitted... saving on transmission band-width. 
+
+Spelling Correction
+
+Algorithms related to the edit distance may be used in spelling correctors. If a text contains a word, w, that is not in the dictionary, a `close' word, i.e. one with a small edit distance to w, may be suggested as a correction. 
+
+Transposition errors are common in written text. A transposition can be treated as a deletion plus an insertion, but a simple variation on the algorithm can treat a transposition as a single point mutation. 
+
+Plagiarism Detection
+
+The edit distance provides an indication of similarity that might be too close in some situations ... think about it. 
+
+Molecular Biology
+
+Example
+
+An example of a DNA sequence from `Genebank' can be found [here]. The simple edit distance algorithm would normally be run on sequences of at most a few thousand bases. 
+
+The edit distance gives an indication of how `close' two strings are. Similar measures are used to compute a distance between DNA sequences (strings over {A,C,G,T}, or protein sequences (over an alphabet of 20 amino acids), for various purposes, e.g.: 
+
+1.  to find genes or proteins that may have shared functions or properties 
+2.  to infer family relationships and evolutionary trees over different organisms 
+
+Speech Recognition
+
+Algorithms similar to those for the edit-distance problem are used in some speech recognition systems: find a close match between a new utterance and one in a library of classified utterances. 
+
+Notes
+
+1.  V. I. Levenshtein. Binary codes capable of correcting deletions, insertions and reversals. Doklady Akademii Nauk SSSR 163(4) p845-848, 1965,
+also Soviet Physics Doklady 10(8) p707-710, Feb 1966.
+Discovered the basic DPA for edit distance. 
+2.  S. B. Needleman and C. D. Wunsch. A general method applicable to the search for similarities in the amino acid sequence of two proteins. Jrnl Molec. Biol. 48 p443-453, 1970.
+Defined a similarity score on molecular-biology sequences, with an O(n2) algorithm that is closely related to those discussed here. 
+3.  Hirschberg (1975) presented a method of recovering an alignment (of an LCS) in O(n2) time but in only linear, O(n)-space; see [here]. 
+4.  E. Ukkonen On approximate string matching. Proc. Int. Conf. on Foundations of Comp. Theory, Springer-Verlag, LNCS 158 p487-495, 1983.
+Worst case O(nd)-time, average case O(n+d2)-time algorithm for edit-distance, where d is the edit-distance between the two strings. 
+5.  See also exact, as opposed to approximate, (sub-)string [matching]. 
+6.  More research information on "the" DPA and Bioinformatics [here]. 
+7.  If your programming language does not support 2-dimensional arrays, and requires arrays or strings to indexed from zero upwards, some home-grown address translation will be needed to program the DPA defined above. 
+
+Exercises
+
+1.  Give a DPA for the longest common subsequence problem (LCS). 
+2.  Modify the edit distance DPA to that it treats a transposition as a single point-mutation. 
+
+---------------------------------------------------------------------
+© L. A., Department of Computer Science, UWA 1984, and (HTML) School of Computer Sci. & SWE, Monash University 1999
+ 	
+Interesting:
+ 
+Linux
+free op' sys'
+ OpenOffice
+free office suite
+ver1.1 now available
+ The GIMP
+free photoshop
+
+Darwin Awards III
+Survival of the Fittest
+ 	
+
+Denmark 	
+
+---------------------------------------------------------------------
+
+© L. Allison   http://www.csse.monash.edu.au/~lloyd/   (or as otherwise indicated),
+ School of Computer Science and Software Engineering, Monash University, Australia 3168. Created with "vi (Linux + Solaris)",   charset=iso-8859-1 	
+
+---------------------------------------------------------------------
+
+

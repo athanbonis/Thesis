@@ -1,0 +1,394 @@
+Home | Site Map | Partnerships | Webmaster Zone | Terms of Use | Privacy Statement | Contact Us Copyright © 1997-2004 Babylon.com Ltd. All Rights Reserved   -->  function showLang(){   var theImage = eval("document.images['img_1']")   if(theImage != null){    document.img_1.src = 'http://a1709.g.akamai.net/7/1709/2537/40/www.babylon.com/images/langs/1-on.gif';   }   else if(document.img_1 != null) document.img_1.src = 'http://a1709.g.akamai.net/7/1709/2537/40/www.babylon.com/images/langs/1-on.gif';  }               
+     	     	           This page is available in:
+
+Products	           Downloads	           Purchase	           Corporate Solutions	                Dictionaries & Glossaries	           Support	           About Us	         
+                
+    
+
+Downloads
+
+Trial Version  Dictionaries & Glossaries  Babylon-Pro Update  Update Information  
+
+Download Our FREE Trial Version 
+
+Try the award winning Babylon-Pro software FREE for 30 days
+
+*  With Babylon-Pro Trial version you get free access to all of Babylon's 25 proprietary dictionaries and 1,600 free glossaries. 
+* To help you get started, we have put together recommended dictionary packages and you can always download additional dictionaries and glossaries.
+
+Get more dictionaries and access more languages!Already installed Babylon-Pro? Click here to download additional dictionaries and glossaries.
+
+---------------------------------------------------------------------
+
+Choose the language of your choice:
+
+Chinese(S)      	  Chinese(T)      	  Dutch      	  English      	  French      	 
+
+German      	  Hebrew      	  Italian      	  Japanese      	  Portuguese      	 
+
+Russian      	  Spanish      	  Swedish      	 
+ Chinese(S) 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-Chinese(S)
+ 	  
+
+Dictionaries:
+
+*  English-Chinese(S)-English
+ 	  
+
+Dictionaries:
+
+*  English-Chinese(S)-English
+*  English-English
+ 	 
+ 
+4.0MB	
+
+5.7MB	
+
+10.8MB	
+
+ Chinese(T) 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-Chinese(T)
+ 	  
+
+Dictionaries:
+
+*  English-Chinese(T)-English
+ 	  
+
+Dictionaries:
+
+*  English-Chinese(T)-English
+* English-English
+ 	 
+ 
+3.8MB	
+
+5.5MB	
+
+10.7MB	
+
+ Dutch 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-Dutch
+ 	  
+
+Dictionaries:
+
+*  English-Dutch-English
+ 	  
+
+Dictionaries:
+
+*  English-Dutch-English
+*  English-English
+ 	 
+ 
+5.9MB	
+
+7.3MB	
+
+12.4MB	
+
+ English 
+ 
+ Package 1	
+
+Dictionaries:
+
+*  English-English
+ 	 
+ 
+7.2MB	
+
+ French 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-French
+ 	  
+
+Dictionaries:
+
+*  English-French-English
+ 	  
+
+Dictionaries:
+
+*  English-French-English
+*  English-English
+ 	 
+ 
+6.0MB	
+
+8.7MB	
+
+13.9MB	
+
+ German 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-German
+ 	  
+
+Dictionaries:
+
+*  English-German-English
+ 	  
+
+Dictionaries:
+
+*  English-German-English
+*  English-English
+ 	 
+ 
+6.0MB	
+
+12.6MB	
+
+17.7MB	
+
+ Hebrew 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+*  English-Hebrew
+ 	  
+
+Dictionaries:
+
+*  English-Hebrew-English
+*  Hebrew-Hebrew
+ 	  
+
+Dictionaries:
+
+*  English-Hebrew-English
+*  Hebrew-Hebrew
+*  English-English
+ 	 
+ 
+6.0MB	
+
+11.9MB	
+
+17.1MB	
+
+ Italian 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+* English-Italian
+ 	  
+
+Dictionaries: 
+
+* English-Italian-English
+ 	  
+
+Dictionaries: 
+
+* English-Italian-English
+*  English-English
+ 	 
+ 
+6.0MB	
+
+8.3MB	
+
+13.4MB	
+
+ Japanese 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries: 
+
+* English-Japanese
+ 	  
+
+Dictionaries: 
+
+* English-Japanese-English
+ 	  
+
+Dictionaries: 
+
+* English-Japanese-English
+*  Genius English-Japanese-English
+ 	 
+ 
+5.9MB	
+
+11.3MB	
+
+29.8MB	
+
+ Portuguese 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+* English-Portuguese
+ 	  
+
+Dictionaries:
+
+* English-Portuguese-English
+ 	  
+
+Dictionaries:
+
+* English-Portuguese-English
+*  English-English
+ 	 
+ 
+6.1MB	
+
+9.0MB	
+
+14.2MB	
+
+ Russian 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+* English-Russian
+ 	  
+
+Dictionaries:
+
+* English-Russian-English
+ 	  
+
+Dictionaries:
+
+* English-Russian-English
+*  English-English
+ 	 
+ 
+5.0MB	
+
+9.7MB	
+
+14.8MB	
+
+ Spanish 
+ 
+ Package 1	
+
+ Package 2	
+
+ Package 3	
+
+Dictionaries:
+
+* English-Spanish
+ 	  
+
+Dictionaries:
+
+* English-Spanish-English
+ 	  
+
+Dictionaries:
+
+* English-Spanish-English
+*  English-English
+ 	 
+ 
+6.2MB	
+
+10.4MB	
+
+15.6MB	
+
+ Swedish 
+ 
+ Package 1	
+
+ Package 2	
+
+Dictionaries:
+
+* English-Swedish
+ 	  
+
+Dictionaries:
+
+* English-Swedish
+*  English-English
+ 	 
+ 
+5.5MB	
+
+10.6MB	
+
+Home  |       Site Map  |       Partnerships  |       Webmaster Zone  |       Terms of Use  |       Privacy Statement  |       Contact Us           Copyright © 1997-2004 Babylon.com Ltd. All Rights Reserved       

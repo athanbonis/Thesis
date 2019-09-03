@@ -1,0 +1,76 @@
+
+ 	 
+sun.com	 How To Buy  |  My Sun  |  Worldwide Sites	         	 	  	 		
+ 	 
+
+ 	 	 	 	
+  Home > Products & Services > Software > Desktop > GNOME 2.0 Desktop for the Solaris Operating Environment 
+  
+Product Home	 
+   »  	 Features & Benefits	 
+   »  	 Data Sheet	 
+   »  	 General FAQs	 
+   »  	 Detailed View	 
+   »  	 GNOME 2.0 Accessibility	 
+    	
+
+GNOME 2.0 Desktop for the Solaris Operating Environment provides an intuitive user interface that enables users to easily locate information, access menus, launch applications, and personalize their work environment. It also integrates seamlessly with the Internet to provide access to resources on the Web. GNOME is built on open source software and is rapidly evolving into a standard user desktop for use across multiple UNIX® platforms. 
+
+  
+  Sun Ray Building Block: Complete Remote Office Desktop Solutions! 	  Feb. 3rd Sun Net Talk: See Java Desktop System in Action 	
+  
+At a Glance 	
+
+Desktop:	Nautilus File Manager, Workspace Switcher, Desktop Preferences	
+Productivity Applications:	GNOME runs virtually all Solaris OE-based software, including StarOffice productivity suite, Netscape	
+Accessories and Utilities:	Calculator, Text Editor, Character Map, Window List	
+Accessibility Support:	Keyboard navigation, high/low contrast themes, AccessX keyboard control	
+
+    
+Key Features and Benefits 	
+
+FeaturesBenefits
+Comprehensive and intuitive desktop user environment.	One convenient package provides fast access to the most frequently used applications, utilities, and accessories; plus the desktop can be customized to suit individual working styles.	
+Built-in accessibility solutions.	Users with vision problems and other physical disabilities benefit from accessible themes and keyboard navigation. A follow-up release plans to support other assistive technologies, such as screen readers, screen magnifiers, and on-screen keyboards.	
+
+    System Requirements   
+
+* Solaris 8 Operating Environment or higher (SPARC or x86 Architecture Editions). (Note that Solaris 9 OE, x86 Edition is available with Solaris 9 OE 12/02.) 
+
+  Availability   
+
+GNOME 2.0 Desktop for the Solaris OE is available now. 
+
+  More Information   
+»  	 Moving to GNOME	 
+
+  	
+
+Evaluate 	
+
+Product Home	 
+»  	 White Papers	 
+»  	 News & Events	 
+ 	 
+ 	 
+ 	 
+Get 	
+»  	 Get the Software	 
+»  	 Support & Services	 
+ 	 
+ 	 
+ 	 
+Use 	
+»  	 Documentation	 
+»  	 Developer Resources	 
+»  	 Community & Resources	 
+ 	 
+ 	 
+ 	 
+Maintain 	
+»  	 Patches & Support	 
+
+  	
+
+ 	 
+Company Info   |   Contact   |   Terms of Use   |   Privacy   |   Trademarks   |   Copyright 1994-2004 Sun Microsystems, Inc.   

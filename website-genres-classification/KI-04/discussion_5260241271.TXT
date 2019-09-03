@@ -1,0 +1,85 @@
+
+
+[TriLUG] Win2k boot problem 
+
+Joshua Bedick trilug@trilug.org 
+Sun, 23 Mar 2003 23:37:08 -0500 
+
+* Previous message: [TriLUG] [Semi-OT] Anyone have a drill press ? 
+* Next message: [TriLUG] Win2k boot problem 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+
+---------------------------------------------------------------------
+
+Hello Ken,
+
+Try the following - please make sure you have a lilo/grub boot disk as this
+may cause problems.
+Start the recovery console.
+Type the Admin password.
+Type "Fixboot [drive]:" where [drive] is the drive letter of your windows
+partition, for example c or d.
+Type exit
+
+Try it now.
+
+Fixboot writes a new Windows boot sector on the boot partition.
+You could also try FIXMBR but that will most likely frag lilo/grub as it
+rewrites the MBR.
+
+If neither of those work make sure your boot.ini file (root of the win2k
+partition) is pointing to the correct drive/partition combination for
+windows.  You can actually add random entries until you get it right.
+Remember that win2k treats all Primary partitions as occurring first and
+Extended/Logical ones last.  So if you had a hard drive with 1 primary, one
+extended and one logical in the extended then the primary would be 1 and the
+logical would be 2.  Say win2k is installed on the logical drive.  If there
+is space left on the drive and you create a new primary partition then the
+order changes.  The first primary created is still one, but the second
+primary is now 2, with the logical partition becoming 3.  If boot.ini is not
+changed to reflect that then windows won't boot.  If you need to see how
+win2k is looking at the partitions so you can modify the ini file type
+DISKPART.  It's basically a M$ version of fdisk.  Let me know if you have
+any questions.
+
+Oh, I'm a windows sys admin converting to linux.
+
+Take care,
+
+Joshua
+
+>>>>>>>>>>>>>>>>>>>>start original
+From: Ken Mink <kmtrilug@nc.rr.com>
+
+Yes, I'm asking a Windows question to a LUG, but there are plenty of
+folks here that deal with both sides of the force. Also, my problem
+involves Linux, sort of.
+I upgraded the HD on my dual boot(win2k/rh8) desktop. See, it involves
+Linux. I did a file based copy of each partition from the old drive to
+the new one. Everything copied fine and once I got grub installed, RH8
+has been running fine. Today I tried to boot to win2k and got a message
+that it was an invalid system disk. I think all of the win2k files are
+there and on the same partition (hda1) that win2k was on before the
+transfer. It's a FAT32 partition. I'm pretty sure I need the Win2k
+equivalent of 'SYS C:' or maybe 'FORMAT /MBR'. More likely the former. I
+can get the repair console up on the non-booting installation, but I'm
+M$ clueless. I have no idea what to do once I'm at the command line. Any
+ideas?
+Oh yeah. I can't go back to the original drive. It's already in my MAC
+and reformatted.
+Thanks,
+Ken
+
+>>>>>>>>>>>>>>>>>>>>end original
+
+Joshua Bedick,  MCSE
+Integrated Technology, Inc.
+919-630-3303
+joshua@gratedtech.com
+
+---------------------------------------------------------------------
+
+* Previous message: [TriLUG] [Semi-OT] Anyone have a drill press ?  
+* Next message: [TriLUG] Win2k boot problem 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+

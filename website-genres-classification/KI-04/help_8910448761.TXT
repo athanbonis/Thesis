@@ -1,0 +1,340 @@
+
+
+Patterns-Discussion FAQ
+
+Maintained by Doug Lea . Mail comments to dl@cs.oswego.edu. 
+
+Hiroshi Yuki and friends have provided a Japanese translation. 
+
+Last updated NOvember 2000. 
+
+This is not a FAQ in the usual sense. It contains very brief summaries of topics that have been discussed on the patterns-discussion list, in question and answer format. Choice and content of items reflect the biases of the maintainer. This FAQ is updated on an irregular basis. 
+
+For information about patterns, including links to online patterns, papers on patterns, descriptions of books dealing with patterns, listings of conferences, and patterns-related mailing lists, see The Patterns Home Page. 
+
+1.  Why isn't there a good definition of the term pattern? 
+
+Why isn't there a good definition of most engineering terms? `Pattern' seems on at least as good footing as, say `object'. No one seems to mind the short slogan ``a solution to a problem in a context''. However, the shortness of this slogan can cause confusion. Expanding each of these terms out just a little helps: 
+
+2.  Context refers to a recurring set of situations in which the pattern applies. 
+3.  Problem refers to a set of forces -- goals and constraints -- that occur in this context. 
+4.  Solution refers to a canonical design form or design rule that someone can apply to resolve these forces. 
+
+Discussions of more extensive definitions can be found at the Patterns Home Page and at WikiWikiWeb. 
+
+5.  Can't you use a better word than `pattern' to describe these things? 
+
+You can call them anything you like, but its too late to change what most other people call them. 
+
+6.  Is a design pattern different from a pattern? 
+
+The notion of a pattern is very broad, and can be applied in all sorts of contexts. 
+
+The ``Gang of Four'' (GoF -- Gamma, Helm, Johnson, and Vlissides) Design Patterns book is almost entirely devoted to patterns dealing with micro-architectures (also known as object structures) -- static and dynamic relations among objects (and/or their classes) encountered in object-oriented development. The term design pattern has come to refer to these kinds of patterns. These have become most common kinds of patterns described in the literature. 
+
+Some people incorrectly use the term design pattern to refer to any object structure, even if it is not in any sense a pattern. Please don't do this. 
+
+7.  What else can patterns be applied to? 
+
+Existing software-related examples include:
+
+Programming idioms 
+For example, particular uses of nested classes in C++, interfaces in Java, cascaded calls in Smalltalk,... 
+Coding idioms 
+For example the C idiom: while(*dest++ = *src++);
+Data structures 
+For example, trees and buffers. 
+Algorithms 
+For example, those for parallel processing. 
+Protocols 
+For example, those used in concurrent object systems. 
+Development of new frameworks (sets of extensible classes) 
+For example, those for UI toolkits 
+Use of existing frameworks 
+For example OpenDoc, JavaBeans, ... 
+Analysis models 
+For example, those dealing with accounting rules 
+System Architecture 
+For example, Blackboard and Broker architectures 
+Development organization 
+For example, development team structure and dynamics 
+Development process 
+For example, steps and strategies in OO analysis and design. 
+
+Additionally, patterns have been applied in several fields outside of software development. 
+
+8.  What's the difference between a pattern and a coding idiom? A design? One or more OMT or UML diagrams? A use case? A protocol? An algorithm? A heuristic? An architecture? A coding standard? A coding style? A development method? 
+
+A pattern may be mainly about one of these things, but the thing alone does not comprise a pattern. A pattern describes how and why any of these may apply in a given development context, along with guidance for applying them. 
+
+9.  What's the difference between a pattern and a class? A reusable component? A parameterized (template) class? A class library or package? A framework? A tool? A code generator? 
+
+A pattern is not an implementation. It describes when, why, and how to go about creating an implementation or other engineering product. 
+
+Some (not many) solutions are amenable for description via implementations (as classes, frameworks, tools, or whatever) that provide developers with just about everything they would need to know or do. Even so, the code itself is not the pattern. 
+
+10. What's the difference between a pattern and How-To guide? 
+
+The solution described in a pattern may be phrased as a series of steps similar to those seen in How-To guides and cooking recipes. But again these steps form only one aspect of a pattern. Also, patterns aspire to greater scope and generality of context, and greater authoritativeness in identifying and resolving forces than seen in typical How-To guides. 
+
+11. What is the relation between the study of patterns and that of Domain-specific software architectures, Software reuse, and other areas of software engineering? 
+
+There appears to be some overlap. 
+
+12. Where can I find published or online patterns about XXX?
+
+There is not a central clearing house for patterns, but it is not too hard to find them. Here are some starting points: 
+
+13. Hillside Patterns Home Page 
+14. Linda Rising's book, The Pattern Almanac (also its predecessor, The Patterns Handbook), that contains references to most patterns that have been published. 
+15. Wiki 
+16. Pattern Depot 
+17. Open directory 
+18. Your favorite search engine 
+
+19. Who is Christopher Alexander? 
+
+Alexander is an architect (in the sense of buildings, not software) who invented patterns. A brief biography and links to related readings and web pages can be found in Nikos Salingaros's Notes on Christopher Alexander. 
+
+20. What's the best format for patterns? 
+
+Take your pick. Most of Alexander's patterns are of the form: 
+
+IF   you find yourself in CONTEXT
+          for example EXAMPLES,
+          with PROBLEM,
+          entailing FORCES
+     THEN for some REASONS,
+          apply DESIGN FORM AND/OR RULE
+          to construct SOLUTION
+          leading to NEW CONTEXT and OTHER PATTERNS
+     
+
+There are many stylistic variants. No two of the existing books containing patterns use exactly the same format. Alternatives include the purely narrative Portland Form. Probably the most popular format (used in the Design Patterns book) inverts this, starting out with the design forms and/or rules and then describing problems, contexts, and examples to which they apply. 
+
+Across different forms, common requirements for the structure and content of patterns include:
+
+Description of best practices 
+Or at least generally accepted practices. Some people see patterns as a step toward construction of definitive Software Engineering Handbooks. 
+Appropriate generality 
+Evidence that the pattern recurs. This almost always requires that you abstract over several known uses. This may require mention of situations in which the pattern does not apply, along with references to alternative patterns. 
+Scope 
+The context in which someone may want to apply the pattern is fully described. When appropriate, including references to other patterns that typically lead to application of this pattern. 
+Constructiveness 
+The pattern is phrased in a way that allows people to build an instance of the solution. In some cases, this may entail a set of diagrams showing essential relations. In others, it may entail a series of design steps that pattern users should follow, along with a description and/or example of the solution form as it should appear. 
+Completeness 
+All relevant forces are described 
+Utility 
+Evidence that the solution successfully resolves the forces, or when they are only partially resolved, and/or when they introduce new forces, references to related patterns that may apply. 
+Examples 
+Both those illustrating solution steps, as well as those documenting usage in existing software. 
+Appropriate level of abstraction 
+For example, ``Adding another level of indirection'' may be useful heuristic, but it is probably too general and multifaceted to be a good pattern. 
+Lack of originality 
+New solutions are not patterns. (Although the abstraction, integration, and reworkings that lead to description as a pattern may be novel. Also, the pattern may lead to novel uses.) 
+Appropriate name 
+Concise, descriptive names help provide a shared vocabulary for developers. 
+Clarity 
+The presentation and style allow people to easily determine whether the pattern applies and if so how to apply it, so that they do not have to reinvent it themselves. 
+
+21. What is a force? 
+
+The notion of force generalizes the kinds of criteria that software engineers use to justify designs and implementations. For example, in the classic study of algorithms in computer science, the main force to be resolved is efficiency (time complexity). However, patterns deal with the larger, harder-to-measure, and conflicting sets of goals and constraints encountered in the development of every artifact you ever create. For example: 
+
+Correctness 
+
+22. Completeness and correctness of solution 
+23. Static type safety, dynamic type safety 
+24. Multithreaded safety, liveness 
+25. Fault tolerance, transactionality 
+26. Security, robustness 
+
+Resources 
+
+27. Efficiency: performance, time complexity, number of messages sent, bandwidth requirements 
+28. Space utilization: number of memory cells, objects, threads, processes, communication channels, processors, ... 
+29. Incrementalness (on-demand-ness) 
+30. Policy dynamics: Fairness, equilibrium, stability 
+
+Structure 
+
+31. Modularity, encapsulation, coupling, independence 
+32. Extensibility: subclassibility, tunability, evolvability, maintainability 
+33. Reusability, openness, composibility, portability, embeddability 
+34. Context dependence 
+35. Interoperability 
+36. ... other ``ilities'' and ``quality factors'' 
+
+Construction 
+
+37. Understandability, minimality, simplicity, elegance. 
+38. Error-proneness of implementation 
+39. Coexistence with other software 
+40. Maintainability 
+41. Impact on/of development process 
+42. Impact on/of development team structure and dynamics 
+43. Impact on/of user participation 
+44. Impact on/of productivity, scheduling, cost 
+
+Usage 
+
+45. Ethics of use 
+46. Human factors: learnability, undoability, ... 
+47. Adaptability to a changing world 
+48. Aesthetics 
+49. Medical and environmental impact 
+50. Social, economic and political impact 
+51. ... other impact on human existence 
+
+Tres Seaver adds: The usage is far more ancient than software: in architecture, or in mechanical / civil engineering, a designed entity exists in relationship to a system of interacting physical forces. Designs which do not resolve each force, and the system as a whole, fail (e.g., the Tacoma Narrows bridge failed to resolve dynamic loading due to winds; the bonfire at Texas A&M failed to allow for the loads induced by moving workers). By extension, designs must satisfy other demands which interact in complex, and sometimes unforeseen ways; the term "force" was extended to cover these cases. 
+
+52. What is force resolution? 
+
+Alexander's descriptions of patterns includes the idea that a pattern should represent a kind of equilibrium of forces. (Even Alexander has been criticized (even by himself) for not always carrying this out in a convincing manner.) This is the same notion as optimality as seen for example in the analysis of algorithms in computer science, but applied to the kinds of harder-to-measure forces described in the previous question. 
+
+It is usually impossible to analytically ``prove'' that a solution optimally resolves forces. (In fact, it is hard to define the notion of ``proof'' here, or even to see what use such a proof would have.) On the other hand, it is all too easy to come up with ``just-so'' stories that provide wrong or deceptive rationales for solutions. Even the most concientious pattern authors sometimes don't fully understand why a solution works as well as it does, or appreciate its full range of applicability. As Ralph Johnson once posted: 
+It is often hard to figure out the problem that a pattern solves. You can tell it is a pattern because you see it so often, and you know it is a good pattern because introducing it makes the world a better place. But when you look at the world, it is hard to tell why things are the way they are. I think the way we figure out the problem that a pattern solves is by watching ourselves as we design things. What are the conditions that trigger our use of a pattern? 
+
+I think the main reason that Alexander didn't always describe the problem of a pattern is because he didn't always know. That is certainly why the GOF book doesn't describe the problem well. It is not that the format led the authors to ignore the problems, it is that their understanding of the problems led them to their format. 
+
+For these reasons, the patterns community expects that arguments be backed up with: 
+
+Empirical evidence for goodness 
+That the solution has been used in multiple contexts in which it is applicable. The rule of 3 is sometimes used as a criterion: don't claim that something is a pattern unless you know of three independent usages. 
+Comparisons 
+Relations to other known solutions or practices. These may also include examples demonstrating weaknesses or failures because the proper solution was not applied. 
+Independent authorship 
+Patterns should not be written solely by the people who first invented or implemented them. 
+Reviews 
+Critiques by other parties, including both those intimately familiar with the domain, as well as those who are not. One popular format for pattern review (used at the Pattern Languages of Programs (PLOP) conferences) is the Writer's Workshop. 
+
+Until such evidence is provided, a pattern is sometimes called a proto-pattern -- a candidate for being a pattern. 
+
+53. What is the Quality Without A Name (QWAN)? 
+
+There's no good short answer. You'll have to read The Timeless way of building. 
+
+Overly-geeky patterns-enthusiasts like to pretend that Alexander never wrote about QWAN. Overly-flakey ones like to pretend that QWAN ties patterns to just about any mystical, weird-sounding metaphysical rantings you'd care to name. 
+
+54. Can patterns take a negative form, telling you what NOT to do? 
+
+Perhaps ideally not -- sets of good patterns would steer you clear of the infinitely many bad designs (sometimes called antipatterns) you could come up with, as well as all of the contexts in which it is not appropriate to apply a given pattern. But some ideas are so bad yet so prevalent that they deserve explicit mention. One way to do so is to include a ``Common traps and pitfalls'' section in a pattern description. Descriptions of bad solutions (misfits) can form part of the motivation, rationale or forces for a good solution. Patterns may also describe ways of transforming bad solutions into good ones (sometimes in ``Before/After'' or ``Repair'' sections). 
+
+55. Can patterns present a set of alternative solutions rather than one? 
+
+Perhaps ideally not -- each solution should be be tied to the context in which it best applies. But sometimes this is too hard. Mentioning alternatives is better than not mentioning them since it sets up scaffolding for further refinement by discovering those forces that differentiate alternative solutions. Even when they are differentiated, there's also the stylistic issue about whether to group a set of patterns sharing most context and forces in the same presentation. 
+
+56. Why bother writing patterns that just boil down to advice my grandmother would give me? 
+
+Because some patterns are so good and useful that even your grandmother knows them. Writing them down makes the context, value and implications of the advice clearer than your grandmother probably did. 
+
+57. Must all patterns be so [low-level / high-level / general / specific / abstract / concrete] as [SOME PATTERN]? 
+
+Of course not. 
+
+58. What is the theoretical basis of Patterns? 
+
+No formal basis in the usual sense. Patterns can express design notions stemming from all sorts of theoretical and empirical bases. On the other hand, many of the notions of pattern-directed design stem from classic and not-so-classic works on ``design theory'' across diverse fields of engineering. (See the bibliographies of papers listed in the Patterns Home Page.) 
+
+59. Can patterns be expressed in [SOME PARTICULAR FORMALISM OR NOTATION]? 
+
+You are welcome to try, but bear in mind that a representation of a design or design rule in some formal notation is not a pattern if it omits descriptions of context, the problem(s) it solves, evidence for adequacy of the solution, construction or implementation guidelines, or relations with other patterns. 
+
+60. Why should I use patterns? 
+
+For the same kinds of reasons that you should reuse good code: Benefitting from the knowledge and experience of other people who have put more effort into understanding contexts, forces, and solutions than you have done or want to do. Further, patterns can be more reusable than code, since they can be adapted so that you can build software to address particular special circumstances that cause you to be unable to reuse an existing component. 
+
+Patterns also give developers common sets of names and concepts for dealing with common development problems, thus enhancing communication. 
+
+61. Wouldn't it be nice to have some patterns-based CASE tools? 
+
+Maybe, but patterns are about communicating from one person to another. If the medium enhances communication with other people it is good. If it merely makes the machinations of the patterns executable by a computer it isn't. 
+
+62. What's the difference between a pattern language and a set of patterns? 
+
+A pattern language is a set of interrelated patterns, all sharing some of the same context, and perhaps classified into categories. 
+
+This term is due to Alexander. Alexander's use of the term ``language'' is unconventional but not wrong. If you squint at and overformalize them, pattern entries are ``production rules''. If you remember your automata theory, you'll recall that sets of production rules are one way to characterize recursively enumerable langauges. 
+
+63. Why aren't there more patterns about [WHATEVER]? 
+
+Because you haven't written them. If you're interested, you more than likely know something, and if you know something you can write patterns. 
+
+64. How do I go about writing a pattern? 
+
+Here are some common recommendations: 
+
+65. Avoid writing about patterns; just write patterns. 
+66. Pick something you know about and then find multiple occurrences and/or descriptions. Or conversely, mine existing software for new possible patterns. 
+67. Find out if other people have written similar patterns 
+68. Aim for quality, not quantity of patterns. 
+69. Figure out why the pattern exists or applies. 
+70. Pick a format for writing about it. 
+71. Circulate it to others (for example, via web pages, patterns discussion groups, or submissions to a mailing list) and receive comments. 
+72. Submit it to a vehicle such as PLOP where it can be reviewed in a writer's workshop. 
+73. Continually iterate and refine. 
+
+See also Ward Cunningham's Tips for Writing Pattern Languages. 
+
+74. How do I know if some idea/design/construction I have is a pattern?
+
+Try writing it as a pattern.
+
+75. How many patterns are there? 
+
+Some people think there are relatively few undiscovered patterns that nearly everyone ought to know about. Some people think that there are a great many more domain-specific patterns that need to be written. Both may be right. Try writing some more patterns so we can find out. 
+
+76. Won't the existence of lots of patterns lead to problems in finding, classifying, indexing, using, and maintaining them? 
+
+Maybe. 
+
+77. Can I use patterns within [SOME PARTICULAR OO ANALYSIS AND DESIGN METHOD]? 
+
+Probably so. Although if you do, you might no longer be following much of the method beyond its notation. 
+
+78. Is the use of patterns necessarily iterative? 
+
+In principle, you could be very lucky and have a problem for which there is already a complete set of patterns, and in which each application of a pattern flows into the next, leading to a final product without ever backtracking. But people are never this lucky. 
+
+79. Is there a recommended development process associated with the use of patterns? 
+
+Probably so, but even though we discuss it a lot, we don't know what it is. Use patterns so we can find out. 
+
+80. Does the use of patterns have any effect on business practices and software economics? 
+
+Same answer. 
+
+81. Wouldn't it be more useful to teach people to write patterns rather than teaching them to use a bunch of existing patterns? 
+
+Both are needed. Neither is more needed. 
+
+82. How can we institutionalize the use of patterns where I work? 
+
+Common recommendations include: 
+
+83. Mine the best code you have for patterns. 
+84. Extend design documentation and review practices to also deal with design patterns. 
+85. Run courses on the use of existing design patterns. 
+86. Review existing patterns in a writer's workshop. 
+87. Use a pattern-based style template for documenting designs, so they can evolve into patterns. 
+88. Form a study group, and meet once a week to talk about patterns. Once there is a body of enthusiasts, they can press for institutionalization. 
+
+89. Why aren't Alexander's patterns universally used by architects? 
+
+There seems to be no single reason. People cite factors including clashes with long-established practices and with the professional culture of architects, economic factors, the fact that Alexander focuses on having people design and build their own houses, and differences in opinion about how good or useful the particular patterns in A Pattern Language are in practice. 
+
+90. Can you use patterns in very large development efforts? 
+
+People have reported that they do so. 
+
+91. Are patterns over-hyped? 
+
+Of course. It is impossible to avoid. 
+
+92. Do patterns really work? 
+
+Please ask a more specific question. 
+
+Written by Doug Lea, and released into the public domain. 
+---------------------------------------------------------------------
+Doug Lea Last modified: Wed Jun 13 21:37:50 EDT 2001 

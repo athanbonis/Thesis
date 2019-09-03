@@ -1,0 +1,177 @@
+
+
+[Gtkradiant] [Bug 111] New: slow GtkRadiant - linux / NVidia drivers / RedHat 7.1 
+
+gtkradiant@zerowing.idsoftware.com gtkradiant@zerowing.idsoftware.com 
+Sun, 01 Jul 2001 03:49:02 -0500 
+
+* Previous message: [Gtkradiant] roadmap, developement process (Was: realtime lighting) 
+* Next message: [Gtkradiant] [Bug 68] nightly build code for IS setup 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+
+---------------------------------------------------------------------
+
+http://zerowing.idsoftware.com/bugzilla/show_bug.cgi?id=111
+
+Summary: slow GtkRadiant - linux / NVidia drivers / RedHat 7.1
+           Product: GtkRadiant
+           Version: 1.2
+          Platform:
+               URL:
+        OS/Version: Linux
+            Status: NEW
+ Status Whiteboard:
+          Keywords:
+        Resolution:
+          Severity: normal
+          Priority: P2
+         Component: editor
+        AssignedTo: ttimo@idsoftware.com
+        ReportedBy: ttimo@idsoftware.com
+
+<Primer> timo!
+<Primer> mon amí!
+<Primer> dude, trying to get radiant working on Linux...
+<Primer> downloaded 1.2, compiled it, compiled the plugins
+<Primer> it "runs", but it's...god aweful slow
+<Primer> nvidia driver
+<Primer> and it's NOT using Mesa
+  QUIT  Mr!~micjohn@newax4-075.dialup.optusnet.com.au (Read error to Mr[newax4-075.dialup.optusnet.com.au]: EOF from client)
+  JOIN  Krusty!rkhayward@123.lcn0101.lcn.iprimus.net.au
+  JOIN  Mr!~micjohn@newax4-075.dialup.optusnet.com.au
+  QUIT  krust!rkhayward@222.lcn0103.lcn.iprimus.net.au (Ping timeout for krust[222.lcn0103.lcn.iprimus.net.au])
+  QUIT  chrisq!simpsonlab@cdm-138-29-bcs.cox-internet.com (zzzzzzzzz)
+  JOIN  Jabby1!trilluser@adsl-63-206-118-187.dsl.snfc21.pacbell.net
+  MODE  "+o Jabby1" by ChanServ!ChanServ@Chanserv.telefragged.com
+  QUIT  Jabby!trilluser@adsl-63-206-118-187.dsl.snfc21.pacbell.net (Read error to Jabby[adsl-63-206-118-187.dsl.snfc21.pacbell.net]: Connection reset by peer)
+  QUIT  wattimus!123@h24-67-14-47.cg.shawcable.net (Read error to wattimus[h24-67-14-47.cg.shawcable.net]: Connection reset by peer)
+  JOIN  wattimu!123@h24-67-14-47.cg.shawcable.net
+<TTimo> back!
+<TTimo> the trunk is fairly experimental
+<Primer> well. 1-1 isn't working well for me
+<TTimo> I'm not sure that's what you would want to build ..
+<TTimo> you should try building from the Alpha branch
+<Primer> I have this issue where I create a brush, the drag a side, and it's DOG SLOW
+<TTimo> that's the current stable release
+<TTimo> mh .. did you try loading a texture set?
+<Primer> and it hangs my X while it moves the side one square every 5 seconds
+<Primer> yes
+<Primer> I can load textures just fine
+<TTimo> I remember it did that when you were using the default texture
+  JOIN  Juz!juz@ppp-4-13.5800-3.access.uk.worldonline.com
+  MODE  "+o Juz" by ChanServ!ChanServ@Chanserv.telefragged.com
+<TTimo> if you load a texture set and set the current texture to something it didn't happen
+<Primer> hrmm
+<Primer> I could swear that I did that and I continued to have the issue...
+<Primer> is the linux tree comparable to the windows tree in terms of features, stability?
+<Primer> are they in sync?
+<TTimo> yes
+<Primer> ok
+<Primer> hrmm
+<TTimo> maybe a few tweaks to apply on linux for Alpha branch
+<TTimo> (cause I've been working on win32 Alpha yesterday)
+<TTimo> but we release stuff in sync anyway
+<Primer> the latest nvidia driver has been quite stable for all my 3d stuff
+<Primer> for example, Maya runs VERY well
+<TTimo> well
+<TTimo> I have NVidia hardware too
+<TTimo> and Radiant works great
+<Primer> in Linux?
+<TTimo> yes
+<Primer> what distro?
+<TTimo> Debian
+<Primer> of course
+<TTimo> heh :)
+<Primer> I use redhate 7.1
+<TTimo> mh
+<TTimo> 7.1 ? that's tad old
+<TTimo> err actually .. I was thinking about mandrake
+<Primer> yeah, 7.1 is latest redhate
+<Primer> http://sh.nu/mon/radiant.jpg
+<Primer> check that out
+<Primer> I have twinview
+<TTimo> ah
+<TTimo> maybe that's a problem with dual head systems then
+<Primer> I dunno
+<TTimo> what is your setup to have two monitors? you have two X displays?
+<Primer> twinview card
+<TTimo> or localhost:0.0 localhost:0.1 ?
+<Primer> nvidia dual head card
+<Primer> no
+<Primer> it's one card
+<TTimo> ah ok
+<Primer> 2 rgb 15 outputs
+<Primer> it's treated as if it were one card
+<Primer> http://sh.nu/mon/head-001.jpg
+<TTimo> so it's like a desktop with a wiiide resolution
+<TTimo> I didn't know nvidia sold that
+<Primer> they've had this for quite a while now
+<TTimo> heh .. that your kid :)
+<Primer> this is a geforce 2 mx with twinview
+<Primer> winfast leadtek geforce 2 mx dh pro
+<Primer> is the make/model
+<TTimo> well .. it's not a "very" standard setup, so I would think that's the problem
+<Primer> you gonna be here for a while? what time is it there?
+<TTimo> did all versions of Radiant have the problem with this setup?
+<Primer> yes
+<Primer> abut I had this same problem on my old gf1 ddr
+<Primer> same EXACT problem
+<TTimo> so, the ones you downloaded as binary and the ones you compiled
+<Primer> yes
+<Primer> and on the old card too
+<Primer> the old card was a single head
+<TTimo> mh .. I don't think I would be able to reproduce the problem .. I have single head gf1 and it's been working great ..
+<Primer> ok, let me test now
+<TTimo> you would have to build it and try to track down the performance hit
+<Primer> I quit q3
+<Primer> 1-1TA?
+<TTimo> yeah that's the latest stab;e
+<TTimo> stable even
+<Primer> btw, the instructions for downloading the source from cvs...
+<Primer> says that I need to get Alpha GtkRadint for 1-1, and just GtkRadiant dor 1.2
+<Primer> I believe this is...backwards?
+<TTimo> no no
+<TTimo> the stable version is on a branch
+<TTimo> and the experimental one is in the trunk
+<Primer> ok, that textures thing...no go
+<TTimo> cause the main developement work is supposed to be happening on 1.2 now
+<Primer> maybe I should nuke my ~/.q3as/radiant?
+<TTimo> that may be a good idea
+<Primer> damn, it just hangs
+<Primer> I sometimes have to wait literally minutes before I get a response from the app
+<TTimo> err
+<TTimo> you should definitely compile a debug build and try to find out where it's hanging
+<Primer> I'm gonna re-install 1-1
+<Primer> heh
+<Primer> I'm not much of a coder
+<TTimo> mh
+<TTimo> well I could get you some debug builds and stuff I guess
+<Primer> I knew enough to add -I../incude to the Makefile though :)
+<Primer> err
+<Primer> -I../include
+<Primer> well, I'm willing to compile it
+<Primer> if you give me a few pointers
+  NICK  MarsSleep is now known as MarsMattel
+<TTimo> I need to work some on current Alpha
+<TTimo> and make sure it's building
+<Primer> well, I jkust built it
+<Primer> it builds
+<Primer> :P
+<TTimo> mh ok .. that means it wasn't too bad
+<Primer> so, cvs co Alpha GtkRadiant?
+<Primer> and that will get me 1-1TA?
+<TTimo> cvs co -r Alpha GtkRadiant
+<Primer> ok
+<TTimo> that will get you .. 1.1-TA.1
+<TTimo> i.e. a bugfix build of 1.1-TA we are preparing
+<Primer> ok
+<Primer> pulling it down now
+<TTimo> I'll open a bug report on bugzilla about it
+<Primer> is it simply a matter of setting a debug flag in the Makefile?
+
+---------------------------------------------------------------------
+
+* Previous message: [Gtkradiant] roadmap, developement process (Was: realtime lighting)  
+* Next message: [Gtkradiant] [Bug 68] nightly build code for IS setup 
+* Messages sorted by: [ date ] [ thread ] [ subject ] [ author ] 
+

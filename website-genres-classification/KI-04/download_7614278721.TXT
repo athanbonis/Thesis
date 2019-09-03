@@ -1,0 +1,130 @@
+
+
+ 	 
+Fookes Software	 Home | Downloads | Products | Buy Now | Site Licenses | Support | Contact Us | About Us	  	 
+Main Links Home
+ Downloads
+ Products
+ Buy Now
+ Site Licenses
+
+Support
+ Contact Us
+ About Us NoteTab Editors NoteTab Pro
+ NoteTab Std
+ NoteTab Light
+
+Upgrades
+ Rate NoteTab Resources Clip Libraries
+ Dictionaries
+
+Press Kits
+ Useful Links Information Comparison Chart
+ News & Updates
+ Testimonials
+ Awards
+ Other Software Album Express
+ Easy Imager
+ Easy Thumbnails
+ Mailbag Assistant 
+
+Downloads and Useful Resources
+
+The NoteTab distribution file is available in two formats from three different locations. The EXE package is the easiest to install. However, some systems don't allow downloading those file types. In that case, download the ZIP package and extract its contents with a utility like Winzip.
+
+There is no trial version for NoteTab Standard, but you can install NoteTab Light to see what it's like.
+
+NoteTab Light 4.95 - Freeware	 
+
+The ultimate free Notepad replacement and a handy HTML editor. Handle a heap of files with a simple tabbed interface. Search files, strip HTML tags and format text quickly. Build libraries of text macros to speed up your work. Formerly called "Super NoteTab". 100% free -- no ads and no nags.	 
+
+NoteTab Pro 4.95 - Free Trial	 
+
+For those who want the best. NoteTab Pro offers all the features HTML authors, programmers, and other demanding users need to speed up their work. Best of all, it's programmable! The full version adds a thesaurus and a multilingual spell checker. Customers wishing to upgrade their paid version should go here.	 
+
+A Help file is included with NoteTab. However, if you prefer a printed manual, download the PDF manual (size 358 KB) and print it through Adobe Acrobat:
+
+ 	 System Requirements
+ 
+* Windows 95/98/ME/NT4/2000/XP 
+* 4 MB of free disk space 
+* 16 MB of RAM (32 MB for NT) 
+
+Recommended Software
+
+The programs and utilities listed in this section are useful complements to NoteTab. Most are free and work seamlessly from NoteTab. 
+
+1. Web Development Resources
+
+HTML TIDY - Cleans up your Web pages (free)
+ CSE HTML Validator - Checks HTML syntax errors
+ TopStyle CSS editor - Helps editing Cascading Style Sheets
+ BK Colour Coder - HTML utility (free)
+ HTML Reference Library ver. 4 - Help file from Stephen Le Hunte (free)
+ Xenu's Link Sleuth - Finds broken links on Web sites (free)
+ Easy Thumbnails - Creates thumbnails of your pictures (free)
+ 
+
+2. Text Processing Resources
+
+UAS - adds smart autocompletion to NoteTab 4.9 (free)
+ TxtPrint - Print preview utility (free); Clipbook library available
+ Fine Print - Utility that prints multiple pages on a single sheet of paper
+ ExamDiff - Visual file comparisons (free); Clipbook library available
+ Frhed - An excellent Hex editor for Windows (free)
+ Perl for Win32 - PERL interpreter for Windows (free)
+ gawk306x.zip - Version 3.06 of GAWK (free)
+ 
+
+3. Internet Tools
+
+UploadAway - Easy FTP uploads directly from NoteTab (beta)
+ Netcaptor - Opens Web pages on separate browser tabs (free)
+ Opera - the fastest Web browser on earth (now free)
+ 
+
+4. Other Resources
+
+File-Ex - Automatically enlarges and enhances File Open/Save dialogs
+ Screen Loupe - Magnified view of whatever is under the mouse
+ 
+
+Sound Files
+
+Various sounds are available for use with NoteTab's toolbar and Clips... 
+
+Sounds for the Toolbar
+
+* ClkSwtch.zip (about 170 KB).
+Sounds of clicks and switches sampled by Ted Tatman. 
+
+Sounds for Clips
+
+clipwavs.zip (about 208 KB).
+Spoken messages for use with some of the NoteTab sample Clips (NoteTab v4.5 or higher). Nicole.zip (about 315 KB).
+Text spoken by Nicole Simon, for use in Clips (NoteTab v4.5 or higher). 
+
+Various Sounds
+
+* ntb-wav.zip (about 36 KB).
+Darlene's voice saying NoteTab (from Ted Tatman). 
+
+Various Documents
+
+Here you will find links to various useful or interesting documents submitted by NoteTab users. Free downloads... 
+King James Bible + Easton's Bible Dictionary (size 2,300 KB)
+The King James Bible and Easton's Bible dictionary converted to NoteTab Outline; supplied by John Cerbus. Spurgeon's Morning and Evening Journal (size 536 KB)
+This classic devotional from Charles Spurgeon is arranged by calendar date in Outline format. Simply click on, or scroll to the date you want; supplied by John Cerbus. Quick Reference List
+The Quick Reference List provides alphabetical and functional (grouped by similar uses) listings of the NoteTab Clip Language Instructions; written by Leonard O. Hargrove, Jr. The NoteTab Reference Outline
+Clip programming portions of NoteTab's help file, with extensive cross-references (for NoteTab v4.6); written by Wayne VanWeerthuizen The NoteTab Glossary Outline
+A useful glossary of technical terms used in NoteTab's documentation. Note that this file is installed by NoteTab 4.8 and higher, so this download will only interest users of older versions of NoteTab that do not wish to upgrade. 
+Back to top 	
+ 	 Home | Downloads | Products | Buy Now | Site Licenses | Support | Contact Us | About Us	 
+ 	 NoteTab is a trademark of Fookes Software.
+ Windows is a trademark of Microsoft Corporation registered in the U.S. and other countries.
+ All other trademarks and service marks are the property of their respective owners.
+
+Fookes Software -- quality products from Charmey, Switzerland
+ Copyright © 2004, Fookes Software.
+ Last updated on June 24, 2003 	
+

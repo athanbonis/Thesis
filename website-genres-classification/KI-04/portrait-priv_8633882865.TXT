@@ -1,0 +1,148 @@
+Private Homepage. 
+
+"cryptography is a mixture of mathematics and muddle" , Ian Cassels  (Bletchley Park) 
+
+Dr. rer. nat. Rüdiger Weis, Diplom-Mathematiker , <ruedi@cryptolabs.org> 
+
+Curriculum vitae 
+
+I studied mathematics (Abschluss: Sehr Gut) with a minor in computer science (Abschluss: 1.0) at the University of Mannheim. Master's thesis An algorithm for spline approximation via Gauss-Transformation. I did my Ph.D. thesis at Lehrstuhl Praktische Informatik IV (Practical Computer Science IV). Since then I am the Chief Cryptographer of the cryptolabs Amsterdam. In May 2002 I have joined the reseach group of Prof. Andrew S. Tanenbaum at the Vrije Universiteit Amsterdam. I am also a longtime member of the Chaos Computer Club. 
+
+Researchinterests 
+
+* Cryptography 
+* Computer security 
+* Smart cards especially JAVA cards 
+* GSM 
+* Electronic Payments 
+* Distributed Multimedia Systems 
+* VPN, VBB 
+
+Pretty Good Papers 
+
+Reviewed International Conferences
+
+1.  IDMS '98 Oslo (LNCS 1483) 
+W. Geyer and R. Weis, A Secure, Accountable, and Collaborative Whiteboard 
+IDMS'98, Workshop on Distributed Multimedia Systems and Services, Oslo, September 1998. 
+
+2.  CARDIS'98 Lovain (w.a. LNCS) 
+Weis, R., Lucks,S. , The Performance of Modern Block Ciphers in Java, CARDIS'98, Lovain, 1998. 
+
+3.  Multimedia Computing & Networking'99, San Jose 
+Lucks, S., Weis, R., Hilt, V., Fast Encryption for Set-Top Technologies, San Jose, Jan 1999. 
+(With a finger of Martin Mauve!-) 
+4.  1st USENIX Workshop on Smartcard Technology, Chicago 
+S. Lucks and R. Weis: Remotely Keyed Encryption Using Non-Encrypting Smart Cards 
+USENIX Workshop on Smartcard Technology
+May 10-11, 1999, Chicago, Illinois 
+Conference stipend donated by 
+
+5.  ECMAST'99 Madrid (LNCS1629) 
+Weis, R.and Lucks, S.: Fast Multimedia Encryption in JAVA Using Unbalanced Luby/Rackoff Ciphers 
+4th European Conference on Multimedia Applications, Services and Techniques, Madrid, 26-28 MAY 1999. 
+
+6.  NLT'99 Bern 
+2nd international CONFERENCE ON NEW LEARNING TECHNOLOGIES
+30 - 31 August 1999 at University of Berne, Switzerland 
+Weis, R. and Geyer, W.: Cryptographic Concepts for Online-Feedback 
+
+7.  IFIP TC-11, Working Groups 11.1 and 11.2, Amsterdam 
+IFIP TC-11, Working Groups 11.1 and 11.2,
+7 th Annual Working Conference on Information Security Management & Small Systems Security, 30 September - 1 October, 1999 
+Weis, R., A Protocol Improvement for High-Bandwidth Encryption Using Non-Encrypting Smart Cards 
+
+8.  SANE200 - 2nd International System Administration and Networking Conference, Maastricht 
+Organized by NLUUG, co-sponsored by USENIX and Stichting NLnet 
+
+May 22 - 25, 2000 MECC, Maastricht, The Netherlands 
+
+Weis, R., Bakker, B., Lucks, S., 
+"How to Ring a Swan - Adding Tamper Resistant Authentication to Linux IPSec" 
+9.  SANE2000 - 2nd International System Administration and Networking Conference, Maastricht 
+
+Weis, R., Geyer, W., Kuhmünch, C. 
+"Architectures for Secure Multicast" 
+10. IEEE-ICME2000, New York, 
+IEEE International Conference on Multimedia and Expo, July 30 - August 2, 2000 
+
+Weis, R., Effelsberg, W., Lucks, S., 
+''Remotely Keyed Encryption with Java Cards: A Secure and Efficient Method to Encrypt Multimedia Stream'' 
+11. IFIP Cardis2000, Bristol 
+FOURTH SMART CARD RESEARCH AND ADVANCED APPLICATION CONFERENCE, September 20-22, 2000
+ 
+Lucks, S., Weis, R.,
+ How to Make DES-Based Smartcards Fit for the 21-st Century
+ Cryptographic Techniques for Advanced Security Requirements 
+12. SMARTNET2000, Wien 
+The Sixth IFIP Conference on Intelligence in Networks, 18.-22. September 2000 
+
+Weis, R., Effelsberg, W., Lucks, S., 
+Combining Authentication and Lightweight Payment for Active Networks 
+13. IDMS2000, Enschede
+7th International Workshop on Interactive Distributed Multimedia Systems and Telecommunication Services, 
+17. - 20. October 2000, CTIT / University of Twente in co-operation with ACM SIGCOMM and SIGMM 
+
+Weis, R., Vogel,J., Effelsberg, W., Geyer, W., Lucks, S., 
+How to Make a Digital Whiteboard Secure - Using JAVA-Cards for Multimedia Application 
+14. JAVA Card Workshop, Cannes 
+
+INRIA Sophia Antipolis, JAVA CARD FORUM 
+
+JAVA Card Workshop 
+
+Weis, R., Bakker, B., Lucks, S. 
+Security on your hand: secure file systems with a "non-cryptographic" Java-Ring 
+15. Weis, R.., Lucks, S. All your key bit are belong to us, the true story of black box cryptography, SANE 2002, Maastricht, 2002. 
+16. Lucks, S., Weis, R., How to turn a PIN into an Iron Beam - A patent-free and practical protocol for secure communication using a weak common secret, 18th IFIP International Information Security Conference, Athene, 2003. 
+
+International Journals
+
+1.  Geyer, G., Weis, R.: The Design and the Security Concept of a Collaborative Whiteboard, Computer Communications 23 (2000), Elsevier, 2000. 
+
+Selected German Journals
+
+1.  Weis, R., Skipjack, DuD 09/98 
+2.  Weis, R., Lucks, S., GSM, DuD 09/98, Vieweg 
+3.  Weis, R., Lucks, S., KEA, DuD 10/98, Vieweg 
+4.  Weis, R., Kuntze, R., GSM ALgorithmen entschlüsselt, Funkschau 11/98 
+5.  Weis, R., Lucks, S., Advanced Encryption Standard, DuD23/99, Vieweg 
+6.  Weis, R., Lucks, S., Sichere, Standardisierte, Symmetrische Verschlüsselung auf Basis von DES und AES, PiK. 
+7.  Weis, R., Lucks, S., Geyer, W., Stand der Faktorisierungsforschung, DuD03/00, Vieweg 
+8.  Zenner, E., Weis, R., Lucks, S., Sicherheit des GSM-Verschlüsselungsstandard A5 DuD07/00, Vieweg. 
+9.  Weis, R., Lucks, S., Die dritte AES Konferenz in New York DuD07/00, Vieweg. 
+10. Lucks, S., Weis, R., Der DES-Nachfolger Rijndael,  DuD12/00, Vieweg. 
+11. Weis, R., Lucks, S., Wave-LAN Sicherheit, Datenschutz und Datensicherheit, DuD 11/01, Vieweg, 2001. 
+12. Lucks, S., Weis, R., Neue Erkenntnisse zur Sicherheit des Verschluesselungsstandard AES, Datenschutz und Datensicherheit, DuD 11/02, Vieweg, 2002. 
+13. Lucks, S., Weis, R., Bogk, A., Sicherheit von 1024 bit RSA-Schlüsseln gefährdet, Datenschutz und Datensicherheit, DuD 06/2003, Vieweg, 2002. 
+
+Technical Reports
+
+* Lucks, S., Weis, R., A Related Key Attack against 14 Rounds of SKIPJACK, Technical Report , UniversitÃ¤t Mannheim, 1999. 
+
+CEBIT2000, Halle 4, Stand A22
+
+Presentation of a JAVA card supported video encryption scheme. 
+
+Some Invited Talks
+
+* AlaCard Security Conference, Wiesbaden 97, Sicherheit von Chipkarten 
+* alaCard Symposium Technologie (Hamburg Juni 1997) 
+
+Lessons 
+
+* WS98/99: Teleseminar: Sicherheit in der Kommunikationstechnik 
+* Exercises in Kryptographie 
+* Opennet-Tutorium: Cryptography, Concepts and Applications 
+
+OPENNET '98:Kompetenz für ein besseres Internet
+DIE Konferenz des " German Chapter of the Internet Society (ISOC.DE)" 	
+
+* Opennet-Tutorium: Cryptography, Applications, 
+* In WS 96/97 I was one of the initators of the Tele-Seminars (Ma-Ka-Fr): Digital money on the Internet. 
+
+---------------------------------------------------------------------
+Back to cryptolabs.org homepage 
+---------------------------------------------------------------------
+Rüdiger Weis <ruedi@cryptolabs.org> 
+PGP keyID 1024/E12469C1, Key fingerprint = C8 B5 52 AC 05 EA C7 2A EB 31 E3 FB 65 DD 7A 76 

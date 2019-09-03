@@ -1,0 +1,200 @@
+
+
+GnuPG 		  	
+Deutsch · English · Español · Français · Italiano  	  	
+
+Page Contents Download Binaries Entropy Gathering Daemon Gnu Privacy Assistant GnuPG 1.9 GnuPG Made Easy Libgcrypt Libksba DirMngr Libgpg-error Libassuan
+ 	 	
+ 	 	
+ 	
+Home Features News Legal Site Map
+ 	 	
+ 	 	
+ 	
+Download Integrity Check Supported Systems Release Notes Mirrors CVS
+ 	 	
+ 	 	
+ 	
+Documentation HOWTOs Guides FAQs Mailing lists Sites BTS
+ 	 	
+ 	 	
+ 	
+Related software Frontends Tools Libraries
+ 	 	
+ 	 	
+ 	
+Misc Links Thanks
+ 	 	
+ 	 	
+ 	
+ 	  
+Download
+
+We suggest that you download the GNU Privacy Guard from a mirror site close to you. See our list of mirrors. To locate a source package (indicated by an `S') on a mirror, follow the link to the gnupg directory; to locate a binary package (indicated by a `B') follow the link to the binary.
+
+The table below provides links to the location of the files on the primary server only; you may select between using the FTP and the HTTP protocol.
+
+· 	GnuPG 1.2.4 source compressed using bzip2. 	2321k 	S 	FTP 	
+· 	Signature and MD5 checksum for previous file. 16d0b575812060328f8e677b7f0047cc  gnupg-1.2.4.tar.bz2 	  	  	FTP 	
+· 	GnuPG 1.2.4 source compressed using gzip. 	3370k 	S 	FTP 	
+· 	Signature and MD5 checksum for previous file. adfab529010ba55533c8e538c0b042a2  gnupg-1.2.4.tar.gz 	  	  	FTP 	
+· 	A patch file to upgrade to a 1.2.4 source tree. This file is signed; you have to use GnuPG >= 0.9.5 to verify the signature. GnuPG has a feature to allow clear signed patch files which can still be processed by the patch utility. 	859k 	S 	FTP 	
+· 	MD5 checksum for previous file. 8186b9a52bd65e87ce65824cf62d3916  gnupg-1.2.3-1.2.4.diff.gz 	  	  	  	
+
+Select one of them. To shorten the download time, you probably want to get the bzip2 compressed file. Please try another mirror if exceptionally your mirror is not yet up to date.
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Binaries
+
+Packages for Debian GNU/Linux are available at the Debian site.
+
+RPM packages of this software should be available at crypto.ferrara.linux.it.
+
+Packages for other POSIX-like operating systems might be available at Unix Security.
+
+Packages for Mac OS X should be available at Mac GPG.
+
+Sources and precompiled binaries for RISC OS are available at Stefan Bellon's home page who ported GnuPG to this platform.
+
+There is also a version compiled for MS-Windows. Note that this is a command line version and comes without a grahical installer tool. You have to use an unzip utility to extract the files and install them manually. The included file README.W32 has further instructions.
+
+· 	GnuPG 1.2.4 compiled for Microsoft Windows. 	  	B 	FTP 	
+· 	Signature and MD5 checksum for previous file. bb568fe26abbe045d91f95ae0324eab2  gnupg-w32cli-1.2.4.zip 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Entropy Gathering Daemon
+
+The latest version of the Entropy Gathering Daemon is available at the usual GnuPG sites:
+
+· 	EGD 0.8 source code. 	30kB 	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Gnu Privacy Assistant
+
+GPA is still work in progress, so don't expect that everything works and be careful when using production quality secret keys.
+
+· 	GPA 0.7.0 full source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ GnuPG 1.9
+
+GnuPG 1.9 is the experimental branch of GnuPG with support for S/MIME.
+
+· 	GnuPG 1.9.3 full source code. 	1208k 	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+· 	GnuPG 1.9.3 source compressed using bzip2. 	931k 	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ GnuPG Made Easy
+
+GPGME is still work in progress, so don't expect that everything works and be careful when using production quality secret keys.
+
+· 	Semi-stable gpgme 0.3 source code. 	664k 	S 	FTP 	
+· 	Signature and MD5 checksum for previous file. 0476b219695ea25cb2a97b18b717e381  gpgme-0.3.16.tar.gz 	  	  	FTP 	
+
+· 	Unstable development GPGME source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Libgcrypt
+
+Libgcrypt is approaching stable status.
+
+· 	Libgcrypt source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Libksba
+
+Libksba is a CMS and X.509 access library under development.
+
+· 	Libksba source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ DirMngr
+
+DirMngr is a daemon to handle CRL and certificate requests for GnuPG 1.9
+
+· 	DirMngr 0.5.1 full source code. 	  	S 	FTP 	
+· 	Signature and MD5 checksum for previous file. cc99f7cdb90c8e4d32cac395ac0984af  dirmngr-0.5.1.tar.gz 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Libgpg-error
+
+Libgpg-error is a small library with error codes and descriptions shared by most GnuPG related software.
+
+· 	Libgpg-error source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ Libassuan
+
+Libassuan is the IPC library used by some GnuPG related software.
+
+· 	Libassuan source code. 	  	S 	FTP 	
+· 	Signature for previous file. 	  	  	FTP 	
+
+GnuPG distributions are signed. It is wise and more secure to check out for their integrity.
+
+ 	
+ 	 	
+ 	
+ 	 
+   	  
+
+Copyright (C) 2002-2003 Free Software Foundation, Inc.
+
+Written by Werner Koch (2003-10-28 21:46). Generated with WML 2.0.8 (30-Oct-2001) on 2004-01-24 01:03:12 from source file index.wml, $Revision: 1.35 $, $Date: 2003/12/30 12:14:50 $ Site designed by LoLo
+
+For any question, please, follow these directions
+
+ 	 Technical resources for this project are sponsered by	 Site sponsored by	  	 
+ 	 		 	 
+
+        
+
+

@@ -1,0 +1,115 @@
+Lisp in Java 
+
+This project implements a subset of the Lisp language using Java. There is more information in the 
+---------------------------------------------------------------------
+
+I have always been fascinated with LISP and with implementations of LISP. Back in 1983 I wrote an implement in Pascal. In the early 1990s I tackled it once again, this time in C, because I wanted to be able to embed LISP code inside a C program easily. The C implementation was pretty complete and workable. Then I decided to see if I could translate that "easily" into Java, since "C and Java are so similar." Ha! What an eye-opener this was! C and Java share only minimal similaries. There are so many differences that one cannot just take C or C++ code and quickly work it into a Java program. 
+
+Anyway, I did get the code rewritten and here is what I came up with. 
+
+There are two ways to use the main LispInterpreter class. One way is shown in test0.java. In this method you embed the Lisp s-expressions that you wish to be evaluated in Strings and pass them to the interpreter. This not only prints out the result but it also remembers "state" such as variables you might declare and their values, as well as user-defined LISP functions. 
+
+The second way is to run a LISP shell interactively, and this is shown in test1.java. This must be run from the MS-DOS prompt since it uses stdin. 
+
+You can also store a bunch of s-expressions in a file and have the interpreter read the file by using 
+
+(readfile 'filename)
+
+A number of files have been created and tested. They all start with the prefix "prog" and have no suffix. Some of them interactively evaluate s-expressions while some declare user-defined functions. 
+
+While there are many things I didn't implement, I did implement a lot of interesting things, even lambda expressions and mapcar. 
+
+Below is more information about the project. 
+
+Built-in functions
+-----------------------------------------------------------------------------
+
+=              atom               explode           null
+     +              block              if                print
+     -              car                implode           quote
+     *              cdr                lambda            readfile
+     /              comment            length            return
+     %              cons               listp             return-from
+                   eval               not               while
+
+Project History
+-----------------------------------------------------------------------------
+
+6-11-97   Got one version to work finally.  This was largely based on the 
+          original C code with Mstrings added.
+
+6-12-97   Finished rewrite in which I gutted most of LispInterpreter and 
+          wrote a new class called LispParser.  It worked almost at once.
+          There are a few minor bugs yet, such as the inequality of () and nil.
+
+5-8-98    Finally got the Windows 95 version to work.  I structured
+          it into packages logically.  But it runs only under the MS-DOS
+          prompt, not from the BASH-shell because it reads from standard
+          input. 
+
+6-4-98    Began rewriting major sections and using the new ParsedString instead
+          of the old Mstring.
+
+6-6-98    Finished converting over to ParsedString.  Found numerous little
+          bugs.  Streamlined LispSymbolTable.  Wrote up a huge number of tests
+          and made sure it passed them all.  None of the new stuff like
+          control structures or functions have been added.  Total LOC=1785.
+
+6-8-98    Started to add functions but decided to streamline by removing
+          ParsedString and going solely with LispObject.
+
+6-9-98    Got the new version with only LispObject done up to pre-functions
+          stage.  Lots of subtle debugging issues.
+          Later got the essential functions to work.  Added if and block,
+          which work okay, and also .  Later added while and got that
+          to work.
+
+6-10-98   Found a very subtle bug in the cdr() method of LispObject.  It 
+          wasn't changing the "orig" String, hence (cdr '(b c)) would give
+          the same thing over and over.  Once fixed, recursive functions
+          worked fine.
+
+Here are what the various demo programs do: 
+
+test0.java  --  simple demonstration of reading an S-expression from
+                     user, evaluating it, and printing the result
+
+test1.java  --  general purpose LISP shell, calls read_eval_print()
+
+test2.java  --  illustrates definition of user functions
+
+test3.java  --  illustrates if statements
+
+test4.java  --  illustrates block control structure
+
+test5.java  --  tests all the condition functions (<, >, etc.)
+
+test6.java  --  illustrates while loop
+
+test7.java  --  illustrates while loop with early exit
+
+test8.java  --  illustrates another while loop
+
+test9.java  --  reads s-expressions from a file named "prog"
+
+test10.java  --  reads s-expressions from a file named "prog", echos
+                      the results of evaluation back to the screen
+
+test11.java  --  reads s-expressions from a file named "prog30"
+
+test12.java  --  shows how to create LispObjects in a Java program
+
+test13.java  --  illustrates explode and implode functions
+
+test14.java  --  illustrates mapcar
+
+test15.java  --  general program that takes the name of a LISP source
+                      file and runs it
+
+To compile... 
+
+Just compile any one of the programs in this directory. It will automatically trigger the Java compiler to descend into the "lispinjava" directory and compile everything there. 
+
+% javac test0.java
+
+

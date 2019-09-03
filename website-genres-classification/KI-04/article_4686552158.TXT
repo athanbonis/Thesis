@@ -1,0 +1,90 @@
+
+
+---------------------------------------------------------------------
+
+Next: 3 Weight Matrices for Up: Pairwise Sequence Alignments Previous: 1 Distance and Similarity 
+
+---------------------------------------------------------------------
+
+2 Pairwise Alignment via Dynamic Programming
+
+2.1 Calculating Edit Distances and Optimal Alignments
+
+  (Edit Dist. Calculation) The number of possible alignments between two sequences is gigantic, and unless the weight function is very simple, it may seem difficult to pick out an optimal alignment. But fortunately, there is an easy and systematic way to find it. The algorithm described now is very famous in biocomputing, it is usually called ``the dynamic programming algorithm''. 
+
+Consider two prefixes and , with . Let us assume we already know optimal alignments between all shorter prefixes of and , in particular of 
+
+1.  and , of 
+2.  and , and of 
+3.  and . 
+
+An optimal alignment of and must be an extension of one of the above by 
+
+1.  a Replacement, or a Match, depending on whether 
+2.  a Deletion, or 
+3.  an Insertion. 
+
+(Edit Dist. Recursion) We simply have to choose the minimum: 
+
+There is no choice when one of the prefixes is empty, i.e. , or , or both: 
+
+According to this scheme, and for a given , the edit distances of all prefixes of and define an
+ distance matrix with . 
+
+The three-way choice in the minimization formula for leads to the following pattern of dependencies between matrix elements: 
+
+The bottom right corner of the distance matrix contains the desired result: . 
+
+(Edit Dist. Matrix) This is the distance matrix for our previous example with 
+
+: 
+
+In the second diagram, we have drawn a path through the distance matrix indicating which case was chosen when taking the minimum. A diagonal line means Replacement or Match, a vertical line means Deletion, and a horizontal line means Insertion. Thus, this path indicates the edit operation protocol of the optimal alignment with . Note that in some cases, the minimal choice is not unique, and different paths could have been drawn which indicate alternative optimal alignments. 
+
+Another example is here. 
+
+In which order should we calculate the matrix entries? The only constraint is the above pattern of dependencies. The most common order of calculation is line by line (each line from left to right), or column by column (each column from top-to-bottom). 
+
+Some Exercises involving Dynamic Programming
+
+1.  Find out the cost model used by the BioMOO aligner. Calculate a dynamic programming matrix and alignment for the sequences ATT and TTC. Check your results using the BioMOO alignment, i.e. type  "opt_align ATT TTC matrix with #90"on the MOO. (You can also use the WWW-Interface, see this tutorial.) How many optimal alignments are there ? 
+2.  The number of possible alignments is described as "gigantic". How many are there for the sequences ATT and TTC ? (Extra Credit.) If you wish do devise a formula for the number of alignments, which method can be used to enumerate them systematically ? Devise such a formula. 
+
+2.2 A Word on the Dynamic Programming Paradigm
+
+``Dynamic Programming'' is a very general programming technique. It is applicable when a large search space can be structured into a succession of stages, such that 
+
+* the initial stage contains trivial solutions to sub-problems, 
+* each partial solution in a later stage can be calculated by recurring on only a fixed number of partial solutions in an earlier stage, 
+* the final stage contains the overall solution. 
+
+This applies to our distance matrix: The columns are the stages, the first column is trivial, the final one contains the overall result. A matrix entry is the partial solution and can be determined from two solutions in the previous column and plus one in the same column, namely . Since calculating edit distances is the predominant approach to sequence comparison, some people simply call this THE dynamic programming algorithm. Just note that the dynamic programming paradigm has many other applications as well, even within bioinformatics. 
+
+2.3 A Word on Scoring Functions and Related Notions
+
+Many authors use different words for essentially the same idea: scores, weights, costs, distance and similarity functions all attribute a numeric value to a pair of sequences. 
+
+* ``distance'' should only be used when the metric axioms are satisfied. In particular, distance values are never negative. The optimal alignment minimizes distance. 
+* The term ``costs'' usually implies positive values, with the overall cost to be minimized. However, metric axioms are not assumed. 
+* ``weights'' and ``scores'' can be positive or negative. The most popular use is that a high score is good, i.e. it indicates a lot of similarity. Hence, the optimal alignments maximize scores. 
+* The term ``similarity'' immediately implies that large values are good, i.e. an optimal alignment maximizes similarity. Intuitively, one would expect that similarity values should not be negative (what is less than zero similarity?). But don't be surprised to see negative similarity scores shortly. 
+
+Mathematically, distances are a little more tractable than the others. In terms of programming, general scoring functions are a little more flexible. For example, the algorithm for local similarity presented in section 5.1 depends on the use of both positive and negative scores. The accumulated score of two subsequences may rise above the threshold value, and may fall below it after encountering some negative scores. 
+
+Let us close with another caveat concerning the influence of sequence length on similarity. Let us just count exact matches and let us assume that two sequences of length and , respectively, have 99 exact matches. Let be the similarity score calculated for and under this cost model. 
+
+So, . What this means depends on : If , the sequences are very similar - almost identical. If , we have only 10% identity! (Two typos were corrected in this paragraph on Wed May 15 17:06:38 MDT 1996.) So if we relate sequences of varying length, it makes sense to use length-relative scores - rather than we use for sequence comparison. 
+
+Back to VSNS BioComputing Division Home Page. 
+VSNS-BCD Copyright 1995/1996. 
+Robert Giegerich 
+
+---------------------------------------------------------------------
+
+Next: 3 Weight Matrices for Up: Pairwise Sequence Alignments Previous: 1 Distance and Similarity 
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Mon Apr 29 18:31:03 MET DST 1996 

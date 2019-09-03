@@ -1,0 +1,59 @@
+Alamo Bowl Merchandise at SBS --> Log In Store Info Monday: 9am-7pm Tuesday: 9am-7pm Wednesday: 9am-7pm Thursday: 9am-7pm Friday: 9am-7pm Saturday : 10am-6pm Sunday: Noon-5pm Please note: These are our regular store hours, we may extend them during peak business periods. Please call 517-351-4210 for weekly store hours.   -->          
+  
+ 	  
+
+Merchandise
+   
+                                                                        Green & White
+                                    Textbooks
+                      	
+    	  
+  
+  Campus Sites
+   Michigan State University
+   Lansing Community College
+   Michigan Virtual High School
+    	
+    
+
+Student Book Store
+ 421 E. Grand River Ave
+ East Lansing, MI
+ 48823
+ Phone: 517-351-4210
+ Fax: 517-351-2568
+ email us
+         	
+  
+
+powered by 
+
+from Sequoia Retail Systems, Inc.
+ Design ©2004 by Sequoia Retail Systems, Inc. 	
+
+Home Page                               Information                                          Policies                                          What's New                                          Store Hours                                          About Us                        	
+ 	 
+ 
+             
+                     	  
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+                                                  	
+       	                   
+     
+  Log In	     var d=new Date()   var weekday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday")   var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December")   document.write(weekday[d.getDay()] + ", ")   document.write(monthname[d.getMonth()] + " ")   document.write(d.getDate() + ", ")   document.write(d.getFullYear())   	  
+   	
+     
+
+Store Info 	
+Monday:  9am-7pm
+Tuesday:  9am-7pm
+Wednesday:  9am-7pm
+Thursday:  9am-7pm
+Friday:  9am-7pm
+Saturday :  10am-6pm
+Sunday:  Noon-5pm 
+
+Please note: These are our regular store hours, we may extend them during peak business periods. 
+Please call 517-351-4210 for weekly store hours.
+
+

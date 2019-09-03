@@ -1,0 +1,25 @@
+Archive: http://www.egroups.com/group/links-browser . Enhanced Links versions (experimantal, hacked, maybe non-stable versions): Links-lua . (obsolete; it's included in Elinks) Elinks . (it used to be here and here ) Links 2 with javascript and graphics -- has javascript interpreter and supports graphics on svgalib, framebuffer, x, os/2 pmshell and atheos. Links Hacked -- a bit hacked version of Links 2.   --> 
+
+Links home page
+
+Links is text WWW browser with tables. Runs on Unix and OS/2. 
+
+Current version is 0.99. Go to download directory. 
+
+See some screenshots in png or jpg format. 
+
+Go to mirror sites. 
+
+See Links manual. 
+
+Now we have mailing list links-list@linuxfromscratch.org.
+More info ... 
+Archive: http://www.egroups.com/group/links-browser. 
+
+Enhanced Links versions (experimantal, hacked, maybe non-stable versions): 
+
+* Links-lua. (obsolete; it's included in Elinks) 
+* Elinks. (it used to be here and here) 
+* Links 2 with javascript and graphics -- has javascript interpreter and supports graphics on svgalib, framebuffer, x, os/2 pmshell and atheos. 
+* Links Hacked -- a bit hacked version of Links 2. 
+

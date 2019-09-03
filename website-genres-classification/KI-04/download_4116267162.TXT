@@ -1,0 +1,27 @@
+
+
+ 
+
+DC++ v0.306 for Windows 
+
+Windows (All) 	
+
+DC++ v0.306 Source 
+
+MS Visual C++ 6.0/.NET 	
+
+Windows 95/NT4 Common controls Update
+ 	
+Win 95/NT4 only 	
+
+DC++ source extras
+ Required to compile source
+ 	DCPlusPlus-wtl7.0-src.zip
+ stlport-4.5.3-dcpp.zip 	
+
+DC++ Language Files
+ Use DC++ in other languages
+
+Link	 
+
+

@@ -1,0 +1,93 @@
+  .note-header-text {font-family: Times, Times New Roman, serif;   color:#ff0000; font-size: .95em;   margin-left: .75em; margin-right: .75em;}                           
+ 
+         	           
+    	         Subscribe (Full Service)   	      Register (Free, Limited Service)   	               Login       	       
+            
+    	         
+     	              Search:   The ACM Digital Library   The Guide                      	        
+        	   
+  
+  	  
+                
+   	   	   	   	   	    
+   	   Full text collection    of every article published by ACM, including over 50 years of archives.
+   Go to The ACM Digital Library    	   	   Bibliographic collection    from major publishers in computing with over 750,000 entries.
+   Go to The Guide    	   	    
+   	     
+              
+ 	        
+               TECHNews Headlines   Friday, January 23, 2004                                              
+* 
+UC Berkeley News (01/21/04); Yang, Sarah; Sneiderman, Phil   
+
+Four prestigious cyber-security experts--former ACM President Barbara Simons, Avi Rubin of Johns Hopkins University, David Wagner of USC Berkeley, and David Jefferson of Lawrence Livermore National Laboratory--have concluded that the U.S. Defense Department's Secure Electronic Registration and Voting Experiment (SERVE) is highly vulnerable to hackers or even terrorists who could compromise the outcome of elections without being detected. The experts are unanimous in their recommendation that the system, designed as an online absentee voting tool for 6 million U.S. citizens and servicemen living overseas, be shut down. SERVE's vulnerabilities are fundamental to the Internet, which leads to the conclusion that online electronic voting is essentially unworkable. Simons says,                                                             
+* ACM Members Voice Support for Policy Against Expanding Protections For Scientific Data                                                             
+* Easing of Internet Regulations Challenges Surveillance Efforts                          
+* more news...  
+    Professional Development Centre
+Most Popular Courses         
+* Data Modeling        
+* Project Management Fundamentals        
+* UML Fundamentals        
+* Introduction to the Java[tm] Programming Language        
+* Introduction to SQL, Part 1       
+* more courses...  
+   
+ 	 Feedback	 
+ 	     
+* Report a problem   
+* Take our Satisfaction survey  
+  	
+   	   	       What's New at ACM 
+ 	
+ ACM Queue, a new magazine for practitioners.	    	
+ ACM Queue takes a peek into the future, and the latest computing trends.	 
+Learn more, subscribe.	 
+ 	
+ 	
+ 	
+Nearly 200 FREE web-based training courses in the ACM Professional Development Centre for Student and Professional Members!	 
+ 	
+ 	
+ 	
+Become a reviewer for ACM Computing Reviews	 
+ 	
+ 	
+ 	
+Refer Colleagues to ACM and Receive Free Gifts with the ACM Member-Get-A-Member program.	 
+ 	
+ 	
+ 	
+Visit the new Job Centre in the ACM Career Resource Centre.	 
+ 	
+ 	
+ 	
+Look at the expanded ACM Student Research Competition funded by Microsoft Research.	 
+ 	
+ 	
+ 	
+ACM in the News and Press Releases	 
+ 	
+ 	
+ 	
+   	   	       Upcoming Conferences                 ASP-DAC04
+   Jan 27th-30th  
+  Kanagawa,    Japan                 SIGCSE04
+   Mar 3rd-7th  
+  Norfolk,    Virginia                  SAC04
+   Mar 14th-17th  
+  Nicosia,    Cyprus               ETRA04
+   Mar 22nd-24th  
+  San Antonio,    Texas               RECOMB04
+   Mar 27th-31st  
+  San Diego,    California               ISPD04
+   Apr 18th-21st  
+  Phoenix,    Arizona                  CHI04
+   Apr 24th-29th  
+  Vienna,    Austria  
+* more conferences... 
+         
+
+The ACM Portal is published by the Association for Computing Machinery. Copyright © 2004 ACM, Inc.
+ Terms of Usage    Privacy Policy    Code of Ethics     Contact Us  	
+

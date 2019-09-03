@@ -1,0 +1,853 @@
+ 
+
+Andy McFadden's
+CD-Recordable FAQ - Section 4 
+
+Last-modified: 2004/01/12
+Version: 2.51
+
+Back to Table of Contents 
+
+[4] Problems 
+[4-1] What does "buffer underrun" mean? 
+[4-1-1] What's the deal with Windows Auto-Insert Notification (AIN)? 
+[4-1-2] What's all this about Win9x VCACHE settings? 
+[4-2] I can't get long Win95 filenames to work right 
+[4-3] I can't read the multisession CD I just made 
+[4-4] Write process keeps failing N minutes in 
+[4-5] Why did my CD-R eject between the "test" and "write" passes? 
+[4-6] My CD-ROM drive doesn't like *any* CD-R discs 
+[4-7] How do I avoid having a ";1" on my ISO-9660 discs? 
+[4-8] I keep getting SCSI timeout errors 
+[4-9] I'm having trouble writing a complete disc 
+[4-10] What's the CDD2000 Write Append Error / spring problem? 
+[4-11] Getting errors reading the first (data) track on mixed-mode CD 
+[4-12] My recorder ejects blank discs immediately 
+[4-13] I'm getting complaints about power calibration 
+[4-14] My Adaptec 2940 pauses after finding my recorder 
+[4-15] I can't see all the files on the CD-R 
+[4-16] My multi-session disc only has data from the last session 
+[4-17] I'm getting SCSI errors 
+[4-18] Why doesn't the copy of an audio CD sound the same? 
+[4-18-1] Why doesn't the audio data on the copy match the original? 
+[4-18-2] The audio data matches exactly, why do they sound different? 
+[4-19] Digital audio extraction of a track is shifted slightly 
+[4-20] I can't play extracted audio files by double-clicking in Win95 
+[4-21] I can't read an ISO-finalized packet-written disc 
+[4-22] I'm finding corrupted files on the CD-ROMs I write 
+[4-23] Having trouble playing an audio CD in a home or car player 
+[4-24] Having trouble using a CD-ROM on a different machine 
+[4-25] I can't copy a VideoCD 
+[4-26] The test write succeeds, but the actual write fails 
+[4-27] I can no longer erase a particular CD-RW disc 
+[4-28] Having trouble formatting discs with DirectCD 
+[4-29] I can't write CD-Rs after installing Windows 98 
+[4-30] I can't use the copy of a CD-ROM after installing Windows 98 
+[4-31] The disc I was writing with DirectCD is now unreadable 
+[4-32] I'm getting a message about 100 form transitions 
+[4-33] My system hangs when I insert a blank disc 
+[4-34] My CD-R discs don't work in my DVD player 
+[4-35] I need serious help recovering important data 
+[4-36] What does "not convertible to CD quality" mean? 
+[4-37] I inserted a CD-ROM but Windows thinks it's an audio CD 
+[4-38] I get read errors when trying to copy a game 
+[4-39] Restarting or shutting Windows down after recording causes hang 
+[4-40] Why do CD-Rs play poorly when anti-skip protection is enabled? 
+[4-41] I'm having trouble recording under Windows 2000 or WinXP 
+[4-42] I formatted a CD-RW and only have about 530MB free 
+[4-43] My CD recording software keeps crashing 
+[4-44] Do I need to update my ASPI layer? 
+[4-45] The write process completes, but the disc is still blank 
+[4-46] My CD-RW drive won't recognize my CD-RW blank 
+[4-47] Audio discs have crackling sounds on the last few tracks 
+[4-48] Files in deep directories can be seen but not opened 
+[4-49] My CD-ROM drive stopped working after uninstalling software 
+[4-50] Audio CDs recorded from MP3s play back fast and high-pitched 
+[4-51] Windows says access denied, can't create or replace file 
+[4-52] I can't see any files on a CD-R or CD-RW from MS-DOS 
+[4-53] My OS doesn't support ISO-13346 "UDF" 
+
+---------------------------------------------------------------------
+
+Subject: [4] Problems 
+(2000/06/05)
+
+Problems that arise when burning a CD-R. 
+
+Some suggestions that fix most common problems: 
+
+* RTFM (Read The Fine Manual). Sometimes it's *supposed* to work that way. If you didn't receive a manual with the product, it may be in text or Acrobat form on a CD-ROM. 
+* Check your software version. You may need a newer version of the software for correct operation with your hardware (yes, even if you received the software with the recorder). Most, if not all, CD recorder software publishers have web sites with updates. 
+* Update the software. Even if the software is new enough to be compatible, there's some chance that your bug has already been fixed. 
+* Under Windows, check your ASPI layer. See section (4-44) for URLs and notes. 
+* If you've tweaked your PC BIOS to the limit and are overclocking everything, reset it to defaults and see if your problems clear up. You can always tweak it back. If you're using a motherboard with a VIA chipset, make sure you are running the absolute latest version of the VIA drivers. 
+* Some problems with PC ATAPI drives go away when DMA is turned off for the drive (via the Win9x device manager; see section (5-15-1)). You might also need to uninstall incompatible bus-mastering drivers (section (5-15)). 
+* Under Windows, rename \Windows\System\Iosubsys\scsi1hlp.vxd to something that prevents it from being loaded ("scsi1hlp.vx_"). See if your problems get better. scsi1hlp.vxd is only required for compatibility with old SCSI devices. 
+* If you have an older recorder, and it seems to be getting progressively worse over time, it may need to be cleaned. See section (3-30). 
+
+Subject: [4-1] What does "buffer underrun" mean? 
+(2002/11/15)
+
+It means you have an attractive new coaster for your table. 
+
+Generally speaking, the CD recording process can't be interrupted in mid-session. Once the laser starts writing, any interruption would create a physical gap on the disc that could confuse CD readers. The recorder must always have data to write, from the moment the recording starts until the session ends. To avoid a situation where a temporary slowdown in the computer causes the write process to fail, the makers of CD recorders put a write buffer in the drive, usually between 512K and 4MB in size. Data read from the hard drive, tape, or another CD is stored in the buffer, and pulled out as needed by the recorder. 
+
+If the recorder requests data from the write buffer, but there's none there, it's called a buffer underrun. The disc is still spinning, but there's no data to write, so the recording process aborts. 
+
+This was a very common and very annoying problem for many years, so most recorders released in 2001 or later have optional "buffer underrun protection" features available. See section (2-31). 
+
+You can sometimes use a disc that failed during writing by closing the session and starting another, assuming there's enough space left on the CD, and assuming your pre-mastering software didn't choose to finalize the disc for you. If you were using disc-at-once recording, you're probably out of luck. 
+
+Advice for preventing buffer underruns is scattered throughout this FAQ. A brief summary: 
+
+* If your hardware and software support it, enable buffer underrun protection. Usually this is just a checkbox. 
+* Use a fast, AV-friendly hard drive (i.e. one that doesn't do slow thermal recalibrations). Pretty much all drives sold since the late 1990s fall into this category. 
+* Record at a slow speed - it takes longer to empty the buffer when recording at 1x. 
+* Don't do anything else with the computer while recording. Don't record from a file server. 
+* Defragment your HD, especially if you're doing on-the-fly recording. (But don't defragment *while* you're recording.) 
+* Record from a disc image file rather than on-the-fly. 
+* Depending on your setup, putting the recorder and your hard drive on separate SCSI or IDE controllers may be helpful. 
+* Keep your CD-R cool. Sometimes the drives fail when they overheat, with a buffer underrun or an inability to finalize a session. This is rarely a problem with drives made in 2000 or beyond. 
+Also watch out for things like anti-virus programs that wake up, virtual memory settings that cause swapping, screen savers that activate during the CD creation process, unusual network activity, and background downloads of data or faxes. One way to check is to run the HD defragmenter in Win9X. If it restarts every few seconds, it's because something is hitting the drive. 
+
+Some game discs use a form of copy protection where bad sectors are deliberately placed on the original CD. Attempting to copy one of these discs on the fly may fail, because some CD-ROM drives slow down and repeatedly try to read the "damaged" blocks. The slowdown may result in a buffer underrun before the CD-ROM drive reports an error. 
+
+A utility included with Microsoft Office, called "FindFast", will occasionally start up and scan your hard drives. Disabling this by deleting the shortcut in the Windows\Start Menu\Programs\StartUp folder may be necessary. 
+
+If you're using Windows, see the sub-sections on Auto-Insert Notification and VCACHE settings, below. 
+
+http://www.roxio.com/en/support/cdr/bufunder.html has a comprehensive collection of buffer underrun info. 
+
+http://www.adaptec.com/support/configuration/cdrec.html is interesting reading for users with CD-Rs attached to Adaptec SCSI cards. They're pretty far on the conservative side, but if you're having trouble this may help you. 
+
+An article by Dana Parker entitled "CD-R on the Safe Side: Seven Rules of Successful CD Recording" in the April 1997 issue of Emedia Professional listed the Seven Habits of Successful CD-R Users: 
+
+1.  Defragment Your Disk 
+2.  Use a Partition for Staging Input 
+3.  Create a Real Image 
+4.  Test before writing 
+5.  Stabilize Your System for CD-R 
+6.  Shut Down Other Applications 
+7.  After the Burn: Label and Test 
+
+If you really want to be careful, you can shut down background stuff under Win95/98 with WinSolo from http://www.procode.com.au/winsolo/ (the web site was down at last update, but a search for it on http://www.google.com/ turned up a number of shareware sites that have it). Another option is WinTasks from http://www.liutilities.com/products/wintasksstd/; see http://www.liutilities.com/products/wintasksstd/tutorials/tutorial1/ for a tutorial. 
+
+(Side note for search engines: some versions of Ahead's Nero refer to buffer underruns as "loss of streaming".) 
+
+Subject: [4-1-1] What's the deal with Windows Auto-Insert Notification (AIN)? 
+(1999/09/12)
+
+Some of the Windows-based recording software recommend turning off Auto-Insert Notification. Having this on can interfere with closing sessions or even just inserting discs into the drive. Most of the recent software will disable it automatically, but some of the older products require you to disable it manually. You can do so under Win95/Win98 by opening the "System" icon in the Control Panel, and selecting "Device Manager". For each item under CD-ROM, select the device, click on the "Settings" tab, and make sure the "Auto Insert Notification" checkbox is unchecked. [With a vanilla Win95 setup I got SCSI errors when AIN was off for my CD-R but on for my CD-ROM, even if the CD-ROM drive wasn't in use at the time.] 
+
+If you're using WinNT, you can turn it off with the "TweakUI" program available in PowerToys (available from the Microsoft web site at http://www.microsoft.com/), or by modifying a registry key with Regedit32 (0=disabled, 1=enabled): 
+
+HKEY_LOCAL_MACHINE \ SYSTEM \ CurrentControlSet \ Services \ Cdrom \ Autorun
+
+If your software automatically turns AIN off, and you can't figure out how to turn it back on, the TweakUI program may be able to help. Check the "Paranoia" settings. (Incidentally, if installing the Power Toys screws up your icons, select "Rebuild Icons" from the "Repair" menu.) If you turn it off and on again, You may have to reboot in some configurations before it will work again. 
+
+Sidebar: the trouble with Auto Insert Notification is that it periodically attempts to find a valid disc in the CD recorder. A blank disc isn't very interesting to Windows, so nothing happens. When the table of contents is written to the disc, it suddenly becomes interesting; and if Autorun or Autoplay are enabled, enough activity is generated by Windows' attempts to read the disc that the write fails. 
+
+Because it only affects CDs with actual data being written to them, a test write won't end in failure. It can be very frustrating to have 100% success with test writes and 100% failures with actual writes! With disc-at-once recording, the process will abort very near the start of recording, probably leaving an empty but useless disc. With track-at-once recording, it will fail at the end, and you may still be able to finalize the disc. Audio CDs will most likely work fine even if interrupted at the end of the write process. 
+
+IMPORTANT: if you are using DirectCD for Windows, you must have AIN turned *on*, or some things won't work quite right. The most obvious failure mode is that long filenames aren't shown, but some reports indicate that data on the disc can get trashed as well. This can make life interesting if you're also using a conventional writing application, unless the application is good about turning AIN off before writing. The other Windows applications currently sold by Roxio (notably Easy CD Creator) will automatically disable Auto-Insert Notification when appropriate and re-enable it afterward, so you don't have to worry about AIN at all. 
+
+Subject: [4-1-2] What's all this about Win9x VCACHE settings? 
+(2001/07/09)
+
+One problem with Win95 is that by default the size of the file cache is unrestricted. This means that all available memory will eventually get filled up with file data, which will cause the virtual memory system to start swapping out pages from executing applications. When something needs to be executed from a page that has been swapped out, it takes time to pull it back in off the disk. While this is happening, the CD recorder's buffer could drain completely. 
+
+The procedure is simple: 
+
+1.  Open the file SYSTEM.INI with a text editor. This file is usually C:\WINDOWS\SYSTEM.INI. 
+2.  Find the section labeled "[vcache]". 
+3.  Add the following lines *after* the "[vcache]" line: 
+MinFileCache = 16384 
+MaxFileCache = 16384 
+4.  Save the changes to the file, and reboot. 
+
+The above values are recommended for a system with at least 64MB of RAM. A common rule of thumb is to set "maxfilecache" to 25% of your RAM, up to a maximum setting of 16MB. Because of (actual or perceived) bugs in Win95, some people recommend setting "minfilecache" and "maxfilecache" to the same value. 
+
+If you have an older system with only about 16MB of RAM, you might want to use instead: 
+
+MinFileCache = 512
+ MaxFileCache = 4096
+
+The [vcache] change has reportedly cured severe buffer underrun problems with some versions of CDRWIN and removed popping noises during digital audio extraction with Easy CD Creator. It's a good thing to do to any PC running Win95. It's not necessary for WinNT. It's not clear whether this will help with Win98, but it doesn't seem to hurt. 
+
+If you are uncomfortable tweaking your SYSTEM.INI file, try CacheMan at http://www.outertech.com/. It allows you to modify the above settings, and a few more besides. 
+
+Subject: [4-2] I can't get long Win95 filenames to work right 
+(1998/04/06)
+
+Typical symptoms can be described like this: 
+
+* Works fine in Win95 Explorer 
+* Under DOS the directories are visible, but instead of "dirname<tilde>1" you get "dirname<tilde>57". Attempting to read them results in errors. 
+* Typing 'cd dirname~102' may fail while 'cd "Long File Names without the ~"' will work. 
+The problem occurs when certain CD-R writing programs are used to create the discs. The short and long forms of the filenames are sorted differently, so some of the files can't be found. Using newer software (e.g. Easy CD Creator 3 instead of Easy-CD Pro) should produce better results. 
+
+Subject: [4-3] I can't read the multisession CD I just made 
+(1998/04/06)
+
+The SCSI driver needs to believe that the CD-ROM drive can handle multisession discs. Most likely you will need to update your SCSI drivers before this will work. 
+
+(This problem was reported with an HP4020i and a Buslogic BT946C controller; if you have an HP drive you should get the c4324hlp.vxd driver from the HP web site. See section 6 for the address.) 
+
+One possible cause of this problem is writing a multisession disc in MODE-1 format. Some older CD-ROM drives incorrectly assume that a MODE-1 disc can't be multisession, so they don't look for additional sessions unless it's written in MODE-2 (CD-ROM/XA) format. 
+
+Also, if the final session on the CD isn't closed, standard CD players may become confused (the NEC 6Xi certainly does under Win95). This doesn't mean that the *disc* must be closed, just that the *session* must be closed. (Actually, the NEC 6Xi doesn't like open discs either... sigh.) 
+
+A note on one of the Ricoh pages indicates that the Ricoh 1420C is unable to read sessions smaller than 3 minutes (about 26MB) until firmware 1.6x. 
+
+Subject: [4-4] Write process keeps failing N minutes in 
+(1998/04/06)
+
+There's a couple of possibilities. One is that your data source can't keep up with the CD-R; try using disc-at-once writing from a disc image with the speed set to 1x. If it seems to be getting worse over time, you may just need to defragment your hard drive. 
+
+If that fails, a number of people have discovered that the problem is a faulty CD-R unit (similar behavior has been reported on Sony and HP units, which have different mechanisms). You should try 1x writing from a fast source and with different sets of data before contacting the manufacturer, since they will likely tell you to do exactly that anyway. 
+
+Be sure that there aren't environmental factors creating difficulties. CD-R units are usually built to handle small shocks, but having a set of speakers playing loud music on the same table as a CD-R may cause it to skip, resulting in a failed write. Sonic booms, heavy construction equipment, and nuclear detonations may have similar effects. 
+
+It's also possible that you simply have a bad batch of media. Try a different type and brand of disc. Some distributors (e.g. dataDisc) will exchange media that's provably defective. 
+
+Be careful with Advanced Power Management functions on some PCs. If the keyboard and IDE devices are completely idle, the system may decide that nothing is going on and switch to a low-power mode. Ditto for screen savers that kick in after the system has been idle for a certain period. 
+
+Subject: [4-5] Why did my CD-R eject between the "test" and "write" passes? 
+(1998/04/06)
+
+Most CD recorders need to clear their memory between the "test" pass and the "write" pass. For some recorders, the only command that does this is "eject". If the recorder has a tray it just goes out and back in, but if it uses a caddy manual intervention is needed. 
+
+Some CD-R packages allow you to start the real write pass a few seconds after the test pass has succeeded. They may not disable this even though they know that the disc will have to be ejected. Make sure the option is set to "wait until told to continue." 
+
+Subject: [4-6] My CD-ROM drive doesn't like *any* CD-R discs 
+(1998/04/06)
+
+A very simple test is to take a CD that DOES work, copy it, and try both (this ensures that your problems aren't being caused by, for example, a drive that doesn't support multisession CDs). 
+
+Sometimes the firmware can be at issue. In one specific case, a Goldstar GCD580B CD-ROM drive was able to read CD-Rs under Win95 but not MS-DOS 6.22. Upgrading the firmware from v1.01 to v1.24 solved the problem. 
+
+If it fails with different kinds of media, the CD-ROM drive either doesn't like discs written with your recorder, or doesn't like CD-R media at all. In one case, returning the CD-ROM for an identical unit resolved the problems. 
+
+While there are stringent specifications for discs, there are no such specifications for CD players and CD-ROM drives. They just have to play the discs. If the disc and the drive are both marginal, you lose. 
+
+Subject: [4-7] How do I avoid having a ";1" on my ISO-9660 discs? 
+(1998/04/06)
+
+The ISO-9660 standard says the version number (a semicolon followed by a number at the end of every filename) has to be there. Most operating systems simply ignore it, but until recently the Mac didn't, causing some problems. 
+
+(For the Mac, look at "ISO 9660 File Access" in the System:Extensions folder with Command-I. If the version shown is 5.0 or greater, your system should handle the version numbers just fine. If not, you should update your system software.) 
+
+If you can't find a way to work around it, "mkisofs" has an option to omit the version number when constructing an ISO-9660 image. 
+
+Subject: [4-8] I keep getting SCSI timeout errors 
+(1998/04/06)
+
+http://www.adaptec.com/support/configuration/cdrec.html has some advice on SCSI configuration. Basically, check your cabling and termination (see section (4-17) for more advice there), turn off features you don't need, and make sure Auto Insert Notification is off (see section (4-1-1)). 
+
+Subject: [4-9] I'm having trouble writing a complete disc 
+(2002/08/16)
+
+(This is for failures other than buffer underruns. For those, see section (4-1) and perhaps section (4-4).) 
+
+If it's failing right as the disc is being finalized, and you're recording in track-at-once mode, try recording in disc-at-once mode instead. It has been suggested that some recorder+media combinations have trouble reading the PMA (Program Memory Area, where a copy of the TOC is kept until the disc is finalized) at the end of a write. With disc-at-once mode the TOC is written early, so it doesn't have to get read out of the PMA. See section (2-19) for the low-down on disc finalization. 
+
+When in doubt, check your ASPI layer. See section (4-44). 
+
+One user with an ATAPI recorder found that disabling DMA (from the Win98 peripheral properties) made things better. 
+
+Try letting the drive cool down (leave the machine off for a couple of hours if you have an internal drive). Power up the machine and immediately record the disc. Sometimes heat buildup can cause problems, though this is less common with recent drives. 
+
+This was happening frequently with the HP4020i running off an AdvanSys SCSI card under Win311 (i.e. WfWG). The solution here was to remove IFSHLP.SYS from the CONFIG.SYS. (IFSHLP.SYS is somehow involved with 32-bit file access and network support, so you may have to disable both of these before disabling IFSHLP. You may have better luck under Win95.) 
+
+Another user with the same setup found that doing power-up diagnostics and device reset right before burning the CD helped. 
+
+Subject: [4-10] What's the CDD2000 Write Append Error / spring problem? 
+(2000/08/08)
+
+This seems to happen on Philips CDD2000-based units, such as the HP4020i, usually a short while after the warranty runs out. The most common cause is a spring that weakens with age, but it might also be due to lubrication breakdown. After a while, the recorder starts failing when trying to write beyond a certain point on the disc. 
+
+The ways of dealing with this range from minor system changes to the placement of chicken entrails on selected components. Reducing the DMA rate on the AdvanSys SCSI card (for the HP4020i) may help, buying better SCSI cables and checking for proper termination may make a difference, or even powering off and on again right before the burn. For some users, however, the problem is mechanical rather than spiritual. 
+
+One user was told by Philips tech support that if error 50h (write append) occurs, it means the drive has to be returned to the repair center. Other users have been told that the error can occur when attempting to write an empty directory or zero-length file. Under Easy-CD Pro '95, this is reported as error 171-00-50-00 (see the Roxio web site for a complete list of error codes). 
+
+If the fault is caused by the worn spring, it may be possible to fix the problem by replacing the spring. This will definitely void your warranty, and you shouldn't even think about trying this unless the only alternative is to throw the drive away. Jonathan Oei posted some details about the process (search for comp.publish.cdrom.hardware, subject "CDD2000 & Spring Fix", on http://newsone.net/), and a detailed description of the procedure can be found on http://www.fadden.com/doc/fix-hp4020i.txt. 
+
+This procedure requires some special tools (mini torx drivers and really fine jeweller's pliers), and involves disassembling much of the drive. If you open up the drive and remove the circuit boards, you will see that the laser writing assembly is moved by a DC stepper motor. The motor has a plastic drive gear that is meshed with a plastic "rack" on the laser. The spring in question is a piece of wire that pushes the rack against the drive gear, so when it weakens the gear slips and the write fails. Replacing the 0.012" wire with a 0.02" diameter wire solves the problem. 
+
+The high temperature in the drive may contribute to the breakdown of the lubricants that allow the laser head to travel. You may be able to prevent the situation by installing a fan. 
+
+This question is also covered in the HP4020i FAQ, available at http://www.cd-info.com/CDIC/Technology/CD-R/HP-FAQ.html. 
+
+Subject: [4-11] Getting errors reading the first (data) track on mixed-mode CD 
+(1998/08/16)
+
+There's a 150-sector postgap at the end of the data track. Most programs deal with this automatically, some older ones don't. If you're getting errors, try subtracting 150 from the total number of sectors to read for that track. 
+
+Subject: [4-12] My recorder ejects blank discs immediately 
+(2002/05/02)
+
+There are a few of possibilities, some software and some hardware. 
+
+It may be that the system is looking at the disc, not finding a TOC (table of contents), and ejecting it as useless. One way to tell the difference between the operating system rejecting the CD and the drive rejecting the CD is to unplug the SCSI or IDE cable from the back of the CD recorder before inserting the disc. 
+
+If the drive pauses for a little while before ejecting, it may be rejecting the media. On some units you get a blinking warning light instead. If this is happening, try a different brand of media. 
+
+If the problem is the operating system, you probably need to disable certain features. Under Win95, disable auto insertion for all CD-ROM devices (see section (4-1)). One user found that reinstalling Win95 helped. On the Mac, you may just need more recent drivers. On a Solaris system, remove the recorder (probably the "cdrom" entry) from /etc/vold.conf. 
+
+If that doesn't work, make sure the CD-R drive is perfectly level. Apparently some older (1996-ish) units were sensitive to being tilted at an angle. Some users have had trouble when a CD-R has been on for a while and has overheated, so if you only have trouble when the machine has been powered on for a while, try putting a small fan above the unit to blow air over it. 
+
+With some drives, improper SCSI termination can cause this behavior. 
+
+For the Yamaha CDR-200/CDR-400, this may be a sign that the drive has broken down and needs to be replaced. See section (5-1-1). 
+
+If nothing helps, there's a strong possibility that the drive is mis- aligned and needs to be serviced. This has been known to happen to drives during shipping. 
+
+One user with a caddy-based drive reported problems when using the wrong type of caddy. It has to be a Sony-type caddy, which is the kind most commonly found in stores. 
+
+Subject: [4-13] I'm getting complaints about power calibration 
+(2002/12/29)
+
+The optical power output range of the laser in a low-speed CD-R is between 4 and 8 milliwatts. (By comparison, the read laser runs at about 0.5mW.) High-speed recorders and CD-RW devices use a greater range. At the top end of the scale are DVD-R recorders, which output around 100mW for 4x recording and 200mW for 16X recording. CD-R and CD-RW discs have a section outside the standard recording area called the Power Calibration Area (PCA) that is used to adjust the laser for the brand of media you're using and the speed at which you're recording. 
+
+Power calibration errors indicate that the drive is having trouble calibrating the power setting. The most common cause is incompatibility with the media you're using -- if you just switched to a new brand or batch of media, this is a likely culprit -- but it can also be caused by a dirty lens or a dying recorder. 
+
+If you're seeing "power calibration area full", it means the recorder ran out of space in the PCA area. There are 99 regions in the PCA area. After 99 attempts to calibrate the power level, there won't be any places left, and the recorder will report an error. 
+
+Try a few different kinds of media to see if the problem is an incompatibility between your recorder and the discs you're using. If that doesn't make a difference, there are a couple of things you can do to mitigate the problem. First, you can try recording at a slower speed. The recorder will use a different "write strategy", which usually means a lower power level. Second, if you're storing the discs in a cold place, you may want to try heating them up to slightly above room temperature (placing them near a heating vent works). One user found that this helped. 
+
+If all else fails, and the drive is still in warranty, you should have the drive checked by a repair facility. If it's out of warranty, or there's no easy way to have it checked out, you can try cleaning it. See section (3-30). 
+
+Some versions of the firmware for the Philips CDD2000 (and HP 4020i) will report a power calibration error if you try to do a 1x write after a 4x read. 
+
+It's also good to verify, if your CD recorder is an internal unit, that your power supply has enough capacity to run everything. Recent PCs systems should have a 300W or better power supply. 
+
+One user found that his problems went away when he created an image file with Easy CD Creator, quit out of the program, restarted it, and then recorded from the image at a moderate speed. (Doesn't make much sense, but if it works, use it.) 
+
+Subject: [4-14] My Adaptec 2940 pauses after finding my recorder 
+(1998/04/06)
+
+This was observed with a Yamaha CDR-100. The solution is to go into the Adaptec BIOS (hit Ctrl-A during boot), and disable the "support removable disks under BIOS as fixed disks" option and the "boot from CD-ROM" option. 
+
+Subject: [4-15] I can't see all the files on the CD-R 
+(1998/04/06)
+
+There's a couple of possibilities: either they aren't there, or they're there but you can't see them. Looking at the disc from different machines (e.g. Mac and PC) should give you some idea. 
+
+Out-of-date versions of MSCDEX have been known to "forget" certain files when browsing a disc. If you're using DOS or are using the "real mode" drivers from within Win95, make sure you're using the most recent version of MSCDEX. 
+
+Old versions of certain CD creation programs would occasionally omit things when asked to burn a large number of files. These problems haven't been reported for some time, however. 
+
+If you were burning a multi-session CD, read the next section. 
+
+Subject: [4-16] My multi-session disc only has data from the last session 
+(1998/06/14)
+
+A common mistake when burning a multisession CD is to forget to link the files from the previous session into the current one. This results in a CD where you can see the new files but none of the old, unless you have a program that lets you choose which session you look at. 
+
+If you're using Easy-CD Pro for Win31, CD Creator, or Roxio Easy CD Creator v3+, you can load the contents of all the previous sessions, and burn a new session that has all the files you want. This feature wasn't available in Easy-CD Pro 95, which only allows you to link to one previous session. 
+
+The files themselves aren't really lost. Most recording software will allow you to extract a track as an ISO-9660 image, and you can use WinImage (section (6-2-2)) to pull individual files out of it. If all else fails, CD-R Diagnostic (section (6-2-6)) claims to be able to recover data from "lost" sessions. 
+
+One caution: without something like Roxio's Session Selector, you may not see the last session on the disc anyway. Some CD-ROM drives stop looking for sessions after a certain point. 
+
+Subject: [4-17] I'm getting SCSI errors 
+(1998/07/26)
+
+Good SCSI cables and correct termination are absolutely essential. SCSI bus errors can cause buffer underruns or corrupted data (especially since some vendors ship drives with parity checking disabled). 
+
+Bertel Schmitt wrote an excellent article on the ins and outs of proper cabling and termination. The article can be found in text form at http://www.fadden.com/doc/scsi-trm.txt. Granite Digital, a company that makes high-quality cables and terminators, can be found at http://www.scsipro.com/. 
+
+If you're using an HP 4020i with the AdvanSys SCSI card, reducing the DMA transfer rate may help. 
+
+Subject: [4-18] Why doesn't the copy of an audio CD sound the same? 
+(1998/04/06)
+
+There are actually two questions here, so I've split them into separate sections. The most common problem is that the audio extracted to the hard drive doesn't quite match the original. 
+
+Subject: [4-18-1] Why doesn't the audio data on the copy match the original? 
+(1998/04/06)
+
+Most problems are due to poor digital audio extraction from the source media. Some CD-ROM drives will return slightly different data every time an audio track is read. Others, like the Plextor line (e.g. 4Plex, 8Plex, and 12Plex, but not 6Plex) will return the same data every time so long as the source media is clean. 
+
+The most fundamental problem is that, if the CD is dirty, the error correction may not be able to correct all of the errors. Some drives will interpolate the missing samples, some won't. 
+
+Another problem some CD-ROM drives face is "jitter". See section (2-15) for details. 
+
+See also section (3-3) on avoiding clicks in extracted audio, and section (5-5) on which CD-ROM drives are recommended. 
+
+Subject: [4-18-2] The audio data matches exactly, why do they sound different? 
+(2002/12/11)
+
+Suppose you extract the audio track from the copy, and it's an exact binary match of the track you wrote from your hard drive, but the CDs don't sound quite the same. What then? 
+
+Most people don't notice any difference between originals and duplicates. Some people notice subtle differences, some people notice huge differences; on better CD players, the differences are harder to hear. Some say CD-R is better, some say worse. While it's true that "bits are bits", there *are* reasons why CD-Rs may sound different even when the data matches exactly. 
+
+The most prominent problem is jitter. This isn't the DAE "jitter" described in section (2-15), but rather a timebase error. A good overview can be found in the jitter article on http://www.digido.com/. A brief explanation follows. 
+
+Most CD players use a clock derived from the incoming digital signal to drive the digital-to-analog conversion. Even if the CD player gets all of the digital bits accurately, it will produce inferior results if the timing of the bits on the disc isn't precise. Put another way, something has to send a sample to the speakers 44100 times per second, and if it's speeding up and slowing down many times each second your ears are going to notice. 
+
+If you play a CD digitally (e.g. by ripping it and then playing it through a sound card), the quality of the CD doesn't matter, because it's the timing of the clock in the sound card that drives the output. 
+
+A fancy CD player could provide its own clock to drive the DAC, buffering up bits and playing them out in carefully controlled time. This is tricky though, because when you have two clocks in a system they are likely to drift apart, and you have to deal with buffer underruns and overruns when one outpaces the other. (A man with two watches never knows what time it is, because the watches almost never agree.) The timing from the disc is generally good when considered over a long period, so the challenge to CD player manufacturers is to design circuitry that produces a stable timing signal from a somewhat unstable source. 
+
+(This begs the question: does a CD player with anti-shock protection produce better sound? The player has to read the disc at 2x so it can buffer enough data to continue playing even when the CD player is jolted and loses tracking. Such players tend to do *worse* with CD-Rs because the higher read speed magnifies problems with marginal discs, but it's possible that they have less of a problem with jitter -- assuming, of course, that their internal clock is accurate and stable.) 
+
+It has been asserted that the clocking of bits on a CD-R isn't as precise as on a pressed CD. Writing at different speeds on different types of media requires adjustments to the "write strategy" (section (3-31)) that can result in individual "marks" being sloppier than at other speeds. This could account for inferior -- or at least different -- sound. 
+
+Yamaha believes they have found a partial solution for jitter problems with their Audio Master Quality feature. See section (2-41). 
+
+Some people have asserted that *any* two CDs, pressed or otherwise, will sound slightly different. Some claim to hear differences in identical CDs from different pressing plants. The former is silly, but the latter makes sense if one pressing plant is using a less-precise technology. 
+
+The manual for the CDD2000 reportedly states that the drive uses 4x oversampling when playing pressed CDs, but switches to 1x for CD-R. This affects the quality of the D/A conversion, and can make an audible difference. 
+
+http://www.mrichter.com/cdr/primer/losses.htm has some further thoughts, including a table showing signal level differences. 
+
+A paper was reportedly submitted to the Audio Engineering Society, entitled, "An Investigation of the Sonic Differences Between Numerically Identical Compact Discs", by Julian Dunn. Preprint 4339, the 101st AES convention. 
+
+An extremely technical introduction to CD reading is available at http://www.tc.umn.edu/~erick205/Papers/paper.html. This may shed some light on why reading audio CDs is difficult, as well as explain concepts like aliasing and dither. 
+
+If you are finding your CD-Rs to be noticeably inferior, try different media, different write speeds, a different player, or perhaps a different recorder. There is some evidence that different brands of media and recorders may work better for audio, but in the end it's a highly subjective matter. Some people say CD-Rs sound worse, some people say they sound better (and some people think vinyl records are still the best). 
+
+Subject: [4-19] Digital audio extraction of a track is shifted slightly 
+(1998/04/06)
+
+Some recorders don't correctly extract digital audio if the pregap of the first track isn't exactly two seconds. A bug in the firmware causes the drive to start extracting slightly past the start of the track, and stop extracting slightly past the end. This can result in an audible glitch if the music starts at the exact start of the track, and can cause the drive to fail with an error when extracting the last track on the CD. 
+
+CDs that start at 00:02:32 (0 minutes, 2 seconds, and 32 blocks) are surprisingly common. The problem can be worked around manually, by looking at the output of Jeff Arnold's freeware TOC program (available from http://www.goldenhawk.com/) and supplying "/start=" and "/end=" parameters that adjust backward by the number of blocks in excess of two seconds. 
+
+For example, if the first track started at 00:02:32, you would subtract 32 from the starting and ending Logical Block Addresses. 
+
+A better solution is to use a CD-ROM drive that doesn't have this problem (and most likely can extract audio more quickly than the CD-R can). 
+
+The Yamaha CDR-100/102 and the Philips CDD2600 are known to have this problem, though it may get fixed by a firmware update. The Ricoh 6200S reportedly does not return the disc's table of contents correctly for these sorts of discs. 
+
+Newer recorders, and newer software, should deal with this situation correctly. 
+
+Subject: [4-20] I can't play extracted audio files by double-clicking in Win95 
+(2001/07/09)
+
+The default audio player in Win95 tries to load the entire file into memory. When an extracted track is 40 or 50MB, and you don't have that much RAM, Win95's virtual memory system starts writing pieces out to disk. The disk thrashes, and you get nowhere. 
+
+There are several ways around this. If you right-click on the file and select "properties", you will see a "preview" tab. This will play it directly from disk. Another way is to use a different program. One possibility is the Media Player, which is optionally installed with Win95. You can make it the default WAV file player by selecting View/Options from Win95 explorer, clicking on the "File Types" tab, and choosing "Wave Sound". Double-click on Play and change the program name from "sndrec32.exe" to "mplayer.exe", leaving the "/play" and "/close" flags intact. 
+
+The WMA player in more recent versions of Windows should work correctly. 
+
+Subject: [4-21] I can't read an ISO-finalized packet-written disc 
+(1998/04/06)
+
+This problem is often experienced by HP7100/7110 users. HP chose to ship packet-writing software with their drives rather than conventional premastering software, leaving users with discs that couldn't be read on a fair number of systems. (The HP7200 is the same drive, shipped with updated firmware and a more complete set of software.) 
+
+The following is an excerpt from an Adaptec readme.txt file. It talks about DirectCD, but the problem is inherent in all packet writing solutions: 
+
+"When the disc is in the native format used by DirectCD, you will only be able to read the disc on a CD-R device running DirectCD. This is a direct result of the technology used when writing to a CD-R disc. In order to make the disc readable on a standard CD-ROM DirectCD must write certain data to the disc. This provides compatibility with many of the current drives on the market today. Unfortunately, there are still a number of CD-ROM drives that cannot read the packet written media that DirectCD produces. If you experience problems in this area, you should go to System in Control Panel, select Performance, File System, CD-ROM and set the Access Pattern to "No Read-Ahead". If you still experience problems after making this adjustment, it is likely that the CD- ROM drive itself is having problems reading packet written media. 
+
+It should also be noted that there is an industry initiative called MultiRead that addresses these issues and has the support of all the major vendors of CD-ROM and CD-R/RW devices. This initiative will eliminate the above problems and should be available on all new drives." 
+If you want to share data between systems, and the remote system isn't guaranteed to have a MultiRead CD-ROM drive, you should write the disc with conventional software. 
+
+Subject: [4-22] I'm finding corrupted files on the CD-ROMs I write 
+(2000/10/20)
+
+There have been a fair number of people who have burned a CD-ROM only to discover that, while they can read text files, run applications, and look at graphics, they can't extract from .ZIP archives or run compressed applications (e.g. some "Setup.EXE"s under Win95). A common complaint is a dialog with "the file is not a valid win32 application". 
+
+The problem they're seeing isn't just corruption of .ZIP files though. Most kinds of files have a lot of redundancy in them. If a single bit is lost out of a long text file, the chances of it being noticed are very slight. For an application, the chances of it causing a failure depend on where in the file the error falls. For a compressed file, though, every bit is significant, and in a .ZIP archive the CRC has a very high probability of detecting errors. (CRC is cyclic redudancy check. Most file archivers compute a 32-bit CRC on the uncompressed input and store it in the archive. When you extract the files, the CRC is checked to ensure that nothing has been damaged.) 
+
+Eliminating these errors could be as simple as replacing a bad SCSI cable. One way to narrow the possibilities down is to try the disc in different readers on different machines. If the same error shows up in the same place, the error was introduced during writing rather than while reading the data back. Another thing to try is to burn the same disc twice. If the data written to the CD-Rs doesn't match the original, but they do match each other, then the errors are happening in the same place every time, rather than at random, so the trouble might be with a driver or firmware instead of a flaky cable or bad RAM. 
+
+If a file appears to be getting corrupted on the CD-R, try copying it back to the hard drive and then comparing it to the original. If possible, see if the file is missing large chunks or just has sporadic damage throughout. You can use the DOS "fc" command (e.g. "FC /B FILE1 FILE2") or one of the fancier applications listed in section (3-22). 
+
+If you can identify the problem as being with the reader or the writer you may be able to focus on just one part of your system. If the trouble appears to be with your writer, and you can't get it to work, try to move it to somebody else's system and see if it works from there. It's possible, though unlikely, that the CD recorder is flaky. 
+
+Whatever the case, the place to start is to check all cables, connections, SCSI termination, L2 cache, and RAM. One user with an otherwise properly functioning system was able to fix the CD-R corruption problems by correcting the RAM timings in the BIOS setup. Use a memory tester, such as "Memtest86" from http://www.memtest86.com/, to look for bad RAM. A couple of others found that their problems went away when they disabled the L2 cache on the motherboard. Sometimes adding a new device will make cables (especially longer ones) turn flaky. Sometimes the flakiness only affects one device. Swapping the cables is inexpensive, easy, and very likely to root out the cause of your problems. Section (4-17) has some tips on SCSI stuff. If your problem is media compatibility, and the errors are a result of the BLER (error rate) exceeding the error correction's ability to fix them, then changing to a different brand of media might help. 
+
+One last thing: make sure the original files are valid before you go on a wild goose chase! 
+
+Subject: [4-23] Having trouble playing an audio CD in a home or car player 
+(2001/07/09)
+
+There are a few possibilities. First and foremost is media compatibility. Not all players get along with all brands of CD-R media. You need to find a combination of recorder, media, and player that get along. Read section (7-2) to learn more. A CD-R media identifier (like the one listed in section (6-2-9)) can help you be sure that you're trying discs from different manufacturers, but they aren't 100% reliable (section (2-33)). 
+
+If you're trying to use CD-RW media, your odds of success are worse than with CD-R. CD-RW discs simply won't play on most CD players. 
+
+Another common problem is failing to close the disc at the end of writing. You can't play an audio CD on a common CD player until the session has been closed. You may be able to play it back with the CD recorder though. Also, don't forget that you have to write all of the audio data into the first session of a multisession CD. CD players don't know how to find the later sessions, so tracks written there won't get played. 
+
+Sometimes the CD player will spin the disc up but won't start playing it. Sometimes it will have no problem playing the tracks, but will have a great deal of difficulty seeking between tracks or moving fast-forward. Using a different brand of media or a different CD player may produce better results. 
+
+If you're getting skips and jumps, make sure that you don't have anti-skip protection enabled. This is usually only available on portable or car players, and you may not be able to disable it on car players. Car CD players are notoriously picky about media. See also section (4-40). 
+
+One user with a Jensen car CD stereo was unable to use blanks immediately after recording them. After a couple of days, the discs suddenly started working. This "delayed finalizing" behavior appears consistently repeatable, not a one-time event. Recording at 1x instead of 4x resulted in discs that were immediately usable. 
+
+Some media works better at 1x, 2x, or 4x than it does at other speeds. You may find that slowing down or speeding up the recorder helps. 
+
+If the disc plays okay at first and starts sounding bad later, or it sounds okay on the first few tracks but gets noisy toward the end of the disc, see section (4-47). 
+
+One reader reported that many CD players have a laser power adjustment that can be tweaked to improve things. Fiddling with the insides of devices you don't have manuals for is generally unwise, so don't go looking unless you're desperate. 
+
+Finally, remember that you have to write the disc in CD-DA format! If you just write a bunch of .WAV files to a disc in CD-ROM format, it's not going to work in your home stereo. 
+
+Subject: [4-24] Having trouble using a CD-ROM on a different machine 
+(2002/09/22)
+
+As with audio CDs, discussed in the previous section, there are several possibilities. The media compatibility issues mentioned above apply to CD-ROM as well. 
+
+If you're using CD-RW media rather than CD-R media, you have to be sure that the CD-ROM drive in question is MultiRead compliant. Some older drives are able to read CD-RW media, but most are not. Newer drives should work fine. 
+
+If the disc was written using a packet writing application like DirectCD (where you format a disc and then copy files directly to it, instead of creating a disc layout and recording a whole bunch of stuff all at once), some CD-ROM drives will stumble on packet boundaries. Refer to section (4-21) for information and a possible workaround. 
+
+If a packet-written disc was closed in ISO-9660 Level 3 format, it won't be usable on systems that don't support ISO-9660 level 3 (e.g. DOS). If the disc was *not* closed as ISO-9660, and is still in UDF, you will need a UDF driver; see sections (6-3) and (6-3-1) for an overview and pointers to free drivers. If the failing system is running Windows XP, see http://support.microsoft.com/default.aspx?scid=KB;EN-US;Q321640& for an article on using UDF discs under XP. 
+
+Subject: [4-25] I can't copy a VideoCD 
+(1998/08/29)
+
+If you put a VideoCD (White Book) into your CD-ROM drive, you will see a bunch of files and directories like you would on any other CD-ROM. In fact, with the appropriate software installed, on some platforms you can double-click on a file to play the video. 
+
+In practice, however, the video files are stored on separate tracks, using CD-ROM/XA MODE-2 FORM-2. This allows more data to be stored on a VideoCD, at the price of less error correction. If the video is short enough, you may be able to copy the disc as a collection of files, but some players may be unable to play back selections if the original disc had more than one track. 
+
+You need to use a program like Roxio's CD Copier or GoldenHawk's CDRWIN to copy the disc track-by-track, preserving the mode of the original. 
+
+If your drive only supports track-at-once recording, you may have trouble copying VideoCDs because the starting address gets shifted when the drive writes a gap between tracks. NTI's CD-Copy (section 6-1-12) gives you the option of dropping the last part of the previous track to preserve the start position of the next track. 
+
+Note that MODE-2 FORM-2 holds 2324 bytes of data per sector, so instead of a total capacity of around 650MB, you can put closer to 740MB on a disc. If you don't record the VideoCD data files in the correct format, you will find yourself running out of room. (The extra space is gained by throwing out error correction codes that aren't necessary for video data. Writing ordinary data in this format is not recommended.) 
+
+Subject: [4-26] The test write succeeds, but the actual write fails 
+(2002/08/16)
+
+This often used to be a problem with auto-insert notification being enabled when it shouldn't be. See the discussion in section (4-1). 
+
+If you're using track-at-once recording, and the actual write is failing when the disc is 100% complete and the TOC is being written, you may be able to solve your problems by using a different brand of media. See the notes in section (4-9). 
+
+One person supposedly fixed a similar problem by replacing the power supply in their computer. Apparently the 200W supply wasn't enough to handle everything that was connected to it, and the resultant "brown out" may have been causing problems during writing. 
+
+Subject: [4-27] I can no longer erase a particular CD-RW disc 
+(2001/06/26)
+
+It's possible that the disc has developed a region that can't be erased. More likely is that the software or firmware is acting up. If you're using Easy CD Creator, insert a good CD-RW disc, and start the Erase process. Just before you hit the final "OK" button to start the erase, swap the troubled blank disc in place of the good one. 
+
+If this succeeds, you probably ought to run it through the erase procedure one additional time before using it. 
+
+Super Blank, from http://www.ping.be/kris-schoofs/, reportedly accomplishes the same thing without requiring a disc swap. 
+
+If this doesn't work, there is an (unconfirmed) report that a UV EPROM eraser will do the trick. Experiments have shown that leaving the disc out in direct sunlight for a couple of hours may also help. The resulting disc won't be fully erased, but it may be "blank enough" that you can then use Super Blank to finish the job. (Somebody else has reported that polycarbonate is opaque to UV light, suggesting that the discs should be left label-side-up if this is to work at all.) 
+
+If nothing at all works, make a careful examination of the write surface of the disc. It's possible the disc is physically damaged and can't be used. 
+
+Subject: [4-28] Having trouble formatting discs with DirectCD 
+(2001/07/09)
+
+First off, see section (3-40) for an explanation of the different ways to make a disc look empty. For conventional CD recording, you don't want to format the disc at all. 
+
+If it's a CD-RW that you've used before, try erasing it first. If you can't seem to do that either, see section (4-27). 
+
+One user with DirectCD 5.01 had troubles that went away by changing the VCACHE settings from min=2048 max=6144 to min=0 max=10240. See section (4-1-2) for information about the surprisingly important VCACHE settings. 
+
+It has been reported that some virus scanners, notably TBAV, can interfere with the format process and should be disabled. 
+
+This was sent to me by Jac Goudsmit, regarding formatting CD-RW media with DirectCD for Windows 2.0a: 
+
+"When [Roxio] DirectCD refuses to format a CD-RW for packet-writing, it's possible that the disc is not completely blank. This may happen because you chose the "quick" option when you last erased it. The quick-erase option only erases the lead-in area to make the hardware and software think the disc is empty. This is fine if you're going to use the disc for "normal" writing as a CD-ROM, audio disc or whatever. 
+
+The packet-writing formatter in DirectCD 2.0a however (apparently) requires the disc to be totally empty, so you really have to do a full erase if the disc contained data previously. 
+
+BUT: there's another problem: after you do a full erase and shut down the program you erase with (e.g. EasyCD Pro or Easy CD Creator) it's possible that the DirectCD program won't recognize the disc as valid media, and you still won't be able to format it, until you restart the computer. 
+
+Unfortunately this means that if you want to start using a previously recorded CD-RW for packet writing, you'll have to wait a total time of at least an hour and a half for the erase and format to complete..." 
+
+Subject: [4-29] I can't write CD-Rs after installing Windows 98 
+(1998/07/07)
+
+(Many users had trouble with Win98 shortly after it was released. These problems can still arise if you re-install the original Win98.) 
+
+If you're using Easy CD Creator 3, try uninstalling it, rebooting, and then reinstalling it. This seems to fix the problems for the people reporting them. Doing the same for other software may have similar beneficial effects. Apparently ECDC3 installs its own versions of some system drivers (e.g. ASPI), which get overwritten when Win98 is installed. Uninstalling and reinstalling the drivers puts the ECDC3-friendly versions back. 
+
+Make sure your ASPI (Advanced SCSI Programmer's Interface) layer is up to date, even if you have an IDE recorder. See section (4-44). 
+
+Subject: [4-30] I can't use the copy of a CD-ROM after installing Windows 98 
+(1998/09/14)
+
+(This refers to systems upgraded from Win95 to Win98.) 
+
+This problem has been recognized by Microsoft. The resolution is posted on http://support.microsoft.com/support/kb/articles/q186/2/97.asp. 
+
+The basic problem is that, after upgrading to Windows 98, copies of some CD-ROMs (usually copy-protected games) will refuse to run, insisting that you insert the original disc. Microsoft has recommended two methods for resolving this issue. The first is to simply use the original disc. 
+
+The second recommendation is to make a new copy of the disc under Win98. Why this works is unclear, and the Microsoft support pages aren't much help. They only say that the behavior is not caused by a bug, but rather "design changes in Windows 98". (It appears that using Win98 to write a new session onto an existing disc will also cure the problem, but if you aren't in the habit of leaving a new session open on copies of game discs, this won't help you much.) 
+
+One possibility is that Win98 returns a value for the volume label that is closer to what is actually stored (perhaps there was some sort of character set conversion or truncation going on in Win95). Copy protected games often check the volume label as a way of obstructing inexperienced software pirates. 
+
+Subject: [4-31] The disc I was writing with DirectCD is now unreadable 
+(1999/03/12)
+
+Start with http://www.mrichter.com/cdr/primer/udf.htm to get an understanding of what DirectCD is doing. 
+
+A popular way to screw up DirectCD's UDF handling is to remove the disc without letting the software finish up. You can accomplish this by rebooting while it's working, attempting to disable it by doing something other than uninstalling it (see section (3-45)), or by turning off auto-insert notification. 
+
+If you have DirectCD 2.x, you may be able to recover the data with the included Scan Disc utility. CD-R Diagnostic (6-2-6) may also be able to recover data. 
+
+Rule of thumb: don't delete data off your hard drive until the disc is finalized and verified readable. Too many bad things can happen when writing to a disc. 
+
+Subject: [4-32] I'm getting a message about 100 form transitions 
+(2000/05/05)
+
+When attempting to copy certain discs, Easy CD Creator (as of v3.x) will say something like: 
+
+"The current track contains more than 100 form transitions. Easy CD Creator cannot handle more than 100 form transitions on a single track. The disc cannot be copied." 
+This appears to be a form of copy protection, where a disc uses both FORM-1 and FORM-2 on a CDROM/XA MODE-2 disc. 
+
+One user reported that this only happens when trying to copy a Playstation game by first copying the tracks to the hard drive. If you make a copy directly from one disc to the other, the errors won't occur. 
+
+According to Roxio, the message can also occur if the source drive is reporting more than 100 tracks on the disc, or if the source drive is defective in some specific way. 
+
+Subject: [4-33] My system hangs when I insert a blank disc 
+(1999/10/10)
+
+You may have a bad installation of a CD recording program like DirectCD. When you insert a blank disc, the software tries to identify it to give you the opportunity to format it for packet writing. 
+
+If you have packet software like DirectCD or PacketCD installed, try uninstalling it and see if the problem goes away. In some cases you might need to get rid of windows\system\iosubsys\scsi1hlp.vxd manually. 
+
+Subject: [4-34] My CD-R discs don't work in my DVD player 
+(2000/02/06)
+
+Not all DVD players can handle CD-R media. See section (2-13). 
+
+Some players that don't work with CD-R discs will work with CD-RW discs. If you're having trouble, try CD-RW media instead. 
+
+Subject: [4-35] I need serious help recovering important data 
+(2000/07/18)
+
+If CD-R Diagnostic (6-2-6) can't help you, there are places that might be able to. Some examples: 
+
+* CD Recovery Services, http://www.cdrecovery.com/. 
+* Acodisc CD Data Recovery, http://www.acodisc.com/. 
+* CD Data Guys, http://www.cddataguys.com/. 
+
+Subject: [4-36] What does "not convertible to CD quality" mean? 
+(2000/03/12)
+
+Some applications, notably Easy CD Creator, can only do very simple conversions on audio files. If you are trying to create an audio CD, but the WAV file isn't 44.1KHz 16-bit stereo PCM, you will have to convert it to that format with something like GoldWave (section (6-2-21)) before you do the write. 
+
+Subject: [4-37] I inserted a CD-ROM but Windows thinks it's an audio CD 
+(2002/03/18)
+
+Sometimes a Windows system will get into a state where it thinks that a CD-R or CD-RW data disc is an audio CD. This is very peculiar, since the CD-ROMs aren't "enhanced" discs with both audio and data content. In some cases the problem only happens with a CD recorder -- a CD-ROM drive in the same machine will work correctly -- or vice-versa. 
+
+One situation where this is reported to occur is with a JVC XR-W2080 with v2.06 firmware (or an equivalent OEM version). If you have the Roxio UDF reader loaded, whether manually or as part of installing DirectCD 3.x, the problem will occur. Removing the UDF reader, either with Add/Remove Programs or renaming \Windows\System\Iosubsys\Udfreadr.vxd, is said to fix the problem. 
+
+Another occurrence has been reported with Toast 3.7 on a Mac. If a disc was recorded with Toast as CD-ROM/XA instead of CD-ROM, Win98 would see the disc as audio. Win95 and WinNT worked fine on the same disc. 
+
+One user found that replacing the IDE cable made the problem go away. Another found that using MODE-1 rather than MODE-2 helped (check the advanced recording options in your software). 
+
+Another user got the problem to go away by uninstalling "Wavelab". 
+
+Somebody else found that the problem went away on a SCSI device when he disabled wide negotiation and limited the data rate to 16MB/sec. 
+
+Subject: [4-38] I get read errors when trying to copy a game 
+(2000/04/17)
+
+You are most likely running into copy protection. The game publisher has placed "unreadable" sectors on the disc, in an effort to confound disc duplication programs. 
+
+Instructions for making "backups" of copy-protected games can be found on the web. See also section (3-39). 
+
+If you don't believe the disc is protected, then it might simply be dirty or scratched. You can try to clean the disc -- use a lint-free cloth, wiping from the center out -- or see section (7-12) for notes on scratch removal. 
+
+Subject: [4-39] Restarting or shutting Windows down after recording causes hang 
+(2000/04/26)
+
+This is a situation where recording discs proceeds without difficulty, but the system hangs when you tell it to halt or restart. One possible culprit is anti-virus software. Try disabling it and see if the problem goes away. 
+
+Subject: [4-40] Why do CD-Rs play poorly when anti-skip protection is enabled? 
+(2000/05/31)
+
+When a CD player is playing a disc without any sort of anti-skip protection, it spins the disc at 1x, and attempts to correct whatever errors it gets. If it can't correct them, it does the best it can and keeps going. 
+
+When an anti-skip feature (such as Sony's "ESP") is in use, the disc is played at a faster speed (perhaps 2x), and when uncorrectable errors are encountered, the failed section is re-read. 
+
+CD-R discs are generally harder to read than pressed discs, so there is a greater likelihood of encountering uncorrectable errors. In some cases a player may get stuck re-reading a particular section, and the playback will have lots of skips and jumps as a result. 
+
+The skip protection feature can usually be turned off on portables. On car players you may have to find a brand of media that works better. 
+
+Subject: [4-41] I'm having trouble recording under Windows 2000 or WinXP 
+(2003/04/23)
+
+Make sure the software you're using supports Win2K or WinXP. Don't assume that, just because it runs, everything will work correctly. You may need to update to a newer version. 
+
+Under Win2K, you may need to be running as an Administrator equivalent to record. The reasons for this appear to be access permissions on the device, on certain registry keys, or both. Similar problems may arise under WinXP. 
+
+Installing Windows Media Player 7 in Win2K may mess up Easy CD Creator and DirectCD. One solution is to uninstall and reinstall both, and make sure ECDC is at 4.02c or later and DirectCD is at 3.01c or later. A simpler solution involves a registry fix. For a complete discussion of the problem, go to http://ask.adaptec.com/, and in the "Search all Products by Keyword or Article Number" section enter "000726-0003", click on "Article #", and press the "search" button. 
+
+IDE recorders may need to be the master device when used with ECDC under Win2K. If you are having trouble with an IDE recorder, and it's not set up as the secondary master, try configuring it that way. 
+
+Running ECDC v3.5c under Win2K is not recommended. Only Version 4.02 and later are officially supported. For WinXP, you need version 5, and even then you'll probably have trouble. See also section (4-49). 
+
+Installing WinXP Service Pack 1 may cause problems with DirectCD. The solution is to uninstall and re-install DirectCD after installing the WinXP SP1 update. 
+
+A few people were able to fix problems by disabling the in-built CD recording features of WinXP. This can be turned off for each drive by right-clicking on the drive in My Computer, selecting Properties, then clicking on the Recording tab and disabling the appropriate checkbox. A more thorough approach is to open the "Administrative Tools" control panel and disable the "IMAPI Burning Service". 
+
+See also Microsoft Knowledge Base article #324129, "HOW TO: Troubleshoot Issues That Occur When You Write Data to a CD-R or CD-RW Optical Disc in Windows XP", at http://support.microsoft.com/?scid=kb;en-us;324129. 
+
+Subject: [4-42] I formatted a CD-RW and only have about 530MB free 
+(2000/10/29)
+
+This is the expected behavior when formatting CD-RW media for use with Roxio's DirectCD packet-writing software. CD-RW discs are formatted with fixed-size packets, which takes up more space but allows you to erase individual files. With variable-size packets, you get to use more of the space on the disc, but when you delete a file it is simply marked as gone. The space is still in use. 
+
+To use variable-size packets on a CD-RW with DirectCD, format a CD-R with DirectCD and then do an image copy from the CD-R to the CD-RW. 
+
+Packet writing programs from other companies may work differently. 
+
+Don't forget that it is only necessary to format a disc if you want drive-letter access. Conventional pre-mastering and creation of audio CDs should be done on unformatted discs. See section (3-40). 
+
+Subject: [4-43] My CD recording software keeps crashing 
+(2000/10/29)
+
+There are many possible reasons for this. Most people are quick to blame the software, but sometimes the problem is elsewhere in their system. 
+
+First things first: make sure you have the latest version of the software that is available. Perhaps you have found a bug that has already been fixed. 
+
+If you have overclocked your system, or tweaked it in a way that gains performance at the expense of reliability, un-tweak it and try again. 
+
+Under Windows, make sure your ASPI layer is up to date. See (4-44). 
+
+Also under Windows, look for \Windows\System\Iosubsys\scsi1hlp.vxd. If it's there, rename it to "scsi1hlp.vx_", so it won't get loaded. Reboot and try again. (This file is required for compatibility with some old SCSI hard drives. Occasionally it can intefere with other things.) 
+
+If your system looks good, contact the appropriate customer support center. If you bought the software retail, contact the company who developed the software. If it came with something else, and was distributed as an "OEM" version, you may need to contact the vendor you got it from instead (see section (6-8) for an explanation). 
+
+Subject: [4-44] Do I need to update my ASPI layer? 
+(2002/10/15)
+
+See http://www.mrichter.com/cdr/primer/aspi.htm for an introduction to ASPI.
+
+Many people have solved problems by updating their ASPI layer. In the past, it has been the first thing that customer service would ask you to check. Adaptec makes it easy with a program called ASPICHK, which used to be available from http://www.adaptec.com/support/faqs/aspilayer.html. It seems to be gone now, but http://www.mukappa.com/ had copies available under "Tools --> ASPI tools". 
+
+At any rate, according to Roxio, as of version 4.02 of Easy CD Creator (ECDC), the ASPI layer is no longer used by their product. The necessary bits are included in the application, so there's no need to check or update the layer. 
+
+For non-Adaptec owners, there is a program (of questionable legality) called "ForceASPI" that forces the Adaptec ASPI layer to install. Usually Adaptec will ask sites to remove it, so it's a bit of a moving target. http://www.mindspring.com/~tburke1/aspi.htm had a list of active sites, and it can occasionally be found with a Google search. You can also try http://aspi.radified.com/. 
+
+Some other software uses and/or modifies ASPI -- poorly. Known examples are some USB SmartMedia readers and the Creative Labs Infra system. Updating the ASPI layer when one of these devices is present may be unwise. 
+
+It's unclear what interactions Windows ME has with ASPI. 
+
+As of September 2001, the Adaptec ASPI layer causes problems on Win2K and should not be used. The LSI "w2kaspi" layer may work better; it can be found at http://www.lsilogic.com/support/support+drivers/scsi/w2kaspi.html. [At last check, the links in the page were broken.] WinXP may have similar problems. 
+
+Subject: [4-45] The write process completes, but the disc is still blank 
+(2001/09/17)
+
+This problem has been reported by a number of people. The cause is unclear. This has been known to happen suddenly to otherwise fully functional CD recorders. 
+
+Models where this has been seen: 
+
+* Smart & Friendly 2224 
+* HP 9710 
+If this happens to you: 
+
+* Have you changed media recently? Perhaps your recorder doesn't like the new blanks. 
+* Have you "upgraded" operating systems recently? Could be an OS issue. 
+* Try at least one other piece of software (e.g. a demo version of Nero or CDRWIN) just to see if something broke the software. 
+
+Subject: [4-46] My CD-RW drive won't recognize my CD-RW blank 
+(2003/07/11)
+
+If the disc is recognized but won't erase or format, see section (4-27). 
+
+One possible source of difficulty is there are different blanks for "slow" recorders (1x - 4x) and "fast" recorders. The disc manufacturers had to change the way the discs were made to accommodate recording speeds beyond 4x, but older recorders didn't work with the newer disks. The "fast" blanks have the ATIP information in a slightly different place so that "slow" recorders won't recognize them. 
+
+It is possible for some 4x-capable "slow" drives to use the "fast" blanks with a firmware upgrade, but there is no advantage to doing so since you're still limited to 4x recording (unless, of course, you're unable to find "slow" CD-RW blanks). 
+
+The "fast" 4x-10x (sometimes 4x-12x) blanks are now labeled with a "High Speed CD-RW" logo, and the "even faster" blanks (12x-24x) with "Ultra Speed CD-RW". 
+
+Subject: [4-47] Audio discs have crackling sounds on the last few tracks 
+(2002/08/06)
+
+A not-uncommon complaint is: 
+
+"I've made lots of audio CDs. They sound fine in my computer or home CD player, but when I put them in the car they have lots of static." 
+
+A variation on the theme: 
+
+"...the static is only on the last few tracks." 
+
+Or, more rarely: 
+
+"...the discs sounded fine for a couple of weeks, and still sound fine on most players, but they sound really bad now in the car. The more I played them the worse it got, to a point." 
+
+There are a few things going on here. First and foremost is media compatibility. The combination of recorder, player, and media just isn't working. Unless you're willing to change your player, the easiest thing to do is change the brand of media you're using. 
+
+The reason tracks out past the N minute mark (typically 40) sound worse might be due to speed changes. For 1x audio playback the player is in CLV mode, so the disc is spinning more slowly near the outside of the disc. (You'd think that'd make it easier, not harder. Go figure.) 
+
+You should make sure that it's a problem with writing and not with reading tracks near the edge. Try writing the tracks in a different order. A good way to do this is to extract the tracks into WAV files with a reliable DAE program (EAC, from section (6-2-12), works well). Play them from the hard drive to make sure they extracted well, and then record them onto two CD-Rs, using a different track order for each. If the problem is always on the last track then the disc is being recorded poorly. 
+
+The slight deterioration of the media after being played a few times isn't expected, but does seem to happen with some discs. It appears that the compatibility between the discs and the player is marginal to begin with, so a slight degredation in error rate on the disc results in a dramatic increase in noise during playback. 
+
+Subject: [4-48] Files in deep directories can be seen but not opened 
+(2001/10/25)
+
+The ISO-9660 standard allows discs with directories nested 8 deep. If you try to go deeper than that, you may have trouble reading the files. Win2K and WinNT4 seem to work, but Win98SE doesn't. 
+
+Programs like "mkisofs" can use the Rock Ridge extensions to work around the problem. Directories are "re-rooted" at a higher level, and invisible links are created from the deeper directories. Unfortunately, Windows still doesn't support Rock Ridge. 
+
+The UDF format, used by packet writing applications, may (?) allow deeper directories. However, not all systems can read UDF discs. 
+
+Subject: [4-49] My CD-ROM drive stopped working after uninstalling software 
+(2002/06/27)
+
+There is a problem with Roxio DirectCD 3.01/3.01c and Roxio Easy CD Creator version 4.02c and 5.01. If you uninstall them from WinXP or Win2K, your CD-ROM drive may stop working. It appears that VOB InstantCD/DVD and Nero InCD can have the same effect. 
+
+Any CD-ROM drives will be inaccessible from My Computer, and the device manager will show a "code 31", "code 32", or perhaps "code 19" message for the drives. 
+
+The page at http://support.microsoft.com/support/kb/articles/Q270/0/08.ASP describes the symptoms and the resolution of the problem. 
+
+Subject: [4-50] Audio CDs recorded from MP3s play back fast and high-pitched 
+(2002/01/17)
+
+Somebody described this as listening to songs recorded by Alvin and the Chipmunks. What's happening is the software used to uncompress the MP3 files is doing a poor job, and the uncompressed data is effectively being recorded at a lower sample rate. When the CD player tries to play it back at 44.1KHz, it sounds like the artists are inhaling a crude mixture of amphetamines and helium. 
+
+This has been reported with Easy CD Creator v4.05 and v5, NTI CD Maker 2000+, and something called Orion Liquid Burn. 
+
+The work-around is to expand the MP3 files into 44.1KHz 16-bit stereo PCM WAV files on your hard drive, and record from those instead of from the MP3s. By using a decoder such as WinAmp (http://www.winamp.com/) 
+
+Subject: [4-51] Windows says access denied, can't create or replace file 
+(2003/04/23)
+
+Sometimes, when trying to copy files onto a disc from Windows explorer, you get a message to the effect that it can't create or replace a file because access is denied or the disc is full. Some not-so-helpful suggestions about checking write protection and making sure the file is not in use are offered. 
+
+This most often happens when trying to use DirectCD with an unformatted disc. A common way to cause this is to disable the DirectCD user interface with msconfig or a similar utility (a mistake -- see section (3-45)), which prevents the "do you want to format this disc" dialog from coming up. 
+
+The solution is to let DirectCD format the disc. If you don't see the CD icon in the system tray (usually the lower-right corner), you will need to re-enable it. Under Win98, click on the Start button, select "Run...", type "msconfig", and click "OK" to bring up the System Configuration Utility. Now click on the Startup tab and make sure that anything with the word "DirectCD" in it is enabled. Under Win2K, click on Start, Settings, Control Panels, Administrative Tools, then Computer Management. When the program opens, in the left-hand pane click on System Tools, System Information, Software Environment, then Startup Programs, and make sure DirectCD is present. If not, you may need to re-install. 
+
+If the above doesn't seem to help, or you're not using DirectCD, you may be able to manually format a disc. How you do this depends on what software you're using. For example, HP DLA has a utility available from their CD recording application that lets you format a disc or close it to ISO-9660 format. 
+
+See section (3-40) for more information on formatting CD-R and CD-RW media. 
+
+In some rare cases, after formatting a CD-R or CD-RW disc for packet writing, Windows still claims the disc is full when you try to copy files onto it, or complains that the disc is "locked or protected". This can happen after files have already been copied onto the disc. 
+
+This error message can apparently also occur when trying to copy files *from* a CD-RW that has been previously written to. 
+
+The problem is rare and isn't well understood. It has been reported with DirectCD 3.x (part of ECDC Deluxe 5.x) under Windows XP. Another instance of "locked or protected" was reported under Win98. In any event, start by checking the "msconfig" situation described above. This *might* also be a media compatibility issue, so if it happens it might be worthwhile to try different brands of media. 
+
+If the disc was closed to ISO-9660 format, you will need to reopen it. 
+
+Subject: [4-52] I can't see any files on a CD-R or CD-RW from MS-DOS 
+(2002/05/08)
+
+If the disc was created with a packet writing program (like DirectCD or HP DLA), it will either be in UDF or ISO-9660 Level 3 format. Either way, you're not going to be able to see files on the disc from DOS. You need to use a more modern OS, such as Windows or Linux, or create the disc with a conventional premastering application like Nero. 
+
+Some backup programs, such as Symantec Ghost, use packet writing when backing up to CD-R. The software runs under DOS, but uses a special driver to create and access the backup data. You can see the files from Windows, but won't be able to get at them from DOS. 
+
+Subject: [4-53] My OS doesn't support ISO-13346 "UDF" 
+(2003/12/21)
+
+The UDF filesystem is based on the ISO/IEC 13346 standard, now ECMA-167, and remains compliant to that standard. Anything that knows how to read discs conforming to ISO-13346 should be able to read UDF discs. 
+
+When some Windows owners have inserted an older disc written with UDF (using one of the drag-and-drop approaches like DirectCD, InCD, HP DLA, or the WinXP built-in packet writing facility), they received a message like this: 
+
+"This disc contains a "UDF" file system and requires an operating system that supports the ISO-13346 "UDF" file system specification." 
+This seems to be happening primarily with CD-RW media. It's not really clear what's going on. 
+
+In theory, installing a UDF reader will solve the problem. Recent versions of Windows come with UDF support, so it shouldn't be necessary to do anything to get the disc to work. However, the problems persist. 
+
+One possibility is that the disc isn't using a quite standard version of UDF, and the reader is having difficulty. Installing the software that created the disc in the first place will help. 
+
+When exchanging data, "closing" the disc to ISO-9660 format can help avoid these difficulties. 
+
+---------------------------------------------------------------------
+
+Top of page 
+
+FAQ Copyright © 2003 by Andy McFadden. All Rights Reserved. 

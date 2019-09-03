@@ -1,0 +1,51 @@
+
+
+SDL Forum Society
+
+  
+
+if(MSFPhover) { MSFPnav1n=MSFPpreload("SDL/_derived/index.htm_cmp_blueprnt110_vbtn.gif"); MSFPnav1h=MSFPpreload("SDL/_derived/index.htm_cmp_blueprnt110_vbtn_a.gif"); } // -->
+if(MSFPhover) { MSFPnav3n=MSFPpreload("Events/_derived/index.htm_cmp_blueprnt110_vbtn.gif"); MSFPnav3h=MSFPpreload("Events/_derived/index.htm_cmp_blueprnt110_vbtn_a.gif"); } // -->
+if(MSFPhover) { MSFPnav5n=MSFPpreload("Publications/_derived/index.htm_cmp_blueprnt110_vbtn.gif"); MSFPnav5h=MSFPpreload("Publications/_derived/index.htm_cmp_blueprnt110_vbtn_a.gif"); } // -->
+if(MSFPhover) { MSFPnav7n=MSFPpreload("Grant/_derived/index.html_cmp_blueprnt110_vbtn.gif"); MSFPnav7h=MSFPpreload("Grant/_derived/index.html_cmp_blueprnt110_vbtn_a.gif"); } // -->
+
+NEWS
+
+Call for Papers SAM04 Ottawa 02-04 June 2004
+
+New book - UML2 (dialects of MSC & SDL)
+
+Proceedings at special prices. Extra discount for members.
+
+11th SDL Forum Jul 2003. Best paper prizes and SDL '03 Design Contest. - Society Meeting brief report - Proceedings (special price)
+
+See Publications/Books for Validation ...with SDL book by Laurent Doldi - 15% discount for members.
+
+SAM03 June 2002 - 2002 Contest Results - Society Meeting brief report - Proceedings (special price)
+
+The SDL Forum Society is a non-profit organization with the objectives: 
+
+to promote the Specification and Description Language (SDL) and Message Sequence Chart (MSC);	 
+
+to provide and disseminate information on the development and use of SDL / MSC;	 
+
+to support education on SDL / MSC;	 
+
+to plan and organize the "SDL Forum" and other events that relate to SDL / MSC	 
+SDL-2000 AND MSC-2000 FREE TO MEMBERS
+
+Publishers of the proceedings for
+ SAM2004, SDL2003, SAM2002, SDL2001
+
+Click for discussion and news lists
+
+Click for the Members Only area 
+
+Links: ASN.1 consortium, ETSI PTCC download area, Indian SDL-TTCN forum
+
+Send mail to webmaster with questions or comments about this web site.
+Copyright © 1997 - 2003 SDL Forum Society
+
+Last update: 11/25/03
+
+

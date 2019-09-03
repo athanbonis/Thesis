@@ -1,0 +1,154 @@
+Be (Palm?): BeOS BeBits Debian: Debian GNU/Linux stable , testing , unstable The FreeBSD Project: FreeBSD ports Gentoo Technologies: Gentoo Linux portage HP (formerly Compaq, formerly Digital): Tru64 Unix (formerly Digital Unix, formerly OSF/1) The Written Word (4.0d, 5.1) 1 HP: HP-UX Porting Centre UK , Germany , Netherlands , US , Canada , South Africa (more mirrors are listed on each site's home page), The Written Word (10.20, 11.00, 11.11) 1 IBM: AIX Bull archive Vienna University mirror UCLA mirror --> IBM: S/390 Linux (Red Hat 7.2) Ashley Chaloner LinuxPPC Contributed Software --> MandrakeSoft: Mandrake Linux Cooker (in the contrib section) Microsoft: Windows (Intel, 32-bit) local archive OPENEXTRA NetBSD Foundation: NetBSD packages OpenBSD: OpenBSD ports PLD Team: PLD Linux FTP site Red Hat: Red Hat Linux RPMFind (requires glibc) Henri Gomez The Written Word (7.1) 1 local archive ROCK Linux: ROCK Linux package SCO (formerly Caldera) Skunkware : UnixWare 7 Open UNIX 8 SGI: Irix The Written Word (6.5) 1 Slackware Linux: Slackware Linux Linux Packages Sun Microsystems: Solaris/Intel Solaris 01/01 update (unsupported) Sun Microsystems: Solaris/SPARC local archive (8, 9) The Written Word (2.5.1 - 9) 1 Sunfreeware.com (7, 8) Solaris 8 and 9 Companion Software CDs (unsupported) SuSE: SuSE Linux SuSE FTP site . Mirrors are also available. If you know of any binary distribution not listed here, please send mail to ethereal-web[AT]ethereal.com . [1] Each Ethereal package produced by The Written Word depends on the zlib , Glib , GTK+ , Perl , and Net-SNMP packages. Please refer to The Written Word's documentation for installation instructions. Please do not call The Written Word for support. Email free-support[AT]thewrittenword.com with questions. R EQUIREMENTS F OR C OMPILING Before you download source code to Ethereal, you may want to verify that the following packages are installed on your system -- they are required in order to compile: GTK+ and GLib, available from the GTK+ site. Version 1.2 or a later 1.2.x release are needed; Ethereal is not guaranteed to compile with 2.x releases of GTK+ or GLib, and there's a good chance that it will not compile. Solaris users should note that at least some versions of the GLib and GTK+ packages from sunfreeware.com have had problems that either cause Ethereal not to build or cause it to crash when run; if the build fails because plugin_list isn't defined, or the build succeeds but Ethereal crashes with a bus error, and you have GLib and GTK+ packages from sunfreeware.com installed, un-install those packages, and try getting the 1.2.10 versions from that site, or the version from The Written Word , or the version from Sun's GNOME distribution, or the version from the supplemental software CD that comes with the Solaris media kit, or build it from source from the GTK Web site . Then re-run the configuration script, and try rebuilding Ethereal. (If you get the 1.2.10 versions from www.sunfreeware.org, and the problem persists, un-install them and try installing one of the other versions mentioned.) The libpcap packet capture library, available for UNIX The Tcpdump Group , if it doesn't come as part of your OS; the Windows port, WinPcap, is available from the WinPcap Web site , as well as from the local mirror of that site or the Wiretapped.net mirror of that site . In Linux distributions that come with libpcap, there are often separate "user" and "developer" packages for libpcap; you will have to install both packages in order to compile Ethereal. On Windows, you will need to install not only the regular WinPcap library, but also the "developer's pack", in order to compile Ethereal. As of Ethereal 0.9.5, you must install WinPcap 2.3 or later, and the corresponding version of the developer's pack, in order to be able to compile Ethereal; it will not compile with older versions of the developer's pack. (The installed version of the developer's pack should be the same version as the version of WinPcap you have installed.) Historical note: If you're running an older version of Ethereal (<= 0.8.1) on Linux, you may want to look at this patch . It fixes a bug in libpcap that can make Ethereal unresponsive during a packet capture. Please note that this patch is for the older version of libpcap from ftp://ftp.ee.lbl.gov , and not the newer versions on the tcpdump.org site or the modified versions that come with Red Hat Linux. RPMs and SRPMs of the patched libpcap for Red Hat 6.0 and 6.1 can be found on the ftp site . Current versions of Ethereal do not have this problem. Perl is required to build the documentation. Additionally, Ethereal can make use of the zlib, NET-SNMP, and adns libraries if available. Zlib allows Ethereal to read gzip-compressed files on the fly. We strongly suggest that you build Ethereal with zlib 1.1.4 or later; on many platforms, applications built with versions of zlib prior to 1.1.4 may be vulnerable to this security problem . The NET-SNMP (formerly known as UCD SNMP) library enables translation of OIDs to names, and more detailed decoding of variable bindings, using MIB files that come with the NET-SNMP library. We strongly suggest that you build Ethereal with UCD SNMP 4.2.4 or later; Ethereal, if built with earlier versions, can be vulnerable to buffer overflows - see this security advisory . GNU adns allows asynchronous DNS resolution. Normally, Ethereal and Tethereal perform name resolution synchronously, which can slow things down considerably. A Windows version of the library is also available. S OURCE C ODE Source code for the latest distribution can be downoaded via HTTP or FTP from the following locations: HTTP: Main site: http://www.ethereal.com/distribution/ Australia: http://ethereal.planetmirror.com/ Australia: http://www.mirrors.wiretapped.net/security/packet-capture/ethereal/ Europe: http://gd.tuwien.ac.at/www.ethereal.com/ Europe: http://ftp.sunet.se/pub/network/monitoring/ethereal/ Japan: http://ethereal.netarc.jp/distribution/ Korea: http://ethereal.secuwiz.com/distribution/ Malaysia: http://ethereal.0ni0n.org/distribution/ FTP: Main site: ftp://ftp.ethereal.com/pub/ethereal/ Australia: ftp://ftp.planetmirror.com/pub/ethereal/ Australia: ftp://ftp.mirrors.wiretapped.net/pub/security/packet-capture/ethereal/ Europe: ftp://gd.tuwien.ac.at/infosys/security/ethereal/ Europe: ftp://ftp.sunet.se/pub/network/monitoring/ethereal/ Japan: ftp://ftp.ayamura.org/pub/ethereal/ Mexico: ftp://ftp.azc.uam.mx/mirrors/ethereal/ For the daring, the latest development sources are available via anonymous CVS . L EGAL N OTICES AIX is a registered trademark of International Business Machines, Inc. Tru64 is a registered trademark of Compaq Computer Corporation. Debian is a registered trademark of Software In The Public Interest, Inc. FreeBSD is a registered trademark of Walnut Creek CDROM, Inc. HP-UX is a registered trademark of Hewlett-Packard Company. Irix is a registered trademark of Silicon Graphics, Inc. LinuxPPC is a trademark of Jeff Carr. Mac OS is a registered trademark of Apple Computer, Inc. NetBSD is a registered trademark of the NetBSD Foundation. Red Hat is a registered trademark of Red Hat, Inc. Linux is a registered trademark of Linus Torvalds. SCO and Unixware are registered trademarks of Santa Cruz Operation, Inc. Slackware is a registered trademark of Patrick Volkerding. Solaris is a registered trademark of Sun Microsystems, Inc. SuSE is a registered trademark of SuSE AG. Microsoft, Windows, Windows 95, Windows 98, Windows ME, Windows NT, Windows 2000, and Windows XP are registered trademarks of Microsoft, Inc. All other trademarks on this site are property of their respective owners. Support can be found on the ethereal-users[AT]ethereal.com mailing list. For corrections/additions/suggestions for this page, please send email to: ethereal-web[AT]ethereal.com Last modified: Mon, January 19 2004.   --> 
+
+Ethereal
+
+The world's most popular network protocol  analyzer 	
+
+Search:   options 	
+
+[   Binary Packages   |   Requirements For Compiling   |   Source Code   |   Legal Notices   |   Home   ] 
+
+ 	 
+
+BINARY PACKAGES	 
+
+Binary distributions and ready-to-compile packages are available for several platforms. Most of these sites also contain binary distributions or ready-to-compile packages of the libraries that Ethereal depends on, such as GTK+ and libpcap; you may have to download and install them before installing Ethereal.
+
+Platform	 Location(s)	 
+Apple Computer:
+Mac OS X	 Fink Project 	
+Be (Palm?):
+BeOS	 BeBits 	
+Debian:
+Debian GNU/Linux	 stable, testing, unstable 	
+The FreeBSD Project:
+FreeBSD	 ports	 
+Gentoo Technologies:
+Gentoo Linux	 portage	 
+HP (formerly Compaq, formerly Digital):
+ Tru64 Unix (formerly Digital Unix, formerly OSF/1) 	The Written Word (4.0d, 5.1)1 	
+HP:
+HP-UX	 Porting Centre UK, Germany, Netherlands, US, Canada, South Africa 
+(more mirrors are listed on each site's home page),
+ The Written Word (10.20, 11.00, 11.11)1 	
+IBM:
+AIX	 Bull archive
+ Vienna University mirror
+ UCLA mirror 	
+IBM:
+S/390 Linux (Red Hat 7.2)	 Ashley Chaloner
+ 	
+MandrakeSoft:
+Mandrake Linux	 Cooker (in the contrib section) 	
+Microsoft:
+Windows (Intel, 32-bit)	 local archive
+ OPENEXTRA 	
+NetBSD Foundation:
+NetBSD	 packages	 
+OpenBSD:
+OpenBSD	 ports	 
+PLD Team:
+PLD Linux	 FTP site	 
+Red Hat:
+Red Hat Linux	 RPMFind (requires glibc)
+ Henri Gomez
+ The Written Word (7.1)1
+ local archive
+ 	
+ROCK Linux:
+ROCK Linux	 package
+ 	
+SCO (formerly Caldera)	 Skunkware: UnixWare 7 Open UNIX 8 	
+SGI:
+Irix	 The Written Word (6.5)1 	
+Slackware Linux:
+Slackware Linux	 Linux Packages	 
+Sun Microsystems:
+Solaris/Intel	 Solaris 01/01 update (unsupported) 	
+Sun Microsystems:
+Solaris/SPARC	 local archive (8, 9)
+ The Written Word (2.5.1 - 9)1
+ Sunfreeware.com (7, 8)
+ Solaris 8 and 9 Companion Software CDs (unsupported) 	
+SuSE:
+SuSE Linux	 SuSE FTP site. Mirrors are also available. 	
+
+If you know of any binary distribution not listed here, please send mail to ethereal-web[AT]ethereal.com.
+
+[1] Each Ethereal package produced by The Written Word depends on the zlib, Glib, GTK+, Perl, and Net-SNMP packages. Please refer to The Written Word's documentation for installation instructions. Please do not call The Written Word for support. Email free-support[AT]thewrittenword.com with questions. 
+
+REQUIREMENTS FOR COMPILING	 
+
+Before you download source code to Ethereal, you may want to verify that the following packages are installed on your system -- they are required in order to compile:
+
+* GTK+ and GLib, available from the GTK+ site. Version 1.2 or a later 1.2.x release are needed; Ethereal is not guaranteed to compile with 2.x releases of GTK+ or GLib, and there's a good chance that it will not compile.
+
+Solaris users should note that at least some versions of the GLib and GTK+ packages from sunfreeware.com have had problems that either cause Ethereal not to build or cause it to crash when run; if the build fails because plugin_list isn't defined, or the build succeeds but Ethereal crashes with a bus error, and you have GLib and GTK+ packages from sunfreeware.com installed, un-install those packages, and try getting the 1.2.10 versions from that site, or the version from The Written Word, or the version from Sun's GNOME distribution, or the version from the supplemental software CD that comes with the Solaris media kit, or build it from source from the GTK Web site. Then re-run the configuration script, and try rebuilding Ethereal. (If you get the 1.2.10 versions from www.sunfreeware.org, and the problem persists, un-install them and try installing one of the other versions mentioned.) 
+
+* The libpcap packet capture library, available for UNIX The Tcpdump Group, if it doesn't come as part of your OS; the Windows port, WinPcap, is available from the WinPcap Web site, as well as from the local mirror of that site or the Wiretapped.net mirror of that site.
+
+In Linux distributions that come with libpcap, there are often separate "user" and "developer" packages for libpcap; you will have to install both packages in order to compile Ethereal.
+
+On Windows, you will need to install not only the regular WinPcap library, but also the "developer's pack", in order to compile Ethereal. As of Ethereal 0.9.5, you must install WinPcap 2.3 or later, and the corresponding version of the developer's pack, in order to be able to compile Ethereal; it will not compile with older versions of the developer's pack. (The installed version of the developer's pack should be the same version as the version of WinPcap you have installed.)
+
+Historical note: If you're running an older version of Ethereal (<= 0.8.1) on Linux, you may want to look at this patch. It fixes a bug in libpcap that can make Ethereal unresponsive during a packet capture. Please note that this patch is for the older version of libpcap from ftp://ftp.ee.lbl.gov, and not the newer versions on the tcpdump.org site or the modified versions that come with Red Hat Linux. RPMs and SRPMs of the patched libpcap for Red Hat 6.0 and 6.1 can be found on the ftp site. Current versions of Ethereal do not have this problem.
+
+* Perl is required to build the documentation.
+
+Additionally, Ethereal can make use of the zlib, NET-SNMP, and adns libraries if available.
+
+* Zlib allows Ethereal to read gzip-compressed files on the fly. We strongly suggest that you build Ethereal with zlib 1.1.4 or later; on many platforms, applications built with versions of zlib prior to 1.1.4 may be vulnerable to this security problem.
+
+* The NET-SNMP (formerly known as UCD SNMP) library enables translation of OIDs to names, and more detailed decoding of variable bindings, using MIB files that come with the NET-SNMP library. We strongly suggest that you build Ethereal with UCD SNMP 4.2.4 or later; Ethereal, if built with earlier versions, can be vulnerable to buffer overflows - see this security advisory.
+
+* GNU adns allows asynchronous DNS resolution. Normally, Ethereal and Tethereal perform name resolution synchronously, which can slow things down considerably. A Windows version of the library is also available. 
+
+SOURCE CODE	 
+
+Source code for the latest distribution can be downoaded via HTTP or FTP from the following locations:
+
+HTTP:
+
+Main site: http://www.ethereal.com/distribution/
+
+Australia: http://ethereal.planetmirror.com/
+
+Australia: http://www.mirrors.wiretapped.net/security/packet-capture/ethereal/
+
+Europe: http://gd.tuwien.ac.at/www.ethereal.com/
+
+Europe: http://ftp.sunet.se/pub/network/monitoring/ethereal/
+
+Japan: http://ethereal.netarc.jp/distribution/
+
+Korea: http://ethereal.secuwiz.com/distribution/
+
+Malaysia: http://ethereal.0ni0n.org/distribution/
+
+FTP:
+
+Main site: ftp://ftp.ethereal.com/pub/ethereal/
+
+Australia: ftp://ftp.planetmirror.com/pub/ethereal/
+
+Australia: ftp://ftp.mirrors.wiretapped.net/pub/security/packet-capture/ethereal/
+
+Europe: ftp://gd.tuwien.ac.at/infosys/security/ethereal/
+
+Europe: ftp://ftp.sunet.se/pub/network/monitoring/ethereal/
+
+Japan: ftp://ftp.ayamura.org/pub/ethereal/
+
+Mexico: ftp://ftp.azc.uam.mx/mirrors/ethereal/
+
+For the daring, the latest development sources are available via anonymous CVS. 	
+
+LEGAL NOTICES	 
+
+AIX is a registered trademark of International Business Machines, Inc. Tru64 is a registered trademark of Compaq Computer Corporation. Debian is a registered trademark of Software In The Public Interest, Inc. FreeBSD is a registered trademark of Walnut Creek CDROM, Inc. HP-UX is a registered trademark of Hewlett-Packard Company. Irix is a registered trademark of Silicon Graphics, Inc. LinuxPPC is a trademark of Jeff Carr. Mac OS is a registered trademark of Apple Computer, Inc. NetBSD is a registered trademark of the NetBSD Foundation. Red Hat is a registered trademark of Red Hat, Inc. Linux is a registered trademark of Linus Torvalds. SCO and Unixware are registered trademarks of Santa Cruz Operation, Inc. Slackware is a registered trademark of Patrick Volkerding. Solaris is a registered trademark of Sun Microsystems, Inc. SuSE is a registered trademark of SuSE AG. Microsoft, Windows, Windows 95, Windows 98, Windows ME, Windows NT, Windows 2000, and Windows XP are registered trademarks of Microsoft, Inc.    All other trademarks on this site are property of their respective owners. 
+
+ 	 
+
+Support can be found on the ethereal-users[AT]ethereal.com mailing list. 
+For corrections/additions/suggestions for this page, please send email to: ethereal-web[AT]ethereal.com
+ Last modified: Mon, January 19 2004. 

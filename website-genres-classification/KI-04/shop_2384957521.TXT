@@ -1,0 +1,212 @@
+includeHost = 'http://include.ebaystatic.com/'; typeof(writeCBHeader)!= "undefined"?writeCBHeader():''; 
+
+typeof(writeCBBrow)!="undefined"?writeCBBrow():false; 	
+
+home | pay writeCBSignInLink("register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US","",""); | register writeCBSignInLink("sign in","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US","sign out","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sout:US"); | sign in/out | services | site map | help		
+
+headerpartner('', HdrSponsorEnable, sponsorLink); 	
+
+Buying new items, brand names, and collectibles on eBay is simple. Here's how it works... 			
+
+What are you looking for?
+  
+ 
+Search Tips	 How to Search	 
+Browse for an item
+ 
+Select a category...
+ 
+Antiques
+ 
+Art
+ 
+Books
+ 
+Business & Industrial
+ 
+Cars & Other Vehicles
+ 
+    - Motorcycles
+ 
+    - Parts
+ 
+Clothing, Shoes & Accessories
+ 
+Coins
+ 
+Collectibles
+ 
+Computers & Electronics
+ 
+    - Cameras & Photo
+ 
+    - Cell Phones & Plans
+ 
+    - Home Audio & Video
+ 
+Dolls & Bears
+ 
+Entertainment
+ 
+    - DVDs & Movies
+ 
+    - Memorabilia
+ 
+    - Music
+ 
+    - Video Games
+ 
+Home
+ 
+    - Baby
+ 
+    - Crafts
+ 
+    - Pet Supplies
+ 
+Jewelry & Watches
+ 
+Musical Instruments
+ 
+Pottery & Glass
+ 
+Real Estate
+ 
+Specialty Services
+ 
+Sports
+ 
+Stamps
+ 
+Tickets
+ 
+Toys & Hobbies
+ 
+Travel
+ 
+Everything Else
+ 
+    - Health & Beauty
+ 
+See all eBay categories
+ 
+ 
+Specialty sites: eBay Motors | eBay Stores 		
+
+You must register to bid or buy. It's fast, easy, and free!
+
+How to Register 	
+
+Registration Benefits:
+ 
+
+Personalized shopping page	 
+
+Your favorite saved searches	 
+
+Most-wanted-item notifications	 
+
+Access to last-minute bargains	 
+
+PayPal Buyer Protection	 
+
+Already Registered? Sign In	 
+
+Global Sites
+ 
+Select a country...
+ 
+Argentina
+ 
+Australia
+ 
+Austria
+ 
+Belgium
+ 
+Brazil
+ 
+Canada
+ 
+China
+ 
+France
+ 
+Germany
+ 
+Hong Kong
+ 
+Ireland
+ 
+Italy
+ 
+Korea
+ 
+Mexico
+ 
+Netherlands
+ 
+New Zealand
+ 
+Singapore
+ 
+Spain
+ 
+Sweden
+ 
+Switzerland
+ 
+Taiwan
+ 
+United Kingdom
+  
+
+Buy It Now
+ You won't have to wait for the auction to end -- purchase your item instantly.
+
+Place a bid
+Enter the maximum amount you want to spend; eBay bids for you, up to the limit set by you.
+
+Review Feedback
+Feedback ratings are based on a user's past transactions and help you learn about the seller you're dealing with.
+
+How to Bid and Buy 				
+Pay for your item
+ You'll receive an email from eBay explaining how to pay the seller.
+Most sellers accept PayPal. It's a safe, fast, easy and free way to pay for items and you'll be protected up to $500 on qualified listings through PayPal Buyer Protection.
+
+Many sellers also accept payment by check or money order.
+
+Get your item
+After the seller receives your payment, the item is sent to you. It's that easy!
+
+How to Buy with Confidence 		
+
+Featured Items	 all featured items...	 		
+
+ 	 DIGITAL 4 COLOR POSTER PRINTING ONLY $19.95	 
+ 	 3.20 CT HUGE RARE BLACK DIAMOND SOLITAIRE	 
+ 	 200 8" NEON GLOWSTICKS-SUPER BLOWOUT SALE!	 
+ 	 18K Gold and Genuine Turquoise Bracelet NR	 
+ 	 ELEGANT DIAMOND AND TANZANITE NECKLACE	 
+ 	 AMAZING #1 CARB BLOCKER I_LOST_42LBS +3_GiFTS	 
+
+ 	 
+
+Why does this page look different?
+
+Announcements | Register | Shop eBay-o-rama | Security Center | Policies | PayPal | eBay Anything Points 
+Feedback Forum | About eBay | Jobs | Affiliates Program | Developers | eBay Downloads | eBay Gift Certificates 	
+
+Last updated: Jan-25-04 17:55:51 PST 
+
+My eBay |  Site Map 
+Browse  |  Sell  |  Services  |  Search  |  Help  |  Community 	
+ 	 
+Copyright � 1995-2004 eBay Inc. All Rights Reserved.
+Designated trademarks and brands are the property of
+ their respective owners.
+Use of this Web site constitutes acceptance of the
+eBay User Agreement and Privacy Policy.
+
+

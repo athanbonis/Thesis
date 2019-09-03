@@ -1,0 +1,73 @@
+
+ 	 Shopping Cart | My Account | Order Status | Customer Service   	
+
+Search for	 		More Search Options	 
+
+Categories
+ • Accessories & Shoes
+ • Apparel
+ • Beauty
+ • Cooking & Dining
+ • Electronics
+ • Gifts
+ • Health & Fitness
+ • Home Accents &
+ Furnishings
+ • Home Improvement 
+• Jewelry
+ • Toys, Crafts & Leisure
+ • Clearance
+ 
+Featured Shops 
+• Athletic Footwear
+ • Big Game Party
+ • cook's essentials
+ • FujiFilm
+ Photography
+ • Hewlett-Packard
+ • Low-Carb Gourmet
+ • Personalized Jewelry
+ • Pilates Home Studio
+ • Toys Department 
+
+QVC Info
+ • Bulletin Board
+ • Careers 
+• Contact Us
+ • Corporate
+ • FAQs
+ • Meet The Hosts
+ • Site Map
+ • Site Tours 
+
+document.write('');   writeShim();    var tsvdesc = new String(getTSVDesc());    document.write(tsvdesc);    var tsvsell = new String(getTSVSell());    document.write(tsvsell);  document.write('	
+
+');    document.close();   } // end of script --> 					
+
+Celebrate 17 years of cookware, gadgets, food & more on QVC!	 	Make the most of your money with help from a financial wizard!	 
+
+Rowenta 1500w Self-cleaning Professional Iron, Chef Williams’ 2 Fried Whole Turkey Breasts & MORE
+ TODAY'S OFFERS	 
+
+Right hand rings & more boasting the world’s finest simulated gemstones.	 	Program Host Bob Bowersox shares his favorite foods, cookware & more&#133;	 
+
+Click below to see our new-to-QVC items...
+ 
+
+•	 New Additions	 
+•	 New This Week	 
+•	 New This Month	 
+
+Get the job done quickly and efficiently with our easy-to-use tools!	 	Fragrant flowers, sparkling jewelry & more for your loved ones&#133;	 
+
+---------------------------------------------------------------------
+
+Order Anytime Online or By Phone:  1-888-345-5788. (TDD:  1-800-544-3316)
+
+QVC Privacy Statement • QVC General Terms and Conditions of Use • Product Recall Information
+ Manufacturer's Product Warranty Information 
+
+©1995 - 2004 QVC, Inc. All rights reserved. All trademarks, service marks and logos are owned by or registered to QVC, Inc., QDirect Ventures, Inc., ER Marks, Inc. or Diamonique Corporation. All other product or brand names are trademarks of their respective owners.
+ URL: http://www.qvc.com
+
+

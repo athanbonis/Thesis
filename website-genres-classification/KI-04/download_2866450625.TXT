@@ -1,0 +1,327 @@
+External Projects Project Categories Top 50 Start new project... Resources Skip to Community Documentation Mailing Lists Bug Tracking Source Hosting Wiki All Resources... Community Skip to Content Donate --> About Chat FAQ Links People at Mozdev --> Status Reports Supporters Enigmail subprojects: subproject name subproject name --> installation: Download Thunderbird Language Packs Source Code Signature Verification resources: Home Help Configuring Troubleshooting Mailing List Newsgroup Bugs Screenshots Downloads for Mozilla Thunderbird Enigmail for Thunderbird is available from the Enigmail for Thunderbird page. Standard Download Enigmail is a "plugin" that works with the mail software that is part of Mozilla , Netscape 7.x or Beonex 0.8.x . Enigmail is dually-licensed under the GNU General Public License and the Mozilla Public License . To install Enigmail, load this page using Mozilla (or Netscape 7.x or Beonex 0.8.x ). Then click on one of the links below, depending upon your Mozilla/Netscape/Beonex version, to initiate the download and install. After installation, refer to the Help page for more information. If you are using a localized version of Mozilla, check the Language Packs page to see if Enigmail is available in your language. Enigmail downloads are available for the following Mozilla/Netscape/Beonex versions (please read the Notes below before installing ): For Mozilla 1.6 on Windows, Linux/x86, Mac OS X, FreeBSD, Solaris 8 For Mozilla 1.5/1.5.1 on Windows, Linux/x86, Mac OS X, FreeBSD, NetBSD, Solaris 8 For Mozilla 1.4/1.4.1 or Netscape 7.1 on Windows, Linux/x86, Mac OS X, FreeBSD, Solaris 8 For Mozilla 1.3.1/1.3 on Windows, Linux/x86, Mac OS X, FreeBSD For Mozilla 1.2.1/1.2 on Windows, Linux/x86 For Mozilla 1.1 on Windows, Linux/x86, FreeBSD For Mozilla 1.0.2 , Netscape 7.02/7.01 or Beonex 0.8.2 on Windows, Linux/x86 For Mozilla 1.0/1.0.1 , Netscape 7.0 or Beonex 0.8.1 on Windows, Linux/x86, Solaris8/Sparc For Mozilla 1.0 on Linux/PPC and FreeBSD or Netscape7 Preview Release1 on Windows/Linux (older version) As of Enigmail 0.74.0 (Mozilla 1.3), the versions for Mac OS X are available on this page. For older versions, go to the Test Download page. Notes: Enigmail has only been tested with the milestone releases of Mozilla or Netscape. If you use a nightly build, a third-party build, or your own build of Mozilla, Enigmail may not always work and may even crash Mozilla! To use Enigmail, you also need to have GPG (Gnu Privacy Guard) installed on your system. PGP is no longer supported. See the Help page for more information on using Enigmail. The Install button also installs the Enigmime module, which is required for inter-process communication with GPG. The Enigmime binaries are provided only for selected platforms, including Windows and Linux (x86). If you wish to use Enigmail on other platforms, you will need to compile Enigmime yourself. The Enigmime module should compile without modifications on most Unix-like platforms. On many platforms, Enigmail will only work properly if compiled with the same compiler version as Mozilla was compiled (currently gcc 3.2 for Linux). If you are unsure, or receive some error messge, then read the Installation FAQ ! If you wish to download the XPI file(s) without installing, use the hyperlinks instead of the Install button. (You will need to shift-click or use the context menu to avoid the installation dialog which pops up if you simply click on the hyperlinks). If you are using Mozilla 1.6 on Windows, Linux or Mac OS X, choose: Check the changelog to see what has changed since the last release. Windows : (installs enigmail-0.83.0.xpi , enigmime-0.83.0-win32.xpi ) Linux/x86 Linux x86 XPI for standard tar.gz Mozilla 1.6 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x): (installs enigmail-0.83.0.xpi , enigmime-0.83.0-linux.xpi ) Note: If you use Mozilla 1.6b on Linux, you must have the release built on Dec. 11! To check if you have the correct version, type about:buildconfig in the addressbar and look in the 'Build tools' section, next to the line starting with 'c++'. The old, incorrect build will say 'gcc version 2.96 20000731 (Red Hat Linux 7.1 2.96-81)'. The new, correct build will say 'gcc version 3.2.3' (just as it does on the previous line) Linux (x86 and PPC) for Mandrake: Mandrake provides RPM packages of Mozilla with Enigmail integrated, available from Mandrake Club . Linux for SuSE: SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site . Mac OS X : (installs enigmail-0.83.0.xpi , enigmime-0.83.0-darwin.xpi ) contributed by Pejvan Beigui <pejvan AT online DOT fr> FreeBSD 4.8/4.9 (i386) : (installs enigmail-0.82.6.xpi , enigmime-0.82.4-freebsd-48.xpi ) contributed by Jérôme Schell <jerome AT myreseau DOT org> FreeBSD 5.0 (i386) : (installs enigmail-0.82.6.xpi , enigmime-0.82.4-freebsd-50.xpi ) contributed by Russell Francis <rf358197 AT ohio DOT edu> Solaris 8.0 : (installs enigmail-0.83.0.xpi , enigmime-0.83.0-sunos5.xpi ) contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch> If you are using Mozilla 1.5 / 1.5.1 on Windows, Linux, Mac OS X, FreeBSD or Solaris choose: Check the changelog to see what has changed since the last release. Windows : (installs enigmail-0.82.6.xpi , enigmime-0.82.2-win32.xpi ) Linux/x86 Linux x86 XPI for standard tar.gz Mozilla 1.5 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x): (installs enigmail-0.82.6.xpi , enigmime-0.82.2-linux.xpi ) Linux x86 XPI for the Mozilla egcs-112 build (for older platforms using glibc <= 2.2.5): (installs enigmail-0.76.8.xpi , enigmime-0.76.0-linux-gcc291.xpi ) Linux x86 XPI for Debian Woody (and other gcc 2.95 based systems): (installs enigmail-0.76.8.xpi , enigmime-0.76.2-linux-debian.xpi ) Linux/x86 RPM (for Red_Hat_9x RPM Mozilla build from mozilla.org ): Download and install the following two RPMs: mozilla-enigmail-0.76.7-1_rh9.i386.rpm , mozilla-enigmime-0.76.7-1_rh9.i386.rpm Linux (x86 and PPC) for Mandrake: Mandrake provides RPM packages of Mozilla with Enigmail integrated, available from Mandrake Club . Linux for SuSE: SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site . Mac OS X : (installs enigmail-0.82.6.xpi , enigmime-0.82.1-darwin-7.0.xpi ) contributed by Pejvan Beigui <pejvan AT online DOT fr> FreeBSD 4.8/4.9 (i386) : (installs enigmail-0.82.6.xpi , enigmime-0.82.3-freebsd-48.xpi ) contributed by Johan Björk <johan AT qbrick DOT com> FreeBSD 5.0 (i386) : (installs enigmail-0.76.8.xpi , enigmime-0.76.0-freebsd.xpi ) contributed by Russell Francis <rf358197 AT ohio DOT edu> NetBSD 1.6 (i386) : (installs enigmail-0.82.6.xpi , enigmime-0.82.2-netbsd.xpi ) contributed by Benedikt Meurer <benedikt DOT meurer AT unix-ag DOT uni-siegen DOT de> Solaris 8.0 : (installs enigmail-0.82.6.xpi , enigmime-0.82.3-sunos5-sws8cc.xpi ) contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch> If you are using Mozilla 1.4/1.4.1 or Netscape 7.1 on Windows, Linux, Mac OS X, FreeBSD or Solaris choose: Check the changelog to see what has changed since the last release. Windows : (installs enigmail-0.76.8.xpi , enigmime-0.76.0-win32.xpi ) Linux/x86 Linux x86 XPI for standard tar.gz Mozilla 1.4 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x): (installs enigmail-0.76.8.xpi , enigmime-0.76.0-linux.xpi ) Linux x86 XPI for the Mozilla egcs-112 build (for older platforms using glibc <= 2.2.5): (installs enigmail-0.76.8.xpi , enigmime-0.76.0-linux-gcc291.xpi ) Linux x86 XPI for Debian Woody (and other gcc 2.95 based systems): (installs enigmail-0.76.8.xpi , enigmime-0.76.2-linux-debian.xpi ) Linux (x86 and PPC) for Mandrake: Mandrake provides Enigmail packages for their distributions through Mandrake Club . Linux for SuSE: SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site . Mac OS X : (installs enigmail-0.76.8.xpi , enigmime-0.76.0-darwin.xpi ) contributed by Pejvan Beigui <pejvan AT online DOT fr> FreeBSD 5.0 (i386) : (installs enigmail-0.76.8.xpi , enigmime-0.76.0-freebsd.xpi ) contributed by Russell Francis <rf358197 AT ohio DOT edu> Solaris 8.0 (compiled with gcc 2.95.2): (installs enigmail-0.76.8.xpi , enigmime-0.76.0-sunos5.xpi ) contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch> If you are using Mozilla 1.3.1 or Mozilla 1.3 on Windows, Linux, Mac OS X or FreeBSD choose: Check the changelog to see what has changed since the last release. Windows : (installs enigmail-0.74.3.xpi , enigmime-0.74.0-win32.xpi ) Linux/x86 Linux x86 XPI for standard tar.gz Mozilla 1.3 build from mozilla.org (compiled using GCC 2.91): (installs enigmail-0.74.3.xpi , enigmime-0.74.0-linux.xpi ) Linux x86 XPI for Debian : (installs enigmail-0.74.3.xpi , enigmime-0.74.0-linux-debian.xpi ) contributed by John Belmonte <jvb AT prairienet DOT org> Linux x86 XPI for RedHat 8.0 Users (compiled for the RPM version, gcc 3.2): (installs enigmail-0.74.3.xpi , enigmime-0.74.0-linux-redhat80.xpi ) contributed by Rick Johnson <rjohnson AT medata DOT com> Mac OS X (for Mozilla 1.3.1 only): (installs enigmail-0.74.3.xpi , enigmime-0.74.0-darwin6.4.xpi ) contributed by Pejvan Beigui <pejvan AT online DOT fr> FreeBSD FreeBSD 5.0 (i386) : (installs enigmail-0.74.3.xpi , enigmime-0.74.0-freebsd.xpi ) contributed by Russell Francis <rf358197 AT ohio DOT edu> FreeBSD 4.8 (i386) : (installs enigmail-0.74.3.xpi , enigmime-0.74.0-freebsd-48.xpi ) contributed by Guido Kollerie <gkoller AT inter DOT nl DOT net> If you are using a Mozilla 1.2.1/1.2 on Windows, or Linux, choose: Windows : (installs enigmail-0.71.0.xpi , enigmime-0.71.0-win32.xpi ) Linux/x86 XPI Linux x86 XPI for standard tar.gz Mozilla 1.2.1 build from mozilla.org (compiled using GCC 2.91): (installs enigmail-0.71.0.xpi , enigmime-0.71.0-linux.xpi ) Linux x86 XPI for Redhat 9.0 Users : (installs enigmail-0.71.0.xpi , enigmime-0.71.0-linux-redhat90.xpi ) contributed by Mina Naguib Linux/x86 XPI (for standard tar.gz Mozilla 1.2.1 build from mozilla.org , compiled using GCC 2.91): (installs enigmail-0.71.0.xpi , enigmime-0.71.0-linux.xpi ) Linux/x86 XPI for RedHat 9.0 Users: (installs enigmail-0.71.0.xpi , enigmime-0.71.0-linux-redhat-90.xpi ) contributed by Mina Naguib Linux/x86 XPI for RedHat 8.0.94 (Phoebe, i.e. RedHat 9 beta) Users: (installs enigmail-0.71.0.xpi , enigmime-0.71.0-linux-redhat-80.xpi ) contributed by Zenon Panoussis <oracle AT provocation DOT net> If you are using a Mozilla 1.1 on Windows, Linux, or FreeBSD, choose: Windows : (installs enigmail-0.65.2.xpi , enigmime-0.65.2-win32.xpi ) Linux/x86 XPI (for standard tar.gz Mozilla 1.1 build from mozilla.org , compiled using GCC 2.91): (installs enigmail-0.65.2.xpi , enigmime-0.65.2-linux.xpi ) Linux/x86 XPI (for Mozilla builds compiled using GCC 2.96, e.g., RedHat 7.x, Mandrake, ...): (installs enigmail-0.65.2.xpi , enigmime-0.65.2-linux_gcc296.xpi ) FreeBSD XPI: (installs enigmail-0.65.2.xpi , enigmime-0.65.2-freebsd.xpi ) FreeBSD binary for Enigmime contributed by Autrijus Tang. If you are using Mozilla 1.0.2 , Netscape 7.02/7.01 or Beonex 0.8.2 on Windows, or Linux, choose: Windows : (installs enigmail-0.75.1.xpi , enigmime-0.75.1-win32.xpi ) Linux/x86 XPI (for Netscape 7.02/7.01 or standard tar.gz Mozilla 1.0.2 build from mozilla.org , compiled using GCC 2.91): (installs enigmail-0.75.1.xpi , enigmime-0.75.1-linux.xpi ) If you are using Mozilla 1.0/1.0.1 , or Netscape 7.0 on Windows, Linux, or Solaris, choose: Windows : (installs enigmail-0.63.3.xpi , enigmime-0.63.0-win32.xpi ) Linux/x86 XPI (for standard tar.gz Mozilla build from mozilla.org ): (installs enigmail-0.63.3.xpi , enigmime-0.63.0-linux.xpi ) Linux/x86 XPI (for Debian, SuSE and other Mozilla builds using GCC 2.95.x): (installs enigmail-0.63.3.xpi , enigmime-0.63.0-linux_gcc2953.xpi ) Linux/x86 RPM (for Red_Hat_7x RPM Mozilla build from mozilla.org ): Download and install the following two RPMs: mozilla-enigmail-0.63.3-1.i386.rpm , mozilla-enigmime-0.63.0-1_rh7x.i386.rpm Solaris8/Sparc: (installs enigmail-0.62.4.xpi , enigmime-0.62.1-sunos5.xpi ) Solaris8/Sparc binary for Enigmime contributed by Manuel Oetiker. If you are using Netscape 7 Preview Release1 on a Windows/Linux PC (x86) or Mozilla 1.0 on Linux/PowerPC or FreeBSD, choose: Windows (Netscape 7 PR1 only): (installs enigmail-0.49.5.xpi , ipc-0.99.9-win32.xpi ) Linux/x86 XPI (Netscape 7 PR1 only): (installs enigmail-0.49.5.xpi , ipc-0.99.9-linux.xpi ) Linux/PPC XPI (Mozilla 1.0): (installs enigmail-0.49.5.xpi , ipc-0.99.9-linuxppc.xpi ) Linux/PPC version of IPC contributed by John Goerzen. FreeBSD XPI (Mozilla 1.0): (installs enigmail-0.49.5.xpi , ipc-0.99.9-freebsd.xpi ) FreeBSD version of IPC contributed by Yann Ramin. For questions or comments about enigmail, please send a message to the enigmail mailing list . This page was last updated on Jan 25, 2004. Copyright © 2004. All rights reserved.   --> mozdev.org
+
+Do you want fries with that project? Sunday January 25th 2004 Skip to Content
+
+* Donate 
+Search
+
+Skip to Projects
+
+Search For Projects
+
+Skip to Resources 
+* Active Projects 
+* External Projects 
+* Project Categories 
+* Top 50 Start new project... 
+Resources
+
+Skip to Community 
+* Documentation 
+* Mailing Lists 
+* Bug Tracking 
+* Source Hosting 
+* Wiki All Resources... 
+Community
+
+Skip to Content 
+* About 
+* Chat 
+* FAQ 
+* Links 
+* Status Reports 
+* Supporters 
+Enigmail     
+
+installation: Download Thunderbird Language Packs Source Code 	
+resources: Home Help Configuring Troubleshooting Mailing List Newsgroup Bugs Screenshots 	
+
+Downloads for Mozilla Thunderbird
+
+Enigmail for Thunderbird is available from the Enigmail for Thunderbird page. 
+
+Standard Download
+
+Enigmail is a "plugin" that works with the mail software that is part of Mozilla, Netscape 7.x or Beonex 0.8.x. Enigmail is dually-licensed under the GNU General Public License and the Mozilla Public License . 
+
+To install Enigmail, load this page using Mozilla (or Netscape 7.x or Beonex 0.8.x). Then click on one of the links below, depending upon your Mozilla/Netscape/Beonex version, to initiate the download and install. After installation, refer to the Help page for more information. If you are using a localized version of Mozilla, check the Language Packs page to see if Enigmail is available in your language. 
+
+Enigmail downloads are available for the following Mozilla/Netscape/Beonex versions (please read the Notes below before installing): 
+
+1.  For Mozilla 1.6 on Windows, Linux/x86, Mac OS X, FreeBSD, Solaris 8 
+
+2.  For Mozilla 1.5/1.5.1 on Windows, Linux/x86, Mac OS X, FreeBSD, NetBSD, Solaris 8 
+
+3.  For Mozilla 1.4/1.4.1 or Netscape 7.1 on Windows, Linux/x86, Mac OS X, FreeBSD, Solaris 8 
+
+4.  For Mozilla 1.3.1/1.3 on Windows, Linux/x86, Mac OS X, FreeBSD 
+
+5.  For Mozilla 1.2.1/1.2 on Windows, Linux/x86 
+
+6.  For Mozilla 1.1 on Windows, Linux/x86, FreeBSD 
+
+7.  For Mozilla 1.0.2, Netscape 7.02/7.01 or Beonex 0.8.2 on Windows, Linux/x86 
+
+8.  For Mozilla 1.0/1.0.1, Netscape 7.0 or Beonex 0.8.1 on Windows, Linux/x86, Solaris8/Sparc 
+
+9.  For Mozilla 1.0 on Linux/PPC and FreeBSD or Netscape7 Preview Release1 on Windows/Linux (older version) 
+
+As of Enigmail 0.74.0 (Mozilla 1.3), the versions for Mac OS X are available on this page. For older versions, go to the Test Download page. 
+
+Notes: 
+
+1.  Enigmail has only been tested with the milestone releases of Mozilla or Netscape. If you use a nightly build, a third-party build, or your own build of Mozilla, Enigmail may not always work and may even crash Mozilla! 
+2.  To use Enigmail, you also need to have GPG (Gnu Privacy Guard) installed on your system. PGP is no longer supported. See the Help page for more information on using Enigmail. 
+3.  The Install button also installs the Enigmime module, which is required for inter-process communication with GPG. The Enigmime binaries are provided only for selected platforms, including Windows and Linux (x86). If you wish to use Enigmail on other platforms, you will need to compile Enigmime yourself. The Enigmime module should compile without modifications on most Unix-like platforms. 
+4.  On many platforms, Enigmail will only work properly if compiled with the same compiler version as Mozilla was compiled (currently gcc 3.2 for Linux). If you are unsure, or receive some error messge, then read the Installation FAQ! 
+5.  If you wish to download the XPI file(s) without installing, use the hyperlinks instead of the Install button. (You will need to shift-click or use the context menu to avoid the installation dialog which pops up if you simply click on the hyperlinks). 
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.6 on Windows, Linux or Mac OS X, choose:
+
+Check the changelog to see what has changed since the last release. 
+
+* Windows :
+   (installs enigmail-0.83.0.xpi, enigmime-0.83.0-win32.xpi) 
+
+* Linux/x86 
+
+* Linux x86 XPI for standard tar.gz Mozilla 1.6 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x):
+   (installs enigmail-0.83.0.xpi, enigmime-0.83.0-linux.xpi) 
+Note: If you use Mozilla 1.6b on Linux, you must have the release built on Dec. 11! To check if you have the correct version, type about:buildconfig in the addressbar and look in the 'Build tools' section, next to the line starting with 'c++'. The old, incorrect build will say 'gcc version 2.96 20000731 (Red Hat Linux 7.1 2.96-81)'. The new, correct build will say 'gcc version 3.2.3' (just as it does on the previous line)
+
+* Linux (x86 and PPC) for Mandrake:
+ Mandrake provides RPM packages of Mozilla with Enigmail integrated, available from Mandrake Club. 
+* Linux for SuSE:
+ SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site. 
+
+* Mac OS X :
+   (installs enigmail-0.83.0.xpi, enigmime-0.83.0-darwin.xpi) 
+contributed by Pejvan Beigui <pejvan AT online DOT fr>
+
+* FreeBSD 4.8/4.9 (i386) :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.4-freebsd-48.xpi) 
+contributed by Jérôme Schell <jerome AT myreseau DOT org>
+
+* FreeBSD 5.0 (i386) :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.4-freebsd-50.xpi) 
+contributed by Russell Francis <rf358197 AT ohio DOT edu>
+
+* Solaris 8.0 :
+   (installs enigmail-0.83.0.xpi, enigmime-0.83.0-sunos5.xpi) 
+contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch>
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.5 / 1.5.1 on Windows, Linux, Mac OS X, FreeBSD or Solaris choose:
+
+Check the changelog to see what has changed since the last release. 
+
+* Windows :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.2-win32.xpi) 
+
+* Linux/x86 
+
+* Linux x86 XPI for standard tar.gz Mozilla 1.5 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x):
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.2-linux.xpi) 
+
+* Linux x86 XPI for the Mozilla egcs-112 build (for older platforms using glibc <= 2.2.5):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-linux-gcc291.xpi) 
+
+* Linux x86 XPI for Debian Woody (and other gcc 2.95 based systems):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.2-linux-debian.xpi) 
+
+* Linux/x86 RPM (for Red_Hat_9x RPM Mozilla build from mozilla.org):
+ Download and install the following two RPMs:
+   mozilla-enigmail-0.76.7-1_rh9.i386.rpm, mozilla-enigmime-0.76.7-1_rh9.i386.rpm
+ 
+
+* Linux (x86 and PPC) for Mandrake:
+ Mandrake provides RPM packages of Mozilla with Enigmail integrated, available from Mandrake Club. 
+* Linux for SuSE:
+ SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site. 
+
+* Mac OS X :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.1-darwin-7.0.xpi) 
+contributed by Pejvan Beigui <pejvan AT online DOT fr>
+
+* FreeBSD 4.8/4.9 (i386) :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.3-freebsd-48.xpi) 
+contributed by Johan Björk <johan AT qbrick DOT com>
+
+* FreeBSD 5.0 (i386) :
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-freebsd.xpi) 
+contributed by Russell Francis <rf358197 AT ohio DOT edu>
+
+* NetBSD 1.6 (i386) :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.2-netbsd.xpi) 
+contributed by Benedikt Meurer <benedikt DOT meurer AT unix-ag DOT uni-siegen DOT de>
+
+* Solaris 8.0 :
+   (installs enigmail-0.82.6.xpi, enigmime-0.82.3-sunos5-sws8cc.xpi) 
+contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch>
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.4/1.4.1 or Netscape 7.1 on Windows, Linux, Mac OS X, FreeBSD or Solaris choose:
+
+Check the changelog to see what has changed since the last release. 
+
+* Windows :
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-win32.xpi) 
+
+* Linux/x86 
+
+* Linux x86 XPI for standard tar.gz Mozilla 1.4 build from mozilla.org (includes RedHat 7.3/8/9, Debian Sarge, SuSE 8.x):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-linux.xpi) 
+
+* Linux x86 XPI for the Mozilla egcs-112 build (for older platforms using glibc <= 2.2.5):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-linux-gcc291.xpi) 
+
+* Linux x86 XPI for Debian Woody (and other gcc 2.95 based systems):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.2-linux-debian.xpi) 
+
+* Linux (x86 and PPC) for Mandrake:
+ Mandrake provides Enigmail packages for their distributions through Mandrake Club. 
+* Linux for SuSE:
+ SuSE provides RPM packages of Mozilla with Enigmail integrated on the SuSE web site. 
+
+* Mac OS X :
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-darwin.xpi) 
+contributed by Pejvan Beigui <pejvan AT online DOT fr>
+
+* FreeBSD 5.0 (i386) :
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-freebsd.xpi) 
+contributed by Russell Francis <rf358197 AT ohio DOT edu>
+
+* Solaris 8.0 (compiled with gcc 2.95.2):
+   (installs enigmail-0.76.8.xpi, enigmime-0.76.0-sunos5.xpi) 
+contributed by Manuel Oetiker <moetiker AT vision DOT ee DOT ethz DOT ch>
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.3.1 or Mozilla 1.3 on Windows, Linux, Mac OS X or FreeBSD choose: 
+
+Check the changelog to see what has changed since the last release. 
+
+* Windows :
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-win32.xpi) 
+
+* Linux/x86 
+
+* Linux x86 XPI for standard tar.gz Mozilla 1.3 build from mozilla.org (compiled using GCC 2.91):
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-linux.xpi) 
+
+* Linux x86 XPI for Debian :
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-linux-debian.xpi) 
+contributed by John Belmonte <jvb AT prairienet DOT org>
+
+* Linux x86 XPI for RedHat 8.0 Users (compiled for the RPM version, gcc 3.2):
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-linux-redhat80.xpi) 
+contributed by Rick Johnson <rjohnson AT medata DOT com>
+
+* Mac OS X (for Mozilla 1.3.1 only):
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-darwin6.4.xpi) 
+contributed by Pejvan Beigui <pejvan AT online DOT fr>
+
+* FreeBSD 
+
+* FreeBSD 5.0 (i386) :
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-freebsd.xpi) 
+contributed by Russell Francis <rf358197 AT ohio DOT edu>
+
+* FreeBSD 4.8 (i386) :
+   (installs enigmail-0.74.3.xpi, enigmime-0.74.0-freebsd-48.xpi) 
+contributed by Guido Kollerie <gkoller AT inter DOT nl DOT net>
+
+---------------------------------------------------------------------
+If you are using a Mozilla 1.2.1/1.2 on Windows, or Linux, choose:
+ 
+
+* Windows :
+   (installs enigmail-0.71.0.xpi, enigmime-0.71.0-win32.xpi) 
+
+* Linux/x86 XPI 
+
+* Linux x86 XPI for standard tar.gz Mozilla 1.2.1 build from mozilla.org (compiled using GCC 2.91):
+   (installs enigmail-0.71.0.xpi, enigmime-0.71.0-linux.xpi) 
+
+* Linux x86 XPI for Redhat 9.0 Users :
+   (installs enigmail-0.71.0.xpi, enigmime-0.71.0-linux-redhat90.xpi) 
+contributed by Mina Naguib
+
+* Linux/x86 XPI (for standard tar.gz Mozilla 1.2.1 build from mozilla.org, compiled using GCC 2.91): 
+  (installs enigmail-0.71.0.xpi, enigmime-0.71.0-linux.xpi) 
+
+* Linux/x86 XPI for RedHat 9.0 Users:
+   (installs enigmail-0.71.0.xpi, enigmime-0.71.0-linux-redhat-90.xpi)
+ contributed by Mina Naguib 
+
+* Linux/x86 XPI for RedHat 8.0.94 (Phoebe, i.e. RedHat 9 beta) Users:
+   (installs enigmail-0.71.0.xpi, enigmime-0.71.0-linux-redhat-80.xpi)
+ contributed by Zenon Panoussis <oracle AT provocation DOT net> 
+
+---------------------------------------------------------------------
+If you are using a Mozilla 1.1 on Windows, Linux, or FreeBSD, choose:
+ 
+
+* Windows :
+   (installs enigmail-0.65.2.xpi, enigmime-0.65.2-win32.xpi) 
+
+* Linux/x86 XPI (for standard tar.gz Mozilla 1.1 build from mozilla.org, compiled using GCC 2.91): 
+  (installs enigmail-0.65.2.xpi, enigmime-0.65.2-linux.xpi) 
+
+* Linux/x86 XPI (for Mozilla builds compiled using GCC 2.96, e.g., RedHat 7.x, Mandrake, ...): 
+  (installs enigmail-0.65.2.xpi, enigmime-0.65.2-linux_gcc296.xpi) 
+
+* FreeBSD XPI: 
+  (installs enigmail-0.65.2.xpi, enigmime-0.65.2-freebsd.xpi)
+ FreeBSD binary for Enigmime contributed by Autrijus Tang. 
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.0.2, Netscape 7.02/7.01 or Beonex 0.8.2 on Windows, or Linux, choose:
+ 
+
+* Windows :
+   (installs enigmail-0.75.1.xpi, enigmime-0.75.1-win32.xpi) 
+
+* Linux/x86 XPI (for Netscape 7.02/7.01 or standard tar.gz Mozilla 1.0.2 build from mozilla.org, compiled using GCC 2.91): 
+  (installs enigmail-0.75.1.xpi, enigmime-0.75.1-linux.xpi) 
+
+---------------------------------------------------------------------
+If you are using Mozilla 1.0/1.0.1, or Netscape 7.0 on Windows, Linux, or Solaris, choose: 
+
+* Windows :
+   (installs enigmail-0.63.3.xpi, enigmime-0.63.0-win32.xpi) 
+
+Linux/x86 XPI (for standard tar.gz Mozilla build from mozilla.org): 
+  (installs enigmail-0.63.3.xpi, enigmime-0.63.0-linux.xpi) 
+
+Linux/x86 XPI (for Debian, SuSE and other Mozilla builds using GCC 2.95.x): 
+  (installs enigmail-0.63.3.xpi, enigmime-0.63.0-linux_gcc2953.xpi) 
+
+Linux/x86 RPM (for Red_Hat_7x RPM Mozilla build from mozilla.org):
+ Download and install the following two RPMs:
+   mozilla-enigmail-0.63.3-1.i386.rpm, mozilla-enigmime-0.63.0-1_rh7x.i386.rpm
+ 
+
+* Solaris8/Sparc:   (installs enigmail-0.62.4.xpi, enigmime-0.62.1-sunos5.xpi)
+ Solaris8/Sparc binary for Enigmime contributed by Manuel Oetiker. 
+
+---------------------------------------------------------------------
+If you are using Netscape 7 Preview Release1 on a Windows/Linux PC (x86) or Mozilla 1.0 on Linux/PowerPC or FreeBSD, choose: 
+
+* Windows (Netscape 7 PR1 only):   (installs enigmail-0.49.5.xpi, ipc-0.99.9-win32.xpi) 
+
+* Linux/x86 XPI (Netscape 7 PR1 only):   (installs enigmail-0.49.5.xpi, ipc-0.99.9-linux.xpi) 
+
+* Linux/PPC XPI (Mozilla 1.0):   (installs enigmail-0.49.5.xpi, ipc-0.99.9-linuxppc.xpi)
+ Linux/PPC version of IPC contributed by John Goerzen. 
+
+* FreeBSD XPI (Mozilla 1.0):   (installs enigmail-0.49.5.xpi, ipc-0.99.9-freebsd.xpi)
+ FreeBSD version of IPC contributed by Yann Ramin. 
+
+---------------------------------------------------------------------
+
+For questions or comments about enigmail, please send a message to the enigmail mailing list.
+ This page was last updated on Jan 25, 2004.
+ Copyright © 2004. All rights reserved. 
+
+

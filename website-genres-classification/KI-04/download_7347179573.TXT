@@ -1,0 +1,89 @@
+Download Documentation Resources Community POV-Ray : Download Download POV-Ray 3.5 Use and distribution of POV-Ray is governed by our license . You must agree to this license before using or distributing any POV-Ray software or files. (Installation or use of POV-Ray indicates your agreement ; it is not necessary to write us saying so). Version 3.5 is a major upgrade from version 3.1 and we recommend all users who have a 3.1 version available for their platform upgrade to 3.5. Note that some 3.1 scenes that used features marked as 'experimental' may not render in version 3.5. If you have any such scene files we recommend that you keep your copy of version 3.1 installed. Here is a list of core code features new to version 3.5 . Please also check out our known bugs list before reporting a problem. Supporting Us Bringing POV-Ray to you costs money. Since we give it away for free, we need other means of covering these costs. Our supporting POV-Ray page details some of these. We have some neat CDROM's and a keyring available for your enjoyment. Note that the IRTC Year 5 CDROM contains the latest version of POV-Ray! Webmaster's Pick @ zazzle Benchmarking Reviewers : if you will be using POV-Ray to benchmark CPU's, please read our "benchmarking with POV-Ray" page for information that you need to know. Windows Requires at least Window 95, Microsoft HTML Help and at least Internet Explorer 3. Internet Explorer 4 or later is strongly recommended so as to ensure the correct functioning of the documentation. Note that it is not necessary for Internet Explorer to be your primary browser; just that it be installed. We are sorry if this causes non Internet Explorer users some angst; unfortunately it is just not possible to use HTML Help without Internet Explorer 3 or greater. Here is a partial list of features new to the Windows version . Download (8 MB) via the web or via FTP Mac OS / Mac OS X Requires at least Mac OS 8.6 or at least Mac OS X 10.1.5. Using Mac OS 9.2.2 is strongly recommended. For Mac OS CarbonLib 1.0.4 is required and CarbonLib 1.6 or later is strongly recommended. Note: You need at least StuffIt Expander 5.0 to unpack these archives. We strongly recommend using StuffIt Expander 5.1 (which works much better with non-US Mac OS versions). Here is a partial list of features new to the Macintosh version . For Mac OS X 10.2 and later, please get POV-Ray 3.5.1 RC1 instead of POV-Ray 3.5! (Follow this link!) Download (7 MB) via the web or via FTP Linux Requires a glibc-2.2 based GNU/Linux system running on x86 hardware. This is a fairly traditional povlinux.tgz, but with HTML docs in the package. The binary itself (just one, supports both X and SVGAlib, uses whichever makes most sense) is statically linked so as to avoid dependency issues. The package is a gzipped tarball. Linux users (with GNU tar, one can assume) can uncompress it with tar xvfz povlinux.tgz , then cd povray35 and run ./install as root. This moves the contents of the directory, so if you cd .. you won't find the directory where it used to be. Don't be too badly surprised at this. Download (6.5 MB) via the web or via FTP POV-Ray 3.5 Source Code This source code is not needed to run the software on Windows, Mac OS or Linux, but is useful for the programmers out there who want to take a look at the source code, make modification or port it to a new platform. Note: Redistribution of modified versions of POV-Ray is subject to our license . Wish List: we have a wish list of features that we would like to see added to future versions of POV-Ray 3.5. Coders who feel inclined to add these would be well-received. Windows Source Code Download (4.5 MB) via the web or via FTP Mac OS Source Code Download (3.5 MB) via the web or via FTP Unix / Linux / Generic Source Code Download (6.5 MB) via the web or via FTP Mirrors Here is a list of sites from which you can also download the above binaries. http://ftp.au.povray.org/pub/povray/Official/ http://mirror.nucba.ac.jp/mirror/povray/Official/ http://www.mirror.ac.uk/sites/ftp.povray.org/pub/povray/Official/ ftp://sunsite.cnlab-switch.ch/mirror/povray/povray/Official/ ftp://sunsite.wits.ac.za/pub/mirrors/ftp.povray.org/povray/Official/ ftp://gd.tuwien.ac.at/graphics/raytracing/povray/Official/ ftp://ftp.etsimo.uniovi.es/pub/raytrace/povray/Official/ ftp://kermit.stud.fh-heilbronn.de/mirrors/povray/Official/ ftp://ring.asahi-net.or.jp/pub/misc/povray/Official/ Old Versions of POV-Ray If you are looking for older versions of POV-Ray or for versions of platforms for which official support has been discontinued, check out our FTP server .   --> 
+
+  Download	   Documentation	   Resources	   Community	   	 
+
+  POV-Ray : Download 	
+
+  Download POV-Ray 3.5  	 	
+
+Use and distribution of POV-Ray is governed by our license. You must agree to this license before using or distributing any POV-Ray software or files. (Installation or use of POV-Ray indicates your agreement ; it is not necessary to write us saying so). 
+
+Version 3.5 is a major upgrade from version 3.1 and we recommend all users who have a 3.1 version available for their platform upgrade to 3.5. Note that some 3.1 scenes that used features marked as 'experimental' may not render in version 3.5. If you have any such scene files we recommend that you keep your copy of version 3.1 installed. 
+
+Here is a list of core code features new to version 3.5. Please also check out our known bugs list before reporting a problem. 
+
+  Supporting Us  	 	
+
+Bringing POV-Ray to you costs money. Since we give it away for free, we need other means of covering these costs. Our supporting POV-Ray page details some of these. We have some neat CDROM's and a keyring available for your enjoyment. Note that the IRTC Year 5 CDROM contains the latest version of POV-Ray! 
+
+  Webmaster's Pick @ zazzle  	 	
+
+  Benchmarking  	 	
+
+Reviewers: if you will be using POV-Ray to benchmark CPU's, please read our "benchmarking with POV-Ray" page for information that you need to know. 
+
+  Windows  	 	
+
+Requires at least Window 95, Microsoft HTML Help and at least Internet Explorer 3. Internet Explorer 4 or later is strongly recommended so as to ensure the correct functioning of the documentation. Note that it is not necessary for Internet Explorer to be your primary browser; just that it be installed. We are sorry if this causes non Internet Explorer users some angst; unfortunately it is just not possible to use HTML Help without Internet Explorer 3 or greater. 
+
+Here is a partial list of features new to the Windows version. 
+
+Download (8 MB) via the web or via FTP 
+
+  Mac OS / Mac OS X  	 	
+
+Requires at least Mac OS 8.6 or at least Mac OS X 10.1.5. Using Mac OS 9.2.2 is strongly recommended. For Mac OS CarbonLib 1.0.4 is required and CarbonLib 1.6 or later is strongly recommended. 
+
+Note: You need at least StuffIt Expander 5.0 to unpack these archives. We strongly recommend using StuffIt Expander 5.1 (which works much better with non-US Mac OS versions).
+
+Here is a partial list of features new to the Macintosh version. 
+
+For Mac OS X 10.2 and later, please get POV-Ray 3.5.1 RC1 instead of POV-Ray 3.5! (Follow this link!) 
+
+Download (7 MB) via the web or via FTP 
+
+  Linux  	 	
+
+Requires a glibc-2.2 based GNU/Linux system running on x86 hardware. 
+
+This is a fairly traditional povlinux.tgz, but with HTML docs in the package. The binary itself (just one, supports both X and SVGAlib, uses whichever makes most sense) is statically linked so as to avoid dependency issues. 
+
+The package is a gzipped tarball. Linux users (with GNU tar, one can assume) can uncompress it with tar xvfz povlinux.tgz, then cd povray35and run ./installas root. This moves the contents of the directory, so if you cd ..you won't find the directory where it used to be. Don't be too badly surprised at this. 
+
+Download (6.5 MB) via the web or via FTP 
+
+  POV-Ray 3.5 Source Code  	 	
+
+This source code is not needed to run the software on Windows, Mac OS or Linux, but is useful for the programmers out there who want to take a look at the source code, make modification or port it to a new platform. Note: Redistribution of modified versions of POV-Ray is subject to our license. 
+
+Wish List: we have a wish list of features that we would like to see added to future versions of POV-Ray 3.5. Coders who feel inclined to add these would be well-received. 
+
+Windows Source Code
+
+Download (4.5 MB) via the web or via FTP Mac OS Source Code
+
+Download (3.5 MB) via the web or via FTP 
+
+Unix / Linux / Generic Source Code
+
+Download (6.5 MB) via the web or via FTP 		
+
+  Mirrors  	 	
+
+Here is a list of sites from which you can also download the above binaries. 
+
+* http://ftp.au.povray.org/pub/povray/Official/ 
+* http://mirror.nucba.ac.jp/mirror/povray/Official/ 
+* http://www.mirror.ac.uk/sites/ftp.povray.org/pub/povray/Official/ 
+* ftp://sunsite.cnlab-switch.ch/mirror/povray/povray/Official/ 
+* ftp://sunsite.wits.ac.za/pub/mirrors/ftp.povray.org/povray/Official/ 
+* ftp://gd.tuwien.ac.at/graphics/raytracing/povray/Official/ 
+* ftp://ftp.etsimo.uniovi.es/pub/raytrace/povray/Official/ 
+* ftp://kermit.stud.fh-heilbronn.de/mirrors/povray/Official/ 
+* ftp://ring.asahi-net.or.jp/pub/misc/povray/Official/ 
+
+  Old Versions of POV-Ray  	 	
+
+If you are looking for older versions of POV-Ray or for versions of platforms for which official support has been discontinued, check out our FTP server. 		
+
+

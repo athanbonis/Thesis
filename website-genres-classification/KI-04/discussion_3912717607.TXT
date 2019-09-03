@@ -1,0 +1,3455 @@
+
+
+Linux-Kernel Archive
+By Subject
+
+1037 messages sorted by: [ author ] [ date ] [ thread ] 
+About this archive 
+Other mail archives 
+---------------------------------------------------------------------
+
+Starting: Sun Apr 01 2001 - 00:44:59 EST
+Ending: Sat Apr 07 2001 - 20:50:42 EST
+
+* "linux" terminal type 
+
+* Guest section DW (Thu Apr 05 2001 - 18:06:00 EST)
+ 
+
+* Ralf Baechle (Thu Apr 05 2001 - 13:36:27 EST)
+ 
+
+* James Simmons (Wed Apr 04 2001 - 22:42:32 EST)
+ 
+
+* Ralf Baechle (Wed Apr 04 2001 - 11:36:50 EST)
+ 
+
+* Hacksaw (Wed Apr 04 2001 - 11:17:26 EST)
+ 
+
+* Mark Lehrer (Tue Apr 03 2001 - 22:07:55 EST)
+ 
+* (no subject) 
+
+* warren (Tue Apr 03 2001 - 02:21:18 EST)
+ 
+
+* Jakob Kemi (Mon Apr 02 2001 - 14:20:43 EST)
+ 
+* /dev/loop0 over lvm... leading to d-state :-( 
+
+* Heinz J. Mauelshagen (Thu Apr 05 2001 - 12:10:55 EST)
+ 
+
+* Jens Axboe (Thu Apr 05 2001 - 10:54:30 EST)
+ 
+
+* Heinz J. Mauelshagen (Thu Apr 05 2001 - 11:52:11 EST)
+ 
+
+* Jens Axboe (Thu Apr 05 2001 - 10:37:31 EST)
+ 
+
+* Heinz J. Mauelshagen (Thu Apr 05 2001 - 11:32:39 EST)
+ 
+
+* Jens Axboe (Thu Apr 05 2001 - 09:49:42 EST)
+ 
+
+* Jens Axboe (Thu Apr 05 2001 - 09:38:18 EST)
+ 
+
+* Jens Axboe (Thu Apr 05 2001 - 00:13:13 EST)
+ 
+
+* Herbert Valerio Riedel (Wed Apr 04 2001 - 15:00:00 EST)
+ 
+* /proc/config idea 
+
+* GOMBAS Gabor (Wed Apr 04 2001 - 06:56:05 EST)
+ 
+
+* Ben Ford (Tue Apr 03 2001 - 15:57:42 EST)
+ 
+
+* Mike Castle (Tue Apr 03 2001 - 14:30:14 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 14:11:55 EST)
+ 
+
+* J . A . Magallon (Tue Apr 03 2001 - 14:12:18 EST)
+ 
+
+* Ben Ford (Tue Apr 03 2001 - 13:46:41 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 09:32:57 EST)
+ 
+
+* J . A . Magallon (Tue Apr 03 2001 - 09:13:22 EST)
+ 
+
+* Jeremy Jackson (Tue Apr 03 2001 - 07:43:36 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:27:26 EST)
+ 
+
+* Olaf Titz (Tue Apr 03 2001 - 06:18:29 EST)
+ 
+
+* Michal Jaegermann (Tue Apr 03 2001 - 00:56:41 EST)
+ 
+
+* David Lang (Mon Apr 02 2001 - 21:52:49 EST)
+ 
+
+* Jeff Garzik (Mon Apr 02 2001 - 19:49:09 EST)
+ 
+
+* David Lang (Mon Apr 02 2001 - 19:39:19 EST)
+ 
+
+* Jeremy Jackson (Mon Apr 02 2001 - 19:37:47 EST)
+ 
+
+* Jeff Garzik (Mon Apr 02 2001 - 19:23:28 EST)
+ 
+
+* Bart Trojanowski (Mon Apr 02 2001 - 10:28:40 EST)
+ 
+
+* Brian Gerst (Mon Apr 02 2001 - 10:19:50 EST)
+ 
+
+* Jeremy Jackson (Mon Apr 02 2001 - 09:58:17 EST)
+ 
+
+* Ian Soboroff (Mon Apr 02 2001 - 08:25:55 EST)
+ 
+* 2 times faster rawio and several fixes (2.4.3aa3) 
+
+* Andrea Arcangeli (Fri Apr 06 2001 - 13:22:05 EST)
+ 
+
+* Andrea Arcangeli (Fri Apr 06 2001 - 12:36:21 EST)
+ 
+
+* Andi Kleen (Fri Apr 06 2001 - 12:02:32 EST)
+ 
+
+* Andrea Arcangeli (Fri Apr 06 2001 - 12:07:01 EST)
+ 
+
+* Andrea Arcangeli (Fri Apr 06 2001 - 11:34:40 EST)
+ 
+* 2.0.39 oopses in sys_new(l)stat 
+
+* David Weinehall (Thu Apr 05 2001 - 16:34:46 EST)
+ 
+
+* Ville Herva (Thu Apr 05 2001 - 10:09:28 EST)
+ 
+* 2.0.39 stat/inode handling race? [2.0.39 oopses in sys_new(l)stat] 
+
+* Ville Herva (Fri Apr 06 2001 - 04:58:43 EST)
+ 
+* 2.2.15 kernel bug report 
+
+* James Stevenson (Tue Apr 03 2001 - 06:43:48 EST)
+ 
+
+* Tim Waugh (Tue Apr 03 2001 - 05:21:51 EST)
+ 
+
+* Allen Ashley (Tue Apr 03 2001 - 03:53:26 EST)
+ 
+* 2.2.19 && ppa: total lockup. No problem with 2.2.17 
+
+* Juan (Thu Apr 05 2001 - 15:52:28 EST)
+ 
+
+* Tim Waugh (Wed Apr 04 2001 - 03:26:10 EST)
+ 
+
+* Juan (Tue Apr 03 2001 - 17:59:33 EST)
+ 
+
+* Tim Waugh (Tue Apr 03 2001 - 11:38:39 EST)
+ 
+* 2.2.19 + ide 2.2.19 03252001 patch problem 
+
+* Robert A. Morris (Fri Apr 06 2001 - 06:46:55 EST)
+ 
+
+* Andre Hedrick (Fri Apr 06 2001 - 01:00:09 EST)
+ 
+
+* Willy Tarreau (Fri Apr 06 2001 - 00:50:41 EST)
+ 
+
+* Robert A. Morris (Thu Apr 05 2001 - 22:13:54 EST)
+ 
+* 2.2.19 borks am-utils building :-( 
+
+* Ion Badulescu (Wed Apr 04 2001 - 19:30:52 EST)
+ 
+
+* Andre Hedrick (Wed Apr 04 2001 - 18:43:14 EST)
+ 
+* 2.2.19 breaks iBCS2: Patch 
+
+* Tigran Aivazian (Mon Apr 02 2001 - 07:22:40 EST)
+ 
+
+* Christoph Hellwig (Mon Apr 02 2001 - 06:18:35 EST)
+ 
+
+* Wolfgang Rohdewald (Mon Apr 02 2001 - 04:55:41 EST)
+ 
+* 2.2.19 hangs just before "Uncompressing Linux" 
+
+* José Luis Domingo López (Wed Apr 04 2001 - 19:07:21 EST)
+ 
+* 2.2.19 toshiba option broken 
+
+* Wade Hampton (Wed Apr 04 2001 - 10:37:05 EST)
+ 
+* 2.4 kernel hangs on 486 machine at boot 
+
+* Brian Gerst (Sat Apr 07 2001 - 13:15:00 EST)
+ 
+
+* Pavel Machek (Thu Apr 05 2001 - 05:24:55 EST)
+ 
+
+* Vik Heyndrickx (Wed Apr 04 2001 - 12:44:47 EST)
+ 
+
+* Brian Gerst (Wed Apr 04 2001 - 13:17:08 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 12:54:14 EST)
+ 
+
+* Vik Heyndrickx (Wed Apr 04 2001 - 09:53:54 EST)
+ 
+* 2.4 kernel on LH4 
+
+* gianpaolo racca (Thu Apr 05 2001 - 10:11:48 EST)
+ 
+* 2.4.0 Oops 
+
+* Frank van Maarseveen (Tue Apr 03 2001 - 03:48:14 EST)
+ 
+* 2.4.2,3 nbd problem, works OK in 2.4.2-ac20,28 
+
+* Russell King - ARM Linux (Tue Apr 03 2001 - 15:24:49 EST)
+ 
+
+* Vladimir Serov (Tue Apr 03 2001 - 07:16:04 EST)
+ 
+* 2.4.2-ac18 Severworks AGP 
+
+* Marvin Justice (Thu Apr 05 2001 - 20:02:29 EST)
+ 
+* 2.4.2-ac6 hangs on boot w/AMD Elan SC520 dev board 
+
+* Brian Moyle (Wed Apr 04 2001 - 19:36:25 EST)
+ 
+* 2.4.2: System clock slows down under load 
+
+* Thomas Pfaff (Mon Apr 02 2001 - 01:46:47 EST)
+ 
+* 2.4.3 (and possibly 2.4.2) don't enter S5 (ACPI) on shutdown 
+
+* Grover, Andrew (Thu Apr 05 2001 - 16:52:37 EST)
+ 
+
+* Trever L. Adams (Thu Apr 05 2001 - 15:36:22 EST)
+ 
+
+* Grover, Andrew (Thu Apr 05 2001 - 15:11:47 EST)
+ 
+
+* Trever L. Adams (Thu Apr 05 2001 - 14:14:05 EST)
+ 
+* 2.4.3 + aic7xxx-6.1.9 doesn't boot 
+
+* Justin T. Gibbs (Thu Apr 05 2001 - 12:24:48 EST)
+ 
+
+* Igor Mozetic (Thu Apr 05 2001 - 08:19:28 EST)
+ 
+* 2.4.3 - new aic7xxx driver 
+
+* Christian Zander (Mon Apr 02 2001 - 05:32:16 EST)
+ 
+* 2.4.3 : Are all 2.4.2-acXX patches included? 
+
+* Alan Cox (Wed Apr 04 2001 - 06:09:07 EST)
+ 
+
+* Steffen Moser (Wed Apr 04 2001 - 02:57:55 EST)
+ 
+
+* Thomas Foerster (Wed Apr 04 2001 - 02:17:57 EST)
+ 
+* 2.4.3 aic7xxx wont compile 
+
+* Alan Cox (Mon Apr 02 2001 - 18:27:19 EST)
+ 
+* 2.4.3 Easy to make Mozilla go into D State 
+
+* Trever L. Adams (Thu Apr 05 2001 - 14:10:15 EST)
+ 
+* 2.4.3 fails to boot with initrd - solved 
+
+* Bill Davidsen (Thu Apr 05 2001 - 20:45:22 EST)
+ 
+* 2.4.3 freeze under heavy writing + open rxvt 
+
+* Athanasius (Wed Apr 04 2001 - 08:08:16 EST)
+ 
+
+* John Jasen (Tue Apr 03 2001 - 22:02:51 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 21:41:50 EST)
+ 
+
+* Simon Kirby (Tue Apr 03 2001 - 21:32:23 EST)
+ 
+* 2.4.3 irq routing conflict (VIA chipset) 
+
+* Rasmus Bøg Hansen (Wed Apr 04 2001 - 03:27:29 EST)
+ 
+
+* Tim Pepper (Tue Apr 03 2001 - 16:27:28 EST)
+ 
+* 2.4.3 SMP aic7895 oops on boot 
+
+* Vivek Dasmohapatra (Sun Apr 01 2001 - 08:57:34 EST)
+ 
+* 2.4.3 SMP: nfs stale handle, fb dualhead hardlock, G400/450 misnaming 
+
+* Petr Vandrovec (Tue Apr 03 2001 - 12:45:36 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:07:52 EST)
+ 
+
+* Elmer Joandi (Tue Apr 03 2001 - 05:03:46 EST)
+ 
+* 2.4.3 tcp window id causes problems talking to windows clients 
+
+* Alan Cox (Sat Apr 07 2001 - 03:36:47 EST)
+ 
+
+* David S. Miller (Fri Apr 06 2001 - 14:26:18 EST)
+ 
+
+* Kevin Stone (Fri Apr 06 2001 - 14:11:38 EST)
+ 
+* 2.4.3 vanilla: errors building modules 
+
+* Robert-Velisav MICIOVICI (Wed Apr 04 2001 - 01:11:03 EST)
+ 
+* 2.4.3 video module build failure 
+
+* Stephen L Moshier (Wed Apr 04 2001 - 20:59:43 EST)
+ 
+* 2.4.3, new AIC7XX fails to compile, old works. 
+
+* Steven Lembark (Sun Apr 01 2001 - 13:08:46 EST)
+ 
+* 2.4.3-ac2 -- How do I determine if shm is being used? 
+
+* Miles Lane (Sat Apr 07 2001 - 13:28:01 EST)
+ 
+* 2.4.3-ac2 and D state process 
+
+* CaT (Thu Apr 05 2001 - 01:49:54 EST)
+ 
+* 2.4.3-ac3 XIRCOM_CB only working as module 
+
+* Pau (Thu Apr 05 2001 - 10:34:18 EST)
+ 
+
+* Alessandro Suardi (Thu Apr 05 2001 - 07:25:09 EST)
+ 
+* 2.4.3-pre8 breaks trident/ALi5451 driver on Acer Travelmate 522TX 
+
+* Matthias Welwarsky (Mon Apr 02 2001 - 04:29:44 EST)
+ 
+* 2048 byte/sector problems with kernel 2.4 
+
+* Giuliano Pochini (Wed Apr 04 2001 - 14:39:47 EST)
+ 
+
+* Giuliano Pochini (Wed Apr 04 2001 - 04:24:22 EST)
+ 
+
+* John William (Wed Apr 04 2001 - 04:37:56 EST)
+ 
+
+* Harvey Fishman (Tue Apr 03 2001 - 17:48:06 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 16:58:01 EST)
+ 
+
+* Jurgen Kramer (Tue Apr 03 2001 - 16:34:14 EST)
+ 
+* 66MHz PCI 
+
+* Martin Mares (Tue Apr 03 2001 - 03:22:04 EST)
+ 
+
+* Tim Hockin (Tue Apr 03 2001 - 02:31:40 EST)
+ 
+* [2.4.3] PPP errors 
+
+* Manfred H. Winter (Wed Apr 04 2001 - 11:27:34 EST)
+ 
+
+* Jean Paul Sartre (Wed Apr 04 2001 - 00:13:49 EST)
+ 
+
+* Manfred H. Winter (Tue Apr 03 2001 - 19:15:54 EST)
+ 
+* [BUG] smbfs: caching problems 
+
+* Xuan Baldauf (Wed Apr 04 2001 - 20:29:45 EST)
+ 
+
+* Urban Widmark (Wed Apr 04 2001 - 18:00:15 EST)
+ 
+
+* Urban Widmark (Tue Apr 03 2001 - 15:06:53 EST)
+ 
+* [CHECKER] 15 potential pointer dereference errors in 2.4.3 
+
+* Jeff Garzik (Thu Apr 05 2001 - 18:23:12 EST)
+ 
+
+* Andy Chou (Thu Apr 05 2001 - 15:56:08 EST)
+ 
+
+* Andy Chou (Thu Apr 05 2001 - 04:40:34 EST)
+ 
+
+* Andy Chou (Thu Apr 05 2001 - 03:52:51 EST)
+ 
+* [CHECKER] 3 kmalloc underallocation bugs 
+
+* Ben Pfaff (Thu Apr 05 2001 - 22:33:36 EST)
+ 
+
+* Jeff Golds (Thu Apr 05 2001 - 18:27:38 EST)
+ 
+
+* André Dahlqvist (Thu Apr 05 2001 - 18:13:02 EST)
+ 
+
+* Dawson Engler (Thu Apr 05 2001 - 17:45:47 EST)
+ 
+* [CHECKER] __init functions called by non-__init 
+
+* David S. Miller (Fri Apr 06 2001 - 14:32:52 EST)
+ 
+
+* Rusty Russell (Fri Apr 06 2001 - 14:31:43 EST)
+ 
+
+* Dawson Engler (Thu Apr 05 2001 - 01:49:48 EST)
+ 
+* [DRIVER] New framebuffer driver for Permedia3 (2.2.x & 2.4.y) 
+
+* Romain Dolbeau (Fri Apr 06 2001 - 04:57:54 EST)
+ 
+* [Fwd: [Copyright/Licensing] "Dual-copyright/licensing" of your IP withOUT your permission] 
+
+* J . A . Magallon (Mon Apr 02 2001 - 16:58:00 EST)
+ 
+
+* Ben Ford (Mon Apr 02 2001 - 11:50:50 EST)
+ 
+* [Fwd: No USB under 2.4.3 and 2.4.3-ac?] 
+
+* Sid Boyce (Fri Apr 06 2001 - 17:59:15 EST)
+ 
+* [linux-fbdev] Looking for a card with working TV-out in linux 
+
+* Petr Vandrovec (Thu Apr 05 2001 - 13:44:44 EST)
+ 
+* [Lse-tech] HP Plug In Policies vs Multiqueue Scheduler (fwd) 
+
+* Scott Rhine (Wed Apr 04 2001 - 13:18:48 EST)
+ 
+* [PATCH for 2.5] preemptible kernel 
+
+* Paul McKenney (Sat Apr 07 2001 - 18:59:15 EST)
+ 
+
+* Paul McKenney (Sat Apr 07 2001 - 18:54:52 EST)
+ 
+
+* Andi Kleen (Sat Apr 07 2001 - 16:25:55 EST)
+ 
+
+* Rusty Russell (Sat Apr 07 2001 - 14:59:49 EST)
+ 
+
+* Paul McKenney (Fri Apr 06 2001 - 20:25:36 EST)
+ 
+
+* Andi Kleen (Fri Apr 06 2001 - 19:45:27 EST)
+ 
+
+* Paul McKenney (Fri Apr 06 2001 - 18:52:25 EST)
+ 
+
+* Rusty Russell (Wed Apr 04 2001 - 12:51:11 EST)
+ 
+
+* Rusty Russell (Wed Apr 04 2001 - 12:59:48 EST)
+ 
+
+* george anzinger (Mon Apr 02 2001 - 14:56:14 EST)
+ 
+
+* Nigel Gamble (Sun Apr 01 2001 - 16:13:36 EST)
+ 
+
+* Nigel Gamble (Sun Apr 01 2001 - 16:07:42 EST)
+ 
+
+* george anzinger (Sun Apr 01 2001 - 02:48:04 EST)
+ 
+* [PATCH] - USB/Vendor ID update, nothing earthshaking.. 
+
+* Nikhil Goel (Wed Apr 04 2001 - 18:08:17 EST)
+ 
+* [PATCH] 2.4.3 and SysRq over serial console 
+
+* Tom Rini (Tue Apr 03 2001 - 18:18:01 EST)
+ 
+
+* Tom Rini (Tue Apr 03 2001 - 17:38:20 EST)
+ 
+
+* Russell King (Tue Apr 03 2001 - 15:07:44 EST)
+ 
+* [patch] 2.4.3-ac2 alpha fixes 
+
+* Ivan Kokshaysky (Wed Apr 04 2001 - 06:10:52 EST)
+ 
+* [PATCH] 2.4.3-ac3 update Documentation/Changes URLs for e2fsprogs 
+
+* Steven Cole (Fri Apr 06 2001 - 12:29:39 EST)
+ 
+* [PATCH] Core dumps for threads 
+
+* John Van Horne (Fri Apr 06 2001 - 16:03:26 EST)
+ 
+* [PATCH] Documentatio 
+
+* Kai Henningsen (Sun Apr 01 2001 - 06:48:00 EST)
+ 
+* [PATCH] Documentation/ioctl-number.txt) 
+
+* Chip Salzenberg (Mon Apr 02 2001 - 14:49:07 EST)
+ 
+
+* Keith Owens (Sun Apr 01 2001 - 07:50:22 EST)
+ 
+
+* Chip Salzenberg (Sun Apr 01 2001 - 04:01:59 EST)
+ 
+* [PATCH] drivers/isdn/hisax/bkm_a8.c, kernel 2.4.2 (Scitel Quadro) 
+
+* Roland Klabunde (Mon Apr 02 2001 - 12:58:00 EST)
+ 
+* [PATCH] Fujitsu ATM FireStream 
+
+* Patrick van de Lageweg (Wed Apr 04 2001 - 08:46:23 EST)
+ 
+* [PATCH] MTRR driver: s/suser()/capable(CAP_SYS_ADMIN)/ 
+
+* Andrey Panin (Tue Apr 03 2001 - 06:23:28 EST)
+ 
+* [PATCH] multiline string cleanup 
+
+* Jeff Garzik (Mon Apr 02 2001 - 18:50:04 EST)
+ 
+
+* Andi Kleen (Mon Apr 02 2001 - 18:53:30 EST)
+ 
+
+* Andi Kleen (Mon Apr 02 2001 - 16:57:30 EST)
+ 
+* [PATCH] NeoMagic Framebuffer Driver 
+
+* Denis Oliver Kropp (Wed Apr 04 2001 - 21:32:16 EST)
+ 
+* [PATCH] New version of NeoMagic Framebuffer driver 
+
+* Denis Oliver Kropp (Thu Apr 05 2001 - 05:26:14 EST)
+ 
+* [patch] print-64gb-oopses-2.4.2-J2 
+
+* Ingo Molnar (Tue Apr 03 2001 - 04:01:28 EST)
+ 
+* [PATCH] reiserfs old data bug 2.2.x (was: ReiserFS? How reliable ...) 
+
+* Chris Mason (Thu Apr 05 2001 - 08:52:37 EST)
+ 
+* [PATCH] Revised memory-management stuff 
+
+* Andreas Dilger (Thu Apr 05 2001 - 23:51:16 EST)
+ 
+* [PATCH] Revised memory-management stuff (was: OOM killer) 
+
+* Andreas Dilger (Wed Apr 04 2001 - 17:50:17 EST)
+ 
+
+* Jonathan Morton (Wed Apr 04 2001 - 15:41:54 EST)
+ 
+* [PATCH] SysV IPC, kernel 2.4.3 
+
+* Scott Maxwell (Thu Apr 05 2001 - 00:41:44 EST)
+ 
+* [PATCH][RFC] appling preasure to icache and dcache 
+
+* Ed Tomlinson (Tue Apr 03 2001 - 16:25:13 EST)
+ 
+
+* Ed Tomlinson (Mon Apr 02 2001 - 07:58:21 EST)
+ 
+
+* Ed Tomlinson (Mon Apr 02 2001 - 07:42:55 EST)
+ 
+* [PATCH][RFC] appling pressure to icache and dcache - simplified 
+
+* Ed Tomlinson (Sat Apr 07 2001 - 14:45:28 EST)
+ 
+* [Problem] 3c90x on 2.4.3-ac3 
+
+* Prasanna P Subash (Thu Apr 05 2001 - 18:46:08 EST)
+ 
+
+* Grover, Andrew (Thu Apr 05 2001 - 13:40:36 EST)
+ 
+
+* Prasanna P Subash (Thu Apr 05 2001 - 13:12:27 EST)
+ 
+
+* Marcus Meissner (Thu Apr 05 2001 - 03:14:56 EST)
+ 
+
+* Prasanna P Subash (Wed Apr 04 2001 - 20:07:09 EST)
+ 
+* [QUESTION] 2.4.3: hotplug_path unresolved in usbcore? 
+
+* Bart Trojanowski (Thu Apr 05 2001 - 07:08:51 EST)
+ 
+
+* Ryan Mack (Thu Apr 05 2001 - 01:46:14 EST)
+ 
+* [QUESTION] 2.4.x nice level 
+
+* Tor Arntsen (Thu Apr 05 2001 - 12:24:10 EST)
+ 
+
+* SodaPop (Wed Apr 04 2001 - 11:12:15 EST)
+ 
+
+* LA Walsh (Mon Apr 02 2001 - 22:02:02 EST)
+ 
+
+* Quim K Holland (Mon Apr 02 2001 - 18:04:12 EST)
+ 
+
+* BERECZ Szabolcs (Mon Apr 02 2001 - 17:13:45 EST)
+ 
+* [QUESTION] MOD_INC/MOD_DEC: useful to check for correct usage? 
+
+* Alexander Viro (Wed Apr 04 2001 - 20:34:40 EST)
+ 
+
+* Dawson Engler (Wed Apr 04 2001 - 20:25:08 EST)
+ 
+* [QUESTION]: Support and scalability on SMP Alpha 
+
+* Bart Trojanowski (Fri Apr 06 2001 - 11:08:42 EST)
+ 
+* [RFC][PATCH] Debug Register Allocation on x86 
+
+* r1vamsi@in.ibm.com (Wed Apr 04 2001 - 01:02:36 EST)
+ 
+
+* Bharata B . Rao (Tue Apr 03 2001 - 05:58:28 EST)
+ 
+* [WARNING] Please don't send kernel patches through Hotmail 
+
+* Aaron Lehmann (Mon Apr 02 2001 - 15:11:27 EST)
+ 
+* [WISHLIST] Addition of suspend patch into 2.5? 
+
+* Mikulas Patocka (Thu Apr 05 2001 - 17:34:38 EST)
+ 
+
+* Pavel Machek (Mon Apr 02 2001 - 09:42:05 EST)
+ 
+
+* Pavel Machek (Mon Apr 02 2001 - 09:40:53 EST)
+ 
+* __switch_to macro 
+
+* Jamie Lokier (Fri Apr 06 2001 - 06:39:02 EST)
+ 
+
+* alad@hss.hns.com (Fri Apr 06 2001 - 04:12:48 EST)
+ 
+
+* Jamie Lokier (Fri Apr 06 2001 - 03:48:13 EST)
+ 
+
+* alad@hss.hns.com (Fri Apr 06 2001 - 02:23:10 EST)
+ 
+* A fork-like C-wrapper for clone()? 
+
+* Francesc Oller (Fri Apr 06 2001 - 05:42:25 EST)
+ 
+* a quest for a better scheduler 
+
+* Nathan Straz (Fri Apr 06 2001 - 17:33:25 EST)
+ 
+
+* Michael Peddemors (Fri Apr 06 2001 - 16:08:11 EST)
+ 
+
+* Timothy D. Witham (Fri Apr 06 2001 - 13:06:03 EST)
+ 
+
+* Hubertus Franke (Fri Apr 06 2001 - 08:15:02 EST)
+ 
+
+* Christopher Smith (Thu Apr 05 2001 - 22:27:33 EST)
+ 
+
+* Torrey Hoffman (Thu Apr 05 2001 - 18:53:27 EST)
+ 
+
+* Hubertus Franke (Thu Apr 05 2001 - 18:01:01 EST)
+ 
+
+* Timothy D. Witham (Thu Apr 05 2001 - 17:38:41 EST)
+ 
+
+* alad@hss.hns.com (Thu Apr 05 2001 - 06:14:01 EST)
+ 
+
+* Zdenek Kabelac (Thu Apr 05 2001 - 06:13:15 EST)
+ 
+
+* Christopher Smith (Wed Apr 04 2001 - 17:54:54 EST)
+ 
+
+* Tim Wright (Wed Apr 04 2001 - 17:16:32 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 14:06:02 EST)
+ 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 13:00:37 EST)
+ 
+
+* Paul McKenney (Wed Apr 04 2001 - 12:40:49 EST)
+ 
+
+* Kanoj Sarcar (Wed Apr 04 2001 - 12:49:04 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 12:34:37 EST)
+ 
+
+* Mike Kravetz (Wed Apr 04 2001 - 12:27:21 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 12:17:38 EST)
+ 
+
+* Kanoj Sarcar (Wed Apr 04 2001 - 12:14:28 EST)
+ 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 12:16:04 EST)
+ 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 12:00:43 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 12:03:32 EST)
+ 
+
+* Kanoj Sarcar (Wed Apr 04 2001 - 11:50:58 EST)
+ 
+
+* Kanoj Sarcar (Wed Apr 04 2001 - 11:39:23 EST)
+ 
+
+* Davide Libenzi (Wed Apr 04 2001 - 11:12:54 EST)
+ 
+
+* Christoph Hellwig (Wed Apr 04 2001 - 10:55:44 EST)
+ 
+
+* Khalid Aziz (Wed Apr 04 2001 - 10:49:12 EST)
+ 
+
+* Khalid Aziz (Wed Apr 04 2001 - 10:44:22 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 10:36:24 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 10:28:14 EST)
+ 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 10:12:27 EST)
+ 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 10:08:47 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 08:34:22 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 08:25:22 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 08:23:34 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 09:03:10 EST)
+ 
+
+* Hubertus Franke (Wed Apr 04 2001 - 08:43:55 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 06:57:40 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 06:51:14 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 01:53:36 EST)
+ 
+
+* Ingo Molnar (Wed Apr 04 2001 - 01:28:31 EST)
+ 
+
+* alad@hss.hns.com (Wed Apr 04 2001 - 01:36:56 EST)
+ 
+
+* Fabio Riccardi (Tue Apr 03 2001 - 23:21:57 EST)
+ 
+
+* Mike Kravetz (Tue Apr 03 2001 - 21:47:00 EST)
+ 
+
+* Christopher Smith (Tue Apr 03 2001 - 20:50:22 EST)
+ 
+
+* Fabio Riccardi (Tue Apr 03 2001 - 20:17:30 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 19:35:46 EST)
+ 
+
+* Fabio Riccardi (Tue Apr 03 2001 - 19:33:57 EST)
+ 
+
+* Fabio Riccardi (Tue Apr 03 2001 - 19:18:03 EST)
+ 
+
+* Mike Kravetz (Tue Apr 03 2001 - 17:43:14 EST)
+ 
+
+* Ingo Molnar (Tue Apr 03 2001 - 13:47:52 EST)
+ 
+
+* Mike Kravetz (Tue Apr 03 2001 - 14:13:08 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:31:29 EST)
+ 
+
+* Ingo Molnar (Tue Apr 03 2001 - 03:55:12 EST)
+ 
+
+* Fabio Riccardi (Mon Apr 02 2001 - 21:23:19 EST)
+ 
+* a question about block device driver 
+
+* Alan Cox (Wed Apr 04 2001 - 06:06:16 EST)
+ 
+
+* Alex Huang (Wed Apr 04 2001 - 01:45:49 EST)
+ 
+* ack() and end() in hw_irq_controller 
+
+* Jun Sun (Tue Apr 03 2001 - 21:07:00 EST)
+ 
+* ACPI: S1 working for someone? 
+
+* Pavel Machek (Tue Apr 03 2001 - 12:05:48 EST)
+ 
+
+* Pavel Machek (Tue Apr 03 2001 - 11:48:20 EST)
+ 
+* add-single-device won't work in 2.4.3 
+
+* Armin Obersteiner (Sun Apr 01 2001 - 11:01:25 EST)
+ 
+* aic7xxx 6.1.10 and 2.4.4-pre1 
+
+* Justin T. Gibbs (Sat Apr 07 2001 - 20:41:43 EST)
+ 
+
+* J . A . Magallon (Sat Apr 07 2001 - 19:22:33 EST)
+ 
+
+* Justin T. Gibbs (Sat Apr 07 2001 - 18:24:12 EST)
+ 
+
+* lists@sapience.com (Sat Apr 07 2001 - 16:55:05 EST)
+ 
+* aic7xxx 6.1.10 breaks 2.4.3-ac3 
+
+* Justin T. Gibbs (Sat Apr 07 2001 - 20:46:28 EST)
+ 
+
+* J . A . Magallon (Sat Apr 07 2001 - 19:18:08 EST)
+ 
+
+* Justin T. Gibbs (Sat Apr 07 2001 - 18:33:56 EST)
+ 
+
+* J . A . Magallon (Sat Apr 07 2001 - 13:58:34 EST)
+ 
+
+* Justin T. Gibbs (Sat Apr 07 2001 - 11:01:08 EST)
+ 
+
+* J . A . Magallon (Sat Apr 07 2001 - 09:28:35 EST)
+ 
+* aic7xxx 6.1.8 for 2.2.19 
+
+* David Relson (Sun Apr 01 2001 - 11:00:28 EST)
+ 
+
+* Mike Bennett (Sun Apr 01 2001 - 09:54:12 EST)
+ 
+* AIC7xxx in Kernel 2.4.3 
+
+* Justin T. Gibbs (Thu Apr 05 2001 - 13:04:08 EST)
+ 
+
+* Peter Rottengatter (Tue Apr 03 2001 - 18:11:01 EST)
+ 
+* aic7xxx TCQ settings? 
+
+* Justin T. Gibbs (Mon Apr 02 2001 - 14:26:59 EST)
+ 
+
+* Admin Mailing Lists (Mon Apr 02 2001 - 14:16:34 EST)
+ 
+* Announce: RSBAC v1.1.1 released 
+
+* Amon Ott (Tue Apr 03 2001 - 02:57:47 EST)
+ 
+* Announcing Journaled File System (JFS) release 0.2.2 available 
+
+* Steve Best (Mon Apr 02 2001 - 16:37:35 EST)
+ 
+* Another report of mozilla in D state, related to the 'uninterruptible sleep' thread 
+
+* Athanasius (Thu Apr 05 2001 - 07:30:51 EST)
+ 
+
+* David Ford (Wed Apr 04 2001 - 14:14:06 EST)
+ 
+* APIC errors ... 
+
+* Kurt Garloff (Thu Apr 05 2001 - 17:50:14 EST)
+ 
+* Apology 
+
+* Imran Ali Rashid (Tue Apr 03 2001 - 08:54:47 EST)
+ 
+* Arch specific/multiple Configure.help files? 
+
+* Giacomo Catenazzi (Fri Apr 06 2001 - 06:45:55 EST)
+ 
+
+* Andrzej Krzysztofowicz (Fri Apr 06 2001 - 05:35:13 EST)
+ 
+
+* Giacomo Catenazzi (Fri Apr 06 2001 - 04:39:24 EST)
+ 
+
+* Johan Adolfsson (Fri Apr 06 2001 - 04:07:14 EST)
+ 
+
+* Giacomo Catenazzi (Fri Apr 06 2001 - 02:44:32 EST)
+ 
+
+* johan.adolfsson@axis.com (Fri Apr 06 2001 - 02:16:57 EST)
+ 
+
+* Giacomo Catenazzi (Fri Apr 06 2001 - 01:58:08 EST)
+ 
+
+* johan.adolfsson@axis.com (Fri Apr 06 2001 - 00:40:48 EST)
+ 
+
+* Rogier Wolff (Thu Apr 05 2001 - 16:56:13 EST)
+ 
+
+* Rogier Wolff (Thu Apr 05 2001 - 17:03:00 EST)
+ 
+
+* Erik Mouw (Thu Apr 05 2001 - 14:41:36 EST)
+ 
+
+* Johan Adolfsson (Thu Apr 05 2001 - 12:28:33 EST)
+ 
+* Arch specific/multiple Configure.help files? [PATCH included] 
+
+* Johan Adolfsson (Fri Apr 06 2001 - 07:40:22 EST)
+ 
+
+* Giacomo Catenazzi (Fri Apr 06 2001 - 06:34:35 EST)
+ 
+
+* Johan Adolfsson (Fri Apr 06 2001 - 05:19:02 EST)
+ 
+* ARM port missing pivot_root syscall 
+
+* Jamie Lokier (Mon Apr 02 2001 - 09:43:58 EST)
+ 
+
+* Russell King (Mon Apr 02 2001 - 09:07:08 EST)
+ 
+
+* Jamie Lokier (Mon Apr 02 2001 - 07:19:18 EST)
+ 
+* asm/unistd.h 
+
+* J . A . Magallon (Thu Apr 05 2001 - 12:38:40 EST)
+ 
+
+* David S. Miller (Thu Apr 05 2001 - 10:45:07 EST)
+ 
+
+* Bart Trojanowski (Thu Apr 05 2001 - 10:41:38 EST)
+ 
+
+* Steve Grubb (Thu Apr 05 2001 - 10:23:20 EST)
+ 
+
+* Andreas Schwab (Thu Apr 05 2001 - 09:45:44 EST)
+ 
+
+* Bart Trojanowski (Thu Apr 05 2001 - 09:35:00 EST)
+ 
+
+* Stephen Thomas (Thu Apr 05 2001 - 09:35:53 EST)
+ 
+
+* Joseph Carter (Thu Apr 05 2001 - 09:26:28 EST)
+ 
+
+* Ben Collins (Thu Apr 05 2001 - 08:13:02 EST)
+ 
+
+* Tim Waugh (Thu Apr 05 2001 - 08:12:48 EST)
+ 
+
+* David S. Miller (Thu Apr 05 2001 - 08:07:30 EST)
+ 
+
+* Bart Trojanowski (Thu Apr 05 2001 - 08:06:20 EST)
+ 
+
+* Sardañons, Eliel (Thu Apr 05 2001 - 07:58:43 EST)
+ 
+* Assumption in sym53c8xx.c failed 
+
+* Gérard Roudier (Tue Apr 03 2001 - 00:23:44 EST)
+ 
+
+* Gérard Roudier (Mon Apr 02 2001 - 09:16:21 EST)
+ 
+* Asus CUV4X-D, 2.4.3 crashes at boot 
+
+* Simon Garner (Tue Apr 03 2001 - 01:53:55 EST)
+ 
+
+* Allen Campbell (Tue Apr 03 2001 - 01:47:01 EST)
+ 
+
+* Simon Garner (Mon Apr 02 2001 - 17:40:36 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 17:27:27 EST)
+ 
+
+* Simon Garner (Sun Apr 01 2001 - 21:57:33 EST)
+ 
+
+* Simon Garner (Sun Apr 01 2001 - 19:48:08 EST)
+ 
+
+* Simon Garner (Sun Apr 01 2001 - 18:49:30 EST)
+ 
+
+* Keith Owens (Sun Apr 01 2001 - 07:51:30 EST)
+ 
+
+* David Weinehall (Sun Apr 01 2001 - 05:09:18 EST)
+ 
+
+* Simon Garner (Sun Apr 01 2001 - 05:04:17 EST)
+ 
+
+* Allen Campbell (Sun Apr 01 2001 - 04:47:04 EST)
+ 
+
+* Mikael Pettersson (Sun Apr 01 2001 - 04:55:59 EST)
+ 
+
+* Simon Garner (Sun Apr 01 2001 - 04:18:25 EST)
+ 
+
+* Allen Campbell (Sun Apr 01 2001 - 00:13:19 EST)
+ 
+* ATM with kernel 2.4.x 
+
+* Stéphane Borel (Sat Apr 07 2001 - 18:47:53 EST)
+ 
+* Attn: Sales Manager 
+
+* Bernard Hartken (Fri Apr 06 2001 - 16:14:07 EST)
+ 
+* BTTV problems in 2.4.3 
+
+* Marcus Wegner (Tue Apr 03 2001 - 21:11:47 EST)
+ 
+
+* Sami Nieminen (Tue Apr 03 2001 - 06:59:44 EST)
+ 
+
+* Robert Holmberg (Tue Apr 03 2001 - 00:29:42 EST)
+ 
+* bug database braindump from the kernel summit 
+
+* Petr Baudis (Thu Apr 05 2001 - 07:55:20 EST)
+ 
+
+* Miles Lane (Tue Apr 03 2001 - 11:05:52 EST)
+ 
+
+* Oliver Xymoron (Mon Apr 02 2001 - 18:31:47 EST)
+ 
+
+* Jeff Garzik (Mon Apr 02 2001 - 18:24:11 EST)
+ 
+
+* Oliver Xymoron (Mon Apr 02 2001 - 18:12:25 EST)
+ 
+
+* Tom Leete (Mon Apr 02 2001 - 18:04:47 EST)
+ 
+
+* J . A . Magallon (Mon Apr 02 2001 - 17:38:04 EST)
+ 
+
+* David Lang (Mon Apr 02 2001 - 17:24:42 EST)
+ 
+
+* Jeff Garzik (Mon Apr 02 2001 - 17:09:05 EST)
+ 
+
+* J . A . Magallon (Mon Apr 02 2001 - 16:40:45 EST)
+ 
+
+* Steven Walter (Mon Apr 02 2001 - 16:35:10 EST)
+ 
+
+* Kai Henningsen (Mon Apr 02 2001 - 13:57:00 EST)
+ 
+
+* Oliver Xymoron (Mon Apr 02 2001 - 14:39:55 EST)
+ 
+
+* Rogier Wolff (Mon Apr 02 2001 - 08:31:44 EST)
+ 
+
+* Olaf Titz (Mon Apr 02 2001 - 03:00:21 EST)
+ 
+
+* Richard Russon (Mon Apr 02 2001 - 00:26:45 EST)
+ 
+
+* David Lang (Mon Apr 02 2001 - 00:07:25 EST)
+ 
+
+* Miles Lane (Sun Apr 01 2001 - 20:57:25 EST)
+ 
+
+* Miles Lane (Sun Apr 01 2001 - 20:49:04 EST)
+ 
+
+* Ben Ford (Sun Apr 01 2001 - 19:26:01 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 18:43:47 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 18:44:03 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 18:32:55 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 18:34:07 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 18:21:29 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 18:25:16 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 18:01:53 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 18:14:46 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 17:48:34 EST)
+ 
+
+* Stephen Satchell (Sun Apr 01 2001 - 17:34:35 EST)
+ 
+
+* Manfred Spraul (Sun Apr 01 2001 - 16:48:56 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 16:18:10 EST)
+ 
+
+* David Lang (Sun Apr 01 2001 - 16:16:57 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 16:07:52 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 15:59:34 EST)
+ 
+
+* Albert D. Cahalan (Sun Apr 01 2001 - 15:38:01 EST)
+ 
+
+* Albert D. Cahalan (Sun Apr 01 2001 - 15:17:00 EST)
+ 
+
+* Gregory Maxwell (Sun Apr 01 2001 - 15:21:01 EST)
+ 
+
+* Manfred Spraul (Sun Apr 01 2001 - 14:32:40 EST)
+ 
+
+* Albert D. Cahalan (Sun Apr 01 2001 - 14:43:52 EST)
+ 
+
+* Larry McVoy (Sun Apr 01 2001 - 12:54:40 EST)
+ 
+* Bug in proc permition checks. 
+
+* Kasper Dupont (Sun Apr 01 2001 - 05:12:25 EST)
+ 
+* Bugreport: Kernel 2.4.x crash 
+
+* Mark Hahn (Tue Apr 03 2001 - 09:52:06 EST)
+ 
+
+* John Jasen (Tue Apr 03 2001 - 09:26:06 EST)
+ 
+
+* Jörn Engel (Tue Apr 03 2001 - 07:52:19 EST)
+ 
+* Calling kernel level function from user level program 
+
+* Gabi Davar (Thu Apr 05 2001 - 05:48:12 EST)
+ 
+
+* Remko van der Vossen (Thu Apr 05 2001 - 04:59:12 EST)
+ 
+* can not compile 2.4.3 on alpha 
+
+* Jeff Garzik (Mon Apr 02 2001 - 19:29:03 EST)
+ 
+
+* Andrea Arcangeli (Mon Apr 02 2001 - 10:37:39 EST)
+ 
+
+* Gustavo Niemeyer (Mon Apr 02 2001 - 08:02:31 EST)
+ 
+
+* Andrejs Dubovskis (Mon Apr 02 2001 - 06:40:01 EST)
+ 
+* Can't boot with the 2.4.3 kernel. 
+
+* Amir Hardon (Tue Apr 03 2001 - 23:09:45 EST)
+ 
+
+* Juha Saarinen (Tue Apr 03 2001 - 23:13:00 EST)
+ 
+* cannot compile 2.4.3 on SPARC 
+
+* Jeff Layton (Tue Apr 03 2001 - 09:14:24 EST)
+ 
+* cannot compile kernel 
+
+* David Woodhouse (Thu Apr 05 2001 - 11:02:44 EST)
+ 
+
+* R. van Dijk (Thu Apr 05 2001 - 10:35:02 EST)
+ 
+* Compaq proliant ML-350 - IDE & SCSI 
+
+* Alexandru Barloiu Nicolae (Sat Apr 07 2001 - 23:55:53 EST)
+ 
+* compile error - ldmxcsr 
+
+* Laura Dean (Thu Apr 05 2001 - 09:39:12 EST)
+ 
+* Compiling problem kernel 2.4.2 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 12:21:04 EST)
+ 
+* Config files for Compaq Presario 1800T Laptop 
+
+* Michael D. Crawford (Sat Apr 07 2001 - 11:55:48 EST)
+ 
+* Config printk buffer size 
+
+* Thomas Dodd (Thu Apr 05 2001 - 15:36:48 EST)
+ 
+
+* Thomas Dodd (Thu Apr 05 2001 - 09:46:16 EST)
+ 
+
+* Andrzej Krzysztofowicz (Thu Apr 05 2001 - 04:47:04 EST)
+ 
+
+* Thomas Dodd (Wed Apr 04 2001 - 19:18:00 EST)
+ 
+* console.c unblank_screen problem 
+
+* Mikael Pettersson (Fri Apr 06 2001 - 10:46:02 EST)
+ 
+
+* Benjamin Herrenschmidt (Wed Apr 04 2001 - 07:18:56 EST)
+ 
+
+* Mikael Pettersson (Wed Apr 04 2001 - 06:09:11 EST)
+ 
+* Contacts within AMD? AMD-756 USB host-controller blacklisted due to 
+
+* Ryan Butler (Wed Apr 04 2001 - 18:50:51 EST)
+ 
+
+* David Brownell (Wed Apr 04 2001 - 18:00:22 EST)
+ 
+
+* Miles Lane (Wed Apr 04 2001 - 16:40:51 EST)
+ 
+
+* Joachim 'roh' Steiger (Wed Apr 04 2001 - 17:19:22 EST)
+ 
+
+* Miles Lane (Wed Apr 04 2001 - 13:54:35 EST)
+ 
+
+* Thomas Dodd (Wed Apr 04 2001 - 14:12:22 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 14:10:51 EST)
+ 
+* Contacts within AMD? AMD-756 USB host-controller blacklisted due to erratum #4. 
+
+* Miles Lane (Tue Apr 03 2001 - 12:46:43 EST)
+ 
+* Contacts within AMD? AMD-756 USB host-controller blacklisted dueto 
+
+* Thomas Dodd (Thu Apr 05 2001 - 15:29:45 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 19:27:00 EST)
+ 
+
+* Thomas Dodd (Wed Apr 04 2001 - 19:08:03 EST)
+ 
+* Cool Road Runner 
+
+* Richard Gooch (Tue Apr 03 2001 - 01:59:41 EST)
+ 
+
+* Padraig Brady (Mon Apr 02 2001 - 13:27:39 EST)
+ 
+
+* Andre Hedrick (Tue Apr 24 2001 - 00:32:41 EST)
+ 
+
+* Richard Gooch (Mon Apr 02 2001 - 11:59:27 EST)
+ 
+
+* Andre Hedrick (Mon Apr 23 2001 - 23:57:12 EST)
+ 
+
+* Padraig Brady (Mon Apr 02 2001 - 08:07:23 EST)
+ 
+
+* Andre Hedrick (Mon Apr 02 2001 - 03:01:43 EST)
+ 
+
+* Steffen Grunewald (Mon Apr 02 2001 - 03:21:27 EST)
+ 
+
+* Andre Hedrick (Mon Apr 02 2001 - 01:55:05 EST)
+ 
+
+* Steffen Grunewald (Mon Apr 02 2001 - 01:55:50 EST)
+ 
+* Cool Road Runner (was CFA as Ide.) 
+
+* Richard A. Smith (Mon Apr 02 2001 - 15:25:25 EST)
+ 
+
+* Richard A. Smith (Mon Apr 02 2001 - 16:19:25 EST)
+ 
+
+* Adrian Cox (Mon Apr 02 2001 - 15:50:59 EST)
+ 
+
+* Adrian Cox (Mon Apr 02 2001 - 16:50:47 EST)
+ 
+* Cool Road Runner) 
+
+* Padraig Brady (Mon Apr 02 2001 - 14:15:39 EST)
+ 
+
+* Andre Hedrick (Tue Apr 24 2001 - 01:09:21 EST)
+ 
+* Cyrix/mtrr fix missing from 2.4.3 
+
+* Bob_Tracy (Tue Apr 03 2001 - 10:20:12 EST)
+ 
+* Dell PERC/Adaptec RAID support? 
+
+* Alan Cox (Mon Apr 02 2001 - 18:19:55 EST)
+ 
+* Digital DS21143 in Compaq & kernel 2.4.2 
+
+* Olaf Woudenberg (Tue Apr 03 2001 - 20:33:13 EST)
+ 
+* Disturbing news.. 
+
+* Dr. Kelsey Hudson (Mon Apr 02 2001 - 18:10:06 EST)
+ 
+* Divide error 2.4.3 
+
+* Rasmus Bøg Hansen (Thu Apr 05 2001 - 05:08:45 EST)
+ 
+* EATA driver with DPT SmartRAID V 
+
+* Denis Perchine (Tue Apr 03 2001 - 12:09:47 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 12:10:19 EST)
+ 
+
+* Denis Perchine (Tue Apr 03 2001 - 11:58:49 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 11:59:05 EST)
+ 
+
+* Denis Perchine (Tue Apr 03 2001 - 11:38:12 EST)
+ 
+* epic100 aka smc etherpower II 
+
+* Francois Romieu (Sun Apr 01 2001 - 08:23:26 EST)
+ 
+* epic100 aka smc etherpower II (fwd) 
+
+* Daniel Nofftz (Mon Apr 02 2001 - 02:27:10 EST)
+ 
+* ERESTARTSYS question. 
+
+* Bjorn Wesen (Thu Apr 05 2001 - 10:02:42 EST)
+ 
+
+* Jani Monoses (Thu Apr 05 2001 - 11:13:08 EST)
+ 
+
+* Bjorn Wesen (Thu Apr 05 2001 - 09:16:57 EST)
+ 
+
+* Jani Monoses (Thu Apr 05 2001 - 10:10:17 EST)
+ 
+* Ethernet driver tweak for error correction codes 
+
+* Pavel Machek (Mon Apr 02 2001 - 09:26:02 EST)
+ 
+* ethernet phy link state info 
+
+* Jeff Garzik (Fri Apr 06 2001 - 12:34:24 EST)
+ 
+
+* Jeff Garzik (Fri Apr 06 2001 - 12:33:55 EST)
+ 
+
+* Mathieu Chouquet-Stringer (Fri Apr 06 2001 - 10:20:10 EST)
+ 
+
+* Johan Adolfsson (Fri Apr 06 2001 - 10:05:42 EST)
+ 
+
+* Bernhard Bender (Fri Apr 06 2001 - 09:54:56 EST)
+ 
+* EXT2-fs error 
+
+* Alan Cox (Mon Apr 02 2001 - 18:13:16 EST)
+ 
+* EXT2-fs error on 2.4.2 & 2.4.3 
+
+* Lukasz Trabinski (Sun Apr 01 2001 - 16:32:14 EST)
+ 
+* fbcon slowness [was NTP on 2.4.2?] 
+
+* Maciej W. Rozycki (Fri Apr 06 2001 - 14:31:00 EST)
+ 
+
+* Andrea Arcangeli (Fri Apr 06 2001 - 13:34:40 EST)
+ 
+
+* Maciej W. Rozycki (Fri Apr 06 2001 - 12:27:24 EST)
+ 
+
+* Maciej W. Rozycki (Fri Apr 06 2001 - 12:13:21 EST)
+ 
+
+* Maciej W. Rozycki (Fri Apr 06 2001 - 12:07:45 EST)
+ 
+
+* Eric W. Biederman (Fri Apr 06 2001 - 08:19:09 EST)
+ 
+
+* Ivan Kokshaysky (Fri Apr 06 2001 - 05:09:20 EST)
+ 
+
+* Eric W. Biederman (Thu Apr 05 2001 - 13:20:22 EST)
+ 
+
+* Maciej W. Rozycki (Thu Apr 05 2001 - 08:15:26 EST)
+ 
+
+* Geert Uytterhoeven (Thu Apr 05 2001 - 07:12:09 EST)
+ 
+
+* Eric W. Biederman (Thu Apr 05 2001 - 07:03:01 EST)
+ 
+
+* James Simmons (Wed Apr 04 2001 - 22:04:04 EST)
+ 
+
+* Jamie Lokier (Wed Apr 04 2001 - 03:47:02 EST)
+ 
+
+* Eric W. Biederman (Wed Apr 04 2001 - 02:50:41 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:21:53 EST)
+ 
+
+* Geert Uytterhoeven (Tue Apr 03 2001 - 01:23:55 EST)
+ 
+
+* James Simmons (Mon Apr 02 2001 - 21:04:57 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 17:44:37 EST)
+ 
+
+* Jamie Lokier (Sun Apr 01 2001 - 16:35:53 EST)
+ 
+
+* James Simmons (Sun Apr 01 2001 - 09:54:35 EST)
+ 
+* Future reports <bugs@linux-ide.org> 
+
+* Andre Hedrick (Mon Apr 02 2001 - 23:29:00 EST)
+ 
+* FYI: ACPI devices put into proc 
+
+* Pavel Machek (Thu Apr 05 2001 - 15:52:53 EST)
+ 
+* gcc oopses with 2.4.3 
+
+* Kurt Garloff (Fri Apr 06 2001 - 12:49:10 EST)
+ 
+
+* Norbert Preining (Fri Apr 06 2001 - 11:33:03 EST)
+ 
+
+* Richard B. Johnson (Fri Apr 06 2001 - 11:41:43 EST)
+ 
+
+* Norbert Preining (Fri Apr 06 2001 - 11:16:49 EST)
+ 
+
+* Chris Mason (Fri Apr 06 2001 - 11:00:12 EST)
+ 
+
+* Norbert Preining (Fri Apr 06 2001 - 10:44:42 EST)
+ 
+* gcc problem when compiling module? 
+
+* Anders Lindén (Wed Apr 04 2001 - 08:21:49 EST)
+ 
+* gcc-2.95.3 
+
+* Jochen Striepe (Fri Apr 06 2001 - 02:30:18 EST)
+ 
+
+* Mike Castle (Thu Apr 05 2001 - 21:00:52 EST)
+ 
+
+* Shawn Starr (Thu Apr 05 2001 - 20:08:43 EST)
+ 
+
+* Jeff Chua (Thu Apr 05 2001 - 19:49:51 EST)
+ 
+* get_pid() : enahancement 
+
+* Alan Cox (Wed Apr 04 2001 - 06:05:04 EST)
+ 
+
+* alad@hss.hns.com (Wed Apr 04 2001 - 01:30:58 EST)
+ 
+* gigabit bonding 
+
+* john knox (Tue Apr 03 2001 - 13:11:09 EST)
+ 
+* goodbye 
+
+* Matti Aarnio (Sat Apr 07 2001 - 18:32:28 EST)
+ 
+
+* Michael Peddemors (Tue Apr 03 2001 - 20:14:33 EST)
+ 
+
+* Ion Badulescu (Tue Apr 03 2001 - 17:21:10 EST)
+ 
+
+* Matthew Fredrickson (Tue Apr 03 2001 - 16:56:57 EST)
+ 
+
+* Rik van Riel (Tue Apr 03 2001 - 16:01:42 EST)
+ 
+* Groups maximum 
+
+* Jeff Garzik (Thu Apr 05 2001 - 15:57:51 EST)
+ 
+
+* Stephen Burns (Thu Apr 05 2001 - 14:59:40 EST)
+ 
+* Hangs under 2.4.2-ac{18,19,24} that do not happen under -ac12. 
+
+* Paul Cassella (Tue Apr 03 2001 - 13:43:19 EST)
+ 
+* How do I compile properly after changing tcp_input.c etc? 
+
+* Bart Trojanowski (Fri Apr 06 2001 - 21:09:32 EST)
+ 
+
+* Bill Geissler (Fri Apr 06 2001 - 20:54:00 EST)
+ 
+* how mmap() works? 
+
+* Andreas Bombe (Sun Apr 01 2001 - 19:42:36 EST)
+ 
+
+* Tim Hockin (Sun Apr 01 2001 - 15:28:05 EST)
+ 
+
+* Andreas Bombe (Sun Apr 01 2001 - 11:41:31 EST)
+ 
+* How to build modules outside the kernel tree? [Was: Proper way to release binary driver?] 
+
+* Eric W. Biederman (Fri Apr 06 2001 - 20:24:54 EST)
+ 
+* how to create in proc 
+
+* Srinivas Surabhi (Tue Apr 03 2001 - 04:23:52 EST)
+ 
+
+* Ingo Molnar (Tue Apr 03 2001 - 03:33:30 EST)
+ 
+* How to embed linux into a board based on QED rm5230 mips cpu? 
+
+* Dan Hollis (Thu Apr 05 2001 - 15:10:13 EST)
+ 
+
+* J . A . Magallon (Thu Apr 05 2001 - 14:15:50 EST)
+ 
+
+* Miao Qingjun (Thu Apr 05 2001 - 14:06:15 EST)
+ 
+* how to let all others run 
+
+* Ion Badulescu (Thu Apr 05 2001 - 17:29:54 EST)
+ 
+
+* Richard B. Johnson (Thu Apr 05 2001 - 16:08:45 EST)
+ 
+
+* Oliver.Neukum@lrz.uni-muenchen.de (Thu Apr 05 2001 - 15:41:45 EST)
+ 
+
+* Richard B. Johnson (Thu Apr 05 2001 - 11:52:28 EST)
+ 
+
+* John Fremlin (Thu Apr 05 2001 - 10:55:50 EST)
+ 
+
+* Richard B. Johnson (Wed Apr 04 2001 - 16:00:32 EST)
+ 
+
+* John Fremlin (Wed Apr 04 2001 - 15:11:27 EST)
+ 
+
+* Oliver Neukum (Mon Apr 02 2001 - 09:05:34 EST)
+ 
+* How to make ramdisk based system? 
+
+* lintux@dds.nl (Tue Apr 03 2001 - 16:51:19 EST)
+ 
+
+* Steffen Grunewald (Tue Apr 03 2001 - 12:02:00 EST)
+ 
+* i810_audio.c: Clicks while playing audio 
+
+* Doug Ledford (Sat Apr 07 2001 - 15:48:30 EST)
+ 
+
+* Naren Devaiah (Sat Apr 07 2001 - 13:45:30 EST)
+ 
+* IDE DMA Problem? (or at least behavior change) 2.2/2.4 
+
+* James Turinsky (LKML) (Sun Apr 01 2001 - 21:37:13 EST)
+ 
+* IDE RAID Hardware Advice 
+
+* Erik Mouw (Wed Apr 04 2001 - 14:54:21 EST)
+ 
+
+* David Christensen (Wed Apr 04 2001 - 11:51:49 EST)
+ 
+
+* John Kodis (Wed Apr 04 2001 - 09:03:59 EST)
+ 
+* IP layer bug? 
+
+* Oleg Drokin (Mon Apr 02 2001 - 04:25:08 EST)
+ 
+* Is jumbo ethernet MTU possible with Hamachi Gigabit ethernet driver? 
+
+* Pete Wyckoff (Thu Apr 05 2001 - 09:36:41 EST)
+ 
+
+* John Weidman (Wed Apr 04 2001 - 19:59:13 EST)
+ 
+* ISIcom cards by Multi-tech 
+
+* Michael Reinelt (Sat Apr 07 2001 - 06:39:48 EST)
+ 
+* IV calculation, blocksize (and CBC type encryptions) in loop.c 
+
+* Herbert Valerio Riedel (Fri Apr 06 2001 - 05:48:03 EST)
+ 
+* Kernel 2.4.3 compile error - why ?? 
+
+* Wojciech \ (Fri Apr 06 2001 - 03:21:58 EST)
+ 
+* Kernel 2.4.3 fails to compile 
+
+* Alan Cox (Mon Apr 02 2001 - 18:30:32 EST)
+ 
+* Kernel 2.4.3 fails to compile) 
+
+* Jeff Garzik (Thu Apr 05 2001 - 11:57:39 EST)
+ 
+* kernel 2.4.3 on HP netserver LH4 
+
+* gianpaolo racca (Thu Apr 05 2001 - 09:13:57 EST)
+ 
+* kernel BUG at page_alloc.c:75! / exit.c 
+
+* TimO (Fri Apr 06 2001 - 21:53:45 EST)
+ 
+
+* Ben LaHaise (Thu Apr 05 2001 - 21:15:45 EST)
+ 
+
+* ernte23@gmx.de (Thu Apr 05 2001 - 13:53:33 EST)
+ 
+
+* ernte23@gmx.de (Wed Apr 04 2001 - 06:23:51 EST)
+ 
+* kernel bug in 2.4.2-ac28, patched with 6.1.8 aic drivers 
+
+* John Jasen (Thu Apr 05 2001 - 13:38:01 EST)
+ 
+
+* John Jasen (Thu Apr 05 2001 - 09:51:45 EST)
+ 
+* kernel compilation errors 
+
+* Arc C. (Sun Apr 01 2001 - 00:58:34 EST)
+ 
+* kernel crash 
+
+* Wayne.Brown@altec.com (Mon Apr 02 2001 - 11:40:43 EST)
+ 
+
+* nak@apfbioelectronics.com (Sun Apr 01 2001 - 05:15:19 EST)
+ 
+* Kernel panic when trying to mount a scsi cdrom. 
+
+* Alexandre et/ou Sophie Beneteau (Sat Apr 07 2001 - 08:53:30 EST)
+ 
+* Kernel v2.4.3 segfault on any network send 
+
+* pi (Tue Apr 03 2001 - 18:51:53 EST)
+ 
+* kernel/sched.c questions 
+
+* Steven Walter (Thu Apr 05 2001 - 15:28:59 EST)
+ 
+
+* Bjorn Wesen (Wed Apr 04 2001 - 15:21:29 EST)
+ 
+
+* Richard B. Johnson (Wed Apr 04 2001 - 16:22:20 EST)
+ 
+
+* Stuart MacDonald (Wed Apr 04 2001 - 15:29:37 EST)
+ 
+
+* Andi Kleen (Wed Apr 04 2001 - 15:20:12 EST)
+ 
+
+* Tim Walberg (Wed Apr 04 2001 - 15:08:33 EST)
+ 
+
+* Sardañons, Eliel (Wed Apr 04 2001 - 14:52:32 EST)
+ 
+* Larger dev_t 
+
+* Rogier Wolff (Wed Apr 04 2001 - 03:08:51 EST)
+ 
+
+* Tim Wright (Tue Apr 03 2001 - 18:28:10 EST)
+ 
+
+* Richard Gooch (Tue Apr 03 2001 - 12:02:45 EST)
+ 
+
+* Richard Gooch (Tue Apr 03 2001 - 11:58:11 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 11:54:15 EST)
+ 
+
+* Alexander Viro (Tue Apr 03 2001 - 11:34:18 EST)
+ 
+
+* Richard Gooch (Tue Apr 03 2001 - 11:05:13 EST)
+ 
+
+* Bart Trojanowski (Tue Apr 03 2001 - 10:34:11 EST)
+ 
+
+* Wayne.Brown@altec.com (Tue Apr 03 2001 - 09:48:53 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:53:22 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:41:54 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:38:40 EST)
+ 
+
+* Martin Dalecki (Tue Apr 03 2001 - 07:15:43 EST)
+ 
+
+* Martin Dalecki (Tue Apr 03 2001 - 07:13:38 EST)
+ 
+
+* Ingo Oeser (Tue Apr 03 2001 - 07:20:24 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:19:24 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:06:33 EST)
+ 
+
+* Ingo Oeser (Tue Apr 03 2001 - 05:09:11 EST)
+ 
+
+* Martin Dalecki (Tue Apr 03 2001 - 02:28:12 EST)
+ 
+
+* Martin Dalecki (Tue Apr 03 2001 - 02:25:36 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 16:45:03 EST)
+ 
+
+* Andries.Brouwer@cwi.nl (Mon Apr 02 2001 - 16:59:35 EST)
+ 
+
+* Andries.Brouwer@cwi.nl (Mon Apr 02 2001 - 15:17:02 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 15:02:20 EST)
+ 
+* Let init know user wants to shutdown 
+
+* Pavel Machek (Wed Apr 04 2001 - 17:02:15 EST)
+ 
+* Linux 2.2.19 release notes 
+
+* Alan Cox (Tue Apr 03 2001 - 19:15:55 EST)
+ 
+* linux 2.2.19 smp interrupt problems? 
+
+* Armin Obersteiner (Sat Apr 07 2001 - 10:52:17 EST)
+ 
+
+* Manfred Spraul (Sat Apr 07 2001 - 06:00:07 EST)
+ 
+
+* Armin Obersteiner (Fri Apr 06 2001 - 11:03:17 EST)
+ 
+* Linux 2.2.19pre18 
+
+* Alan Cox (Tue Apr 03 2001 - 07:13:21 EST)
+ 
+
+* Matthias Andree (Tue Apr 03 2001 - 04:01:19 EST)
+ 
+* Linux 2.4.2-ac27 
+
+* Alan Cox (Mon Apr 02 2001 - 14:56:24 EST)
+ 
+* linux 2.4.3 crashed my hard disk 
+
+* Andre Hedrick (Sat Apr 07 2001 - 00:50:39 EST)
+ 
+
+* Ion Badulescu (Sat Apr 07 2001 - 00:46:17 EST)
+ 
+
+* Andre Hedrick (Sat Apr 07 2001 - 00:37:58 EST)
+ 
+
+* Ion Badulescu (Sat Apr 07 2001 - 00:24:42 EST)
+ 
+
+* Andre Hedrick (Fri Apr 06 2001 - 23:30:24 EST)
+ 
+
+* Alessandro Suardi (Thu Apr 05 2001 - 03:01:06 EST)
+ 
+
+* Alessandro Suardi (Thu Apr 05 2001 - 02:59:10 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 20:30:20 EST)
+ 
+
+* Ion Badulescu (Wed Apr 04 2001 - 20:10:22 EST)
+ 
+
+* Richard B. Johnson (Wed Apr 04 2001 - 14:30:15 EST)
+ 
+
+* Brian Gerst (Wed Apr 04 2001 - 14:21:28 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 14:00:29 EST)
+ 
+
+* Frank Cornelis (Wed Apr 04 2001 - 13:43:03 EST)
+ 
+* Linux 2.4.3 instabilities, kernel panic with IrDA, ps, etc. 
+
+* Tim Waugh (Mon Apr 02 2001 - 06:09:40 EST)
+ 
+
+* Destroy micro$oft (Mon Apr 02 2001 - 10:40:00 EST)
+ 
+* Linux 2.4.3-ac2 
+
+* Andrey Panin (Wed Apr 04 2001 - 06:43:42 EST)
+ 
+
+* Danny ter Haar (Tue Apr 03 2001 - 22:37:31 EST)
+ 
+
+* Danny ter Haar (Tue Apr 03 2001 - 22:18:43 EST)
+ 
+
+* Alexander Viro (Tue Apr 03 2001 - 21:18:25 EST)
+ 
+
+* Miles Lane (Tue Apr 03 2001 - 18:48:45 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 19:41:03 EST)
+ 
+* Linux 2.4.3ac1 
+
+* Alan Cox (Tue Apr 03 2001 - 15:11:28 EST)
+ 
+* Linux connectivity trashed. 
+
+* Richard B. Johnson (Mon Apr 02 2001 - 12:42:14 EST)
+ 
+* linux scheduler limitations? 
+
+* Alan Cox (Mon Apr 02 2001 - 17:58:45 EST)
+ 
+* linux-2.4.3-ac3.tfhsio2/drivers/ide/Makefile 
+
+* Andre Hedrick (Fri Apr 06 2001 - 23:14:36 EST)
+ 
+* lockup/crash in 2.4.3 (kernel BUG at exit.c:458!) 
+
+* Patrick McLean (Fri Apr 06 2001 - 00:40:29 EST)
+ 
+* Looking for a card with working TV-out in linux 
+
+* David Balazic (Thu Apr 05 2001 - 12:39:42 EST)
+ 
+* loop problems continue in 2.4.3 
+
+* Ian Eure (Sat Apr 07 2001 - 17:04:37 EST)
+ 
+* loopback mount won't umount on 2.2.12 
+
+* J Sloan (Wed Apr 04 2001 - 12:28:00 EST)
+ 
+
+* Khyron (Wed Apr 04 2001 - 04:04:40 EST)
+ 
+* Lost timer configuration 
+
+* Shane Wegner (Sat Apr 07 2001 - 18:13:28 EST)
+ 
+* Matrox G400 Dualhead 
+
+* Petr Vandrovec (Tue Apr 03 2001 - 12:34:56 EST)
+ 
+
+* James Simmons (Mon Apr 02 2001 - 22:16:28 EST)
+ 
+
+* Trevor Hemsley (Mon Apr 02 2001 - 22:55:36 EST)
+ 
+
+* thunder7@xs4all.nl (Mon Apr 02 2001 - 06:02:24 EST)
+ 
+
+* Petr Vandrovec (Mon Apr 02 2001 - 12:39:24 EST)
+ 
+
+* Petr Vandrovec (Mon Apr 02 2001 - 12:36:50 EST)
+ 
+
+* mythos (Sun Apr 01 2001 - 15:22:47 EST)
+ 
+
+* James Simmons (Sun Apr 01 2001 - 09:40:36 EST)
+ 
+
+* thunder7@xs4all.nl (Sun Apr 01 2001 - 03:55:39 EST)
+ 
+* md driver doesn't notice disk going out 
+
+* Michael S. Fischer (Tue Apr 03 2001 - 19:12:29 EST)
+ 
+
+* Michael S. Fischer (Tue Apr 03 2001 - 19:09:13 EST)
+ 
+* memcpy in 2.2.19 
+
+* Chris Funderburg (Mon Apr 02 2001 - 02:32:14 EST)
+ 
+* memory allocation problems 
+
+* Hugh Dickins (Fri Apr 06 2001 - 16:21:14 EST)
+ 
+
+* Mark Hahn (Fri Apr 06 2001 - 15:08:25 EST)
+ 
+
+* Wayne Whitney (Fri Apr 06 2001 - 14:40:36 EST)
+ 
+
+* Mark Hahn (Fri Apr 06 2001 - 14:22:23 EST)
+ 
+
+* Wayne Whitney (Fri Apr 06 2001 - 11:57:32 EST)
+ 
+
+* Andi Kleen (Fri Apr 06 2001 - 10:21:55 EST)
+ 
+
+* majer@endeca.com (Fri Apr 06 2001 - 09:06:47 EST)
+ 
+* Memory maps 
+
+* Eric W. Biederman (Tue Apr 03 2001 - 07:57:22 EST)
+ 
+
+* Fu-hau Hsu (Mon Apr 02 2001 - 15:25:11 EST)
+ 
+* memory size detection problem on 2.3.16+ and 2.4.x 
+
+* Michael Miller (Wed Apr 04 2001 - 16:52:47 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 19:18:06 EST)
+ 
+
+* Michael Miller (Tue Apr 03 2001 - 19:03:22 EST)
+ 
+* Minor 2.4.3 Adaptec Driver Problems 
+
+* Earle Nietzel (Wed Apr 04 2001 - 23:26:43 EST)
+ 
+
+* Justin T. Gibbs (Tue Apr 03 2001 - 17:01:59 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 16:50:44 EST)
+ 
+
+* Ben Ford (Tue Apr 03 2001 - 15:59:15 EST)
+ 
+
+* Giuliano Pochini (Mon Apr 02 2001 - 13:02:47 EST)
+ 
+
+* Marko Kreen (Sun Apr 01 2001 - 07:31:38 EST)
+ 
+
+* Earle Nietzel (Sun Apr 01 2001 - 15:09:30 EST)
+ 
+* mirror 
+
+* Fabio Massimo Di Nitto (Fri Apr 06 2001 - 05:23:10 EST)
+ 
+* mkinitrd and 2.4.x annoyances 
+
+* Tony Hoffmann (Fri Apr 06 2001 - 18:45:05 EST)
+ 
+* MLPPP in kernels 2.2.x w/ PPP v2.4.1 
+
+* Koral Ilgun (Tue Apr 03 2001 - 14:41:21 EST)
+ 
+
+* Koral Ilgun (Tue Apr 03 2001 - 14:37:59 EST)
+ 
+
+* Ivan Passos (Tue Apr 03 2001 - 13:00:37 EST)
+ 
+* module problem with new kernel 
+
+* Lee Leahu (Fri Apr 06 2001 - 23:42:37 EST)
+ 
+* modutils / sound 
+
+* Guennadi Liakhovetski (Fri Apr 06 2001 - 16:25:34 EST)
+ 
+
+* isaac albeniz (Fri Apr 06 2001 - 12:43:12 EST)
+ 
+* More about 2.4.3 timer problems 
+
+* Eric Gillespie (Wed Apr 04 2001 - 23:21:39 EST)
+ 
+
+* James Simmons (Wed Apr 04 2001 - 22:06:07 EST)
+ 
+
+* Eric Gillespie (Wed Apr 04 2001 - 02:42:23 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:33:23 EST)
+ 
+
+* viking (Mon Apr 02 2001 - 23:55:56 EST)
+ 
+
+* Andrew Morton (Mon Apr 02 2001 - 21:52:25 EST)
+ 
+
+* Eric Gillespie (Mon Apr 02 2001 - 19:56:40 EST)
+ 
+* MPEG-2 decoding driver for Trident Cyberblade i7 
+
+* Alan Cox (Wed Apr 04 2001 - 19:31:28 EST)
+ 
+
+* Michael Shiloh (Wed Apr 04 2001 - 19:15:57 EST)
+ 
+* MTRR 
+
+* mythos (Sun Apr 01 2001 - 20:19:40 EST)
+ 
+* Multi-function PCI devices 
+
+* Jeff Garzik (Sat Apr 07 2001 - 16:58:20 EST)
+ 
+
+* Linus Torvalds (Sat Apr 07 2001 - 16:34:26 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:52:04 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 14:40:13 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 14:31:14 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:14:56 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:08:56 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:00:53 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 13:44:14 EST)
+ 
+
+* Michael Reinelt (Sat Apr 07 2001 - 13:36:05 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 12:26:20 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 12:23:27 EST)
+ 
+
+* Gérard Roudier (Sat Apr 07 2001 - 08:01:57 EST)
+ 
+
+* Gérard Roudier (Sat Apr 07 2001 - 08:18:37 EST)
+ 
+
+* Michael Reinelt (Sat Apr 07 2001 - 09:06:14 EST)
+ 
+
+* Michael Reinelt (Sat Apr 07 2001 - 09:03:33 EST)
+ 
+
+* Brian Gerst (Sat Apr 07 2001 - 08:24:53 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 07:16:31 EST)
+ 
+
+* Gérard Roudier (Sat Apr 07 2001 - 04:04:38 EST)
+ 
+
+* Michael Reinelt (Sat Apr 07 2001 - 06:33:25 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 05:14:19 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 03:57:29 EST)
+ 
+
+* Michael Reinelt (Sat Apr 07 2001 - 03:06:39 EST)
+ 
+* Multicast tunneling in 2.4 
+
+* Dave Bailey (Tue Apr 03 2001 - 19:21:54 EST)
+ 
+* mysqld [3.2.23] hangs when key_buffer ~256MB on [2.4.2-ac28+] 
+
+* Vibol Hou (Thu Apr 05 2001 - 03:17:17 EST)
+ 
+
+* Andrew Morton (Wed Apr 04 2001 - 14:56:56 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 14:02:00 EST)
+ 
+
+* Vibol Hou (Wed Apr 04 2001 - 13:44:00 EST)
+ 
+* Negative module use count for usb/acm 
+
+* Jamie Lokier (Tue Apr 03 2001 - 10:12:35 EST)
+ 
+* new aic7xxx driver problems 
+
+* Giuliano Pochini (Tue Apr 03 2001 - 16:34:49 EST)
+ 
+* New directions for kernel development 
+
+* Wayne.Brown@altec.com (Mon Apr 02 2001 - 09:50:34 EST)
+ 
+
+* Padraig Brady (Mon Apr 02 2001 - 07:34:53 EST)
+ 
+
+* Gregory Maxwell (Sun Apr 01 2001 - 15:25:00 EST)
+ 
+
+* Adam (Sun Apr 01 2001 - 15:05:47 EST)
+ 
+
+* Ben Ford (Sun Apr 01 2001 - 13:43:29 EST)
+ 
+
+* Kai Henningsen (Sun Apr 01 2001 - 06:16:00 EST)
+ 
+
+* Chris Meadors (Sun Apr 01 2001 - 12:38:01 EST)
+ 
+
+* John Jasen (Sun Apr 01 2001 - 11:53:14 EST)
+ 
+
+* David Riley (Sun Apr 01 2001 - 11:36:32 EST)
+ 
+
+* Miles Lane (Sun Apr 01 2001 - 10:22:17 EST)
+ 
+
+* john slee (Sun Apr 01 2001 - 05:52:07 EST)
+ 
+
+* Richard Gooch (Sun Apr 01 2001 - 04:22:48 EST)
+ 
+
+* Aaron Lehmann (Sun Apr 01 2001 - 04:21:25 EST)
+ 
+
+* George Bonser (Sun Apr 01 2001 - 04:11:04 EST)
+ 
+
+* Nikolas Zimmermann (Sun Apr 01 2001 - 03:37:04 EST)
+ 
+
+* A Guy Called Tyketto (Sun Apr 01 2001 - 03:24:44 EST)
+ 
+
+* Linus Torvalds (Sun Apr 01 2001 - 03:05:32 EST)
+ 
+* NFS Bug in 2.4.3? 
+
+* Thomas (Sun Apr 01 2001 - 19:01:51 EST)
+ 
+* NFS client code slow in 2.4.3 
+
+* Trond Myklebust (Tue Apr 03 2001 - 15:00:47 EST)
+ 
+
+* Caleb Epstein (Tue Apr 03 2001 - 14:08:52 EST)
+ 
+
+* Caleb Epstein (Tue Apr 03 2001 - 13:56:15 EST)
+ 
+* nfs performance at high loads 
+
+* Mark Hemment (Wed Apr 04 2001 - 14:06:04 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 13:35:49 EST)
+ 
+
+* Kapish K (Wed Apr 04 2001 - 13:28:33 EST)
+ 
+* nfsd vfs.c does not seems to fsync() with file overwrite, when it have to. 
+
+* Neil Brown (Tue Apr 03 2001 - 21:19:50 EST)
+ 
+
+* Kenichi Okuyama (Tue Apr 03 2001 - 02:25:49 EST)
+ 
+
+* Neil Brown (Tue Apr 03 2001 - 00:41:30 EST)
+ 
+
+* okuyamak@dd.iij4u.or.jp (Mon Apr 02 2001 - 12:07:56 EST)
+ 
+* NLS: koi8-u support 
+
+* Volodymyr M . Lisivka (Sat Apr 07 2001 - 11:42:26 EST)
+ 
+
+* Volodymyr M . Lisivka (Fri Apr 06 2001 - 11:23:03 EST)
+ 
+* No USB under 2.4.3 and 2.4.3-ac? 
+
+* Sid Boyce (Fri Apr 06 2001 - 17:43:32 EST)
+ 
+* Non keyboard trigger of Alt-SysRQ-S-U-B 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 08:54:45 EST)
+ 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 06:21:32 EST)
+ 
+* oops in uhci.c running 2.4.2-ac28 
+
+* Erik Oomen (Tue Apr 03 2001 - 02:59:24 EST)
+ 
+
+* Jeff Golds (Mon Apr 02 2001 - 18:16:58 EST)
+ 
+
+* Johannes Erdfelt (Mon Apr 02 2001 - 18:50:48 EST)
+ 
+
+* Jeff Golds (Mon Apr 02 2001 - 17:31:52 EST)
+ 
+
+* Johannes Erdfelt (Mon Apr 02 2001 - 18:05:42 EST)
+ 
+
+* Pete Zaitcev (Mon Apr 02 2001 - 17:55:26 EST)
+ 
+* Oopsen everywhere in open_namei, kernel 2.4.3 
+
+* Steven Walter (Thu Apr 05 2001 - 23:10:25 EST)
+ 
+* Oracle 8I & Kernel 2.4.3 : Sane ? 
+
+* Stephen Clouse (Tue Apr 03 2001 - 03:01:00 EST)
+ 
+
+* Yann Dupont (Tue Apr 03 2001 - 02:37:44 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 17:04:50 EST)
+ 
+
+* Yann Dupont (Mon Apr 02 2001 - 07:12:40 EST)
+ 
+* Original destination of transparent proxied connections? 
+
+* Rob Landley (Tue Apr 03 2001 - 11:13:45 EST)
+ 
+
+* Rusty Russell (Sun Apr 01 2001 - 05:23:52 EST)
+ 
+* ov511 problem 
+
+* Mark McClelland (Thu Apr 05 2001 - 20:59:02 EST)
+ 
+
+* Erik Gustavsson (Thu Apr 05 2001 - 16:13:02 EST)
+ 
+
+* Thomas Speck (Thu Apr 05 2001 - 09:36:16 EST)
+ 
+* P-III Oddity. 
+
+* Dave Jones (Sat Apr 07 2001 - 20:48:44 EST)
+ 
+
+* CaT (Sat Apr 07 2001 - 20:05:36 EST)
+ 
+
+* Trevor Hemsley (Sat Apr 07 2001 - 23:56:51 EST)
+ 
+
+* Dave Jones (Sat Apr 07 2001 - 14:56:40 EST)
+ 
+
+* Rogier Wolff (Sat Apr 07 2001 - 14:33:18 EST)
+ 
+* Parport probe 
+
+* Jakob Kemi (Thu Apr 05 2001 - 17:54:58 EST)
+ 
+* PATCH for Broken PCI Multi-IO in 2.4.3 (serial+parport) 
+
+* Jeff Garzik (Sat Apr 07 2001 - 17:26:14 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 17:29:13 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 16:52:28 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 16:45:12 EST)
+ 
+
+* Gunther Mayer (Sat Apr 07 2001 - 15:47:57 EST)
+ 
+
+* Gunther Mayer (Sat Apr 07 2001 - 15:31:07 EST)
+ 
+
+* Gunther Mayer (Sat Apr 07 2001 - 15:24:56 EST)
+ 
+
+* Gunther Mayer (Sat Apr 07 2001 - 15:21:11 EST)
+ 
+
+* Gérard Roudier (Sat Apr 07 2001 - 11:22:15 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:31:42 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 14:23:12 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:06:29 EST)
+ 
+
+* Tim Waugh (Sat Apr 07 2001 - 14:03:40 EST)
+ 
+
+* Jeff Garzik (Sat Apr 07 2001 - 13:53:23 EST)
+ 
+
+* Gunther Mayer (Sat Apr 07 2001 - 13:42:35 EST)
+ 
+* PCI address space collision 
+
+* Jani Monoses (Thu Apr 05 2001 - 11:21:11 EST)
+ 
+* PCMCIA problems on IBM ThinkPad 600X 
+
+* Constantine Gavrilov (Sun Apr 01 2001 - 13:45:19 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 12:34:24 EST)
+ 
+
+* Constantine Gavrilov (Sun Apr 01 2001 - 09:27:50 EST)
+ 
+* pcnet32 (maybe more) hosed in 2.4.3 
+
+* Petr Vandrovec (Thu Apr 05 2001 - 13:27:47 EST)
+ 
+
+* Carsten Langgaard (Thu Apr 05 2001 - 02:26:45 EST)
+ 
+
+* Carsten Langgaard (Thu Apr 05 2001 - 02:15:17 EST)
+ 
+
+* Petr Vandrovec (Wed Apr 04 2001 - 18:22:14 EST)
+ 
+
+* Thomas Bogendoerfer (Wed Apr 04 2001 - 16:51:24 EST)
+ 
+
+* Petr Vandrovec (Wed Apr 04 2001 - 15:14:16 EST)
+ 
+
+* Wade Hampton (Wed Apr 04 2001 - 10:24:21 EST)
+ 
+
+* Carsten Langgaard (Wed Apr 04 2001 - 08:35:31 EST)
+ 
+
+* Ralf Baechle (Tue Apr 03 2001 - 13:21:27 EST)
+ 
+* please remove 
+
+* Mike Cutler (Mon Apr 02 2001 - 04:18:40 EST)
+ 
+* Possible Bug: Kernel Parameter 'scsihosts' Doesn't Work In 2.4.3? 
+
+* Thomas (Sun Apr 01 2001 - 19:05:45 EST)
+ 
+* possible problem with moxa intellio driver in 2.4.x kernels 
+
+* Daniellek (Wed Apr 04 2001 - 09:03:54 EST)
+ 
+* problem in drivers/block/Config.in (PATCH) 
+
+* Tim Waugh (Sun Apr 01 2001 - 16:10:07 EST)
+ 
+* problem when booting 2.4.3 from a floppy disk 
+
+* François Dupoux (Sat Apr 07 2001 - 06:47:10 EST)
+ 
+* PROBLEM: buz.c, 6pack.c use nonexistant KMALLOC_MAXSIZE in 2.4.3 
+
+* Mark W. Eichin (Thu Apr 05 2001 - 13:27:11 EST)
+ 
+* PROBLEM: Kernel 2.4.3 oops when hard linking UMSDOS files 
+
+* Peter Fales (Mon Apr 02 2001 - 00:06:09 EST)
+ 
+* PROBLEM: make oldconfig can change Alpha system type on 2.2.19 
+
+* Brian Campbell (Thu Apr 05 2001 - 06:40:25 EST)
+ 
+* PROBLEM: OOPS report for L2 cacheable size setting at 512MB on TD5TH dual P200 
+
+* idalton@ferret.phonewave.net (Thu Apr 05 2001 - 22:35:41 EST)
+ 
+* PROBLEM:Bug when installing NVidia Driver Module 
+
+* Alan Cox (Tue Apr 03 2001 - 07:28:06 EST)
+ 
+
+* Aric Cyr (Mon Apr 02 2001 - 21:50:18 EST)
+ 
+
+* Alan Cox (Mon Apr 02 2001 - 17:18:01 EST)
+ 
+
+* Aric Cyr (Mon Apr 02 2001 - 05:23:04 EST)
+ 
+
+* Greg von Beck (Sun Apr 01 2001 - 14:07:22 EST)
+ 
+* Problems with serial driver 5.05, kernel 2.4.3 
+
+* Steven Walter (Thu Apr 05 2001 - 20:59:22 EST)
+ 
+* processes stuck in D state 
+
+* Barry K. Nathan (Sat Apr 07 2001 - 17:07:11 EST)
+ 
+
+* Pau Aliagas (Wed Apr 04 2001 - 10:47:20 EST)
+ 
+* Promise 20267 "working" but no UDMA 
+
+* Juhani Rautiainen (Tue Apr 03 2001 - 14:10:04 EST)
+ 
+
+* Ruth Ivimey-Cook (Tue Apr 03 2001 - 11:30:42 EST)
+ 
+
+* Andrew Chan (Tue Apr 03 2001 - 10:57:05 EST)
+ 
+
+* Ruth Ivimey-Cook (Tue Apr 03 2001 - 05:58:04 EST)
+ 
+
+* Andre Hedrick (Tue Apr 24 2001 - 00:04:23 EST)
+ 
+
+* Nerijus Baliunas (Mon Apr 02 2001 - 11:20:38 EST)
+ 
+
+* Andrew Chan (Mon Apr 02 2001 - 10:35:30 EST)
+ 
+
+* Andrew Chan (Mon Apr 02 2001 - 04:00:03 EST)
+ 
+
+* Andre Hedrick (Mon Apr 02 2001 - 02:27:41 EST)
+ 
+
+* Andrew Chan (Sun Apr 01 2001 - 06:13:53 EST)
+ 
+* Proper way to release binary driver? 
+
+* Christopher Turcksin (Sat Apr 07 2001 - 06:06:22 EST)
+ 
+
+* Alan Cox (Sat Apr 07 2001 - 03:18:48 EST)
+ 
+
+* J . A . Magallon (Fri Apr 06 2001 - 11:22:57 EST)
+ 
+
+* Joel Jaeggli (Fri Apr 06 2001 - 11:09:37 EST)
+ 
+
+* Christopher Turcksin (Fri Apr 06 2001 - 10:50:29 EST)
+ 
+* Proper way to release binary-only driver? 
+
+* Alan Cox (Fri Apr 06 2001 - 00:33:02 EST)
+ 
+
+* Eric W. Biederman (Thu Apr 05 2001 - 06:50:55 EST)
+ 
+
+* Miller, Brendan (Thu Apr 05 2001 - 05:58:34 EST)
+ 
+* pthreads & fork & execve 
+
+* Richard Guenther (Tue Apr 03 2001 - 05:09:27 EST)
+ 
+
+* Gustavo Niemeyer (Mon Apr 02 2001 - 09:32:00 EST)
+ 
+
+* Gustavo Niemeyer (Mon Apr 02 2001 - 09:25:47 EST)
+ 
+
+* Adam Dickmeiss (Mon Apr 02 2001 - 08:33:54 EST)
+ 
+
+* Jakub Jelinek (Mon Apr 02 2001 - 08:00:25 EST)
+ 
+
+* Gustavo Niemeyer (Mon Apr 02 2001 - 07:54:25 EST)
+ 
+
+* Richard Guenther (Mon Apr 02 2001 - 06:42:47 EST)
+ 
+
+* Dennis Noordsij (Fri Mar 30 2001 - 08:22:57 EST)
+ 
+* pthreads & gdb: zombie threads? 
+
+* Ulrich Windl (Tue Apr 03 2001 - 04:40:51 EST)
+ 
+* PThreads in kernel module & network interface 
+
+* Bart Trojanowski (Wed Apr 04 2001 - 07:18:22 EST)
+ 
+
+* Remko van der Vossen (Wed Apr 04 2001 - 02:34:15 EST)
+ 
+* Question about SysRq 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 02:12:59 EST)
+ 
+
+* Andreas Dilger (Tue Apr 03 2001 - 17:36:06 EST)
+ 
+
+* Boris Pisarcik (Tue Apr 03 2001 - 19:39:11 EST)
+ 
+
+* Dr. Kelsey Hudson (Mon Apr 02 2001 - 18:59:30 EST)
+ 
+* Question about SysRq) 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 02:44:12 EST)
+ 
+
+* Boris Pisarcik (Wed Apr 04 2001 - 02:57:33 EST)
+ 
+
+* James Simmons (Mon Apr 02 2001 - 21:59:15 EST)
+ 
+
+* Thorsten Glaser Geuer (Mon Apr 02 2001 - 11:35:56 EST)
+ 
+* Question: is linux support Intel's i840 chipset? 
+
+* Jean-Michel Lee (Mon Apr 02 2001 - 20:41:34 EST)
+ 
+* Race in fs/proc/generic.c:make_inode_number() 
+
+* Tom Leete (Fri Apr 06 2001 - 10:47:01 EST)
+ 
+
+* Maneesh Soni (Fri Apr 06 2001 - 07:01:29 EST)
+ 
+
+* Tom Leete (Thu Apr 05 2001 - 09:36:10 EST)
+ 
+
+* Tom Leete (Thu Apr 05 2001 - 00:14:52 EST)
+ 
+* random PIDs 
+
+* alad@hss.hns.com (Thu Apr 05 2001 - 04:46:45 EST)
+ 
+
+* Studierende der Universitaet des Saarlandes (Thu Apr 05 2001 - 04:58:33 EST)
+ 
+
+* Heusden, Folkert van (Thu Apr 05 2001 - 04:15:13 EST)
+ 
+
+* Studierende der Universitaet des Saarlandes (Thu Apr 05 2001 - 04:06:20 EST)
+ 
+
+* Heusden, Folkert van (Wed Apr 04 2001 - 09:53:34 EST)
+ 
+
+* David Weinehall (Wed Apr 04 2001 - 09:24:23 EST)
+ 
+
+* Heusden, Folkert van (Wed Apr 04 2001 - 09:17:45 EST)
+ 
+* Recent problems with APM and XFree86-4.0.1 
+
+* Alain E. (Tue Apr 03 2001 - 01:35:41 EST)
+ 
+
+* Jamie Lokier (Mon Apr 02 2001 - 07:42:41 EST)
+ 
+
+* Rafael E. Herrera (Sun Apr 01 2001 - 17:31:11 EST)
+ 
+
+* Jamie Lokier (Sun Apr 01 2001 - 16:41:56 EST)
+ 
+* ReiserFS - corrupted files (2.4.3) 
+
+* Hans Reiser (Mon Apr 02 2001 - 02:58:54 EST)
+ 
+
+* Nicholas Petreley (Mon Apr 02 2001 - 13:12:29 EST)
+ 
+
+* Rasmus Bøg Hansen (Mon Apr 02 2001 - 11:41:20 EST)
+ 
+
+* Nicholas Petreley (Mon Apr 02 2001 - 10:54:48 EST)
+ 
+
+* Robert NEDBAL (Mon Apr 02 2001 - 07:04:28 EST)
+ 
+* ReiserFS? How reliable is it? Is this the future? 
+
+* Alan Cox (Wed Apr 04 2001 - 20:13:55 EST)
+ 
+
+* Xuan Baldauf (Wed Apr 04 2001 - 20:23:39 EST)
+ 
+
+* Xuan Baldauf (Wed Apr 04 2001 - 20:05:56 EST)
+ 
+
+* Ookhoi (Wed Apr 04 2001 - 05:18:52 EST)
+ 
+
+* Shawn Starr (Tue Apr 03 2001 - 17:15:56 EST)
+ 
+
+* jury gerold (Tue Apr 03 2001 - 13:23:10 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 11:57:00 EST)
+ 
+
+* Nicholas Petreley (Tue Apr 03 2001 - 11:19:55 EST)
+ 
+
+* Frank Fiene (Tue Apr 03 2001 - 07:47:46 EST)
+ 
+
+* Harald Dunkel (Tue Apr 03 2001 - 07:13:14 EST)
+ 
+* Release naming conventions 
+
+* dantes@free.fr (Thu Apr 05 2001 - 04:23:05 EST)
+ 
+
+* alad@hss.hns.com (Thu Apr 05 2001 - 03:16:10 EST)
+ 
+* Repeatable hang in 2.4.3 with 4 ide drives. 
+
+* Rob Landley (Tue Apr 03 2001 - 17:41:15 EST)
+ 
+* reporting a kernel bug 
+
+* Petri Järvinen (Sat Apr 07 2001 - 04:34:41 EST)
+ 
+* Resend - [PATCH] Fix SMP lockup in usbdevfs 
+
+* Tony Hoyle (Wed Apr 04 2001 - 10:47:16 EST)
+ 
+* Revised memory-management stuff (was: OOM killer) 
+
+* Gregory Maxwell (Sun Apr 01 2001 - 02:33:14 EST)
+ 
+
+* Jonathan Morton (Sun Apr 01 2001 - 01:03:28 EST)
+ 
+* RFC: configuring net interfaces 
+
+* Francois Romieu (Wed Apr 04 2001 - 03:18:11 EST)
+ 
+
+* Krzysztof Halasa (Tue Apr 03 2001 - 08:07:01 EST)
+ 
+
+* Francois Romieu (Tue Apr 03 2001 - 03:27:34 EST)
+ 
+
+* Krzysztof Halasa (Mon Apr 02 2001 - 14:10:57 EST)
+ 
+
+* Jeff Garzik (Sun Apr 01 2001 - 17:18:50 EST)
+ 
+
+* Krzysztof Halasa (Sat Mar 31 2001 - 17:41:59 EST)
+ 
+* rw_semaphore bug 
+
+* David Howells (Wed Apr 04 2001 - 10:28:46 EST)
+ 
+* Sandisk flashcard reader on 2.4.2. It works. Sort of. 
+
+* Stefan Linnemann (Tue Apr 03 2001 - 19:48:03 EST)
+ 
+
+* Tim Waugh (Tue Apr 03 2001 - 12:16:19 EST)
+ 
+
+* Stefan Linnemann (Mon Apr 02 2001 - 19:08:13 EST)
+ 
+* scsi bus numbering 
+
+* Justin T. Gibbs (Mon Apr 02 2001 - 22:03:22 EST)
+ 
+
+* Jeff Garzik (Mon Apr 02 2001 - 18:59:15 EST)
+ 
+
+* Justin T. Gibbs (Mon Apr 02 2001 - 15:50:27 EST)
+ 
+
+* Justin T. Gibbs (Sun Apr 01 2001 - 19:57:35 EST)
+ 
+
+* Douglas Gilbert (Sun Apr 01 2001 - 16:03:55 EST)
+ 
+
+* Peter Daum (Sun Apr 01 2001 - 14:00:18 EST)
+ 
+
+* Douglas Gilbert (Sun Apr 01 2001 - 11:10:02 EST)
+ 
+
+* Peter Daum (Sun Apr 01 2001 - 11:22:07 EST)
+ 
+* Seems to be a lot of confusion about aic7xxx in linux 2.4.3 
+
+* John Cavan (Fri Apr 06 2001 - 17:02:31 EST)
+ 
+
+* Jeffrey W. Baker (Fri Apr 06 2001 - 10:09:36 EST)
+ 
+* Serial Console!! 
+
+* Jim Dennis (Mon Apr 02 2001 - 21:57:38 EST)
+ 
+* Serial port latency 
+
+* Manfred Spraul (Sat Mar 31 2001 - 17:09:34 EST)
+ 
+* Serial port latency] 
+
+* Pavel Machek (Fri Apr 06 2001 - 07:00:52 EST)
+ 
+
+* Manfred Spraul (Wed Apr 04 2001 - 16:18:07 EST)
+ 
+
+* Pavel Machek (Tue Apr 03 2001 - 18:07:59 EST)
+ 
+* Serial, 115Kbps, 2.2, 2.4 
+
+* Paul Jakma (Mon Apr 02 2001 - 01:30:34 EST)
+ 
+
+* Manfred H. Winter (Sun Apr 01 2001 - 20:34:35 EST)
+ 
+
+* Tom Sightler (Sun Apr 01 2001 - 19:44:22 EST)
+ 
+
+* Trever L. Adams (Sun Apr 01 2001 - 18:10:04 EST)
+ 
+
+* Jeff Chua (Sun Apr 01 2001 - 18:53:39 EST)
+ 
+
+* Trever L. Adams (Sun Apr 01 2001 - 11:35:47 EST)
+ 
+* Serious bug in ACPI enumeration 
+
+* Pavel Machek (Thu Apr 05 2001 - 15:51:23 EST)
+ 
+* Signal Handling Performance? 
+
+* Christopher Smith (Wed Apr 04 2001 - 20:41:10 EST)
+ 
+
+* Carey B. Stortz (Wed Apr 04 2001 - 20:30:51 EST)
+ 
+* SIS 5513/IBM Deskstar HDIO_SET_DMA Operation not permitted? 
+
+* Rob Landley (Tue Apr 03 2001 - 11:09:19 EST)
+ 
+* size of ring buffer for kernel msgs 
+
+* Tim Strobell aka Griffy (Mon Apr 02 2001 - 21:32:30 EST)
+ 
+* SMP aic7xxx 2.4.3 boot panic: Aiee, killing interrupt handler 
+
+* Vivek Dasmohapatra (Tue Apr 03 2001 - 07:25:15 EST)
+ 
+* sorry about that (Old email address) 
+
+* Patrick McLean (Fri Apr 06 2001 - 00:44:02 EST)
+ 
+* Sound nearlys disappearing..... 
+
+* Bruno Boettcher (Wed Apr 04 2001 - 09:37:05 EST)
+ 
+* Special packet inspecting bridging 
+
+* Mircea Ciocan (Fri Apr 06 2001 - 15:01:25 EST)
+ 
+* sscape.c modification 
+
+* Ford Prefect (Wed Apr 04 2001 - 10:34:45 EST)
+ 
+* st corruption with 2.4.3-pre4 
+
+* Gérard Roudier (Fri Apr 06 2001 - 12:20:09 EST)
+ 
+
+* Gérard Roudier (Fri Apr 06 2001 - 12:09:43 EST)
+ 
+
+* Gérard Roudier (Fri Apr 06 2001 - 09:31:51 EST)
+ 
+
+* Geert Uytterhoeven (Fri Apr 06 2001 - 02:47:14 EST)
+ 
+
+* Stefano Coluccini (Fri Apr 06 2001 - 02:29:38 EST)
+ 
+
+* Geert Uytterhoeven (Thu Apr 05 2001 - 14:37:39 EST)
+ 
+
+* Geert Uytterhoeven (Thu Apr 05 2001 - 13:48:29 EST)
+ 
+* stick processes in 2.4.3 trace (alt-sysrq t) 
+
+* Pau (Wed Apr 04 2001 - 13:17:22 EST)
+ 
+* strange problem when printing to STDOUT 
+
+* Armin L. Schneider (Wed Apr 04 2001 - 08:51:02 EST)
+ 
+* Strange problems with 2.4.3. 
+
+* Andrew Morton (Tue Apr 03 2001 - 05:18:15 EST)
+ 
+
+* German Gomez Garcia (Mon Apr 02 2001 - 04:45:06 EST)
+ 
+* Strange Syslog-Entry and Machine Lockup 
+
+* Andreas Rogge (Tue Apr 03 2001 - 03:16:53 EST)
+ 
+* Stuck: What to do with solid locks? 
+
+* Colonel (Thu Apr 05 2001 - 01:42:21 EST)
+ 
+
+* Pete Toscano (Tue Apr 03 2001 - 09:32:45 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 07:24:01 EST)
+ 
+
+* Pete Toscano (Mon Apr 02 2001 - 23:16:11 EST)
+ 
+* Swapping wierdness on SparcStation 4 w/ 2.2.19 
+
+* Alex Buell (Mon Apr 02 2001 - 16:06:53 EST)
+ 
+* sysctl 
+
+* Subba Rao (Sun Apr 01 2001 - 05:48:34 EST)
+ 
+* syslog insmod please! 
+
+* Russell King (Sat Apr 07 2001 - 03:28:19 EST)
+ 
+
+* Andrew Daviel (Fri Apr 06 2001 - 12:52:23 EST)
+ 
+
+* Mr. James W. Laferriere (Fri Apr 06 2001 - 10:08:21 EST)
+ 
+
+* Mr. James W. Laferriere (Fri Apr 06 2001 - 09:43:29 EST)
+ 
+
+* Artur Frysiak (Fri Apr 06 2001 - 09:54:51 EST)
+ 
+
+* Wichert Akkerman (Fri Apr 06 2001 - 09:03:50 EST)
+ 
+
+* Philip Blundell (Fri Apr 06 2001 - 07:50:29 EST)
+ 
+
+* David Woodhouse (Fri Apr 06 2001 - 06:53:35 EST)
+ 
+
+* Mr. James W. Laferriere (Fri Apr 06 2001 - 06:36:52 EST)
+ 
+
+* Ion Badulescu (Thu Apr 05 2001 - 23:51:39 EST)
+ 
+
+* Andreas Dilger (Thu Apr 05 2001 - 23:42:04 EST)
+ 
+
+* Ion Badulescu (Thu Apr 05 2001 - 20:46:34 EST)
+ 
+
+* Andrew Daviel (Thu Apr 05 2001 - 19:57:48 EST)
+ 
+* System clock loses time at approx 17 secs per two hours 
+
+* Gerhard Mack (Mon Apr 02 2001 - 10:57:10 EST)
+ 
+
+* A.Sajjad Zaidi (Mon Apr 02 2001 - 04:33:05 EST)
+ 
+
+* Eric Gillespie (Sun Apr 01 2001 - 22:58:13 EST)
+ 
+* tcgetattr fails in 2.4.3 
+
+* jerry (Mon Apr 02 2001 - 07:46:07 EST)
+ 
+
+* Jamie Lokier (Mon Apr 02 2001 - 03:23:57 EST)
+ 
+* TCP Vegas implementation for Linux 
+
+* David S. Miller (Sun Apr 01 2001 - 06:03:01 EST)
+ 
+
+* David S. Miller (Sun Apr 01 2001 - 05:58:26 EST)
+ 
+
+* Chip Salzenberg (Sun Apr 01 2001 - 05:37:20 EST)
+ 
+
+* Dan Hollis (Sun Apr 01 2001 - 05:53:26 EST)
+ 
+* Temporary disk space leak 
+
+* Giuliano Pochini (Mon Apr 02 2001 - 02:14:50 EST)
+ 
+
+* Jag (Sun Apr 01 2001 - 14:49:58 EST)
+ 
+
+* Giuliano Pochini (Sat Mar 31 2001 - 04:20:42 EST)
+ 
+* The 53c400a 
+
+* Alan Cox (Tue Apr 03 2001 - 13:01:29 EST)
+ 
+
+* clock@ghost.btnet.cz (Tue Apr 03 2001 - 12:52:08 EST)
+ 
+* tmpfs in 2.4.3 and AC 
+
+* Daniel Podlejski (Sun Apr 01 2001 - 10:23:31 EST)
+ 
+* UDMA(66) drive coming up as UDMA(33)? 
+
+* David St.Clair (Sat Apr 07 2001 - 12:36:11 EST)
+ 
+* ufs fs at 2.2.x and 2.4.x 
+
+* Andrew T. Scott (Thu Apr 05 2001 - 17:57:38 EST)
+ 
+* Underscore in rivafb 
+
+* Stuart McFadden (Thu Apr 05 2001 - 05:07:27 EST)
+ 
+
+* James Simmons (Wed Apr 04 2001 - 23:05:53 EST)
+ 
+
+* Petr Vandrovec (Wed Apr 04 2001 - 18:16:27 EST)
+ 
+
+* Stuart McFadden (Wed Apr 04 2001 - 17:25:12 EST)
+ 
+* uninteruptable sleep 
+
+* Christian Pernegger (Thu Apr 05 2001 - 10:47:37 EST)
+ 
+
+* andersg@0x63.nu (Wed Apr 04 2001 - 14:30:10 EST)
+ 
+
+* christophe barbe (Wed Apr 04 2001 - 11:07:20 EST)
+ 
+
+* Trevor Nichols (Tue Apr 03 2001 - 18:09:19 EST)
+ 
+
+* J Sloan (Tue Apr 03 2001 - 13:04:56 EST)
+ 
+
+* Manfred Spraul (Tue Apr 03 2001 - 11:40:53 EST)
+ 
+
+* Trevor Nichols (Tue Apr 03 2001 - 11:13:15 EST)
+ 
+
+* Alan Cox (Tue Apr 03 2001 - 09:35:51 EST)
+ 
+
+* Stephen E. Clark (Tue Apr 03 2001 - 08:32:56 EST)
+ 
+
+* Trevor Nichols (Tue Apr 03 2001 - 08:08:41 EST)
+ 
+* uninteruptable sleep (D state => load_avrg++) 
+
+* Tim Wright (Wed Apr 04 2001 - 17:39:23 EST)
+ 
+
+* christophe barbe (Wed Apr 04 2001 - 10:15:42 EST)
+ 
+
+* Paul Jakma (Wed Apr 04 2001 - 10:05:05 EST)
+ 
+
+* christophe barbe (Wed Apr 04 2001 - 09:48:58 EST)
+ 
+
+* Paul Jakma (Wed Apr 04 2001 - 09:20:04 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 07:53:34 EST)
+ 
+
+* christophe barbe (Wed Apr 04 2001 - 07:13:49 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 06:15:52 EST)
+ 
+
+* christophe barbe (Wed Apr 04 2001 - 02:47:08 EST)
+ 
+* unistd.h and 'extern's and 'syscall' "standard(?)" 
+
+* Tim Wright (Sun Apr 01 2001 - 17:49:05 EST)
+ 
+
+* Philip Blundell (Sun Apr 01 2001 - 15:38:24 EST)
+ 
+
+* LA Walsh (Sun Apr 01 2001 - 15:23:00 EST)
+ 
+
+* Andreas Schwab (Sun Apr 01 2001 - 14:15:35 EST)
+ 
+
+* LA Walsh (Sun Apr 01 2001 - 11:56:31 EST)
+ 
+* Unresolved symbol in 2.4.4p1, ia32 
+
+* Jonathan Hudson (Sat Apr 07 2001 - 16:01:56 EST)
+ 
+* unresolved symbol queue_task ! 
+
+* unreal ROOT! (Sun Apr 01 2001 - 00:55:47 EST)
+ 
+* unresolved symbols on SPARC with depmod -ae 
+
+* Jeff Layton (Thu Apr 05 2001 - 07:32:36 EST)
+ 
+
+* David S. Miller (Thu Apr 05 2001 - 07:28:02 EST)
+ 
+
+* Jeff Layton (Thu Apr 05 2001 - 07:14:33 EST)
+ 
+* unresolved symbols; I must have lost my brain 
+
+* Heusden, Folkert van (Tue Apr 03 2001 - 06:10:07 EST)
+ 
+* User guide 
+
+* sympa-request@lugos.si (Mon Apr 02 2001 - 13:21:09 EST)
+ 
+* Userspace TCP sequence number control? 
+
+* Jeremy Jackson (Thu Apr 05 2001 - 14:23:52 EST)
+ 
+* Version 6.1.6 of the aic7xxx driver availalbe 
+
+* Justin T. Gibbs (Sun Apr 01 2001 - 12:16:36 EST)
+ 
+
+* Peter Enderborg (Sun Apr 01 2001 - 04:30:11 EST)
+ 
+* very large file system 
+
+* Philippe Amelant (Fri Apr 06 2001 - 06:52:25 EST)
+ 
+* VIA 82C686 Audio Codec: Clicks 
+
+* Harald Dunkel (Fri Apr 06 2001 - 07:46:23 EST)
+ 
+
+* Jani Monoses (Mon Apr 02 2001 - 12:44:14 EST)
+ 
+
+* Harald Dunkel (Sun Apr 01 2001 - 02:34:54 EST)
+ 
+* VIA 82c686b and IOMega ATAPI ZIP 100 problem 
+
+* Stepan Roh (Sun Apr 01 2001 - 10:16:12 EST)
+ 
+* vmalloc on 2.4.x on ia64 
+
+* hiren_mehta@agilent.com (Wed Apr 04 2001 - 20:05:04 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 19:28:49 EST)
+ 
+
+* Andi Kleen (Wed Apr 04 2001 - 19:16:32 EST)
+ 
+
+* hiren_mehta@agilent.com (Wed Apr 04 2001 - 19:11:32 EST)
+ 
+
+* Alan Cox (Wed Apr 04 2001 - 19:03:05 EST)
+ 
+
+* hiren_mehta@agilent.com (Wed Apr 04 2001 - 18:44:25 EST)
+ 
+
+* hiren_mehta@agilent.com (Mon Apr 02 2001 - 20:28:37 EST)
+ 
+
+* MEHTA,HIREN (A-SanJose,ex1) (Mon Apr 02 2001 - 19:07:26 EST)
+ 
+* w9966cf v4l driver homepage 
+
+* Nikolas Zimmermann (Sun Apr 01 2001 - 03:03:31 EST)
+ 
+* what is pci=biosirq 
+
+* Petr Vandrovec (Tue Apr 03 2001 - 12:30:21 EST)
+ 
+
+* xcp (Tue Apr 03 2001 - 01:42:08 EST)
+ 
+
+* Petr Vandrovec (Mon Apr 02 2001 - 22:11:55 EST)
+ 
+
+* Don Dugger (Mon Apr 02 2001 - 21:23:43 EST)
+ 
+* which gcc version? 
+
+* Richard B. Johnson (Thu Apr 05 2001 - 08:09:41 EST)
+ 
+
+* Matti Aarnio (Thu Apr 05 2001 - 07:31:45 EST)
+ 
+
+* David Woodhouse (Thu Apr 05 2001 - 07:26:32 EST)
+ 
+
+* Matti Aarnio (Thu Apr 05 2001 - 07:02:19 EST)
+ 
+
+* christophe barbe (Thu Apr 05 2001 - 06:50:21 EST)
+ 
+
+* Matti Aarnio (Thu Apr 05 2001 - 06:45:34 EST)
+ 
+
+* Bart Trojanowski (Thu Apr 05 2001 - 06:37:03 EST)
+ 
+
+* Manoj Sontakke (Thu Apr 05 2001 - 09:09:14 EST)
+ 
+
+* Alexander Viro (Thu Apr 05 2001 - 00:48:30 EST)
+ 
+
+* Manoj Sontakke (Thu Apr 05 2001 - 05:56:27 EST)
+ 
+* Writing to MO-Drive hangs the system 
+
+* Detlev Offenbach (Sat Apr 07 2001 - 13:45:07 EST)
+ 
+* x86_64 syscall numbering 
+
+* Andrea Arcangeli (Wed Apr 04 2001 - 10:46:02 EST)
+ 
+* Xserver fails on second run with 2.4.3. 
+
+* Amir Hardon (Wed Apr 04 2001 - 03:00:59 EST)
+ 
+
+Last message date: Sat Apr 07 2001 - 20:50:42 EST
+Archived on: Sat Apr 07 2001 - 21:00:21 EST
+
+---------------------------------------------------------------------
+1037 messages sorted by: [ author ] [ date ] [ thread ] 
+About this archive 
+Other mail archives 
+---------------------------------------------------------------------
+
+This archive was generated by hypermail 2b29 : Sat Apr 07 2001 - 21:00:21 EST 

@@ -1,0 +1,78 @@
+
+
+Graphviz distribution
+
+graphviz is open source licensed software. It may be redistributed without cost in other software distributions, as long as the license terms, such as redistributing the source intact, are met. More than 15,000 copies of all kinds are downloaded monthly. 
+
+We believe the Graphviz source license adheres to the basic open source concepts. Please read it yourself and make up your own mind. If you don't like it, feel free to contact us and we can recommend as alternatives either academic systems with non-commercial licenses or commercial software products. We freely point out that this license differs from others that are more popular in the following ways: 1) recipients of the code must actually agree to the license; 2) if you modify our source, you can give or sell binaries to others (under this binary license) without being forced to share your modifications, but if you do share, you must grant AT&T full rights to your patches; 3) AT&T generously allows commercialization of this software including use of its patents that may be involved; and 4) there are terms that protect AT&T from liability due to unforseen problems with the code or contributed patches - otherwise we'd never release this in the first place. See the license FAQ for more details. 
+
+Source Code
+
+Graphviz 1.10 is the latest stable version: source tarball RPM
+
+Notes on how to build v1.9 (1.10 also?) under Cygwin. 
+
+Notes on how to build Graphviz on Windows. 
+
+We now have a developer SDK. (You'll scream with delight.) 
+
+The complete distribution tree is on http://www.graphviz.org, along with directions for CVS source code access.
+
+Binary Executable Packages
+
+Please contact us if you can offer a platform we don't have, or you've improved on what's here. 
+
+In a valiant, perhaps desperate effort to keep our research careers alive, we are relying on the kindness of talented, (sometimes) diligent third-party build experts. 
+
+Linux
+ Redhat 7.2 i386 RPM (1.10.0) (Apparently we're still the build experts.) 
+Debian package (1.10+) 
+
+Windows
+ Windows Install package (1.10.0)
+Bare dot.exe neato.exe (1.9.0) and third-party libraries.
+WinGraphviz Win32/COM object (dot/neato library for Visual Basic and ASP). 
+
+Unix 
+FreeBSD OpenBSD (old) Mac OS X also here.
+Graphviz binaries from Lucent wwExptools for an amazing array of architectures (Sun, HP-UX, SGI IRIX, Cygwin, Apple, etc.) 
+
+Old Executable Packages for version 1.7+
+Sun x86 Solaris 5.7 
+HPUX B.10.20
+DEC Alpha OSF V4.0 
+SGI MIPS3 Irix6.5
+dot and neato (command line programs) for Mac OS X
+
+Extras (see also webapps)
+Grappa (Java UI): grappa.tgz by John Mocenigo.
+perl and pythonic programming APIs (thanks to Leon Brocard and Manos Renieris)
+The Webdot server (needs TCL/tk 8.3+, by John Ellson)
+A small, stripped-down webdot server in perl: latest (2/25/02) with support for dot, neato, twopi; old one (thanks to John Linderman for a little perl help). 
+Tk::GraphViz - a perl module for displaying graphs in a perl/TK canvas (by Jeremy Slade). 
+tintfu, a graphviz file editor with immediate preview, in Java (by Walter Stroebel). 
+emacs editing modefor dot graphs (by Pieter Pareit). 
+An sql2dot filter by Robert Dale.
+gprof filters (pl_from_gprof and dot_from_pl), courtesy Robert Nielsen. 
+tcldump2dot by Gulfie. 
+Graphotron, an XML language for graph drawing with Xpath (by Miloslav Nic). 
+
+Caveats
+
+The source package doesn't yet include the Grappa or Montage. 
+
+The source is compilable out of the box only on Unix.
+
+The Windows versions are currently built in Microsoft Visual C/C++. It is also possible to build the source under UWIN (as either a UWIN or native win32 program) or Cygwin. 
+
+Russ Roy at Lucent donated Microsoft Visual C project and workspace files to build neato. (If anyone patches them to build the other programs or to eliminate superfluous warnings, we'll gladly take it back.) 
+
+The cluster layout code is suspect and needs an total overhaul. 
+
+Spline-o-matic distribution
+
+reusable spline router library and GUI 
+
+home | people | projects | research areas | resources | search | graphviz 	
+
+Last Update: Thu Oct 19 13:39:01 EDT 2000 

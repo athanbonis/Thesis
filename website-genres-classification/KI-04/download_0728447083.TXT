@@ -1,0 +1,111 @@
+A {text-decoration: none} .paragraph { font-family: Arial, Helvetica, sans-serif; font-size: small} 
+
+Home | Notices | Privacy | Security | Contact Us | Site Map | Index | Search 	
+
+What: Posted below are the Central Intelligence Agency's two most popular publications--The World Factbook 2003 and the Factbook on Intelligence--in compressed, .Zip file format, for the convenience of visitors who wish to download a personal copy. 
+
+Updates: We occasionally update these publications, so if you rely on the data for more than simple informational purposes, we recommend that you check back periodically for updates.
+
+Format: The files for both publications are in standard HTML format. They have been compressed in .Zip format for ease of distribution.
+
+Created with: The files were created with WinZip®, but any program that supports the .Zip format may be used to uncompress them.
+
+To unzip (uncompress) the files:
+
+1. Create a file folder or directory on your computer's hard drive or on a peripheral storage device in which to store each publication downloaded.
+ 
+2. Download the desired file or files listed below to the location of your choice.
+ 
+3. Unzip the file or files you downloaded into the folder or directory you created for storing the publication.
+ 
+4. Do not unzip any file into a folder or directory other than the one you created. The process of unzipping the files will create subfolders or subdirectories required for the publication to be usable on your computer. If you unzip files into these subfolders or subdirectories, parts or all of the publication may not work.
+
+Virus check: All files were checked with up-to-date commercial virus detection software prior to posting and, to the best of our ability to determine, were free of known viruses at the time they were posted.
+
+How to use the publication: The files named index.htm and index.html open the publications' home page. Navigate to the index file in the folder or directory you created using a file manager, such as Windows Explorer, then double-click it to open and begin using the publication.
+
+The World Factbook search feature: Please note that the downloaded World Factbook functions as a stand-alone publication on your computer with the exception that clicking the Search link will cause your browser to attempt to connect to the CIA's Internet website. The search software resides on our server and cannot be distributed with the World Factbook.
+
+---------------------------------------------------------------------
+
+The World Factbook 2003
+
+The World Factbook 2003 requires 129-133 megabytes of disk space for the .Zip files and about 220 megabytes of disk space for the publication once it's unzipped.
+ 
+
+I. Single .Zip file for high-bandwidth users: factbook2003.zip (35,274 kilobytes) 
+
+* Download the file and unzip it file into the folder or directory you created. 
+* After unzipping this file, use a file manager to navigate to the folder or directory. To begin using The World Factbook, find and double-click the index file (there are two index files--both work equally well). 
+
+II. Two-file .Zip set for high-bandwidth users: 
+
+* After downloading the two files listed below, unzip them both into the folder or directory you've created for the Factbook. 
+
+* factbooka2003.zip (15,905 kilobytes) contains the complete Factbook except the PDF-format reference maps. With just these files, the Factbook is completely functional with the sole exception that the PDF map links on the Reference Maps page will not work. 
+* factbookb2003.zip (19,370 kilobytes) contains only the 15 PDF-format reference maps.
+ 
+
+* After unzipping the files, use a file manager to navigate to the folder or directory you created. To begin using The World Factbook, find and double-click the index file (there are two index files--both work equally well). 
+
+II. Multi-file set for low-bandwidth users: After downloading the 24 files listed below, unzip each of them into to the folder or directory you've created for the Factbook. Do not unzip any of them into the subfolders or subdirectories created during the unzipping process.
+
+Note that the first 9 .Zip files will create a fully-functional version of the Factbook with the sole exception that the links to the PDF-format maps (files 10 to 24 below) on the Reference Maps page will not work.
+
+1.  docs.zip (360 KB) 
+2.  fields.zip (1,290 KB) 
+3.  flags.zip (2,291 KB) 
+4.  geos.zip (3,398 KB) 
+5.  graphics.zip (80 KB) 
+6.  maps.zip (3,111 KB) 
+7.  covers.zip (1,790 KB) 
+8.  print.zip (2,005 KB) 
+9.  refmaps.zip (1,299 KB) 
+10. rankorder.zip (285 KB) 
+
+Reference Maps (PDF): 
+* africa.zip (432 KB) 
+* antarctic.zip (1,259 KB) 
+* arctic.zip (515 KB) 
+* asia.zip (513 KB) 
+* central_america.zip (486 KB) 
+* europe.zip (435 KB) 
+* middle_east.zip (460 KB) 
+* north_america.zip (414 KB) 
+* oceania.zip (448 KB) 
+* physical_world.zip (10,860 KB) 
+* political_world.zip (1,793 KB) 
+* south_america.zip (279 KB) 
+* southeast_asia.zip (315 KB) 
+* time_zones.zip (802 KB) 
+* united_states.zip (366 KB) 
+
+* After unzipping these files, use a file manager to navigate to that folder or directory. To begin using The World Factbook, find and double-click the index file (there are two index files--both work equally well). 
+
+While they cannot be browsed on this website, these previous editions of The World Factbook are available for download:
+
+* The World Factbook 2000 
+* The World Factbook 2001 
+* The World Factbook 2002 
+
+---------------------------------------------------------------------
+
+Factbook on Intelligence
+
+* Single .Zip file for all users: fboi.zip (17,166 KB) 
+* After unzipping this file into the folder or directory you created for the publication, use a file manager to navigate to the folder or directory. Find and double-click the index.html file to open and begin using the Factbook on Intelligence. 
+
+---------------------------------------------------------------------
+
+[Return to top] 
+
+This Javascript displays the last updated date of this page. To view this feature requires that Javascript be turned on in your browser. 
+
+---------------------------------------------------------------------
+
+If you have questions or comments about this Web site, Contact Us.
+ 
+
+  
+  
+  

@@ -1,0 +1,109 @@
+Alliance TeraGrid Expeditions Atmospheric Discovery Community Codes Performance Engineering Data Quest Scientific Portals Scientific Workspaces Outreach EOT Community Partnerships Private Sector Program Technology Strategy Roadmaps Software Deployment --> User Information Getting Started Hardware & Software Consulting Training Allocations & Accounts Alliance Resources News Access Online data link Newsletter Press Room ncsa Primer intro | Full-length version | Printable version | Part 1 | Part 2 | Part 3 PDF version --> --> Many people use the NCSA Beginner's Guide to HTML as a starting point to understanding the hypertext markup language (HTML) used on the World Wide Web. It is an introduction and does not pretend to offer instructions on every aspect of HTML. Links to additional Web-based resources about HTML and other related aspects of preparing files are provided at the end of the guide. Frequently Asked Questions Q: Will you answer my questions concerning HTML coding? Sorry, but we can no longer answer the volumes of email that we receive about HTML documents, coding, or style. Please refer to the guide, or take a trip to your local bookstore or library. There are scores of books available about HTML. You can print the guide for your personal use by using your browser's Print feature. (Because of an apparent bug in Netscape 4 browsers, you may want to use this printable version of the full-length Beginner's Guide instead.) To make downloading the guide easier, you now have several choices: you can access one large file (68k), or you can access three shorter (and thus smaller) files in sequence. PDF (Portable Document Format) version. ( Note , however, that while the web pages here are updated from time to time, the PDF version is not. If you require the most current version of the Primer, you must read or print the web pages.) --> Primer intro | Full-length version Printable version Part 1 of the three-part version Part 2 Part 3 PDF version --> Q: I want to use the primer for a non-profit activity. How can I do that? NCSA permits use of the primer for non-profit activities. Please note the following on the photocopied document: This guide was created at NCSA, a unit of the University of Illinois at Urbana-Champaign. Copyright 1997 by the Board of Trustees of the University of Illinois. Please include a link with the full URL so people can access it online as well. http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html (We define nonprofit as a teacher or instructor offering a course at a university/college, within a school system, or at an adult education/lifelong learning facility, with no fee charged for the guide.) Q: I want to use the primer for a for-profit activity. How can I do that? We cannot provide permission to reproduce the NCSA Beginner's Guide to HTML, either in print or replicated on a website, to those in a for-profit organization. You can, of course, give the URL to anyone interested in this Web resource. Q: Can I link to the primer from my home page? Yes. Please refer to it as the "NCSA (at UIUC) Beginner's Guide to HTML." http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html Remember, you cannot sell or reproduce the primer on your server. Q: Can you send me a paper copy of the primer? The primer is online only. You can connect to the URL and save the file locally or print locally for your personal use. Contact webmaster@ncsa.uiuc.edu with questions regarding this page. Last updated Jan 24, 2001. All rights reserved. ©2003 Board of Trustees of the University of Illinois.   -->  
+
+      var myURIString = "/General/Internet/WWW/HTMLPrimer.html";  var myURI = new Array();  myURI = myURIString.split("/");  var lookupTable = new Array();  lookupTable["/psp"] = "Private Sector Program";  lookupTable["/psp/partnersonly"] = "Secure Area";  lookupTable["/About"] = "About Us"; lookupTable["/About/NCSA/Directory"] = "NCSA Contacts"; lookupTable["/About/NCSA/Employ"] = "Employment"; lookupTable["/About/NCSA/Leaders"] = "Key Leaders";  lookupTable["/About/Alliance/Leaders"] = "Key Leaders"; lookupTable["/About/Alliance/Affiliates"] = "Affiliates Program"; lookupTable["/About/Alliance/Management/EC"] = "Executive Committee"; lookupTable["/About/Alliance/Management/EAC"] = "External Advisory Council"; lookupTable["/About/Alliance/Management/Steering"] = "EC Steering Committee";  lookupTable["/About/Alliance/Management/UAC"] = "User Advisory Council"; lookupTable["/About/Alliance/Teams/AT"] = "Application Technologies"; lookupTable["/About/Alliance/Teams/ET"] = "Enabling Technologies"; lookupTable["/About/PSP"] = "Private Sector Program";  lookupTable["/About/Partnerships"] = "Community Partnerships"; lookupTable["/About/Partnerships/DoD"] = "Department of Defense"; lookupTable["/About/PSP/history"] = "History"; lookupTable["/About/PSP/hpc"] = "HPC Resources";  lookupTable["/About/PSP/partnerships"] = "Partners"; lookupTable["/About/PSP/news"] = "News"; lookupTable["/About/PSP/contacts"] = "Contact Us"; lookupTable["/About/PACI"] = "NSF PACI";  lookupTable["/Divisions/Communications"] = "Public Affairs"; lookupTable["/Divisions/PublicAffairs"] = "Public Affairs";  lookupTable["/TechFocus"] = "Technology Strategy"; lookupTable["/TechFocus/Deployment"] = "Software Deployment"; lookupTable["/TechFocus/Deployment/AGiB"] = "Access Grid-in-a-Box"; lookupTable["/TechFocus/Deployment/CiB"] = "Cluster-in-a-Box"; lookupTable["/TechFocus/Deployment/DBox"] = "Display Wall-in-a-Box"; lookupTable["/TechFocus/Deployment/GiB"] = "Grid-in-a-Box"; lookupTable["/TechFocus/Projects"] = "NCSA Projects Database";  lookupTable["/Science/ChemEng"] = "Chemical Engineering"; lookupTable["/Science/Nano"] = "Nanomaterials"; lookupTable["/Science/EnHydro"] = "Environmental Hydrology"; lookupTable["/Science/SciInst"] = "Radio Astronomy"; lookupTable["/Science/Radio"] = "Radio Astronomy"; lookupTable["/Science/Stories"] = "Success Stories";  lookupTable["/UserInfo"] = "User Information"; lookupTable["/UserInfo/GettingStarted"] = "Getting Started"; lookupTable["/UserInfo/Allocations"] = "Allocations and Accounts"; lookupTable["/UserInfo/Vis"] = "Visualization"; lookupTable["/UserInfo/Alliance"] = "Alliance Resources";  lookupTable["/News/Press/Permission"] = "Copyright Permissions Form"; lookupTable["/News/Access"] = "Access Online"; lookupTable["/News/Press"] = "Press Room"; lookupTable["/News/datalink"] = "data link"; lookupTable["/News/HN"] = "NCSA Headline News"; lookupTable["/News/HN/01HN"] = "2001"; lookupTable["/News/HN/02HN"] = "2002";  lookupTable["/sitemap"] = "Sitemap";  //lookupTable[""] = "";  var tempString = "";  var writeBR = false;  var currentURL = "";  var maximumLevels = 5; // display up to this many levels of navigation  var endNumber = (myURI.length > maximumLevels)?maximumLevels:(myURI.length -1);  document.open();  if (myURI[1] != "index.html") {   tempString = tempString + 'Home ';  }  for (var i = 1; i maximumLevels)&&(myURI[myURI.length-1] != "index.html"))) {    var tempDisplay = lookupTable[tempURL]?lookupTable[tempURL]:s;    tempDisplay = lookupTable[tempURL + '/']?lookupTable[tempURL + '/']:tempDisplay;    tempURL = tempURL + '/';    if (tempDisplay == "Divisions") {     s = 'About Us > NCSA > ' + tempDisplay + '';    } else {     s = '' + tempDisplay + '';    }   } else {    var tempDisplay = lookupTable[tempURL]?lookupTable[tempURL]:s;    tempDisplay = lookupTable[tempURL + '/']?lookupTable[tempURL+'/']:tempDisplay;    s = tempDisplay;   }   tempString = tempString + '> ';   tempString = tempString + s;   tempString = tempString + ' ';   writeBR = true;  }  if (writeBR) {   tempString = tempString + '';  }  document.write(tempString);  document.close(); 		
+
+About Us			 
+
+NCSA			 
+
+Alliance			 
+
+TeraGrid			 
+
+Expeditions			 
+
+Atmospheric Discovery			 
+
+Community Codes			 
+
+Performance Engineering			 
+
+Data Quest			 
+
+Scientific Portals			 
+
+Scientific Workspaces			 
+
+Outreach			 
+
+EOT			 
+
+Community Partnerships			 
+
+Private Sector Program			 
+
+User Information			 
+
+Getting Started			 
+
+Hardware & Software			 
+
+Consulting			 
+
+Training			 
+
+Allocations & Accounts			 
+
+Alliance Resources			 
+
+News			 
+
+Access Online			 
+
+data link Newsletter			 
+
+Press Room			 
+
+ncsa 
+
+ 
+
+Primer intro | Full-length version | Printable version | Part 1 | Part 2 | Part 3 
+
+Many people use the NCSA Beginner's Guide to HTML as a starting point to understanding the hypertext markup language (HTML) used on the World Wide Web. It is an introduction and does not pretend to offer instructions on every aspect of HTML. Links to additional Web-based resources about HTML and other related aspects of preparing files are provided at the end of the guide. 
+
+Frequently Asked Questions
+
+Q: Will you answer my questions concerning HTML coding? 
+
+Sorry, but we can no longer answer the volumes of email that we receive about HTML documents, coding, or style. Please refer to the guide, or take a trip to your local bookstore or library. There are scores of books available about HTML. 
+
+You can print the guide for your personal use by using your browser's Print feature. (Because of an apparent bug in Netscape 4 browsers, you may want to use this printable version of the full-length Beginner's Guide instead.) 
+
+To make downloading the guide easier, you now have several choices: you can access one large file (68k), or you can access three shorter (and thus smaller) files in sequence. 
+
+* Primer intro | Full-length version 
+* Printable version 
+* Part 1 of the three-part version 
+* Part 2 
+* Part 3 
+
+Q: I want to use the primer for a non-profit activity. How can I do that? 
+
+NCSA permits use of the primer for non-profit activities. Please note the following on the photocopied document: This guide was created at NCSA, a unit of the University of Illinois at Urbana-Champaign. Copyright 1997 by the Board of Trustees of the University of Illinois. 
+
+Please include a link with the full URL so people can access it online as well. http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html 
+
+(We define nonprofit as a teacher or instructor offering a course at a university/college, within a school system, or at an adult education/lifelong learning facility, with no fee charged for the guide.) 
+
+Q: I want to use the primer for a for-profit activity. How can I do that? 
+
+We cannot provide permission to reproduce the NCSA Beginner's Guide to HTML, either in print or replicated on a website, to those in a for-profit organization. You can, of course, give the URL to anyone interested in this Web resource. 
+
+Q: Can I link to the primer from my home page? 
+
+Yes. Please refer to it as the "NCSA (at UIUC) Beginner's Guide to HTML." http://www.ncsa.uiuc.edu/General/Internet/WWW/HTMLPrimer.html Remember, you cannot sell or reproduce the primer on your server. 
+
+Q: Can you send me a paper copy of the primer? 
+
+The primer is online only. You can connect to the URL and save the file locally or print locally for your personal use. 
+
+ 
+
+---------------------------------------------------------------------
+
+Contact webmaster@ncsa.uiuc.edu with questions regarding this page. Last updated Jan 24, 2001. All rights reserved. ©2003 Board of Trustees of the University of Illinois. 
+
+ 
+
+

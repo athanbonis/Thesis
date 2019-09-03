@@ -1,0 +1,230 @@
+
+Next: Contents 
+
+Frequently Asked Questions about Calendars 
+Version 2.6
+
+Claus Tøndering
+
+24 June 2003
+
+URL: http://www.tondering.dk/claus/calendar.html 
+
+Copyright and disclaimer 
+
+This document is Copyright ©2003 by Claus Tøndering. 
+E-mail: claus@tondering.dk. 
+The document may be freely distributed, provided this copyright notice is included and no money is charged for the document. 
+
+This document is provided ``as is''. No warranties are made as to its correctness. 
+
+Introduction 
+
+This is the calendar FAQ. Its purpose is to give an overview of the Christian, Hebrew, Persian, and Islamic calendars in common use. It will provide a historical background for the Christian calendar, plus an overview of the French Revolutionary calendar, the Maya calendar, and the Chinese calendar. 
+
+Comments are very welcome. My e-mail address is given above. 
+
+I would like to thank 
+
+* Dr Monzur Ahmed of the University of Birmingham, UK, 
+* Michael J Appel, 
+* Jay Ball, 
+* Tom Box, 
+* Chris Carrier, 
+* Simon Cassidy, 
+* Claus Dobesch, 
+* Leofranc Holford-Strevens, 
+* David B. Kelley of the Hamamatsu University School of Medicine in Japan, 
+* H. Koenig, 
+* Graham Lewis, 
+* Duncan MacGregor, 
+* Marcos Montes, 
+* James E. Morrison, 
+* Waleed A. Muhanna of the Fisher College of Business, Columbus, Ohio, USA, 
+* Stefan Potthast, 
+* Yves Sagnier of the Centre d'Etudes de la Navigation Aerienne, 
+* Paul Schlyter of the Swedish Amateur Astronomer's Society, 
+* Dr John Stockton 
+for their help with this document. 
+
+Changes in version 2.6 
+
+The names for the six additional days of the French revolutionary calendar have been corrected. 
+A few minor corrections have been made. 
+
+Changes in version 2.5 
+
+A new section 2.12.4 has been added and the following sections  renumbered. 
+The description of the calculation of the Epact in section  2.12.5 has been rewritten. 
+Chapter 5 about the Persian calendar has been added and the  following chapters renumbered. 
+Section 10.5 now mentions a couple of calendar books. 
+A few minor corrections have been made. 
+
+Writing dates and years 
+
+Dates will be written in the British format (1 January) rather than the American format (January 1). Dates will occasionally be abbreviated: ``1 Jan'' rather than ``1 January''. 
+
+Years before and after the ``official'' birth year of Christ will be written ``45 BC'' or ``AD 1997'', respectively. I prefer this notation over the secular ``45 BCE'' and ``1997 CE'' (See also section 2.13.4.) 
+
+The `mod' operator 
+
+Throughout this document the operator `mod' will be used to signify the modulo or remainder operator. For example, 17 mod 7 = 3 because the result of the division 17/7 is 2 with a remainder of 3. 
+
+The text in square brackets 
+
+Square brackets [like this] identify information that I am unsure about and about which I would like more information. Please write me at claus@tondering.dk. 
+
+---------------------------------------------------------------------
+  
+
+* Copyright and disclaimer 
+* Introduction 
+* Changes in version 2.6 
+* Changes in version 2.5 
+* Writing dates and years 
+* The `mod' operator 
+* The text in square brackets 
+* Contents 
+* 1. What Astronomical Events Form the Basis of Calendars? 
+
+* 1.1 What are equinoxes and solstices? 
+
+* 2. The Christian Calendar 
+
+* 2.1 What is the Julian calendar? 
+
+* 2.1.1 What years are leap years? 
+* 2.1.2 What consequences did the use of the Julian calendar have? 
+
+* 2.2 What is the Gregorian calendar? 
+
+* 2.2.1 What years are leap years? 
+* 2.2.2 Isn't there a 4000-year rule? 
+* 2.2.3 Don't the Greek do it differently? 
+* 2.2.4 When did country X change from the Julian to the Gregorian calendar? 
+
+* 2.3 What day is the leap day? 
+* 2.4 What is the Solar Cycle? 
+* 2.5 What day of the week was 2 August 1953? 
+* 2.6 When can I reuse my 1992 calendar? 
+* 2.7 What is the Roman calendar? 
+
+* 2.7.1 How did the Romans number days? 
+
+* 2.8 What is the proleptic calendar? 
+* 2.9 Has the year always started on 1 January? 
+* 2.10 Then what about leap years? 
+* 2.11 What is the origin of the names of the months? 
+* 2.12 What is Easter? 
+
+* 2.12.1 When is Easter? (Short answer) 
+* 2.12.2 When is Easter? (Long answer) 
+* 2.12.3 What is the Golden Number? 
+* 2.12.4 How does one calculate Easter then? 
+* 2.12.5 What is the Epact? 
+* 2.12.6 How does one calculate Gregorian Easter then? 
+* 2.12.7 Isn't there a simpler way to calculate Easter? 
+* 2.12.8 Is there a simple relationship between two consecutive Easters? 
+* 2.12.9 How frequently are the dates for Easter repeated? 
+* 2.12.10 What about Greek Orthodox Easter? 
+* 2.12.11 Did the Easter dates change in 2001? 
+
+* 2.13 How does one count years? 
+
+* 2.13.1 How did Dionysius date Christ's birth? 
+* 2.13.2 Was Jesus born in the year 0? 
+* 2.13.3 When did the 3rd millennium start? 
+* 2.13.4 What do AD, BC, CE, and BCE stand for? 
+
+* 2.14 What is the Indiction? 
+* 2.15 What is the Julian Period? 
+
+* 2.15.1 Is there a formula for calculating the Julian day number? 
+* 2.15.2 What is the modified Julian day number? 
+* 2.15.3 What is the Lilian day number? 
+
+* 2.16 What is the correct way to write dates? 
+
+* 3. The Hebrew Calendar 
+
+* 3.1 What does a Hebrew year look like? 
+* 3.2 What years are leap years? 
+* 3.3 What years are deficient, regular, and complete? 
+* 3.4 When is New Year's day? 
+* 3.5 When does a Hebrew day begin? 
+* 3.6 When does a Hebrew year begin? 
+* 3.7 When is the new moon? 
+* 3.8 How does one count years? 
+
+* 4. The Islamic Calendar 
+
+* 4.1 What does an Islamic year look like? 
+* 4.2 So you can't print an Islamic calendar in advance? 
+* 4.3 How does one count years? 
+* 4.4 When will the Islamic calendar overtake the Gregorian calendar? 
+* 4.5 Doesn't Saudi Arabia have special rules? 
+
+* 5. The Persian Calendar 
+
+* 5.1 What does a Persian year look like? 
+* 5.2 When does the Persian year begin? 
+* 5.3 How does one count years? 
+* 5.4 What years are leap years? 
+
+* 6. The Week 
+
+* 6.1 What is the origin of the 7-day week? 
+* 6.2 What do the names of the days of the week mean? 
+* 6.3 What is the system behind the planetary day names? 
+* 6.4 Has the 7-day week cycle ever been interrupted? 
+* 6.5 Which day is the day of rest? 
+* 6.6 What is the first day of the week? 
+* 6.7 What is the week number? 
+* 6.8 How can I calculate the week number? 
+* 6.9 Do weeks of different lengths exist? 
+
+* 7. The French Revolutionary Calendar 
+
+* 7.1 What does a Republican year look like? 
+* 7.2 How does one count years? 
+* 7.3 What years are leap years? 
+* 7.4 How does one convert a Republican date to a Gregorian one? 
+
+* 8. The Maya Calendar 
+
+* 8.1 What is the Long Count? 
+
+* 8.1.1 When did the Long Count start? 
+
+* 8.2 What is the Tzolkin? 
+
+* 8.2.1 When did the Tzolkin start? 
+
+* 8.3 What is the Haab? 
+
+* 8.3.1 When did the Haab start? 
+
+* 8.4 Did the Mayas think a year was 365 days? 
+
+* 9. The Chinese Calendar 
+
+* 9.1 What does the Chinese year look like? 
+* 9.2 What years are leap years? 
+* 9.3 How does one count years? 
+* 9.4 What is the current year in the Chinese calendar? 
+
+* 10. Frequently Asked Questions about this FAQ 
+
+* 10.1 Why doesn't the FAQ describe calendar X? 
+* 10.2 Why doesn't the FAQ contain information X? 
+* 10.3 Why don't you reply to my e-mail? 
+* 10.4 How do I know that I can trust your information? 
+* 10.5 Can you recommend any good books about calendars? 
+* 10.6 Do you know a web site where I can find information about X? 
+
+* 11. Date 
+* About this document ... 
+
+---------------------------------------------------------------------
+
+Next: Contents Claus Tøndering - claus@tondering.dk 

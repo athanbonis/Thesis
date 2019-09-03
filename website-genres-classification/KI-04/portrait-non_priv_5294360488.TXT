@@ -1,0 +1,99 @@
+
+
+headerResize(); 
+
+mItem = new BSDiv('tmabout-us', 1, divTempl, linkTempl, curLinkTempl, sepTempl2, sependTempl2); mItem.add( 1 , '/about_us.htm', '', '', '/images/menu/tmd2-overview-n.gif', '157', '18'); mItem.add( 1 , '/how_we_work.htm', '', '', '/images/menu/tmd2-how-we-work-n.gif', '157', '18'); mItem.add( 1 , '/our_partners.htm', '', '', '/images/menu/tmd2-our-partners-n.gif', '157', '18'); mItem.add( 1 , '/our_team.htm', '', '', '/images/menu/tmd2-our-team-n.gif', '157', '18'); mItem.add( 1 , '/offshore_advantage.htm', '', '', '/images/menu/tmd2-offshore-advantage-n.gif', '157', '18'); mItem.add( 1 , '/technology_expertise.htm', '', '', '/images/menu/tmd2-technology-expertise-n.gif', '157', '18'); mItem.add( 1 , '/jobs.htm', '', '', '/images/menu/tmd2-jobs-n.gif', '157', '18'); mItem.add( 1 , '/news.htm', '', '', '/images/menu/tmd2-news-n.gif', '157', '18'); dMenu.add(mItem); mItem = new BSDiv('tmservices', 1, divTempl, linkTempl, curLinkTempl, sepTempl3, sependTempl3); mItem.add( 1 , '/services.htm', '', '', '/images/menu/tmd3-overview-n.gif', '233', '18'); mItem.add( 1 , '/content_management_system.htm', '', '', '/images/menu/tmd3-content-management-n.gif', '233', '18'); mItem.add( 1 , '/online-self-service.htm', '', '', '/images/menu/tmd3-online-self-service-n.gif', '233', '18'); mItem.add( 1 , '/ecommerce.htm', '', '', '/images/menu/tmd3-ecommerce-n.gif', '233', '18'); mItem.add( 1 , '/intranets_and_extranets.htm', '', '', '/images/menu/tmd3-intranets-extranets-n.gif', '233', '18'); mItem.add( 1 , '/membership_management.htm', '', '', '/images/menu/tmd3-membership-manage-n.gif', '233', '18'); mItem.add( 1 , '/scheduling_reservation.htm', '', '', '/images/menu/tmd3-scheduling-reserv-n.gif', '233', '18'); mItem.add( 1 , '/custom_web_applications.htm', '', '', '/images/menu/tmd3-custom-web-n.gif', '233', '18'); dMenu.add(mItem); mItem = new BSDiv('tmour-references', 1, divTempl, linkTempl, curLinkTempl, sepTempl4, sependTempl4); mItem.add( 1 , '/our_references.htm', '', '', '/images/menu/tmd4-overview-n.gif', '137', '18'); mItem.add( 1 , '/press_about_us.htm', '', '', '/images/menu/tmd4-press-about-us-n.gif', '137', '18'); mItem.add( 1 , '/case_studies.htm', '', '', '/images/menu/tmd4-case-studies-n.gif', '137', '18'); mItem.add( 1 , '/design_portfolio.htm', '', '', '/images/menu/tmd4-design-portfolio-n.gif', '137', '18'); dMenu.add(mItem); mItem = new BSDiv('tmresources', 1, divTempl, linkTempl, curLinkTempl, sepTempl5, sependTempl5); mItem.add( 1 , '/resources.htm', '', '', '/images/menu/tmd5-overview-n.gif', '226', '18'); mItem.add( 1 , '/ecommerce_usability_guide.htm', '', '', '/images/menu/tmd5-ecom-usability-guide-n.gif', '226', '18'); mItem.add( 1 , '/search_engine_optimization.htm', '', '', '/images/menu/tmd5-search-engine-opt-n.gif', '226', '18'); mItem.add( 1 , '/effective_websites_newsletter.htm', '', '', '/images/menu/tmd5-effective-websites-n.gif', '226', '18'); dMenu.add(mItem); dMenu.render(); renderMenuLI(); 
+
+  		
+
+Print version 	
+
+Web technologies that help your business
+
+* Provide better customer service. 
+* Reduce administration costs. 
+* Help your employees be more effective. 
+* Make it easy for your clients, dealers and suppliers to do business with you.
+ Talk to us about designing the right system. One that is visually appealing, easy to use and addresses real business needs.
+
+Different systems to respond to your needs
+
+* Content management for a corporate website. 
+* Online product catalog or e-commerce system. 
+* Custom web portal. 
+* Intranet for your employees. 
+* Extranet for your partners, suppliers or dealers. 
+* Membership or event management system. 
+* Online reservation or scheduling system. 
+* Customer or employee self-service. 
+* Other custom web applications.
+
+How we build effective e-business web sites
+
+* We have broad cross-industry expertise, so we are able to quickly understand and optimize your business processes. 
+* We study your business priorities and select the technologies that match your needs. 
+* We meticulously analyse user needs and then build intuitive systems that cut your deployment and maintenance costs. 
+* We leverage a unique onshore/offshore model that saves our clients money. All business development and project management is done locally, while our top-notch Russian software engineers build secure, scalable and easy to maintain web sites. 
+* We rely on precise software development standards and project management methodology that ensure the success of our clients' projects. 
+* We provide support 24 hours a day, so we are able to solve your problems faster.
+
+Client testimonials
+
+"... the results we are getting from our web site - they are well above our expectations ...! BonaSource has delivered a professional job - on time and at a great price."	 
+
+Danny Sgro
+JDF Prolink
+
+"...spent the time with us to determine what we were looking for, and then came up with suggestions ... 
+
+BonaSource&#8217;s team, both in Toronto and overseas, was very good at turning our ideas into a model for us to evaluate..."
+
+Mark Lerohl
+FUSION Capital Partners Inc
+
+"...excellent expertise in interface design and web usability..."	 
+
+Alena Lileina, Marketing Manager,
+Microsoft Business Solutions Russia
+
+"...Very strong project management skills. &#8230;Documentation and timeliness was excellent. I can't see us not using (BonaSource) in the future."
+
+David Ring, Founder
+Anteques.com
+
+ 
+
+ 	
+
+Print version 		
+
+Newsletter				
+
+October 29, 2003	
+Even for the biggest companies, effective e-commerce remains elusive
+
+This is a story of how we set out to buy online a popular HP laser printer and ended up buying a Samsung printer in a local store. Read on for the e-commerce usability issues we encountered in the process and our recommendations for addressing them.
+
+Read full newsletter...>>>	
+
+Enter E-mail:	
+
+Unsubscribe	
+
+News				
+
+December 04, 2003	
+Naresh Shah, former BCE Emergis sales executive, joins Bonasource
+
+Bonasource, an e-business applications development firm with headquarters in Toronto and an offshore development office in Moscow, today announced that Naresh Shah, formerly Director of Sales with BCE, has joined the company as Vice President, Business Development. 
+
+Read more...>>>
+
+All news>>>	
+
+Contact us  	
+
+  [Login]	Copyright © BonaSource Inc. 2000-2003
+Online content management system PortalFS		
+
+

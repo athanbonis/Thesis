@@ -1,0 +1,254 @@
+
+useit.com Recommended Websites Spotlights 	| Search 	
+
+Spotlighted Links
+
+Please note that some of these links may have suffered linkrot. They did work as of the date when they were recommended, but the Web is a highly fluid medium. 
+
+October 19, 2003 
+Came across a new column with a rather unusual format: weekly comic strip about usability and interface design. 
+July 21, 2003 
+MacWorld magazine reviews our software package that checks whether designs follow the guidelines for making websites and intranets usable for users with disabilities. (Note that the software runs on both Mac and PC.) Summary: 4.5 mice out of 5, "thorough and useful testing tool [...] invaluable". (Product info) 
+July 18, 2003 
+This afternoon, the whitehouse.gov website changed its "contact us" page to include a regular email address for the President. Quick reaction after the story this morning in The New York Times about usability problems in the poorly designed webmail system on the site. (My review discovered several additional usability problems that didn't make it into the article.) 
+
+I applaud the White House web team for attending to its mistakes so fast. There are some people on the team who know what they are doing. Interestingly, the webmail system violated a usability guideline for how to display the privacy policy that was implemented correctly by another part of the site. 
+July 10, 2003 
+Don Norman's new book Emotional Design: Why We Love (Or Hate) Everyday Things can now be pre-ordered from Amazon.com. One click and you will get your hands on it as soon as it ships. 
+
+Expected publication date is January 2004. One privilege of working in Nielsen Norman Group is that I already got to read the manuscript, but my lips are sealed until official publication. Don will give a preview of the book in his keynote at the User Experience 2003 conference (see above). 
+June 21, 2003 
+10:08 AM: The FedEx guy grinned and said "your Harry Potter book." Amazon.com shipped the book for Saturday morning arrival at no extra charge, using special packaging. The outside of the box reads Deeper secrets. Darker powers. Stronger magic. The visual design could have been a little nicer, to be honest, but it's still smart of Amazon to commission a special box for this high-visibility shipment since they had 785,000 pre-orders in the U.S. alone. 
+
+See also my article In the Future, We'll All Be Harry Potter. 
+January 8, 2003 
+
+Usability Week 2003
+
+> New York City: March 17-21 
+> London: March 24-28 
+> San Francisco: May 12-16 
+
+6 brand-new seminars with new research on specialized topics: 
+> Investor Relations Website Usability 
+> Press Room Design: PR Sections of Websites 
+> Web Metrics: Measuring Website Successes 
+> Search Engine Visibility 
+> Application Design Bloopers 
+> Intranet Portals 
+
+4 seminars about basic topics that we have covered before, but which are eternally important: 
+> User Testing 
+> The Usability Life Cycle 
+> E-Mail Newsletter Usability 
+> Intranet Usability 
+
+Why this agenda? Usability has finally become sufficiently established that we can move beyond standard advice like "test your users" and "remove annoying splash screens." We can look at very specialized topics and become more constructive: not just "avoid bad design" but "do the following good things." 
+
+In investor relations we now know so much that we can provide a recommended standard information architecture to support investors' information needs on any publicly traded company's website. For other topics, we can't go quite that far since the users' tasks will differ between companies, but usability recommendations are definitely getting more detailed and positive from the studies we are currently conducting and will be presenting in March. 
+December 16, 2002 
+Article on how to reduce your word count, quoting Donald M. Murray: "Brevity is achieved by selection rather than compression." Excellent advice. I would add that if writing for the Web, some of the deleted material referred to in the article could have been moved into a secondary page linked by hypertext (see my 1996 article How to write inverted pyramids in cyberspace). 
+December 6, 2002 
+Product idea: Wi-Fi Cellphone. Once the new Cometa service provides national Wi-Fi coverage, there will be an opportunity to sell cellphones that transparently include a Wi-Fi card and use it to place calls for free using voice over IP if you are within reach of a hotspot (if out of reach, your phone might transparently fall back to traditional for-pay mobile telephony). One more way Wi-Fi may turn out to be a big nail in the coffin for companies that invested billions on 3G licenses: not only will they lose most of the hoped-for data traffic, they may even lose some of their existing voice traffic (and mainly from high-end, valuable customers who communicate a lot). 
+December 5, 2002 
+Good analysis of why the interaction design for the Mac OS X file browser is inferior to the classic Mac Finder (even though the visual design is cooler). Interestingly, many of the stupidities in Mac OS X have been present for some time in Windows, so Apple could have avoided them if they had run a competitive usability study and learned from Microsoft's mistakes. But of course, the only "usability" criteria at Apple are (a) whether Steve likes it and (b) whether it demos well in Steve's keynotes. 
+December 1, 2002 
+New York Times quotes Don Norman on BMW's miserable new 745i. My wife has this car and I avoid it like the plague because it's so difficult to operate. The screen designs are incredibly complicated: it's clearly a design developed by hardware engineers who don't understand software or screen-based user interfaces. (To be fair: the BMW 745i drives like a dream, as long as you don't need to change any of the settings.) 
+November 30, 2002 
+Sony has released an update to the BIOS for my Vaio laptop. Only problem is that the update has to be installed from a floppy disk, but this model of laptop doesn't have a floppy disk drive. Reminds me of the classic start-up error message "No keyboard present. Press any key to continue." 
+November 24, 2002 
+Neil Budde leaves the Wall Street Journal after leading it to become the most successful for-pay offering on the Web so far. Budde's availability is a great opportunity for any company looking for an executive who understands the Internet and its special nature as an interactive and user-driven environment. (Update February 2003: Budde has now started The Neil Budde Group, described as "realigning online and offline media.") 
+October 18, 2002 
+AskJeeves becomes latest site to ban the evil practice of pop-up pollution. In related news, MSN announced that they would always have a lower pop-up count than AOL. He or she who clicks the mouse rules the Web, so we are starting to see the limits of user-hostile design: victory shall be ours. 
+October 15, 2002 
+One of the founders of human factors, Alphonse Chapanis dies. He ran the studies leading to the 3x4 layout of telephone keypads. 
+October 7, 2002 
+3G Lab has conducted a comparative usability test of two cellphones with built-in cameras: a Nokia model and a Sony-Ericsson model. Before getting to use the two phones, 100% of the test users said that they preferred the Sony-Ericsson and would buy it (Nokia looked clunky and "like an older mobile phone"). After trying both phones, 100% preferred Nokia and would buy that phone. In other words, if people had to buy a phone without hands-one experience with both alternatives, everybody would end up with the model they would like least in the long run. This is a classic example of the old usability lesson that you can't just show a design to people, you have to let them use it to get true feedback on the quality of the product. Question: how can qualities besides appearance be made more salient to shoppers so that people buy products that they will be more satisfied with using? 
+October 3, 2002 
+Don Norman's classic book The Design of Everyday Things has been reprinted with a new introduction. If you need to convince somebody about the importance of usability, this is the book to get them (or re-read it yourself, if it has been more than five years since you learned these basic principles of interaction design). 
+September 21, 2002 
+Collaborative spam elimination: Sun Microsystems gets patent on a practical method for identifying and deleting spam and other junk email. 
+September 17, 2002 
+Survey: Recruiting participants for usability testing 
+We are preparing a report with practical advice on how to recruit test participants for usability studies. If you run user tests, we would like to ask you to take part in our research by taking a few minutes to fill in a short survey which asks about the participant recruiting process for your usability studies. You needn't be the person who actually does the recruiting to provide valuable information. All responses will be kept completely confidential and we will only report anonymous data. If you are willing to participate in the survey, please send an email to Deborah Hinderer Sova and she will email you the questionnaire (note: survey now closed). 
+September 1, 2002 
+Usability Week 2002 
+> Boston 
+> New York 
+> London 
+> Silicon Valley 
+
+Brand-new tutorials with the results of our latest user research: 
+> Intranets 
+> Flash 
+> E-Mail Newsletters 
+
+Usability Week gives you a second chance to catch popular tutorials that were sold out at our last conference: 
+> Usability Lifecycle 
+> Accessibility 
+> Information Architecture (2 days with Lou Rosenfeld) 
+August 1, 2002 
+Usability Test Status for Flash project: 
+
+* USA: testing with adult users completed 
+testing with teenagers in progress 
+* Europe: starting soon 
+* Asia: Tokyo tests in planning stage 
+Please send us pointers to good Flash applications in Japanese that we might test in Tokyo. To nominate a Japanese Flash design for testing, email Lena Miyamoto at Nielsen Norman Group (feel free to write in Japanese). Thank you to everybody who sent us examples of Flash applications. No more examples are needed for the current research project, except for Japanese designs. 
+July 20, 2002 
+We are researching how people use Internet-based applications and functionality built in Flash; the goal being to derive the guidelines for designing applications and tools in Flash. (Note: we are not looking at traditional multimedia content or splash intros - only useful Flash that provides utility to users). 
+
+Testing in the U.S. will be completed shortly, and we will move to the international part of the project, initially running a series of tests in Germany. 
+
+Please send us pointers to good designs in German that we might test. 
+
+To nominate a German Flash design for testing, email Rolf Molich at Nielsen Norman Group's European office. 
+
+The results will be presented at Macromedia DevCon 2002 and Usability Week 2002. 
+July 13, 2002 
+AskTog on call centers: could be used to collect design info from users. Often aren't. 
+June 23, 2002 
+
+Examples of Flash-Based Applications and Tools Wanted for User Testing
+
+Please nominate good examples of Internet-based applications and tools implemented in Flash. We need to test a wide variety of sample designs in order to derive the usability guidelines for functionality-oriented Flash design. 
+
+My working definition is that an application is a complete user interface to an integrated set of features, which most often will operate on some data objects and modify them. In contrast, a tool will typically only have one feature (or maybe a very small number) and will be presented as an element on a web page that contains additional content (or other tools). 
+
+Examples: 
+
+* Application: 
+
+* Home banking where you can review your account balances and history, move money between accounts, establish, schedule, and authorize automated payments, etc. 
+* Configurator where you specify the composition and features of your build-to-order PC. 
+
+* Tools: 
+
+* Foreign currency converter. Allows users to see the price of a product or service in the currency of their choice (by transparently getting the current conversion rate from a back-end server). 
+* Stock quotes (possibly combining two features: look up a company name and the ability to get the quote for a given ticker symbol). 
+
+We want to test sample designs of both applications and tools since I expect the user interface guidelines to be somewhat different for the two domains. 
+
+To nominate a design for the study, please email Hoa Loranger at Nielsen Norman Group. 
+
+If possible, please include URL and a few lines about what the application or tool does and why you think it has good (or bad) usability. We are more interested in good examples than bad examples because even the best design will include plenty of usability problems. 
+
+If the application/tool is not publicly available, it would be great if you could provide us with a dummy account for test purposes if you have control over the backend. 
+
+The results will be presented at Macromedia DevCon 2002. 
+June 3, 2002 
+Announcing a strategic partnership between Macromedia and Nielsen Norman Group to improve Flash usability: we will develop the usability guidelines for Internet-based applications in Flash. 
+
+The version of Flash introduced in 2002 (Flash MX) has solved many of the technical usability problems in previous versions of Flash. Among other things, Flash MX supports accessibility and the "Back" button in the browser. A very important usability improvement is that Flash now ships with a standard set of interaction controls: finally, no more random scroll bars made up at the whim of a Flash designer. 
+
+The many usability improvements in the basic Flash technology is proof that it works to evangelize usability and point out usability problems. Even a big software company will listen to the insights provided by leading usability experts. It's to have this kind of impact that Don and I started Nielsen Norman Group. 
+
+Macromedia has also made an important strategic decision to focus on useful use of Flash to build Internet-based applications, as opposed to the fluffy use that was prevalent two years ago when I published a strong critique of the lack of usability in most Flash designs. 
+
+Macromedia is pursuing the correct strategy. They improved the Flash technology. All that remains is to get the large community of Flash developers to embrace usability principles in actual designs of Internet-based applications. That's why we will now research the usability of Internet-based applications built on Flash and then publish the guidelines for good Flash user interfaces. 
+
+It will take some time for me to complete this research and get the guidelines ready for the million-plus audience of Flash developers. I am committed to the highest quality of usability studies and analysis for this important project that will define the way functionality is provided over the Internet. Stay tuned to the useit.com homepage for further announcements once the guidelines are published. 
+May 27, 2002 
+Behaviors people employ to avoid watching TV ads (Financial Times). Note last paragraph: even when playing back the observational videos to the households in the study, people could not explain their own behavior. Once again confirms that we can't rely on users' self-reported analyses, which is why qualitative studies and observations are the best source of insights. 
+April 30, 2002 
+My new book Homepage Usability has won the Independent Publisher Book Award 2002 for best book of the year in the "computer/Internet" category. Award to be presented at this week's BookExpo America 2002 in New York. 
+April 30, 2002 
+Rumor has it that Microsoft is about to buy the software company Navision. I don't know anything about this deal (if I did, I obviously couldn't write about it in public), but it might indeed be a good idea for Microsoft to buy Navision. The company has a high level of respect for usability throughout the ranks, as evidenced by the huge turn-out when I gave a seminar on usability at its headquarters recently. (Having a nice budget to invite international speakers is another sign of an leading European software company since most are quite insular.) No matter what happens to this deal, we probably have to expect Microsoft to take over the market for small-and-medium sized business software. Most other software vendors are blinded by the opportunities for big-iron "enterprise" software and its associated big-ticket sales. Scaling down a high-end solution may turn out to be difficult, especially if Microsoft ends up establishing itself as the dominant vendor of business solutions for the sub-billion space. I note the importance of usability for these solutions since smaller companies rarely have an army of IT staff and a second army of IT consultants available to install and maintain their business software. 
+April 25, 2002 
+Dr. Donald A. Norman was this year's recipient of the lifetime achievement award from the Association for Computing Machinery's Special Interest Group on Computer-Human Interaction. Congratulations, Don. Even if he is my business partner, I still think I can say that if anybody deserves a lifetime achievement award for making technology easier for humans it's Don Norman. 
+April 17, 2002 
+Google now accounts for 66% of the visitors arriving to useit.com from search engines. Up from 46% last year. Other interesting findings from the analysis of search engine traffic: MSN's search engine sends 6 times as much traffic to useit as AOL's search engine does, even though AOL has many more subscribers. Despite being a severe critic of Microsoft in other contexts, I conclude that MSN is much more willing than AOL to guide its users to the best content that's available on the outside. Most search engines stagnated over the last year, but Yahoo and Lycos both increased their ability to guide users to high-quality content substantially. In the case of Yahoo, this may be due to their change of search engine technology. I don't know what improvements were made at Lycos, but they are doing something right. 
+April 13, 2002 
+Most insightful review yet of the Segway Human Transporter ("It" or Ginger). By Dan Bricklin, of course. He is getting to be a prime source for technology analysis on the Web. 
+April 10, 2002 
+Job Opening, Silicon Valley Nielsen Norman Group is looking to hire an experienced usability testing professional for our Silicon Valley office. Requirements: 
+* Brilliant at deriving deep insights from observing users; emphasis on qualitative studies 
+* Has tested at least 50 different user interface designs, running at least 300 test users 
+* Great writer 
+* Excellent presentation skills 
+* Work experience on the usability staff of an established Silicon Valley company 
+* Work from home most days but must commute to Silicon Valley 1-2 days per week for tests and meetings 
+If interested, send resume, salary history, and a writing sample to Luice Hwang at hwang@nngroup.com 
+April 2, 2002 
+Fog Creek's CityDesk gets a good review as a content management system for small companies. As I have said many times, much of the true value of the Web comes from targeted, specialized sites. Small sites can't afford monster CMS products, so a good low-end system is highly welcome. Now we just need good CMS for big companies :-( 
+April 2, 2002 
+We recently signed translation number 20 of Designing Web Usability. Translations: Bulgarian, Chinese (Simplified), Czech, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Hungarian, Italian, Japanese, Korean, Norwegian, Portuguese, Russian, Serbian, Spanish, and Swedish. 
+March 27, 2002 
+A highlight of Esther Dyson's recent PC Forum conference was the panel and demos on handheld devices with mobile connectivity. Three almost-identical variations on the same theme: Handspring's Treo, the i705 Palm Pilot, and the new Blackberry 5810 and a fourth, very different solution: the Danger device. All four combine cellphones, a PDA with a mid-sized screen, and a small keyboard, but Danger has the most interesting hardware design, with its two-layer user interface. My review of Danger from September 2001 still holds, but with one important difference: Danger has fixed several of the usability problems I noted in the review. For example, the home screen now displays an overview of new email so that you don't have to go into the email app to find out what messages you have. Bravo. Even though I like the usability improvements, the most important conclusion from these changes is that the company takes the user experience seriously. They actually bother changing their design based on what they are told by usability. This bodes very well for the future quality of the device, which is scheduled to ship in June for about $200. Get one to experience the future of mobile computing and communications. 
+March 22, 2002 
+Detailed review of the Treo (a combined cellphone/PDA) by Dan Bricklin. He likes it. Four important observations: 
+* Finally pleasant to use advanced telephony features like 3-way calling once you can drive them through a graphical user interface instead of obscure combinations of overloaded push-buttons and badly designed audio feedback. 
+* Treo is a platform instead of a closed device: you are not locked in to the bad features designed by a telephone company since you can download changes and upgrades from software vendors who are more likely to design something that suits special needs (even though I think Bricklin is too much of a nerd in his desire to tweak the buttons and menus). 
+* It is striking how much nicer it is to operate a device when you abandon the telephone push-buttons and get a real keyboard (even a minuscule one). 
+* Data-driven devices will not truly work until we get always-on cellular connections instead of dial-up. Currently, the system sends you an SMS when you have email, and you then have to dial in to the ISP to retrieve it. Kludge. (That's why I still love my Blackberry.) 
+Be sure to read all three parts of Bricklin's review. Some of the best examples are in part 2 and some of the deepest insights are in part 3. 
+March 21, 2002 
+Communicating in the age of information overload: MonsterBuzz in San Francisco (April 2) should be a required event for everybody who writes the lame taglines that pollute websites (especially in the B2B and tech sectors). 
+March 16, 2002 
+Walt Mossberg always writes good columns that approach technology from the perspective of the average user. His review of tax preparation software is particularly interesting because it addresses two aspects of the total user experience that are often overlooked: 
+* clarity of explanations (not just what does the software do, but can it explain it to normal people; particularly important for something as obscure as American tax rules) 
+* responsiveness of support: the ability to get your questions answered 
+I am happy to see software reviews in a major newspaper that play down features and emphasize clarity. 
+March 15, 2002 
+New York mayor Michael Bloomberg asks the software industry to be more user-centered, adding a personal anecdote from his experience trying to increase usability in a the software development organization. Even though the mayor's analysis and solution are not quite the ones a usability expert would have provided, this is still an interesting example of what we might expect if we get more politicians who have worked in the computer industry. (As opposed to the lawyers who fill up most of the seats in Congress today.) If Bloomberg's next step was to limit procurement to companies that devote at least 10% of development resources to usability then he could save taxpayers millions of dollars per year through increased productivity of the many NYC employees. 
+March 3, 2002 
+Case Studies Wanted: Measurable Impact of Design Changes I am writing a report about metrics that quantify the impact of design changes. We need: 
+> screenshot of the "before" design 
+> screenshot of "after" 
+> why the change was made 
+> the before vs. after numbers Any type of user interface is of interest: websites, intranets, mobile devices, traditional software, consumer electronics, etc. Also, the design changes may refer to a complete redesign of the total UI or it could just be a single feature, screen, or design element that was changed. Measures of interest include anything that measures how the use changed. Could be an improvement, but negative results would be just as interesting. Sample metrics: 
+> success rate (users' ability to perform tasks) 
+> conversion rate 
+> average "sales basket" for e-commerce 
+> training time to learn a feature or system 
+> sign-up rate for newsletters or other desired action 
+> time on task; other productivity measures 
+> number of times a feature was used 
+> calls to help desks or tech support 
+> learning or comprehension scores 
+> other usage or impact metrics, including new ones you have invented yourself I can keep your contribution totally anonymous and purely report your numbers as statistics that don't include any indication of what company or design they refer to. Of course, we would prefer to give you full credit if you are willing to be named. Also, if you send us screenshots, please indicate whether we should treat the screens as confidential info or whether you will allow us to publish the images. All contributors will obviously get a free copy of the report. 
+February 25, 2002 
+Interns / Research Assistants Wanted I am looking for a few of the world's best graduate students in usability/HCI to assist with research projects. Positions are available both for part-time work during the school year and for full-time work during the summer. Requirements: 
+> top 2% of the population in brainpower 
+> extensive experience running user tests 
+> great writer Location: anywhere in the world. Projects will mainly be conducted through phone and the Internet. We also want students who are native speakers of another language than English and interested in running a study in their home country. For such candidates, we can accept less than perfection in written English, even though reports must still be written in English. Please send resume and writing samples to Luice Hwang: hwang@nngroup.com 
+February 19, 2002 
+Nielsen Norman Group is conducting our annual intranet design competition for 2002. Submission deadline: March 20, 2002. Think you have a good intranet design? Enter it for the award! Last year's winners got substantial publicity and recognition from being honored in the 2001 Design Annual. 
+February 17, 2002 
+Interview with the head of wsj.com about the recent redesign of Wall Street Journal's website. Notable elements: 
+* the new design departs more from the print newspaper than was done in the past (bravo) 
+* usability was improved by explaining things users didn't understand in the old design 
+* more consideration for users in Europe and Asia 
+* wsj.com has a 3-year plan for further improvements (the same general idea as I promote in my visioneering process). Too rare these days for companies to think strategically about the Internet and its long-term potential. 
+And, Neil, don't worry about the emails: users always complain about redesigns since nobody likes change. (If most people complain about a single design element, then that's another matter, of course.) 
+February 13, 2002 
+The guidelines for improving usability for users with disabilities are now available as an audiobook (CD or tape, as you prefer). Great while commuting or exercising, or if you are looking for a human voice alternative to listening to a screen reader. 
+February 11, 2002 
+Dave "DaveNet" Winer relates his experience with linkrot on various websites, prompted by a massive death of links into the San Jose Mercury News. Dave finds the New York Times to have the most robust archives. I have also noted that USA Today, The Guardian, News.com and WIRED keep their old URLs alive. Linkrot impacts the way we write for the Web: I am more motivated to link to a site if I have reasons to believe that the link will continue to work in a few years (let alone a few days or months, which is the lifetime of links on some sites -- forget about linking to them). Since incoming links are the main way to improve ranking in search engines, sites that don't preserve old URLs will not only lose the traffic from the linking sites, they will also place poorly in search engines (one of the main tools of Internet marketing as far as attracting new customers is concerned). For more on linkrot, see my articles from 1998: Fighting Linkrot and Web Pages Must Live Forever (both articles have been live at the same URLs since 1998, so you can feel safe in linking to them for background on this topic - these articles will be there in 2008 as well). 
+February 5, 2002 
+Datagloves are back, after having been absent since Nintendo discontinued the PowerGlove in 1988. Much promise for games and for certain vertical applications that involve 3D. Hopefully, the easy availability of cheap gloves will also spark research in gestural interfaces. I don't think special gloves (or VR helmets) will be used in mainstream everyday interactions, but gestures can be supported by video monitoring of the user in the future. 
+February 1, 2002 
+WebReference reviews the guidelines for e-commerce usability. 
+January 30, 2002 
+The documentary film startup.com is now available on DVD. The film is a great way to relive the memories of the heady times in 1999 and 2000. Just like being there, complete with meetings on Sand Hill Road and all-nighters. I kept saying, "yes, I remember that" when I saw the film. (The link points to Amazon's product page for the film which contains a great example of why user-generated content can be weak: a user who complains about the plot and production values - not surprising since it's a documentary filmed while the company was growing and crashing. Doesn't have a plot or glamorous actors; this is real.) 
+January 22, 2002 
+Brewster Kahle's comments on his Wayback Machine include two interesting observations: Generic hardware is now so cheap that one can build the world's most powerful parallel computer at a ridiculously smaller cost than most companies' IT budgets. Similar parallel solutions are used by Google and other services that need scale. Think big (which is different than the discredited slogan to "get big fast"). With cheap supercomputer-grade hardware, it is feasible to solve the whole problem, such as offering all the world's films online, maps of every street, or searching all the world's documents. 
+For many years, we have known that comprehensive services are a win on the Internet, and even though I have mainly thought of this as a content problem (how to write about all aspects of a given problem), Kahle's points are an interesting enabler of certain types of comprehensiveness. Now we just need a way for the comprehensive services to collect money from users and a lot new businesses can bloom. 
+January 16, 2002 
+Yahoo announced its quarterly result for Q4 2001. Even though the bottom-line result was a loss, the news is very positive from a fundamental perspective. True customer revenues were $53 million during Q4 (that is, payments received from the actual users of the site). Advertising revenues still accounted for the majority of Yahoo's earnings, but they have started to wean themselves. User-derived revenues accounted for 28% of earnings in Q4 2001 compared to only 13% in 2000. This is a very healthy trend. It is also worth noting that Yahoo is one of the few exceptions to the rule that websites cannot earn significant advertising revenues. First, Yahoo has a significant search and navigation business, and search sites are one of the only web genres where advertising makes sense (after all, you go to a search engine with the one and only goal of finding another site, so if something reasonable is being advertised, you are quite likely to click on it). Second, Yahoo can in fact make it up in volume, even if advertising revenues are only 0.2 cents per page view ($2 CPM), which is my estimate based on their published results. 
+January 3, 2002 
+One more company announces its version of the standard survey of websites' email responsiveness: only half of e-commerce sites answer customer service emails within the recommended 24 hours. Even though it is true that speedy email replies are good, these constant surveys miss the two much more important point: 
+* How easy is it for users to find the answers themselves on the website? If self-service is sufficiently easy and useful, you can eliminate much of the email and make customers feel more in control of their own destiny. 
+* How useful are the replies to the customer's email question? Sending a fast reply that doesn't answer the question or that provides a useless answer is no good, and is often more frustrating than a delayed response that solves the problem. (The exception being a purely automated reply that acknowledges the user's email, assigns a trouble ticket number, and sets expectations for when to receive the real reply. However, such responses should not count when measuring the time to resolve the user's problem.) 
+I know why we see articles about "how fast companies reply to their email" all the time: it's a metric that is very easy to collect. In contrast, the two more meaningful metrics listed above require more advanced studies that cannot be assigned to an intern. Fine, as far as press releases are concerned, but when it comes to managing websites, it would be dangerous to rely on the metrics that are the easiest to collect as opposed to deeper ones that are more important. 
+
+Earlier Years
+
+* 2001 
+* 2000: July-December 
+* 2000: January-June 
+* 1999: April-December 
+* 1999: January-March 
+* 1998 
+* 1997 
+

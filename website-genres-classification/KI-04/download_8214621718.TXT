@@ -1,0 +1,86 @@
+
+
+Roxen Internet Software AB
+www.roxen.com	 
+
+    	
+
+Enter the access code you have received via email from Roxen Internet Software in order to proceed. If you have not yet requested a code, please visit the registration page first. 
+
+Current Version:  	  Roxen CMS 3.4.109 (release4)	  
+Access Code: 	 	 
+Platform: 	     
+Windows NT/2000/XP (66.6 MB)
+     
+Linux RedHat 7.3 (66.8 MB)
+     
+Solaris 7 Sparc (67.4 MB)
+     
+Solaris 7 X86 (61.6 MB)
+     
+Mac OS X / Darwin (46.4 MB)
+ 
+
+ 	     
+
+ 	       	 
+    	
+
+    	
+
+Installing the software
+ 
+
+1.  Double-click the downloaded file roxen-3.x.x-xxx-pf-nt4sp6.exe to start the installer program. 
+2.  Enter the installation directory. The default is C:\Program Files\Roxen Internet Software\Roxen CMS\. 
+3.  Select either Typical Installation or Custom Installation. The former will install the product as a Windows service which launches every  time you restart the computer. Select Custom if you want to control all  details of the installation. The following steps describe the questions asked  when selecting Custom. 
+4.  Select the Program Folder (i.e. in the Start menu) where Roxen CMS should be installed. 
+5.  Create an Administration Interface. This is a web-based interface in which Roxen CMS is configured. You need to select the web protocol  (https for encrypted communication or regular http) and the  port number as well as the administrator name and password. 
+6.  Decide whether you want to enable the Update Client in Roxen CMS. 
+7.  Wait for the software to be installed. 
+8.  Answer the question about installing a Windows service. This service will start the Roxen CMS server every time you boot your computer. If you don't  want this you should answer No and start the server manually. 
+9.  When asked about launching Roxen CMS right now, select Yes. 
+
+Creating the web site
+ 
+
+1.  Open your web browser and go to the Administration Interface at https://localhost:999/ (replace https and 999 with  appropriate values). Authenticate using the name and password which you  selected earlier. 
+2.  Click the Sites tab. 
+3.  Click the Create new site button. 
+4.  Enter a name for your site (only used in the Administration Interface) and click Create new site with template. 
+5.  Set the license file to personal.lic and click the CMS site button. 
+6.  Configure the protocol and port number for the site you want to create. Typical port values are 443 for https and 80  for plain http servers. Leave the fields in the section titled  Initial variables for CMS: Main Module unchanged. Click Next to  continue. 
+7.  Select the initial content for your site. We recommend Basic since it includes all the layout templates you need for easy site editing. 
+8.  Enter the name and password you want to use for the site administrator. Note that this is not the same as the Administration Interface user (which you are currently  logged in as), although the latter can use a backdoor feature to access everything in  the site without knowing the name and password you enter here. It is possible to use  the same name and password for both administrators. Click Ok to proceed. 
+9.  Wait for the site to be created. This can take a few minutes so be patient. 
+10. The site is now created! Click the URL presented in the Status tab to open a new window for browsing the site. You will have to authenticate using the site  administrator name and password which you provided a few steps back. 
+
+Editing web pages
+ 
+
+Click the Enter edit mode link in the site navigation interface to display the toolbar for the insite editor. To access the more advanced SiteBuilder Content Editor, go to http://localhost:1234/edit/ (again, replace http and the port number with the appropriate values for your installation).
+
+To read all the on-line documentation shipped with the product, click the Docs tab in the Administration Interface or in the SiteBuilder Content Editor (which also provides a search engine for all of the documentation).
+
+    	
+
+    	
+
+Installing the software
+ 
+
+1.  Run sh roxen-3.x.x-xxx-pf-xxx.sh to start the unpacking and installation process. 
+2.  Enter the path where you want to install Roxen CMS. You can use the Tab key for filename completion. 
+3.  Wait for the software to be installed. 
+4.  You are now prompted to create an Administration Interface. Enter the name, port URL and administrator name and password. The * character in the URL  is a placeholder for the host name and can be left unchanged. 
+5.  Decide whether you want to enable the Update Client in Roxen CMS. 
+6.  Finally, you are given the option to start the server. If you choose not to do this, use the start command in the roxen directory to do this manually. 
+
+Creating the web site and Editing web pages
+ 
+
+Please follow the instructions for Windows above.
+
+    	
+
+

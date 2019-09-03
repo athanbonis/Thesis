@@ -1,0 +1,286 @@
+DERIVING ONTOLOGY FROM DESIGN CASES Simeon Simoff and Mary Lou Maher Key Centre of Design Computing University of Sydney, NSW Australia 
+
+1. Knowledge Discovery from Design Cases 
+
+Since the early seventies considerable research in artificial intelligence (AI) have been focused on the implementation of various knowledge-base computing models, which was inspired by a common initial idea, namely, to formalise and represent human expertise in machine-oriented form, and employ it in computer support of human problem solving activities. Case-based reasoning is one of the techniques, which implements this idea. A "case" represents the experience accumulated during the solution of relevant problems in the past (Aamodt and Plaza, 1994). The collection of data forms the case base or case library. Past experience can be described in variety of forms, which span from a row or a number of rows in a database table to a number of volumes of documentation. Considering computer implementations of the CBR paradigm, the representation of cases requires an abstraction of the experience into a form that can be manipulated by the reasoner, where the reasoner comprises procedural or heuristic modules for retrieving and selecting relevant cases and for adapting a selected case for a new problem. Sometimes the reasoner is assumed to be the user, rather than a computational process. 
+
+Case-based reasoning, as a design process, is illustrated in Figure 1. A case library provides several examples of designs and the basis for finding relevant designs to a new design problem. A new design problem provides some information that serves as the basis for recalling one or more design cases. A selected design case can then be adapted to be a new design. The resulting new design can be added to the case library, allowing the library to grow with use. This accumulation of experience is considered as the machine learning part of case-based design computing model. 
+
+  Figure 1. Design process using case-based reasoning 
+
+  
+Design case representations - using informal representations to manage complexity 
+
+What exactly is denoted by a case and how it is represented are major issues in CBR. The application of case-based reasoning to structural design (Maher et al., 1995), has shown that in the early systems, attribute-value pairs and object-oriented representations were the dominating approaches to case representation. Similar to the rule-based systems, these representations have a limited expressive power. Case models based on hypermedia representations are alternatives to the strict format of object-oriented and attribute-value representations. The hypermedia representations comprise a collection of "natural" descriptions represented as text in free or table format and other multimedia data, such as images, video, sound, etc. Another characteristic of hypermedia is the use of links, where the links can connect information within a case, between different cases, or links to data that lies outside the case library. 
+
+Case-based design, as an information rich process, readily made the shift towards hypermedia case representations. However, reasoning algorithms are based on attribute-value representations. Therefore, hypermedia design cases include an additional structured layer, and case indexing and selection is still based on the comparison of attribute values. Following this paradigm, we have developed a hypermedia case library of buildings that focus on structural design. The library is referred to as SAM [HREF1], for its use in teaching Structures And Materials to undergraduate architecture students. In developing SAM, we consider the issues raised by the need to organise the material within a multimedia case library of structural designs, while presenting the material using multimedia. 
+
+Design in any domain usually involves the development and understanding of complex systems. A general approach to addressing domain complexity is the representation and reuse of parts of cases, typically organised as hierarchies of "subcases." This supports case-based reasoning because sub-dividing designs in this way allows reasoning to focus only on the relevant parts of a design. By processing only some of the knowledge associated with a case, reasoning can become more efficient. The development of a case-base that has a hierarchical structure usually requires defining a typical decomposition of a design experience. The representation of design cases in SAM follows the structural design principals that are taught in the Structures and Materials course. The overall organisation of design information falls into three categories: 
+
+* project information, 
+* functional decomposition of the structural design, and 
+* structural system types. 
+Figure 2 illustrates the decomposition of the library into separate cases (Figure 2a), and cases into subcases (Figure 2b). Each subcase is a separate web page. 
+  
+  	  	
+a. structure of the case site  	b. structure of the individual case  	
+Figure 2. Case site and individual case 
+
+Hypermedia case mining 
+
+The multimedia representation of design cases makes it easier for people to understand and reason about a case, but it does not support automated reasoning. Case retrieval is based on matching strings rather than based on reasoning about the concepts in common between the new design problem and previous designs. Case adaptation in a multimedia representation has no support from the CBR system other than provision of an editor so the person can edit a previous case to transform it to a new design. In order to address this, we consider knowledge discovery techniques to derive a formal representation from the multimedia representation of design cases. 
+
+Multimedia and hypermedia representation makes automated knowledge discovery and organization of discovered information difficult. Traditionally hypermedia representations are indexed manually on the basis of provided set of key words, page titles, image labels and other descriptions. This problem has been recognised in the Web research community where a recent research provides statistically rigorous comparative evaluation of several well-known indexing and search engines [HREF2]. 
+
+The general taxonomy of hypermedia case data mining is illustrated in Figure 3. The assumption is that the information in each case is organised as a set of pages. In our particular example the case has a pre-defined structure, i. e. a standard set of pages. The structure of a design case, as subcases where each subcase is a separate web page, lends itself to a first approximation as a set of objects. Here we present the case page text analysis, the most left branch, highlighted in the taxonomy on Figure 3, and the transformation from unstructured text format to ontology-based structured representation. Figure 3. Taxonomy of hypermedia case mining 
+
+2. Ontology as a structured form of knowledge representation 
+
+Researchers in artificial intelligence borrowed the term 'ontology' to delineate the part of the problem or domain relevant knowledge that can be computationally represented in a program. This broad view gave birth to variety of definitions of ontology which span from taxonomy of concepts, which defines the semantic interpretation of the relevant knowledge (Alberts 1993), to a formal explicit specification of a shared conceptualisation (Gruber, 1993; Borst, 1997). Thus, within a given domain ontology is not just a representation of that domain, but it also reflects some consensus about the knowledge in that domain (Studer, Benjamins and Fensel, 1998, p. 184). Agreeing to accept an ontology means committing to that ontology and its representational power. Therefore, we understand ontology as domain information model, comprehensible both by humans and computers. In agreement with this understanding we use a frame-oriented representation of ontology. 
+  
+3. Deriving ontology from design cases 
+
+We consider the case structure as a first approximation, i.e. we assume a taxonomy of terms that is equivalent to the decomposition of the design case. This taxonomy constitutes the backbone of our initial ontology. The role of the text analysis is to find the words that characterise the object that the web page describes. A simple text analysis takes the paragraphs in the subcase description and produces a set of words and their frequency of occurrence. These words are the source of properties and values for deriving the ontology. 
+
+Figure 4 shows a web page that describes the lateral load resisting system in a high rise building. We assume an object called Lateral Load Resisting System, and use a text analysis to find the properties of this object. Figure 4. Part of the Lateral Load Resisting system 
+
+The result of a text analysis, as illustrated below, provides a list of words in the description and their frequencies. The complete list for the Lateral Load Resisting System is shown in the Table 1. Below is an excerpt from the word list, sorted by frequency, excluding the stop words. 
+
+* words with higher occurrence (frequency > 10) 
+
+* lateral (15) 
+* load (13) 
+* loads (12) 
+* core (11) 
+
+* words with "midrange" occurrence (frequency between 6 and 10) 
+
+* system (8) 
+* floor (7) 
+* building (6) 
+* facade (6) 
+
+* words with low occurrence (frequency < 6 (for this illustration the lower bound is 4)) 
+
+* acting (4) 
+* resisting (4) 
+* structural (4) 
+* transferred (4) 
+* walls (4) 
+* wind (4) 
+
+Converting the list of words to properties and values requires establishing a relationship between words. In ontological engineering this step is done still manually. The complete automation of this process is below the scope of this paper. Here we present the initial steps of transformation from text to object definitions. We do this by looking for co-occurrence (the complete list is presented in Table 2), looking for word patterns such as "word" _is_ "word", and the association of a word with a number. Some properties are not adequately labeled with one word, such as "load path". The frequencies of the adjacency of these two words indicates a compound word as a property. In general, compound properties can have labels which consist of more than two words.  For compound properties we use word intersection between pairs of words from the list of co-occurrences, illustrated in Figure 5. The growth of the chain is restricted by stop words. We inspect word chains which consist only of nouns and adjectives. Figure 5. Finding compound properties. 
+
+The initial object definition derived from the text analysis of the web page is illustrated in Figure 6. It is generated on the basis of word frequencies, co-occurrences and adjacency of more than two words. Taking in account the compact description of the case we considered all words that have frequency non-less than 2. 
+  
+Subcase text 	List of words 	Object representation 	
+Lateral Load Resisting System Grosvenor Place Primary Structural System The lateral loads on this building arise mainly from wind pressure effects and their magnitudes increase with the height of the building. The lateral load resisting systems should not only have adequate strength and stiffness against lateral loads, but also be able to resist tendencies to become unstable due to toppling, sliding or uplift. The core forms the main lateral load resisting system for this building. The core is located centrally to the building and has outer walls with elliptical plan shape, and houses the lifts, toilets, kitchen areas and building services. The structural part of the core consists of the two outer elliptical walls tied together by a number of cross walls, all cast out of reinforced concrete and supported on a raft slab. The raft slab, that supports the core, is 2.7 m thick and has sufficient lateral dimension to prevent toppling of core due to lateral loads. The overall strategy for transferring lateral loads is to collect all the lateral loads acting on the facade and transfer them horizontally along planes at the floor levels to the main lateral load resisting element at the centre of the building. The load is then transferred in the vertical direction - along the shortest path - to the foundation. The strategy for overcoming the toppling effect is to use the dead load on the core to counteract the lateral load effects. The lateral load transferred to the floor planes by the secondary system is first picked up by the perimeter composite beam, spanning between the columns. The loads are then transferred horizontally by the floor system acting as a diaphragm to the central core. The floor system is stiffer along the sections where the main beams occur, and hence more of the loads will tend to flow along those sections. The loads that reach the core then flow down its walls to reach the raft slab, which then transfers and spreads the loads on to the foundation. Lateral load acting on core as an overturning moment. Secondary Structural System The secondary structural systems for carrying the wind load to the core include the facade and the composite floor system acting as a diaphragm. The floor to floor height is 3.5m and forms the shorter dimensions of typical facade panels. The strategy is thus to transfer the wind loads, applied normal to the facade, vertically and in the shorter direction along its facade. The wind load is first picked up by the glazing on the facade which then transfers the loads to the mullions to the spandrel beams and window frames, and the loads are then transferred to the core. This diagram shows a plan view of the lateral load path. This diagram shows the side view of the lateral load path.  	
+lateral -- 15 
+load -- 13 
+loads -- 12 
+core -- 11 
+system -- 8 
+floor -- 7 
+building -- 6 
+facade -- 6 
+acting -- 4 
+resisting -- 4 
+structural -- 4 
+transferred -- 4 
+walls -- 4 
+wind -- 4 
+main -- 3 
+path -- 3 
+raft -- 3 
+secondary -- 3 
+slab -- 3 
+strategy -- 3 
+toppling -- 3 
+beams -- 2 
+composite -- 2 
+diagram -- 2 
+diaphragm -- 2 
+direction -- 2 
+due -- 2 
+effects -- 2 
+elliptical -- 2 
+flow -- 2 
+forms -- 2 
+foundation -- 2 
+height -- 2 
+horizontally -- 2 
+outer -- 2 
+picked -- 2 
+plan -- 2 
+planes -- 2 
+reach -- 2 
+sections -- 2 
+shorter -- 2 
+shows -- 2 
+systems -- 2 
+transfer -- 2 
+transfers -- 2 
+view -- 2 
+which -- 2 
+adequate -- 1 
+against -- 1 
+applied -- 1 
+areas -- 1 
+arise -- 1 
+beam -- 1 
+become -- 1 
+between -- 1 
+carrying -- 1 
+cast -- 1 
+central -- 1 
+centrally -- 1 
+centre -- 1 
+collect -- 1 
+columns -- 1 
+concrete -- 1 
+consists -- 1 
+counteract -- 1 
+cross -- 1 
+dead -- 1 
+dimension -- 1 
+dimensions -- 1 
+eads -- 1 
+effect -- 1 
+element -- 1 
+frames -- 1 
+glazing -- 1 
+grosvenor -- 1 
+houses -- 1 
+include -- 1 
+increase -- 1 
+kitchen -- 1 
+levels -- 1 
+lifts -- 1 
+located -- 1 
+magnitudes -- 1 
+mainly -- 1 
+moment -- 1 
+more -- 1 
+mullions -- 1 
+normal -- 1 
+number -- 1 
+occur -- 1 
+overall -- 1 
+overcoming -- 1 
+overturning -- 1 
+panels -- 1 
+part -- 1 
+perimeter -- 1 
+place -- 1 
+pressure -- 1 
+prevent -- 1 
+primary -- 1 
+reinforced -- 1 
+resist -- 1 
+services -- 1 
+shape -- 1 
+shortest -- 1 
+should -- 1 
+side -- 1 
+sliding -- 1 
+spandrel -- 1 
+spanning -- 1 
+stiffer -- 1 
+stiffness -- 1 
+strength -- 1 
+sufficient -- 1 
+supported -- 1 
+supports -- 1 
+tend -- 1 
+tendencies -- 1 
+thick -- 1 
+tied -- 1 
+together -- 1 
+toilets -- 1 
+transferring -- 1 
+two -- 1 
+typical -- 1 
+unstable -- 1 
+uplift -- 1 
+use -- 1 
+vertical -- 1 
+vertically -- 1 
+where -- 1 
+window -- 1 
+2 -- 1 
+3 -- 1 
+5m -- 1 
+7 -- 1 
+----------------- 
+the -- 69 
+to -- 23 
+and -- 15 
+of -- 11 
+is -- 10 
+on -- 7 
+then -- 6 
+a -- 5 
+along -- 5 
+by -- 5 
+for -- 4 
+this -- 4 
+as -- 3 
+all -- 2 
+are -- 2 
+at -- 2 
+first -- 2 
+has -- 2 
+in -- 2 
+its -- 2 
+m -- 2 
+that -- 2 
+up -- 2 
+with -- 2 
+able -- 1 
+also -- 1 
+an -- 1 
+be -- 1 
+but -- 1 
+down -- 1 
+from -- 1 
+have -- 1 
+hence -- 1 
+not -- 1 
+only -- 1 
+or -- 1 
+out -- 1 
+their -- 1 
+them -- 1 
+those -- 1 
+thus -- 1 
+will -- 1 
+ 		
+ Figure 6. Object definition of Lateral Load Resisting System 
+
+At this stage we did not perform morphological analysis, thus some of the properties in the initial object definition can express relations between other properties of the same object. For example, property "Transferred" has been derived based on its frequency (4) and the fact that it is not a stop word. However, the manual examination of the context (the chain of words surrounding examined word - in this case we have selected no more than 5 words before and after the word in consideration) of "transferred" shows relations between properties like "Load" and "Floor_System". The 4 cases of occurrence of "transferred" are shown below. 
+The load is then transferred in the vertical direction 
+
+The lateral load transferred to the floor planes by 
+
+The loads are then transferred horizontally by the floor system 
+
+and the loads are then transferred to the core
+ 4. Conclusions and directions 
+
+The craftwork in ontology building is a very expensive empirical task. In this paper we have presented the application of text data mining methods for automating the initial step in ontology derivation. Current text data mining methods used the techniques, developed in text and content analysis. The paper shows the limitations of these techniques. There is a lack of formal methods for transfer from unstructured text description to structured representation. Even a simple step like the one presented in this paper involves considerable amount of hand crafting. However, increasing the size of the text does not necessarily means proportional increasing of the hand crafting involved. We expect an increase in the frequencies of the representative words and increase of the words with very low frequencies. The direction for further work includes the incorporation of morphological analysis and analysis of the information provided by the tags in the html document . 
+
+References 
+
+Aamodt, A. and Plaza, E. (1994). Case-based reasoning: Foundational issues, methodological variations and system approaches. AI Communications, 7(1), 39-59. 
+Alberts, L. K. (1993). YMIR: an Ontology for Engineering Design. University of Twente, Enschede. 
+Borst, W. N. (1997). Construction of Engineering Ontologies, PhD Thesis, University of Twente, Enschede. 
+Gruber, T. R. (1993). A translation approach to portable ontology specifications. Knowledge Acquisition, 5(2), 199-220. 
+Maher, M.L., Balachandran, B., Zhang, D.M. (1995). Case-Based Reasoning in Design, Lawrence Erlbaum Associates, New Jersey. 
+Minsky, M. (1975). A framework for representing knowledge. In P. H. Winston (ed.), The Psychology of Computer Vision, McGraw-Hill, New York. 
+Studer, R., Benjamins, V. R. and Fensel, D. (1998). Knowledge Engineering: Principles and methods. Data & Knowledge Engineering, 25 (1-2), 161-197. 
+  
+
+Web references 
+
+[HREF1] SAM - Case based design browser, http://www.arch.usyd.edu.au/kcdc/caut/index.html 
+[HREF2] Vernon Leighton, H.  and Srivastava, J.  (1997). Precision among WWW search services (search engines): Alta Vista, Excite, Hotbot, Infoseek, Lycos. www.winona.msus.edu/library/webind2/webind2.htm. 

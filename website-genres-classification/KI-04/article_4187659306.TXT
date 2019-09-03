@@ -1,0 +1,69 @@
+
+
+SDL Forum Society
+
+  
+
+What Is SDL?
+
+A full tutorial about SDL88 can be found here and a tutorial about SDL-92 can be found online here (and in PDF format here). Some introductory slides on SDL-2000 can be found here, and a set of powerpoint slides presented at the 2nd SAM work shop can be found here (and as a zipped pdf file here).
+
+SDL is a Specification and Description Language standardized as ITU (International Telecommunication Union) Recommendation Z.100. The key features of the language are: 
+
+the ability to be used as a wide spectrum language from requirements to implementation;	 
+
+suitability for real-time, stimulus-response systems;	 
+
+presentation in a graphical form;	 
+
+a model based on communicating processes (extended finite state machines)	 
+
+object oriented description of SDL components.	 
+
+Although SDL is widely used in the telecommunications field, it is also now being applied to a diverse number of other areas ranging over aircraft, train control, medical and packaging systems. SDL is a general purpose description language for communicating systems. The basis for description of behaviour is communicating Extended State Machines that are represented by processes. Communication is represented by signals and can take place between processes or between processes and the environment of the system model. Some aspects of communication between processes are closely related to the description of system structure. An Extended State Machine consists of a number of states and a number of transitions connecting the states. The machine start in a transition leading to an initial state.
+
+The language has been evolving since the first Z.100 Recommendation in 1980 with updates in 1984, 1988, 1992, 1996 and 1999. Object Oriented features were included in the language in 1992. This was extended in the latest version (SDL-2000) to give better support for object modelling and for code generation.
+
+NOTE: SDL-88, SDL-92 and SDL-2000 refer to versions of the standard; SDL '99 and SDL'01 refer to the 1999 SDL Forum and 2001 SDL Forum.
+
+Stability of the SDL language is an important attribute to users, and SDL-92 was effectively a superset of SDL-88. Therefore, any SDL that conforms to SDL-88 was also (with a few exceptions) valid SDL-92. However, SDL-92 has many advantages in the way that systems can be structured using object features of the language, and the most popular tools now support SDL-92 features. For SDL-2000, a different approach was taken.
+
+In 1996 a few updates were made to the language in an addendum to the SDL defined by the 1992 Z.100 standard. The addendum relaxed a number of rules for the language to make it easier to use in a even more flexible way.
+
+For SDL-2000, the opportunity was taken to remove some features that were not strongly supported by tools. Object modelling in SDL was strengthened and better support given for programming directly in SDL. In particular the data model was revised to give such features as global data and referenced data objects. The structuring features (blocks and processes) were harmonized into an agent concept. Support for ASN.1 was strengthened so that the use of ASN.1 modules with SDL no longer requires any change main body of the language. To enable these changes, a few elements of old SDL models may need a few changes for SDL-2000 tools, but the updates have been designed and documented for automatic tool conversion.
+
+For systems engineering SDL is usually used in combination with other languages: MSC, ASN.1 and TTCN. The use of the object model notation of SDL-2000 in combination with MSC, traditional SDL state models and ASN.1is a powerful combination that covers most aspects of system engineering. This set of notations meets criteria for UML. There has been work relating the SDL and TTCN semantic models, and the TTCN is used for testing validating standards and systems written using SDL. 
+
+These languages have been studied in the same group within the ITU, and therefore also come within the scope of the SDL Forum Society. ITU Z.105(11/99) and Z.107(11/99) standards define the use of SDL with ASN.1 The Z.109(11/99) standard defines a UML profile for SDL, and the Z.120(11/99) standard defines Message Sequence Charts.
+
+Results from the standards work
+
+A version of the November 1999 Recommendations are available through the Society to members. The definitive versions are published by ITU-T.
+
+The Society has been granted permission from ITU-T to distribute a version of the SDL-2000 and MSC-2000 Recommendations via its site.
+The SDL-2000 version can be found as a Zip file containing four MS Word 97 documents at:
+<ftp://membername:password@ftp.sdl-forum.org/SDL2000.zip>. 
+The MSC-2000 version can but found as a PDF document at
+<ftp://membername:password@ftp.sdl-forum.org/MSC2000.pdf> in pdf format, and 
+<ftp://membername:password:@ftp.sdl-forum.org/msc2000htm.zip> as a set of browser files.
+
+If you are a member but need the name/password combination mailto:admin@sdl-forum.org. 
+
+Society members can also participate in ongoing SDL and MSC standards work and therefore have access to all the latest documents, changes and corrections to SDL and MSC. 
+  
+Master list of corrections to Z.100 (from Addendum 1). 
+This is a PKzipped Word 6 file of the list of corrections to Z.100(10/93) bringing it up to the level of Addendum 1 to SDL-92 ("SDL-96").
+ The corrections are in section order.
+ Word 6 source: 133k; PKzipped file 49k.
+ The document is free to all. It does not cover changes for SDL-2000.
+ 
+
+ 
+
+Send mail to webmaster with questions or comments about this web site.
+Copyright © 1997 - 2003 SDL Forum Society
+
+Last update: 10/18/00
+
+if(MSFPhover) { MSFPnav1n=MSFPpreload("../MSC/_derived/index.htm_cmp_blueprnt110_hbtn.gif"); MSFPnav1h=MSFPpreload("../MSC/_derived/index.htm_cmp_blueprnt110_hbtn_a.gif"); } // --> if(MSFPhover) { MSFPnav3n=MSFPpreload("../Tools/_derived/index.htm_cmp_blueprnt110_hbtn.gif"); MSFPnav3h=MSFPpreload("../Tools/_derived/index.htm_cmp_blueprnt110_hbtn_a.gif"); } // --> if(MSFPhover) { MSFPnav5n=MSFPpreload("../_derived/ext1019_cmp_blueprnt110_hbtn.gif"); MSFPnav5h=MSFPpreload("../_derived/ext1019_cmp_blueprnt110_hbtn_a.gif"); } // --> 	
+

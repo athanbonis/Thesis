@@ -1,0 +1,54 @@
+Linux Kernel Configuration Archive [ Date Prev ][ Date Next ][ Thread Prev ][ Thread Next ][ Date Index ][ Thread Index ] Linux Kernel Configuration Archive To : kernelnewbies@nl.linux.org Subject : Linux Kernel Configuration Archive From : Jason Wies < jason@xc.net > Date : Tue, 9 Dec 2003 18:48:04 +0000 List-archive : < http://mail.nl.linux.org/kernelnewbies/ > List-help : < mailto:listar@nl.linux.org?Subject=help > List-owner : < mailto:riel@nl.linux.org > List-post : < mailto:kernelnewbies@nl.linux.org > List-software : Listar version 1.0.0 List-subscribe : < mailto:kernelnewbies-request@nl.linux.org?Subject=subscribe > List-unsubscribe : < mailto:kernelnewbies-request@nl.linux.org?Subject=unsubscribe > Original-Recipient : rfc822;kernelnewbies-archive@nl.linux.org Sender : kernelnewbies-bounce@nl.linux.org User-Agent : Mutt/1.3.28i Yet another site for the link page at kernelnewbies.org: http://kernel.xc.net/ - Linux Kernel Configuration Archive Allows you to browse the configuration for other architectures and previous versions. Also makes it easier to find the driver for a particular piece of hardware (or find one of those options that you can never remember where it is..). Keep up the good work. Jason -- Kernelnewbies: Help each other learn about the Linux kernel. Archive: http://mail.nl.linux.org/kernelnewbies/ FAQ: http://kernelnewbies.org/faq/ Prev by Date: Re: Doubt in implementing serial driver! Next by Date: accessing my modules functions from userspace Prev by thread: Re: Doubt in implementing serial driver! Next by thread: accessing my modules functions from userspace Index(es): Date Thread   --> 
+---------------------------------------------------------------------
+[Date Prev][Date Next][Thread Prev][Thread Next][Date Index][Thread Index] 
+
+Linux Kernel Configuration Archive
+
+---------------------------------------------------------------------
+
+* To: kernelnewbies@nl.linux.org 
+* Subject: Linux Kernel Configuration Archive 
+* From: Jason Wies <jason@xc.net> 
+* Date: Tue, 9 Dec 2003 18:48:04 +0000 
+* List-archive: <http://mail.nl.linux.org/kernelnewbies/> 
+* List-help: <mailto:listar@nl.linux.org?Subject=help> 
+* List-owner: <mailto:riel@nl.linux.org> 
+* List-post: <mailto:kernelnewbies@nl.linux.org> 
+* List-software: Listar version 1.0.0 
+* List-subscribe: <mailto:kernelnewbies-request@nl.linux.org?Subject=subscribe> 
+* List-unsubscribe: <mailto:kernelnewbies-request@nl.linux.org?Subject=unsubscribe> 
+* Original-Recipient: rfc822;kernelnewbies-archive@nl.linux.org 
+* Sender: kernelnewbies-bounce@nl.linux.org 
+* User-Agent: Mutt/1.3.28i 
+
+---------------------------------------------------------------------
+
+Yet another site for the link page at kernelnewbies.org:
+
+http://kernel.xc.net/ - Linux Kernel Configuration Archive
+
+Allows you to browse the configuration for other architectures and
+previous versions.  Also makes it easier to find the driver for a
+particular piece of hardware (or find one of those options that you
+can never remember where it is..).
+
+Keep up the good work.
+
+Jason
+--
+Kernelnewbies: Help each other learn about the Linux kernel.
+Archive:       http://mail.nl.linux.org/kernelnewbies/
+FAQ:           http://kernelnewbies.org/faq/
+
+---------------------------------------------------------------------
+
+* Prev by Date: Re: Doubt in implementing serial driver! 
+* Next by Date: accessing my modules functions from userspace 
+* Prev by thread: Re: Doubt in implementing serial driver! 
+* Next by thread: accessing my modules functions from userspace 
+* Index(es): 
+
+* Date 
+* Thread 
+
+

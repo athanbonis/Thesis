@@ -1,0 +1,174 @@
+  BODY       { font-family: verdana, arial, helvetica, sans-serif; }  INPUT.buyco      { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif; }  SELECT.buyco     { font-size: 10pt; margin: 0; padding: 0; font-family: verdana, arial, helvetica, sans-serif; }  OPTION.buyco     { font-size: 10pt; margin: 0; padding: 0; font-family: verdana, arial, helvetica, sans-serif; }  A.buyco       { color: #000066; text-decoration: underline; }  A.buyco:visited     { color: #000066; text-decoration: underline; }  A.buyco:hover     { color: #000066; text-decoration: underline; }  A.SEOlinks      { color: #000066; text-decoration: none; font-size: 11pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.SEOlinks:visited    { color: #000066; text-decoration: none; font-size: 11pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.SEOlinks:hover    { color: #000066; text-decoration: underline; font-size: 11pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.SEOlinksBox     { color: #000066; text-decoration: none; font-size: 10pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.SEOlinksBox:visited   { color: #000066; text-decoration: none; font-size: 10pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.SEOlinksBox:hover    { color: #000066; text-decoration: underline; font-size: 10pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.buycom      { color: #000066; text-decoration: underline; }  A.buycom:visited    { color: #000066; text-decoration: underline; }  A.buycom:hover     { color: #000066; text-decoration: underline; }  .question      { color: #FFFFFF; font-size: 10pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .questionNumber     { color: #FF9900; font-size: 18pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .mobilesQuestionNumber   { color: #FF0000; font-size: 18pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .formText      { color: #000066; font-size: 12pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .smallFormText     { color: #000066; font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .tinyText      { color: #000066; font-size: 8pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .prompt       { color: #FF9900; font-size: 11pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .mobileprompt     { color: #FF0000; font-size: 11pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .buycofooter     { color: #FF9900; font-size: 10pt; font-weight: bold; margin-left: 20px; font-family: Verdana, Arial, Helvetica, sans-serif; }  .smallnote      { color: #FF9900; font-size: 9pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .bcuPaddedSmallText    { COLOR: #000066; FONT-SIZE: 10pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; PADDING-TOP: 4px; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; }  A.footerLink     { color: #FF9900; font-weight: bold; }  A.footerLink:hover    { color: #FFFFFF; font-weight: bold; }  A.footerLink:visited   { color: #FF9900; font-weight: bold; }  A.footerLinkMobiles    { color: #FF0000; font-weight: bold; }  A.footerLinkMobiles:hover  { color: #FFFFFF; font-weight: bold; }  A.footerLinkMobiles:visited  { color: #FF0000; font-weight: bold; }  .resultline      { color: #000000; font-size: 10pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .resultlineNormal    { color: #000000; font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .noteTextSmall     { color: #000000; font-size: 9pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .tariffUpdate     { color: #FF9900; font-size: 9pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .resultHeader     { color: #FFFFFF; font-size: 11pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  .resultHeaderSmall    { color: #FFFFFF; font-size: 10pt; font-weight: bold; font-family: Verdana, Arial, Helvetica, sans-serif; }  H2.faqs       { color: #000066; font-family: verdana, arial, helvetica, sans-serif; }  H3.faqs       { color: #000066; border-bottom: 1px solid #000066; font-family: verdana, arial, helvetica, sans-serif; }  H4.faqs       { color: #000066; font-size: 13pt; font-family: verdana, arial, helvetica, sans-serif; }  H2.answer_popups    { color: #000066; font-size: 20pt; font-family: verdana, arial, helvetica, sans-serif; }  P.faqhead      { color: #000066; font-size: 12pt; font-weight: bold; margin-bottom: 0px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; }  P.faqheadSEO     { color: #000066; font-size: 15pt; font-weight: bold; margin-bottom: 10px; padding-bottom: 0px; font-family: verdana, arial, helvetica, sans-serif; }  P.answer      { color: #000066; font-size: 11pt; font-weight: normal; margin-left: 10px; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  P.header_box     { color: #000066; font-size: 12pt; font-weight: bold; margin-left: 18px; margin-right: 10px; margin-top: 10px; margin-bottom: 5px; font-family: verdana, arial, helvetica, sans-serif; }  P.answer_popups     { color: #000066; font-size: 10pt; font-weight: normal; text-align:justify; margin-left: 2px; margin-right: 2px; font-family: verdana, arial, helvetica, sans-serif; }  P.answerjustify     { color: #000066; font-size: 11pt; text-align:justify; font-weight: normal; margin-left: 10px; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  P.answerjustifySmall   { color: #000066; font-size: 9pt; text-align:justify; font-weight: normal; margin-left: 10px; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  P.answerSmallRoundBox   { color: #000066; font-size: 11pt; margin-left: 0px; margin-right: 0px; font-family: verdana, arial, helvetica, sans-serif; }  P.RebrokeForm     { color: #000066; font-size: 10pt; font-weight: normal; margin-left: 9px; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  P.faqnav      { color: #000066; font-size: 10pt; font-weight: normal; font-family: verdana, arial, helvetica, sans-serif; }  UL.faqs       { color: #000066; font-size: 11pt; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  UL.faqshead      { color: #000066; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  UL.answer      { color: #000066; font-size: 11pt; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  OL.answer      { color: #000066; font-size: 11pt; margin-right: 10px; margin-left: 35px; font-family: verdana, arial, helvetica, sans-serif; }  OL.answerjustifyBOX    { color: #000066; font-size: 10pt; text-align:justify; margin-right: 5px; margin-top: 10px; margin-bottom: 1px; margin-left: 23px; font-weight: normal; font-family: verdana, arial, helvetica, sans-serif; }   UL.answer_popups    { color: #000066; font-size: 10pt; text-align:justify; margin-right: 2px; font-family: verdana, arial, helvetica, sans-serif; }  UL,OL.answerjustify    { color: #000066; font-size: 11pt; text-align:justify; margin-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  UL.answerjustifyBOX    { color: #000066; font-size: 10pt; text-align:justify; margin-right: 5px; margin-top: 1px; margin-bottom: zpx; margin-left: 20px; font-weight: normal; font-family: verdana, arial, helvetica, sans-serif; }  A.faq       { color: #000066; text-decoration: none; }  A.faq:hover      { color: #000066; background: #AAD6E6; text-decoration: underline; }  P.shophead      { color: #000066; font-size: 11pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  A.mobilesQandA     { color: #000066; font-size: 10pt; text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; }  A.mobilesQandA:visited   { color: #000066; font-size: 10pt; text-decoration: underline; font-family: Verdana, Arial, Helvetica, sans-serif; }  A.mobilesQandA:hover   { color: #FF0000; font-size: 10pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .mobileheader     { color: #FFFFFF; font-size: 11pt; font-weight: bold; font-style: italic; font-family: verdana, arial, helvetica, sans-serif; }  .mobilesubhead     { color: #FFFFFF; font-size: 11pt; font-weight: normal; font-family: verdana, arial, helvetica, sans-serif; }  .utilHeader      { color: #FFFFFF; font-size: 10pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  .utilSubheader     { color: #FFFFFF; font-size: 10pt; font-weight: normal; font-family: verdana, arial, helvetica, sans-serif; }  .utilHeaderHigh     { color: #FF9900; font-size: 10pt; font-weight: bold; font-family: verdana, arial, helvetica, sans-serif; }  .CalculatorsHeadings   { color: #FF9900; font-size: 18pt; font-family: Verdana, Arial, Helvetica, sans-serif; }  .CalculatorsSubHeadings   { color: #FFFFFF; font-size: 9pt; font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-style: italic }  .sbutton      { color: #000066; background-color: #FF9900; font-size: 12pt; font-weight: bold; padding: 5px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUWhiteTextPadded    { font-size: 10pt; color: #FFFFFF; padding-left: 10px; padding-right: 10px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUOrangeTextPaddedBold  { font-size: 10pt; font-weight: bold; color: #FF9900; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUPaddedBlackText    { font-size: 10pt; color: #000000; padding-left: 10px; padding-right: 10px; padding-top: 10px; padding-bottom: 10px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUSmallHeadingsPaddedBold  { font-size: 14pt; font-weight: bold; padding-left: 10px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUMainSubHead     { font-size: 10pt; font-weight: bold; color: #FFFFFF; padding-left: 10px; padding-right: 10px; letter-spacing: 3px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUSubHeadingsPadded   { font-size: 12pt; font-weight: bold; color: #FFFFFF; padding-left: 10px; font-family: verdana, arial, helvetica, sans-serif; }  .BCUSubHeadingsPaddedSmall  { font-size: 9pt; font-weight: bold; color: #AAD6E6; font-style: italic; padding-left: 10px; font-family: verdana, arial, helvetica, sans-serif; }  DIV.BCUDark   { background-color: #000066; }  TD.BCUDark   { background-color: #000066; }  TD.BCUMedium  { background-color: #AAD6E6; }  TD.BCUMedium2  { background-color: #E9DABE; }  TD.BCULight   { background-color: #FFFFFF; }  TD.RoundBoxTop  { BORDER-TOP: #000000 1px solid; FONT-SIZE:1px; }  TD.RoundBoxLeft  { BORDER-LEFT: #000000 1px solid; }  TD.RoundBoxRight { BORDER-RIGHT: #000000 1px solid; }   TD.RoundBoxBottom { BORDER-BOTTOM: #000000 1px solid; FONT-SIZE:1px; }  P.BCUNav   { color: #FF9900; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 30px; padding-right: 30px; padding-top: 3px; padding-bottom: 3px; }  P.BCUNote   { color: #FFFFFF; font-size: 8pt; font-weight: bold;       font-family: verdana, arial, sans-serif;       padding: 3px; }  P.BCUSide   { color: #FFFFFF; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       margin-top: 0px; margin-bottom: 10px;       padding-left: 10px; padding-right: 10px; }  P.BCUSide1   { color: #FF9900; font-weight: bold; font-size: 10pt;       font-family: verdana, arial, sans-serif;       padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;       margin-bottom: 5px;       border-top: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; }  P.BCUSide2   { color: #FF9900; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;       margin-bottom: 10px;       border-top: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; }  P.BCUSideNote  { color: #FF9900; font-weight: normal; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-tobbom: 5px;       margin-bottom: 10px; }  P.BCUBoxTitle  { color: #000066; font-weight: bold; font-size: 10pt;       font-family: verdana, arial, sans-serif;       text-align: center; padding: 3px; }  P.BCUBoxTitleSEO { color: #000066; font-weight: normal; font-size: 16pt;       font-family: verdana, arial, sans-serif;       text-align: center; padding: 3px; }  P.BCUBody   { color: #000000; font-size: 8pt;       margin-top: 0px; margin-bottom: 5px; }  H1.BCUHeadline  { color: #FF9900; font-size: 16pt; font-weight: normal;  margin: 10px;  font-family: verdana, arial, sans-serif; }  P.BCULink   { color: #000066; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 10px; padding-right: 10px; margin-top: 0px; margin-bottom: 5px; }  P.SEOpages   { color: #000066; font-weight: bold; font-size: 9pt;       font-family: verdana, arial, sans-serif;       padding-left: 12px; padding-right: 10px; margin-top: 0px; margin-bottom: 5px; }  A.SEOpages:link  { color: #000066; text-decoration:none; font-weight: bold; font-size: 9pt; font-family: verdana, arial, sans-serif; }  A.SEOpages:visited { color: #000066; text-decoration:none; font-weight: bold; font-size: 9pt; font-family: verdana, arial, sans-serif; }  A.SEOpages:active { color: #000066; text-decoration:none; font-weight: bold; font-size: 9pt; font-family: verdana, arial, sans-serif; }                   A.SEOpages:hover { color: #FF9900; text-decoration:underline; font-weight: bold; font-size: 9pt; font-family: verdana, arial, sans-serif; }   P.BCULinkNoBullet { color: #000066; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 19px; padding-right: 10px; margin-top: 0px; margin-bottom: 0px; }  P.BCULinkSupplier { color: #000066; font-weight: bold; font-size: 8pt;       font-family: verdana, arial, sans-serif;       padding-left: 10px; padding-right: 10px; margin-top: 5px; margin-bottom: 0px; }              P.BCUChart   { color: #000000; font-size: 8pt; margin: 0px;       font-family: verdana, arial, sans-serif; }  A.BCULink   { color: #000066; text-decoration: underline; font-weight: bold; }  A.BCULink:visited { color: #000066; text-decoration: underline; font-weight: bold; }  A.BCULink:active { color: #000066; text-decoration: underline; font-weight: bold; }  A.BCULink:hover  { color: #000066; text-decoration: underline; font-weight: bold; }  A.BCUSide   { color: #FFFFFF; text-decoration: none; }  A.BCUSide:visited { color: #FFFFFF; text-decoration: none; }  A.BCUSide:active { color: #FF9900; text-decoration: underline; }  A.BCUSide:hover  { color: #FF9900; text-decoration: underline; }  A.BCUNav:link  { color: #FF9900; text-decoration: none; }  A.BCUNav:visited { color: #FF9900; text-decoration: none; }  A.BCUNav:active  { color: #FFFFFF; text-decoration: underline; }  A.BCUNav:hover  { color: #FFFFFF; text-decoration: underline; }  SELECT.BCUSide  { font-size: 8pt; font-family: verdana, arial, sans-serif; }  input.submt   { margin-top: 2px; font-weight: bold; font-size: 14px; margin-bottom: 1px; width: 130px; cursor: hand; color: #000066; border-top-style: 1px; font-family: Arial, sans-serif; border-right-style: 1px; border-left-style: 1px; background-color: #FFFFFF; border-bottom-style: 1px }  input.req   { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FEE0E0; text-align: left }  input.nonreq  { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FFFFFF; text-align: left }  textarea.txtnonreq { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FFFFFF; text-align: left }  textarea.txtreq  { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FEE0E0; text-align: left }  .slNonReq   { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FFFFFF; text-align: left }  .ComboReq   { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FEE0E0; text-align: left }  .ComboNonReq  { border-right: #000066 1px solid; border-top: #000066 1px solid; margin-top: 2px; font-weight: bold; font-size: 12px; margin-bottom: 2px; border-left: #000066 1px solid; color: #000066; border-bottom: #000066 1px solid; font-family: Arial, sans-serif; background-color: #FFFFFF; text-align: left }     
+          	          	          	                    	 	 	
+ 	
+          Home        About buy.co.uk        Contact Us   
+
+Cut Your Bills
+
+Gas     & Electricity
+
+Home     Phone
+
+Digital     TV
+
+Mobile Phones
+
+Water
+
+Personal Finance
+
+Personal Loans
+
+Credit Cards
+
+Insurance
+
+Mortgages
+
+Life Assurance
+
+Credit     Checking
+
+ 
+
+Shopping
+
+Select a category
+      
+Components
+      
+Computers
+      
+Computing
+      
+Gaming
+      
+Golf
+      
+Home       appliances
+      
+New       products
+      
+Peripherals
+      
+Phones
+      
+Personal       Audio
+      
+Personal       Care
+      
+Photography
+      
+Sound
+      
+Sound       & Vision
+      
+Vision
+     
+        
+
+buy.co.uk meets the energywatch     code   
+
+ 
+
+Gas & electricity
+
+Want to cut the cost of your gas and electricity bills?     
+
+Save an average of �140 by switching providers today.
+
+ Calculate gas and electricity savings
+
+Mortgages
+
+Do mortgages confuse you? Minimise stress by comparing thousands of mortgages with our independent calculator, and read our definitive guides.     
+
+ Find the best mortgage for you
+
+Top product
+
+Save up to 37%
+Our energy-saving boilers could save you up to 37% on your heating bills.
+
+ Click here
+
+Energy Efficiency
+
+Save £££s on your energy bills
+It's criminal to waste energy. Did you know your home could be stealing money from right under your nose? Click here to save £££s today.
+
+ Click here
+
+Find out more...
+
+Read Buy.co.uk's editorial guide to:     
+
+ Gas & electricity
+
+ Home Telephone
+
+ Energy Suppliers
+
+ Credit Cards
+
+ Loans
+
+Home phone
+
+Cut the cost of your home phone calls by 90%! Compare prices, select the best value deal and switch today!     
+
+ Calculate phone call savings
+
+*new* Mobile phones *new*
+
+Looking for a new mobile phone? Whether you need a contract or pay-as-you-go deal, buy.co.uk has got the perfect phone for you.     
+
+ Find the best mobile deal
+
+Credit cards
+
+Whether you are looking for the lowest introductory rates, best cash-back offers, or balance transfers, compare options and find the best deal here!     
+
+ Credit card comparisons
+
+Personal loans
+
+Compare the banks, building societies and independent lenders available to you with our impartial loan service.     
+
+ Compare loans online
+
+Insurance
+
+Work out the best car and home deals for you from our extensive panel of insurers and sign up online.     
+
+ Click here for a quote
+
+ Retrieve a saved quote
+
+Life Assurance
+
+We check hundreds of quotes daily to choose the cheapest life insurer for your needs.     
+
+ Life Assurance quote
+
+ Savings tables
+
+ Joint Policy Comparison
+
+Credit checking
+
+Calculate your free checkmyfile.com credit score online in seconds...     
+
+ Check your credit score
+
+Shopping
+
+Compare a wide range of consumer goods by price and product specification     
+
+ Compare shopping products
+
+� Buy.co.uk Limited 2004
+
+Disclaimer               Privacy and Cookie Policy               Advertising         
+
+

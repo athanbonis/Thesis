@@ -1,0 +1,158 @@
+ 
+     
+    
+
+           
+       Macintosh Underground
+ 
+Profile | Register | FAQ | Home | Search        	          
+       Members | User Groups | LoGin-Out 	          
+
+Help with Safari/Explorer     	
+
+   	     Macintosh Underground Forum Index  -> Security & Hacking	 
+ 
+  View previous topic :: View next topic  	    
+  Author   Message   
+  captain_napalmJunior MemberJoined: 13 Dec 2003Posts: 20	      
+    Posted: December 23, 2003, 10:29 pm    Post subject: Help with Safari/Explorer	     	      
+    
+---------------------------------------------------------------------
+
+My friend has safari 1.0 installed on his mac. I was recently using it, and found a clutter of old websites poping up in the text bar. So, I cleared his history. They still appeared. I reset Safari. Still there. I tried internet explorer, and the same problem occured. My friend has gotten in trouble with his parents in the past for "bad habits" in the past, but my friend claims they are not technologcally advanced enough to install spyware. However, I have my doubts. If this is spyware, how can where can the extension/keylogger file be found?	      
+
+Back to top	      
+         
+
+LarryParadiseFull MemberJoined: 04 Nov 2003Posts: 54Location: New Brunswick, Canada	      
+    Posted: December 24, 2003, 2:47 am    Post subject: 	    	      
+    
+---------------------------------------------------------------------
+
+You can get a spyware detector from these guys http://macscan.securemac.com/ . But you are probably right about the parents. Maybe you could give a bit more description on where this stuff is showing up.	      
+
+Back to top	      
+         
+
+forceflow501Full MemberJoined: 23 Nov 2003Posts: 138Location: New York	      
+    Posted: December 25, 2003, 3:20 pm    Post subject: 	    	      
+    
+---------------------------------------------------------------------
+
+try resetting the cache as well. it stores websites u vists often images, and other things so the pages load faster. u could also try deleting safari and all support files and the like and geting a new copy. theforce_________________heres to the crazy ones. the misfits. the rebels. the troublemakers. the round pegs in the square holes. the ones who see things differently. theyre not fond of rules.	      
+
+Back to top	      
+         
+
+WurdBendurFull MemberJoined: 13 Dec 2003Posts: 67	      
+    Posted: December 25, 2003, 10:28 pm    Post subject: 	    	      
+    
+---------------------------------------------------------------------
+
+Clearing the history won't help. It's used for one thing only, and that's for going back to sights you've been to recently, like the History menu in Safari and the history bar in IE. The URLs you want to get rid of are stored in the cache, I think._________________-----BEGIN GEEK CODE BLOCK----- Version: 3.12 GAT/FA/O d s-:++ a18 C++++ U*+++ P L+ E- W+++ N o? K? !w--- !O M++ V? PS+ PE- Y- PGP t--- 5- X? R+++* tv- b+ DI+++++ D++ G e* h! r-- !y-** ------END GEEK CODE BLOCK------	      
+
+Back to top	      
+         
+
+HackenslackerSenior MemberJoined: 02 Jun 2002Posts: 1630	      
+    Posted: December 27, 2003, 1:51 pm    Post subject: 	    	      
+    
+---------------------------------------------------------------------
+
+Safari uses the History for Auto-fill, which I think is what the problem is. If, after clearing the History (History menu > Clear History), the location bar still auto-fills with the links, look through all the bookmarks (Bookmarks menu > Show All Bookmarks). Find and delete the naughty bookmarks.	      
+
+Back to top	      
+     else   document.write('	 	');     //-->	      
+
+Display posts from previous: 
+All Posts
+
+1 Day
+
+7 Days
+
+2 Weeks
+
+1 Month
+
+3 Months
+
+6 Months
+
+1 Year
+
+ 
+Oldest First
+
+Newest First
+
+ 
+
+   	     Macintosh Underground Forum Index  -> Security & Hacking	  All times are GMT - 8 Hours  	
+ Page 1 of 1	 
+
+   	  
+  Jump to: 
+
+Select a forum
+
+ 
+
+Hackintosh
+
+----------------
+
+Denial of Service ...aka DoS
+
+Mac Support
+
+Mac OS X
+
+Programming/Open Source
+
+Servers [FC, Hotline, IRC, FTP]
+
+General Discussion
+
+Cryptography
+
+Security & Hacking
+
+Phreaking
+
+ 
+
+Macintosh Underground BBS
+
+----------------
+
+News from Moderators
+
+Suggestions/Complaints
+
+ 
+
+International
+
+----------------
+
+discussion en francais sur le hacking sur mac
+
+Nederlands underground forum
+
+Underground Italiano del Mac
+
+Deutsches Underground Forum
+
+Japanese Hackintosh
+
+Svenskt Mac Underjords Forum
+
+Foro en Español Underground
+
+ 
+
+You cannot post new topics in this forumYou cannot reply to topics in this forumYou cannot edit your posts in this forumYou cannot delete your posts in this forumYou cannot vote in polls in this forum	 
+Powered by phpBB 2.0.6 � 2001 phpBB Group | Hacking News
+Template created by Stefan Paulus | phpbb2-users.de   	 
+

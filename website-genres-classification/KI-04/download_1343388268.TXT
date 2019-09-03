@@ -1,0 +1,55 @@
+             Multiplatform IRC Client        Version Tracker:      Fedora 2.0.7-0      Windows 2.0.7      Source 2.0.7           
+* News    
+* About    
+* Screenshots    
+* Download    
+* Documentation    
+* Scripts/Plugins    
+* Bugs/CVS    
+* Mailing List    
+* FAQ    
+* Contact   
+  
+  
+
+Local Chat Lines
+localchatlines.com   
+
+Download Source Code
+
+The Source Code package will work on any Linux distribution which has GTK+, just follow the instructions in the Compiling and Installing page. If you are using RedHat, make sure you also have the gtk2-devel*.rpm installed. 
+
+Source Tarballs v2.0 (for GTK 2.0 and 2.2) 
+
+Downloads at SourceForge 
+
+CVS Access 
+
+Browse the directory manually
+
+Precompiled Binaries (not all may be up to date)
+
+RPMs for Fedora Linux 
+
+Windows version 
+
+RPMs at www.rpmfind.net (offsite) 
+
+Mandrake RPMs (offsite) 
+
+More Mandrake RPMs (offsite) 
+
+SuSE 9.0 RPMs (offsite) 
+
+Slackware packages (offsite) 
+
+FreeBSD ports collection (offsite) 
+
+MacOSX packages at fink.sourceforge.net (offsite) 
+
+MacOSX/Darwin packages at opendarwin.org (offsite) 
+
+MacOSX/Darwin ports at opendarwin.org (offsite) 
+
+Copyright © 1998-2003 Peter Zelezny. This file last updated Sun Dec 7 04:39:12 CET 2003   
+

@@ -1,0 +1,72 @@
+
+
+ 
+ 	
+ 
+
+introduction 
+
+information 
+what is it 
+what's new 
+what it can do 
+what's for the future 
+who's using it 
+
+images & movies 
+images 
+movies 
+other users' galleries 
+Luc Bianco's gallery 
+
+download & support 
+download Terragen 
+register Terragen 
+official user guide 
+user group / list 
+resources 
+
+info for developers 
+developer section 		
+
+Download Terragen&trade; for Windows
+
+Most recent uploads:
+v0.9.19 full install, on 24th November 2003
+v0.9.19 update, on 24th November 2003
+
+Terragen runs on Microsoft Windows XP, Me, 2000, NT4, 98, 95 (for Intel/AMD & compatibles)
+Please see the product page for more information on system requirements.
+ 
+
+Download Terragen for Windows
+
+By installing or using the software you agree to the terms and conditions in the License Agreement that is presented to you when you run the installation program. 
+
+Terragen is free for personal non-commercial use. In this case registration is optional, but it entitles you to additional benefits and removes the restriction on image size. 
+
+For commercial use as described in the License Agreement, registration is required beyond the initial trial period. This also entitles you to additional benefits and removes the restriction on image size. Terragen is free during the initial trial period. 
+
+Install Terragen v0.9.19 (2.81 Mb)
+Full installer for Terragen v0.9.19.
+We recommend that you uninstall previous versions of Terragen before running this installer.
+Terragen can be uninstalled with "Add/Remove Programs" in Windows' Control Panel.
+
+Update to v0.9.19 (656 Kb)
+Only use the Update if you already have Terragen installed on your computer.
+You should install to the same folder as previous versions, or you will need to manually update shortcuts (and copy your key file if applicable) to the new location. 
+Please note : Please do not mirror the Terragen downloads. We have found this leads to older versions being available which can cause problems for users. We would prefer it if you simply linked to this page. If you would like to become an official Terragen mirror, please contact us.
+ 
+
+Animation tools
+
+Terragen can be made to render sequences of frames which can later be compiled into animations. To do this, Terragen reads script files which describe the motion of the camera and other parameters. Third-party software is available to help generate animation scripts. See the resources page. 	
+
+---------------------------------------------------------------------
+
+terragen start page - planetside front page - privacy policy - email terragen@planetside.co.uk 
+
+Terragen, this site and its contents (except where noted) are all copyright © 1998-2004 Planetside Software, contact@planetside.co.uk
+Terragen is a trademark of Planetside Software. All other trademarks are the property of their respective owners
+ 	
+

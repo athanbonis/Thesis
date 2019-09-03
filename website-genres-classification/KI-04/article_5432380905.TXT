@@ -1,0 +1,277 @@
+Browse and Search the Library Home : Math Topics : Geometry : Algebraic Geom. Library Home || Search || Full Table of Contents || Suggest a Link || Library Help Selected Sites (see also All Sites in this category ) Algebraic Geometry - Dave Rusin; The Mathematical Atlas A short article designed to provide an introduction to algebraic geometry, which combines the algebraic with the geometric for the benefit of both. Thus the recent proof of "Fermat's Last Theorem" - ostensibly a statement in number theory - was proved with geometric tools. Conversely, the geometry of sets defined by equations is studied using quite sophisticated algebraic machinery. This is an enticing area but the important topics are quite deep. This area includes elliptic curves. Applications and related fields and subfields; textbooks, reference works, and tutorials; software and tables; other web sites with this focus. more>> The Algebraic Geometry Notebooks - Aksel Sogstad For non-experts. Contents: What is algebraic geometry?; What can algebraic geometry be used for?; Classification of curves in the Weierstrass familiy; Bezout's Theorem; Varieties, orbits and orbit-spaces; Automatic theorem proving using Singular. more>> All Sites - 97 items found, showing 1 to 50 A 27-Vertex Graph That Is Vertex-Transitive and Edge-Transitive But Not 1-Transitive - Peter Doyle Hypertext and Postscript versions of a paper describing a 27-vertex graph that is vertex-transitive and edge-transitive but not 1-transitive. While all vertices and edges of the graph are similar, there are no edge-reversing automorphisms. ...more>> Advanced Geometry - Math Forum Links to some of the best Internet resources for advanced geometry: Web sites, software, Internet projects, publications, and public forums for discussion. ...more>> AG Algebraic Geometry (Front for the Mathematics ArXiv) - Univ. of California, Davis Algebraic Geometry preprints, from the U.C. Davis front end for the xxx.lanl.gov e-Print archive, a major site for mathematics preprints that has incorporated many formerly independent specialist archives. Search by keyword or browse by topic. ...more>> AGATHOS - Algebraic Geometry: A Total Hypertext Online System - Kevin R. Coombes; Department of Biostatistics, University of Texas M.D.Anderson Cancer Center This course assumes that the reader has completed a year-long graduate course in abstract algebra. It can be approached as a linear text, a list of interesting examples, a list of important theorems in algebraic geometry, key concepts, or exercises that ...more>> Algebraic Curves - Silvio Levy; The Geometry Center Curves that can be given in implicit form as f(x,y)=0, where f is a polynomial, are called algebraic. This site provides an overview, with illustrations. ...more>> Algebraic Geometry - Peter Stiller; Dept. of Mathematics & Computer Science, Texas A&M Univ. This page answers the question, "What is Algebraic Geometry?" - a subject with historical roots in analytic geometry, concerned with the geometry of the solutions of a system of polynomial equations. With a link to a bibliography of related publications. ...more>> Algebraic Geometry Seminar - Michael Harrison; Univ. of Washington Online notes for a seminar, including handouts in dvi and postscript formats, solutions to the problems in Chapter 1 of Hartshorne's Algebraic Geometry, and notes on algebraic geometry by Professor J. S. Milne, Univ. of Michigan. ...more>> Algebraic Geometry - Tayler Jarvis A page of links to general algebraic geometry sites, sites on algebraic curves, algebraic surfaces, algebraic geometers and the like, and related sites. ...more>> Algebraic Number Theory and Elliptic Curves - Ghitza, Osserman; Massachusetts Institute of Technology A semester-long seminar giving a rapid introduction to algebraic number theory and elliptic curves. Topics: Dedekind domains, rings of integers, scheme-theoretic curves, finite morphisms thereof, splitting and ramification, the Tchebotarov density theorem ...more>> Algebraic Number Theory Archives - Boston, Grayson Preprints about algebraic number theory and arithmetic geometry are accepted in electronic form for storage until publication. There are instructions for authors who wish to submit preprints to the archives and for for joining the mailing list (members ...more>> Algorithms for Modular Elliptic Curves - John Cremona View parts of the second edition of the book, with introduction, tables and software. Download the errata list for the second edition, available as a dvi file or a postscript file. ...more>> Analytic and Descriptive Geometry - Dave Rusin; The Mathematical Atlas An introduction to ordinary analytic geometry as studied in secondary school. (Also included here is a rather lengthy analysis of a result known as Poncelet's Porism.) History; applications and related fields and subfields; textbooks, reference works, ...more>> Arbeitsgruppe Bachem/Schrader - University of Köln A working group of the Center for Parallel Computing (ZPR) at Köln. Site includes a list of members and contact address; informative write-ups on its projects, some in English. Topics include: Basic Research (meaning "pure" as opposed to "applied"); ...more>> Arithmetic Algebraic Geometry (AAG) - Training and Mobility of Researchers; European Community A partnership of 12 working groups from 5 European countries (England, France, Germany, Italy, Spain) working to develop methods taken from geometry to study the arithmetical properties of algebraic equations. Main research themes: p-adic cohomology theory; ...more>> arXiv.org e-Print archive - Los Alamos National Laboratory (LANL) A major site for mathematics preprints that has incorporated many formerly independent specialist archives including alg-geom, funct-an, dg-ga, q-alg, auto-fms, cd-hg, MAGNUS, Several Complex Variables, Logic E-prints, Commutative Algebra, Dynamical Systems, ...more>> Automated Deduction - William McCune Research on applications of automated deduction to problems in abstract algebra and algebraic geometry, algorithms and strategies for searching for proofs and for counterexamples, high-performance implementation of automated deduction algorithms, and ...more>> Automorphic Forms and Representations Virtual Study Group - Michael Harrison A virtual study group formed to explore the Langland's Program by reading Automorphic Form and Representations by Daniel Bump. ...more>> Basic Geometry of Voting - Donald G. Saari A book that offers a large number of new results about voting theory, its emphasis purposely placed on three candidate settings so that the book can be read by almost everyone. (With four or more candidates, the results need more advanced mathematical ...more>> Bibliography for Automorphic and Modular Forms, L-Functions, Representations, and Number Theory - Paul Garrett A 1996 bibliography compiled for the author's Ph.D. students at the University of Minnesota. ...more>> The Birch and Swinnerton-Dyer Conjecture - Clay Mathematics Institute A Clay Mathematics Institute Prize problem, with a description in pdf format by Andrew Wiles. The conjecture addresses the problem of enumerating rational points, such as on elliptic curves. ...more>> Books: Professional & Technical: Professional Science: Mathematics - Amazon.com Browse bestselling math books from the Professional and Technical Bookstore at Amazon.com, in such categories as Applied; Chaos & Systems; Geometry & Topology; Mathematical Analysis; Mathematical Physics; Number Systems; Pure Mathematics; Transformations; ...more>> Calabi-Yau Homepage - Sheldon Katz A page of information about Calabi-Yau manifolds: threefolds, fourfolds, software. ...more>> Categorical Geometry - Zhaohua Luo See a brief tour of categorical geometry, which studies the geometric properties of unitary categories. The categorical approach to algebraic geometry was initiated by Yves Diers in his pioneer book Categories of Commutative Algebras (Oxford University ...more>> Counting Points on Elliptic Curves - Fouquet, Harley, Gaudry, Morain The authors, Ph.D. students at the Laboratoire d'informatique de l'École polytechnique, Paris, have established new records for point counting in characteristic 2, using a new algorithm due to Takakazu Satoh. ...more>> Course Notes - J. S. Milne Full course notes in dvi, pdf, and postscript formats for all the advanced courses J. S. Milne taught at the University of Michigan between 1986 and 1999: Group Theory; Fields and Galois Theory; Algebraic Number Theory; Class Field Theory; Modular Functions ...more>> David Pollack Download the author's thesis, "Explicit Hecke Actions on Modular Forms" (Harvard, 1998) in DVI format. ...more>> Diophantine geometry in characteristic p: a survey - José Felipe Voloch An article that appeared in Arithmetic Geometry, F. Catanese, ed., Symposia Mathematica XXXVII, Cambridge Univ. Press, 1997, pp. 260-278. Introduction; Curves; Abelian varieties and their subvarieties; Diophantine Approximation in characteristic p; Omitted ...more>> Discrete and Computational Geometry - Springer-Verlag An international journal of mathematics and computer science that accepts research articles of high quality in discrete geometry and on the design and analysis of geometric algorithms; more specifically, DCG publishes papers on such topics as configurations ...more>> EAGER (European Algebraic Geometry Research Training Network) - Wolfram Decker The members of EAGER are algebraic geometers in mathematical centres spreading among most European countries. These centres are grouped into twelve geographical nodes which are responsible for the management of joint research projects and for the training ...more>> The ECMNET Project - Charron, Daminelli, Granlund, Leyland, Zimmermann The goal of the ECMNET Project is to find large factors using the elliptic curve method, mainly Cunningham numbers. ...more>> Elliptic Curve Discrete Logarithms (ECDL) Project - Robert Harley; 4K Associates The Project has solved ECC2K-108. ...more>> Elliptic Curves and Cryptography - Andreas Enge Includes the test of the author's introductory book on elliptic curves and their applications in cryptography. Also links to further publications; the personal pages of number theorists and cryptographers; and companies, organisations and miscellaneous ...more>> Elliptic Curves and Cryptology - Marc Joye Links to elliptic curve resources: people (an extensive list of personal pages), bibliography, software, and links to relevant Web pages. Many preprints are available from the site. ...more>> Elliptic Curves and Elliptic Functions - Charles Daney From The Mathematics of Fermat's Last Theorem. With a glossary; contents include: What is an elliptic curve?; The group structure of an elliptic curve; Arithmetic on elliptic curves; Further basic concepts and results. ...more>> Elliptic Curves and Formal Groups - Lubin, Serre, Tate Lecture notes from a seminar, part of the Lecture notes prepared in connection with the seminars held at the Summer Institute on Algebraic Geometry, Whitney Estate, Woods Hole, Massachusetts, July 6-July 31, 1964. ...more>> Elliptic Curves and Right Triangles - Karl Rubin; Stanford University Slides (GIF) of lectures. ...more>> Elliptic Curves - Dave Rusin; The Mathematical Atlas An area of algebraic geometry that deals with nonsingular curves of genus 1 - in English, solutions to equations y^2 = x^3 + A x + B. It has important connections to number theory and in particular to factorization of ordinary integers (and thus to cryptography). ...more>> Elliptic Curves II - Johan P. Hansen; Dept. of Mathematics, Ny Munkegade, Aarhus Lecture notes in English and German, a continuation of the course: "Elliptic curves over Q and C," on modular forms and elliptic curves. ...more>> Elliptic Curves - Stéfane Fermigier A collection of links to research articles on elliptic curves and related topics (applications, modular forms, Fermat's last theorem). ...more>> Euler Systems - Karl Rubin One of the most exciting new subjects in Algebraic Number Theory and Arithmetic Algebraic Geometry is the theory of Euler systems. Euler systems are special collections of cohomology classes attached to p-adic Galois representations. Here, in the first ...more>> Explicit Approaches to Modular Abelian Varieties - William Stein Stein's Ph.D. thesis (Berkeley, 2000). An investigation of the Birch and Swinnerton-Dyer conjecture, which ties together the constellation of invariants attached to an abelian variety. The author attempts to verify this conjecture for certain specific ...more>> Front for the Mathematics ArXiv - Univ. of California, Davis U.C. Davis front end for the xxx.lanl.gov e-Print archive, a major site for mathematics preprints that has incorporated many formerly independent specialist archives including alg-geom, funct-an, dg-ga, q-alg, auto-fms, cd-hg, MAGNUS, Several Complex ...more>> Geometric Algorithms - Susan Landau; Univ. of Massachusetts at Amherst Landau's interest in geometric algorithms has been in problems of an algebraic flavor: computer-aided design, robotics, and other geometric-related applications that have created a need for methods for embeddings, visualization, and algorithms for construction ...more>> Geometry and Topology: Recent Papers 1989-1993 - Univ. of Melbourne, Australia A bibliography of e-prints from the Dept. of Mathematics and Statistics, Univ. of Melbourne, Australia. ...more>> Helena A. Verrill - Dept. of Mathematics, University of Copenhagen, Denmark Links to Mathematics papers (Root lattices and pencils of varieties; The L-series of certain Calabi-Yau threefolds; Some congruences related to modular forms; Picard-Fuchs equations of some families of elliptic curves; On modular mod l Galois representations ...more>> The history of voting - MacTutor Math History Archives Linked essay on the history of electoral systems. ...more>> Homogeneous Transformation Matrices - Daniel W. VanArsdale Explicit n-dimensional homogeneous matrices for projection, dilation, reflection, shear, strain, rotation and other familiar transformations. ...more>> How to Fix an Election - Ivars Peterson (MathTrek) Voting sounds like a simple matter. Just pick a candidate, then count the ballots and announce the tally. When there are three or more candidates (or choices), however, the results may not actually reflect the true preferences of the voters. Suppose ...more>> Ideals, Varieties, and Algorithms - Cox, Little, O'Shea An introduction to computational algebraic geometry and commutative algebra at the undergraduate level, with discussions of systems of polynomial equations ("ideals"), their solutions ("varieties"), and how these objects can be manipulated ("algorithms"). ...more>> Innovative Teaching of Mathematics - ITM 2003 - Eckhard Hitzer September 20-21, 2003, Research Institute for Mathematical Sciences, Kyoto, Japan. An international symposium with an explicit focus on Clifford geometric algebra for teaching. A second major focus is to present new ways of innovative cooperation between ...more>> Page: 1 2 [ next> ] Search for these keywords: Click only once for faster results: all keywords, in any order at least one, that exact phrase parts of words whole words Choose a Math Topic all math topics algebra analysis arithmetic/early math calculus (single variable) calculus (multivariable) communicating math differential equations discrete math dynamical systems general geometry history and biography logic/foundations number theory numerical analysis operations research pre-calculus probability/statistics topology applications/connections algebraic geometry all math topics Choose a Math Education Topic all math education topics teaching issues/strategies assessment/testing general programs/approaches materials-reviews/recommendations activities psychological/affective issues special contexts specific math concepts/techniques teaching styles/practices technology in math ed writing/communication in math professional ed/career development continuing ed degrees/higher ed job placement/job market pre-service staff/prof development math ed research/reform curriculum/materials development pedagogical research psychological research reform social issues/public policy community outreach educational systems equity public understanding of math all math education topics Choose a Resource Type all resource types educational materials net-based resources organizations publications recreations reference sources software all resource types Choose a Level all levels elementary early elem. (prek-2) late elem. (3-5) middle school (6-8) high school (9-12) college early college late college research all levels Power Search [ Privacy Policy ] [ Terms of Use ] Suggestion Box || Home || The Math Library || Help Desk || Quick Reference || Search © 1994-2004 The Math Forum http://mathforum.org/ webmaster@mathforum.org   -->  
+
+Browse and Search the Library
+      Home    : Math Topics    : Geometry    : Algebraic Geom.    
+
+Library Home || Search || Full Table of Contents || Suggest a Link || Library Help 
+
+  Selected Sites   (see also All Sites in this category) 	
+ 
+
+* Algebraic Geometry - Dave Rusin; The Mathematical Atlas
+    A short article designed to provide an introduction to algebraic geometry, which combines the algebraic with the geometric for the benefit of both. Thus the recent proof of "Fermat's Last Theorem" - ostensibly a statement in number theory - was proved with geometric tools. Conversely, the geometry of sets defined by equations is studied using quite sophisticated algebraic machinery. This is an enticing area but the important topics are quite deep. This area includes elliptic curves. Applications and related fields and subfields; textbooks, reference works, and tutorials; software and tables; other web sites with this focus.    more>>   
+
+* The Algebraic Geometry Notebooks - Aksel Sogstad
+    For non-experts. Contents: What is algebraic geometry?; What can algebraic geometry be used for?; Classification of curves in the Weierstrass familiy; Bezout's Theorem; Varieties, orbits and orbit-spaces; Automatic theorem proving using Singular.    more>>   
+
+ 	 
+
+  All Sites - 97 items found, showing 1 to 50 	
+
+* A 27-Vertex Graph That Is Vertex-Transitive and Edge-Transitive But Not 1-Transitive - Peter Doyle
+    Hypertext and Postscript versions of a paper describing a 27-vertex graph that is vertex-transitive and edge-transitive but not 1-transitive. While all vertices and edges of the graph are similar, there are no edge-reversing automorphisms.    ...more>>   
+
+* Advanced Geometry - Math Forum
+    Links to some of the best Internet resources for advanced geometry: Web sites, software, Internet projects, publications, and public forums for discussion.    ...more>>   
+
+* AG Algebraic Geometry (Front for the Mathematics ArXiv) - Univ. of California, Davis
+    Algebraic Geometry preprints, from the U.C. Davis front end for the xxx.lanl.gov e-Print archive, a major site for mathematics preprints that has incorporated many formerly independent specialist archives. Search by keyword or browse by topic.    ...more>>   
+
+* AGATHOS - Algebraic Geometry: A Total Hypertext Online System - Kevin R. Coombes; Department of Biostatistics, University of Texas M.D.Anderson Cancer Center
+    This course assumes that the reader has completed a year-long graduate course in abstract algebra. It can be approached as a linear text, a list of interesting examples, a list of important theorems in algebraic geometry, key concepts, or exercises that    ...more>>   
+
+* Algebraic Curves - Silvio Levy; The Geometry Center
+    Curves that can be given in implicit form as f(x,y)=0, where f is a polynomial, are called algebraic. This site provides an overview, with illustrations.    ...more>>   
+
+* Algebraic Geometry - Peter Stiller; Dept. of Mathematics & Computer Science, Texas A&M Univ.
+    This page answers the question, "What is Algebraic Geometry?" - a subject with historical roots in analytic geometry, concerned with the geometry of the solutions of a system of polynomial equations. With a link to a bibliography of related publications.    ...more>>   
+
+* Algebraic Geometry Seminar - Michael Harrison; Univ. of Washington
+    Online notes for a seminar, including handouts in dvi and postscript formats, solutions to the problems in Chapter 1 of Hartshorne's Algebraic Geometry, and notes on algebraic geometry by Professor J. S. Milne, Univ. of Michigan.    ...more>>   
+
+* Algebraic Geometry - Tayler Jarvis
+    A page of links to general algebraic geometry sites, sites on algebraic curves, algebraic surfaces, algebraic geometers and the like, and related sites.    ...more>>   
+
+* Algebraic Number Theory and Elliptic Curves - Ghitza, Osserman; Massachusetts Institute of Technology
+    A semester-long seminar giving a rapid introduction to algebraic number theory and elliptic curves. Topics: Dedekind domains, rings of integers, scheme-theoretic curves, finite morphisms thereof, splitting and ramification, the Tchebotarov density theorem    ...more>>   
+
+* Algebraic Number Theory Archives - Boston, Grayson
+    Preprints about algebraic number theory and arithmetic geometry are accepted in electronic form for storage until publication. There are instructions for authors who wish to submit preprints to the archives and for for joining the mailing list (members    ...more>>   
+
+* Algorithms for Modular Elliptic Curves - John Cremona
+    View parts of the second edition of the book, with introduction, tables and software. Download the errata list for the second edition, available as a dvi file or a postscript file.    ...more>>   
+
+* Analytic and Descriptive Geometry - Dave Rusin; The Mathematical Atlas
+    An introduction to ordinary analytic geometry as studied in secondary school. (Also included here is a rather lengthy analysis of a result known as Poncelet's Porism.) History; applications and related fields and subfields; textbooks, reference works,    ...more>>   
+
+* Arbeitsgruppe Bachem/Schrader - University of Köln
+    A working group of the Center for Parallel Computing (ZPR) at Köln. Site includes a list of members and contact address; informative write-ups on its projects, some in English. Topics include: Basic Research (meaning "pure" as opposed to "applied");    ...more>>   
+
+* Arithmetic Algebraic Geometry (AAG) - Training and Mobility of Researchers; European Community
+    A partnership of 12 working groups from 5 European countries (England, France, Germany, Italy, Spain) working to develop methods taken from geometry to study the arithmetical properties of algebraic equations. Main research themes: p-adic cohomology theory;    ...more>>   
+
+* arXiv.org e-Print archive - Los Alamos National Laboratory (LANL)
+    A major site for mathematics preprints that has incorporated many formerly independent specialist archives including alg-geom, funct-an, dg-ga, q-alg, auto-fms, cd-hg, MAGNUS, Several Complex Variables, Logic E-prints, Commutative Algebra, Dynamical Systems,    ...more>>   
+
+* Automated Deduction - William McCune
+    Research on applications of automated deduction to problems in abstract algebra and algebraic geometry, algorithms and strategies for searching for proofs and for counterexamples, high-performance implementation of automated deduction algorithms, and    ...more>>   
+
+* Automorphic Forms and Representations Virtual Study Group - Michael Harrison
+    A virtual study group formed to explore the Langland's Program by reading Automorphic Form and Representations by Daniel Bump.    ...more>>   
+
+* Basic Geometry of Voting - Donald G. Saari
+    A book that offers a large number of new results about voting theory, its emphasis purposely placed on three candidate settings so that the book can be read by almost everyone. (With four or more candidates, the results need more advanced mathematical    ...more>>   
+
+* Bibliography for Automorphic and Modular Forms, L-Functions, Representations, and Number Theory - Paul Garrett
+    A 1996 bibliography compiled for the author's Ph.D. students at the University of Minnesota.    ...more>>   
+
+* The Birch and Swinnerton-Dyer Conjecture - Clay Mathematics Institute
+    A Clay Mathematics Institute Prize problem, with a description in pdf format by Andrew Wiles. The conjecture addresses the problem of enumerating rational points, such as on elliptic curves.    ...more>>   
+
+* Books: Professional & Technical: Professional Science: Mathematics - Amazon.com
+    Browse bestselling math books from the Professional and Technical Bookstore at Amazon.com, in such categories as Applied; Chaos & Systems; Geometry & Topology; Mathematical Analysis; Mathematical Physics; Number Systems; Pure Mathematics; Transformations;    ...more>>   
+
+* Calabi-Yau Homepage - Sheldon Katz
+    A page of information about Calabi-Yau manifolds: threefolds, fourfolds, software.    ...more>>   
+
+* Categorical Geometry - Zhaohua Luo
+    See a brief tour of categorical geometry, which studies the geometric properties of unitary categories. The categorical approach to algebraic geometry was initiated by Yves Diers in his pioneer book Categories of Commutative Algebras (Oxford University    ...more>>   
+
+* Counting Points on Elliptic Curves - Fouquet, Harley, Gaudry, Morain
+    The authors, Ph.D. students at the Laboratoire d'informatique de l'École polytechnique, Paris, have established new records for point counting in characteristic 2, using a new algorithm due to Takakazu Satoh.    ...more>>   
+
+* Course Notes - J. S. Milne
+    Full course notes in dvi, pdf, and postscript formats for all the advanced courses J. S. Milne taught at the University of Michigan between 1986 and 1999: Group Theory; Fields and Galois Theory; Algebraic Number Theory; Class Field Theory; Modular Functions    ...more>>   
+
+* David Pollack
+    Download the author's thesis, "Explicit Hecke Actions on Modular Forms" (Harvard, 1998) in DVI format.    ...more>>   
+
+* Diophantine geometry in characteristic p: a survey - José Felipe Voloch
+    An article that appeared in Arithmetic Geometry, F. Catanese, ed., Symposia Mathematica XXXVII, Cambridge Univ. Press, 1997, pp. 260-278. Introduction; Curves; Abelian varieties and their subvarieties; Diophantine Approximation in characteristic p; Omitted    ...more>>   
+
+* Discrete and Computational Geometry - Springer-Verlag
+    An international journal of mathematics and computer science that accepts research articles of high quality in discrete geometry and on the design and analysis of geometric algorithms; more specifically, DCG publishes papers on such topics as configurations    ...more>>   
+
+* EAGER (European Algebraic Geometry Research Training Network) - Wolfram Decker
+    The members of EAGER are algebraic geometers in mathematical centres spreading among most European countries. These centres are grouped into twelve geographical nodes which are responsible for the management of joint research projects and for the training    ...more>>   
+
+* The ECMNET Project - Charron, Daminelli, Granlund, Leyland, Zimmermann
+    The goal of the ECMNET Project is to find large factors using the elliptic curve method, mainly Cunningham numbers.    ...more>>   
+
+* Elliptic Curve Discrete Logarithms (ECDL) Project - Robert Harley; 4K Associates
+    The Project has solved ECC2K-108.    ...more>>   
+
+* Elliptic Curves and Cryptography - Andreas Enge
+    Includes the test of the author's introductory book on elliptic curves and their applications in cryptography. Also links to further publications; the personal pages of number theorists and cryptographers; and companies, organisations and miscellaneous    ...more>>   
+
+* Elliptic Curves and Cryptology - Marc Joye
+    Links to elliptic curve resources: people (an extensive list of personal pages), bibliography, software, and links to relevant Web pages. Many preprints are available from the site.    ...more>>   
+
+* Elliptic Curves and Elliptic Functions - Charles Daney
+    From The Mathematics of Fermat's Last Theorem. With a glossary; contents include: What is an elliptic curve?; The group structure of an elliptic curve; Arithmetic on elliptic curves; Further basic concepts and results.    ...more>>   
+
+* Elliptic Curves and Formal Groups - Lubin, Serre, Tate
+    Lecture notes from a seminar, part of the Lecture notes prepared in connection with the seminars held at the Summer Institute on Algebraic Geometry, Whitney Estate, Woods Hole, Massachusetts, July 6-July 31, 1964.    ...more>>   
+
+* Elliptic Curves and Right Triangles - Karl Rubin; Stanford University
+    Slides (GIF) of lectures.    ...more>>   
+
+* Elliptic Curves - Dave Rusin; The Mathematical Atlas
+    An area of algebraic geometry that deals with nonsingular curves of genus 1 - in English, solutions to equations y^2 = x^3 + A x + B. It has important connections to number theory and in particular to factorization of ordinary integers (and thus to cryptography).    ...more>>   
+
+* Elliptic Curves II - Johan P. Hansen; Dept. of Mathematics, Ny Munkegade, Aarhus
+    Lecture notes in English and German, a continuation of the course: "Elliptic curves over Q and C," on modular forms and elliptic curves.    ...more>>   
+
+* Elliptic Curves - Stéfane Fermigier
+    A collection of links to research articles on elliptic curves and related topics (applications, modular forms, Fermat's last theorem).    ...more>>   
+
+* Euler Systems - Karl Rubin
+    One of the most exciting new subjects in Algebraic Number Theory and Arithmetic Algebraic Geometry is the theory of Euler systems. Euler systems are special collections of cohomology classes attached to p-adic Galois representations. Here, in the first    ...more>>   
+
+* Explicit Approaches to Modular Abelian Varieties - William Stein
+    Stein's Ph.D. thesis (Berkeley, 2000). An investigation of the Birch and Swinnerton-Dyer conjecture, which ties together the constellation of invariants attached to an abelian variety. The author attempts to verify this conjecture for certain specific    ...more>>   
+
+* Front for the Mathematics ArXiv - Univ. of California, Davis
+    U.C. Davis front end for the xxx.lanl.gov e-Print archive, a major site for mathematics preprints that has incorporated many formerly independent specialist archives including alg-geom, funct-an, dg-ga, q-alg, auto-fms, cd-hg, MAGNUS, Several Complex    ...more>>   
+
+* Geometric Algorithms - Susan Landau; Univ. of Massachusetts at Amherst
+    Landau's interest in geometric algorithms has been in problems of an algebraic flavor: computer-aided design, robotics, and other geometric-related applications that have created a need for methods for embeddings, visualization, and algorithms for construction    ...more>>   
+
+* Geometry and Topology: Recent Papers 1989-1993 - Univ. of Melbourne, Australia
+    A bibliography of e-prints from the Dept. of Mathematics and Statistics, Univ. of Melbourne, Australia.    ...more>>   
+
+* Helena A. Verrill - Dept. of Mathematics, University of Copenhagen, Denmark
+    Links to Mathematics papers (Root lattices and pencils of varieties; The L-series of certain Calabi-Yau threefolds; Some congruences related to modular forms; Picard-Fuchs equations of some families of elliptic curves; On modular mod l Galois representations    ...more>>   
+
+* The history of voting - MacTutor Math History Archives
+    Linked essay on the history of electoral systems.    ...more>>   
+
+* Homogeneous Transformation Matrices - Daniel W. VanArsdale
+    Explicit n-dimensional homogeneous matrices for projection, dilation, reflection, shear, strain, rotation and other familiar transformations.    ...more>>   
+
+* How to Fix an Election - Ivars Peterson (MathTrek)
+    Voting sounds like a simple matter. Just pick a candidate, then count the ballots and announce the tally. When there are three or more candidates (or choices), however, the results may not actually reflect the true preferences of the voters. Suppose    ...more>>   
+
+* Ideals, Varieties, and Algorithms - Cox, Little, O'Shea
+    An introduction to computational algebraic geometry and commutative algebra at the undergraduate level, with discussions of systems of polynomial equations ("ideals"), their solutions ("varieties"), and how these objects can be manipulated ("algorithms").    ...more>>   
+
+* Innovative Teaching of Mathematics - ITM 2003 - Eckhard Hitzer
+    September 20-21, 2003, Research Institute for Mathematical Sciences, Kyoto, Japan. An international symposium with an explicit focus on Clifford geometric algebra for teaching. A second major focus is to present new ways of innovative cooperation between    ...more>>   
+
+ 	 
+
+Page:  1  2 [next>] 	
+  
+---------------------------------------------------------------------
+
+Search for these keywords:
+                      
+
+Click only once for faster results:
+
+all keywords, in any order at least one, that exact phrase  
+ parts of words whole words  
+
+Choose a Math Topic  
+all math topics  
+algebra  
+analysis  
+arithmetic/early math  
+calculus (single variable)  
+calculus (multivariable)  
+communicating math  
+differential equations  
+discrete math  
+dynamical systems  
+general  
+geometry  
+history and biography  
+logic/foundations  
+number theory  
+numerical analysis  
+operations research  
+pre-calculus  
+probability/statistics  
+topology  
+applications/connections  
+algebraic geometry  
+all math topics 
+   
+Choose a Math Education Topic  
+all math education topics  
+teaching issues/strategies  
+assessment/testing  
+general programs/approaches  
+materials-reviews/recommendations  
+activities  
+psychological/affective issues  
+special contexts  
+specific math concepts/techniques  
+teaching styles/practices  
+technology in math ed  
+writing/communication in math  
+professional ed/career development  
+continuing ed  
+degrees/higher ed  
+job placement/job market  
+pre-service  
+staff/prof development  
+math ed research/reform  
+curriculum/materials development  
+pedagogical research  
+psychological research  
+reform  
+social issues/public policy  
+community outreach  
+educational systems  
+equity  
+public understanding of math  
+all math education topics 
+
+Choose a Resource Type  
+all resource types  
+educational materials  
+net-based resources  
+organizations  
+publications  
+recreations  
+reference sources  
+software  
+all resource types 
+ 
+Choose a Level  
+all levels  
+elementary  
+early elem. (prek-2)  
+late elem. (3-5)  
+middle school (6-8)  
+high school (9-12)  
+college  
+early college  
+late college  
+research  
+all levels 
+
+Power Search 	
+ 
+
+[Privacy Policy] [Terms of Use]
+
+Suggestion Box || Home || The Math Library || Help Desk || Quick Reference || Search 
+
+© 1994-2004 The Math Forum
+http://mathforum.org/
+ webmaster@mathforum.org
+  
+
+

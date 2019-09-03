@@ -1,0 +1,153 @@
+
+
+} if ( plugin ) {  document.write('');  document.write(' ');  document.write(' ');  document.write(' ');  document.write(' '); } else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){ document.write('
+
+'); document.write('
+'); document.write(''); document.write('		
+'); } //--> 
+
+White Papers IT Jobs Events Research Premium Services Training & Certification Media Kit 	
+
+   Intranet Journal Subjects
+
+   Administration
+
+   Collaboration
+
+   Development
+
+   Knowledge Management
+
+   Security
+
+   Special Reports
+
+   Tutorials
+
+   Discussion Board
+
+   Intranet FAQ
+
+   Glossary
+
+   Events Calendar
+
+   Products
+
+Search Earthweb
+
+Intranet Journal 
+All EarthWeb 
+  	
+
+Privacy Policy
+
+internet.com	  
+                        Internet News
+        Internet Investing
+        Internet Technology
+        Windows Internet Tech.
+        Linux/Open Source
+        Web Developer
+        ECommerce/Marketing
+        ISP Resources
+        ASP Resources
+        Wireless Internet
+        Downloads
+        Internet Resources
+        Internet Lists
+        International
+        EarthWeb
+        Career Resources
+        
+        Search internet.com
+        Advertise
+        Corporate Info
+        Newsletters
+        E-mail Offers
+                 
+
+internet commerce	  
+Partners & Affiliates
+Free Bandwidth Quote 
+Promote Your Website 
+Get Virus Protection 
+Best Deals on PDAs! 
+Free SMTP Spam Filter 
+Web Hosting 
+Dedicated Hosting 
+
+ 	          	 
+
+[ Home | Discussion Forum | F A Q S | Special Reports | Events | Products | Shopping  ] 
+
+Intranet Journal Update
+    
+CIO Update
+    
+CodeGuru Update
+    
+CrossNodes Networking
+       
+Instant Messaging Planet HTML
+     
+Practically Networked HTML
+    
+Enterprise Storage Forum Text
+    
+Enterprise Storage Forum HTML
+       
+Optically Networked HTML
+ 
+DRM Watch
+    
+Datamation IT Management Careers
+    
+Datamation IT Management Update
+    
+Developer.com Update
+    
+Gamelan Java Update
+    
+Goodies to Go
+     
+Javascript.com HTML
+    
+JARS Java Update
+    
+OpenSource Update
+    
+SysOpt Tech Notes
+     
+Grid Computing Planet HTML
+    
+E-Security Planet Text
+    
+E-Security Planet HTML
+    
+     	                	  
+
+•Click here for current content management trends and statistics. 
+•Click here for current content &amp programming trends and statistics. 	
+
+Intranet Journal Intranet FAQ 
+   IDM Intranet FAQ             [Previous |  Index |  Next] 	
+
+THE INTRANET EXCHANGESM
+
+Questions & Answers on
+ the Intranet eXchange Discussion Forum
+
+1.  Why a message board on intranets? 
+2.  Can I use html tags in my posts? Anywhere? 
+3.  Should I respond by e-mail, by posting a follow-up, or both? 
+4.  Why hasn't my post appeared? 
+5.  How long do posts stay up? 
+6.  What's a moderated forum? 
+7.  My message was up for a day and then disappeared. Why? 
+8.  How does the eXchange work? 
+9.  What is the Intranet eXchange Software GiveawaySM? How are winners selected? 
+
+IDM Intranet FAQ             [Previous |  Index |  Next] 	
+
+[print version of this page]     

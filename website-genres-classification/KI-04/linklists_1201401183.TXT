@@ -1,0 +1,529 @@
+
+
+Cryptography and Security
+
+This page contains pointers to other web pages dealing with cryptography and security, organized into the following sections: 
+
+* Conferences 
+* Other compilations of links 
+* Bibliographies 
+* Government Sources 
+* Non-Profit Organizations and Associations 
+* Commercial Enterprises 
+* University Sites and Course Material 
+* Other Sites 
+* Books and Publishers 
+* News Groups, Newsletters, and FAQ's 
+* Alert Sites 
+* People 
+* Algorithms, Protocols, Etc. 
+* Software 
+* Number Theory Links 
+* Miscellaneous 
+((Please send additions and corrections to rivest@theory.lcs.mit.edu; thanks to Anselm Blumer for numerous improvements!)) 
+
+Conferences
+
+(Also see the IACR Calendar and the Cipher Newsletter calendar.) 
+
+* Asiacrypto 2000 (12/3/00--12/7/00; deadline 5/25/00; Kyoto, Japan) 
+* Workshop on Coding and Cryptography (1/8/00--1/12/00; deadline 9/15/2000; Paris, France) 
+* NDSS '01 
+* CFP '01 
+* RSA 2001 (4/8/01--4/12/01; San Francisco) 
+
+Other compilations of links
+
+* Tom Dunigan's collection of links 
+* Vincent Cate's Cypherpunk page 
+* Canadian crypto links 
+* CNS (Computing and Network Services, Luxembourg) 
+* Cryptography in Europe 
+* Cryptography: The Study of Encryption (Part of the WWW Virtual Library.) 
+* Cryptolog collection of links 
+* Cryptosoft links to crypto publications 
+* Ron Davie's Electronic Money and Money in History 
+* EINet Galaxy's Security Page. 
+* Pat Farrell's collection of links 
+* SSH Communications Security (Tatu Ylonen) 
+* Oded Goldreich's Theory of Cryptography Library (new submissions should go to the IACR ePrint archive) 
+* IACR Cryptography ePrint Archive 
+* Peter Gutmann's Security and Encryption-related Resources and Links 
+* Bert-Jaap Koops Crypto Law Survey 
+* Integrity Sciences collection of links on strong password suthentication. 
+* Bruce Schneier's list 
+* Sirene's Security and Cryptography page (IBM Zurich). See also Sirene (Security in Computer Networks) 
+* Spaf's (Gene Spafford's) Hotlist on Computer Security, Law, Privacy at CERIAS 
+* Yahoo's Security And Encryption Page 
+* John Young's crypto page and NYA (JYA). 
+* Bennet Yee's Security-Related Net Pointers 
+* World Wide Web Consortium 
+
+* Security Overview 
+* Payments Overview 
+
+* Kevin McCurley's links 
+* Mike Scher's Network/Security Technology links 
+
+Bibliographies
+
+* NECI CiteSeer ResearchIndex 
+* Lawrie Brown's (searchable) cryptography bibliography 
+* IACR Conference Proceedings 
+* IACR Journal of Cryptology Bibliography (bibtex)
+IACR Journal of Cryptology TOC 
+* Journal of Cryptology bibliography and table of contents (from IACR). 
+* Kevin McCurley's bibliography on computational number theory 
+* Quantum Computing Bibliography 
+* Ron Rivest's Crypto and Security bibliography (Bibtex). 
+* CS bibliographies, including STOC and FOCS 
+* Doug Stinson's bibliography on authentication codes 
+* Doug Stinson's bibliography on secret sharing schemes 
+* Unified Computer Science Technical Report Index 
+* En Garde Systems SecureZone Information Center 
+* The Glimpse search tool for a big computer science bibliography 
+* Science Citation Index (OK from MIT) 
+
+Government Sources
+
+* CESG: Communications-Electronic Security Group (in U.K.) 
+* DARPA 
+* FBI 
+* NIH (National Institutes of Health) page on Unix Security 
+* NIST (National Institute of Standards and Technology) 
+
+* Computer Security Division Projects 
+* Computer Security Resource Clearinghouse 
+* AES (Advanced Encryption Standard) page 
+* Secure Hash Standard (SHA-1, SHA-256, SHA-384, and SHA-512) 
+
+* NRC (National Research Council; Computer Science and Telecommunications Board) 
+
+* Their excellent study on cryptographic policy 
+
+* NSA (National Security Agency) 
+* NSF (National Science Foundationa) 
+* U.S. Patent and Trademark Office
+ 
+
+Non-Profit Organizations and Associations
+
+* ABA (American Bar Association; Electronic Commerce and Information Technology Division; Digital Signature Guidelines) 
+* ACM (Association for Computing Machinery) 
+
+* Their report: Codes, Keys, and Conflicts: Issues in U.S. Crypto Policy (1994). 
+* The ACM SIGACT home page. 
+ 
+* ANSI (American National Standards Institute) 
+* BSA (Business Software Alliance) 
+* CDT (Center for Democracy and Technology) 
+
+* Encryption Policy Resource Page 
+
+* Computer Security Institute 
+* CPSR (Computer Professionals for Social Responsibility). 
+* EFF (Electronic Frontier Foundation). 
+* EPIC (Electronic Privacy Information Center). 
+* Foundation for Information Policy Research 
+* IACR (International Association for Cryptologic Research). 
+* IEEE Computer Society. 
+
+* IEEE P1363 standards committee 
+
+* IFCA (International Financial Cryptography Association) 
+* Internet Privacy Coalition 
+* Internet RFC's 
+* Internet Society 
+
+* IPSEC web page 
+
+* OpenNetwork Technologies 
+
+* Privacy International (Material on ID cards) 
+* USENIX 
+* Voters Telecommunications Watch (VTW) 
+* SANS 
+* SecurityPortal 
+
+Commercial Enterprises
+
+* AccessData 
+* Alcatel. 
+* Anonymize.net 
+* AT&T: 
+
+* FTP Server 
+* AT&T Labs 
+* Crowds pages 
+
+* Algorithmic Research 
+* ASG Technologies 
+* Axent 
+* Baltimore Technologies 
+* BlueMoney 
+* BroadVision 
+* CertCo 
+* CertiCom 
+* CipherLink 
+* Codex 
+* Computer Systems Consulting (CSC): 
+* COST (Computer Security Technologies) 
+* Counterpane Internet Security, Inc.
+Counterpane Labs. 
+* Cryptomathic 
+* Cybercash 
+* CygnaCom Solutions, Inc. 
+* DataKey 
+* DEC SRC publications (Especially reports 125, 117, 83, 70, 67, 39.) 
+* Digicash. 
+* ECash. 
+* ecomsecurity.com 
+* En Garde Systems. 
+* EIT (Enterprise Integration Technology). 
+* Entrust Technologies 
+* Exodus Communications 
+* F-Secure 
+* Firewall Security Corp. 
+* Frontier Technologies 
+* Global Technology Associates 
+* Globeset 
+* Guardent 
+* Harris Computer Systems 
+* Hewlett-Packard 
+* IBM T.J.Watson Network Security Group 
+* IBM Zurich Security Research Group 
+* IBM Security Overview ICSA.net 
+* Internet Security Systems, Inc. 
+* KonaSoft 
+* Los Altos Technologies. 
+* Mach 5 (and their crypto page) 
+* Management Analytics 
+* Microsoft. 
+* Mondex 
+* Morning Star Technologies 
+* NEC security server 
+* NetChex 
+* Netegrity 
+* Netscape 
+* Netsys 
+* Network Associates 
+* NewGenPay 
+* Open Market. 
+* OpenNetwork Technologies. 
+* OpenTV. 
+* Odyssey Research Associates (Recluse Web Security System) 
+* PC Dynamics SafeHouse Encryption 
+* Plus Five Consulting, Inc. 
+* RedCreek 
+* RPK SecureMedia 
+* Rocksoft 
+* RSA Security 
+
+* RSA Laboratories 
+* RSA's Cryptography FAQ. 
+* Factoring Challenge 
+* CryptoBytes 
+
+* SAIC (Science Applications International Corp.) 
+* Schlumberger Smart Cards (Cryptoflex for Windows 2000 Program) 
+* SECUDE GmbH 
+* Security Dynamics (Name changed to RSA Security) 
+* Secure Solutions Experts (SSE, a Siemens company) 
+* SecurityTracker 
+* Spyrus. 
+* Steptoe and Johnson LLP (Many papers on crypto policy and law; Stewart Baker works here; see "Law and the Net" here. 
+* SUN Microsystems.
+ Frequently Asked Questions -- Applet Security (from JavaSoft) 
+* Surety Technologies. 
+* Telcordia (General), Telcordia Security Products 
+* Ultimate Privacy 
+* VeriFone 
+* VeriSign 
+* Visa 
+* V-ONE 
+* Xcert 
+* Zaxus (formerly Racal Security and Payments) 
+* Zero Knowledge 
+
+University Sites and Course Material
+
+* Catholic University of Louvain (UCL) Crypto Group 
+* U.C. Berkeley ISAAC Group 
+* Cambridge University 
+* Carnegie Mellon: The NetBill Electronic Commerce Project 
+* Carnegie Mellon: The Software Engineering Institute (SEI) 
+* Clemson - Introduction to Cryptography course by Shuhong Gao 
+* Dartmouth Security Tools Matt Bishop's collection; including passwd+. 
+* George Mason University - Center for Secure Information Systems 
+* Georgia Tech - Network Security course by Ken Calvert 
+* Graz University of Technology: Institute for Applied Information Processing and Communications 
+* Leuven EE Dept Crypto offerings 
+* McGill University: Cryptography and Quantum Information Laboratory 
+* UMBC Security Technology Research Group (STRG), UMBC Institute for Global Electronic Commerce (IGEC) 
+* MIT: 
+
+* MIT's Athena FTP Server Kerberos, X, Usenix papers, etc. 
+* Hal Abelson's course, "Ethics and Law on the Electronic Frontier" 
+
+* Avi Rubin's Fall 95 NYU course Cryptography and Computer Security 
+* Princeton's Secure Internet Programming Group 
+* Purdue COAST Project (Computer Operations, Audit and Security Tools) 
+* Purdue CERIAS Project (Center for Information and Research in Information Assurance and Security) 
+* GRECC (Group de Recherche en Complexite et Cryptographie) at the Ecole Normale Superieure in Paris. 
+* Texas AMU security tools. 
+* UC Davis Security Lab. 
+* University of Montreal. 
+* University of New Mexico: Kevin McCurley's course, Cryptology in Computing 
+* University of Southern California (Information Sciences Institute; Global Operating Systems Technology (GOST) Group) 
+* Worcester Polytechnic 
+* Cryptographic Research Center, FER, Zagreb, Croatia 
+
+Other Sites
+
+* Andy Talisker's Intrusion Detection Systems 
+* Root Shell 
+* The Internet Underground 
+* DigiCrime, Inc 
+* Electronic Colloquium on Computational Complexity 
+* ACM Security, Audit & Control (SIGSAC) 
+* The Cypherpunks Home Page. 
+* The Cypherpunks HyperArchive. 
+* SRI Computer Science Lab. SRI has responsibility for the ACM Forum on Risks in the Use of Computer and Related Systems. SRI WWW Server SRI's NIDES Next-Generation Intrusion Detection System 
+* Greatcircle FTP Server Firewall documents and mailing list. 
+* SURA FTP Server SURAnet security archive. They have CERT and CIAC alerts, NIST publications, Department of Defense Alerts, pagers, security programs, etc... 
+* DDN Security Bulletins FTP Server This is the NIC's security ftp server. Skip all the files starting with ddn-security- until you get down to ddn-security-8901. All the previous ones will just tell you that the naming conventions have changed, and you're looking at the wrong file. 
+
+Books and Publishers
+
+* Author's Instructions 
+
+* Aegean Park Press 
+* Applied Cryptography, by Bruce Schneier. 
+* Chicago Journal of Theoretical Computer Science 
+* CRC Press 
+* Cryptography: Theory and Practice, by Doug Stinson. 
+* Firewalls and Internet Security: Repelling the Wily Hacker, by Cheswick and Bellovin. 
+* Foundations of Cryptography, by Oded Goldreich. 
+* Handbook of Applied Cryptography, by Menezes, van Oorschot, and Vanstone. 
+* Journal of Computer Security 
+* Rethinking Public Key Infrastructures and Digital Certificates Building in Privacy, by Stefan Brands. 
+* Secrets and Lies: Digital Security in a Networked World, by Bruce Schneier. 
+* Securing Java, by McGraw and Felten. 
+* Springer-Verlag Lecture Notes in Computer Science 
+
+News Groups, NewsLetters, and FAQ's
+
+* Anonymous remailer FAQ 
+* Cipher, the newsletter of the Technical Committee on Security and Privacy of the Computer Society of the IEEE. Their calendar of upcoming events. 
+* sci.crypt (FAQ) 
+* sci.crypt.research 
+* Coderpunks Archive 
+* talk.politics.crypto 
+* comp.security.misc (FAQ) (FAQ) 
+* alt.security 
+* comp.security.announce 
+* alt.security.pgp 
+* alt.security.keydist 
+* alt.security.ripem 
+* comp.security.unix (FAQ) 
+* comp.protocols.kerberos 
+* comp.virus (FAQ) 
+* comp.risks 
+* FAQ for Firewalls 
+* Cryptography FAQ 
+
+Alert Sites
+
+* NASIRC - NASA Incident Response Center 
+* CERT (Computer Emergency Response Center at CMU) and ASSIST - Automated Systems Security Incident Support Team (DOD-CERT) 
+* German DFN-CERT 
+* CIAC (Computer Incident Advisory Capability (DOE/LLNL) 
+* FIRST - Forum of Incident Response and Security Teams 
+* AusCERT - Australian Computer Emergency Response Team 
+
+People
+
+(Limited to people with home pages relevant to crypto/security; very incomplete...)
+
+Kevin McCurley's list of cryptographer's home pages
+
+* Abadi, Martin 
+* Agnew, Gordon 
+* Anderson, Ross 
+* Back, Adam 
+* Bellare, Mihir 
+* Berson, Tom 
+* Biham, Eli 
+* Blaze, Matt 
+* Bleichenbacher, Daniel 
+* Blum, Avrim 
+* Boneh, Dan 
+* Boyar, Joan 
+* Brassard, Gilles 
+* Brands, Stefan 
+* Chaum, David 
+* Camenisch, Jan 
+* Chor, Benny 
+* Crepeau, Claude 
+* Dai, Wei 
+* Davis, Don 
+* Denning, Dorothy 
+* Ding, Cunsheng 
+* Ellison, Carl M. 
+* Finney, Hal 
+* Froomkin, A. Michael 
+* Goldreich, Oded 
+* Goldwasser, Shafi 
+* Gutman, Peter 
+* Hastad, Johan 
+* Herzberg, Amir 
+* Hoffman, Lance 
+* Jakobsson, Markus 
+* Jim, Trevor 
+* Kaliski, Burton 
+* Klapper, Andy 
+* Knudsen, Lars 
+* Kocher, Paul 
+* LaMacchia, Brian 
+* Lenstra, Hendrik W., Jr. 
+* Mao, Wenbo 
+* Manasse, Mark 
+* Maurer, Ueli 
+* McCurley, Kevin 
+* Naor, Moni 
+* Neumann, Peter 
+* Odlyzko, Andrew 
+* Ostrovsky, Rafail 
+* Quisquater, Jean-Jacques 
+* Rabin, Michael 
+* Ritter, Terry 
+* Rivest, Ronald L. 
+* Rogaway, Phil 
+* Rudich, Steven 
+* Schiller, Jeff 
+* Schneier, Bruce 
+* Sherman, Alan 
+* Shostack, Adam 
+* Shoup, Victor 
+* Stern, Jacques 
+* Stiglic, Anton 
+* Stinson, Doug and his book, Cryptography: Theory and Practice. 
+* Stubblebine, Stuart 
+* Tsiounis, Yiannis 
+* Tygar, Doug 
+* Vaudenay, Serge 
+* Wagner, David 
+* Yee, Bennet 
+
+Algorithms, Protocols, Etc.
+
+Specific algorithms, protocols, etc. 
+
+* Encryption/decryption algorithms
+
+Knudsen's Block Cipher Lounge
+
+* CAST (Also see this.) 
+* RC2: For information about RC2 contact RSA Data Security. 
+* RC4: For information about RC4 contact RSA Data Security. Also: 
+
+* RC4 brute-force search 
+* RC4 in 3 lines 
+
+* Payment protocols 
+
+* iKP (IBM Zurich) (renamed to SEPP in conjuction with Mastercard). 
+* Millicent 
+* NetCheque 
+* SET (Secure Electronic Transaction; Visa and Mastercard) 
+* ASN.1 Layman's introduction from RSA 
+* CDSA (Intel's Common Data Security Architecture) 
+* Cryptolopes (IBM) 
+* Crypto API (Microsoft) 
+* MD5 (RFC1321) 
+* PICS 
+* SKEME (Hugo Krawczyk, IBM) 
+* SKey (Bell Canada's implementation) 
+* S/MIME 
+* SSL 3.0 SSL 3.0 SSL (Netscape) SSL (Eric Young's implementation) 
+* S/WAN 
+
+Software
+
+(This is software you can download; not commercial software, unless there is a free downloadable copy.)
+
+Adam Shostack's list 
+
+* Sites with many routines or packages available 
+
+* Wimsey Crypto collection (new) 
+* Michael Paul Johnson's collection 
+* TrustedWeb (from Siemens/Nixdorf) 
+
+* Software collections, toolkits, and packages with many different routines 
+
+* Crypto CD 
+* COPS (CERT; unix security toolkit) 
+* Cryptographic Extensions for Java and Perl (Cryptics) 
+* Crypto++ by Wei Dai. 
+* LiDIA (number-theory package). 
+* LInteger (C++ supporting multiple precision integers). 
+* SKIP IP layer encryption/key management software (SUN) 
+
+* Implementations of individual algorithms or protocols 
+
+* John Halleck's validated implementation of SHA-1 (in Ada) 
+* Elliptic curve implementations from Hilarie Orman and Rich Schroeppel 
+* DES (Eric Young's implementation) 
+* MD5 (in C, as distributed by RSA DSI) 
+* MD5 (in C++, prepared by Mordechai T. Abzug, mabzug1@umbc.edu) 
+* PGP 
+* MIT PGP key-server 
+* PGPFone 
+* RIPEM 
+* SATAN (Security Administrator's Tool for Analyzing Networks) 
+* SFS (Secure File System for DOS and Windows) 
+* SSH (Secure Shell) 
+* KeyNote Trust Management System 
+
+NumberTheory
+
+* Number Theory people and pointers. 
+* Kevin McCurley's bibliography on computational number theory 
+* The Prime Pages (by Chris Caldwell, University of Tennesee) 
+* RSA Factoring by Web Project 
+* RSA Factoring Challenge 
+* NTL--A Library for Doing Number Theory 
+
+Miscellaneous
+
+(Mostly various pointers I have collected or been sent, but which I haven't yet explored or categorized. Some of these will be moved to other categories, once I explore them.) 
+
+* WAP Forum 
+* Bletchley Park 
+* CRAK Software--WordPerfect, etc. crackers 
+* Beale 
+* CMU-alex 
+* Froomkin/Metaphor 
+* Export-A-CryptoSystem-Sig, 
+* Key Escrow 
+* RSA Tee shirts 
+* Sendmail page from Henry W. Farkas 
+* Sirene additional pointer 
+* Jon Rochkind's HTML version of Tim May's `Cyphernomicon' 
+* Java Security 
+* Eric Young's SSLeay 
+* Technical security counter measures 
+* Transparencies of slides on electronic commerce associated with Kalakota/Whinston book, "Frontiers of Electronic Commerce" (Addison-Wesley) 
+* Global Network Navigator issue on web security 
+* Carl Ellison's list of certificate uses 
+* CAFE 
+* Digital Silk Road (by Chris Hibbard) 
+* Clipper III 
+* Goldberg/Wagner paper on architectural considerations for cryptanalytic hardware 
+* Mondex Non-Anonymity 
+* PathServer (finds paths between PGP keys). 
+* New EAR text... 
+* Introduction to Cryptography and Electronic Commerce 
+* e$ Home page 
+Return to Ron Rivest's home page. 

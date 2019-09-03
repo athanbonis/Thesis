@@ -1,0 +1,347 @@
+Standardisation in Indexing, Searching and Information Retrieval 
+Recent developments in Indexing, Searching and Information Retrieval Technologies 
+
+---------------------------------------------------------------------
+
+  
+W3C Work: HTML/XML 
+IETF Work: Common Indexing Protocol 
+IETF work: other standards 
+Metadata and XML/RDF 
+
+* Standardisation 
+* Metadata/RDF Resources and Publications 
+* XML Searching 
+
+Other Sections 
+
+* Standardisation 
+* Search Engines 
+* Subject Gateways 
+* Automatic Classification 
+* Other SE related technologies 
+* Expert Systems 
+* SE Business News 
+* Directories Business news 
+Index page	 
+
+This page is updated regularly, please send your suggestions to: demchenko@terena.nl 
+
+---------------------------------------------------------------------
+
+W3C Work: HTML/XML 
+
+W3C Web Content accessibility initiative (WAI) 
+Web Content accessibility Guidelines 
+http://www.w3.org/TR/WAI-WEBCONTENT 
+
+Web Architecture: Describing and Exchanging Data 
+W3C Note 7 June 1999 
+http://www.w3.org/1999/04/WebData 
+Building a space where automated agents can contribute - just beginning to build the Semantic Web. The RDF Schema design and XML Schema design began independently, proposed common model where they fit together as interlocking pieces of the semantic web technology. 
+
+Composite Capability/Preference Profiles (CC/PP): A user side framework for content negotiation 
+W3C Note 27 July 1999 
+http://www.w3.org/TR/NOTE-CCPP/ 
+In this note we describe a method for using RDF, the Resource Description Format of the W3C, to create a general, yet extensible framework for describing user preferences and device capabilities. This information can be provided by the user to servers and content providers. The servers can use this information describing the user's preferences to customize the service or content provided. The ability of RDF to reference profile information via URLs assists in minimizing the number of network transactions required to adapt content to a device, while the framework fits well into the current and future protocols being developed a the W3C and the WAP Forum. 
+
+International Layout 
+W3C Working Draft 26-July-1999 
+http://www.w3.org/TR/WD-i18n-format/ 
+The following specification extends CSS to support East Asian and Bi-directional text formatting. 
+
+Platform for Privacy Preferences (P3P) Specification 
+W3C Working Draft 7 April 1999 
+http://www.w3.org/TR/WD-P3P/ 
+This document describes the Platform for Privacy Preferences (P3P). P3P enables Web sites to express their privacy practices and enables users to exercise preferences over those practices. 
+
+POIX: Point Of Interest eXchange Language Specification 
+W3C Note - 24 June 1999 
+http://www.w3.org/TR/poix/ 
+The "POIX" proposed here defines a general-purpose specification language for describing location information, which is an application of XML (Extensible Markup Language). POIX is a common baseline for exchanging location data via e-mail and embedding location data in HTML and XML documents. This specification can be used by mobile device developers, location-related service providers, and server software developers. 
+
+Annotation of Web Content for Transcoding 
+W3C Note 10 July 1999 
+http://www.w3.org/TR/annot/ 
+This proposal presents annotations that can be attached to HTML/XML documents to guide their adaptation to the characteristics of diverse information appliances. It also provides a vocabulary for transcoding, and syntax of the language for annotating Web content. Used in conjunction with device capability information, style sheets, and other mechanisms, these annotations enable a high quality user experience for users who are accessing Web content from information appliances. 
+
+XML Schema Part 1: Structures 
+W3C Working Draft 6-May-1999 
+http://www.w3.org/TR/xmlschema-1/ 
+XML Schema: Structures is part one of a two part draft of the specification for the XML Schema definition language. This document proposes facilities for describing the structure and constraining the contents of XML 1.0 documents. The schema language, which is itself represented in XML 1.0, provides a superset of the capabilities found in XML 1.0 document type definitions (DTDs.). 
+
+XML Schema Part 2: Datatypes 
+World Wide Web Consortium Working Draft 06-May-1999 
+http://www.w3.org/TR/xmlschema-2/ 
+This document specifies a language for defining datatypes to be used in XML Schemas and, possibly, elsewhere. 
+
+XHTML&trade; 1.0: The Extensible HyperText Markup Language 
+A Reformulation of HTML 4.0 in XML 1.0 
+W3C Working Draft 5th May 1999 
+http://www.w3.org/TR/xhtml1/ 
+This specification defines XHTML 1.0, a reformulation of HTML 4.0 as an XML 1.0 application, and three DTDs corresponding to the ones defined by HTML 4.0. The semantics of the elements and their attributes are defined in the W3C Recommendation for HTML 4.0. These semantics provide the foundation for future extensibility of XHTML. Compatibility with existing HTML user agents is possible by following a small set of guidelines. 
+
+Document Object Model (DOM) Level 2 Specification 
+Version 1.0 
+W3C Working Draft 19 July, 1999 
+This specification defines the Document Object Model Level 2, a platform- and language-neutral interface that allows programs and scripts to dynamically access and update the content, structure and style of documents. The Document Object Model Level 2 builds on the Document Object Model Level 1 (http://www.w3.org/TR/REC-DOM-Level-1 ). 
+This release of the Document Object Model Level 2 has all of the interfaces that the final version is expected to have. It contains interfaces for creating a document, importing a node from one document to another, supporting XML namespaces, associating stylesheets with a document, the Cascading Style Sheets object model, the Range object model, filters and iterators, and the Events object model. The DOM WG wants to get feedback on these, and especially on the two options presented for XML namespaces, so that final decisions can be made for the DOM Level 2 specification. 
+
+IBM online XML education courses 
+http://www2.software.ibm.com/developer/education.nsf/xml-onlinecourse-bytitle 
+
+IETF Work: Common Indexing Protocol 
+
+RFC 2651: The Architecture of the Common Indexing Protocol (CIP) 
+J. Allen, M. Mealling 
+ftp://ftp.isi.edu/in-notes/rfc2651.txt 
+This document describes the CIP framework, including its architecture and the protocol specifics of exchanging indices. 
+
+RFC 2652: MIME Object Definitions for the Common Indexing Protocol (CIP) 
+J. Allen, M. Mealling 
+ftp://ftp.isi.edu/in-notes/rfc2652.txt 
+This document describes the definitions of those objects as well as the methods and requirements needed to define a new index type. 
+
+RFC 2653: CIP Transport Protocols 
+J. Allen, P. Leach, R. Hedberg 
+ftp://ftp.isi.edu/in-notes/rfc2653.txt 
+This document specifies three protocols for transporting CIP requests, responses and index objects, utilizing TCP, mail, and HTTP. 
+
+RFC 2654: A Tagged Index Object for use in the Common Indexing Protocol 
+R. Hedberg, B. Greenblatt, R. Moats, M. Wahl 
+ftp://ftp.isi.edu/in-notes/rfc2654.txt 
+This document defines a mechanism by which information servers can exchange indices of information from their databases by making use of the Common Indexing Protocol (CIP). This document defines the structure of the index information being exchanged, as well as the appropriate meanings for the headers that are defined in the Common Indexing Protocol. 
+
+RFC 2655: CIP Index Object Format for SOIF Objects 
+T. Hardie, M. Bowman, D. Hardy, M. Schwartz, D. Wessels 
+ftp://ftp.isi.edu/in-notes/rfc2655.txt 
+This document describes SOIF, the Summary Object Interchange Format, as an index object type in the context of the CIP framework. 
+
+RFC 2656: Registration Procedures for SOIF Template Types 
+T. Hardie 
+ftp://ftp.isi.edu/in-notes/rfc2656.txt 
+The registration procedure described in this document is specific to SOIF template types. 
+
+RFC 2657: LDAPv2 Client vs. the Index Mesh 
+R. Hedberg 
+ftp://ftp.isi.edu/in-notes/rfc2657.txt 
+LDAPv2 clients as implemented according to RFC 1777 have no notion on referral. The integration between such a client and an Index Mesh, as defined by the Common Indexing Protocol, heavily depends on referrals and therefore needs to be handled in a special way. This document defines one possible way of doing this. 
+
+IETF work: other standards 
+
+RFC: 2616. Hypertext Transfer Protocol - HTTP/1.1 
+R. Fielding,  J. Gettys, J. Mogul, H. Frystyk, L. Masinter, P. Leach, T. Berners-Lee 
+ftp://ftp.isi.edu/in-notes/rfc2616.txt 
+HTTP has been in use by the World-Wide Web global information  initiative since 1990. This specification defines the protocol referred to as "HTTP/1.1", and is an update to RFC 2068 HTTP/1.0. 
+
+LDAP Service Deployment BOF (lsd2) at IETF45 in Oslo 
+http://www.ietf.org/ietf/99jul/lsd2-agenda-99jul.txt 
+The purpose of this BOF is to examine the question of deploying LDAP services beyond the context of a single service provider. 
+Presentations about TISDAG, NDD, DESIRE 2 Directory Service.  Suggested areas of activity: description of service models for large-scale directory, schema recommendations (including i18n/l10n issues), client extensions. 
+
+Technical Specification The Norwegian Directory of Directories (NDD) 
+R.Hedberg, H.Alvestrand 
+http://www.ietf.org/internet-drafts/draft-hedberg-alvestrand-ndd-00.txt 
+This specification describs what is proposed to be the necessary infrastructure to provide a national directory server infrastructure in Norway for publicly accessible directory servers. 
+
+Technical Infrastructure for Swedish Directory Access Gateways (TISDAG) 
+Leslie Daigle, Roland Hedberg 
+http://www.ietf.org/internet-drafts/draft-daigle-tisdag-00.txt 
+The strength of the TISDAG project's DAG proposal is that it defines the necessary technical infrastructure to provide a single-access-point service for information on Swedish Internet users.  The resulting service will provide uniform access for all information -- the same level of access to information (7x24 service), and the same information made available, irrespective of the service provider responsible for maintaining that information, their directory service protocols, or the end-user's client access protocol. 
+
+An Architecture for Integrated Directory Services 
+Leslie Daigle, Thommy Eklof 
+http://www.ietf.org/internet-drafts/draft-daigle-arch-ids-00.txt 
+Drawing from experiences with the TISDAG ([TISDAG]) project, this document outlines an approach to providing the necessary infrastructure for integrating such widely-scattered servers into a single service, rather than attempting to mandate a single protocol and schema set for all participating servers to use. 
+The proposed architecture inserts a coordinated set of modules between the client access software and participating servers.  While the client software interacts with the service at a single entry point, the remaining modules are called upon (behind the scenes) to provide the necessary application support.  This may come in the form of modules that provide query proxying, schema translation, lookups, referrals, security infrastructure, etc. 
+
+Use of Language Codes in LDAP 
+M. Wahl, T. Howes 
+ftp://ftp.isi.edu/in-notes/rfc2596.txt 
+The Lightweight Directory Access Protocol (LDAPv3, RFC 2251) provides a means for clients to interrogate and modify information stored in a distributed directory system.  The information in the directory is maintained as attributes (RFC 2252) of entries.  Most of these attributes have syntaxes which are human-readable strings, and it is desirable to be able to indicate the natural language associated with attribute values. 
+This document describes how language codes (RFC 1766) are carried in LDAP and are to be interpreted by LDAP servers.  All implementations MUST be prepared to accept language codes in the LDAP protocols.  Servers may or may not be capable of storing attributes with language codes in the directory.  This document does not specify how to determine whether particular attributes can or cannot have language codes. 
+
+Uniform Object Locator - UOL 
+J. Boynton 
+http://www.ietf.org/internet-drafts/draft-boynton-uol-00.txt 
+A Uniform Object Locator (UOL) provides a hierarchical "human-readable" format for describing the location of any single attribute within any data object. A UOL emulates the internal structure of a data object by dividing a partial URL into two re-usable components; An object constructor and an object name. 
+The UOL format is particularly suited for retrieval and storage of parameter values through multiple object layers. Its basic construction allows it to be combined with a URL; without modification. Possible uses include distributed object management, XML, and e-business development. 
+
+Context and Goals for Common Name Resolution 
+Larry Masinter, Michael Mealling, Nicolas Popp, Karen Sollins 
+http://www.ietf.org/internet-drafts/draft-popp-cnrp-goals-00.txt 
+This document establishes the context and goals for a Common Name Resolution Protocol. 
+
+Internationalized Uniform Resource Identifiers (IURI), 
+Larry Masinter, Martin Duerst 
+http://www.ietf.org/internet-drafts/draft-masinter-url-i18n-04.txt 
+
+Tags for the Identification of Languages 
+H. Alvestrand 
+http://www.ietf.org/internet-drafts/draft-alvestrand-lang-tags-v2-00.txt 
+This document describes a language tag for use in cases where it is desired to indicate the language used in an information object. It also defines a Content-language: header, for use in the case where one desires to indicate the language of document. 
+
+RFC 2611: URN Namespace Definition Mechanisms 
+L. Daigle, D. van Gulik, R. Iannella, P. Faltstrom 
+ftp://ftp.isi.edu/in-notes/rfc2611.txt 
+
+i18n and Multilingual support in Internet mail. Standards Overview. Yuri Demchenko 
+http://www.terena.nl/libr/tech/mldoc-review.html 
+
+Other Standardisation 
+
+Search Engine Standards Project 
+http://www.searchenginewatch.com/standards/ 
+
+Domain Restriction Proposal 
+http://www.searchenginewatch.com/standards/proposals.html 
+
+Standard for Robot Exclusion 
+http://info.webcrawler.com/mak/projects/robots/norobots.html 
+
+Robots META Tag 
+http://www.searchtools.com/info/robots/robots-meta.html 
+  
+
+Metadata and XML/RDF 
+
+Standardisation 
+
+RFC-2413 Dublin Core Metadata for Resource Discovery 
+http://www.ietf.org/rfc/rfc2413.txt 
+
+Encoding Dublin Core Metadata in HTML 
+Internet Draft 
+http://www.ietf.org/internet-drafts/draft-kunze-dchtml-01.txt 
+
+Guidance on expressing the Dublin Core within the Resource Description Framework (RDF) 
+http://www.ukoln.ac.uk/metadata/resources/dc/datamodel/WD-dc-rdf/ 
+
+Resource Description Framework - RDF 
+http://www.ukoln.ac.uk/metadata/resources/rdf/ 
+
+W3C Resource Description Framework (RDF) Model and Syntax - recommendation 
+http://www.w3.org/TR/REC-rdf-syntax/ 
+
+W3C Resource Description Framework (RDF) Schemas - proposed recommendation 
+http://www.w3.org/TR/PR-rdf-schema/ 
+
+Resource Description Framework (RDF) 
+http://www.w3.org/RDF/ 
+
+Metadata and Resource Description 
+http://www.w3.org/Metadata/ 
+
+Dublin Core 
+http://purl.org/metadata/dublin_core/ 
+
+Dublin Core Metadata Element Set: Reference Description 
+http://purl.oclc.org/DC/about/element_set.htm 
+
+User Guide Working Draft 1998-07-31 
+http://purl.oclc.org/DC/documents/working_drafts/wd-guide-current.htm 
+
+1999-07-02: Dublin Core Elements, Version 1.1 moves to Proposed Recommendation 
+The Dublin Core Directorate is pleased to announce that a set of revised element definitions (Dublin Core Elements, Version 1.1) has been completed and is for public review and comment as a Proposed Recommendation of the Dublin Metadata Initiative. 
+http://purl.org/dc/documents/proposed_recommendations/pr-dces-19990702.htm 
+  
+
+CEN/ISSS Workshop on MMI (Metadata for Multimedia Information) 
+http://www.cenorm.be/isss/Workshop/MMI/Default.htm 
+
+CEN/ISSS Metadata Framework, edited by Stewart Granger 
+http://dialspace.dial.pipex.com/town/way/gkh12/frame/main.html 
+
+CEN/ISSS' The European XML/EDI Pilot Project 
+http://www.cenorm.be/isss/workshop/ec/xmledi/isss-xml.html 
+
+The Role of the XML/EDI Guidelines 
+http://www.cenorm.be/isss/workshop/ec/xmledi/xmlbook.htm 
+
+Guidelines for using XML for Electronic Data Interchange, Version 0.05, 25th January 1998 
+http://www.xmledi.net/guide.htm 
+
+The Global Repository Initiative 
+http://www.xmledi.com/repository/ 
+
+White Paper on XML Repositories for XML/EDI 
+http://www.xmledi.com/repository/xml-repWP.htm 
+
+Dublin Core/MARC/GILS Crosswalk 
+Network Development and MARC Standards Office 
+http://www.loc.gov/marc/dccross.html 
+
+Character Set and Language Negotiation (2) in Z39.50 
+http://lcweb.loc.gov/z3950/agency/defns/charsets.html 
+
+Registry of Z39.50 Object Identifiers 
+http://lcweb.loc.gov/z3950/agency/defns/oids.html 
+
+Metadata.Net - Metadata Tools and Services 
+http://metadata.net/ 
+
+Meta Data Coalition 
+http://www.mdcinfo.com/ 
+
+An Introduction to the Meta Data Coalition's Initiatives 
+http://www.MDCinfo.com/papers/intro.html 
+
+Open Information Model 
+MDC OIM Version 1.0 review draft, April 1999 
+http://www.mdcinfo.com/OIM/OIM10.html 
+
+OIM proposed models 
+Knowledge Description Model 
+http://www.mdcinfo.com/OIM/models/KDM.html 
+
+Meta Data Interchange Specification MDIS Version 1.1 
+http://www.mdcinfo.com/MDIS/MDIS11.html 
+
+Metadata/RDF Resources and Publications 
+
+Metadata Resources at UKOLN 
+http://www.ukoln.ac.uk/metadata/resources/ 
+
+Prototype Metadata Registry for DESIRE project 
+http://homes.ukoln.ac.uk/~lisrmh/reginfo-v1.htm 
+
+RDF Tools - Briefing document 
+http://www.ukoln.ac.uk/web-focus/events/seminars/what-is-rdf-may1998/rdf-briefing.html 
+
+DC News, 1999-08-18 
+CIMI Announces the release of the Guide to Best Practice: Dublin Core. The document is one important result of the Dublin Core Testbed, an on-going effort to explore the usability, simplicity, and technical feasibility of Dublin Core for museum information. The Guide addresses Dublin Core 1.0 as documented in RFC 2413. 
+http://www.cimi.org/documents/meta_bestprac_final_ann.html 
+
+New Metadata Handbook from European Schoolnet 
+1st December 1998 
+http://www.en.eun.org/eng/metadatabook-en.html 
+Describes extended Metadata element set has been extended with a range of additional local (sub)elements from other metadata initiatives including the IMS (http://www.imsproject.org/ - Instructional Management System) and the ARIADNE set (http://ariadne.unil.ch/ - Alliance of Remote Instructional Authoring and Distribution Network for Europe). 
+The EUN metadata harmonisation is happening in close co-operation with EUC (European Universal Classroom) which has been studying DBS/GER (http://dbs.schule.de/indexe.html - Deutscher Bildungs-Server / German Educational Resources), GEM (http://gem.syr.edu - The Gateway to Educational Materials) and EdNA (http://www.edna.edu.au/- Education Network Australia). In the following you will find a guideline to create and publish metadata, a presentation of the syntax and a thorough description of each of the EUN elements. 
+
+Dave Beckett's Resource Description Framework (RDF) Resources 
+http://www.cs.ukc.ac.uk/people/staff/djb1/research/metadata/rdf.shtml 
+
+Automatic RDF Metadata Generation for Resource Discovery 
+Charlotte Jenkins, Mike Jackson, Peter Burden, Jon Wallis 
+http://www.scit.wlv.ac.uk/~ex1253/rdf_paper/ 
+
+Classifier/matadata generator Demo 
+http://www.scit.wlv.ac.uk/~ex1253/metadata.html 
+
+Mapping Entry Vocabulary to Unfamiliar Metadata Vocabularies 
+Michael Buckland, with Aitao Chen, Hui-Min Chen, Youngin Kim, Byron Lam, Ray Larson, Barbara Norgard, and Jacek Purat 
+http://www.dlib.org/dlib/january99/buckland/01buckland.html 
+
+XML Searching 
+
+Building a XML-based Metasearch Engine on the Server 
+http://xml.com/pub/1999/07/metasearch/metasearch2.html 
+
+GoXML Search Engine 
+http://www.goxml.com/ 
+GoXML.com v1.0 - BETA is an XML Context-based Search Processor. Online documentation (http://www.goxml.com/about/supported.xsp ) and Demonstration (http://www.goxml.com/help_srch.xsp ). The Goxml Project was launched to create a new breed of Search Vehicle which can index, store and allow accurate searching of XML data. The primary focus is to allow XML developers a tool to locate XML documents on the internet. 
+  
+
+---------------------------------------------------------------------
+
+This page is updated regularly, please send your suggestions to: demchenko@terena.nl 

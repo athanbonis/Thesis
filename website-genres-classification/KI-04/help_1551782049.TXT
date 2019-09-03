@@ -1,0 +1,83 @@
+Find the changed topics by following the chain of recent changes (24 changes for 6/03 and 8/03) . Find the changed topics by going to the table of recent changes . Table of Contents: [1] Copying permissions [2] On-line sites that distribute this document Updated! [3] C++-FAQ-Book versus C++-FAQ-Lite [4] Recent changes to this document Updated! [5] Netiquette when posting to comp.lang.c++ Updated! [6] Big Picture issues Updated! [7] Classes and objects [8] References [9] Inline functions [10] Constructors Updated! [11] Destructors [12] Assignment operators [13] Operator overloading Updated! [14] Friends [15] Input/output via <iostream> and <cstdio> [16] Freestore management Updated! [17] Exceptions and error handling [18] Const correctness [19] Inheritance — basics [20] Inheritance — virtual functions [21] Inheritance — proper inheritance and substitutability [22] Inheritance — abstract base classes (ABCs) [23] Inheritance — what your mother never told you [24] Inheritance — private and protected inheritance [25] Inheritance — multiple and virtual inheritance New! [26] Built-in / intrinsic / primitive data types [27] Coding standards [28] Learning OO/C++ [29] Newbie Questions / Answers Updated! [30] Learning C++ if you already know Smalltalk [31] Reference and value semantics [32] How to mix C and C++ Updated! [33] Pointers to member functions [34] Container classes and templates Updated! [35] Serialization and Unserialization New! [36] Class libraries Updated! [37] Compiler dependencies [38] Miscellaneous technical issues Updated! [39] Miscellaneous environmental issues Links 2 Go Key Resource C++ Programming Topic E-mail the author [ C++ FAQ Lite | Table of contents | Subject index | About the author | © | Download your own copy ] Revised Aug 11, 2003   --> 
+
+C++ FAQ LITE — Frequently Asked Questions
+(Copyright © 1991-2003, Marshall Cline, cline@parashift.com)
+
+---------------------------------------------------------------------
+
+Improve network response:
+
+* Use the closest mirror site: USA, Canada, France, Germany, Ireland, Israel, Italy, the Netherlands, Poland, Spain, Taiwan, U.K.. 
+* Browse the FAQ off-line: 
+Use the one-click download feature to get your own local copy. 
+
+Available in several languages:
+
+* English. 
+* Chinese translation using GB encoding (typically used on the Chinese mainland). 
+* Chinese translation using Big5 encoding (typically used in Taiwan).  Updated!  
+* French translation (alternate site). 
+* Portuguese translation.  Updated!  
+* Russian translation. 
+
+Look up stuff:
+
+* Find a generic topic with the table of contents (coarse-grained; 39 topics). 
+* Find a specific topic with the extensive subject index (fine-grained; 3722 links to 2368 topics). 
+* Find a really specific topic: ... thanks to google.com 
+* Find the changed topics by following the chain of recent changes (24 changes for 6/03 and 8/03). 
+* Find the changed topics by going to the table of recent changes. 
+
+Table of Contents:
+
+* [1] Copying permissions 
+* [2] On-line sites that distribute this document  Updated!  
+* [3] C++-FAQ-Book versus C++-FAQ-Lite 
+* [4] Recent changes to this document  Updated!  
+* [5] Netiquette when posting to comp.lang.c++  Updated!  
+* [6] Big Picture issues  Updated!  
+* [7] Classes and objects 
+* [8] References 
+* [9] Inline functions 
+* [10] Constructors  Updated!  
+* [11] Destructors 
+* [12] Assignment operators 
+* [13] Operator overloading  Updated!  
+* [14] Friends 
+* [15] Input/output via <iostream> and <cstdio> 
+* [16] Freestore management  Updated!  
+* [17] Exceptions and error handling 
+* [18] Const correctness 
+* [19] Inheritance — basics 
+* [20] Inheritance — virtual functions 
+* [21] Inheritance — proper inheritance and substitutability 
+* [22] Inheritance — abstract base classes (ABCs) 
+* [23] Inheritance — what your mother never told you 
+* [24] Inheritance — private and protected inheritance 
+* [25] Inheritance — multiple and virtual inheritance  New!  
+* [26] Built-in / intrinsic / primitive data types 
+* [27] Coding standards 
+* [28] Learning OO/C++ 
+* [29] Newbie Questions / Answers  Updated!  
+* [30] Learning C++ if you already know Smalltalk 
+* [31] Reference and value semantics 
+* [32] How to mix C and C++  Updated!  
+* [33] Pointers to member functions 
+* [34] Container classes and templates  Updated!  
+* [35] Serialization and Unserialization  New!  
+* [36] Class libraries  Updated!  
+* [37] Compiler dependencies 
+* [38] Miscellaneous technical issues  Updated!  
+* [39] Miscellaneous environmental issues
+ 
+---------------------------------------------------------------------
+
+Links2Go Key Resource
+C++ Programming Topic	
+ 
+---------------------------------------------------------------------
+
+ E-mail the author
+[ C++ FAQ Lite | Table of contents | Subject index | About the author | © | 
+Download your own copy ]
+Revised Aug 11, 2003 

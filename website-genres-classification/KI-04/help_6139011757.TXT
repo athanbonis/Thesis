@@ -1,0 +1,187 @@
+         
+
+Web Authoring FAQ
+
+English - Nederlands - Français 
+Table of Contents - Entire FAQ (HTML) - Entire FAQ (Text) 
+
+This document answers questions asked frequently by web authors. While its focus is on HTML-related questions, this FAQ also answers some questions related to CSS, HTTP, JavaScript, server configuration, etc. 
+
+This document is maintained by Darin McGrew <darin@htmlh&#101;lp.com> of the Web Design Group, and is posted regularly to the newsgroup comp.infosystems.www.authoring.html. It was last updated on October 20, 2001. 
+
+Index
+
+1.  Preamble 
+
+2.  Copyright and Disclaimer 
+3.  Where is the latest version of this document? 
+4.  How can I contribute to this document? 
+5.  Can I email the author my questions? 
+6.  Credits 
+
+* Other Documents 
+
+1.  Where can I learn about the WWW? 
+2.  Where can I learn about HTML? 
+3.  Where can I find a list of all the current HTML tags? 
+4.  Where can I learn about CSS? 
+5.  Where can I learn about SGML? 
+6.  Where can I learn about XML (XSL)? 
+7.  Where can I learn about XHTML? 
+8.  Where can I learn about SSI ("SHTML")? 
+9.  Where can I learn about CGI? 
+10. Where can I learn about JavaScript (LiveScript, JScript, EMCAScript, DOM)? 
+
+* Getting Started 
+
+1.  What is everyone using to write HTML? 
+2.  How can I show HTML examples without them being interpreted as part of my document? 
+3.  How do I get special characters in my HTML? 
+4.  Should I put quotes around attribute values? 
+5.  How can I include comments in HTML? 
+6.  How can I avoid using the whole URL? 
+7.  Should I end my URLs with a slash? 
+8.  How can I check for errors? 
+9.  What is a DOCTYPE? Which one do I use? 
+
+* Web Publishing 
+
+1.  Where can I put my newly created Web pages? 
+2.  How can I get my own domain name? 
+3.  How can I block my hosting service's advertisements? 
+4.  Where can I announce my site? 
+5.  Is there a way to get indexed better by the search engines? 
+6.  How do I prevent my site from being indexed by search engines? 
+7.  How do I redirect someone to another page? 
+8.  How do I password protect my web site? 
+9.  How do I stop my page from being cached? 
+10. How do I hide my source? 
+11. How do I hide my URL? 
+12. How do I detect what browser is being used? 
+13. How do I get my visitors' email addresses? 
+14. Why is my custom 404 message not displayed? 
+
+* Web Design 
+
+1.  How do I include one file in another? 
+2.  How do I run a program on my web page? 
+3.  Which should I use, &entityname; or &#number; ? 
+4.  Should I use lower case or upper case for tags? 
+5.  For what screen size should I write? 
+6.  Why does my page display fine in one browser but incorrectly or not at all in another? 
+7.  Why does the browser show my plain HTML source? 
+8.  How do I freeze the URL displayed in a visitor's browser? 
+9.  How do I put links along the left side of my page? 
+10. How can I specify colors? 
+11. How do I change the color of some text? 
+12. How can I specify my scrollbar colors? 
+13. How can I specify fonts in my Web pages? 
+
+* Hyperlinks 
+
+1.  How do I create a link? 
+2.  How do I link to a location in the middle of an HTML document? 
+3.  How do I create a link that opens a new window? 
+4.  How do I create a link that opens a new window of a specific size? 
+5.  How do I create a button which acts like a link? 
+6.  How do I create a back button on my page? 
+7.  How do I create a button that automatically bookmarks my site? 
+8.  How do I create a button that prints my page? 
+9.  How do I create a link that sends me email? 
+10. How do I specify a subject for a mailto link? 
+11. How do I turn off underlining on my links? 
+12. How can I have two sets of links with different colors? 
+13. How can I make links change when the cursor is over them? 
+14. Why are my hyperlinks coming out all wrong or not loading? 
+15. Why does my link work in Internet Explorer but not in Netscape? 
+
+* Images 
+
+1.  How can I display an image on my page? 
+2.  Which image format should I use? 
+3.  How do I link an image to something? 
+4.  How can I create a thumbnail image that is linked to the full-sized image? 
+5.  How do I link different parts of an image to different things? 
+6.  How do I eliminate the blue border around linked images? 
+7.  Why am I getting a colored whisker to the left or right of my image? 
+8.  How do I eliminate the space around/between my images? 
+9.  Why are my images coming out all wrong or not loading? 
+10. How do I make animated GIFs? 
+11. How can I display random images? 
+12. How do I prevent people from saving my images? 
+13. Can I put markup in ALT text? 
+14. How do I align an image to the right (or left)? 
+15. How can I specify background images? 
+16. How do I have a fixed background image? 
+17. How do I have a non-tiled background image? 
+
+* Other Media 
+
+1.  How do I let people download a file from my page? 
+2.  Why did my link to a ... file download a bunch of characters instead? 
+3.  How do I force the browser to download a file? How do I force the browser to show/play a file itself? How do I force a file to be opened by a particular program? 
+4.  How do I get an audio file to play automatically when someone visits my site? 
+5.  How can I strip all the HTML from a document to get plain text? 
+
+* Presentational Effects 
+
+1.  How can I make a custom rule? 
+2.  How can I make a list with custom bullets? 
+3.  Where can I get a "hit counter"? 
+4.  How do I display the current date or time in my document? 
+5.  How do I get scrolling text in the status bar? 
+6.  How do I right align or justify text? 
+7.  How do I indent the first line in my paragraphs? 
+8.  How do I indent a lot of text? 
+9.  How do I eliminate the margins around my page? 
+10. How do I do a page break? 
+11. How can I have a custom icon when people bookmark my site? 
+
+* HTML Tables 
+
+1.  How do I make a table which looks good on non-supporting browsers? 
+2.  Can I nest tables within tables? 
+3.  How can I use tables to structure forms? 
+4.  How do I center a table? 
+5.  How do I align a table to the right (or left)? 
+6.  Can I use percentage values for <TD WIDTH=...>? 
+7.  Why doesn't <TABLE WIDTH="100%"> use the full browser width? 
+8.  Why is there extra space before or after my table? 
+9.  Are there any problems with using tables for layout? 
+
+* HTML Forms 
+
+1.  How do I use forms? 
+2.  How do I get form data emailed to me? 
+3.  How can I use tables to structure forms? 
+4.  How can I eliminate the extra space after a </form> tag? 
+5.  How do I make a form so it can be submitted by hitting ENTER? 
+6.  How do I set the focus to the first form field? 
+7.  How can I make a form with custom buttons? 
+8.  Can I have two or more Submit buttons in the same form? 
+9.  Can I have two or more actions in the same form? 
+10. How can I require that fields be filled in, or filled in correctly? 
+11. Can I prevent a form from being submitted again? 
+12. How can I allow file uploads to my web site? 
+13. How can I use forms for pull-down navigation menus? 
+
+* HTML Frames 
+
+1.  How do I create frames? What is a frameset? 
+2.  How do I make a link or form in one frame update another frame? 
+3.  Why do my links open new windows rather than update an existing frame? 
+4.  How do I update two frames at once? 
+5.  How do I get out of a frameset? 
+6.  How do I make sure my framed documents are displayed inside their frameset? 
+7.  Is there a way to prevent getting framed? 
+8.  How do I specify a specific combination of frames instead of the default document? 
+9.  How do I remove the border around frames? 
+10. How do I make a frame with a vertical scrollbar but without a horizontal scrollbar? 
+11. How do I change the title of a framed document? 
+12. Why aren't my frames the exact size I specified? 
+13. Are there any problems with using frames? 
+14. Do search engines dislike frames? 
+
+Table of Contents - Entire FAQ (HTML) - Entire FAQ (Text) 
+---------------------------------------------------------------------
+Home, Reference, FAQs, Tools, Design, Feature Article, BBS, Links Copyright © 1996-2001 by the Web Design Group. This material may be distributed only subject to the terms and conditions set forth in the Open Publication License, v1.0 or later (the latest version is presently available at http://www.opencontent.org/openpub/). 

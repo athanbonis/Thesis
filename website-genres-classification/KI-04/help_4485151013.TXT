@@ -1,0 +1,720 @@
+Previous section (0) Next section (2)
+
+Q1: General DSP
+
+Q1.1: Summary of DSP books and significant research articles
+
+Updated 12/17/01
+
+Q1.1.1: Bibles of DSP theory
+
+R. E. Crochiere and L. R. Rabiner, Multirate Digital Signal Processing, Prentice-Hall, 1983, ISBN 0-13-605162-6. 
+
+This book is the only real reference for filter banks and multirate systems, as opposed to being a tutorial.
+ 
+
+Peter Kootsookos notes: this book is most certainly an excellent book on multi-rate signal processing, but it came out right before perfect reconstruction filter banks hit the streets. Multirate Systems and Filter Banks by P. P. Vaidyanathan covers this issue.
+ 
+
+G. H. Golub and C. F. van Loan, Matrix Computations, Third Edition, John Hopkins University Press, 1996, ISBN 081085413-X. 
+
+S. M. Kay, Modern Spectral Estimation: Theory and Application, Prentice Hall, 1988, ISBN 0-13-598582-X. 
+
+R. G. Lyons, Understanding Digital Signal Processing, Addison-Wesley Publishing Co., 1997, ISBN 0-201-63467-8. 
+
+Sanjit K. Mitra and James F. Kaiser, Handbook for Digital Signal Processing, John Wiley and Sons, 1993, ISBN 0-471-61995-7. 
+
+Excellent reference work, but assumes you know a fair amount to begin with. [Phil Lapsley]
+ 
+
+A. V. Oppenheim, A. S. Willsky, and S. H. Nawab, Signals & Systems, Prentice-Hall, Inc., 1996, ISBN 0-13-814757-4. 
+
+A. V. Oppenheim and R. W. Schafer, Digital Signal Processing, Prentice-Hall, Inc., Englewood Cliffs, NJ, 1975, ISBN 0-13-214635-5. 
+
+A. V. Oppenheim and R. W. Schafer, Discrete-Time Signal Processing, Prentice Hall, Englewood Cliffs, New Jersey 07632, 1989, ISBN 0-13-216292-X. 
+
+This is an updated version of the original, with some old material deleted and lots of new material added.
+ 
+
+S. J. Orfanidis, Optimum Signal Processing, Second Edition, 1989, MacMillan Publishing, USA, ISBN 0-02-9498597. 
+
+An introduction to signal processing methods which have many applications including speech analysis, image processing, and oil exploration. The author uses optimum Wiener filtering and least-squares estimation concepts as unifying themes and includes subroutines for FORTRAN and C. [Juergen Kahrs, jkahrs@castor.atlas.de]
+ 
+
+T.W. Parks and C. S. Burrus, DFT/FFT and Convolution Algorithms: Theory and Implementation, John Wiley and Sons, 1985, ISBN 0-47-181932-8. 
+
+Thomas Parsons, Voice and Speech Processing, McGraw-Hill, 1987, ISBN 0-07-048541-0. 
+
+W. H. Press, S. A. Teukolsky, W. T. Vetterling, and B. P. Flannery, Numerical Recipes in C, Second Edition, Cambridge University Press, 1992, ISBN 0-52-143108-5. 
+
+The book is also available on-line at http://www.nr.com.
+ 
+
+J. G. Proakis and D. G. Manolakis, Digital Signal Processing: Principles, Algorithms, and Applications, MacMillan Publishing, New York, NY, 1992, ISBN 0-02-396815-X. 
+
+L. R. Rabiner and R. W. Schafer, Digital Processing of Speech Signals, Prentice Hall, 1978, ISBN 0-13-213603-1. 
+
+S. D. Stearns and R. A. David, Signal Processing Algorithms, Prentice Hall, Eaglewood Cliffs, NJ, 1988. ISBN 
+
+P. P. Vaidyanathan, Multirate Systems and Filter Banks, Prentice-Hall. 911 pp. ISBN 0-13-605718-7. 
+
+---------------------------------------------------------------------
+
+Q1.1.2: Adaptive signal processing
+
+S. Haykin, Adaptive Filter Theory, 3rd Ed., Prentice Hall, Englewood Cliffs, NJ, 1991. ISBN 0-13-322760-X. 
+
+J. R. Treichler, C. R. Johnson, and M. G. Lawrence, Theory and Design of Adaptive Filters, John Wiley & Sons, New York, NY, 1987, ISBN 0-47-183220-0. 
+
+B. Widrow and S.D. Stearns, Adaptive Signal Processing, Prentice-Hall, Inc., Englewood Cliffs, NJ, 1985. ISBN 0-13-004029-0 
+
+---------------------------------------------------------------------
+
+Q1.1.3: Array signal processing
+
+J.E. Hudson, Adaptive Array Principles, IEE London and New York, Peter Peregrinus Ltd. Stevenage, UK and NY, 1981. ISBN 0-86-341143-6. 
+
+R.A. Monzingo and T.W. Miller, Introduction to Adaptive Arrays, John Wiley and Sons, NY, 1980. 
+
+S. Haykin, J.H. Justice, N.L. Owsley, J.L. Yen, and A.C. Kak, Array Signal Processing, Prentice-Hall, Inc., Englewood Cliffs, NJ, 1985. 
+
+D. H. Johnson and D. E. Dudgeon, Array Signal Processing, Concepts and Techniques, Prentice-Hall, 1993. ISBN 0-13-048513-6. 
+
+R. T. Compton, Jr., Adaptive Antennas, Concepts and Performance, Prentice-Hall, 1988, ISBN 0-13-004151-3. 
+
+---------------------------------------------------------------------
+
+Q1.1.4: Windowing articles
+
+F. J. Harris, "On the Use of Windows for Harmonic Analysis with the Discrete Fourier Transform", IEEE Proceedings, January 1978, pp. 51-83. 
+
+Perhaps the classic overview paper for discrete-time windows. It discusses some 15 different classes of windows including their spectral responses and the reasons for their development. [Brian Evans, bevans@ece.utexas.edu] 
+
+There are several typos in the above paper. The errors are corrected in: 
+
+A. H. Nuttall, "Some Windows with Very Good Sidelobe Behavior," IEEE Trans. on Acoustics, Speech, and Signal Processing, Vol. ASSP-29, No. 1, February 1981. 
+
+Nezih C. Geckinli and Davras Yavuz, "Some Novel Windows and a Concise Tutorial Comparison of Window Families", IEEE Transactions on Acoustics, Speech, and Signal Processing, Vol. ASSP-26, No. 6, December 1978. 
+
+Lineu C. Barbosa, "A Maximum-Energy-Concentration Spectral Window," IBM J. Res. Develop., Vol. 30, No. 3, May 1986, p. 321-325. 
+
+An elegant method for designing a time-discrete solution for realization of a spectral window which is ideal from an energy concentration viewpoint. This window is one that concentrates the maximum amount of energy in a specified bandwidth and hence provides optimal spectral resolution. Unlike the Kaiser window, this window is a discrete-time realization having the same objectives as the continuous-time prolate spheroidal function; at the expense of not having a closed form solution. [Joe Campbell, jpcampb@afterlife.ncsc.mil] 
+
+D. J. Thomson, "Spectrum Estimation and Harmonic Analysis," Proc. of the IEEE, vol. 70, no. 9, pp. 1055-1096, Sep. 1982. 
+
+In his classic 1982 paper, David Thompson proposes the powerful multiple-window method, which is an elegant and robust technique for spectrum estimation. Based on the Cramer representation, Thompson's method is nonparametric, consistent, efficient, and optimally suited for finite data samples. In addition, it has excellent bias control and stability, provides an analysis of variance test for line components, and finally, works very well in many practical applications. Unfortunately, his important work has been neglected in many textbooks and graduate courses on statistical signal processing. [Dong Wei, wei@vision.ece.utexas.edu, and Brian Evans, bevans@ece.utexas.edu]
+ 
+
+---------------------------------------------------------------------
+
+Q1.1.5: Digital audio effects processing
+
+Books: 
+
+Barry Blesser and J. Kates. "Digital Processing in Audio Signals." in A. V. Oppenheim, ed., Applications of Digital Signal Processing, Englewood Cliffs, NJ: Prentice-Hall, 1978. ISBN 0-13-039115-8. 
+
+Hal Chamberlin, Musical Applications of Microprocessors, 2nd Ed., Hayden Book Company, 1985. 
+
+Deta S. Davis, Computer Applications in Music: A Bibliography, 537 pages, ISBN 0-89579-225-7, pub: A-R Editions. 
+
+Charles Dodge and Thomas A. Jerse, Computer Music: Synthesis, Composition, and Performance, NY: Schirmer Books, 1985. ISBN 0-02-873100-X. 
+
+Digital Signal Processing Committee of IEEE Acoustics, Speech, and Signal Processing Society, ed., Programs for Digital Signal Processing, New York: IEEE Press, 1979. 
+
+F. Richard Moore, Elements of Computer Music, Englewood Cliffs, NJ: Prentice-Hall, 1990. ISBN: 0-13252-552-6. 
+
+Recommended. [Juhana Kouhia, jk87377@cc.tut.fi]
+ 
+
+Ken C. Pohlmann, The Compact Disc: A Handbook of Theory and Use, 288 pages (cloth) ISBN 0-89579-234-6. (paper) ISBN 0-89579-228-1, pub: A-R Editions. 
+
+Curtis Roads and John Strawn, ed., The Foundations of Computer Music, Cambridge, MA: MIT Press, 1985. 
+
+Contains article on analysis/synthesis by Strawn, recommended; also an another article maybe by J.A. Moorer [Juhana Kouhia, jk87377@cc.tut.fi]
+ 
+
+Joseph Rothstein, Midi: A Comprehensive Introduction (Computer Music and Digital Audio, Vol 7), 2nd Ed., A-R Editions, 1995. ISBN 0-89-579309-1. 
+
+Ken Steiglitz, A DSP Primer - With Applications to Digital Audio and Computer Music, Addison-Wesley, 1996, 314 pp, softcover, ISBN 0-8053-1684-1. 
+
+John Strawn, ed., Digital Audio Engineering, 144 pages, A-R Editions. ISBN 0-86576-087-X. 
+
+John Strawn, ed., Digital Audio Signal Processing: An Anthology, Los Altos, CA: W. Kaufmann, 1985. ISBN 0-86-576087-X. 
+
+Contains J.A. Moorer's classic "About This Reverb Business..." and contains an article which gives a code for Phase Vocoder -- great tool for EQ, for Pitchshifter and more [Juhana Kouhia, jk87377@cc.tut.fi] 
+
+John Strawn, ed., Digital Audio Signal Processing, 283 pages, ISBN 0-86576-082-9, pub: A-R Editions. 
+
+Recommended. [Quinn Jensen, jensenq@qcj.icon.com]
+ 
+
+Forthcoming books: 
+
+{please let us know at comp-dsp-faq@bdti.com if they are out!} 
+
+Curtis Roads, "A Computer Music History: Musical Automation from Antiquity to the Computer Age" 
+
+David Cope, "Computer Analysis of Musical Style" 
+
+Dexter Morrill and Rick Taube, "A Little Book of Computer Music Instruments" 
+
+Articles: 
+
+James A. Moorer, About This Reverberation Business, Computer Music Journal 3, 20 (1979): 13-28. (Also in Foundations of CM below). 
+
+Ok article, but you have to know basic DSP operations. [Juhana Kouhia, jk87377@cc.tut.fi] 
+
+Check more articles from Journal of the Audio Engineering Society (JAES), for example more articles by Strawn. 
+
+[The above is largely from Quinn Jensen, jensenq@qcj.icon.com; Juhana Kouhia, jk87377@cc.tut.fi; William Alves, alves@calvin.usc.edu; and Paul A Simoneau, pas1@kepler.unh.edu] 
+
+---------------------------------------------------------------------
+
+Q1.1.6: Digital signal processing implementation
+
+User's manuals and data sheets on specific digital signal processors are available directly from the manufacturers. The works listed below may also be of interest. 
+
+A. Bateman and W. Yates, Digital Signal Processing Design, Computer Science Press, MD, 1989. 
+
+R. Chassaing, Digital Signal Processing - Laboratory Experiments Using C and the TMS320C31 DSK, Wiley, NY, ISBN 0-471-29362-8, 1999. 
+
+R. Chassaing, Digital Signal Processing with C and the TMS320C30, Wiley, NY, 1992. 
+
+R. Chassaing and D. W. Horning, Digital Signal Processing with the TMS320C25, Wiley, NY, 1990. 
+
+R. Chassaing, DSP Applications Using C and the TMS320C6x DSK, Wiley, NY, ISBN 0471207543, 2002. 
+
+Y. Dote, Servo Motor and Motion Control Using Digital Signal Processors, Prentice Hall, NJ, 1990. 
+
+Mohamed El-Sharkawy, Digital Signal Processing Applications with Motorola's 56002 Processor, Prentice Hall, Upper Sadle River, NJ, ISBN 0-13-569476-0, 1996. 
+
+Dale Grover and John R. Deller, Digital Signal Processing and the Microcontroller, Prentice Hall, NJ, ISBN 0-13-081348-6, 1999. 
+
+J. L. Hennessy and D. A. Patterson, Computer Architecture: A Quantitative Approach, Morgan Kaufmann Publishers, San Mateo, CA, 1990, ISBN 1-55-860329-8. 
+
+R. Higgins, Digital Signal Processing in VLSI, Prentice Hall, NJ, 1990. ISBN 0-13-212887-X. 
+
+It's a good primer on DSP theory and practice (albeit slightly out of date regarding today's chips), aimed at both analog engineers entering the digital realm and digital engineers dealing with real-world problems. Its hardware orientation is towards components and the Analog Devices ADSP-2100 series (just emerging at the time of publication), but there is much in it of fundamental tutorial value. [DanShein@ix.netcom.com]
+ 
+
+B. A. Hutchins and T. W. Parks, A Digital Signal Processing Laboratory Using the TMS320C25, Prentice Hall, NJ, 1990. 
+
+D. L. Jones and T. W. Parks, A Digital Signal Processing Laboratory using the TMS32010, Prentice Hall, NJ, 1988. 
+
+P. Lapsley, J. Bier, A. Shoham, and E. A. Lee, DSP Processor Fundamentals: Architectures and Features, Berkeley Design Technology, Inc., Fremont, CA, 1996. 
+
+Vijay Madisetti, VLSI Digital Signal Processors: An Introduction to Rapid Prototyping and Design Synthesis, IEEE Press/Butterworth-Heinemann, 1995. 
+
+Henrik V. Sorensen and Jianping Chen, A Digital Signal Processing Laboratory Using the TMS320C30, Prentice Hall, Upper Sadle River, NJ, ISBN 0-13-741828-0, 1997. 
+
+Steven A. Tretter, Communication system design using DSP algorithms: with laboratory experiments for the TMS320C30, Plenum Press, Norwell, MA, ISBN 0306450321, 1995. 
+
+---------------------------------------------------------------------
+
+Q1.1.7: Free online books
+
+Updated 2/11/02
+
+The Scientist and Engineer's Guide to Digital Signal Processing
+
+This introductory DSP book is available for free download at http://www.dspguide.com/. Topics covered in this 640-page book include: convolution, digital filters, audio processing, data compression, and Fourier, Laplace, and z transforms. 
+
+Yehar's sound DSP tutorial for the braindead
+
+This tutorial is for people with "high school level" math knowledge, so you won't have to be a specialized genius to be able to read this. There's actually quite a lot information in this one, but the best covered subjects are: filters in general, FIR and IIR filter design, interpolation, frequency shifting. 
+
+http://www.student.oulu.fi/~oniemita/DSP/INDEX.HTM 
+
+[Steve Horne, steve@lurking.demon.co.uk] 
+---------------------------------------------------------------------
+
+Q1.2: DSP training
+
+Updated 05/06/02
+
+Q1.2.1: Courses on DSP
+
+DSP training is available from the following sources: 
+
+1.  DSP Made Simple: basic DSP theory and algorithms. Web: http://www.bessercourse.com/ 
+
+2.  DSP without Tears: Z Domain Technologies covers theory and applications. Web: http://www.zdt.com/ 
+
+3.  DSP Workshop: Dr. Bill Gordon, who is located in Austin, gives them. He is a former Texas Instruments employee. He can be reached at dsp@io.com. Web: http://www.dsp-workshops.com/ 
+
+4.  Berkeley Design Technology Inc.: BDTI is a DSP consulting and independent DSP processor/tools evaluation firm in Berkeley, CA. Web: http://www.bdti.com/ 
+
+5.  Cysip: Courses in DSP, Speech/Image Processing, and Communications. Web: http://www.cysip.com/ 
+
+[Brian Evans, bevans@ece.utexas.edu; Andreas Spanias, spanias@asu.edu] 
+
+---------------------------------------------------------------------
+
+Q1.2.2: On-line courses on DSP
+
+Updated Mar 1, 2003 
+
+Prof. Brian Evans: Real-time DSP course online at http://www.ece.utexas.edu/~bevans/courses/realtime/. 
+
+TechOnLine (http://www.techonline.com/): Courses on various topics. 
+
+Engineering Productivity Tools Ltd. (http://www.eptools.com/tn/index.htm): Technical notes on various topics (FFT, Sensor arrays, etc.). 
+
+BORES Signal Processing DSP course. (http://www.bores.com/courses/intro/index.htm): Introduction courses to DSP. 
+
+TI has a centralized training site where DSP designers can access all of TI's training webcasts, workshops and seminars. It can be found at www.dspvillage.ti.com/trainingpr2. It covers TI DSP, tools, software and applications. Analog training is also included. 
+
+TI also has a site designed to help new DSP users (primarily new TI DSP users) get started with their designs: http://www.dspvillage.ti.com/cocostu. 
+
+---------------------------------------------------------------------
+
+Q1.3: Where can I get free software for general DSP?
+
+Updated 05/06/02 
+
+The packages listed below are mostly not oriented for use with a specific DSP processor. See the later sections in the FAQ for software relevant to a particular programmable DSP chip. 
+
+Q1.3.1: DSP Packages for MATLAB
+
+Updated 05/06/02
+
+FOR STUDENTS IN THE US AND CANADA: The MATLAB Student Version, available from The MathWorks, is a full-featured version of MATLAB and includes Simulink (with model sizes up to 300 blocks) and the Symbolic Math toolbox. It is available for Windows and Linux. See http://www.mathworks.com/products/studentversion/. 
+
+MATLAB user's group public domain extensions to MATLAB
+
+Description:
+The MATLAB Digest is issued at irregular intervals based on the number of questions and software items contributed by users. To subscribe to the newsletter, send mail to subscribe@mathworks.com. To make submissions to the digest, please send to hwilson@ua1vm.ua.edu with a subject: "DIG" and description. 
+
+To obtain:
+Some MATLAB tools are available on the web at http://www.mathworks.com, or via anonymous ftp at ftp://ftp.mathworks.com/. 
+
+Wavelet Tools
+
+Description:
+ There is a set of Wavelet Tools available for MATLAB, see Section 2.9 of this FAQ.
+
+Communications Toolbox
+
+Description:
+We have developed a "Communications Toolbox" based on the MATLAB code for classroom use. It is used by students taking a 4th year communications course where the emphasis is on digital coding of waveforms and on digital data transmission systems. The MATLAB code that constitutes this toolbox has been in use for over two years. 
+
+There are close to 100 "M-files" that implement various functions. Some of them are quite simple and are based on existing MATLAB M-files. But a great many of them has been created from scratch. We also prepared a lab manual (in TEX format) for the 7 simulations which the students perform as the lab component of this course. The topics of these simulations are:
+
+* Probability Theory 
+* Random Processes 
+* Quantization 
+* Binary Signalling Formats 
+* Detection 
+* Digital Modulation 
+* Digital Communication 
+
+To obtain:
+M-files (MATLAB 4.2) is available in: ftp://ftp.mathworks.com/pub/contrib/v4/misc/comm_tbx/ 
+
+The complete manual in Postscript format is available at ftp://ftp.mathworks.com/pub/contrib/v4/misc/comm_tbx/comm_tbx.manual.ps. [Mehmet Zeytinoglu, mzeytin@ee.ryerson.ca] 
+
+Digital Filter Package (DFP)
+
+Description:
+The Digital Filter Package is a GUI front-end to digital filter design with MATLAB. DFP extends the basic digital filter design functionality of MATLAB in two important ways:
+
+* Filter coefficients can be quantized. This feature is important if the filter is to be implemented on a fixed-point DSP processor. 
+* DFP generates assembly-language code for the designed digital filter. In the current release of DFP, this option is only available for the Motorola DSP56xxx family. 
+
+For more information:
+http://www.ee.ryerson.ca:8080/~mzeytin/dfp/index.html. [Mehmet Zeytinoglu, mzeytin@ee.ryerson.ca] 
+
+Implementations of the CELP Federal Standard 1016 Speech Coder and LPC-10e Speech Coder
+
+To obtain:
+http://www.cysip.com/dsplinks.html. [Andreas Spanias, spanias@asu.edu] 
+
+GSM Routines
+
+Description:
+ Chris Stratford has placed GSM-related MATLAB code online, including routines for GMSK modulation and Viterbi equalization. 
+
+To obtain:
+http://www.stratfordc.free-online.co.uk. 
+
+---------------------------------------------------------------------
+
+Q1.3.2: DSP Packages for Mathematica
+
+Updated 04/03/01
+
+Note: FOR STUDENTS: A student version of Mathematica is available. It includes a copy of the reference manual. The only drawbacks to the student version are that the floating point coprocessor is disabled and that upgrades cannot be ordered.
+ 
+
+Signal Processing Packages (SPP) and Notebooks, Version 2.9.5
+
+Description:
+Freely distributable extensions to Mathematica. Enables the symbolic manipulation of signal processing expressions: 1-D discrete/continuous convolutions and 1-D/m-D linear transforms (Laplace, Fourier, z, DTFT, and DFT). For linear transforms, you can specify your own transform pairs and see the intermediate computations. Great for showing students how to take transforms, or for deriving input-output relationships in a transform domain. Additional abilities include analog filter design, solving DE's using transforms, converting signal processing expressions to their equivalent TeX forms, number theoretic operations (Bezout numbers, Smith Form decompositions, and matrix factors), and multirate operations (graphical design of 2-d decimators). Accompanying the SPPs are tutorial notebooks on analog filter design, Fourier analysis, piecewise convolution, and the z-transform (includes a discussion of fundamentals of digital filter design). These Notebooks illustrate difficult concepts (such as the flip-and-slide view of convolution) through animation. 
+
+To obtain:
+Contact Brian Evans at bevans@ece.utexas.edu, or see http://www.ece.utexas.edu/~bevans/projects/symbolic/spp.html. 
+
+Version 3.0 of the SPP (an "overhauled version of 2.x" according to the author) is available commercially in two products: the Signals and Systems Pack from Wolfram Research, and a book entitled "Mathematica Notebooks to Accompany Contemporary Linear Systems Using MATLAB" from PWS Publishing company. 
+
+EE341
+
+Description:
+Dr. Roberto H. Bamberger reports: I have developed a series of about 30 Lectures that I use for EE341 (Analog Communication Systems) here at Washington State University. They use the SPP by Brian Evans. They discuss many concepts associated with linear systems theory. Topics covered include LTI system theory, convolution, AM, FM, PM modulation and demodulation, and the sampling theorem. NOTE: All Notebooks were developed under NeXTSTEP 3.1 using Mathematica 2.2. I make no guarantees about the graphics being able to be rendered on anything other than a NeXT. 
+
+Control Systems Analysis Package (COSYPAK) and Notebooks
+
+Description:
+Public domain extension to Mathematica. Classical and state-space control analysis and design methods. The Notebooks supplement the material in the textbook "Modern Controls Theory" by Ogata. Largely based on the Signal Processing Packages (SPP, see above). 
+
+For more information:
+Contact Dr. Sreenath, sree@veda.esys.cwru.edu. 
+
+Other Mathematica DSP Notebooks
+
+The following Mathematica notebooks can be ftped from worldserver.com: 
+
+* pub/malcolm/FilterDesign.math IIR Filter Design (continuous and discrete) 
+* pub/malcolm/ear.math.Z Implementation of Lyon's Cochlear Model 
+* pub/malcolm/Gammatone.math Implementation of Gammatone Cochlear Model. Printed copies (with floppies) are available from the Apple library (corp.lib@applelink.apple.com). Pointers to the notebooks are available from Malcolm Slaney's homepage at http://www.interval.com/~malcolm/pubs.html. 
+
+The following Mathematica notebooks (from Julius Smith, jos@ccrma.stanford.edu) can be ftped from ccrma-ftp.stanford.edu: 
+
+* pub/DSP/Tutorials/GenHamming.ma.Z Generalized Hamming windows 
+* pub/DSP/Tutorials/Kaiser.ma.Z The Kaiser window 
+* pub/DSP/Tutorials/WinFlt.ma.Z Digital filter design by the "window method" 
+
+(There are other DSP related items in pub/DSP on ccrma-ftp; see other sections of this FAQ for details). 
+
+---------------------------------------------------------------------
+
+Q1.3.3: Other DSP Libraries
+
+Updated 05/06/02 
+
+Audio File I/O Routines
+
+Description:
+The Audio File Signal Processing (AFsp) package is a library of routines for reading and writing audio files of various formats. It also provides utility programs for comparing audio files (speech activity factor, SNR); coping, combining, concatenating, and changing the format of audio files; resampling (arbitrary sample rate conversion); filtering audio files (including ITU-T filters); and generating noise / tones. These routines are freely distributable under a license similar to the GNU license. They were written by Prof. Peter Kabal of the Telecommunications and Signal Processing Library at McGill University. 
+
+To obtain:
+The kit is located at: ftp://ftp.tsp.ece.mcgill.ca/TSP/AFsp/ 
+
+For more information:
+See http://www.tsp.ece.mcgill.ca/Docs/Software/AFsp/AFsp.html [Brian Evans, bevans@ece.utexas.edu] 
+
+FFTW ("Fastest Fourier Transform in the West")
+
+Description:
+FFTW, a fast C FFT library, along with benchmarks comparing the speed and accuracy of many public domain FFTs on a variety of platforms. 
+
+To obtain:
+http://www.fftw.org 
+
+For more information:
+fftw@fftw.org. 
+
+Intel Signal Processing Library
+
+Description:
+ The Intel Signal Processing Library provides a set of optimized C functions that implement typical signal processing operations on Intel processors. 
+
+To obtain:
+ http://developer.intel.com/software/products/perflib/spl/index.htm 
+
+ISIP Automatic Speech Recognition System
+
+Description:
+ Source code for a public domain automatic speech recognition system. 
+
+To obtain:
+ http://www.isip.msstate.edu/projects/speech/software/asr/index.html 
+
+ISIP Foundation Classes
+
+Description:
+ A large C++ class library for use in signal processing research. Includes classes for file I/O, vector and matrix operations, signal processing, pattern recognition, and automatic speech recognition. 
+
+To obtain:
+ http://www.isip.msstate.edu/projects/speech/education/tutorials/isip_env/ 
+
+Linear Systems Toolbox for Maple
+
+Description:
+Public domain extension to Maple. 
+
+To obtain:
+ftp://ftp.egr.duke.edu/pub/maple/linsys1.2.tar.Z 
+
+For more information:
+Contact Tony Richardson, amr@mpl.ucsd.edu. 
+
+Signal Processing using C++ (SPUC)
+
+Description:
+ Free C++ classes for DSP & digital communications simulation and modeling. Includes: 
+
+* Basic building blocks such as fixed bit width integer classes, pure-delay blocks, Gaussian and random noise, etc. 
+* DSP building blocks such as FIR, IIR, Allpass, Running Average, Lagrange interpolation filters, NCOs (numerically controlled oscillators), Cordic rotator. 
+* Several communications functions such as timing, phase and frequency discriminators for BPSK/QPSK signals and raised-cosine type FIR filter functions. 
+
+To obtain:
+ http://spuc.sourceforge.net/ 
+
+For more information:
+tony_kirke@ieee.org. 
+
+Vector/Signal/Image Processing Library (VSIPL)
+
+Description:
+ VSIPL is an API and library for vector, signal, and image processing. 
+
+To obtain:
+ http://www.vsipl.org 
+
+---------------------------------------------------------------------
+
+Q1.3.4: DSP Software
+
+Updated 10/18/99
+
+AudioFile System
+
+Description:
+The AudioFile System (AF) is a device-independent network-transparent audio server. The distribution includes device drivers and server code for Digital RISC systems running Ultrix, Digital Alpha AXP systems running OSF/1, and Sun Microsystems SPARCstations running SunOS. Also included are an API and library, out-of-the-box core applications, and a number of contributed applications. AudioFile allows applications to generate and process audio in real-time and at present handles up to 48 KHz stereo audio. 
+
+To obtain:
+AudioFile is distributed in source form, with a copyright allowing unrestricted use for any purpose except sale (see the Copyright notice). 
+
+The kit is located in the at: ftp://crl.dec.com/pub/DEC/AF/ 
+
+A sample kit of sound-bites is available as: ftp://crl.dec.com/pub/DEC/AF/AF2R2-other.tar 
+
+For more information:
+af@crl.dec.com is a mailing list for discussions of AudioFile. Send mail to af-request@crl.dec.com to be added to this list. [Larry Stewart, stewart@crl.dec.com] 
+
+Khoros
+
+Description:
+Visual programming interface for image and video processing. See the UseNet group comp.soft-sys.khoros. A free trial version is available. 
+
+Platforms:
+Digital UNIX 4.0D, Red Hat Linux 4.2, Irix 6.2 and 6.3, Solaris 2.5.1, Windows NT 4.0 
+
+To obtain:
+Khoros is found at: http://www.khoral.com/. 
+
+MathViews, WaveXplorer, MathXplorer
+
+Description:
+MathViews for Windows/32 - Math Software for Windows 3.1 (version 2.1 only) and Windows 95/NT. Current version is 2.21. "MathViews for Windows/32 is MATLAB look-alike. It has a full set of linear algebra and signal processing functionality. MathViews is highly compatible with the MATLAB language" 
+
+WaveXplorer for Windows 95/NT: version 2.21. "Interactive waveform editor (based on the computational engine of MathViews)" 
+
+MathXplorer, MathViews ActiveX control: version 2.21. "MathXplorer provides easy access to the MathViews computational engine that can be embedded in MS Excel, Visual Basic, Internet Explorer, etc."
+
+Author: Dr. Shalom Halevy, shalevy@mathwizards.com, PO BOX 22564, San Diego, CA 92192 (619) 552-9031 USA (Tel/FAX) http://www.mathwizards.com. 
+
+To obtain:
+http://www.mathwizards.com/. No sources. Shareware version available. 
+
+PC Convolution
+
+Description:
+P.C. convolution is a educational software package that graphically demonstrates the convolution operation. It runs on IBM PC type computers using DOS 4.0 or later. It is currently being used in schools of Mathematics, Electrical Engineering, Earth Sciences, Aeronautics, Astronomy, Geophysics, and Experimental Psychology. 
+
+The current version of this software demonstrates continuous time convolution, discrete time, and circular convolution along with cross-correlation. 
+
+To obtain:
+ ftp://lamarr.ee.umr.edu/pub/pcc5.zip. University instructors may obtain a free, fully operational version by contacting Dr. Kurt Kosbar at the address listed below. 
+
+Dr. Kurt Kosbar
+117 Electrical Engineering Building
+University of Missouri - Rolla
+Rolla, Missouri, USA 65401, phone: (573) 341-4894
+e-mail: kk@ee.umr.edu
+
+Ptolemy
+
+Description:
+Ptolemy is an object oriented framework for the specification, simulation, and rapid prototyping of systems. From a flow graph description, Ptolemy can generate both C code and DSP assembly code for rapid prototyping. Code generation is not yet complete and is included in the current release for demonstration purposes only. 
+
+Platforms:
+Ptolemy is available for Solaris, HPUX, Digital Unix, Linux, and Windows NT. 
+
+To Obtain:
+ Ptolemy is available via anonymous ftp. Get the file: ftp://ptolemy.eecs.berkeley.edu/pub/README and follow the instructions. 
+
+Organizations without Internet access can obtain Ptolemy, without support, from ILP. This is often a more stable, less featured version than is available by FTP. 
+
+EECS/ERL Industrial Liaison Program Office
+Software Distribution
+205 Cory Hall
+University of California, Berkeley
+Berkeley, CA 94720
+(510) 643-6687
+email: ilpsoftware@eecs.berkeley.edu 
+
+This includes printed documentation, including installation instructions, a user's guide, and manual pages. A handling fee will be charged. 
+
+For more information about Ptolemy and its successor, Ptolemy II: 
+See http://ptolemy.eecs.berkeley.edu and the comp.soft-sys.ptolemy Usenet newsgroup. 
+
+SANTIS (now Dataplore)
+
+Description:
+SANTIS is a tool for Signal ANalysis and TIme Series processing. All operations can be executed from a mouse-supported graphical user interface. It contains standard facilities for signal processing as well as advanced features like wavelet techniques and methods of nonlinear dynamics. 
+
+Platforms:
+Supported systems include Microsoft Windows, Linux, Solaris, and SGI Irix. 
+
+To obtain:
+You can get the software and more information from the WWW page http://datan.de/dataplore/. [Ralf Vandenhouten, vanni@Physiology.RWTH-Aachen.DE] 
+
+ScopeDSP
+
+Description:
+ScopeDSP is a time and frequency signal processing tool for Windows 95/NT. It can read and or write real or complex, time or frequency sampled data in a variety of file formats. It can generate various types of time signals, manipulate data, and transform between time and frequency domains. Shareware with a 60-day test period. 
+
+To obtain:
+http://www.iowegian.com/. 
+
+Sfront
+
+Description:
+ Sfront is a compiler for Structured Audio, the audio signal processing language that is a part of the ISO/IEC MPEG 4 Audio standard. The output of the compiler is a C program, that when compiled and executed generates the audio, with many audio input, audio output, and control options, including real-time interactive and audio streaming support for some OS's. The website also includes an online book for learning how to program in Structured Audio, and a reference manual that describes how to extend sfront and embed it in applications. 
+
+Platforms:
+The compiler is written in strict ANSI C, and runs on most UNIX systems as well as MS Windows. 
+
+To obtain:
+Sfront is distributed under the GNU public license, and is available for free download at the website: http://www.cs.berkeley.edu/~lazzaro/sa. 
+
+Shorten
+
+Description:
+Shorten is a compressor/coder for waveform files. It supports both lossless coding and lossy coding down to three bits per sample. It operates using a linear predictor and Huffman coding the prediction residual using Rice codes. A technical report shows that this simple scheme is both fast and near optimal. Data formats supported are RIFF WAVE plus signed and unsigned values at 8 or 16 bits per sample, ulaw, alaw and multiple interleaved channels. For lossless compression of speech files recorded using 16 bits at 16 kHz the compression ratio is typically 2:1. CD audio (44.1 kHz, 16 bit stereo) is near transparant at 4:1 or 5:1 lossy compression. 
+
+Platforms:
+The command line version compiles on most UNIX platforms. A version is available for MS Windows/NT. 
+
+To obtain:
+ http://www.softsound.com/Shorten.html points to all versions. [Tony Robinson, ajr@softsound.com] 
+
+---------------------------------------------------------------------
+
+Q1.3.5: Text to Speech Conversion Software
+
+Updated 1/7/97
+
+Free (but not public domain) text to speech conversion software is available via anonymous ftp from wilma.cs.brown.edu in the pub directory as speak.tar.Z. It will compile and run on a SPARC's built-in audio after modifying speak.c with the path of your libaudio.h (e.g., /usr/demo/SOUND/libaudio.h). It's a simple phoneme concatenation system with commensurate synthesized speech quality (a directory of phoneme audio files is included). [Joe Campbell, jpcampb@afterlife.ncsc.mil] 
+
+A public domain version of the same Naval Research Lab text to phoneme rules can be obtained from: 
+
+ftp://svr-ftp.eng.cam.ac.uk/pub/comp.speech/syntheses/english2phoneme.tar.gz 
+
+The comp.speech FTP site includes a speech synthesis directory at ftp://svr-ftp.eng.cam.ac.uk/pub/comp.speech/synthesis. The main package is "rsynth" which is a complete text to speech synthesis system. Several component packages are also present. "textnorm" converts non-words such as digit strings into words (e.g. 1000 to ONE THOUSAND). "english2phoneme" does some of the same but its main functionality is to guess an appropriate phoneme sequence for each word. "klatt" takes a parametric form that describes each phoneme and converts it to a waveform. Other packages exist in the same directory to edit and visualise the klatt parameters. [Tony Robinson, ajr@softsound.com] 
+
+---------------------------------------------------------------------
+
+Q1.3.6: Filter Design Software
+
+Updated 03/30/01
+
+* There are filter design programs available via anonymous FTP. The following are summarized here and discussed in greater detail below:
+
+* August 1992 IEEE Trans. on Signal Processing: METEOR FIR filter design program. 
+* DFiltFIR and DFiltInt FIR filter design program. 
+* Netlib IIR filter design. 
+* IEEE Press "Programs for Digital Signal Processing". 
+* Tod Schuck's near-optimal Kaiser-Bessel program. 
+* Brian Evans' and Niranjan Damera-Venkata's packages for Matlab and Mathematica. 
+* ScopeFIR. 
+* FilterExpress. 
+* Charles Poynton's filter design resource page. 
+* Juhana Kouhia's hotlist. 
+
+* The August 92 issue of IEEE Transactions on Signal Processing includes a paper entitled "METEOR: A Constraint-Based FIR Filter Design Program" by Kenneth Steiglitz, Thomas W. Parks and James F. Kaiser. The authors describe an FIR design program which allows specification of the target frequency response characteristics in a fairly generalized and flexible way. As well as designing filters, the program can optimize filter lengths and push band limits. 
+
+The source for the programs (meteor.p, form.p, meteor.c, and form.c) and the METEOR paper as a postscript file may be found at http://www. music.Princeton.edu/classes/class.html. The programs were originally written in Pascal and then evidentally run through p2c to produce the C versions; all the necessary Pascal library stuff is included in the C code and they built error-free out of the box for me on an SGI machine. 
+
+There is no manual. The paper includes instructions on running the programs. [Steve Clift, clift@mail.anacapa.net] 
+
+Weimin Liu has created a Windows 95 interface to the Meteor program, which can be downloaded from http://www.nyx.net/~wliu/filter.html. 
+
+* Other free filter design packages are DFiltFIR and DFiltInt. DFiltFIR designs minimax approximation FIR filters. It uses the algorithm developed by McClelland and Parks and incorporates constraints on the response as proposed by Grenez. DFiltInt designs minimum mean-square error FIR interpolating filters. The design specification is in terms of a tabulated power spectrum model for the input signal. 
+
+The packages are available from http://www.tsp.ece.mcgill.ca/Docs/Software/FilterDesign/FilterDesign.html or directly via anonymous ftp from ftp://ftp.tsp.ece.mcgill.ca/TSP/FilterDesign/. 
+
+Another package, libtsp, is a library of C-language routines for signal processing. The package is available from http://www.tsp.ece.mcgill.ca/reports/Software/libtsp/libtsp.html or directly via anonymous ftp from ftp://ftp.tsp.ece.mcgill.ca/pub/libtsp/ [Peter Kabal, kabal@ECE.McGill.CA] 
+
+* Another source is netlib: "A free program to design IIR Butterworth, Chebyshev, and Cauer (elliptic) filters, in any of lowpass, bandpass, band reject, and high pass configurations, is available in netlib (e.g., netlib.bell-labs.com) as the file netlib/cephes/ellf.shar.Z. By email to netlib@netlib.bell-labs.com the request message text is `send ellf from cephes'. The URL is http://www.netlib.org. [Stephen Moshier, moshier@world.std.com] 
+
+* The Fortran source code from the IEEE Press book "Programs For Digital Signal Processing" is available by anonymous ftp from ftp://soma.crl.mcmaster.ca/pub/IEEE/software/dsp.zip or ftp://soma.crl.mcmaster.ca/pub/IEEE/software/dsp.tar.gz. It includes FIR and IIR filter design software, FFT subroutines, interpolation programs, a coherence and cross-spectral estimation program, linear prediction analysis programs, and a frequency domain filtering program. There is also a C/C++ version of the McClellan-Parks-Rabiner FIR filter design program available from ftp://ftp.uu.net/usenet/comp.sources.misc/volume22/fir/part01.Z 
+
+This program was created and tested using Borland C++ 2.0. This requires a pretty reasonable C++ compiler - it is reported that QuickC (not C++) won't do it. [Witold Waldman, Witold.Waldman@dsto.defence.gov.au, from Charles Owen at mgcbo@uxa.ecn.bgu.au; also Andrew Ukrainec, ukrainec@InfoUkes.com] 
+
+* I have developed a MATLAB (vers 4.0 for Windows) program that allows for the frequency domain design of the "near optimal" Kaiser-Bessel window. The program is based upon the three closed form equations developed by Kaiser and Schafer in 1981 that allow for the specification of the time domain window length, and the frequency domain mainlobe width and relative sidelobe amplitude. For signal processing applications where the spectral content of the windowing function is critical so as not to mask adjacent spectra such as radar signal processing applications where a weak target return adjacent to a strong target return could be easily masked by a windowing function that resolves poorly in frequency; this program allows complete frequency domain specification of the spectral characteristics of the windowing function. The current version of this program allows for the user to specify the two frequency domain parameters of mainlobe width and relative sidelobe amplitude and lets the window length fall out as the dependent variable. The program is easily modified to allow for any two parameters to be selected and allowing the third to be determined as a result.
+
+This program will output to an ASCII file the window coefficients that can be easily dumped to an EPROM or included in a program. It also generates both time and frequency domain graphs so that the user can visually verify the widow record length and spectral content. I will gladly provide any interested parties with my MATLAB code. 
+
+Tod M. Schuck
+Lockheed Martin NE&SS
+Moorestown, NJ 08060
+e-mail: tod.m.schuck@lmco.com
+ 
+
+* Filter Optimization Packages for Matlab and Mathematica, version 1.1 by Brian L. Evans and Niranjan Damera-Venkata, Dept. of ECE, The University of Texas at Austin. Available from http://www.ece.utexas.edu/~bevans/projects/filters/syn_filter_software.html . 
+
+We have released a set of Matlab packages to optimize the following characteristics of analog filter designs simultaneously: 
+
+1.  magnitude response 
+2.  linear phase in the passband 
+3.  peak overshoot in the step response 
+4.  quality factors (Q) 
+
+subject to constraints on the same characteristics. The Matlab packages take about 10 seconds for fourth-order filters and 3 minutes for eighth-order filters to run on a 167-MHz Sun Ultra-2 workstation. 
+
+We use the symbolic mathematics environment Mathematica to describe the constrained non-linear optimization problem formally, derive the gradients of the cost function and constraints, and synthesize the Matlab code to perform the optimization. In the public release, we provide the Matlab to optimize analog IIR filters of fourth, sixth, and eighth orders. Using the Mathematica formulation, designers can add new measures and constraints, such as capacitance spread for integrated circuit layout, and regenerate the Matlab code. 
+
+We describe the framework in [1]. An earlier version of the framework is described in [2]. We plan to extend this framework to digital IIR filters. 
+
+[1] N. Damera-Venkata, B. L. Evans, M. D. Lutovac, and D. V. Tosic, Joint Optimization of Multiple Behavioral and Implementation Properties of Analog Filter Designs, Proc. IEEE Int. Sym. on Circuits and Systems, Monterey, CA, May 31 - Jun. 3, 1998, vol. 6, pp. 286-289. http://www.ece.utexas.edu/~bevans/papers/1998/filter_optimization/. 
+
+[2] B. L. Evans, D. R. Firth, K. D. White, and E. A. Lee, Automatic Generation of Programs That Jointly Optimize Characteristics of Analog Filter Designs, Proc. of European Conf. on Circuit Theory and Design, Istanbul, Turkey, August 27-31, 1995, pp. 1047-1050. http://ptolemy.eecs.berkeley.edu/publications/papers/95/filter_design_ecctd95/ 
+
+[Brian Evans, bevans@combo.ece.utexas.edu] 
+
+* ScopeFIR is a FIR filter design tool for Windows 95/NT which designs complex FIR filters using the Parks-McClellan algorithm or windowing. It can then mix, scale, quantize, and edit the FIR coefficients. It creates a wide variety of impulse and frequency response plots, and supports many data file formats, including TI assembly and ADI PM. Shareware with a 60-day trial period, available from http://www.iowegian.com/scopefir.htm. 
+
+[Grant Griffin, grant.griffin@iowegian.com] 
+
+* FilterExpress is a free filter synthesis tool for Windows. It supports the design and analysis of IIR, FIR and multirate FIR filters. It is available for download from http://www.systolix.co.uk/swdownload.htm. 
+
+* DSP Design Performance provides Java applets generating different filters. The applets can be found at http://www.nauticom.net/www/jdtaft. 
+
+* Charles Poynton has an extensive list of hot-links to filter design resources on the web at http://www.inforamp.net/~poynton/Poynton-dsp.html. 
+
+* Juhana Kouhia has an extensive list of links at http://www.funet.fi/~kouhia/hotlist-dsp.html. 
+
+---------------------------------------------------------------------
+
+Q1.3.7: Audio effects
+
+Updated 2/11/02
+
+Harmony Central
+
+Harmony Central publishes some of the source code for its synthesis and audio processing program at http://www.harmony-central.com/Computer/Programming/. The code may be used in public releases, but Harmony Central asks you to credit the author and possibly make the product available for free or publish any modified code. 
+
+Music-DSP Source Code Archive
+
+Musicdsp.org is a collection of data gathered for the music dsp community. It includes code for wavetable synthesis, dithering, guitar feedback, and many other effects and algorithms. 
+
+http://www.musicdsp.org/ 
+
+[Steve Horne, steve@lurking.demon.co.uk] 
+---------------------------------------------------------------------
+
+Previous section (0) Next section (2)
+
+

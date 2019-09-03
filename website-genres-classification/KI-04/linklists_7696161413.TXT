@@ -1,0 +1,131 @@
+    
+ 
+
+top.js_but["jsb_tube_home"] = new top.js_button("icons/tube-home.gif", "Back to the homepage"); // -->
+   
+
+---------------------------------------------------------------------
+
+The Mandatory Links	
+
+GIMP User Group	The GIMP User Group (GUG), also known as GimpForce, is the  most active community of GIMP users. You will find a large  number of galleries, tutorials, scripts, textures and links  to other GIMP pages in several languages.	
+Plugin Registry	The Registry is the place to check for the latest  and greatest GIMP plugins.	
+Mailing Lists	Archives of all the GIMP mailing lists.	
+Gimp Savvy	The companion site for Carey Bunks Grokking  The Gimp	
+Developer Resources	Resources for GIMP plug-in and core developers.	
+Wiki	A collaborative effort to collect GIMP-related information.	
+FAQ's	Check here for answers to the most commonly asked  questions about GIMP. Some parts of these FAQs are outdated; you can also look at the GUG FAQs.	
+Open Directory: The GIMP	A very useful collection of GIMP links from the Open Directory  project, also available from Google.	
+ 	
+
+Gimp Pages	
+
+Cooltext.com	Web page featuring web based script-fu for generating banners	
+Everybody Loves the GIMP	Quartics grandaddy of all GIMP sites. A good source of general GIMP info, plus info on Quartic's Gradient  Editor and plugins.	
+Wish List	Jürgen Erhard's GIMP wish list. If you have a great idea for something to be added to  the GIMP, this is the place to go.
+ Note: please also submit a bug report (enhancement) to the GIMP bug database.	
+Drawing with the GIMP	Home of perhaps the most recognized GIMP art (the linux penquin), Larry Ewing's page also has  some very nice images, and some walkthroughs of how he created the omnipresent penquin	
+Intel/Linux Plugins	Marco Giardini has gotten a pretty nice set of plugins compiled for linux/intel  available for download from this page.	
+Gimp Resources	Michael J. Hammels list of GIMP resources and references.	
+Rob's GIMP page	A very nice looking page from Rob Malda.	
+Shuji Narazaki GIMP page	A very nice page, including several innovative plugins and scripts.  Some nice Japanese and English docs too.	
+Jim Robinson's GIMP Tutorials	Some nice tutorials for .99.x/1.0	
+GIMP Tutorial Pointers	 Nem W. Schlecht's nice collection of pointers to most if not  all GIMP tutorials on the web.	
+ 	
+
+Plug in Links	
+
+GIMP Plugin Registry	This should be the first place you look for any plugin.	
+Alessandro Baldoni	HaruspeX - link between GIMP and PostrGre SQL	
+John Beales Home Page	Author of Warp and many fine graphics utilities	
+Tom Bech	Author of Lighting, MapPlane, MapSphere, Lic, and the Gimp Convience  Kit. 	
+Marc Bless	Author of the GIMP Programmers Guide. Soon to be updated for .99	
+ Xavier Bouchoux	Author of Sinus, Keftale and Holes plugins	
+John Breen	Contour Interpolation plugin	
+Simon Budig	Quant	
+Seth Burgess	xach-shadows, xach-blocks, and more	
+Francisco Bustamante	PCX, Stereogram, Colorify	
+Scott Draves	Flames, Fuse, and Smooth Palette plugins	
+Misha Dynin	Web Browser	
+Jochen Friedrich	G3 fax plugin	
+Matthias Greim	Mustek Scanner plugin	
+James Henstridge	Gimp-Python	
+Jan Hubicka	Math plugin for .54	
+Peter Kirchgessner	Xwd, Sun Raster, PS/PDF, FITS, compose/decompose, film	
+Ben Jackson	Civ2 file loader	
+Marc Lehman	Destripe, GIMP-Perl	
+Adrian Likins	GUMP - GIMP Usless Mail Plugin	
+Vidar Madsen	Gimpressionist	
+Marcelo Malheiros	Solid Noise	
+Torsten Martinsen	Noisify, Engrave, Oilify,Variable Blur	
+Quartic	Bumpmap, WhirlPinch, Diffraction, Contrast_Autostretch, Equilize	
+Tristan Tarrant, Andreas Beck, and David Mosberger	xscanimage	
+Miles O'Neal	Randomize	
+Mark Probst	MathMap	
+Jens Ch. Restemeier	Qbist, gfli, and User Filter	
+Daniel Risacher	Gzip	
+Norbert Schmitz	iWarp	
+Michael Schubart	Coordinate map	
+ Daniel Skarda	Motion Blur, GAG	
+Mike Sweet	SGI, PNG, Print, Sharpen, Despeckle	
+Owen Taylor	IFSCompose, Gsumi, Xinput extensions	
+Kevin Turner	Maze	
+Andy Thomas	Gfig, Blinds and Tile-it	
+Martin Weber	Sparkle_, AlienMap2	
+    	
+
+Galleries	
+
+The Cynics Gallery	A disturbing collection of very interesting images by Sven Riedel	
+Michael J. Hammel's Gallery	Some neat images including some that have been published.	
+Jens Lautenbacher	JTL shows off some of his impressive gimp artwork	
+Absurd Org.	Wacked out gimp photomanipualtion	
+ 	
+
+GTK Links	
+
+GTK	GTK homepage	
+GNOME	GNU Network Object Model Environment. A desktop and application  enviroment that uses GTK.	
+Aorta	Calendar program based on GTK	
+Gzilla	A small fast web browser under development	
+guile-gtk	Marius Vollmer's page on using guile with GTK	
+SANE	Scanner Access Now Easy. An application programming  interface (API) that provides standardized access to any raster  image scanner hardware.	
+GemVt	Gtk+ Emulator for Virtual Terminals	
+Gtk--	Tero Pulkkinen gtk-- c++ bindings for GTK.	
+Gsumi	 Gtk-based Xinput testbed	
+pseudo.snu.ac.kr /pub/gtk/ 	Some interesting GTK apps	
+Balsa	Email client	
+Garith	Mathematics game	
+GCK	The General Convenience Kit. A set of functions designed  to make GTK and GIMP programming easier.	
+ 	
+
+File Formats	
+
+Cica Image Format archive	A nice list of file format specs.	
+ftp.ncsa.uiuc.edu	Set of file format specs that are mirrored all over the net.	
+Image File Formats	Image File Formats	
+Graphic File Formats	Not a lot of detailed info, but a whole lot of general info about  common file formats	
+ 	
+
+Other Image Manipulation Programs	
+
+XITE	An X-based image manipulation program from Department of Informatics, University of Oslo	
+University of Florida Image Algebra Project	A set of software tools for image manipulation and analysis.	
+XV	The ubiquitous image display app for X.	
+GYVE	The Gnu Yellow Vector Editor. A drawing program under development which  will hopefully one day make a great couter-part to GIMP.	
+ImageMagick	A package for display and interactive manipulation of images for the  X Window System	
+Xpaint	The former best free paint program for X.	
+  	
+
+Other Resources	
+
+ACM SIGGRAPH Online	Information about ACM's SIGGRAPH.	
+OpenGL	Information and news about OpenGL.	
+Gimp Savvy Photo Archive	A Community-Indexed Photo Archive	
+The Pilot European Image Processing Archive: Home  Page	A repository for Interesting Things  concerned with image processing, computer vision, virtual reality and computer graphics	
+Computer Vision Source Code	A collection of computer vision related source code.	
+Computer Vision Home Page	Lots of links to computer vision related pages.	
+ 	
+  	 
+ 	
+

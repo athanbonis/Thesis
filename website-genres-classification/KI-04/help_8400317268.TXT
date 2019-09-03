@@ -1,0 +1,325 @@
+
+  	  	
+ 	    
+   
+
+LDAP FAQ 
+
+(More properly, it is an at-least-once asked questions)
+
+This is the start of a "Frequently Asked Questions" listing for  the Lightweight Directory Access Protocol and its reference implementation,  based on the ldap@umich.edu mailing list.
+
+This document expressly does not cover the following topics:
+
+* LDAPv3, as this is still   in flux  
+* implementations not derived from the University of Michigan   code base  
+ 
+
+Disclaimer: this information is provided "AS-IS" with no guaranty  of accuracy, completeness or fitness. Any views expressed in this  document are not necessarily those of any particular person or organization.
+
+Last Modified June 27, 1997.
+
+---------------------------------------------------------------------
+ 
+ 
+* 1. GENERAL QUESTIONS     
+1.1 What is LDAP?   
+1.2 Why do we need LDAP? Why don't we just use X.500?   
+1.3 What are some related protocols or alternatives to LDAP?   
+1.4 Where can I find out more about LDAP?   
+1.5 Where can I find out more about X.500?   
+1.6 Where are there publically-accessible LDAP servers for   NameFLOW-Paradise?   
+1.7 What can I store in an LDAP directory?   
+1.8 How should I structure my LDAP directory?    
+* 2. PROTOCOL QUESTIONS     
+2.1 What is the current version of LDAP (protocol)?   
+2.2 Can certificates and CRLs be carried in LDAP?   
+2.3 What character set is used in LDAP?   
+2.4 Can I remove multiple entries at once?   
+2.5 Can I search on components of the entry's name?    
+* 3. IMPLEMENTATION QUESTIONS     
+3.1 What are all the implementations of LDAP?   
+3.2 Is there an example of using the client API (RFC 1823)?   
+3.3 Does a whois-to-LDAP gateway exist?   
+3.4 Does a Ph-to-LDAP gateway exist?   
+3.5 Does a HTTP-to-LDAP gateway exist?   
+3.6 Does an LDAP-to-X.500 gateway exist?   
+3.7 Can I connect a stand-alone LDAP directory server into   an X.500 directory? Changed!   
+3.8 Why do some searches return neither results nor an error   indication?   
+3.9 Is the common name attribute "CN" or "commonName"?    
+* 4. UMICH-SPECIFIC QUESTIONS     
+4.1 What is the current version of LDAP (Umich implementation)?   
+4.2 Where can I find out more about this code or report   bugs?   
+4.3 Where can I FTP the Umich code?   
+4.4 Where are the "quipu" include files?   
+4.5 I have unresolved references such as "ufn_init" when   using ISODE 8.   
+4.6 Problem with "errno" when compiling with DB 1.85 on   Solaris.   
+4.7 slapd seg faults on AIX.   
+4.8 I am using NDBM and strange things are happening...   
+4.9 Why do I get a "decoding error" when trying a simple   bind against someone elses server?   
+4.10 Does ldapd support aliases?   
+4.11 Does slapd support aliases?   
+4.12 Is there a [your database vendor] backend for slapd?   
+4.13 Does slapd run under Windows NT?   
+4.14 Does ldapd cache entries?   
+4.15 Why can't I remove an entry from slapd once   I have removed all its children?   
+4.16 Strange file names in db directory (Added Aug 6,   1996)    
+ 
+---------------------------------------------------------------------
+ 
+
+1. GENERAL QUESTIONS
+
+1.1 What is LDAP?  
+  
+
+LDAP is a client-server protocol for accessing a directory   service. It was initially used as a front-end to X.500, but   can also be used with stand-alone and other kinds of directory   servers.
+
+1.2 Why do we need LDAP? Why don't we just use X.500?  
+  
+
+LDAP does not require the upper layers OSI stack, it is a simpler   protocol to implement (especially in clients), and LDAP is under   IETF change control and so can more easily evolve to meet Internet   requirements.
+
+1.3 What are some related protocols or alternatives to LDAP?  
+  
+
+WHOIS++ is a simple text-based query protocol which   can be used to construct a distributed directory for white pages   information. It is described in RFC 1835   and is discussed on the ietf-wnils@ucdavis.edu mailing   list.
+
+The Common Indexing Protocol (CIP) is a means of exchanging   general index information between attribute-value based directory   services, such as WHOIS++ and LDAP. It was discussed in the     IETF FIND Working Group.
+
+1.4 Where can I find out more about LDAP?  
+  
+
+Try the LDAP World pages   at Innosoft International, Inc., or Jeff Hodges's   LDAP Road Map and FAQ , or at University   of Michigan.
+
+1.5 Where can I find out more about X.500?  
+  
+
+One reference is   Colin Robbin's Directory page at NEXOR.
+
+1.6 Where are there publically-accessible LDAP servers for NameFLOW-Paradise?  
+  
+
+See DANTE's list   of public directory interfaces. 
+
+1.7 What can I store in an LDAP directory?  
+  
+
+The LDAP information model is based on the entry, which contains   information about some object (e.g., a person). Entries are   composed of attributes, which have a type and one or move values.   Each attribute has a syntax that determines what kind of values   are allowed in the attribute and how those values behave during   directory operations. Examples of attribute syntaxes are for   IA5 (ASCII) strings, JPEG photographs, u-law encoded sounds,   URLs and PGP keys.
+
+1.8 How should I structure my LDAP directory?  
+  
+
+RFC 1617 discusses naming and structuring   guidelines for X.500 Directory pilots, and much of this is applicable   to LDAP as well.
+
+---------------------------------------------------------------------
+ 
+
+2. PROTOCOL QUESTIONS
+
+2.1 What is the current version of LDAP (protocol)?  
+  
+
+Most existing clients and servers only implement version 2   of the LDAP protocol, which was specified in RFC   1777, RFC 1778, and RFC   1779. These documents were obsoleted by LDAP version 3.   The document for LDAPv3 can be downloaded from the LDAPv3   page. 
+
+Note that early LDAP releases (before 3.3) from the University   of Michigan mis-set tags in its BER encodings. See question   4.9 below. 
+
+2.2 Can certificates and CRLs be carried in LDAP?  
+  
+
+Though there are syntaxes defined for certificates and revocation   lists, there are two problems which prevent these from being   used in LDAPv2.
+
+The first is that the string representation of distinguished   names used for DNs inside a certificate does not give an indication   of whether the name was in the PrintableString or TeletexString   character set. Because of this ambiguity, it is not always possible   for a client to correctly reconstruct the DER form of the certificate   or revocation list in order to verify its signature.
+
+The second problem is that the syntaxes are based on the X.509(1988)   definitions, whereas most new implementations today are following   the post-1993 addendums to X.509, which permit certificate and   CRL extensions.
+
+These issues have been considered in the design of LDAPv3:   LDAPv3 permits clients to retrieve the DER-encoded form of these   attributes.
+
+2.3 What character set is used in LDAP?  
+  
+
+In LDAPv2, strings such as the values of the cn or   description attributes are in the T.61 character   set, which is published as an ITU-T   Recommendation. 
+
+In LDAPv3, strings are used in the UTF-8 encoding of   the Unicode character set.
+
+2.4 Can I remove multiple entries at once?  
+  
+
+No, the Delete operation will only remove a single   entry, and it does not remove non-leaf entries which have subordinates.
+
+2.5 Can I search on components of the entry's name?  
+  
+
+Not in LDAPv2. However, this is permitted in LDAPv3
+
+---------------------------------------------------------------------
+ 
+
+3. IMPLEMENTATION QUESTIONS
+
+3.1 What are all the implementations of LDAP?  
+  
+
+A list of clients, servers, gateways, libraries, backends,   etc., is available at this   site.
+
+3.2 Is there an example of using the client API (RFC 1823)?  
+  
+
+It's used in the finger code, the gopher code, and probably   some other code in the Umich ldap distribution. Take a look   at finger/main.c, for example. 
+
+3.3 Does a whois-to-LDAP gateway exist?  
+  
+
+Mark Prior wrote a whois++ to LDAP gateway a couple   of years ago. It's included in the ldap-3.2 release under contrib/whois++/.   Mark admits that it is kind of out-of-date at this point, and   may not even build as far as I know, but you might start with   that, at least. -- Tim 
+
+Sylvain Langlois   comments: I'm working on a whois++ to LDAP gateway.   It's based on the latest Uof Mich LDAP version. The major difference   is that I'm using CIP instead of proprietary indexing protocol   of the release. 
+
+3.4 Does a Ph-to-LDAP gateway exist?  
+  
+
+There may be one developed at Umea Universitet in Sweden.   Also, from Eudora at ftp://ftp.eudora.com/eudora/servers/unix/ph2ldap/ph2ldap_1.0B3.tar.   
+
+3.5 Does a HTTP-to-LDAP gateway exist?  
+  
+
+Frank Richter   has written a gateway called web500gw. For more information   see http://www.tu-chemnitz.de/~fri/web500gw/.
+
+3.6 Does an LDAP-to-X.500 gateway exist?  
+  
+
+ldapd is included in the Umich release.
+
+3.7 Can I connect a stand-alone LDAP directory server into an   X.500 directory?  
+  
+
+Yes! See for example the X.500   Enabler.
+
+3.8 Why do some searches return neither results nor an error   indication?  
+  
+
+Some filter component may be illegal (such as mistaking country   name for common name: country names are restricted to being   exactly two characters long).
+
+3.9 Is the common name attribute "CN" or "commonName"?  
+  
+
+The shorter name should be used. This was being clarified in   the spec for LDAPv3.
+
+---------------------------------------------------------------------
+ 
+
+4. UMICH-SPECIFIC QUESTIONS
+
+4.1 What is the current version of LDAP (Umich implementation)?  
+  
+
+The most recent is release 3.3 of April 30,1996. The announcement   is available from University   of Michigan.
+
+There is a collection of patches which bring this up to SLAPD   3.3.1 available here.
+
+4.2 Where can I find out more about this code or report bugs?  
+  
+
+There is a discussion list relating to this implementation,   ldap@umich.edu. To join contact ldap-request@umich.edu.
+
+4.3 Where can I FTP the Umich code?  
+  
+
+The primary distribution point of U-M LDAP 3.3 is ftp://terminator.rs.itd.umich.edu/ldap/ldap-3.3.tar.Z.   
+
+See http://www.umich.edu/~rsug/ldap/   for a list of mirror sites.
+
+4.4 Where are the "quipu" include files?  
+  
+
+You need to get the ISODE package. The last public version   of ISODE, ISODE 8, can be obtained from a number of anonymous   FTP sites, such as ftp://ftp.uu.net/networking/osi/isode/,   but is several years out of date, contains numerous bugs and   is unsupported. The ISODE stack and applications are now maintained   by ISODE Inc, who may be   contacted at ic-info@isode.com.
+
+4.5 I have unresolved references such as "ufn_init" when using   ISODE 8.  
+  
+
+Try specifying the libraries in a different order when invoking   the linker.
+
+.  
+4.6 Problem with "errno" when compiling with DB 1.85 on Solaris.  
+  
+
+There is a patch in LDAP 3.3 build/db.1.85.patch which   needs to be applied to DB 1.85.
+
+4.7 slapd seg faults on AIX.  
+  
+
+With some AIX compilers char defaults to unsigned   char which can cause serious problems with the AVL tree   routines. This can be worked around by changing line 24 of include/avl.h   to read signed char avl_bf. 
+
+4.8 I am using NDBM and strange things are happening...  
+  
+
+For example, when adding entries with either ldif2ldbm or ldapadd,   I get the error "idl_insert_key: No space left on device". 
+
+NDBM is severely limiting on Solaris and most other platforms   and should not be used in servers. Alternatives include the   Berkeley database package and GDBM.
+
+Version 1.85 of the Berkeley hash and btree package can be   obtained from   ftp://ftp.cs.berkeley.edu/ucb/4bsd/db.1.85.tar.Z. The   hash implementation in 1.85 limits a single level or index to   approximately 8000 entries. This restriction will be removed   in db 2.0, which is currently in alpha test.
+
+GDBM can be obtained from the Free Software Foundation at   prep.ai.mit.edu   or other FSF mirror sites.
+
+See section 4 of the SLAPD and SLURPD Administrator's Guide   for information on how to build with GDBM or Berkeley DB.
+
+Note: if you change database definitions in the top level Make-common   file, be certain to do a "make veryclean" at the top   level of the distribution before rebuilding. If you don't, it   is likely that you'll end up with some half-ndbm build which   won't work.
+
+4.9 Why do I get a "decoding error" when trying a simple bind   against someone elses server?  
+  
+
+The server is based on an early Umich release which miscalculated   tags. 
+
+4.10 Does ldapd support aliases?  
+  
+
+Yes, so long as the X.500 Directory implementation supports   them (which most do).
+
+4.11 Does slapd support aliases?  
+  
+
+No.
+
+4.12 Is there a [your database vendor] backend for slapd?  
+  
+
+There have not yet been any public releases of additional backends   for slapd, though there are several people working on   them.
+
+4.13 Does slapd run under Windows NT?  
+  
+
+The publically available Umich 3.3 servers don't support the   Win32 API. SLAPD has been ported by NorTel and is available   from here.
+
+4.14 Does ldapd cache entries?  
+  
+
+The University of Michigan release of ldapd does not.   ISODE Consortium added caching support in its IC R3.
+
+4.15 Why can't I remove an entry from slapd once I have   removed all its children?  
+  
+
+There is a known problem with slapd not updating one of its   indexes properly on the delete (the one that says whether an   entry has children or not). The problem will go away if you   regenerate your indexes from an ldif file.
+
+4.16 Strange file names in db directory  
+  
+
+Q: I originally build the distrubtion with ndbm, then switched   to Berkeley DB (or GDBM). Now, the filenames in the db directory   end with ".ndbm.dbb" (or ".ndbm.gdbm" or some other strange   combination of suffixes). Slapd can't find any entries   I've added.
+
+A: Go to the top of the ldap source tree and edit "Make-common".   Be sure that there is only one LDBMBACKEND definition.   Then, do a "make veryclean" followed by a "make install".
+
+4.17 Who is Babs Jensen?  
+  
+
+See the   Martha Smith entry. 
+
+---------------------------------------------------------------------
+ 
+
+LDAP World
+
+Comments on this document may be sent to Mark  Wahl.  
+
+Last Modified November 19, 1998.
+
+This document is a collection of publically-available information.
+
+

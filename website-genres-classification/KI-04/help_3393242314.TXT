@@ -1,0 +1,19 @@
+
+
+ 	 				
+
+Home	     Channel	     Press	     Developers	     Members	     Products	  
+
+Welcome Channel Press Developers Members Products Site Map Frequently Asked Questions FAQ: Basic Information FAQ: So what does USB really do? FAQ: Support and Installation FAQ: Cables, Connectors, and Networking FAQ: USB On-The-Go About USB-IF Inc. Shopping for USB Privacy Statement 	  	 Home > Frequently Asked Questions 
+
+FAQ
+
+Basic Information Q1: What do USB plugs and ports look like? Q2: Will I need special software to run USB? Q3: Is USB available on mobile computers in addition to desktops? Q4: What kinds of USB peripherals can I connect to my PC? Q5: Does USB affect the cost of PCs and peripheral devices? Q6: How many USB peripherals can I connect at once? Q7: How many USB products are being developed? Q8: Where can I find out what USB products are currently available...or on the way? Q9: Where can I learn more technical details about USB? Q10: What does it mean when a product is USB compliant and why should I care? So what does USB really do? Q1: How fast is USB? Q2: How does this compare to other connections used with PCs and workstations? Q3: Can I use game port, serial, parallel, or PS/2 devices on USB? Q4: Will using a USB to serial or parallel adapter free up interrupts on my system? Q5: What about SCSI and network adapters? Q6: I'm planning to buy a system with USB, or buy a USB device. What should I look for? Q7: So how does USB compare to IEEE-1394? Installing USB Support and Setting up USB Peripheral (Device) under Windows Q1: How do I know if my PC supports USB? Where can I get USBReady? Q2: What's the deal with low/high power devices and bus/self powered hubs? Q3: I just purchased USB speakers, will I lose any capabilities if I replace my SoundBlaster? Q4: Okay, I removed my sound card, but where do I plug in my microphone now? Q5: Sometimes my games work fine with my USB joystick/gamepad /whatever and sometimes they don't work at all. What's going on? USB Cables, Connectors, and Networking with USB Q1: How long of a cable can I use to connect my device? Q2: Why can't I use a cable longer than 3 or 5m? Q3: How far away from a PC can I put a USB device? Q4: I need to put a USB device X distance from my PC. What do I do? Q5: How can I connect two PCs to each other with USB? Q6: You mean I can't make a direct cable connection like a null modem? Q7: So why do people make A to A cables, anyway? What kinds of cables do I need to connect USB peripherals (devices) together? Q8: What if I want to network a whole bunch of PCs together with USB? Q9: Is there any way to have two PCs share a USB printer or some other peripheral? Q10: Is there any way I can put a USB device on a network, like a network printer? USB On-The-Go Q1: Why has USB OTG been developed? Q2: Do both portable devices have to be dual-role in order for both devices on order to connect and operate? Q3: Does USB OTG eliminate the need for a PC? Q4: Will USB OTG devices connect to the PC? Will they connect to any other USB peripheral? Q5: How does USB OTG compare with Bluetooth? Does it compete with it? Q6: How does USB OTG compare with 1394? Does it compete with it? Q7: What happens when you plug two USB OTG dual-role devices together? Q8: Where can I find out more? 
+
+If your question(s) haven't been answered by our FAQ, please post them on a Public WebBoard.
+
+ 	   
+ 
+  Site sponsored by USB Implementers Forum, Inc., creators of USB technology. About Us | Privacy Statement	   KAVI® where .orgs work	  
+
+

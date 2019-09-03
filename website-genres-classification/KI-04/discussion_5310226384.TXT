@@ -1,0 +1,140 @@
+Previous Thread | Next Thread Van Won't Start | brikstak [ ] AF Newbie Joined: Aug 2003 Status: offline Posts: 3 08-21-2003, 10:24 PM Van Won't Start (Post # 1 ) I replaced the fuel pump,turned the ignition on to see if it was working,it was.I tested it when it was still on the ground so I could see the fuel come out.Then I reinstalled the fuel tank.I disconnected the outlet of the fuel filter,turned the ignition on,but didn't start the engine,fuel came out.I reconnected it.I Disconnected the inlet to the fuel injection assembly,turned key to see if fuel was coming out,fuel did come out.So I replace fuel injection spider assembly(OUCH! $ 518!).Still does'nt start.But it turns over.I bought a trouble code reader,all I got out of it was a code "12". That means everythings normal.I did disconnect the battery cables to replace the fuel injectors,I could have lost any trouble codes then.I did replace the coil,ignition module,distributer cap,fuel filter,fuel pump,fuel injectors. Report Post | IP: Logged PM | EMAIL | ADD BUDDY | GALLERY Edit/Delete | Reply w/Quote GMMerlin [ ] Humble GM Technician Joined: Jul 2003 Status: offline Posts: 927 08-22-2003, 07:11 AM (Post # 2 ) What year,engine size? What is your fuel pressure? Do you have spark? Do you have compression? What was your diagnosis to lead you to replace the fuel pump initially? __________________ If you sent me a PM in the last couple weeks, I am trying to answer them as quick as possible..I have quite a backlog and am extremely busy here at the shop! Merlins Garage ASE Master Technician W/L1 GM Master Technician 20 years GM Dealer Experience Report Post | IP: Logged PM | ADD BUDDY | GALLERY Edit/Delete | Reply w/Quote brikstak [ ] AF Newbie Joined: Aug 2003 Status: offline Posts: 3 08-22-2003, 09:26 PM Re: Van Won't Start (Post # 3 ) Quote: Originally Posted by GMMerlin What year,engine size? What is your fuel pressure? Do you have spark? Do you have compression? What was your diagnosis to lead you to replace the fuel pump initially? Hello GMMerlin, Thanks for responding. This is a 1993 GM Safari XT with a 4.3 V6 I did not have the means to check the fuel pressure but what I did do to check I turned the ignition on but did not start the engine until the fuel pump stopped ,about 4 seconds,pressed the little shraeder type valve that the pressure guage would connect to see if any pressure had built up.there was no type of pressure released.I tried this little test about three times. I do have spark.I removed a spark plug reconnected the plug wire,grounded the plug then cranked the engine,It showed good spark. Again I did not have a way to check for compression but I am working on it. The way I checked to see if the cylinders where getting any fuel was by cranking the engine and removing a plug to see if there was any wetness from fuel. My plugs where dry.That was when I suspected the Fuel Infection Unit. I first suspected the fuel pump because the van was running fine then all of a sudden started to jerk like it was running out of fuel but the fuel guage read at a quater tank.I added fuel to the tank to see if maybe my guage was faulty but no change.The van would start and idle but when you pressed the accelerator the engine would stall.I tried starting it again after it stalled it wouldn't start.I let it set a little while,started it again,it would start but only idle and not accelerate.I let it sit over night before I towed it home from where it was.It started, I did not touch the accelerator on the tow home so steering and braking would be easier.It eventually died on the way home and never started again since. I had this happen before when it would idle but not accelerate without stalling and be hard to start again.I changed the fuel pump and the engine started right up and ran fine. This second time I thought I had replaced the first fuel pump with a cheap ( Auto#@ $ @) fuel pump so I Upgraded the pump to a better fuel pump from a local specialty parts store. I have replaced the coil,distributor cap and rotor and ignition module.I also tested the fusible links located behind the battery.I tested it with a continuity tester,one end connected to the positive terminal,the other end pierced the insulation past the fuse link.The light came on with all four wires coming out of the power distribution block. Thanks for any help you can give me! Last edited by brikstak on 08-22-2003 at 10:37 PM . Report Post | IP: Logged PM | EMAIL | ADD BUDDY | GALLERY Edit/Delete | Reply w/Quote GMMerlin [ ] Humble GM Technician Joined: Jul 2003 Status: offline Posts: 927 08-25-2003, 12:43 PM (Post # 4 ) If you pressed the shrader valve and got no fuel then you are looking at a fuel pressure problem. You may not have enough fuel pressure...if you bought an aftermarket pump, it may not be able to supply the 54-64 psi needed to make the engine run (I'm assuming that this is a CPI engine code W) Also check your connections closely, corrosion or loose connections (where the terminals mate too each other) can reek alot of havoc with driveability diagnostics. __________________ If you sent me a PM in the last couple weeks, I am trying to answer them as quick as possible..I have quite a backlog and am extremely busy here at the shop! Merlins Garage ASE Master Technician W/L1 GM Master Technician 20 years GM Dealer Experience Report Post | IP: Logged PM | ADD BUDDY | GALLERY Edit/Delete | Reply w/Quote brikstak [ ] AF Newbie Joined: Aug 2003 Status: offline Posts: 3 08-26-2003, 09:10 PM Re: Van Won't Start (Post # 5 ) Quote: Originally Posted by GMMerlin If you pressed the shrader valve and got no fuel then you are looking at a fuel pressure problem. You may not have enough fuel pressure...if you bought an aftermarket pump, it may not be able to supply the 54-64 psi needed to make the engine run (I'm assuming that this is a CPI engine code W) Also check your connections closely, corrosion or loose connections (where the terminals mate too each other) can reek alot of havoc with driveability diagnostics. Using your advise, Last night I pulled the tank again to see if the fuel pump might be the problem.I dropped it and pulled it out with the wiring still connected,like I did before,to test and see if I am getting fuel.I turned the key to activate the pump,I could hear the pump but no fuel was coming out. I pulled the pump out, thinking I bought a faulty pump.When I inspected the pump I noticed the fuel line to the engine was partially out of the rubber grommet ( for a lack of the real technical term) connecting to the pump.I reconnected everything and the van started.What blows me away is that I did this check before to make sure my fuel pump was working,and it was.It looks like it worked it's way out because I didn't insert the fuel line far enough when I changed it.I think I know why mechanics charge so much,To pay for all the testing equipment. Last night I was getting ready to tow it to a shop today.I took your advise and made a double check of the pump, I missed a Ben Harper concert,and I found the problem. GMMerlin,Thank You very much for your suggestions and Knowledge. Major Props to the inventor of this website and GMMerlin!! Report Post | IP: Logged PM | EMAIL | ADD BUDDY | GALLERY Edit/Delete | Reply w/Quote Return to Top Safari Previous Thread | Next Thread Automotive Forums .com > GMC > Safari > Van Won't Start Show Printable Version Email this Page Rate this Thread: Select a Rating... 5 .. Best 4 3 .. Average 2 1 .. Worst --> Forum Rules: You may not post new threads You may not post replies You may not post attachments You may not edit your posts HTML code is Off vB code is On Smilies are On [IMG] code is On All times are GMT -5 hours. The time now is 09:14 PM . < Automotive Forums .com - Archive Privacy Statement --> > Return to Top Tune in to SJIRadio! Powered by: vBulletin Version 3.0.0 Beta 5 Copyright ©2000 - 2004, Jelsoft Enterprises Ltd. © 2003 AutomotiveForums.com | Privacy Statement Proudly Hosted by: www.dinix.com Page generated in 10.75826 seconds with 11 queries   --> 
+
+Home | Forums | Gallery | Articles | Critics | Helper | Directory | Members | Wheels & Tires | Corporate 	
+
+Register  | Calendar  | Members  | FAQ  | Search  | Home        	
+
+AF Shirts, Hoodies, and thongs and other merchandise now available! 
+SUV, Minivan, and Pickup Truck owners: Visit the new forums! 
+ 
+ 	     
+  	    
+  Targeted Sponsored Links (Learn more about this...)	     
+ 	 	  
+     
+  		    
+  	  	  
+ 	  
+ 	     
+  	    
+  	    
+ 	 	  
+ 	  
+
+Automotive Forums .com > GMC > Safari > Van Won't Start      	                     Remember username/password?   	 
+
+Search this Thread:   	      	
+
+Previous Thread   |   Next Thread   	
+
+Van Won't Start |    	
+ brikstak []   AF Newbie      Joined: Aug 2003  
+
+Status: offline
+Posts: 3 
+  08-21-2003, 10:24 PM 	  Van Won't Start (Post #1)   
+
+I replaced the fuel pump,turned the ignition on to see if it was working,it was.I tested it when it was still on the ground so I could see the fuel come out.Then I reinstalled the fuel tank.I disconnected the outlet of the fuel filter,turned the ignition on,but didn't start the engine,fuel came out.I reconnected it.I Disconnected the inlet to the fuel injection assembly,turned key to see if fuel was coming out,fuel did come out.So I replace fuel injection spider assembly(OUCH! $518!).Still does'nt start.But it turns over.I bought a trouble code reader,all I got out of it was a code "12". That means everythings normal.I did disconnect the battery cables to replace the fuel injectors,I could have lost any trouble codes then.I did replace the coil,ignition module,distributer cap,fuel filter,fuel pump,fuel injectors.
+
+Report Post | IP: Logged      	
+ 	     
+     PM |  EMAIL |  ADD BUDDY  | GALLERY     	 Edit/Delete |       Reply w/Quote    	  
+   	
+ GMMerlin []   Humble GM Technician      Joined: Jul 2003  
+
+Status: offline
+Posts: 927 
+  08-22-2003, 07:11 AM 	  (Post #2)   
+
+What year,engine size? What is your fuel pressure? Do you have spark? Do you have compression? What was your diagnosis to lead you to replace the fuel pump initially?
+
+__________________If you sent me a PM in the last couple weeks, I am trying to answer them as quick as possible..I have quite a backlog and am extremely busy here at the shop! Merlins Garage ASE Master Technician W/L1 GM Master Technician 20 years GM Dealer Experience    Report Post | IP: Logged      	
+ 	     
+     PM |  ADD BUDDY  | GALLERY     	 Edit/Delete |       Reply w/Quote    	  
+   	
+ brikstak []   AF Newbie      Joined: Aug 2003  
+
+Status: offline
+Posts: 3 
+  08-22-2003, 09:26 PM 	  Re: Van Won't Start (Post #3)   
+
+Quote:
+---------------------------------------------------------------------
+Originally Posted by GMMerlinWhat year,engine size? What is your fuel pressure? Do you have spark? Do you have compression? What was your diagnosis to lead you to replace the fuel pump initially?
+---------------------------------------------------------------------
+
+Hello GMMerlin, Thanks for responding. This is a 1993 GM Safari XT with a 4.3 V6 I did not have the means to check the fuel pressure but what I did do to check I turned the ignition on but did not start the engine until the fuel pump stopped ,about 4 seconds,pressed the little shraeder type valve that the pressure guage would connect to see if any pressure had built up.there was no type of pressure released.I tried this little test about three times. I do have spark.I removed a spark plug reconnected the plug wire,grounded the plug then cranked the engine,It showed good spark. Again I did not have a way to check for compression but I am working on it. The way I checked to see if the cylinders where getting any fuel was by cranking the engine and removing a plug to see if there was any wetness from fuel. My plugs where dry.That was when I suspected the Fuel Infection Unit. I first suspected the fuel pump because the van was running fine then all of a sudden started to jerk like it was running out of fuel but the fuel guage read at a quater tank.I added fuel to the tank to see if maybe my guage was faulty but no change.The van would start and idle but when you pressed the accelerator the engine would stall.I tried starting it again after it stalled it wouldn't start.I let it set a little while,started it again,it would start but only idle and not accelerate.I let it sit over night before I towed it home from where it was.It started, I did not touch the accelerator on the tow home so steering and braking would be easier.It eventually died on the way home and never started again since. I had this happen before when it would idle but not accelerate without stalling and be hard to start again.I changed the fuel pump and the engine started right up and ran fine. This second time I thought I had replaced the first fuel pump with a cheap (Auto#@$@) fuel pump so I Upgraded the pump to a better fuel pump from a local specialty parts store. I have replaced the coil,distributor cap and rotor and ignition module.I also tested the fusible links located behind the battery.I tested it with a continuity tester,one end connected to the positive terminal,the other end pierced the insulation past the fuse link.The light came on with all four wires coming out of the power distribution block. Thanks for any help you can give me!
+
+Last edited by brikstak on 08-22-2003 at 10:37 PM.    Report Post | IP: Logged      	
+ 	     
+     PM |  EMAIL |  ADD BUDDY  | GALLERY     	 Edit/Delete |       Reply w/Quote    	  
+   	
+ GMMerlin []   Humble GM Technician      Joined: Jul 2003  
+
+Status: offline
+Posts: 927 
+  08-25-2003, 12:43 PM 	  (Post #4)   
+
+If you pressed the shrader valve and got no fuel then you are looking at a fuel pressure problem. You may not have enough fuel pressure...if you bought an aftermarket pump, it may not be able to supply the 54-64 psi needed to make the engine run (I'm assuming that this is a CPI engine code W) Also check your connections closely, corrosion or loose connections (where the terminals mate too each other) can reek alot of havoc with driveability diagnostics.
+
+__________________If you sent me a PM in the last couple weeks, I am trying to answer them as quick as possible..I have quite a backlog and am extremely busy here at the shop! Merlins Garage ASE Master Technician W/L1 GM Master Technician 20 years GM Dealer Experience    Report Post | IP: Logged      	
+ 	     
+     PM |  ADD BUDDY  | GALLERY     	 Edit/Delete |       Reply w/Quote    	  
+   	
+ brikstak []   AF Newbie      Joined: Aug 2003  
+
+Status: offline
+Posts: 3 
+  08-26-2003, 09:10 PM 	  Re: Van Won't Start (Post #5)   
+
+Quote:
+---------------------------------------------------------------------
+Originally Posted by GMMerlinIf you pressed the shrader valve and got no fuel then you are looking at a fuel pressure problem. You may not have enough fuel pressure...if you bought an aftermarket pump, it may not be able to supply the 54-64 psi needed to make the engine run (I'm assuming that this is a CPI engine code W) Also check your connections closely, corrosion or loose connections (where the terminals mate too each other) can reek alot of havoc with driveability diagnostics.
+---------------------------------------------------------------------
+
+Using your advise, Last night I pulled the tank again to see if the fuel pump might be the problem.I dropped it and pulled it out with the wiring still connected,like I did before,to test and see if I am getting fuel.I turned the key to activate the pump,I could hear the pump but no fuel was coming out. I pulled the pump out, thinking I bought a faulty pump.When I inspected the pump I noticed the fuel line to the engine was partially out of the rubber grommet ( for a lack of the real technical term) connecting to the pump.I reconnected everything and the van started.What blows me away is that I did this check before to make sure my fuel pump was working,and it was.It looks like it worked it's way out because I didn't insert the fuel line far enough when I changed it.I think I know why mechanics charge so much,To pay for all the testing equipment. Last night I was getting ready to tow it to a shop today.I took your advise and made a double check of the pump, I missed a Ben Harper concert,and I found the problem. GMMerlin,Thank You very much for your suggestions and Knowledge. Major Props to the inventor of this website and GMMerlin!!
+
+Report Post | IP: Logged      	
+ 	     
+     PM |  EMAIL |  ADD BUDDY  | GALLERY     	 Edit/Delete |       Reply w/Quote    	  
+   	
+    
+  Return to Top	    	   
+  	
+
+Safari     Previous Thread   |   Next Thread    	   	  
+
+Automotive Forums .com > GMC > Safari > Van Won't Start 	
+
+Show Printable Version	   
+  	  Email this Page	     
+   	      
+             Rate this Thread:      
+Select a Rating...
+    
+5 .. Best
+    
+4
+    
+3 .. Average
+    
+2
+    
+1 .. Worst
+   
+    	 
+      	
+
+Forum Rules:
+ 
+   You may not post new threads   You may not post replies   You may not post attachments   You may not edit your posts  	   HTML code is Off   vB code is On   Smilies are On   [IMG] code is On  	
+
+All times are GMT -5 hours. The time now is 09:14 PM.  	
+
+< Automotive Forums .com - Archive > Return to Top
+
+Tune in to SJIRadio!
+
+Powered by: vBulletin Version 3.0.0 Beta 5Copyright ©2000 - 2004, Jelsoft Enterprises Ltd.s=screen;srw=s.width;an!="Netscape"? srb=s.colorDepth:srb=s.pixelDepth;//--> src="http://u0.extreme-dm.com/0.gif?tag=afcom&j=n"> &copy; 2003 AutomotiveForums.com | Privacy StatementProudly Hosted by: www.dinix.com 
+
+Page generated in 10.75826 seconds with 11 queries 

@@ -1,0 +1,70 @@
+body,td,font,p,a{font-family:arial,sans-serif} a.hl:visited, a.hl:link { color: blue } img.hl { border: none 0; margin-left: 1em } a.hl { margin-left: 1em } .download {  border-style:ridge;  border-top-width:1px;  border-bottom-width:2px;  border-right-width:2px;  border-left-width:1px;  border-top-color:#EDEDFF;  border-bottom-color:#B5B5C1;  border-right-color:#B5B5C1;  border-left-color:#EDEDFF;  background-color:#C5C7CE;  font-size:18px;  color:#000000;  font-weight:none;  width:270px; } 
+
+  	 Take the power of Google with you anywhere on the web. 
+---------------------------------------------------------------------
+
+ &#8226; 	Search the web with Google from any site 	
+ &#8226; 	Eliminate pop-up ads 	
+ &#8226; 	Fill in forms with one click 	
+ &#8226; 	Highlight search terms on a page 	
+
+Read more about the Google Toolbar in the help pages. 	
+
+ 	  
+
+*	 Popup Blocker available only in English, French, German, Italian, Japanese, Spanish, Korean, and Chinese (will be available soon in other languages). AutoFill available only in English.
+ 	
+
+   	 
+Choose Your Language and Download 
+
+Arabic [BETA] 
+Bulgarian [BETA] 
+Catalan 
+Chinese (Simplified) 
+Chinese (Traditional) 
+Czech [BETA] 
+Danish 
+Dutch 
+Elmer Fudd [BETA] 
+English 
+Estonian [BETA] 
+French 
+German 
+Greek [BETA] 
+Hacker [BETA] 
+Hebrew [BETA] 
+Hungarian [BETA] 
+Indonesian 
+Interlingua 
+Italian 
+Japanese 
+Korean 
+Lithuanian 
+Norwegian (Bokm√•l) [BETA] 
+Persian [BETA] 
+Pig Latin [BETA] 
+Polish 
+Portuguese (Brazil) 
+Portuguese (Portugal) [BETA] 
+Romanian 
+Slovak [BETA] 
+Slovenian [BETA] 
+Spanish 
+Swedish 
+Thai [BETA] 
+Turkish 
+Welsh 
+//document.all.en.selected = 1; 
+
+It's free and takes seconds to install.
+
+System Requirements 
+
+Microsoft Windows 95/98/ME/NT/2000/XP
+ Microsoft Internet Explorer 5.0 or later
+ The pop-up blocker requires Internet Explorer 5.5 or later. 	
+
+---------------------------------------------------------------------
+©2004 Google 	
+

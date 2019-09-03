@@ -1,0 +1,218 @@
+
+
+Bayesian Model Averaging Home Page
+
+Bayesian Model Averaging is a technique designed to help account for the uncertainty inherent in the model selection process, something which traditional statistical analysis often neglects. By averaging over many different competing models, BMA incorporates model uncertainty into conclusions about parameters and prediction. BMA has been applied successfully to many statistical model classes including linear regression, generalized linear models, Cox regression models, and discrete graphical models, in all cases improving predictive performance. Details on these applications can be found in the papers below. 
+
+Please contact Chris Volinsky if you are have any relevant research you would like to see on this page. 
+
+Bayesian Model Averaging Software
+
+S-PLUS Software designed by Adrian E. Raftery and/or Chris Volinsky: 
+
+Bayesian Model Averaging for Generalized Linear Models: bic.glm. 
+Bayesian Model Averaging for Proportional hazard models: bic.surv 
+Bayesian Model Averaging for linear regression: bicreg 
+Bayesian Model Averaging for logistic regression: bic.logit 
+Bayesian generalized linear modeling and model comparison: glib
+(NOTE: if using glib with Splus 6.1 or greater, you will need to install the deprecated function glim first.) 
+
+S-PLUS software designed by Jennifer Hoeting: 
+
+BMA.shar is a collection of programs that perform Bayesian simultaneous variable selection and outlier identification (SVO) via Markov chain Monte Carlo model composition (MC^3). For more info read the README file. 
+
+bma.glm: code for implementing BMA as found in "The Use of Bayesian Model Averaging to better represent uncertainty in ecological models." by Wintle, McCarthy, Volinsky, and Kavanagh, to appear in Conservation Biology. Here is some documentation: 
+
+Fortran (f77) software designed by Fernández/Ley/Steel: 
+
+Crime dataset and f77 code implementing Markov chain Monte Carlo model composition (MC^3) in "Benchmark Priors for Bayesian Model Averaging". 
+  
+  
+
+Bayesian Model Averaging Papers
+
+"Using Bayesian Model Averaging to Calibrate Forecast Ensembles." 
+Adrian E. Raftery , Fadoua Balabdaoui , Tilmann Gneiting and Michael Polakowski (2003). 
+Technical Report no. 440, Department of Statistics, University of Washington. 
+
+"Long-Run Performance of Bayesian Model Averaging" 
+Adrian E. Raftery , and Yingye Zheng (2003) 
+Technical Report no. 433, Department of Statistics, University of Washington. 
+
+Uncertainty of the Liberal Peace 
+Cullen F. Goenner 
+A Method for Simultaneous Variable and Transformation Selection in Linear Regression 
+Jennifer Hoeting, Adrian E. Raftery and David Madigan (2002).
+ 
+Journal of Computational and Graphical Statistics 11 (485-507)
+ 
+Variable selection and Bayesian model averaging in epidemiological case-control studies. 
+Viallefont, V., Raftery, A.E. and Richardson, S.(2001) 
+
+Statistics in Medicine, 20, 3215-3230. 
+
+Model Uncertainty in Cross-Country Growth Regressions 
+Carmen Fernandez, Eduardo Ley, and Mark Steel (2001) 
+
+Journal of Applied Econometrics 16 (563-576)
+ 
+Benchmark Priors for Bayesian Model Averaging 
+Carmen Fernandez, Eduardo Ley, and Mark Steel (2001) 
+
+Journal of Econometrics 100 (381-427)
+ 
+Bayesian information criterion for censored survival models 
+Chris Volinsky and Adrian E. Raftery (2000)
+ 
+Biometrics 56 (256-262)
+ 
+The choice of variables in multivariate regression: a non-conjugate Bayesian decision theory approach 
+P.J. Brown, T. Fearn, and M. Vanucci. (1999)
+ 
+Biometrika, 86
+ 
+Bayesian Model Averaging (review paper) PDF Version 
+Jennifer Hoeting, David Madigan, Adrian Raftery and Chris Volinsky (1999)
+ 
+Statistical Science 14, 382-401.&nbsp (NOTE: The printed version in Statistical Science has many typesetting errors, and the journal refused to re-publish it correctly. Please access the paper from the link above, and not from the journal itself)
+ 
+Bayesian model order determination and basis selection for seemingly unrelated regressions 
+C.C. Holmes, B.K. Mallick and D.G.T. Denison (1999)
+ 
+Technical Report, Statistics Section, Department of Maths, Imperial College
+ 
+Bayesian Wavelength Selection in Multicomponent Analysis 
+P.J. Brown, M. Vannucci, and T.Fearn (1998)
+ 
+Journal of Chemometrics, 12, 173-182.
+ 
+Multivariate Bayesian Variable Selection and Prediction 
+P.J. Brown, M. Vannucci, and T.Fearn (1998)
+ 
+Journal of the Royal Statistical Society, Ser. B, 60, 627-642.
+ 
+Perfect simulation for orthogonal model mixing 
+C.C. Holmes and B.K. Mallick (1998)
+ 
+Technical Report, Statistics Section, Department of Maths, Imperial College
+ 
+Multiple Shrinkage and Subset Selection in Wavelets 
+Merlise Clyde, Giovanni Parmigiani, and Brani Vidakovic (1998)
+ 
+Biometrika, 85, 391-402.
+ 
+Benchmark Priors For Bayesian Model Averaging 
+Carmen Fernandez, Eduardo Ley, Mark F.J. Steel (1998).
+ 
+Documento de Trabajo 98-06, Fedea, Madrid, Spain 1998
+ 
+Bayesian Model Averaging in Proportional Hazard Models: Predicting the Risk of a Stroke 
+Chris Volinsky, David Madigan, Adrian E. Raftery, and Richard A. Kronmal (1997).
+ 
+Applied Statistics, 46, 443-448.
+ 
+Bayesian Model Averaging for Censored Survival Models 
+Chris Volinsky (1997).
+ 
+University of Washington Statistics Department Ph.D. Dissertation.
+ 
+Accounting for Model Uncertainty in Poisson Regression Models: Does Particulate Matter Particularly Matter? 
+Merlise Clyde and Heather DeSimone-Sasinowska (1997).
+ 
+ISDS Discussion Paper 97-06
+ 
+Bayesian Model Averaging for Linear Regression Models 
+Adrian E. Raftery, David Madigan, and Jennifer A. Hoeting (1997).
+ 
+Journal of the American Statistical Association, 92, 179-191.
+ 
+Prediction Via Orthoganalized Model Mixing 
+Merlise Clyde, Heather DeSimone, and Giovanni Parmigiani (1996)
+ 
+Journal of the American Statistical Association, 91, 1197-1208.
+ 
+A Method for Simultaneous Variable Selection and Outlier Identification in Linear Regression 
+Jennifer Hoeting, Adrian E. Raftery and David Madigan (1996).
+ 
+Computational Statistics and Data Analysis, 22, 251-270
+ 
+Bayesian Model Averaging 
+David Madigan, Adrian E. Raftery, Chris Volinsky, Jennifer Hoeting (1996).
+ 
+AAAI Workshop on Integrating Multiple Learned Models, 1996, 77-83
+ 
+Bayesian Model Averaging and Model Selection for Markov Equivalence Classes of Acyclic Digraphs. 
+David Madigan, Steen A. Andersson, Michael D. Perlman, and Chris T. Volinsky (1996).
+ 
+Commumications in Statistics: Theory and Methods, 25, 2493-2520.
+ 
+Statistical Modeling of Fishing Activities in the North Atlantic 
+Carmen Fernández, Mark F. J. Steel, and Eduardo Ley (1996)
+ 
+CentER for Economic Research : Discussion Paper 97111.
+ 
+Accounting for Model Uncertainty in Survival Analysis Improves Predictive Performance. 
+Adrian Raftery, David Madigan, and Chris T. Volinsky (1995).
+ 
+Bayesian Statistics 5, Oxford University Press, 323-349.
+ 
+
+Econometrics Literature
+
+Model combination has been discussed extensively in the econometric literature, usually in the context of combining several experts' forecasts. Bates and Granger (1969) is the forerunner, inspiring a flurry of activity in the field in the early 1970's. 
+"The combination of forecasts". 
+J.M. Bates and C.W.J. Granger (1969).
+ 
+Operations Research Aquarterly, 20, 451-468.
+ 
+[A seminal paper on combining forecasts, inspiring a flurry of activity in the field]
+ 
+"Bayesian and non-Bayesian Methods for Combining Models and Forecasts with Applications to Forecasting International Growth Rates". 
+C. Min and A. Zellner (1990).
+ 
+J. of Econometrics, 56,(1993) 89-118
+ 
+"To Combine or not to Combine? Issues of Combining Forecasts". 
+F.C. Palm and A. Zellner (1992)
+ 
+J. of Forecasting, 11, 687-701
+ 
+"Experience with forecasting univariate time series and the combination of forecasts (with discussion)". 
+P. Newbold and C.W.J. Granger (1974)
+ 
+Journal of the Royal Statistical Society A, 137, 131-149.
+ 
+[Reading in front of RSS. Comments from statisticians are interesting, and mostly negative toward the idea of combining models.]
+ 
+
+Tutorials
+
+Tutorial on Learning With Bayesian Networks 
+David Heckerman (1995).
+ 
+Microsoft Research Technical Report 95-06.
+ 
+
+Bayesian Model Averaging People
+
+Researchers interested in Bayesian Model Averaging, model mixing, and other similar pursuits: 
+
+Merlise Clyde, Duke University 
+Carmen Fernández, University of Saint Andrews 
+Ed George, University of Texas 
+David Heckerman, Microsoft Research 
+Jennifer Hoeting, Colorado State University 
+Chris Holmes, Imperial College 
+Eduardo Ley, IMF Institute 
+David Madigan, University of Washington 
+Giovanni Parmigiani, Duke University 
+Adrian Raftery, University of Washington 
+Heather DeSimone Sasinowska, Clemson University 
+Mark Steel, University of Kent at Canterbury 
+Marina Vannucci, Texas A&M University 
+Chris Volinsky, AT&T Research 
+Arnold Zellner, University of Chicago Graduate School of Business 
+
+Go back to Chris Volinsky's Home page 
+
+

@@ -1,0 +1,639 @@
+
+
+Earliest Known Uses of Some of the Words of Mathematics (S)
+
+Last revision: Jan. 24, 2004 
+
+---------------------------------------------------------------------
+ST. ANDREW'S CROSS is the term used by Florian Cajori for the multiplication symbol X. It appears in 1916 in his "William Oughtred, A Great Seventeenth-Century Teacher of Mathematics. 
+
+St. Andrew's cross is found in 1615, although not in a mathematical context, in Crooke, Body of Man: "[They] doe mutually intersect themselues in the manner of a Saint Andrewes crosse, or this letter X" (OED2). 
+
+The ST. PETERSBURG PARADOX was formulated by Niklaus Bernoulli in 1713: see problem 5 in the first letter of Correspondence of Nicholas Bernoulli concerning the St Petersburg game with Montmort, Daniel Bernoulli and Cramer (translation by Richard J. Pulskamp.) The association with St. Petersburg came about because the most prominent discussion was published there: this was Daniel Bernoulli's "Specimen Theoriae Novae de Mensara Sortis," Commentarii Academiae Scientiarum Imperialis Petropolitana, 5, 175-192 (1738). The paper has been translated as "Exposition of a New Theory on the Measurement of Risk," Econometrica, 22, (1954), 23-36. 
+
+In 1768 D'Alembert Opuscules Mathématiques vol. IV, p. 78 (English translation by Richard J. Pulskamp) used the phrase "le probléme de petersbourg." J. Bertrand's Calcul des probabilités (1889, p. 62) has a section on the "Paradoxe de Saint-Pétersbourg" and the "paradox" appears in English in J. M. Keynes's A Treatise on Probability (1921).Â  
+
+[John Aldrich, based on Jacques Dutka, "On the St. Petersburg paradox," Arch. Hist. Exact Sci. 39, No.1, 1988 and David (2001)] 
+
+See MORAL EXPECTATION and UTILITY. 
+
+SADDLE POINT is found in 1922 in A Treatise on the Theory of Bessel Functions by G. N. Watson (OED2). 
+
+SAGITTA was used in Latin by Fibonacci (1220) to mean the versed sine (Smith, vol. 2). See VERSED SINE. 
+
+In 1726 Alberti's Archit. has: "The .. Line .. from the middle Point of the Chord up to the Arch, leaving equal Angles on each Side, is call'd the Sagitta" (OED2). 
+
+Webster's New International Dictionary (1909) has the following definition for sagitta: "the distance from a point in a curve to the chord; also, the versed sine of an arc; -- so called (by Kepler) from its resemblance to an arrow resting on the bow and string; also, Obs., an abscissa. 
+
+The 1961 third edition of the same dictionary has the following definition: "the distance from the midpoint of an arc to the midpoint of its chord." 
+
+SALIENT ANGLE. The OED2 has a 1687 citation for Angle Saliant. 
+
+In 1781 Sir John T. Dillon wrote in Travels Through Spain: "He could find nothing which seemed to confirm the opinion relating to the salient and reentrant angles" (OED2). 
+
+Mathematical Dictionary and Cyclopedia of Mathematical Science (1857) has: "SALIENT ANGLE of a polygon, is an interior angle, less than two right angles." 
+
+See also CONVEX POLYGON. 
+
+SAMPLE. The juxtaposition of sample and population seems to have originated with Karl Pearson writing in 1903 in Biometrika 2, 273. The relevant passage appears in OED2: "If the whole of a population were taken we should have certain values for its statistical constants, but in actual practice we are only able to take a sample ...." Pearson's colleague, the zoologist W. F. R. Weldon, had been using "sample" to refer to collections of observations since 1892. (See also RANDOM SAMPLE.) [John Aldrich] 
+
+SAMPLE PATH. This term seems to have originated in sequential analysis and then was transferred to stochastic processes in general. JSTOR gives one pre-1950 reference, to Anscombe (1949) "Large-Sample Theory of Sequential Estimation," Biometrika, 36, 455-458 [John Aldrich]. 
+
+SAMPLE SPACE was introduced into statistical theory by J. Neyman and E. S. Pearson, Phil. Trans. Roy. Soc. A (1933), 289-337. It was associated with the representation of a sample comprising n numbers as a point in n-dimensional space, a representation R. A. Fisher had exploited in articles going back to 1915. W. Feller used this notion of sample space in his "Note on regions similar to the sample space," Statist. Res. Mem., Univ. London 2, 117-125 (1938) but in the Introduction to Probability Theory and its Applications, volume one of 1950 Feller used the term quite abstractly for the set of outcomes of an experiment. He attributed this general concept to Richard von Mises (1883-1953) who had referred to the Merkmalraum (label space) in writings on the foundations of probability from 1919 onwards [John Aldrich]. 
+
+SAMPLING DISTRIBUTION. R. A. Fisher seems to have introduced this term. It appears incidentally in a 1922 paper (JRSS, 85, 598) and then in the title of his 1928 paper "The General Sampling Distribution of the Multiple Correlation Coefficient", Proc. Roy. Soc. A, 213, p. 654. 
+
+SCALAR. See VECTOR. 
+
+SCALAR PRODUCT. See VECTOR PRODUCT. 
+
+SCALENE. In Sir Henry Billingsley's 1570 translation of Euclid's Elements scalenum is used as a noun: "Scalenum is a triangle, whose three sides are all unequall." 
+
+In 1642 scalene is found in a rare use as a noun, referring to scalene triangle in Song of Soul by Henry More: "But if 't consist of points: then a Scalene I'll prove all one with an Isosceles." 
+
+Scalenous is found in 1656 in Stanley, Hist. Philos.. (1687): "A Pyramid consisteth of four triangles,..each whereof is divided..into six scalenous triangles." 
+
+Scalene occurs as an adjective is in 1684 in Angular Sections by John Wallis: "The Scalene Cone and Cylinder." 
+
+The earliest use of scalene as an adjective to describe a triangle is in 1734 in The Builder's Dictionary. (All citations are from the OED2.) 
+
+SCATTER DIAGRAM. According to H. L. Moore, Laws of Wages (1911), the term "scatter diagram" was due to Karl Pearson. A JSTOR search finds the term first appearing in a 1906 article in Biometrika (which Pearson edited), "On the Relation Between the Symmetry of the Egg and the Symmetry of the Embryo in the Frog (Rana Temporaria)" by J. W. Jenkinson. However the term only came into wide use in the 1920s when it began to appear in textbooks, e.g. F. C. Mills, Statistical Methods of 1925. OED2 gives the following quotation from Mills: "The equation to a straight line, fitted by the method of least squares to the points on the scatter diagram, will express mathematically the average relationship between these two variables" (X. 366) [John Aldrich]. 
+
+Scattergram is found in 1938 in A. E. Waugh, Elem. Statistical Method: "This is the method of plotting the data on a scatter diagram, or scattergram, in order that one may see the relationship" (OED2). 
+
+Scatterplot is found in 1939 in Statistical Dictionary of Terms and Symbols by Kurtz and Edgerton (David, 1998). 
+
+The term SCHUR COMPLEMENT was introduced by Emilie V. Haynsworth (1916-1985) and named for the German mathematician Issai Schur (1875-1941), according to Matrix Analysis and Applied Linear Algebra by Carl D. Meyer. 
+
+SCIENTIFIC NOTATION. In 1895 in Computation Rules and Logarithms Silas W. Holman referred to the notation as "the notation by powers of ten." In the preface, which is dated August 1895, he wrote: "The following pages contain ... an explanation of the use of the notation by powers of ten ... the notation by powers of 10, as in the explanation here given. It seems unfortunate that this simple notation, so useful in computation and so great an aid in the explanation of numerical relations, is not universally incorporated into arithmetical instruction." [James A. Landau] 
+
+In A Scrap-Book of Elementary Mathematics (1908) by William F. White, the notation is called the index notation. 
+
+Scientific notation is found in 1921 in An Introduction to Mathematical Analysis by Frank Loxley Griffin: "To write out in the ordinary way any number given in this 'Scientific Notation,' we simply perform the indicated multiplication -- i.e., move the decimal point a number of places equal to the exponent, supplying as many zeros as may be needed." 
+
+According to Webster's Second New International Dictionary (1934), numbers in this format are sometimes called condensed numbers. 
+
+Other terms are exponential notation and standard notation. 
+
+SCORE and METHOD OF SCORING in the theory of statistical estimation. The derivative of the log-likelihood function played an important part in R. A. Fisher's theory of maximum likelihood from its beginnings in the 1920s but the name score is more recent. The "score" was originally associated with a particular genetic application; a family is assigned a score based on the number of children of each category and there were different ways scoring associated with different ways of estimating linkage. In a 1935 paper ("The Detection of Linkage with Dominant Abnormalities," Annals of Eugenics, 6, 193) Fisher wrote that, because of the efficiency of maximum likelihood, the "ideal score" is provided by the derivative of the log-likelihood function. In 1948 C. R. Rao used the phrase efficient score (Proc. Cambr. Philos. Soc. 44, 50-57) and score by itself (J. Roy. Statist. Soc., B, 10: 159-203) when writing about maximum likelihood in general, i.e. without reference to the linkage application. Today "score" is so established in this derivative of the log-likelihood sense that the phrases "non-ideal score" or "inefficient score" would convey nothing. 
+
+In 1946 - still in the genetic context - Fisher ("A System of Scoring Linkage Data, with Special Reference to the Pied Factors in Mice. Amer. Nat., 80: 568-578) described an iterative method for obtaining the maximum likelihood value. Rao's 1948 J. Roy. Statist. Soc. B paper treats the method in a more general framework and the phrase "Fisher's method of scoring" appears in a comment by Hartley. Fisher had already used the method in a general context in his 1925 "Theory of Statistical Estimation" paper (Proc. Cambr. Philos. Soc. 22: 700-725) but it attracted neither attention nor name. [This entry was contributed by John Aldrich, with some information taken from David (1995).] 
+
+SECANT (in trigonometry) was introduced by Thomas Fincke (1561-1656) in his Thomae Finkii Flenspurgensis Geometriae rotundi libri XIIII, Basileae: Per Sebastianum Henricpetri, 1583. (His name is also spelled Finke, Finck, Fink, and Finchius.) Fincke wrote secans in Latin. 
+
+Vieta (1593) did not approve of the term secant, believing it could be confused with the geometry term. He used Transsinuosa instead (Smith vol. 2, page 622). 
+
+SECOND DIFFERENCE is found in 1777 in "A Method of finding the Value of an infinite Series of decreasing Quantities of a certain Form," by Francis Maseres in the Philosophical Transactions of the Royal Society vol. 67: "And 2dly, let these numbers be so related to each other, that they not only shall form a decreasing progression theselves, but that their differences, a-b, b-c, c-d, d-e, e-f, f-g, g-h, &c. shall also form a decreasng progression, so that b-c shall be less than a-b, and c-d than b-c, and d-e than c-d, and so on of the following differences; and likewise, that the differences of these differences (which may be called the second differences of the original numbers a, b, c, d, e, f, g, h, &c. shall form a decreasing progression; and that the differences of those second differences, or the third differences of the original numbers a, b, c, d, e, f, g, h, &c. shall also form a decreasing progression; and in like manner, that the differences of the said third differences, or the fourth differences, of the original numbers a, b, c, d, e, f, g, h, &c. and the fifth and sixth differences, and all higher differences, of the same numbers, shall also form decreasing progressions." 
+
+SECULAR EQUATION. See EIGENVALUE. 
+
+SELF-CONJUGATE. Kramer (p. 388) says Galois used this term, referring to a normal subgroup. 
+
+The term SEMI-CUBICAL PARABOLA was coined by John Wallis (Cajori 1919, page 181). 
+
+The term SEMIGROUP apparently was introduced in French as semi-groupe by J.-A. de Séguier in Élem. de la ThÃ©orie des Groupes Abstraits (1904). 
+
+SEMI-INVARIANT appears in R. Frisch, "Sur les semi-invariants et moments employés dans l'étude des distributions statistiques," Oslo, Skrifter af det Norske Videnskaps Academie, II, Hist.-Folos. Klasse, no. 3 (1926) [James A. Landau]. 
+
+SENTENTIAL CALCULUS is found in English in 1937 in a translation by Amethe Smeaton of The Logical Syntax of Language by Rudolf Carnap: "Primitive sentences of the sentential calculus" (OED2). 
+
+SEPARABLE appears in 1831 in Elements of the Integral Calculus (1839) by J. R. Young: "We shall first consider the general form X dy + Y dx = 0, which is the simplest for which the variables are separable: X being a function of x without y, and Y a function of y without x. 
+
+SEQUENCE. The OED2 shows a use by Sylvester in 1882 in the American Journal of Mathematics with the "rare" definition of a succession of natural numbers in order. 
+
+Sequence is found in 1891 in a translation by George Lambert Cathcart of the German An introduction to the study of the elements of the differential and integral calculus by Axel Harnack: "What conditions must be fulfilled in order that for continually diminishing values of [delta]x, the quotient ... may present a continuous sequence of numbers tending to a determinate limiting value: zero, finite or infinitely great?" [University of Michigan Historical Math Collection; the term may be considerably older.] 
+
+SERIAL CORRELATION. The term was introduced by G. U. Yule in his 1926 paper "Why Do We Sometimes Get Nonsense Correlations between Time-series? A Study in Sampling and the Nature of Time-series," Journal of the Royal Statistical Society, 89, 1-69 (David 2001). 
+
+SERIES. According to Smith (vol. 2, page 481), "The early writers often used proportio to designate a series, and this usage is found as late as the 18th century." 
+
+John Collins (1624-1683) wrote to James Gregory on Feb. 2, 1668/1669, "...the Lord Brouncker asserts he can turne the square roote into an infinite Series" (DSB, article: "Newton"). 
+
+James Gregory wrote to John Collins on Feb. 16, 1671 [apparently O. S.]: "I do not question that all equations may be formed by tables, but I doubt exceedingly if all equations can be solved by the help only of the tables of logarithms and sines without serieses." 
+
+According to Smith (vol. 2, page 497), "The change to the name 'series' seems to have been due to writers of the 17th century. ... Even as late as the 1693 edition of his algebra, however, Wallis used the expression 'infinite progression' for infinite series." 
+
+In the English translation of Wallis' algebra (translated by him and published in 1685), Wallis wrote: 
+Now (to return where we left off:) Those Approximations (in the Arithmetick of Infinites) above mentioned, (for the Circle or Ellipse, and the Hyperbola;) have given occasion to others (as is before intimated,) to make further inquiry into that subject; and seek out other the like Approximations, (or continual approaches) in other cases. Which are now wont to be called by the name of Infinite Series, or Converging Series, or other names of like import.
+ The SERPENTINE curve was named by Isaac Newton (1642-1727) in 1701, according to the Encyclopaedia Britannica. 
+
+SET (earlier sense). In Lectures on Quaternions (London: Whittaker & Co, 1853), Hamilton used the word "set" and even once the term "theory of sets." However, he was not anticipating Cantor. Rather Hamilton used "set" to mean what we would call an "n-tuple" or "vector," that is, a set of numbers which could be used as a coordinate in n-dimensional analytic geometry [James A. Landau]. 
+
+The term SET first appears in Paradoxien des Unendlichen (Paradoxes of the Infinite), Hrsg. aus dem schriftlichen Nachlasse des Verfassers von Fr. Prihonsky, C. H. Reclam sen., xi, pp. 157, Leipzig, 1851. This small tract by Bernhard Bolzano (1781-1848) was published three years after his death by a student Bolzano had befriended (Burton, page 592). 
+
+Menge (set) is found in Geometrie der Lage (2nd ed., 1856) by Carl Georg Christian von Staudt: "Wenn man die Menge aller in einem und demselben reellen einfoermigen Gebilde enthaltenen reellen Elemente durch n + 1 bezeichnet und mit diesem Ausdrucke, welcher dieselbe Bedeutung auch in den acht folgenden Nummern hat, wie mit einer endlichen Zahl verfaehrt, so ..." [Ken Pledger]. 
+
+Georg Cantor (1845-1918) did not define the concept of a set in his early works on set theory, according to Walter Purkert in Cantor's Philosophical Views. 
+
+Cantor's first definition of a set appears in an 1883 paper: "By a set I understand every multitude which can be conceived as an entity, that is every embodiment [Inbegriff] of defined elements which can be joined into an entirety by a rule." This quotation is taken from Über unendliche lineare Punctmannichfaltigkeiten, Mathematische Annalen, 21 (1883). 
+
+In 1895 Cantor used the word Menge in Beiträge zur Begründung der Transfiniten Mengenlehre, Mathematische Annalen, 46 (1895): 
+By a set we understand every collection [Zusammenfassung] M of defined, well-distinguished objects m of our intuition [Zusammenfassung] or our thinking (which are called the elements of M brought together to form an entirety.
+ This translation was taken from Cantor's Philosophical Views by Walter Purkett. 
+
+SET THEORY appears in Georg Cantor, "Sur divers théorèmes de la théorie des ensembles de points situés dans un espace continu à n dimensions. Première communication." Acta Mathematica 2, pp. 409-414 (1883) [James A. Landau]. 
+
+The term is also found in Ivar Bendixson, "Quelques théorèmes de la théorie des ensembles de points," Acta Mathematica 2, pp. 415-429 (1883) [James A. Landau]. 
+
+In a letter to Mittag-Leffler, Cantor wrote on May 5, 1883, "Unfortunately, I am prevented by many circumstances from working regularly, and I would be fortunate to find, in you and your distinguished students, coworkers who probably will soon surpass me in 'set theory.'" This quotation, which is presumably a translation, was taken from Cantor's Continuum Problem by Gregory H. Moore. 
+
+Theory of point sets is found in 1912 in volume II of Lectures on the Theory of Functions of Real Variables by James Pierpont: "After the epoch-making discoveries inaugurated in 1874 by G. Cantor in the theory of point sets..." [James A. Landau]. 
+
+Set theory is found in English in 1926 in Annals of Mathematics (2d ser.) XXVII. 487: "An important idea in set theory is that of relativity" (OED2 update). 
+
+SEXAGESIMAL appears in A Proposal About Printing A treatise of Algebra by John Wallis, which was circulated in 1683: "The Sexagesimal Fractions (introduced it seems by Ptolemy) did but imperfectly supply the want of such a Method of Numerical Figures." 
+
+SHORT DIVISION is found in 1844 in Introduction to The national arithmetic, on the inductive system by Benjamin Greenleaf (1786-1864): "The method of operation by Short Division, or when the divisor does not exceed 12" [University of Michigan Digital Library]. 
+
+SIBLING. The OED2 shows two citations for sibling from the Middle Ages. In both cases, the word had the obsolete meaning of "one who is of kin to another; a relative." 
+
+Sibling does not appear in the 1890 Funk & Wagnalls unabridged dictionary. 
+
+The OED2 shows a use of sib to mean "brother or sister" in 1901. 
+
+After the two citations from the Middle Ages, the next citation in the OED2 for sibling is by Karl Pearson in 1903 in Biometrika, where the word is used in its modern sense: "These [calculations] will enable us .. to predict the probable character in any individual from a knowledge of one or more parents or brethren ('siblings', = brothers or sisters)." 
+
+In 1931, a translation by E. & C. Paul of Human Heredity by E. Baur et al. has: "The word 'sib' or 'sibling' is coming into use in genetics in the English-speaking world, as an equivalent of the convenient German term 'Geschwister'" (OED2). 
+
+SIEVE OF ERATOSTHENES is found in English in 1803 in a translation of Bossut's Gen. Hist. Math.: "The famous sieve of Eratosthenes..affords an easy and commodious method of finding prime numbers" (OED2). 
+
+SIGN OF AGGREGATION is found in 1863 in The Normal: or, Methods of Teaching the Common Branches, Orthoepy, Orthography, Grammar, Geography, Arithmetic and Elocution by Alfred Holbrook: "The signs of aggregation are the bar ___, which signifies that the numbers over which it is placed are to be taken together as one number; also, the parenthesis, (); the brackets, []; and the braces, {}, which signify that the quantities enclosed by them respectively are to be taken together, as one quantity." 
+
+In 1900 in Teaching of Elementary Mathematics, David Eugene Smith wrote: "Signs of aggregation often trouble a pupil more than the value of the subject warrants. The fact is, in mathematics we never find any such complicated concatenations as often meet the student almost on the threshold of algebra." 
+
+SIGN TEST appears in W. MacStewart, "A note on the power of the sign test," Ann. Math. Statist. 12 (1941) [James A. Landau]. 
+
+SIGNED NUMBER. Signed magnitude appears in 1873 in Proc. Lond. Math. Soc.: "A signed magnitude" (OED2). 
+
+Signed number appears in the title "The [Arithmetic] Operations on Signed Numbers" by Wilson L. Miser in Mathematics Magazine (1932). 
+
+SIGNIFICANCE. Significant is found in 1885 in F. Y. Edgeworth, "Methods of Statistics," Jubilee Volume, Royal Statistical Society, pp. 181-217: "In order to determine whether the observed difference between the mean stature of 2,315 criminals and the mean stature of 8,585 British adult males belonging to the general population is significant [etc.]" (OED2). 
+
+Significance is found in 1888 in Logic of Chance by John Venn: "As before, common sense would feel little doubt that such a difference was significant, but it could give no numerical estimate of the significance" (p. 486) (OED2). 
+
+The terms test of significance and significance test were used before the 1920s but only rarely. A JSTOR search finds significance test in Oswald H. Latter "The Egg of Cuculus Canorus. An Enquiry into the Dimensions of the Cuckoo's Egg and the Relation of the Variations to the Size of the Eggs of the Foster-Parent, with Notes on Coloration, &c Biometrika, 1, (1902), p. 168. 
+
+The expression test of significance was very prominent in R. A. Fisher's Statistical Methods for Research Workers (1925). This book introduced the related terms level of significance (p. 161), 5 per cent point (p. 198) and statistical significance (p. 218). 
+
+Testing the significance is found in StudentÂ’s "New tables for testing the significance of observations," Metron 5 (3) pp 105-108 (1925). 
+
+Statistically significant is found in 1931 in L. H. C. Tippett, Methods of Statistics: "It is conventional to regard all deviations greater than those with probabilities of 0.05 as real, or statistically significant" (OED2). 
+
+[This entry was contributed by John Aldrich.] 
+
+SIGNIFICANT DIGIT. Smith (vol. 2, page 16) indicates Licht used the term in 1500, and shows a use of "neun bedeutlich figuren" by Grammateus in 1518. 
+
+In 1544, Michael Stifel wrote, "Et nouem quidem priores, significatiuae uocantur." 
+
+Signifying figures is found in 1542 in Robert Recorde, Gr. Artes (1575): "Of those ten one doth signifie nothing... The other nyne are called Signifying figures" (OED2). 
+
+Significant figures is found in 1660 in Milton, Free Commw.: "Only like a great Cypher set to no purpose before a long row of other significant Figures" (OED2). 
+
+Significant figures is found in the first edition of the Encyclopaedia Britannica (1768-1771) in the article "Arithmetick": "Of these, the first nine, in contradistinction to the cipher, are called significant figures." 
+
+Mathematical Dictionary and Cyclopedia of Mathematical Science (1857) has this definition: 
+SIGNIFICANT. Figures standing for numbers are called significant figures. They are 1, 2, 3, 4, 5, 6, 7, 8, and 9.
+ Significant digit is found in 1871 in Elements of trigonometry, plane and spherical by Lefebure de Fourcy, translated from the last French ed. by Francis H. Smith: "Thus, the record.5386617, which in reality expresses the logarithm of 3.4567, can be made to express the logarithms of 345670, 34567, 3456.7, 345.67, 34.567, 3.4567, .34567, .034567, or any number formed by adding ciphers to the end of the former, or to beginning of the latter immediately after the decimal point; so that every logarithm taken out of the Tables for a particular number, becomes, by simply altering its characteristic, the logarithm of an infinite variety of other numbers, that is, of all that are expressed by the same succession of significant digits" [University of Michigan Digital Library]. 
+
+Non-significant digit is found in January 1900 in Neal H. Ewing, "The Shakespeare Name," Catholic World: "Naught is the non-significant digit; though it means nothing, yet it counts for so much." 
+
+An article in The Mathematics Teacher in October 1939 explains that zero is sometimes a "significant figure." 
+
+SIMILAR. In 1557 Robert Recorde used like in the Whetstone of Witte: "When the sides of one plat forme, beareth like proportion together as the sides of any other flatte forme of the same kinde doeth, then are those formes called like flattes .. and their numbers, that declare their quantities, in like sorte are named like flattes" (OED2). 
+
+In the manuscript of his Characteristica Geometrica which was not published by him, Leibniz wrote "similitudinem ita notabimus: a ~ b." 
+
+In 1660 Isaac Barrow used like in his Euclid: "If in a triangle FBE there be drawn AC a parallel to one side FE, the triangle ABC shall be like to the whole FBE (OED2). 
+
+In English, similar triangles is found in 1704 in Lexicon technicum: "Similar Triangles are such as have all their three Angles respectively equal to one another" (OED2). 
+
+SIMILAR REGION was introduced by J. Neyman and E. S. Pearson in "On the Problem of the Most Efficient Tests of Statistical Hypotheses" Philosophical Transactions of the Royal Society of London. Series A, 231. (1933), pp. 289-337. (David, 1995.) 
+
+SIMPLE CLOSED CURVE occurs in 1873 in "On Listing's Theorem" by Arthur Cayley in the Messenger of Mathematics [University of Michigan Historical Math Collection]. 
+
+SIMPLEX. William Kingdon Clifford (1848-1879) used the term prime confine in "Problem in Probability," Educational Times, Jan. 1886: 
+Now consider the analogous case in geometry of n dimensions. Corresponding to a closed area and a closed volume we have something which I shall call a confine. Corresponding to a triangle and to a tetrahedron there is a confine with n + 1 corners or vertices which I shall call a prime confine as being the simplest form of confine.
+ SIMPLEX METHOD is found in Robert Dorfman, "Application of the simplex method to a game theory problem," Activity Analysis of Production and Allocation, Chap. XXII, 348-358 (1951). 
+
+Simplex approach is found in 1951 by George B. Dantzig (1914- ) in T. C. Koopman's Activity Analysis of Production and Allocation xxi. 339: "The general nature of the 'simplex' approach (as the method discussed here is known)" (OED2). 
+
+SIMPLY ORDERED SET was defined by Cantor in Mathematische Annalen, vol. 46, page 496. 
+
+SIMPSONÂ’S PARADOX appears in C. R. BlythÂ’s "On Simpson's Paradox and the Sure-Thing Principle", Journal of the American Statistical Association, 67, (1972) and refers to a phenomenon discussed in E. H. SimpsonÂ’s "The Interpretation of Interaction in Contingency Tables", Journal of the Royal Statistical Society, B, 13, (1951), pp. 238-241: the sign of the association (or, in the case of variables, correlation) in the population may not match that obtaining in all its sub-populations. 
+
+The phenomenon was known to Karl Pearson and to G. Udny Yule from almost the beginning of their work on correlation and association. "We are thus forced to the conclusion that a mixture of heterogeneous groups, each of which exhibits no organic correlation, will exhibit a greater or less amount of correlation. This correlation may properly be called spurious . . ." Pearson, Lee; & Bramley-Moore, Philosophical Transactions of the Royal Society A, 192, (1899), p. 278. Yule preferred to call the correlation (or association) in the population "illusory" as in his Introduction to the Theory of Statistics. [John Aldrich] 
+
+See SPURIOUS CORRELATION. 
+
+SIMPSON'S RULE is found in an earlier algebraic sense in 1851 in Bonnycastle's introduction to algebra by John Bonnycastle [University of Michigan Digital Library]. 
+
+Simpson's rule is found in 1856 in A treatise on land-surveying by William Mitchell Gillespie: "When the line determined by the offsets is a curved line, 'Simpson's rule' gives the content more accurately" [University of Michigan Digital Library]. 
+
+According to E. T. Whittaker and G. Robinson The Calculus of Observations (1924, p. 156) "This formula [generally known as Simpson's or the parabolic rule] was first given (in a geometrical form) by Cavalieri [1639], and later by James Gregory [1668] and by Thomas Simpson [1743]." 
+
+SIMSON LINE. The theorem was attributed to Robert Simson (1687-1768) by François Joseph Servois (1768-1847) in the Gergonne's Journal, according to Jean-Victor Poncelet in Traité des propriétés projectives des figures. The line does not appear in Simson's work and is apparently due to William Wallace. [The University of St. Andrews website] 
+
+SIMULTANEOUS EQUATIONS occurs in 1842 in Colenso, Elem. Algebra (ed. 3): "Equations of this kind, ... to be satisfied by the same pair or pairs of values of x and y, are called simultaneous equations" (OED2). 
+
+Simultaneous equations also appears in 1842 in G. Peacock, Treat. Algebra: "Such pairs or sets of equations in which the same unknown symbols appear, which are assumed to possess the same values throughout, are called simultaneous equations" (OED2). 
+
+SINE. Aryabhata the Elder (476-550) used the word jya for sine in Aryabhatiya, which was finished in 499. 
+
+According to Cajori (1906), the Latin term sinus was introduced in a translation of the astronomy of Al Battani by Plato of Tivoli (or Plato Tiburtinus). 
+
+According to some sources, sinus first appears in Latin in a translation of the Algebra of al-Khowarizmi by Gherard of Cremona (1114-1187). For example, Eves (page 177) writes: 
+The origin of the word sine is curious. Aryabhata called in ardha-jya ("half-chord") and also jya-ardha ("chord-half"), and then abbreviated the term by simply using jya ("chord"). From jya the Arabs phonetically derived jiba, which, following Arabian practice of omitting vowels, was written as jb. Now jiba, aside from its technical significance, is a meaningless word in Arabic. Later writers, coming across jb as an abbreviation for the meaningless jiba, substituted jaib instead, which contains the same letters and is a good Arabic word meaning "cove" or "bay." Still later, Gherardo of Cremona (ca. 1150), when he made his translations from the Arabic, replaced the Arabian jaib by its Latin equivalent, sinus, whence came our present word sine.
+ However, Boyer (page 278) places the first appearance of sinus in a translation of 1145. He writes: 
+It was Robert of Chester's translation from the Arabic that resulted in our word "sine." The Hindus had given the name jiva to the half chord in trigonometry, and the Arabs had taken this over as jiba. In the Arabic language there is also a word jaib meaning "bay" or "inlet." When Robert of Chester came to translate the technical word jiba, he seems to have confused this with the word jaib (perhaps because vowels were omitted); hence he used the word sinus, the Latin word for "bay" or "inlet." Sometimes the more specific phrase sinus rectus, or "vertical sine," was used; hence the phrase sinus versus, or our "versed sine," was applied to the "sagitta," or the "sine turned on its side."
+ 
+
+Smith (vol. 1, page 202) writes that the Latin sinus "was probably first used in Robert of Chester's revision of the tables of al-Khowarizmi." 
+
+Fibonacci used the term sinus rectus arcus. 
+
+Regiomontanus (1436-1476) used sinus, sinus rectus, and sinus versus in De triangulis omnimodis (On triangles of all kinds; Nuremberg, 1533) [James A. Landau]. 
+
+Copernicus and Rheticus did not use the term sine (DSB). 
+
+The earliest known use of sine in English is by Thomas Fale in 1593: 
+This Table of Sines may seem obscure and hard to those who are not acquainted with Sinicall computation.
+ The citation is above is from Horologiographia. The art of dialling: teaching an easie and perfect way to make all kinds of dials vpon any plaine plat howsoeuer placec: With the drawing of the twelue signes, and houres vnequall in them all... At London, Printed by Thomas Orwin, dwelling in Pater noster-Row ouer against the signe of the Checker, 1593, by Thomas Fale. 
+
+The term SINGLE-VALUED FUNCTION (meaning analytic function) was used by Yulian-Karl Vasilievich Sokhotsky (1842-1927). 
+
+The term SINGULAR INTEGRAL is due to Lagrange (Kline, page 532). 
+
+The term is found in 1831 in Elements of the Integral Calculus (1839) by J. R. Young: 
+We see, therefore, that it is possible for a differential equation to have other integrals besides the complete primitive, but derivable from it by substituting in it, for the arbitrary constant c, each of its values given in terms of x and y by the equation (5). Such integrals are called singular integrals, or singular solutions of the proposed differential equation.
+ SINGULAR MATRIX. Singular matrix and non-singular matrix occur in 1907 in Introduction to Higher Algebra by Maxime Bôcher: "Definition 2. A square matrix is said to be singular if its determinant is zero." 
+
+SINGULAR POINT appears in a paper by George Green published in 1828. The paper also contains the synonymous phrase "singular value" [James A. Landau]. 
+
+Singular point appears in 1836 in the second edition of Elements of the Differential Calculus by John Radford Young. According to James A. Landau, who supplied this citation, it is not clear what the author meant by the term. Landau writes, "Judging by the contents of Chapter IV, to the author 'singular point' was the name of the category to which 'multiple points,' 'cusps,' and 'points of inflexion' belong." 
+
+In An Elementary Treatise on Curves, Functions and Forces (1846), Benjamin Peirce writes, "Those points of a curve, which present any peculiarity as to curvature or discontinuity, are called singular points." 
+
+SIZE (of a critical region) is found in 1933 in J. Neyman and E. S. Pearson, "On the Problems of the Most Efficient Tests of Statistical Hypotheses," Philosophical Transactions of the Royal Society of London, Ser. A (1933), 289-337 (David (2001)). 
+
+SKEW DISTRIBUTION appears in 1895 in a paper by Karl Pearson "Contributions to the Mathematical Theory of Evolution. II. Skew Variation in Homogeneous Material," Philosophical Transactions of the Royal Society of London. A, 186. (1895), pp. 343-414. [James A. Landau]. 
+
+SKEW SYMMETRIC MATRIX. Skew symmetric determinant appears in 1849 in Arthur Cayley, Jrnl. für die reine und angewandte Math. XXXVIII. 93: "Ces déterminants peuvent être nommés Â‘gauches et symmétriquesÂ’" (OED2). 
+
+Skew symmetric determinant appears in 1885 in Modern Higher Algebra by George Salmon: "A skew symmetric determinant is one in which each constituent is equal to its conjugate with its sign changed." 
+
+Skew symmetric matrix appears in "Linear Algebras," Leonard Eugene Dickson, Transactions of the American Mathematical Society, Vol. 13, No. 1. (Jan., 1912). 
+
+SKEWES NUMBER appears in 1949 in Kasner & Newman, Mathematics and the Imagination: "A veritable giant is Skewes' number, even bigger than a googolplex" (OED2). 
+
+SLIDE RULE. In 1630, the terms Grammelogia and mathematical ring were used for a new device which, unlike Gunter's scale, had moving parts. 
+
+In 1632, the terms circles of proportion and horizontal instrument were used to describe Oughtred's device, in a 1632 publication, Circles of Proportion. 
+
+Slide rule appears in the Diary of Samuel Pepys (1633-1703) in April 1663: "I walked to Greenwich, studying the slide rule for measuring of timber." However, the device referred to may not have been a slide rule in the modern sense. 
+
+Slide rule appears in 1838 in Civil Eng. & Arch. Jrnl.: "To assist in facilitating the use of the slide rule among working mechanics" (OED2). 
+
+Amédée Mannheim (1831-1906) designed (c. 1850) the Mannheim Slide Rule. 
+
+Sliding-rule and sliding-scale appear in 1857 in Mathematical Dictionary and Cyclopaedia of Mathematical Science, defined in the modern sense. 
+
+Slide rule appears in 1876 in Handbk. Scientif. Appar.: "The slide rule,--an apparatus for effecting multiplications and divisions by means of a logarithmic scale" (OED2). 
+
+SLOPE is found in 1857 in Mathematical Dictionary and Cyclopedia of Mathematical Science: 
+SLOPE. Oblique direction. The slope of a plane is its inclination to the horizon. This slope is generally given by its tangent. Thus, the slope, 1/2, is equal to an angle whose tangent is 1/2; or, we generally say, the slope is 1 upon 2; that is, we rise, in ascending such a plane, a vertical distance of 1, in passing over a horizontal distance of 2. The slope of a curved surface, at any point, is the slope of a plane, tangent to the surface at that point.
+ In 1924 Analytic Geometry by Arthur M. Harding and George W. Mullins has: "If the line is parallel to the y axis, the slope is infinite." Modern textbooks say such a line has undefined slope. 
+
+For information on the use of m and other symbols for slope, see Earliest Uses of Symbols for Geometry. 
+
+SLOPE-INTERCEPT FORM is found in 1904 in Elements of the Differential and Integral Calculus by William Anthony Granville [James A. Landau]. 
+
+In Webster's New International Dictionary (1909), the term is slope form. 
+
+SMOOTHING. The earliest quotation given by the OED is from Francis Galton's Natural Inheritance chapter vii, p. 100: "These [curious and apparently very interesting relations] came out distinctly after I had 'smoothed' the entries." 
+
+The term SOCIAL MATHEMATICS was used by Condorcet (1743-1794) and may have been coined by him. 
+
+SOLID GEOMETRY appears in 1733 in the title Elements of Solid Geometry by H. Gore (OED2). 
+
+SOLID OF REVOLUTION is found in English in 1816 in the translation of Lacroix's Differential and Integral Calculus: "To find the differentials of the volumes and curve surfaces of solids of revolution" (OED2). 
+
+SOLIDUS (the diagonal fraction bar). Arthur Cayley (1821-1895) wrote to Stokes, "I think the 'solidus' looks very well indeed...; it would give you a strong claim to be President of a Society for the Prevention of Cruelty to Printers" (Cajori vol. 2, page 313). 
+
+The word solidus appears in this sense in the Century Dictionary of 1891. 
+
+SOLUBLE (referring to groups). Ferdinand Georg Frobenius (1849-1917) wrote in a paper of 1893: 
+Jede Gruppe, deren Ordnung eine Potenz einer Primzahl ist, ist nach einem Satze von Sylow die Gruppe einer durch Wurzelausdrücke auflösbaren Gleichung oder, wie ich mich kurz ausdrücken will, einer auflösbare Gruppe. [Every group of prime-power order is, by a theorem of Sylow, the group of an equation which is soluble by radicals or, as I will allow myself to abbreviate, a soluble group.] 
+Peter Neumann believes this is likely to be the passage that introduced the term "auflösbar" ["soluble"] as an adjective applicable to groups into mathematical language. 
+
+SOLUTION SET appears in 1959 in Fund. Math. by Allendoerfer and Oakley: Given a universal set X and an equation F(x) = G(x) involving x, the set {x|F(x) = G(x)} is called the solution set of the given equation" (OED2). 
+
+The term may occur in found in Imsik Hong, "On the null-set of a solution for the equation $\Delta u+k^2u=0$," Kodai Math. Semin. Rep. (1955). 
+
+SOUSLIN SET is defined in Nicolas Bourbaki, Topologie Generale [Stacy Langton]. 
+
+The term SPECIALLY MULTIPLICATIVE FUNCTION was coined by D. H. Lehmer (McCarthy, page 65). 
+
+SPECTRUM (in operator theory). The OED's earliest quotation illustrating the mathematical use of "spectrum" is from P. R. Halmos Finite Dimensional Vector Spaces (1948, ii. 79): "The set of n proper values [eigenvalues] of A, with multiplicities properly counted, is the spectrum of A." However the usage can be traced back to "Spektrum" in Hilbert's work on integral equations in 1904-10 and the elaboration of operator theory in the 1920's in works like von Neumann's "Allgemeine Eigenwerttheorie Hermitische Funktionaloperatoren" Math. Ann. 102 (1929) 49-131. M. H. Stone's Linear Transformations in Hilbert Space used the English word in 1932. The term SPECTRAL THEORY came into use in the early 1930's a few years after its German equivalent. (See also EIGENVALUE, STATIONARY STOCHASTIC PROCESS.) [John Aldrich] 
+
+SPECTRUM and SPECTRAL DENSITY (in generalised harmonic analysis and stochastic processes). The "spectrum" of an irregular motion appears in N. Wiener's "The Harmonic Analysis of Irregular Motion (Second Paper)" J. Math. and Phys. 5 (1926) 158-189. One of Wiener's objectives was a theory which would include "an adequate mathematical account of such continuous spectra as that of white light." (Wiener Proc. London Math. Soc. 27 (1928)) The term "power-spectrum" is also in the 1926 paper. The spectrum and spectral density function were important in the probabilistic theory of Khintchine (1934) and Wold (1938) but the functions were not given names. The names appear in J. L. Doob's "The Elementary Gaussian Processes" Annals of Mathematical Statistics, 15, (1944), 229-282. Around 1940 it became evident that the spectral theory of time series analysis was related to the spectral theory of operators. (See also the previous entry and STATIONARY STOCHASTIC PROCESS). [John Aldrich] 
+
+SPHERICAL CONCHOID was coined by Herschel. 
+
+SPHERICAL GEOMETRY appears in 1728 in Chambers' Cyclopedia (OED2). 
+
+The words spherical geometry and versed sine were used by Edgar Allan Poe in his short story The Unparalleled Adventure Of One Hans Pfaall. 
+
+SPHERICAL HARMONICS. A. H. Resal used the term fonctions spheriques (Todhunter, 1873) [Chris Linton]. 
+
+Spherical harmonics was used in 1867 by William Thomson (1824-1907) and Peter Guthrie Tait (1831-1901) in Nat. Philos.: "General expressions for complete spherical harmonics of all orders" (OED2). 
+
+SPHERICAL TRIANGLE Menelaus of Alexandria (fl. A. D. 100) used the term tripleuron in his Sphaerica, according to Pappus. According to the DSB, "this is the earliest known mention of a spherical triangle." 
+
+The OED2 shows a use of spherical triangle in English in 1585. 
+
+In a letter to L. H. Girardin dated March 18, 1814, Thomas Jefferson (President of the United States) wrote, "According to your request of the other day, I send you my formula and explanation of Lord Napier's theorem, for the solution of right-angled spherical triangles." 
+
+SPHERICAL TRIGONOMETRY is found in the title Trigonometria sphaericorum logarithmica (1651) by Nicolaus Mercator (1620-1687). 
+
+The term is found in English in a letter by John Collins to the Governors of Christ's Hospital written on May 16, 1682, in the phrase "plaine & spherick Trigonometry, whereby Navigation is performed" [James A. Landau]. 
+
+In a letter dated Oct. 8, 1809, Thomas Jefferson wrote, referring to Benjamin Banneker, "We know he had spherical trigonometry enough to make almanacs, but not without the suspicion of aid from Ellicot, who was his neighbor and friend, and never missed an opportunity of puffing him." 
+
+SPINOR appears in 1931 in Physical Review. The citation refers to spinor analysis developed by B. Van der Waerden (OED2). 
+
+SPIRAL OF ARCHIMEDES appears in 1836 in the second edition of Elements of the Differential Calculus by John Radford Young [James A. Landau]. 
+
+SPLINE CURVE is found in 1946 in I. J. Schoenberg, Q. Appl. Math. IV. 48: "For k = 4 they represent approximately the curves drawn by means of a spline and for this reason we propose to call them spline curves of order k (OED2). 
+
+The term SPORADIC GROUP was coined by William Burnside (1852-1927) in the second edition of his Theory of Groups of Finite Order, published in 1911 [John McKay]. 
+
+SPURIOUS CORRELATION. The term was introduced by Karl Pearson in "On a Form of Spurious Correlation Which May Arise When Indices Are Used in the Measurement of Organs," Proc. Royal Society, 60, (1897), 489-498. Pearson showed that correlation between indices u (= x/z) and v (= y/z) was a misleading guide to correlation between x and y. His illustration is 
+A quantity of bones are taken from an ossuarium, and are put together in groups which are asserted to be those of individual skeletons. To test this a biologist takes the triplet femur, tibia, humerus, and seeks the correlation between the indices femur/humerus and tibia/humerus. He might reasonably conclude that this correlation marked organic relationship, and believe that the bones had really been put together substantially in their individual grouping. As a matter of fact ... there would be ... a correlation of about 0.4 to 0.5 between these indices had the bones been sorted absolutely at random.
+ The term has been applied to other correlation scenarios with potential for misleading inferences. In Student's "The Elimination of Spurious Correlation due to Position in Time or Space" (Biometrika, 10, (1914), 179-180) the source of the spurious correlation is the common trends in the series. In H. A. Simon's "Spurious Correlation: A Causal Interpretation," Journal of the American Statistical Association, 49, (1954), pp. 467-479 the source of the spurious correlation is a common cause acting on the variables. In the recent spurious regression literature in time series econometrics (Granger & Newbold, Journal of Econometrics, 1974) the misleading inference comes about through applying the regression theory for stationary series to non-stationary series. The dangers of doing this were pointed out by G. U. Yule in his 1926 "Why Do We Sometimes Get Nonsense Correlations between Time-series? A Study in Sampling and the Nature of Time-series," Journal of the Royal Statistical Society, 89, 1-69. For another popular scenario see the entry on Simpson's paradox. (Based on Aldrich 1995) 
+
+SQUARE MATRIX was used by Arthur Cayley in 1858 in Collected Math. Papers (1889): "The term matrix might be used in a more general sense, but in the present memoir I consider only square or rectangular matrices" (OED2). 
+
+The term STANDARD DEVIATION was introduced by Karl Pearson (1857-1936) in 1893, "although the idea was by then nearly a century old" (Abbott; Stigler, page 328). According to the DSB: 
+The term "standard deviation" was introduced in a lecture of 31 January, 1893, as a convenient substitute for the cumbersome "root mean square error" and the older expressions "error of mean square" and "mean error."
+ The OED2 shows a use of standard deviation in 1894 by Pearson in "Contributions to the Mathematical Theory of Evolution, Philosophical Transactions of the Royal Society of London, Ser. A. 185, 71-110: "Then &#963; will be termed its standard-deviation (error of mean square)." 
+
+STANDARD ERROR is found in 1897 in G. U. Yule, "On the Theory of Correlation," Journal of the Royal Statistical Society, 60, 812-854: "We see that 1[sqrt](1 - r2) is the standard error made in estimating x" (OED2). There the quantity x was being estimated by a regression residual but Yule applied the term generally in his Introduction to the Theory of Statistics (1911), covering such cases as the standard error of a proportion. [John Aldrich] 
+
+See also PROBABLE ERROR. 
+
+STANDARD POSITION is found in 1873 in An elementary course in free-hand geometrical drawing by Samuel Edward Warren: "a right angle is in its simplest, most natural, or standard position, when its sides are in the fundamental directions of vertical and horizontal" [University of Michigan Digital Library]. 
+
+Standard position is dated 1950 in MWCD10. 
+
+STANDARD SCORE. In 1913 Elementary school standards : instruction, course of study, supervision, applied to New York City schools by Frank Morton McMurry has: "The book does not attempt to illustrate accurate measurement of educational results. It is scientific only in so far as it brings to bear organized knowledge and insight on an educational problem. Scientific measurement in education is, indeed, as yet too little developed to be applied to more than a very limited portion of the work of the elementary schools. Except for arithmetic and penmanship, 'standard scores' or standard achievements are not available for measuring the quality of the results actually attained by the schools; and even for penmanship and arithmetic, the standard measures for each grade are not yet firmly established" [University of Michigan Digital Library]. 
+
+In 1921 Univ. Illin. Bur. Educ. Res. Bull. has: "Provision is made for comparing a pupil's achievement score..with the norm corresponding to his mental age by dividing his achievement age by the standard score for his mental age. This quotient is called the Achievement Quotient" (OED2). 
+
+Standard score is dated 1928 in MWCD10. 
+
+STANINE is a term first used to describe an examinee's performance on a battery of tests constructed for the U. S. Army Air Force during World War II. 
+
+In a letter dated July 30, 1946, Laurance F. Shaffer, who had been a colonel in charge of Psychological Research Unit No. 1 (PRU #1) at Maxwell Field, Alabama, wrote: 
+The origin of the word is somewhat hazy. I have complete certainty only with regard to two facts: that the word was originated at PRU #1 at Maxwell Field, and that the date was in the month of February, 1942. According to PRU #1 tradition, the word first appeared in the form stand-nine as a shortening of the phrase standard nine-point scale that occurred in area directives. This was soon shortened to stannine (with a as in stand). Local tradition ascribed the origin of this term to Sol M. Roshal, who was noncom in charge of computations at that time. Fred Wickers has told me that he is very certain that I changed stannine to stanine with a as in stay) when I returned from my expedition to California, which took place in the middle of February, 1942. I do not remember this myself.
+ In a letter dated February 23, 1946, Frank A. Geldard, formerly a colonel in charge of the whole program and stationed in Texas, wrote: 
+Stanine is a portmanteau word deriving from "standard score on a nine point scale." It was a sheer "shorthand" invention on the part of an enlisted man in Psychological Research Unit No. 1, AAF Classification Center, Maxwell Field, Ala. The term came to have wide usage in the AAF, not only by psychologists, but by all who had occasion to refer to aptitude ratings for pilot, bombardier, and navigator training assignments. At first the word was resisted by psychologists, who felt that the term had little intrinsic logical meaning to recommend it. For a year or so after its invention official reports might not employ the word; it was regarded as inferior slang. Generality of usage within the AAF eventually forced its acceptance, however, and by the end of the war both technical and nontechnical papers on aircrew aptitude, standards of qualification, training programs, aircraft accidents, and a host of other topics, employed it as a "good" word. It avoided considerable circumlocution, and its meaning seems rarely to have been misunderstood.
+ 
+
+Both of these letters were written to Atcheson L. Hench and appear in an article by him, "The Coining of 'Stanine'", in American Speech, February 1951. 
+
+The term STAR PRIME was coined in 1988 by Richard L. Francis (Schwartzman, p. 206). 
+
+STATIONARY STOCHASTIC PROCESS appears in the title of A Khintchine's "Korrelationstheorie der Stationären Stochastischen Prozesse," Math. Ann. 109, 604. 
+
+H. Wold translated it as "stationary random process" (A Study in the Analysis of Stationary Time Series (1938)). 
+
+The phrase "stationary stochastic process" appears in J. L. Doob's "What is a Stochastic Process?" American Mathematical Monthly, 49, (1942), 648-653. 
+
+An older term was "fonction éventuelle homogène," which appears in E. Slutsky's "Sur les Fonctions Éventuelles Continues, Intégrables et Dérivables dans la Sens Stochastique," Comptes Rendues, 187, (1928), 878 [John Aldrich]. 
+
+STATISTIC, STATISTICAL and STATISTICS. In the course of the 19th century statistics acquired its modern meaning(s). It is &ldquo;the department of study that has its object the collection and arrangement of numerical facts or data, whether relating to human affairs or to natural phenomena&rdquo; OR they are &ldquo;numerical facts or data collected and classified.&rdquo; The OED1 of the early 20th century also has statistical in the modern sense but its meanings for statistic are archaic. The recasting of statistic came later. 
+
+These words all come indirectly from the mediaeval Latin status for a political state. More directly statistics entered English from the German Statistik, as a term comparable to mathematics or ethics. The first citation in OED2 is W. Hooper's translation of Bielfield's Elementary Universal Education: &ldquo;The science, that is called statistics, teaches us what is the political arrangement of all the modern states of the known world.&rdquo; (1770) 
+
+Webster's dictionary of 1828 defined statistics as: &ldquo;A collection of facts respecting the state of society, the condition of the people in a nation or country, their health, longevity, domestic economy, arts, property and political strength, the state of the country, &c.&rdquo; Statistical societies, like the London Statistical Society (later Royal Statistical Society) founded in 1835, were established to discover such facts. 
+
+In the course of the 19th century statistics came to be confined to numerical facts but the facts did not have to pertain to public administration. The latter development is illustrated by a quotation from J. C. Maxwell Theory of Heat (1871) xxii. 288: &ldquo;If however, we adopt a statistical view of the system, and distribute the molecules into groups . . .&rdquo; (OED2) This point of view became fixed in the phrase statistical mechanics. For this the OED2 cites J. W. Gibbs in Proc. Amer. Assoc. Adv. Sci. XXXIII, 1885, 57 (heading) &ldquo;On the fundamental formula of statistical mechanics, with applications to astronomy and thermodynamics.&rdquo; 
+
+Statistic, signifying an individual fact, was rare before the 20th century. There is an example from 1853 in The United States illustrated edited by Charles Anderson Dana: &ldquo;An old teamster with a dislodged wheel to his 'lumbery' vehicle, claimed a moment of our strength, and in return for that generosity, a la Jupiter, indulged our statistical curiosity with a few minutes of his local knowledge. The significant placing of his hand upon his pocket, as he proclaimed the fact that the bridge cost almost a quarter of a million dollars, plainly showed his appreciation of so vast a sum. Nor was the statistic of the bridge, being a mile in length, handed over to the fund of general information, without a look which plainly hinted of the many laggard walks it had cost him by the side of his sturdy team.&rdquo; [University of Michigan Digital Library]. 
+
+In the 20th century the singular form came to be accepted both in this sense and in another sense. In statistical theory R. A. Fisher used statistic to refer to a quantity derived from the observations--before settling on it he had used "statistical derivative" (1915), "derivate" (1920) and "statistical derivate" (1921). Fisher presented the new term in his "On the Mathematical Foundations of Theoretical Statistics", Philosophical Transactions of the Royal Society of London, Ser. A., 222, (1922), 309-368: "These involve the choice of methods of calculating from a sample statistical derivates, or as we shall call them statistics, which are designed to estimate the values of the parameters of the hypothetical population." (p. 318) The term parameter was also new and with statistic the two made a pair. (See the entry on parameter for FisherÂ’s reasoning.) Fisher called the statistics arising in estimation problems estimates. He had no name for statistics arising in testing but since the 1950s they have been called "test statistics." 
+
+FisherÂ’s term was not well-received initially. Arne Fisher (no relation) asked him, "Where ... did you get that atrocity, a statistic?" (letter (p. 312) in J. H. Bennett Statistical Inference and Analysis: Selected Correspondence of R. A. Fisher (1990).) Karl Pearson objected, "Are we also to introduce the words a mathematic, a physic, an electric etc., for parameters or constants of other branches of science?" (p. 49n of Biometrika, 28, 34-59 1936). 
+
+[This entry was contributed by John Aldrich, based on G. U. Yule Introduction to the Theory of Statistics (1911) and David (2001)] 
+
+STEP FUNCTION is dated ca. 1929 in MWCD10. 
+
+STEREOGRAPHIC. According to Schwartzman (p. 207), "the term seems to have been used first by the Belgian Jesuit François Aguillon (1566-1617), although the concept was already known to the ancient Greeks." 
+
+In Flattening the Earth: Two Thousand Years of Map Projections, John P. Snyder attributes the term to d'Aguillon in 1613 [John W. Dawson, Jr.]. 
+
+STIELTJES INTEGRAL is found in Henri Lebesgue, "Sur l'intégrale de Stieltjes et sur les opérations linéaires," Comptes Rendus Acad. Sci. Paris 150 (1910) [James A. Landau]. 
+
+The terms STIRLING NUMBERS OF THE FIRST and SECOND KIND were coined by Niels Nielsen (1865-1931), who wrote in German "Stirlingschen Zahlen erster Art" [Stirling numbers of the first kind] and "Stirlingschen Zahlen zweiter Art" [Stirling numbers of the second kind]. Nielsen's masterpiece, "Handbuch der Theorie der Gammafunktion" [B. G. Teubner, Leipzig, 1906], had a great influence, and the terms progressively found their acceptance (Julio González Cabillón). 
+
+John Conway believes the newer terms Stirling cycle and Stirling (sub)set numbers were introduced by R. L. Graham, D. E. Knuth, and O. Patshnik in Concrete Mathematics (Addison Wesley, 1989 & often reprinted). 
+
+STIRLING'S FORMULA. Lacroix used Théorème de Stirling in Traité élémentaire de calcul différentiel et de calcul intégral (1797-1800). 
+
+Stirling's approximation appears in 1938 in Biometrika (OED2). 
+
+STOCHASTIC is found in English as early as 1662 with the obsolete meaning "pertaining to conjecture." 
+
+In its modern sense, the term was used in 1917 by Ladislaus Josephowitsch Bortkiewicz (1868-1931) in Die Iterationem 3: "Die an der Wahrscheinlichkeitstheorie orientierte, somit auf 'das Gesetz der Grossen Zahlen' sich gründende Betrachtng empirischer Vielheiten mö ge als Stochastik ... bezeichnet werden" (OED2). 
+
+STOCHASTIC PROCESS is found in A. N. Kolmogorov, "Sulla forma generale di un prozesso stocastico omogeneo," Rend. Accad. Lincei Cl. Sci. Fis. Mat. 15 (1) page 805 (1932) [James A. Landau]. 
+
+Stochastic process is also found in A. Khintchine "Korrelationstheorie der stationäre stochastischen Prozesse," Math. Ann. 109 (1934) [James A. Landau]. 
+
+Stochastic process occurs in English in J. L. Doob, "Stochastic processes and statistics," Proc. Natl. Acad. Sci. USA 20 (1934). 
+
+See AUTORORRELATION, AUTOREGRESSION, BRANCHING PROCESS, ERGODIC, MARKOV, MARTINGALE, MOVING AVERAGE PROCESS, SAMPLE PATH, SPECTRUM, STATIONARY STOCHASTIC PROCESS, WHITE NOISE, WINER PROCESS. 
+
+STOKES'S THEOREM. According to Finney and Thomas (page 987), Stokes learned of the theorem from Lord Kelvin in 1850 and "a few years later, thinking it would make a good examination question, put it on the Smith Prize examination. It has been known as Stokes's theorem ever since." 
+
+Stokes' theorem is found in 1893 in J. J. Thomsom, Notes Recent Res. Electr. & Magnetism (OED2). 
+
+STRAIGHT ANGLE appears in English in 1889 in Dupuis, Elem. Synth. Geom.: "One-half of a circumangle is a straight angle, and one-fourth of a circumangle is a right angle" (OED2). 
+
+There are earlier citations in the OED2 for the term with the obsolete meaning of "a right angle." 
+
+The term STRANGE ATTRACTOR was coined by David Ruelle and Floris Takens in their classic paper "On the Nature of Turbulence" [Communications in Mathematical Physics, vol. 20, pp. 167-192, 1971], in which they describe the complex geometric structure of an attractor during a study of models for turbulence in fluid flow. 
+
+STRATIFIED SAMPLING occurs in J. Neyman, "On the two different aspects of the representative method; the method of stratified sampling and the method of purposive selection," J. R. Satatist. Soc 97 (1934) [James A. Landau]. 
+
+STRONG LAW OF LARGE NUMBERS is found in A. N. Kolmogorov, "Sur la loi forte des grandes nombres," Comptes Rendus de l'Acade/mie des Sciences, Paris 191 page 910 (1930) [James A. Landau]. 
+
+STRONG PSEUDOPRIME. According to Prime Numbers: A Computational Perspective by Carl Pomerance and Richard Crandall (page 124), "J. Selfridge proposed using Theorem 3.4.1 as a pseudoprime test in the early 1970s, and it was he who coined the term 'strong pseudoprime'" [Paul Pollack]. 
+
+Strong pseudoprime is found in Pomerance, Carl; Selfridge, J.L.; Wagstaff, Samuel S. Jr. "The pseudoprimes to 25 x 109," Math. Comput. 35, 1003-1026 (1980). 
+
+STROPHOID appears in 1837 in Enrico Montucci, "Delle proprietà della strefoide, curva algebrica del terzo grado recentemente scoperta ed esaminata" ("On the property of the strophoid, an algebraic curve of the third degree recently discovered and examined"), Memoria letta nell'Accademia dei Fisiocratici ... con una appendice del Venturoli, Siena, G. Mucci, 1837 [Dic Sonneveld]. 
+
+Strophoid was coined by Montucci in 1846, according to Smith (vol. 2, page 330). 
+
+The term STRUCTURE for isomorphic relations seems to have first appeared in print in Bertrand Russell's Introduction to Mathematical Philosophy (1919). Russell probably had the term from Ludwig Wittgenstein, whose Tractatus logico-philosophicus (Logisch-philosophische Abhandlung, Vienna 1918, 4.1211 ff) was first published in 1921, and in 1922 in English. The first Structure in the modern sense -- as a tuple composed of sorts or carrier sets, relations, operations and distinguished elements -- was first used by David Hilbert in his Grundlagen der Geometrie (Göttingen 1899), there called a &bdquo;Fachwerk oder Schema von Begriffen&ldquo; (p. 163, according to F. Kambartel Erfahrung und Struktur, Münster 1966). The concept of Structure developed via Rudolf Carnap's Der logische Aufbau der Welt (1928), the linguistic and French philosophical Structuralism, the Éléments de mathématique of the N. Bourbaki group (Paris, since 1939), to Category Theory of Samuel Eilenberg and Saunders Mac Lane (1945). [This entry was contributed by Wolfram Roisch.] 
+
+STUDENT'S t-DISTRIBUTION. "Student" was the pseudonym of William Sealy Gosset (1876-1937). Gosset once told R. A. Fisher, "I am sending you a copy of Student's Tables as you are the only man that's ever likely to use them!" (Letters from W. S. Gosset to R. A. Fisher, 1915-1936 (1970)). Through FisherÂ’s writings Student's tables became very widely used, though not in the form Gosset first constructed them. 
+
+In his 1908 paper, "The Probable Error of a Mean", Biometrika, 6, 1-25 Gosset introduced the statistic, z, for testing hypotheses on the mean of the normal distribution. Gosset used the divisor n, not the modern (n - 1), when he estimated and his z is proportional to the modern t with t = z sqrt (n - 1). Fisher introduced the t form because it fitted in with his theory of degrees of freedom (q.v.). Fisher used the t symbol and described Student's distribution (and others based on the normal distribution) and the role of degrees of freedom in "On a Distribution Yielding the Error Functions of Several well Known Statistics", Proceedings of the International Congress of Mathematics, Toronto, 2, 805-813. Although the paper was presented in 1924, it was not published until 1928 (Tankard, page 103; David, 1995). According to the OED2, the letter t was chosen arbitrarily. A new symbol suited Fisher for he was already using z for a statistic of his own (see entry for F). 
+
+Student's distribution (without "t") appears in 1925 in R. A. Fisher, "Applications of 'Student's' Distribution", Metron 5, 90-104 and in Fisher's Statistical Methods for Research Workers (1925). FisherÂ’s book made Student's distribution famous; it presented new uses for the tables and made the tables generally available. 
+
+"Student's" t-distribution appears in 1929 in Nature (OED2). 
+
+t-distribution appears (without Student) in A. T. McKay, "Distribution of the coefficient of variation and the extended 't' distribution," J. Roy. Stat. Soc., n. Ser. 95 (1932). 
+
+t-test is found in 1932 in the fourth edition of R. A. Fisher, Statistical Methods for Research Workers: "The validity of the t-test, as a test of this hypothesis, is therefore absolute" (p. 116) (OED2). 
+
+Eisenhart (1979) is the best reference for the evolution of t, although Tankard and Hald also discuss it. 
+
+[This entry was largely contributed by John Aldrich.] 
+
+STUDENTIZATION. According to Hald (p. 669), William Sealy Gossett (1876-1937) used the term Studentization in a letter to E. S. Pearson of Jan. 29, 1932. 
+
+Studentized D2 statistic is found in R. C. Bose and S. N. Roy, "The exact distribution of the Studentized D2 statistic," Sankhya 3 pt. 4 (1935) [James A. Landau]. 
+
+STURM'S THEOREM appears in 1836 in the title Du Theoreme de M. Sturm, et de ses Applications Numeriques by M. E. Midy [James A. Landau]. 
+
+Sturm's theorem appears in English in 1841 in the title Mathematical Dissertations, for the use of students in the modern analysis; with improvements in the practice of Sturm's Theorem, in the theory of curvature, and in the summation of infinite series by J. R. Young [James A. Landau]. 
+
+SUBFACTORIAL was introduced in 1878 by W. Allen Whitworth in Messenger of Mathematics (Cajori vol. 2, page 77). 
+
+SUBFIELD is found in "On the Base of a Relative Number-Field, with an Application to the Composition of Fields," G. E. Wahlin, Transactions of the American Mathematical Society, Vol. 11, No. 4. (Oct., 1910). 
+
+SUBGROUP. Felix Klein used the term untergruppe. 
+
+Subgroup appears in 1881 in Arthur Cayley, "On the Schwarzian Derivative, and the Polyhedral Functions," Transactions of the Cambridge Philosophical Society: "But there is no sub-group of an order divisible by 5; and hence, these two transformations being identified with the two substitutions, the other transformations correspond each of them to a determinate substitution" [University of Michigan Historical Math Collection]. 
+
+SUBRING is found in English in 1937 in the phrase invariant subring in Modern Higher Algebra (1938) by A. A. Albert (OED2). 
+
+SUBSET. Cantor used the word subset (in the sense that "proper subset" is now used) in "Ein Beitrag zur Mannigfaltigkeitslehre," Journal für die reine und angewandte Mathematik 84 (1878). 
+
+Subset occurs in English in "A Simple Proof of the Fundamental Cauchy-Goursat Theorem," Eliakim Hastings Moore, Transactions of the American Mathematical Society, Vol. 1, No. 4. (Oct., 1900). 
+
+SUBTRACT. When Fibonacci (1201) wishes to say "I subtract," he uses some of the various words meaning "I take": tollo, aufero, or accipio. Instead of saying "to subtract" he says "to extract." 
+
+In English, Chaucer used abate around 1391 in Treatise on the Astrolabe: "Abate thanne thees degrees And minutes owt of 90" (OED2). 
+
+In a manuscript written by Christian of Prag (c. 1400), the word "subtraction" is at first limited to cases in which there is no "borrowing." Cases in which "borrowing" occurs he puts under the title cautela (caution), and gives this caption the same prominence as subtractio. 
+
+In Practica (1539) Cardano used detrahere (to draw or take from). 
+
+In 1542 in the Ground of Artes Robert Recorde used rebate: "Than do I rebate 6 out of 8, & there resteth 2." 
+
+In 1551 in Pathway to Knowledge Recorde used abate: "Introd., And if you abate euen portions from things that are equal, those partes that remain shall be equall also" (OED2). 
+
+Digges (1572) writes "to subduce or substray any sume, is wittily to pull a lesse fro a bigger number." 
+
+Schoner, in his notes on Ramus (1586 ed., p. 8), uses both subduco and tollo for "I subtract." 
+
+In his arithmetic, Boethius uses subtrahere, but in geometry attributed to him he prefers subducere. 
+
+The first citation for subtract in the OED2 is in 1557 by Robert Recorde in The whetstone of witte: "Wherfore I subtract 16. out of 18." 
+
+Hylles (1592) used "abate," "subtact," "deduct," and "take away" (Smith vol. 2, pages 94-95). 
+
+From Smith (vol. 2, page 95): 
+The word "subtract" has itself had an interesting history. The Latin sub appears in French as sub, soub, sou, and sous, subtrahere becoming soustraire and subtractio becoming soustraction. Partly because of this French usage, and partly no doubt for euphony, as in the case of "abstract," there crept into the Latin works of the Middle Ages, and particularly into the books printed in Paris early in the 16th century, the form substractio. From France the usage spread to Holland and England, and form each of these countries it came to America. Until the beginning of the 19th century "substract" was a common form in England and America, and among those brought up in somewhat illiterate surroundings it is still to be found. The incorrect form was never popular in Germany, probably because of the Teutonic exclusion of international terms.
+ SUBTRACTION. Fibonacci (1201) used extractio. 
+
+Tonstall (1522) devoted 15 pages to Subductio. He wrote, "Hanc autem eandem, uel deductionem uel subtractionem appellare Latine licet" (1538 ed., p. 23; 1522 ed., fol. E 2, r). 
+
+Gemma Frisius (1540) has a chapter De Subductione siue Subtractione. 
+
+Clavius (1585 ed., p. 26) says "Subtractio est ... subductio." 
+
+See also ADDITION. 
+
+SUBTRAHEND is an abbreviation of the Latin numerus subtrahendus (number to be subtracted). 
+
+SUCCESSIVE INDUCTION. This term was suggested by Augustus De Morgan in his article "Induction (Mathematics)" in the Penny Cyclopedia of 1838. See also MATHEMATICAL INDUCTION, INDUCTION, COMPLETE INDUCTION. 
+
+SUFFICIENCY, SUFFICIENT STATISTIC and CRITERON OF SUFFICIENCY all appear in 1922 in R. A. Fisher's "On the Mathematical Foundations of Theoretical Statistics", Philosophical Transactions of the Royal Society of London, Ser. A, 222, 309-368: 
+The statistic chosen should summarise the whole of the relevant information supplied by the sample. This may be called the Criterion of Sufficiency. (p. 316) 
+
+In the case of the normal curve of distribution it is evident that the second moment is a sufficient statistic for estimating the standard deviation. (p. 359)
+ The term sufficient statistic is more prominent in section 3 of Fisher's Statistical Methods for Research Workers and section 9 of "Theory of Statistical Estimation" both published in 1925. 
+
+The concept of sufficiency was already emerging in 1920 (p. 769) when Fisher wrote of the sample variance that "The whole of the information respecting &#963;, which a sample provides is summed up [in its value]." 
+
+[John Aldrich] 
+
+SUM. Nicolas Chuquet used some in his Triparty en la Science des Nombres in 1484. 
+
+The term SUMMABLE (referring to a function that is Lebesgue integrable such that the value of the integral is finite) was introduced by Lebesgue (Klein, page 1045). 
+
+SUPPLEMENT. "Supplement of a parallelogram" appears in English in 1570 in Sir Henry Billingsley's translation of Euclid's Elements. 
+
+In 1704 Lexicon Technicum by John Harris has "supplement of an Ark." 
+
+In 1796 Hutton Math. Dict. has "The complement to 180° is usually called the supplement. 
+
+In 1798 Hutton in Course Math. has "supplemental arc" (one of two arcs which add to a semicircle) (OED2). 
+
+Supplement II to the 1801 Encyclopaedia Britannica has, "The supplement of 50° is 130°; as the complement of it is 40 °" (OED2). 
+
+In 1840, Lardner in Geometry vii writes, "If a quadrilateral figure be inscribed in a circle, its opposite angles will be supplemental" (OED2). 
+
+Supplementary angle is dated ca. 1924 in MWCD10. 
+
+SURD. According to Smith (vol. 2, page 252), al-Khowarizmi (c. 825) referred to rational and irrational numbers as 'audible' and 'inaudible', respectively. 
+
+The Arabic translators in the ninth century translated the Greek rhetos (rational) by the Arabic muntaq (made to speak) and the Greek alogos (irrational) by the Arabic asamm (deaf, dumb). See e. g. W. Thomson, G. Junge, The Commentary of Pappus on Book X of Euclid's Elements, Cambridge: Harvard University Press, 1930 [Jan Hogendijk]. 
+
+This was translated as surdus ("deaf" or "mute") in Latin. 
+
+As far as is known, the first known European to adopt this terminology was Gherardo of Cremona (c. 1150). 
+
+Fibonacci (1202) adopted the same term to refer to a number that has no root, according to Smith. 
+
+Surd is found in English in Robert Recorde's The Pathwaie to Knowledge (1551): "Quantitees partly rationall, and partly surde" (OED2). 
+
+According to Smith (vol. 2, page 252), there has never been a general agreement on what constitutes a surd. It is admitted that a number like sqrt 2 is a surd, but there have been prominent writers who have not included sqrt 6, since it is equal to sqrt 2 X sqrt 3. Smith also called the word surd "unnecessary and ill-defined" in his Teaching of Elementary Mathematics (1900). 
+
+G. Chrystal in Algebra, 2nd ed. (1889) says that "...a surd number is the incommensurable root of a commensurable number," and says that sqrt e is not a surd, nor is sqrt (1 + sqrt 2). 
+
+SURJECTION appears in 1964 in Foundations of Algebraic Topology by W. J. Pervin (OED2). 
+
+SURJECTIVE appears in 1956 in C. Chevalley, Fund. Concepts Algebra: "A homomorphism which is injective is called a monomorphism; a homomorphism which is surjective is called an epimorphism" (OED2). 
+
+The term SURREAL NUMBER was introduced by Donald Ervin Knuth (1938- ) in 1972 or 1973, although the notion was previously invented by John Horton Conway (1937- ) in 1969. 
+
+The term SYLOW'S THEOREM is found in German in G. Frobenius, "Neuer Beweis des Sylowschen Satzes," Journ. Crelle, 100, (1887), p. 179-181 [Dirk Schlimm]. 
+
+Sylow's Theorem is found in English in 1893 in Proceedings of the London Mathematical Society XXV 14 (OED2). 
+
+The term SYMMEDIAN was introduced in 1883 by Philbert Maurice d'Ocagne (1862-1938) [Clark Kimberling]. 
+
+SYMMEDIAN POINT. Emil Lemoine (1840-1912) used the term center of antiparallel medians. 
+
+The proposal to name the point after Ernst Wilhelm Grebe (1804-1874) came from E. Hain ("Ueber den Grebeschen Punkt," Archiv der Mathematik und Physik 58 (1876), 84-89). Afterwards, the term Grebe'schen Punkt appeared many times in the Jahrbuch ueber die Fortschritte der Mathematik by reviewers such as Dr. Schemmel (Berlin, 1875), Prof. Mansion (Gent, 1881), Prof. Lampe (Berlin, 1881), and Dr. Lange (Berlin, 1885) [Peter Schreiber, Julio González Cabillón]. 
+
+In 1884, Joseph Jean Baptiste Neuberg (1840-1926) gave it the name Lemoine point, for Emile Michel Hyacinthe Lemoine (1840-1912). 
+
+The point was thus called the Lemoine point in France and the Grebe point in Germany [DSB]. 
+
+Symmedian point was coined by Robert Tucker (1832-1905) in the interest of uniformity and amity. 
+
+The term SYMPLECTIC GROUP was proposed in 1939 by Herman Weyl in The Classical Groups. He wrote on page 165: 
+The name "complex group" formerly advocated by me in allusion to line complexes, as these are defined by the vanishing of antisymmetric bilinear forms, has become more and more embarrassing through collision with the word "complex" in the connotation of complex number. I therefore propose to replace it by the corresponding Greek adjective "symplectic." Dickson calls the group the "Abelian linear group" in homage to Abel who first studied it.
+ [This information was provided by William C. Waterhouse.] 
+
+According to Lectures on Symplectic Geometry by Ana Cannas da Silva, "the word symplectic in mathematics was coined by Weyl who substituted the Greek root in complex by the corresponding Latin root, in order to label the symplectic group. Weyl thus avoided that this group connoted the complex numbers, and also spared us from much confusion had the name remained the former one in honor of Abel: abelian linear group." 
+
+SYNTHETIC DIVISION is found in 1857 in Mathematical Dictionary and Cyclopedia of Mathematical Science. 
+
+SYNTHETIC GEOMETRY appears in Gigon, "Bericht über: Jacob Steiner's Vorlesungen über synthetische Geometrie, bearbeitet von Geiser und Schröter," Nouv. Ann. (1868). 
+
+Synthetic geometry appears in English in 1870 in Report on education by John Wesley Hoyt, published by the U. S. Government Printing Office: "First year's course in mathematical section. Theory of numbers; differential and integral calculus; theory of functions, with repetitions; analytical geometry of the plane; experimental physics, with repetitions; experimental chemistry, with repetitions; descriptive geometry, with exercises and repetitions; synthetic geometry; machine-drawing" [University of Michigan Digital Library]. 
+
+The term SYSTEM OF EQUATIONS is found in 1843 in "Chapters in the Analytical Geometry of (n) Dimensions" by Arthur Cayley in the Cambridge Mathematical Journal, vol. IV: "On the determination of linear equations in x1, x2,..., xn which are satisfied by the values of these quantities derived from given systems of linear equations." [This citation, from the University of Michigan Digital Library, is a chapter title and thus appears in italics in the original.] 
+
+---------------------------------------------------------------------
+Front - A - B - C - D - E - F - G - H - I - J - K - L - M - N - O - P - Q - R - S - T - U - V - W - X - Y - Z - Sources 

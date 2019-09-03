@@ -1,0 +1,569 @@
+
+
+Components for Integrating Heuristic and Model-Based Diagnosis
+
+Kent Andersson
+Computing Science Department, Uppsala University,
+Box 311, S-751 05 UPPSALA, SWEDEN.
+E-mail: Kent.Andersson@csd.uu.se 
+
+PDF-version of the paper with better formatting. 
+
+ABSTRACT
+
+A set of components for the integration of heuristic and model-based diagnosis are identified by example. By introducing a metalogic representation structure with a metatheory and an object theory, an integration of the components is achieved that separates the model-based and the heuristic components while allowing them to be used together. The object theory of the system consists of the model-based components whereas the metatheory consists of (1) heuristic components, (2) components of knowledge compiled from principles of the domain, but not represented for reasons of complexity, and (3) a strategy component for computing diagnoses.
+
+1. INTRODUCTION
+
+Diagnosis is a complex problem solving task with different kinds of knowledge that interact. In diagnosis we find several kinds of knowledge--principled domain knowledge, heuristic knowledge, control knowledge, diagnosis strategy knowledge and knowledge about the userÂ’s answers. The early diagnosis systems, such as MYCIN in (Davis, Buchanan and Shortliffe, 1977), used heuristic knowledge for making diagnoses. The heuristics mainly consisted of empirical associations from symptoms to causes, where the use of domain specific knowledge was the key to the success of these systems, but also one of their main weaknesses. The representation of the heuristics included both domain and control knowledge--a mix that became unmanageable when the knowledge base became large and necessary to revise (Carrico, Girard and Jones, 1989). Another problem with the heuristic approach is that it can be difficult to elicit the empirical knowledge that is needed for the rules (Gruber, 1989; Hayes-Roth, Waterman and Lenat, 1983; Hart, 1988). In response to the knowledge elicitation problem, a new type of diagnosis system evolved that did not include empirical knowledge about symptoms and diagnoses, but relied on principled knowledge of the domain. A diagnosis system of this type is called model-based, because it has a model of the diagnosis object, which describes the object (see, for example, de Kleer and B.C. Williams, 1987; Console, Dupré and Torasso, 1989). A model-based diagnosis system applies a general diagnosis algorithm to its model to find a diagnosis.
+
+Originally, a model-based system did not use heuristic knowledge about the domain to guide the diagnosis, because the knowledge in the model was principled and therefore not to be mixed with heuristics. As a consequence, the general diagnosis algorithm did not take advantage of the short-cuts that heuristic knowledge can provide. A diagnosis system that integrates model-based and heuristic diagnosis knowledge can take advantage of both kinds of knowledge. 
+
+In this paper we present an approach to represent heuristic and compiled knowledge integrated with model-based knowledge. The purpose is to identify and exemplify components for representing problem solving knowledge such that its logical structure is preserved, it is represented in a modular fashion allowing parts to be replaced or modified without affecting other, the representation is transparent enough for the knowledge engineer to distinguish different kinds and the representation allows them to be used together. A metalogic representation structure is proposed in which we separate the different kinds of knowledge in order to preserve its logical structure and to make it possible to revise and edit. 
+
+2. DIAGNOSIS IN A METALOGIC SYSTEM
+
+A metatheory is a theory for the study of another theory. That other theory is called the object theory because it is our object of study. The study is usually carried out in an informal manner. However, there is nothing that stops us from formalizing it as a formal metatheory. With a formal metatheory we can represent knowledge in the metatheory and relate this knowledge to the object theory. Since the world of a metatheory is made up of formulas of an object theory it is possible to relate one formula to another and to define when one follows from the other (or from a set of formulas.) We can also handle different object theories and modifications of object theories as terms in the metatheory. This capability gives us a possibility to represent various kinds of reasoning as declarative relationships in the metatheory. 
+
+The model-based approach to diagnosis of a device is based on a comparison of an (incorrect) device and a representation of an ideal (correct) device. This approach requires a separation of the knowledge about each device. Fig. 1 illustrates how knowledge about the device that we would like to diagnose, and about an ideal device can be separated and related to each other as two logic theories. The arrows in Fig. 1 indicate where the knowledge for a theory comes from. In the metatheory hypotheses and conclusions about the system are defined in terms of the theorems of OT and knowledge about the device. The metatheory also formalizes a diagnostic strategy which studies the hypotheses and conclusions of MT in the diagnosis of the device. Knowledge about the real world, e.g. measurements, is represented in MT.
+
+Fig 1 : The structure of the diagnosis system. 
+
+3. MODEL-BASED COMPONENTS AS AN OBJECT THEORY
+
+In this section we investigate the definition of an object theory for a diagnosis domain. The kind of domain the theory is designed to capture is a system of a set of devices connected with connectors, through which some kind of directed flow is transported. The devices display various observable behaviours and measurable flows. The system is controlled with various settings of the devices. As an example we use a stereo system with a set of devices connected with cables. A domain with a similar structure could be a monitoring and control system for a machine on an assembly line in industry. We do not intend to capture other types of domains with this theory.
+
+ 
+
+An ordinary stereo system consists of an amplifier, some source devices, two loudspeakers, cables for music signals and for power supply. A person can use the stereo for reproducing music from different source devices, so the system can be used in different modes , e.g. the turntable mode. The user controls the system by adjusting controls on the stereo devices, so depending on the userÂ’s intention on what mode to use the system in, the user makes different settings of the devices. A central part of a stereo system is the amplifier to which all other devices are connected. 
+
+3.1 Overview of the Object Theory
+
+The theory consists of two parts: (1) definitions of the structure of a system and (2) definitions of the function of a system (in diagnosis terminology: the model of correct behaviour). The structure definitions fall into two categories: (a) the objects of the system (the set of components) and (b) how the objects are connected to each other (the structure model). Examples of the first category are stereo devices and signal cables. An example of the second category is a connection between an amplifier and a cable for a loudspeaker, which consists of four simple connections--two for the loudspeaker cable and two for the amplifier. The main definition of function, output , builds on two definitions: input and transformation . 
+
+3.2 Structure
+
+The structure part of the theory falls into two parts--the objects and the configuration of the objects. We consider three types of objects: devices, connectors and external objects. Devices are the objects of a system that perform some function: e.g. a CD-player. Connectors connect the objects of a system and transport some flow: e.g. a music cable connected to the CD-player transports the source signals. External objects are not really part of the system but provide some essential service: e.g. a mains power outlet provides electricity. The objects can be represented as lists. For example, the devices X is a list where each element is a pair [Type, Identity] . This representation will help us to formulate compact heuristics in the metatheory. Since Type is a part of the object, a heuristic can be formulated in terms of the type of object, for example a loudspeaker type. For our stereo system example, we represent the objects of the system as shown below.
+
+ 
+
+devices(X) <- 
+ X = [ [amplifier,am],[tuner,tu1],[cassette_deck,ca1], 
+   [turntable,tt1],[cd_player,cd1], 
+   [loudspeaker,sp1],[loudspeaker,sp2]] 
+ 
+ 
+
+We will now define the subparts for each type of object, to know what the objects consist of. The knowledge of how the objects are constructed is separate from the definitions of the objects. We can easily add objects to the theory by extending a list of objects. For example, we can add a second CD-player cd2 to the theory by adding it to the list of devices , without again specifying the subparts of a CD-player. To add a new type of object, however, we need to extend the definitions of function to cover the new type. Below we find the definition of subparts for the amplifier. In this definition S are the subparts of a stereo object O . Each subpart in this definition has the same structure--a pair [Type, Identity] . For example, [mu_port, in(cd1/r,N)] is a music port with the identity in(cd1/r,N) , which indicates the right channel CD1 input port on an object identified by N . Using the identity, N , of the object as part of the identity of the subparts gives us some generality in the representation, since the same definition holds for all objects of a particular type, e.g., for all CD-players.
+
+ 
+
+subparts(O,S) <-
+ O = [amplifier,N] &
+ S = [[mu_port,out(rec/r,N)],[mu_port,out(rec/l,N)],[mu_port,in(pb/r,N)],
+  [mu_port,in(pb/l,N)],[mu_port,in(tu/r,N)],[mu_port,in(tu/l,N)],
+  [mu_port,in(tt/r,N)],[mu_port,in(tt/l,N)],[mu_port,in(cd1/r,N)],
+  [mu_port,in(cd1/l,N)],[mu_port,in(cd2/r,N)],[mu_port,in(cd2/l,N)],
+  [mu_port,in(aux/r,N)],[mu_port,in(aux/l,N)], [sp_port,out(a/l/pl,N)],
+  [sp_port,out(a/l/mi,N)],[sp_port,out(a/r/pl,N)],[sp_port,out(a/r/mi,N)],
+  [sp_port,out(b/l/pl,N)],[sp_port,out(b/l/mi,N)],[sp_port,out(b/r/pl,N)],
+  [sp_port,out(b/r/mi,N)],[power,inv(220,N)],[light,on(N)],
+  [button,volume(N)], [button,speaker(N)],[button,on(N)],[button,tuner(N)],
+  [button,cassette_deck(N)],[button,turntable(N)],
+  [button,cd_player(cd1,N)],[button,cd_player(cd2,N)]]
+ 
+
+ 
+
+The objects can be connected in different ways--different system configurations. For example, the loudspeakers in a stereo system may be connected in different ways to the amplifier. We represent this in configuration as a relation between a system Sy and a configuration C of devices, connectors and external objects. A configuration is a list where each element is a structure:
+
+ 
+
+Object1 -- Connections1 -- Connector -- Connections2 -- Object2
+ 
+
+ 
+
+such that Object1 and Object2 are connected via Connector in the system.
+
+ 
+
+configuration(SY,C) <-  SY = s1 & 
+C = [ [cd_player,cd1] --
+    [ [mu_port,out(cd/rl,cd1)] -- [pin,out(plmi,w1)] ] --
+  [music_cable(cd_player),w1] --
+    [ [pin,in(pl,w1)] -- [mu_port,in(cd/r,am)],
+    [pin,in(mi,w1)] -- [mu_port,in(cd/l,am)] ] --
+  [amplifier,am],  ... ] 
+ 
+ 
+
+The ellipsis (...) indicates that only a part of the configuration relation is given. 
+
+3.3 Function
+
+The second part of the object theory is a formalization of the function of a system. 
+
+ 
+
+Output To represent the function of a system we define a relation output between an object X , a system use U and a list Out of output signals and behaviours. U is a list [Sy,M,S] , where Sy is the system configuration, S is a list of settings for the system and M is a mode of use. The relation is 
+
+true when there is a list of inputs I (defined in the theory) to X that can be transformed to a list Out of outputs.
+
+ 
+
+output(X,U,Out) <-
+  U = [Sy,M,S] & object(X) &
+  input(X,U,I) & transformation(I,X,U,Out) 
+ 
+ 
+
+Input The input signals to an object depend on the configuration of the system and the settings of the objects. For example, the cable connections of a stereo system determine what inputs the stereo devices receive; the settings of an amplifier determine what inputs a loudspeaker receives. We can represent this as a relation input between an object X , a system use U and a list I of inputs. We state a clause for each type of object in the definition. 
+
+ 
+ input(X,U,I) <-
+  U = [Sy,M,S] &
+  X = [loudspeaker,N] &
+  configuration_unit(St, X2--Conns1--Y--Conns2--X) &
+  output(Y,U,Out) & 
+ propagate(Out,Conns2,I)
+  
+ 
+
+The settings of a device affect its function. We capture this in the definition of input where the system use U involves a list S of settings for the system. However, we can represent a set of default settings, to be used if settings needed to determine the function of a device are not given in S . These are stated in the relation standard_settings . So we state that S1 is a setting, either if it is in a list S of settings, or if it is a standard setting for the object X in mode M .
+
+ 
+
+Transformation As defined above, we represent an output as an input that can be transformed . Transformation of input signals to output signals and behaviours can be represented as a relation transformation between a list I of inputs, an object X , a system use U , and a list Out of output signals and behaviours. We will state a clause for each type of object that has its own kind of transformation rules for its input signals. The out_signals relation will state transformation rules for subparts of objects. For example, the transformation rules for an amplifier are stated over its output speaker ports. The setting of the speaker button determines which set of speaker ports (A or B) will have output signals. The predicate out_signals in turn specifies the transformation rules for these ports. 
+
+ 
+ transformation(I,X,U,Out) <-
+  U=[Sy,M,S] &
+  X = [amplifier,N] & 
+ setting(setting(Sy,X,M,[button,speaker(N)],Sp), X, M, S) &
+  speaker_ports(P,X,Sp) & 
+ out_signals(P,X,I,U,Out1) & 
+ Out = [behaviour(Sy,X,M,[light,on(N)],on) | Out1] 
+ 
+ 
+
+Note that transformation only specifies a rule, out_signal , for the transformation of the input signals to an object--it does not specify the internal function of the object in detail. 
+
+4. COMPONENTS OF A METATHEORY
+
+In this section we investigate the prospects of giving a representation of a diagnosis strategy that is separated from the knowledge of a particular domain. We define a theory for the diagnosis strategy and for heuristic and compiled knowledge. We will refer to this theory as the metatheory , and the theory for the diagnosis domain as the object theory . The object theory contains domain knowledge (the structure and function of the diagnosis domain), whereas the metatheory contains knowledge about the diagnosis strategy. By using two separate theories we aim to achieve our goals for the representation of diagnosis knowledge: (1) logical structure: the two-level structure of the knowledge can be retained when domain and diagnosis knowledge are separated into two theories that have a two-level relationship (object - meta), (2) modularity: we can modify the object theory if the diagnosis domain changes without modifying the metatheory, or we can alter the metatheory for a new diagnosis strategy without changing the object theory, and (3) transparency: with two theories we do not have to mix knowledge of different kinds, instead we can represent the different kinds clearly apart, promoting transparency of knowledge. In the next sections we will discuss the components of a metatheory for integrating model-based diagnosis, starting with observations.
+
+4.1 Observations
+
+Some observations made by the user apply only to a specific mode of use of a system, whereas other observations apply to all modes. For example, in a stereo system let us assume that a CD-player is faulty and causes the loudspeakerÂ’s sound to deteriorate. An observation that a loudspeaker sounds bad would then apply to the CD-player mode but not to the turntable mode, whereas an observation that two devices are connected would apply equally well to both modes. We thus need to indicate, for some of the observations, in which mode the observation is made by the user. A system is controlled by setting controls of the devices, therefore settings are interesting observations, for example in a stereo system.
+
+ 
+
+Some observations require some kind of instrument to measure a value, such as the voltage of a device (a signal), whereas some observations can be made directly by the senses, for example that a light is on or off (a behaviour). This difference between kinds of observations can be important when the diagnosis system decides which questions to ask the user. In consequence, we should specialize observations with respect to the mode of use for the diagnosis domain, and also specialize observations with respect to how the parameter can be observed. Therefore we distinguish four kinds of observations--observations of connections, settings, signals and behaviour. 
+
+ 
+
+Below we define four kinds of observation terms to represent the four kinds of observations that we want to distinguish. These observation terms should be seen as a basic set of terms for the representation of user reports about a diagnosis domain, satisfactory for our example. We choose to handle the observations in the metatheory because they represent what is known about the diagnosis domain in the real world--we do not include them in the object theory which represents the ideal world.
+
+ 
+
+Definition 1 An observation is a term that has one of the following forms:
+
+signal(System, Object, Mode, Type, Value) 
+ behaviour(System, Object, Mode, Type, Value) 
+ setting(System, Object, Mode, Type, Value) 
+ conn(System, Obj1, Obj2) 
+
+where System represents a system configuration, Object an object in the diagnosis domain, Mode the mode of use for the diagnosis domain, Type a type specification of Value , which is a simple value. Obj1 and Obj2 represent connected objects in the domain. 
+
+ 
+
+Example : The user might observe, first, that the loudspeaker sp1 sounds bad when the stereo system is used in CD-player mode and, second, that the plus input port on loudspeaker sp1 has a value of 10 watts. These two facts are individually represented as two metatheory terms
+
+behaviour(s1, [loudspeaker, sp1], cd_player, sound, bad) 
+
+signal(s1, [loudspeaker, sp1], cd_player, [sp_port, in(pl,sp1)], 10 W). 
+
+4.2 Hypotheses
+
+We can view a hypothesis as pointing out a problem area of the diagnosis domain. A problem area identifies an incorrect property, or class of properties, of an object, or class of objects, in the diagnosis domain. The settings of a device and the internal function of the loudspeakers are examples of hypotheses pointing out problem areas. 
+
+ 
+
+Abnormal Observations The starting point for a diagnosis is a report, from the user, of a fault in the diagnosis domain. Since we have a theory of the diagnosis domain in the form of an object theory, it is convenient to define faults relative the object theory. Everything that can be deduced from an object theory representing the ideal world for a particular diagnosis domain, can be considered as correct (for that theory). Consonant with this, statements that contradict what can be deduced from the object theory, can be seen as faults (for the domain that the theory formalizes). We take this view as a starting point to classify the observation terms of Definition 2 in the metatheory. 
+
+ 
+
+Definition 2 A normal observation O for an object theory T , is an observation term that corresponds to a theorem of the predicates output or configuration of T . 
+
+An abnormal observation O for an object theory T , is an observation term and does not correspond to a theorem of the predicates output or configuration of T .
+
+ 
+
+Following Definition 1 and Definition 2 we can give logic programs for normal and abnormal as relations between a theory and an observation term. Below we give the first clause for each program, which cover the observation term signal . Each clause covers one kind of the observation terms signal , behaviour , setting and conn .
+
+ 
+ normal(O, T) <- 
+ O = signal(System, Object, Mode, Type, Value1) & 
+ demo(T, output(Object, [System,Mode,Settings], Out) ) & 
+ member( signal(System, Object, Mode, Type, Value2), Out) & 
+ demo(T, equal(Value1, Value2, Type) ) 
+ 
+ abnormal(O, T) <- 
+ O = signal(System, Object, Mode, Type, Value1) & 
+ demo(T, output(Object, [System,Mode,Settings], Out) ) & 
+ not ( member( signal(System, Object, Mode, Type, Value2), Out) & 
+ demo(T, equal(Value1, Value2, Type) ) ) 
+ 
+ 
+
+In the second conjunct, demo , of these programs, output(Object, [System, Mode, Settings], Out) , is a partial name (containing metavariables) for the object theory formula
+
+exists Object exists System exists Mode exists Settings exists Out(output(Object,[System,Mode,Settings], Out) ) . 
+
+ 
+
+The definitions of normal and abnormal derive their observation terms from an object theory. We need a demo predicate to relate a theory and a partial name for an object level formula (a non-ground metalevel term). The predicate is true when the formula named by the partial name can be derived from the theory. The demo predicate was originally proposed by Bowen and Kowalski (1982) as a representation of the derivability relation in an object language, part of an amalgamation of the object language and the metalanguage. 
+
+ 
+
+The Signal Graph We can take advantage of the object theory when we generate hypotheses for a fault (an abnormal observation) reported by the user. The formalization tells us which objects influence the output observed by the user, so by studying the object theory, hypotheses for the fault can be generated. We therefore analyze the object theory to see what could have caused the fault. To aid the analysis we use the concept of signal path. This can be understood as a sequence of objects that a signal traverses in order to construct an output from an object in the diagnosis domain, such as a sound from a loudspeaker. It is possible to view these paths as a directed acyclic graph since the signals are going in a certain direction, and the signals do not form any cycles. Each combination of object and mode in the diagnosis domain thus defines a particular signal graph . For example, the output of the loudspeaker port on the amplifier in cd-player mode has a graph that is different from the output of the on-light on the cd-player, which both are different from the graph for the output of the loudspeaker port on the amplifier when it is used in the turntable mode. Therefore, there can be many possible signal graphs for one diagnosis domain. Since the signal graph tells us what objects are involved for each output, it is a convenient tool in the diagnosis of faulty outputs. Note that the signal graph is not represented explicitly in the object theory--it is constructed in the metatheory by analyzing sentences of the object theory. This construction is made during the diagnosis. It would be possible to Â‘pre-compileÂ’ the signal graphs of a given object theory before the diagnosis, but any modification of the object theory during the diagnosis affecting the signal paths would then necessitate the system to reconstruct the signal graphs during diagnosis.
+
+ 
+
+The signal graph is a directed acyclic graph (DAG) where the nodes correspond to objects and the arcs correspond to signal flows of the diagnosis domain. In this DAG the root is the device that displays the fault reported by the user, and the leaves are the devices that do not have any input signals. As an example, consider the graph for loudspeaker1 when a stereo system is used in cd-player mode, in Fig. 2. 
+
+Fig 2 : A signal graph 
+
+ 
+
+The signal graph for an output is constructed by a metalevel analysis of the object theory. We have a meta-interpreter solve_construct for the analysis of an object theory. A standard meta-interpreter can be specialized to construct the signal graph, by using knowledge about the structure of the object theory. The knowledge needed is that the signal paths in the object theory are defined in terms of the input and the output predicates, so the meta-interpreter has special cases for the meta-interpretation of these predicates. 
+
+ 
+
+The Generation of Hypotheses The set of hypotheses for each type of fault is defined in the metatheory. The hypotheses are generated in relation to an object theory, so if the object theory were to be modified in restricted aspects, for example, in what objects there are, or what their connections are, there would be no need to alter the program for the generation of hypotheses. However, the program would have to be altered if the object theory is replaced with an object theory for another type of diagnosis domain. This is because the domains may differ in what the suitable hypotheses are for the objects in the domain. For example, diagnosis domains that consist of objects connected with some type of directed flow between them are quite different from domains that have a continuous process, such as a blast furnace in which iron is made. Consequently, the set of suitable hypotheses are not the same for different types of domains.
+
+ 
+
+The next step of the diagnosis process after the construction of the signal graph, is to generate the hypotheses for the fault reported by the user. Since the graph tells us which objects take part in the construction of a particular output, only the nodes of the DAG can be responsible for the abnormal observation. Therefore, the only hypotheses that are necessary to construct are those that can be based on the signal graph.The predicate hypotheses below is a relation between an object theory, an abnormal observation and a list of hypotheses. 
+
+ 
+ hypotheses(T, O, G, H) <- 
+ abnormal(O, T) & 
+ signal_graph(T, O, G) & 
+ objects(G, Xs) & 
+ have_settings(T, Xs, SXs) & 
+ connections_in_graph(G, Cs) & 
+ system(O, Sy) & 
+ mode(O, M) & 
+ H1= [ intern(Xs, Sy, M), settings(SXs, Sy, M), conns(Sy, Cs) ] & 
+ make_individual(H1, H) 
+ 
+ 
+
+This program states that the hypotheses for an observation O of an object theory T are H , determined by a graph G , if the following holds: O is an abnormal observation for T , G is the signal graph for O in T , Xs are names for the objects in the signal graph, SXs are names for the objects having settings (as determined by T) , Cs are names for the connections between the objects in the graph, Sy is the name for the configuration of the diagnosis domain involved in the observation O , and M is the name for the mode of use of the diagnosis domain. The hypotheses will then consist of the following three groups of hypotheses: (1) internal error in an object in mode M , (2) a setting of an object that is incorrect in mode M , and (3) an incorrect connection between objects in the configuration Sy .
+
+ 
+
+Object Level Refutation Since the object theory is a model of the diagnosis domain the theory is a prime source of knowledge that can be used in the investigation of the hypotheses to locate the fault more precisely. Let us therefore distinguish two methods for investigating hypotheses, based on whether or not they rely on the model of the diagnosis domain. The first uses the model of the diagnosis domain to investigate the hypotheses. This method can be called object level refutation . It compares statements of the object theory regarding structure and behaviour of the diagnosis domain with the userÂ’s observations of the real world. If the observations confirm the statements, then the hypothesis is refuted--the diagnosis domain is correct with respect to the area identified by the hypothesis. The statements of the object theory must of course be relevant for the hypothesis. For example, the hypothesis that a device has an internal fault could be refuted if all statements about outputs from it are confirmed by user observations of the actual device. The method of object level refutation will give correct diagnoses provided the object theory is an accurate representation of a non-faulty domain. If the real world observations confirm the theory statements, then the hypothesis cannot identify the cause of the malfunction. 
+
+ 
+
+The second method can be called metalevel refutation because hypotheses are eliminated on the grounds of knowledge formalized in the metatheory. In its basic form it does not use the model of the diagnosis domain to investigate the hypotheses. The metatheory is based on diagnosis experience of the diagnosis domain, knowledge that is not formalized in the object theory either because it is heuristic or because it would require a more detailed formalization than is expressed in the object theory. The first case illustrates that this method might not always be correct. Therefore, it would be desirable to distinguish between hypotheses that have been eliminated by object level refutation from those that have been eliminated by metalevel refutation. 
+
+ 
+
+Object level refutation tests a hypothesis by deriving statements in the object theory and asking the user if the statements can be observed in the malfunctioning diagnosis domain. The relation between a hypothesis and the relevant statements can be formalized as a metatheory program, refutation , between an object theory T , a list L of names of statements of T and a hypothesis, such that the statements derivable from T is a refutation of the hypothesis.
+
+ 
+ refutation(T, L, intern(X, Sy, M)) <- 
+ demo(T, output(X, [Sy, M, S], Out) ) & 
+ L = Out 
+refutation(T, L, settings(X, Sy, M)) <- 
+ demo(T, standard_settings(X, M, S) ) & 
+ L = S 
+refutation(T, L, conns(Sy, X, Y)) <- 
+ demo(T, configuration_unit(Sy, X1--UV1--Y--UV2--X2) ) & 
+ ( X = X1 & L = UV1 
+ or X = X2 & L = UV2 ) 
+ 
+ 
+
+Let us now investigate the use of refutation for a particular hypothesis. Assume that we try to refute a hypothesis about an internal fault in a loudspeaker, so that we have the query refutation(stereo, L, intern(loudspeaker1, s1, cd_player) ) which would result in the following call to demo: demo(stereo, output(loudspeaker1, [s1,cd_player,S], Out) ) where output(loudspeaker1, [s1,cd_player,S], Out) is a partial name of the object theory formula: 
+$S $Out(output(loudspeaker1,[s1,cd_player,S], Out) ). 
+
+ 
+
+The result of the refutation query is that L will be a list of names of statements derived from the object theory predicate output .
+
+L = [  signal(s1, loudspeaker1, cd_player, volume, 79 dB), behaviour(s1, loudspeaker1, cd_player, sound, good)      ] 
+
+ 
+ 
+
+We assume in the object theory certain standard settings if none is specified in the query to the theory, for instance, the volume control has a standard setting that allows us to derive the value of 79 dB above. This example illustrates how we relate a hypothesis to object theory statements. The hypothesis intern(X,Sy,M) points out the problem area "internal function of an object X of a system S y in mode M " and the object theory definition of output formalizes the output signals and observable behaviours of the object X , which depend on the internal function of the object. Therefore, it can be used for deriving statements from the object theory to test the hypothesis. 
+
+ 
+
+The second part of the refutation method is to verify if the statements of the object theory can be observed by the user. If they are then the hypothesis is refutable, i.e. it does not identify the fault and can thus be removed from consideration. We must of course decide how many statements to require for a refutation, the degree of verification by the user and what interval of values can be accepted for an observation. These decisions are mainly domain and application dependent. The method of object level refutation can be represented in the metatheory as the following program.
+
+ 
+ object_refute(T, Obs, Hyp) <- 
+ refutation(T, L, Hyp) & 
+ observable(L, Obs) 
+ 
+ 
+
+The program object_refute is a relation between a theory T , a list of user observations Obs , and a hypothesis Hyp . The hypothesis is refutable when: (1) there is a list L of names of statements derivable in the object theory T , and (2) the user answers Obs determine that the statements of L can be observed by the user. 
+
+4.3 Metalevel Refutation
+
+In this section we will discuss the second method for the refutation of hypotheses. This method uses primarily knowledge that is not present in the object theory which represents the diagnosis domain, but rather knowledge based on experience. Knowledge acquired from problem solving in a particular domain made the first generation expert systems powerful problem solvers in some domains, where it was possible to collect enough quality knowledge to achieve expert performance. Knowledge was usually represented in a form compiled from knowledge of various kinds, for example, structural, causal, functional, associational and experiential knowledge, into a compact form for a particular domain. This knowledge expressed associations between symptoms and conclusions that could be very effective for problem solving. As discussed in the introduction to this paper the use of compiled knowledge is not without problems. One of them is to know what knowledge to modify if the structure or function of the domain changes, since the knowledge is based on the configuration of a particular domain and it is not always easy to trace such knowledge back to the structure of the domain. Both the acquisition and modification of knowledge thus requires experts in the domain, which makes the development and maintenance of these systems expensive. Therefore, model-based systems with an explicit representation of a model for a domain (e.g. a structural and functional model) have been developed as an alternative to the first generation expert systems. However, since compiled knowledge can be useful in diagnosis systems because of its compactness and effectiveness, it is valuable to integrate the use of such knowledge with the use of model-based knowledge. In (Chandrasekaran, 1991) it is stated that "almost all nontrivial human diagnostic reasoning uses a combination of methods". Chandrasekaran refers to the combination of compiled knowledge with various types of model based knowledge, and gives three examples of combination. The first is accessing a model selectively when compiled knowledge for evaluating a hypothesis is missing; the second is falling back on a model when some of the data cannot be satisfactorily explained or when a better explanation can be obtained with the model; the third is to use the model to find an explanation to support the diagnosis arrived by compiled knowledge. In the following we will discuss our approach for integration, where we will combine compiled knowledge with model-based knowledge in two ways; first by falling back on our model when the hypotheses cannot be ruled out with compiled knowledge; second to focus the reasoning on the most likely part of the model. We integrate compiled knowledge with the model by defining compiled knowledge in terms of the model and by using both types in the diagnosis method.
+
+ 
+
+Two Kinds of Compiled Knowledge We will distinguish two kinds of compiled knowledge that we would like to integrate with model-based knowledge. The first kind is compiled knowledge of a heuristic character, i.e., problem solving knowledge that is often true but not always. An example of heuristic knowledge is the following rule: "If a loudspeaker of the stereo system does not work and the settings of the amplifier have been checked, then the connections between the devices are faulty." This rule is clearly not always true, but it is a useful heuristic for finding a diagnosis. It compiles knowledge of structural, functional and experiential character in a compact form. Knowledge about the connections of the stereo system (structural knowledge), about the functionality of the loudspeakers, and experiential knowledge from diagnosing stereo systems is compiled into a single rule. We include heuristics in the metatheory as a guidance for the use of the model-based knowledge in the object theory.
+
+ 
+
+The second kind of compiled knowledge has a complexity that surpasses the level of abstraction of the domain theory. Such knowledge is inconvenient to represent explicitly in the object theory. The reason is that an explicit representation would force the level of abstraction lower than that chosen by the designer. In the design of a domain theory you must choose a level of detail that is not too difficult and expensive to represent and has an acceptable computational complexity. This issue is an instance of the general problem of granularity level of representation as discussed by Genesereth and Nilsson (1987). Also Console and Torasso (1988) discuss the problem of constructing a complete model. They argue that any model will contain abstractions, therefore it is not complete in the sense that it does not formalize the domain completely. An example of the choice of granularity level is the following complex compiled knowledge in the stereo system: "If a loudspeaker of the stereo system produces some sound, then the power-supply cannot be faulty." The knowledge is always correct because we know that a loudspeaker requires that at least some device has electricity for a loudspeaker to function (we disregard the possibility of a reduced mains power in our example). The mechanism of how devices depend on the power supply in the stereo system, which is behind this knowledge, is not represented in our object theory. It would be possible to represent it as model-based knowledge in the theory for the diagnosis domain, but that would increase the complexity of the theory further than that chosen in our example. If we represented the power-supply knowledge in the object theory, we would not be able to deduce enough new interesting things for the diagnosis to outweigh the increased complexity of the representation. Both kinds of compiled knowledge--heuristic and complex--can be represented in the metatheory of the diagnosis system. 
+
+ 
+
+A Representation of Complex Compiled Knowledge We can integrate complex compiled knowledge with model-based knowledge through the methods of refutation. Model-based knowledge is used in object level refutation to refute hypotheses, whereas in metalevel refutation compiled knowledge can be used to refute hypotheses. Both methods would discuss the same kind of objects (hypotheses), but base their reasoning on different kinds of knowledge, which gives us an integration of compiled and model-based knowledge in the refutation process. Object level refutation bases the refutation on names for object theory formulas which guarantee that the conclusions are correct because the formulas are expressed in terms of the structure and function of the domain and derived in the object theory. Metalevel refutation bases the refutation on compiled knowledge so we can go directly from observations to conclusions without reference to the object theory. 
+
+Let us discuss three examples of a possible representation of compiled knowledge suitable for metalevel refutation. In the first example we will see how we can represent compiled knowledge as a relation between the observations Obs of the user and a hypothesis. Consider the following example: The rule "If a loudspeaker of the stereo system produces some sound, then the power-supply cannot be faulty", would be represented as the following clause.
+
+ 
+ meta_refute(Obs, intern([power, X], Sy, M) ) <- 
+ observable(O, Obs) & 
+ O = behaviour(Sy, [loudspeaker, X1], M2, volume, Z dB) & 
+ Z > 0 
+ 
+ 
+
+This rule means that all hypotheses of the form intern([power, X], M) are refutable when (1) there is an observation behaviour(Sy, [loudspeaker, X1], M2, volume, Z dB) which says the user has observed that there is a volume of Z dB from a loudspeaker, and (2) Z is higher than 0 . When the above clause is true all hypotheses concerning internal faults in the power supply are refutable, so if the system has two hypotheses about internal faults in the power supply, this rule would refute both hypotheses. 
+
+ 
+
+In our approach we can generalize compiled knowledge by stating it relative an object theory so that the knowledge is general over some class of object theories for different systems. By generalizing compiled knowledge, our metatheory can be kept more compact since one general rule can replace more numerous specific rules. As the second example let us therefore extend the relation meta_refute to include an object theory, so that we can represent a general rule regarding hypotheses about the power supply. A rule such as "If an object of the stereo system produces some behaviour or signal that is normal for the stereo system, then the power-supply, the cable between that device and the power supply, as well as the connections between the device and the cable, are OK This can be represented as below, where the refutable hypotheses are represented as a list.
+
+ 
+ meta_refute(T, Obs, [ intern([power, X], Sy, M), 
+   (conns(Sy, Y1,[power,X]), conns(Sy,X2,Y1), intern(Y1,Sy, M2) ) ] ) <- 
+ observable(O, Obs) & 
+ O = Otype(Sy, X2, M2, Ty, V) & 
+ member(Otype, [signal, behaviour]) & 
+ normal(O, T) 
+ 
+ 
+
+When this clause is true all hypotheses intern([power, X], Sy, M) and all combinations of the hypotheses conns(Sy,Y1,[power,X]) , conns(Sy,X2,Y1) and intern(Y1,Sy, M2) are refutable. The idea behind this compiled knowledge is that any signal or behaviour in the stereo system domain requires electricity, therefore it is possible to rule out the power supply, the cable and the connections as the problem. We have generalized the first clause by making the second clause relative an object theory, so if the object theory is modified (e.g., new devices) the second clause would not have to be modified. Thus the second clause is less sensitive than the first to changes in the domain, but it is still a powerful compilation of knowledge. Although the clause is general it still contains compiled knowledge since there is no explicit representation of how the power supply affects the function of devices--this is still implicit, compiled knowledge. Furthermore, this general rule replaces specific rules for each kind of normal output of the stereo system. Thus the metalogic approach helps us to keep our representation compact.
+
+ 
+
+A third, more advanced, example of how complex compiled knowledge can be formalized as metalevel reasoning will discuss different object theories. This would make it possible to write programs that reason hypothetically over distinct object theories. If we have a relation modify_theory between a theory T1 , a set Obs of observations and a theory T2 where T2 is the result of modifying T1 such that the observations in Obs are statements of T2 , we can reason with different object theories. An example would be causal reasoning about which things affect what in a domain. For instance, if two observations O1 and O2 are abnormal for a theory T1 , but O2 is normal for T1 modified for O1 , then we could draw the conclusion that O2 is a result of O1 (i.e., O1 explains O2 ), and therefore exclude the possibility of an internal fault in the device that O2 mentions. That is, O2 is a consequence of O1 and not a proper fault. We could represent this reasoning as the following two programs, starting with explains :
+
+ 
+ explains(O1, O2, T) <- 
+ abnormal(O1, T) & 
+ O1 = signal(Sy,X,M,Ty,V) & 
+ abnormal(O2, T) & 
+ modify_theory(T, [out_signal(O1,I)], T2) & 
+ normal(O2, T2) 
+ 
+ 
+
+The second program for this example is meta_refute : Recall that the signal graph describes the signal paths for the initial abnormal observation reported by the user and the direction of the signals in the stereo system. The root of the signal graph is thus the object that displays the abnormality observed by user. We can take advantage of this to determine which hypotheses can be ruled out as consequences of the real fault. This program states that the case where there are two observations O1 and O2 , O1 is a signal of an object X1 and O1 explains O2 ( O2 would be normal for a theory modified for O1 ), implies that O1 causes O2 , thus all objects following X1 in the signal graph are actually OK and in consequence the intern hypotheses about these objects are refutable.
+
+ 
+ meta_refute(T, Obs, G, H) <- 
+ observable(O1, Obs) & 
+ O1 = signal(Sy, X1, M, Ty, V) & 
+ root(X2, G) & 
+ object(X2, O2) & 
+ observable(O2, Obs) & O1 O2 & 
+ explains(O1, O2, T) & 
+ objects_after(X, X1, G) & 
+ make_individual( [intern(X, Sy, M) ], H) 
+ 
+ 
+
+In the above program we see that metalevel reasoning where an object theory is regarded as a term in the language gives us an approach for writing declarative and powerful reasoning programs. It is modular since the program is general over different theories, so it works even if we replace the theory T for another theory TÂ’ with a different set of stereo devices or some similar technical system. So, despite the fact that we represent complicated compiled knowledge we have the means to preserve a certain generality of the knowledge. 
+
+ 
+
+A Representation of Heuristic Compiled Knowledge As previously discussed, heuristic compiled knowledge should not be allowed to give us conclusions--it should only guide the diagnosis process. For meta refutation, complex compiled knowledge is represented as a set of clauses in the relation meta_refute . We would like to represent heuristic compiled knowledge in a similar fashion because the kind of knowledge to be expressed is rather similar to complex compiled knowledge, the difference being that heuristics can only be taken as recommendations. We can represent heuristic compiled knowledge as a separate relation, probably_refutable .
+
+ 
+
+The relation probably_refutable relates a hypothesis H , a theory T , the user observations Obs and the hypotheses THs that have been tested in the diagnosis. The relation is true when the hypothesis H can be recommended for refutation. Recall our example of heuristic knowledge: "If a loudspeaker of the stereo system does not work and the settings of the amplifier have been checked, then the connections between the devices are faulty." Here, the knowledge clearly refers to the progress of the diagnosis process. By including the tested and refutable hypotheses THs in the relation probably_refutable we can refer to the progress of the diagnosis. This example can be represented as a clause of the relation probably_refutable as illustrated below.
+
+ 
+ probably_refutable(T, Obs, THs, [ (conns(Sy, X2, Y1), conns(Sy,Y1,X1) ) ] ) <- 
+ observable(O, Obs) & 
+ object(X2, O) & 
+ type(X2, loudspeaker) & 
+ abnormal(O, T) & 
+ type(X1, amplifier) & 
+ member( settings(X1,Sy,M), THs) 
+ 
+ 
+
+This clause states that the hypotheses conns(Sy, X2, Y1) and conns(Sy,Y1,X1) can be recommended for (object) refutation when there is an observation O in the user observations Obs , and the object of that observation is a loudspeaker, and the observation O is abnormal for the theory T , and the hypothesis regarding the settings of the amplifier is tested (refuted). 
+
+ 
+
+With a set of clauses such as this one we can get a recommendation of which hypotheses to test. Each hypothesis in the list of hypotheses generated by the program hypotheses could be tested for the property of probably_refutable as an indication of its potential for refutation.
+
+4.4 A Representation of a Diagnosis Strategy 
+
+We shall discuss a definition of diagnosis and look at an example diagnosis strategy.
+
+ 
+
+A Definition of Diagnosis We define diagnosis as a relation in the metatheory between an object theory T , a set of user observations Obs and a hypothesis H . The relationship between these objects is that Obs contains an observation, abnormal for T and related to an area of the domain identified by H . Informally, H is a diagnosis for the abnormal observations in Obs , in the domain formalized in T . Below we find the definition of diagnosis .
+
+The relation diagnosis is true when we have an object theory T , a set of user observations Obs , and a hypothesis H , for which the following holds: There is an observation O in Obs that is abnormal with respect to T , the result of generating hypotheses from T , O and the signal graph G are Hs , and H is a hypothesis in Hs which is neither refutable in the metatheory, nor with the object theory T . We now take the definition of diagnosis above as a starting point for the design of a strategy. There is not only one unique strategy that can find a diagnosis as defined in diagnosis . However, we look at one example strategy that meets this definition.
+
+ 
+
+A Diagnosis Strategy The basic idea for this strategy is to ask the user for an object theory and an observation of some faulty behaviour (or signal), and generate the hypotheses using the model. The strategy then tries to refute (eliminate) each hypothesis until one is found that cannot be. This hypothesis will then be presented as the answer of the diagnosis. In more detail; after generating the hypotheses the strategy proceeds as follows. The relation probably_refutable of heuristics is used to sort the hypotheses in the order of likelihood. A simple selection criterion is then used to pick hypotheses for testing--e.g. the first hypothesis. The refutation process then first tries meta refutation, because it might use some non-heuristic compiled knowledge that gives us a short-cut in the diagnosis. If meta refutation does not eliminate the hypothesis, object refutation will be tried. If object_refute is true for the hypothesis it is moved from the list of active to the list of tested hypotheses THs and the rest are tried. On the other hand, if object_refute is not true, the hypothesis and the userÂ’s observations are presented as a diagnosis for the object theory, because the hypothesis identifies an area of the domain that does not show the same behaviour as asserted by the object theory. 
+
+ 
+
+In this strategy we have no specification of how and when questions of observations should be put to the user. A simple solution would be to ask all that are prompted by meta_refut e and object_refute , as well as by probably_refutable , i.e. when an observation is required in e.g. meta_refute a question would always be asked about the observation, as long as it had not been asked before. To avoid a potentially unfocused questioning of the user if we have many meta_refute clauses, an alternative solution would be to ask only those prompted by object_refute and let the answers be the only way to get information from the user. A third solution would be to ask questions prompted by object_refute , but also investigate the potential of the clauses of meta_refute to asses the usefulness of questions put to the user. Such investigation could estimate the number of hypotheses that could be ruled out by a positive answer to a particular question, by comparing the list of hypotheses with the hypotheses in each clause. The utility of questions for probably_refutable could be handled similarly. A simple approach to this solution is to separately define a question to the user, potential_question , for each clause of meta_refute . It will prompt the user for an observation that could make the clause true. The only formal connection between the meta_refute clause and the question would be that the same hypotheses are given in the clause as in the definition of the question. However, informally the system designer would know that the question is connected to the clause. Since all clauses of meta_refute can be tested each time a hypothesis is attempted for meta refutation there would be no need for any further formal connection. The system can use potential_question to evaluate how many hypotheses might be refuted if a positive answer is given by the user to the question.
+
+ 
+
+Diagnosis of Multiple Faults In the previous discussion we have assumed that a single fault is responsible for the first observed abnormality. One reason for this assumption has been to keep the presentation simple. There is also the reason of computational complexity, since the assumption of multiple faults can lead to an exponential number of hypotheses with regard to the size of the diagnosis object. This is due to the number of combinations of hypotheses. In GDE (de Kleer and Williams, 1987) methods to limit this complexity are introduced. These methods could be incorporated into our diagnosis system. Multiple faults could be handled analogously to GDE in our system. Our metalevel analysis of the object theory to construct the signal graph is analogous to GDEÂ’s propagation of values through the device models to predict the output values of the device and in this way identify conflicts. In GDE minimal candidates are generated from a conflict by taking one component from the conflict to construct each minimal candidate. When a new conflict that is not explained by any candidate, new minimal candidates are generated by examining the immediate supersets of the previous candidates to see if they can explain all conflicts. This method could be applied in our diagnosis strategy by extending the present hypotheses, from a candidate space, to explain multiple faults when new observations are reported by the user that are abnormal and not explained by the present hypotheses. 
+
+ 
+
+Generalization of the diagnosis system The long term goal of this work is to construct systems for developing diagnosis systems in different classes of domains. The stereo domain in this paper and the domain of a monitoring and control system for a machine on an assembly line in industry might be two members of a class. A development system could reuse components based on an ontology for a class of domains represented as a meta-metatheory (of the metatheory). The theory would contain schemata for the problem solving methods and domain knowledge, and it would define a method for instantiating the schemata to generate new diagnosis systems.
+
+5. RELATED WORK
+
+In the Second Generation Expert Systems manifesto (Steels, 1985) discussed the idea of exploiting more than one type of knowledge, for example by integrating heuristic knowledge with some form of deep knowledge. The focus of his approach is on the integration and cooperation at the conceptual level of different types of knowledge. Our approach emphasizes integration and cooperation between the heuristic and the model-based level, but also uses the representation to formulate heuristic knowledge in terms of the model-based knowledge. The meta-object architecture allows us to represent semi-general heuristics at the metalevel in terms of model-based knowledge at the object-level.
+
+ 
+
+The CHECK system (Console et al., 1992) consists of a heuristic level cooperating with a causal level. The heuristic level is invoked first and generates a set of hypotheses to be discriminated (or confirmed) by the causal level. The causal level tries to find a part of the causal network that covers the observations. The authors discuss the problem of inconsistency between the two types of knowledge. In particular, it is difficult to verify that they are consistent if they are acquired in different knowledge acquisition processes. In the AID system (Console et al., 1992) compiled knowledge is used as a focusing component for the causal reasoner. So called "rule-out" conditions are compiled from the causal model that allows the system to safely prune the search space for the abductive solver. By considering necessary conditions associated with states (having a cause) in the causal model, it is possible to immediately exclude a state when its necessary condition is inconsistent with the data. To compare, we generate hypotheses in the metatheory. The generator defines hypotheses in terms of model-based knowledge in the object theory, but could also use heuristic knowledge. The diagnosis strategy first tries to eliminate hypotheses based on compiled knowledge before resorting to model-based knowledge in the object theory. The metatheory also contains heuristic knowledge used to rank the hypotheses for discrimination.
+
+ 
+
+Simmons and Davis (Simmons and Davis, 1987) combine causal and associational reasoning in the GORDIUS system in a generate-test-debug paradigm. The system uses associational knowledge to generate an initial hypothesis which is tested and, if incorrect, debugged into a solution using a causal explanation for the failure. Several iterations can be made until a satisfactory solution is found, when the hypothesis passes the test. 
+
+ 
+
+KotonÂ’s system CASEY (Koton, 1988) integrates a model-based component (causal model) with case-based reasoning in a system that can make model-based modifications to previous solutions (cases). The case-based component uses the causal model to determine what characteristics are important in an old case when it evaluates how well the case matches new current case--essentially those that played a role in the causal explanation of old case. If the case-based component cannot find an old case sufficiently similar to the current so that it can be adapted using the causal model, it falls back on the causal model to solve the case from scratch. The use of model-based modification of old cases have similarities to our use of semi-general heuristics defined in terms of model-based knowledge. They both involve modification of associational knowledge with the help of model-based knowledge integrating different types of knowledge. They both also attempt to reduce the number of inferences needed to find a solution. In KotonÂ’s case by modifying an old case supported by model-based knowledge, and in our case by eliminating hypotheses or focusing on some hypotheses with associational knowledge supported by model-based knowledge.
+
+ 
+
+In (ten Teije, van Harmelen, Schreiber and Wielinga, 1996; ten Teije 1997) parametric design is used for automated configuration of problem solving methods using a meta architecture, to build a system with flexible reasoning. The architecture consists of three logic theories: an object theory APPL containing the domain knowledge and problem data for an application such as a causal model, a metatheory METH containing problem solving methods together with definitions of method components, and a meta-metatheory FLEX containing strategy knowledge and a general schema for the problem solving methods in METH as well as relations between components and methods. ten TeijeÂ’s architecture has similarities to our architecture, in that the model-based knowledge is represented in an object theory and the problem solving methods in a metatheory, and they communicate via a reflection mechanism using naming of terms. One difference is that our metatheory contains compiled and heuristic knowledge integrated with the model-based knowledge in the object theory to support diagnosis. Another difference is that we represent the diagnosis strategy in the metatheory and intend a meta-metatheory to only control the instantiating of schemata for building a diagnosis system. A major difference between the architectures is the scope of the systems where ten TeijeÂ’s system can capture a number of different notions of diagnosis and furthermore configure problem solving methods automatically for different problem. In contrast our architecture does not currently encompass different notions of diagnosis, although it could be extended in that direction.
+
+ 
+
+Nejdl and colleagues (1995) discuss explicit representation of diagnosis strategies for model-based diagnosis systems. They introduce a metalanguage to express strategic knowledge in an explicit way. In contrast to the approach discussed in this paper, which uses standard first-order predicate logic, they employ modal logic. In a related paper (Damásio, Nejdl, Pereira and Schroeder, 1995) a logic meta-programming approach is used to represent a model-based diagnosis process, expressing preferences and strategies, based on extended logic programs. 
+
+ 
+
+Libraries of problem-solving methods and ontologies have been discussed by several authors, for example (Benjamins, 1993). The object- and metatheory discussed in this paper could be reused by generalizing the components of the theories to a schematic representation, in the form of a library. A library could be designed as a meta-metatheory of schemata, or templates, for the formulas of the object- and metatheory. The process of instantiating these schemata would be controlled by the meta-metatheory, formalizing the process. 
+
+6. CONCLUSIONS
+
+This paper studies the problem of integrating model-based and heuristic diagnosis in a single system. The logical structure of knowledge is preserved by the division of the metatheory and object theory where strategic and compiled knowledge is represented in a metatheory and model-based domain knowledge is represented in an object theory. The integration of model-based and compiled knowledge via the refutation methods in the metatheory allows them to be used together. Powerful inferences can be represented in the metatheory as semi-general metarules stated in terms of an object theory. The system has been designed to capture a class of domains characterizable in terms of connected devices with a directed flow between them. We have identified by examples a set of components for integrating heuristic and model-based diagnosis as a set of predicates of an object theory and a metatheory. They could be generalized as schemata in a meta-metatheory which would act as a theory for building diagnosis systems from reusable components. 
+
+ACKNOWLEDGEMENTS
+
+The author wishes to thank the referees for useful comments and suggestions.
+
+REFERENCES
+
+Andersson, K. (1997). Integrating Heuristic and Model-Based Diagnosis, Uppsala Theses in Computing Science 27/97, Uppsala: Uppsala University.
+
+ 
+
+Benjamins, R. (1993). Problem Solving Methods for Diagnosis, Ph.D. Thesis, Amsterdam: University of Amsterdam. 
+
+ 
+
+Bowen, K.A. and Kowalski, R.A. (1982). Amalgamating Language and Metalanguage in Logic Programming, in: Clark, K.L. and Tärnlund, S.-Å. (Eds.), Logic Programming, London: Academic Press.
+
+ 
+
+Carrico, M.A., Girard, J.E. and Jones, J.P. (1989). Building Knowledge Systems, New York: McGraw-Hill.
+
+ 
+
+Chandrasekaran, B. (1991). Models versus Rules, Deep versus Compiled, Content versus Form--some Distinctions in Knowledge Systems Research. IEEE Expert, 6(2), April 1991, pages 75-79.
+
+ 
+
+Console, L, Portinale, L, Dupré, D.T. and Torasso, P. (1993). Combining Heuristic Reasoning with Causal Reasoning in Diagnostic Problem Solving. Second Generation Expert Systems, (Berlin: Springer-Verlag) pages 46-68.
+
+ 
+
+Console, L., Dupré, D. and Torasso, P. (1989). A Theory of Diagnosis for Incomplete Causal Models, Proc. Eleventh International Joint Conference on Artificial Intelligence, Detroit, pages 1311-1317.
+
+ 
+
+Console, L. and Torasso, P. (1988). A Logical Approach to Deal with Incomplete Causal Models in Diagnostic Problem Solving, Lecture Notes in Computer Science 313 , Berlin: Springer Verlag, pages 255-264.
+
+ 
+
+Dague, P. (1995). Qualitative Reasoning: A Survey of Techniques and Applications, AI Communications 8 (3/4), pages 119-192.
+
+ 
+
+Damásio, C.V, Nejdl, W., Pereira, L.M. and Schroeder, M. (1995). Model-Based Diagnosis Preferences and Strategies Representation with Logic Meta-programming, in K.R. Apt and F. Turini (Eds.), Meta-logics and Logic Programming, MIT Press, pages 269-311.
+
+ 
+
+Davis, R., Buchanan, B. and Shortliffe, E. (1977). Production Rules as a Representation for a Knowledge-Based Consultation Program, Artificial Intelligence 8(1) , 15-45. 
+
+ 
+
+de Kleer, J. and Williams, B.C. (1987). Diagnosing Multiple Faults, Artificial Intelligence 32(1) , pages 97-130.
+
+ 
+
+Genesereth, M.R. and Nilsson, N.J. (1987). Logical Foundations of Artificial Intelligence, Palo Alto: Morgan Kaufmann Publishers.
+
+ 
+
+Gruber, T.R (1989). The Acquisition of Strategic Knowledge, San Diego: Academic Press.
+
+ 
+
+Hart, A. (1988). Expert systems: an introduction for managers, London: Kogan-Page.
+
+ 
+
+Hayes-Roth, F., Waterman, D.A. and Lenat, D.B. (Eds.), Building Expert Systems, Reading, Mass.: Addison-Wesley.
+
+ 
+
+Koton, P. (1993). Combining Causal Models and Case-Based Reasoning. Second Generation Expert Systems, (Berlin: Springer-Verlag) 69-78.
+
+ 
+
+Nejdl, W., Frölich, P. and Schroeder, M. (1995). A Formal Framework for Representing Diagnosis Strategies in Model-Based Diagnosis Systems. Proc. 14th International Joint Conference on Artificial Intelligence, Montréal, pages 1721-1727.
+
+ 
+
+Simmons, R. and Davis, R. (1987). Generate, Test, and Debug: Combining Associational Rules and Causal Models. Proc. Tenth International Joint Conference on Artificial Intelligence, pages 1071-1078.
+
+ 
+
+Steels, L. (1985). Second Generation Expert Systems. Future Generation Computer Systems, 1(4) pages 213-221.
+
+ 
+
+ten Teije, A. (1997). Automated Configuration of Problem Solving Methods in Diagnosis. Ph.D. Thesis, (Amsterdam: University of Amstedam).
+
+ 
+
+ten Teije, A., van Harmelen, F., Schreiber, G. and Wielinga, B. (1996). Construction of Problem-Solving Methods as Parametric Design. In Proceedings of the Tenth Workshop on Knowledge Acquisition for Knowledge-Based Systems (KAWÂ’96), Banff, Alberta.
+
+

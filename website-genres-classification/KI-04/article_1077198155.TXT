@@ -1,0 +1,100 @@
+
+
+Computational Intelligence
+
+A Logical Approach
+
+Overhead Transparencies
+
+This page contains transparencies from Poole, Mackworth and Goebel, Computational Intelligence: A Logical Approach, Oxford University Press, 1998. All lecture materials are copyright © Poole, Mackworth, Goebel, and Oxford University Press, 1997-2002. All Rights reserved. 
+
+These transparencies are in Adobe PDF format and can be read using the free acrobat reader or with recent versions of Ghostscript. You can also access the lectures through a pdf interface. Clicking on the chapter numbers in this file or on it up-arrows in the slides gives a pdf overview of individual chapters. You can also get the latest distribution of all of the slides as a gzipped tar file. 
+
+We have divided the slides roughly into lectures. The division is largely on logical separation, rather than what can be carried out in one say 50 or 90 minute slot. We have found that one lecture here takes between 30 and 100 minutes to explain in class (augmented with class discussion and more detailed examples). We haven't attempted to cover every topic in these lectures; rather, we have attempted to give a deeper view of fewer topics. Revising these slides is an ongoing activity; we would appreciate any feedback you would like to give. 
+
+---------------------------------------------------------------------
+
+Chapter 1: (html) Computational Intelligence and Knowledge
+
+* Lecture 1 in which we introduce computational intelligence and the role of agents. 
+* Lecture 2 in which we introduce the applications domains. 
+
+Chapters 2 & 3: (html) A Representation and Reasoning System & Using Definite Knowledge
+
+These two chapters are presented together as they form a coherent whole. They are separated in the book to keep the formalisms and the methodology separate. 
+
+* Lecture 1 in which we introduce representation and reasoning systems, Datalog, its assumptions, and its syntax. 
+* Lecture 2 in which we present the semantics of ground (variable-free) Datalog. 
+* Lecture 3 in which we introduce variables, queries, answers, recursion, and limitations. 
+* Lecture 4 in which we introduce proofs, present the ground bottom-up procedure, and show soundness and completeness. 
+* Lecture 5 in which we introduce top-down proof procedure (SLD Resolution). 
+* Lecture 6 in which we introduce variables and function symbols and how they are handled in proof procedures. 
+
+Chapter 4: (html) Searching
+
+* Lecture 1 in which we introduce searching and graphs. 
+* Lecture 2 in which we present some blind search strategies. 
+* Lecture 3 in which we present heuristic search, including best-first search and A* search. 
+* Lecture 4 in which we present various refinements to search strategies, including loop checking, multiple-path pruning, iterative deepening, bidirectional search, and dynamic programming. (This will probably take two classes to cover). 
+* Lecture 5 in which we introduce constraint satisfaction problems. 
+* Lecture 6 in which we consider consistency algorithms (arc consistency) and hill climbing for solving CSPs. 
+
+Chapter 5: (html) Representing Knowledge
+
+* Lecture 1 in which we introduce knowledge representation issues and problem specification. 
+* Lecture 2 in which we consider representation languages and mapping from problems into representations. 
+* Lecture 3 in which we present semantic networks, frames, and property inheritance. 
+
+Chapter 6: (html) Knowledge Engineering
+
+* Lecture 1 in which we introduce knowledge-based systems architectures and ask-the-user mechanisms 
+* Lecture 2 in which we introduce knowledge-based explanation and debugginf 
+* Lecture 3 .in which we introduce the notions of metalanguages and object languages and meta-interpreters., 
+* Lecture 4 in which we present more sophisticated meta-interpreters. 
+
+Chapter 7: (html) Beyond Definite Knowledge
+
+* Lecture 1 in which we cover equality, inequality and the unique names assumption. 
+* Lecture 2 in which we cover the complete knowledge assumption and negation as failure. 
+* Lecture 3 in which we introduce integrity constraints and consistency-based diagnosis. 
+
+Chapter 8: (html) Actions and Planning
+
+* Lecture 1 in which we introduce actions and planning and the robot planning domain. 
+* Lecture 2 in which we present the STRIPS representation. 
+* Lecture 3 in which we present the situation calculus. 
+* Lecture 4 in which we introduce planning 
+* Lecture 5 in which we present the STRIPS planner. 
+* Lecture 6 in which we present regression planner. 
+
+Chapter 9: (html) Assumption-based Reasoning
+
+* Lecture 1 in which we introduce assumption-based reasoning. 
+* Lecture 2 in which we show how to reason with defaults. 
+* Lecture 3 in which we introduce abduction and how it can be combined with default reasoning. 
+* Lecture 4 in which we show how to combine evidential and causal reasoning. 
+
+Chapter 10: (html) Using Uncertain Knowledge
+
+* Lecture 1 in which we overview uncertainty and the role of probability. 
+* Lecture 2 in which we look at conditional independence and the representation of belief networks. 
+* Lecture 3 in which we try to understand the consequences of the independence assumptions in belief networks. 
+* Lecture 4 in which we look at probabistic inference. 
+* Lecture 5 in which we look at combining probability and time. 
+* Lecture 6 in which we look at making decisions under uncertainty. 
+
+Chapter 11: (html) Learning
+
+* Lecture 1 in which we introduce machine learning and the issues facing any learning algorithm. 
+* Lecture 2 in which we introduce decision tree learning 
+* Lecture 3 in which we introduce neural networks. 
+* Lecture 4 in which we introduce case-based reasoning. 
+* Lecture 5 in which we present learning under uncertainty. 
+
+Chapter 12: (html) Building Situated Robots
+
+* Lecture 1 in which we introduce agents, robotic systems and robot controllers. 
+* Lecture 2 in which we overview robot architectures and present hierarchical decomposition of robots. 
+
+---------------------------------------------------------------------
+Last updated 3 September 2002, David Poole, poole@cs.ubc.ca 

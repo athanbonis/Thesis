@@ -1,0 +1,125 @@
+     function Validate_joinlistform (theForm)      {                  if (theForm.eMail )            {             if (theForm.eMail.value.length == 0 ||              theForm.eMail.value == "Â ")             {              alert ('Please define "Email"!');                            theForm.eMail.select();                                        theForm.eMail.focus();              return (false);             }            }                }     //
+
+Home	Altova	Sitemap	Language	
+
+Search	
+
+Home		Products		Download		Shop		Support		Developers		Services				
+
+Product Selection Guide				
+
+XMLSPY				
+
+MAPFORCE				
+
+STYLEVISION				
+
+AUTHENTIC				
+
+Desktop Edition				
+
+Browser Edition				
+
+Documentation				
+
+Brochure				
+
+Components				
+
+Platforms				
+
+Software Archive				
+
+Release Notes				
+
+Industry Templates				
+
+Online Video Demos				
+
+Feature Comparison				
+
+Download authenticâ¢Â 2004 Desktop Edition
+
+authenticâ¢Â 2004 Desktop Edition is a standards-based, browser enabled document editor that allows business users to seamlessly capture ideas and information directly into an XML format, which are saved to any content management system, database, or XML repository, for later retrieval or transformation - unlocking corporate knowledge.
+
+We offer download packages for various operating system configurations and from servers in different geographic locations to enable the fastest possible download for our customers.
+
+var authentic_OS_current=null;  function authentic_OS_change(tab_id){  if(tab_id==0){  if(authentic_OS_current!=null){  authentic_OS_current.style.display='none';  }  return;  }  if(authentic_OS_current!=null){  authentic_OS_current.style.display='none';  }else{   }  var cur_elem=document.getElementById(tab_id);  cur_elem.style.display='block';  if(!document.all){  window.resizeBy(-1,-1);  window.resizeBy(1,1);  }  authentic_OS_current=cur_elem;  }  
+Please select the Windows version you wish to be able to install on:Windows 98/ME/NT/2000/XP (21MB)Windows NT/2000/XP only (16MB)	
+
+var authentic_OS_Any_download_current=null;  function authentic_OS_Any_download_change(tab_id){  if(tab_id==0){  if(authentic_OS_Any_download_current!=null){  authentic_OS_Any_download_current.style.display='none';  }  return;  }  if(authentic_OS_Any_download_current!=null){  authentic_OS_Any_download_current.style.display='none';  }else{   }  var cur_elem=document.getElementById(tab_id);  cur_elem.style.display='block';  if(!document.all){  window.resizeBy(-1,-1);  window.resizeBy(1,1);  }  authentic_OS_Any_download_current=cur_elem;  }  
+Please select a download site:Boston, MA - USAVienna, Austria - EU	
+
+Download complete authenticâ¢Â 2004 Desktop Edition Setup from Boston now
+
+Click the above line to download the self-contained Installer for authenticâ¢Â 2004 Desktop Edition (includes AUTHENTIC application, spell-checker  with all major language dictionaries, Examples, Stylesheets, Templates, Online Help, and Tutorial). This installer can be downloaded and  distributed on the corporate LAN by placing it on a file server and can, therefore, also be used to install authenticâ¢Â 2004 Desktop Edition on a computer that is not connected to the Internet.	
+
+Download complete authenticâ¢Â 2004 Desktop Edition Setup from Vienna now
+
+Click the above line to download the self-contained Installer for authenticâ¢Â 2004 Desktop Edition (includes AUTHENTIC application, spell-checker  with all major language dictionaries, Examples, Stylesheets, Templates, Online Help, and Tutorial). This installer can be downloaded and  distributed on the corporate LAN by placing it on a file server and can, therefore, also be used to install authenticâ¢Â 2004 Desktop Edition on a computer that is not connected to the Internet.	
+
+var authentic_OS_XP_download_current=null;  function authentic_OS_XP_download_change(tab_id){  if(tab_id==0){  if(authentic_OS_XP_download_current!=null){  authentic_OS_XP_download_current.style.display='none';  }  return;  }  if(authentic_OS_XP_download_current!=null){  authentic_OS_XP_download_current.style.display='none';  }else{   }  var cur_elem=document.getElementById(tab_id);  cur_elem.style.display='block';  if(!document.all){  window.resizeBy(-1,-1);  window.resizeBy(1,1);  }  authentic_OS_XP_download_current=cur_elem;  }  
+Please select a download site:Boston, MA - USAVienna, Austria - EU	
+
+Download authenticâ¢Â 2004 Desktop Edition Setup for Windows NT/2000/XP from Boston now
+
+Click the above line to download the self-contained Installer for authenticâ¢Â 2004 Desktop Edition (includes AUTHENTIC application, spell-checker  with all major language dictionaries, Examples, Stylesheets, Templates, Online Help, and Tutorial). This installer only works for Windows NT/2000/XP.	
+
+Download authenticâ¢Â 2004 Desktop Edition Setup for Windows NT/2000/XP from Vienna now
+
+Click the above line to download the self-contained Installer for authenticâ¢Â 2004 Desktop Edition (includes AUTHENTIC application, spell-checker  with all major language dictionaries, Examples, Stylesheets, Templates, Online Help, and Tutorial). This installer only works for Windows NT/2000/XP.	
+
+DownloadAUTHENTICDesktop EditionDesktop Edition
+
+Desktop Edition	
+
+Customer Stories	
+
+Business FAQ	
+
+Industry Standards	
+
+Get FREE Desktop Key	
+
+Use of this site is governed by our   Terms & Conditions and Privacy PolicyÂ©Copyright 2004 Altova	
+
+Home	
+
+Altova	
+
+Sitemap	
+
+Search	
+
+Language	
+
+Contact Us	
+
+Management	
+
+Careers	
+
+Legal	
+
+Legal Overview	
+
+Terms of Use	
+
+Privacy Policy	
+
+EULA	
+
+Authentic EULA	
+
+Authentic DLA	
+
+Altova XSLT Engine DLA	
+
+English	
+
+Deutsch (German)	
+
+æ¥æ¬èªç (Japanese)	
+
+Preferences	
+ 

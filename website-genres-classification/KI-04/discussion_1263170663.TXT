@@ -1,0 +1,534 @@
+LinuxQuestions.org Forums > Linux - Software > Nvidia driver problem SOLVED! LOOK HERE! Pages (2): [1] 2 » Last Thread Next Thread Author Thread --> SchwarzeFeen Member Registered: Feb 2003 Location: Illinois Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9 Posts: 53 Nvidia driver problem SOLVED! LOOK HERE! --> Nvidia driver problem SOLVED! LOOK HERE! ( post #1 ) Installing the latest (1.0-4191) rpm drivers from nVidia (From a post on LinuxISO.org = http://www.linuxiso.org/forums/view...190fb1a2da17457 ) (User: SoSolid from the Netherlands) This is a post from above and I did it step by step after soo much searching of a good tutorial and it worked! After two days of spending time in console mode, re-installing Red Hat numerous times and cursing everyone and everything I finally figured out how to install the latest nvidia drivers (1.0-4191) on a fresh Red Hat Linux Professional 8.0 machine. The commands are almost the same as in other guides here but there are a few parameters that have to be changed in order to avoid conflicts. Below here I will describe what you have to do: First of all you have to understand what you need. Probably with Microsoft Windows in the back of your head you expect to download one file and just run it. No way! You always have to download two files. A kernel file and a GLX file. Together (if installed properly) you will have Linux recognize your card properly thus supporting it as much as possible. Don't always expect to receive the support like a Micrsoft Windows would deliver. Your card still can function a bit slower than average using Linux instead of Windows. Let's get started. The best thing to do is browsing to this url ( http://www.nvidia.com/view.asp?IO=l...y_ia32_1.0-4191 ) where you will find all Linux drivers available for the 32bits enviroment. If you look to the available drivers for Red Hat I imagine that you don't really know which one you need. In case of any doubt so ever download NVchooser. This tool examens your hardware and tells you which files are needed. Just download it to any directory, open a terminal, head for the directory in where you downloaded the file and use the command: bash <filename> Now you know which files are needed return to the website and download these files. When you have the two files (kernel and GLX) logout. In order to correctly install the drivers you can't have X working. If X is working while installing the drivers older driver files won't be deleted because they are in use. Below the log-in screen you'll see the word session. When clicking it you see a number of options. Remember the drivers must be installed in console mode which in this case means you may NOT startup anything related to X and graphical. Choose Failsafe. This option enables console mode. Next you have to log-in as root. That's the best thing to do since you will have all rights and permissions. Now we approach the most difficult part. Don't get me wrong, installing drivers isn't so hard if you know what kind of parameters you have to use in your commands. But finding out is much harder. As I told you before this guide assumes Red Hat is just installed and no other videocard related drivers have been (tried) to installed. Maybe this way of installing also works with other system conditions but I haven't tested something else at the moment. This is very important. We are actually not going to install the both files. We are going to upgrade the kernel and install the GLX. So you are in console mode. Head for the directory where the two files are downloaded. You will see these files: - NVIDIA_GLX-1.0-4191.???.rpm - NVIDIA_kernel-1.0-4191.???.rpm ??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon. First we start with the kernel. We are going to upgrade it. To do this we type the following command in your console: rpm -Uvh NVIDIA_kernel-1.0-4191.???.rpm After it's complete you will see a sort of summary. Now it's time to install the GLX file. First we are going to check if there aren't any old GLX files. To check this type the following command: rpm -e NVIDIA_GLX Don't forget we are going to install the GLX drivers, not upgrade. Upgrading GLX will cause the system to delete some files which are of great importance. The -e command will only delete the necessary files to complete a new installation without conflicts. The following command will install the GLX files: rpm -ivh NVIDIA_GLX-1.0-4191.???.rpm ??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon. This was the most most difficult part. It only gets easier from now. Since the new drivers require some other parameters to work with we have to edit the XF86Config file located in the directory /etc/X11 There is one important thing you may not forget. Yes, you have installed the new drivers but X still works on old settings and scripts. So if you reboot the system before editing the file prepare yourself for re-installing Red Hat. So you are still in console mode. Type 'exit'. The system will log you out and the log-in screen will appear again. Then click on Session and select Gnome. After this log in as root user and open the directory 'root's home' located on the desktop. In the address bar type the path that will lead you to your XF86Config file. The path is usually /etc/X11. There you will see the file. Right Click on it, select edit and then a program that you will use as an editor. Make sure that you delete the line containing this sentence in the module section of the file: - Load "dri" Also make sure that the next sentence is included in the module section of the file: - Load "glx" In the driver section of the file you will find a line containing one of the following sentences: - Driver "vesa" - Driver "nv" Replace this line by: - Driver "nvidia" When done save the file and restart your system. When the system has rebooted it might be possible for you to see a configuration screen appear. Just follow it and change whatever you want. That's all to it. Report this post to a moderator | IP: Logged 02-27-2003 04:42 AM rnturn Member Registered: Jan 2003 Location: Illinois (Chicago area) Distribution: Red Hat 7.1, 8.0 Posts: 350 --> ( post #2 ) Actually, there's a very good set of instructions on the Nvidia site. If you follow them carefully, they'll get on the way to installing the drivers and XF86Config modified without any trouble. Report this post to a moderator | IP: Logged 02-27-2003 04:59 AM SchwarzeFeen Member Registered: Feb 2003 Location: Illinois Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9 Posts: 53 --> ( post #3 ) No you don't understand. This is the mother of all tutorials there is no way you can lose! STOP ASKING ABOUT IT AND DO IT. Report this post to a moderator | IP: Logged 02-27-2003 04:49 PM kater Member Registered: Feb 2003 Location: Switzerland, Berne Distribution: Slackware 9.0 Posts: 180 --> ( post #4 ) Sorry, but it's just the right way to install the drivers. It's all written in the nVidia docs. Just one differnce: I would have downloaded the tarballs __________________ Penguins eat fish && Slackware cooks it. Report this post to a moderator | IP: Logged 02-27-2003 05:01 PM XavierP LQ Addict Registered: Nov 2002 Location: SE UK Distribution: Red Hat 9.0, Slackware 9, JAMD Linux, Mandrake 9.1, SUSE 9.0 Professional, Win XP Pro Posts: 2196 --> ( post #5 ) Personally I'd have also d/l'd nvchooser.sh - run that and it will tell you which rpms you need. I did that, followed the NVidia instructions (and don't let's forget - they are always going to be the most correct and most up to date) and I had a fully working set of drivers in next to no time! This set of instructions (above) doesn't talk about updating existing drivers - I believe NVidia does. __________________ "Oh, and any spelling/grammar errors in MY post are because your browser doesn't render what I'm typing correctly." Nicked from justlinux.com Toshiba Satellite Pro A10, 30GB HD, 256 RAM, 2GHz Celeron Don't forget to Affero me! Report this post to a moderator | IP: Logged 02-27-2003 05:07 PM SchwarzeFeen Member Registered: Feb 2003 Location: Illinois Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9 Posts: 53 --> ( post #6 ) Well go ahead and take your balls and your rpm ease goodness hating stuff and go read nvidias stuff. I just wanted to help!!! Report this post to a moderator | IP: Logged 02-27-2003 05:09 PM XavierP LQ Addict Registered: Nov 2002 Location: SE UK Distribution: Red Hat 9.0, Slackware 9, JAMD Linux, Mandrake 9.1, SUSE 9.0 Professional, Win XP Pro Posts: 2196 --> ( post #7 ) It is a good idea to put this sort of thing out, but the tone of this is that the author put it together from many other helpfiles - it actually looks as though they have summarised the ones on the NVidia site. The thing is, however unlikely, NVidia may change the install instructions and anyone cutting out and keeping the instructions above could give themselves problems. I would say that we should always read the official instructions first and look to these shortened instructions if anything is unclear. Good thought though. __________________ "Oh, and any spelling/grammar errors in MY post are because your browser doesn't render what I'm typing correctly." Nicked from justlinux.com Toshiba Satellite Pro A10, 30GB HD, 256 RAM, 2GHz Celeron Don't forget to Affero me! Report this post to a moderator | IP: Logged 02-27-2003 05:16 PM undershepherd Member Registered: Feb 2003 Location: Iowa Distribution: SUSE 9.0 Posts: 56 --> ( post #8 ) I want to add my 2 1/2 cents. I too struggled for weeks with Mandrake 9, and the mouse thing. I tried downloading and installing updated drivers, kept getting errors. I printed out and followed SchwarzeFeen's directions, and wala, it works. I had a hard time understanding NVIdia's instructions, probably because I am a new newbie. So, thanks ScwarzeFeen, for your excellent directions. Finally, I can get to using Mandrake!! Report this post to a moderator | IP: Logged 02-27-2003 11:33 PM Proud Guru Registered: Dec 2002 Location: Ringwood, Hampshire, England Distribution: Mdk9.2 PowerPack, Mdk9.1, Win98SE Posts: 1842 --> ( post #9 ) quote: ??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon Surely the older architecture is the lower number? 386 is old, 586 is quite new, and 686 is my nice new athlon? No? __________________ How to get good answers with your questions about Linux A few helpful links | Installing the nVidia 4xxx drivers . Fluxbox 0.9.7 development release | Enlightenment 0.16.6 -1 | Python 2.2.3 & 2.3.3. FluxAqua 1.4 | Met-Anti-Flux 1.0 | FluxMOD Fluxbox user community Report this post to a moderator | IP: Logged 02-27-2003 11:56 PM kater Member Registered: Feb 2003 Location: Switzerland, Berne Distribution: Slackware 9.0 Posts: 180 --> ( post #10 ) quote: Originally posted by SchwarzeFeen Well go ahead and take your balls and your rpm ease goodness hating stuff and go read nvidias stuff. I just wanted to help!!! C'mon, I know that and I appreciate it! I would download the tarballs because if you compile the drivers yourself, you got less trouble. Or you could rebuild the *.rpm's. __________________ Penguins eat fish && Slackware cooks it. Report this post to a moderator | IP: Logged 02-28-2003 12:25 AM SchwarzeFeen Member Registered: Feb 2003 Location: Illinois Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9 Posts: 53 --> ( post #11 ) I'm just joking around, I don't really wanna make fun of an expert, especially a swiss one! Report this post to a moderator | IP: Logged 02-28-2003 04:36 AM snocked Member Registered: Dec 2002 Location: St. Louis, MO Distribution: Slackware 9.1 Posts: 431 --> ( post #12 ) The lower architecture is the older, so from oldest to newest: 386, 586, 686. __________________ Linux User ID: 276820 Report this post to a moderator | IP: Logged 02-28-2003 04:46 AM kater Member Registered: Feb 2003 Location: Switzerland, Berne Distribution: Slackware 9.0 Posts: 180 --> ( post #13 ) quote: Originally posted by SchwarzeFeen I'm just joking around, I don't really wanna make fun of an expert, especially a swiss one! Uh, expert... Don't call me that. I just fucked up my whole system this morning. Had to reinstall Slackware... So just call me idiot Acutally, I'm from Italy, but livin' in Switzerland. Btw: This forum rocks! Really nice people! __________________ Penguins eat fish && Slackware cooks it. Report this post to a moderator | IP: Logged 02-28-2003 03:29 PM SchwarzeFeen Member Registered: Feb 2003 Location: Illinois Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9 Posts: 53 --> ( post #14 ) Hell yeah it does! Report this post to a moderator | IP: Logged 02-28-2003 04:49 PM Proud Guru Registered: Dec 2002 Location: Ringwood, Hampshire, England Distribution: Mdk9.2 PowerPack, Mdk9.1, Win98SE Posts: 1842 --> ( post #15 ) snocked, so I was right about "i586 is for the old pentiums" being wrong? Kinda makes me not trust this article so much...it needs to check it's facts. __________________ How to get good answers with your questions about Linux A few helpful links | Installing the nVidia 4xxx drivers . Fluxbox 0.9.7 development release | Enlightenment 0.16.6 -1 | Python 2.2.3 & 2.3.3. FluxAqua 1.4 | Met-Anti-Flux 1.0 | FluxMOD Fluxbox user community Report this post to a moderator | IP: Logged 03-02-2003 05:01 PM All times are GMT. The time now is 02:14 AM. --> Pages (2): [1] 2 » Last Thread Next Thread View New Posts Forum Sponsor: Dinix.com Providing powerful, fully managed and monitored dedicated servers, virtual dedicated servers and colocation in a carrier-class InterNAP facility with direct connections to the InterNAP network, and other providers. Dinix.com Similar Threads Thread Thread Starter Forum Replies Last Post service network restart - mandrake 9.1 problem perry Linux - General 0 Today 01:04 AM by perry Strange problem with letters Posty Slackware 0 Today 12:27 AM by Posty Sis 7012 Sound Problem With ALSA labiere Linux - Hardware 1 Yesterday 09:42 PM by labiere Mplayer font problem royals1216 Linux - Software 1 Yesterday 10:07 PM by Crashed_Again Sendmail + Evolution problem comment Linux - Newbie 1 Today 12:05 AM by trickykid CPU Heating problem! cb951303 Linux - Hardware 2 Yesterday 10:07 PM by cb951303 Show Printable Version | Email this Page | Subscribe to This Thread Forum Jump: Please select one: -------------------- Private Messages User Control Panel Who's Online Search Forums LinuxAnswers HCL Reviews Forums Home -------------------- 2003 LinuxQuestions.org Members Choice Awards Linux - Software -- Linux - Games Linux - Hardware Linux - Laptop and Handheld Linux - General -- LinuxQuestions.org Member Success Stories -- LinuxAnswers Discussion Linux - Networking -- Linux - Wireless Networking Linux - Security Linux - Distributions -- Linux From Scratch -- Slackware ---- Slackware - Installation -- Conectiva -- Debian -- Arch -- Mandrake -- Red Hat -- Libranet -- Fedora ---- Fedora - Installation -- VectorLinux -- CollegeLinux -- DamnSmallLinux Linux - Newbie Other *NIX Forums *BSD Solaris AIX Non-*NIX Forums Programming General -- LinuxQuestions.org Member Intro Website Questions & Suggestions -- Interviews -- Community Bulletin Archive Rate This Thread: Select a rating... 5 .. Best 4 3 .. Average 2 1 .. Worst Search this Thread: Forum Rules: You may not post new threads You may not post replies You may not post attachments You may not edit your posts HTML code is OFF vB code is ON Smilies are ON [IMG] code is OFF Please do not post your thread in more than one forum. < LinuxQuestions Merchandise - Linux Man Pages > < Contact Us - Rules - LinuxQuestions.org - Free Email Privacy Statement --> > < SETI@Home - Distributed.net - Donations - Advertising - Contributing Member > Based on: vBulletin (© Jelsoft Enterprises) Copyright ©2000 - 2004, LinuxQuestions.org.   --> 
+
+LinuxQuestions.org Forums > Linux - Software > Nvidia driver problem SOLVED! LOOK HERE!	  
+ 	
+
+Pages (2): [1] 2 »  	    Last Thread     Next Thread   	
+
+Author	     
+  Thread	       	   	  
+  	
+
+SchwarzeFeen
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Illinois
+ Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9
+ Posts: 53
+
+Nvidia driver problem SOLVED! LOOK HERE! 	( post #1)	 
+ 
+
+Installing the latest (1.0-4191) rpm drivers from nVidia (From a post on LinuxISO.org = http://www.linuxiso.org/forums/view...190fb1a2da17457) (User: SoSolid from the Netherlands) This is a post from above and I did it step by step after soo much searching of a good tutorial and it worked! After two days of spending time in console mode, re-installing Red Hat numerous times and cursing everyone and everything I finally figured out how to install the latest nvidia drivers (1.0-4191) on a fresh Red Hat Linux Professional 8.0 machine. The commands are almost the same as in other guides here but there are a few parameters that have to be changed in order to avoid conflicts. Below here I will describe what you have to do: First of all you have to understand what you need. Probably with Microsoft Windows in the back of your head you expect to download one file and just run it. No way! You always have to download two files. A kernel file and a GLX file. Together (if installed properly) you will have Linux recognize your card properly thus supporting it as much as possible. Don't always expect to receive the support like a Micrsoft Windows would deliver. Your card still can function a bit slower than average using Linux instead of Windows. Let's get started. The best thing to do is browsing to this url (http://www.nvidia.com/view.asp?IO=l...y_ia32_1.0-4191) where you will find all Linux drivers available for the 32bits enviroment. If you look to the available drivers for Red Hat I imagine that you don't really know which one you need. In case of any doubt so ever download NVchooser. This tool examens your hardware and tells you which files are needed. Just download it to any directory, open a terminal, head for the directory in where you downloaded the file and use the command: bash <filename> Now you know which files are needed return to the website and download these files. When you have the two files (kernel and GLX) logout. In order to correctly install the drivers you can't have X working. If X is working while installing the drivers older driver files won't be deleted because they are in use. Below the log-in screen you'll see the word session. When clicking it you see a number of options. Remember the drivers must be installed in console mode which in this case means you may NOT startup anything related to X and graphical. Choose Failsafe. This option enables console mode. Next you have to log-in as root. That's the best thing to do since you will have all rights and permissions. Now we approach the most difficult part. Don't get me wrong, installing drivers isn't so hard if you know what kind of parameters you have to use in your commands. But finding out is much harder. As I told you before this guide assumes Red Hat is just installed and no other videocard related drivers have been (tried) to installed. Maybe this way of installing also works with other system conditions but I haven't tested something else at the moment. This is very important. We are actually not going to install the both files. We are going to upgrade the kernel and install the GLX. So you are in console mode. Head for the directory where the two files are downloaded. You will see these files: - NVIDIA_GLX-1.0-4191.???.rpm - NVIDIA_kernel-1.0-4191.???.rpm ??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon. First we start with the kernel. We are going to upgrade it. To do this we type the following command in your console: rpm -Uvh NVIDIA_kernel-1.0-4191.???.rpm After it's complete you will see a sort of summary. Now it's time to install the GLX file. First we are going to check if there aren't any old GLX files. To check this type the following command: rpm -e NVIDIA_GLX Don't forget we are going to install the GLX drivers, not upgrade. Upgrading GLX will cause the system to delete some files which are of great importance. The -e command will only delete the necessary files to complete a new installation without conflicts. The following command will install the GLX files: rpm -ivh NVIDIA_GLX-1.0-4191.???.rpm ??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon. This was the most most difficult part. It only gets easier from now. Since the new drivers require some other parameters to work with we have to edit the XF86Config file located in the directory /etc/X11 There is one important thing you may not forget. Yes, you have installed the new drivers but X still works on old settings and scripts. So if you reboot the system before editing the file prepare yourself for re-installing Red Hat. So you are still in console mode. Type 'exit'. The system will log you out and the log-in screen will appear again. Then click on Session and select Gnome. After this log in as root user and open the directory 'root's home' located on the desktop. In the address bar type the path that will lead you to your XF86Config file. The path is usually /etc/X11. There you will see the file. Right Click on it, select edit and then a program that you will use as an editor. Make sure that you delete the line containing this sentence in the module section of the file: - Load "dri" Also make sure that the next sentence is included in the module section of the file: - Load "glx" In the driver section of the file you will find a line containing one of the following sentences: - Driver "vesa" - Driver "nv" Replace this line by: - Driver "nvidia" When done save the file and restart your system. When the system has rebooted it might be possible for you to see a configuration screen appear. Just follow it and change whatever you want. That's all to it.
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 04:42 AM	       
+         	            	    
+ 	
+
+rnturn
+ Member
+ 
+
+Registered: Jan 2003
+ Location: Illinois (Chicago area)
+ Distribution: Red Hat 7.1, 8.0
+ Posts: 350
+
+( post #2)	 
+ 
+
+Actually, there's a very good set of instructions on the Nvidia site. If you follow them carefully, they'll get on the way to installing the drivers and XF86Config modified without any trouble.
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 04:59 AM	       
+         	            	    
+ 	
+
+SchwarzeFeen
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Illinois
+ Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9
+ Posts: 53
+
+( post #3)	 
+ 
+
+No you don't understand. This is the mother of all tutorials there is no way you can lose! STOP ASKING ABOUT IT AND DO IT.
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 04:49 PM	       
+         	            	    
+ 	
+
+kater
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Switzerland, Berne
+ Distribution: Slackware 9.0
+ Posts: 180
+
+( post #4)	 
+ 
+
+Sorry, but it's just the right way to install the drivers. It's all written in the nVidia docs. Just one differnce: I would have downloaded the tarballs 
+
+__________________
+Penguins eat fish && Slackware cooks it.
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 05:01 PM	       
+         	            	    
+ 	
+
+XavierP
+ LQ Addict
+ 
+
+Registered: Nov 2002
+ Location: SE UK
+ Distribution: Red Hat 9.0, Slackware 9, JAMD Linux, Mandrake 9.1, SUSE 9.0 Professional, Win XP Pro
+ Posts: 2196
+
+( post #5)	 
+ 
+
+Personally I'd have also d/l'd nvchooser.sh - run that and it will tell you which rpms you need. I did that, followed the NVidia instructions (and don't let's forget - they are always going to be the most correct and most up to date) and I had a fully working set of drivers in next to no time! This set of instructions (above) doesn't talk about updating existing drivers - I believe NVidia does.
+
+__________________
+"Oh, and any spelling/grammar errors in MY post are because your browser doesn't render what I'm typing correctly."  Nicked from justlinux.com Toshiba Satellite Pro A10, 30GB HD, 256 RAM, 2GHz Celeron Don't forget to Affero me! 
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 05:07 PM	       
+         	            	    
+ 	
+
+SchwarzeFeen
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Illinois
+ Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9
+ Posts: 53
+
+( post #6)	 
+ 
+
+Well go ahead and take your balls and your rpm ease goodness hating stuff and go read nvidias stuff. I just wanted to help!!! 
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 05:09 PM	       
+         	            	    
+ 	
+
+XavierP
+ LQ Addict
+ 
+
+Registered: Nov 2002
+ Location: SE UK
+ Distribution: Red Hat 9.0, Slackware 9, JAMD Linux, Mandrake 9.1, SUSE 9.0 Professional, Win XP Pro
+ Posts: 2196
+
+( post #7)	 
+ 
+
+It is a good idea to put this sort of thing out, but the tone of this is that the author put it together from many other helpfiles - it actually looks as though they have summarised the ones on the NVidia site. The thing is, however unlikely, NVidia may change the install instructions and anyone cutting out and keeping the instructions above could give themselves problems. I would say that we should always read the official instructions first and look to these shortened instructions if anything is unclear. Good thought though.
+
+__________________
+"Oh, and any spelling/grammar errors in MY post are because your browser doesn't render what I'm typing correctly."  Nicked from justlinux.com Toshiba Satellite Pro A10, 30GB HD, 256 RAM, 2GHz Celeron Don't forget to Affero me! 
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 05:16 PM	       
+         	            	    
+ 	
+
+undershepherd
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Iowa
+ Distribution: SUSE 9.0
+ Posts: 56
+
+( post #8)	 
+ 
+
+I want to add my 2 1/2 cents. I too struggled for weeks with Mandrake 9, and the mouse thing. I tried downloading and installing updated drivers, kept getting errors. I printed out and followed SchwarzeFeen's directions, and wala, it works. I had a hard time understanding NVIdia's instructions, probably because I am a new newbie. So, thanks ScwarzeFeen, for your excellent directions. Finally, I can get to using Mandrake!!
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 11:33 PM	       
+         	            	    
+ 	
+
+Proud
+ Guru
+ 
+
+Registered: Dec 2002
+ Location: Ringwood, Hampshire, England
+ Distribution: Mdk9.2 PowerPack, Mdk9.1, Win98SE
+ Posts: 1842
+
+( post #9)	 
+ 
+
+quote:
+---------------------------------------------------------------------
+??? stands for your architecture. i386 is for the normal recent pentiums, i586 is for the old pentiums and i686 is for athlon
+---------------------------------------------------------------------
+
+Surely the older architecture is the lower number? 386 is old, 586 is quite new, and 686 is my nice new athlon? No?
+
+__________________
+How to get good answers with your questions about Linux A few helpful links | Installing the nVidia 4xxx drivers. Fluxbox 0.9.7 development release | Enlightenment 0.16.6-1 | Python 2.2.3 & 2.3.3. FluxAqua 1.4 | Met-Anti-Flux 1.0 | FluxMOD Fluxbox user community
+
+Report this post to a moderator | IP: Logged
+
+02-27-2003 11:56 PM	       
+         	            	    
+ 	
+
+kater
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Switzerland, Berne
+ Distribution: Slackware 9.0
+ Posts: 180
+
+( post #10)	 
+ 
+
+quote:
+---------------------------------------------------------------------
+Originally posted by SchwarzeFeen Well go ahead and take your balls and your rpm ease goodness hating stuff and go read nvidias stuff. I just wanted to help!!! 
+---------------------------------------------------------------------
+
+C'mon, I know that and I appreciate it! I would download the tarballs because if you compile the drivers yourself, you got less trouble. Or you could rebuild the *.rpm's.
+
+__________________
+Penguins eat fish && Slackware cooks it.
+
+Report this post to a moderator | IP: Logged
+
+02-28-2003 12:25 AM	       
+         	            	    
+ 	
+
+SchwarzeFeen
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Illinois
+ Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9
+ Posts: 53
+
+( post #11)	 
+ 
+
+I'm just joking around, I don't really wanna make fun of an expert, especially a swiss one!
+
+Report this post to a moderator | IP: Logged
+
+02-28-2003 04:36 AM	       
+         	            	    
+ 	
+
+snocked
+ Member
+ 
+
+Registered: Dec 2002
+ Location: St. Louis, MO
+ Distribution: Slackware 9.1
+ Posts: 431
+
+( post #12)	 
+ 
+
+The lower architecture is the older, so from oldest to newest: 386, 586, 686.
+
+__________________
+Linux User ID:276820 
+
+Report this post to a moderator | IP: Logged
+
+02-28-2003 04:46 AM	       
+         	            	    
+ 	
+
+kater
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Switzerland, Berne
+ Distribution: Slackware 9.0
+ Posts: 180
+
+( post #13)	 
+ 
+
+quote:
+---------------------------------------------------------------------
+Originally posted by SchwarzeFeen I'm just joking around, I don't really wanna make fun of an expert, especially a swiss one! 
+---------------------------------------------------------------------
+
+Uh, expert... Don't call me that. I just fucked up my whole system this morning. Had to reinstall Slackware... So just call me idiot Acutally, I'm from Italy, but livin' in Switzerland. Btw: This forum rocks! Really nice people!
+
+__________________
+Penguins eat fish && Slackware cooks it.
+
+Report this post to a moderator | IP: Logged
+
+02-28-2003 03:29 PM	       
+         	            	    
+ 	
+
+SchwarzeFeen
+ Member
+ 
+
+Registered: Feb 2003
+ Location: Illinois
+ Distribution: Redhat 8.0, 9, Slackware 9.0, Mandrake 9
+ Posts: 53
+
+( post #14)	 
+ 
+
+Hell yeah it does!
+
+Report this post to a moderator | IP: Logged
+
+02-28-2003 04:49 PM	       
+         	            	    
+ 	
+
+Proud
+ Guru
+ 
+
+Registered: Dec 2002
+ Location: Ringwood, Hampshire, England
+ Distribution: Mdk9.2 PowerPack, Mdk9.1, Win98SE
+ Posts: 1842
+
+( post #15)	 
+ 
+
+snocked, so I was right about "i586 is for the old pentiums" being wrong? Kinda makes me not trust this article so much...it needs to check it's facts.
+
+__________________
+How to get good answers with your questions about Linux A few helpful links | Installing the nVidia 4xxx drivers. Fluxbox 0.9.7 development release | Enlightenment 0.16.6-1 | Python 2.2.3 & 2.3.3. FluxAqua 1.4 | Met-Anti-Flux 1.0 | FluxMOD Fluxbox user community
+
+Report this post to a moderator | IP: Logged
+
+03-02-2003 05:01 PM	       
+         	            	    
+ 	
+
+All times are GMT. The time now is 02:14 AM.	       	   	  
+  	
+
+Pages (2): [1] 2 »  	    Last Thread     Next Thread   
+View New Posts 	
+
+Forum Sponsor: Dinix.com	
+Providing powerful, fully managed and monitored dedicated servers, virtual dedicated servers and colocation in a carrier-class InterNAP facility with direct connections to the InterNAP network, and other providers. Dinix.com	
+ 	
+ 		
+
+Similar Threads	 
+ Thread	  Thread Starter	 Forum	  Replies	  Last Post	 
+ service network restart - mandrake 9.1 problem 	 perry 	Linux - General 	 0 	 
+  Today 01:04 AM
+  by perry	    	  
+
+Strange problem with letters 	 Posty 	Slackware 	 0 	 
+  Today 12:27 AM
+  by Posty	    	  
+
+Sis 7012 Sound Problem With ALSA 	 labiere 	Linux - Hardware 	 1 	 
+  Yesterday 09:42 PM
+  by labiere	    	  
+
+Mplayer font problem 	 royals1216 	Linux - Software 	 1 	 
+  Yesterday 10:07 PM
+  by Crashed_Again	    	  
+
+Sendmail + Evolution problem 	 comment 	Linux - Newbie 	 1 	 
+  Today 12:05 AM
+  by trickykid	    	  
+
+CPU Heating problem! 	 cb951303 	Linux - Hardware 	 2 	 
+  Yesterday 10:07 PM
+  by cb951303	    	  
+
+Show Printable Version |   Email this Page |  Subscribe to This Thread  	
+
+Forum Jump:
+ 
+   
+Please select one:
+   
+--------------------
+   
+Private Messages
+   
+User Control Panel
+   
+Who's Online
+   
+Search Forums
+ 
+LinuxAnswers
+ 
+HCL
+ 
+Reviews
+   
+Forums Home
+   
+--------------------
+   
+2003 LinuxQuestions.org Members Choice Awards
+
+Linux - Software
+
+-- Linux - Games
+
+Linux - Hardware
+
+Linux - Laptop and Handheld
+
+Linux - General
+
+-- LinuxQuestions.org Member Success Stories
+
+-- LinuxAnswers Discussion
+
+Linux - Networking
+
+-- Linux - Wireless Networking
+
+Linux - Security
+
+Linux - Distributions
+
+-- Linux From Scratch
+
+-- Slackware
+
+---- Slackware - Installation
+
+-- Conectiva
+
+-- Debian
+
+-- Arch
+
+-- Mandrake
+
+-- Red Hat
+
+-- Libranet
+
+-- Fedora
+
+---- Fedora - Installation
+
+-- VectorLinux
+
+-- CollegeLinux
+
+-- DamnSmallLinux
+
+Linux - Newbie
+
+Other *NIX Forums
+
+*BSD
+
+Solaris
+
+AIX
+
+Non-*NIX Forums
+
+Programming
+
+General
+
+-- LinuxQuestions.org Member Intro
+
+Website Questions & Suggestions
+
+-- Interviews
+
+-- Community Bulletin Archive
+  
+ 	
+
+Rate This Thread:
+    
+Select a rating...
+   
+5 .. Best
+   
+4
+   
+3 .. Average
+   
+2
+   
+1 .. Worst
+  
+ 	
+
+Search this Thread:       
+ 	  
+ 	
+
+Forum Rules:
+ 
+   You may not post new threads
+  You may not post replies
+  You may not post attachments
+  You may not edit your posts  	   HTML code is OFF
+  vB code is ON
+  Smilies are ON
+  [IMG] code is OFF  	
+Please do not post your thread in more than one forum.	 
+
+   	
+
+//--> < LinuxQuestions Merchandise - Linux Man Pages > 
+< Contact Us - Rules - LinuxQuestions.org - Free Email > 
+< SETI@Home - Distributed.net - Donations - Advertising - Contributing Member > 
+
+Based on: vBulletin (© Jelsoft Enterprises)
+ Copyright ©2000 - 2004, LinuxQuestions.org.
+ 
+
+

@@ -1,0 +1,72 @@
+
+
+---------------------------------------------------------------------
+
+Contents Next: Using an Editor Up: Defining LISP functions Previous: Defining Functions: Defun 
+
+---------------------------------------------------------------------
+
+Local and Global Variables
+
+An important question that might occur to you is what would happen if you had set x to have some value, before using the function square? Try it out: 
+
+>(setf x 3)
+3
+
+>(square 345)
+119025
+
+>x
+3
+
+Setting x to 3 has no effect on the operation of square -- neither does the function square have a (lasting) effect on the value of x. This is because the interpreter makes a distinction between local variables and global variables. 
+
+Global variables have values that can be accessed by any function. The values of local variables are defined only relative to a certain ``block'' of code. The body of a function definition implicitly constitutes a code block. 
+
+In the definition of square, the variable list (x) tells the interpreter what variables are local to the body of the function, i.e. in this case x is a local variable while the block (* x x) is evaluated. 
+
+When you make a call to a square, e.g., (square 345), the interpreter assigns 345 as the value of x that is local to the function square. ``Local'' means that functions other than square do not know about this value for x. Inside the body of square the local value of x (e.g., 345) is preferred to the global value (e.g., 3) that you gave it at the top level. As soon as (square 345) returns 119025, the local value of x no longer is stored, and the only value of x the interpreter knows about is its global value, 3. 
+
+The rule the interpreter follows for evaluating symbols is that inside code blocks local values are always looked for first. If a local value for the variable does not exist, then a global value is sought. If no global value is found then the result is an error. This precedence order can be seen with the following example. First define the following function: 
+
+>(defun y-plus (x)
+   (+ x y))
+Y-PLUS
+
+If you have not assigned a value to y, then typing (y-plus 2) will give an error (unbound variable y). Now do the following: 
+
+>(setq y 2)
+2
+
+>(y-plus 4)
+6
+
+>(setq x 5)
+5
+
+>(y-plus 23)
+25
+
+>x
+5
+
+>(setq y 27)
+27
+
+>(y-plus 43)
+70
+
+Go through these examples (and try out others) to make sure you understand why they behave as shown. 
+
+The distinction between local and global variables is very important, and we will come back to it several times. If LISP is not your first programming language one of the most likely signs of an ``accent'' from the other language(s) is the overuse of global variables. Good LISP programmers use local variables as much as they can, rather than using global ones. Local variables disappear when the function that uses them is done. Global variables hang around for ever, so they take up more memory. 
+
+---------------------------------------------------------------------
+
+Contents Next: Using an Editor Up: Defining LISP functions Previous: Defining Functions: Defun 
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+© Colin Allen & Maneesh Dhagat 
+November 1999 

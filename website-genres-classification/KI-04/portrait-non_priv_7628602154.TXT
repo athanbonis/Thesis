@@ -1,0 +1,118 @@
+var DAYS_INTEREST_FREE = 180; var URL = "http://www.sonystyle.com/is-bin/INTERSHOP.enfinity/eCS/Store/en/-/USD/SY_ViewPopup-Start;sid=fhTrn_GHG6brn7GTCZLhlL6KgJo0fkx6Yks=?Template=general%2fsy_financing%2eisml";                    src="https://ehg-sonyelec.hitbox.com/HG?hc=&cd=1&hv=6&ce=u&hb=DM520626H5DE38EN3&aid=2000000010634&n=PUT+PAGE+NAME+HERE&vcon=CONTENT+CATEGORY&seg=&cmp=&gp=&cam=0&pv=0&product=PRODUCT&quantity=QUANTITY&price=PRICE&store=1&&tz=EST" border="0" width="1" height="1">  
+                  	         
+                       	        
+    	    				
+   
+  	      
+  	    
+         
+     	     
+     printCookie("miniBasket.items", "0")	      	     
+     printCookie("miniBasket.subtotal", "$ 0.00")	            var quote = getCookie("miniBasket.quote", "0");       if(quote!="NULL")       {        document.write("	");        document.write("
+");        document.write('$'+ quote +'/ mo	');       }             
+  	  
+
+all of Sony Style	  
+                     	  	in Televisions	       
+
+Hot Picks
+
+Great Deals
+
+Direct View
+
+Projection TVs
+
+Flat Panel TVs
+
+HDTV
+
+Stands
+
+Accessories
+
+WEGA� Showcase
+
+Free Shipping on All TVs! 	            	                   
+                 	             
+     	     	       
+  	
+
+Live Sales Help	                   
+
+WEGA Theatreâ¢ Configurator	                   
+
+Stands	                                      
+         	         	         Dealer Locator 	                                             
+
+Digital Demo Gallery	                   
+
+Learn About High Definition	                   
+
+Learn About Screen Sizes	                   
+
+Television Glossary	                   
+
+Why Sony?	                                                      
+
+   	 
+
+$30 Price Drop! 
+
+27" FD TrinitronÂ® WEGAÂ® TV 
+   $ 399.99
+    var initPrice = "$ 399.99";    var quote = getPayments(initPrice);    //var index = quote.indexOf("/");    //var quoteprice = quote.substring(0, index);    //var period = quote.substring(index + 1, quote.length);    if(quote!="NULL") {     document.write("as low as $");     document.write(quote);     document.write("/ ");     document.write("mo
+ Financing Details");    }    else {     document.write(" ");     document.write("
+");    }     		
+
+51" 16:9 Hi-ScanÂ® Projection Television 
+   $ 1,799.99
+    var initPrice = "$ 1,799.99";    var quote = getPayments(initPrice);    //var index = quote.indexOf("/");    //var quoteprice = quote.substring(0, index);    //var period = quote.substring(index + 1, quote.length);    if(quote!="NULL") {     document.write("as low as $");     document.write(quote);     document.write("/ ");     document.write("mo
+ Financing Details");    }    else {     document.write(" ");     document.write("
+");    }     		
+
+With a Free Stand - $349.99 value! 
+
+34" 16:9 XBRÂ® FD TrinitronÂ® WEGAÂ® TV 
+   $ 2,499.99
+    var initPrice = "$ 2,499.99";    var quote = getPayments(initPrice);    //var index = quote.indexOf("/");    //var quoteprice = quote.substring(0, index);    //var period = quote.substring(index + 1, quote.length);    if(quote!="NULL") {     document.write("as low as $");     document.write(quote);     document.write("/ ");     document.write("mo
+ Financing Details");    }    else {     document.write(" ");     document.write("
+");    }     		
+
+Direct View Projection TVs Flat Panel TVs HDTV Stands Accessories 	
+
+ 	     	     	    
+         	   	    	  
+
+$200 Mail in Rebate!
+
+65" 16:9 High Definition Pr
+       KDP-65WS550
+ 
+          $ 3,299.99
+    var initPrice = "$ 3,299.99";    var quote = getPayments(initPrice);    //var index = quote.indexOf("/");    //var quoteprice = quote.substring(0, index);    //var period = quote.substring(index + 1, quote.length);    if(quote!="NULL") {     document.write("as low as $");     document.write(quote);     document.write("/ ");     document.write("mo
+ Financing Details");    }    else {     document.write(" ");     document.write("
+");    }     	
+
+ 	     
+      			Simply Brilliant.
+
+42" Plasma WEGAâ¢ Flat Panel
+       KE-42XS910
+ 
+          $ 6,999.99
+    var initPrice = "$ 6,999.99";    var quote = getPayments(initPrice);    //var index = quote.indexOf("/");    //var quoteprice = quote.substring(0, index);    //var period = quote.substring(index + 1, quote.length);    if(quote!="NULL") {     document.write("as low as $");     document.write(quote);     document.write("/ ");     document.write("mo
+ Financing Details");    }    else {     document.write(" ");     document.write("
+");    }     	
+
+ 	 
+
+Yes! Keep me informed about Sony special offers, exclusive products, and new product information! 	        	                        
+          	          	          
+
+Site Map   |    Financing   |    Customer Care   |    Privacy Policy   |    Affiliate Program   |    Legal Info		       
+
+var checker="";                 checker="";                        checker="";                        checker="N";                      if(checker=="Y" || checker=="")      {           document.write("Order by phone: ");      document.write("(877) 865-SONY(7669) ");           }                                 �2002 Sony Electronics e-Solutions Company LLC. All rights reserved. 
+    	    
+
+

@@ -1,0 +1,36 @@
+
+
+Home	 
+Download	 
+Gallery	 
+Documentation	 
+FAQ	 
+Forum	 
+Add-ons	 
+Related Sites	 
+Revision Log	 
+Shatters.net	 
+
+Download 
+
+Windows Binary Package (11 megabytes) : celestia-win32-1.3.1-1.exe
+If want to run Celestia on Windows 95, 98, ME, 2000, XP, or NT 4.0, this is the only file you need. If you have a graphics card with less than 16 megs of memory, the Celestia package with low resolution textures is only 4.5 megabytes and will run better on your system.
+
+Source Package (11 megabytes) : celestia-1.3.1.tar.gz
+This source package can be used to build either the UNIX or Windows version of Celestia. On UNIX you may, and on Windows you certainly will, need to obtain LIBPNG and the Independent JPEG Group's JPEG library. Eventually, I'll get around to packaging these libraries up for Windows users who want to build Celestia from source code. 
+
+Linux RPMs : RPMs are available for SuSE and Mandrake Linux. The package is split into two parts: the textures RPM with all the planet texture maps, and the base RPM with everything else. Both are required in order to run Celestia. 
+
+Mandrake RPMS
+Base: celestia-kde-1.3.1-3mdk.i586.rpm
+Textures: celestia-kde-textures-1.3.1-3mdk.i586.rpm 
+
+SuSE 8 RPMS
+Base: celestia-kde-1.3.1-1.SuSE_8.x.i586.rpm
+Textures: celestia-kde-textures-1.3.1-1.SuSE_8.x.i586.rpm 
+
+MacOS X package : 1.3.1 from celestia-osx-1.3.1-1.dmg. 
+
+I appreciate any feedback on Celestia. Send bug reports, suggestions, constructive criticism, and hacks to claurel@shatters.net. 	
+
+Celestia is Copyright (C) 2002, Chris Laurel claurel@shatters.net 

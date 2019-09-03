@@ -1,0 +1,185 @@
+function multiAction(thisForm, action) {  thisForm.action.value = action;  if (action=="DELETE") {   thisForm.submit();  } else if (action=="APPEND" || action=="REPLY") {   if (thisForm.postname.value=="") {    alert("Please enter your full name.");    thisForm.postname.focus();   } else if (thisForm.postsubject.value==""){    alert("Please enter subject.");    thisForm.postsubject.focus();   } else if (thisForm.postmessage.value==""){    alert("Please enter message.");    thisForm.postmessage.focus();   } else    thisForm.submit();  }  return true; } Visitor No. 220504 from Germany.&nbsp&nbsp
+
+-- Translate this Page --
+
+English
+
+Spanish
+
+Portuguese
+
+French
+
+German
+
+Italian
+
+>">
+KENPLAS
+
+Plastics Projects
+
+Plastics Machinery
+
+Plastics Molds
+
+Plastics Products
+>">
+Contact KENPLAS
+
+Service & Support
+
+Join Discussion Forum
+>">
+Plastics Topics
+
+Plastics Links
+
+&#12288;	 
+       
+
+Forum Overview
+
+Blow Molding
+
+Injection Molding
+
+Extrusion Molding
+
+Resin & Additives
+
+Used Machinery
+
+Used Mold
+
+Education & Research
+
+Others
+
+PET Bottles Project
+by Neogie Plastics, on 11/6/2003 7:05:12 PM
+
+Pliz furnish us with new PET Bottles Project viable in country like India and also its export opportunities to other countries, along with Price list of all the machineries invoived in the production of finished ready to use PET Bottles for water, CSD, liquer, etc.
+
+Messages in this Thread
+
+PET Bottles Project&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp(Views 99) by Neogie Plastics, 11/6/2003 7:05:12 PM 	
+
+Name:  
+
+Email: 		
+Subject: 		
+
+Message:  
+
+> Pliz furnish us with new PET Bottles Project viable in country like India and also its export opportunities to other countries, along with Price list of all the machineries invoived in the production of finished ready to use PET Bottles for water, CSD, liquer, etc.	 
+            	
+ 	
+&#12288;	 
+Message Index
+
+Subject of Message	 Views	 Author / Time		 
+&nbsp&nbsp&nbsp New Re: Re: Filling water lines	0	MO ALBAWY, 1/26/2004 4:03:56 AM	
+&nbsp&nbsp&nbsp New Re: Re: Recycling of PET and PE post consumer bottles	6	Ani Piskova, 1/24/2004 7:15:41 AM	
+&nbsp&nbsp&nbsp New Re: Filling water lines	17	Hassan Abdeen, 1/21/2004 6:17:35 PM	
+Re: Re: PET bottling machinery for sale	44	Dr Aminu Shuaibu Safana, 1/19/2004 9:30:44 AM	
+&nbsp&nbsp&nbspRe: Re: Recycling of PET and PE post consumer bottles	12	KULDEEP KUMAR, 1/18/2004 6:53:19 PM	
+&nbsp&nbsp&nbspRe: blow moulding machine	30	sugianto, 1/12/2004 12:44:39 PM	
+&nbsp&nbsp&nbspRe: blow mounting systems	9	sugianto, 1/12/2004 12:44:03 PM	
+Re: blow mounting systems	17	tomas biterki, 1/12/2004 3:57:03 AM	
+&nbsp&nbsp&nbspblow mounting systems	19	tomas biterski, 1/12/2004 3:51:19 AM	
+PET raw Material	37	Jad Wehbeh, 1/5/2004 7:30:49 PM	
+blow moulding machine	63	Altayeb Obeid, 1/4/2004 1:33:23 AM	
+blow moulding machine	20	yousif Obeid, 1/4/2004 1:31:26 AM	
+ples awont aen the cd rom en the mahin	8	azadeen zen, 12/31/2003 3:59:05 AM	
+Re: Re: QUOTATION AND BUSINESS SUPPORT REQUEST	34	SANNOH, 12/29/2003 9:00:11 PM	
+Re: MOOG Parcon Jr. Parison Controller for sale.	18	Robin Enderby, BMC Controls Ltd. (UK), 12/22/2003 6:54:04 AM	
+&nbsp&nbsp&nbspRe: MOOG Parcon Jr. Parison Controller for sale.	15	Robin Enderby, BMC Controls Ltd. (UK), 12/22/2003 6:50:25 AM	
+Re: brochures	25	Ali Bachiani, 12/21/2003 4:33:39 AM	
+Re: brochures	12	Ali Bachiani, 12/21/2003 4:31:25 AM	
+&nbsp&nbsp&nbspRe: PET bottling machinery for sale	57	m s rashid, 12/17/2003 10:42:44 PM	
+Re: Re: Looking for a plastic granulator	23	enrique turner, 12/9/2003 7:15:49 AM	
+Re: Re: blow molding machine	36	CHIDI ONUOHA, 12/6/2003 10:10:03 PM	
+Re: blow molding machine	34	lavoisier Motassi, 11/27/2003 10:26:09 PM	
+&nbsp&nbsp&nbspRe: blow molding machine	33	CUOLLO LEONARDO \ SYDEX srl, 11/24/2003 12:28:54 AM	
+&nbsp&nbsp&nbspRe: blow molding machine	26	CUOLLO LEONARDO \ SYDEX srl, 11/24/2003 12:23:38 AM	
+&nbsp&nbsp&nbspRe: PET bottling machinery request.	75	Vaishali Rindani, 11/23/2003 3:25:55 AM	
+PET bottling machinery request.	125	Mehrdad Molavi, 11/22/2003 11:11:16 PM	
+&nbsp&nbsp&nbspRe: PET bottling machinery for sale	52	Mehrdad Molavi, 11/22/2003 11:05:15 PM	
+&nbsp&nbsp&nbspRe: Re: PET bottling machinery for sale	42	esteban arellano, 11/22/2003 12:08:43 PM	
+&nbsp&nbsp&nbspRe: demande des informations	20	Jad Wehbeh, 11/18/2003 6:01:33 PM	
+&nbsp&nbsp&nbspRe: demande des informations	16	Jad Wehbeh, 11/18/2003 5:34:01 PM	
+&nbsp&nbsp&nbspdemande des informations	56	CONSERVERIE CHAMPION, 11/18/2003 6:38:57 AM	
+Filling water lines	72	Jad Wehbeh, 11/13/2003 7:51:28 PM	
+&nbsp&nbsp&nbspRe: PET bottling machinery for sale	133	RAFAEL MARTINEZ, 11/11/2003 9:50:10 PM	
+&nbsp&nbsp&nbspbuisness	22	nour majid, 11/8/2003 2:41:04 AM	
+&nbsp&nbsp&nbspbuisness	19	NOUR MAJID, 11/8/2003 2:31:20 AM	
+brochures	25	Lily Fe Honorio, 11/8/2003 12:49:53 AM	
+brochures	15	Lily Fe Honorio, 11/8/2003 12:46:39 AM	
+PET Bottles Project	99	Neogie Plastics, 11/6/2003 7:05:12 PM	
+MOOG Parcon Jr. Parison Controller for sale.	54	J Palenik, 11/4/2003 11:52:38 PM	
+Product's related to Bottling Industries... Ask for it !!!	59	Vyomesh Patel, 11/3/2003 2:15:37 PM	
+&nbsp&nbsp&nbspRe: Looking for	29	jeff, 11/2/2003 6:20:28 AM	
+Re: Looking for	26	Hanan Onn, 10/24/2003 12:15:04 PM	
+&nbsp&nbsp&nbspRe: Order!!	45	Hanan Onn, 10/24/2003 12:09:23 PM	
+MCA-2P	28	rogerio, 10/24/2003 2:25:47 AM	
+&nbsp&nbsp&nbspRe: Recycling of PET and PE post consumer bottles	96	vijay boolani, 10/3/2003 11:17:04 AM	
+&nbsp&nbsp&nbspRe: Re: FOR SALE 2 x Sidel DSL Blow Moulding Systems	112	luis chacin, 10/1/2003 10:46:41 AM	
+Re: Re: Re: Re: PRICELIST	126	Excel Technical Distribution, 9/1/2003 11:10:58 PM	
+&nbsp&nbsp&nbspRe: Re: Re: PRICELIST	73	Excel Technical Distribution, 9/1/2003 11:10:26 PM	
+&nbsp&nbsp&nbspRe: Re: incontro	67	giovanni Biterski, 8/26/2003 6:38:19 AM	
+&nbsp&nbsp&nbspRe: incontro	120	Giancarlo Biterski, 8/26/2003 6:33:39 AM	
+&nbsp&nbsp&nbspRe: incontro	58	giancarlo, 8/21/2003 8:24:21 AM	
+&nbsp&nbsp&nbspincontro	244	giancarlo, 8/21/2003 8:22:56 AM	
+&nbsp&nbsp&nbspRe: Re: Re: address if iran	74	Kenplas, 8/12/2003 6:18:48 AM	
+&nbsp&nbsp&nbspRe: Re: address if iran	140	baghban, 8/11/2003 1:46:17 PM	
+Re: blow moulding	97	fddgg, 7/23/2003 7:08:07 PM	
+&nbsp&nbsp&nbspRe: blow moulding	68	kaustubh g., 7/23/2003 7:02:33 PM	
+blow molding machine	152	A.moneim Y.Omer, 7/23/2003 3:09:37 AM	
+Re: products	53	A.moneim Y.Omer, 7/23/2003 3:07:38 AM	
+&nbsp&nbsp&nbspRe: FOR SALE 2 x Sidel DSL Blow Moulding Systems	107	Ã§elen Ã¶zkamik, 7/21/2003 6:32:19 AM	
+PET bottling machinery for sale	512	Rubinco Used Machinery, 7/20/2003 3:58:23 AM	
+&nbsp&nbsp&nbspRe: products	80	Rubinco Used Machinery, 7/20/2003 3:51:31 AM	
+KenPlas Seler	352	Tomas Biterski, 7/19/2003 11:38:18 PM	
+products	138	A.moneim Y.Omer, 7/19/2003 3:00:14 AM	
+&nbsp&nbsp&nbspRe: Recycling of PET and PE post consumer bottles	80	AquaPur Caribe, 7/13/2003 7:53:01 AM	
+Recycling of PET and PE post consumer bottles	264	Karlheinz Herbold, 7/6/2003 8:34:16 AM	
+Re: Welcome to join our discuss forum!	46	Karlheinz Herbold, 7/6/2003 8:32:58 AM	
+Re: Re: Blow moulding	113	Don Doerner, 6/11/2003 9:29:00 AM	
+&nbsp&nbsp&nbspRe: FOR SALE 2 x Sidel DSL Blow Moulding Systems	278	Gabriel Veytia, 6/9/2003 10:40:25 PM	
+&nbsp&nbsp&nbspRe: new project	87	Abd alaziz Alfarsi, 6/4/2003 10:19:07 AM	
+new project	182	Abd alaziz Alfarsi, 6/2/2003 7:34:53 AM	
+Re: Welcome to join our discuss forum!	56	Abdalazizal farsi, 6/2/2003 7:29:06 AM	
+&nbsp&nbsp&nbspRe: Re: PRICELIST	193	THANASIS TSELLOS, 5/30/2003 4:11:02 AM	
+&nbsp&nbsp&nbspRe: blow moulding	83	SHAIKHA, 5/24/2003 1:57:20 AM	
+&nbsp&nbsp&nbspOrder!!	188	Hakim, 5/21/2003 11:13:38 AM	
+&nbsp&nbsp&nbspblow moulding	251	yousif al zarouni, 5/20/2003 11:12:16 AM	
+&nbsp&nbsp&nbspLooking for "Tiromat" Equipment in California	342	Barbra Metheny, 5/5/2003 2:31:20 PM	
+pet blowing	92	N.DEMIRLER, 4/29/2003 4:23:48 AM	
+&nbsp&nbsp&nbspRe: QUOTATION AND BUSINESS SUPPORT REQUEST	99	Chooi, 4/22/2003 7:29:00 AM	
+&nbsp&nbsp&nbspRe: Blow moulding	89	Luis Lacambra, 4/17/2003 12:40:21 PM	
+&nbsp&nbsp&nbspRe: Re: Blow moulding	77	Luis Lacambra, 4/17/2003 12:36:34 PM	
+Re: PRICELIST	323	Amersingh, 4/14/2003 7:43:44 PM	
+Re: Blow moulding	337	Dave Weber, 4/10/2003 10:56:47 AM	
+QUOTATION AND BUSINESS SUPPORT REQUEST	224	SAEM MY, 3/31/2003 8:34:00 PM	
+Re: Re: PRICELIST	85	SAEM MY, 3/31/2003 8:27:39 PM	
+&nbsp&nbsp&nbspRe: Re: Re: address if iran shoping	85	slamet, 3/16/2003 7:41:18 AM	
+KBII	85	Mrs Emony, 3/14/2003 3:52:45 PM	
+FOR SALE 2 x Sidel DSL Blow Moulding Systems	576	Andrew Laver, 3/12/2003 8:37:54 AM	
+&nbsp&nbsp&nbspRe: PRICELIST	164	Helmut Blanken, 3/9/2003 10:12:55 AM	
+Re: PRICELIST	269	Kemplas Forum-Blow molding machine, 1/16/2003 9:06:56 PM	
+PRICELIST	395	SERGNAZ HOLDINGS & PROPERTIES CORP., 1/16/2003 4:56:47 PM	
+Re: Welcome to join our discuss forum!	441	SERGNAZ HOLDINGS & PROPERTIES CORP., 1/16/2003 4:47:27 PM	
+Re: Re: address if iran shoping	226	kambiz, 12/18/2002 2:46:45 PM	
+Re: address if iran	280	kambiz, 12/18/2002 2:45:14 PM	
+&nbsp&nbsp&nbspRe: Blow moulding	183	ST, 12/13/2002 3:19:27 AM	
+Re: Blow moulding	277	JAMES H JONES, 11/17/2002 2:09:56 PM	
+Blow moulding	523	Peter Keating, 8/5/2002 11:31:21 PM	
+Zero Light Transmisson in blow molded bottles	213	Barb, 8/5/2002 11:29:46 PM	
+Welcome to join our discuss forum!	142	Kenplas Webmaster, 7/5/2002 2:55:48 AM	 
+
+&#12288;	 
+
+[Plastics Project]	[Plastics Machinery]	[Plastics Mold]	[Plastics Products]	[Contact KENPLAS]	
+Copyright �2002 Kenplas Industry Ltd.              Powered by Alentus.	
+ 

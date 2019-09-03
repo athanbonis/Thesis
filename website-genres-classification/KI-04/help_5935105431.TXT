@@ -1,0 +1,31 @@
+
+
+Hypertext Help with LaTeX
+
+LaTeX is a word processing (or, more accurately, a typesetting) program. It typesets a file of text using the TeX program and the LaTeX Macro package for TeX. It does this by processing an input file containing the text of a document with interspersed commands that describe how the text should be formatted.
+
+Unike many word processing programs, which concentrate on formatting material on the page (often called WYSIWYG, for "what you see is what you get"), LaTeX concentrates on "content." LaTeX is a Generalized Mark-up Language macro package for the TeX typesetting program. That is, one specifies the structure: sections, title, appendix, authors' names, etc., which bear little relation to how this will look on a page. That is determined by the document style files (*.sty); standard ones are provided for such things as articles, reports, books, and letters. However, these style files may be readily replaced by others, giving a completely different look. Of course, it is possible in LaTeX to specify much about the physical layout, but this tends to be done with commands that define things like space between lines or amount to indent paragraphs rather than by positioning each piece of text on the page as is typical in WYSIWYG systems.
+
+LaTeX produces as output a Device Independent (*.dvi) file that contains commands that can be translated into commands for a variety of output devices. It also produces a transcript or log (*.log) file that contains summary information and diagnostic messages for any errors discovered in the input file and an auxiliary (*.aux) file which contains cross refererence information for Tables, citations, etc. It is sometimes necessary to run LaTeX twice so that it has correct cross reference information, especially when modifications have changed the numbering.
+
+These hypertext help files are meant to provide reference information for those with some familiarity with LaTeX. They are not an introduction or tutorial.
+
+Download This Guide 
+How to obtain this complete guide without making 246 requests.
+ 
+Table of Contents 
+Links to help by subject, LaTeX command, or environment.
+ 
+Notes on Versions 
+LaTeX 2.09 and LaTeX2e.
+ 
+LaTeX Resources on the Web 
+Including REVTeX, AMSTeX, and AASTeX.
+ 
+Reference Books 
+Mirrors of This Site 
+Copies of these files which might provide faster access.
+ 
+About These Files 
+---------------------------------------------------------------------
+These pages were originally created by Dr. Sheldon Green, who passed away in December 1995. Subsequent updates have been made only for purposes of page formatting and link verification. 

@@ -1,0 +1,29 @@
+
+
+ 	  	  	  	 
+
+AMERICA
+ Canada
+ North America
+ South America 
+South Pacific	 INTERNATIONAL
+ Japan & Korea
+ China & Hong Kong
+ Taiwan & Australia
+ Near & Middle East
+ India & Africa
+ South & South East Asia	 EUROPE
+ North & West Europe
+ South & East Europe
+ Russian Federation
+ North Africa
+ ...	 CENTRAL EUROPE
+ Deutschland
+ Österreich
+ Schweiz
+ France
+ Italy
+ ...	 
+ 
+
+'&dummy=' + (new Date()).getTime() + '">') //--> 

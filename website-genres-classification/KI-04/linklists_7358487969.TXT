@@ -1,0 +1,244 @@
+  a:link {  text-decoration: none;  color: #000000; } a:visited {  text-decoration: none;  color: #666666; } a:hover {  text-decoration: underline; } a.headline {  text-decoration: none;  font-size: 14px;  font-family: Arial;  color: #000000; } a.sb_headlines {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #000000; } a.link_red {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #A41404; } a.link_red:visited {  text-decoration: none;  color: #A41404; } a.link_blue {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #4D6A89; } .text {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #000000; }  .text_blue {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #4D6A89; }  .text_red {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #A41404; }  .text_rev {  text-decoration: none;  font-size: 12px;  font-family: Arial;  color: #FFFFFF; } .text_large {  text-decoration: none;  font-size: 15px;  font-family: Arial;  color: #000000; }  .text_sm {  text-decoration: none;  font-size: 11px;  font-family: Arial;  color: #000000; } .text_sm_rev {  text-decoration: none;  font-size: 11px;  font-family: Arial;  color: #FFFFFF;  }   .title_caps {  text-transform: uppercase;  font-size : 12px;  font-weight : bold;  font-family: Arial;  color: #FFFFFF; } .titlebar {  text-decoration: none;  font-size: 16px;  font-family: Arial;  font-weight: bold;   color: #FFFFFF; } .titlebar_black {  text-decoration: none;  font-size: 16px;  font-family: Arial;  font-weight: bold;   color: #000000; } .titlebar_red {  text-decoration: none;  font-size: 16px;  font-family: Arial;  font-weight: bold;   color: #A41404; } .titlebar_blue {  text-decoration: none;  font-size: 16px;  font-family: Arial;  font-weight: bold;   color: #4D6A89; } IMG {  border-color: #4D6A89; }    
+      	
+ 
+
+Search Site:	  	    	   
+  	      	  
+
+  America's Oldest Journal Covering the Newspaper Industry	 Sunday, January 25, 2004  	 
+
+    
+Site Index
+  
+Home
+  
+Top Stories
+  
+NewsPeople
+  
+News Links
+  
+Letters
+  
+Obituaries
+  
+- - - - - - - - - - - - - - - -
+  
+Departments
+  
+- Business
+  
+- Ad/Circ
+  
+- Newsroom
+  
+- Technology
+  
+- Online
+  
+- Syndicates
+  
+- - - - - - - - - - - - - - - -
+  
+Columns
+  
+- Americas Extra
+  
+- Ethics Corner
+  
+- Five Questions
+  
+- ForestWeb's Newsprint
+  
+- Pressing Issues
+  
+- Newspaper 2.0
+  
+- Operations
+  
+- Shoptalk
+  
+- Get Me Rewrite
+  
+- Stop the Presses
+  
+- Syndicate World
+  
+- Newspaper Beat
+  
+- - - - - - - - - - - - - - - -
+  
+Resources
+  
+- Newspaper Directory
+  
+- E&P Publications
+  
+- Journalism Schools
+  
+- Newsletters
+  
+- Industry Calendar
+  
+- E&P Conference
+  
+- EPpy Awards
+  
+- E&P Photo Contest
+  
+- - - - - - - - - - - - - - - -
+  
+Magazine
+  
+- E&P in Print
+  
+- Subscribe
+  
+- Archive Search
+  
+- FAQ
+  
+- - - - - - - - - - - - - - - -
+  
+About Us
+  
+- Advertising Opportunities
+  
+- About Us
+  
+- Contact Us
+  
+- Media Kit
+  
+- Editorial Calendar
+  
+- - - - - - - - - - - - - - - -
+  
+Classifieds
+  
+ 	   
+ 	  
+ 	  
+ 	
+     document.home.src='/eandp/images/nav/home_button_up.gif';   	
+
+Charlotte Paper Gears Up for Panthers Super Bowl Visit While its newspaper counterparts in New England are experienced in covering championship teams, The Charlotte (N.C.) Observer is in uncharted territory when it comes to staffing a local team's rise to the Super Bowl. - January 23, 2004 	
+
+Scripps Newspapers Up 1.2% on Better Ad Numbers Despite continued softness in local retail and help-wanted advertising, as well as higher newsprint costs, The E.W. Scripps company Thursday reported that revenues for its newspaper division were up slightly in the fourth quarter. - January 22, 2004 	
+
+Kerry, Clark Split N.H. Endorsements The Iowa caucus is now old news with the New Hampshire primaries looming. This week E&P surveyed the Granite State's dailies to find out whom they have or will be endorsing as Democratic presidential candidate. - January 22, 2004 	
+    	  
+    
+   
+ 	  
+     
+       
+EPpy Entries Due Monday Jan. 26 	
+Hollinger Inc. Hires Lawyers to Defend Against Suit 	
+Sentencing Soon for P.I. Charged With Threatening Reporter 	
+Canadian Police Search of Reporter's Home Condemned 	
+Judge Closes Key Hearing in Bryant Case 	
+Knight Ridder Profits Up 2% as Ad Revenues Rise Slightly 	
+The Endorsement That Mattered in Iowa 	
+    	    
+    | This week's top stories   	    
+ 	  
+  	      	
+
+Changes on Tap for 'Boston Globe Magazine' 	
+
+Claim: As TV Fragments, Newspapers Are Last Mass Medium 	
+  	
+
+'NY Times' Promotes 'Real Jobs, Right Now' 	
+
+Suburban DC Publisher: Free Papers are the Future 	
+  	
+
+The Endorsement That Mattered in Iowa 	
+
+New Spanish-Language Stylebook From NAHJ 	
+  	
+
+'FT' Inkjet Messages Lead to Custom Solution 	
+
+Web Election Module Brings Candidate News Online 	
+  	
+
+Campaign Blogs Question Traditional Media 	
+
+AP Launches Web State News Service 	
+  	
+
+Dave Barry Covers Dems 	
+
+American Girl Column Launching 	
+  	
+
+---------------------------------------------------------------------
+
+Search Job Listings	     
+  	  Browse Positions Wanted	     
+  	  Search Equipment & Services	     
+  	    
+  	    
+  
+ 	  
+   
+   
+         
+Resume Advice How to Create a Resume That Wins Interviews 	
+         	   
+ 	  
+ 		    
+ 	  
+     
+          
+Buckingham Appointed VP, CFO for 'San Jose Mercury News' Lisa Buckingham has been appointed vice president and chief financial officer for the San Jose Mercury News. She joined the newspaper in 1997.	 
+
+Minnesota 'Faribault Daily News' Names Publisher/Editor Paula Patton has been named publisher and editor of the Faribault Daily News in Minnesota. She most recently served as its general manager. 	
+        | More newspeople   
+
+Hall of Fame Keeps Baseball Writers on Top But Who Is in the Secretive BBWAA? - by Joe Strupp - January 19, 2004 	
+
+Thinking Big at 'La Opinion' Jose Lozano Explains Merger With Big Venture Capital Firm - by Mark Fitzgerald - January 19, 2004 	
+
+News Is Really Continuous at washingtonpost.com 2nd Coming of Joe Gibbs Illustrates Operation - by Steve Outing - January 14, 2004 	
+        | More columns   
+
+---------------------------------------------------------------------
+
+Following Mom and Dad Into the NewsroomEleven sets of parents and kids talk about how and why the news bug got passed from generation to generation. New Challenges for Papers Covering Native AmericansWith some Native Americans gaining wealth and local influence, newspapers on and off "the Rez" face a new set of challenges. Busy First Year for NewsplexIn its first year of operation, Ifra's Newsplex in Columbia, S.C., has hosted journalists from around the world, all eager to learn about news reporting of tomorrow.      	    
+    | Read full issue   	    
+ 	  
+ 	    
+   
+ 	  
+     
+      (Click on photo to enlarge) 
+You Call This Winter? Mari Darr-Welch, The Northwest Florida Daily News, Fort Walton Beach, Fla. A partially submerged camera in the Choctawatchee Bay in Fort Walton Beach, Fla., captures seagulls flying over at sunset. 	
+     	    
+    | Entry details
+  | View the 2003 Photos of the Year   
+
+---------------------------------------------------------------------
+
+'Daily Clintonian' Loses $235K Libel Verdict The Indianapolis Star Canadian Union Targets Abitibi for Talks Reuters (via Yahoo) Newspapers: The Last Mass Medium? Toronto Star Media Companies Look Forward to 2004 CBS Marketwatch Conrad Black's Fatal Mistake: Taking on America The Spectator, London      	    
+  | More news links	     
+  	  
+ 	         	  
+
+ >	  ADWEEK	    
+  >	  BRANDWEEK	    
+  >	  MEDIAWEEK	    
+  >	  SALES & MARKETING MANAGEMENT	    
+  >	  TECHNOLOGY MARKETING	     
+  >	  SRDS	   
+
+SUBSCRIBE | FAQ | ADVERTISING OPPORTUNITIES | ABOUT US | CONTACT US | SITE MAP   
+        
+ © 2004 VNU eMedia Inc. All rights reserved. Terms  Of Use and Privacy  Policy.   	  
+ 	  
+  		
+
+

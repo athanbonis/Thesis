@@ -1,0 +1,1696 @@
+
+
+ExPASy Home page	 Site Map	 Search ExPASy	 Contact us	 
+
+Hosted by NCSC US	Mirror sites:	Australia	 Bolivia	 Canada	 China	 Korea	 Switzerland	 Taiwan	 
+
+Search 
+Swiss-Prot/TrEMBL 
+Swiss-Prot/TrEMBL (full text) 
+PROSITE 
+SWISS-2DPAGE 
+ENZYME 
+NEWT Taxonomy 
+HAMAP families 
+ExPASy web site 
+for 	
+
+Amos' WWW links page
+
+Release 5.51 / March 25, 2003 (>1000 links!!)
+
+This list contains almost exclusively pointers to information sources for life scientists with an interest in biological macromolecules. Links to protein sequence, 3D structure and 2D-gel analytical tools are provided on the ExPASy server, and more specifically from its Proteomics tools page. Links to Geneva and Swiss biological servers, institutes, etc. are on the Local page of ExPASy. Finally, if you don't find what you want here, do not forget to use our BioHunt molecular biology information search engine.
+
+If you think that I should add a specific link, then send me the relevant details, but I reserve the right to choose what I want to include in this page!
+
+Notes: 
+
+* 1) the URL for this page is http://www.expasy.org/alinks.html 
+* 2) if you are surprised to get this page because you wanted to access the document "List of on-line and email molecular biology services", you should know that this document is obsolete and is replaced by this Web list. 
+
+---------------------------------------------------------------------
+Quick jump to the following topics: 
+
+Proteins db | 3D structure db | 2D-PAGE & MS db | DNA/RNA db | Carbohydrates db | Organisms specific db | Human mutation db | Genes/proteins specific db | PTM db | Phylogenetics db | Microarrays db | Patents | References | Dict., primers &&nbsp;nomenclat. | Biol. soft. &&nbsp;db catalogs | Gateways | Biol. journals &&nbsp;publishers | Biol. societies | Biocomputing servers | Biotech. companies | Bioinformatics companies | Java in BioMol | Misc. medical ref. sites | Misc. scientific ref. sites | Misc. general ref. sites | News | Computing | Recreational | Miscellaneous 
+
+---------------------------------------------------------------------
+
+Biolinks
+
+Protein and associated topics databases 
+
+* Swiss-Prot - Swiss-Prot annotated protein sequence db 
+* Kabat - Kabat db of sequences of proteins of immunological interest 
+* PMD - Protein Mutant db
+
+* InterPro - Integrated Resources of Proteins Domains and Functional Sites 
+* PROSITE - PROSITE dictionary of protein sites and patterns 
+* BLOCKS - BLOCKS db 
+* Pfam - Protein families db (HMM derived) [Mirror at St. Louis (USA)] 
+* PRINTS - Protein Motif fingerprint db 
+* ProDom - Protein domain db (Automatically generated) 
+* PROTOMAP - An automatic hierarchical classification of Swiss-Prot proteins 
+* SBASE - SBASE domain db 
+* SMART - Simple Modular Architecture Research Tool 
+* TIGRFAMs - TIGR protein families db
+
+* BIND - Biomolecular Interaction Network db 
+* DIP - Db of Interacting Proteins 
+* MINT - Molecular INTeractions 
+* ProNet - Protein-Protein interaction db 
+
+Back to TOP 
+
+Protein 3D structure and associated topics databases 
+
+* PDB - Protein Data Bank 
+* BioMagResBank - Repository for data on proteins, peptides, and nucleic acids from NMR spectroscopy 
+* SWISS-MODEL Repository - Automatically generated protein models db 
+* ModBase - Db of comparative protein structure models 
+* CATH - UCL BSM structural classification of proteins 
+* SCOP - Structural classification of proteins [Mirror at USA | Israel | Singapore | Australia] 
+* Mol_R_Us - Molecules R Us, browser for PDB 
+* BMM Domain Server - Biomolecular Modelling Laboratory (ICRF) protein domain server 
+* PRESAGE - Collaborative resource for structural genomics 
+* ReLiBase - Receptor/ligand complexes db [Mirror in USA] 
+* TOPS - Protein topology atlas 
+* CCDC - Cambridge Crystallographic Data Center (Cambridge Stuctural Db (CSD)) 
+* HSSP - Homology-derived secondary structure of proteins db 
+* MutaProt - Comparison of PDB files which differ by point mutations
+
+* SWISS-3DIMAGE - 3D images of proteins and other biological macromolecules 
+* BioImage - Biological image db (contains imaging data on macromolecules) 
+
+Back to TOP 
+
+Protein 2D-PAGE and MS databases 
+
+* WORLD-2DPAGE - A complete index of 2D-PAGE db and servers 
+* Phoretix links - Phoretix page of links to 2D gel db 
+
+Back to TOP 
+
+Nucleotide and associated topics databases 
+
+* EMBL - EMBL Nucleotide sequence db (EBI) 
+* Genbank - GenBank Nucleotide Sequence db (NCBI) 
+* DDBJ - DNA Data Bank of Japan 
+* dbEST - dbEST (Expressed Sequence Tags) db (NCBI) 
+* dbSTS - dbSTS (Sequence Tagged Sites) db (NCBI)
+
+* NDB - Nucleic Acid Databank (3D structures) 
+* BNASDB - Nucleic acid structure db from University of Pune
+
+* AsDb - Aberrant Splicing db 
+* ACUTS - Ancient conserved untranslated DNA sequences db 
+* Codon Usage Db 
+* EPD - Eukaryotic Promoter db 
+* HOVERGEN - Homologous Vertebrate Genes db 
+* IMGT - ImMunoGeneTics db [Mirror at EBI] 
+* ISIS - Intron Sequence and Information System 
+* RDP - Ribosomal db Project 
+* gRNAs db - Guide RNA db 
+* PLACE - Plant cis-acting regulatory DNA elements db 
+* PlantCARE - Plant cis-acting regulatory DNA elements db 
+* sRNA db - Small RNA db 
+* ssu rRNA - Small ribosomal subunit db 
+* lsu rRNA - Large ribosomal subunit db 
+* 5S rRNA - 5S ribosomal RNA db 
+* tmRNA Website 
+* tmRDB - tmRNA dB 
+* tRNA - tRNA compilation from the University of Bayreuth 
+* uRNADB - uRNA db 
+* RNA editing - RNA editing site 
+* RNAmod db - RNA modification db 
+* SOS-DGBD - Db of Drosophila DNA sequences annotated with regulatory binding sites 
+* TelDB - Multimedia Telomere Resource 
+* TRADAT - TRAnscription Databases and Analysis Tools 
+* Subviral RNA db - Small circular RNAs db (viroid and viroid-like)
+
+* MPDB - Molecular probe db 
+* OPD - Oligonucleotide probe db 
+* VectorDB - Vector sequence db (seems dead!) 
+
+Back to TOP 
+
+Carbohydrates resources 
+
+* TGN - The Glycoscience Network 
+* FCCA - Forum Carbohydrates Coming of Age 
+* CARBHYD - Carbohydrate information WWW sites 
+* GlycoSuiteDB - Db of glycan structures 
+* Monosacharide browser - Space filling Fischer projection for monosaccharides 
+* Thorkild's lectin page - Gateway to lectins 
+
+Back to TOP 
+
+Species specific databases 
+Human 
+
+* OMIM - Online Mendelian Inheritance in Man 
+* GENATLAS - Human genes atlas 
+* GeneClinics - Medical genetics knowledge base 
+* GDB - Genome Data Base 
+* GeneCards - Db integrating information on human genes 
+* UDB - Unified db for Human genome mapping 
+* Ensembl Human genome browser 
+* UCSC human genome working draft 
+* TIGR HGI - TIGR Human Gene Index 
+* Hs UniGene - Human transcripts in GenBank (EST clusters) 
+* STACK - Sequence Tag Alignment and Consensus Knowledgebase (Db of consensus human ESTs) 
+* Allgenes.org - Human predicted gene index/catalog 
+* GenLink - Human genetics resource 
+* GeneLynx - Portal to the human genome 
+* GENOTK - Human cDNA db 
+* HUGE - Human Unidentified Gene-Encoded large proteins cDNA (KIAA...) 
+* HUNT - Human Novel Transcripts 
+* CGAP - Cancer Genome Anatomy Project 
+* MGC - Mammalian Gene Collection 
+* SCDb - Stem cell db 
+* Homophila - Human Disease to Drosophila gene db
+
+* Chr1 at Rutgers - Human chromosome 1 at Rutgers 
+* Chr1 at Sanger - Sanger Center chromosome 1 project 
+* Chr1 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 1 
+* Chr2 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 2 
+* Chr3 - Human chromosome 3 db at the University of Texas Health Science Center 
+* Chr3 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 3 
+* Chr4 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 4 
+* Chr5 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 5 
+* Chr6 at Sanger - Sanger Center chromosome 6 project 
+* Chr6 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 6 
+* Chr7 - Human chromosome 7 db at Ontario's Hospital for Sick Children 
+* Chr7 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 7 
+* Chr8 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 8 
+* Chr9 at Sanger - Sanger Center chromosome 1 project 
+* Chr9 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 9 
+* Chr9 - Human chromosome 9 db 
+* Chr10 at Sanger - Sanger Center chromosome 10 project 
+* Chr10 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 10 
+* 11DB - Human chromosome 11 db at Imperial College (U.K.) 
+* Chr11 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 11 
+* Chr12 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 12 
+* Chr13 at Sanger - Sanger Center chromosome 13 project 
+* Chr13 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 13 
+* Chr14 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 14 
+* Chr15 UBC - Human chromosome 15 WWW page at UBC 
+* Chr15 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 15 
+* Chr16 LANL - Human chromosome 16 db at Los Alamos National Laboratory 
+* Chr16 TIGR - Human chromosome 16 db at TIGR 
+* Chr16 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 16 
+* Chr17 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 17 
+* Chr18 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 18 
+* Chr18 - Human chromosome 18 at Boston Children's Hospital 
+* Chr19 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 19 
+* Chr20 at Sanger - Sanger Center chromosome 20 project 
+* Chr20 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 20 
+* Chr21 at RIKEN - Human chromosome 21 genome site at RIKEN (Japan) 
+* Chr21 at ERI - Human chromosome 21 genomic sequence db from the Eleanor Roosevelt Institute 
+* Chr21 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 21 
+* Chr22 at Sanger - Sanger Center chromosome 22 project 
+* Chr22 at HGC - Human genome center for chromosome 22 
+* Chr22 Swiss-Prot list - Links to Swiss-Prot entries from human chromosome 22 
+* ChrX at Sanger - Sanger Center chromosome 1 project 
+* IXDB - Integrated X chromosome db 
+* ChrX Swiss-Prot list - Links to Swiss-Prot entries from human chromosome X 
+* ChrY Swiss-Prot list - Links to Swiss-Prot entries from human chromosome Y 
+
+Vertebrates 
+
+* OMIA - Online Mendelian Inheritance in Animals
+
+* MGI - Mouse Genome Informatics (includes MGD) [Mirrors in Australia | UK | Japan] 
+* Ensembl Mouse genome browser 
+* TIGR MGI - TIGR Mouse Gene Index 
+* Mm UniGene - Mouse transcripts in GenBank (EST clusters) 
+* MGC - Mammalian Gene Collection 
+* Mouse gene knockouts db 
+* Mouse chromosome 16 at Celera
+
+* RGD - Rat genome db 
+* RatMAP - Rat genome db 
+* TIGR RGI - TIGR Rat Gene Index 
+* Rn Unigene - Rat transcripts in GenBank (EST clusters)
+
+* BovBASE - Bovine genome db (in UK) 
+* BOVMAP - Bovine genome db (in France) 
+* Ark-Cat - Cat genome db 
+* HorseBASE - Horse genome db 
+* DGP - Dog Genome Project 
+* PiGBASE - Pig genome db 
+* SheepBASE - Sheep genome db (also known as SheepMap) 
+* MIS - Mendelian Inheritance in Sheep
+
+* Chickmap - Chicken genome db (ChickBase) 
+* Turkey mapping db
+
+* FishBase - Global information system on fishes 
+* Fugu genome project 
+* Fugu - HGMP Resource Centre Fugu Project (Fugu rubripes) 
+* Ensembl Fugu genome browser 
+* Medakafish - Mekada fish (Oryzias latipes) server 
+* Ark-Tilapia - Tilapia mossambica genome db 
+* The fish net - Zebrafish server 
+* Ensembl Zebrafish genome browser 
+
+Mitochondrion and chloroplast 
+
+* GOBASE - Organelle Genome Database 
+* MitoDat - Mendelian Inheritance and the Mitochondrion db (mitochondrial nuclear genes) 
+* MITOMAP - Human mitochondrial genome db 
+* MmtDB - Metazoa mitochondrial DNA variants db 
+* MitBASE - Integrated mitochondrial DNA db 
+* MitBASE-Pilot - Db of S.cerevisiae nuclear genes involved in mitochondrial biogenesis 
+* HvrBase - Primates mtDNA control region sequences compilation 
+* MOUSE - Mitochondrial and Other Useful SEquences (human and apes mit. DNA db)
+
+* C.caldarium - Cyanidium caldarium strain RK1 chloroplast genome 
+
+Insects 
+
+* Drosophila Swiss-Prot list - Links to Drosophila Swiss-Prot entries 
+* FlyBase - Drosophila genetic and molecular db [Mirror at EBI] 
+* BDGP - Berkeley Drosophila Genome Project 
+* FlyView - Drosophila image db 
+* GIFTS - Gene Interactions in the Fly Trans-World Server 
+* FlyNets - Db of molecular interactions in Drosophila melanogaster 
+* Drosophila P450 Web site 
+* Homophila - Human Disease to Drosophila gene db
+
+* Mosquito Genomics 
+* AnoDB - Anopheles gambiae db 
+* Ensembl Mosquito genome browser 
+
+Invertebrates 
+
+* WormBase - C.elegans db [Mirror at Sanger] 
+* C.elegans WWW server - at University of Texas Southwestern 
+* ACeDb - Caenorhabditis elegans db 
+* C.elegans Mitochondrial Directory - Data on C.elegans genes for mitochondrial proteins 
+* C.elegans EST - C.elegans EST db from Japan (Yuji Kohara's group) 
+* C.elegans Swiss-Prot list - Links to C.elegans Swiss-Prot entries 
+* WormPep - C.elegans proteins db 
+* WorfDB - C. elegans ORFeome cloning project 
+* WormPD - C.elegans protein db
+
+* DictyBase - Dictyostelium discoideum db 
+* DictyDb - Dictyostelium discoideum db 
+* Dictystelium Genome Sequencing project at BCM 
+* Dictyostelium discoideum genome project at IENA 
+* Dicty_cDB - Dictyostelium discoideum cDNA project
+
+* Cone shells Web site
+
+* Parasite genomes db and resources 
+* Parasite genomes WWW site
+
+* PlasmoDB - P.falciparum genome db 
+* Malaria - WHO - Malaria db (from WHO) 
+* P.falciparum Sanger - P.falciparum genome project at Sanger 
+* PFDB - Plasmodium falciparum Genome db 
+* P.falciparum - Plasmodium falciparum Gene Sequence Tag project 
+* MAD - Malaria Antigen db 
+* Malaria parasite metabolic pathways
+
+* Giardia lamblia genome project 
+* LGN - Leishmania Genome Network 
+* ToxoDB - Toxoplasma gondii genome project 
+* Trypanosoma brucei genome project 
+* Trypanosoma cruzi genome project 
+* kDNA - Kinetoplast Minicircle Sequence db 
+
+Plants 
+
+* NAL - AGIS - Access to many plant genome databases at the National Agricultural Library 
+* Mendel - Plant gene nomenclature database from CPGN
+
+* Arabidopsis Swiss-Prot list - Links to A.thaliana WWW sites and to Swiss-Prot entries 
+* TAIR - The Arabidopsis Information Resource 
+* MATDB - MIPS Arabidopsis thaliana db 
+* TIGR At - TIGR Arabidopsis thaliana db 
+* Arabidopsis ABC transporters 
+* AMPL - Arabidopsis Membrane Protein Library 
+* Arabidopsis at PlaCe - Site with info on P450, glucosyltransferases, etc.
+
+* Gramene - A comparative mapping resource for grains 
+* RGP - Rice Genome Research Program 
+* Oryzabase - Japanese rice genome db 
+* Rice genome project at Wisconsin 
+* Rice-research.org - Monsanto rice genome site 
+* TIGR OsGI - TIGR Rice Genome project
+
+* BeanGenes - Beans genome db 
+* BeanRef - Beans genome db and other resources 
+* Chlamydomonas resource center 
+* ChlamyDB - Chlamydomonas reinhardtii genome db 
+* CottonDB - Cotton genome db 
+* MaizeDb - Maize genome db 
+* INRA Maize - INRA Maize genome db 
+* Pisum sativum (pea) web site 
+* TIGR Potato - TIGR Potato Functional Genomics project 
+* TIGR GmGI - TIGR Soybean Gene Index 
+* Snapdragon (A.majus) web site 
+* SorghumDB - Sorghum genome db 
+* SoyBase - Soybean genome db 
+* SoyBase metabolic db - Metabolic subset of the soybean genome db 
+* TIGR LeGI - TIGR Tomato Gene Index 
+* Dendrome - Forest trees genome db 
+
+Fungi 
+
+* FGSC - Fungal Genetics Stock Center 
+* FGR - Fungal Genome Resource
+
+* Yeast Swiss-Prot list - Links to S.cerevisiae WWW sites and to Swiss-Prot entries 
+* CYGD - MIPS Comprehensive Yeast Genome db 
+* SGD - Saccharomyces genome db 
+* MitBASE-Pilot - Db of S.cerevisiae nuclear genes involved in mitochondrial biogenesis 
+* Yeast snoRNA - Yeast small nucleolar RNAs db 
+* YTPdb - Yeast Transport Protein db 
+* YMPL - Yeast Membrane Protein Library 
+* PathCalling - Yeast protein-protein interaction db
+
+* S.pombe Swiss-Prot list - Links to S.pombe WWW sites and to Swiss-Prot entries 
+* GeneDB_SPombe - Schizosaccharomyces pombe GeneDB 
+* S.pombe genome project 
+* S.pombe NIH - S.pombe server at the NIH 
+* Forsburg lab pombe pages
+
+* AGD - Ashbya genome db 
+* Aspergillus web site 
+* C.albicans Swiss-Prot list - Links to C.albicans WWW sites and to Swiss-Prot entries 
+* Candida albicans - Candida albicans server at the Univ. of Minnesota 
+* CandidaDB - Candida albicans genome db 
+* Neurospora crassa db 
+* NGP - Neurospora crassa genome project 
+* PC - Pneumocystis carinii genome project 
+* Phycomyces Web site - Resource site for scientists working on Phycomyces 
+
+Bacteria 
+
+* WDCM - World Data Center for Microorganisms 
+* List of Bacterial Names with Standing in Nomenclature 
+* CMR - TIGR Comprehensive Microbial Ressource 
+* GIB - Genome information broker for Microbial genomes 
+* GeneQuiz 
+* HOBACGEN - Homologous Bacterial Genes db 
+* Comparison of the transport capabilities of bacterial genomes - from Ian Paulsen 
+* BPGD - Bacterial polysaccharide gene db 
+* Bacterial quorum sensing 
+* MicrobeWorld - Educational site on microbes
+
+* E.coli Swiss-Prot list - Links to E.coli WWW sites and to Swiss-Prot entries 
+* EcoWeb / EcoGene - Very comprehensive E.coli db 
+* ECCE - E.coli Cell Envelope Protein Data Collection 
+* ECDC - E.coli db collection 
+* EcoCyc - Encyclopedia of E.coli genes and metabolism 
+* GenProtEC - E.coli genome and proteome db 
+* Colibri - E.coli genome db from Pasteur Institute 
+* ECGC - E.coli Genome Center at Wisconsin University 
+* DDBJ E.coli - E.coli home page at DDBJ 
+* EcoReg - The E.coli regulation consortium
+
+* B.subtilis Swiss-Prot list - Links to B.subtilis WWW sites and to Swiss-Prot entries 
+* SubtiList - Bacillus subtilis genomic db 
+* NRSub - Bacillus subtilis non-redundant db [Mirror in Japan] 
+* Micado - Microbial advanced db (B.subtilis + E.coli) 
+* BSORF - Japanese server on B.subtilis 
+* DBTBS - Db of B.subtilis promoters and transcription factors
+
+* A.actinomycetemcomitans - Actinobacillus actinomycetemcomitans strain HK1651 genome project 
+* B.anthracis at CNBP - Bacillus anthracis strain Ames WWW site 
+* B.halodurans - Bacillus halodurans strain C-125 db 
+* B.stearothermophilus - Bacillus stearothermophilus strain 10 genome project 
+* BGDB - Bordetella genome db 
+* B.bronchiseptica - Bordetella bronchiseptica strain RB50 genome project at Sanger Institute 
+* B.parapertussis - Bordetella parapertussis strain 12822 genome project at Sanger Institute 
+* B.pertussis - Bordetella pertussis strain Tohama I genome project at Sanger Institute 
+* BbDB - TIGR Borrelia burgdorferi genome db 
+* B.aphidicola Swiss-Prot list - Links to B.aphidicola Swiss-Prot entries 
+* iBGD - Integrated Buchnera genome db 
+* B.cepacia - Burkholderia cepacia genome project 
+* C.jejuni - Campylobacter jejuni strain NCTC 11168 genome project 
+* Chlamydia - Chlamydia pneumoniae and trachomatis 
+* C.muridarum - Chlamydia muridarum strain MoPn genome db at TIGR 
+* C.pneumoniae AR39 - Chlamydia pneumoniae strain AR39 genome db at TIGR 
+* C.pneumoniae J138 - Japanese Chlamydia pneumoniae strain J138 genome db http://www.brgene.lncc.br/indexCV.html 
+* C.michiganensis Claviabacter michiganensis subsp. sepdonicus genome project at Sanger Institute 
+* C.acetobutylicum - GTC Clostridium acetobutylicum strain ATCC 824 data 
+* C.difficile - Clostridium difficile strain 630 genome project at Sanger Institute 
+* C.diphtheriae - Corynebacterium diphtheriae strain NCTC 13129 genome project at Sanger Institute 
+* C.ruminantium - Cowdria ruminantium genome project at Sanger Institute 
+* C.hutchinsonii - Cytophaga hutchinsonii genome project 
+* DrDB - TIGR Deinococcus radiodurans strain R1 genome db 
+* D.hafniense - Desulfitobacterium hafniense genome project 
+* E.faecium - Enterococcus faecium genome project 
+* F.acidarmanus - Ferroplasma acidarmanus genome project 
+* F.tularensis - Francisella tularensis genome WWW site 
+* H.influenzae Swiss-Prot list - Links to H.influenzae WWW sites and to Swiss-Prot entries 
+* HiDB - Haemophilus influenzae genome db at TIGR 
+* H.pylori Swiss-Prot list - Links to H.pylori WWW sites and to Swiss-Prot entries 
+* HpDB - Helicobacter pylori strain 26695 genome db at TIGR 
+* H.pylori J99 - Helicobacter pylori strain J99 genome db at Astra 
+* PyloriGene - Helicobacter pylori genomic db 
+* L.lactis - Lactobacillus lactis subsp. lactis strain IL1403 genome db 
+* L.plantarum - Lactobacillus plantarum genome project 
+* ListiList - Listeria monocytogenes and Listeria innocua genome db 
+* MC-1 - Magnetococcus MC-1 genome project 
+* M.magnetotacticum - Magnetospirillum magnetotacticum genome project 
+* MycDB - Mycobacterium db 
+* M.bovis - Mycobacterium bovis strain AF2122/97 genome project 
+* Leproma - Mycobacterium leprae strain TN genome db 
+* M.leprae at Sanger - Mycobacterium leprae genome project at Sanger Institute 
+* TubercuList - Mycobacterium tuberculosis strain H37Rv genome db 
+* MtDB - Mycobacterium tuberculosis strain Oshkosh genome db at TIGR 
+* M.tuberculosis at Sanger - Mycobacterium tuberculosis strain H37Rv genome project at Sanger Institute 
+* M.tuberculosis secreted proteins 
+* M.tuberculosis structural genomics consortium 
+* M.genitalium Swiss-Prot list - Links to M.genitalium Swiss-Prot entries 
+* MgDB - Mycoplasma genitalium genome db at TIGR 
+* M.pneumoniae Swiss-Prot list - Links to M.pneumoniae Swiss-Prot entries 
+* M.pneumoniae - Mycoplasma pneumoniae genome project 
+* MypuList - Mycoplasma pulmonis genome db 
+* Mycoplasma synoviae genome db 
+* N.meningitidis A - Neisseria meningitidis serogroup A strain Z2491 genome project at Sanger Institute 
+* N.meningitidis B - Neisseria meningitidis serogroup B strain MC58 genome db at TIGR 
+* N.gonorrhoeae - Neisseria gonorrhoeae strain FA 1090 genome project 
+* N.europaea - Nitrosomonas europaea genome project 
+* N.punctiforme - Nostoc punctiforme genome project 
+* P.marinus - Prochlorococcus marinus genome project 
+* P.aeruginosa project - Pseudomonas aeruginosa genome project 
+* P.aeruginosa db - Pseudomonas aeruginosa genome db 
+* P.fluorescens - Pseudomonas fluorescens genome project 
+* R.solanacearum - Ralstonia solanacearum genome project 
+* Rhizobium pNGR234a Swiss-Prot list - Links to Rhizobium plasmid pNGR234a Swiss-Prot entries 
+* Rhizobium pNGR234a analysis 
+* RsGDB - Rhodobacter sphaeroides genome db 
+* R.sphaeroides - Rhodobacter sphaeroides genome project 
+* R.palustris - Rhodopseudomonas palustris genome project 
+* RicBase - Rickettsia conorii strain Malish 7 genome project 
+* R.prowazekii Swiss-Prot list - Links to Rickettsia prowazekii Swiss-Prot entries 
+* R.prowazekii - Rickettsia prowazekii strain Madrid E genome project 
+* S.typhi - Salmonella typhi strain CT18 genome project at Sanger Institute 
+* S.typhimurium Swiss-Prot list - Links to S.typhimurium Swiss-Prot entries 
+* S.typhimurium - S.typhimurium genome project 
+* RhizoBase - Sinorhizobium loti genome project 
+* S.meliloti - Sinorhizobium meliloti genome project 
+* S.aromaticivorans - Sphingomonas aromaticivorans genome project 
+* S.aureus - Staphylococcus aureus strain NCTC 8325 genome project 
+* S.mutans - Streptococcus mutans strain UAB159 genome project 
+* S.pyogenes M1 - Streptococcus pyogenes strain SF370 serotype M1 genome project 
+* S.pyogenes M5 - Streptococcus pyogenes strain Manfredo serotype M5 genome project at Sanger Institute 
+* S.suis - Streptococcus suis genome project at Sanger Institute 
+* S.uberis - Streptococcus uberis genome project at Sanger Institute 
+* S.coelicolor - Streptomyces coelicolor strain A3(2) genome project at Sanger Institute 
+* S.avermitilis - Streptomyces avermitilis strain MA-4680 genome project 
+* PCC 6803 Swiss-Prot list - Links to Synechocystis PCC 6803 Swiss-Prot entries 
+* CyanoBase - Synechocystis PCC 6803 db 
+* Synechococcus - Marine synechococcus genome project 
+* T.fusca - Thermomonospora fusca genome project 
+* TmDB - Thermotoga maritima genome db at TIGR 
+* TpDB - Treponema pallidum genome db at TIGR 
+* T.erythraeum - Trichodesmium erythraeum genome project 
+* T.whipplei - Tropheryma whipplei genome project at Sanger Institute 
+* U.urealyticum - Ureaplasma urealyticum genome WWW site 
+* VcDB - Vibrio cholerae genome db at TIGR 
+* Xanthomonas - Xanthomonas genome projects 
+* X.fastidiosa - Xylella fastidiosa genome WWW site 
+* X.fastidiosa at DOE - DOE Xylella fastidiosa genome project 
+* Y.enterocolitica - Yersinia enterocolitica strain 8082 genome project at Sanger Institute 
+* Y.pestis at Sanger - Yersinia pestis strain CO-92 Biovar Orientalis genome project at Sanger Institute 
+* Y.pestis at CNBP - Yersinia pestis genome WWW site 
+
+Archaea 
+
+* A.pernix - Aeropyrum pernix K1 genome db 
+* AfDB - Archaeoglobus fulgidus genome db at TIGR 
+* Halobacterium NRC-1 - Halobacterium strain NRC-1 genome project 
+* M.thermoautotrophicum - Methanobacterium thermoautotrophicum genome db 
+* M.jannaschii Swiss-Prot list - Links to M.jannaschii Swiss-Prot entries 
+* MjDB - Methanococcus jannaschii genome db at TIGR 
+* MjFdb - Methanococcus jannaschii functions db 
+* M.barkeri - Methanosarcina barkeri genome project 
+* Pyrococcus abyssi genome and re-annotation db 
+* P.abyssi - Pyrococcus abyssi genome project and db 
+* P.furiosus - Pyrococcus furiosus genome project 
+* P.horikoshii - Pyrococcus horikoshii OT3 db 
+* SGP - Sulfolobus solfataricus strain P2 genome project 
+* T.acidophilum - Thermoplasma acidophilum genome project 
+* T.volcanium - Thermoplasma volcanium genome project 
+
+Viruses and phages 
+
+* All the virology on the WWW - links to virology WWW servers by David M. Sander 
+* ICTVdB - Universal virus taxonomy db 
+* AVIS - Animal Virus Information System 
+* Plants Viruses Online - Information on plant viruses
+
+* Adenoviruses web site 
+* HCVDB - Hepatitis C virus db 
+* HIV - HIV and related species db 
+* HPV - Human papillomaviruses db 
+* Influenza sequence db 
+* Picornavirus - Picornavirus home page and access to db 
+* Tobamoviruses
+
+* PhageBase 
+* Bacteriophage ecology group
+
+* GOLD - Genomes On-line db 
+* DOGS - Database of genome sizes 
+
+Back to TOP 
+
+Human mutation databases/resources 
+
+* HGMD - Human Gene Mutation db 
+* SVD - EBI Sequence variation db 
+* HGBASE - Human Genic Bi-Allelic Sequences db 
+* GeneDis - Human genetic disease db
+
+* The SNP consortium 
+* dbSNP - Human single nucleotide polymorphism (SNP) db 
+* ALFRED - Allele Frequency Db 
+* SeattleSNPs - UW-FHCRC Variation Discovery Resource 
+* PicSNP - Catalog of non-synonymous SNP
+
+* List of mutation databases from OMIM 
+* List of mutation databases from IMT (Finland)
+
+* ADAbase - Human adenosine deaminase (ADA) mutation db 
+* ADB - Albinism db (Mutations in human genes causing albinism) 
+* Albumin Web site 
+* Alpha-glucosidase - Information about human acid alpha-glucosidase (GSD-II) 
+* APC mutation 
+* AR mutations - Human androgen receptor mutation db 
+* Antithrombin mutation db 
+* Asthma and Allergy gene db 
+* BIOMDB - Db of mutations causing tetrahydrobiopterin deficiencies 
+* BLMbase - Human BLM mutation db (Bloom syndrome) 
+* BTKbase - Human BTK mutation db (X-linked agammaglobulinemia) 
+* CD3Ebase - Human CD3E mutation db 
+* CD3Gbase - Human CD3G mutation db 
+* CD40Lbase - Human CD40 ligand mutation db 
+* COL1/3 mutation - Human Type I and III collagen mutation db 
+* Connexin-deafness - Human connexins mutation db 
+* CFTR mutation - Human cystic fibrosis mutation db (CFTR) 
+* EMD db - Human Emerin (EMD) mutation db (Emery-Dreifuss muscular dystrophy) 
+* KMeyeDB - Eye disease genes db 
+* FVII mutation - Human Factor VII mutation db 
+* HAMSTeRS - Human Factor VIII mutation db (Haemophilia A) 
+* HAeMB - Human Factor IX mutation db (Haemophilia B) 
+* FBN1 mutation - Human fibrillin 1 mutation db (Marfan syndrome) 
+* G6PD - Human G6PD deficiency resource 
+* G6PDdb - Human G6PD mutation db 
+* Galt mutation - Human galactose-1-phosphate uridylyltransferase mutation db (Galactosemia) 
+* GNAS1 - Human GNAS1 mutation db 
+* GM2 gangliosidoses - Human Hexosaminidase A (HEXA), B (HEXB) and GM2A mutation db (Tay-Sachs/Sandhoff diseases) 
+* HbVar - Hemoglobin variants db 
+* Hereditary hearing loss homepage 
+* IL2RGbase - Human IL2RG (Interleukin-2 receptor gamma) mutation db (X-SCID) 
+* L1CAM mutation - Human L1CAM mutation db 
+* LDLR mutation - Human LDLR mutation db (Familial hypercholesterolemia) 
+* LHR - Human luteinizing hormone (LH) receptor mutation db 
+* LQTSdb - Long QT syndrome db 
+* NCF1base - Human NCF1 mutation db 
+* NCF2base - Human NCF2 mutation db 
+* Neuromuscular diseases web site 
+* NCL - Neuronal Ceroid Lipofuscinoses mutation db 
+* NF1 - NF1 Genetic Mutation Analysis Consortium web site 
+* OCRL1 - OCRL1 mutation db (Lowe Syndrome) 
+* OTCase - Human ornithine transcarbamylase (OTCase) website 
+* Cytochrome P450 alleles nomenclature 
+* p53 mutation db - University of Tokyo p53 mutation db 
+* Germline p53 mutation db - University of Prague db of germline p53 mutations 
+* PAHdb - Human phenylalanine hydroxylase (PAH) mutation db 
+* PAX2 mutation - Human PAX2 mutation db 
+* PAX6 mutation - Human PAX6 mutation db 
+* Prion - Prion and prion disease web site 
+* RAG1base - Human RAG1 mutation db 
+* RAG2base - Human RAG2 mutation db 
+* RB1base - Human retinoblastoma-associated protein (RB) mutation db 
+* RetNet - Retinal Information Network 
+* Retina International Scientific Newsletter - Information on Retinal genes, proteins and diseases 
+* Alsod.org - ALS/SOD1 genetic mutations db 
+* TSC - TSC (TSC1/TSC2) variation db 
+* TSC2 - Cardiff-Rotterdam Tuberous Sclerosis (TS) db (Tuberin; TSC2) 
+* TGDB - Tumor gene db 
+* VMD2 mutation - Human VMD2 mutation db 
+* vWF mutation - Human von Willebrand factor (vWF) mutation db 
+* WRN - Human WRN mutation db (Warner disease) 
+* WT1 mutation - Human WT1 mutation db 
+* X-ALD mutation - Human ABCD1 mutation db 
+
+Back to TOP 
+
+Gene(s)/protein(s) specific databases/resources 
+
+* AAA - AAA family of ATPases server 
+* Arabidopsis ABC transporters 
+* Human ABC transporters 
+* Acetylcholinesterases 
+* ADAMTS - Apte lab ADAMTS and ADAMTSL resource 
+* Human albumin Web site 
+* ALDH - Aldehyde dehydrogenase gene superfamily db 
+* Allergens in Swiss-Prot - Nomenclature and index of allergens in Swiss-Prot 
+* Allergen sequence db 
+* Allergome - A db of allergenic molecules 
+* SDAP - Structural database of allergenic proteins 
+* Alginate genes - Pseudomomonas alginate production genes 
+* Aminoacyl-tRNA synthetases in Swiss-Prot - List of aminoacyl-tRNA synthetases in Swiss-Prot 
+* AARSDB - Aminoacyl-tRNA synthetases db 
+* Aminoacyl-tRNA synthetases from P. Dessen 
+* AMSDb - Antimicrobial sequences db 
+* Antibody resource page - Links to antibody related Web resources 
+* AraC-XylS - AraC/xylS transcriptional regulator family db 
+* Bacillus thuringiensis toxin specificity db 
+* TFII - Basal transcription factors 
+* Blood group antigens in Swiss-Prot 
+* BCGD - Breast cancer genes db from MBCR 
+* BRENDA - Db of enzyme functional data 
+* EF-hand CaBP - EF-hand calcium-binding proteins db 
+* CANSITE - Signal Transduction's Web 
+* CAZy - Carbohydrate-Active enZYmes Web site 
+* CBS domain - Cystathionine Beta Synthase domain WWW page 
+* CD antigens in Swiss-Prot - Nomenclature for surface proteins of human leucocytes (CD) 
+* CD antigens in PROW - Database on information about CD antigens 
+* Chaperonin - Information on GroEL and GroES chaperonins 
+* Conotoxins - Information on conotoxins from a Web site on cone shells 
+* CSDBase - Cold shock domain db 
+* Cytokines Web - Structure and function of cytokines and their receptors 
+* COPE - Cytokines On-line Pathfinder Encyclopedia [Mirror in Israel] 
+* dbCFC - Cytokine family cDNA db 
+* R&D Systems' Cytokine mini reviews 
+* DExH/D protein family db 
+* DnaB helicase 
+* DPInteract - DNA-Proteins interactions db 
+* EMP - Enzymes and Metabolic Pathways db 
+* ENZYME - Enzymes nomenclature db 
+* Worthington enzyme manual 
+* Eph - Eph receptor tyrosine kinases and their ligands (ephrins) resource 
+* EpoDB - Erythropoiesis gene expression db (Epo GED) 
+* ESTHER - Esterases and alpha/beta hydrolase enzymes 
+* Expansins web site 
+* Modules - Extracellular proteins modules (domains) 
+* FADPNR - FAD-dependent pyridine nucleotide oxidoreductases 
+* Flavodoxins 
+* FlyNets - Db of molecular interactions in Drosophila melanogaster 
+* FYVE finger domain 
+* GABAagent - GABA receptors WWW site 
+* Globin - Globin gene server 
+* Glucoamylases 
+* Glycosyl hydrolases in Swiss-Prot - Nomenclature and index of glycosyl hydrolases in Swiss-Prot 
+* 7TM in Swiss-Prot - List of G protein coupled receptors in Swiss-Prot 
+* GCRDb - G protein-coupled receptor db 
+* GPCRDB - G protein-coupled receptor db (7TM) at EMBL 
+* ORDB - Olfactory receptor db 
+* HORDE - Human Olfactory Receptor Data Exploratorium 
+* GRAP - G protein coupled receptors family A mutants db 
+* GRR - Glucocorticoid receptor resource 
+* Arabidopsis Glucosyltransferases Web site 
+* Glycosyltransferases - A guide to cloned glycosyltransferases 
+* GnRH - Gonadotropin-releasing hormones (GnRH) family 
+* GyrB - GyrB protein 
+* Yeast RNA helicases 
+* Histone - Histones db 
+* HIVdb - HIV protease db 
+* HotMolecBase - Molecules (mainly proteins) that are promising targets for medical applications 
+* Homeobox - Homeobox domain proteins resource 
+* HOX-Pro - Homeobox genes db 
+* Hox proteins in Swiss-Prot - Vertebrate homeotic Hox proteins: nomenclature and index of Swiss-Prot entries 
+* Labial - Homeobox genes, labial family 
+* HSP100 - HSP100/ClpAB family of chaperones 
+* IMGT - ImMunoGeneTics db [Mirror at EBI] 
+* InBase - Inteins db from the New England Biolabs 
+* Integrins 
+* Meganucleases - Sites on intron encoded endonucleases 
+* ICN - The Ion Channel Network 
+* Initiation factors in Swiss-Prot - List and index of translation initiation factors in Swiss-Prot 
+* IF2 - Translation initiation factor IF2 db 
+* KEGG - Kyoto Encyclopedia of Genes and Genomes 
+* Kinesin - Kinesin motor proteins 
+* Klotho - Biochemical compounds declarative db 
+* LGIC - Ligand Gated Ion Channel subunit db 
+* LED - Lipase Engineering Database 
+* Lipocalin Website 
+* MDB - Metalloprotein Site Database and Browser 
+* Metallothioneins in Swiss-Prot - Nomenclature and index of metallothioneins in Swiss-Prot 
+* MT - Metallothioneins 
+* MHCPEP - MHC binding peptides db 
+* SYFPEITHI - MHC ligands and peptide motifs db 
+* Mitochondrial carriers pages from Nelson's lab 
+* MitoPick - Mitochondrial NADH-ubiquinone reductase (complex I) web site 
+* MRR - Mineralocorticoid receptor resource 
+* Mutator - Transposases, Mutator family 
+* MutBase - Mutation spectra db (Db on mutants of several bacterial and mammalian genes) 
+* MutS - MutS family 
+* Neurotrophic factors 
+* NPD - Nuclear Protein db 
+* NucleaRDB - Federated db on nuclear receptors 
+* P450 pages from Nelson's lab 
+* P450 - Directory of P450-containing systems 
+* Arabidopsis P450 Web site 
+* Drosophila P450 Web site 
+* IARC p53 db - IARC db of somatic p53 mutations 
+* PDZ domain - PDH/DHR domain WWW page 
+* PDE - Phosphodiesterases 
+* Peroxidases 
+* Plant Peroxidases 
+* Peptidases in Swiss-Prot - Nomenclature and index of peptidases in Swiss-Prot 
+* MEROPS - Peptidase db 
+* Prolysis - Proteases and inhibitors server 
+* Protein Degradation Resource 
+* PLACE - Plant cis-acting regulatory DNA elements db 
+* PlantCARE - Plant cis-acting regulatory DNA elements db 
+* KinBase 
+* PKR - Protein Kinase Resource 
+* PatBase - P-type ATPase db 
+* PPAR - Peroxisome Proliferator-Activated Receptor resource 
+* PPDB - Phosphoprotein db 
+* Proteoglycans 
+* Phytochromes - Computer analysis of phytochrome sequences 
+* RecA - RecA protein 
+* REBASE - Restriction enzymes and methylases db 
+* Restriction enzymes/methylases in Swiss-Prot - List of restriction enzymes and methylases in Swiss-Prot 
+* Ribosomal proteins in Swiss-Prot - Families and index of ribosomal proteins in Swiss-Prot 
+* Ribosomal proteins - Analysis of R proteins by Nikos Kyrpides 
+* RNase P - Ribonuclease P db 
+* Scorpion - Scorpion toxin db 
+* SPAD - Signaling pathway db 
+* CSNDB - Cell Signaling Networks db 
+* SRPDB - Signal Recognition Particle db 
+* SNF2 - SNF2 family 
+* TRR - Thyroid hormone receptors resource 
+* TRANSFAC - Transcription factors db 
+* TRANSPATH - Signal Transduction Browser 
+* TC-DB - Transport Classification System from Milton Saier 
+* UDP Glucuronosyltransferases 
+* V BASE - Directory of human V gene sequences (Immunoglobulin germline variable region) 
+* VDRR - Vitamin D receptor resource 
+* International venom and toxin db 
+* WD-repeat - WD-repeat proteins family 
+* WIT - 'What is There' metabolic models db 
+* Wnt gene homepage 
+* WormPep - C.elegans proteins db 
+* YTPdb - Yeast Transport Protein db 
+
+Back to TOP 
+
+Post-translational modifications databases and resources 
+
+* DSDBASE - Disulfide database (derived from 3D data) 
+* GlycoSuiteDB - Db of glycan structures 
+* O-GlycBase - O-glycosylated proteins db 
+* PhosphoBase - Phosphorylation sites db 
+* Phosphorylation site db - Bacterial and archaeal phosphorylation sites resource 
+* DOLOP Db of bacterial lipoproteins 
+* RESID - Db of Amino Acid Modifications 
+* Delta Mass - Db of mass of Post-Translational Modifications 
+
+Back to TOP 
+
+Phylogenetics databases and resources 
+
+* TreeBASE - Relational db of phylogenetic information 
+* The Tree of life - Collection of WWW pages on phylogeny and biodiversity of organisms 
+* RDP - Ribosomal db Project 
+* ICB - Identification and Classification of Bacteria 
+
+Back to TOP 
+
+Microarray databases and resources 
+
+* ArrayExpress - MicroArray informatics at the EBI 
+* ChipDB - Gene expression db 
+* ExpressDB - Yeast and E.coli RNA expression db 
+* GeneX - Gene Expression project 
+* GEO - Gene Expression Omnibus 
+* RAD - RNA abundance db 
+* SMD - Stanford microarray db 
+
+Back to TOP 
+
+Patents databases 
+
+* DPD - DNA Patent db 
+* Ag Patents - Agricultural Biotechnology patents from the USDA
+
+* USPTO patent db - USA Patent and Trademark Office patent db 
+* Esp@cenet - Patent information database from the European Patent Office (worldwide coverage) 
+
+Back to TOP 
+
+References (bibliographic databases) 
+
+* PubMed Medline server 
+* AGRICOLA - AGRICultural OnLine Access; ref. db from NAL 
+* Article@INIST - Scientific and Technical Information Institute articles and monographs db 
+* PRF/LITDB - Protein Research Foundation Literature db (Japan) 
+* Korean Journals Abstract db 
+* UnCoverWeb
+
+* Hydrogenase references db
+
+* SeqAnalRef - Sequence analysis bibliographic references 
+
+Back to TOP 
+
+Dictionaries, primers, courses, nomenclature, etc. 
+
+* BioABACUS - Biotechnology ABbreviation and ACronym Uncovering Service 
+* BioTech's life science dictionary 
+* DCB - Dictionary of cell biology by Julian Dow 
+* Genome KnowledgeBase - A collection of mini-reviews in the field of basic molecular biology
+
+* AAnP - IUPAC-IUBMB nomenclature for amino acids and peptides 
+* Amino acid properties - Physico and chemical information on amino acids 
+* Amino acids 2 - Another information page on amino acids (from Berlin Free Univ.) 
+* Delta Mass - Db of mass of Post-Translational Modifications 
+* Carbohydrates - IUPAC-IUBMB nomenclature for carbohydrates 
+* Genetic codes - List of non-standard genetic codes from NCBI 
+* Genetic code Viewer - Genetic code viewer at EBI 
+* Genes 2000 - Online version of Benjamin Lewin Genes textbook 
+* Glossary of Biochemistry and Molecular Biology - by David M. Glick 
+* Primer on molecular genetics - from the US Department of Energy 
+* Protease protocols - methods to cleave protein sequences 
+* Ion Source - Mass spectrometry resource 
+* Sequence similarity searches primer - from Keith Robison / Harvard 
+* Pedestrian guide to analysing sequence databases - from Burkhard Rost and Reinard Schneider 
+* Weight matrices for sequence similarity scoring - from David Wheeler / MBCR 
+* Biocomputing courses resource list - Syllabi for a variety of courses and tutorials on Bioinformatics (from VSNS BCD) 
+* Biocomputing tutorials - EMBnet Biocomputing tutorials 
+* BioComputing Hypertext Coursebook - from VSNS BCD 
+* BioActivity - Protein sequence and structure analysis: a practical guide 
+* Homology modelling course - from the EMBL 
+* Tutorial on secondary structure prediction - from Harry Mangalam / UC Irvine 
+* Introduction to Glycolysis - from Leeds University 
+* Molecular biology protocols - from NWFSC 
+* Molecular biology protocols - from MBS (Molecular Biology Shortcuts) 
+* Graphics Gallery - Access Excellence (Genentech) Biotechnology graphics gallery 
+* Abbreviations of chemical compounds 
+* List of nomenclature related references for proteins - from Swiss-Prot 
+* GO - Gene Ontology Consortium WWW site 
+* HUGO nomenclature committee 
+* JCBN - IUPAC-IUB Joint commission on Biochemical Nomenclature (JCBN) 
+* BIOSIS glossary of nomenclature terms in zoology
+
+* Nobel Foundation Website 
+* The Nobel prize Internet Archive
+
+* NCBI Taxonomy 
+* BIOSIS Codes of Nomenclature for the naming of organisms 
+* List of Bacterial Names with Standing in Nomenclature 
+* ISIS - International Species Information System 
+* Species 2000 - Project to provide in an electronic form the names and taxonomy of all known species 
+
+Back to TOP 
+
+Biological software and databases catalog servers 
+
+* BioCatalog - The BioCatalog at EBI 
+* Yellow BAGI - Bio Access Guide to the Internet at Houston University 
+* Software library from Genamics.com 
+* DBCAT - Databases catalog at INFOBIOGEN 
+
+Back to TOP 
+
+Gateways (portals) to Life Sciences resources 
+
+* Art's Biotechnology Resource 
+* Biofind - Biotechnology industry information, gossip and news 
+* Bioinformatik.de - Web directory for bioinformatics 
+* BioNetbook - Institut Pasteur gateway to biosites 
+* Bioplanet - The bioinformatics homepage 
+* BSL - BioScience links from Russia 
+* Biotaq.com 
+* BioTech 
+* BioView - Site for Biopharmaceutical jobs, news, information and resources 
+* GenomeWeb 
+* Highveld.com - Internet Directory of Biology and Biotechnology 
+* Genomics Website at Wiley 
+* Molecular Biology Gateway from Horizon Press 
+* LabVelocity - Resource for biotechnology and life science 
+* Macromol Online 
+* Network Science 
+* MBS - Molecular Biology Shortcuts 
+* Symbios, Inc. - Biotechnology and pharmaceutical career service 
+* The Genomics Center
+
+* Chemdex.com - Online reagent ordering resource 
+
+Back to TOP 
+
+Biological journals and publishers 
+Resources that links to journals home pages 
+
+* Swiss-Prot journals list - Provides direct links to most biological journals home pages 
+* PubList.com - Internet Directory of Publications 
+* e-journals.org - Electronic journals directory 
+* Biochemistry and Molecular Biology Journals - Jim Beasley page of biological journals 
+* Medical journals list from Joe Buenker 
+* Medical Journal Online - List of journals from the University of Texas Research Medical Library 
+* Journal links from the Singapore bioinformatics center 
+* Journal index from Genamics.com 
+* Journal index from Horizon Scientific Press 
+* Mednav.com clinical journals list 
+* Mednav.com basic research journals list 
+* HUM-MOLGEN - HUM-MOLGEN communication forum home page for journals TOC 
+* MJF - Medical Journal Finder 
+* Highwire Press links to top Science Journals 
+* Medline full text lists - List of journals in Medline with Web sites
+
+* ChemConnect list of chemical journals
+
+* ISI Journal lists - Institute for Scientific Information list of journals 
+* ISSN - International Standard Serial Number organization 
+
+Publishers 
+
+* AACR - American Association for Cancer Reasearch publications 
+* Allen Press, Inc. 
+* AMA - American Medical Association publications 
+* APS - American Physiological Society publications 
+* ACS - American Chemistry Society publications 
+* AP - Academic Press 
+* Alaken - Alaken, Inc. 
+* ASM - American Society of Microbiology publications 
+* Annual Reviews 
+* Arnold Publishers 
+* Bentham Science Publishers 
+* Bioline Publications 
+* BioScientifica Ltd 
+* Birkhauser Verlag Basel 
+* Blackwell Science 
+* BMJ - British Medical Journal publishing group 
+* Cell Press 
+* Churchill Livingstone 
+* COB - Company of Biologists Ltd 
+* CRC Press, Inc. 
+* CSHL - Cold Spring Harbor Laboratory Press 
+* CSIRO - CSIRO Publishing 
+* CUP - Cambridge University Press 
+* CJP - Carden Jennings Publishing Co. Ltd 
+* Marcel Dekker, Inc. 
+* Elsevier Science [Mirror in the US] 
+* FASEB publications 
+* G+B - Gordon and Breach Publishing Group 
+* HighWire Press 
+* Horizon Scientific Press 
+* Humana Press, Inc. 
+* IOS Press 
+* IR - Inter-Research Science Publisher 
+* Futura Publishing Company 
+* Karger AG 
+* KAP - Kluwer Academic Publishers 
+* Editrice Kurtis 
+* JL - John Libbey Eurotext 
+* LW&W - Lippincott Williams and Wilkins 
+* Martin Dunitz Publishers 
+* Mary Ann Liebert 
+* Masson 
+* Mosby 
+* Munksgaard 
+* IAPC NAUKA - NAUKA International Academic Publishing Company (Russia) 
+* NRC Research Press 
+* OUP - Oxford University Press 
+* Parthenon Publishing Group 
+* Pharmaceutical Press 
+* Portland Press 
+* Pulsus Group Inc. 
+* Rockfeller University Press 
+* Sage Science Press 
+* Sheffield Academic Press 
+* SGM - Society for General Microbiology publications 
+* SIR - SIR Publishing 
+* Slack, Inc. 
+* Spektrum Akademischer Verlag 
+* Springer-Verlag 
+* Swets & Zeitlinger 
+* T&F - Taylor & Francis Ltd [Mirror in the U.K.] 
+* Thieme 
+* University of Chicago Press 
+* Urban and Fischer Verlag 
+* VSP - VSP International Science Publishers 
+* VZN - Verlag der Zeitschrift fur Naturforschung 
+* W de G - Walter de Gruyter and Co. 
+* WBS - W.B. Saunders Co. 
+* Wiley - John Wiley and Sons [Mirror in the U.K.] 
+* Wiley-VCH
+
+Bioinformatics journals and newsletters 
+
+* Bioinformatics 
+* Briefings in Bioinformatics 
+* Gene-Combis [No longer published as a separate journal] 
+* ISB - In Silico Biology
+
+* BioInformer - EBI's newsletter 
+* embnet.news - EMBnet's newsletter 
+* NCBI Newsletter 
+* PDB Quaterly Newsletter 
+* B6 - Bulletin d'information du Service d'Informatique Scientifique (Pasteur Institute / FR)
+
+* BioInform - Global Bioinformatics new service 
+* BITS - Bioinformatics Information Technology and Systems 
+
+Genomic newsletters 
+
+* Human Genome Project Information 
+* Gene Letter 
+* GeneticUpdates 
+* FGN - Fungal Genetics Newsletter [Mirror in U.K.] 
+* Rice Genome Newsletter 
+* WBG - Worm Breeder's Gazette 
+* Weeds World - International Electronic Arabidopsis newsletter [Mirror at Stanford (USA)] 
+
+Miscellaneous 
+
+* IJC - Internet Journal of Chemistry 
+* Plant Gene Register 
+
+Biotechnology trade journals 
+
+* BioCentury 
+* BioWorld Online 
+* Drug Discovery and Development 
+* GEN - Genetic Engineering News 
+
+General science journals 
+
+* Discover magazine 
+* Nature 
+* New Scientist 
+* La Recherche 
+* Science 
+* Scientific American
+
+* Breakthrough! 
+* HMS Beagle 
+* The Scientist 
+* ScienceDaily Magazine 
+* Science News Online 
+* CNN Sci-Tech - CNN Science and Technology 
+
+Back to TOP 
+
+Some biological societies and organizations 
+
+* APS - American Peptide Society 
+* ASCB - The American Society for Cell Biology 
+* ASHG - American Society of Human Genetics 
+* ATCC - American Type Culture Collection 
+* Biochemical Society 
+* BSA - Botanical Society of America 
+* CSBMCB - Canadian Society of Biochemistry and Molecular and Cell Biology 
+* DSMZ - Deutsche Sammlung von Mikroorganismen und Zellkulturen 
+* EGF - European Genetics Foundation 
+* EMBO - European Molecular Biology Organization 
+* ESEB - European Society for Evolutionary Biology 
+* ESHG - European Society of Human Genetics 
+* FAOBMB - Federation of Asian and Oceanian Biochemists and Molecular Biologists 
+* FASEB - Federation of American Societies for Experimental Biology 
+* FEBS - Federation of European Biochemistry Societies 
+* FGM - Foundation for Genetics Medicine 
+* HUGO - HUman Genome Organization 
+* HUPO - HUman Proteome Organization 
+* IUBMB - International Union of Biochemistry and Molecular Biology 
+* IUPAC - International Union of Pure and Applied Chemistry 
+* JBS - Japanese Biochemical Society 
+* MSA - Mycological Society of America 
+* PPI - Plasma Proteome Institute 
+* PRF - Protein Research Foundation 
+* SDB - Society for Developmental Biology 
+* SGM - Society for General Microbiology 
+* SICB - Society for Integrative and Comparative Biology
+
+* DOI - Digital Object Identifier foundation
+
+* BioJava Project - International association of developers of Java tools for bioinformatics 
+* Bioperl Project - International association of developers of Perl tools for bioinformatics 
+* Biopython Project - International association of developers of Python tools for bioinformatics 
+* Bioxml Project - International association of developers of XML tools for bioinformatics 
+* The Open lab - International collaboratory for open-sources bioinformatics R&D 
+* ISCB - International Society for Computational Biology 
+* OMG LSR - Object Management Group Life Science Research task force 
+
+Back to TOP 
+
+Biocomputing servers homepages 
+Europe 
+
+* EBI - European Bioinformatics Institute 
+* EMBnet - European Molecular Biology Network 
+* EMBL - EMBL Biocomputing unit
+
+* SIB - Swiss Institute of Bioinformatics 
+* EMBnet CH - Switzerland EMBnet node 
+* ISREC - ISREC bioinformatics group (Lausanne / Swizerland) 
+* CBRG - Computational Biochemistry Research Group (Zurich / Switzerland)
+
+* INFOBIOGEN - GIS INFOBIOGEN; France EMBnet node 
+* ABIM - Atelier BioInformatique (Marseille / FR) 
+* B3E - Bioinformatique/Biostatistique/Biomathematique/Epidemiologie (Paris / FR) 
+* CNRS GDR 1029 - Informatique et génomes 
+* Genethon - Genethon (Evry / FR) 
+* GeneStream - Institut de Génétique Humaine (Montpellier / FR) 
+* GENOSCOPE - Centre National de Séquencage (Evry / FR) 
+* GenoStar - Consortium for the development of a bioinformatic platform 
+* IGS - Information Génétique et Structurale (Structural and Genetic Information Laboratory) (Marseille / FR) 
+* IMPG - Action Informatique Mathématique Physique pour la Génomique 
+* Pasteur - Institut Pasteur (Paris / FR) 
+* PBIL - Pole Bio-informatique Lyonnais (Lyon / FR) 
+* DESS EGOISt - DESS Etude des Génomes: outils informatiques et statistiques 
+* DESS IAB - DESS Informatique Appliquée a la Biologie
+
+* SEQNET - SEQNET; U.K. EMBnet node 
+* Sanger - Sanger Centre (Hinxton / U.K.) 
+* HGMP-RC - MRC HGMP Resource Centre (Hinxton / U.K.) 
+* Beowulf Genomics - Wellcome Trust genome sequencing initiative WWW site 
+* BMM - Biomolecular Modelling laboratory at ICRF (London / U.K.) 
+* Brunel Bioinformatics Group - Bioinformatics Group in the Department of Biological Sciences at Brunel University (U.K.) 
+* BSM - Biomolecular Structure and Modelling group at UCL (London / U.K.) 
+* Manchester - Manchester University Bioinformatics unit (U.K.) 
+* RIO - Roslin Institute Online (U.K.)
+
+* GeniusNet - DKFZ Biocomputing Service Group; Germany EMBnet node 
+* GSF AG BIODV - Software Development for Molecular Biology at the GSF Institut fuer Sauegetiergenetik 
+* GSC - Genome Sequencing Center (Iena / Germany) 
+* MDC:Bioinf - Department of Bionformatic of the Max Delbruck Center for Molecular Medicine (Germany) 
+* MIPS - Munich Information Centre for Protein Sequences (Germany) 
+* PZR - Bioinformatics at the Proteome Center Rostock 
+* VSNS BCD - Virtual School of Natural Sciences Biocomputing Division from the University of Bielefeld (Germany)
+
+* BCC - Vienna University Department for Biocomputing; Austria EMBnet node 
+* BEN - Belgium EMBnet node 
+* BIOBASE - Denmark EMBnet mode 
+* CBS - Center for Biological Sequence Analysis (Technical University of Denmark) 
+* CSC BioBox - CSC; Finland EMBnet node 
+* IMBB - Greece EMBnet node 
+* ABC - Agricultural Biotechnology Center (Budapest / Hungary) 
+* INCBI - Irish National Center for Bioinformatics; Ireland EMBnet node 
+* TigemNet - Telethon Institute of Genetics and Medicine Bioinformatics resources (Italy) 
+* CMBI - Center for Molecular and Biomolecular Bioinformatics; Netherland EMBnet node 
+* BIO - Norway EMBnet node 
+* IBB - Institute of Biochemistry and Biophysics (Warsaw); Poland EMBnet node 
+* Pen - Portugal EMBnet Node 
+* Belozersky Institute - Belozersky Institute (Moscow); Russia EMBnet node 
+* MGS - Molecular Biological Server (Novosibirsk / Russia) 
+* CNB - Centro Nacional de Biotecnologia; Spain EMBnet node 
+* BMC - BioMedical Centre at Uppsala; Sweden EMBnet node 
+* KISAC - Karolinska Institute (KI) Sequence analysis facility 
+* LCB - Linnaeus Centre for Bioinformatics 
+* SBC - Stockholm Bioinformatics Center 
+* NBN - National Bioinformatics Node; Turkey EMBnet node 
+* Bioserver - Biocomputing server at Bogacizi University (Turkey) 
+
+USA and Canada 
+
+* NCBI - National Center for Biotechnology Information
+
+* ABCC - Advanced Biomedical Computing Center at the NCI 
+* ACGT - Advanced Center for Genome Technology at the University of Oklahoma 
+* BCM HGC - Baylor College of Medicine Human Genome Center 
+* BDGP - Berkeley Drosophila Genome Project 
+* BioTech - BioTech biology/chemistry educational resource and research tool 
+* BIC - The Biotechnology Information Center 
+* BMERC - Biomolecular Engineering Research Center 
+* CBIL - Computational Biology and Informatics Laboratory at the University of Pennsylvania 
+* CUBIC - Columbia University Bioinformatics Center 
+* GSC - Genome Sequencing Center at Washington University 
+* HGP Columbia - Human Genome Project at Columbia University 
+* IBC - Washington University Institute for Biomedical Computing 
+* LANL - Los Alamos National Laboratory (LANL) center for human genome studies 
+* LBNL - Lawrence-Berkeley National Laboratory (LBNL) Human Genome informatics group 
+* MBCR - Molecular Biology Computational Resource at Baylor College of Medicine 
+* NCGR - National Center for Genome Resources 
+* NIH - NIH molecular biology 
+* SAGC - The San Antonio Genome Center 
+* TIGR - The Institute for Genome Research 
+* UCLA - UCLA Bioinformatics Institute 
+* Biocomputing at Whitehead Institute for Biomedical Research 
+* WICGR - Whitehead Institute Center for Genome Research
+
+* CBR - Canadian Bioinformatics Resource 
+* BiSC - Bioinformatics Supercomputing Centre 
+
+Asia 
+
+* APBioNet - Asia-Pacific Bioinformatics network
+
+* BIC-JNU - Bioinformatics Center of Jawaharlal Nehru University 
+* DIC - University of Pune (India) Bioinformatics Centre
+
+* Japanese GenomeNet 
+* NIG - National Institute of Genetics of Japan 
+* KDRI - Kazusa DNA Research Institute
+
+* CBI - Peking Center of Bioinformatics; Chinese EMBnet node 
+* MICRO-NET - Microbial Information Network of China 
+* HKBIC - Hong Kong Bioinformatics Center
+
+* BRIC - Biological Research Information Center (Korea) 
+* BIC - BioInformatics center of the National University of Singapore 
+
+Australia 
+
+* APBioNet - Asia-Pacific Bioinformatics network
+
+* ANGIS - Australian National Genomic Information Service 
+* ANU - Australian National University Bioinformatics group 
+* APAF - Australian Proteome Analysis Facility 
+
+Others 
+
+* HUJI - Hebrew University of Jerusalem genomic and bioinformatics server 
+* Weizmann Bioinfo/BCU - Weizmann Institute of Science Bioinformatics and Biological Computing
+
+* SANBI - South African BioInformatics Institute
+
+* BDT - Base de Datos Tropical (Sao Paulo / Brazil) 
+* LBI - Bioinformatics Laboratory at the Institute of Computing of the University of Campinas (Brazil)
+
+* ICCBnet - International Center for Cooperation in Bioinformatics Network 
+* ICGEB - International Center for Genetic Engineering and Biotechnology (Trieste / Italy) 
+
+Back to TOP 
+
+Biotechnology and pharmaceutical companies 
+
+* NBIF Biotechnology company registry 
+* Pharmaceutical Research and Manufacturers of America membership list 
+* Bioportfolio - Gateways to biobusiness
+
+* ABTI - Alpha-Beta Technology, Inc. 
+* Affymetrix, Inc. 
+* AlphaGene, Inc. 
+* Amersham Pharmacia Biotech 
+* Amgen 
+* ARIAD Pharmaceuticals, Inc. 
+* AS - Ares-Serono 
+* AstraZeneca Pharmaceuticals 
+* Atheris Laboratories 
+* Bayer 
+* Biacore Int. AB 
+* Bio Balance, Inc. 
+* Biogen, Inc. 
+* Bio-Rad Laboratories, Inc. 
+* BioSystematica 
+* BioVisioN GmbH 
+* BTC - BioSpecifics Technology Co. 
+* Caprion, Inc. 
+* Celera Genomics Co. 
+* Cellectis SA 
+* CST - Cell Signalling Technology 
+* CellZome AG 
+* Centocor, Inc. 
+* Ciphergen Biosystems, Inc. 
+* Clontech Laboratories, Inc. 
+* Cognetix, Inc. 
+* CSL - CSL, Ltd. 
+* CuraGen Co. 
+* deCODE Genetics, Inc. 
+* Destiny Pharma Ltd. 
+* DGT - Digital Gene Technology, Inc. 
+* Diversa Co. 
+* DNA Sciences, Inc. 
+* Eli Lilly 
+* Emerald BioStructures, Inc. 
+* Entelechon GmbH 
+* Entelos, Inc. 
+* EnviroLogix, Inc. 
+* Enzon, Inc. 
+* Epidauros Biotechnologie AG 
+* Europroteome SA 
+* EVOTEC BioSystems AG 
+* EPI - Exelixis Pharmaceuticals, Inc. 
+* Fermentas AB 
+* Genaissance Pharmaceuticals, Inc. 
+* Genencor International, Inc. 
+* Genentech, Inc. 
+* Genetics Institute 
+* GeneProt, Inc - Geneva Proteomics 
+* Genome Express, SA 
+* Genomic Solutions, Inc. 
+* Genset 
+* Genzyme Co. 
+* Geron Co. 
+* Gryphon Sciences 
+* GSK - GlaxoSmithKline 
+* GTC - Genome Therapeutics Co. (Collaborative Research Inc.) 
+* Helix Biopharma Co. 
+* HGS - Human Genome Sciences, Inc. 
+* Hoechst 
+* Hoechst Marion Roussel 
+* HRI - Helix Research Institute, Inc. 
+* Hybrigenics SA 
+* Hyseq, Inc. 
+* Illumina, Inc. 
+* Incyte Pharmaceuticals, Inc. 
+* Integrated Genomics, Inc. 
+* Invitrogen 
+* KuDOS Pharmaceutical Ltd 
+* LAROVA Biochemie GmbH 
+* LSB - Large Scale Biology Co. 
+* LTI - Life Technologies, Inc. 
+* Lynx Therapeutics, Inc. 
+* Memorec - Medical Molecular Research Cologne GmbH 
+* MitoKor 
+* MPI - Millennium Pharmaceuticals, Inc. 
+* Millipore Co. 
+* MOLOGEN GmbH 
+* Myriad Genetics, Inc. 
+* NEB - New England Biolabs, Inc. 
+* NGI - National Genetics Institute 
+* Nonlinear Dynamics Ltd 
+* Novo Nordisk 
+* OGS - Oxford GlycoSciences 
+* Parke-Davis 
+* Peptech Ltd. 
+* Pfizer, Inc. 
+* Pharmacia Biotech 
+* Pharmacopeia, Inc. 
+* Pharmingen 
+* Pharsight Co. 
+* Phylos, Inc. 
+* Prionics AG 
+* Promega Co. 
+* MDS Protana A/S 
+* Proteome, Inc. 
+* PSL - Proteome Systems Ltd 
+* ProZyme, Inc. 
+* QIAGEN GmbH 
+* Repligen Co. 
+* Research Genetics, Inc. 
+* Roche Bioscience 
+* Sanofi-Synthelabo 
+* Sequenom Industrial Genomics 
+* Shire Pharmaceuticals Group plc 
+* Sigma-Aldrich 
+* Syntgenta 
+* Synt:em 
+* TBC - Texas Biotechnology Co. 
+* TopLab GmbH 
+* Vertex Pharmaceuticals 
+* WITA - Wittmann Institute of Technology and Analysis of Biomolecules GmbH 
+* Worthington Biochemical Co. 
+* Xenometrix, Inc. 
+* Xerion Pharmaceuticals GmbH 
+* Yamanouchi Pharmaceuticals Co. 
+* Zycos, Inc. 
+* 5 Prime, Inc. 
+
+Back to TOP 
+
+Bioinformatics companies 
+
+* Accelrys, Inc 
+* ACD - Advanced Chemistry Development, Inc. 
+* AlgoNomics NV 
+* ApoCom, Inc. 
+* Base4 Bioinformatics 
+* BioBridge Computing (formerly Balthazar BioComputing) 
+* BIOBASE - Biologische Datenbanken GmbH 
+* Biodatabases.com - Biological databases division of Amita Corp. 
+* BioDiscovery, Inc. 
+* Biomedical Computing, Inc. 
+* BIOSIS 
+* BIOSOFT 
+* BioTools, Inc. 
+* Caesar Software LLC 
+* CallistoGen AG 
+* Cognia Corporation, Inc. 
+* Compugen [USA | Israel] 
+* Data4S Bioinformatics NV 
+* DGT- Digital Gene Technologies, Inc. 
+* DNA* - DNAStar 
+* DoubleTwist, Inc. (formerly Pangea Systems) 
+* eBioinformatics 
+* EraGen Biosciences 
+* FQS - FQS Poland Sp. z.o.o. 
+* Genamics 
+* GeneBio - Geneva Bioinformatics SA 
+* Gene Codes Co 
+* GeneData AG 
+* Geneformatics, Inc. 
+* Gene-IT SA 
+* Gene Logic, Inc. 
+* GENETYX - Software Development Co, GENETYX software 
+* Genomics Solutions, Inc 
+* Genomatix Software GmbH 
+* GenoMining, SA 
+* Genomica, Inc. 
+* Geospiza, Inc. 
+* GNS - Gene Network Sciences 
+* Hitachi - Hitachi USA Genetic Systems 
+* InforMax, Inc. 
+* InGenuity Systems, Inc. 
+* Inpharmatica 
+* IT.OMICS 
+* Lambda-Plus SA 
+* LION Bioscience AG 
+* MASA - Mathématiques Appliquées SA 
+* Matrix Science Ltd 
+* MDL - MDL Information Systems, Inc. 
+* MediGenomix GmbH 
+* Metaphorics LLC 
+* Microrite 
+* Neomorphic Software, Inc. 
+* NetGenics 
+* Net-ID, Inc. 
+* Paracel, Inc. 
+* Partek, Inc. - Pattern Analysis and Recognition Technologies 
+* PE Informatics - Perkin-Elmer Informatics 
+* PREMIER Biosoft International 
+* Progeny Software, LLC 
+* Protein Pathways, Inc. 
+* Redasoft 
+* Sagitus Solutions 
+* ScienceFactory GmbH 
+* Scitech 
+* SGI - Silicon Graphics, Chemistry and Biological Sciences 
+* Silicon Genetics, Inc. 
+* Spotfire, Inc. 
+* SBI - Structural Bioinformatics, Inc. 
+* SGX - Structural GenomiX, Inc. 
+* TimeLogic Corp. Bioinformatics Division 
+* Tripos Inc. 
+* Viaken Systems Inc. 
+* WebGenetics 
+
+Back to TOP 
+
+BioMolecular Java applications and demos 
+
+* JaMBW - Java-based Molecular Biology Workbench
+
+* CINEMA - Interactive multiple alignment editor 
+* HelixWheel - Tools to represent a protein fragment as an helical wheel 
+* Shuffle - Randomly shuffle a sequence 
+* PDB3D - 3D molecule display 
+* DNA Primer Melt Calculator 
+* SStructView - RNA secondary structure viewer 
+* BioViews - Drosophila genome exploration tools 
+* Flies in your Java - Map display of Drosophila genes, aberrations, clones, etc. 
+
+Back to TOP 
+
+---------------------------------------------------------------------
+
+Other links
+
+Miscellaneous medical references sites 
+
+* HON - The Health On the Net foundation server 
+* Hardin MD - Hardin meta directory of Internet health sources 
+* Mednav.com - Guide to the Internet medicine 
+* MedWeb - Medical links site
+
+* FDA CDER - FDA Center for Drugs Evaluation and Research 
+* NLM - National Library of Medicine
+
+* MedicineNet - Medical Reference Site 
+* MMRL - Multimedia Medical Reference Library 
+* OMD - On-line medical dictionary (on CancerWEB) 
+* OMNI - Organising Medical Networked Information 
+* Medline Plus - NLM list of resources for health questions 
+* ORPHANET - Resource dealing with rare diseases and orphan drugs 
+* ORD - Office of Rare Diseases 
+* ReutersHealth - Reuters Medical News 
+* PharmInfoNet - Pharmaceutical Information Network 
+* NMDWD - New Medicines in Development WebDatabase 
+* Prous Science - Medical and drug information provider 
+* TOXNET - Toxicology, hazardous chemicals and related areas db 
+* Visible Human at EPFL - EPFL server for the images of the "Visible Human" NLM project
+
+* DrugDB - Db of information about drugs 
+* Electronic Orange Book - FDA list of approved drug products 
+
+Back to TOP 
+
+Miscellaneous scientific references sites 
+
+* Chemcyclopedia Online - Db of commercialy available chemicals 
+* Periodic table of the elements 
+* Interactive periodic table of the elements
+
+* IDB - Internet Directory for Botany 
+* BIOSIS index to Resource Guide to Zoology web files
+
+* SciCentral - Gateway to the best science directories 
+* TheScientificWorld - Portal to science resources 
+* UniGuide Academic Guide to the Internet
+
+* The Nine Planets 
+* Planetary Society 
+* NASA 
+* Earth and moon viewer - View the earth or the moon from any geographical or astronomical position 
+* J-Track 3D - View satellite tracking information 
+* Microsoft TerraServer - World imagery db 
+* SETI league - Organization to Search for Extra-Terrestrial Intelligence 
+
+Back to TOP 
+
+Miscellaneous general references sites 
+
+* Library of Congress 
+* British Library 
+* Encyclopaedia Britannica and other resources 
+* Encarta - Microsoft encyclopedia 
+* Internet Encyclopedia 
+* A Web of on-line dictionaries - Links to many dictionaries in a variety of languages 
+* Roget's Thesaurus 
+* Webster dictionary and thesaurus 
+* Dictionary of acronyms 
+* Jargon File - Electronic version of the 'New Hacker's Dictionary' 
+* Word Play - Site with links to many Word-related sites 
+* Jennifer's language page 
+* A collection of word oddities and trivia 
+* GO Translator - Web page computerized translator 
+* IMDb - Internet Movie Database 
+* The Greatest Films 
+* City Net - Repository of touristic information 
+* CIA - Central Intelligence Agency server 
+* Internet Disaster Information Center 
+* Europa - European Union official server 
+* WED - World email directory 
+* Units converter 
+* Universal currency converter 
+* Calculating Machines 
+* Beliefnet - Portal for religious sites 
+
+Back to TOP 
+
+News 
+
+* ABC 
+* CNN 
+* Courrier International 
+* News from Reuters 
+* Newsweek 
+* Time Magazine 
+* USA Today 
+* L'Hebdo - 'Webdo' 
+* Edipresse 
+* Le Temps 
+* International Herald Tribune 
+* Le Monde Diplomatique 
+* The New York Times 
+* Jerusalem Post 
+* Slate 
+* News.Com - Computer news 
+* Weather forecasts 
+* Excite NewsTracker - Service to search on-line news sources 
+* News Index - News search engine 
+
+Back to TOP 
+
+Computing-related links 
+
+* Shareware directory 
+* Perl - Perl language home page 
+* Gnu - Gnu project home page 
+* Linux - Linux operating system home page 
+* Java - Java programming language 'home' site 
+* Winfiles.com - Windows 95, 98, NT Web Site 
+* Win95 annoyances - Windows 95 annoying features and workarounds 
+* Gamelan - Earthweb's Java directory 
+* Easter Egg Archive 
+* List of files extensions and formats 
+* The Icon Bank - Db of icons 
+* Internet Gallery of GIF Animation 
+* Animation City - Animated GIF site 
+* Opera Software - An alternative browser (fast and efficient) 
+* Webshots - Wallpaper and screen saver software 
+* Search Engine Watch - Information on Web search engines 
+
+Back to TOP 
+
+Recreational links 
+
+* BOFH - The Bastard Operator from Hell archives 
+* La revolution des fourmis - Site sur la trilogie des fourmis de Bernard Werber
+
+* Leonard's cam world - World list of on-line video cameras 
+* EarthCam - A comprehensive reference directory of on-line video cameras 
+* Images.com - WebCam theater (Live Cams!)
+
+* AIR - The Annals of Improbable Research 
+* Darwin awards - Given to individuals that remove themselves from the gene pool in the most spectacular fashion 
+* Science Made Stupid 
+* Swiss-Jokes - ExPASy collection of scientific jokes 
+* Science Jokes - Jokes collected by Joachim Verhagen 
+* AGD antics and mayhem page - More 'scientific' experiments !! 
+* Backyard ballistics 
+* DMRD - Dihydrogen Monoxide Research Division 
+* MIT Hacks archive - A compendium of (elaborate) practical jokes organized at MIT 
+* Strawberry pop-tart blow-torches 
+* George Goble home page - Or how to start a barbecue in 3 seconds (with liquid oxygen !) 
+* MoonShop - The Moon Shop; how to get a property on the Moon!
+
+* Stus' Comic Strip Connection 
+* Reynolds unwrapped 
+* Today's Cartoon - Randy Glasbergen cartoons 
+* Human genome cartoons
+
+* Amused.com 
+* AhaJokes.com 
+* Cryptozoology WWW site
+
+* SIPP - Structure of Interactive Psycho Philosophy (explain the universe through DNA!) 
+* geNUM - Numerical Genetics (yes another weird site!) 
+
+Back to TOP 
+
+Miscellaneous 
+
+* Gutenberg Project - Electronic full text version of classics 
+* Internet Bookshop 
+* Amazon.com - Earth's biggest bookstore
+
+* Blue Mountains Arts - Electronics greeting cards 
+* Oh my goodness! - Humoristic electronics greeting cards and cartoons
+
+* Radio Tower - Internet Radio online directory 
+* mp3.com - MP3 audio files
+
+* Jim's fine art collection 
+* The Artchive
+
+* ITN - Internet Travel Network (Travel reservations and information) 
+* The Hunger Site 
+
+Back to TOP 
+
+---------------------------------------------------------------------
+
+Disclaimer
+
+This list is not supposed to be complete, it reflects my (Amos Bairoch) interests and will list servers that I find useful and up to date.
+
+This page has received an award from SciCentral 
+---------------------------------------------------------------------
+
+ExPASy Home page	 Site Map	 Search ExPASy	 Contact us	 
+
+Hosted by NCSC US	Mirror sites:	Australia	 Bolivia	 Canada	 China	 Korea	 Switzerland	 Taiwan	 
+

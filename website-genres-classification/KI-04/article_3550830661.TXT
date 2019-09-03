@@ -1,0 +1,293 @@
+| Recommendations | public drafts | test suites | tutorials | slides | guidelines | validation | articles | translations | charter | working group | roadmap | XForms | forums | HTML Tidy | related work | HTML 4.0/3.2/2.0 | historical NEWS 20 January 2004 : The XHTML-Print specification has been published as a Candidate Recommendation. XHTML-Print is designed to be appropriate for printing from mobile devices to low-cost printers that might not have a full-page buffer and that generally print from top-to-bottom and left-to-right with the paper in a portrait orientation. XHTML-Print is also targeted at printing in environments where it is not feasible or desirable to install a printer-specific driver and where some variability in the formatting of the output is acceptable. Please send implementation feedback to www-html-editor@w3.org ( archive ). 14 October 2003 : The World Wide Web Consortium today released XML Events specification as a Recommendation. The XML Events module defined in this specification provides XML languages with the ability to uniformly integrate event listeners and associated event handlers with DOM2 event interfaces. The specification has been reviewed by the W3C Membership, who favor its adoption by industry. 3 October 2003 : The second Last Call Working Draft of Modularization of XHTML in XML Schema has been published. It is being re-submitted for Last Call because of substantial changes in the way the Schemas are implemented to ease their use in non-XHTML context. The Last Call review period ends 14 November 2003. Please send Last Call comments to www-html-editor@w3.org ( archive ). 23 September 2003 : W3C Launched the HTML Patent Advisory Group (PAG) to study issues for HTML-related specifications raised by the US court case of Eolas v. Microsoft and US Patent 5,838,906. Public discussion takes place on the public-web-plugins mailing list. The FAQ on US Patent 5,838,906 and the W3C is available. ( Past News ) What is HTML? HTML is the lingua franca for publishing hypertext on the World Wide Web. It is a non-proprietary format based upon SGML , and can be created and processed by a wide range of tools, from simple plain text editors - you type it in from scratch- to sophisticated WYSIWYG authoring tools. HTML uses tags such as <h1> and </h1> to structure text into headings, paragraphs, lists, hypertext links etc. Here is a 10-minute guide for newcomers to HTML. W3C's statement of direction for HTML is given on the HTML Activity Statement . See also the page on our work on the next generation of Web forms , and the section on Web history . What is XHTML? The Extensible HyperText Markup Language (XHTML&#8482;) is a family of current and future document types and modules that reproduce, subset, and extend HTML, reformulated in XML . XHTML Family document types are all XML-based, and ultimately are designed to work in conjunction with XML-based user agents. XHTML is the successor of HTML, and a series of specifications has been developed for XHTML. Mission of the HTML Working Group To develop the next generation of HTML as a suite of XML tag sets with a clean migration path from HTML 4. Some of the expected benefits include: reduced authoring costs, an improved match to database & workflow applications, a modular solution to the increasingly disparate capabilities of browsers, and the ability to cleanly integrate HTML with other XML applications. For further information, see the Charter for the HTML Working Group ( members only ). Note. The HTML Working Group Charter has been renewed in August 2002. Recommendations W3C produces what are known as " Recommendations ". These are specifications, developed by W3C working groups, and then reviewed by Members of the Consortium. A W3C Recommendation indicates that consensus has been reached among the Consortium Members that a specification is appropriate for widespread use. XHTML 1.0 | HTML 4.01 | XHTML Basic | Modularization of XHTML | XHTML 1.1 | XML Events XHTML 1.0 XHTML 1.0 is the W3C's first Recommendation for XHTML, following on from earlier work on HTML 4.01, HTML 4.0, HTML 3.2 and HTML 2.0. With a wealth of features, XHTML 1.0 is a reformulation of HTML 4.01 in XML, and combines the strength of HTML 4 with the power of XML. XHTML 1.0 is the first major change to HTML since HTML 4.0 was released in 1997. It brings the rigor of XML to Web pages and is the keystone in W3C's work to create standards that provide richer Web pages on an ever increasing range of browser platforms including cell phones, televisions, cars, wallet sized wireless communicators, kiosks, and desktops. XHTML 1.0 is the first step and the HTML Working Group is busy on the next. XHTML 1.0 reformulates HTML as an XML application. This makes it easier to process and easier to maintain. XHTML 1.0 borrows elements and attributes from W3C's earlier work on HTML 4, and can be interpreted by existing browsers, by following a few simple guidelines . This allows you to start using XHTML now! You can roll over your old HTML documents into XHTML using an Open Source HTML Tidy utility. This tool also cleans up markup errors, removes clutter and prettifies the markup making it easier to maintain. Three "flavors" of XHTML 1.0: XHTML 1.0 is specified in three "flavors". You specify which of these variants you are using by inserting a line at the beginning of the document. For example, the HTML for this document starts with a line which says that it is using XHTML 1.0 Strict. Thus, if you want to validate the document, the tool used knows which variant you are using. Each variant has its own DTD - Document Type Definition - which sets out the rules and regulations for using HTML in a succinct and definitive manner. XHTML 1.0 Strict - Use this when you want really clean structural mark-up, free of any markup associated with layout. Use this together with W3C's Cascading Style Sheet language ( CSS ) to get the font, color, and layout effects you want. XHTML 1.0 Transitional - Many people writing Web pages for the general public to access might want to use this flavor of XHTML 1.0. The idea is to take advantage of XHTML features including style sheets but nonetheless to make small adjustments to your markup for the benefit of those viewing your pages with older browsers which can't understand style sheets. These include using the body element with bgcolor , text and link attributes. XHTML 1.0 Frameset - Use this when you want to use Frames to partition the browser window into two or more frames. The complete XHTML 1.0 specification is available in English in several formats, including HTML, PostScript and PDF . See also the list of translations produced by volunteers. XHTML 1.0 and HTML 4.01 --> HTML 4.01 HTML 4.01 is a revision of the HTML 4.0 Recommendation first released on 18th December 1997. The revision fixes minor errors that have been found since then. The XHTML 1.0 spec relies on HTML 4.01 for the meanings of XHTML elements and attributes. This allowed us to reduce the size of the XHTML 1.0 spec very considerably. XHTML Basic XHTML Basic is the second Recommendation in a series of XHTML specifications. The XHTML Basic document type includes the minimal set of modules required to be an XHTML Host Language document type, and in addition it includes images, forms, basic tables, and object support. It is designed for Web clients that do not support the full set of XHTML features; for example, Web clients such as mobile phones, PDA s, pagers, and settop boxes. The document type is rich enough for content authoring. XHTML Basic is designed as a common base that may be extended. For example, an event module that is more generic than the traditional HTML 4 event system could be added or it could be extended by additional modules from XHTML Modularization such as the Scripting Module. The goal of XHTML Basic is to serve as a common language supported by various kinds of user agents. The document type definition is implemented using XHTML modules as defined in " Modularization of XHTML ". The complete XHTML Basic specification is available in English in several formats, including HTML, plain text, PostScript and PDF. See also the list of translations produced by volunteers. Modularization of XHTML Modularization of XHTML is the third Recommendation in a series of XHTML specifications. This Recommendation specifies an abstract modularization of XHTML and an implementation of the abstraction using XML Document Type Definitions (DTDs). This modularization provides a means for subsetting and extending XHTML, a feature needed for extending XHTML's reach onto emerging platforms. Modularization of XHTML will make it easier to combine with markup tags for things like vector graphics, multimedia, math, electronic commerce and more. Content providers will find it easier to produce content for a wide range of platforms, with better assurances as to how the content is rendered. The modular design reflects the realization that a one-size-fits-all approach will no longer work in a world where browsers vary enormously in their capabilities. A browser in a cellphone can't offer the same experience as a top of the range multimedia desktop machine. The cellphone doesn't even have the memory to load the page designed for the desktop browser. See also an overview of XHTML Modularization . XHTML 1.1 - Module-based XHTML This Recommendation defines a new XHTML document type that is based upon the module framework and modules defined in Modularization of XHTML. The purpose of this document type is to serve as the basis for future extended XHTML 'family' document types, and to provide a consistent, forward-looking document type cleanly separated from the deprecated, legacy functionality of HTML 4 that was brought forward into the XHTML 1.0 document types. This document type is essentially a reformulation of XHTML 1.0 Strict using XHTML Modules. This means that many facilities available in other XHTML Family document types (e.g., XHTML Frames) are not available in this document type. These other facilities are available through modules defined in Modularization of XHTML, and document authors are free to define document types based upon XHTML 1.1 that use these facilities (see Modularization of XHTML for information on creating new document types). What is the difference between XHTML 1.0, XHTML Basic and XHTML 1.1? The first step was to reformulate HTML 4 in XML, resulting in XHTML 1.0 . By following the HTML Compatibility Guidelines set forth in Appendix C of the XHTML 1.0 specification, XHTML 1.0 documents could be compatible with existing HTML user agents. The next step is to modularize the elements and attributes into convenient collections for use in documents that combine XHTML with other tag sets. The modules are defined in Modularization of XHTML . XHTML Basic is an example of fairly minimal build of these modules and is targeted at mobile applications. XHTML 1.1 is an example of a larger build of the modules, avoiding many of the presentation features. While XHTML 1.1 looks very similar to XHTML 1.0 Strict, it is designed to serve as the basis for future extended XHTML Family document types, and its modular design makes it easier to add other modules as needed or integrate itself into other markup languages. XHTML 1.1 plus MathML 2.0 document type is an example of such XHTML Family document type. XML Events Note: This specification was renamed from "XHTML Events". The XML Events module defined in this specification provides XML languages with the ability to uniformly integrate event listeners and associated event handlers with Document Object Model (DOM) Level 2 event interfaces. The result is to provide an interoperable way of associating behaviors with document-level markup. Previous Versions of HTML HTML 4.01 The HTML 4.01 Recommendation released on 24th December 1999 fixes a number of bugs in the HTML 4.0 specification. The list of changes are detailed in appendix A . --> HTML 4.0 First released as a W3C Recommendation on 18 December 1997. A second release was issued on 24 April 1998 with changes limited to editorial corrections. This specification has now been superseded by HTML 4.01 . HTML 3.2 W3C's first Recommendation for HTML which represented the consensus on HTML features for 1996. HTML 3.2 added widely-deployed features such as tables, applets, text-flow around images, superscripts and subscripts, while providing backwards compatibility with the existing HTML 2.0 Standard . HTML 2.0 HTML 2.0 ( RFC 1866 ) was developed by the IETF 's HTML Working Group, which closed in 1996. It set the standard for core HTML features based upon current practice in 1994. Note that with the release of RFC 2854 , RFC 1866 has been obsoleted and its current status is HISTORIC . ISO HTML ISO/ IEC 15445:2000 is a subset of HTML 4, standardized by ISO/IEC. It takes a more rigorous stance for instance, an h3 element can't occur after an h1 element unless there is an intervening h2 element. Roger Price and David Abrahamson have written a user's guide to ISO HTML . Other Public Drafts We would like to hear from you via email. Please send your comments to: www-html@w3.org ( archive ). Don't forget to include XHTML in the subject line. HTML Working Group Roadmap This describes the timeline for deliverables of the HTML working group. It used to be a W3C NOTE but has now been moved to the MarkUp area for easier maintenance. Modularization of XHTML in XML Schema The purpose of this document is to describe a modularization framework for languages within the XHTML Namespace using XML Schema. This document provides a complete set of XML Schema modules for XHTML. In addition to the schema modules themselves, the framework presented here describes a means of further extending and modifying XHTML. An XHTML + MathML + SVG Profile An XHTML+MathML+SVG profile is a profile that combines XHTML 1.1, MathML 2.0 and SVG 1.1 together. This profile enables mixing XHTML, MathML and SVG in the same document using XML namespaces mechanism, while allowing validation of such a mixed-namespace document. This specification is a joint work with the SVG Working Group, with the help from the Math WG. XHTML 2.0 XHTML 2.0 is a markup language intended for rich, portable web-based applications. While the ancestry of XHTML 2.0 comes from HTML 4, XHTML 1.0, and XHTML 1.1, it is not intended to be backward compatible with its earlier versions. Application developers familiar with its earlier ancestors will be comfortable working with XHTML 2.0. XHTML 2 is a member of the XHTML Family of markup languages. It is an XHTML Host Language as defined in Modularization of XHTML . As such, it is made up of a set of XHTML Modules that together describe the elements and attributes of the language, and their content model. XHTML 2.0 updates many of the modules defined in Modularization of XHTML, and includes the updated versions of all those modules and their semantics. XHTML 2.0 also uses modules from Ruby , XML Events , and XForms . XFrames XFrames is an XML application for composing documents together, replacing HTML Frames. XFrames is not a part of XHTML per se, that allows similar functionality to HTML Frames, with fewer usability problems, principally by making the content of the frameset visible in its URI. XHTML 1.0 in XML Schema This document describes informative XML Schemas for XHTML 1.0. These Schemas are still work in progress, and this document does not change the normative definition of XHTML 1.0. HLink The HLink module defined in this specification provides XHTML Family Members with the ability to specify which attributes of elements represent Hyperlinks, and how those hyperlinks should be traversed, and extends XLink use to a wider class of languages than those restricted to the syntactic style allowed by XLink. XHTML-Print XHTML-Print is member of the family of XHTML Languages defined by the Modularization of XHTML . It is designed to be appropriate for printing from mobile devices to low-cost printers that might not have a full-page buffer and that generally print from top-to-bottom and left-to-right with the paper in a portrait orientation. XHTML-Print is also targeted at printing in environments where it is not feasible or desirable to install a printer-specific driver and where some variability in the formatting of the output is acceptable. Building XHTML Modules Note: This document has been incorporated into " Modularization of XHTML ". XHTML Document Profile Requirements The increasing disparities between the capabilities of different kinds of Web browsers present challenges to Web content developers wishing to reach a wide audience. A promising approach is to formally describe profiles for documents intended for broad groups of browsers, for instance, separate document profiles for browsers running on desktops, television, handhelds, cellphones and voice browsers. Document profiles provide a basis for interoperability guarantees. If an author develops content for a given profile and a browser supports the profile then the author may be confident that the document will be rendered as expected. The requirements for document profiles are analyzed. --> Useful information for HTML/XHTML authors Tutorials Getting started with HTML by Dave Raggett is a short introduction to writing HTML, including tutorials on advanced features . Adding a touch of style by Dave Raggett is a short guide to styling your Web pages. XHTML Modules and Markup Languages - How to create XHTML Family modules and markup languages for fun and profit by Shane McCarron explains how to create XHTML Family modules and markup languages, based on Modularization of XHTML . Slides on XHTML You may also be interested in the following slides on XHTML: XHTML: The Extensible Hypertext Markup Language by Dave Raggett, at W3C LA event in Stockholm, 24 March 1999. W3C HTML Activity by Dave Raggett, as part of WWW8 W3C Track, 12 May 1999 W3C Work on XHTML by Dave Raggett, at XML '99 , 6 December 1999. The presentation describes the work being done by W3C on XHTML. The XHTML Family (in Japanese) by Masayasu Ishikawa, at SFC Open Research Forum 2001 , 21 September 2001. XForms, XHTML and Device Independence by Steven Pemberton, at W3C.DE-Arbeitstreffen: Cross Media Publishing , 11 April 2002. XHTML Family by Masayasu Ishikawa, as part of WWW2002 W3C Track , 9 May 2002. Slides are available in XHTML or HTML (XHTML version needs XHTML+MathML+SVG+Ruby support). XHTML 2.0 and XForms by Steven Pemberton, as part of WWW2003 W3C Track , 21 May 2003. W3C's Horizontal Activities Usage: XHTML Family Case Study by Steven Pemberton, WWW2003 W3C Track, 23 May 2003. XHTML and XForms by Steven Pemberton, at Zomersessie van NGI Limburg: XHTML2 en XForms, state of the art en stage-ervaringen bij het W3C , 3 July 2003. Guidelines for authoring Here are some rough guidelines for HTML authors. If you use these, you are more likely to end up with pages that are easy to maintain, look acceptable to users regardless of the browser they are using, and can be accessed by the many Web users with disabilities. Meanwhile W3C have produced some more formal guidelines for authors. Have a look at the detailed Web Content Accessibility Guidelines 1.0 . A question of style sheets. For most people the look of a document - the color, the font, the margins - are as important as the textual content of the document itself. But make no mistake! HTML is not designed to be used to control these aspects of document layout. What you should do is to use HTML to mark up headings, paragraphs, lists, hypertext links, and other structural parts of your document, and then add a style sheet to specify layout separately, just as you might do in a conventional Desk Top Publishing Package. That way, not only is there a better chance of all browsers displaying your document properly, but also, if you want to change such things as the font or color, it's really simple to do so. See the Touch of style . FONT tag considered harmful! Many filters from word-processing packages, and also some HTML authoring tools, generate HTML code which is completely contrary to the design goals of the language. What they do is to look at a document almost purely from the point of view of layout, and then mimic that layout in HTML by doing tricks with FONT, BR and &nbsp; (non-breaking spaces). HTML documents are supposed to be structured around items such as paragraphs, headings and lists. Yet some of these documents barely have a paragraph tag in sight! The problem comes when the content of pages needs to be updated, or given a new layout, or re-cast in XML (which is now to be the new mark-up language). With proper use of HTML, such operations are not difficult, but with a muddle of non-structural tags it's quite a different matter; maintenance tasks become impractical. To correct pages suffering from injudicious use of FONT, try the HTML Tidy program , which will do its best to put things right and generate better and more manageable HTML. Make your pages readable by those with disabilities. The Web is a tremendously useful tool for the visually impaired or blind user, but bear in mind that these users rely on speech synthesizers or Braille readers to render the text. Sloppy mark-up, or mark-up which doesn't have the layout defined in a separate style sheet, is hard for such software to deal with. Wherever possible, use a style sheet for the presentational aspects of your pages, using HTML purely for structural mark-up. Also, remember to include descriptions with each image, and try to avoid server-side image maps. For tables, you should include a summary of the table's structure, and remember to associate table data with relevant headers. This will give non-visual browsers a chance to help orient people as they move from one cell to the next. For forms, remember to include labels for form fields. Do look at the accessibility guidelines for a more detailed account of how to make your Web pages really accessible. W3C Markup Validation Service To further promote the reliability and fidelity of communications on the Web, W3C has introduced the W3C Markup Validation Service at http://validator.w3.org/ . Content providers can use this service to validate their Web pages against the HTML and XHTML Recommendations, thereby ensuring the maximum possible audience for their Web pages. It also supports XHTML Family document types such as XHTML+MathML and XHTML+MathML+SVG , and also other markup vocabularies such as SVG . Software developers who write HTML and XHTML editing tools can ensure interoperability with other Web software by verifying that the output of their tool complies with the W3C Recommendations for HTML and XHTML. HTML Tidy HTML Tidy is a stand-alone tool for checking and pretty-printing HTML that is in many cases able to fix up mark-up errors, and also offers a means to convert existing HTML content into well-formed XML, for delivery as XHTML. HTML Tidy was originally written by Dave Raggett , and it is now maintained as an open source project at SourceForge by a group of volunteers. There is an archived public mailing list html-tidy@w3.org. Please send bug reports / suggestions on HTML Tidy to this mailing list. Discussion Forums Changes to HTML necessitate obtaining a consensus from a broad range of organizations. If you have a great idea, it will take time to convince others! Here are some of the places where discussion on HTML takes place: comp.infosystems.www.authoring.html A USENET newsgroup where HTML authoring issues are discussed. "How To" questions should be addressed here. Note that many issues related to forms and CGI, image maps, transparent gifs, etc. are covered in the WWW FAQ . www-html@w3.org A technical discussion list. If you have a proposal for a change to HTML/XHTML, you might start a discussion here to see what other developers think of it. how to subscribe archives from 1994 to present (We're working on moving the old archives to W3C. Stay tuned!) www-html-editor@w3.org This is a list to report errors / send review comments on HTML/XHTML specifications. This is NOT a discussion list. Anyone may send comments without subscription, although you'll be requested to give explicit approval to include your message in our publicly-readable mailing list archive at your first post. To subscribe, send subscription request to www-html-editor-request@w3.org. For more information, see how to subscribe . W3C HTML Working Group ( members only ) The Group's mission is to develop the next generation of HTML as a suite of XML tag sets with a clean migration path from HTML 4. Some of the expected benefits include: reduced authoring costs, an improved match to database & workflow applications, a modular solution to the increasingly disparate capabilities of browsers, and the ability to cleanly integrate HTML with other XML applications. The Group is chaired by Steven Pemberton . w3c-translators@w3.org This is a mailing list for people working on translations of W3C specifications such as the HTML/XHTML Recommendations . To subscribe, send an email to w3c-translators-request@w3.org with the word "subscribe" in the subject line; (include the word "unsubscribe" if you want to unsubscribe.) The archive for the list is accessible online. IETF MHTML WG (closed) Developed RFC 2557 - "MIME Encapsulation of Aggregate Documents, such as HTML (MHTML). J. Palme et al. March 1989. IETF HTML Working Group (closed) The HTML working group of the IETF , closed in 1996. Web Conferences The next international conference dedicated to the Web is WWW2004, to be held in New York city, USA, in 2004. The last was WWW2003 , which was held in Budapest, Hungary, 20-24 May 2003. Related W3C Work XML XML is the universal format for structured documents and data on the Web. It allows you to define your own mark-up formats when HTML is not a good fit. XML is being used increasingly for data; for instance, W3C's metadata format RDF . Style Sheets W3C's Cascading Style Sheets language ( CSS ) provides a simple means to style HTML pages, allowing you to control visual and aural characteristics; for instance, fonts, margins, line-spacing, borders, colors, layers and more. W3C is also working on a new style sheet language written in XML called XSL , which provides a means to transform XML documents into HTML. Document Object Model Provides ways for scripts to manipulate HTML using a set of methods and data types defined independently of particular programming languages or computer platforms. It forms the basis for dynamic effects in Web pages, but can also be exploited in HTML editors and other tools by extensions for manipulating HTML content. Internationalization HTML 4 provides a number of features for use with a wide variety of languages and writing systems. For instance, mixed language text, and right-to-left and mixed direction text. HTML 4 is formally based upon Unicode, but allows you to store and transmit documents in a variety of character encodings. Further work is envisaged for handling vertical text and phonetic annotations for Kanji ( Ruby ). Access for People with Disabilities HTML 4 includes many features for improved access by people with disabilities. W3C's Web Accessibility Initiative is working on providing effective guidelines for making your pages accessible to all, not just those using graphical browsers. XForms Forms are a very widely used feature in web pages. W3C is working on the design of the next generation of web forms with a view to separating the presentation, data and logic, as a means to allowing the same forms to be used with widely differing presentations. Mathematics Work on representing mathematics on the Web has focused on ways to handle the presentation of mathematical expressions and also the intended meaning. The MathML language is an application of XML, which, while not suited to hand-editing, is easy to process by machine. Contacts Masayasu ISHIKAWA is the HTML Activity Lead and the Team Contact for the HTML Working Group news mission --> | Recommendations | public drafts | test suites | tutorials | slides | guidelines | validation | articles | translations | charter | working group | roadmap | XForms | forums | HTML Tidy | related work | HTML 4.0/3.2/2.0 | historical Copyright ©1995-2004 W3C ® ( MIT , ERCIM , Keio ), All Rights Reserved. W3C liability , trademark , document use and software licensing rules apply. Your interactions with this site are in accordance with our public and Member privacy statements. This page was last modified on: $ Date: 2004/01/20 19:07:55 $   --> 
+
+HyperText Markup Language (HTML) Home Page
+
+This is W3C's home page for the HTML Activity. Here you will find pointers to our specifications for HTML/XHTML, guidelines on how to use HTML/XHTML to the best effect, and pointers to related work at W3C. When W3C decides to become involved in an area of Web technology or policy, it initiates an activity in that area. HTML is one of many Activities currently being pursued. You can learn more about the HTML Activity from the HTML Activity Statement.
+
+news | Recommendations | public drafts | test suites | tutorials | slides | guidelines | validation | articles | translations | charter | working group | roadmap | XForms | forums | HTML Tidy | related work | HTML 4.0/3.2/2.0 | historical
+
+NEWS
+
+20 January 2004: The XHTML-Print specification has been published as a Candidate Recommendation. XHTML-Print is designed to be appropriate for printing from mobile devices to low-cost printers that might not have a full-page buffer and that generally print from top-to-bottom and left-to-right with the paper in a portrait orientation. XHTML-Print is also targeted at printing in environments where it is not feasible or desirable to install a printer-specific driver and where some variability in the formatting of the output is acceptable. Please send implementation feedback to www-html-editor@w3.org (archive).
+
+14 October 2003: The World Wide Web Consortium today released XML Events specification as a Recommendation. The XML Events module defined in this specification provides XML languages with the ability to uniformly integrate event listeners and associated event handlers with DOM2 event interfaces. The specification has been reviewed by the W3C Membership, who favor its adoption by industry.
+
+3 October 2003: The second Last Call Working Draft of Modularization of XHTML in XML Schema has been published. It is being re-submitted for Last Call because of substantial changes in the way the Schemas are implemented to ease their use in non-XHTML context. The Last Call review period ends 14 November 2003. Please send Last Call comments to www-html-editor@w3.org (archive).
+
+23 September 2003: W3C Launched the HTML Patent Advisory Group (PAG) to study issues for HTML-related specifications raised by the US court case of Eolas v. Microsoft and US Patent 5,838,906. Public discussion takes place on the public-web-plugins mailing list. The FAQ on US Patent 5,838,906 and the W3C is available.
+
+(Past News)
+
+What is HTML?
+
+HTML is the lingua franca for publishing hypertext on the World Wide Web. It is a non-proprietary format based upon SGML, and can be created and processed by a wide range of tools, from simple plain text editors - you type it in from scratch- to sophisticated WYSIWYG authoring tools. HTML uses tags such as <h1>and </h1>to structure text into headings, paragraphs, lists, hypertext links etc. Here is a 10-minute guide for newcomers to HTML. W3C's statement of direction for HTML is given on the HTML Activity Statement. See also the page on our work on the next generation of Web forms, and the section on Web history.
+
+What is XHTML?
+
+The Extensible HyperText Markup Language (XHTML&#8482;) is a family of current and future document types and modules that reproduce, subset, and extend HTML, reformulated in XML. XHTML Family document types are all XML-based, and ultimately are designed to work in conjunction with XML-based user agents. XHTML is the successor of HTML, and a series of specifications has been developed for XHTML.
+
+Mission of the HTML Working Group
+
+To develop the next generation of HTML as a suite of XML tag sets with a clean migration path from HTML 4. Some of the expected benefits include: reduced authoring costs, an improved match to database & workflow applications, a modular solution to the increasingly disparate capabilities of browsers, and the ability to cleanly integrate HTML with other XML applications. For further information, see the Charter for the HTML Working Group (members only).
+
+Note. The HTML Working Group Charter has been renewed in August 2002.
+
+Recommendations
+
+W3C produces what are known as "Recommendations". These are specifications, developed by W3C working groups, and then reviewed by Members of the Consortium. A W3C Recommendation indicates that consensus has been reached among the Consortium Members that a specification is appropriate for widespread use.
+
+XHTML 1.0 | HTML 4.01 | XHTML Basic | Modularization of XHTML | XHTML 1.1 | XML Events
+
+XHTML 1.0
+
+XHTML 1.0 is the W3C's first Recommendation for XHTML, following on from earlier work on HTML 4.01, HTML 4.0, HTML 3.2 and HTML 2.0. With a wealth of features, XHTML 1.0 is a reformulation of HTML 4.01 in XML, and combines the strength of HTML 4 with the power of XML.
+
+XHTML 1.0 is the first major change to HTML since HTML 4.0 was released in 1997. It brings the rigor of XML to Web pages and is the keystone in W3C's work to create standards that provide richer Web pages on an ever increasing range of browser platforms including cell phones, televisions, cars, wallet sized wireless communicators, kiosks, and desktops.
+
+XHTML 1.0 is the first step and the HTML Working Group is busy on the next. XHTML 1.0 reformulates HTML as an XML application. This makes it easier to process and easier to maintain. XHTML 1.0 borrows elements and attributes from W3C's earlier work on HTML 4, and can be interpreted by existing browsers, by following a few simple guidelines. This allows you to start using XHTML now!
+
+You can roll over your old HTML documents into XHTML using an Open Source HTML Tidy utility. This tool also cleans up markup errors, removes clutter and prettifies the markup making it easier to maintain.
+
+Three "flavors" of XHTML 1.0:
+
+XHTML 1.0 is specified in three "flavors". You specify which of these variants you are using by inserting a line at the beginning of the document. For example, the HTML for this document starts with a line which says that it is using XHTML 1.0 Strict. Thus, if you want to validate the document, the tool used knows which variant you are using. Each variant has its own DTD - Document Type Definition - which sets out the rules and regulations for using HTML in a succinct and definitive manner.
+
+XHTML 1.0 Strict - Use this when you want really clean structural mark-up, free of any markup associated with layout. Use this together with W3C's Cascading Style Sheet language (CSS) to get the font, color, and layout effects you want.
+
+XHTML 1.0 Transitional - Many people writing Web pages for the general public to access might want to use this flavor of XHTML 1.0. The idea is to take advantage of XHTML features including style sheets but nonetheless to make small adjustments to your markup for the benefit of those viewing your pages with older browsers which can't understand style sheets. These include using the bodyelement with bgcolor, textand linkattributes.
+
+XHTML 1.0 Frameset - Use this when you want to use Frames to partition the browser window into two or more frames.
+
+The complete XHTML 1.0 specification is available in English in several formats, including HTML, PostScript and PDF. See also the list of translations produced by volunteers.
+
+HTML 4.01
+
+HTML 4.01 is a revision of the HTML 4.0 Recommendation first released on 18th December 1997. The revision fixes minor errors that have been found since then. The XHTML 1.0 spec relies on HTML 4.01 for the meanings of XHTML elements and attributes. This allowed us to reduce the size of the XHTML 1.0 spec very considerably.
+
+XHTML Basic
+
+XHTML Basic is the second Recommendation in a series of XHTML specifications.
+
+The XHTML Basic document type includes the minimal set of modules required to be an XHTML Host Language document type, and in addition it includes images, forms, basic tables, and object support. It is designed for Web clients that do not support the full set of XHTML features; for example, Web clients such as mobile phones, PDAs, pagers, and settop boxes. The document type is rich enough for content authoring.
+
+XHTML Basic is designed as a common base that may be extended. For example, an event module that is more generic than the traditional HTML 4 event system could be added or it could be extended by additional modules from XHTML Modularization such as the Scripting Module. The goal of XHTML Basic is to serve as a common language supported by various kinds of user agents.
+
+The document type definition is implemented using XHTML modules as defined in "Modularization of XHTML".
+
+The complete XHTML Basic specification is available in English in several formats, including HTML, plain text, PostScript and PDF. See also the list of translations produced by volunteers.
+
+Modularization of XHTML
+
+Modularization of XHTML is the third Recommendation in a series of XHTML specifications.
+
+This Recommendation specifies an abstract modularization of XHTML and an implementation of the abstraction using XML Document Type Definitions (DTDs). This modularization provides a means for subsetting and extending XHTML, a feature needed for extending XHTML's reach onto emerging platforms. 
+
+Modularization of XHTML will make it easier to combine with markup tags for things like vector graphics, multimedia, math, electronic commerce and more. Content providers will find it easier to produce content for a wide range of platforms, with better assurances as to how the content is rendered.
+
+The modular design reflects the realization that a one-size-fits-all approach will no longer work in a world where browsers vary enormously in their capabilities. A browser in a cellphone can't offer the same experience as a top of the range multimedia desktop machine. The cellphone doesn't even have the memory to load the page designed for the desktop browser.
+
+See also an overview of XHTML Modularization.
+
+XHTML 1.1 - Module-based XHTML
+
+This Recommendation defines a new XHTML document type that is based upon the module framework and modules defined in Modularization of XHTML. The purpose of this document type is to serve as the basis for future extended XHTML 'family' document types, and to provide a consistent, forward-looking document type cleanly separated from the deprecated, legacy functionality of HTML 4 that was brought forward into the XHTML 1.0 document types.
+
+This document type is essentially a reformulation of XHTML 1.0 Strict using XHTML Modules. This means that many facilities available in other XHTML Family document types (e.g., XHTML Frames) are not available in this document type. These other facilities are available through modules defined in Modularization of XHTML, and document authors are free to define document types based upon XHTML 1.1 that use these facilities (see Modularization of XHTML for information on creating new document types).
+
+What is the difference between XHTML 1.0, XHTML Basic and XHTML 1.1?
+
+The first step was to reformulate HTML 4 in XML, resulting in XHTML 1.0. By following the HTML Compatibility Guidelines set forth in Appendix C of the XHTML 1.0 specification, XHTML 1.0 documents could be compatible with existing HTML user agents.
+
+The next step is to modularize the elements and attributes into convenient collections for use in documents that combine XHTML with other tag sets. The modules are defined in Modularization of XHTML. XHTML Basic is an example of fairly minimal build of these modules and is targeted at mobile applications.
+
+XHTML 1.1 is an example of a larger build of the modules, avoiding many of the presentation features. While XHTML 1.1 looks very similar to XHTML 1.0 Strict, it is designed to serve as the basis for future extended XHTML Family document types, and its modular design makes it easier to add other modules as needed or integrate itself into other markup languages. XHTML 1.1 plus MathML 2.0 document type is an example of such XHTML Family document type.
+
+XML Events
+
+Note: This specification was renamed from "XHTML Events".
+
+The XML Events module defined in this specification provides XML languages with the ability to uniformly integrate event listeners and associated event handlers with Document Object Model (DOM) Level 2 event interfaces. The result is to provide an interoperable way of associating behaviors with document-level markup.
+
+Previous Versions of HTML
+
+HTML 4.0 
+First released as a W3C Recommendation on 18 December 1997. A second release was issued on 24 April 1998 with changes limited to editorial corrections. This specification has now been superseded by HTML 4.01.
+ 
+HTML 3.2 
+W3C's first Recommendation for HTML which represented the consensus on HTML features for 1996. HTML 3.2 added widely-deployed features such as tables, applets, text-flow around images, superscripts and subscripts, while providing backwards compatibility with the existing HTML 2.0 Standard.
+ 
+HTML 2.0 
+HTML 2.0 (RFC 1866) was developed by the IETF's HTML Working Group, which closed in 1996. It set the standard for core HTML features based upon current practice in 1994. Note that with the release of RFC 2854, RFC 1866 has been obsoleted and its current status is HISTORIC.
+ 
+
+ISO HTML
+
+ISO/IEC 15445:2000 is a subset of HTML 4, standardized by ISO/IEC. It takes a more rigorous stance for instance, an h3element can't occur after an h1element unless there is an intervening h2element. Roger Price and David Abrahamson have written a user's guide to ISO HTML.
+
+Other Public Drafts
+
+We would like to hear from you via email. Please send your comments to: www-html@w3.org (archive). Don't forget to include XHTML in the subject line.
+
+HTML Working Group Roadmap
+
+This describes the timeline for deliverables of the HTML working group. It used to be a W3C NOTE but has now been moved to the MarkUp area for easier maintenance.
+
+Modularization of XHTML in XML Schema
+
+The purpose of this document is to describe a modularization framework for languages within the XHTML Namespace using XML Schema. This document provides a complete set of XML Schema modules for XHTML. In addition to the schema modules themselves, the framework presented here describes a means of further extending and modifying XHTML.
+
+An XHTML + MathML + SVG Profile
+
+An XHTML+MathML+SVG profile is a profile that combines XHTML 1.1, MathML 2.0 and SVG 1.1 together. This profile enables mixing XHTML, MathML and SVG in the same document using XML namespaces mechanism, while allowing validation of such a mixed-namespace document.
+
+This specification is a joint work with the SVG Working Group, with the help from the Math WG.
+
+XHTML 2.0
+
+XHTML 2.0 is a markup language intended for rich, portable web-based applications. While the ancestry of XHTML 2.0 comes from HTML 4, XHTML 1.0, and XHTML 1.1, it is not intended to be backward compatible with its earlier versions. Application developers familiar with its earlier ancestors will be comfortable working with XHTML 2.0.
+
+XHTML 2 is a member of the XHTML Family of markup languages. It is an XHTML Host Language as defined in Modularization of XHTML. As such, it is made up of a set of XHTML Modules that together describe the elements and attributes of the language, and their content model. XHTML 2.0 updates many of the modules defined in Modularization of XHTML, and includes the updated versions of all those modules and their semantics. XHTML 2.0 also uses modules from Ruby, XML Events, and XForms.
+
+XFrames
+
+XFrames is an XML application for composing documents together, replacing HTML Frames. XFrames is not a part of XHTML per se, that allows similar functionality to HTML Frames, with fewer usability problems, principally by making the content of the frameset visible in its URI.
+
+XHTML 1.0 in XML Schema
+
+This document describes informative XML Schemas for XHTML 1.0. These Schemas are still work in progress, and this document does not change the normative definition of XHTML 1.0.
+
+HLink
+
+The HLink module defined in this specification provides XHTML Family Members with the ability to specify which attributes of elements represent Hyperlinks, and how those hyperlinks should be traversed, and extends XLink use to a wider class of languages than those restricted to the syntactic style allowed by XLink.
+
+XHTML-Print
+
+XHTML-Print is member of the family of XHTML Languages defined by the Modularization of XHTML. It is designed to be appropriate for printing from mobile devices to low-cost printers that might not have a full-page buffer and that generally print from top-to-bottom and left-to-right with the paper in a portrait orientation. XHTML-Print is also targeted at printing in environments where it is not feasible or desirable to install a printer-specific driver and where some variability in the formatting of the output is acceptable.
+
+Useful information for HTML/XHTML authors
+
+Tutorials
+
+* Getting started with HTML by Dave Raggett is a short introduction to writing HTML, including tutorials on advanced features. 
+* Adding a touch of style by Dave Raggett is a short guide to styling your Web pages. 
+* XHTML Modules and Markup Languages - How to create XHTML Family modules and markup languages for fun and profit by Shane McCarron explains how to create XHTML Family modules and markup languages, based on Modularization of XHTML. 
+
+Slides on XHTML
+
+You may also be interested in the following slides on XHTML:
+
+* XHTML: The Extensible Hypertext Markup Language by Dave Raggett, at W3C LA event in Stockholm, 24 March 1999. 
+* W3C HTML Activity by Dave Raggett, as part of WWW8 W3C Track, 12 May 1999 
+* W3C Work on XHTML by Dave Raggett, at XML '99, 6 December 1999. The presentation describes the work being done by W3C on XHTML. 
+* The XHTML Family (in Japanese) by Masayasu Ishikawa, at SFC Open Research Forum 2001, 21 September 2001. 
+* XForms, XHTML and Device Independence by Steven Pemberton, at W3C.DE-Arbeitstreffen: Cross Media Publishing, 11 April 2002. 
+* XHTML Family by Masayasu Ishikawa, as part of WWW2002 W3C Track, 9 May 2002. Slides are available in XHTML or HTML (XHTML version needs XHTML+MathML+SVG+Ruby support). 
+* XHTML 2.0 and XForms by Steven Pemberton, as part of WWW2003 W3C Track, 21 May 2003. 
+* W3C's Horizontal Activities Usage: XHTML Family Case Study by Steven Pemberton, WWW2003 W3C Track, 23 May 2003. 
+* XHTML and XForms by Steven Pemberton, at Zomersessie van NGI Limburg: XHTML2 en XForms, state of the art en stage-ervaringen bij het W3C, 3 July 2003. 
+
+Guidelines for authoring
+
+Here are some rough guidelines for HTML authors. If you use these, you are more likely to end up with pages that are easy to maintain, look acceptable to users regardless of the browser they are using, and can be accessed by the many Web users with disabilities. Meanwhile W3C have produced some more formal guidelines for authors. Have a look at the detailed Web Content Accessibility Guidelines 1.0.
+
+1.  
+
+A question of style sheets. For most people the look of a document - the color, the font, the margins - are as important as the textual content of the document itself. But make no mistake! HTML is not designed to be used to control these aspects of document layout. What you should do is to use HTML to mark up headings, paragraphs, lists, hypertext links, and other structural parts of your document, and then add a style sheet to specify layout separately, just as you might do in a conventional Desk Top Publishing Package. That way, not only is there a better chance of all browsers displaying your document properly, but also, if you want to change such things as the font or color, it's really simple to do so. See the Touch of style.
+
+2.  
+
+FONT tag considered harmful! Many filters from word-processing packages, and also some HTML authoring tools, generate HTML code which is completely contrary to the design goals of the language. What they do is to look at a document almost purely from the point of view of layout, and then mimic that layout in HTML by doing tricks with FONT, BR and &nbsp;(non-breaking spaces). HTML documents are supposed to be structured around items such as paragraphs, headings and lists. Yet some of these documents barely have a paragraph tag in sight!
+
+The problem comes when the content of pages needs to be updated, or given a new layout, or re-cast in XML (which is now to be the new mark-up language). With proper use of HTML, such operations are not difficult, but with a muddle of non-structural tags it's quite a different matter; maintenance tasks become impractical. To correct pages suffering from injudicious use of FONT, try the HTML Tidy program, which will do its best to put things right and generate better and more manageable HTML.
+
+3.  
+
+Make your pages readable by those with disabilities. The Web is a tremendously useful tool for the visually impaired or blind user, but bear in mind that these users rely on speech synthesizers or Braille readers to render the text. Sloppy mark-up, or mark-up which doesn't have the layout defined in a separate style sheet, is hard for such software to deal with. Wherever possible, use a style sheet for the presentational aspects of your pages, using HTML purely for structural mark-up.
+
+Also, remember to include descriptions with each image, and try to avoid server-side image maps. For tables, you should include a summary of the table's structure, and remember to associate table data with relevant headers. This will give non-visual browsers a chance to help orient people as they move from one cell to the next. For forms, remember to include labels for form fields.
+
+Do look at the accessibility guidelines for a more detailed account of how to make your Web pages really accessible.
+
+W3C Markup Validation Service
+
+To further promote the reliability and fidelity of communications on the Web, W3C has introduced the W3C Markup Validation Service at http://validator.w3.org/.
+
+Content providers can use this service to validate their Web pages against the HTML and XHTML Recommendations, thereby ensuring the maximum possible audience for their Web pages. It also supports XHTML Family document types such as XHTML+MathML and XHTML+MathML+SVG, and also other markup vocabularies such as SVG.
+
+Software developers who write HTML and XHTML editing tools can ensure interoperability with other Web software by verifying that the output of their tool complies with the W3C Recommendations for HTML and XHTML.
+
+HTML Tidy
+
+HTML Tidy is a stand-alone tool for checking and pretty-printing HTML that is in many cases able to fix up mark-up errors, and also offers a means to convert existing HTML content into well-formed XML, for delivery as XHTML. HTML Tidy was originally written by Dave Raggett, and it is now maintained as an open source project at SourceForge by a group of volunteers.
+
+There is an archived public mailing list html-tidy@w3.org. Please send bug reports / suggestions on HTML Tidy to this mailing list.
+
+Discussion Forums
+
+Changes to HTML necessitate obtaining a consensus from a broad range of organizations. If you have a great idea, it will take time to convince others! Here are some of the places where discussion on HTML takes place:
+
+comp.infosystems.www.authoring.html 
+A USENET newsgroup where HTML authoring issues are discussed. "How To" questions should be addressed here. Note that many issues related to forms and CGI, image maps, transparent gifs, etc. are covered in the WWW FAQ.
+ 
+www-html@w3.org 
+A technical discussion list. If you have a proposal for a change to HTML/XHTML, you might start a discussion here to see what other developers think of it. 
+
+* how to subscribe 
+* archives from 1994 to present 
+* (We're working on moving the old archives to W3C. Stay tuned!) 
+
+www-html-editor@w3.org 
+This is a list to report errors / send review comments on HTML/XHTML specifications. This is NOT a discussion list. Anyone may send comments without subscription, although you'll be requested to give explicit approval to include your message in our publicly-readable mailing list archive at your first post. To subscribe, send subscription request to www-html-editor-request@w3.org. For more information, see how to subscribe.
+ 
+W3C HTML Working Group (members only) 
+The Group's mission is to develop the next generation of HTML as a suite of XML tag sets with a clean migration path from HTML 4. Some of the expected benefits include: reduced authoring costs, an improved match to database & workflow applications, a modular solution to the increasingly disparate capabilities of browsers, and the ability to cleanly integrate HTML with other XML applications. The Group is chaired by Steven Pemberton.
+ 
+w3c-translators@w3.org 
+This is a mailing list for people working on translations of W3C specifications such as the HTML/XHTML Recommendations. To subscribe, send an email to w3c-translators-request@w3.org with the word "subscribe" in the subject line; (include the word "unsubscribe" if you want to unsubscribe.) The archive for the list is accessible online.
+ 
+IETF MHTML WG (closed) 
+Developed RFC 2557 - "MIME Encapsulation of Aggregate Documents, such as HTML (MHTML). J. Palme et al. March 1989.
+ 
+IETF HTML Working Group (closed) 
+The HTML working group of the IETF, closed in 1996.
+ 
+Web Conferences 
+The next international conference dedicated to the Web is WWW2004, to be held in New York city, USA, in 2004. The last was WWW2003, which was held in Budapest, Hungary, 20-24 May 2003.
+ 
+
+Related W3C Work
+
+XML 
+XML is the universal format for structured documents and data on the Web. It allows you to define your own mark-up formats when HTML is not a good fit. XML is being used increasingly for data; for instance, W3C's metadata format RDF.
+ 
+Style Sheets 
+W3C's Cascading Style Sheets language (CSS) provides a simple means to style HTML pages, allowing you to control visual and aural characteristics; for instance, fonts, margins, line-spacing, borders, colors, layers and more. W3C is also working on a new style sheet language written in XML called XSL, which provides a means to transform XML documents into HTML.
+ 
+Document Object Model 
+Provides ways for scripts to manipulate HTML using a set of methods and data types defined independently of particular programming languages or computer platforms. It forms the basis for dynamic effects in Web pages, but can also be exploited in HTML editors and other tools by extensions for manipulating HTML content.
+ 
+Internationalization 
+HTML 4 provides a number of features for use with a wide variety of languages and writing systems. For instance, mixed language text, and right-to-left and mixed direction text. HTML 4 is formally based upon Unicode, but allows you to store and transmit documents in a variety of character encodings. Further work is envisaged for handling vertical text and phonetic annotations for Kanji (Ruby).
+ 
+Access for People with Disabilities 
+HTML 4 includes many features for improved access by people with disabilities. W3C's Web Accessibility Initiative is working on providing effective guidelines for making your pages accessible to all, not just those using graphical browsers.
+ 
+XForms 
+Forms are a very widely used feature in web pages. W3C is working on the design of the next generation of web forms with a view to separating the presentation, data and logic, as a means to allowing the same forms to be used with widely differing presentations.
+ 
+Mathematics 
+Work on representing mathematics on the Web has focused on ways to handle the presentation of mathematical expressions and also the intended meaning. The MathML language is an application of XML, which, while not suited to hand-editing, is easy to process by machine.
+ 
+
+Contacts
+
+* Masayasu ISHIKAWA is the HTML Activity Lead and the Team Contact for the HTML Working Group 
+
+news | Recommendations | public drafts | test suites | tutorials | slides | guidelines | validation | articles | translations | charter | working group | roadmap | XForms | forums | HTML Tidy | related work | HTML 4.0/3.2/2.0 | historical
+
+---------------------------------------------------------------------
+Copyright ©1995-2004 W3C® (MIT, ERCIM, Keio), All Rights Reserved. W3C liability, trademark, document use and software licensing rules apply. Your interactions with this site are in accordance with our public and Member privacy statements.
+
+This page was last modified on: $Date: 2004/01/20 19:07:55 $
+
+

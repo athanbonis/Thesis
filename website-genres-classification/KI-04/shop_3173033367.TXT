@@ -1,0 +1,311 @@
+if ((ReadCookie("ebaysignin") == "in") || (ReadCookie("keepmesignin") == "in")) { document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); } else { document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); document.write(""); } 
+
+ 	 	if ((ReadCookie("ebaysignin") == "in") || (ReadCookie("keepmesignin") == "in")) { document.write(""); } else { document.write(""); } 	
+
+ Search: 	 
+All Categories
+ 
+Books
+ 
+Music
+ 
+DVDs/Movies
+ 
+Video Games
+ 
+Computers
+ 
+Electronics
+ 
+Everything Else
+ 
+Sporting Goods
+ 
+On eBay
+ 
+
+Categories	 				
+
+Featured at Half.com
+ 
+Textbook Superstore
+ Save on new and used textbooks!
+ 
+Save on Shipping
+ 
+Sell Your Textbooks 
+Recommendation Center
+ 
+eBay Gift Certificates
+
+Books	 
+
+• 	 Audiobooks	 
+
+• 	 Fiction	 
+
+• 	 NY Times Bestsellers	 
+
+• 	 Half.com Top 200	 
+
+• 	 Paperbacks $0.99 or less	 
+
+• 	 Your Book Recommendations	 
+
+• 	 Sell your Books	 
+
+• 	 and more...	 
+
+Textbooks
+ Huge savings on all your Textbooks!	 
+
+Music	 
+
+• 	 Imports	 
+
+• 	 Soundtracks	 
+
+• 	 Billboard Top 200	 
+
+• 	 Half.com Top 200	 
+
+• 	 CDs $2.99 or less	 
+
+• 	 Your Music Recommendations	 
+
+• 	 Sell your Music	 
+
+• 	 and more...	 
+
+Movies	 
+
+• 	 DVDs	 
+
+• 	 VHS	 
+
+• 	 Half.com Top 200	 
+
+• 	 DVDs $7.99 or less	 
+
+• 	 VHS $3.99 or less	 
+
+• 	 Your Movie Recommendations	 
+
+• 	 Sell your Movies	 
+
+• 	 and more...	 
+
+Games	 
+
+• 	 Nintendo 64	 
+
+• 	 PS2	 
+
+• 	 Xbox	 
+
+• 	 more platforms...	 
+
+• 	 GamePro Bestsellers	 
+
+• 	 PS2 70% off	 
+
+• 	 Xbox 70% off	 
+
+• 	 Your Game Recommendations	 
+
+• 	 Sell your Games	 
+
+• 	 and more...	 
+
+Computers & Software	 
+
+• 	 Desktops	 
+
+• 	 Laptops	 
+
+• 	 PDAs	 
+
+• 	 Software and Games	 
+
+• 	 Half.com Top 200	 
+
+• 	 Sell your Computers	 
+
+• 	 and more...	 
+
+Electronics	 
+
+• 	 Cell Phones	 
+
+• 	 Digital Cameras	 
+
+• 	 MP3 Players	 
+
+• 	 Video and DVD	 
+
+• 	 Video Game Systems	 
+
+• 	 Half.com Top 200	 
+
+• 	 Sell your Electronics	 
+
+• 	 and more...	 
+
+Everything Else	 
+
+Sell Your Stuff
+Quick, easy, and free listings!	 
+
+Your eBay User ID and Password work on Half.com.	   	  	    
+  
+ 	  
+
+Millions of great deals in-stock everyday at low, low prices.	   	  	    
+  
+ 	  
+
+Buy INSTANTLY in a familiar online shopping environment.	   	  	    
+  
+ 	  
+
+Half.com provides buyers with safe & secure checkout.	   	  	    
+  
+ 	  
+
+Learn about buying on Half.com.
+
+Oprah’s New Book Club Selection for as low as $9.65!
+One Hundred Years of Solitude , probably Gabriel García Márquez’s finest and most famous work, tells the story of the rise and fall, birth and death of the mythical town of Macondo through the history of the Buendía family.	 
+
+In-Stock Now!	 	Our
+Price	 	List
+Price	 	
+ 	 The Slippery Slope, Lemony Snicket	  	 $6.20	  	 $10.99	  	 
+ 	 30-Minute Meals 2, Rachael Ray	  	 $10.94	  	 $16.95	  	 
+ 	 The Five People You Meet in Heaven, Mitch Albom	  	 $9.00	  	 $19.95	  	 
+ 	 The Da Vinci Code, Dan Brown	  	 $12.50	  	 $24.95	  	 
+
+More in Books...
+ 
+
+Once Upon a Time in Mexico on DVD for as low as $16.79!
+The saga of the mythic guitar-slinging hero, El Mariachi, continues in Robert Rodriguez’s bold, non-stop action epic Once Upon a Time in Mexico , set against a backdrop of revolution and greed.	 
+
+In-Stock Now!	 	Our
+Price	 	List
+Price	 	
+ 	 Scarface (DVD)	  	 $11.00	  	 $34.98	  	 
+ 	 Harry Potter and the Chamber of Secrets (DVD)	  	 $9.51	  	 $29.95	  	 
+ 	 Gods and Generals (DVD)	  	 $11.50	  	 $27.98	  	 
+ 	 Martin Scorsese presents The Blues - A Musical Journey	  	 $92.99	  	 $139.98	  	 
+
+More in Movies...
+ 
+
+Grammy Nominees 2004 for as low as $12.67
+Own the songs that received nominations for the music industry’s highest honors, including Eminem’s "Lose Yourself," Coldplay’s "Clocks," 50 Cent’s "In Da Club," and George Harrison’s "Any Road."	 
+
+In-Stock Now!	 	Our
+Price	 	List
+Price	 	
+ 	 Sings The Rosemary Clooney Songbook, Bette Midler	  	 $9.00	  	 $18.98	  	 
+ 	 Forty Licks, The Rolling Stones	  	 $9.99	  	 $29.98	  	 
+ 	 The Diary Of Alicia Keys, Alicia Keys	  	 $4.99	  	 $18.98	  	 
+ 	 Closer, Josh Groban	  	 $6.99	  	 $18.98	  	 
+
+More in Music...
+ 
+
+New Low Price! Tony Hawk Underground on PS2 for as low as $39
+This time it’s all about YOU – complete challenges and unveil the plot-twisting story that takes you from unknown local skate punk to fame and fortune as the most popular skater in the world.	 
+
+In-Stock Now!	 	Our
+Price	 	List
+Price	 	
+ 	 Harry Potter & the Chamber of Secrets (PS2)	  	 $16.95	  	 $38.99	  	 
+ 	 MechAssault (Xbox)	  	 $12.49	  	 $19.99	  	 
+ 	 Lara Croft Tomb Raider: The Angel Of Darkness (PS2)	  	 $10.40	  	 $39.99	  	 
+ 	 Star Wars: Knights of the Old Republic (Xbox)	  	 $29.74	  	 $55.99	  	 
+
+More in Video Games...
+ 
+
+Hot Deal on HP Desktop
+
+HP Vectra VL400 features P3 800MHz/ 128MB / 10GB w/ 6 Month Warranty + FREE Shipping!
+ 
+Best price: $179.00 	
+Omnibook Notebook Savings
+
+HP Omnibook 6000 includes PIII 700MHz/ 128MB/ 20GB/ 24X CD, 6 Month Warranty + FREE Shipping!
+ 
+Best price: $489.00 	
+Canon Printer Price Drop
+
+Canon i550 Inkjet Printer with black & color ink, software, 90 Day Canon Warranty + FREE Shipping!
+ 
+Best price: $77.00 	
+
+More in Computers...
+ 		
+  
+ 	 On eBay	  	  
+
+Exercise & Fitness Equipment	 
+
+Snowboarding Essentials	 
+
+Craftsman Tools	
+
+Bargain Bins	 	
+
+Books
+Paperbacks $.99 or less
+ Hardcovers $1.99 or less
+ Audio Books under $4.99
+ 
+Music
+ CDs $2.99 or less
+ 
+Movies
+ VHS $3.99 or less
+ DVDs $7.99 or less
+ 
+Games
+ PS2 70% off
+ Xbox 70% off
+ GameCube 70% off
+ Game Boy Advance 70% off
+ Game Boy Color 70% off
+ Playstation 80% off
+ Dreamcast 80% off
+ Nintendo 64 80% off
+ 	
+
+Hot Buy	  	  
+
+Pirates of the Caribbean: The Curse of the Black Pearl (DVD) 
+As Low as $11.99
+
+More DVD Bestsellers...
+
+ 	
+
+On eBay:	 
+
+Antiques  |  Art  |  Books  |  Business & Industrial  |  Cars & Other Vehicles  |  Clothing, Shoes & Accessories  |  Coins  |  Collectibles  |  Dolls & Bears  |  Electronics & Computers  |  Entertainment  |  Home   |  Jewelry & Watches  |  Musical Instruments  |  Pottery & Glass  |  Real Estate  |  Specialty Services  |  Sports  |  Stamps  |  Tickets  |  Toys & Hobbies  |  Travel  |  Everything Else	 
+
+On Half.com:	 
+
+Books  |  Music  |  DVDs / Movies  |  Video Games  |  Computers and Software  |  Electronics  |  Everything Else	 
+
+Bargain Bins  |  New York Times Bestsellers  |  Billboard Charts  |  Shops	 
+
+Shopping Cart  |  My Account  |  Register  |  Sell  |  Wish List / Pre-Orders  |  Affiliate Program	 
+
+Help  |  New Visitor Tour  |  Announcements  |  Site Map	 
+
+Copyright © 1999-2003 Half.com Inc. All Rights Reserved.
+Designated trademarks and brands are the property of their respective owners.
+Use of this web site constitutes acceptance of the eBay User Agreement and Privacy Policy.	 
+

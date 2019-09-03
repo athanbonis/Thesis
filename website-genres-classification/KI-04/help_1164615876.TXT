@@ -1,0 +1,47 @@
+EAD Beta to EAD 1.0 EAD Beta to Version 1 conversion script (Online Archive of California - UC-Berkeley) MISSION STATEMENT & BACKGROUND | EAD FILES | EAD SITES BY LOCATION EAD SITES ANNOTATED | CONVERSION | EAD COOKBOOK | XML | TRAINING & FUNDING HELPER FILES | SOFTWARE | METADATA | READINGS Disclaimer The chairs of the Roundtable always welcome further additions, commentary, and corrections. Write to: Katerine Wisser or Amy McCrory. Last updated: 2003-08-18 Comments: stephen.yearl@yale.edu URL: http://jefferson.village.virginia.edu/ead/convert.html   --> Help Pages - Conversion 
+---------------------------------------------------------------------
+
+This page is intended to provide links to non-commercial means of converting legacy finding aids and finding aids in the beta version of EAD into EAD version 1. See the Sites Annotated pages for information about how individual implementors are converting their files. See the EAD in XML page for information about how to convert EAD files in SGML to XML.
+
+---------------------------------------------------------------------
+
+Legacy files to EAD
+
+Application Guidelines
+
+* See the Implementing EAD Page. 
+
+ 
+
+MARC to SGML/XML/EAD
+
+* Appendix B.4 of the EAD Application Guidelines provides guidance for converting MARC records to EAD records. The Guidelines may be purchased at http://www.archivists.org/catalog/catalog/ead.html 
+* Perl-based XML to MARC to XML conversion script available from the Comprehensive Perl Archive Network (CPAN) -- http://theoryx5.uwinnipeg.ca/CPAN/data/MARC-XML/XML.html. See also http://marcpm.sourceforge.net/ or contact Ed Summers or Richard Rinehart for additional information. 
+* The Library of Congress MARC to SGML converter -- http://lcweb.loc.gov/marc/marcsgml.html 
+* The MALVINE project has developed two perl scripts that can convert MARC records to EAD. The first, available at http://helmer.hit.uib.no/malvine/1marccon.txt, converts a MARC file encoded in ISO 2709 MARC into a "readable" MARC file. The second, available at http://helmer.hit.uib.no/malvine/2malvine.txt, which will convert the file from the "readable" MARC into EAD. 
+* Step-by-step procedure followed by the Minnesota Historical Society. 
+
+ 
+
+Microsoft Access to EAD
+
+* Tips for converting Access files to EAD (Online Archive of California - UC-Berkeley) 
+
+ 
+
+EAD 1.0 to EAD 2002
+
+* -- COMING SOON! 
+
+ 
+
+EAD Beta to EAD 1.0
+
+* EAD Beta to Version 1 conversion script (Online Archive of California - UC-Berkeley) 
+
+ 
+
+---------------------------------------------------------------------
+MISSION STATEMENT & BACKGROUND  |  EAD FILES  |  EAD SITES BY LOCATION EAD SITES ANNOTATED  |  CONVERSION  |  EAD COOKBOOK  |  XML  |  TRAINING & FUNDING HELPER FILES   |  SOFTWARE  |  METADATA  |  READINGS 
+---------------------------------------------------------------------
+Disclaimer The chairs of the Roundtable always welcome further additions, commentary, and corrections. Write to: Katerine Wisser or Amy McCrory. Last updated: 2003-08-18 Comments: stephen.yearl@yale.edu URL: http://jefferson.village.virginia.edu/ead/convert.html 

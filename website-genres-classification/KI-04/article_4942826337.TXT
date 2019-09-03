@@ -1,0 +1,333 @@
+GNU Octave: Table of Contents [ Top ] [ Contents ] [ Index ] [ ? ] Table of Contents Preface Acknowledgements How You Can Contribute to Octave Distribution 1. A Brief Introduction to Octave 1.1 Running Octave 1.2 Simple Examples Creating a Matrix Matrix Arithmetic Solving Linear Equations Integrating Differential Equations Producing Graphical Output Editing What You Have Typed Help and Documentation 1.3 Conventions 1.3.1 Fonts 1.3.2 Evaluation Notation 1.3.3 Printing Notation 1.3.4 Error Messages 1.3.5 Format of Descriptions 1.3.5.1 A Sample Function Description 1.3.5.2 A Sample Command Description 1.3.5.3 A Sample Variable Description 2. Getting Started 2.1 Invoking Octave 2.1.1 Command Line Options 2.1.2 Startup Files 2.2 Quitting Octave 2.3 Commands for Getting Help 2.4 Command Line Editing 2.4.1 Cursor Motion 2.4.2 Killing and Yanking 2.4.3 Commands For Changing Text 2.4.4 Letting Readline Type For You 2.4.5 Commands For Manipulating The History 2.4.6 Customizing readline 2.4.7 Customizing the Prompt 2.4.8 Diary and Echo Commands 2.5 How Octave Reports Errors 2.6 Executable Octave Programs 2.7 Comments in Octave Programs 3. Data Types 3.1 Built-in Data Types 3.1.1 Numeric Objects 3.1.2 Missing Data 3.1.3 String Objects 3.1.4 Data Structure Objects 3.2 User-defined Data Types 3.3 Object Sizes 4. Numeric Data Types 4.1 Matrices 4.1.1 Empty Matrices 4.2 Ranges 4.3 Logical Values 4.4 Predicates for Numeric Objects 5. Strings 5.1 Creating Strings 5.2 Searching and Replacing 5.3 String Conversions 5.4 Character Class Functions 6. Data Structures 7. Containers 7.1 Lists 7.2 Cell Arrays 8. I/O Streams 9. Variables 9.1 Global Variables 9.2 Status of Variables 9.3 Summary of Built-in Variables 9.4 Defaults from the Environment 10. Expressions 10.1 Index Expressions 10.2 Calling Functions 10.2.1 Call by Value 10.2.2 Recursion 10.3 Arithmetic Operators 10.4 Comparison Operators 10.5 Boolean Expressions 10.5.1 Element-by-element Boolean Operators 10.5.2 Short-circuit Boolean Operators 10.6 Assignment Expressions 10.7 Increment Operators 10.8 Operator Precedence 11. Evaluation 12. Statements 12.1 The if Statement 12.2 The switch Statement 12.3 The while Statement 12.4 The do-until Statement 12.5 The for Statement 12.5.1 Looping Over Structure Elements 12.6 The break Statement 12.7 The continue Statement 12.8 The unwind_protect Statement 12.9 The try Statement 12.10 Continuation Lines 13. Functions and Script Files 13.1 Defining Functions 13.2 Multiple Return Values 13.3 Variable-length Argument Lists 13.4 Variable-length Return Lists 13.5 Returning From a Function 13.6 Function Files 13.7 Script Files 13.8 Dynamically Linked Functions 13.9 Organization of Functions Distributed with Octave 14. Error Handling 15. Debugging 16. Input and Output 16.1 Basic Input and Output 16.1.1 Terminal Output 16.1.2 Terminal Input 16.1.3 Simple File I/O 16.2 C-Style I/O Functions 16.2.1 Opening and Closing Files 16.2.2 Simple Output 16.2.3 Line-Oriented Input 16.2.4 Formatted Output 16.2.5 Output Conversion for Matrices 16.2.6 Output Conversion Syntax 16.2.7 Table of Output Conversions 16.2.8 Integer Conversions 16.2.9 Floating-Point Conversions 16.2.10 Other Output Conversions 16.2.11 Formatted Input 16.2.12 Input Conversion Syntax 16.2.13 Table of Input Conversions 16.2.14 Numeric Input Conversions 16.2.15 String Input Conversions 16.2.16 Binary I/O 16.2.17 Temporary Files 16.2.18 End of File and Errors 16.2.19 File Positioning 17. Plotting 17.1 Two-Dimensional Plotting 17.2 Specialized Two-Dimensional Plots 17.3 Three-Dimensional Plotting 17.4 Plot Annotations 17.5 Multiple Plots on One Page 17.6 Multiple Plot Windows 17.7 Interaction with gnuplot 18. Matrix Manipulation 18.1 Finding Elements and Checking Conditions 18.2 Rearranging Matrices 18.3 Special Utility Matrices 18.4 Famous Matrices 19. Arithmetic 19.1 Utility Functions 19.2 Complex Arithmetic 19.3 Trigonometry 19.4 Sums and Products 19.5 Special Functions 19.6 Coordinate Transformations 19.7 Mathematical Constants 20. Linear Algebra 20.1 Basic Matrix Functions 20.2 Matrix Factorizations 20.3 Functions of a Matrix 21. Nonlinear Equations 22. Quadrature 22.1 Functions of One Variable 22.2 Orthogonal Collocation 23. Differential Equations 23.1 Ordinary Differential Equations 23.2 Differential-Algebraic Equations 24. Optimization 24.1 Linear Programming 24.2 Quadratic Programming 24.3 Nonlinear Programming 24.4 Linear Least Squares 25. Statistics 25.1 Basic Statistical Functions 25.2 Tests 25.3 Models 25.4 Distributions 26. Financial Functions 27. Sets 28. Polynomial Manipulations 29. Control Theory 29.1 System Data Structure 29.1.1 Variables common to all OCST system formats 29.1.2 tf format variables 29.1.3 zp format variables 29.1.4 ss format variables 29.2 System Construction and Interface Functions 29.2.1 Finite impulse response system interface functions 29.2.2 State space system interface functions 29.2.3 Transfer function system interface functions 29.2.4 Zero-pole system interface functions 29.2.5 Data structure access functions 29.2.6 Data structure internal functions 29.3 System display functions 29.4 Block Diagram Manipulations 29.5 Numerical Functions 29.6 System Analysis-Properties 29.7 System Analysis-Time Domain 29.8 System Analysis-Frequency Domain 29.9 Controller Design 29.10 Miscellaneous Functions (Not yet properly filed/documented) 30. Signal Processing 31. Image Processing 32. Audio Processing 33. Quaternions 34. System Utilities 34.1 Timing Utilities 34.2 Filesystem Utilities 34.3 Controlling Subprocesses 34.4 Process, Group, and User IDs 34.5 Environment Variables 34.6 Current Working Directory 34.7 Password Database Functions 34.8 Group Database Functions 34.9 System Information A. Tips and Standards A.1 Writing Clean Octave Programs A.2 Tips for Making Code Run Faster. A.3 Tips for Documentation Strings A.4 Tips on Writing Comments A.5 Conventional Headers for Octave Functions B. Known Causes of Trouble B.1 Actual Bugs We Haven't Fixed Yet B.2 Reporting Bugs B.3 Have You Found a Bug? B.4 Where to Report Bugs B.5 How to Report Bugs B.6 Sending Patches for Octave B.7 How To Get Help with Octave C. Installing Octave C.1 Installation Problems D. Emacs Octave Support D.1 Installing EOS D.2 Using Octave Mode D.3 Running Octave From Within Emacs D.4 Using the Emacs Info Reader for Octave E. Grammar E.1 Keywords F. GNU GENERAL PUBLIC LICENSE F.1 Preamble F.2 Appendix: How to Apply These Terms to Your New Programs Concept Index Variable Index Function Index Operator Index This document was generated by John W. Eaton on November, 18 2003 using texi2html   --> 
+[Top]	 [Contents]	 [Index]	 [ ? ]	 
+
+Table of Contents
+
+Preface 
+
+Acknowledgements 
+How You Can Contribute to Octave 
+Distribution 
+
+1. A Brief Introduction to Octave 
+
+1.1 Running Octave 
+1.2 Simple Examples 
+
+Creating a Matrix 
+Matrix Arithmetic 
+Solving Linear Equations 
+Integrating Differential Equations 
+Producing Graphical Output 
+Editing What You Have Typed 
+Help and Documentation 
+
+1.3 Conventions 
+
+1.3.1 Fonts 
+1.3.2 Evaluation Notation 
+1.3.3 Printing Notation 
+1.3.4 Error Messages 
+1.3.5 Format of Descriptions 
+
+1.3.5.1 A Sample Function Description 
+1.3.5.2 A Sample Command Description 
+1.3.5.3 A Sample Variable Description 
+
+2. Getting Started 
+
+2.1 Invoking Octave 
+
+2.1.1 Command Line Options 
+2.1.2 Startup Files 
+
+2.2 Quitting Octave 
+2.3 Commands for Getting Help 
+2.4 Command Line Editing 
+
+2.4.1 Cursor Motion 
+2.4.2 Killing and Yanking 
+2.4.3 Commands For Changing Text 
+2.4.4 Letting Readline Type For You 
+2.4.5 Commands For Manipulating The History 
+2.4.6 Customizing readline
+2.4.7 Customizing the Prompt 
+2.4.8 Diary and Echo Commands 
+
+2.5 How Octave Reports Errors 
+2.6 Executable Octave Programs 
+2.7 Comments in Octave Programs 
+
+3. Data Types 
+
+3.1 Built-in Data Types 
+
+3.1.1 Numeric Objects 
+3.1.2 Missing Data 
+3.1.3 String Objects 
+3.1.4 Data Structure Objects 
+
+3.2 User-defined Data Types 
+3.3 Object Sizes 
+
+4. Numeric Data Types 
+
+4.1 Matrices 
+
+4.1.1 Empty Matrices 
+
+4.2 Ranges 
+4.3 Logical Values 
+4.4 Predicates for Numeric Objects 
+
+5. Strings 
+
+5.1 Creating Strings 
+5.2 Searching and Replacing 
+5.3 String Conversions 
+5.4 Character Class Functions 
+
+6. Data Structures 
+7. Containers 
+
+7.1 Lists 
+7.2 Cell Arrays 
+
+8. I/O Streams 
+9. Variables 
+
+9.1 Global Variables 
+9.2 Status of Variables 
+9.3 Summary of Built-in Variables 
+9.4 Defaults from the Environment 
+
+10. Expressions 
+
+10.1 Index Expressions 
+10.2 Calling Functions 
+
+10.2.1 Call by Value 
+10.2.2 Recursion 
+
+10.3 Arithmetic Operators 
+10.4 Comparison Operators 
+10.5 Boolean Expressions 
+
+10.5.1 Element-by-element Boolean Operators 
+10.5.2 Short-circuit Boolean Operators 
+
+10.6 Assignment Expressions 
+10.7 Increment Operators 
+10.8 Operator Precedence 
+
+11. Evaluation 
+12. Statements 
+
+12.1 The ifStatement 
+12.2 The switchStatement 
+12.3 The whileStatement 
+12.4 The do-untilStatement 
+12.5 The forStatement 
+
+12.5.1 Looping Over Structure Elements 
+
+12.6 The breakStatement 
+12.7 The continueStatement 
+12.8 The unwind_protectStatement 
+12.9 The tryStatement 
+12.10 Continuation Lines 
+
+13. Functions and Script Files 
+
+13.1 Defining Functions 
+13.2 Multiple Return Values 
+13.3 Variable-length Argument Lists 
+13.4 Variable-length Return Lists 
+13.5 Returning From a Function 
+13.6 Function Files 
+13.7 Script Files 
+13.8 Dynamically Linked Functions 
+13.9 Organization of Functions Distributed with Octave 
+
+14. Error Handling 
+15. Debugging 
+16. Input and Output 
+
+16.1 Basic Input and Output 
+
+16.1.1 Terminal Output 
+16.1.2 Terminal Input 
+16.1.3 Simple File I/O 
+
+16.2 C-Style I/O Functions 
+
+16.2.1 Opening and Closing Files 
+16.2.2 Simple Output 
+16.2.3 Line-Oriented Input 
+16.2.4 Formatted Output 
+16.2.5 Output Conversion for Matrices 
+16.2.6 Output Conversion Syntax 
+16.2.7 Table of Output Conversions 
+16.2.8 Integer Conversions 
+16.2.9 Floating-Point Conversions 
+16.2.10 Other Output Conversions 
+16.2.11 Formatted Input 
+16.2.12 Input Conversion Syntax 
+16.2.13 Table of Input Conversions 
+16.2.14 Numeric Input Conversions 
+16.2.15 String Input Conversions 
+16.2.16 Binary I/O 
+16.2.17 Temporary Files 
+16.2.18 End of File and Errors 
+16.2.19 File Positioning 
+
+17. Plotting 
+
+17.1 Two-Dimensional Plotting 
+17.2 Specialized Two-Dimensional Plots 
+17.3 Three-Dimensional Plotting 
+17.4 Plot Annotations 
+17.5 Multiple Plots on One Page 
+17.6 Multiple Plot Windows 
+17.7 Interaction with gnuplot
+
+18. Matrix Manipulation 
+
+18.1 Finding Elements and Checking Conditions 
+18.2 Rearranging Matrices 
+18.3 Special Utility Matrices 
+18.4 Famous Matrices 
+
+19. Arithmetic 
+
+19.1 Utility Functions 
+19.2 Complex Arithmetic 
+19.3 Trigonometry 
+19.4 Sums and Products 
+19.5 Special Functions 
+19.6 Coordinate Transformations 
+19.7 Mathematical Constants 
+
+20. Linear Algebra 
+
+20.1 Basic Matrix Functions 
+20.2 Matrix Factorizations 
+20.3 Functions of a Matrix 
+
+21. Nonlinear Equations 
+22. Quadrature 
+
+22.1 Functions of One Variable 
+22.2 Orthogonal Collocation 
+
+23. Differential Equations 
+
+23.1 Ordinary Differential Equations 
+23.2 Differential-Algebraic Equations 
+
+24. Optimization 
+
+24.1 Linear Programming 
+24.2 Quadratic Programming 
+24.3 Nonlinear Programming 
+24.4 Linear Least Squares 
+
+25. Statistics 
+
+25.1 Basic Statistical Functions 
+25.2 Tests 
+25.3 Models 
+25.4 Distributions 
+
+26. Financial Functions 
+27. Sets 
+28. Polynomial Manipulations 
+29. Control Theory 
+
+29.1 System Data Structure 
+
+29.1.1 Variables common to all OCST system formats 
+29.1.2 tfformat variables 
+29.1.3 zpformat variables 
+29.1.4 ssformat variables 
+
+29.2 System Construction and Interface Functions 
+
+29.2.1 Finite impulse response system interface functions 
+29.2.2 State space system interface functions 
+29.2.3 Transfer function system interface functions 
+29.2.4 Zero-pole system interface functions 
+29.2.5 Data structure access functions 
+29.2.6 Data structure internal functions 
+
+29.3 System display functions 
+29.4 Block Diagram Manipulations 
+29.5 Numerical Functions 
+29.6 System Analysis-Properties 
+29.7 System Analysis-Time Domain 
+29.8 System Analysis-Frequency Domain 
+29.9 Controller Design 
+29.10 Miscellaneous Functions (Not yet properly filed/documented) 
+
+30. Signal Processing 
+31. Image Processing 
+32. Audio Processing 
+33. Quaternions 
+34. System Utilities 
+
+34.1 Timing Utilities 
+34.2 Filesystem Utilities 
+34.3 Controlling Subprocesses 
+34.4 Process, Group, and User IDs 
+34.5 Environment Variables 
+34.6 Current Working Directory 
+34.7 Password Database Functions 
+34.8 Group Database Functions 
+34.9 System Information 
+
+A. Tips and Standards 
+
+A.1 Writing Clean Octave Programs 
+A.2 Tips for Making Code Run Faster. 
+A.3 Tips for Documentation Strings 
+A.4 Tips on Writing Comments 
+A.5 Conventional Headers for Octave Functions 
+
+B. Known Causes of Trouble 
+
+B.1 Actual Bugs We Haven't Fixed Yet 
+B.2 Reporting Bugs 
+B.3 Have You Found a Bug? 
+B.4 Where to Report Bugs 
+B.5 How to Report Bugs 
+B.6 Sending Patches for Octave 
+B.7 How To Get Help with Octave 
+
+C. Installing Octave 
+
+C.1 Installation Problems 
+
+D. Emacs Octave Support 
+
+D.1 Installing EOS 
+D.2 Using Octave Mode 
+D.3 Running Octave From Within Emacs 
+D.4 Using the Emacs Info Reader for Octave 
+
+E. Grammar 
+
+E.1 Keywords 
+
+F. GNU GENERAL PUBLIC LICENSE 
+
+F.1 Preamble 
+F.2 Appendix: How to Apply These Terms to Your New Programs 
+
+Concept Index 
+Variable Index 
+Function Index 
+Operator Index 
+
+---------------------------------------------------------------------
+
+This document was generated by John W. Eaton on November, 18 2003 using texi2html 

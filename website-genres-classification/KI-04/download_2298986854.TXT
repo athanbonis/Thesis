@@ -1,0 +1,88 @@
+UK blueyonder.co.uk UK status3.i-r.co.uk UK rbentley.plus.com Germany spampal.de (domainbox.de) France intrivia.info --> France skiwebcenter.com --> France dalnet.com.fr Australia iinet.net.au --> My thanks to all the kind people who are hosting these download sites. You may also be able to obtain SpamPal from the following unofficial download sites: majorgeeks.com alien8.lunarpages.com If you've already installed SpamPal and just want the v1.53 files, not the full installer with the plugins, then you can download them as a zipfile from one of these sites: Download SpamPal v1.53 binary files only (199k) (no plugins or installer) USA spampal.net USA spampal.com USA uberdata.net UK blueyonder.co.uk UK rbentley.plus.com Upgrading Users of previous versions of SpamPal can upgrade by downloading a full version as normal, and then (after making sure that SpamPal is not running in the system tray) installing it in the directory the old version was installed in. Your configurations will not be affected. Downgrading Recent versions of SpamPal store their server and port configurations in a different manner to older versions. If you downgrade from the current release version to v1.14 or earlier, you will have to go to the "Servers" tab of the configuration dialog and re-enter the information to set it up for your system. Recent Changes There may be more advanced, experimental versions of SpamPal available from the Beta releases page . 1.53 14th December 2003 No major enhancements but a lot of tweaks and bugfixes. For a full list see all the changes in beta-versions since v1.50 on the history page , but here's the most important ones: Status window now shows average response time for each blacklist. Blacklist and whitelist fields now include a context-sensitive menu allowing you to cut, copy and paste without having to remember the hotkeys. Sessions should time out after a while if they appear inactive. IMAP4 users can choose to filter only mail in Inbox (or another folder of their choice). Should block most SMTP relay exploits. The logfile is now trimmed to a user-specified size. No longer keeps showing the "DNSBL cache file is corrupt" error. In the unlikely event that SpamPal does crash, it now gives more useful error messages. And lots more... . 1.50 14th August 2003 Supports IMAP4 and SMTP connections Redesigned Options window More efficient DNSBL querying Now includes RegExFilter and UrlBody plugins Plus all the other enhancements that have been trialled in the last six months of beta releases. Too many more changes to list here - see this page for more details! Click here for full history!   --> 
+
+Home	 About	 Download	 Documentation	 Support	 Site Map	 
+
+Program	 Plugins	 Manual	 Betas	 Source	 
+
+Download
+
+The most recent release version of SpamPal is v1.53 (14-Dec-2003). Note that the manual is not with the SpamPal installation archive; you must read it online or download it separately.
+
+Download SpamPal you want from whichever of the following sites is closest to you:
+
+Download SpamPal v1.53 (592k)
+(includes RegExFilter v2.6 and UrlBody v0.04 plugins) 
+
+USA	 	spampal.net	 
+
+USA	 	spampal.com	 
+
+USA	 	smithlabs.com (QWest)	 
+
+USA	 	uberdata.net	 
+
+UK	 	blueyonder.co.uk	 
+
+UK	 	status3.i-r.co.uk	 
+
+UK	 	rbentley.plus.com	 
+
+My thanks to all the kind people who are hosting these download sites.
+
+You may also be able to obtain SpamPal from the following unofficial download sites:
+
+* majorgeeks.com 
+* alien8.lunarpages.com 
+
+If you've already installed SpamPal and just want the v1.53 files, not the full installer with the plugins, then you can download them as a zipfile from one of these sites:
+
+Download SpamPal v1.53 binary files only (199k)
+(no plugins or installer) 
+
+USA	 	spampal.net	 
+
+USA	 	spampal.com	 
+
+USA	 	uberdata.net	 
+
+UK	 	blueyonder.co.uk	 
+
+UK	 	rbentley.plus.com	 
+
+Upgrading
+
+Users of previous versions of SpamPal can upgrade by downloading a full version as normal, and then (after making sure that SpamPal is not running in the system tray) installing it in the directory the old version was installed in. Your configurations will not be affected.
+
+Downgrading
+
+Recent versions of SpamPal store their server and port configurations in a different manner to older versions. If you downgrade from the current release version to v1.14 or earlier, you will have to go to the "Servers" tab of the configuration dialog and re-enter the information to set it up for your system.
+
+Recent Changes
+
+There may be more advanced, experimental versions of SpamPal available from the Beta releases page.
+
+1.53 14th December 2003 	
+
+No major enhancements but a lot of tweaks and bugfixes. For a full list see all the changes in beta-versions since v1.50 on the history page, but here's the most important ones:
+
+* Status window now shows average response time for each blacklist. 
+* Blacklist and whitelist fields now include a context-sensitive menu allowing you to cut, copy and paste without having to remember the hotkeys. 
+* Sessions should time out after a while if they appear inactive. 
+* IMAP4 users can choose to filter only mail in Inbox (or another folder of their choice). 
+* Should block most SMTP relay exploits. 
+* The logfile is now trimmed to a user-specified size. 
+* No longer keeps showing the "DNSBL cache file is corrupt" error. 
+* In the unlikely event that SpamPal does crash, it now gives more useful error messages. 
+* And lots more.... 
+
+1.50 14th August 2003 	
+
+* Supports IMAP4 and SMTP connections 
+* Redesigned Options window 
+* More efficient DNSBL querying 
+* Now includes RegExFilter and UrlBody plugins 
+* Plus all the other enhancements that have been trialled in the last six months of beta releases. 
+* Too many more changes to list here - see this page for more details! 
+
+Click here for full history! 	
+

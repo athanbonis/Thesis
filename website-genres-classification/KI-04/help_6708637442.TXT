@@ -1,0 +1,95 @@
+http://www.htmlhelp.org/faq/cgifaq.html 
+http://www.webthing.com/tutorials/cgifaq.html 
+---------------------------------------------------------------------
+
+CGI Programming FAQ
+
+Copyright © Nick Kew, 1996-2000. Please read the Notice and Disclaimer.
+
+The Table of contents starts at 0 (preamble). Older (pre-HTML 3) or broken browsers may start it at 1: apologies for any confusion. 
+
+Table of Contents
+
+* Preamble
+
+1.  Changes
+2.  Notice and Disclaimer
+3.  Where to get this document
+4.  How to contribute to this document?
+5.  Can I email the author my questions?
+6.  What's up with posting to comp.infosystems.www.authoring.cgi?
+7.  Credits
+
+* Basic Questions
+
+1.  What is CGI?
+2.  Is it a script or a program?
+3.  When do I need to use CGI?
+4.  Should I use CGI or JAVA?
+5.  Should I use CGI or SSI or ... { PHP/ASP/... }
+6.  Should I use CGI or an API?
+7.  So what are in a nutshell the options for webserver programming?
+8.  What do I absolutely need to know?
+9.  Does CGI create new security risks?
+10. Do I need to be on Unix?
+11. Do I have to use Perl?
+12. What languages should I know/use?
+13. Do I have to put it in cgi-bin?
+14. Do I have to call it *.cgi? *.pl?
+15. What is the "CGI Overhead", and should I be worried about it?
+16. What do I need to know about file permissions and "chmod"?
+17. What is CGIWrap, and how does it affect my program?
+18. How do I decode the data in my Form?
+
+* HTTP Headers and NPH Scripts
+
+1.  What is HTTP (HyperText Transfer Protocol)?
+2.  What HTTP request headers can I use?
+3.  What Environment variables are available to my application?
+4.  Why doesn't my script get REMOTE_USER? My page is password-protected.
+5.  What HTTP response headers do I need to know about?
+6.  What is NPH?
+7.  Must/should/can I write nph scripts?
+8.  Do I have to call it nph-*
+9.  What is the difference between GET and POST?
+
+* Techniques: "How do I..."
+
+1.  Can I get information about who is visiting?
+2.  Can I get the email of visitors?
+3.   "But I saw some.kool.site display my email address..."
+4.  Can I verify the email addresses people enter in my Form?
+5.  Subject: How can I get the hostname of the remote user?
+6.  Can I get browser details and return different pages?
+7.  Can I trace where a user has come from/is going to?
+8.  Can I launch a long process and return a page before it's finished?
+9.  Can I launch a long process which the user interacts with?
+10. Can I password-protect my pages?
+11. Can I do HTTP authentication using CGI?
+12. Can I identify users/sessions without password protection?
+13. Can I redirect users to another page?
+14. Can I run a CGI script without returning a new page to the browser?
+15. Can I write output to a different Netscape frame?
+16. Can I write output to several frames at once?
+17. Can I use a CGI script to generate both text and inline images?
+18. How can I use Caches to make CGI scripts faster and more Net-friendly?
+19. How can I avoid users hitting "submit" twice?
+20. How can I stop my CGI script reading and writing files as "nobody"?
+21. How can I prevent my CGI results being cached by the browser?
+22. How can I control the default filename when downloading a file via CGI?
+
+* Troubleshooting a CGI application
+
+1.  Are there some interactive debugging tools and services available?
+2.  I'm having trouble with my headers. What can I do?
+3.  Why do I get Error 500 ("the script misbehaved", or "Internal Server Error")
+4.  I tried to use (Content-Type|Location|whatever), but it appears in my Browser?
+5.  How can I run my CGI program 'live' in a debugger?
+6.  I'm using CGI with QUERY_STRING embedded in my HTML, but it gets corrupted?
+
+* Further Reading
+
+1.  Other FAQs/collections
+2.  Reference Pages
+
+INDEX 

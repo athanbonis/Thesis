@@ -1,0 +1,44 @@
+
+
+stable:1.2.13development:1.3.12 Galeon: the web. only the web 
+
+home news manifesto shots themes bookmarks download contact support links Download 
+
+To install galeon you will need Gnome and Mozilla. The current version of Galeon has been tested with Gnome 1.4 and Mozilla 1.0, 1.1, 1.2, 1.2.1, and 1.3a/b. Other versions most likely will not work. NOTE: The 1.2.6 rpm's work only with Mozilla 1.1, and 1.3.x requires at least Mozilla 1.3a. 
+
+The rpm's labelled "matt" are only known to work with Matthew Hall's Mozilla RPM's. Your mileage may vary of course. 
+
+To be alerted when new versions of Galeon are released, sign up for the galeon-announce email list.
+
+Source
+
+Download it from sourceforge
+
+You can find more detailed build instructions in the INSTALL file from the distribution
+
+Binaries
+
+Because of the incompatibilties between the binaries produced by recent g++ versions the files below are guaranteed to work only on the specified platforms/distributions while using the specific Mozilla package for that platform/distribution. Other combinations of galeon and mozilla binary packages used on these or other platforms may or may not work.
+
+RedHat ix86 
+Galeon
+ 	Download it from sourceforge	 
+Mozilla	 Download	 
+
+SuSE, ix86 Galeon RPM's 
+
+Mozilla RPMs Main Mirror - European Mirror 	
+
+CVS
+
+You can checkout galeon sources from the GNOME cvs repository. The first command you need is:
+
+$ export CVSROOT=':pserver:anonymous@anoncvs.gnome.org:/cvs/gnome'
+Then do the commands:
+$ cvs login
+ (there is no password, just hit return)
+$ cvs -z3 checkout galeon 
+
+The current stable development branch is galeon-1-2. On the GNOME Developer Site you can find further instructions on how to use GNOME cvs and how to checkout branches.
+
+

@@ -1,0 +1,588 @@
+Objective Checklist References Answers to Questions Introduction Long term memory has a profound effect on the way we live our everyday lives and is integral to many aspects of cognition. Whether we are recalling episodes of childhood abuse in the witness box, retrieving our favourite pumpkin scone recipe, or just trying to remember where we parked the car, memory plays a key role in allowing us to function, providing the texture of our experiences and defining our identities. Most of us have had the annoying experience of recognizing a face but not being able to remember to whom it belongs. We curse, make a reference to our age and reach for the nearest pop-psychology manual on how to improve our memories in ten easy steps. When you stop to think about it, however, the really astonishing thing is how often we don't forget. In a study by Shepard (1967) subjects were given a list of 580 arbitrary words to remember. On a forced choice test they scored at just under 88% correct. That's impressive. Furthermore, I could ask you what you were doing at 12:30pm one week ago and there is a good chance you would be correct, even if it isn't something you do all the time. Yet between then and now you have had thousands of experiences any one of which I could have queried. Somehow all of those experiences have left their mark, often without you even thinking about it. Long term memory is big. The other really astonishing thing about memory is how flexibly we can access it. Suppose I ask you to list all the situation comedies you have ever watched. Most people from television dependent cultures wont have too many difficulties coming up with a reasonably large collection. Yet how could you answer this question given the obscure cue "situation comedy"? A database system might store a set of records such as {(Giligan's Island, situation comedy), (Full House, situation comedy), (World News, current affairs), etc.} and then cycle through these one at a time retrieving those that have the situation comedy tag. But this would require that when you are watching television shows you are constantly tagging them as situation comedy, current affairs etc. If you had tagged the program as "the funny show with the skinny sailor in it" the search for situation comedy would come back with NO RECORDS FOUND . Human memory is much more robust. We often use what seem to be very obscure cues yet we are able to retrieve well. xenophobic ?". These questions require you to comment on the information stored in memory without necessarily retrieving the detail of any particular memory. --> Much of the research into human memory has been an exploration of just how flexible our memories are - of the different sorts of questions that we can use our memories to answer. In this chapter, we will consider two ways in which the questions that we ask of our long term memories can differ. The first of these refers to the nature of the output that a question requires - are we asking for a specific name, word or other item from memory (retrieval) or do we require a yes/no answer about whether we remember some fact or episode (matching). The second distinction refers to the role of context in the query - are we asking about what happened in a given episode or context (episodic) or is the query about the way that things tend to be in general (semantic). After considering these tasks, we will look in some detail at the Matrix Model of long term memory (Pike, 1984; Humphreys, Bain & Pike, 1989) which provides a theory of how these questions could be answered using the formalism of matrix algebra. Matching Versus Retrieval Tasks: The Nature of the Output Memory tasks differ with respect to the output that is required. The usual task that people have in mind when they think about human memory is one in which you are given one piece of information such as someone's face and you must retrieve another piece of information such as that person's name. These sorts of tasks seem to rely on a discrete or discontinuous form of information. The required output is an item. Two common examples of retrieval tasks are free association and cued recall with a list associate. Free Association provides a subject with a cue (e.g. "Type of animal") and requires them to respond with the first word that comes to mind (e.g. cat). Sometimes a prior study list is presented to the subject and it has been shown that words that occur in the prior study list are more likely to be produced even though the subject is not instructed to use the study list to make their decisions. Free association is a retrieval task because the required response is a word. Cued Recall with a List Associate requires the subject to study a list of pairs of words. At test, subjects are given a list of words and asked which word occurred with each of the test words during the study episode (e.g. "Which word occurred with boy in the study list?"). Again, cued recall with a list associate is a retrieval task because it requires the subject to respond with a word. In contrast some memory tasks known as matching tasks require what seems to be a more quantitative answer based on a continuous measure. The examples with which we will be concerned are familiarity rating and recognition. Familiarity rating refers to a task in which subjects rate (on a five point scale, for instance) how familiar a word is to them in general (e.g. "How familiar is the word house to you?"). Familiarity rating is a matching task because it seems to be based on a continuous form of information. Recognition requires a subject to study a list of words. At test, the subject is given a second list of words - some of which appeared in the first list and some of which did not. The subjects' task is distinguish the targets (words that were on the list) from distractors (words that weren't on the list). Either they are asked to make a yes/no decision or they provide their confidence that the word is old (which might be rated on a five point scale, for instance). Recognition is considered a matching task because it relies upon a continuous form of information. Episodic and Semantic Tasks: The Role of Context Another important dimension on which memory tasks can vary is whether they make reference to a study episode. Tasks that do specify the study episode are known as episodic tasks, whereas tasks that do not are known as semantic tasks (or generalized tasks). Tulving (1972) realized that the learning in a study episode is not continuous with the learning that occurs before study. In particular, he realized that when we ask a subject in a recognition task do they recognize a word we are not asking them whether they know the word at all (often all of the test words are known to the subject). What we are asking is if the word occurred in a given list (the study list). Similarly, in cued recall with a list associate, we are not asking what word generally goes with boy . We are asking what word went with boy in the study list. In contrast, familiarity rating and free association make no specific reference to a study episode and are semantic tasks. Table 1 categorizes the four memory tasks described above in terms of the nature of the output and the role of context. Table 1: Examples of Episodic/Semantic Tasks and Matching/Retrieval Tasks (adapted from Humphreys, Bain & Pike, 1989) Use of Context Cue Access Process Episodic Memory Semantic Memory Matching produces a rating value Recognition Familiarity Rating Retrieval produces a word Cued Recall Free Association Before looking at how the Matrix Model accounts for the differences between these tasks we need a grounding in tensors, the operations that can be performed on tensors and how tensors can be mapped to neural network architectures. If you are comfortable with these ideas you may skip the next section. Tensors Explained The Matrix Model of memory is built upon the mathematics of tensors. Tensors are convenient ways of collecting together numbers. For instance, a vector, which is also known as a rank one tensor, could be used to describe the age, gender, and salary of an employee. If Jeff is 50 years old, is male (where male = 0 and female = 1) and earns $ 56000 per annum then we could describe Jeff with the vector [50, 1, 56000] (see figure 1). Note that vectors (and tensors in general) are ordered. The vector [56000, 1, 50] would describe someone who was 56000 years old who made a total of $ 50 per annum! Figure 1: Examples of vectors. (a) a row vector describing Jeff, (b) a column vector, (c) a vector with N components. The rank one tensor described above has a dimension of three because it contains three components. There is no reason that vectors need be restricted to three dimensions, however. We could have added shoe size, for instance, to increase the dimension to four. Similarly, there is no reason that we need to restrict ourselves to a single row of numbers. A tensor with N rows and M columns is known as an NxM matrix and has a rank of two, indicating that the array of numbers extends in two directions (see figure 2). Figure 2: Examples of matrices. (a) a 2x2 matrix, (b) a 3x2 matrix, (c) an NxN matrix. The process of extending the number of directions in which the array extends can theoretically continue indefinitely, creating tensors of rank three, four, five etc. In the following sections, we will look at vectors, matrices and tensors of rank three (see figure 3) as they are critical to understanding the Matrix Model. Other models, such as the STAR model of analogical reasoning (Halford, Wiles, Humphreys and Wilson 1992), employ tensors of higher rank. Figure 3: A rank three tensor (NxNxN). Vectors - Rank One Tensors Tensors, and in particular vectors, can be represented in many different forms including: Cartesian form in which the components are enumerated explicitly. Figure 1 depicts vectors represented in Cartesian form. Geometric form in which the vector is plotted in N dimensional space. For instance, figure 4 shows the vector representing Jeff plotted in three dimensional space. Figure 4: The vector representing Jeff plotted in three dimensional space (Geometric form). Algebraic form in which a vector is represented as a bolded lower case letter (e.g. v ). Algebraic form is a particularly concise form of representation, which makes it easy to talk about the operations that can be performed on vectors such as addition (e.g. w = v + t ). Neural network form which diagrams a neural network architecture in which either a set of units or a set of weights contain the elements of the vector. For instance, a vector can be mapped to a two layer network (one input and one output layer) as depicted in Figure 5. The number of units in the input layer corresponds to the number of dimensions in the original vector, while the output layer contains only 1 unit. Each input unit is connected to each output unit. The input units represent one vector and the weights represent a second vector. Figure 5: The network corresponding to a vector memory. The output of this network is defined to be the dot product (or inner product) of the input and weight vectors. A Dot Product is calculated by multiplying together the values which are in the same position within the two vectors, and then adding the results of these multiplications together to get a scalar (see Figure 6a). In the case of the neural network, this involves multiplying each input unit activation by the corresponding weight value and then adding. The dot product of two vectors represents the level of similarity between them and can be extended to higher rank tensors (see figure 6b) Figure 6: The Dot Product. The dot product is expressed algebraically as a dot, that is, the dot product of the vectors v and w is written v . w . Learning occurs in this network by adding the input vectors. Vector addition superimposes vectors of the same dimension. It is calculated by adding together the elements in a particular position in each vector (see Figure 7a). In this way, multiple memories can be stored within the same vector. [Note: the network actually employs Hebbian learning (see Neural Networks by Example: Chapter three). However, when the output unit is fixed at one Hebbian learning is identical to vector addition.] Figure 7: (a) Vector Addition, (b) Matrix Addition. Again vector addition can be extended to tensors of arbitrary rank (see figure 7b). Vector addition is expressed algebraically as a plus sign (+). So if we wanted to talk about the dot product of v with the addition of w and x we would write v .( w + x ). Another useful property to keep in mind is that the dot product distributes over addition. That is: v .( w + x ) = v . w + v . x In the following exercises, you will build a vector network that learns to discriminate between stored items and new items (see figure 8). Figure 8: A vector memory network. Follow the instructions below to create the network and then work through the exercises. Load BrainWave Select 'New Hebbian Network' Set up the vector memory network: Create two input units and one output unit. Connect both input units to the output unit. Set up VALUE objects for the units and weights. Create the data sets: Create an Input Set containing the two input units Create a Test Set containing the two input units Create an Output Set containing the output unit The items in this exercise are FROG [0.95, 0.32], TOAD [0.49, 0.87], KOALA [0.32, -0.95]. Add the FROG pattern to the input set. Add a pattern containing a 1 to the output set. Add all three items, FROG, TOAD and KOALA, to the test set. Exercise 1: Train the network for one epoch and record the weights in the TRAIN FROG row of the following table. How have the weights changed? Weight 1 Weight 2 TRAIN FROG TRAIN FROG & KOALA TRAIN FROG & TOAD Exercise 2: Test each of the items, FROG, TOAD and KOALA, and record the match values (the activation of the output unit) in the second table. Explain the match values. TEST FROG TEST TOAD TEST KOALA TRAIN FROG TRAIN FROG & KOALA TRAIN FROG & TOAD Exercise 3: Train the network for one more epoch and test again. What happens to the match values after a second training trial? Why? Exercise 4: Add KOALA to the input set and an output value of 1 to the output set. Zero the weights (using the ACTIONS menu) and retrain the network on the updated input set. Test the network as before, recording the values in the table in the TRAIN FROG & KOALA row. Exercise 5: Delete KOALA from the input set and add TOAD. Zero the weights, retrain and test as above, recording the values in the TRAIN FROG & TOAD row. You should have six weight values and nine match values for each training trial. Create a graph of the match values after the first training trial: plot three lines, one for each test item, against the three training conditions. Explain the shape of each line on the graph. Exercise 6: For each of the three training conditions (FROG alone, FROG & KOALA, FROG & TOAD): Draw the geometric (graphical) representation of the weights, Provide the algebraic representation of the weights. Matrices - Rank Two Tensors The vector memory, discussed above, was capable of storing items so that at a later time it could be determined if they had appeared. A matrix memory allows two items to be associated - so that given one we can retrieve the other. Algebraically, a matrix is usually represented as a bolded upper case letter (e.g. M ). Associations are formed using the outer product operation. A outer product between two vectors is calculated by multiplying each element in one vector by each element in the other vector (see Figure 8). If the first vector has dimension d 1 and the second vector dimension d 2 , the outer product matrix has dimension d 1 xd 2 . For instance, a three dimensional vector multiplied by a two dimensional vector has dimension 3x2. Figure 8: The outer product. The outer product operation is expressed algebraically by placing the vectors to be multiplied next to each other. So the outer product of v and w is written as v w . These association matrices are then added into the memory matrix (as in the vector memory case) - so that all associations are stored as a single composite. A matrix memory maps to a two layer network (one input and one output layer) as depicted in Figure 9. The number of input units corresponds to the number of rows in the original matrix, while the number of output units corresponds to the number of columns. Each input unit is connected to each output unit. Figure 9: The network representation of a matrix. In the following exercise you will use a matrix memory network to store and recall pairs of items. Exercise 7: Load the simulator, BrainWave. From the NETWORKS menu - select Matrix Model (1). What rank tensor does this network implement? What are its dimensions? Exercise 8: The items in this exercise are: Cues: FROG [0.5, -0.5, 0.5, -0.5] KOALA [0.5, 0.5, -0.5, -0.5] SNAIL [-0.5, 0.5, 0.5, -0.5] TOAD [0.5, 0.4, 0.6, 0.45] Targets: FLIES [0.7, 0.5, 0.5] LEAVES [0.7, -0.5, -0.5] LETTUCE [0, -0.7, 0.7] The input set contains the items FROG, KOALA and SNAIL, paired with items in the output set FLIES, LEAVES and LETTUCE, respectively. Another input item, TOAD [0.5, 0.4, 0.6, 0.45], can be used to test the network on unfamiliar input. Calculate the similarity value (i.e. dot product) of the items FROG, KOALA, SNAIL and TOAD with themselves, and each other, and record the values in the table below: FROG KOALA SNAIL TOAD FROG KOALA SNAIL TOAD Exercise 9: Train the network for one epoch. Test each of the items FROG, KOALA, SNAIL and TOAD. What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES and LETTUCE). FROG KOALA SNAIL TOAD Exercise 10: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: M = Exercise 11: Give the equations that describe each of the retrievals in exercise 9. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. FROG KOALA SNAIL TOAD Tensors of Rank Three and Above The final sort of tensor we need to demonstrate the matrix model is the rank three tensor. The rank three tensor allows a three way association to be represented. For instance, we could store the information that John loves Mary - [Loves John Mary] - or that Apple appeared with Pencil in List 1 [List 1, Apple, Pencil]. A tensor of rank three maps to a three layer network (one input layer with two sets of units, one output layer, and one layer of hidden units) as depicted in Figure 10. The number of units in the input sets and the output set correspond to the dimensionality of the tensor. The number of hidden units corresponds to the number of units in one input set times the number of units in the other input set. Each hidden unit has a connection from one input unit from each input set, with a hidden unit existing for each possible combination. These hidden units are SigmaPi units, the value of which is set to the multiplication of the two input units to which it is connected. To implement a rank three tensor, the weights in the first layer are frozen at one. Consequently, a hidden unit's activation will equal the multiplication of the activations of the input units to which it is connected. Each hidden unit is then connected to each output unit. Figure 10: The network representation of a rank three tensor. In these exercises, you will use both rank two and three tensor networks to store and recall triples of items. Exercise 12: Load the simulator, BrainWave. From the NETWORKS menu - Matrix Model (2). What rank tensor does this network implement? Exercise 13: The items in this exercise are: Cues: FROG [0.5, -0.5, 0.5, -0.5] KOALA [0.5, 0.5, -0.5, -0.5] SNAIL [-0.5, 0.5, 0.5, -0.5] TOAD [0.5, 0.4, 0.6, 0.45] Relations: EATS [0.5, -0.5, -0.5, 0.5] LIVES-IN [0.5, 0.5, -0.5, -0.5] Targets: FLIES [0.7, 0.5, 0.5] LEAVES [0.7, -0.5, -0.5] LETTUCE [0, -0.7, 0.7] POND [0.89, 0.43, -0.22] TREE [-0.22, 0.76, 0.62] SHELL [0.43, -0.5, 0.76] Notice that the vectors for the cues are the same as those used above. Also notice that EATS and LIVES-IN are orthogonal to each other - that is they have a dot product of zero. Calculate the similarity (dot product) table for the targets. FLIES LEAVES LETTUCE POND TREE SHELL FLIES LEAVES LETTUCE POND TREE SHELL Exercise 14: The cue+relation input set contains the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN and SNAIL-LIVES_IN, paired with items in the output set FLIES, LEAVES, LETTUCE, POND, TREE, and SHELL, respectively. Two other input items, TOAD-EATS and TOAD-LIVES_IN, can be used to test the network's response to unfamiliar input. Train the network for one epoch. Test each of the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN, SNAIL-LIVES_IN, TOAD-EATS and TOAD-LIVES_IN. What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES, LETTUCE, POND, TREE and SHELL) FROG-EATS KOALA-EATS SNAIL-EATS FROG-LIVES_IN KOALA-LIVES_IN SNAIL-LIVES_IN TOAD-EATS TOAD-LIVES_IN Exercise 15: How does the performance of this network compare with the performance of the network in Exercise 8? Why is it not as good? Exercise 16: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: M = Exercise 17: Give the equations that describe each of the retrievals from exercise 14. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. FROG-EATS KOALA-EATS SNAIL-EATS FROG-LIVES_IN KOALA-LIVES_IN SNAIL-LIVES_IN TOAD-EATS TOAD-LIVES_IN Exercise 18: From the NETWORKS menu - select Matrix Model (3). What rank tensor does this network implement? Exercise 19: The inputs and outputs for this network are the same as for the previous one, but the connections and hidden SigmaPi units perform different calculations on the inputs to try and achieve the correct outputs. Train the network for one epoch. Test each of the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN, SNAIL-LIVES_IN, TOAD-EATS and TOAD-LIVES_IN. What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES, LETTUCE, POND, TREE and SHELL). FROG-EATS KOALA-EATS SNAIL-EATS FROG-LIVES_IN KOALA-LIVES_IN SNAIL-LIVES_IN TOAD-EATS TOAD-LIVES_IN Exercise 20: Which of the two networks performs the memory task better? Why? Exercise 21: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: M = Exercise 22: Give the equations that describe each of the cued recall tests from question 19. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. FROG-EATS KOALA-EATS SNAIL-EATS FROG-LIVES_IN KOALA-LIVES_IN SNAIL-LIVES_IN TOAD-EATS TOAD-LIVES_IN In this section, we have been looking at the way in which tensors of rank one, two and three can be used to store information. In the next section, we will examine the Matrix Model, which uses precisely this mechanism to explain the nature of human memory. The Matrix Model The Matrix Model of Memory was developed by Humphreys, Bain and Pike (1989) and Pike (1984) to provide a coherent theoretical account of a range of different memory tasks, including episodic tasks, such as recognition and recall, and semantic tasks, such as familiarity rating and indirect production tasks. It is a distributed associative model in which items are modelled and stored as vectors of feature weights or elements, just as was the case in the previous section. Elements within each vector contribute conjointly to the representation of items. Thus memory representations are not located at specific points within a memory network, or within specific memory systems. Instead they are conceptualised as unique patterns of activation over a common set of elements. Typically, these patterns are thought to be sparse representations meaning that only a few of the elements are active. Memory Representations The memory representations in the Matrix Model include items, contexts or, combinations of items and contexts (associations). Items - Items can be any sort of stimuli including words, pictures, melodies etc. For the most part, however, the experiments to which the model has been applied use words. Each item is modelled as a vector of feature weights. Feature weights are used to specify the degree to which certain features form part of an item. There are two possible levels of vector representation for items. These are: modality specific peripheral representations (e.g., graphemic or phonemic representations of words) modality independent central representations (e.g., semantic representations of words). Item vectors are distinguished by subscripts (e.g. a i ). A distractor vector is indicated by a d . Contexts - To distinguish between episodic and non-episodic tasks the Matrix Model assumes the episode or context in which items are studied is also represented by a vector of feature weights. In episodic tasks this context vector must be reinstated so that it may be used as a cue to the memory system. The context vector is represented by an x . Associations - While individual items and contexts are represented as single vectors ( a , b , x ), associations between items and contexts are represented by matrices derived from the matrix product of these vectors. The resulting matrix product represents the association (or binding) between either items, or between items and context. The memory of the matrix Model is formed by adding these associations together. The model posits a number of different kinds of associations including: Two-way associations between a single item ( a ) and a context ( x , e.g. bacon x breakfast this morning) are represented as a context-to-item association ( x a ), where x = n element column vector a = n element row vector Associations between a list of items ( a 1 , a 2 ,..., a k ) and a context ( x ) are represented by multiplying each of the item vectors by the context vector and summing the resulting matrices. This sum represents the memory of the study list ( E ). E = x a 1 + x a 2 + ... + x a k Three-way associations between a list of word pairs ( a 1 b 1 , a 2 b 2 , ... a k b k ) and context ( x , e.g., bacon x dog x breakfast this morning) are represented by the rank three tensor ( x a j b j ), where x = n element column vector a j = n element row vector b j = n element orthogonal vector The resulting associations can be summed to form the memory for the list ( E ). E = x a j b j Note: the type of vector (i.e., row, column, orthogonal) can also be inferred from the order of the vector symbols, where: 1st vector = column vector; 2nd vector = row vector; and 3rd vector = orthogonal. Pre-existing memories ( S ) are added to list memories ( E ) because test performance can be influenced by both list memories and pre-existing memories. M = x a j b j + S Accessing Memory Representations Having constructed the memory matrix, we can now see how the Matrix Model goes about accessing this representation at test for a number of different tasks. All retrieval in the Matrix Model is direct . The memory matrix is presented with cues and access occurs in parallel. There is no sequential search process. Presenting the model with a cue involves taking the inner product (or dot product) of the cue vector with the memory matrix. One of the strengths of the Matrix Model is in the number of a ways in which information from the model can be accessed. In the introductory section, two dimensions on which tasks can differ were outlined. The first was the matching/retrieval dimension. Matching tasks are those based on a continuous form of information that typically require either a yes/no answer or a rating response (e.g. recognition). Retrieval tasks, by contrast, require a specific item to be returned (e.g. cued recall). This distinction is captured in the Matrix Model by the nature of the tensor that results once all cues have been applied. If the resultant tensor is a scalar we are dealing with a matching process. This scalar can be compared against criteria to determine a yes/no or rating value. If the resultant tensor is a vector then we have a retrieval process. The vector can be compared against all item vectors with the item being the output of the process. The next sections, goes through the mathematics of recognition and cued recall with a list associate demonstrating how matching and retrieval tasks are accomplished within the model. The second task dimension discussed in the introduction focussed on the the episodic/semantic dimension. Episodic tasks refer to a specific context, whereas in semantic (generalized) tasks information is integrated over a large number of experiences. The Matrix Model captures this distinction. In episodic tasks, a reinstated context vector is used as a cue. In semantic (generalized) tasks, a vector which is equally similar to all contexts is used so as to average over all experiences with the cue items (typically, this is a vector with all components set to 1/n where n is the dimension of the vector). The section entitled "Episodic versus Semantic Memory: Cuing with the Context Vector" describes an experiment designed to demonstrated the importance of the distinction and leads you through the process of modelling this experiment using the BrainWave simulator. Matching Versus Retrieval Tasks: Scalar or Vector Output In this section, a matching task, namely recognition, and a retrieval task, namely cued recall with a list associate, are compared within the Matrix Model framework. Recognition Recognition involves a matching process, where the overall similarity between the test cues ( x and a i ) and memory ( M ) is calculated. Because this is an episodic task, the test cues involve both word cues and a context cue. This episodic matching process is accomplished by combining the test cues into an associative matrix ( x a i ) and determining a dot product between: the cue matrix ( x a i ), and the memory matrix ( M = x a j + S ). [Note: Because the dot product operation is associative, the results are identical regardless of whether you form a combined x a i matrix and then take a dot product or take the dot product of each of the cues with the memory matrix progressively.] Studied Test Word (a i ) xa i . M = xa i . ( xa j + S ) = x a i . x a j + x a i . S = (x . x) (a i . a j ) + x a i . S = (x . x) (a i . a i ) + (x . x) (a i . a j ) + xa i . S Inserting the expected matching value: E[ x a i . M ] = c s + (k - 1) c m + g where c = similarity between the study and test context (assumed to large) s = similarity between the same word encoded at study and test (assumed to be large) m = similarity between different words at study and test (assumed to be small) g = contribution of pre-existing memories Non studied Test Word (d) x d . M = x d . ( xa j + S) = xd . xa j + xd . S = (x . x) (d . a j ) + xd . S where E[ x d . M ] = c m k + g Note that the matching operations in the above equations can be collapsed down into several components, including : a match between the test cue and the pre-experimental memories (i.e., x a i . S or x d . S ), and a match between the test cue and the experimental memories (i.e., x a i . x a j or x d . x a j ) The match between the test cue and the experimental memories can further be collapsed down into : a match between the context on study and test occasions ( x . x = c), and a match between the study and test items ( a i . a i = s and a i . a j = m) or ( d . a j = m) Thus the final dot product derived from these equations, represents the match of the contexts on the study and test occasions (c), weighted by the match of the items on the study and test occasions (s and m). Consequently, memories that are conjointly defined by context and test cues will be weighted more heavily than items not studied in that context. This mechanism enables the model to avoid interference (large weights) from other items studied in the same context and also from previous contexts in which items have appeared. Cued Recall with a List Associate Cued recall with a list associate involves a subject studying a list of pairs. At test they are given an item and are required to produce the word with which it was paired at study. This is an important task because it can be used to demonstrate that three way association are necessary to model human memory. Simple associations two-way associations between items are insufficient (Humphreys, Bain & Pike 1989). For this reason, cued recall with a list associate is modelled using rank three tensors that associate word pairs ( a 1 b 1 , a 2 b 2 ,... a k b k ) and context ( x ). The tensor is formed by taking the outer product of the context vector x and the two item vectors, a j and b j . M = x a j b j + S Subjects are then asked to recall list targets ( b i ) at test, using list associates ( a i ) and context ( x ) as cues. The retrieval cues ( x and a j ) are combined to form an associative matrix cue ( x a i ). Retrieval then involves the pre-multiplication of the rank three tensor ( M ) by the retrieval cue ( x a i ). x a i . M = x a i . x a j b j + S = [( x a i )( x a j )] b j + x a i . S = [( x . x ) ( a i . a j )] b j + x a i . S = ( x . x ) ( a i . a i ) b i + ( x . x ) ( a i . a j ) b j + x a i . S Inserting the expected values: E[ x a i . M ] = c s b i + c m b j + x a i . S The end product (matrix product) of this process will comprise a target vector of feature weights. This featural information can be used to produce a word or item response. The target vector is weighted by: the similarity of the context on the study and test occasions ( x . x = c), and the similarity of the list cue on the study and test occasions ( a i . a i = s) and ( a i . a j = m) Note that the weights for the same associate (s) will be greater than the weights for different associates (m) making the resulting vector look more like the correct associate (on average) than any other item. Noise will also be generated by the pre-existing memories. The assumption is that, in general, the similarity of the pre-existing contexts and the current context will be small leading to low levels of interference. Of course, if a recent context also included the cue word then much more interference will be generated because the context vectors will be more similar. Recall in the Absence of Recognition The Task and Phenomenon The relationship between recall and recognition has been central to the study of episodic memory for several decades. Most people have the intuition that recalling a specific item is more difficult than simply recognizing that you have seen an item, and often this is the case (I know I've seen that person before, but I can't remember their name). However, under some circumstances recall can be better than recognition (Tulving & Thompson 1973; Watkins & Tulving 1975). The discovery of recognition failure of recallable words has had an important impact on the development of memory theory. In particular, models in which recognition is a simple subprocess of recall (the generate - recognize models) underwent substantial modification as a consequence. Before looking more closely at the implications for memory modelling, however, we will describe the sort of experiment that has demonstrated recall without recognition as exemplified by Watkins and Tulving (1975, experiment one). The basic methodology of the Watkins and Tulving experiment is presented in table 1. Table 1: Basic methodology: Schematized Sequence of Procedures. Reproduced from Watkins and Tulving (1975). Step Procedure Example 1a List 1 Presented badge - BUTTON 1b Cued recall of List 1 badge - button 2a List presented preach - RANT 2b Cued recall of List 2 preach - rant 3 List 3 presented glue - CHAIR 4a Free-association stimuli presented table 4b Free-association responses made table 5a Recognition test sheets presented DESK TOP CHAIR 5b Recognized items circled DESK | TOP | CHAIR 5c Recognition confidence of circled items attempted DESK | TOP | 1 CHAIR 5d Recall of list cues of circled items attempted TOP - can't recall 6 Cued recall of List 3 glue - chair Steps one and two involve cued recall tests designed to influence how subjects encode lists of word pairs. Word pairs such as glue - CHAIR are presented and subjects are asked to learn them for a later test. The first word ( glue ) is designated the cue and the second word (CHAIR) is designated the target. Typically, subjects must encode the two words interactively for cued recall performance to be good. These first two steps are practise trials aimed at making sure their encodings are strong. The third step is the critical study list. It is similar to the first two study lists. This time, however, instead of an immediate cued recall test, subjects were asked to free associate to a set of words that did not appear on the study list (step four). These words were chosen so that it was likely that subjects would respond with one of the target words. The fifth step was the recognition test. Subjects were given groups of three words and asked to chose the word which appeared as a target in the study list (step three). Then they had to rate their confidence and try to recall the cue word that appeared with that target. Finally, in step six, subjects were given a cued recall test for the study list. Table 1: The Proportions of Targets Recognized and Recalled (Watkins & Tulving 1975) Recognized Not Recognized Recalled .25 .24 Not Recalled .14 .36 Table 1 shows the proportion of items recalled and recognized. The key point is that half of the items that were recalled were not recognized. This occurs despite the fact that the recognition test comes first, so that forgetting should affect recall more than recognition. --> In the last two sections we have seen how, in a mathematical sense, the Matrix Model distinguishes between matching and retrieval tasks. In the next section, we will examine the episodic/semantic distinction by using the Matrix Model to simulate data generated by Bain & Humphreys (1989). Episodic versus Semantic Memory: Cuing with the Context Vector Bain & Humphreys (1989, pg. 229) report an experiment which clearly demonstrates the difference between episodic and semantic matching tasks by reinstating the context during some, but not all, of the test conditions. Subjects were given a set of words and asked to produce a synonym for each. One week later the same subjects were given a passage containing unhighlighted target words, and asked to read the text and then answer questions on it. Half of the target words were common to both training stages. In addition to the test items already mentioned (synonym, passage, or both), words which appeared in neither training stage were also included as test items. Each set of test items contained equal numbers of high and low frequency words. The subjects were grouped into three test conditions. Group A was asked to give a general familiarity rating for the words (a generalized matching condition). Group B was asked to recognise which words had been in the synonym generation task (an episodic matching condition). Group C was asked to recognise which words had been in the passage reading task (also an episodic matching condition). The mean recognition and familiarity ratings are displayed in Figure 11. Figure 11: Mean ratings for three tasks as a function of presentation list(s) and word frequency. (a) Familiarity Rating Task (b) Recognition of Synonym Task words and (c) Recognition of Passage Task words. Note that in generalized familiarity task ratings depended only on the frequency of the word. For the episodic tasks, however, the lists in which the subjects were exposed to the word are critical. As Figure 11 shows, subjects performing the episodic matching tasks were affected by the training context indicated in the task instructions, while subjects performing the general matching task were not influenced by the prior training conditions. Furthermore, the subjects did not have trouble reinstating the synonym context as opposed to the passage context, and vice versa. These results suggest that subjects are able to distinguish episodic and semantic (or generalized) memory tasks quite well. One explanation is that the episodic and semantic memory systems are located in two different compartments in the brain. In the generalized familiarity task, subjects access the semantic store, in the episodic recognition task subjects access the episodic store. This may well be the case, however, Humphreys, Bain and Pike (1989) showed using the Matrix model that it need not be. The episodic/semantic distinction can be captured in a single coherent memory system by assuming differences in the types of cues supplied. In the following exercises, the Matrix Model will be used to demonstrate how the difference between generalized familiarity and episodic recognition can be captured. To simplify the modelling process we assume a design similar to that employed by Bain and Humphreys (1989), but in which only one study list is presented. What we are looking for is a difference in the pattern of results for target and distractor words when asking for generalized familiarity versus episodic recognition. The key distinction, from the model's point of view, is in the nature of the context cue. In episodic recognition it will be assumed that the context cue is the same as that at study. In contrast, when modelling generalized familiarity the context cue will be a a vector in which all components are 0.1. This context vector will be similar to all of the pre-experimental contexts and the study context to approximately the same degree and will therefore produce an output which is approximately the mean of all exposures - not just the study list exposures. Exercise 23: Load the simulator, BrainWave. From the NETWORKS menu - select Familiarity vs Recognition. This network contains three sets of units - the input units, which will contain the context vectors, the output units, which will contain the items to which a context is associated and the match units, which contain the item to be tested. Weights are connected between the input units and the output units. What rank tensor does this network implement? Above the units is a global value called "Dot Product". This global value indicates the dot product of the output units and the match units and is updated when you click on cycle. It is this value which will indicate the strength of a match in both the episodic recognition and generalized familiarity conditions. In addition, there are three collections of pattern sets. The pre-experimental sets contain the input/output pairs representing the subjects experience before entering the experiment. Each context is different indicating that subjects pre-experimental experience with words arises from many different contexts. Each context vector has just three units active and these units are active to different degrees. The same is true for the output patterns which represent the words. However, some of the word patterns are repeated representing the difference between high and low frequency words. The high frequency words are repeated three times while the low frequency words appear just once. Note that real words occur much more often. We have decreased the numbers here to facilitate modelling. It is important to consider, however, what effect increasing the numbers of presentations would have. A later exercise will be directed towards this question. In the pre-experimental output set (as well as the match and experimental output sets), the words are followed by a tag such as hft or lfd. The hf or lf stands for high frequency and low frequency respectively, and the t or d stands for target or distractor. This tag just allows you to easily remember the type of each word without having to cycle through the relevant pattern sets. Exercise 24: Click through the pre-experimental output set. How many presentations are there? How many unique words are there? The experimental set represents a subject's experience during the study list. At study, words are all presented the same number of times and in the experimental output set each word appears just once. In all cases the study context is the same. Note that only target words appear in the experimental list. Exercise 25: Click through the experimental output set. How many words are there? The final collection of pattern sets are those that will be used for testing the network. The input set contains the Study Context pattern and the Generalized Context pattern. When testing episodic recognition the Study Context pattern should be selected, when testing generalized familiarity the Generalized Context pattern should be selected. The output set contains no patterns because these sets will only be used for cycling, not for learning. The match set contains a copy of each of the words - both the targets and the distractors. Exercise 26: Click through the match set. How many words are there? Now we are ready to train and test the system. Train the network for one epoch with the Pre-experimental input and output sets and then for one epoch with the Experimental input and output sets (If you are learning for a second time remember to reset the weights - Actions Menu - so that current learning doesn't accumulate with the prior learning). To test whether the network is familiar with a word in the study context, or is familiar with a word generally (it can be both): select the test output set; select the word from the match set; select either the Study Context or the General Context from the test input set and cycle once. Exercise 27: Simulate the generalized familiarity task and fill in the the dot product values in Table 1 below. Table 1: Generalized Familiarity Task: Dot Product Values High Frequency Target Low Frequency Target High Frequency Distractor Low Frequency Distractor child avery horse crept phone elope space flank woman adage eight broth light dally sound envoy visit graft april aural green banjo leave debit river fidel table guise MEANS Exercise 28: Simulate the episodic recognition task and fill in the the dot product values in Table 2 below. Table 2: Episodic Recognition Task: Dot Product Values High Frequency Target Low Frequency Target High Frequency Distractor Low Frequency Distractor child avery horse crept phone elope space flank woman adage eight broth light dally sound envoy visit graft april aural green banjo leave debit river fidel table guise MEANS Exercise 29: Produce graphs similar to those in figure 11 for the mean values of the dot products. That is, plot the mean dot product values for targets and distractors for both low and high frequency words in the generalized familiarity condition on one graph, and the mean dot product values for targets and distractors for both low and high frequency words in the episodic recognition condition on another graph. Are the generalized familiarity graphs flatter than the episodic recognition graphs? Why? Exercise 30: In the generalized familiarity graph the model's results tend not to be as flat as the subject's data. Why might this be the case, and does it represent a refutation of the model? (Hint: consider the nature of pre-experimental experience). Objective Checklist In this chapter, we have been looking at the Matrix Model of long term memory. The following is a check list of skills and knowledge which you should obtain while working on this chapter. Go through the list and tick off those things you are confident you can do. For any item outstanding, you should refer back to the appropriate section or consult your tutor. understand the distributed representation of items and associations calculate the vector memory values when two patterns are superimposed, in terms of: network weights, Cartesian co-ordinates, vector addition. explain the difference between matching and retrieval tasks and model this difference in the Matrix Model explain the difference between episodic and semantic tasks and model this difference in the Matrix Model References Bain, J.D., & Humphreys, M.S. (1989). Instructional reinstatement of context: The forgotten prerequisite. In K. McConkey and A. Bennett (Eds.), Proceedings of the XXIV International Congress of Psychology, Vol. 3. Elsevier, North-Holland. Halford, G. S., Wiles, J., Humphreys, M. S., & Wilson, W. H. (1992). Parallel distributed processing approaches to creative reasoning: Tensor models of memory and analogy. unpublished manuscript. Humphreys, M.S., Bain, J.D., & Burt, J.S. (1989). Episodically unique and generalized memories: Applications to human and animal amnesics. In S. Lewandowsky, J.C. Dunn & K. Kirsner (Eds.) Implicit Memory: Theoretical Issues. (pp. 139-158). Erlbaum Associates: Hillsdale, N.J. Humphreys, M.S., Bain, J.D., & Pike, R. (1989). Different ways to cue a coherent memory system: A theory for episodic, semantic and procedural tasks. Psychological Review, 96, 208-233. Pike, R. (1984). A comparison of convolution and matrix distributed memory systems. Psychological Review, 91, 281-294. Wiles, J., & Humphreys, M.S. (1993). Using artificial neural networks to model implicit and explicit memory. In P.Graf & M. Masson (Eds.) Implicit Memory: New Directions in Cognition, Development, and Neuropsychology. (pp. 141-166). Erlbaum: Hillsdale, New Jersey.   --> 
+
+Long Term Memory and the Matrix Model
+
+Simon Dennis, Janet Wiles and Rachael Gibson
+Special thanks to Jill White 
+
+MEMORY! Always there, of course, but usually hidden. And then, sometimes, as a result of just the right kind of push, it could emerge suddenly, sharply defined, all in color, bright and moving and alive.
+
+Robots and Empire, Isaac Asimov 
+
+Table of Contents
+
+* Introduction 
+
+* Matching versus Retrieval Tasks: The Nature of the Output 
+* Episodic versus Semantic Tasks: The Role of Context 
+
+* Tensors Explained 
+
+* Vectors - Rank One Tensors 
+* Matrices - Rank Two Tensors 
+* Tensors of Rank 3 and Above 
+
+* The Matrix Model 
+
+* Memory Representations 
+* Accessing Memory Representations 
+* Matching versus Retrieval Tasks: Scalar or Vector Output 
+* Episodic versus Semantic Memory: Cuing with the Context Vector 
+
+* Objective Checklist 
+* References 
+* Answers to Questions 
+
+Introduction
+
+Long term memory has a profound effect on the way we live our everyday lives and is integral to many aspects of cognition. Whether we are recalling episodes of childhood abuse in the witness box, retrieving our favourite pumpkin scone recipe, or just trying to remember where we parked the car, memory plays a key role in allowing us to function, providing the texture of our experiences and defining our identities.
+
+Most of us have had the annoying experience of recognizing a face but not being able to remember to whom it belongs. We curse, make a reference to our age and reach for the nearest pop-psychology manual on how to improve our memories in ten easy steps. When you stop to think about it, however, the really astonishing thing is how often we don't forget. In a study by Shepard (1967) subjects were given a list of 580 arbitrary words to remember. On a forced choice test they scored at just under 88% correct. That's impressive. Furthermore, I could ask you what you were doing at 12:30pm one week ago and there is a good chance you would be correct, even if it isn't something you do all the time. Yet between then and now you have had thousands of experiences any one of which I could have queried. Somehow all of those experiences have left their mark, often without you even thinking about it. Long term memory is big.
+
+The other really astonishing thing about memory is how flexibly we can access it. Suppose I ask you to list all the situation comedies you have ever watched. Most people from television dependent cultures wont have too many difficulties coming up with a reasonably large collection. Yet how could you answer this question given the obscure cue "situation comedy"? A database system might store a set of records such as {(Giligan's Island, situation comedy), (Full House, situation comedy), (World News, current affairs), etc.} and then cycle through these one at a time retrieving those that have the situation comedy tag. But this would require that when you are watching television shows you are constantly tagging them as situation comedy, current affairs etc. If you had tagged the program as "the funny show with the skinny sailor in it" the search for situation comedy would come back with NO RECORDS FOUND. Human memory is much more robust. We often use what seem to be very obscure cues yet we are able to retrieve well.
+
+Much of the research into human memory has been an exploration of just how flexible our memories are - of the different sorts of questions that we can use our memories to answer. In this chapter, we will consider two ways in which the questions that we ask of our long term memories can differ. The first of these refers to the nature of the output that a question requires - are we asking for a specific name, word or other item from memory (retrieval) or do we require a yes/no answer about whether we remember some fact or episode (matching). The second distinction refers to the role of context in the query - are we asking about what happened in a given episode or context (episodic) or is the query about the way that things tend to be in general (semantic). After considering these tasks, we will look in some detail at the Matrix Model of long term memory (Pike, 1984; Humphreys, Bain & Pike, 1989) which provides a theory of how these questions could be answered using the formalism of matrix algebra.
+
+Matching Versus Retrieval Tasks: The Nature of the Output
+
+Memory tasks differ with respect to the output that is required. The usual task that people have in mind when they think about human memory is one in which you are given one piece of information such as someone's face and you must retrieve another piece of information such as that person's name. These sorts of tasks seem to rely on a discrete or discontinuous form of information. The required output is an item. Two common examples of retrieval tasks are free association and cued recall with a list associate.
+
+Free Association provides a subject with a cue (e.g. "Type of animal") and requires them to respond with the first word that comes to mind (e.g. cat). Sometimes a prior study list is presented to the subject and it has been shown that words that occur in the prior study list are more likely to be produced even though the subject is not instructed to use the study list to make their decisions. Free association is a retrieval task because the required response is a word.
+
+Cued Recall with a List Associate requires the subject to study a list of pairs of words. At test, subjects are given a list of words and asked which word occurred with each of the test words during the study episode (e.g. "Which word occurred with boy in the study list?"). Again, cued recall with a list associate is a retrieval task because it requires the subject to respond with a word.
+
+In contrast some memory tasks known as matching tasks require what seems to be a more quantitative answer based on a continuous measure. The examples with which we will be concerned are familiarity rating and recognition.
+
+Familiarity rating refers to a task in which subjects rate (on a five point scale, for instance) how familiar a word is to them in general (e.g. "How familiar is the word house to you?"). Familiarity rating is a matching task because it seems to be based on a continuous form of information.
+
+Recognition requires a subject to study a list of words. At test, the subject is given a second list of words - some of which appeared in the first list and some of which did not. The subjects' task is distinguish the targets (words that were on the list) from distractors (words that weren't on the list). Either they are asked to make a yes/no decision or they provide their confidence that the word is old (which might be rated on a five point scale, for instance). Recognition is considered a matching task because it relies upon a continuous form of information.
+
+Episodic and Semantic Tasks: The Role of Context
+
+Another important dimension on which memory tasks can vary is whether they make reference to a study episode. Tasks that do specify the study episode are known as episodic tasks, whereas tasks that do not are known as semantic tasks (or generalized tasks). Tulving (1972) realized that the learning in a study episode is not continuous with the learning that occurs before study. In particular, he realized that when we ask a subject in a recognition task do they recognize a word we are not asking them whether they know the word at all (often all of the test words are known to the subject). What we are asking is if the word occurred in a given list (the study list). Similarly, in cued recall with a list associate, we are not asking what word generally goes with boy. We are asking what word went with boy in the study list. In contrast, familiarity rating and free association make no specific reference to a study episode and are semantic tasks. Table 1 categorizes the four memory tasks described above in terms of the nature of the output and the role of context.
+
+Table 1: Examples of Episodic/Semantic Tasks and Matching/Retrieval Tasks (adapted from Humphreys, Bain & Pike, 1989)
+
+Use of Context Cue 
+Access ProcessEpisodic MemorySemantic Memory 
+Matching
+produces a rating valueRecognitionFamiliarity Rating 
+Retrieval
+produces a wordCued RecallFree Association 
+
+Before looking at how the Matrix Model accounts for the differences between these tasks we need a grounding in tensors, the operations that can be performed on tensors and how tensors can be mapped to neural network architectures. If you are comfortable with these ideas you may skip the next section. 
+
+Tensors Explained
+
+The Matrix Model of memory is built upon the mathematics of tensors. Tensors are convenient ways of collecting together numbers. For instance, a vector, which is also known as a rank one tensor, could be used to describe the age, gender, and salary of an employee. If Jeff is 50 years old, is male (where male = 0 and female = 1) and earns $56000 per annum then we could describe Jeff with the vector [50, 1, 56000] (see figure 1). Note that vectors (and tensors in general) are ordered. The vector [56000, 1, 50] would describe someone who was 56000 years old who made a total of $50 per annum!
+
+Figure 1: Examples of vectors. (a) a row vector describing Jeff, (b) a column vector, (c) a vector with N components.
+
+The rank one tensor described above has a dimension of three because it contains three components. There is no reason that vectors need be restricted to three dimensions, however. We could have added shoe size, for instance, to increase the dimension to four. Similarly, there is no reason that we need to restrict ourselves to a single row of numbers. A tensor with N rows and M columns is known as an NxM matrix and has a rank of two, indicating that the array of numbers extends in two directions (see figure 2). 
+
+Figure 2: Examples of matrices. (a) a 2x2 matrix, (b) a 3x2 matrix, (c) an NxN matrix.
+
+The process of extending the number of directions in which the array extends can theoretically continue indefinitely, creating tensors of rank three, four, five etc. In the following sections, we will look at vectors, matrices and tensors of rank three (see figure 3) as they are critical to understanding the Matrix Model. Other models, such as the STAR model of analogical reasoning (Halford, Wiles, Humphreys and Wilson 1992), employ tensors of higher rank.
+
+Figure 3: A rank three tensor (NxNxN).
+
+Vectors - Rank One Tensors
+
+Tensors, and in particular vectors, can be represented in many different forms including:
+
+1.  Cartesian form in which the components are enumerated explicitly. Figure 1 depicts vectors represented in Cartesian form. 
+2.  Geometric form in which the vector is plotted in N dimensional space. For instance, figure 4 shows the vector representing Jeff plotted in three dimensional space. 
+
+Figure 4: The vector representing Jeff plotted in three dimensional space (Geometric form).
+
+3.  Algebraic form in which a vector is represented as a bolded lower case letter (e.g. v). Algebraic form is a particularly concise form of representation, which makes it easy to talk about the operations that can be performed on vectors such as addition (e.g. w = v + t). 
+4.  Neural network form which diagrams a neural network architecture in which either a set of units or a set of weights contain the elements of the vector. For instance, a vector can be mapped to a two layer network (one input and one output layer) as depicted in Figure 5. The number of units in the input layer corresponds to the number of dimensions in the original vector, while the output layer contains only 1 unit. Each input unit is connected to each output unit. The input units represent one vector and the weights represent a second vector. 
+
+Figure 5: The network corresponding to a vector memory.
+
+The output of this network is defined to be the dot product (or inner product) of the input and weight vectors. A Dot Product is calculated by multiplying together the values which are in the same position within the two vectors, and then adding the results of these multiplications together to get a scalar (see Figure 6a). In the case of the neural network, this involves multiplying each input unit activation by the corresponding weight value and then adding. The dot product of two vectors represents the level of similarity between them and can be extended to higher rank tensors (see figure 6b)
+
+Figure 6: The Dot Product.
+
+The dot product is expressed algebraically as a dot, that is, the dot product of the vectors v and w is written v.w.
+
+Learning occurs in this network by adding the input vectors. Vector addition superimposes vectors of the same dimension. It is calculated by adding together the elements in a particular position in each vector (see Figure 7a). In this way, multiple memories can be stored within the same vector. [Note: the network actually employs Hebbian learning (see Neural Networks by Example: Chapter three). However, when the output unit is fixed at one Hebbian learning is identical to vector addition.] 
+
+Figure 7: (a) Vector Addition, (b) Matrix Addition.
+
+Again vector addition can be extended to tensors of arbitrary rank (see figure 7b). Vector addition is expressed algebraically as a plus sign (+). So if we wanted to talk about the dot product of v with the addition of w and x we would write v.(w + x). Another useful property to keep in mind is that the dot product distributes over addition. That is:
+
+v.(w + x) = v.w + v.x
+
+In the following exercises, you will build a vector network that learns to discriminate between stored items and new items (see figure 8). 
+
+Figure 8: A vector memory network.
+
+Follow the instructions below to create the network and then work through the exercises.
+
+1.  Load BrainWave 
+2.  Select 'New Hebbian Network' 
+3.  Set up the vector memory network: 
+
+4.  Create two input units and one output unit. 
+5.  Connect both input units to the output unit. 
+6.  Set up VALUE objects for the units and weights. 
+
+7.  Create the data sets: 
+
+8.  Create an Input Set containing the two input units 
+9.  Create a Test Set containing the two input units 
+10. Create an Output Set containing the output unit 
+11. The items in this exercise are FROG [0.95, 0.32], TOAD [0.49, 0.87], KOALA [0.32, -0.95]. Add the FROG pattern to the input set. 
+12. Add a pattern containing a 1 to the output set. 
+13. Add all three items, FROG, TOAD and KOALA, to the test set. 
+
+Exercise 1: Train the network for one epoch and record the weights in the TRAIN FROG row of the following table. How have the weights changed? 
+
+Weight 1Weight 2 
+TRAIN FROG   
+TRAIN FROG & KOALA&nbsp;  
+TRAIN FROG & TOAD&nbsp;  
+
+Exercise 2: Test each of the items, FROG, TOAD and KOALA, and record the match values (the activation of the output unit) in the second table. Explain the match values.
+
+TEST FROGTEST TOADTEST KOALA 
+TRAIN FROG    
+TRAIN FROG & KOALA&nbsp;   
+TRAIN FROG & TOAD&nbsp;   
+
+Exercise 3: Train the network for one more epoch and test again. What happens to the match values after a second training trial? Why? 
+
+Exercise 4: Add KOALA to the input set and an output value of 1 to the output set. Zero the weights (using the ACTIONS menu) and retrain the network on the updated input set. Test the network as before, recording the values in the table in the TRAIN FROG & KOALA row.
+
+Exercise 5: Delete KOALA from the input set and add TOAD. Zero the weights, retrain and test as above, recording the values in the TRAIN FROG & TOAD row. You should have six weight values and nine match values for each training trial. Create a graph of the match values after the first training trial: plot three lines, one for each test item, against the three training conditions. Explain the shape of each line on the graph. 
+
+Exercise 6: For each of the three training conditions (FROG alone, FROG & KOALA, FROG & TOAD): 
+
+14. Draw the geometric (graphical) representation of the weights, 
+15. Provide the algebraic representation of the weights. 
+
+Matrices - Rank Two Tensors
+
+The vector memory, discussed above, was capable of storing items so that at a later time it could be determined if they had appeared. A matrix memory allows two items to be associated - so that given one we can retrieve the other. Algebraically, a matrix is usually represented as a bolded upper case letter (e.g. M).
+
+Associations are formed using the outer product operation. A outer product between two vectors is calculated by multiplying each element in one vector by each element in the other vector (see Figure 8). If the first vector has dimension d1 and the second vector dimension d2, the outer product matrix has dimension d1xd2. For instance, a three dimensional vector multiplied by a two dimensional vector has dimension 3x2.
+
+Figure 8: The outer product.
+
+The outer product operation is expressed algebraically by placing the vectors to be multiplied next to each other. So the outer product of v and w is written as v w.
+
+These association matrices are then added into the memory matrix (as in the vector memory case) - so that all associations are stored as a single composite. A matrix memory maps to a two layer network (one input and one output layer) as depicted in Figure 9. The number of input units corresponds to the number of rows in the original matrix, while the number of output units corresponds to the number of columns. Each input unit is connected to each output unit.
+
+Figure 9: The network representation of a matrix.
+
+In the following exercise you will use a matrix memory network to store and recall pairs of items. 
+
+Exercise 7: Load the simulator, BrainWave. From the NETWORKS menu - select Matrix Model (1). What rank tensor does this network implement? What are its dimensions?
+
+Exercise 8: The items in this exercise are: 
+Cues: 
+FROG [0.5, -0.5, 0.5, -0.5] 
+KOALA [0.5, 0.5, -0.5, -0.5] 
+SNAIL [-0.5, 0.5, 0.5, -0.5] 
+TOAD [0.5, 0.4, 0.6, 0.45] 
+
+Targets: 
+FLIES [0.7, 0.5, 0.5] 
+LEAVES [0.7, -0.5, -0.5] 
+LETTUCE [0, -0.7, 0.7] 
+
+The input set contains the items FROG, KOALA and SNAIL, paired with items in the output set FLIES, LEAVES and LETTUCE, respectively. Another input item, TOAD [0.5, 0.4, 0.6, 0.45], can be used to test the network on unfamiliar input. Calculate the similarity value (i.e. dot product) of the items FROG, KOALA, SNAIL and TOAD with themselves, and each other, and record the values in the table below:
+
+FROGKOALASNAILTOAD 
+FROG     
+KOALA     
+SNAIL     
+TOAD     
+
+Exercise 9: Train the network for one epoch. Test each of the items FROG, KOALA, SNAIL and TOAD. What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES and LETTUCE).
+
+FROG    
+KOALA    
+SNAIL    
+TOAD    
+
+Exercise 10: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: 
+
+M = 
+Exercise 11: Give the equations that describe each of the retrievals in exercise 9. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. 
+FROG 
+KOALA 
+SNAIL 
+TOAD 
+
+Tensors of Rank Three and Above
+
+The final sort of tensor we need to demonstrate the matrix model is the rank three tensor. The rank three tensor allows a three way association to be represented. For instance, we could store the information that John loves Mary - [Loves John Mary] - or that Apple appeared with Pencil in List 1 [List 1, Apple, Pencil].
+
+A tensor of rank three maps to a three layer network (one input layer with two sets of units, one output layer, and one layer of hidden units) as depicted in Figure 10. The number of units in the input sets and the output set correspond to the dimensionality of the tensor. The number of hidden units corresponds to the number of units in one input set times the number of units in the other input set. Each hidden unit has a connection from one input unit from each input set, with a hidden unit existing for each possible combination. These hidden units are SigmaPi units, the value of which is set to the multiplication of the two input units to which it is connected. To implement a rank three tensor, the weights in the first layer are frozen at one. Consequently, a hidden unit's activation will equal the multiplication of the activations of the input units to which it is connected. Each hidden unit is then connected to each output unit.
+
+Figure 10: The network representation of a rank three tensor.
+
+In these exercises, you will use both rank two and three tensor networks to store and recall triples of items.
+
+Exercise 12: Load the simulator, BrainWave. From the NETWORKS menu - Matrix Model (2). What rank tensor does this network implement?
+
+Exercise 13: The items in this exercise are:
+
+Cues: 
+FROG [0.5, -0.5, 0.5, -0.5] 
+KOALA [0.5, 0.5, -0.5, -0.5] 
+SNAIL [-0.5, 0.5, 0.5, -0.5] 
+TOAD [0.5, 0.4, 0.6, 0.45] 
+
+Relations: 
+EATS [0.5, -0.5, -0.5, 0.5] 
+LIVES-IN [0.5, 0.5, -0.5, -0.5] 
+Targets: 
+FLIES [0.7, 0.5, 0.5] 
+LEAVES [0.7, -0.5, -0.5] 
+LETTUCE [0, -0.7, 0.7] 
+POND [0.89, 0.43, -0.22] 
+TREE [-0.22, 0.76, 0.62] 
+SHELL [0.43, -0.5, 0.76] 
+Notice that the vectors for the cues are the same as those used above. Also notice that EATS and LIVES-IN are orthogonal to each other - that is they have a dot product of zero.
+
+Calculate the similarity (dot product) table for the targets.
+
+FLIESLEAVESLETTUCEPONDTREESHELL 
+FLIES       
+LEAVES       
+LETTUCE       
+POND       
+TREE       
+SHELL       
+
+Exercise 14: The cue+relation input set contains the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN and SNAIL-LIVES_IN, paired with items in the output set FLIES, LEAVES, LETTUCE, POND, TREE, and SHELL, respectively. Two other input items, TOAD-EATS and TOAD-LIVES_IN, can be used to test the network's response to unfamiliar input.
+
+Train the network for one epoch. Test each of the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN, SNAIL-LIVES_IN, TOAD-EATS and TOAD-LIVES_IN. What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES, LETTUCE, POND, TREE and SHELL) 
+FROG-EATS 
+
+KOALA-EATS 
+
+SNAIL-EATS 
+
+FROG-LIVES_IN 
+
+KOALA-LIVES_IN 
+
+SNAIL-LIVES_IN 
+
+TOAD-EATS 
+
+TOAD-LIVES_IN 
+
+Exercise 15: How does the performance of this network compare with the performance of the network in Exercise 8? Why is it not as good?
+
+Exercise 16: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: 
+
+M = 
+
+Exercise 17: Give the equations that describe each of the retrievals from exercise 14. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. 
+FROG-EATS 
+
+KOALA-EATS 
+
+SNAIL-EATS 
+
+FROG-LIVES_IN 
+
+KOALA-LIVES_IN 
+
+SNAIL-LIVES_IN 
+
+TOAD-EATS 
+
+TOAD-LIVES_IN 
+
+Exercise 18: From the NETWORKS menu - select Matrix Model (3). What rank tensor does this network implement?
+
+Exercise 19: The inputs and outputs for this network are the same as for the previous one, but the connections and hidden SigmaPi units perform different calculations on the inputs to try and achieve the correct outputs. Train the network for one epoch. Test each of the items FROG-EATS, KOALA-EATS, SNAIL-EATS, FROG-LIVES_IN, KOALA-LIVES_IN, SNAIL-LIVES_IN, TOAD-EATS and TOAD-LIVES_IN.
+
+What output is produced in each case? (Give the output pattern and also describe the output patterns in terms of their similarity to FLIES, LEAVES, LETTUCE, POND, TREE and SHELL).
+
+FROG-EATS 
+
+KOALA-EATS 
+
+SNAIL-EATS 
+
+FROG-LIVES_IN 
+
+KOALA-LIVES_IN 
+
+SNAIL-LIVES_IN 
+
+TOAD-EATS 
+
+TOAD-LIVES_IN 
+
+Exercise 20: Which of the two networks performs the memory task better? Why?
+
+Exercise 21: Give the algebraic equation that describes the matrix memory formed from the three pairs of associates: 
+
+M = 
+Exercise 22: Give the equations that describe each of the cued recall tests from question 19. Use the similarity measures from the table above to simplify each equation to a weighted sum of the target patterns. 
+FROG-EATS 
+
+KOALA-EATS 
+
+SNAIL-EATS 
+
+FROG-LIVES_IN 
+
+KOALA-LIVES_IN 
+
+SNAIL-LIVES_IN 
+
+TOAD-EATS 
+
+TOAD-LIVES_IN 
+
+In this section, we have been looking at the way in which tensors of rank one, two and three can be used to store information. In the next section, we will examine the Matrix Model, which uses precisely this mechanism to explain the nature of human memory.
+
+The Matrix Model
+
+The Matrix Model of Memory was developed by Humphreys, Bain and Pike (1989) and Pike (1984) to provide a coherent theoretical account of a range of different memory tasks, including episodic tasks, such as recognition and recall, and semantic tasks, such as familiarity rating and indirect production tasks. It is a distributed associative model in which items are modelled and stored as vectors of feature weights or elements, just as was the case in the previous section. Elements within each vector contribute conjointly to the representation of items. Thus memory representations are not located at specific points within a memory network, or within specific memory systems. Instead they are conceptualised as unique patterns of activation over a common set of elements. Typically, these patterns are thought to be sparse representations meaning that only a few of the elements are active.
+
+Memory Representations
+
+The memory representations in the Matrix Model include items, contexts or, combinations of items and contexts (associations).
+
+1.  Items - Items can be any sort of stimuli including words, pictures, melodies etc. For the most part, however, the experiments to which the model has been applied use words. Each item is modelled as a vector of feature weights. Feature weights are used to specify the degree to which certain features form part of an item. There are two possible levels of vector representation for items. These are:
+
+2.  modality specific peripheral representations  (e.g., graphemic or phonemic representations of words) 
+3.  modality independent central representations  (e.g., semantic representations of words). 
+
+Item vectors are distinguished by subscripts (e.g. ai). A distractor vector is indicated by a d.
+
+* Contexts - To distinguish between episodic and non-episodic tasks the Matrix Model assumes the episode or context in which items are studied is also represented by a vector of feature weights. In episodic tasks this context vector must be reinstated so that it may be used as a cue to the memory system. The context vector is represented by an x.
+
+* Associations - While individual items and contexts are represented as single vectors (a, b, x), associations between items and contexts are represented by matrices derived from the matrix product of these vectors. The resulting matrix product represents the association (or binding) between either items, or between items and context. The memory of the matrix Model is formed by adding these associations together. The model posits a number of different kinds of associations including:
+
+1.  Two-way associations between a single item (a) and a context (x, e.g. bacon x breakfast this morning) are represented as a context-to-item association (x a), where 
+
+x = n element column vector 
+a = n element row vector
+
+2.  Associations between a list of items (a1, a2,...,ak) and a context (x) are represented by multiplying each of the item vectors by the context vector and summing the resulting matrices. This sum represents the memory of the study list (E).
+
+E = x a1 + x a2 + ... + x ak 
+
+3.  Three-way associations between a list of word pairs (a1 b1, a2 b2, ... ak bk) and context (x, e.g., bacon x dog x breakfast this morning) are represented by the rank three tensor (x aj bj), where
+
+x = n element column vector
+aj = n element row vector
+bj = n element orthogonal vector
+
+The resulting associations can be summed to form the memory for the list (E).
+
+E = x aj bj
+
+Note: the type of vector (i.e., row, column, orthogonal) can also be inferred from the order of the vector symbols, where: 1st vector = column vector; 2nd vector = row vector; and 3rd vector = orthogonal.
+
+4.  Pre-existing memories (S) are added to list memories (E) because test performance can be influenced by both list memories and pre-existing memories.
+
+M = x aj bj + S 
+
+      
+
+Accessing Memory Representations
+
+Having constructed the memory matrix, we can now see how the Matrix Model goes about accessing this representation at test for a number of different tasks. All retrieval in the Matrix Model is direct. The memory matrix is presented with cues and access occurs in parallel. There is no sequential search process. Presenting the model with a cue involves taking the inner product (or dot product) of the cue vector with the memory matrix.
+
+One of the strengths of the Matrix Model is in the number of a ways in which information from the model can be accessed. In the introductory section, two dimensions on which tasks can differ were outlined. The first was the matching/retrieval dimension. Matching tasks are those based on a continuous form of information that typically require either a yes/no answer or a rating response (e.g. recognition). Retrieval tasks, by contrast, require a specific item to be returned (e.g. cued recall). This distinction is captured in the Matrix Model by the nature of the tensor that results once all cues have been applied. If the resultant tensor is a scalar we are dealing with a matching process. This scalar can be compared against criteria to determine a yes/no or rating value. If the resultant tensor is a vector then we have a retrieval process. The vector can be compared against all item vectors with the item being the output of the process. The next sections, goes through the mathematics of recognition and cued recall with a list associate demonstrating how matching and retrieval tasks are accomplished within the model.
+
+The second task dimension discussed in the introduction focussed on the the episodic/semantic dimension. Episodic tasks refer to a specific context, whereas in semantic (generalized) tasks information is integrated over a large number of experiences. The Matrix Model captures this distinction. In episodic tasks, a reinstated context vector is used as a cue. In semantic (generalized) tasks, a vector which is equally similar to all contexts is used so as to average over all experiences with the cue items (typically, this is a vector with all components set to 1/n where n is the dimension of the vector). The section entitled "Episodic versus Semantic Memory: Cuing with the Context Vector" describes an experiment designed to demonstrated the importance of the distinction and leads you through the process of modelling this experiment using the BrainWave simulator.
+
+Matching Versus Retrieval Tasks: Scalar or Vector Output
+
+In this section, a matching task, namely recognition, and a retrieval task, namely cued recall with a list associate, are compared within the Matrix Model framework.
+
+Recognition
+
+Recognition involves a matching process, where the overall similarity between the test cues (x and ai) and memory (M) is calculated. Because this is an episodic task, the test cues involve both word cues and a context cue. This episodic matching process is accomplished by combining the test cues into an associative matrix (x ai) and determining a dot product between: 
+
+1.  the cue matrix (x ai), and 
+
+2.  the memory matrix (M = x aj + S). 
+
+[Note: Because the dot product operation is associative, the results are identical regardless of whether you form a combined x ai matrix and then take a dot product or take the dot product of each of the cues with the memory matrix progressively.]
+
+Studied Test Word (ai) 
+
+xai . M = xai . ( xaj + S) 
+ = x ai . x aj + x ai . S 
+ = (x . x) (ai . aj) + x ai . S 
+ = (x . x) (ai . ai ) + (x . x) (ai . aj) + xai . S 
+
+Inserting the expected matching value:
+
+E[x ai . M] = c s + (k - 1) c m + g
+
+where 
+
+c = similarity between the study and test context (assumed to large)
+s = similarity between the same word encoded at study and test (assumed to be large) 
+m = similarity between different words at study and test (assumed to be small) 
+g = contribution of pre-existing memories
+
+Non studied Test Word (d) 
+
+x d . M = x d . ( xaj+ S)
+= xd . xaj + xd . S 
+= (x . x) (d . aj) + xd . S 
+
+where 
+
+E[x d . M] = c m k + g
+
+Note that the matching operations in the above equations can be collapsed down into several components, including :
+
+1.  a match between the test cue and the pre-experimental memories (i.e., x ai . S or x d . S), and 
+
+2.  a match between the test cue and the experimental memories 
+(i.e., x ai . x aj or x d . x aj ) 
+
+The match between the test cue and the experimental memories can further be collapsed down into :
+
+1.  a match between the context on study and test occasions   (x . x = c), and 
+
+2.  a match between the study and test items   (ai . ai = s and ai . aj = m) or (d . aj = m) 
+
+Thus the final dot product derived from these equations, represents the match of the contexts on the study and test occasions (c), weighted by the match of the items on the study and test occasions (s and m). Consequently, memories that are conjointly defined by context and test cues will be weighted more heavily than items not studied in that context. This mechanism enables the model to avoid interference (large weights) from other items studied in the same context and also from previous contexts in which items have appeared.
+
+Cued Recall with a List Associate
+
+Cued recall with a list associate involves a subject studying a list of pairs. At test they are given an item and are required to produce the word with which it was paired at study. This is an important task because it can be used to demonstrate that three way association are necessary to model human memory. Simple associations two-way associations between items are insufficient (Humphreys, Bain & Pike 1989).
+
+For this reason, cued recall with a list associate is modelled using rank three tensors that associate word pairs (a1 b1, a2 b2,... ak bk) and context (x). The tensor is formed by taking the outer product of the context vector x and the two item vectors, aj and bj.
+
+M = x aj bj + S 
+
+Subjects are then asked to recall list targets (bi) at test, using list associates (ai) and context (x) as cues. The retrieval cues (x and aj) are combined to form an associative matrix cue (x ai). Retrieval then involves the pre-multiplication of the rank three tensor (M) by the retrieval cue (x ai).
+
+x ai . M = x ai . x aj bj + S 
+= [(x ai)(x aj)] bj + x ai . S
+= [(x . x) (ai . aj)] bj + x ai . S
+= (x . x) (ai . ai) bi + (x . x) (ai . aj) bj + x ai . S
+
+Inserting the expected values: 
+
+E[x ai . M] = c s bi + c m bj + x ai . S
+
+The end product (matrix product) of this process will comprise a target vector of feature weights. This featural information can be used to produce a word or item response.
+
+The target vector is weighted by: 
+
+1.  the similarity of the context on the study and test occasions  ( x . x = c), and 
+
+2.  the similarity of the list cue on the study and test occasions  (ai . ai = s) and (ai . aj = m) 
+
+Note that the weights for the same associate (s) will be greater than the weights for different associates (m) making the resulting vector look more like the correct associate (on average) than any other item. Noise will also be generated by the pre-existing memories. The assumption is that, in general, the similarity of the pre-existing contexts and the current context will be small leading to low levels of interference. Of course, if a recent context also included the cue word then much more interference will be generated because the context vectors will be more similar. 
+
+In the last two sections we have seen how, in a mathematical sense, the Matrix Model distinguishes between matching and retrieval tasks. In the next section, we will examine the episodic/semantic distinction by using the Matrix Model to simulate data generated by Bain & Humphreys (1989). 
+
+Episodic versus Semantic Memory: Cuing with the Context Vector
+
+Bain & Humphreys (1989, pg. 229) report an experiment which clearly demonstrates the difference between episodic and semantic matching tasks by reinstating the context during some, but not all, of the test conditions. Subjects were given a set of words and asked to produce a synonym for each. One week later the same subjects were given a passage containing unhighlighted target words, and asked to read the text and then answer questions on it. Half of the target words were common to both training stages. In addition to the test items already mentioned (synonym, passage, or both), words which appeared in neither training stage were also included as test items. Each set of test items contained equal numbers of high and low frequency words.
+
+The subjects were grouped into three test conditions. Group A was asked to give a general familiarity rating for the words (a generalized matching condition). Group B was asked to recognise which words had been in the synonym generation task (an episodic matching condition). Group C was asked to recognise which words had been in the passage reading task (also an episodic matching condition). The mean recognition and familiarity ratings are displayed in Figure 11.
+
+Figure 11: Mean ratings for three tasks as a function of presentation list(s) and word frequency. (a) Familiarity Rating Task (b) Recognition of Synonym Task words and (c) Recognition of Passage Task words. Note that in generalized familiarity task ratings depended only on the frequency of the word. For the episodic tasks, however, the lists in which the subjects were exposed to the word are critical.
+
+As Figure 11 shows, subjects performing the episodic matching tasks were affected by the training context indicated in the task instructions, while subjects performing the general matching task were not influenced by the prior training conditions. Furthermore, the subjects did not have trouble reinstating the synonym context as opposed to the passage context, and vice versa.
+
+These results suggest that subjects are able to distinguish episodic and semantic (or generalized) memory tasks quite well. One explanation is that the episodic and semantic memory systems are located in two different compartments in the brain. In the generalized familiarity task, subjects access the semantic store, in the episodic recognition task subjects access the episodic store. This may well be the case, however, Humphreys, Bain and Pike (1989) showed using the Matrix model that it need not be. The episodic/semantic distinction can be captured in a single coherent memory system by assuming differences in the types of cues supplied.
+
+In the following exercises, the Matrix Model will be used to demonstrate how the difference between generalized familiarity and episodic recognition can be captured. To simplify the modelling process we assume a design similar to that employed by Bain and Humphreys (1989), but in which only one study list is presented. What we are looking for is a difference in the pattern of results for target and distractor words when asking for generalized familiarity versus episodic recognition. The key distinction, from the model's point of view, is in the nature of the context cue. In episodic recognition it will be assumed that the context cue is the same as that at study. In contrast, when modelling generalized familiarity the context cue will be a a vector in which all components are 0.1. This context vector will be similar to all of the pre-experimental contexts and the study context to approximately the same degree and will therefore produce an output which is approximately the mean of all exposures - not just the study list exposures.
+
+Exercise 23: Load the simulator, BrainWave. From the NETWORKS menu - select Familiarity vs Recognition. This network contains three sets of units - the input units, which will contain the context vectors, the output units, which will contain the items to which a context is associated and the match units, which contain the item to be tested. Weights are connected between the input units and the output units. What rank tensor does this network implement?
+
+Above the units is a global value called "Dot Product". This global value indicates the dot product of the output units and the match units and is updated when you click on cycle. It is this value which will indicate the strength of a match in both the episodic recognition and generalized familiarity conditions.
+
+In addition, there are three collections of pattern sets. The pre-experimental sets contain the input/output pairs representing the subjects experience before entering the experiment. Each context is different indicating that subjects pre-experimental experience with words arises from many different contexts. Each context vector has just three units active and these units are active to different degrees. The same is true for the output patterns which represent the words. However, some of the word patterns are repeated representing the difference between high and low frequency words. The high frequency words are repeated three times while the low frequency words appear just once. Note that real words occur much more often. We have decreased the numbers here to facilitate modelling. It is important to consider, however, what effect increasing the numbers of presentations would have. A later exercise will be directed towards this question. In the pre-experimental output set (as well as the match and experimental output sets), the words are followed by a tag such as hft or lfd. The hf or lf stands for high frequency and low frequency respectively, and the t or d stands for target or distractor. This tag just allows you to easily remember the type of each word without having to cycle through the relevant pattern sets.
+
+Exercise 24: Click through the pre-experimental output set. How many presentations are there? How many unique words are there?
+
+The experimental set represents a subject's experience during the study list. At study, words are all presented the same number of times and in the experimental output set each word appears just once. In all cases the study context is the same. Note that only target words appear in the experimental list.
+
+Exercise 25: Click through the experimental output set. How many words are there?
+
+The final collection of pattern sets are those that will be used for testing the network. The input set contains the Study Context pattern and the Generalized Context pattern. When testing episodic recognition the Study Context pattern should be selected, when testing generalized familiarity the Generalized Context pattern should be selected. The output set contains no patterns because these sets will only be used for cycling, not for learning. The match set contains a copy of each of the words - both the targets and the distractors.
+
+Exercise 26: Click through the match set. How many words are there?
+
+Now we are ready to train and test the system. Train the network for one epoch with the Pre-experimental input and output sets and then for one epoch with the Experimental input and output sets (If you are learning for a second time remember to reset the weights - Actions Menu - so that current learning doesn't accumulate with the prior learning).
+
+To test whether the network is familiar with a word in the study context, or is familiar with a word generally (it can be both): select the test output set; select the word from the match set; select either the Study Context or the General Context from the test input set and cycle once.
+
+Exercise 27: Simulate the generalized familiarity task and fill in the the dot product values in Table 1 below.
+
+Table 1: Generalized Familiarity Task: Dot Product Values
+
+High Frequency TargetLow Frequency TargetHigh Frequency DistractorLow Frequency Distractor 
+child avery horse crept  
+phone elope space flank  
+woman adage eight broth  
+light dally sound envoy  
+visit graft april aural  
+green banjo leave debit  
+river fidel table guise  
+MEANS     
+
+Exercise 28: Simulate the episodic recognition task and fill in the the dot product values in Table 2 below.
+
+Table 2: Episodic Recognition Task: Dot Product Values
+
+High Frequency TargetLow Frequency TargetHigh Frequency DistractorLow Frequency Distractor 
+child avery horse crept  
+phone elope space flank  
+woman adage eight broth  
+light dally sound envoy  
+visit graft april aural  
+green banjo leave debit  
+river fidel table guise  
+MEANS     
+
+Exercise 29: Produce graphs similar to those in figure 11 for the mean values of the dot products. That is, plot the mean dot product values for targets and distractors for both low and high frequency words in the generalized familiarity condition on one graph, and the mean dot product values for targets and distractors for both low and high frequency words in the episodic recognition condition on another graph. Are the generalized familiarity graphs flatter than the episodic recognition graphs? Why?
+
+Exercise 30: In the generalized familiarity graph the model's results tend not to be as flat as the subject's data. Why might this be the case, and does it represent a refutation of the model? (Hint: consider the nature of pre-experimental experience).
+
+Objective Checklist
+
+In this chapter, we have been looking at the Matrix Model of long term memory. The following is a check list of skills and knowledge which you should obtain while working on this chapter. Go through the list and tick off those things you are confident you can do. For any item outstanding, you should refer back to the appropriate section or consult your tutor.
+
+* understand the distributed representation of items and associations 
+
+* calculate the vector memory values when two patterns are superimposed, in terms of: 
+
+* network weights, 
+
+* Cartesian co-ordinates, 
+
+* vector addition. 
+
+* explain the difference between matching and retrieval tasks and model this difference in the Matrix Model 
+* explain the difference between episodic and semantic tasks and model this difference in the Matrix Model 
+
+References
+
+Bain, J.D., & Humphreys, M.S. (1989). Instructional reinstatement of context: The forgotten prerequisite. In K. McConkey and A. Bennett (Eds.), Proceedings of the XXIV International Congress of Psychology, Vol. 3. Elsevier, North-Holland.
+
+Halford, G. S., Wiles, J., Humphreys, M. S., & Wilson, W. H. (1992). Parallel distributed processing approaches to creative reasoning: Tensor models of memory and analogy. unpublished manuscript. 
+
+Humphreys, M.S., Bain, J.D., & Burt, J.S. (1989). Episodically unique and generalized memories: Applications to human and animal amnesics. In S. Lewandowsky, J.C. Dunn & K. Kirsner (Eds.) Implicit Memory: Theoretical Issues. (pp. 139-158). Erlbaum Associates: Hillsdale, N.J.
+
+Humphreys, M.S., Bain, J.D., & Pike, R. (1989). Different ways to cue a coherent memory system: A theory for episodic, semantic and procedural tasks. Psychological Review, 96, 208-233.
+
+Pike, R. (1984). A comparison of convolution and matrix distributed memory systems. Psychological Review, 91, 281-294.
+
+Wiles, J., & Humphreys, M.S. (1993). Using artificial neural networks to model implicit and explicit memory. In P.Graf & M. Masson (Eds.) Implicit Memory: New Directions in Cognition, Development, and Neuropsychology. (pp. 141-166). Erlbaum: Hillsdale, New Jersey.
+
+

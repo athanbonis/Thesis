@@ -1,0 +1,34 @@
+
+Next: gradient wrt transition probabilities Up: Maximum Likelihood (ML) criterion Previous: Baum-Welch Algorithm 
+
+Gradient based method
+
+In the gradient based method, any parameter of the HMM is updated according to the standard formula, 
+
+  
+
+where J is a quantity to be minimized. We define in this case, 
+
+  
+
+Since the minimization of is equivalent to the maximization of , eqn.1.19 yields the required optimization criterion, ML. But the problem is to find the derivative for any parameter of the model. This can be easily done by relating J to model parameters via . As a key step to do so, using the eqns.1.7 and 1.9 we can obtain, 
+
+  
+
+Differentiating the last equality in eqn. 1.20 wrt an arbitrary parameter , 
+
+  
+
+Eqn.1.22 gives , if we know which can be found using eqn.1.21. However this derivative is specific to the actual parameter concerned. Since there are two main parameter sets in the HMM, namely transition probabilities and observation probabilities , we can find the derivative for each of the parameter sets and hence the gradient, . 
+
+---------------------------------------------------------------------
+
+* gradient wrt transition probabilities 
+* gradient wrt observation probabilities 
+
+---------------------------------------------------------------------
+
+Narada Warakagoda 
+Fri May 10 20:35:10 MET DST 1996 
+---------------------------------------------------------------------
+Home Page 

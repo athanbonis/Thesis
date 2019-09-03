@@ -1,0 +1,74 @@
+Ruby License Links [dmoz.org] HotLinks Download Documents Archive Ruby Bug Tracking System ML Topics --> Mailing List Ruby in Magazines Testimonials Column --> Who's Who Japanese Page Written by webmaster@ruby-lang.org   --> 
+
+Download Ruby
+
+---------------------------------------------------------------------
+
+How to get Ruby.
+
+* The stable version ruby-1.6.8. 
+* The CVS branch for the development version is available. See Ruby CVS Repository Guide. 
+
+Downloadable Items
+
+* Ruby version 1.8.0-preview1 source (development release) and an errata patch 
+
+* Ruby version 1.6.8 source (stable release) 
+
+* Ruby 1.4.6 Reference Manual 
+* You can get Ruby-mswin32. 
+
+* Reference Manual for 1.6.8 is not yet available. Buy your copy of "Programming Ruby", or get online free version. 
+
+* Stable snapshot is available. This is tar'ed and gzip'ed file of the latest stable CVS. It should be better than the last stable release. 
+
+* Nightly snapshot is available. This is tar'ed and gzip'ed file of the latest CVS. It may contain unfixed problems. (as usual ;-) 
+
+* Install Ruby under Windows ... A single download that contains everything you need to run Ruby under various Windows operating systems. 
+
+* Windows: Ruby for Windows users - Includes easy starter kit for Microsoft Windows users. 
+
+* Ruby on Windows 
+
+---------------------------------------------------------------------
+
+FTP Mirrors
+
+* Japan 1 and the mirror sites (RingServer) 
+* Japan 2 (IIJ) 
+* Japan 3 (idaemons.org) 
+* Japan 4 (master) - slow 
+* Korea (Korea FreeBSD Users Group) 
+* Germany (FU Berlin) 
+* Belgium (Easynet) 
+* Russia (ChgNet) 
+* UK (mirror.ac.uk) 
+* Greece (National Technical University of Athens) 
+* Denmark (sunsite.dk) 
+* United States 1 (lcs.mit.edu) 
+* United States 2 (ibiblio.org) 
+
+HTTP Mirrors
+
+* Japan and the mirror sites (RingServer) 
+* Belgium (Easynet) 
+* Denmark (sunsite.dk) 
+* The Netherlands (XS4ALL) - releases only 
+* United States 1 (lcs.mit.edu) 
+* United States 2 (ibiblio.org) 
+* UK (mirror.ac.uk) 
+
+Rsync Mirrors
+
+* Denmark: rsync://sunsite.dk/ftp/mirrors/ruby/ 
+* Japan: rsync://rsync.idaemons.org/ftp/mirror/ftp.ruby-lang.org/ruby/ 
+
+---------------------------------------------------------------------
+Site Map  
+What's Ruby?  What's New?  FAQ  Ruby License  
+Links [dmoz.org]  HotLinks  Download  Documents  Archive  
+Ruby Bug Tracking System  
+Mailing List  Ruby in Magazines  Testimonials  Who's Who  
+Japanese Page  Written by webmaster@ruby-lang.org
+
+

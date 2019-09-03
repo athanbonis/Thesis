@@ -1,0 +1,130 @@
+EMP - Enzymes and Metabolic Pathways WIT - Metabolic Reconstruction UM-BBD - Microbial Biocatalysis/Biodegradatation EcoCyc - E. coli Genes and Metabolism SoyBase - Soybean Metabolism Metalgen - Genes and Metabolism Boehringer Mannheim - Biochemical Pathways IUBMB-Nicholson Minimaps Enzymes, Compounds and Reactions LIGAND - Biochemical Compounds and Reactions ENZYME - Enzymes BRENDA - Comprehensive Enzyme Information System Worthington Enzyme Manual Klotho - Biochemical Compounds ChemFinder - Searching Chemicals ChemIDplus at NLM PROMISE - Prosthetic Groups and Metal Ions GlycoSuiteDB - Glycan Structure Database CarbBank - Complex Carbohydrate Structure Database LIPIDBANK for Web - Lipids WebElements - Periodic Table Regulatory Pathways KEGG Regulatory Pathways SPAD - Signal Transduction CSNDB - Cell Signaling Networks Yeast Pathways in MIPS Interactive Fly - Drosophila Genes GIF_DB - Drosophila Gene Interactions FlyNets - Drosophila Molecular Interactions ---> GeNet - Gene Networks Database HOX-Pro - Homeobox Genes Database Drosophila Genes in Development ---> Wnt Signaling Pathway TRANSPATH - Gene Regulatory Pathways Protein-Protein Interactions BRITE Database for Biomolecular Relations DIP - Database of Interacting Proteins BIND - Biomolecular Interaction Network Database Transcription Factors TRANSFAC - Transcription Factor Database RegulonDB - E. coli Transcriptional Regulation DBTBS - B. subtilis Transcription Factors SCPD - S. cerevisiae Promoter Database DPInteract - DNA binding proteins Gene Expression Pattern Axeldb - Xenopus laevis NEXTDB - Caenorhabditis elegans MAGEST - Halocynthia roretzi Nomenclature - General IUBMB Nomenclature IUPAC Nomenclature IUPHAR Receptor Nomenclature SWISS-PROT Documents Gene Ontology Nomenclature - Organism-specific Human (HUGO) Mouse (MGD) Rat (RATMAP) D. melanogaster (FlyBase) C. elegans Arabidopsis (TAIR) Plants (Mendel) S. cerevisiae (SGD) Nomenclature and Classification - Protein-specific [EC:1.1.1.-] Alcohol dehydrogenase [EC:2.7.1.-] Protein kinases (PKC) [EC:3.1.4.-] Phosphodiesterases [EC:3.2.1.-] Glycosyl hydrolases (CAZy) / (ExPASy) [EC:3.4.-.-] Peptidases (MEROPS) / (ExPASy) [EC:6.1.1.-] Aminoacyl-tRNA synthetases (AARSDB) Cytochrome P450 Metallothionein / (ExPASy) CD Molecules (PROW) / (ExPASy) Immunoglobulins and T-cell receptors (IMGT) Cytokines (dbCFC) Transport proteins Ion channels (ICN) G protein coupled receptors (GPCRDB) G protein coupled receptors (GCRDb) Olfactory receptors (ORDB) Eph and Eph receptors Nuclear receptors Nuclear receptors (NRR) Mitochondrial proteins Ribosomal proteins (ExPASy) Homeobox proteins / (ExPASy) Taxonomy NCBI Taxonomy Tree of Life UCMP Phylogeny Exhibit Ribosomal Database Project II Species 2000 Merck Manual ---> Complete Genomes and Analysis NCBI Complete Microbial Genomes TIGR Comprehensive Microbial Resource GIB - Genome Information Broker PIR Complete Genomes PEDANT MAGPIE ---> GOLD MBGD - Comparative Microbial Genome Database COG - Clusters of Orthologous Groups Last updated: April 14, 2003 [ KEGG | GenomeNet ]   --> 
+
+Links to Pathway and Other Databases
+
+---------------------------------------------------------------------
+
+Metabolic Pathways
+
+* KEGG Metabolic Pathways 
+* EMP - Enzymes and Metabolic Pathways 
+* WIT - Metabolic Reconstruction 
+* UM-BBD - Microbial Biocatalysis/Biodegradatation 
+* EcoCyc - E. coli Genes and Metabolism 
+* SoyBase - Soybean Metabolism 
+* Metalgen - Genes and Metabolism 
+* Boehringer Mannheim - Biochemical Pathways 
+* IUBMB-Nicholson Minimaps 
+
+Enzymes, Compounds and Reactions
+
+* LIGAND - Biochemical Compounds and Reactions 
+* ENZYME - Enzymes 
+* BRENDA - Comprehensive Enzyme Information System 
+* Worthington Enzyme Manual 
+* Klotho - Biochemical Compounds 
+* ChemFinder - Searching Chemicals 
+* ChemIDplus at NLM 
+* PROMISE - Prosthetic Groups and Metal Ions 
+* GlycoSuiteDB - Glycan Structure Database 
+* CarbBank - Complex Carbohydrate Structure Database 
+* LIPIDBANK for Web - Lipids 
+* WebElements - Periodic Table 
+
+Regulatory Pathways
+
+* KEGG Regulatory Pathways 
+* SPAD - Signal Transduction 
+* CSNDB - Cell Signaling Networks 
+* Yeast Pathways in MIPS 
+* Interactive Fly - Drosophila Genes 
+* GeNet - Gene Networks Database 
+* HOX-Pro - Homeobox Genes Database 
+* Wnt Signaling Pathway 
+* TRANSPATH - Gene Regulatory Pathways 
+
+Protein-Protein Interactions
+
+* BRITE Database for Biomolecular Relations 
+* DIP - Database of Interacting Proteins 
+* BIND - Biomolecular Interaction Network Database 
+
+Transcription Factors
+
+* TRANSFAC - Transcription Factor Database 
+* RegulonDB - E. coli Transcriptional Regulation 
+* DBTBS - B. subtilis Transcription Factors 
+* SCPD - S. cerevisiae Promoter Database 
+* DPInteract - DNA binding proteins 
+
+Gene Expression Pattern
+
+* Axeldb - Xenopus laevis 
+* NEXTDB - Caenorhabditis elegans 
+* MAGEST - Halocynthia roretzi 
+
+Nomenclature - General
+
+* IUBMB Nomenclature 
+* IUPAC Nomenclature 
+* IUPHAR Receptor Nomenclature 
+* SWISS-PROT Documents 
+* Gene Ontology 
+
+Nomenclature - Organism-specific
+
+* Human (HUGO) 
+* Mouse (MGD) 
+* Rat (RATMAP) 
+* D. melanogaster (FlyBase) 
+* C. elegans 
+* Arabidopsis (TAIR) 
+* Plants (Mendel) 
+* S. cerevisiae (SGD) 
+
+Nomenclature and Classification - Protein-specific
+
+* [EC:1.1.1.-] Alcohol dehydrogenase 
+* [EC:2.7.1.-] Protein kinases (PKC) 
+* [EC:3.1.4.-] Phosphodiesterases 
+* [EC:3.2.1.-] Glycosyl hydrolases (CAZy) / (ExPASy) 
+* [EC:3.4.-.-] Peptidases (MEROPS) / (ExPASy) 
+* [EC:6.1.1.-] Aminoacyl-tRNA synthetases (AARSDB) 
+* Cytochrome P450 
+* Metallothionein / (ExPASy) 
+* CD Molecules (PROW) / (ExPASy) 
+* Immunoglobulins and T-cell receptors (IMGT) 
+* Cytokines (dbCFC) 
+* Transport proteins 
+* Ion channels (ICN) 
+* G protein coupled receptors (GPCRDB) 
+* G protein coupled receptors (GCRDb) 
+* Olfactory receptors (ORDB) 
+* Eph and Eph receptors 
+* Nuclear receptors 
+* Nuclear receptors (NRR) 
+* Mitochondrial proteins 
+* Ribosomal proteins (ExPASy) 
+* Homeobox proteins / (ExPASy) 
+
+Taxonomy
+
+* NCBI Taxonomy 
+* Tree of Life 
+* UCMP Phylogeny Exhibit 
+* Ribosomal Database Project II 
+
+Complete Genomes and Analysis
+
+* NCBI Complete Microbial Genomes 
+* TIGR Comprehensive Microbial Resource 
+* GIB - Genome Information Broker 
+* PIR Complete Genomes 
+* PEDANT 
+* GOLD 
+* MBGD - Comparative Microbial Genome Database 
+* COG - Clusters of Orthologous Groups 
+
+Last updated: April 14, 2003 
+---------------------------------------------------------------------
+[ KEGG | GenomeNet ] 

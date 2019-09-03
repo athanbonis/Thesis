@@ -1,0 +1,48 @@
+The Java Language Environment Java is Object Oriented --> CHAPTER 3 My Object All Sublime I Will Achieve in Time Gilbert and Sullivan-- The Mikado To stay abreast of modern software development practices, Java is object oriented from the ground up . The point of designing an object-oriented language is not simply to jump on the latest programming fad. The object-oriented paradigm meshes well with the needs of client-server and distributed software. Benefits of object technology are rapidly becoming realized as more organizations move their applications to the distributed client-server model. Unfortunately, "object oriented" remains misunderstood, over-marketed as the silver bullet that will solve all our software ills, or takes on the trappings of a religion. The cynic's view of object-oriented programming is that it's just a new way to organize your source code. While there may be some merit to this view, it doesn't tell the whole story, because you can achieve results with object-oriented programming techniques that you can't with procedural techniques. An important characteristic that distinguishes objects from ordinary procedures or functions is that an object can have a lifetime greater than that of the object that created it. This aspect of objects is subtle and mostly overlooked. In the distributed client-server world, you now have the potential for objects to be created in one place, passed around networks, and stored elsewhere, possibly in databases, to be retrieved for future work. As an object-oriented language, Java draws on the best concepts and features of previous object-oriented languages, primarily Eiffel, SmallTalk, Objective C, and C++. Java goes beyond C++ in both extending the object model and removing the major complexities of C++. With the exception of its primitive data types, everything in Java is an object, and even the primitive types can be encapsulated within objects if the need arises. CONTENTS | PREV | NEXT INDEX --> Please send any comments or corrections to jdk-comments@java.sun.com Copyright &#169 1997 Sun Microsystems, Inc. All Rights Reserved. Company Info | About SDN | Press | Contact Us | Employment How to Buy | Licensing | Terms of Use | Privacy | Trademarks Copyright 1994-2004 Sun Microsystems, Inc. A Sun Developer Network Site Unless otherwise licensed, code in all technical manuals herein (including articles, FAQs, samples) is provided under this License . Content Feeds   --> 
+
+developers.sun.com	  	 » search tips  |  Search: 	 	 	 
+in Developers' Site
+ 
+in Sun.com
+ 
+
+ 	 		
+
+  
+Developers Home > Products & Technologies > Java Technology > Reference > White Papers > The Java Language Environment > 	Profile and Registration | Why Register? 	
+
+  White Paper The Java Language Environment 
+
+ 	 
+
+Printable Page	 
+
+CONTENTS | PREV | NEXT 	The Java Language Environment	 
+
+Java is Object Oriented 
+
+--> 
+
+CHAPTER 3 	
+
+My Object All Sublime
+I Will Achieve in Time
+
+Gilbert and Sullivan--The Mikado
+
+To stay abreast of modern software development practices, Java is object oriented from the ground up. The point of designing an object-oriented language is not simply to jump on the latest programming fad. The object-oriented paradigm meshes well with the needs of client-server and distributed software. Benefits of object technology are rapidly becoming realized as more organizations move their applications to the distributed client-server model.
+
+Unfortunately, "object oriented" remains misunderstood, over-marketed as the silver bullet that will solve all our software ills, or takes on the trappings of a religion. The cynic's view of object-oriented programming is that it's just a new way to organize your source code. While there may be some merit to this view, it doesn't tell the whole story, because you can achieve results with object-oriented programming techniques that you can't with procedural techniques.
+
+An important characteristic that distinguishes objects from ordinary procedures or functions is that an object can have a lifetime greater than that of the object that created it. This aspect of objects is subtle and mostly overlooked. In the distributed client-server world, you now have the potential for objects to be created in one place, passed around networks, and stored elsewhere, possibly in databases, to be retrieved for future work.
+
+As an object-oriented language, Java draws on the best concepts and features of previous object-oriented languages, primarily Eiffel, SmallTalk, Objective C, and C++. Java goes beyond C++ in both extending the object model and removing the major complexities of C++. With the exception of its primitive data types, everything in Java is an object, and even the primitive types can be encapsulated within objects if the need arises.
+
+CONTENTS | PREV | NEXT 
+
+Please send any comments or corrections to jdk-comments@java.sun.com
+Copyright &#169 1997 Sun Microsystems, Inc. All Rights Reserved. 		
+
+Company Info  |  About SDN  |  Press  |  Contact Us  |  Employment How to Buy  |  Licensing  |  Terms of Use  |  Privacy  |  Trademarks     Copyright 1994-2004 Sun Microsystems, Inc. 		A Sun Developer Network Site Unless otherwise licensed, code in all technical manuals herein (including articles, FAQs, samples) is provided under this License.    Content Feeds 	
+
+

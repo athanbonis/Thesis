@@ -1,0 +1,132 @@
+  
+  
+
+Alex López-Ortiz
+
+Assistant Professor  
+Department of Computer Science
+ Faculty of Mathematics
+ University of Waterloo
+Waterloo, Ontario N2L 3G1 
+
+Canada  
+
+Office: 
+
+DC 3349
+
+Phone: 
+
++1 519 888-4567 x3284   (office) 
+ +1 519 885-1208  (fax) 
+
+Email: 
+
+alopez-o@uwaterloo.ca
+
+Teaching 
+
+Publications
+
+Students 
+
+Curriculum Vitae 
+
+Software
+
+FAQ's 
+
+Documents on Mexican Politics
+
+  
+ Research Interests 
+
+ 
+
+ 
+
+The Internet and the World Wide Web 
+We study the effect of Internet and World-Wide Web protocols and standards such as HTTP, BGP, HTML and XSL. In early 1996 we proposed a push-cache protocol for HTTP based on geographic and topological configurations. The simulations presented were later validated when similar schemes were implemented by content distribution networks on the public Internet.
+
+ 
+
+Another area of study is the introduction of performance based routing using an overlay network over the public, BGP-based, Internet infrastructure. This work has various aspects, including Internet tomography and traffic balancing, and was incorporated into Internap Network Services routing tool AS/3 (lead developer: O. Stiffelman). 
+
+ 
+
+Sample contributions:
+
+1.    Frequency Estimation of Internet Packet Streams with Limited Space. E. Demaine, J. Ian Munro and A. López-Ortiz. Proceedings of European Symposium on Algorithms (ESA), 2002, LNCS 2461, 2002, pp. 348-360. 
+
+2.    On the Number of Distributed Measurement Points for Network Tomography, Joseph D. Horton, A. López-Ortiz. To Proceedings of the ACM Internet Measurements Conference, 2003. 
+
+3.     Identifying Frequent Items in Sliding Windows over On-Line Packet Streams, Lukasz Golab, David DeHaan, Erik D. Demaine, A. López-Ortiz, and J. Ian Munro. Proceedings of the ACM Internet Measurements Conference, 2003. 
+
+4.    Optimal Dynamic Video-On-Demand using Adaptive Broadcasting. Therese Biedl, Erik D. Demaine, Alexander Golynski, Joseph D. Horton, A. López-Ortiz. Guillaume Poirier and Claude-Guy Quimper. Proceedings of the European Symposium on Algorithms (ESA), 2003. 
+
+5.    Online Routing in Convex Subdivisions. P. Bose, A. Brodnik, S. Carlsson, E. D. Demaine, R. Fleischer, A. López-Ortiz, P. Morin, and J. I. Munro. International Journal of Computational Geometry and Applications, v. 12, n. 4, August 2002, pp. 283-295. Special issue of selected papers from the 11th Annual International Symposium on Algorithms and Computation, (ISAAC 2000).
+
+6.    A Multicollaborative Push-Caching HTTP Protocol for the WWW. A López-Ortiz and D. Morales-German. Poster Proceedings of the 5th International World Wide Web Conference (approx. 60 talks, and 20 poster presentations), 1996.
+
+ 
+
+Text-dominated databases/search engines 
+Most search engines operate on keyword queries connected by Boolean operators. These Boolean operators are mapped to set operations over the document IDs of the occurrences of each keyword. These sets are typically several million entries in size. We revisited algorithms for set operations and proposed an adaptive algorithm and shows that its running time is within a constant factor of optimal with respect to a natural measure of the difficulty of an instance. 
+
+ 
+
+Another problem confronted by search engine designers is the sheer size of the index structure. If the text is available it is in fact possible to do away with the index altogether, at a penalty in performance, which becomes linear over the size of the corpus (like grep). In this case we showed that any algorithm with performance linear over the size of the pattern (indeed subquadratic) requires a linear size index, even if the text is available.
+
+ 
+
+Sample contributions:
+
+1.     A Linear Lower Bound on Index Size for Text Retrieval. E. D. Demaine and A. López-Ortiz. Proceedings of 12th Symposium on Discrete Algorithms (SODA 2001), Washington, DC, 2001. Invited to special issue of Journal of Algorithms on selected papers from SODA. 
+
+2.    Experiments on Adaptive Set Intersections for Text Retrieval Systems. E. D. Demaine, A. López-Ortiz and J. I. Munro. Proceedings of the 3rd Workshop on Algorithm Engineering and Experiments (ALENEX), Lecture Notes in Computer Science, Washington, DC, 2001. 
+
+3.    Adaptive Set Intersections, Unions, and Differences. E. Demaine, A. López-Ortiz, and J. Ian Munro. Proc. of Eleventh ACM-SIAM Symposium on Discrete Algorithms, SODA 2000. 
+
+ 
+
+ 
+
+On-line Searching and Path Planning. 
+Path Planning in robotics is a difficult task. For example, moving an object among obstacles is known to be PSPACE complete. However it has been observed that under certain conditions, the problem is solvable. In particular we showed that target searches in particular types of terrains (certain classes of polygons) admit solutions which are no more than a constant factor longer than the shortest path to the target.
+
+ 
+
+Lately we have pursued applications of these techniques to other problems such as searches for man overboard in the high seas, and multi-heuristic computations.
+
+ 
+
+Sample contributions:
+
+1.    The Ultimate Strategy to Search on m-Rays? A. López-Ortiz and S. Schuierer. Theoretical Computer Science, v.261, n.1, pp. 267-295, 2001. Special issue of selected papers from the 4th Computing and Combinatorics Conference, (COCOON 1998). 
+
+2.    Curves of Minimum Width and the Asteroid Mapping Problem. Timothy Chan, Alexander Golynski, A. López-Ortiz and Claude-Guy Quimper. 12th Annual Video Review of Computational Geometry, in Proceedings of the 19th Annual ACM Symposium on Computational Geometry (SoCG), 2003. 
+
+3.    Searching for the Centre of a Circle. Therese Biedl, Joseph D. Horton, A. López-Ortiz, Masud Hasan, Tomas Vinar. In Proceedings of Canadian Conference on Computational Geometry, 2002.
+
+4.    On-line Parallel Heuristics and Robot Searching under the Competitive Framework. A. López-Ortiz and S. Schuierer. Proceedings of Scandinavian Workshop on Algorithm Theory, (SWAT), 2002. Lecture Notes in Computer Science 2368, pp. 260-269, 2002.
+
+5.    Robot Localization without Depth Perception. E. Demaine, J. Ian Munro and A. López-Ortiz. Proceedings of Scandinavian Workshop on Algorithm Theory, (SWAT), Lecture Notes in Computer Science 2368, pp. 249-259, 2002.
+
+ 
+
+Constraint Programming. 
+Consider the problem of scheduling airplanes and gates in an airport. Each particular flight is subject to conditions such as minimum and maximum time span in the gate, size of waiting area, national/international area, and so on. This is a scheduling problem known to be NP-complete. Yet, every day airlines need a schedule. A set of heuristics dealing with these types of problems have been proposed within the field of Artificial Intelligence, where it is known as constraint programming. In particular we have focused on algorithms for enforcing consistency on the alldiff and global cardinality constraint problems.
+
+ 
+
+ 
+
+Sample contributions:
+
+1.    An Efficient Bound Consistency Algorithm for the Global Cardinality Constraint Problem. Claude-Guy. Quimper, Peter van Beek, A. López-Ortiz, Alexander Golynski, and Samed B. Sadjad. In Proceedings of Constraint Programming (CP), 2003. 
+
+2.    A Fast and Simple Algorithm for Bounds Consistence of the Alldifferent Constraint. A. López-Ortiz, Claude-Guy Quimper*, John Tromp and Peter van Beek. In Proceedings of Eighteenth International Joint Conference on Artificial Intelligence (IJCAI), 2003. 
+
+ 
+
+

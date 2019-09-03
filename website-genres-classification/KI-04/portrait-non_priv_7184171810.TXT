@@ -1,0 +1,180 @@
+Hot off the Press [ Bestsellers | New & Upcoming Titles ] C# Cookbook provides practical answers to day-to-day C# programming questions, using code recipes collected especially for developers working on the .NET platform. In addition to the complete, documented code samples showing how to solve hundreds of specific problems, you'll find discussions of how the underlying technology works as well as material on alternatives, limitations, and other considerations where appropriate. This definitive collection of recipes will help developers of all levels solve problems now. Sample Chapter 8, Regular Expressions , is available free online. sendmail Cookbook provides step-by-step solutions for administrators who need to solve configuration problems fast. Each recipe outlines a configuration problem, presents the code that solves that problem, and explains the code in detail. The book provides lots of material that doesn't get much coverage elsewhere: STARTTLS and AUTH are given entire chapters, and LDAP is covered in recipes throughout the book. Don't wade through dense documentation to work out custom solutions; just grab a recipe and solve the problem. Sample Chapter 2, Delivery and Forwarding , is available online. Running Mac OS X Panther is the ultimate Swiss Army Knife™ for power users who want to customize, rev up, and get the most out of their Macs. The book takes readers deep inside Mac OS X's core, revealing the inner workings of Panther. Learn where Mac OS X came from, how it's put together, and how it works; get the tools you to need to examine how your Mac is running and adjust all the knobs behind its operation; and learn all the ways Mac OS X interfaces with the world around it. Apple Confidential 2.0: The Definitive History of the World's Most Colorful Company -- This updated and expanded edition from No Starch Press examines the tumultuous history of America's best-known Silicon Valley start-up, from Apple's legendary founding almost 30 years ago, through a series of disastrous executive decisions, to its return to profitability. Chock-full of juicy quotes, timelines, charts, and photos, Apple Confidential 2.0 also covers the company's recent move into the music business RELAX NG is a grammar-based schema language that's both easy to learn for schema creators and easy to implement for software developers. In RELAX NG , developers are introduced to this unique language and will learn a no-nonsense method for creating XML schemas. This book offers a clear-cut explanation of RELAX NG that enables intermediate and advanced XML developers to focus on XML document structures and content rather than battle the intricacies of yet another convoluted standard. Sample Chapter 6, More Complex Patterns , is available free online. DNS on Windows Server 2003 is a special Windows-oriented edition of the classic DNS and BIND , newly updated to document the many changes to DNS found in Windows Server 2003. You'll learn everything from starting and stopping a DNS service and establishing a namespace in the global hierarchy, to using the the dnscmd command line and the WMI DNS provider to perform maintenance. The book also documents new features, including conditional forwarding and zone storage in Active Directory application partitions. Sample Chapter 8, Integrating with Active Directory , is available free online. Security Warrior is based on the principle that the only way to defend yourself is to understand your attacker in depth. Security Warrior reveals how your systems can be attacked, covering everything from reverse engineering to SQL attacks, and including topics like social engineering, antiforensics, and common attacks against UNIX and Windows systems. This book teaches you to know your enemy and how to be prepared to do battle. Sample Chapter 2, Windows Reverse Engineering , is available online. Mac OS X: The Missing Manual, Panther Edition -- With new material on practically every page, the latest update of David Pogue's best-selling title offers a wealth of detail on all the changes in Apple's Mac OS X 10.3, a.k.a. Panther. Written with humor and technical insight, the new edition covers everything from the all-new Finder to iChat AV--Apple's cool new tool for video conferencing. The book also deals with features under the hood, such as the Terminal and networking tools. This authoritative book will appeal to novices and experienced users alike. JavaServer Pages, 3rd Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. The book also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining practical advice with detailed coverage of JSP syntax and features, JavaServer Pages, 3rd Edition demonstrates how to embed server-side Java into web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. Sample Chapter 11, Developing Custom Tag Libraries as Tag Files , is available online. Perl Template Toolkit guides you through the entire process of installing, configuring, using, and extending the Template Toolkit. Written by core members of the technology's development team, the book begins with a fast-paced but thorough tutorial on building web content with the Template Toolkit, and then walks you through generating and using data files, particularly with XML. The book also provides detailed information on the Template Toolkit's modules, libraries, and tools, in addition to a complete reference manual. Sample Chapter 2, A Complete Web Site Using Template Toolkit , is available free online. Learning Python, 2nd Edition is a self-paced, comprehensive learning tool that allows programmers to focus on the core Python language in depth. Thoroughly updated, this guide introduces the basic elements of the latest release of Python, Python 2.3, and covers new features such as list comprehensions, nested scopes, and iterators/generators. The book also includes fresh overviews of object-oriented programming and dynamic typing, new discussions of program launch and configuration options, new coverage of documentation sources, and much more. Sample Chapter 19, OOP: The Big Picture , is available free online. Learning Unix for Mac OS X Panther -- provides a user-friendly tour for the uninitiated to the Mac Unix base. You'll explore Terminal and familiarize yourself with the command line, learning as you go about the power and flexibility of the hundreds of Unix programs that come with your Mac. And if Unix isn't new to you, you'll discover how it translates into this latest Mac incarnation. Updated to cover Panther, this book will keep you current with the latest features of your Mac. Sample Chapter 5, Printing , is available free online. News & Articles Interviews with Digital Democracy Activists -- On a recent NPR Fresh Air program, Terry Gross interviewed William Greene of rightmarch.com , as well as Wes Boyd and Eli Pariser of Moveon.org . William and Wes will both be featured speakers on February 9 at O'Reilly's Digital Democracy Teach-In . Troubleshooting with Postfix Logs -- Learn how to get the most out of Postfix's standard logging, including how to find all the relevant information in the logs, and how to increase the amount of logging when more information is needed, in this article by Kyle Dent, author of Postfix: The Definitive Guide . Digital Democracy Teach-In -- Internet technologies such as blogs, MeetUp, and email are putting power back in the hands of the people. Citizen activists have already altered the face of the next U.S. presidential election. Are we on the verge of a fundamental shift towards truer democracy, or will these new Internet-fueled tools be co-opted to maintain the status quo? We'll be exploring these issues during the Digital Democracy Teach-In at February's Emerging Technology Conference . Global Developer Survey -- Software and application development have become a global endeavor. In response, MediaLive and O'Reilly have launched a survey to profile developers around the world, and we want you to be a part of it. Participate in this first study of its kind for a chance to win $ 500 USD . Hacking Reality -- In the Linux Journal , Frank Conley notes that hacking the technology of our present age has become pervasive, and he reviews four of O'Reilly's books from our Hacks series, Linux Server Hacks , Google Hacks , Amazon Hacks , and eBay Hacks . For a complete list of O'Reilly's Hacks books, check out hacks.oreilly.com/ . Free Linux/Unix System Administration Course -- Get the fourth course in the O'Reilly Learning Lab Linux/Unix System Administration Certificate Series for free when you sign up for the first three courses. You save $ 150 on each of the first three courses, for a total savings of more than $ 900. Completion of the series will earn you a Certificate of Professional Development from the University of Illinois' Office of Continuing Education. This offer expires January 31. Enroll now! Cooking with ADO.NET, Part 2 -- Learn how to create and then synchronize a master-detail pair of DataGrid controls, as well as how to improve performance when a user pages through a large result set in a data grid, in these sample recipes from ADO.NET Cookbook . An Introduction to the Twisted Networking Framework -- Network programming is difficult, and not just because bandwidth and latency are hard to manage. Itamar Shtull-Trauring introduces Python's Twisted, an open source framework designed to ease development of networked applications. Itamar will be presenting a session on Twisted February 9th at O'Reilly's Emerging Technology Conference . O'Reilly's Latest Catalog Is Available -- Our new winter catalog is our biggest catalog ever, with information on all our current titles, including our upcoming Februrary releases, as well as those from our new publishing partners. If you'd like to receive our catalogs, sign up here . Five Tips for a Better sendmail Configuration -- Craig Hunt says creating a custom sendmail configuration will give you better reliability, security, and maintainability, and he offers five tips to help you build a better sendmail configuration. Craig is the author of the recently released sendmail Cookbook . OSCON 2004: Call for Participation -- Individuals and companies interested in making presentations or giving tutorials at next summer's O'Reilly Open Source Convention in Portland, Oregon are invited to submit proposals. This year's theme is "Opening the Future: Discover, Develop, Deliver". Tracks of interest run the open source gamut from Apache to XML, and we're also looking for proposals for sessions that help attendees add open source to their companies. The deadline for submitting proposals is February 9, 2004 . Quantum Dots and Programmable Matter -- Wil McCarthy introduces the concepts of programmable matter and the quantum dot, a device capable of trapping electrons in a space so small it forms artificial atoms that can be controlled in real time. If you'd like to learn more about this "programmable matter," Wil plans to explore the social and technological implications of quantum dots at O'Reilly's upcoming Emerging Technology Conference . David Pogue's iLife '04 Mini Manual (PDF) is your guide to the new features in iLife, Apple's tightly integrated suite of media applications. This exclusive preview is the only documentation available until the spring release of our full-length books on these applications: iPod & iTunes: The Missing Manual ; iPhoto 4: The Missing Manual ; iMovie 4 & iDVD: The Missing Manual ; GarageBand: The Missing Manual ; and iLife '04: The Missing Manual . Meanwhile, be sure to check out the best Mac book, period: Mac OS X: The Missing Manual, Panther Edition . Win a Free Copy of eBay Hacks -- Participate in this eBay Hacks promotion, and you're automatically eligible to win a free autographed copy of eBay Hacks . All registered eBay users currently residing in the United States or Canada can win. Simply place the little "Powered by eBay Hacks" button on your eBay auctions, then, every week, a listing that contains the button will be selected from a random search. If your auction is chosen, you'll win a free copy of eBay Hacks . New Titles on Safari -- Search, annotate, and read your favorite O'Reilly books on the O'Reilly Network Safari Bookshelf. New titles include: sendmail Cookbook ; DNS on Windows Server 2003 ; RELAX NG ; Postfix: The Definitive Guide ; Java Database Best Practices . If you haven't gone on Safari yet, get a free trial . OSCON Survey: Participate to Win -- Help us refine our program for the 2004 O'Reilly Open Source Convention by answering our OSCON survey. It'll take only five minutes, and participation makes you eligible to win one of two free passes to OSCON . --> Brian M. Coyner: IDEA 4.0 - Is It Worth The Money? [ More Weblogs... ] John Reynolds: PD4J - Is Process Driven Design the next big thing? [ More Weblogs... ] When will a BSD or Linux Desktop be ready for "Prime Time" Now.... 1 Year 2 Years 3 Years 4 Years 5 Years More than 5 Years It will never catch up Poll Results | Archive The Ideal Digital Photographer's Workflow, Part 2 [ Web Development DevCenter ] Wireless Mesh Networking [ Wireless DevCenter ] Quantum Dots and Programmable Matter [ O'Reilly Network ] Design Considerations for Microsoft Smartphone Applications [ Wireless DevCenter ] BYOB: Build Your Own Browser How to Set Up Encrypted Mail on Mac OS X Using WebObjects: More Practical Tips and Tricks Inside XAML Cooking with ADO.NET, Part 2 New Data Controls in ASP.NET Whidbey Managing Your Dependencies with JDepend Effective Unit Testing with DbUnit Introduction to Aspect-Oriented Programming Web App Security Testing with a Custom Proxy Server [ PHP DevCenter ] Troubleshooting with Postfix Logs [ ONLamp.com ] Connecting to the IPv6 Internet [ Linux DevCenter ] VoIP and POTS Integration with Asterisk [ ONLamp.com ] Introducing Mac::Glue Maintaining Regular Expressions Lightweight XML Search Servers Multimodal Interaction on the Web Interacting with Resources: Web Architecture Review --> O'Reilly Home | Privacy Policy © 2004, O'Reilly & Associates, Inc. All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.   -->  
+
+  	
+
+ 	 
+
+O'Reilly Home	 
+Press Room	 
+Jobs	 
+
+Resource Centers	 
+Perl	 
+Java	 
+Python	 
+C/C++	 
+Scripting	 
+Web	 
+Digital Media	 
+Web Services	 
+XML	 
+Oracle	 
+SysAdm/Networking	 
+Security	 
+Databases	 
+Linux/Unix	 
+Macintosh/OS X	 
+Windows	 
+.NET	 
+Open Source	 
+Wireless	 
+Bioinformatics	 
+
+Book Series	 
+Hacks	 
+Head First	 
+Cookbooks	 
+In a Nutshell	 
+CD Bookshelves	 
+Pocket References	 
+The Missing Manuals	 
+
+Publishing Partners	 
+No Starch Press	 
+Paraglyph Press	 
+Syngress Publishing	 
+
+Online Publications	 
+LinuxDevCenter.com	 
+MacDevCenter.com	 
+ONDotnet.com	 
+ONJava.com	 
+ONLamp.com	 
+OpenP2P.com	 
+Perl.com	 
+WebServices.XML.com	 
+XML.com	 
+
+Special Interest	 
+Events	 
+Meerkat News	 
+Ask Tim	 
+tim.oreilly.com	 
+From the Editors List	 
+Letters	 
+Beta Chapters	 
+Newsletters	 
+Open Books	 
+
+Special Sales	 
+Academic	 
+Corporate	 
+Government	 
+
+Inside O'Reilly	 
+About O'Reilly	 
+International	 
+Advertise with Us	 
+Contact Us	 
+Catalog Request	 
+User Groups	 
+Writing for O'Reilly	 
+How to Order	 
+Bookstores	 
+
+Hot off the Press	 
+[Bestsellers | New & Upcoming Titles] 
+
+C# Cookbook provides practical answers to day-to-day C# programming questions, using code recipes collected especially for developers working on the .NET platform. In addition to the complete, documented code samples showing how to solve hundreds of specific problems, you'll find discussions of how the underlying technology works as well as material on alternatives, limitations, and other considerations where appropriate. This definitive collection of recipes will help developers of all levels solve problems now. Sample Chapter 8, Regular Expressions, is available free online.
+
+sendmail Cookbook provides step-by-step solutions for administrators who need to solve configuration problems fast. Each recipe outlines a configuration problem, presents the code that solves that problem, and explains the code in detail. The book provides lots of material that doesn't get much coverage elsewhere: STARTTLS and AUTH are given entire chapters, and LDAP is covered in recipes throughout the book. Don't wade through dense documentation to work out custom solutions; just grab a recipe and solve the problem. Sample Chapter 2, Delivery and Forwarding, is available online.
+
+Running Mac OS X Panther is the ultimate Swiss Army Knife™ for power users who want to customize, rev up, and get the most out of their Macs. The book takes readers deep inside Mac OS X's core, revealing the inner workings of Panther. Learn where Mac OS X came from, how it's put together, and how it works; get the tools you to need to examine how your Mac is running and adjust all the knobs behind its operation; and learn all the ways Mac OS X interfaces with the world around it.
+
+Apple Confidential 2.0: The Definitive History of the World's Most Colorful Company -- This updated and expanded edition from No Starch Press examines the tumultuous history of America's best-known Silicon Valley start-up, from Apple's legendary founding almost 30 years ago, through a series of disastrous executive decisions, to its return to profitability. Chock-full of juicy quotes, timelines, charts, and photos, Apple Confidential 2.0 also covers the company's recent move into the music business
+
+RELAX NG is a grammar-based schema language that's both easy to learn for schema creators and easy to implement for software developers. In RELAX NG, developers are introduced to this unique language and will learn a no-nonsense method for creating XML schemas. This book offers a clear-cut explanation of RELAX NG that enables intermediate and advanced XML developers to focus on XML document structures and content rather than battle the intricacies of yet another convoluted standard. Sample Chapter 6, More Complex Patterns, is available free online.
+
+DNS on Windows Server 2003 is a special Windows-oriented edition of the classic DNS and BIND, newly updated to document the many changes to DNS found in Windows Server 2003. You'll learn everything from starting and stopping a DNS service and establishing a namespace in the global hierarchy, to using the the dnscmd command line and the WMI DNS provider to perform maintenance. The book also documents new features, including conditional forwarding and zone storage in Active Directory application partitions. Sample Chapter 8, Integrating with Active Directory, is available free online.
+
+Security Warrior is based on the principle that the only way to defend yourself is to understand your attacker in depth. Security Warrior reveals how your systems can be attacked, covering everything from reverse engineering to SQL attacks, and including topics like social engineering, antiforensics, and common attacks against UNIX and Windows systems. This book teaches you to know your enemy and how to be prepared to do battle. Sample Chapter 2, Windows Reverse Engineering, is available online.
+
+Mac OS X: The Missing Manual, Panther Edition -- With new material on practically every page, the latest update of David Pogue's best-selling title offers a wealth of detail on all the changes in Apple's Mac OS X 10.3, a.k.a. Panther. Written with humor and technical insight, the new edition covers everything from the all-new Finder to iChat AV--Apple's cool new tool for video conferencing. The book also deals with features under the hood, such as the Terminal and networking tools. This authoritative book will appeal to novices and experienced users alike.
+
+JavaServer Pages, 3rd Edition is completely revised and updated to cover the substantial changes in the 2.0 version of the JSP specification. The book also includes detailed coverage of the major revisions to the JSP Standard Tag Library (JSTL) specification. Combining practical advice with detailed coverage of JSP syntax and features, JavaServer Pages, 3rd Edition demonstrates how to embed server-side Java into web pages, while also covering important topics such as JavaBeans, Enterprise JavaBeans (EJB), and JDBC database access. Sample Chapter 11, Developing Custom Tag Libraries as Tag Files, is available online.
+
+Perl Template Toolkit guides you through the entire process of installing, configuring, using, and extending the Template Toolkit. Written by core members of the technology's development team, the book begins with a fast-paced but thorough tutorial on building web content with the Template Toolkit, and then walks you through generating and using data files, particularly with XML. The book also provides detailed information on the Template Toolkit's modules, libraries, and tools, in addition to a complete reference manual. Sample Chapter 2, A Complete Web Site Using Template Toolkit, is available free online.
+
+Learning Python, 2nd Edition is a self-paced, comprehensive learning tool that allows programmers to focus on the core Python language in depth. Thoroughly updated, this guide introduces the basic elements of the latest release of Python, Python 2.3, and covers new features such as list comprehensions, nested scopes, and iterators/generators. The book also includes fresh overviews of object-oriented programming and dynamic typing, new discussions of program launch and configuration options, new coverage of documentation sources, and much more. Sample Chapter 19, OOP: The Big Picture, is available free online.
+
+Learning Unix for Mac OS X Panther -- provides a user-friendly tour for the uninitiated to the Mac Unix base. You'll explore Terminal and familiarize yourself with the command line, learning as you go about the power and flexibility of the hundreds of Unix programs that come with your Mac. And if Unix isn't new to you, you'll discover how it translates into this latest Mac incarnation. Updated to cover Panther, this book will keep you current with the latest features of your Mac. Sample Chapter 5, Printing, is available free online.
+
+News & Articles	 
+
+Interviews with Digital Democracy Activists -- On a recent NPR Fresh Air program, Terry Gross interviewed William Greene of rightmarch.com, as well as Wes Boyd and Eli Pariser of Moveon.org. William and Wes will both be featured speakers on February 9 at O'Reilly's Digital Democracy Teach-In.
+
+Troubleshooting with Postfix Logs -- Learn how to get the most out of Postfix's standard logging, including how to find all the relevant information in the logs, and how to increase the amount of logging when more information is needed, in this article by Kyle Dent, author of Postfix: The Definitive Guide.
+
+Digital Democracy Teach-In -- Internet technologies such as blogs, MeetUp, and email are putting power back in the hands of the people. Citizen activists have already altered the face of the next U.S. presidential election. Are we on the verge of a fundamental shift towards truer democracy, or will these new Internet-fueled tools be co-opted to maintain the status quo? We'll be exploring these issues during the Digital Democracy Teach-In at February's Emerging Technology Conference.
+
+Global Developer Survey -- Software and application development have become a global endeavor. In response, MediaLive and O'Reilly have launched a survey to profile developers around the world, and we want you to be a part of it. Participate in this first study of its kind for a chance to win $500 USD.
+
+Hacking Reality -- In the Linux Journal, Frank Conley notes that hacking the technology of our present age has become pervasive, and he reviews four of O'Reilly's books from our Hacks series, Linux Server Hacks, Google Hacks, Amazon Hacks, and eBay Hacks. For a complete list of O'Reilly's Hacks books, check out hacks.oreilly.com/.
+
+Free Linux/Unix System Administration Course -- Get the fourth course in the O'Reilly Learning Lab Linux/Unix System Administration Certificate Series for free when you sign up for the first three courses. You save $150 on each of the first three courses, for a total savings of more than $900. Completion of the series will earn you a Certificate of Professional Development from the University of Illinois' Office of Continuing Education. This offer expires January 31. Enroll now!
+
+Cooking with ADO.NET, Part 2 -- Learn how to create and then synchronize a master-detail pair of DataGrid controls, as well as how to improve performance when a user pages through a large result set in a data grid, in these sample recipes from ADO.NET Cookbook.
+
+An Introduction to the Twisted Networking Framework -- Network programming is difficult, and not just because bandwidth and latency are hard to manage. Itamar Shtull-Trauring introduces Python's Twisted, an open source framework designed to ease development of networked applications. Itamar will be presenting a session on Twisted February 9th at O'Reilly's Emerging Technology Conference.
+
+O'Reilly's Latest Catalog Is Available -- Our new winter catalog is our biggest catalog ever, with information on all our current titles, including our upcoming Februrary releases, as well as those from our new publishing partners. If you'd like to receive our catalogs, sign up here.
+
+Five Tips for a Better sendmail Configuration -- Craig Hunt says creating a custom sendmail configuration will give you better reliability, security, and maintainability, and he offers five tips to help you build a better sendmail configuration. Craig is the author of the recently released sendmail Cookbook.
+
+OSCON 2004: Call for Participation -- Individuals and companies interested in making presentations or giving tutorials at next summer's O'Reilly Open Source Convention in Portland, Oregon are invited to submit proposals. This year's theme is "Opening the Future: Discover, Develop, Deliver". Tracks of interest run the open source gamut from Apache to XML, and we're also looking for proposals for sessions that help attendees add open source to their companies. The deadline for submitting proposals is February 9, 2004.
+
+Quantum Dots and Programmable Matter -- Wil McCarthy introduces the concepts of programmable matter and the quantum dot, a device capable of trapping electrons in a space so small it forms artificial atoms that can be controlled in real time. If you'd like to learn more about this "programmable matter," Wil plans to explore the social and technological implications of quantum dots at O'Reilly's upcoming Emerging Technology Conference.
+
+David Pogue's iLife '04 Mini Manual (PDF) is your guide to the new features in iLife, Apple's tightly integrated suite of media applications. This exclusive preview is the only documentation available until the spring release of our full-length books on these applications: iPod & iTunes: The Missing Manual; iPhoto 4: The Missing Manual; iMovie 4 & iDVD: The Missing Manual; GarageBand: The Missing Manual; and iLife '04: The Missing Manual. Meanwhile, be sure to check out the best Mac book, period: Mac OS X: The Missing Manual, Panther Edition.
+
+Win a Free Copy of eBay Hacks -- Participate in this eBay Hacks promotion, and you're automatically eligible to win a free autographed copy of eBay Hacks. All registered eBay users currently residing in the United States or Canada can win. Simply place the little "Powered by eBay Hacks" button on your eBay auctions, then, every week, a listing that contains the button will be selected from a random search. If your auction is chosen, you'll win a free copy of eBay Hacks. 
+
+New Titles on Safari -- Search, annotate, and read your favorite O'Reilly books on the O'Reilly Network Safari Bookshelf. New titles include: sendmail Cookbook; DNS on Windows Server 2003; RELAX NG; Postfix: The Definitive Guide; Java Database Best Practices. If you haven't gone on Safari yet, get a free trial.
+
+OSCON Survey: Participate to Win -- Help us refine our program for the 2004 O'Reilly Open Source Convention by answering our OSCON survey. It'll take only five minutes, and participation makes you eligible to win one of two free passes to OSCON.
+
+Brian M. Coyner: IDEA 4.0 - Is It Worth The Money? 	
+
+[More Weblogs...]	 
+
+John Reynolds: PD4J - Is Process Driven Design the next big thing? 	
+
+[More Weblogs...]	 
+When will a BSD or Linux Desktop be ready for "Prime Time" 
+
+Now....	 
+
+1 Year	 
+
+2 Years	 
+
+3 Years	 
+
+4 Years	 
+
+5 Years	 
+
+More than 5 Years	 
+
+It will never catch up	 
+
+Poll Results | Archive	 
+The Ideal Digital Photographer's Workflow, Part 2 [Web Development DevCenter] Wireless Mesh Networking [Wireless DevCenter] Quantum Dots and Programmable Matter [O'Reilly Network] Design Considerations for Microsoft Smartphone Applications [Wireless DevCenter] BYOB: Build Your Own Browser How to Set Up Encrypted Mail on Mac OS X Using WebObjects: More Practical Tips and Tricks Inside XAML Cooking with ADO.NET, Part 2 New Data Controls in ASP.NET Whidbey Managing Your Dependencies with JDepend Effective Unit Testing with DbUnit Introduction to Aspect-Oriented Programming Web App Security Testing with a Custom Proxy Server [PHP DevCenter] Troubleshooting with Postfix Logs [ONLamp.com] Connecting to the IPv6 Internet [Linux DevCenter] VoIP and POTS Integration with Asterisk [ONLamp.com] Introducing Mac::GlueMaintaining Regular Expressions Lightweight XML Search ServersMultimodal Interaction on the WebInteracting with Resources: Web Architecture Review 	
+
+---------------------------------------------------------------------
+
+O'Reilly Home | Privacy Policy © 2004, O'Reilly & Associates, Inc. 
+
+All trademarks and registered trademarks appearing on oreilly.com are the property of their respective owners.
+
+navigator.appVersion)==4)document.write(" 

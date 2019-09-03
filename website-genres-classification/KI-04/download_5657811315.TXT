@@ -1,0 +1,115 @@
+
+
+HOME
+
+ABOUT
+
+FEATURES
+
+DOCUMENTATION
+
+DOWNLOAD
+
+license
+
+troubleshooting
+
+Home >>
+
+Downloading Squeak
+
+Please read the license for Squeak.
+ No matter what system you are on you will need to end up with these four files to run Squeak 3.6, the last released version: 
+
+* Squeak3.6-nnnn-full.image 
+* Squeak3.6-nnnn-full.changes 
+* SqueakV3.sources 
+* Squeak VM for your system, version 3.4 or later. 
+
+The first three files are platform-independent and the nnnn means some version number. The fourth file is the interpreter, or virtual machine (VM), and you must get one that is intended for your particular computer. For   Macs, Windows, and some unix/linux systems there   are full packages containing all  necessary files below. For other  systems one must check. If a full package is not built for   your system you can find the system independent files in the   3.6 directory of the      ftp site. 
+
+A complete CD is also offered by Squeak e.V
+
+For those of you who want to play tester, you may also download  the  3.7 alpha files. 
+
+All files must be downloaded in Binary mode 
+
+Put them all in the same directory. Launch the image and the VM together, if possible. 
+
+For up to the minute download info, see the Download Squeak page on the Swiki. 
+
+Even though image, sources, and changes are the same across platforms, we list them by operating system, so they will come packed in the proper format. 
+
+Further Downloading Information
+ If you have trouble starting Squeak, Read the troubleshooting section.  
+
+If you need to download individual files or older versions of Squeak, see the primary ftp archive at UIUC, at ftp://st.cs.uiuc.edu/Smalltalk/Squeak/.  Or better, use one of the primary archive mirrors at one of these locations: 
+
+* ftp://ftp.squeakfoundation.org/official-dist 
+* http://wuarchive.wustl.edu/languages/smalltalk/smalltalk/Squeak/ 
+* ftp://ftp.cs.uni-magdeburg.de/pub/Smalltalk/Smalltalk/Squeak/ 
+
+---------------------------------------------------------------------
+
+  
+
+Windows 98/95, NT, XP, and CE 	
+
+Click here to download Squeak 3.6 for Win 98/95, NT, and XP. You will get a zip archive of all four files needed for Squeak. 
+
+For Windows CE the best choice is to go to Yoshiki   Ohshima's WinCE   site. 
+
+Once you are in Squeak, left mouse button to select, right for the content menu, ALT-click is the window menu, ALT-period to interrupt or use Ctrl-Break. (port by Andreas Raab) 	
+
+Macintosh 	
+
+MacOS 7.5 through 9.2 Classic, and MacOS X (Carbon and Cocoa)
+   Squeak 3.6 is available as a bundle of files: Squeak3.6-current-MacOS-Full.sit. 
+In Squeak on the Mac, Option-click for content menu, Command-click for window menu (a.k.a. Apple or flower key), Command-period to interrupt. 
+
+The current Mac VM application is a "combined" application that includes parts for both Carbon and the Mac Classic OS.
+
+(Now supported and developed by John M.   McIntosh. Original port by Dan Ingalls and John Maloney, with Alan Kay, Ted Kaehler, and Scott Wallace at Apple, then continued at Disney.) 
+
+A Cocoa Port of the Unix VM for OS X 
+(If you don't know what this means, use the standard Mac VM above.)   Get the VM from Marcel Weiher's cocoa port page at     http://www.metaobject.com/downloads/Squeak/. Then get the images, changes, and sources file from the 3.6 directory. It has some interesting features, and if you get the VM source, it allows you to embed squeak as a framework into other Cocoa applications. (original Cocoa port by Marcel Weiher.)  	
+
+Unix 	
+
+Master Squeak Unix site:    http://www-sor.inria.fr/~piumarta/squeak. 
+
+Squeak runs on many Unix OS's and should compile "out of the box" for most versions of Unix running on most architectures, using only GNU make. Squeak's makefiles use many extensions    provided only by GNU make and are thus    incompatible with other make versions. 
+
+Lex's     Patch Page has a lot of useful patches.
+
+Note that sound only works on some of ports, for further information check the master Squeak Unix     site.    
+
+We currently offer the source and some prebuilt    packages in        this directory. If you get the    source then you will also need to get    the image, changes, and sources file from the        3.6 directory.
+    
+Left mouse button to select, right for content menu, ALT-click is the window menu, ALT-period to interrupt. 
+(port by Ian Piumarta)    	
+
+Be OS 	Squeak for the Be OS is available. (port by Colin Sarsfield and his team) 	
+NeXT 	Squeak on NeXTSTEP, with a pure NeXT front-end. Available for NeXTSTEP 3.3 (it may run on OPENSTEP 4.2 too). Version 0.2d14 is compiled for NeXTSTEP on the Motorola and Intel boxes. A preliminary version lives here. Look in this directory for interpreter sources. And here for ".gz" files of the image, sources, and changes. Won't compile on OPENSTEP systems such as Rhapsody yet. (port by Pascal Bourguignon). 	
+DOS 	Port to bare DOS on a PC.  (Port by Chris Grindstaff) 	
+OS/2 	A fast modern port using the DIVE video ddls. (port by Juan Manuel Vuletich. Original port using XFree86 on OS/2 by Boris G. Chr. Shingarov) 	
+Acorn RiscOS 	The package is provided ready to go in a Sparkive at Full Instructions. (port by Tim Rowledge) The interrupt key is 'SysRq' on these machines. Sadly no sound or serial port support is available as yet. 	
+Squeak on many PDAs 	The best place these days is to go to Yoshiki   Ohshima's WinCE   site.   
+
+If you are trying Squeak on the iPAQ running linux a good choice would be   too look at Kevin's Linux/iPAQ pages   	
+Zaurus 	Squeak for the Sharp Zaurus PDA. (Japanese domestic version only, not the English version, nor the English WindowsCE version). The Squeak Zaurus page in Japanese. 
+(port by OHSHIMA Yoshiki) 	
+
+DEC Itsy 	Tim Rowledge did a port to the DEC Itsy, a research PDA with software based on Linux OS and standard GNU tools.	 
+
+  
+
+Download page webmaster, Bruce O'Neel:  beoneel@bluewin.ch
+
+  
+
+  
+
+  	
+
+

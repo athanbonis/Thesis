@@ -1,0 +1,187 @@
+
+
+DIRO Simula home
+
+---------------------------------------------------------------------
+
+At the Université de Montréal, we recently ( 1994-1998 ) used Simula as the basic language to teach programming. This Web site was created at that time to help counteract the lack of information, software and support for the language. Since then, our department got overwhelmed by the Java Tidal Wave and Simula is only used peripherally. It is small consolation to us Simula fans that all students who were exposed to the language feel Simula would have been a much better base than C++ from which to develop "Java". [ Update - jan 2000; Now back to the original text ] 
+
+We had been using Simula in simulation courses since 1970 when we found it bundled on our CDC computer. Simula was also used for the main case study in our advanced OS course. This case study, which involves writing an operating system for a simulated computer, has been with us for over 20 years. 
+
+At the time, we thought Simula too exotic to use for basic programming; however, the recent OO craze (early 90's) made us re-evaluate OO languages (including Simula) for teaching. To our surprise, Simula turned out to be head and shoulders better than the competition in terms of simplicity, power, security and stability. To be fair, we should say that we did find it weak in 3 areas: availability of teaching material (books & cheap implementations), interactive graphics and popularity. 
+
+Lately, thanks to the efforts of Bjorn Kirkerud and others in Oslo, the situation is being rectified: Kirkerud's text book, distributed by Addison-Wesley, is widely available, his WindowTools Class allows use of GUIs in beginners' programs and the CIM compiler (SIMULA in C) means that anyone can teach and program in Simula. A port of CIM to the Windows environment is also available. 
+
+This Simula Home site is designed to help on the teaching & popularity front by providing (eventually) a complete on-line reference as well as useful Web Pointers and access to Simula application software. Presently, the most significant information here is a complete set of syntax graphs that we have generated from the BNF rules. 
+
+Jean G. Vaucher
+Département d'informatique et recherche opérationnelle
+Université de Montréal
+E-Mail : vaucher@iro.umontreal.ca 
+
+---------------------------------------------------------------------
+
+Language overviews
+
+* Introduction To OOP In Simula by J.Sklenar (1997)  
+*   
+  Introduction a Simula (French)     
+A 23 page introduction to Simula (initially written for students for the OS    course who already knew Pascal).   
+*  Simula (Stanford view) 
+*  Cetus Links  
+
+Bibliography
+
+SIMULA Langage Reference
+
+SIMULA Software
+
+Other Montréal contributions
+
+* Simula syntax graphs  
+* Lund Simula man pages  
+* Montreal Simula FTP directory  
+* Index of Predefined Procedures  
+
+Association of Simula Users: ASU 
+
+The ASU is presently housed at the ISIMA, Université Blaise Pascal in Central France. This will be the site of the next Simula User's conference on 15th-17th July 1996. [Note: this site has a lot of fancy graphics and has been found to be quite slow ] 
+
+Interesting SIMULA sites
+
+Dep. of Informatics   (IFI), Oslo 
+
+This is an important FTP site for SIMULA. The important   directories are:   
+  
+* The examples from B.    Kirkerud's book   
+* CIM: the public (and portable) SIMULA compiler based on C.   
+* Simula (Cim) system for DOS & OS/2 { Updated dec. 1995 }   
+* Simulatools    including windowtools an easy interface to X;    settools: standard datastructures and their    operations; and utilities. 
+
+Simula Mailing Center 
+
+A List of 100+ Simula users 
+
+Manfred Schneider's Object-Orientation Site
+
+Over 5400 links including a whole section on SIMULA.  
+* French version  
+* Simula Page 
+
+The Wageningen Agricultural University, Holland   
+This site has a C++ library Libfenk meant to ease the transition from Simula to C++.   The site also mirrors the OSLO CIM site; furthermore, it has the 4.07 macSimula from Lund,    the old DISCO (discrete+continuous)   simulation package from Roskilde and some notes on simula, tools and compilers.   The contact for the C++ library is Peter Barneveld 
+
+SIMULA in French 
+
+Simula au DIRO     
+This was written for our student newsletter explaining how we came to use Simula for introductory programming.   
+  Introduction a Simula     
+A 23 page introduction to Simula (initially written for students for the OS course who already knew Pascal).   
+Cetus Français   
+La page Simula du site de Manfred Schneider   
+
+Teaching
+
+* ift1010:   Programming 1 (Simula, 1997)   ( current Java version ) 
+* ift1020: Programmation 2 (A98 in Simula) (current java version)  
+* WindowTools.  
+* Vieille version (Henault)  
+*  Vieille version (Carrier) 
+
+* Simulatools (Oslo) 
+
+Compiler information
+
+* Lund Simula man pages 
+* Lund Manuals (in PDF format) 
+
+* Cim (Portable Simula in C), Oslo Site 
+* Cim for Windows (Prague).... 
+ 
+*  J.Sklenar for more info 
+
+* Older Cim directory 
+* Pointers (in norwegian) to Simula on various machines 
+
+Simula Personalities
+
+Ole-Johan Dahl, 
+One of the founding fathers 
+
+Kristen Nygaard.  
+The other founding father 
+
+Jacob Palme.  
+Active Simula implementer (1972-78) responsible for the famous DEC  system. He wrote some of the  earliest papers on Simula in "Software - Practice and  Experience" and elsewhere... and kept on writing about  many other things. 
+
+Graham Birtwistle.  
+Author of first book on Simula and creator of  DEMOS  a simulation package 
+
+Rob Pooley.  
+Past president of ASU  
+Author of "An Introduction to Programming in Simula" 
+
+Bjorn Kirkerud.  
+Professor, IFI, Oslo - Author of the only modern book on Simula and implementor of several SIMULA classes important for teaching and development. 
+
+Boris Magnusson 
+Active researcher in OOP and implementer of the LUND Simula system 
+
+Sverre H. Johansen, Stein Krogdahl and Terje Mjøs 
+The team who implemented CIM, Simula in C (cim@ifi.uio.no) (Master's theses supervised by S. Krogdahl). 
+
+J. Vaucher, Simula evangelist
+
+Jan Rune Holmevik.  
+Simula historian and author of several articles on the history and social impacts of technology. 
+ 
+* Compiling Simula: A Historical Study of Technological Genesis  
+* The legacy of the Wizard War 
+
+See also Simula and Smalltalk: A Social and Political History by Benedict Dugan (1994) 
+
+SIMULA in other languages
+
+* Denmark: Ramme project with several Simula classes related to Internet and Web interface Roskilde University Center. This site is maintained by Tom Helmer Jensen. 
+
+* Germany: Simulation mit Simula, part of the lecture notes on Discrete Simulation from the Systems modelling Group at Essen. Maintained by Dr. Müller-Clostermann 
+
+* Sweden: A Simula windowpackage for X, Department of Computer Science at Lund University. This appears to be different from the Windowtools package from Oslo. 
+
+* Sweden: Simula Pointers,  by Frederick Roubert. 
+
+References
+
+*    SIMULA in a nutshell  
+* Syntax graphs  
+* Index of Predefined Procedures  
+*  Simula (Stanford view)  
+*  Smalltalk (Stanford view)  
+* Beta (son of Simula) 
+
+Lists
+
+* Simula list (?) 
+* Norway's UNINET Map 
+
+Bibliography
+
+* Dahl, O.-J. and K. Nygaard (1966). "SIMULA- An Algol Based Simulation Language." Comm. ACM, 9 (9), p. 671-678, 1966. { The only journal publication describes  
+* Dahl, O.-J., B. Myhrhaug and K. Nygaard (1970). "SIMULA-67 Common Base Language." Technical Report NÂ¼ S-22, Norwegian Computer Centre, Oslo, Norway, 1970.  
+* Birtwistle, G.M., O.-J. Dahl, B. Myhrhaug and K. Nygaard (1973). "SIMULA Begin." p. 391, AUERBACH Publishers Inc, 1973.  
+* Nygaard, K. and O.-J. Dahl (1978). "The development of the Simula languages." History of Programming Languages Conference, vol. 13, no. 8 ACM SIGPLAN Notices, 1978.  
+* Handlykken, P. and K. Nygaard (1981). "The DELTA System Description Language: Motivation, Main Concepts and Experience from Use." Software Engineering Environments, (Ed.) H. Hunke, GMD, North-Holland, 1981.  
+* Nygaard, K. and O.-J. Dahl (1981). "The development of the SIMULA language." History of Programming Languages, (Ed.) R. Wexelblat, Chapter IX, p. 439-493, Academic Press, 1981.  
+* Nygaard, K. (1986). "Basic Concepts in Object Oriented Programming." SIGPLAN Notices, 1986 (October), p. 128-132, 1986.  
+* Pooley, R.J. (1987). "  An Introduction to Programming in SIMULA." p. 333, Oxford, Blackwell Scientific Publications, 1987.  
+* Kirkerud, B. (1989). "Object-Oriented Programming with SIMULA." p. 515, Addison-Wesley, 1989.  
+* Holmevik, J.R.(1994).  "Compiling SIMULA: a historical study of technological genesis." IEEE Annals of the History of Computing, 16 (4), p. 25-37, 1994. (   Local copy )  
+ 
+* Other Holmevik article on history of technology:The legacy of the Wizard War 
+
+---------------------------------------------------------------------
+Jean G. Vaucher
+Paul Bratley
+Département d'informatique et recherche opérationnelle
+Université de Montréal
+ E-Mail : vaucher@iro.umontreal.ca 

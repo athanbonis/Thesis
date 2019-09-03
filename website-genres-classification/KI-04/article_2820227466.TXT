@@ -1,0 +1,170 @@
+
+
+Fuzzy Expert Systems
+
+---------------------------------------------------------------------
+
+This is the second part in a three-part series of introductory articles on the fuzzy field. The preceding article was titled "What is Fuzzy Logic?", and the next article will be titled "What is Fuzzy Control?". 
+
+One point I didn't make in my previous article, "What is Fuzzy Logic", is that in practice, the terms fuzzy subset and membership function get used nearly interchangeably. I'll probably slip up and swap back and forth some - my apologies in advance. 
+
+---------------------------------------------------------------------
+
+What is a Fuzzy Expert System?
+
+Put as simply as possible, a fuzzy expert system is an expert system that uses fuzzy logic instead of Boolean logic. In other words, a fuzzy expert system is a collection of membership functions and rules that are used to reason about data. Unlike conventional expert systems, which are mainly symbolic reasoning engines, fuzzy expert systems are oriented toward numerical processing. 
+
+The rules in a fuzzy expert system are usually of a form similar to the following: 
+
+if x is low and y is high then z = medium
+
+where x and y are input variables (names for know data values), z is an output variable (a name for a data value to be computed), low is a membership function (fuzzy subset) defined on x, high is a membership function defined on y, and medium is a membership function defined on z. The part of the rule between the "if" and "then" is the rule's _premise_ or _antecedent_. This is a fuzzy logic expression that describes to what degree the rule is applicable. The part of the rule following the "then" is the rule's _conclusion_ or _consequent_. This part of the rule assigns a membership function to each of one or more output variables. Most tools for working with fuzzy expert systems allow more than one conclusion per rule. 
+
+A typical fuzzy expert system has more than one rule. The entire group of rules is collectively known as a _rulebase_ or _knowledge base_. 
+
+---------------------------------------------------------------------
+
+The Inference Process
+
+With the definition of the rules and membership functions in hand, we now need to know how to apply this knowledge to specific values of the input variables to compute the values of the output variables. This process is referred to as _inferencing_. In a fuzzy expert system, the inference process is a combination of four subprocesses: _fuzzification_, _inference_, _composition_, and _defuzzification_. The defuzzification subprocess is optional. 
+
+For the sake of example in the following discussion, assume that the variables x, y, and z all take on values in the interval [ 0, 10 ], and that we have the following membership functions and rules defined. 
+
+low(t)  = 1 - t / 10
+  high(t) = t / 10
+
+rule 1: if x is low and y is low then z is high
+  rule 2: if x is low and y is high then z is low
+  rule 3: if x is high and y is low then z is low
+  rule 4: if x is high and y is high then z is high
+
+Notice that instead of assigning a single value to the output variable z, each rule assigns an entire fuzzy subset (low or high). 
+
+Notes: 
+
+1.  In this example, low(t)+high(t)=1.0 for all t. This is not required, but it is fairly common. 
+2.  The value of t at which low(t) is maximum is the same as the value of t at which high(t) is minimum, and vice-versa. This is also not required, but fairly common. 
+3.  The same membership functions are used for all variables. This isn't required, and is also *not* common. 
+
+---------------------------------------------------------------------
+
+Fuzzification
+
+In the fuzzification subprocess, the membership functions defined on the input variables are applied to their actual values, to determine the degree of truth for each rule premise. The degree of truth for a rule's premise is sometimes referred to as its _alpha_. If a rule's premise has a nonzero degree of truth (if the rule applies at all...) then the rule is said to _fire_. 
+
+For example: 
+
+x       y       low(x)  high(x) low(y)  high(y) alpha1  alpha2  alpha3  alpha4
+------------------------------------------------------------------------------
+0.0     0.0     1.0     0.0     1.0     0.0     1.0     0.0     0.0     0.0
+0.0     3.2     1.0     0.0     0.68    0.32    0.68    0.32    0.0     0.0
+0.0     6.1     1.0     0.0     0.39    0.61    0.39    0.61    0.0     0.0
+0.0     10.0    1.0     0.0     0.0     1.0     0.0     1.0     0.0     0.0
+3.2     0.0     0.68    0.32    1.0     0.0     0.68    0.0     0.32    0.0
+6.1     0.0     0.39    0.61    1.0     0.0     0.39    0.0     0.61    0.0
+10.0    0.0     0.0     1.0     1.0     0.0     0.0     0.0     1.0     0.0
+3.2     3.1     0.68    0.32    0.69    0.31    0.68    0.31    0.32    0.32
+3.2     3.3     0.68    0.32    0.67    0.33    0.67    0.33    0.32    0.32
+10.0    10.0    0.0     1.0     0.0     1.0     0.0     0.0     0.0     1.0
+
+---------------------------------------------------------------------
+
+Inference
+
+In the inference subprocess, the truth value for the premise of each rule is computed, and applied to the conclusion part of each rule. This results in one fuzzy subset to be assigned to each output variable for each rule. 
+
+I've only seen two _inference methods_ or _inference rules_: _MIN_ and _PRODUCT_. In MIN inferencing, the output membership function is clipped off at a height corresponding to the rule premise's computed degree of truth. This corresponds to the traditional interpretation of the fuzzy logic AND operation. In PRODUCT inferencing, the output membership function is scaled by the rule premise's computed degree of truth. 
+
+Due to the limitations of posting this as raw ASCII, I can't draw you a decent diagram of the results of these methods. Therefore I'll give the example results in the same functional notation I used for the membership functions above. 
+
+For example, let's look at rule 1 for x = 0.0 and y = 3.2. As shown in the table above, the premise degree of truth works out to 0.68. For this rule, MIN inferencing will assign z the fuzzy subset defined by the membership function: 
+
+rule1(z) = { z / 10, if z <= 6.8
+                 0.68,   if z >= 6.8 }
+
+For the same conditions, PRODUCT inferencing will assign z the fuzzy subset defined by the membership function: 
+
+rule1(z) = 0.68 * high(z)
+             = 0.068 * z
+
+Note: I'm using slightly nonstandard terminology here. In most texts, the term "inference method" is used to mean the combination of the things I'm referring to separately here as "inference" and "composition." Therefore, you'll see terms such as "MAX-MIN inference" and "SUM-PRODUCT inference" in the literature. They mean the combination of MAX composition and MIN inference, or SUM composition and PRODUCT inference respectively, to use my terminology. You'll also see the reverse terms "MIN-MAX" and "PRODUCT-SUM" - these mean the same things as the reverse order. I think it's clearer to describe the two processes separately. 
+
+---------------------------------------------------------------------
+
+Composition
+
+In the composition subprocess, all of the fuzzy subsets assigned to each output variable are combined together to form a single fuzzy subset for each output variable. 
+
+I'm familiar with two _composition rules_: _MAX composition_ and _SUM composition_. In MAX composition, the combined output fuzzy subset is constructed by taking the pointwise maximum over all of the fuzzy subsets assigned to the output variable by the inference rule. In SUM composition the combined output fuzzy subset is constructed by taking the pointwise sum over all of the fuzzy subsets assigned to the output variable by the inference rule. Note that this can result in truth values greater than one! For this reason, SUM composition is only used when it will be followed by a defuzzification method, such as the CENTROID method, that doesn't have a problem with this odd case. 
+
+For example, assume x = 0.0 and y = 3.2. MIN inferencing would assign the following four fuzzy subsets to z: 
+
+rule1(z) = { z / 10,     if z <= 6.8
+                   0.68,       if z >= 6.8 }
+
+rule2(z) = { 0.32,       if z <= 6.8
+                   1 - z / 10, if z >= 6.8 }
+
+rule3(z) = 0.0
+
+rule4(z) = 0.0
+
+MAX composition would result in the fuzzy subset: 
+
+fuzzy(z) = { 0.32,       if z <= 3.2
+                   z / 10,     if 3.2 <= z <= 6.8
+                   0.68,       if z >= 6.8 }
+
+PRODUCT inferencing would assign the following four fuzzy subsets to z: 
+
+rule1(z) = 0.068 * z
+      rule2(z) = 0.32 - 0.032 * z
+      rule3(z) = 0.0
+      rule4(z) = 0.0
+
+SUM composition would result in the fuzzy subset: 
+
+fuzzy(z) = 0.32 + 0.036 * z
+
+---------------------------------------------------------------------
+
+Defuzzification
+
+Sometimes it is useful to just examine the fuzzy subsets that are the result of the composition process, but more often, this _fuzzy value_ needs to be converted to a single number - a _crisp value_. This is what the defuzzification subprocess does. 
+
+There are more defuzzification methods than you can shake a stick at. A couple of years ago, Mizumoto did a short paper that compared roughly thirty defuzzification methods. Two of the more common techniques are the CENTROID and MAXIMUM methods. In the CENTROID method, the crisp value of the output variable is computed by finding the variable value of the center of gravity of the membership function for the fuzzy value. In the MAXIMUM method, one of the variable values at which the fuzzy subset has its maximum truth value is chosen as the crisp value for the output variable. There are several variations of the MAXIMUM method that differ only in what they do when there is more than one variable value at which this maximum truth value occurs. One of these, the AVERAGE-OF-MAXIMA method, returns the average of the variable values at which the maximum truth value occurs. 
+
+For example, go back to our previous examples. Using MAX-MIN inferencing and AVERAGE-OF-MAXIMA defuzzification results in a crisp value of 8.4 for z. Using PRODUCT-SUM inferencing and CENTROID defuzzification results in a crisp value of 6.7 for z. 
+
+Note: sometimes the composition and defuzzification processes are combined, taking advantage of mathematical relationships that simplify the process of computing the final output variable values. 
+
+After all this ... 
+
+---------------------------------------------------------------------
+
+Where are Fuzzy Expert Systems Used?
+
+To date, fuzzy expert systems are the most common use of fuzzy logic. They are used in several wide-ranging fields, including: 
+
+* Linear and nonlinear control. 
+* Pattern recognition. 
+* Financial systems. 
+
+and many others I can't think of. It's late. I'm going home! :-) 
+
+---
+Erik Horstkotte, Togai InfraLogic, Inc.
+The World's Source for Fuzzy Logic Solutions (The company, not me!)
+erik@til.com, gordius!til!erik - (714) 975-8522
+info@til.com for info, fuzzy-server@til.com for fuzzy mail-server
+
+---------------------------------------------------------------------
+WebMina@austinlinks.com
+
+© 2000 SiteTerrific Web Solutions. All rights Reserved 
+
+ 
+
+ 
+
+

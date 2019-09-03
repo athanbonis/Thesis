@@ -1,0 +1,74 @@
+
+
+Herbert A. Simon
+
+1916-2001 
+
+The following were Herbert Simon's departmental web pages in 2001. 
+For articles about his life, see: 
+
+http://www.psychologicalscience.org/observer/0401/simon.html 
+http://www.post-gazette.com/obituaries/20010210simon2.asp 
+http://www.umsl.edu/~sauter/DSS/10SIMON.html 
+  
+  
+
+Psychology Research 
+
+Human beings use symbolic processes to solve problems, reason, speak and write, learn and invent. Over the past 45 years, cognitive psychology has built and tested empirical models of these processes as they are used to perform simple tasks and then more complex ones. The models take the form of computer programs that simulate human behavior. 
+
+Research extending the range of such explanations of human thinking to new phenomena and domains have focused on (1) learning from examples, (2) CaMeRa (a model using visual imagery in reasoning), (3) finding good problem representations, (4) EPAM, (a unified theory simulating perception and memory) and (5) the psychology of scientific discovery (BACON and other programs). 
+
+Computer programs have been built that can learn new skills by examining worked-out examples of solved problems. Using these programs as models, with colleagues in the Chinese Academy of Sciences, an entire secondary school mathematics curriculum has been designed (algebra and geometry) that is being used successfully in a score of Chinese schools. 
+
+By experimenting on the relation between problem difficulty and the way a problem is formulated, research has centered around trying to understand how problem solvers can discover more effective problem representations. Experiments and computer models of perception (CaMeRa) are also aimed at explaining why visual diagrams often provide powerful aids to problem solving. [Note: Running versions of CaMeRa are available for both PC-Windows and older Macintosh's using either Macintosh Common Lisp or Allegro common Lisp.] 
+
+The EPAM program explains behavior in a score of experimental paradigms, including (1) the classical experimental domain of verbal memory, (2) experiments on expert memory, and (3) learning to categorize stimuli. A public version of EPAM has been prepared for dissemination to other cognitive psychologists. 
+
+In research on scientific discovery, computer programs are capable of making actual discoveries that model important cases from the history of science. Laboratory experiments with subjects in discovery situations have also been conducted. 
+
+All of the research involves comparing computer models that simulate behavior with laboratory experiments in which people perform the same tasks. Making extensive use of production system programming languages for cognitive simulation, which were introduced about 30 years ago, provides a new and more sophisticated interpretation of stimulus-response relations. 
+
+For descriptions of Professor Simon's research and his latest publications outside psychology, click on: 
+
+Economics and Management Research 
+
+Philosophy of Science Research 
+
+Computer Science Research 
+
+Some Related Publications in Psychology: 
+
+Zhu, X., & Simon, H.A. (1987). Learning mathematics from examples and by doing. Cognition and Instruction, 4, 137-166. 
+
+Larkin, J.H., & Simon, H.A. (1987). Why a diagram is (sometimes) worth 10,000 words. Cognitive Science, 11, 65-100. 
+
+Langley, P., Simon, H.A., Bradshaw, G.L., & Zytkow, J.M. (1987). Scientific Discovery: Computational Explorations of the Creative Processes. Cambridge, MA: The MIT Press. 
+
+Qin, Y., & Simon, H.A. (1990). Laboratory replication of scientific discovery processes. Cognitive Science, 14, 281-312. 
+
+Kaplan, C., & Simon, H.A. (1990). In search of insight. Cognitive Psychology, 22, 374-419. 
+
+Vera, A.H., & Simon, H.A. (1993). Situated action: A symbolic interpretation. Cognitive Science, 17, 7-48. 
+
+Richman, H.B., Staszewski, J.J., & Simon, H.A. (1995). Simulation of expert memory using EPAM IV. Psychological Review, 102 (2), 305-330. 
+
+Qin, Y., & Simon, H.A. (1995). Imagery and mental models of problem solving. In J. Glasgow, N.H. Narayanan, & B. Chandrasekaran (Eds.), Diagrammatic reasoning: Computational and cognitive perspectives. Menlo Park, CA: AAAI, The MIT Press. 
+
+Gobet, F., & Simon, H.A. (1996). The roles of recognition processes and look-ahead search in time-constrained expert problem solving: Evidence from grand-master-level chess. Psychological Science, 7 (1), 52-55. 
+
+Zhu, X., Lee, Y., Simon, H.A., & Zhu, D. (1996). Cue recognition and cue elaboration in learning from examples. Proceedings of the National Academy of Sciences, 93, 1346-1351. 
+
+Okada, T., & Simon, H.A. (1997). Collaborative discovery in a scientific domain. Cognitive Science, 21 (2), 109-146. 
+
+Gobet, F., Richman, H.B., Staszewski, J.J., & Simon, H.A. (1997). Goals, representations and strategies in a concept attainment task: The EPAM model. In D.L. Medin (Ed.), The psychology of learning and motivation: Vol. 37 (pp. 265-290). San Diego, CA: Academic Press. 
+
+Tabachneck-Schijf, H.J.M., Leonardo, A.M., & Simon, H.A. (1997). CaMeRa: A computational model of multiple representations. Cognitive Science, 21, 305-350. 
+
+To access Herb Simon's complete bibliography click on the years listed below for a listing of publications for the corresponding time periods. 
+
+1930-1950's, 1960's, 1970's, 1980's, 1990's, or 2000- 
+
+To access biographical information click hasbio. 
+
+Home 

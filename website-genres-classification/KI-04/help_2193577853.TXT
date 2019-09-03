@@ -1,0 +1,188 @@
+ Search | Directories | Reference Tools UW Home > UWIN > Computing and Networking > Pine Information Center  
+Search Pine Information Center 	
+
+Pine FAQs
+
+---------------------------------------------------------------------
+FAQ Topics 
+
+1.  Getting Help With Pine 
+2.  What is....? 
+3.  Pine Bugs 
+4.  Error Messages 
+5.  General Usage Questions 
+6.  Sending and Receiving Mail 
+7.  Attachments 
+8.  Usenet Newsreading 
+9.  Customization and Configuration 
+10. Legal Issues 
+11. Information for System Administrators, Developers, and the Technically Inclined 
+12. Account Conversion and Transfer 
+13. Security 
+14. Pine Development 
+15. Additional Pine FAQs 
+
+---------------------------------------------------------------------
+1. Getting Help with Pine 
+
+* 1.1 What documentation is available for Pine? 
+* 1.2 Whom should I ask for help with Pine? 
+2. What is ...? 
+
+* 2.1 What is PINE? 
+
+* 2.1.1 What PINE Does... 
+* 2.1.2 What PINE Does Not Do... 
+
+* 2.2 What is PICO? 
+* 2.3 What is PILOT? 
+* 2.4 What is MIME? 
+* 2.5 What is IMAP? 
+* 2.6 What is SMTP? 
+* 2.7 What is POP3? 
+3. Pine Bugs 
+
+* 3.1 Policy on Bugs 
+* 3.2 Why does Pine hang when I read a certain message? When I look at the message, I see that it has a Content-Location header. 
+4. Error Messages 
+
+* 4.1 What does "Folder Format Invalidated..." mean? 
+* 4.2 What happens when two Pine sessions access the same mailbox at the same time? 
+* 4.3 What does the message "locked, override in _XXX_ sec" mean? 
+* 4.4 What are the messages with the subject DON'T DELETE THIS MESSAGE--FOLDER INTERNAL DATA about? 
+
+* 4.4.1 What does the quell-folder-internal-msg feature do? 
+
+* 4.5 Why do I get the message "Invalid base64 string" when I try to authenticate to a Cyrus server? 
+5. General Usage Questions 
+
+* 5.1 Pine seems to ignore some of my command keystrokes - why? 
+* 5.2 Why are certain commands not available? 
+* 5.3 What are these .pine-debug files for? 
+
+* 5.3.1 Can I delete the .pine-debug files? 
+* 5.3.2 How do I change the number of .pine-debug files kept or prevent the .pine-debug files from being created? 
+
+* 5.4 Why does Pine repeatedly ask for my password after my intitial login? 
+* 5.5 Why is it that I have to exit and reopen Pine in order to receive new mail? 
+* 5.6 How do I do operations on multiple messages? (or, How do I use Pine's aggregate commands?) 
+* 5.7 Does Pine block messages? 
+* 5.8 Can I create directories to store Pine folders? 
+6. Sending and Receiving Mail 
+
+* 6.1 How do I send a message to multiple recipients without showing all their names? 
+* 6.2 Can I get a "return-receipt" when sending a message with Pine? 
+* 6.3 Can I eliminate the @host.domain from local addresses? 
+* 6.4 How can I tell immediately whether I have received new mail? 
+7. Attachments 
+
+* 7.1 How do I attach a file in Pine? 
+* 7.2 Why does Pine encode text attachments? 
+
+* 7.2.1 How can I send a text file without it being encoded? 
+* 7.2.2 Why does Pine use Base64 instead of UUencode? 
+
+* 7.3 How do I convert a Sun Mailtool attachment to MIME format? 
+* 7.4 How do I decode an attachment in a message I received that is in BinHex or UUencoded format? 
+* 7.5 How can someone without Pine decipher an attachment to a message I send? 
+* 7.6 How can I delete attachments? 
+* 7.7 Why doesn't "attached-to-ansi" printing work? 
+8. Usenet Newsreading 
+
+* 8.1 How can I use Pine for reading and posting Internet News? 
+* 8.2 How can I sort newsgroups by thread? 
+* 8.3 How do I mark all messages in a newsgroup as "read" or "deleted"? 
+* 8.4 How do I bring back (undelete) news messages I have deleted? 
+9. Customization and Configuration  
+
+   General 
+
+* 9.1 Where does Pine look for configuration information? 
+
+* 9.1.1 How can I get a fresh copy of my Pine configuration file? 
+
+   Server Config 
+
+* 9.2 Can I customize Pine on a per folder basis? 
+* 9.3 Can Pine be used with a POP server? 
+   User Settings 
+
+* 9.4 Why does my message index show From: instead of To:? 
+* 9.5 How do I change my 'From:' line? 
+* 9.6 How do I define my own headers like Reply-To and Organization? 
+* 9.7 How can I have a signature automatically appended to my mail messages? 
+
+   Program Behavior 
+
+* 9.8 Can I reduce the frequent prompting to confirm an operation? 
+* 9.9 How can I filter messages into different incoming folders? 
+* 9.10 How do I control what is displayed in the FOLDER INDEX screen? 
+* 9.11 How can I control association of MIME-attachments with applications and filenames? 
+* 9.12 How can I read a ROT13 encoded message? 
+* 9.13 How can I make Pine work with a Wyse 60 terminal? 
+* 9.14 Does Pine offer color support? 
+
+   PC-Pine Specific 
+
+* 9.15 How can I perform spell checking with PC-Pine for Windows? 
+
+10. Legal Issues 
+
+* 10.1 Is Pine Open Source? 
+* 10.2 Weren't earlier Pine licenses less restrictive regarding redisribution of modified versions? 
+* 10.3 Can patch files be distributed by Pine users? 
+* 10.4 Are UW's "C-Client" libraries released under the same license as Pine? 
+11. Information for Systems Administrators, Developers, and the Technically Inclined 
+
+* 11.1 Can we use Pine/Pico/Pilot source code in commercial products? 
+* 11.2 What are the advantages of the various mailbox formats Pine supports? 
+* 11.3 Can Kerberos authentication be used with Pine? 
+* 11.4 How does folder locking work? 
+* 11.5 Where does Pine create lockfiles, and what should that directory's permissions be? 
+* 11.6 Why does Pine have problems with my filter's locking? 
+* 11.7 Why doesn't Pine recognize Content-Length header field? 
+* 11.8 How do I configure Pine to not leave mail in /usr/spool/mail? 
+* 11.9 Why did my messages disappear after I ran Pine? I can still see them in Pine, but not with any other program (e.g. my ISP's POP server). 
+* 11.10 Why do I get the message "Unparsable Date" when I read messages? 
+* 11.11 Why can't I compile Pine under SCO unix? 
+* 11.12 How can I set up Pine for rimap under Solaris 2.4 and NIS+? 
+* 11.13 What do I need to do when compiling Pine to let users change their ``From:'' line? 
+* 11.14 Where is the .pine-debug setting set at compile-time? 
+* 11.15 What do I need to do to configure specific servers for use with Pine? 
+* 11.16 What do I need to know about Pine file locking and what does the "mailbox vulnerable" error mean? 
+* 11.17 How do I convert mh to mbx folders? 
+12. Account Conversion and Transfer 
+
+* 12.1 How do I transfer messages from Pine on a Unix host to my PC? 
+* 12.2 How can I have all future messages sent to me automatically forwarded to another account? 
+* 12.3 "How can I forward messages I have already saved in Pine to another account? 
+
+* 12.3.1 While I'm transferring my messages ... how do I transfer my email addressbook? 
+
+* 12.4 How do I convert Berkeley Mail aliases to Pine Addressbook? 
+* 12.5 How do I convert Elm aliases to Pine Addressbook? 
+* 12.6 How do I convert from Pine Address Book to/from the equivalents in Eudora, Netscape, Pegasus, ... ? 
+* 12.7 How do I convert my Pine addressbook file to Mutt alias format? 
+13. Security 
+
+* 13.1 General Pine Security 
+* 13.2 How do I get a secure version of PC-Pine? 
+* 13.3 Is there a "remote exploit" bug in Pine's handling of mailcap entries? 
+* 13.4 Can I get a virus through email? 
+* 13.5 What should I do if I receive email about a computer virus? 
+* 13.6 On Win2k, why do I get errors when trying to validate my host name? 
+14. Pine Development 
+
+* 14.1 What is the latest version of Pine, and what's new in it? 
+* 14.2 When is the next release of Pine scheduled? 
+* 14.3 What are the results of the anonymous messages sent to the UW for tallying? 
+15. Additional Pine FAQs 
+
+* 15.1 Are there other Pine FAQs available? 
+* 15.2 Can I contribute to these FAQs? 
+
+Search Pine Information Center 	
+Pine® Information Center
+Comments?
+Modified: July 15, 2003
+ 

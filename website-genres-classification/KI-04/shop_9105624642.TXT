@@ -1,0 +1,77 @@
+.n {font-size: 10px; font-family: verdana } .nb {font-size: 10px; font-family: verdana; font-weight: bold;margin-bottom:5px} .nb a {color: black; font-weight: bold; text-decoration: none;} .nb a:hover {color: #0000ff; font-weight: bold; text-decoration: underline;} .nb a .st {color: #0000ff; font-weight: normal; text-decoration: none;} .nb a:hover .st {color: #0000ff; font-weight: normal; text-decoration: underline;} .u {font-family: verdana; font-size: 10px; font-weight: bold; color: white; background-color: #fe5019; padding-left: 2px;} .u a {font-family: verdana; font-size: 10px; font-weight: bold; color: white; text-decoration: none;} .u a:hover {font-family: verdana; font-size: 10px; font-weight: bold; color: white; text-decoration: underline;} .u2 {font-family: verdana; font-size: 13px; font-weight: bold; color: white; background-color: #fe5019; padding: 1px;} .c {font-family: Verdana; font-size: 10px; font-weight: normal;} .c DT { padding-bottom: 4 px} .c B {font-weight: normal;color:red} .ctd {background-color:white;} .op{font-family:verdana;font-size:11px;color:red;text-decoration:line-through;font-style:italic;} .bb {font-weight:bold;font-family:verdana;font-size:13px;} .t {background-color: #fe5109;font-weight:bold;font-size:12px;text-transform:uppercase;color:white;font-family:verdana;padding-bottom:3px} .y {background-color:#ffffee;} .b {font-family: verdana; font-size: 13px;} .footlink {font-family:verdana; font-size:10px;} .footlink a:hover {color: #0000ff} .c A {font-weight: bold; font-size: 13px} .nb a .st {text-decoration: underline;} a {text-decoration: underline;} a:hover {color: #fe5019;} function dOnP(p,t1,t2) { if(document.location.href.indexOf(p) > 0) { document.write(t1); } else { document.write(t2); } }    function checkSS(f) {  if (f.siteSearchQuery.value != '') {return true;}  else {alert('Please enter a keyword!');return false;} } 
+
+Top Special Offer: 	
+
+O2 Sendo m550 £79.99 	
+View all Special Offers >> 	
+
+Hot Products	 
+
+George Foreman GrillsCompare prices 	
+
+Pioneer Home Cinema System under £300Compare prices 	
+
+Red Hot Chili Peppers - Greatest Hits CDCompare prices 	
+
+Canon MV 600i CamcorderCompare prices 	
+
+Apple IPOD MP3 PlayerCompare prices 	
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Books  
+inc. magazines, bookshops... 
+Cars & Motors
+inc. new cars, in-car stereo, used cars... 
+Computers & Software
+inc. internet ready pcs, pdas, printers... 
+Digital Cameras
+Sony, Fuji, Canon... 
+DVD & Video
+inc. films, movies, and box sets on DVD and VHS... 
+Electronics
+inc. TV, DVD Player, MP3 Player, PDA... 
+Fashion & Lingerie
+inc. designer clothing, accessories...	
+ Flights
+Cheap flights, airline tickets... 
+Games, Consoles & Toys
+inc. XBox, PS2, GBAdvance... 
+Gifts & Gadgets
+inc. flowers, chocs, perfume... 
+Health & Beauty
+inc. skin care, perfume, contact lenses... 
+Home & Garden
+inc. black & decker products, drills, saws... 
+Household Appliances
+inc. washing machines & vacuum cleaners... 
+January Sales
+January Sales now on - updated regularly!	
+ Mobiles, Phones & Faxes
+inc. mobile phones, pre-pay, ringtones... 
+Money & Bills
+inc. credit cards, loans, phone & gas bills... 
+Music
+inc. CDs and instruments... 
+Shopping 4 Businesses
+B2B purchases inc. laptops, desktops, printers... 
+Sport & Fitness
+inc. football, cycling, fitness equipment... 
+Travel
+inc. cheap flights, hotels & holidays, skiing... 
+Wine & Spirits
+inc. food and hampers, wine and beer...	 		
+  	  	  
+    
+  Company info | A-Z | Hot Categories | Shopping Guides
+  	
+  	  
+    Kelkoo in Europe :     Denmark    France    Germany    Italy    Netherlands    Norway    Spain    Sweden   
+
+Browse our AZ sites in the following categories: Books - CDs - Videos - Flights - Hotels - Car Hire - Holidays - Top Searches - Shopgenie 	
+
+Hot Categories : Televisions -   PDAs -   Laptops -   Printers -   Computing Accessories -   DVD Players - Car Hire -   Camcorders -   Digital Camera -   Software -   Washing Machines 	
+
+

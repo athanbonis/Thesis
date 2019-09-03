@@ -1,0 +1,60 @@
+
+
+Multivariate Statistics: An Introduction
+
+Welcome to this introduction to the family of data analysis techniques often grouped together under the name, "multivariate statistics." The word multivariate should say it all -- these techniques look at the pattern of relationships between several variables simultaneously. This may sound scary, but fear not -- you do not need training in highly advanced statistics to follow the explanation in these pages. We will look at three types of multivariate methods -- factor analysis, multidimensional scaling, and cluster analysis.
+
+Multivariate statistics help the researcher to summarize data and reduce the number of variables necessary to describe it.
+
+How are these techniques used?
+
+Most commonly multivariate statistics are employed: 
+
+* for developing taxonomies or systems of classification 
+* to investigate useful ways to conceptualize or group items 
+* to generate hypotheses 
+* to test hypotheses 
+
+One researcher has this to say about factor analysis, a comment that could apply to all three techniques: 
+
+When I think of factor analysis, two words come to mind: "curiosity" and "parsimony." This seems a rather strange pair -- but not in relation to factor analysis. Curiosity means wanting to know what is there, how it works, and why it is there and why it works ... Scientists are curious. They want to know what's there and why. They want to know what is behind things. And they want to do this in as parsimonious a fashion as possible. They do not want an elaborate explanation when it is not needed ... This ideal we can call the principle of parsimony (Kerlinger, 1979).
+
+How do these techniques differ from regression?
+
+In multiple regression and analysis of variance, several variables are used, however one -- a dependent variable -- is generally predicted or explained by means of the other(s) -- independent variables and covariates. These are called dependence methods.
+
+Factor analysis, multidimensional scaling (MDS) and cluster analysis look at interrelationships among variables. They are not generally used in prediction, there is no p-value, and the researcher interprets the output of the analysis and determines the best model. This can be frustrating! (See cautions for novice researchers.)
+
+What are the assumptions of multivariate analyses?
+
+All of the models require that input data be in the form of interrelationships -- this means correlations for factor analysis. MDS and cluster analysis can use a variety of different input data -- distances, or measures of similarity or proximity. This means that MDS and cluster analysis can be somewhat more flexible than factor analysis.
+
+A big assumption of these methods is that the data itself is valid . (See Trochim's Knowledge Base for a discussion of validity, especially construct validity.) Because these methods do not use the same logic of statistical inference that dependence methods do, there are no robust measures that can overcome problems in the data. So, these methods are only as good as the input you have. The "garbage in-garbage out" rule definately applies.
+
+What does the output look like?
+
+In each case, the output will look somewhat different, but in all of the techniques, the researcher is required to look at the results and make some determination of how many factors, dimensions or clusters to use in further analysis in order to represent the data. What the researcher should not forget is that each case or variable used in the analysis is simultaneously classified on all the dimensions. While this is most apparent in multidimensional scaling, it applies equally well to the other techniques.
+
+A recommendation
+
+I recommend that visitors to this site begin their journey into the world of multivariate classification and measurement with a look at the Factor Analysis page. While you may be more interested in MDS or cluster analysis, those methods involve many of the same decision-making processes as factor analysis. In the interest of parsimony (always a good thing!), I will assume that visitors to the MDS and cluster analysis pages have skimmed the factor analysis page.
+
+Now, armed with this information, you are now ready to look at:
+
+Forward to the Factor Analysis page 
+
+Forward to the Multidimensional Scaling (MDS) page 
+
+Forward to the Cluster Analysis page 
+
+Other links
+
+* Cautions! -- computer programs and other things to think about before trying out these techniques 
+* References -- an annotated list 
+* Multidimensional Analysis -- an overview of some of the math behind these methods, from Prof. George W Hart. Not for the faint of heart. 
+
+Got a beef with anything written here?
+ Send me your comments and suggestions:
+ Colleen Flynn Thapalia
+
+

@@ -1,0 +1,24 @@
+Experimental Windows Builds 
+ Name                    Last modified       Size  Description
+
+---------------------------------------------------------------------
+
+Parent Directory        31-Jul-2003 08:35      -  
+ old/                    13-Dec-2003 10:48      -  
+ testing/                21-Dec-2003 12:01      -  
+ xchat-2.0.5b.exe        19-Oct-2003 14:26   2.0M  
+ xchat-2.0.6b.exe        15-Dec-2003 04:53   1.8M  
+ xchat-2.0.7.exe         01-Jan-2004 14:11   1.7M  
+
+---------------------------------------------------------------------
+
+* Minor revisions are numberd a,b,c,d... "a" does not stand for alpha, and "b" is not beta, they are just newer rebuilds. 
+* Grab your copy of ActivePerl 5.8 or TinyPerl if you want to run Perl scripts.
+ 
+* Some other unofficial builds of 2.0 are available here. These builds require you to install GTK+re, but let you choose GTK+ themes, might have some different features and are updated more often, so take your pick.
+ 
+* These releases only look good on Windows XP. They have an ugly gui on older versions of Windows because it lacks the necessary libraries. 
+* Do not link to these exe's from your web site, they will become 404 when they're moved to old/. Instead, link to http://xchat.org/win32. 
+* The installer is only available in English and German. If you want to contribute other translations, you can do so by looking at file this. Then email the new translation to me. I'll include it in the next release. (French, Spanish and Croatian have since been contributed!) 
+
+

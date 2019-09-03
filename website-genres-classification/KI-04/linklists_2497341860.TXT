@@ -1,0 +1,552 @@
+
+HCI Bibliography : HCI Webliography : Accessibility Resources   
+ Last Modified: 2004-01-16     Accesses since 1999-05-07: 44655   	Gary Perlman 
+director@hcibib.org 	
+
+---------------------------------------------------------------------
+ This page contains links to information on making computers and software more accessible to persons with disabilities. As of May 2001, this page serves as the ACM SIGCAPH (Special Interest Group on Computers and the Physically Handicapped) page of Links to Internet Resources on Accessibility.   
+
+Find Internet Resources:       
+  Only within accessibility   All Internet resources             
+
+If you want to add or change a link, click on Suggest-a-Link in a specific category.   
+---------------------------------------------------------------------
+ACCESSIBILITY LINKS (185 links) 2004-01-16 
+
+Category Description Links 
+COMPANIES	 Companies (or divisions of companies) with a focus on making software more accessible. 	51 	
+DISCUSSION	 Mailing lists, chat rooms and newsgroups on accessibility issues. 	7 	
+GUIDELINES	 Guidelines, principles and standards for developing accessible software. 	15 	
+ORGANIZATIONS	 Organizations devoted to making software more accessible. 	32 	
+PAPERS	 Online papers on accessible software. 	19 	
+RESOURCES	 Sources of information from organizations, laboratories and companies on making software accessible. 	96 	
+TOOLS	 Software and hardware for making interfaces accessible. 	15 	
+
+New Links Since: 2003-10-01 
+
+* Alpha Squared Solutions  
+ 2004-01-16  Rhona Aylward  Alpha Squared Solutions  info@a2solutions.co.uk  Provides a completely independent and comprehensive website audit service including accessibility (W3C WAI-AAA), HMTL, XHTML, CSS, internal and external links, reverse links, company references on the internet, spelling, grammar, timelines and more. 
+* Web Accessibility Toolbar  
+ 2004-01-09  steven faulkner  Accessible Information Solutions  steven.faulkner@nils.org.au  The Accessibility Toolbar software contains a range of Tools: * To examine discrete aspects (structure/code/content) of a html document * To facilitate the use of 3rd party applications * To simulate the user experience of different users along with a range of references and additional resources. 
+
+---------------------------------------------------------------------
+COMPANIES Companies (or divisions of companies) with a focus on making software more accessible. 
+View full-records on "companies"  |  Suggest-a-Link on "companies" 
+
+1.  AccessEngine.com  
+Charles Crosbie  2002-04-20  AccessEngine.com  Charles@AccessEngine.com  Search, Rate, and Map local access information by/for people with disabilities 
+2.  Accessibility Aids @ RehabTool.com  
+D. Gerard  2001-04-18  RehabTool.com  info@rehabtool.com  High-tech assistive, adaptive and accessibility aids for children and adults with disabilities and special needs. Free product search and referrals. 
+3.  Accessible Web Site Design  
+Steven Faulkner  2003-01-30  Vision Australia Foundation  steven.faulkner@visionaustralia.org.au  Web Accessibility consulting, reviews and training conducted by Vision Australia Foundation (not for profit) 
+4.  AccessNow  
+Sara Poticha  2001-08-17  HirePotential  spoticha@hirepotential.com  AccessNow is a strategic relationship between HirePotential and Computer Technology Associates. AccessNow works with companies and federal agencies to implement accessible technology solutions for Internet, Hardware, Software, Equipment, and Individual Accessibility that improve an organization's ability to realize the maximum potential of attracting and working with disability and aging communities. 
+5.  Acessibility.com - accessible web site design and retrofitting services and resources  
+Deborah Picardo  2001-11-04  Acessibility.com  info@acessibility.com  Acessibility.com is dedicated to offering free links, information, resources and studies and affordable fixed price consulting and one-stop shop services for accessible Web site design, critique, 508 compliance, and retrofitting services. 
+6.  Adobe Access  
+ 2001-05-16    
+7.  Alpha Squared Solutions  
+Rhona Aylward  2004-01-16  Alpha Squared Solutions  info@a2solutions.co.uk  Provides a completely independent and comprehensive website audit service including accessibility (W3C WAI-AAA), HMTL, XHTML, CSS, internal and external links, reverse links, company references on the internet, spelling, grammar, timelines and more. 
+8.  AOL (America Online) Accessibility Policy  
+ 2001-05-16    
+9.  Apple Computer Disability Connection  
+    
+10. Bunnyfoot Universality  
+Jon Dodd  2002-12-03  Bunnyfoot  jon@bunnyfoot.com  UK consultancy providing usability and accessibility testing and audits. Bunnyfoot actively promote accessiblity issues at conferences, workshops and media events. 
+11. Crunchy Technologies  
+ 2001-12-04    
+12. Cynthia - Online web content accessibility validation  
+ 2003-05-22    
+13. Developing Accessible User Interfaces  
+Katherine Brennan  2001-09-11  Optavia Corporation  kbrennan@optavia.com  Optavia Corporation helps businesses create universal and accessible online experiences to better connect with their customers. Optavia serves clients worldwide through training, design evaluation, usability consulting, and site development services, leveraging proven user-centered design methodology to create interactive environments that satisfy customer needs and achieve business objectives. 
+14. Digital Media Access Group  
+Lorna Gibson  2001-06-12  Digital Media Access Group  lgibson@computing.dundee.ac.uk  A consultancy group supporting organisations ensure and promote accessibility on their digital resources. 
+15. Discovery Enterprises  
+Karin Mitchell  2000-09-04  Company  discovery.ent@prodigy.net  Discovery Enterprises provides online technology training for visually impaired individuals. 
+16. E-Ramp, Inc., Architecting corporate IM/IT accessibility and accommodation for persons with disabillities  
+Bill Shackleton  2002-10-05  E-Ramp, Inc.  bill@eramp.com  A Strategic Approach to Accessibility: E-Ramp helps clients to architect accessibility into their corporate environments. This approach takes into consideration, among other things: * Web Accessibility * Sensitive Accommodation of Employees with Disabilities * Current and Future IM/IT Infrastructure * Accessible Delivery of Programs, Services and Products to Clients Integrating "e-ramps" into your organization raises its quality for everyone - including persons with disabilities. 
+17. Early Learning Site  
+Sandra D'Souza  2002-08-04  ABA Materials.com  sandra@aba-materials.com  We produce CD-ROMs with picture flash cards that can be previewed/printed to teach speech, language and communication. 
+18. Expert InSite, Inc.  
+Chris McFarlane  2002-03-26  Expert InSite, Inc.  chris.mcfarlane@expertinsite.com  Web usability and accessibility consulting firm focused on simplifying the transfer of information between the Web and its users. Specializing in Section 508 compliance and WAI guideline conformance. 
+19. Henter Joyce, a division of Freedom Scientific  
+Bryan Carver  2000-05-08  Henter-Joyce, a division of Freedom Scientific  info@hj.com  Leading developers of software for blind and low vision computer users: JAWS for Windows Screen Reader and MAGIC Screen Magnifier; available for Win 98/95, NT, and 2000 Pro, as individual, corporate, and institutional licenses. 
+20. High Accessibility Pages (HAP) for readers with special visual needs  
+Leo Petipas  2003-05-22  Concrete Canoes Technical Writing Service  info@concretecanoes.com  A technical writing service web site with alternate sets of pages for readers with special preferences. 
+21. HirePotential  
+Sara Poticha  2001-08-17  HirePotential  spoticha@hirepotential.com  HirePotential is a national consulting firm that focuses on providing universal accessibility and compliance services to Fortune 1000 corporations. 
+22. IBM Accessibility Center  
+ 2001-05-16    Brings together product and service information for people with disabilities, and for Human Resource Professionals who are proactively seeking knowledge about solutions or empowering persons with disabilities to ensure a productive working environment. 
+23. IBM Accessibility Center Guidelines  
+ 2001-05-16    Guidelines for accessibility for general software, Web applications, Java applications, hardware, etc. 
+24. Inclusive Technologies  
+Jim Tobias  2002-11-06  Inclusive Technologies  tobias@inclusive.com  Inclusive Technologies delivers technical and business process consulting on accessibility of information and communication technologies, both hardware and software. Product accessibility audits, new product development support, marketing assistance, and staff training. 
+25. Is Your Website Legal?  
+Loud Internet  2003-07-03  Loud Internet Ltd  info@loud.co.uk  At Loud Internet we have experience of fulfilling the requirements of the Disability Discrimination Act. We create demonstrably accessible websites whilst achieving exceptional standards of design and brand impact. 
+26. Macromedia Accessibility  
+ 2001-05-16    
+27. Microsoft Accessibility and Disabilities Site  
+    
+28. Microsoft Accessible Web Design Guidelines  
+ 2001-12-13    "By following accessibility design practices and using Microsoft Active Accessibility, you can make technology products for your customers with accessibility needs." 
+29. Nomensa - User Experience Experts  
+Alastair Campbell  2002-11-19  Nomensa  ac@nomensa.com  Nomensa are committed to making the web more usable and more inclusive - making accessible websites for private and public sector companies. 
+30. Opera Software Accessibility  
+ 2001-05-16    
+31. Oyster Search Engine Optimisation  
+Carmen Mardiros  2003-03-21  Oyster Web  corrsinblue@hotmail.com  Internet Consultancy offers website design and search engine promotion services for UK and International market. A series of articles on accessible web site design trying to accommodate web designers with the concept of accessibility and the design compromise for the sake of users. 
+32. Pollenation Internet Accessibility Services  
+Tim Parkin  2003-07-08  Pollenation Internet Ltd  tim@pollenation.net  Pollenation Internet offer advanced facilities for the consultation on and implementation of accessibility programmes for UK companies. 
+33. RAMP- Robust Accessibility Management & Production  
+Preety Kumar  2001-11-08  Deque Systems, Inc.  preety.kumar@deque.com  RAMP is an open platform productivity tool that automates Section 508 and WAI Triple-A compliance detection, remediation, auditing, and reporting. 
+34. RetroAccess  
+Derren Hermann  2001-09-13  RetroAccess  comments@retroaccess.com  RETROACCESS is a website evaluation and correction tool that checks your website code against established accessibility standards and conveniently guides you through the repair of those problems. 
+35. SSB Technologies  
+Chris Jones  2000-10-10  SSB Technologies  contact@ssbtechnologies.com  SSB Technologies is a company founded by technologists with disabilities which has developed automated software tools which help make web sites and intranets accessible to people with disabilities 
+36. Sun Microsystems' Accessibility Program  
+ 2000-07-18    "Driven by the belief that designing to meet the needs of users with disabilities can improve the productivity of ALL users." Includes articles and papers, mainly with a focus on Java support for accessibility. 
+37. The Accessibility Experts  
+Joe Williams  2001-12-01  The Accessibility Experts  info@accessibilityexperts.com  Access to the World Wide Web to the blind is achievable and an inalienable right to the handicap. The founders of Accessibility Experts are committed to using their web development knowledge to empower the blind. 
+38. Toorak Usability  
+Lisa Halabi  2002-02-26  Toorak Usability  lisa.halabi@toorakusability.co.uk  Specialists in usability and accessibility testing and consultancy. 
+39. uiConsulting: Providing complete interface design and development services for websites, intranets, and software applications.  
+Hilary Little  2002-07-17  uiConsulting  hilarylittle@uiconsulting.com  Providing complete interface design and development services for websites, intranets, and software applications. Our specialty is creating usable and accessible web interfaces. 
+40. Unbounded Access  
+Jael Kurtz  2002-11-28   jael@ubaccess.com  A provider of web accessibility technology, services and research. 
+41. Usability Testing and Section 508 Reviews in Atlanta  
+John M. Morgan, Ph.D.  2002-10-23  User Insight  contact@userinsight.com  User Insight provides Usability Testing, Focus Groups and Section 508 Reviews in Atlanta, Georgia. 
+42. UsableNet - Website Testing Systems  
+Melissa Hall  2001-08-28   melissa@usablenet.com  source for Web usability technology, offering Web-based services and computer software to Web development professionals, and providing a gateway for the Web research community to improve the Web browsing experience. Check the accessibility and usability of your site (first 5 pages). 
+43. Using Technology to improve the quality of life  
+Greg Corpier  2002-08-20  Corpier Consulting Services  greg@corpierconsulting.com  voice commandable home automation system customized for physically handicapped. 
+44. Watchfire WebXACT website testing  
+ 2003-05-22    WebXACT is a free online service that lets you test single pages of web content for quality, accessibility, and privacy issues. 
+45. WAVE 3.0 Accessibility Tool (BETA)  
+ 2003-05-22    Helps check your page for accessibility for people with disabilities. 
+46. Web Accessibility and Usability Consultants, Designers, Developers and Trainers  English German  
+John Britsios  2003-05-22  Webnauts Net  webmaster@webnauts.net  Web Accessibility and Usability Consultants, Developers and Trainers. The ones who care about the users of the web. Making usability and accessibility possible. 
+47. Web Accessibility for Section 508  
+James W. Thatcher  2002-09-24  JimThatcher.com  Jim@JimThatcher.com  Online course on Section 508 (U.S.) accessibility. 
+48. Web design UK and search engine optimisation  
+Carmen Mardiros  2003-08-30  Mardiros Internet Marketing  corrsinblue@hotmail.com  Offers web design services focused on accessibility issues. Also offers search engine optimisation as well as articles on accessibility that are meant as guidelines. 
+49. Webdesign - Hamburg - BIGPiNG!  German  
+Ulrich S. Kapp  2003-09-22  BIGPiNG! OHG  kapp@bigping.de  Die BIGPiNG! OHG realisiert barrierefreies und benutzerfreundliches Webdesign in XHTML und CSS2 nach W3C validiert. 
+50. WebSavvy Access  
+Greg Gay  2002-11-01  University of Toronto  web.savvy@utoronto.ca  Accessibility evaluations, consultation, and design service (W3C WAI, Section 508) 
+51. WestWindMoves Internet Consultants  
+standards compliant w3c wai bobby  2003-03-12   support@westwindmoves.com  WestWindMoves provide consultancy and design accessible standards-compliant web sites for clients wishing to reach a larger target audience. 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+DISCUSSION Mailing lists, chat rooms and newsgroups on accessibility issues. 
+View full-records on "discussion"  |  Suggest-a-Link on "discussion" 
+
+1.  ACS lists page - relevant e-mail list is ELSIC list (acselsic-l)  
+Andrew Freeman  1999-01-08  Australian Computer Society (ACS)  afreeman@pcug.org.au  The ACS ELSIC committee has a Disability Taskforce. Taskforce issues, together with other ELSIC related matters, are discussed on the ELSIC list. 
+2.  alt.comp.accessibility  
+ 2000-08-29    A newsgroup for discussion of computers and accessibility. 
+3.  alt.comp.blind-users  
+    Computer technology for the visually impaired. 
+4.  Archives of VICUG-L: Visually Impaired Computer Users' Group List  
+    
+5.  Introductory Design Tips on Web Access  
+Todd Schwanke  2003-01-25  University of Wisconsin-Milwaukee  schwanke@uwm.edu  This article is appropriate for any instructor who is considering or currently teaching a Web-based (online) course. It is of particular interest for instructors who design their own courses in utilities such as Blackboard CourseInfo, WebCT, Web Course in a Box (WCB), and LearningSpace. The article can also be useful for Web page designers of any ability level and anyone with an interest in disability and accessibility. 
+6.  Web Accessibility  
+Harry Woodrow  2002-10-19   harry_woodrow@acslink.net.au  Lesson Notes covering Web Accessibility as a resource for Lectures presented by Harry Woodrow as a Guest Lecturer at Murdoch University in 2001, 2002. 
+7.  Webnauts Net Accessibility & Usability Initiative Forum  
+John Britsios  2003-08-13  Webnauts Net  webmaster@webnauts.net  Ensuring equal access through the appropriate use of Information Technology. 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+GUIDELINES Guidelines, principles and standards for developing accessible software. 
+View full-records on "guidelines"  |  Suggest-a-Link on "guidelines" 
+
+1.  Authoring Tools for Creating Accessible Web Pages  
+Beth Loy  2001-06-25   bloy@wvu.edu  
+2.  Campaign for a Non-Browser Specific WWW  
+Cari D. Burstein    campaign@anybrowser.org  Campaign to avoid browser-specific sites (e.g., this site best viewed with ____ version: ___). 
+3.  Center for Academic Computing's Web Accessibility Website  
+ 2000-06-09  Penn State   Has links to basic considerations and a checklist 
+4.  Checklist of Checkpoints for Web Content Accessibility Guidelines 1.0  
+ 2001-12-13  W3C WAI   Provides a list of all checkpoints from the Web Content Accessibility Guidelines 1.0, organized by concept, as a checklist for Web content developers. 
+5.  CITA: Center for Information Technology Accommodation  
+  U.S. General Services Administration, Office of Governmentwide Policy   Established in 1984, the General Services Administration's Center for IT Accommodation (CITA) is nationally recognized as a model demonstration facility for instituting accessible information environments, services and management practices. 
+6.  Designing More Usable Web Sites  
+ 2001-06-25  TRACE   This section of Designing a More Usable World http://trace.wisc.edu/world/ is dedicated to cooperative efforts linked toward building a more usable Web for all. 
+7.  European Parliament Passes Resolution on Web Accessibility  
+ 2002-08-11  European Union   On 13 June 2002 the European Parliament adopted a resolution supporting the importance of Web accessibility in European institutions and Member States. In particular, the resolution states that Web Content Accessibility Guidelines 1.0 (priority levels 1 and 2) and future versions, should be implemented on public Web sites, and that EU Institutions and Member States should also comply with the Authoring Tools Accessibility Guidelines by 2003. 
+8.  Guidelines for Building an Accessible Web Site  
+James Byrne  2001-06-25   j.byrne@gcal.ac.uk  
+9.  IBM Guidelines for Writing Accessible Applications Using 100% Pure Java  
+Richard S. Schwerdtfeger  2000-08-24   schwer@us.ibm.com  Application developers should consider the special needs of disabled users when they develop software programs in Java. 
+10. Techniques for Web Content Accessibility Guidelines 1.0  
+ 2001-12-13  W3C WAI   Gateway to a series of related documents that provide techniques for satisfying the requirements defined in "Web Content Accessibility Guidelines 1.0" 
+11. Unified Web Site Accessibility Guidelines  
+  TRACE   
+12. Universal Design, Principles & Guidelines  
+    
+13. User Agent Accessibility Guidelines 1.0  
+ 2002-12-23  W3C   This document provides guidelines for designing user agents that lower barriers to Web accessibility for people with disabilities (visual, hearing, physical, cognitive, and neurological). User agents include HTML browsers and other types of software that retrieve and render Web content. 
+14. Web Accessibility for Section 508  
+James W. Thatcher  2002-09-24  JimThatcher.com  Jim@JimThatcher.com  Online course on Section 508 (U.S.) accessibility. 
+15. Web Content Accessibility Guidelines 1.0  
+  W3C WAI   World-Wide Web Consortium Web Accessibility Initiative; includes a checklist 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+ORGANIZATIONS Organizations devoted to making software more accessible. 
+View full-records on "organizations"  |  Suggest-a-Link on "organizations" 
+
+1.  Access Board  
+ 2001-12-13    An independent U.S. agency devoted to accessibility for people with disabilities. 
+2.  Accessible Web Site Design  
+Steven Faulkner  2003-01-30  Vision Australia Foundation  steven.faulkner@visionaustralia.org.au  Web Accessibility consulting, reviews and training conducted by Vision Australia Foundation (not for profit) 
+3.  ACM SIGCAPH: Special Interest Group on Computers and the Physically Handicapped  
+    Sponsors an annual conference on assistive technologies (ASSETS). 
+4.  Alliance for Public Technology  
+ 2001-12-13    Non-profit organization concerned with fostering access to affordable and useful information services and technologies to the public. 
+5.  Alliance for Technology Access  
+    
+6.  Australian Computer Society (ACS) - Economic, Legal and Social Implications Committee (ELSIC) - including details on ACS ELSIC Disability Taskforce  
+Andrew Freeman  1999-01-08  Australian Computer Society  afreeman@pcug.org.au  The ACS is the association for IT professionals in Australia 
+7.  AWARE Center: Accessible Web Authoring Resources and Education Center  
+  HTML Writer's Guild   "our mission is to serve as a central resource for web authors for learning about web accessibility." 
+8.  BCAB: British Computer Association of the Blind  
+ 2001-05-16    
+9.  British Computer Society Disability Group  
+    The United Kingdom's Disability Group 
+10. CAST: Center for Applied Special Technology  
+ 2001-12-13    Non-profit organization that conducts applied research in Universal Design Learning (UDL), develops and releases products that expand opportunities for learning through UDL, and disseminates UDL concepts through public and professional channels. 
+11. Center for Universal Design  
+ 2001-12-13  North Caroline State University   A national research, information, and technical assistance center that evaluates, develops, and promotes universal design in housing, public and commercial facilities, and related products. 
+12. CITA: Center for Information Technology Accommodation  
+  U.S. General Services Administration, Office of Governmentwide Policy   Established in 1984, the General Services Administration's Center for IT Accommodation (CITA) is nationally recognized as a model demonstration facility for instituting accessible information environments, services and management practices. 
+13. Disability Resources Monthly (DRM) Guide to Disability Resources on the Internet  
+ 2000-06-29    "a nonprofit organization that monitors, reviews, and reports on disability resources" 
+14. International Center for Disability Resources on the Internet  
+    "The Center's mission is to collect and present as many disability-related Internet resources as there are available, including resources directly related to disabilities and other resources that may be helpful to the disability community." 
+15. Is Your Website Legal?  
+Loud Internet  2003-07-03  Loud Internet Ltd  info@loud.co.uk  At Loud Internet we have experience of fulfilling the requirements of the Disability Discrimination Act. We create demonstrably accessible websites whilst achieving exceptional standards of design and brand impact. 
+16. ISAAC (International Society for Augmentative and Alternative Communication)  
+    
+17. National Center for Accessible Media  
+ 2001-05-16  CPB/WGBH   
+18. National Federation for the Blind  
+    Has links to related websites. 
+19. National Information Center for Children and Youth with Disabilities  
+    
+20. National Organization on Disability  
+    
+21. PCC (People's Communication Charter)  
+    
+22. Rehabilitation Engineering and Assistive Technology Society of North America  
+    
+23. Royal National Institute for the Blind  
+    Has links to related websites including a searchable list of international agencies. 
+24. Sensory Disabilities Research Unit (SDRU)  
+Helen Petrie  1998-10-16  University of Hertfordshire  sdru@herts.ac.uk  The SDRU studies how new technologies can assist in overcoming the problems faced by disabled and elderly people in their day to day lives. 
+25. The Lighthouse, Inc.  
+  The Lighthouse, Inc.   "world's leading resource on vision impairment" is "committed to full access for people who are blind or have partial sight" 
+26. Trace Center  
+ 2001-12-13  University of Wisconsin-Madison   The Trace Center's mission is to prevent the barriers and capitalize on the opportunities presented by current and emerging information and telecommunication technologies, in order to create a world that is as accessible and usable as possible for as many people as possible. It is currently working on ways to make standard information technologies and telecommunications systems more accessible and usable by people with disabilities. 
+27. Universal Usability  
+ 2001-01-04   brad_m@unity.ncsu.edu  Universal usability involves understanding how users attempt to accomplish tasks using a variety of technologies in different organizational and social contexts. 
+28. UsableNet - Website Testing Systems  
+Melissa Hall  2001-08-28   melissa@usablenet.com  source for Web usability technology, offering Web-based services and computer software to Web development professionals, and providing a gateway for the Web research community to improve the Web browsing experience. Check the accessibility and usability of your site (first 5 pages). 
+29. WAI: Web Accessibility Initiative  
+  W3C: World-Wide Web Consortium  wai@w3.org  World-Wide Web Consortium Web Accessibility Initiative 
+30. Web Accessibility and Usability Consultants, Designers, Developers and Trainers  English German  
+John Britsios  2003-05-22  Webnauts Net  webmaster@webnauts.net  Web Accessibility and Usability Consultants, Developers and Trainers. The ones who care about the users of the web. Making usability and accessibility possible. 
+31. Web Accessibility in Mind  
+ 2001-06-21    Our goal is to improve accessibility to online learning opportunities for all people; in particular to improve accessibility for individuals with disabilities who currently may have a difficult time getting access to postsecondary online learning opportunities. 
+32. World Institute on Disability  
+    "an international public policy center dedicated to carrying out cutting-edge research on disability issues and overcoming obstacles to independent living." 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+PAPERS Online papers on accessible software. 
+View full-records on "papers"  |  Suggest-a-Link on "papers" 
+
+1.  A Guide to Making Documents Accessible to People Who Are Blind or Visually Impaired  
+Jennifer Sutton  2002-04-17  American Council of the Blind   This document contains a comprehensive discussion about how to make print and electronic information available to people with visual impairments in a variety of accessible formats. 
+2.  Accessibility for Web Developers  
+Gez Lemon  2003-09-21  Developer Fusion  james@vbweb.co.uk  Developers put a lot of effort into ensuring their sites can be viewed in outdated browsers, but all too often ignore newer browsers, or worse still, a whole range of visitors. Accessibility means access to information for all. Information to all, regardless of the device used to view the document, or abilities of the visitor. This article covers the W3C guidelines for making your site accessible - a legal requirement for companies in the UK and United States. 
+3.  Accessible by Design  
+Anitra Pavka  2002-04-17    Good Web design is accessible Web design. 
+4.  Accessible Design for Users With Disabilities  
+Jakob Nielsen  1996-10    Alertbox Column. 
+5.  accessible future  
+National Council on Disability (U.S.)  2002-09-24    
+6.  Applying the ADA to the Internet: A Web Accessibility Standard  
+Cynthia D. Waddell  1998-06-17    
+7.  ASSETS'94: First International ACM SIGCAPH Conference on Assistive Technologies  
+ 1994-10-31 1994-11-01  ACM SIGCAPH   
+8.  ASSETS'96: Second International ACM SIGCAPH Conference on Assistive Technologies  
+ 1996-04-11 1996-04-12  ACM SIGCAPH   
+9.  ASSETS'98: Third International ACM SIGCAPH Conference on Assistive Technologies  
+ 1998-04-15 1998-04-17  ACM SIGCAPH   
+10. Disabled Accessibility: The Pragmatic Approach  
+Jakob Nielsen  1999-06-13    Alertbox Column. 
+11. Electronic and Information Technology Accessibility Standards  
+ 2000-05-16    "setting forth a definition of electronic and information technology and the technical and functional performance criteria necessary for such technology to comply with section 508" 
+12. Flash News Flash: It's Accessible  
+ 2002-04-29    
+13. Introductory Design Tips on Web Access  
+Todd Schwanke  2003-01-25  University of Wisconsin-Milwaukee  schwanke@uwm.edu  This article is appropriate for any instructor who is considering or currently teaching a Web-based (online) course. It is of particular interest for instructors who design their own courses in utilities such as Blackboard CourseInfo, WebCT, Web Course in a Box (WCB), and LearningSpace. The article can also be useful for Web page designers of any ability level and anyone with an interest in disability and accessibility. 
+14. IT Accessibility 2001  
+ 2001-05-22 2001-05-23  National Institute of Standards and Technology   Ensuring Information Technology Access for People with Disabilities 
+15. The Growing Digital Divide in Access for People with Disabilities: Overcoming Barriers to Participation  
+Cynthia D. Waddell  1999-05-25   Cynthia.Waddell@ci.sj.ca.us  
+16. The Web Isn't for Everyone ... Yet  
+Matt Margolin     Webmonkey Column. 
+17. UI4ALL: User Interfaces for All  
+Constantine Stephanidis   ERCIM   Annual workshop on making user interfaces universally accessible (user preference, disability, language, etc.). 
+18. Web Access by Persons with Visual Disabilities  
+Irvin R. Katz  2000-10-22  Educational Testing Service  ikatz@ets.org  From Usability Testing World Wide Web Sites (CHI 97 Workshop) http://www.acm.org/sigchi/chi97/proceedings/workshop/mdl.htm 
+19. Web Accessibility  
+Harry Woodrow  2002-10-19   harry_woodrow@acslink.net.au  Lesson Notes covering Web Accessibility as a resource for Lectures presented by Harry Woodrow as a Guest Lecturer at Murdoch University in 2001, 2002. 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+RESOURCES Sources of information from organizations, laboratories and companies on making software accessible. 
+View full-records on "resources"  |  Suggest-a-Link on "resources" 
+
+1.  A-Prompt: Web Accessibility Verifier  
+ 2002-04-15  University of Toronto's Adaptive Technology Resource Centre (ATRC) and the TRACE Center at the University of Wisconsin   A-Prompt (Accessibility Prompt) is a software tool designed to improve the usability of HTML documents by evaluating Web pages for accessibility barriers and then providing developers with a fast and easy way to make the necessary repairs. 
+2.  Ability Research Centre  
+    Ability assists people with disabilities to obtain maximum benefits from modern computer technology. Ability publishes the Ability Newsletter twice each year. 
+3.  Access by Design  
+ 2000-05-15    "promote understanding of the ADA and to enrich the lives of people who have disabilities" 
+4.  Accessibility Links  
+Gary Perlman  2001-09-07  HCI Webliography  director@hcibib.org  Over 150 links to information about making computers and software more accessible to persons with disabilities. Generated from the the HCI Bibliography. 
+5.  Accessibility Weblog  
+Anitra Pavka  2002-04-17    I strive to raise awareness and foster learning about Web accessibility. My home page is a Weblog of breaking Web accessibility news, articles, and upcoming events. My accessibility resources are far from comprehensive, but they are among the best. I annotate resource links to make them more useful. Accessibility is an integral part of usability, so I also tie in major usability resources and information. 
+6.  accessible future  
+National Council on Disability (U.S.)  2002-09-24    
+7.  Accessible web design  
+Carmen Mardiros  2003-04-07  Oyster Web  bluecorr@pp.birme.se  A series of articles on accessible web site design trying to accommodate web designers with the concept of accessibility and the design compromise for the sake of users. 
+8.  AccessibleNet.org  
+ 2003-07-18    Directory of accessibility links and resources to assist web designers and policy makers in making informed decisions on web accessibility. 
+9.  Acessibility.com - accessible web site design and retrofitting services and resources  
+Deborah Picardo  2001-11-04  Acessibility.com  info@acessibility.com  Acessibility.com is dedicated to offering free links, information, resources and studies and affordable fixed price consulting and one-stop shop services for accessible Web site design, critique, 508 compliance, and retrofitting services. 
+10. ADA Technical Assistance Program  
+    
+11. Adaptive Technology Computing Site  
+    
+12. Adaptive Technology Resource Centre (ATRC)  
+ 2001-05-16  University of Toronto   Advancing technology to meet challenges faced by people with disabilities. 
+13. Adobe Access  
+ 2001-05-16    
+14. AOL (America Online) Accessibility Policy  
+ 2001-05-16    
+15. Apple Computer Disability Connection  
+    
+16. Applied Science and Engineering Laboratories (ASEL)  
+    ASEL's mission is to facilitate greater opportunities for individuals with disabilities through comprehensive assistive technology research, outreach, and information programs. 
+17. atomicaudio.com  
+Paul Feenstra  2002-06-25  atomicaudio.com  Sales@atomicaudio.com  Audio Resource for the Visually Impaired. Includes Voice-Overs and Sound Effects. 
+18. BLYNX: Lynx Support Files Tailored for Blind and Visually Handicapped Users  
+    
+19. Building an Accessible Website  
+Amy Cohen  2001-05-16    
+20. Bunnyfoot Universality  
+Jon Dodd  2002-12-03  Bunnyfoot  jon@bunnyfoot.com  UK consultancy providing usability and accessibility testing and audits. Bunnyfoot actively promote accessiblity issues at conferences, workshops and media events. 
+21. CAST Bobby  
+ 1999    "analyze single web pages for their accessibility to people with disabilities" 
+22. CAST: Center for Applied Special Technology  
+ 2001-12-13    Non-profit organization that conducts applied research in Universal Design Learning (UDL), develops and releases products that expand opportunities for learning through UDL, and disseminates UDL concepts through public and professional channels. 
+23. CHI-Web Search for Accessibility Items  
+ 2001-05-16    Performs a search of the ACM SIGCHI CHI-Web list archive on accessibility issues. 
+24. CHI-Web Search for Section 508 Discussion  
+ 2001-05-16    Performs a search of the ACM SIGCHI CHI-Web list archive on accessibility issues related to section 508. 
+25. Compatibility & Accessibility  
+  All Things Web   "Towards the creation of an accessible, truly World-wide Web" 
+26. Cowboys and Cowgirls - Americans with Disabilities Act  
+    An index of resources. 
+27. CSE HTML Validator  
+AI Internet Solutions  2003-08-14  support@htmlvalidator.com  support@htmlvalidator.com  CSE HTML Validator Professional is a user configurable web development tool that helps you create syntactically correct and accessible HTML, XHTML, and CSS. 
+28. Curriculum for Web Content Accessibility Guidelines 1.0  
+ 2001-05-16    
+29. Designing Accessible Web Sites  
+ 2002-06-12  http://www.cpcug.org/ Capital PC User Group   A variety of resources for Section 508 compliance. Includes good lists of assistive technology, tools, and references. 
+30. Designing Universal Web Pages  
+  Public Service Commission of Canada   includes links to pages with various web accessibility tests 
+31. Disabilities and Computing Program  
+  UCLA Office of Academic Computing   
+32. Disability access to GNOME  
+ 2002-03-25  GNOME Accessibility Project   Includes design guidelines http://developer.gnome.org/projects/gap/hi-design.html 
+33. Disability Resources Monthly (DRM) Guide to Disability Resources on the Internet  
+ 2000-06-29    "a nonprofit organization that monitors, reviews, and reports on disability resources" 
+34. Dive Into Accessibility  
+Mark Pilgrim  2002-08-09   feedback@diveintoaccessibility.org  This book answers two questions. The first question is "Why should I make my web site more accessible?" If you do not have a web site, this book is not for you. The second question is "How can I make my web site more accessible?" If you are not convinced by the first answer, you will not be interested in the second. 
+35. DO-IT (Disabilities, Opportunities, Internetworking and Technology)  
+    "increase the participation of people with disabilities in science, engineering, and mathematics academic programs and careers." 
+36. E-Ramp, Inc., Architecting corporate IM/IT accessibility and accommodation for persons with disabillities  
+Bill Shackleton  2002-10-05  E-Ramp, Inc.  bill@eramp.com  A Strategic Approach to Accessibility: E-Ramp helps clients to architect accessibility into their corporate environments. This approach takes into consideration, among other things: * Web Accessibility * Sensitive Accommodation of Employees with Disabilities * Current and Future IM/IT Infrastructure * Accessible Delivery of Programs, Services and Products to Clients Integrating "e-ramps" into your organization raises its quality for everyone - including persons with disabilities. 
+37. Early Learning Site  
+Sandra D'Souza  2002-08-04  ABA Materials.com  sandra@aba-materials.com  We produce CD-ROMs with picture flash cards that can be previewed/printed to teach speech, language and communication. 
+38. EASI: Equal Access to Software and Information  
+    
+39. Electronic and Information Technology  
+ 2000-05-16  U.S. Access Board   "On December 21, 2000, the Board issued final standards for electronic and information technology, which completes this rulemaking." 
+40. Electronic and Information Technology Accessibility Standards  
+ 2000-05-16    "setting forth a definition of electronic and information technology and the technical and functional performance criteria necessary for such technology to comply with section 508" 
+41. Enablelink  
+Colleen Dougherty  2001-11-12  Enablelink.com, subsidiary of De Witt & Associates  colleend@dewittassociates.net  EnableLink.com is an Internet portal for people who are blind or visually impaired, their families, friends and colleagues. It offers a variety of original articles, mainly written by blind and visually impaired authors plus frequently updated world, national and health-related news. 
+42. Graphic User Interface Concerns for the Blind Computer User  
+    
+43. GUI and Web Standards and Guidelines  
+ 2001-05-16  Weinschenk Consulting Group   provides development teams with standards and guidelines for the design of graphical user interfaces (GUIs). 
+44. HCIBIB Search for Accessibility Books  
+    Performs a search of the HCI Bibliography for accessibility books. 
+45. HCIBIB Search for Accessibility Items  
+    Performs a search of the HCI Bibliography on accessibility issues. 
+46. Henter Joyce, a division of Freedom Scientific  
+Bryan Carver  2000-05-08  Henter-Joyce, a division of Freedom Scientific  info@hj.com  Leading developers of software for blind and low vision computer users: JAWS for Windows Screen Reader and MAGIC Screen Magnifier; available for Win 98/95, NT, and 2000 Pro, as individual, corporate, and institutional licenses. 
+47. IBM Accessibility Center  
+ 2001-05-16    Brings together product and service information for people with disabilities, and for Human Resource Professionals who are proactively seeking knowledge about solutions or empowering persons with disabilities to ensure a productive working environment. 
+48. IBM Accessibility Center Guidelines  
+ 2001-05-16    Guidelines for accessibility for general software, Web applications, Java applications, hardware, etc. 
+49. Inclusive Technologies  
+Jim Tobias  2002-11-06  Inclusive Technologies  tobias@inclusive.com  Inclusive Technologies delivers technical and business process consulting on accessibility of information and communication technologies, both hardware and software. Product accessibility audits, new product development support, marketing assistance, and staff training. 
+50. Information Technology and People with Disabilities: The Current State of Federal Accessibility  
+ 2001-05-16    
+51. Information Technology Technical Assistance and Training Center  
+John Goldthwaite  2001-09-19  Georgia Tech  john.goldthwaite@arch.gatech.edu  The Information Technology Technical Assistance and Training Center (ITTATC) provides information, training, and technical assistance to support the implementation of Section 508 of the Rehabilitation Act and Section 255 of the Telecommunications Act. It also promotes the benefits of universal design to technology manufacturers, product designers and engineers, technical writers, marketers, and purchasers of information technology. 
+52. Jim's Guide to Accessible Information on the Internet  
+Jim Byrne  2001-04-05   j.byrne@gcal.ac.uk  
+53. Kansas Web Accessibility Subcommittee  
+ 2001-04-18  State of Kansas   Links to resources, including many U.S. state initiatives 
+54. Lynx Browser  
+    Lynx is a free text-based Web browser. 
+55. Macromedia Accessibility  
+ 2001-05-16    
+56. Microsoft Accessibility and Disabilities Site  
+    
+57. Microsoft Accessible Web Design Guidelines  
+ 2001-12-13    "By following accessibility design practices and using Microsoft Active Accessibility, you can make technology products for your customers with accessibility needs." 
+58. More than Screen Deep: Toward Every-Citizen Interfaces to the Nation's Information Infrastructure  
+ 1996-08  National Research Council (USA)   Online version of a report from a 1996 workshop. 
+59. NICHCY: National Information Center for Children and Youth with Disabilities  
+    
+60. NSF Effort to Increase Access to the Web by People with Disabilities  
+    "three-year, $952,856 award to the World Wide Web Consortium's Web Accessibility Initiative" 
+61. Opera Software Accessibility  
+ 2001-05-16    
+62. Oyster Search Engine Optimisation  
+Carmen Mardiros  2003-03-21  Oyster Web  corrsinblue@hotmail.com  Internet Consultancy offers website design and search engine promotion services for UK and International market. A series of articles on accessible web site design trying to accommodate web designers with the concept of accessibility and the design compromise for the sake of users. 
+63. President's Committee on Employment of People with Disabilities  
+ 1999-05-07    "mission is to facilitate the communication, coordination and promotion of public and private efforts to enhance the employment of people with disabilities." 
+64. QUICK TIPS TO MAKE ACCESSIBLE WEB SITES  
+ 2001-05-16  W3C   http://www.w3.org/WAI/EO/waicard12snapshot.gif 
+65. RAMP- Robust Accessibility Management & Production  
+Preety Kumar  2001-11-08  Deque Systems, Inc.  preety.kumar@deque.com  RAMP is an open platform productivity tool that automates Section 508 and WAI Triple-A compliance detection, remediation, auditing, and reporting. 
+66. Requirements for Accessible Software Design  
+U.S. Department of Education  2000-11-14  U.S. Department of Education   "convey the accessibility needs of the Department to the developers and suppliers of computer applications." 
+67. Research-Based Web Design and Usability Guidelines  
+National Cancer Institute  2001-05-16    
+68. Section 508 Self-Evaluation Questionnaires Response Site  
+ 2001-05-16    website established for government agencies to complete a questionnaire about the accessibility of their Electronic and Information Technology under Section 508 of the Rehabilitation Act of 1973 
+69. Section 508 Web Accessibility Requirements  
+ 2001-12-13  WebABLE   Information extracted directly from the final ruling of the Section 508 mandate as released by the Federal Access Board on December 20, 2000. 
+70. Sensory Disabilities Research Unit (SDRU)  
+  University of Hertfordshire   
+71. Standards Review and Recommendation Publication SRRPUB11 : World Wide Web Design Standards and Coding Guidelines : Web Accessibility Guidelines  
+ 2001-05-16    Texas Legislation specifically addresses web site accessibility 
+72. Sun Microsystems' Accessibility Program  
+ 2000-07-18    "Driven by the belief that designing to meet the needs of users with disabilities can improve the productivity of ALL users." Includes articles and papers, mainly with a focus on Java support for accessibility. 
+73. Torquemada: Web Accessibility Verifier  Italian  
+Andrea Bernardini  2003-01-28  Fondazione Ugo Bordoni  a.berna@fub.it  Torquemada is an Italian-language tool designed to assess the accessibility of Websites 
+74. Trace Research and Development Center  
+    "Making information technology more usable for everyone" 
+75. Typing Injury FAQ  
+    "an educational site, provided by the CTD Resource Network, containing a wide variety of information about repetitive strain injuries (RSIs)" 
+76. U.S. Federal Information Technology Accessibility  
+ 2001-02-18    Section 508 requires that Federal agencies' electronic and information technology is accessible to people with disabilities, including employees and members of the public. 
+77. Unbounded Access  
+Jael Kurtz  2002-11-28   jael@ubaccess.com  A provider of web accessibility technology, services and research. 
+78. Universal Design / Disability Access Program  
+    
+79. US DOJ Americans With Disabilities Act Information on the Web  
+    Authoritative information from the US Department of Justice. 
+80. US DOJ Section 508 Website Index  
+    Section 508 requires that Federal agencies' electronic and information technology is accessible to people with disabilities, including employees and members of the public. The self-evaluation link provides details on the requirements. 
+81. UsableNet - Website Testing Systems  
+Melissa Hall  2001-08-28   melissa@usablenet.com  source for Web usability technology, offering Web-based services and computer software to Web development professionals, and providing a gateway for the Web research community to improve the Web browsing experience. Check the accessibility and usability of your site (first 5 pages). 
+82. User Agent Accessibility Guidelines 1.0  
+ 2002-12-23  W3C   This document provides guidelines for designing user agents that lower barriers to Web accessibility for people with disabilities (visual, hearing, physical, cognitive, and neurological). User agents include HTML browsers and other types of software that retrieve and render Web content. 
+83. Visicheck Color Blindness Simulator  
+ 2001-06-21   info@visicheck.com  Vischeck is a way of showing you what things look like to someone who is color blind. You can use it on a single image or on a web page. You can also download programs to let you run it on your own computer. 
+84. Voluntary Product Accessibility Template  
+ 2001-08-06  ITIC: INFORMATION TECHNOLOGY INDUSTRY COUNCIL  ITI_508@itic.org  ITI develops voluntary Internet-based template to help government identify products with features that support accessibility 
+85. W3C WAI Accessibility Resources  
+    World-Wide Web Consortium Web Accessibility Initiative Resources. 
+86. WAI: Web Accessibility Initiative  
+  W3C: World-Wide Web Consortium  wai@w3.org  World-Wide Web Consortium Web Accessibility Initiative 
+87. Web Accessibility in Mind  
+ 2001-06-21    Our goal is to improve accessibility to online learning opportunities for all people; in particular to improve accessibility for individuals with disabilities who currently may have a difficult time getting access to postsecondary online learning opportunities. 
+88. Web Accessibility Toolbar  
+steven faulkner  2004-01-09  Accessible Information Solutions  steven.faulkner@nils.org.au  The Accessibility Toolbar software contains a range of Tools: * To examine discrete aspects (structure/code/content) of a html document * To facilitate the use of 3rd party applications * To simulate the user experience of different users along with a range of references and additional resources. 
+89. Web Page Accessibility Self-Evaluation Test  
+ 2001-05-16  Public Service Commission of Canada   
+90. WebABLE!  
+ 2000-06-29   webinfo@webable.com  "Our mission is to make the Internet, World Wide Web, and software accessible to people with disabilities. To accomplish this mission, we provide accessibility technology and services to corporate, government, educational, and non-profit clients." 
+91. Webnauts Net Accessibility & Usability Initiative Forum  
+John Britsios  2003-08-13  Webnauts Net  webmaster@webnauts.net  Ensuring equal access through the appropriate use of Information Technology. 
+92. WebSavvy Access  
+Greg Gay  2002-11-01  University of Toronto  web.savvy@utoronto.ca  Accessibility evaluations, consultation, and design service (W3C WAI, Section 508) 
+93. Writing for the Web  
+Jakob Nielsen  2001-05-16  Sun Microsystems   increase site usability by following writing guidelines. 
+94. Yahoo Accessible Web Design  
+    
+95. Yahoo Americans with Disabilities Act  
+    
+96. Yahoo Disabilities  
+    
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+TOOLS Software and hardware for making interfaces accessible. 
+View full-records on "tools"  |  Suggest-a-Link on "tools" 
+
+1.  A-Prompt: Web Accessibility Verifier  
+ 2002-04-15  University of Toronto's Adaptive Technology Resource Centre (ATRC) and the TRACE Center at the University of Wisconsin   A-Prompt (Accessibility Prompt) is a software tool designed to improve the usability of HTML documents by evaluating Web pages for accessibility barriers and then providing developers with a fast and easy way to make the necessary repairs. 
+2.  atomicaudio.com  
+Paul Feenstra  2002-06-25  atomicaudio.com  Sales@atomicaudio.com  Audio Resource for the Visually Impaired. Includes Voice-Overs and Sound Effects. 
+3.  CAST Bobby  
+ 1999    "analyze single web pages for their accessibility to people with disabilities" 
+4.  CSE HTML Validator  
+AI Internet Solutions  2003-08-14  support@htmlvalidator.com  support@htmlvalidator.com  CSE HTML Validator Professional is a user configurable web development tool that helps you create syntactically correct and accessible HTML, XHTML, and CSS. 
+5.  Cynthia - Online web content accessibility validation  
+ 2003-05-22    
+6.  Designing Accessible Web Sites  
+ 2002-06-12  http://www.cpcug.org/ Capital PC User Group   A variety of resources for Section 508 compliance. Includes good lists of assistive technology, tools, and references. 
+7.  Henter Joyce, a division of Freedom Scientific  
+Bryan Carver  2000-05-08  Henter-Joyce, a division of Freedom Scientific  info@hj.com  Leading developers of software for blind and low vision computer users: JAWS for Windows Screen Reader and MAGIC Screen Magnifier; available for Win 98/95, NT, and 2000 Pro, as individual, corporate, and institutional licenses. 
+8.  HPR: Home Page Reader 3.0  
+ 2002-04-15  IBM   Home Page Reader can speak text, frames, image and text links, alternate text for images and image maps, form elements including JavaScript, graphics descriptions, text in column format, and data input fields. It even includes special table navigation features that allow users to understand even the most complex tables, such as television listings. 
+9.  SpeechPlugin  
+Tamar Weinner  2002-07-14  DirectXtras Inc.  tamar@directxtras.com  SpeechPlugin is a free, cross platform (Windows and MacOS), cross browser (Netscape and IE) plug-in that provides web sites with the ability to talk by transforming text to speech. 
+10. Torquemada: Web Accessibility Verifier  Italian  
+Andrea Bernardini  2003-01-28  Fondazione Ugo Bordoni  a.berna@fub.it  Torquemada is an Italian-language tool designed to assess the accessibility of Websites 
+11. UsableNet - Website Testing Systems  
+Melissa Hall  2001-08-28   melissa@usablenet.com  source for Web usability technology, offering Web-based services and computer software to Web development professionals, and providing a gateway for the Web research community to improve the Web browsing experience. Check the accessibility and usability of your site (first 5 pages). 
+12. Using Technology to improve the quality of life  
+Greg Corpier  2002-08-20  Corpier Consulting Services  greg@corpierconsulting.com  voice commandable home automation system customized for physically handicapped. 
+13. Watchfire WebXACT website testing  
+ 2003-05-22    WebXACT is a free online service that lets you test single pages of web content for quality, accessibility, and privacy issues. 
+14. WAVE 3.0 Accessibility Tool (BETA)  
+ 2003-05-22    Helps check your page for accessibility for people with disabilities. 
+15. Web Accessibility Toolbar  
+steven faulkner  2004-01-09  Accessible Information Solutions  steven.faulkner@nils.org.au  The Accessibility Toolbar software contains a range of Tools: * To examine discrete aspects (structure/code/content) of a html document * To facilitate the use of 3rd party applications * To simulate the user experience of different users along with a range of references and additional resources. 
+
+Copyright © 2004 Gary Perlman
+
+---------------------------------------------------------------------
+Gary Perlman | director@hcibib.org 

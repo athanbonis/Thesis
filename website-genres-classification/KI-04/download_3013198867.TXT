@@ -1,0 +1,81 @@
+
+
+Download
+
+Sleepycat Software makes several versions of Berkeley DB available for download over the World-Wide Web. The license for Berkeley DB permits you to use the software at no charge under the condition that if you use Berkeley DB in an application you redistribute, the complete source code for your application must be available and freely redistributable under reasonable conditions. If you do not want to release the source code for your application, you may purchase a license from Sleepycat Software. For pricing information, or if you have further questions on licensing, please contact us. The package includes complete source code, documentation, and support for building the library on a large number of operating systems and hardware platforms.
+
+You need only download one of these packages. Each contains the same software. The only difference among them is the way that they are packaged for installation on the target system.
+
+Which download do you need?
+
+Download the current Berkeley DB release:
+ Berkeley DB releases WITH strong cryptography:
+ Version 4.2.52 (GNU gzip/tar format) 4.6MB
+ Version 4.2.52 (Zip format) 6.9MB
+ Version 4.2.52 (VxWorks 5.4 CDROM image) 39.4MB
+
+Berkeley DB releases WITHOUT strong cryptography:
+ Version 4.2.52 (GNU gzip/tar format) 4.6MB
+ Version 4.2.52 (Zip format) 6.9MB
+ Version 4.2.52 (VxWorks 5.4 CDROM image) 39.6MB
+
+Download the current Berkeley DB XML release:
+  Version 1.2.0 Source Unix (GNU gzip/tar format) 2.7MB
+ Version 1.2.0 Source Win32 (Zip format) 4.7MB
+ Version 1.2.0 Binary Win32 (Zip format) 7.3MB
+ Version 1.2.0 Change Log
+
+Please consider subscribing to the Berkeley DB XML announcements mailing list. To join the list, send an email message to xml-request@sleepycat.com with the text 'subscribe' in the message body.
+
+List of current and previous Berkeley DB releases
+
+ 	  	 	 	  
+ 	   
+ 	 	 	  
+
+Patches:
+
+There is 1 patch available for the Berkeley DB 4.1.25 release.
+  Patches and selected previous releases of Berkeley DB are available from the Berkeley DB Patches and Change Logs web page. 
+
+ 	  	 	 	  
+ 	   
+ 	 	 	  
+
+Licensing:
+
+The public license for Berkeley DB permits you to use and redistribute the software at no charge provided that
+
+you do not redistribute your application; or	   
+ 	  
+ 	 if you redistribute your application, you make the complete source code for your application freely available and redistributable under reasonable conditions.	   
+ 	  
+
+"Redistribute" means your application is distributed to more than a single physical location. Installing copies of an application at different physical locations, whether they are customer sites or sites of a single organization, is redistribution.
+
+If you do not want to release the source code for your application, you may purchase a license from Sleepycat Software.
+
+For more licensing information, please read our licensing page. For pricing information, or if you have further questions on licensing, please contact us.
+
+ 	  	 	 	  
+ 	   
+ 	 	 	  
+
+Release announcements:
+
+Sleepycat Software maintains a mailing list of people who wish to be notified when a new release of Berkeley DB is available for download. Please send email to info@sleepycat.com if you would like to be included on that list.
+
+ 	  	 	 	  
+ 	   
+ 	 	 	 
+
+Open Source License
+ 	   
+ 
+ 	 Commons Deed
+ 	   
+ 
+ 	 Legal Code
+ 	   
+
+

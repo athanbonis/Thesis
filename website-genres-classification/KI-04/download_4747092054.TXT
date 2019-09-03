@@ -1,0 +1,39 @@
+- Updates/Extensions - BSCW 3.4 Server Updates for Python 1.5 BSCW 3.4 Server Updates for Python 1.6 --> User interface extensions WWW Search Engine Updates Swing Installer for BSCW Java(tm) Applets on MacOS   --> 
+
+Download BSCW software
+
+All BSCW software is available for anonymous download. BSCW software includes the BSCW server and additional "goodies" such as drag-and-drop uploaders (for Windows 95, Windows NT and Macintosh OS). 
+You may also download BSCW icons for local installation to increase performance, or install the User Manual or additional language extensions locally if you have set up your own BSCW server. 
+
+Usage of the BSCW server software is limited to a testing and evaluation period of 90 days and restricted to 200 users. After that period you have to acquire a licence; licences are distributed and handled by OrbiTeam Software GmbH, a spin-off company of FIT. 
+
+In general, schools and universities receive royalty free licences for educational purposes. Also, FIT's public BSCW server at http://bscw.fit.fraunhofer.de will remain open free of charge to the general public until further notice. 
+Other organizations must apply for a commercial licence which is usually user-limited and time-limited. For prices mailto:license@orbiteam.de. 
+The Licensing Procedure contains further details on how to obtain a licence. 
+
+Downloading software implies that you accept the copyright conditions as specified in the Copyright Notice and License Agreements.
+
+---------------------------------------------------------------------
+
+Download 	Select a piece of BSCW software and click "I Accept" to confirm that you have read the Copyright Notice and License Agreements and agree with them to continue with download.
+
+BSCW Server (Unix) 
+BSCW Server (NT) 
+
+- Documentation - 
+User manual (english) 
+User manual (german) 
+BSCW 4.1 Admin manual (english) [PDF] 
+BSCW 4.0 Admin manual (english) [PDF] 
+
+- Uploader - 
+Java(tm) Uploader (PC/Unix) 
+
+- Updates/Extensions - 
+User interface extensions 
+WWW Search Engine Updates 
+Swing Installer for BSCW Java(tm) Applets on MacOS 
+
+---------------------------------------------------------------------
+
+

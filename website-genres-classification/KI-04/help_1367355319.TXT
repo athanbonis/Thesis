@@ -1,0 +1,820 @@
+
+
+---------------------------------------------------------------------
+Sam's Laser FAQ, Copyright &copy 1994-2004, Samuel M. Goldwasser, All Rights Reserved.
+ I may be contacted via the Sci.Electronics.Repair FAQ Email Links Page. 
+---------------------------------------------------------------------
+
+<==== Sam's Laser FAQ ====>
+
+Safety, Info, Links, Parts, Types, Drive, Construction
+
+A Practical Guide to Lasers for Experimenters and Hobbyists
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Welcome Page. 
+
+* Expanded Table of Contents - HTML, diagrams, photos, and schematics. 
+* Comprehensive Table of Contents - Direct links to every chapter and section. 
+
+Table of Contents
+
+* Foreword - How Sam's Laser FAQ evolved into what it is today and other tid-bits. 
+* Preface - Author & copyright, DISCLAIMER, acknowledgements, request. 
+* Introduction - Scope, purpose, and organization of this document, related information. 
+
+PART I - Basics, Safety, General Information, Instruments, Applications, Experiments
+
+* What is a Laser and How Does It Work? - The laser age, principles, types, on-line tutorial, lasers as a hobby. 
+* Laser Safety - Hazards to vision, other issues, 100 W light bulb versus 1 mW laser, safety classifications, links. 
+* Items of Interest - Laser power meters, Fabry-Perot and DFB types, wavelengths, speckle, collimation, etc. 
+* Laser Instruments and Applications - Rangefinders, interferometers, gyros, light shows, laser TV, Fourier optics. 
+* Laser Experiments and Projects - Basic to advanced including diffraction, interference, holography, display, more. 
+
+PART II - Print/Web Laser and Optics Resources, Laser and Parts Suppliers, Manufacturers
+
+* Laser Information Resources - Books, magazines, collections, patents; Web newsgroups, lists, forums, links. 
+* Laser and Parts Sources - Walk-in, mail order, high quality, surplus, component and system manufacturers. 
+
+PART III - Lasers Based on Commercial Components - Diode, HeNe, Ion, CO2, HeCd, SS
+
+* Diode Lasers - Basic considerations, visible and IR (e.g., from CD player) types, testing, visibility, collimation. 
+* Diode Laser Power Supplies - Drive requirements, modulation, sample circuits for low and high power devices. 
+
+* Helium-Neon Lasers - Theory (simple), operation, sealed tube structure, characteristics, power requirements. 
+* HeNe Laser Testing, Adjustment, Repair - Problems, testing, mirror alignment, collimation, polarization, refilling. 
+* HeNe Laser Power Supplies - Requirements, types, plug-n-lase, matching tube to PS, testing, problems, repair. 
+* HeNe Laser Power Supply Design - AC line powered, low voltage inverters, starters, regulators, modulators. 
+* Complete HeNe Laser Power Supply Schematics - Includes 25 AC line and 17 inverter types, most you can build. 
+
+* Argon/Krypton Ion Lasers - General features and characteristics, basic power requirements, specific examples. 
+* Ar/Kr Ion Laser Testing, Maintenance, Repair - Tube life, problems, testing, general maintenance, alignment. 
+* Ar/Kr Ion Laser Power Supplies - Basic requirements, types, specific safety issues, testing, problems, repair. 
+* Ar/Kr Ion Laser Power Supply Design - AC line front-ends, igniters, linear and switchmode regulators, protection. 
+* Complete Ar/Kr Ion Laser Power Supply Schematics - Both linear and switching types using common parts. 
+
+* Carbon Dioxide Lasers - Characteristics and requirements, applications, small sealed tubes, gas fill, optics. 
+
+* Helium-Cadmium Lasers - Characteristics, power supplies, HeCd laser head and PSU troubleshooting. 
+
+* Solid State Lasers - Characteristics, types, pulsed/CW, Q-switching, frequency changing, common SS lasers. 
+* SS Laser Testing, Adjustment, Repair - Cleaning, cooling, alignment, tuning, beam quality and energy. 
+* SS Laser Power Supplies - Capacitor chargers, PFNs, PSUs using photoflash units, sources for special parts. 
+* Complete SS Laser Power Supply Schematics - Circuits for the Hughes ruby and YAG lasers, uYAG, more. 
+
+PART IV - Lasers Constructed from Basic Materials, Hardware, Optics, and Electronic Parts
+
+* Amateur Laser Construction - Resources, safety, the home laser lab, supplies, vacuums, glass working, more. 
+* Vacuum Technology for Home-Built Gas Lasers - Vacuum basics, pumps, gauges, components, testing, repair. 
+* The Home-Built Laser Assembly and Power Supply - Structure, optics, mirror mounts, electrical components. 
+
+* Home-Built Laser Types, Information, and Links - Introduction to laser descriptions and "Light and its Uses". ToC. 
+* Home-Built Helium-Neon (HeNe) Laser - Much like the original gas laser from 1962 produces a red beam. 
+* Home-Built Pulsed Argon and/or Krypton (Ar/Kr) Ion Laser - A similar gas laser produces multiple color beam. 
+* Home-Built Carbon Dioxide (CO2) Laser - High power (10 to 50 W or more) flowing gas infra-red laser. 
+* Home-Built Nitrogen (N2) Laser - Pulsed ultraviolet laser that is easy to construct without fancy equipment. 
+* Home-Built Helium-Mercury (HeHg) and Other He-Metal-Vapor Lasers - Operation at multiple visible wavelengths. 
+* Home-Built Copper Chloride (CuCl) and Copper Bromide (CuBr) Laser - Pulsed intense yellow and green beam. 
+* Home-Built Dye Laser - Generate almost any color of the spectrum depending on which chemical dye is used. 
+
+* Home-Built Pulsed Multiple Gas (PMG) Laser - Simple design uses O2, Xe, Ar, Kr, or Ne; maybe even plain air. 
+
+* Home-Built Pulsed Solid State (PSS) Laser - Basic ruby or Nd:YAG laser system using flashlamp pumping. 
+* Home-Built Diode Pumped Solid State (DPSS) Laser - Vanadate with KTP SHG for 1 mW to 5 W green output. 
+
+Resources Associated with Sam's Laser FAQ (Not part of FAQ distribution)
+
+* Laser Equipment Gallery - Photos of various laser systems, power supplies, and components. 
+* Portal to The Laser, Optics, and Holography Ring - Inter-Navigable Webring of related sites (About the Ring). 
+* Micro-Laser Range Finder - Paper about Nd:YAG laser/OPO pumped by the flash unit from a single-use camera. 
+* Sam's Laser FAQ Archive - A few really ancient versions for your bedtime reading amusement. :) 
+
+* Sam's Classified Page - Assorted laser. optics, and electronics stuff for sale or trade and items wanted. 
+
+* Center for Microwave and Lightwave Engineering (Drexel U., ECE Dept.) - Where I so some real laser work. :) 
+
+Documents Useful for Laser System Design, Construction, Troubleshooting, and Repair
+
+* Safety Guidelines for High Voltage and/or Line Powered Equipment - Essential Safety Document 
+
+* Sam's Strobe FAQ - Electronic Flash Units and Strobe Lights - Operation, design, many complete schematics. 
+* Sam's Schematic Collection - Assortment includes LV and HV power supplies, inverters, battery charges, more. 
+* Simple High Voltage Generator - 12 VDC in, 12 kV out, using a flyback transformer and a handful of other parts. 
+* Basics of High Voltage Probe design - Measurements up to 25 kV or more using almost any VOM or DMM. 
+* Salvaging Interesting Gadgets, Components, and Subsystems - Nifty uses for all that stuff that gets thrown away. 
+* Capacitor Testing, Safe Discharging, and Other Related Information - Also: ESR, reforming electrolytics, more. 
+* Testing of Flyback (LOPT) Transformers - Principles of operation, construction, troubleshooting, sample schematic. 
+* Testing of Discrete Semiconductors with a DMM or VOM - Transistors, MOSFETs, thyristors, LEDs, optos, more. 
+
+* Sam's Neat, Nifty, and Handy Bookmarks - Over 1,000 links to science and technology Web sites. 
+
+* Silicon Sam's Technology Resource - All of the above and other repair and electronics information. 
+* Sci.Electronics.Repair FAQ Main Menu - Older versions of the above and contributions from others. 
+
+* Home and Mirror Site Locations - Where to access or download the latest versions of these documents. 
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Table of Contents. 
+
+Foreword
+
+Sam's Laser FAQ evolved to become what it is today from a short note on safely powering low power laser diodes which I had written around 1996 in conjunction with the CD player repair guide (part of the Sci.Electronics.Repair FAQ). Those laser diodes were usually ripped from dead CD players - this was before pocket laser pointers could be found in cereal boxes. :) (If you're really curious, that short note and a couple of other early versions of Sam's Laser FAQ can be found at Sam's Laser FAQ Archive, typos and all.) Chapters were added as I acquired a variety of lasers and related equipment. Thus, much of this information comes from first-hand experience. First those little laser diodes and driver circuits, then helium-neon lasers and power supplies, followed by argon ion lasers, Nd:YAG lasers, DPSS lasers, and who knows what else the future will bring. 
+
+However, many others have contributed in one form or another (newsgroup postings, email, laser parts, etc.). They are cited in the Acknowledgements and/or in the individual sections which contain their material. And, by the way, the name: "Sam's Laser FAQ" was more or less created by those who have read and commented on it via the newsgroups or direct email. The name stuck in part because the original one: LASERS: Safety, Info, Links, Parts, Types, Drive, Construction" was just way too long. :) 
+
+While I had kept in touch with laser technology since their invention in the early 1960s, my direct contact with lasers was relatively limited until much more recently. Although there was the glass working I did for someone else's home-built HeNe laser, the ruby laser I inherited at my high school because no one else wanted it, and the little commercial HeNe laser there used to view the hologram in an issue of Scientific American, I was not yet really hooked on lasers. 
+
+In fact, the first real lasers that I actually owned were purchased from a surplus outfit in 1990 or so - a couple of small helium-neon laser tubes and power supplies. I only bought those because a friend of mine had casually mentioned that I didn't have any lasers. I couldn't let that statement stand without doing something! Well, after mounting, wiring (which wasn't much), and testing them, I thought to myself: Well, these are kind of cool and might even come in handy someday. (My friend quickly lost interest once he realized they weren't powerful enough to burn anything!) I dragged them out every so often to make sure they still worked but that was about it, laser-wise, for awhile. 
+
+Then a few years later, having spent a lot of time on the USENET newsgroups answering questions (mostly those in the sci.electronics hierarchy, sci.optics, alt.lasers, and the like), it became clear that there was virtually NO practical laser related information on the Web. Even with my somewhat limited contact with lasers, the scary thing was that it would appear that I already had more of this sort of hands-on knowledge than was available in cyberspace - and probably anywhere else outside the laser industry. Sure, the major laser manufacturers were beginning to discover the Internet for their sales and advertising, and there were some academic and research sites as well. But, if what you wanted was to be able to light up a HeNe laser tube or build a power supply for one, wire up a laser diode without blowing it out, do anything with an argon ion laser or diode pumped solid state laser, or (gasp!) build a laser from scratch - forget it. There was virtually nothing to be found on-line and only a bit more in print. Much of what did exist (on the Web at least) was incorrect, incomplete, dangerous, or all of the above. (There is more history below.) 
+
+Sam's Laser FAQ is NOT an academic paper or reference work on quantum mechanics, gas discharges, or solid state physics. You can relax. It is about getting your hands into lasers safely and on a realistic budget. There is only a bare minimum of heavy math and only a few equations. The dozens of thick, expensive technical books and thousands of research papers on basic laser science and advanced laser technology exist to handle that! Sam's Laser FAQ is for the experimenter, hobbyist, weekend tinkerer, and budding mad scientist. For you! Enjoy. :) 
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Table of Contents. 
+
+Preface
+
+Sub-Table of Contents
+
+* Author and Copyright 
+* DISCLAIMER 
+* Acknowledgements 
+* More on My Background and What I Do for a Real Job 
+* Sam's Laser Lab and Lasers 
+* Please Don't Scrap Your Unwanted or Broken Lasers or Laser Related Equipment and Parts! 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+Author and Copyright
+
+Author: Samuel M. Goldwasser 
+
+For contact info, please see the Sci.Electronics.Repair FAQ Email Links Page. 
+
+Copyright &copy 1994-2004 
+All Rights Reserved 
+
+Reproduction of this document in whole or in part is permitted if both of the following conditions are satisfied: 
+
+1. This notice is included in its entirety at the beginning. 
+2. There is no charge except to cover the costs of copying. 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+DISCLAIMER
+
+This document is still under development and will probably continue to be in this state until will beyond the time when the Sun turns into a red giant or Hell freezes over, though the Engineers may be able to prevent the latter, at least. :-) 
+
+Many of the circuits have been reverse engineered - traced from various schematics or actual hardware. There may be errors in transcription, interpretation, analysis, or voltage or current values listed. They are provided solely as the basis for your own designs and are not guaranteed to be 'plans' that will work for your needs without some tweaking. 
+
+Many power supplies and other laser components operate at extremely lethal voltage and current levels. The optical output from even modest power lasers can result in instant and irreversible damage to vision. No one ever should attempt to operate, troubleshoot, repair, or modify such equipment without understanding and following ALL of the relevant safety guidelines for lasers and high voltage and/or line connected electrical and electronic systems. 
+
+We will not be responsible for damage to equipment, your ego, county wide power outages, spontaneously generated mini (or larger) black holes, planetary disruptions, or personal injury or worse that may result from the use of this material. 
+
+Note that I have no business relationship (financial or otherwise) with any of the laser product manufacturers, sales, or service companies, referenced in this document and benefit in no way by recommendations or suggestions to check out their Web sites. In addition, a requirement of any Sci.Electronics.Repair FAQ or Sam's Laser FAQ mirror site is that there be no advertising of any kind forced on you within the pages of these documents - even for those that are hosted on commercial servers. 
+
+And, yes, flattery will get you everywhere but I am almost as eager to have any feedback (good or bad), corrections, suggestions, or additions. Please feel free to contact me via the Sci.Electronics.Repair FAQ Email Links Page. I will make every effort to reply, usually within less than 24 hours. Sam's Laser FAQ has been and continues to be a labor of love. My only reward (aside from the occasional dead laser or other high-tech toy that gets sent my way) is the knowledge that someone, somewhere, is using this material and is hopefully enjoying the fruits of my effort and making use of them in a productive way. 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+Acknowledgements
+
+While I have written a good portion of Sam's Laser FAQ from my first-hand knowledge and experiences, information from many other sources has been invaluable in filling gaps and even constructing some of the foundations. Much of this has been from postings to USENET newsgroup and other discussion groups, as well as via private email. Wherever possible, I have acknowledged these individual contributions. However, if you feel that there is something here you wrote without being recognized, please send me mail via the Sci.Electronics.Repair FAQ Email Links Page. 
+
+There are a few people who have gone well beyond the level of these casual or passive contributions: 
+
+* Special thanks to Don Klipstein (Email: don@misty.com) for his comments and additions to this document in the early stages of its development. His Web site (http://www.misty.com/~don/) is a valuable resource for information relating to lighting and related technology in general. 
+
+* Special thanks to Steve Roberts (osteven@akrobiz.com for much of the material in the chapters on Argon/Krypton Ion Lasers including direct contributions of text and photos, as well as via extensive email discussions. He has also developed an interest in high power CO2 lasers and is knowledgeable in many aspects of laser technology so his contributions can now be found in many other chapters as well. 
+
+* Special thanks to Chris Chagaris (Email: pyro@grolen.com) for his comments and additions to this document. His first-hand experience in constructing several lasers from scratch has been extremely valuable in polishing and enhancing the chapters starting with Amateur Laser Construction. 
+
+* Special thanks to George Werner (a href="mailto:glwerner@sprynet.com">glwerner@sprynet.com) for sharing his first hand experiences and insights from working on early HeNe lasers while at Oak Ridge in mid-1960s time frame. Most of his comments are in the chapters on Amateur Laser Construction and Home-Built Helium-Neon (HeNe) Laser but some material is scattered elsewhere. He has also helped to straighten out some of the optics equations as well as to find an embarrassingly large number of typos. 
+
+* Special thanks to Bob (contact him by posting on the USENET newsgroup alt.lasers) who singlehandedly provided much of the information on Diode Pumped Solid State (DPSS) Lasers mostly in the chapters: Solid State Lasers and Home-Built Diode Pumped Solid State (DPSS) Laser. Without his contributions, there would likely still be a big hole in the coverage of this increasingly important and fun technology. I hope that someday, I'll be able to use his real name. For now I respect his wishes to remain more or less anonymous. 
+
+* Special thanks to Dennis of Meredith Instruments for contributions of surplus lasers for testing (including my first one-Brewster HeNe laser head and a couple of argon ion laser heads) as well as the original batch of homeless HeNe laser tubes which I then made available for next to nothing to others hopefully sparking an interest in lasers in at least one person in the Universe! 
+
+* Special thanks to Dave (ws407c@aol.com) for contributions of both content and laser equipment in the area of HeNe and solid state lasers. 
+
+* Special thanks to Paul (paul@laserpointers.co.uk) of Laserpointers.co.uk for the contribution of a dead (now repaired) green laser pointer for analysis. 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+More on My Background and What I Do for a Real Job
+
+I am an electrical engineer by profession. I have spent significant time in both academia and industry teaching and designing in the areas of the architecture and implementation of digital systems. The development of one particular special purpose high performance image and graphics processor with three of my students led to the creation of a business plan. I have done the startup thing, been taken over by a big company, spent some time there, and become bored with corporate life. 
+
+As with many large companies, upper management was behaving in classic Dilbert style, with chronic and terminal foot-in-rear-end disease. They were thus incapable of appreciating the need for the next generation system that would have been zillions of times better in every respect than what was being sold and could have maintained the company's leadership position in high performance three-dimensional visualization. 
+
+While my official title had a "Technical Director" in it, I had little to direct, technically or otherwise! So, out of boredom, I turned to the then still somewhat novel means of communication, the Internet. (Yes, I know, the Internet goes back to the 1970s but Mosaic, the predecessor of Netscape, was kind of new in 1994.) I discovered USENET newsgroups, in particular, the sci.electronics hierarchy including sci.electronics.repair; alt.home.repair and misc.consumers.house; and alt.lasers. I initially gravitated to the repair newsgroups because I had always been interested in repair of almost anything mechanical and electronic. 
+
+During the next few years, I replied to literally 10s of thousands of questions on electronics and electronics repair, as well as some on lasers - check them out by searching on Google Groups. At some point, Filip "I'll buy a vowel" Gieszczykiewicz (filipg@repairfaq.org) contacted me via email and asked if I'd like to upload some of my material to his Web site which hosted the original Sci.Electronics FAQ. Thus were born what are now the Sci.Electronics.Repair FAQs including the "Notes on the Troubleshooting and Repair of..." series and other documents on electronics. (Fil still hosts our main S.E.R FAQ site at repairfaq.org.) 
+
+As noted in the Foreword, while replying to a few questions on lasers, it became obvious that there wasn't much reliable information on practical aspects of lasers on the Internet (the Web and newsgroups). CD players and CDROM drives contained laser diodes so the first laser document to be written was one on the care and feeding of laser diodes removed from CD players. When questions were posted on Helium-Neon (HeNe) lasers, I dug up my surplus lasers and answered as best as I could - which was still usually better than what others could provide (though given what I know now, probably not much better!). Sam's Laser FAQ really took off when I was given a bunch of HeNe laser heads and power supplies - several of which I could reverse engineer. And the rest, as they say, is history! :) 
+
+I officially quit the corporate World in 1996 and during the next few years devoted the bulk of my time to developing the S.E.R FAQ in general, but mostly - and increasingly - specifically Sam's Laser FAQ. I was also an independent engineering consultant, accepting the occasional contract job if I thought it would be technically fun and rewarding and paid at least enough to make any hassles tolerable. 
+
+Near the end of 2000, I began working at Drexel University (Philadelphia, PA) as a Research Professor in the Center for Microwave and Lightwave Engineering (CMLE), in the Electrical and Computer Engineering (ECE) Department. I had done my undergraduate work at Drexel during a time long long ago and contacted their alumni relations department in search of some server space to mirror the S.E.R FAQ. During a meeting to discuss the matter, I casually asked if anyone was doing anything with lasers. They introduced me to of all people, the professor who amazingly had been my academic adviser from back then and he even remembered me! As it turned out, there was a need for someone with practical laser experience. I hadn't intended to get a real job but after taking some time to think it through, the idea of being back in academia had a certain appeal and I decided to give it a shot. So, now I do real laser work in a university setting. Should you care, the research involves high performance mode-locked and chirped solid state microchip lasers for millimeter wave communications, lidar/radar, and biomedical imaging. There are some papers at the CMLE Web site (which I just happen to maintain as well) with much more information. 
+
+Since this is not a tenure track faculty position, I don't have to teach classes, attend faculty meetings, deal with academic politics, or have quite the pressure to publish or perish. I've been down that road and am not eager to repeat it. However, I have a couple of very talented graduate students and although I don't really own them, we make a great team with their theoretical knowledge complementing my practical experience. And, they are really impressed when I produce any sort of visible laser (especially green ones) from my pocket (everything we do at CMLE so far is in the infra-red). The only down-side is that since Research Professor is actually a staff (not a faculty) position, my status ranks somewhere between that of a garden slug and slime dwelling worm in the university hierarchy. :) 
+
+In addition to the Drexel work, I continue to do the occasional engineering consulting (same criteria for acceptance of jobs apply - there has to be a fun factor involged!). But enhancement of Sam's Laser FAQ still represents a major portion of my efforts. I expect this to continue for the foreseeable future. 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+Sam's Laser Lab and Lasers
+
+It would be nice if I had a lab setup like the one I outline in the chapter: Amateur Laser Construction. However, so far, that isn't the case. My laser projects have shared space with old VCRs and parts storage, the laundry area, woodworking tools, and just random junk. I have cleared out the photo equipment from my (former) darkroom to make way for lasers. (Who does wet photography anymore? I even recycled parts of my home-built enlarging timer: its relays went into a home-built argon ion laser power supply and its aluminum box is now the chassis for a lab style HeNe laser power supply.) But even with this extra space, the general appearance is more like the aftermath of a hurricane than something one might call orderly. However, the dead VCRs have fnally been evicted. :) 
+
+I currently own a variety of lasers including numerous HeNe laser tubes, heads, and complete lasers (including other colors than red) from very samll to fairly large, and commercial and home-built power supplies; and several air-cooled argon ion laser heads, my home-built power supply, and a still-in-need-of-reassembly Omni-150. I have countless laser diodes and a few complete modules, pulsed Nd:YAG heads with a home-built power supply, a high power CW Nd:YAG head in need of a new arc lamp (and a small miracle which will probably never happen), several DPSS green lasers (both commercial and home-built), and external mirror HeNe lasers using tubes with one and two Brewster windows mounted in home-built resonators (including a nifty one-Brewster tube that does green!). My oldest commercial laser is a Spectra-Physics model 130B HeNe laser built like a tank which has a manual dated 1966 (though I don't know if my actual sample is quite that old). Best of all, it actually still lases! Most of the more interesting lasers are described in one form or another somewhere in this document. Wavelengths for the lasers I have so far include 488 nm, 514.5 nm, 532 nm, 543.5 nm, 594.1 nm, 604.6 nm, 611.9 nm, 632.8 nm, 635 nm, 658 nm, 670 nm, 780 nm, 808 nm, and 1,064 nm. If you don't recognize all of these wavelengths now, you will by the time you have read through Sam's Laser FAQ! And, if you are at all curious, my favorite wavelength is 594.1 nm, which is something along the lines of stop-light yellow. :) 
+
+Many of these lasers and laser related equipment have been given to me by various generous people as a sort of reimbursement for the vast amount of free information I have provided on-line - both in Sam's Laser FAQ and the other documents on consumer electronics repair and general electronics information (all part of the Sci.Electronics.Repair FAQ) and from my numerous contributions to the various USENET newsgroups including alt.lasers, sci.optics, sci.electronics.repair, and other technical forums (over 20,000 postings to date, most being replies to requests for assistance in various areas). I also buy occasional junk lasers on eBay or mail order but some of the most interesting ones have been sent to me in response to my request for such toys. :) (See the section: Please Don't Scrap Your Unwanted or Broken Lasers or Laser Related Equipment and Parts!.) 
+
+At some point in the future I do plan to construct some truly home-built lasers, probably starting with the more unusual ones outlined in the chapter: Home-Built Pulsed Multiple Gas (PMG) Laser. I have a several vacuum pumps and gauges, and neon sign transformers, and a wide variety of suitable electronic components, but still need to put together a proper gas delivery system and acquire the required special gasses. If only politicians generated more than hot air. :) Oh, and to find the time! 
+
+---------------------------------------------------------------------
+
+* Back to Preface Sub-TOC. 
+
+Please Don't Scrap Your Unwanted or Broken Lasers or Laser Related Equipment and Parts!
+
+I am interested in obtaining lasers and laser parts of all types and sizes in almost any condition (dead, partially dead, broken, in need of alignment, adjustment, or repair, etc.) including but not limited to: diode laser modules (even laser pointers, especially green ones), laser diodes, and laser diode drivers; HeNe, Ar/Kr ion, CO2 or other laser tubes, power supplies, and power supply components; flashlamp, arc lamp, and diode pumped solid state (DPSS) lasers, laser crystals (Nd:YAG, Nd:YVO4, KTP, etc.), and other solid state laser parts; optics and accessories; modulators, deflectors, and sensors; other types of power and control circuits; and almost anything else related to lasers. Of particular interest are external mirror gas lasers (for the chassis, optics, and power supplies) even if the tubes themselves are beyond hope (though I do have fantasies about trying some regassing in the far distant future) as well as DPSS lasers and components in almost any condition. 
+
+Obviously I would love to get working units as well but since this effort is primarily for non-profit use to expand knowledge and further enhance the FAQ, all I can really pay is slug mail shipping and maybe a wee bit more for something of sufficient entertainment value (mine). :-) 
+
+Any information found during my dissection or repairs would eventually find its way into this continually evolving document. While I rarely sell anything that I have revived or restored (how could I part with such things?!) if I were to do so with any items obtained via this request, I would be happy to share any net proceeds with the contributor. 
+
+In addition to hardware, schematics for laser diode drivers, HeNe, Ar/Kr ion, and other laser power supplies, as well as other laser related circuits are also of particular interest. Where permitted, these would be added to the FAQ and/or made available at the Web sites (i.e., they are not proprietary or in violation of copyright restrictions if made public). 
+
+Also see the "Wanted to Acquire" sections of Sam's Classified Page for other laser as well as non-laser (mostly high vacuum and high voltage) parts, equipment, gadgets, and assorted tid-bits I'm interested in obtaining. 
+
+So, please send me (Sam) mail via the Sci.Electronics.Repair FAQ Email Links Page if you have any of this sort of stuff cluttering up your basement, garage, or attic, and really need the space. :) 
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Table of Contents. 
+* Back to Preface Sub-TOC. 
+* Forward to Introduction. 
+
+---------------------------------------------------------------------
+
+Introduction
+
+Sub-Table of Contents
+
+* Scope and Purpose of This Document 
+* Organization of This Document 
+* Related Information 
+
+---------------------------------------------------------------------
+
+* Back to Introduction Sub-TOC. 
+
+Scope and Purpose of This Document
+
+Many types of lasers are used in conjunction with popular hobbyist projects, basement experimentation, and just plain old late night tinkering. Diode and helium-neon (HeNe) lasers in particular are very common due to several factors including the wide availability of inexpensive components and systems (new and surplus) and the relative ease of constructing working devices. A greater number of argon (and krypton) ion lasers are turning up on the surplus market at very affordable prices as they are replaced with more modern solid state alternatives like green diode pumped solid state lasers. But even some of those are now becoming available at prices that while not exactly low, are well within the reach of a dedicated hobbyist. There is often interest in carbon dioxide lasers because of their higher power capability. And, of course, ruby and YAG lasers for their higher pulsed power. 
+
+However, on-line and print resources with detailed information on driving laser diodes and powering helium-neon lasers seem to be scarce. Some of those that do exist are incorrect and potentially dangerous (or at least destructive). There appears to be virtually nothing at all on argon/krypton ion, CO2, solid state, and other lasers. And, even less on the nitty-gritty of amateur laser construction. 
+
+This document was written in the hopes of rectifying this situation. 
+
+Contributions in almost any form are always welcome and will be acknowledged appropriately. 
+
+However, note that there is, and never will be, more than passing mention of laser weapons in Sam's Laser FAQ. This is NOT the place to go to learn about such things. If that's your main interest, you'll have to look elsewhere, sorry. 
+
+---------------------------------------------------------------------
+
+* Back to Introduction Sub-TOC. 
+
+Organization of This Document
+
+For the most part, we assume that you are at least familiar with the basic concept of what a laser is and have an idea of your intended application (but reading though this document may help) - be it for optics experimentation, communications, ranging, simple curiosity, or just being able to say you have a working laser in the house. :-) 
+
+PART I includes some general information on lasers and laser related topics. In addition to essential laser safety information, there are general items of interest, discussions of a variety of laser instruments and applications, and a list of suggested laser and laser based experiments and projects. 
+
+There isn't much in the way of laser physics and other theoretical topics. (You can now breath a sigh of relief!) Nor will there be extensive treatment of the design of laser shows, holography experiments, interferometers, or the like - though some ideas are provided just to stimulate your interest. I leave these to the many excellent books and articles that have been published over the years. 
+
+Our major emphasis is on the practical aspects of common lasers (including diode, HeNe, argon/krypton ion, CO2, HeCd, and diode and lamp pumped solid state) that may be found outside of a well funded research lab - those available at reasonable cost on the used or surplus market, for example. 
+
+PART II provides access to the rest of the World in terms of laser information, and laser and parts manufacturers, sales, and service. (I would include the rest of the Universe but my interstellar network is still in beta testing.) There are extensive lists of references and Web links to laser safety sites, tutorials on lasers andlaser related topics, and laser and optics organizations and manufacturers. 
+
+If you are interested in detailed information on all types of lasers, laser applications, laser physics, laser experiments, or laser research, consult the chapter: Laser Information Resources for a list of books, magazine articles, and Web links covering everything laser related from basic questions like "What is a laser" or "How do lasers work" to "Spectra in stimulated emission of rare gases" and "Dissociative excitation transfer and laser oscillation in RF discharges" - and everything in between. A quick check of some of the educational Web sites may provide everything you need. 
+
+The chapter Laser and Parts Sources includes pointers to sources for everything from $2 laser diodes to $100,000 CO2 laser based machining centers - new, used, surplus, and salvage. 
+
+PART III deals with the care and feeding of lasers constructed from commercial components like helium-neon tubes and laser diodes. There is also extensive information on the design and construction of power supply, driver, and other circuits. 
+
+The chapters on specific types of lasers includes at least *10* circuits for driving laser diodes, *20* complete schematics for helium-neon laser power supplies, as well as simple modulators and other useful goodies. Most of these have been tested and/or came from working commercial designs and can be built using readily available inexpensive parts. 
+
+The material on argon/krypton ion lasers includes extensive information on the general characteristics and features, power supply requirements and design considerations including circuit descriptions, and maintenance and alignment of these highly prized devices. There are several complete ion laser power schematics of varying levels of sophistication which can be replicated using readily available parts or used as the basis for a custom design of your own! 
+
+There is also coverage of CO2 lasers (including a discussion of sealed CO2 tubes which are powered in a very similar way to helium-neon lasers) as well as some basic info on HeCd lasers. 
+
+Solid state lasers are now dealt with in considerable detail along with complete schematics for ruby and Nd:YAG power supplies. 
+
+To the best of my knowledge, no other resource in the explored universe (or elsewhere) currently comes close to providing as much practical information on these topics in a form which is both easy to read and readily accessible in one place - if at all. 
+
+PART IV is for the true basement experimenter and provides information on actually constructing entire lasers from basic materials like beach sand and copper ore. :-) Well, maybe not quite that basic but: glass tubing, mirrors, hardware, gasses, chemicals, and electronic components like transformers, resistors, capacitors, and diodes - and laser safety and high voltage warning signs! 
+
+Where you really think constructing a laser from scratch would be a challenge, fun, and educational, first keep in mind that such an endeavor is generally a LOT of work and depending on the type of laser, may require access to fairly sophisticated facilities and equipment (at least compared to the average kitchen sink - and that, too, may be needed!). These may include the need for glass blowing, a high vacuum system, access to a machine shop, and sources for assorted lab supplies, chemicals, pure gases, and specialized optical and electronic components. This is not to say that your dream is unrealistic or impossible - just that one must be quite determined to see such a project through to a successful conclusion and the information in this document will get you started. 
+
+---------------------------------------------------------------------
+
+* Back to Introduction Sub-TOC. 
+
+Related Information
+
+See the chapter: Laser Information Resources for books, magazine articles, newsgroups, technical forums, and links to other laser related Web sites. 
+
+There are many other documents at the Sci.Electronics.Repair (S.E.R) FAQ Web site or one of its mirror sites which may be of use in the design, testing, and repair of laser equipment. The Main Table of Contents (ToC) provides links to a variety of information on troubleshooting and repair of many types of equipment, general electronics, an assortment of schematics, over 1,000 technology links, and much more. Most of these documents are nicely formatted, indexed, and cross-referenced. (Silicon Sam's Technology Resource, which may be present at this site and others, usually contains more recent versions of many of these same documents some of those (particularly the large repair guides) under the S.E.R FAQ Main ToC are easier to use and the actual content differences are likely to be minor.) 
+
+The first document below is also part of Sam's Laser FAQ itself. It is also the most important: 
+
+* Safety Guidelines for High Voltage and/or Line Powered Equipment should be thoroughly studied before even thinking about working on any of the power supplies for gas or solid state lasers. (At least with small diode lasers, about all you can easily do is destroy the laser diode itself.) 
+
+* Notes on the Troubleshooting and Repair of Compact Disc Players and CDROM Drives provides more info on how the laser diodes in CD players and CDROM drives worked originally. 
+
+Where the manufacturer and part number for your laser diode are known, by all means take advantage of the extensive applications information that is likely to be available. Start with a search of "Laser Diode Scout" at ThorLabs. Driving laser diodes without blowing them out is often not easy - even for an experienced design engineer! 
+
+* Notes on the Troubleshooting and Repair of Electronic Flash Units and Strobe Lights includes design information and sample circuits that may be useful for flashlamp pumped solid state and dye lasers. 
+
+* Various Schematics and Diagrams includes a variety of circuits that may be useful for generating the high voltage for helium-neon lasers (in addition to those found in the chapter: Complete HeNe Laser Power Supply Schematics. 
+
+* Salvaging Interesting Gadgets, Components, and Subsystems for unconventional sources and uses for neat, useful, and otherwise discarded or neglected parts and equipment. 
+See the Home and Mirror Site Locations for other S.E.R FAQ or Sam's Laser FAQ mirror sites which may be faster from where you live. 
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Table of Contents. 
+* Back to Introduction Sub-TOC. 
+* Forward to What is a Laser and How Does It Work?. 
+
+---------------------------------------------------------------------
+
+What is a Laser and How Does It Work?
+
+Sub-Table of Contents
+
+* A Brief Introduction to Lasers Principles and Structure 
+
+* The Laser Age 
+* General Physical Characteristics of Lasers 
+* Basic Laser Operation 
+
+* On-line Introductions to Lasers 
+
+* Characteristics of Some Common Lasers 
+
+* The Largest and Smallest Lasers 
+
+* Lasers for the Hobbyist and Experimenter 
+
+* Why Do People Get Into Lasers? 
+* Commercial Lasers Versus Amateur Laser Construction 
+* General Comments on Lasers as a Hobby 
+* Database of Equipment Containing Interesting Lasers 
+
+---------------------------------------------------------------------
+
+* Back to What is a Laser and How Does it Work Sub-TOC. 
+
+A Brief Introduction to Lasers Principles and Structure
+
+The Laser Age
+
+Since every document on lasers must have a discussion of basic principles, this is it! If you know anything at all about lasers, you can skip to the section: Characteristics of Some Common Lasers since the summary below will probably just put you to sleep and then you might miss the rest of the excitement. :-) If you want a more in-depth on-line course, see the section: On-Line Introductions to Lasers. 
+
+A laser is a source of light but unlike anything that had ever been seen or implemented before 1960 when Theodore H. Maiman of Hughes Aircraft mounted a specially prepared synthetic ruby rod inside a powerful flash lamp similar to the type used for high speed photography. (If you're into reading heavy scientific literature, the reference is: T. H. Maiman, "Stimulated Optical Radiation in Ruby", Nature, 6 Aug. 1960, vol. 187, no. 4736, pgs. 493-4.) When his flash lamp was activated, an intense pulse of red light burst forth from the end of the rod that was both monochromatic (a single color) and coherent (all of the waves were precisely in step). The difference between the output of a laser and that of an incandescent light bulb is like the difference between white noise and a pure tone. 
+
+The laser age was born. Within a very short time, in addition to many more solid state materials, laser action was demonstrated in gasses (the ubiquitous helium-neon laser was the first gas laser though it originally only produced invisible IR wavelengths), liquids, and semiconductor crystals. Almost every conceivable material was tried in the frenzy to produce new and interesting lasers. Even some varieties of Jello(tm) brand dessert were blasted with xenon light, and according to this legend, are supposed to work fairly well. I wonder whether the flavors have to be all natural. :-) (See the section: Comments on the Jello Laser Legend for a discussion on this very exciting topic.) 
+
+See Laser Stars - LASER HISTORY (1917-1996) for an interesting chronology of laser development, discovery, and applications. 
+
+Although the first working laser was built at Hughes Aircraft, much of the early theoretical and practical work was done at Bell Labs - work which continues till the present day. See The Invention of the Laser at Bell Labs: 1958 - 1998. Quoting from this site: 
+"The invention of the laser, which stands for light amplification by stimulated emission of radiation, can be dated to 1958 with the publication of the scientific paper, Infrared and Optical Masers, by Arthur L. Schawlow, then a Bell Labs researcher, and Charles H. Townes, a consultant to Bell Labs. That paper, published in Physical Review, the journal of the American Physical Society, launched a new scientific field and opened the door to a multibillion-dollar industry." 
+
+In many ways, the laser was a solution looking for a problem. Well, the problems soon followed in huge numbers. It would be hard to imagine the modern world without lasers - used in everything from CD players and laser printers, fiber-optic and free-space communications, industrial cutting and welding, medical and surgical treatment, holography and light shows, basic scientific investigation in dozens of fields, industrial cutting and welding, and fusion power and Star Wars weapons research. The unique characterisics of laser light - monochromicity (the light is very nearly a single wavelength or color), coherence (all the waves are in step), and directionality (the beam is either well collimated to start or can easily be collimated or otherwise manipulated) make these and numerous other applications possible. In fact, it is safe to say that the vast majority of laser applications have not yet even been contemplated. For an idea of the extensive and diversified applications for which the laser has become an essential tool or component, see for example: Rami Arieli - The Laser Adventure: Laser Applications and Lasers On-Line: Some Applications. 
+
+General Physical Characteristics of Lasers
+
+The word 'LASER' is an acronym standing for 'Light Amplification by Stimulated Emission of Radiation'. (Note that while strictly speaking, all letters should be capitalized since it is an acronym, this is not generally done now that lasers are so common.) In some ways, this is somewhat confusing since most lasers are actually oscillators (generators or sources of light) and not amplifiers (devices for increasing the strength of a signal), though such lasers are also possible and used for some applications. 
+
+The output of a laser can be pulsed or a continuous beam; visible, IR, or UV; less than a milliwatt - or millions of watts of power. However, nearly all lasers have the following in common: 
+
+1.  A lasing medium. This can be a solid, liquid, gas, or semiconductor material which can be pumped to a higher energy state. 
+
+2.  It must be possible to boost a majority of the lasing medium to an upper energy level (electron, ion, vibrational) called a population inversion. 
+
+3.  There must be a downward transition triggerable by stimulated emission. 
+
+4.  Most lasers are based on 3 or 4 (energy) level systems. Which of these are possible depends on the lasing medium: 
+
+5.  3 level: Example: Pump from level 1 (ground state) to level 3 which decays rapidly to level (2). Stimulated emission takes place from level 2 to level 1. This type of a 3 level systems must be run pulsed since it is an absorber of its own lasing wavelength when in the ground state. The self absorption behavior would make it virtually impossible to maintain the population inversion required for continuous wave (CW) operation. In addition, such a lasing medium must be fully pumped (not just part of its length) since the unexcited region would then tend to block the laser light resulting in an increased lasing threshold and loss of efficiency. The ruby laser is such a 3 level system. (Another type would have the stimulated emission from level 3 to level 2 with rapid decay to level 1.) 
+
+6.  4 level: Example: Pump from level 1 (ground state) to level 4 which decays rapidly to level 3. Stimulated emission takes place from level 3 to level 2 which then decays to level 1. Such a 4 level system may also be run continuous wave (CW) if the lifetime in level 2 is short enough. The helium-neon laser is a 4 level system but one where the laser (stimulated) transition takes place between level 4 and level 3. Level 3 then decays rapidly to level 2 and then to level 1 via collisions with the tube walls. 
+
+7.  The intuitively simpler 2 level system does not work well in practice since it is difficult to produce a population inversion. 
+
+8.  A means of pumping energy into the lasing medium. This can be optical, electrical, mechanical, chemical, etc. 
+
+9.  Gas lasers use an AC or DC electrical discharge through the gas medium, or external RF excitation, electron beam bombardment, or a chemical reaction. Other pumping means are also possible. The DC electrical discharge is most common for 'small' gas lasers (e.g., helium-neon, argon ion, etc.). 
+
+For a description of a really LARGE chemically pumped laser, see the Mid-Infra Red Advanced Chemical Laser (MIRACL), using deuterium and fluorine as the reactants. This sort of laser is sometimes described as a rocket engine between a pair of mirrors! 
+
+And one that is currently under development for to supposedly shoot down mid-range ballistic missiles during the lauch phase of their trajectory - the Airforce's AirBorne Laser, a Chemical Oxygen Iodine Laser (COIL) mounted in a heavily modified Boeing 747. Some interesting linke: 
+
+10. Airborne Laser Home Page 
+11. Advanced Technology Center Airborne Laser 
+12. Description of the ABL Project 
+13. Directed Energy Directorate Fact Sheets 
+
+Another recently announced chemical laser is the AGIL - All Gas Iodine Laser - which mixes nitrogen chloride and iodine in a confined vacuum chamber. See: AGIL News Report. 
+
+14. Solid state lasers usually use optical pumping from high energy xenon flash lamps (e.g., ruby, Nd:YAG) or from a second pump laser or laser diode array (e.g., DPSS frequency doubled green lasers). Continuous solar or xenon arc pumping may be used for some types of lasers. 
+
+15. Semiconductor lasers are most often pumped by DC current but optical and electron beam pumping may also be possible. 
+
+16. Liquid (dye) lasers are usually pumped optically. 
+
+17. X-ray lasers have supposedly been pumped using small nuclear devices. Although tests may have been performed (underground), there is controversy as to whether they were successful. (There may be smaller X-ray lasers today that use other pumping means and don't self destruct with every shot.) See the section: X-Ray Lasers. 
+
+18. Free Electron Lasers (FELs) are 'pumped' by multimillion (or multibillion) dollar particle accelerators. These 'lasers' are not constructed along the same lines as the other types. For more information, see the section: Free Electron Lasers. 
+
+19. A resonator. In most cases this is some form of a Fabry-Perot cavity, a pair of mirrors, one at each end of the laser, which allow stimulated light to bounce back and forth through the lasing medium. Usually, one of the mirrors is totally reflective while the other is partially transparent to allow the laser beam to escape. The mirrors are either perfectly flat (plane) or one or both may be very slightly concave. Other configurations are possible: 
+
+20. Some lasers have a mirror at one end only (e.g., nitrogen laser) or no mirrors at all (e.g., X-ray laser since it is nearly impossible to reflect electromagnetic radiation at X-ray wavelengths). 
+
+21. Lasers constructed in the shape of a triangle or rectangle (mirrors at the corners) may have no output beam but use interference from a pair of counter-rotating laser beams at one location internally to sense the assembly's orientation in a ring laser gyro platform. See the section: Ring laser gyros. 
+
+22. Optical slabs are often used in high power laser amplifiers. In one common configuration, the slab is oriented at the Brewster angle (see the section: What is a Brewster Window?) so that virtually no energy is lost due to reflections from its surfaces as the beam passes through. Slabs may also be configured in such a way that the laser beam follows a zig-zag path through the slab reflecting back and forth from its flat faces. In both cases, the large surface area of the slab means that it is able to dissipate a large amount of power without damage. The largest pulsed lasers in the world (used for inertial fusion and nuclear bomb research) employ slab type laser amplifiers extensively. 
+
+See: Lawrence Livermore National Laboratory Laser Programs for more information. 
+
+23. Lasers may be constructed with 'distributed feedback' which replaces one of the mirrors with a diffraction grating. See the section: Difference Between Fabry-Perot and DFB Lasers. Adjusting the angle of the grating can be used to select the wavelength of the output in some lasers. (An 'intra-cavity' prism can also be used for this purpose.) 
+
+24. Additional optical elements like prisms, modulators, Q-switches, Kerr cells, and so forth may also be present inside the resonator. 
+
+Basic Laser Operation
+
+Relax! This will be short and simple. There are numerous references with extensive information - at all levels of sophistication - on laser theory. See the chapter: Laser Information Resources for references and links to all sorts of material which will cure insomnia. :-) 
+
+We present only the briefest of summaries. Some additional more specific material is presented in the chapters: Helium-Neon Lasers and Diode Lasers. 
+
+Please refer to the diagram: Basic Laser Operation whlle reading the following explanation. The numbers in () denote each step in the lasing process. 
+
+Normally, nearly all atoms, ions, or molecules (depending on the particular laser) of the lasing medium are at their lowest energy level or 'ground state' (1). 
+
+To produce laser action, the energy pumping device must achieve a population inversion in the lasing medium so that there are a majority of atoms/ions/or molecules at the upper energy level of the pair that participates in the stimulated emission. Note that those designated 'Energy Level 2' in the diagram are the ones of interest; some have also been raised to 'Energy Level 1' and just sit there taking up space (2). :-) 
+
+At random times, some of these excited atoms/ions/molecules will decay to the lower energy state on their on. In the process each one emits a single photon of light in a random direction. This is called 'spontaneous emission' and by itself isn't terribly useful. It is basically the same process that accounts for the glow of a neon sign, or the phosphor coating of a fluorescent lamp or screen of a CRT (3). 
+
+However, Einstein showed that if one of these photons happens to encounter an excited atom/ion/molecule in just the right way, it will drop down to a lower energy state and emit a photon with several amazing properties compared to the original one. Among these are: 
+
+* The new photon will be of exactly the same wavelength. 
+* The new photon will have exactly the same phase. 
+* The new photon will be emitted in exactly the same direction. 
+
+The new photon will have exactly the same polarization as well, though this is not a requirement to create a laser. However, where the resonator favors a particular polarization orientation (e.g., there is a Brewster angle window or plate in the beam path or the cavity is highly asymmetric), or in some cases, there is a particular magnetic field configuration, the output beam will also be polarized - but this is for the advanced course. :-) 
+
+So, imagine the lasing medium (perhaps, it is easiest to visualize it like the glowing gas in a neon sign) spontaneously emitting these photons in all direction at random times. Most will be lost exiting the side of the discharge tube or hitting one of the mirrors at an angle and then escaping its confines. 
+
+Occasionally, however, a photon will happen to be emitted nearly parallel to the long direction of the resonator (3,4). In this case it will travel down to one of the mirrors and be able to bounce back and forth many times (with some configuration of slightly concave mirrors, if there were no losses, it could even do this indefinitely). So far, pretty boring! However, along the way, it encounters excited atoms/ions/molecules and STIMULATES them to give up their photons. As this progresses, what was once a single photon is now an avalanche of more and more photons via this stimulated emission process (3,4,5). 
+
+The resulting beam is highly monochromatic (nearly entirely one wavelength) and coherent (all the waves are in-step). It is also either well collimated (nearly parallel rays for most lasers including gas and solid state types) or appears to originate from a point source (diode lasers). In either case, the beam can easily be manipulated in ways impossible with more common light sources. 
+
+If the pumping source is adequate and enough atoms/ions/molecules are being raised to the upper energy level to maintain the population inversion while this is happening, the laser action will continue indefinitely (barring trivial problems like overheating or depletion of the power available on the National Electric Grid). This results in a continuous wave laser. If the pumping cannot be maintained or some energy levels get clogged up, the result is a pulsed laser. (Therefore, Basic Laser Operation actually illustrates a pulsed laser since pumping is not sustained.) 
+
+There you have it! Everything else is just details. :-) 
+
+For some (still easy to understand) details on the principles of operation of the ubiquitous helium-neon laser, see the section: Theory of Operation, Modes, Coherence Length, On-Line Course as well as the chapters on other specific types of lasers. Additional information on general laser characteristics may also be found in the chapter: Items of Interest. 
+
+---------------------------------------------------------------------
+
+* Back to What is a Laser and How Does It Work? Sub-Table of Contents. 
+
+On-Line Introductions to Lasers
+
+There are a number of Web sites with laser information and tutorials. Many are of marginal value at best. However, there are a few that stand out as being well worth bookmarking: 
+
+* The best that I have found by far is the CORD Laser/Electro-Optics Technology Series, Cord Communications, 324 Kelly Drive, P.O. Box 21206, Waco, Texas 76702-1206. This is essentially a complete textbook with hundreds of diagrams, many basic equations (you can't have everything!), detailed laboratory experiments, and extensive lists of references for further study. 
+
+There are several (mostly complete) courses (some are still under development and there are a few rough edges). While the original material was developed in the early 1970s (there are a number of diagrams with tube circuits!), it has been updated and has a lot to offer including by far the most complete on-line presentation of laser technology (e.g., resonator structures and power supply example schematics) that I know of - though not to the level of detail present in Sam's Laser FAQ! :) 
+
+The blurb that goes along with the courses states: 
+"The LEOT (Laser/Electro-Optics Technology) curriculum was developed by CORD in 1970-1974 with funding from the U.S. Office of Education. At that time many books on lasers were available for physicists and engineers. Those books contained the rigorous theoretical information needed to develop new designs and applications for lasers. The LEOT curriculum does not provide that kind of information, but instead, is written for the technicians who will build, modify, install, operate, troubleshoot, and repair lasers. 
+
+Technicians are a vital link in the advancement of photonics technology. They are the workers in the laboratories, plants, and fields who ensure that lasers, and other photonics related equipment, operate properly and reliably." 
+
+So these course are very practical in nature and provide a nice companion to Sam's Laser FAQ's practical orientation. 
+
+Unfortunately, as of Summer, 2001, links to these courses from the CORD homepage have been removed supposedly due to the expiration of their funding. While the courses are available for purchase in print form, It's a pity that this has happened. Print is not the same as on-line, even if it were free. However, here are links to copies of a version of the CORD LEOT courses from Spring 2001 (these are identical and are probably almost the last revision before they disappeared from the CORD Web site): 
+
+* Dewtronics LEOT Tutorial on Lasers. 
+* Sam's Copy of LEOT Tutorial on Lasers. 
+
+Here are the main table of contents (list of modules) for each course that presently exists or is under development: 
+
+Course 1: Intro to Lasers 
+
+1-1 Elements and Operation of a Laser
+ 1-2 Elements and Operation of an Optical Power Meter
+ 1-3 Introduction to Laser Safety
+ 1-4 Properties of Light
+ 1-5 Emission and Absorption of Light
+ 1-6 Lasing Action
+ 1-7 Optical Cavaties and Modes of Oscillation
+ 1-8 Temporal Characteristics of Lasers
+ 1-9 Spatial Characteristics of Lasers
+ 1-10 Helium-Neon Gas Laser--A Case Study
+ 1-11 Laser Classifications and Characteristics
+
+Course 3: Laser Technology 
+
+3-1 Power Sources for CW Lasers
+ 3-2 Pulsed Laser Flashlamps and Power Supplies
+ 3-3 Energy Transfer in Solid-State Lasers
+ 3-4 CW Nd:YAG Laser Systems
+ 3-5 Pulsed Solid-State Laser Systems
+ 3-6 Energy Transfer in Ion Lasers
+ 3-7 Argon Ion Laser Systems
+ 3-8 Energy Transfer in Molecular Lasers
+ 3-9 CO2 Laser Systems
+ 3-10 Liquid Dye Lasers
+ 3-11 Semiconductor Lasers
+ 3-12 Laser Q-Switching-Giant Pulses
+ 3-13 Measurements of Laser Outputs
+ 3-14 Laser Safety Hazards Evaluation
+
+Course 4: Laser Electronics 
+
+4-1 Electrical Safety
+ 4-2 Gas Laser Power Supplies
+ 4-3 Ion Laser Power Supplies
+ 4-4 Flashlamps for Pulsed Lasers and Flashlamps
+ 4-5 Arc-Lamp Power Supplies
+ 4-6 Diode Laser Power Supplies
+ 4-7 Electro-Optic and Acousto-Optic Devices
+ 4-8 Optical Detectors
+ 4-9 Electro-Optic Instrumentation
+
+Course 6: Laser and Electro-Optic Components 
+
+6-1 Optical Tables and Benches
+ 6-2 Component Supports
+ 6-3 Photographic Recording Mediums
+ 6-4 Windows
+ 6-5 Mirrors and Etalons
+ 6-6 Filters and Beam Splitters
+ 6-7 Prisms
+ 6-8 Lenses
+ 6-9 Gratings
+ 6-10 Polarizers
+ 6-11 Nonlinear Materials
+
+Course 10: Laser and Electro-Optic Measurements 
+
+10-1 Spectrometers
+ 10-2 Monochromators
+ 10-3 Spectrophotometers
+ 10-4 Michelson Interferometers
+ 10-5 Fabry-Perot Interferometers
+ 10-6 Twyan-Green Interferometers
+ 10-7 Mach-Zehnder Interferometers
+ 10-8 Spatial Resolution of Optical Systems
+
+Applications of Photonics in Telecommunications (under construction) 
+
+Module 1: CW Nd: YAG Laser Systems
+ Module 2: Pulsed Solid-State Laser Systems
+ Module 3: Semiconductor Lasers
+ Module 4: Photodetector Characteristics
+ Module 5: Laser Information Systems
+ Module 6: Laser Distance Measurement
+ Module 7: Laser Trackers and Alignment Systems
+ Module 8: Laser/Fiber-Optic Communication Systems
+
+This is all great educational content for those who wish to gain a better understanding of the principles of laser operation, find out what is in a laser, see examples of power supply circuits, and much more. But, it is designed at a level that shouldn't put you to sleep with too much heavy math. :-) 
+
+* Another site which provides an outline of a course on lasers including summaries of laser types, applications, and laboratory experiments is: The Laser Adventure by Rami Arieli. I call it an outline because although most of the major topics are included, their coverage is quite brief and the serious student would need to find details elsewhere - perhaps from the CORD Communications Lasers and Electro-Optics courses described above. :-) 
+
+Some specific links with the most general interest are: 
+
+* Table of Contents (Links to all chapters and sections of the course) 
+* Laser Types (Summaries of major characteristics of most common lasers) 
+* Laser Applications (Daily use, military, medical, scientific, industry, special) 
+* Laboratory Experiments (Divergence, diffraction, measuring wavelength with a ruler, etc.) 
+
+* Rockwell Laser International has a variety of short articles and summaries with info on laser theory, common laser types, wavelengths, and applications, a glossary, and more at their Laser Tutorials page. 
+
+* MEOS GmbH is a developer of laser educational materials and equipment (among other things). Their Download Page has the lab/study manuals for their courses on a wide variety of laser related topics. While designed to be used in conjunction with the laboratory apparatus which they sell, these manuals include a great deal of useful information and procedures that can be applied in general. 
+
+The modules include (all in PDF format): 
+
+EXP01       Emission and Absorption
+  EXP03       Fabry-Perot Resonator
+  EXP04       Diode Laser
+  EXP05       Second Harmonic Generation
+  EXP07       Generation of Short Pulses
+  EXP05       Nd:YAG Laser
+  EXP06       HeNe Laser
+  EXP09       CO2 Laser
+  EXP10       Michelson and Laser Interferometer
+  EXP11       Plastic Fibre Optics
+  EXP12       Glass Fibre Optics
+  EXP13       Optical Time Domain Reflectometry
+  EXP15       Laser Range Finder
+  EXP14       Erbium doped Fibre Amplifier
+  EXP19       Radio - and Photometry
+  EXP20       Laser safety
+  EXP27       Bar Code Reader
+
+* Also see the section: General Laser Information and Tutorial Sites for other sites that may be worth visiting. 
+
+---------------------------------------------------------------------
+
+* Back to What is a Laser and How Does It Work? Sub-Table of Contents. 
+
+Characteristics of Some Common Lasers
+
+Here is a summary of the features, power output, power supply requirements, wavelengths, beam quality, cost, and applications of diode, helium-neon, argon/krypton ion, and carbon dioxide lasers. 
+
+* Diode lasers. Semiconductor laser diode 'chip' driven by low voltage power supply. Optical feedback from a monitor photodiode (commonly in the same package as the laser diode) is generally used for precise regulation of laser diode current. 
+
+Wavelengths: Red (635 nm, actually may appear slightly orange-red) through deep Red (670 nm) and beyond, IR (780 nm, 800 nm, 900 nm, 1,550 nm, etc.) up to several um). Green and blue laser diodes have been produced in various research labs but until recently, only operated at liquid nitrogen temperatures, had very limited lifespans (~100 hours or worse), or both. Recent developments suggest that long lived room temperature blue and green diode lasers will be commercially available very soon. Violet (around 400 nm) laser diodes are just going into production. 
+
+Beam quality: Fair to high depending on design. The raw beam is elliptical or wedge shaped and astigmatic. Correction requires additional optics (internal or external). Coherence length anywhere from a few mm to many meters. 
+
+Power: .1 mW to 5 mW (most common), up to 100 W or more available. The highest power units are composed of arrays of laser diodes, not a single device. 
+
+Some applications: CD players and CDROM drives, LaserDisc, MiniDisc, other optical storage drives; laser printers and laser fax machines; laser pointers; sighting and alignment scopes; measurement equipment; high speed fiber optic and free space communication systems; pump source for other lasers; bar code and UPC scanners; high performance imagers and typesetters, small (mostly) light shows. 
+
+Cost: $15 to $10,000 or more. 
+
+Comments: Inexpensive, low (input) power, very compact, but critical drive requirements. Many types of diode lasers are not suitable for holography or interferometry where a high degree of coherence and stability are required. However, see the section: Interferometers Using Inexpensive Laser Diodes since these common CD player and visible laser diodes may in fact be much better than is generally assumed. In addition, it has been reported that some inexpensive diode lasers appear to be even superior to traditional helium-neon lasers costing $Ks for holography. See the section: Holography Using Cheap Diode Lasers. 
+
+* Helium-Neon (HeNe) lasers. Most common are sealed HeNe plasma tube with internal mirrors, high voltage power supply. Exteranl mirror HeNe lab lasers also available and expensive. 
+
+Wavelengths: Red (632.8 nm, actual appearance is actually orange-red) is most common by far. Orange (611.9), yellow (594.1 nm), green (543.5 nm), and IR (1,523.1 nm) HeNe lasers are also readily available (but these are less efficient and therefore more costly for the same beam power). 
+
+Beam quality: Extremely high. The output is well collimated without external optics, and has excellent coherence length (10 cm to several meters or more) and monochromicity. Most small tubes operate single mode (TEM00). 
+
+Power: .5 to 10 mW (most common), up to 250 mW or more available. 
+
+Some applications: Industrial alignment and measurement; blood cell counting and analysis); medical positioning and surgical sighting (for higher power lasers); high resolution printing, scanning, and digitization; bar code and UPC scanners, interferometric metrology and velocimetry; non-contact measuring and monitoring; general optics and holography; small to medium size light shows, laser pointers, LaserDisc and optical data storage. 
+
+Cost: $25 to $5,000 or more depending on size, quality, new or surplus. 
+
+Comments: Inexpensive, components widely available, robust, long life. 
+
+* Argon (Ar) and krypton (Kr) ion lasers. These differ mainly in gas fill. Sealed plasma tube with internal or external mirrors and high current (10 amps or more at around 100 VDC) regulated power supply (constant current or optical power based). Combined Ar/Kr produces lines in red, green, and blue, and is therefore considered a 'white light laser'. All are electrical power guzzlers and larger units are water cooled. 
+
+Wavelengths: Violet-blue (457.9 nm), blue (488 nm - single line), green (514 nm), Red (Kr or Ar/Kr types only, 646 nm). Many other lines throughout the visible spectrum (and beyond) are available (but generally weaker) and may be 'dialed up' on some models. 
+
+Power: 10 mW to 10 W. Research lasers up to 100 W. 
+
+Beam quality: High to very high. Single and multimode types available. 
+
+Some applications: Very high performance printing, copying, typesetting, photoplotting, and image generation; forensic medicine, general and ophthalmic surgery; entertainment; holography; electrooptics research; and as an optical 'pumping' source for other lasers. 
+
+Cost: $500 (surplus 100 mW) to $50,000 (multi-watt new) or more. 
+
+Comments: High performance for someone who is truly serious about either optics experiments like holography or medium to high power light shows. 
+
+* Carbon dioxide (CO2) lasers. Sealed (small) or flowing gas design. High voltage DC, RF, electron beam or other power supply. 
+
+Wavelength: Mid-IR. 10.6 um (10,600 nm) is by far the most common but 9.6 um and several other wavelengths are also possible. 
+
+Beam quality: High. 
+
+Power: A few watts to 100 kW or more. 
+
+Some applications: Industrial metal cutting, welding, heat treatment and annealing; marking of plastics, wood, and composites, and other materials processing, and medicine including surgery. 
+
+Cost: New systems go for several $K to 100s of $K depending on specific type and output power. Used/surplus low to moderate power (up to 100 W) flowing gas systems may be available for under $500. 
+
+* Helium-Cadmium (HeCd) lasers. Sealed HeCd plasma tube with internal mirrors, high voltage power supply, and control system. Systems are more complex than other common gas lasers due to the need for control of cadmium vapor pressure and overall temperature/pressure. Actual discharge power requirements are in between HeNe and ion lasers - 1 to 2 kV at around 100 mA. 
+
+Wavelengths: Violet-blue (442 nm) and ultra-violet (325 nm) depending on the optics. 
+
+Beam quality: Very high. HeCd lasers usually use sealed narrow bore plasma tubes and operate in TEM00 mode. 
+
+Power: 10s to 100s of mW. 
+
+Some applications: Non-destructive testing and spectroscopy. 
+
+Cost: High initial cost (many $K) due to low production volume and greater plasma tube and power supply/control system complexity. Older systems may be available for under $100 but could need tube replacement or regassing. 
+
+Comments: Less common than HeNe, Ar/Kr ion, and CO2 types. Few uses for the hobbyist except for the challenge value. 
+
+* Solid State Lasers. Rod, slab, or disk of crystal or amorphous material usually pumped optically by flashlamps, high intensity discharge lamps, or high power laser diodes or arrays of laser diodes. The output may be pulsed, CW, or quasi-CW, depending on design and application. 
+
+Wavelengths: Near-IR (most common are Nd doped materials, around 1,064 nm) to visible (ruby at 694.1 nm), many other materials are now being developed. Output may be frequency multiplied to yield a visible (532 nm) or UV (355 or 266 nm) beam. 
+
+Power: Varies widely. Peak in the TeraWatt range, average up to 1,000 W or more. Q-switching provides extremely high peak power in a short pulse. 
+
+Beam quality: Low to high. 
+
+Some applications: Materials processing (drilling, cutting, welding, trimming), green (532 nm) laser pointers and other visible lasers replacing argon ion types, inertial confinement fusion and nuclear bomb research, laser entertainment, laser rangefinders, laser weapons, target designation, medical/surgical, spectroscopy, study of very short pulse phenomena, study of matter, and many many others. 
+
+The Largest and Smallest Lasers
+
+Since you were about to ask: 
+
+* By far the largest pulsed solid state laser on the face of the earth (at least for awhile) will be at the National Ignition Facility being constructed at Lawrence Livermore National Laboratory. It will produce about 1.8 MJ per pulse with a peak output power of over 500 Terawatts. The NIF laser will be about the size of a football STADIUM with 192 beam lines and over 7,300 major optical components including some 3,000 Nd:Glass slab amplifiers nearly a meter across! Its estimated construction cost is more than $1,200,000,000 with an annual operating budget of about $60,000,000. No, the NIF laser isn't portable. :-) 
+
+* The largest CW laser is probably one of the following CO2 lasers: 
+
+* A CO2 laser at the Troisk Institute for Thermonuclear Research (in Troisk, about 80 miles outside of Moscow, Russia). This is claimed to be 10 MegaWatt laser, perhaps a slight exaggeration, but not by much. It is truly a CW laser though and would run for as long as power and cooling were supplied. I don't know the exact size of the laser but the room it is in rivaled that of the NOVA laser. 
+
+* A CO2 laser at the Institute of Physics, Savanoriu 231, LT-2053, Vilnius, Lithuania. This laser was so powerful that it had a dedicated electrical power line coming directly from power station. 
+
+* The smallest lasers in common use are diode lasers like those found in CD players, barcode scanners, and telecommunications equipment. The active region is a fraction of a millimeter long and as little as 1 x 3 micrometer in width and height. The entire semiconductor chip is about the size of a grain of sand. Even smaller 'microlasers' have been developed and some are in commercial production. In principle, a single atom can be the active medium in a laser. 
+
+---------------------------------------------------------------------
+
+* Back to What is a Laser and How Does It Work? Sub-Table of Contents. 
+
+Lasers for the Hobbyist and Experimenter
+
+Why Do People Get Into Lasers?
+
+If you are reading this material because you are already a laser nut, skip this section - you already know how you got hooked. For someone who has stumbled upon Sam's Laser FAQ and is wondering why anyone would be interested in such an apparently esoteric topic - or whose only previous contact with lasers has been to tease their pet cat with a laser pointer, here are a few reasons (besides being able to talk about a topic that 99.99% of the World's people haven't a clue about!): 
+
+* Laser technology: - Lasers use all sorts of interesting apparatus, electronics, optics, and mechanics. Much of this involves complex circuits, high quality mirrors, precision structures, and other high tech toys. Skills needed to deal with laser design, adjustment, testing, and repair may include high voltage electronics to vacuum systems and gas handling; pulsed high energy discharge circuits; stable DC or RF current or voltage sources, drivers, and modulators; structural components like optics mounts and resonators; and much more. A working laser is a study in technological beauty. This is my main interest. :) 
+
+* Laser applications: - There are literally 10s of thousands of uses for lasers using devices ranging from the microscopic laser diode in a CD or DVD player to huge industrial carbon dioxide lasers for cutting, welding, and other large scale materials processing. However, the most common application of lasers for fun would be to create the dynamically changing patterns and graphics of a laser light shows using a combination of helium-neon, argon and krypton ion, arc lamp or diode pumped solid state, and diode lasers, along with modulators and deflectors. 
+
+* Laser research: - The laser is a wonderfully sophisticated but in many ways, elegantly simple device that makes use of the fundamental principles of quantum mechanics. There are vast uncharted waters to be explored (no, this is not about sailboats!) in creating new and more advanced types of lasers and systems using lasers. While the typical experimenter and hobbyist isn't likely to have access to the types of facilities and equipment to discover anything fundamentally new, they can keep up with much of the developments through trade magazines and scientific literature. 
+If you are now thinking: "I'd probably enjoy bamboo under the fingernails or root canal therapy more than any of this", perhaps lasers aren't for you. ;) However, if anything you have read so far seems fascinating or really way cool, then continue on. It doesn't take a lot of money to get into lasers ($10 will get you a laser and a simple laser show can be put together for under $25 - though it is quite possible to end up spending many $1,000s even on used or surplus lasers and laser related equipment!) but it does take a driving interest and the ability and willingness to construct and tinker. If you are incapable of changing a light bulb without the instruction manual, perhaps lasers aren't for you either. Lasers are also not the sort of thing where you are likely to find many other people in your immediate neighborhood sharing your passion except in a few places - mostly near laser manufacturers or research installations. So, be prepared to do most of your interaction via the Internet and other long distance correspondence. There are few laser clubs and no laser trading cards (but trading of laser equipment is quite popular)! 
+
+Having said all that, doing almost anything successfully with lasers can be very rewarding and if you haven't decided on a career, could give you a head start in the photonics area - the merging of lasers, optics, and electronics - which is one of the key technologies of today and the future. 
+
+(From: Bob.) 
+
+If you are still in high school, and you REALLY want to get into lasers your choices for college would be University of Rochester, followed by a coin flip decision between University of Arizona or University of Central Florida. Also there are numerous other schools with some optics courses and laser research. 
+
+Commercial Lasers Versus Amateur Laser Construction
+
+Diode, helium-neon (HeNe), argon/krypton (Ar/Kr) ion, and Diode Pumped Solid State (DPSS) lasers are probably the most popular types of lasers generally available to hobbyists and experimenter (see the section: Characteristics of Some Common Lasers). This is due to the wide availability of complete lasers and laser components (new as well as surplus), and their desirable optical and physical characteristics, including the generation (in most cases) of a continuous beam, manageable power and cooling requirements, and the fact that there is no need for sophisticated laboratory facilities to keep them healthy. A major portion of this document is devoted to the practical aspects of these types of laser systems, their power sources, and related optics and electronics. 
+
+Of these, I still consider the HeNe laser to be the quintessential laser: An electrically excited gas between a pair of mirrors. It is also the ideal first laser for the experimenter and hobbyist. OK, well, maybe after you get over the excitement of your first laser pointer! :) HeNe's are simple in principle though complex to manufacture, the beam quality is excellent - better than anything else available at a similar price. When properly powered and reasonable precautions are taken, they are relatively safe if the power output is under 5 mW. And such a laser can be easily used for many applications. With a bare HeNe laser tube, you can even look inside while it is in operation and see what is going on. Well, OK, with just a wee bit of imagination! :) This really isn't possible with diode or solid state lasers. 
+
+While many other types of lasers may be acquired or constructed including: mercury vapor ion, nitrogen, excimer, dye, ruby, Nd/YAG, chemical, free electron, and X-ray, most of these are less commonly available as surplus. There could also be problems obtaining the 100 million volt particle accelerator required for the free electron laser and the small thermonuclear device needed to pump the X-ray laser. :-) 
+
+Now, back down to earth.... 
+
+Where you are really interested in actually constructing any of these types of lasers from basic materials (e.g., not by simply hooking together commercial laser tubes and power supplies), check out the chapters beginning with: Amateur Laser Construction which include general information on the types and requirements for home-built lasers, setting up a laser lab, introduction to vacuum systems and glass working, and other really exciting topics. 
+
+General Comments on Lasers as a Hobby
+
+(From: Richard Alexander (RAlexan290@gnn.com).) 
+
+How much do you like to build things? Would you prefer to assemble a bunch of parts, or do you want to blow your own glass tubes, too? Do you have any mechanical experience? Do you build electronic kits? Keep in mind that you will often be working with intense light (enough to instantly damage your unprotected eyes, and maybe your unprotected skin) and high voltages. 
+
+All laser experimenters (and optics types, too) should have a copy of "Scientific American"'s "Light and Its Uses." [5] It gives construction plans for a Helium-Neon (you blow the glass tube yourself), an argon ion (even more complicated), a CO2 (designed and built by a high school student, and able to cut through metal), a dye, a nitrogen (a great first laser, but watch out for UV light) and a diode laser (obviously, you buy the diode laser and assemble the driver circuit from the plans they supply). They also explain how to make holograms using visible and infrared light, microwaves and sound. There are other projects, too. The book is getting fairly old (the HeNe dates to the '60s), but it's still a great reference. 
+
+A nitrogen laser may be built for under $200 (maybe less than half that amount if you are lucky). It requires no mirror alignment (since it has no mirrors). The technology for building this laser was available to Ben Franklin, so there is nothing too critical in it. The hazards it presents are lots of ultraviolet light (spark discharges and laser beam), high voltage (necessary to arc across a 1/4 inch spark gap in a nitrogen environment) and circuit etcher (the main capacitor is made from an etch circuit board). 
+
+Once built, the nitrogen laser can drive many other projects. It can be used as a pump for the dye laser, for example. It will light up anything fluorescent. It is a pulse laser (10 ns) that can be repetitively pulsed (120 Hz is a likely frequency). Megawatt power is possible, but the total energy is low (due to the short pulses). 
+
+Helium-Neon laser tubes may be bought from many mail-order companies. I bought one from Meredith Instruments in Arizona. They cost about $15, and the power supply can be built or bought for about another $20. You have the option of buying tubes with mirrors attached or not. You might want to buy the mirrors attached, because aligning those mirrors is extremely tedious. I was given an "A" for constructing a working Helium-Neon laser from the parts in the Laser Lab in less than an hour. The class was given two semesters to gain the experience they needed to do that. 
+
+If you want more than one color from lasers, there are various ways to do it, but none of them are as nice as one might like. For $3,000 or so, you can buy a Helium-Neon laser that will produce laser light ranging from infra-red to green. All you have to do is turn a dial on the back. But it's very low power (a few mW) and not really very useful to the hobbyiest except as an expensive converstion piece. :) 
+
+Laser light shows usually use argon ion or krypton lasers and/or arc lamp or diode pumped solid state laser. The ion lasers are able to produce most of the colors of visible light, and some can also be dialed to the desired color. The solid state lasers are most often green but other colors are becoming available. However, professional quality laser systems usually cost many thousand dollars ($40,000 is not too unusual) and require either forced air or water cooling or a combination. 
+
+A dye laser is the usual solution to the multi-color problem. They are inexpensive and simple. They aren't especially tunable, unless you change the dye, although a diffraction grating can be used to tune a particular dye to various colors. One common dye that can be used in a dye laser is the green dye found in radiator antifreeze. 
+
+Database of Equipment Containing Interesting Lasers
+
+We all know that CD, DVD, MiniDisc, LaserDisc, and other optical storage devices; barcode scanners, laser printers, laser pointers, and so forth, contain lasers but all sorts of other equipment does as well. And, some of those lasers may be nice and large and powerful. Each of the respective chapters on particular types of lasers has information on their common uses and in some cases, specific models of equipment where they may be found (mostly argon ion). 
+
+Mike Harrison (mike@whitewing.co.uk) has a Web page in the early stages of development which lists graphic arts, industrial, medical, scientific, and other equipment which include internal lasers of all kinds. The page can be updated with your contributions as well. Take the link near the bottom of Mike's Electric Stuff Page (which also has a lot of other interesting topics). 
+
+---------------------------------------------------------------------
+
+* Back to Sam's Laser FAQ Table of Contents. 
+* Back to What is a Laser and How Does It Work? Sub-TOC. 
+* Forward to Laser Safety. 
+
+---------------------------------------------------------------------
+Sam's Laser FAQ, Copyright &copy 1994-2004, Samuel M. Goldwasser, All Rights Reserved.
+ I may be contacted via the Sci.Electronics.Repair FAQ Email Links Page. 
+---------------------------------------------------------------------
+
+

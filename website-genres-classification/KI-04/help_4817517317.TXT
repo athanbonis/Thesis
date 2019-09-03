@@ -1,0 +1,51 @@
+
+
+13. Library Functions
+
+13.1 How can I convert numbers to strings? 
+
+13.2 Why does strncpy not always write a '\0'? 
+
+13.5 Why do some versions of toupper act strangely if given an upper-case letter? 
+
+13.6 How can I split up a string into whitespace-separated fields? 
+
+13.7 I need some code to do regular expression and wildcard matching. 
+
+13.8 I'm trying to sort an array of strings with qsort, using strcmp as the comparison function, but it's not working. 
+
+13.9 Now I'm trying to sort an array of structures, but the compiler is complaining that the function is of the wrong type for qsort. 
+
+13.10 How can I sort a linked list? 
+
+13.11 How can I sort more data than will fit in memory? 
+
+13.12 How can I get the time of day in a C program? 
+
+13.13 How can I convert a struct tm or a string into a time_t? 
+
+13.14 How can I perform calendar manipulations? 
+
+13.15 I need a random number generator. 
+
+13.16 How can I get random integers in a certain range? 
+
+13.17 Each time I run my program, I get the same sequence of numbers back from rand(). 
+
+13.18 I need a random true/false value, so I'm just taking rand() % 2, but it's alternating 0, 1, 0, 1, 0... 
+
+13.20 How can I generate random numbers with a normal or Gaussian distribution? 
+
+13.24 I'm trying to port this old program. Why do I get ``undefined external'' errors for some library functions? 
+
+13.25 I get errors due to library functions being undefined even though I #include the right header files. 
+
+13.26 I'm still getting errors due to library functions being undefined, even though I'm requesting the right libraries. 
+
+13.28 What does it mean when the linker says that _end is undefined? 
+
+---------------------------------------------------------------------
+
+top 
+
+

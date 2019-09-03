@@ -1,0 +1,94 @@
+
+
+ 	
+
+Would you like to be informed of all the latest happenings at AnalogX automatically? Then join the AnalogX ListServer Legion!	
+
+News	
+Online	
+ListServer	
+Articles	
+Reviews	
+Rambling	
+
+Overview	
+FAQ	
+Audio	
+Network	
+Programming	
+System	
+
+MP3's	
+Studio	
+Press	
+Discography	
+
+Site Map	
+Changes Log	
+Link to Us	
+Contest	
+Make Contact	
+Archives	
+Search	
+About	
+Links	
+
+ Proxy    (click here to download)	 v4.14	269k 	
+
+    Do you have several machines on a network, but only one connection to the internet? Wish you could browse the net from the other machines, just like you can from the machine that's connected? Then what you're looking for is called a Proxy Server, and AnalogX has just what you want. AnalogX Proxy is a small and simple server that allows any other machine on your local network to route it's requests through a central machine. So what does that mean in English? Simple, run Proxy on the machine with the internet connection; configure the other machines to use a proxy (it's very easy, there's a detailed description in the readme), and voila! You're surfing the web from any other machine on your network! Supports HTTP (web), HTTPS (secure web), POP3 (recieve mail), SMTP (send mail), NNTP (newsgroups), FTP (file transfer), and Socks4/4a and partial Socks5 (no UDP) protocols! It works great with Internet Explorer, Netscape, AOL, AOL Instant Messenger, Microsoft Messenger, and many more!
+
+ Version	 Changes	
+
+ 4.14 	 Fixed query bug reported by Network Intelligence India 	
+ 4.13 	 Added port rules to HTTPS 	
+ 4.12 	 Fixed DNS caching bug reported by Foundstone 	
+ 4.07 	 Fixed problem with SMTP (sending) email 	
+ 4.06 	 Fixed bug in FTP that caused failure to connect 	
+ 4.05 	 Fixed overflow bug in SMTP/POP3/FTP processing 	
+ 4.04 	 Fixed bug with very long URLS (more than 1200 chars) 	
+ 4.03 	 Made some performance tweaks and added another FTP proxy mode 	
+ 4.02 	 Fixed problem with some sites redirection (etrade, etc) 	
+ 4.01 	 Fixed bug in Proxy->Proxy support 	
+ 4.00 	 Interface binding, Socks support, faster performance, and more! 	
+ 3.05 	 Fixed problem with diagnosing errors on startup 	
+ 3.04 	 Fixed a problem with FTP not resolving local IP correctly 	
+ 3.03 	 Fixed some SMTP/POP3 bugs and expanded readme 	
+ 3.01 	 Minor cosmetic changes to make error messages more readable 	
+ 3.00 	 Added support for NNTP (news) and FTP (files transfer) 	
+ 2.00 	 Added support for multiple POP3/SMTP (email) 	
+ 1.20 	 Added support for HTTPS (secure HTTP) 	
+ 1.01 	 Added info to readme about configuration 	
+ 1.00 	 Initial Release 	
+
+Last updated on Thursday, May 15, 2003 09:34:10 PM PST	
+Copyright ©1998-2003, AnalogX. All rights reserved.	
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+

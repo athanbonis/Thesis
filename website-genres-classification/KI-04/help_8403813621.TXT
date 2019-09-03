@@ -1,0 +1,270 @@
+A Crash Course in Symbolic Logic - D. J. Brasier (Dr. Achilles) An introduction to the notation and rules of derivation in symbolic logic. Nonstandard Analysis and the Hyperreals - Jordi Gutierrez Hermoso (Dr. Jordi) An introduction to the most basic ideas of nonstandard analysis and the hyperreal number system. Other Recommended Math Sites Math History Earliest Uses of Mathematical Symbols and Earliest Uses of Some Words of Mathematics - regularly updated by Jeff Miller. Famous Problems in Math History by Isaac Reed, Swarthmore College History of Mathematics by David Joyce, Clark University MacTutor Math History Archive - St. Andrews A searchable archive of articles and biographies Mathematicians of the African Diaspora Ancient and modern history, by Dr. Scott W. Williams Women Mathematicians Biographies by students from Agnes Scott College Unit Conversion How Many? A Dictionary of Units of Measurement by Russ Rowlett, Univ. of North Carolina at Chapel Hill. ConvertIt.com Measurement Converter Entisoft's comprehensive converter for distance, area, volume, mass, speed, temperature, pressure, energy, power, force, etc.- over 500 different unit conversions. To convert temperature, length, weight, and volume see the Unit Conversion Program or the megaConverter. Metric System and Anglo-Saxon Units Weights and measures: history and correlations, by Jacques J. Proot Math Reference Academic Press Dictionary - Mathematics The largest scientific dictionary in the English language. --> Eric Weisstein's World of Mathematics Definitions and examples. Euclid's Elements All 13 books, with interactive illustrations. Forum Internet Mathematics Library Search for Math on the Internet. Flash Cards for Kids Addition, subtraction, multiplication, division; three levels of complexity and numbers from 1 to 999. Free On-Line Dictionary of Computing (FOLDOC) A searchable dictionary of anything to do with computing. Includes a section on mathematics. Glossary of Statistical Terms Basic definitions and much more. Mathematics Glossary for Middle-Level Students Simple definitions of math terms. Mathematical Quotation Server A collection of quotations from many sources. Math Words, and Some Other Words, of Interest Pat Ballew's list of over 450 mostly math words, their definitions, and etymologies. On-Line Encyclopedia of Integer Sequences Look up a sequence, word, or sequence number. Maintained by N. J. A. Sloane. Plouffe's Inverter A database of mathematical constants. WebMath Type your Algebra 1 problem directly into this site and get a step-by-step solution. Submit your own question to Dr. Math [ Privacy Policy ] [ Terms of Use ] Math Forum Home || Math Library || Quick Reference || Math Forum Search Ask Dr. Math ® © 1994-2004 The Math Forum http://mathforum.org/dr.math/   --> 
+
+Ask Dr. Math
+
+About Dr. Math || Search Dr. Math || Dr. Math Thank-you's || Dr. Math Home 
+
+See also Essays in Mathematics, Other Recommended Math Sites,
+and selected answers to common questions.
+ 
+
+Frequently  Asked  Questions
+ 
+
+Classic Problems
+Age Word Problems; Birthday Probability
+Boy or Girl?; Camel and Bananas
+Coin Problems; Doubling Pennies; Grazing Animals
+Liars and Truthtellers; Missing Dollar
+Monty Hall; Three Houses-Three Utilities
+Tower of Hanoi; Two Trains; Two Trains & Fly
+ 
+---------------------------------------------------------------------
+0.9999... = 1
+Why does 0.9999... = 1?
+ 
+0 to 0 power
+What is 0 to the 0 power?
+ 
+n to 0 power
+Why is any number raised to the zero power equal to one?
+ 
+0! = 1
+Why does 0! = 1?
+ 
+Calendar & Days of the Week
+What years are leap years? How do I find the day of the week for any date? How do I find a calendar for any year? How common are Friday the 13ths?
+ 
+Cubic and quartic equations
+What are the general solutions to cubic and quartic polynomial equations?
+ 
+Distance, Rate, and Time
+Distance = Rate x Time: A discussion and two problems.
+ 
+Dividing by 0
+Why can't you divide by 0? Why is 0/0 "indeterminate" and 1/0 "undefined"? Why is dividing by zero "illegal"?
+ 
+Dividing Fractions
+How do you divide fractions? Say, 2/3 divided by 3/4.
+ 
+Divisibility rules
+How can you tell whether a number is divisible by another number (leaving no remainder) without actually doing the division? Why do 'divisibility rules' work?
+ 
+E = 2.71828...
+What is e? Who first used e? How do you find e? How many digits does it have?
+ 
+False Proofs, Classic Fallacies
+What's wrong with proofs that say 1+1=1, or 2=1? 
+
+Fermat's Last Theorem
+What is the current status of Fermat's Last Theorem?
+ 
+Fractions, Decimals, Percentages
+What are simple, complex, and compound fractions? How do you convert decimals and percentages to fractions?
+ 
+Golden Ratio, Fibonacci Sequence
+Please tell me about the Golden Ratio (or Golden Mean), the Golden Rectangle, and the Fibonacci Sequence.
+ 
+Imaginary numbers
+ What is an imaginary number? What is i? And see Imaginary Exponents and Euler's Equation.
+ 
+Impossible constructions
+Problems from antiquity: trisecting an angle, squaring the circle, duplicating the cube.
+ 
+Integers, Rational/Irrational Numbers
+What is an integer? Are fractions rational numbers? What about .9999...? How about decimals? pi? the Golden Ratio?
+ 
+Large numbers and infinity
+What's the largest number? What's a googol? How do we name large numbers? What is infinity?
+ 
+Learning to factor
+A sampling of answers from our archives.
+ 
+Loans and Interest
+Interest calculations: simple interest, compound interest, annual percentage rate (APR), installment loans.
+ 
+Math terms
+Why was the letter m selected to represent slope? What's the name of the "fraction bar"?
+ 
+Multiplication facts
+Tips for parents, teachers, and students for different ways of learning to multiply. In particular, see Russian Peasant Multiplication.
+ 
+Naming polygons and polyhedra
+What do you call an 11-sided polygon? A 14-sided polygon? Is there a list of names of polygons?
+ 	Formulas, by Robert L. Ward
+Defining Geometric Figures; Geometric Formulas
+Analytic Geometry Formulas
+  Polar Coordinates
+  Spherical Coordinates
+  Cylindrical Coordinates)
+Trigonometry Formulas
+ 
+---------------------------------------------------------------------
+Negative times a negative
+Why does a negative times a negative equal a positive? Does this ever happen in the real world?
+ 
+Number bases
+What is base 10? Binary? Hexadecimal? How can you convert from one base to another?
+ 
+Number glossary
+What are abundant, amicable, deficient, figurate, happy, narcissistic, palindromic, perfect, polygonal, proper divisors, semiperfect, sociable, square, tetrahedral, triangular, and weird numbers?
+ 
+Order of operations
+What is the correct order of operations? Why use it? What is PEMDAS?
+ 
+Pascal's triangle
+What is Pascal's Triangle? How do you construct it? What is it good for?
+ 
+Perfect numbers
+What is a perfect number? How many are there? How can you calculate a perfect number from a Mersenne prime?
+ 
+Permutations and Combinations
+How to calculate all the groupings of objects where order does or doesn't matter. And see Fast Food Combinations.
+ 
+Pi = 3.14159...
+What is Pi? Who first used Pi? How do you find it? How many digits is it?
+ 
+Prime numbers
+What is a prime number? What's the 'Sieve of Eratosthenes'? What is the largest known prime?
+ 
+Probability
+An introduction to basic concepts. See also Probability in the Real World.
+ 
+Proofs
+What is a proof? How do you write a two-column proof?
+ 
+Properties Glossary
+What is an operation? an identity? What are the associative, commutative, distributive, and equality properties? What is the property of closure? What is the inverse of something?
+ 
+Pythagorean theorem
+What is the Pythagorean theorem? When would I use it?
+ 
+Pythagorean triples
+What are Pythagorean triples? What do they have to do with Fermat's Last Theorem?
+ 
+Roman Numerals
+How to read and write Roman numerals; Roman numeral fractions; arithmetic problems; and resources for other numeral systems.
+ 
+Rounding Numbers
+How do you round a number to the nearest 10th, 100th, 1000th, etc.?
+ 
+Segments of circles
+Given partial information about a segment of a circle, how do you compute what you want to know?
+ 
+Square/cube roots without a calculator
+How do you find the square root of a number by hand? How about cube roots?
+ 
+Trachtenberg speed system
+Doing high-speed basic operations in your head.
+ 
+Typing math
+How should I type exponents? What about square roots? Why not use tabs? May I send attachments?
+ 
+Why study math? How to study math
+Why do we need to learn math? When are we ever going to use it in real life? Math study tips.
+ 
+Word Problems
+When I'm given a 'word problem', where do I start?
+ 
+Working Together
+Jack can finish a job in 5 days, and Richard can finish the same job in 7 days. Working together, how long will it take them to finish the job?
+ 	
+
+Essays in Mathematics by our Math Doctors
+
+A Crash Course in Symbolic Logic - D. J. Brasier (Dr. Achilles)
+An introduction to the notation and rules of derivation in symbolic logic.
+ 
+Nonstandard Analysis and the Hyperreals - Jordi Gutierrez Hermoso (Dr. Jordi)
+ An introduction to the most basic ideas of nonstandard analysis and the hyperreal number system.
+ 
+
+Other Recommended Math Sites
+
+Math History
+ 
+Earliest Uses of Mathematical Symbols and
+Earliest Uses of Some Words of Mathematics - regularly updated by Jeff Miller.
+ 
+Famous Problems in Math History
+ by Isaac Reed, Swarthmore College
+ 
+History of Mathematics
+ by David Joyce, Clark University
+ 
+MacTutor Math History Archive - St. Andrews
+A searchable archive of articles and biographies
+ 
+Mathematicians of the African Diaspora
+Ancient and modern history, by Dr. Scott W. Williams
+ 
+Women Mathematicians
+Biographies by students from Agnes Scott College
+ 
+
+---------------------------------------------------------------------
+
+Unit Conversion
+ 
+How Many?
+A Dictionary of Units of Measurement by Russ Rowlett, Univ. of North Carolina at Chapel Hill.
+ 
+ConvertIt.com Measurement Converter
+Entisoft's comprehensive converter for distance, area, volume, mass, speed, temperature, pressure, energy, power, force, etc.- over 500 different unit conversions. 
+
+To convert temperature, length, weight, and volume see the Unit Conversion Program or the megaConverter.
+ 
+Metric System and Anglo-Saxon Units
+Weights and measures: history and correlations, 
+by Jacques J. Proot
+ 
+
+Math Reference
+ 
+Eric Weisstein's World of Mathematics
+ Definitions and examples.
+ 
+Euclid's Elements
+ All 13 books, with interactive illustrations.
+ 
+Forum Internet Mathematics Library
+Search for Math on the Internet.
+ 
+Flash Cards for Kids
+Addition, subtraction, multiplication, division; three levels of complexity and numbers from 1 to 999.
+ 
+Free On-Line Dictionary of Computing (FOLDOC)
+A searchable dictionary of anything to do with computing. Includes a section on mathematics.
+ 
+Glossary of Statistical Terms
+Basic definitions and much more.
+ 
+Mathematics Glossary for Middle-Level Students
+Simple definitions of math terms.
+ 
+Mathematical Quotation Server
+A collection of quotations from many sources.
+ 
+Math Words, and Some Other Words, of Interest
+Pat Ballew's list of over 450 mostly math words, their definitions, and etymologies.
+ 
+On-Line Encyclopedia of Integer Sequences
+Look up a sequence, word, or sequence number. Maintained by N. J. A. Sloane.
+ 
+Plouffe's Inverter
+A database of mathematical constants.
+ 
+WebMath
+Type your Algebra 1 problem directly into this site and get a step-by-step solution.
+ 
+
+Submit your own question to Dr. Math 
+
+[Privacy Policy] [Terms of Use] 
+
+Math Forum Home || Math Library || Quick Reference || Math Forum Search 
+
+Ask Dr. Math ®
+© 1994-2004 The Math Forum
+http://mathforum.org/dr.math/
+ 

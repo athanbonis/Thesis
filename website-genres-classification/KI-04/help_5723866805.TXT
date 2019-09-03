@@ -1,0 +1,15 @@
+
+
+3.77) Why do swap -l, swap -s and /tmp disagree about the amount of swap? 
+
+First of all, let's get the tmpfs issue (/tmp, /var/run) out of the way. The tmpfs filesystem is a filesystem that takes memory from the virtual memory pool. What it lists as size of swap is the sum of the space currently taken by the filesystem and the available swap space unless the size is limited with the size=xxxx option. 
+
+In other words, the "size" of a tmpfs filesystem has nothing to do with the size of swap; at most with the available swap. 
+
+The second confusing issue is what "swap" really is. Solaris defines swap as the sum total of physical memory not otherwise used and physical swap. This is confusing to some who believe that swap is just the physical swap space. 
+
+The "swap -l" command will list the swap devices and files configured and how much of them is already in use. 
+
+The "swap -s" command will list the size of virtual swap. Physical swap added to the physical memory. On systems with plenty of memory, "swap -l" will typically show little or no swap space use but "swap -s" will show a lot of swap space used. 
+
+PREV INDEX NEXT 

@@ -1,0 +1,11 @@
+A Linear Lower Bound on Index Size for Text Retrieval. E. D. Demaine and A. López-Ortiz. Proceedings of 12th Symposium on Discrete Algorithms (SODA 2001), Washington, DC, 2001. Invited to special issue of Journal of Algorithms on selected papers from SODA. PostScript file. 
+
+ 
+
+Abstract. Most information-retrieval systems preprocess the data to produce an auxiliary index structure. Empirically, it has been observed that there is a tradeoff between query response time and the size of the index. When indexing a large corpus, such as the web, the size of the index is an important consideration. In this case it would be ideal to produce an index that is substantially smaller than the text. 
+
+In this work we prove a linear lower bound on the size of any index that reports the location (if any) of a substring in the text in time proportional to the length of the pattern. In other words, an index supporting linear-time substring searches requires about as much space as the original text. Here ``time'' is measured in the number of bit probes to the text; an arbitrary amount of computation may be done on an arbitrary amount of the index. Our lower bound applies to inverted word indices as well. 
+
+ 
+
+

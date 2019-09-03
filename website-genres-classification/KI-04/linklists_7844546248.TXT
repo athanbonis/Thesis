@@ -1,0 +1,1583 @@
+
+
+AI on the Web
+
+This page links to 869 pages around the web with information on Artificial Intelligence. Some of the links will pop up additional information when you move the mouse over them. Links in Bold* followed by a star are especially useful and interesting sites. If you have new links to add, let us know. The subtopics are: 
+
+Overview of AI 
+Highly Recommended Links 
+Intelligent Agents 
+Search and Game Playing 
+Logic and Knowledge Representation 
+Planning 
+Reasoning with Uncertainty 
+Machine Learning 
+Natural Language Processing 
+Perception and Robotics 
+Philosophy and the Future 
+AI Programming (Lisp) 
+AI Programming (C++ and Java) 
+AI Programming (Python) 
+AI Programming (Prolog) 
+
+Or if you can't find it here, you can search elsewhere:
+ CiteSeer: : 
+
+Overview of AI
+
+Reference
+ 
+AI FAQ* 
+AI Patents 
+AI Patents 
+AI Topics* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Bibliography* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Ch. 1 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Home* 
+Intro to AI 
+Karlsruhe Bibliography 
+Promises of Computing 
+CiteSeer.')" onMouseout='k()'>ResearchIndex* 
+What is AI* 
+
+Lists of Links
+ 
+100 Top Cogsci Works 
+AI Education 
+AI Virtual Library 
+AI on the WWW 
+AIBits 
+About AI 
+CMU list 
+Canadian IIT* 
+Excite's list 
+GSB/GSL (MIT) 
+Generation 5 
+Google (AI) 
+London Collection 
+Reading Library 
+SIGART Other 
+SIGART Subject List 
+Yahoo Directory 
+Yahoo list 
+
+Organizations
+ 
+AAAI* 
+ACM list* 
+AISB 
+ECCAI 
+IEEE 
+IJCAI 2001 
+Loebner Prize 
+Neural Net Conferences 
+SIGART* 
+
+Journals
+ 
+AI Magazine 
+AI Review 
+Artificial Intelligence* 
+CS Tech Reports 
+ETAI Journal 
+IEEE Intelligent Systems 
+IIT list 
+JAIR* 
+Kluwer Journals 
+Machine Learning 
+PC AI 
+
+People
+ 
+AAAI Fellows* 
+Allen, James 
+Brooks, Rod 
+Charniak, Eugene 
+Cheeseman, Peter 
+Dean, Tom 
+Dechter, Rina 
+Feigenbaum, Ed 
+Genesereth, Michael 
+Ginsberg, Matt 
+Grosz, Barbara 
+Hayes, Pat 
+Heckerman, David 
+Hinton, Geoffrey 
+Horvitz, Eric 
+IIT list* 
+Jordan, Michael 
+Joshi, Arvind 
+Kaelbling, Leslie 
+Kautz, Henry 
+Kolodner, Janet 
+Korf, Richard 
+Lehnert, Wendy 
+Maes, Pattie 
+McCarthy, John 
+McDermott, Drew 
+Michie, Donald 
+Minsky, Marvin 
+Mitchell, Tom 
+Moore, Andrew 
+Newell, Allen 
+Nilsson, Nils 
+Pearl, Judea 
+Poole, David 
+Reiter, Ray 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Russell, Stuart 
+Schank, Roger 
+Schubert, Len 
+Selman, Bart 
+Shapiro, Stuart 
+Shoham, Yoav 
+Simon, Herbert 
+Stein, Lynn 
+Szolovits, Peter 
+Tate, Austin 
+Turing, Alan* 
+Valiant, Leslie 
+Waltz, David 
+Webber, Bonnie 
+Wellman, Michael 
+Wilensky, Robert 
+Shrudlu, one of the first NLP programs, which operated in the blocks word. Now Stanford Prof. working in Human-Computer Interaction.')" onMouseout='k()'>Winograd, Terry 
+Winston, Pat 
+Zadeh, Lotfi 
+
+Companies
+ 
+AI Companies* 
+AI Company 
+Acknosoft 
+Agentland 
+Ascent 
+Brightware 
+Carnegie Group 
+Charles River 
+Computational Logic 
+Cybion 
+Cycorp 
+Excalibur 
+ExperTelligence 
+Gensym 
+Haley Enterprise 
+Hugin 
+IIT list* 
+Inference 
+Intellicorp 
+Knowledge Industries 
+Kurzweil 
+LPA 
+Lumina 
+Neuron Data 
+Norsys 
+SHAI 
+Teknowledge 
+Thinking Machines 
+Ultragem 
+Yahoo list 
+
+News & Mail
+ 
+IIT list 
+comp.ai* 
+comp.ai.edu 
+comp.ai.jair.announce 
+
+Software
+ 
+AARON (CyberArt) 
+CMU Repository* 
+
+Research Groups
+ 
+AIAI 
+Austrian AI 
+Brown 
+CMU* 
+DFKI Saarbrucken 
+EKSL (UMass) 
+Edinburgh 
+Georgia Tech 
+IIT list 
+Illinois 
+Irvine 
+JPL (NASA) AI 
+MIT* 
+Michigan 
+Microsoft DTG* 
+New South Wales 
+Northwestern 
+Oregon 
+Others 
+Pittsburgh 
+Rochester 
+SRI* 
+Santa Fe 
+Stanford* 
+Texas 
+UMass 
+UPenn 
+USC/ISI* 
+Washington 
+Xerox PARC 
+Yale 
+
+Books
+ 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Bibliography* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Home* 
+Amazon.com's list* 
+Bender 
+Comparison 
+Dean 
+Encyclopedia of AI* 
+Ginsberg 
+The Age of Intelligent Machines is a popular book on AI technology. Excellent collection of illustrations, and broad coverage.')" onMouseout='k()'>Kurzweil 
+Saarbrucken 
+Vienna Bibliography 
+Winston 
+
+Highly Recommended Links
+
+Reference
+ 
+AI FAQ* 
+AI Topics* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Bibliography* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Home* 
+Common Lisp Hyperspec* 
+Lisp FAQ* 
+Logical Fallacy page* 
+Online Logic Text* 
+Prolog FAQ* 
+Python.org* 
+Reinforcement Learning Tutorial* 
+CiteSeer.')" onMouseout='k()'>ResearchIndex* 
+What is AI* 
+
+Lists of Links
+ 
+Agents Abroad* 
+BotSpot* 
+Canadian IIT* 
+Java Links* 
+ML Resources* 
+Software Agents* 
+The Data Mine* 
+
+Organizations
+ 
+AAAI* 
+ACL* 
+ACM list* 
+Irvine Machine Learning* 
+SIGART* 
+
+Journals
+ 
+Artificial Intelligence* 
+JAIR* 
+
+People
+ 
+AAAI Fellows* 
+Bayesians list* 
+IIT list* 
+ML/CBR People* 
+Peirce, Charles S* 
+Turing, Alan* 
+UAI list* 
+
+Companies
+ 
+AI Companies* 
+IIT list* 
+
+News & Mail
+ 
+AgentNews (UMBC)* 
+comp.ai* 
+
+Software
+ 
+CMU Repository* 
+WordNet* 
+
+Humor
+ 
+Alan Perlis Epigrams* 
+Bayes Limited* 
+Lisp Humor* 
+
+Research Groups
+ 
+Agents (UMBC)* 
+CMU* 
+MIT* 
+Microsoft DTG* 
+NYU Linguistics* 
+Ontolingua* 
+SRI* 
+Stanford* 
+USC/ISI* 
+
+Books
+ 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Bibliography* 
+Artificial Intelligence: A Modern Approach')" onMouseout='k()'>AIMA Home* 
+Amazon.com's list* 
+Encyclopedia of AI* 
+Managing Gigabytes* 
+
+Intelligent Agents
+
+Reference
+ 
+AIMA Ch. 2 
+Agent Transfer Protocol 
+InfoSleuth Project Index 
+Multiagent Dynamics 
+Negotiation Bib 
+
+Lists of Links
+ 
+Agent Links 
+Agent Links 
+Agents Abroad* 
+Agents sites 
+BotSpot* 
+Economics 
+Game Theory 
+Google (Agents) 
+Multi-Agent Pointers 
+Software Agents* 
+Umass: Learning in MAS/DAI 
+WPI: MAS list 
+Web Robots 
+
+Organizations
+ 
+Multiagent Systems 
+TARK 
+
+Journals
+ 
+MAS Journal 
+
+People
+ 
+Agre, Phil 
+Brooks, Rod 
+Doyle, Jon 
+Durfee, Ed 
+Finin, Tim 
+Gasser, Les 
+Genesereth, Michael 
+Hayes-Roth, Barbara 
+Hearst, Marti 
+Honavar, Vasant 
+Huhns, Michael 
+Kaelbling, Leslie 
+Kowalski, Robert 
+Laird, John 
+Lenat, Douglas 
+Lesser, Victor 
+Levesque, Hector 
+Lieberman, Henry 
+Maes, Pattie 
+Mason, Cindy 
+Nilsson, Nils 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Norvig, Peter 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Russell, Stuart 
+Selker, Ted 
+Shoham, Yoav 
+Singh, Munindar 
+Stein, Lynn 
+Tambe, Milind 
+Turing, Alan* 
+Wellman, Michael 
+Shrudlu, one of the first NLP programs, which operated in the blocks word. Now Stanford Prof. working in Human-Computer Interaction.')" onMouseout='k()'>Winograd, Terry 
+Wooldridge, Michael 
+Zilberstein, Shlomo 
+
+Companies
+ 
+Agentland 
+Agentware Systems 
+BotBox 
+Charles River 
+Cybion 
+Verity 
+
+News & Mail
+ 
+AgentNews (UMBC)* 
+
+Software
+ 
+Agentsheets 
+
+Research Groups
+ 
+Agents (IBM) 
+Agents (UMBC)* 
+Autonomous (MIT) 
+Distributed AI (Umass) 
+EKSL (UMass) 
+Iowa State 
+Nobotics (Stanford) 
+OZ Project (CMU) 
+Softbot (Washington) 
+Software Agents (UK) 
+UMass Anytime Reasoning 
+
+Books
+ 
+Agency in Action 
+Agent Sourcebook 
+Intelligent Wireless Web 
+Interaction & Agency 
+Mark Watson 
+Mobile Agents 
+Rules of Encounter 
+Soar: Cognitive Architecture 
+
+Search and Game Playing
+
+Reference
+ 
+AIMA Ch. 3-5 
+Amit's game Programming 
+Anatomy of Chess Programs 
+Computational Complexity of Games 
+Deep Blue/Kasparov: chess 
+Go Bibliography 
+Knowledge in Games 
+
+Lists of Links
+ 
+AI Wisdom 
+AI in Games 
+Game Programming 
+GameDev.net AI 
+Games 
+Google (Search) 
+Machine Learning in Games 
+
+Organizations
+ 
+Intnl. Comp. Chess Ass. 
+US Go Org. 
+
+People
+ 
+Berliner, Hans 
+Bratko, Ivan 
+Ebeling, Carl 
+Kanal, Laveen 
+Kasparov, Gary 
+Korf, Richard 
+Kumar, Vipin 
+McAllester, David 
+Michie, Donald 
+Nau, Dana 
+Nilsson, Nils 
+Pearl, Judea 
+Pohl, Ira 
+Schaeffer, Jonathan 
+
+Companies
+ 
+NovaGenetica 
+
+News & Mail
+ 
+comp.ai.games 
+
+Software
+ 
+Chess Programming 
+Chess in Lisp 
+Chinook: checkers 
+Gamesman 
+Hannibal (Othello) 
+Logistello (Othello) 
+Othello in Java 
+Tetris 
+
+Research Groups
+ 
+CIRL 
+
+Logic and Knowledge Representation
+
+Reference
+ 
+AI and Databases 
+AIMA Ch. 6-10 
+ANSI Ontology 
+Description Logic 
+Logical Fallacy page* 
+Online Logic Text* 
+Ontology Page 
+R.B. Jones 
+Theorems Proved 
+
+Lists of Links
+ 
+Constraints Archive 
+Constraints FTP site 
+Google (KR) 
+Google (Logic) 
+IIT Expert System list 
+IIT Logic list 
+Reasoning About Action 
+SEL-HPC Theorem Proving Archive 
+
+Organizations
+ 
+KR.org 
+TARK 
+
+People
+ 
+Allen, James 
+Balzer, Bob 
+Barwise, John 
+Bibel, Wolfgang 
+Brachman, Ron 
+Crawford, James 
+Davis, Ernest 
+De Kleer, Johan 
+Dean, Tom 
+Dechter, Rina 
+Doyle, Jon 
+Elkan, Charles 
+Etherington, David 
+Feigenbaum, Ed 
+Forbus, Ken 
+Freuder, Eugene 
+Geddis, Don 
+Geffner, Hector 
+Genesereth, Michael 
+Ginsberg, Matt 
+Green, Cordell 
+Hayes, Pat 
+Hobbs, Jerry 
+Kautz, Henry 
+Koller, Daphne 
+Konolidge, Kurt 
+Kowalski, Robert 
+Lakoff, George 
+Lenat, Douglas 
+Levesque, Hector 
+Lifschitz, Vladimir 
+Mackworth, Alan 
+McCarthy, John 
+McCune, William 
+McDermott, Drew 
+Morgenstern, Leora 
+Nilsson, Nils 
+Novak, Gordon 
+Nute, Donald 
+Peirce, Charles S* 
+Perlis, Don 
+Poole, David 
+Putnam, Hilary 
+Rapaport, W. 
+Reiter, Ray 
+Sacerdoti, Earl 
+Sandewall, Erik 
+Schubert, Len 
+Selman, Bart 
+Solving the Frame Problem.')" onMouseout='k()'>Shanahan, Murray 
+Shoham, Yoav 
+Simon, Herbert 
+Smolka, Gert 
+Sowa, John 
+Stickel, Mark 
+Suppes, Patrick 
+Swartout, Bill 
+Thomason, Rich 
+Turing, Alan* 
+Waldinger, Richard 
+Winston, Pat 
+Wos, Larry 
+
+Companies
+ 
+Assistum 
+Attar 
+Brightware 
+Carnegie Group 
+Computational Logic 
+Cycorp 
+ExperTelligence 
+Gensym 
+Haley Enterprise 
+Inference 
+Intellicorp 
+Neuron Data 
+NovaCast 
+Servile 
+Teknowledge 
+
+News & Mail
+ 
+comp.ai.shells 
+comp.constraints 
+
+Software
+ 
+CLIPS 
+DTP Prover 
+Epilog Prover 
+FDPLL (First-Order DPLL) 
+Isabelle theorem prover 
+JSAT 
+Logic Software 
+Otter 
+PVS verification system 
+Proof Power 
+SOAR expert system 
+Simplify 
+WalkSAT for Java 
+
+Research Groups
+ 
+Active Logic (UMD) 
+CS157: Computational Logic 
+Formal Reasoning (Stanford) 
+Knowledge Systems (Australia) 
+Ontolingua* 
+SNePS 
+Stanford's KSL 
+Theorem Provers 
+
+Books
+ 
+Matroid Decomposition 
+
+Planning
+
+Reference
+ 
+AIMA Ch. 11-13 
+Graphplan Homepage 
+
+Lists of Links
+ 
+Google (Planning) 
+Planning Domains 
+Planning Resources 
+
+People
+ 
+Agre, Phil 
+Appelt, Doug 
+Bacchus, Fahiem 
+Boutilier, Craig 
+Chien, Steve 
+David Wilkins 
+Doyle, Jon 
+Goldman, Robert 
+Hanks, Steve 
+Hansen, Eric 
+Hendler, Jim 
+Kambhampati, Rao 
+Knoblock, Craig 
+Lansky, Amy 
+Nau, Dana 
+Nilsson, Nils 
+Pryor, Louise 
+Sacerdoti, Earl 
+Simon, Herbert 
+Stein, Lynn 
+Tate, Austin 
+Waldinger, Richard 
+Weld, Dan 
+Wilensky, Robert 
+Zilberstein, Shlomo 
+
+Companies
+ 
+Ascent 
+Gensym 
+Inference 
+PDC (Prolog) 
+Red Pepper 
+
+News & Mail
+ 
+Planning List 
+
+Software
+ 
+Boids (flocking agents) 
+TRAINS 
+Tileworld 
+UCPOP 
+UMCP Planner 
+
+Research Groups
+ 
+Arizona State 
+CIRL 
+Chicago 
+Hubble Space Telescope 
+ISI 
+O-Plan 
+U. Maryland 
+U. Washington 
+
+Reasoning with Uncertainty
+
+Reference
+ 
+AIMA Ch. 14-17 
+History of Game Theory 
+
+Lists of Links
+ 
+Decision Analysis list 
+Google (Uncertainty) 
+IIT Bayes list 
+
+Organizations
+ 
+Assoc for Uncertainty in AI 
+
+Journals
+ 
+Math Methods of OR 
+Soft Computing 
+
+People
+ 
+Almond, Russ 
+Bayesians list* 
+Boutilier, Craig 
+Breese, Jack 
+Buntine, Wray 
+Cheeseman, Peter 
+D'Ambrosio, Bruce 
+Dean, Tom 
+Fayyad, Usama 
+Friedman, Nir 
+Goldszmidt, Moises 
+Haddawy, Peter 
+Heckerman, David 
+Henrion, Max 
+Hinton, Geoffrey 
+Hirsh, Hyam 
+Horvitz, Eric 
+Jordan, Michael 
+Kaelbling, Leslie 
+Kasif, Simon 
+Koenig, Sven 
+Koller, Daphne 
+Moore, Andrew 
+Neal, Radford 
+Pearl, Judea 
+Poole, David 
+Reiter, Ray 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Russell, Stuart 
+Shafer, Glenn 
+Smyth, Padhraic 
+Szolovits, Peter 
+UAI list* 
+Wellman, Michael 
+Zadeh, Lotfi 
+Zilberstein, Shlomo 
+
+Companies
+ 
+Agorics 
+Bayesian systems 
+Hugin 
+Knowledge Industries 
+Lumina 
+Norsys 
+SyntelSoft 
+
+News & Mail
+ 
+AI-Stats Archive 
+AI/Stats Mailing List 
+Operations Research 
+comp.ai.fuzzy 
+
+Software
+ 
+Analytical Statistics Package 
+Bayes Net Toolbox (Matlab) 
+Software for Belief Nets 
+
+Humor
+ 
+Bayes Limited* 
+
+Research Groups
+ 
+CAMIS (Stanford Medical) 
+CAMIS Group (Stanford Medical) 
+MIT Clinical Decision Making 
+Microsoft DTG* 
+NASA Bayesian Group 
+Stanford Stats 
+U. of Washington Statistics 
+UCLA stats 
+UMass Anytime Reasoning 
+
+Books
+ 
+Jaynes' book 
+
+Machine Learning
+
+Reference
+ 
+AIMA Ch. 18-21 
+Intro to ILP 
+Machine Learning Dictionary 
+Reinforcement Learning Tutorial* 
+Statistics (IIT) 
+
+Lists of Links
+ 
+Data Mining Products 
+Google (Learning) 
+IIT list 
+Knowledge Discovery Mine 
+Knowledge Discovery&Datamining 
+MCMC Papers 
+ML Resources* 
+Machine Learning in Games 
+Machine Learning list 
+Neural Net FAQ 
+Neural Nets vs Statistics 
+OFAI ML List 
+Statistics list 
+The Data Mine* 
+Umass: Learning in MAS/DAI 
+
+Organizations
+ 
+AI Stats Soc. 
+Boosting 
+Classification Soc. 
+Classification Soc. 
+INFORMS 
+Irvine Machine Learning* 
+Neural Net Conferences 
+
+Journals
+ 
+Adaptive Behavior 
+Artificial Life 
+Evolutionary Computation 
+Intelligent Data Analysis 
+Intelligent Intuition 
+J. Cog. Neuroscience 
+J. Learning Sciences 
+J. of Automated Reasoning 
+Journal of Stat Software 
+ML Journal 
+Machine Learning 
+
+People
+ 
+Aha, David 
+Barto, Andy 
+Baum, Eric 
+Birnbaum, Larry 
+Blum, Avrim 
+Bylander, Tom 
+Collins, Alan 
+Collins, Greg 
+Dawid, Philip 
+DeJong, Jerry 
+Dietterich, Tom 
+Ellman, Tom 
+Friedman, Jerome 
+Gentner, Deidre 
+Hammond, Kris 
+Hanks, Steve 
+Haussler, David 
+Hendler, Jim 
+Hinton, Geoffrey 
+Hirsh, Hyam 
+Hofstader, Doug 
+Honavar, Vasant 
+Jordan, Michael 
+Kasif, Simon 
+Kibler, Dennis 
+Knoblock, Craig 
+Koenig, Sven 
+Kolodner, Janet 
+Koza, John 
+Laird, John 
+Langley, Pat 
+Lenat, Douglas 
+Lewis, David 
+Ling, Charles 
+Lozano-Perez, Tomas 
+ML/CBR People* 
+Mahadevan, Sridhar 
+McDermott, Drew 
+Miikkulainen, Risto 
+Minsky, Marvin 
+Minton, Steve 
+Mitchell, Melanie 
+Mitchell, Tom 
+Mooney, Ray 
+Moore, Andrew 
+Muggleton, Steve 
+Neal, Radford 
+Pazzani, Mike 
+Poggio, Tomaso 
+Pollack, Jordan 
+Porter, Bruce 
+Quinlan, Ross 
+Riesbeck, Chris 
+Ripley, Brian 
+Rosenbloom, Paul 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Russell, Stuart 
+Schlimmer, Jeff 
+Sejnowski, Terry 
+Shavlik, Jude 
+Singh, Satinder 
+Smyth, Padhraic 
+Srihari, Sargur 
+Sutton, Rich 
+Tadepalli, Prasad 
+Utgoff, Paul 
+Valiant, Leslie 
+VanLehn, Kurt 
+Velosa, Manuela 
+Waltz, David 
+Warmuth, Manfred 
+Weld, Dan 
+Managing Gigabytes, digital libraries, data mining work.')" onMouseout='k()'>Witten, Ian 
+
+Companies
+ 
+Abtech 
+Angoss 
+Artificial Life 
+Burning Glass 
+Clementine 
+Cognos 
+Epiphany 
+Equicom Inc. 
+Fetch Technologies 
+Gabitus 
+HNC 
+Hyperparallel 
+IBM Data Mining 
+Information Discovery 
+MindShadow 
+NeoVista 
+NeuralWare 
+NeuroDimension 
+Neuron Data 
+Platinum 
+Prediction Company 
+
+Red Brick 
+Rulequest 
+SAS 
+SGI MineSet 
+SHAI 
+SPSS 
+Thinking Machines 
+Trajecta 
+Ultragem 
+Unica 
+
+News & Mail
+ 
+AI & Stats 
+Connectionists 
+GA List 
+ML List 
+comp.ai.genetic 
+comp.ai.neural-nets 
+
+Software
+ 
+CMU Repository 
+Data Mining in Python 
+Delve Project 
+Irvine ML programs 
+ML Programs (CMU) 
+MLC++ 
+Neural Software 
+Statlib 
+Statlog 
+Texas Research Software 
+UCLA Datasets 
+
+Research Groups
+ 
+Abbadingo (Grammar Learning) 
+Adaptive Control 
+Auton 
+CBCL (MIT) 
+IBM Data Mining 
+Inst. Learning Sciences 
+Iowa State 
+Jam Project 
+Minimum Message Length 
+NASA Bayesian Group 
+NASA Model-Based Learning 
+NEC Research 
+Naval Research Lab 
+New South Wales 
+RL, Mich. St. 
+Reinforcement (CMU) 
+Reinforcement Learning 
+SOAR (CMU) 
+Texas 
+UMass Adaptive Networks 
+UMass Machine Learning 
+Wisconsin ML 
+
+Books
+ 
+C4.5 (Quinlan) 
+Elements of ML (Langley) 
+Inside CBR 
+Introduction to ML (Nilsson) 
+ML (Mitchell) 
+Readings in ML 
+
+Natural Language Processing
+
+Reference
+ 
+AIMA Ch. 22-23 
+Celex 
+Human Language Survey 
+NLP Dictionary 
+
+Lists of Links
+ 
+Digital Libraries 
+Google (NLP) 
+IIT list 
+IR list 
+Linguistics & NLP list 
+Other Virtual Libraries 
+
+Organizations
+ 
+ACL* 
+Linguistic Data Consortium 
+Math of Language 
+Summer Institute of Linguistics 
+
+Journals
+ 
+Computational Linguistics 
+J. Digital Libraries 
+Machine Translation 
+
+People
+ 
+Allen, James 
+Appelt, Doug 
+Brill, Eric 
+Carbonnel, Jaime 
+Cardie, Claire 
+Charniak, Eugene 
+Croft, Bruce 
+Dorr, Bonnie 
+Dyer, Mike 
+Grosz, Barbara 
+Hearst, Marti 
+Hobbs, Jerry 
+Hovy, Ed 
+Israel, David 
+Joshi, Arvind 
+Katz, Boris 
+Knight, Kevin 
+Lakoff, George 
+Lehnert, Wendy 
+Lewis, David 
+Marcus, Mitch 
+McCoy, Kathy 
+Mooney, Ray 
+Moore, Johanna 
+Moore, Robert 
+Mueller, Erik 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Norvig, Peter 
+Peters, Stanley 
+Pollard, Carl 
+Pullum, Geoff 
+Pustejovsky, James 
+Resnik, Philip 
+Riesbeck, Chris 
+Riloff, Ellen 
+Sag, Ivan 
+Sampson, Geoffrey 
+Schank, Roger 
+Schubert, Len 
+Schütze, Hinrich 
+Shapiro, Stuart 
+Stabler, Ed 
+Steedman, Mark 
+Steele, Oliver 
+Talmy, Len 
+Thomason, Rich 
+Uszkoreit, Hans 
+Webber, Bonnie 
+Wilensky, Robert 
+Shrudlu, one of the first NLP programs, which operated in the blocks word. Now Stanford Prof. working in Human-Computer Interaction.')" onMouseout='k()'>Winograd, Terry 
+Managing Gigabytes, digital libraries, data mining work.')" onMouseout='k()'>Witten, Ian 
+Wu, Dekai 
+Yarowsky, David 
+
+Companies
+ 
+AnswerFriend 
+AnswerLogic 
+Ask Jeeves 
+Burning Glass 
+Elfsoft 
+Excalibur 
+Fetch Technologies 
+Google 
+InXight 
+Inquizit 
+Lingo Motors 
+Linguistic Technology 
+Nuance 
+Signiform 
+Thunderstone 
+Verity 
+
+News & Mail
+ 
+Linguist 
+comp.ai.nat-lang 
+comp.ai.nlang-know-rep 
+
+Software
+ 
+CLIG Linguistic data grapher 
+CMU AI Repository: NLP 
+DFKI NLP Registry 
+HPSG parser 
+Link Grammar 
+NL software registry 
+NLBean (Java) 
+TRAINS 
+ThoughtTreasure 
+WordNet in Python 
+WordNet* 
+
+Humor
+ 
+Chomskybot 
+
+Research Groups
+ 
+Berkeley Digital Library 
+CEDAR 
+Cedar 
+Center for Intelligent IR (UMass) 
+Comp. Ling. Archive 
+Construction Grammar 
+DFKI Language Technology 
+Digital Libraries and Xerox 
+HPSG Group 
+NASA Web Librarian Project Description 
+NYU Linguistics* 
+SRI Cambridge 
+SRI NLP 
+Stanford Digital Libraries 
+
+Books
+ 
+Managing Gigabytes* 
+Martin & Jurafsky 
+Prolog and NL 
+Statistical NLP 
+
+Perception and Robotics
+
+Reference
+ 
+AIMA Ch. 24-25 
+MIT Robitics FAQ 
+Robot Competition FAQ 
+Robotic Manipulation 
+comp.robotics FAQ 
+
+Lists of Links
+ 
+Google (Robotics) 
+Yahoo list 
+
+Organizations
+ 
+Robot Soccer 
+
+Journals
+ 
+Autonomous Robots 
+J. Computer Vision 
+Micro Control Jornal 
+Videre (Vision) 
+Vision and Apps. 
+
+People
+ 
+Arbib, Michael 
+Ballard, Dana 
+Bekey, George 
+Brooks, Rod 
+Canny, John 
+Dudek, Gregory 
+Ellen Hildreth 
+Gat, Erann 
+Gruden, Rod 
+Hogg, Tad 
+Horn, Berthold 
+Koenig, Sven 
+Mackworth, Alan 
+Mahadevan, Sridhar 
+Malik, Jitendra 
+Mataric, Maja 
+Nevatia, Ram 
+Riseman, Edward 
+Shoham, Yoav 
+Tanimoto, Steve 
+Thrun, Sebastian 
+Velosa, Manuela 
+Waltz, David 
+
+Companies
+ 
+American Robot 
+IS Robotics 
+Kurzweil 
+Robotic Systems 
+Yahoo list 
+
+News & Mail
+ 
+comp.ai.vision 
+comp.robotics 
+comp.robotics.research 
+
+Research Groups
+ 
+Berkeley Robotics 
+Berkeley Vision 
+Brown Robotics 
+Brown U. Robotics 
+CMU NavLab 
+CMU Robotics 
+Cal Tech Robotics 
+Cognitive Robotics (London) 
+Cognitive Robotics (Toronto) 
+Cornell Roboptics and Vision 
+Harvard Robotics 
+Johns Hopkins Robotics 
+MIT Mobile Robots 
+McGill 
+NASA Robots 
+Stanford Robotics 
+Stanford Robotics 
+UMass Computer Vision 
+UMass Perceptual Robotics 
+UMass Perceptual Robotics 
+USC Modular Robotics 
+USC Robotics 
+
+Philosophy and the Future
+
+Reference
+ 
+AIMA Ch. 26-27 
+Computing Machinery 
+Ethics in Computing 
+R.B. Jones 
+Risks of AI 
+
+Lists of Links
+ 
+Google (Philosophy) 
+Philosophy Pointers 
+Philosophy list 
+Philosophy of Mind Biblio 
+Yahoo list 
+
+Journals
+ 
+Minds & Machines 
+
+People
+ 
+Bratman, Michael 
+Dennett, Daniel 
+Dreyfus, Bert 
+Etchemendy, John 
+Israel, David 
+Peirce, Charles S* 
+Perry, John 
+Searle, John 
+Suppes, Patrick 
+Turing, Alan* 
+
+News & Mail
+ 
+comp.ai.philosophy 
+
+Software
+ 
+AARON (CyberArt) 
+
+Humor
+ 
+Brain in a Vat 
+
+Books
+ 
+Agency in Action 
+Empirical Methods for AI 
+
+AI Programming (Lisp)
+
+Reference
+ 
+Common Lisp Hyperspec* 
+History of Lisp 1 
+History of Lisp 2 
+Language Shootout 
+Lisp FAQ* 
+Lisp Packages 
+Lisp Tutorial (Civilized) 
+Lisp Tutorial (Hopkins) 
+Lisp Tutorial (Texas A&M) 
+Lisp, C++, Java, Dylan 
+Python vs Lisp 
+
+Lists of Links
+ 
+Cliki CL Links 
+Google (Lisp) 
+Lisp Refs (CMU) 
+Lisp Resources (USC) 
+Lisp Textbook Code 
+Lisp on the Net 
+Yahoo Lisp list 
+
+Organizations
+ 
+Assoc. Lisp Users 
+Cons.org 
+
+Journals
+ 
+J. Funct. & Logic Prog. 
+Lisp & Symbolic Computation 
+
+People
+ 
+Abelson, Hal 
+Charniak, Eugene 
+De Kleer, Johan 
+Forbus, Ken 
+Graham, Paul 
+Hewitt, Carl 
+Horn, Berthold 
+Kantrowitz, Mark 
+Knight, Tom 
+Mallery, John 
+McDermott, Drew 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Norvig, Peter 
+Riesbeck, Chris 
+Siskind, Jeffrey 
+Sussman, Jerry 
+Watson, Mark 
+Wilensky, Robert 
+Winston, Pat 
+
+Companies
+ 
+Digitool 
+Franz 
+Schemers 
+
+News & Mail
+ 
+comp.ai.shells 
+comp.lang.clos 
+comp.lang.lisp 
+comp.lang.scheme 
+comp.lang.smalltalk 
+
+Software
+ 
+AARON (CyberArt) 
+Babylon Expert System 
+CLIPS 
+Chess in Lisp 
+DTP Prover 
+Epilog Prover 
+Lisp HTTP Server 
+TRAINS 
+ThoughtTreasure 
+Tileworld 
+
+Humor
+ 
+Alan Perlis Epigrams* 
+Hacker's Dictionary 
+Joe Lisp 
+Lisp Humor* 
+
+Books
+ 
+AI Programming (CRM&M) 
+ANSI Common Lisp 
+Art of the MOP 
+CLtL2 
+Common Lisp: Gentle 
+Common Lisp: Interactive 
+Common LispCraft 
+On Lisp 
+PAIP 
+Sussman & Abelson 
+Winston & Horn 
+
+AI Programming (C++ and Java)
+
+Reference
+ 
+JavaBayes 
+Language Shootout 
+Lisp, C++, Java, Dylan 
+
+Lists of Links
+ 
+AI Java Applets 
+Google (C++) 
+Google (Java) 
+Intelligent Java 
+Java Links* 
+Java and AI 
+
+People
+ 
+Object Oriented AI in C++')" onMouseout='k()'>Kim Tracy 
+Object Oriented AI in C++')" onMouseout='k()'>Peter Bouthorn 
+Watson, Mark 
+
+News & Mail
+ 
+comp.lang.c++ 
+comp.lang.java 
+
+Software
+ 
+AI Library in C++ 
+HTK Hidden Markov Toolkit 
+JESS rule engine 
+JSAT 
+Link Grammar 
+MLC++ 
+NLBean (Java) 
+Othello in Java 
+Otter 
+UMCP Planner 
+WalkSAT for Java 
+
+Books
+ 
+Agents using Java 
+Intelligent Java Applications 
+Object-Oriented AI in C++ is one of the few textbooks covering AI in C++; has received mixed reviews')" onMouseout='k()'>OO AI in C++ 
+
+AI Programming (Python)
+
+Reference
+ 
+Language Shootout 
+Python vs Lisp 
+Python.org* 
+
+Lists of Links
+ 
+Google (Python) 
+
+People
+ 
+Artificial Intelligence: A Modern Approach.')" onMouseout='k()'>Norvig, Peter 
+Steele, Oliver 
+
+News & Mail
+ 
+comp.lang.python 
+
+Software
+ 
+Data Mining in Python 
+WordNet in Python 
+
+Books
+ 
+Programming Python 
+Python Essential Ref 
+
+AI Programming (Prolog)
+
+Reference
+ 
+Language Shootout 
+Prolog Dictionary 
+Prolog FAQ* 
+Prolog Tutorial 
+
+Lists of Links
+ 
+Google (Prolog) 
+Yahoo Prolog list 
+
+People
+ 
+Bratko, Ivan 
+Mellish, Chris 
+O'Keefe, Richard 
+
+Companies
+ 
+LPA 
+PDC (Prolog) 
+
+News & Mail
+ 
+comp.lang.prolog 
+
+Software
+ 
+AIMA code in Prolog 
+FDPLL (First-Order DPLL) 
+Mercury 
+
+Books
+ 
+AI in Prolog 
+Art of Prolog 
+Craft of Prolog 
+Programming in Prolog 
+Prolog Standard 
+
+---------------------------------------------------------------------
+
+AIMA Home Contact Russell & Norvig What's new Changed 01/09/03 
+

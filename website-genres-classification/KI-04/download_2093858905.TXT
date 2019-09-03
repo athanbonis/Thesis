@@ -1,0 +1,89 @@
+
+---------------------------------------------------------------------
+  You are not logged in Log in Join  You are here:  Home » Download Zope Products » Zope » 2.6.4rc1 
+---------------------------------------------------------------------
+
+* About Zope  
+ 
+* What Is Zope?   
+* Zope Powered Sites   
+* About Zope.org   
+* Member FAQ   
+* Zope News   
+
+* Business  
+ 
+* Zope Corporation   
+* Solution Providers   
+* Zope Hosting   
+
+* Documentation  
+ 
+* The Zope Book   
+* Developer Guide   
+* Administrator Guide   
+* API reference   
+* ZPT reference   
+* Using The CMF   
+* Zope Articles   
+* Zope How-Tos   
+* Books In Print   
+
+* Download  
+ 
+* Download Zope   
+* Zope Products   
+* Zope CMF   
+
+* Developers  
+ 
+* Zope Projects   
+* Zope 3   
+* Zope CVS   
+
+* Resources  
+ 
+* Report Bugs   
+* Mailing Lists   
+* User Groups   
+
+* Zope Exits  
+ 
+* ZopeZen   
+* Zope Newbies   
+* Plone   
+* ZopeLabs   
+* Zope Europe   
+* Zope Germany   
+* Zope Italia   
+* Zope Brazil   
+* OzZope   
+* Zopera   
+* ZopeMag   
+* Zope Jobs   
+
+Log in
+ Name Password   Forgot your password? New user? 	 
+
+File  Platform  MD5   
+ Zope-2.6.4-rc1-linux2-x86.tgz (6.96 M)  	 i386	    md5   	  
+ Zope-2.6.4-rc1-solaris-2.9-sparc.tgz (7.31 M)  	 All	    md5   	  
+ Zope-2.6.4-rc1-src.tgz (2.29 M)  	 All	    md5   	  
+ Zope-2.6.4-rc1-win32-x86.tgz (4.46 M)  	 i386	    md5   	 
+
+Version:	   2.6.4rc1  	  
+ Release Date:	  2004-01-19 16:59:20	  
+Last Modified:	 2004-01-19 17:20:21	  
+ Author:	    Brian   	  
+ License:	  ZPL	   
+ Categories:	  	  
+ Maturity:	  Stable	   
+  	    Information  	  
+  	    Changes  	  
+  	    Installation  	  
+  	    License  	  
+
+---------------------------------------------------------------------
+2003 Zope Corporation. All rights reserved. Legal | Contact 
+---------------------------------------------------------------------
+If you can read this text, it means you are not experiencing the Plone design at its best. Plone makes heavy use of CSS, which means it is accessible to any internet browser, but the design needs a standards-compliant browser to look like we intended it. Just so you know ;) 

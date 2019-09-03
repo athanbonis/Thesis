@@ -1,0 +1,93 @@
+   var mnpSurveyCookieDays = 90; function mnpSurveyAllowed(cookieName) {  if (mnpSurveyCookie(cookieName)) return false;  mnpSetSurveyCookie(cookieName);  return mnpSurveyCookie(cookieName); } function mnpSurveyCookie(cookieName) {  var cookie = document.cookie;  var i = cookie.indexOf(cookieName + "=");  if (i == -1) return false;  if (i == 0) return true;  var ch = cookie.substring(i - 1, i);  return (ch 0) expdate.setTime(expdate.getTime() - skew);  expdate.setTime(expdate.getTime() + mnpSurveyCookieDays * 86400000);  var expires = expdate.toGMTString();  document.cookie = cookieName + "=1; expires=" + expires + "; path=/; domain=.microsoft.com"; } function mnpWebSurvey(popupText, acceptUrl, cancelUrl) {  var ok = window.confirm(popupText);  mnpSurveyProcess(ok, acceptUrl, cancelUrl, null); } function mnpEmailSurvey(popupText, acceptUrl, cancelUrl) {  var email, invalid;  var regGood = new RegExp("^.+\\@(\\[?)[a-zA-Z0-9\\-\\.]+\\.([a-zA-Z]{2,3}|[0-9]{1,3})(\\]?)$");  var regBad = new RegExp("(@.*@)|(\\.\\.)|(@\\.)|(^\\.)");  do  {   email = window.prompt(popupText, "");   if (email == null || email == "")    invalid = false;   else if (regBad.test(email))    invalid = true;   else    invalid = !regGood.test(email);  }  while (invalid);  mnpSurveyProcess(email != null && email != "", acceptUrl, cancelUrl, email); } function mnpSurveyProcess(ok, acceptUrl, cancelUrl, email) {  var url;  if (ok)  {   url = acceptUrl;   if (url.indexOf("?") == -1) url += "?";   url += "&location=" + escape(document.location);   url += "&referrer=" + escape(document.referrer);   url += "&browser=" + escape(navigator.userAgent);   if (email)    url += "&email=" + escape(email);   window.open(url, "surv_win", "toolbar=1,location=1,status=1,menuar=1,scrollbars=yes,resizable=1,width=650,height=320");  }  else   window.open(cancelUrl, "cancel_win", "toolbar=0,location=0,status=0,menubar=0,scrollbars=0,resizable=0,width=90,height=20,alwaysLowered=1,screenX=2000,screenY=2000"); }            
+  
+Search for
+         
+
+ 		
+ 
+   
+         
+
+PowerToys for Visual Studio .NET 2003
+
+Discover the PowerToys for Visual Studio .NET 2003. Developed by Microsoft, the PowerToys are a collection of cool utilities and tools that enhance Visual Studio.            (November 21, Download)     More...     
+---------------------------------------------------------------------
+
+Monitoring and Dynamically Configuring Windows Services  Learn how to monitor and dynamically reconfigure the state of a service by changing the XML configuration file.     (January 23, Article) Windows Shell: Create Namespace Extensions for Windows Explorer with the .NET Framework  Find out how to create custom shell namespace extensions by using C# and the .NET Framework.     (January 23, Article) Creating a Plug-in Framework  Make your .NET applications extensible by adding this simple plug-in mechanism.     (January 23, Article) Wonders of Windows Forms: Down the Rabbit Hole  Michael Weinhardt provides a tour of the GridView control in Whidbey Windows Forms, including data binding, styles, custom cell formatting, and more.     (January 23, Article) Understanding and Enabling Application Integration  Explore the major challenges involved in application integration, and find out how you can adapt your environment to meet those challenges.     (January 16, Article) Validating ASP.NET Server Controls  Delve into the ASP.NET validation server controls, and discover how they can help you ensure that entered data is valid.     (January 16, Article with Code Sample) Fundamentals of Microsoft .NET Compact Framework Development  Start developing with the Compact Framework, the smart device development framework for .NET that simplifies the process of creating and deploying applications to mobile devices.     (January 9, Article) 
+
+See the legend of icons used on this MSDN site.     
+
+---------------------------------------------------------------------
+
+From the Editor
+
+Hello there. I'm Kent Sharkey, the Visual Studio Content Strategist for MSDN. I'm responsible for selecting and organizing the technical content you will find in the Visual Studio Developer Center and the headlines that come through the RSS feed. You can find out more about this developer center, read news about Visual Studio and ASP.NET, and link to my blog from my Letter from the Editor page.     
+
+---------------------------------------------------------------------
+ 
+  
+
+Community
+
+Newsgroups
+
+microsoft.public.vsnet.general  Join this newsgroup to discuss general Visual Studio issues.     microsoft.public.dotnet.languages.vb  Join this newsgroup to discuss Visual Basic .NET development issues.     microsoft.public.dotnet.general  Join this newsgroup to discuss general .NET development issues.     More... 
+
+Visual Studio Discussions
+
+GotDotNet Message Board  Welcome to the GotDotNet Message Board�the place to talk with other GotDotNet users about .NET issues. Begin by choosing a Forum, and then you can join a thread.     GotDotNet .NET Framework Discussion Board  Take part in the GotDotNet .NET Framework general discussions about the .NET Framework including the common language runtime, ADO.NET, general security, or any topic not covered in a specific message board.     ASP.NET Forums  Visit the ASP.NET community site to learn about and discuss the development of Web applications using .NET.     
+
+Related Sites
+
+GotDotNet  This Microsoft site is focused on development topics related to .NET, where developers can upload their own samples.     The Code Project  Get free source code and tutorials for Windows developers and programming information for Visual C++, C#, and Microsoft .NET, as well as articles, code snippets, and discussions.     DevX  DevX is the leading provider of technical information, tools, and services for IT professionals developing corporate applications.     
+
+User Groups
+
+INETA  Access the International .NET Association (INETA) for its structured, peer-based organizational, educational, and promotional support to the growing worldwide community of Microsoft .NET user groups.     .NET Developers Association  Use the resources from the .NET Developers Association (.NETDA) to enhance your programming skills.     Find a User Group Near You  MSDN developer user groups are local, independently run, volunteer groups that meet on a regular basis to discuss and share information on a variety of computing topics.     More... 
+
+Essential Information 
+
+* Microsoft Developer Tools Roadmap 2004-2005
+* Learn About the Microsoft Communications Protocol Program
+* New Visual Studio Industry Partner Program and Free SDK
+* MSDN RSS Feeds
+* .NET Framework Documentation
+   Developer Tools 
+
+* Visual Basic
+* Visual C#
+* Visual C++
+* Visual J#
+* .NET Framework
+* Visual Studio Tools for Office
+* Mobility Developer Center
+* Office Developer Center
+* Visual FoxPro
+   Top Downloads 
+
+* Visual Studio 6 Service Pack 5
+* Microsoft Java Language Conversion Assistant 2.0
+* Microsoft J# Browser Controls
+* .NET Framework 1.1 SDK
+* .NET Framework 1.1 Redistributable
+* Visual Basic 6.0 Code Advisor
+ More 
+    Industry News 
+
+* Microsoft Outlines Visual Studio .NET and .NET Framework Vision
+* Microsoft VSIP Program Offers More Benefits
+* Microsoft Expands .NET Ecosystem with VSIP Program
+ More 
+    Support/KB Articles 
+
+* Visual Studio .NET Support Center
+* Visual Studio 6 Support Center
+* The .NET Framework Support Center
+ More 
+   	
+Top of Page 	
+      	         
+  
+ Contact Us | MSDN Flash Newsletter | Legal 	
+ Â©2004 Microsoft Corporation. All rights reserved. Terms of Use | Privacy Statement 	
+    function mnpFooterMouse(el, co)    {     if (el.style) el.style.color = co;    }   

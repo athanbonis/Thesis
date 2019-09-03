@@ -1,0 +1,75 @@
+           arNames = new Array("mainMenu", "subMenu");     layerNames = new Array("main", "sub");       document.write("  }  //-->      
+
+Telenor 		
+
+ 	 About Telenor R&D
+
+ 	 Projects
+
+ 	 External Relations
+
+ 	 Entrepreneurship
+
+ 	 Publications
+
+ 	 In Norwegian
+
+ 	<< Til forsiden
+
+Main page | Telektronikk | R&D publications | Annual Results | 	
+
+Guest editorial
+
+Rolv Bræk 
+
+When the CCITT, now ITU-T, initiated work on specification and programming languages back in 1972, it was a bold step. At that time software engineering was in its infancy and the development of communication software very much a pioneering thing. Every system development involved breaking some new technological ground. At the same time it was clear that software offered far more possibilities than mere replacement of electromechanical and electronic solutions. Entirely new functionality was possible and was therefore gradually introduced into the systems. This is a well-known pattern from all areas of computing. But communication systems were not allowed to trade functionality for quality, as has been so common in other strands of computing. Even as the complexity was growing beyond bounds, the systems had to satisfy outstanding requirements to high-performance, reliability and no-break operation. Therefore, it became essential at an early stage to find ways to master the quality in the face of growing complexity.
+
+The combination of high complexity with high reliability forced the communication software industry to take a pro-active approach to software quality from the very beginning. Since communication software always has been embedded real-time software with a high degree of concurrency, distribution and heterogeneity, the solutions that were developed attacked these problems from the very beginning, while they were not yet considered important in mainstream software engineering.
+
+The early techniques developed for software engineering in general, such as SADT and Structured Analysis/Structured Design, focused on activities and data-flow. Quite deliberately they did not deal with sequential behaviour, concurrency and distribution. They emphasised abstraction and human understanding more than formality. They provided no formal semantics, and therefore it was not possible to simulate and analyse the system behaviour before it was implemented. Moreover, the mapping from abstract model to concrete design was unclear, and the value of abstract models was therefore limited to the early phases. They had little documentation value for the final product and were in many cases just thrown away. Apparently, the activity-oriented approach of those techniques did not deliver all the benefits promised, not even outside the communication domain.
+
+Later developments have focused more on data modelling, and these have been considerably more successful, especially for data-intensive applications. In recent years, the trend has been towards object-orientation and more formality. The Unified Modelling Language, UML, is the latest and most notable development in this direction. It combines a set of graphical notations with a partial semantics that makes its meaning more precise. It has notation for sequential and concurrent behaviours based on StateCharts that enable a partial simulation of behaviour before it is implemented, but still it lacks a complete semantics.
+
+The techniques developed for communication systems on the other hand, emphasised formality and dealt explicitly with sequential behaviour and concurrency from the beginning. All the formal description techniques (FDTs) ESTELLE, LOTOS and SDL had state transition based semantics that enabled simulation and analysis to take place before implementation. SDL had the additional benefit of a graphical notation that supported human comprehension combined with an underlying finite state machine semantics that could be implemented effectively. For this reason SDL has been the most successful of the FDTs, with a good track record from numerous industrial development projects.
+
+SDL as a language was object-based already when first recommended in 1976, and since 1992 it has been a full-fledged object-oriented language. It has a semantics that supports formal validation and enables complete simulation to take place before implementation, and also to generate complete and efficient implementation code automatically. These properties enable development organisations to move from an implementation oriented development paradigm to a design oriented development paradigm. In the latter, a system is documented and maintained primarily using design descriptions and not by implementation code.
+
+Contrary to the popular belief that techniques coming from the communication world are old fashioned they are still leading edge in the areas of object and behaviour modelling. When communication systems and information systems now merge into ICT systems, a corresponding merge of techniques from the I world and the C worlds is bound to take place. As the software industry in general moves towards distributed heterogeneous solutions we now see a convergence towards a similar merge for the software industry at large. This convergence leads to considerable cross-fertilisation and integration of previously different disciplines such as control systems, user interfaces and databases.
+
+UML  now emerging as a family of languages that is competing with the ITU-T languages  is developing fast and attracting far more attention than the ITU-T languages ever did. From a technical point of view, the ITU-T languages and UML partly overlap and partly complement each other. The overlap area has been greatly extended by introducing into SDL-2000 notation from UML Class Diagrams and by introducing the notion of composite states from UML State Machines/State-Charts. It is now possible to define associations between types and also partially to define types using (parts of) the UML Class diagram notation within SDL. On the other hand, SDL complements UML by providing a complete operational semantics and the possibility to precisely define the component structure of aggregate types. MSC complements UML by providing structuring mechanisms entirely missing in the UML sequence diagrams and collaboration diagrams.
+
+This issue of Telektronikk is about the family of languages currently standardised by ITU-T, and related methods, tools and middleware. The ITU-T language family presently consists of:
+
+* The Specification and Description Language, SDL. The new version of SDL, called SDL-2000, is a major revision and is presented for the first time in a popular form in the article by Rick Reed. Rick Reed also presents the history of SDL in an accompanying article. 
+* Message Sequence Charts, MSC, which are used to describe external behaviour properties by means of interaction cases. MSC provide a useful complement to SDL and is used both as input when making SDL descriptions and as specification when performing verification and testing. Øystein Haugen presents the latest developments of MSC in the article MSC-2000: interacting with the future. 
+* The Abstract Syntax Notation One (ASN.1) is used to describe data structures, especially in connection with protocols. In combination with encoding rules for the physical transfer of data, ASN.1 is much used in protocol development, and may also be combined with SDL. Colin Willcock describes ASN.1 in his article. 
+* The Tree and Tabular Combined Notation, TTCN, which is used to describe test cases. TTCN may be generated from SDL and MSC. Ina Schieferdecker and Jens Grabowski describe TTCN in their article. 
+* CHILL  the CCITT HIgh Level (programming) Language. CHILL is an advanced programming language that supports concurrent processes. It has been adopted by many major telecom manufacturers and used successfully to develop a wide range of complex systems. CHILL is described in the article by Jürgen Winkler. 
+* The Object Definition Language, ODL, which is an extension of the Interface Definition Language, IDL, known from CORBA. ODL is introduced in the paper by Joachim Fischer and Marc Born. 
+A mapping between SDL and UML has been defined in the ITU-T recommendation Z.109, SDL combined with UML, which is elaborated in the article by Birger Møller-Pedersen. This mapping allows developers and tools to put leverage on the strengths of both languages by facilitating a combined use.
+
+The article by Rolv Bræk and Arve Meisingset presents an overview of the language features of SDL-2000, MSC-2000 and UML. The purpose is to give readers that are unfamiliar with these languages a first introduction, and also a feeling for their main content as a background for the more detailed articles that follow. Readers with a basic knowledge of the languages, who are more interested in the new features, should move directly to the specialist articles.
+
+One important asset of the ITU-T languages, especially SDL, has been its formally defined semantics. Principles for defining formal semantics are presented in the paper by Andreas Prinz, using examples from SDL and MSC as illustration.
+
+It is a common misunderstanding that formal language and formal method is the same thing, but it is not. Methods are concerned with how to use the languages to achieve better results. Several methods have been introduced that are based on the ITU-T languages and UML. The article by Rolv Bræk presents some general methodology issues for using the ITU-T languages and UML. The article by Steve Randall presents specific guidelines for formal use of SDL in development, e.g. of ETSI standards, and Anthony Wiles and Milan Zoric report on their experiences from the application of these guidelines in the development of the Hiperlan standards.
+
+One strongpoint of the ITU-T languages is that abstraction, using concepts suitable for human comprehension, is combined with semantics suitable both for extensive tool support and efficient implementation. Extensive tool support for validation and testing is one of the benefits that result from this. The article by Dieter Hogrefe, Beat Koch and Helmuth Neukirchen introduces the general principles of validation and testing. The possibility to derive efficient implementations is another benefit elaborated in the article by Richard Sanders.
+
+Two commercial sets of tools that support the ITU-T languages in combination with UML are presented in two separate articles. Anders Olsen and Finn Kristoffersen present the Cinderella tools, while Philippe Leblanc, Thomas Hjelm and Anders Ek present the Telelogic tools.
+
+Middleware is an important area where communication and general computing converge. The article by Anastasius Gavras outlines the needs for distributed platforms for telecommunication applications.
+
+Amardeo Sarma presents perspectives on future standardisation in the areas covered by this issue of Telektronikk in his article.
+
+The idea behind the feature section was very ambitious. A lot of internationally acknowledged specialists have been involved. I would like to express special thanks to Arve Meisingset for all his co-editing work throughout this process. To my knowledge, this is the first time that all the ITU-T languages with associated topics have been presented in one place. Enjoy! 
+
+Back to the main page
+
+ 	  	 G� direkte til: Mobiltelefoni | Mobile Bedr.l�sninger | Smartphone | VIP Nett | Epostleser 	 	 
+
+ 	 	Siden sist oppdatert: 02.08.2001. Ansvarlig: Telenor. Gi oss tilbakemelding! 			
+^ Til toppen av siden
+
+Produsert av Icon Medialab / � Telenor 2000    	
+

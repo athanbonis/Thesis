@@ -1,0 +1,213 @@
+
+
+About Amaya
+
+* Home page 
+* Overview 
+* Release history 
+* Amaya in the Press 
+
+Download Amaya
+
+* Distributions 
+* Source 
+* RPMs 
+* CVS 
+* Latest CVS changes 
+* Bugs and Wishlist 
+
+Mailing lists
+
+* www-amaya 
+* www-amaya-dev 
+* www-amaya-doc 
+* amaya@ml.free.fr 
+
+Documentation
+
+* Users and Developers 
+* FAQ 
+
+Project Contributors
+
+* Contributors 
+* How to contribute 
+* Open projects 
+
+Amaya 8.2 Binary Release
+
+About this release
+
+Release date: 13 November 2003
+ Snapshot 8.2+ date: 13 January 2004
+
+Amaya is intended to be a comprehensive client environment for testing and evaluating new proposals for Web standards and formats. A large part of the intended features of Amaya are implemented in this release, but some of them are not complete yet.
+
+Check out the list of new features.
+
+The Amaya binary distribution is available for PC Linux (GTK/OpenGL), Windows (NT, XP, 2000, 98). Users having other architectures are expected to compile the Amaya source code.
+
+Release schedule
+
+The W3C Position Statement on Amaya describes the planned developments for Amaya.
+
+Between each major release, we may generate patch releases which fix important bugs.
+
+Each a time a new release is made available, an email will be sent to the www-amaya mailing list.
+
+Getting the binary distribution
+
+The binary distribution is available for a set of Windows and Unix platforms.
+
+When installing Amaya for the first time on Windows NT/2000/XP platforms, Amaya will try to create the Amaya user directory in the following order: 1) By looking at the values of the HOMEDRIVE and HOMEPATH environment variables, 2) Document and settings\login-name\. WINNT\profiles\login-name. When reinstalling Amaya, Amaya will see if the Amaya user directory already existed in one of those paths before trying to create a new one.
+
+Snapshot 8.2+
+
+Platform Size http download ftp Europe or US 
+Windows NT/2000/XP about 4,902,000 bytes**	 amaya-WinXP-8.2+.exe	 amaya-WinXP-8.2+.exe	 
+Amaya Documentation
+ (French, Spanish, German)
+ Windows platforms about 1,587,000 bytes	 amayadoc-8.2+.exe	 amayadoc-8.2+.exe	 
+Linux Debian 3.0: 
+
+GTK version
+
+about 3,639,000 bytes**	 amaya-GTK-8.2+.tgz	 amaya-GTK-8.2+.tgz	 
+Debian 3.0 (woody) package: 
+
+GTK version
+
+about 5,506,000 bytes	 amaya_gtk-8.2+-1_i386.deb
+ 	amaya_gtk-8.2+-1_i386.deb
+ 	
+RedHat 9 RPM i386 packages: 
+
+GTK version
+
+(should work with Mandrake and SuZE)
+
+about 4,695,000 bytes**	 amaya_gtk-8.2+-1.i386.rpm
+ 	amaya_gtk-8.2+-1.i386.rpm
+ 	
+Amaya Documentation
+ (French, Spanish, German)
+ Unix platforms about 1,587,000 bytes	 
+
+amayadoc-8.2+.tgz
+
+amayadoc-8.2+.tgz	 
+
+Release 8.2
+
+Platform Size http download ftp Europe or US 
+Windows NT/2000/XP about 4,902,000 bytes**	 amaya-WinXP-8.2.exe	 amaya-WinXP-8.2.exe	 
+Windows 98/ME about 5,512,000 bytes**	 amaya-Win98-8.2.exe	 amaya-Win98-8.2.exe	 
+Amaya Documentation
+ (French, Spanish, German)
+ Windows platforms about 2,591,000 bytes	 amayadoc-8.2.exe	 amayadoc-8.2.exe	 
+Linux Debian 3.0: 
+
+GTK version
+
+about 3,639,000 bytes**	 amaya-GTK-8.2.tgz	 amaya-GTK-8.2.tgz	 
+Debian 3.0 (woody) package: 
+
+GTK version
+
+about 5,506,000 bytes	 amaya_gtk-8.2-1_i386.deb
+ 	amaya_gtk-8.2-1_i386.deb
+ 	
+RedHat 9 RPM i386 packages: 
+
+GTK version
+
+(should work with Mandrake and SuZE)
+
+about 4,695,000 bytes**	 amaya_gtk-8.2-1.i386.rpm
+ 	amaya_gtk-8.2-1.i386.rpm
+ 	
+Windows NT/2000/XP:
+ OpenGL version about 5,051,000 bytes**	 amaya-WinGL-8.2.exe	 amaya-WinGL-8.2.exe	 
+Linux Debian 3.0:
+ OpenGL version about 3,699,000 bytes**	 amaya-GL-8.2.tgz	 amaya-GL-8.2.tgz	 
+RedHat 9 RPM i386 packages: 
+
+OpenGL version
+
+(should work with Mandrake and SuZE)
+
+about 4,665,000 bytes**	 amaya_gl-8.2-1.i386.rpm
+ 	amaya_gl-8.2-1.i386.rpm	 
+Amaya Documentation
+ (French, Spanish, German)
+ Unix platforms about 1,587,000 bytes	 amayadoc-8.2.tgz	 amayadoc-8.2.tgz	 
+
+**These distributions include English dictionaries used by the spell-checker. The extra file amayadoc includes French dictionaries.
+
+These are internationalized versions of Amaya. Today these versions work vith a limited set of fonts. On Linux platforms the demo works with ms fonts (see packages msttcorefonts)or Unicode fonts delivered by Markus Kuhn <Markus.Kuhn@cl.cam.ac.uk> (http://www.cl.cam.ac.uk/%7emgk25/ucs-fonts.html).
+
+OpenGL versions share configuration files with standard distributions. Binaries are stored within specific sub-directories: Amaya\WindowsGL\bin\amaya.exefor the Windows version, Amaya/GL/bin/amayafor the Linux version.
+
+Some previous Amaya releases are still availalbe in http://www.w3.org/Amaya/Distribution
+
+Other contributions
+
+* Release 8.2 - for Solaris 9: http://jrankin.ath.cx/amaya/ 
+* RPM distributions are also available at http://rpmfind.net/linux/rpm2html/search.php?query=amaya. 
+* Debian.org site (probably the same version, but generated using the Debian testing and unstable releases) 
+* Installing or compiling Amaya MacOSX 
+
+Installing Amaya
+
+Please follow the directions given in the Unix, Windows, or MacOSX installation notes.
+
+Further documentation is provided inside the distribution tar file and in the Amaya on-line documentation page.
+
+How to change the dialogue language
+
+By default Amaya works with an English dialogue and comes with an English in-line documentation. Dialogues in other languages (French, German, Spanish, Portuguese, Italian, and Finnish) are provided in the standard distribution, but translated versions of the in-line documentation (in French, German, and Spanish) have to be downloaded separately:
+
+When other dialogues are installed, users can change the dialogue language through the configuration menu Special > Preferences > General (fr for French, defor German, esfor Spanish, ptfor Portuguese, itfor Italian, and fifor Finnish).
+
+Installing dictionaries
+
+Amaya includes a spell-checker. By default French and English dictionaries are included in the distribution If your distribution doesn't include them (see Amaya/dicopar/*.dic), you must download and install a dictionary for the language you want to check. These dictionaries are not complete, so the spell-checker could report spelling errors just because the dictionary doesn't include these words.
+
+This is the list of dictionary tar files currently available. :
+
+* Dutch dictionary Dutch.tgz (1228,989 bytes) gzipped tar file (last update: 14 December 1999). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+* English dictionary English.tgz (660,990 bytes) gzipped tar file (last update: 29 October 2001). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia).
+
+* French dictionary French.tgz (801,407 bytes) gzipped tar file (last update: 29 October 2001). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+* German dictionary German.tgz (1132,270 bytes) gzipped tar file (last update: 14 December 1999). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+* Italian dictionary Italian.tgz (323,845 bytes) gzipped tar file (last update: 14 December 1999). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+* Spanish dictionary Spanish.tgz (525,267 bytes) gzipped tar file (last update: 14 December 1999). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+* Swedish dictionary Swedish.tgz (96,316 bytes) gzipped tar file (last update: 14 December 1999). 
+
+download (http), (ftp Europe or US), (ftp mirror in Australia)
+
+To install a dictionary you have just to unzip and untar it into the current directory Amaya/dicopar with the command "tar xzf
+gzipped-tar-file".
+
+---------------------------------------------------------------------
+Irène Vatton
+ $Date: 2004/01/15 14:43:34 $ Copyright  ©  1994-2003 INRIA and W3C® (MIT, ERCIM, Keio), All Rights Reserved. W3C liability, trademark, document use and software licensing rules apply. Your interactions with this site are in accordance with our public and Member privacy statements.
+
+

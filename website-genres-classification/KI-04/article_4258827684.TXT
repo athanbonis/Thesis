@@ -1,0 +1,96 @@
+
+
+Was ist das Usenet
+
+Autor: kris@toppoint.de 
+
+renner@ame.zer.sub.org writes:
+suche Informationen ueber das Usenet und das Internet... 
+
+Beim UNIX Betriebssystem ist seit langer Zeit ein Paket dabei, das UUCP heisst. UUCP ist eine Abkuerzung und steht fuer Unix to Unix CoPy. Leider sagt diese Abkuerzung rein gar nichts ueber die Leistungsfaehigkeit und die Moeglichkeiten von UUCP aus. 
+
+UUCP 
+
+UUCP ist ein Programmpaket, mit dem es moeglich ist, auf Daten und Kommandos im Batchbetrieb auf einen anderen Rechner zu uebertragen und dort ablaufen zu lassen. UUCP ist also im Prinzip eine Methode des RJE, des Remote Job Entry. Dabei werden die Daten zunaechst lokal in einem Spooldirectory zwischengelagert und spaeter gesammelt uebertragen. Nach der Uebertragung werden die Daten dann auf dem entfernten Rechner den angegebenen Programmen zum Frasse vorgeworfen. 
+
+Mit diesem Verfahren ist vor vielen Jahren schon ein Netzwerk entstanden, dann zwischen den einzelnen Maschinen oeffentliche Nachrichten, die News, und private Nachrichten, die Mail, austauschen konnte. Da in diesen News sehr interessante Informationen zu finden sind, wollten immer mehr Leute an diesen Netzwerk teilnehmen und so wuchs das Netz ueber die UNIX-Welt und auch ueber die Verbreitung von UUCP als Transportprotokoll hinaus. 
+
+Heute ist es sehr schwer zu definieren, was USENET eigentlich ist. Einige Leute meinen, USENET sei die Menge alle der Rechner, die einige USENET-Bretter, die Newsgroups, empfangen koennen. Andere meinen, "einige" reicht nicht, "alle" sei korrekt. Wieder andere meinen, eine Mail-Anbindung gehoere auch dazu. Wieder andere meinen, es sei einfacher zu sagen, was USENET nicht sei, obwohl das manchmal seltsame Blueten treibt. (" USENET is not your mother. ") 
+
+Wie dem auch sei, die Leute, die USENET kennen, wissen auch, ob sie im USENET sind. 
+
+Was kann man also im USENET bekommen? 
+
+Nun, man bekommt die News. "Die News" sind etwa 250 MB Text in 14 Tagen, unterteilt in etwa 1700 Newsgroups - dem USENET Aequivalent von Brettern. 
+
+Aber lassen wir USENET selbst zu Wort kommen: 
+
+Subject: Total traffic through uunet for the last 2 weeks
+Date: 10 Sep 91 15:37:25 GMT 
+
+124208 articles, totaling 245.649645 Mbytes (301.578027 including headers), were submitted from 13503 different Usenet sites by 33411 different users to 1657 different newsgroups for an average of 17.546403 Mbytes (21.541288 including headers) per day. 
+
+Article               Total
+      Category          Count  Mbytes       Percent     Mbytes
+      ----------------------------------------------------------
+      alt               19520  61.810154       25%     70.716713
+      comp              27677  58.003429       23%     70.340852
+      rec               36922  56.160507       22%     72.292561
+      soc               13642  25.087772       10%     31.550280
+      talk               6326  12.777823        5%     15.943504
+      misc               6539  10.348264        4%     13.274056
+      sci                5086   9.326363        3%     11.734640
+      news               2115   6.317744        2%      7.293113
+
+USENET ist schnell: 95% aller Artikel erreichen den zentralen Knoten uunet noch am Tage der Entstehung. 
+
+"Propagation Delay to uunet: Average delay per article is 0.2 days" 
+
+Die "Big 7" 
+
+USENET ist unterteilt in verschiedene Hierarchien von Newsgroups. 7 dieser Hierarchien, die "Big 7" bilden das eigentliche USENET: 
+
+comp, rec, soc, talk, misc, sci und news. 
+
+Diese Gruppen werden nach denselben festen und demokratischen Regeln verwaltet. 
+
+Die achte grosse Hierarchie, alt, entspricht in etwa dem /T-NETZ. Hier herrscht totale Anarchie: Wer eine Newsgroup haben moechte, kuendigt das in alt.config an und richtet sie ein. 
+
+Aber wieder sagt USENET selber etwas ueber sich aus: 
+
+Subject: List of Active Newsgroups
+Date: 9 Sep 91 00:15:02 GMT 
+
+The following is a list of currently active USENET newsgroups as of 8 Sep 1991. The groups distributed worldwide are divided into seven broad classifications: "news", "soc", "talk", "misc", "sci", "comp" and "rec". Each of these classifications is organized into groups and subgroups according to topic. 
+
+* "comp" Topics of interest to both computer professionals and hobbyists, including topics in computer science, software source, and information on hardware and software systems. 
+* "sci" Discussions marked by special and usually practical knowledge, relating to research in or application of the established sciences. 
+* "misc" Groups addressing themes not easily classified under any of the other headings or which incorporate themes from multiple categories. 
+* "soc" Groups primarily addressing social issues and socializing. 
+* "talk" Groups largely debate-oriented and tending to feature long discussions without resolution and without appreciable amounts of generally useful information. 
+* "news" Groups concerned with the news network and software themselves. 
+* "rec" Groups oriented towards hobbies and recreational activities. 
+
+These "world" newsgroups are (usually) circulated around the entire USENET -- this implies world-wide distribution. Not all groups actually enjoy such wide distribution, however. The European Usenet and Eunet sites take only a selected subset of the more "technical" groups, and controversial "noise" groups are often not carried by many sites in the US and Canada (these groups are often under the "talk" and "soc" classifications). Many sites do not carry some or all of the comp.binaries groups.
+[ ... Rest weggelassen ... ] 
+
+Auch ueber die "alt"-Gruppen findet man etwas im Netz selber: 
+
+Subject: Alternative Newsgroup Hierarchies, Part I Date: 9 Sep 91 00:15:04 GMT 
+
+Introduction 
+
+The Usenet software allows the support and transport of hierarchies of newsgroups not part of the "traditional" Usenet through use of the distribution mechanism. These hierarchies of groups are available to sites wishing to support them and finding a feed. In general, these groups are not carried by the entire network because of their volume, restricted spheres of interest, or a different set of administrative rules and concerns. 
+
+In general, it is a bad idea to forward these newsgroups to your neighbors without asking them first; they should only be received at a site by choice. Not only is this generally-accepted net etiquette, it helps to preserve the freedom to do and say as the posters please in these newsgroups, as the only people who get them are those who asked to get them. This freedom is more restricted in the Usenet as a whole, because every mainstream posting and every mainstream newsgroup name must be acceptable to a much wider audience than is present in these hierarchies. Because of the sheer size of the mainstream Usenet, extra-long or controversial postings are more likely to cause problems when posted to the Usenet; however, these alternative hierarchies exist precisely to support those kinds of postings (if germane to the hierarchy). 
+
+Usually, there is is no restriction on getting these groups as long as you have the capacity to receive, store, and forward the groups; 2.10.3 or 2.11 news is required to make the distribution mechanism work properly for these groups. How to join each distribution is described below. 
+
+Note that the "uunet" service carries all of these hierarchies. Contact uunet!uunet-request for subscription details. 
+
+Also note -- the lists in this article are totally unofficial and possibly incomplete or inaccurate. I try to keep the lists up-to-date, but make no guarantee that any of the information contained corresponds with the named groups in any significant way. Corrections and comments should be mailed directly to me. 
+
+Alt 
+
+"alt" is a collection of newsgroups which are being distributed by a collection of sites that choose to carry them. Many Usenet sites are not interested in these groups. Here is a recent list of the 'alt" newsgroups:
+[ ... Liste gestrichen ... ] 

@@ -1,0 +1,27 @@
+
+
+Matthew L. Ginsberg 
+
+Matthew Ginsberg received his doctorate in mathematics from Oxford in 1980 at the age of 24. He remained on the faculty at Oxford until 1983, doing research in mathematical physics and computer science. During this period, he wrote a program that was used successfully to trade stock and stock options on Wall Street.
+
+Ginsberg's continuing interest in artificial intelligence brought him to Stanford in late 1983, where he remained for nine years. He is currently a member of CIRL, the University of Oregon's Computational Intelligence Research Laboratory, which Ginsberg founded in 1992 and directed until July, 1996. Ginsberg's present interests include search, constraint satisfaction, and partition search. He is the author of numerous publications in these areas, the editor of "Readings in Nonmonotonic Reasoning", and the author of "Essentials of Artificial Intelligence", both published by Morgan Kaufmann.
+
+Ginsberg is also the author of GIB, the world's first expert-level bridge-playing program. Additional information is in Ginsberg's resumé. 
+
+---------------------------------------------------------------------
+
+Research
+
+Constraint satisfaction 
+The idea here is to incorporate a variety of recent theoretical ideas into state-of-the-art satisfiability engines, extending their range of applicability substantially. Specific areas of interest: 
+
+1.  The incorporation of dynamic backtracking, also known as relevance-bounded learning. This is a specific scheme whereby lessons can be learned from failures in the search tree without overwhelming available memory. 
+2.  An extension from Boolean to pseudo-Boolean constraints. Pseudo-Boolean constraints provide more efficient descriptions of certain common types of axioms, such as those saying that a function has a unique value. Pseudo-Boolean inference can also lead to exponential improvements in efficiency when compared to its Boolean counterpart. 
+3.  Lifting ground theorem provers to deal directly with quantified axiomatizations. Conventional wisdom is that quantification introduces unacceptable constant factor costs into the carefully tuned performance of modern search engines, but recent theoretical results show that the reverse is true: Quantified systems can be substantially more efficient than their ground versions. 
+
+Partition search 
+Partition search is a technique that can be used to incorporate ideas from reason maintenance into adversary search. It has been used to build GIB, the world's first expert-level computer bridge player. 
+
+Papers available on line (Read me first) 
+---------------------------------------------------------------------
+Matthew L. Ginsberg ( ginsberg /at/ cirl.uoregon.edu ) 

@@ -1,0 +1,952 @@
+ 
+
+Moderated Newsgroups FAQ
+
+This is for people who know a little about Usenet and other Internet
+    newsgroups, and who want to know more about moderated newsgroups.
+
+If a proposal has been made to moderate one of the newsgroups you
+    read, this FAQ should help clarify what moderation might bring.
+
+If you are considering volunteering to help moderate a newsgroup,
+    you should read this FAQ and most of the things it points to.
+
+If you want to learn more about the process of creating or changing
+    newsgroups, or to be the proponent for creating a new group or for
+    changing the status of an existing group, see the FAQ section below.
+
+This document is periodically posted to Internet newsgroups as:
+
+From: Dmckeon@swcp.com (Denis McKeon)
+Newsgroups: news.groups,news.newusers.questions,news.software.misc,news.admin.net-abuse.usenet,alt.config,alt.answers,news.answers
+Subject: Moderated Newsgroups FAQ
+Followup-To: news.groups
+Approved: news-answers-request@MIT.EDU
+Summary: Newsgroup moderation methods and concepts described for new users,
+ prospective new moderators, newsgroup proponents and opponents,
+ and anyone who wants to discuss an RFD or CFV that proposes
+ moderation for a newsgroup.
+Keywords: moderation, moderator, moderated, newsgroup, policy, charter, RFD,
+ CFV, automatic moderation, robot moderator, robo-mod, retro-mod
+Expires: <35 days>
+
+Archive-name: usenet/moderated-ng-faq
+Posting-Frequency: twice monthly
+Copyright: Copyright 1996,1997 by Denis McKeon
+URL: http://www.swcp.com/~dmckeon/mod-faq.html
+URL: ftp://rtfm.mit.edu/pub/usenet/news.answers/news/moderated-ng-faq
+Last-change: 11 Mar 1997 by Dmckeon@swcp.com (Denis McKeon)
+Version: 0.7.01
+
+#   Here is a current draft of my FAQ on moderated newsgroups
+#   with comments & notes placed to the right of hash(#) marks.
+#
+#   I would be happy to get suggestions for changes to this draft,
+#   preferably structured as replacement text, or as diffs.
+#
+#   Version 0.7.00 included many small changes/additions based on suggestions
+#   from a number of people.  Since the purpose of the FAQ is to describe
+#   existing policies, and not to set policy, I posted diffs and a
+#   request for comments from knowledgeable net.folk on some of the changes
+#   and suggestions to news.groups and/or news.admin.net-abuse.policy 
+
+Table of Contents:
+
+* Section 1 - Moderation in a nutshell 
+* Section 2 - Frequently Answered Questions 
+* Section 3 - Frequently *Argued* Questions 
+* Section 4 - What does it take to become a moderator? 
+
+Expanded Table of Contents
+
+Section 1 - Moderation in a nutshell
+
+* Q1.1 What is a moderated newsgroup and how does it work? 
+* Q1.2 What happens to articles in a moderated newsgroup? 
+
+Section 2 - Frequently Answered Questions
+
+* Q2.1 So where did my message go? 
+* Q2.2 What are some possible problems for moderated groups? 
+* Q2.3 Moderation seems like a lot of work - is it worth it? 
+* Q2.4 What is robo-moderation? 
+* Q2.5 Where can I learn more about the newsgroup creation process? 
+* Q2.6 How about more on Usenet, moderation, robo-moderation, etc.? 
+
+Section 3 - Frequently *Argued* Questions
+
+* Q3.1 Are there any alternatives to moderation? 
+* Q3.2 Will a moderated group have slower propagation of messages? 
+* Q3.3 How does moderation differ from censorship? 
+* Q3.4 How are changes made to a moderated group? 
+* Q3.5 Could changes be forced upon a moderated group? 
+* Q3.6 Can moderation be accomplished retro-actively? 
+
+Section 4 - What does it take to become a moderator?
+
+* Q4.1 What is the absolute minimum needed to act as a moderator? 
+* Q4.2 Can one act as a moderator: from a PC? off-line? over POP? 
+* Q4.2 over PPP/SLIP? without a shell account? without knowing Unix? 
+* Q4.3 What resources do most active moderators have? 
+* Q4.4 What software tools are useful for moderation? 
+* Q4.5 Is knowing Unix optional? Does it help to know Unix? 
+* Q4.6 What moderation tools are available in non-Unix environments? 
+* Q4.7 Can you moderate from an on-line service? (AOL, CIS, etc.) 
+up to Table of Contents
+
+Section 1 - Moderation in a nutshell
+
+------------------------------ 
+
+Subject: Q1.1 What is a moderated newsgroup and how does it work?
+
+In unmoderated newsgroups, the local news server software normally
+    makes messages posted to the newsgroup available for reading soon
+    after they are posted, and the messages then spread to other news
+    servers over the next few days.
+
+In a moderated newsgroup, the local news server software
+    will automatically e-mail the message to a moderation address,
+    where a moderator acts as a gatekeeper, posting to the newsgroup
+    only those messages which the moderator allows to be posted.
+
+The basis of moderation is the consent of the users of the group,
+    in Usenet, by the vote on the charter and moderator(s).
+
+In the 8 Usenet news hierarchies (comp, rec, soc, sci, misc, news,
+    talk, & humanities) a moderated newsgroup is created by the same
+    RFD/CFV (RFD: Request for Discussion, CFV: Call for Votes)
+    process used to create or modify other newsgroups, with the
+    difference that the RFD and CFV will include language specifying
+    moderator(s) and moderation policy.  (See the Guidelines)
+
+Non-Usenet news hierarchies (alt.*, <national>.*, <local>.*)
+    may have other rules (or no rules) for group creation and change.
+    Look in their groups - usually *.config or *.general - for FAQs.
+
+All moderated groups are generally handled in the same way by
+    local news server software, regardless of their news hierarchy.
+
+Moderation is usually proposed for a newsgroup to:
+
+decrease the volume of off-topic posts and/or cross-posted threads
+
+increase the significant on-topic content of posts
+
+and thus increase the "signal-to-noise" (S/N) ratio for the group.
+    For a more detailed discussion of these issues, see:
+
+Newsgroups: news.lists,news.groups,news.answers
+        Subject: List of Moderators for Usenet
+
+There are 280+ moderated groups in the 8 Usenet hierarchies,
+    mostly in comp., soc., sci., and rec.; and about 80+ in alt.*.
+
+Some parallel models for moderation are:
+
+a refereed scientific journal
+
+a publication with a small subscriber base and an unpaid editor
+
+a restaurant with a polite but determined doorman
+
+Note that while the moderator controls the day-to-day content
+    of a single medium - newsgroup, mailing list, journal, etc. -
+    the moderator does not control the entire topic area.
+
+For instance, the readers could migrate to a related newsgroup
+    or mailing list, and discuss the topic area there.
+
+Also note that when we say the moderator "approves" a message,
+    we just mean that the moderator allows the message to be posted
+    to the moderated newsgroup, and not that the moderator agrees
+    (or disagrees) with the content of the message, or the position
+    of the poster on any issue, and so forth.
+
+------------------------------
+
+Subject: Q1.2 What happens to articles in a moderated newsgroup?
+
+When someone tries to post a news article to a moderated group,
+    the local news server software automatically intercepts the post,
+    and e-mails it to a moderation address for processing by the moderator.
+
+If the local news software cannot handle this, the poster could
+    manually e-mail the article to the moderation address directly.
+
+Once the message reaches the moderation address, it may be handled
+    by a human moderator, or forwarded to one of a panel of moderators,
+    or filtered by some form of moderation software.
+
+If a message is approved and posted by a moderator, it appears on the
+    moderator's news server and then spreads to other news servers.
+
+Note that newsgroup moderation has some similarities to mailing
+    list operation - messages go to a hub, and are then redistributed.
+
+An attempt to cross-post a message to a moderated group and to other
+    newsgroups will go to the moderation address for the moderated
+    group, and will not show up in any of the other groups on the local
+    server unless and until the moderator approves it as a cross-post.
+
+An attempt to cross-post a message to more than one moderated group
+    will go to the moderation address for one group, in most cases,
+    the moderated group that appears first on the Newsgroups: line,
+    and will be handled further as that moderator chooses.
+
+Each moderated newsgroup is operated independently from other
+    moderated newsgroups, and the procedure used by each moderator
+    to handle messages is probably unique to that news group,
+    although some techniques are in common use by many moderators.
+
+Some common techniques include:
+
+a moderation address different from the moderator's personal mailbox
+
+some scripts or programs to aid in manually handling messages
+
+some automatic ("robotic") process for handling messages
+
+a way to distribute messages to one or more of a panel of moderators
+
+Many of the earliest moderated newsgroups existed to distribute
+    free or shareware software sources, so early moderators tended to be
+    fairly astute about the workings of e-mail and net news, and capable
+    of writing their own software to support moderation.
+
+More recently, as moderation has been adopted in less technical groups,
+    moderators have tended to be well aware of the topic they plan to
+    moderate, but less prepared to cope with the technical side of
+    moderation, and are likely to recruit someone to help them with
+    technical support of whatever scripts and programs they need.
+
+Moderated groups frequently have names that end in .announce,
+    .moderated, .info, .answers, .research, or .reviews.  Recently
+    there has been a trend to create moderated alternatives to existing
+    high-volume groups, so foo.bar.moderated joins an existing foo.bar.
+    The .announce and .answers groups tend to contain only announcements
+    or FAQs, while .info groups tend to have both of those.
+    Moderated groups in sci.* and soc.* tend to be discussion groups,
+    while in comp.* and rec.* they tend to be announcement groups.
+
+up to Table of Contents
+
+Section 2 - Frequently Answered Questions
+
+------------------------------ 
+
+Subject: Q2.1 So where did my message go?
+
+If you tried to post a message to a moderated group, and never saw
+    it appear in the newsgroup on your news server, realize that it may
+    have not been approved by the moderator as appropriate for the group.
+
+Also, e-mail, net news, and robo-mod software are imperfect, and
+    human moderators are, after all, human.  Your message may have
+    failed to reach the moderator, or been lost in a system or disk
+    crash, or been misplaced by the moderator, or been approved and
+    then failed to propagate correctly via net news back to your site.
+
+You might want to look carefully at the Date: headers in recent
+    messages in the moderated newsgroup, to see if other posts are being
+    approved, and to get a sense of the usual turnaround time.
+    Perhaps the moderator is busy with life, and approvals are either
+    slow in coming, or are coming in batches.  You might check another
+    news server, or Deja News at http://www.dejanews.com/
+
+If, after you've waited a few days, and seen other articles approved
+    that were probably submitted as the same time as yours, and you are
+    sure that what you had to say is on-topic, on-charter, and is still
+    important, you should probably send your message again, perhaps with
+    a request for an acknowledgement.  Newsgroup charters and moderator's
+    policies will vary from group to group, and you should not expect
+    a rejection note for every article that is not approved, especially
+    if the article is off-topic or inappropriately cross-posted.
+
+------------------------------
+
+Subject: Q2.2 What are some possible problems for moderated groups?
+
+Since messages are sent to a single moderation address, anything
+    relying on that address is a possible single point of failure for
+    the moderation process.  However, most types of system failure are
+    shortlived, and operation of the group can resume rapidly.
+
+Another possible problem is that the moderator will "burn out"
+    - get exhausted from dealing with the volume of messages, questions,
+    complaints, arguments, etc., etc.  Having multiple moderators or
+    being able to hand off the responsibility to a substitute can help.
+
+If the people posting to the newsgroup and relying on the moderator
+    remember to be reasonable and courteous that can help a lot as well.
+
+------------------------------
+
+Subject: Q2.3 Moderation seems like a lot of work - is it worth it?
+
+A lot of readers think it is worth it, and some moderators agree. :-)
+
+Since 1995 many proposals have been made to moderate previously
+    unmoderated groups in the wake of increased volume of both on-topic
+    and off-topic posts, widely cross-posted trolls, and a general
+    perception that the signal-to-noise ratio of Usenet has been dropping.
+
+If you are a reader who wants to help the moderator of a group,
+    volunteer to help - even if the moderation process is going just
+    fine right now, your help might be useful later or in other areas.
+
+Other activities that can help add value to a newsgroup include:
+
+periodic posting of FAQ (Frequently Asked Questions) files
+
+archive site(s) accessible by ftp, http, and/or e-mail, of:
+
+FAQ files
+
+other summaries or indexes of the topic or of old threads
+
+full text of old posts (perhaps threaded into hypertext)
+
+a gateway to/from a mailing list for people
+            who can not (or will not) read Usenet posts.
+
+a digest and/or index mailing list
+
+technical support of (robo-)moderation for the moderator
+
+------------------------------
+
+Subject: Q2.4 What is robo-moderation?
+
+Robotic moderation, robo-mod, auto-mod, and using a mod-bot
+    all refer to use of scripts or programs to process messages.
+
+Typically, messages arriving at the moderation address are examined
+    to see if they fit criteria determined by the moderator, and if they
+    do they are automatically approved and posted to the newsgroup.
+
+Messages which do not fit the criteria may be manually approved, or
+    discarded as inappropriate for that newsgroup, or handled in some
+    other way by the moderator, which may include changes to the criteria.
+
+For example, if a message arrives from a previously unknown poster
+    (or e-mail address), the moderator may read the message and approve
+    it, send the new poster a copy of the FAQ for the newsgroup,
+    and add the poster's address to a list of pre-approved posters,
+    so the poster's next message will be automatically approved.
+
+Or, the moderator might reject the message (as for a too-common FAQ),
+    send the poster a copy of the FAQ file, and expect that the
+    prospective poster's next message is more appropriate for approval.
+
+Commonly used robo-mod criteria might include:
+
+message is not a duplicate of a recent message
+
+message has new material in good proportion to quoted material
+
+message is from a known poster who can be expected to post well
+
+message contains words or phrases
+        particular to the topic of the newsgroup.
+
+negative criteria might include:
+
+message is inappropriately cross-posted
+
+message is from unknown poster
+
+message contains words or phrases
+        that trigger review by human moderator
+        ("make money fast," "modem tax," "good times virus")
+
+For an example of a feature-laden and very security-conscious
+    robo-moderation package, see:
+
+http://www.algebra.com/~ichudov/usenet/scrm/robomod/robomod.html  STUMP - Secure Team-based Usenet Moderation Program  ftp://ftp.algebra.com/users/ichudov/pub/stump/stump.tar.gz  STUMP sources ------------------------------ 
+
+Subject: Q2.5 Where can I learn more about the newsgroup creation process?
+
+Introductory messages about Usenet in general are periodically posted
+    to the newsgroup news:news.announce.newusers
+
+Messages describing the newsgroup changing process are posted
+    several times a month with "How to" in the Subject: line to the
+    newsgroup news:news.announce.newgroups
+
+To learn how Usenet newsgroups are created or changed through the
+    RFD/CFV process (RFD: Request for Discussion, CFV: Call for Votes)
+    look for these articles which describe the process in detail:
+
+Subject: How to Create a New Usenet Newsgroup
+
+(subtitled:  Guidelines for Usenet Group Creation
+            and often referred to as the Guidelines.)
+
+Subject: How to Write a Good Newsgroup Proposal
+ Subject: How to Format and Submit a New Group Proposal
+
+Before proposing that a new Usenet newsgroup be created, you should
+    first follow at least one newsgroup proposal debate from RFD to
+    RESULT in news.groups, and follow and become familiar with the
+    topics and readership of the 5 to 10 newsgroups or mailing lists
+    most closely related to the topic.
+
+The Guidelines and other introductory articles are also available by
+    anonymous FTP or with many Web browsers in one or more of:
+
+ftp://rtfm.mit.edu/pub/usenet/news.announce.newgroups/
+ ftp://rtfm.mit.edu/pub/usenet/news.announce.newusers/
+ ftp://rtfm.mit.edu/pub/usenet/news.groups/
+
+Look for filenames which are the Subject: lines
+    with spaces replaced by underlines, thus:
+
+How_to_Create_a_New_Usenet_Newsgroup
+
+Or you can get them by e-mail by sending e-mail thus:
+
+To: mail-server@rtfm.mit.edu
+
+send usenet/news.groups/How_to_Create_a_New_Usenet_Newsgroup
+
+For help on the MIT mail-server, send e-mail thus:
+
+To: mail-server@rtfm.mit.edu
+
+help
+
+------------------------------
+
+Subject: Q2.6 How about more on Usenet, moderation, robo-moderation, etc.?
+
+If your only access to information about Usenet is Usenet itself,
+    then you should look in the newsgroup news:news.answers or in the
+    other *.answers newsgroups and search for Subject: lines that
+    contain key words for the topic you are interested in.  Or, if you
+    know which newsgroups handle that topic, look in those newsgroups
+    for FAQ or "Frequent".
+
+If you have access to a World Wide Web browser, or to
+    anonymous FTP, you can use the http or ftp URLs below.
+
+There are other Usenet documents available at one of several archives:
+
+ftp://ftp.uu.net/usenet/
+ ftp://ftp.isc.org/pub/usenet/
+ ftp://rtfm.mit.edu/pub/usenet/usenet/
+ http://www.cis.ohio-state.edu/hypertext/faq/usenet/usenet/
+
+And at any of the *.answers archives, at:
+
+North America:
+ ftp://ftp.uu.net/usenet/news.answers
+ ftp://mirrors.aol.com/pub/rtfm/usenet
+ ftp://ftp.seas.gwu.edu/pub/rtfm
+
+Europe:
+ ftp://ftp.uni-paderborn.de/pub/FAQ
+ ftp://ftp.Germany.EU.net/pub/newsarchive/news.answers
+ ftp://ftp.sunet.se/pub/usenet
+
+Asia:
+ ftp://nctuccca.edu.tw/USENET/FAQ
+ ftp://hwarang.postech.ac.kr/pub/usenet/news.answers
+ ftp://ftp.hk.super.net/mirror/faqs
+
+and for other countries - for details see:
+ ftp://rtfm.mit.edu/pub/usenet/news.answers/news-answers/introduction
+
+Note that since use of the Internet has grown so rapidly recently,
+    the archives at uu.net and mit.edu are often heavily loaded at peak
+    times and may be slow to respond, or be unavailable - if so, try the
+    other archives listed above, or you may find the URLs below to have
+    faster response, although they are more likely to change over time.
+
+As general resources for the newsgroup creation process, see:
+
+news:news.announce.newgroups
+            Calls for newgroups & announcements of same.
+            (also messages on how to write proposals, etc.)
+
+http://www.duke.edu/ugm/ UseNet Group Mentors
+
+ftp://ftp.amdahl.com/public/uvv/group-mentors.html
+     (reachable by e-mail at:
+     mailto:group-mentors@acpub.duke.edu
+
+http://www.uvv.org/
+ ftp://ftp.amdahl.com/public/uvv
+     UseNet Volunteer Votetakers Information Center
+
+http://www.usenet.org.uk/guidelines.html
+     Guidelines for Group Creation for uk.*
+            (an easier creation method for a smaller net.community)
+
+For a somewhat dated reference to moderation, see:
+
+ftp://ftp.sterling.com/moderators
+     USENET Moderators Archive
+
+ftp://ftp.sterling.com/moderators/handbook/handbook.draft
+     Moderator's Handbook
+
+For examples of charters for existing moderated groups, see:
+
+ftp://ftp.uu.net/usenet/news.announce.newgroups/ archive of CFVs
+ ftp://ftp.isc.org/pub/usenet/news.announce.newgroups/
+
+or any of:
+
+http://www.duke.edu/~tfdpress/rfrpost.html
+     rec.food.recipes Posting Guidelines
+
+http://www.bix.com/pub/os2ann/x2752.htm
+     CFV: comp.os.os2.moderated moderated
+
+http://www.cis.ohio-state.edu/hypertext/faq/usenet/misc-kids/misc-kids-info-faq/faq.html
+     misc.kids.info FAQ
+
+http://w3.gti.net/director/rame-cfv.html
+     CFV: rec.arts.movies.erotica moderated
+
+http://helper.tamu.edu/STAFF/cbarnes/hunting/admin/welcome.html
+     Rec.Hunting Welcome & Charter
+
+http://www.anatomy.su.oz.au/danny/usenet/rec.arts.books.reviews/CHARTER
+     rec.arts.books.reviews Charter
+
+http://www2.best.com/~ftmexpat/html/taxsites/mtm.html
+     misc.taxes.moderated Charter
+
+For examples of charters for existing robo-moderated groups, see:
+
+http://members.aol.com/rastb5mod/mod_faq.htm
+     rec.arts.sf.tv.babylon5.moderated FAQ
+            robo-mod, auto-approve poster list, panel of moderators
+
+http://www.cis.ohio-state.edu/hypertext/faq/bngusenet/soc/culture/indian/_religions%3avaishnava%3afaq.html
+     soc.religion.vaishnava FAQ
+            robo-moderated with keyword list
+
+http://www.lds.npl.com/special/usenet/srm/index.html
+     soc.religion.mormon
+            robo and human moderated, with a panel of moderators
+
+http://www.math.uiuc.edu/~tskirvin/home/hpo.faq
+     humanities.philosophy.objectivism
+            robo-mod, single moderator
+
+http://www.brewich.com/org/srp
+     soc.religion.paganism
+            list-based robo-mod, panel, uses STUMP robo-mod package
+
+http://www.algebra.com/~ichudov/usenet/scrm/creation/Charter.txt
+ http://www.galstar.com/~ichudov/usenet/scrm/creation/Charter.txt
+     soc.culture.russian.moderated charter -
+            origin of STUMP robo-mod package
+
+For comic relief, see:
+
+http://www.kibo.com/kibopost/happynet_94.html
+     The Happynet Manifesto
+
+up to Table of Contents
+
+Section 3 - Frequently *Argued* Questions
+
+------------------------------ 
+
+Subject: Q3.1 Are there any alternatives to moderation?
+
+This question is usually asked in response to proposals to moderate
+    existing high-traffic newsgroups, in hope of avoiding moderation.
+
+Posters could use more descriptive Subject: lines, and change
+    Subject: lines in their followups to better describe a changing
+    subject, or use tags or keywords in Subject: lines, but this is
+    usually more effective in a low-volume newsgroup with a strong
+    sense of community, and less effective in higher-volume newsgroups
+    that have a greater proportion of new posters, or of people who
+    can not or will not change subject lines, or for people who use news
+    software that ignores the References: header, and thus find it harder
+    to follow discussion threads across a change in Subject:.
+
+------------------------------
+
+Subject: Q3.2 Will a moderated group have slower propagation of messages?
+
+Like many things on the net, that depends.  Specifically, it depends
+    on the connectivity of the poster's site, the moderator's site, and
+    each individual reader's site, and on whether everything is working
+    normally and well among those sites.
+
+In general, hand-moderated newsgroups often have some unavoidable
+    delay, while robo-moderated groups often have fast turnaround.
+
+If we assume that:
+
+a message travels faster by e-mail than by news
+        from the poster's site to the moderation site
+
+the moderator's site is well-connected (for mail and news)
+
+the poster's site is less well-connected (for news)
+
+the moderation process incurs little delay (such as if it
+        is a program set up to recognize messages from known posters)
+
+then a moderated group *might* provide faster propagation
+    for that message than an unmoderated group.
+
+On the other hand, if a moderation address is at a poorly connected
+    site, and the poster is at a well connected site, or if there is a
+    delay of significant length at the moderation address, then the
+    moderated newsgroup might have a greater lag and thus a slower pace.
+
+On the other other hand, readers of a group might prefer a slower
+    paced newsgroup over a rapid-response group.  In any case,
+    anyone who volunteers to moderate a newsgroup should plan
+    to work to reduce delay in the moderation process.
+
+------------------------------
+
+Subject: Q3.3 How does moderation differ from censorship?
+
+People have been arguing this issue since moderation was first
+    proposed as a mechanism for Usenet newsgroups around 1980.  Some
+    people see no difference between the two, some see moderation as
+    good and censorship as evil, and other points of view abound.
+
+Before continuing, go find a dictionary, and look up "censorship."
+    While you're at it, look up "editor" and "referee."
+
+To me, one way to view this issue is that while someone may want to
+    post their messages to an audience, that audience may have chosen
+    to have a moderator select which messages they will see, and thus
+    the desire of an individual to post a message is outweighed by
+    the desire of a multitude to have messages moderated.
+
+An analogy to moderation is that of a publication whose editor is
+    paid by the publisher and (indirectly) by the subscribers to decide
+    what to print and what not to print.  Is the editor a censor?
+
+How about the newspaper that puts all the sports stories in one
+    section, all the local news in another, and keeps the classified
+    ads classified separately from the news and editorials.
+    Is that organization by topic, or is it censorship?
+
+Another key difference is that censorship usually tries to
+    disallow expression of certain views or topics in *all* media,
+    while Usenet moderated newsgroups only disallow postings in
+    one medium - a single newsgroup whose audience has agreed
+    to a charter that often describes what is on or off-topic,
+    and to a moderator and to the process of moderation.
+
+An extension of that view is that if there is some newsgroup
+    in which an individual can post a message and be on-topic,
+    then that individual and that message have not been censored.
+
+Since most newsgroups are not moderated, almost all moderated
+    newsgroups will be topically related to some unmoderated newsgroup
+    in which a post would be both on-topic and not subject to moderation.
+
+The discussion of differences between moderation and censorship has
+    been erupting several times a year in news.groups for about 15 years.
+    If you raise the topic again, try to bring some new material to discuss.
+    I have tried to present a fair distinction, but freely agree that I
+    usually support moderation of newsgroups.
+
+------------------------------
+
+Subject: Q3.4 How are changes made to a moderated group?
+
+Changes to the moderation panel and to moderation criteria, scheme,
+    procedure, or process are often carried out by the moderator(s)
+    with the informal or tacit approval of the readership.
+
+A newsgroup could conduct its own votes on proposals for changes.
+
+Groups with a panel of moderators often have a procedure for
+    replacing a retiring moderator, or for firing one of the panel.
+
+If the only or last remaining moderator wishes to resign, s/he might
+    ask for volunteers, and either select one or more new moderators, or
+    perhaps poll the users of the group on their preferences.
+
+If no volunteer is acceptable to the group, or, as has happened
+    in a few cases, a moderator has vanished from the net without
+    warning or explanation, the moderated newsgroup may be left silent.
+
+Few moderators have seemed to vanish, and there seems to be no
+    accepted method to replace a moderator who cannot be found,
+    although the RFD process seems like a reasonable approach.
+
+------------------------------
+
+Subject: Q3.5 Could changes be forced upon a moderated group?
+
+The RFD/CFV process could be used to change the status of a group,
+    including:
+
+to create a new group - moderated or unmoderated
+        to moderate an unmoderated group
+        to unmoderate a moderated group
+        to re-organize a set of groups
+        to replace a retired moderator, or one who has vanished
+
+but note that any RFD/CFV process would require:
+
+a minimum of 2 months
+        a lot of work on the part of the RFD/CFV proponent
+        possibly a new moderator (or panel of moderators)
+        a (possibly contentious) discussion on the proposal
+
+There is no method currently available on Usenet to remove
+    or replace a moderator who actively opposes replacement.
+
+The moderator of news.announce.newgroups is not likely to post
+    a proposal for removing a moderator as long as he or she continues
+    to give some sort of service to the newsgroup's readership.
+
+The closest alternative is to use a different newsgroup,
+    or to propose creation of one with the RFD/CFV process,
+    which requires a 2:1, 100+ margin.  (See the Usenet Guidelines)
+
+------------------------------
+
+Subject: Q3.6 Can moderation be accomplished retro-actively?
+
+To most people, newsgroup moderation means the process of
+    filtering and approval-before-posting described above.
+
+Cancellation of messages by a third party - someone other than the
+    poster or the poster's system administrator - after the message
+    has been posted is sometimes referred to as retroactive moderation.
+
+Some on-line services and Fidonet use cancellations issued by
+    service employees or by Fido sysops as a way of keeping discussion
+    in their conference areas by their subscribers on-topic.
+
+While cancellation and moderation may seem superficially similar,
+    there are strong sentiments in Usenet against third party cancellation.
+
+The net news protocols allow the sending of control messages,
+    messages which contain instructions for news servers, usually to
+    cancel or supersede other messages.  This allows people to cancel
+    messages sent by mistake, or sent in error to the wrong newsgroups,
+    or to cancel a "for sale" ad after the item has been sold.
+
+The effect of cancel messages depends on how each individual news
+    server site is configured - a site may honor or ignore a control
+    message, or send a message on to a human for manual handling.
+
+Cancellation of messages is a touchy subject, because cancellation
+    can be abused, and because it can be difficult to distinguish why a
+    message was cancelled - was it because a message was posted to many
+    groups, or because of who posted it, or because of the content of
+    the message?
+
+It is generally accepted that people may cancel their own messages,
+    and that ISPs or system administrators may cancel messages which
+    originated at their site and which are inappropriate for some reason.
+
+It is generally accepted that a moderator may cancel messages
+    posted with forged approval to a newsgroup s/he moderates.
+
+It is less accepted that a moderator may also cancel messages
+    that the moderator (or a mod-bot) initially approved and posted,
+    if the moderator later finds the message inappropriate for some reason.
+
+Since 1995, a number of people routinely issue cancel messages
+    for messages excessively cross-posted or multiply posted to large
+    numbers of newsgroups.  (Such posts often are called "spam".)
+
+Cancellation based on the number of newsgroups an article is
+    cross-posted or multi-posted to, or of binary posts in non-binary
+    newsgroups, or of commercial advertisements in non-commercial newsgroups
+    are often widely accepted as beneficial to the affected newsgroups.
+
+However, there is less agreement about cancellation based on content
+    - such as whether a message is on-topic or off-topic for a newsgroup,
+    a decision which is usually much more of an opinion or judgement.
+
+A key issue here is whether cancels are supported by the wide
+    majority of the users of a newsgroup, and are issued by people who
+    have the support of such a majority.  If there is a sense of wide
+    community support, retroactive cancellation could be effective in
+    fostering on-topic communication in an UNmoderated group.
+
+However, use of retroactive content based cancels without wide
+    support can often lead to meta-discussions about the cancels,
+    which be worse for the signal/noise ratio than the cancelled posts.
+
+So, while newsgroup moderation and retroactive cancellation both
+    rely on people making decisions about the content of newsgroups, the
+    key elements that they should share are wide support, prior consent,
+    an expectation of predictability, and a degree of accountability,
+    and the key differences are that moderated groups are formally set
+    up with a central moderation address, while groups that rely on
+    retroactive cancellation are usually otherwise unmoderated.
+
+For more about cancellation of articles, see:
+ http://www.math.uiuc.edu/~tskirvin/home/cancel.html The Cancel FAQ
+
+If you are thinking of cancelling other people's news articles,
+    *for any reason*, you should check your internet provider's policies
+    or "terms of service" first, or contact their support staff to see
+    if they allow this activity, and to make them aware of your plans.
+
+up to Table of Contents
+
+Section 4 - What does it take to become a moderator?
+
+------------------------------ 
+
+Subject: Q4.1 What is the absolute minimum needed to act as a moderator?
+
+connectivity, hardware, software, capability, time, and effort
+
+connectivity - an account with reliable mail delivery and news access
+
+hardware - a computer and a modem
+
+software - for connectivity, e-mail, and news
+
+capability -
+
+enough technical know-how to configure the software
+
+a working knowledge of mail and news RFCs
+                (RFC 822, MIME RFCs, RFC 1036, son-of-1036, GNKS)
+
+the ability and access to edit or insert most of the headers
+                on outgoing news messages
+
+------------------------------
+
+Subject: Q4.2 Can one act as a moderator: from a PC? off-line? over POP?
+ over PPP/SLIP? without a shell account? without knowing Unix? 
+
+Again, like many things on the net, the answer to all of these
+    questions is: "Yes, but it depends."
+
+A moderated *discussion* group that expects fast (< 1 hour)
+    turn-around for messages will have requirements different from
+    moderated announcement groups that generally have no need for
+    turnaround faster than 24-48 hours.
+
+At least one (low-volume) group is moderated from a laptop,
+    under MS-Windows, with e-mail software downloaded from the net.
+
+Most moderators probably operate from a Unix host,
+    but there is no requirement that they do so.
+
+------------------------------
+
+Subject: Q4.3 What resources do most active moderators have?
+
+At the current state of the art of net news, a typical
+    setup for doing moderation would include, either on the
+    part of the moderator or the tech support person:
+
+familiarity with the topic and with the Usenet community
+
+several hours of spare time per week for at least a year
+
+an account with a well connected robust site
+            (ISP, company, university)
+
+good relations with the system administrator of that site
+            (awareness, permission, and any mail aliases needed)
+            (ISPs may charge for hosting moderated groups or mailing lists)
+
+experience with two or more mail and news programs
+            (e.g., Elm/Pine/Mush, procmail/formail, trn)
+
+familiarity with two or more scripting languages
+            (e.g., Perl, Bourne/Korn/Bash shell, awk)
+
+------------------------------
+
+Subject: Q4.4 What software tools are useful for moderation?
+
+An e-mail user agent that can:
+
+handle whatever volume of mail you expect
+
+sort, select, and filter incoming messages
+
+send selected messages to other programs,
+        or save them in a readable file format.
+
+A news posting agent that can:
+
+produce RFC 1036 compliant news articles
+
+accept messages from other programs,
+        or read them from an e-mail file format.
+
+insert and delete message headers
+
+do other header mangling as needed
+
+------------------------------
+
+Subject: Q4.5 Is knowing Unix optional? Does it help to know Unix?
+
+Yes and yes.
+
+Most of the tools to assist in moderation are available in a Unix
+    environment, and if you plan to use a variety of scripts and
+    programs to support the moderation process, you may want to use a
+    Unix "shell" account to handle the moderation mail rather than a
+    dialup IP (PPP, SLIP) account.
+
+On the other hand, if you have the tools to handle a volume of mail,
+    posting news, and some scripting in a non-Unix environment, go for it.
+
+If you are comfortable with the Unix environment, and
+    you have been thinking of setting up your own home Unix box,
+    and you have a reliable mail/news connection, go for it.
+
+The key word is *reliable* - group readers may accept a small loss
+    of messages, but a loss of more than a few percent between the
+    net and your moderation process would likely be seen as unacceptable.
+
+------------------------------
+
+Subject: Q4.6 What moderation tools are available in non-Unix environments?
+
+# example set-ups wanted for DOS, Windows 3.1*,95,NT, Mac, OS/2, VMS, others.
+
+------------------------------
+
+Subject: Q4.7 Can you moderate from an on-line service? (AOL, CIS, etc.)
+
+I have not found anyone who does among 300 or so moderated groups.
+
+To act as a moderator, you will need to have write access to most of
+    the headers on outgoing news messages - and most on-line services
+    will not allow a normal user to mangle those headers.
+
+If it were possible to access those headers, there are other issues:
+
+You would probably want to down-load all prospective messages,
+    process them off-line, and then upload the resulting approved news
+    postings and any e-mail responses (FAQs, rejections, etc.)
+
+If you want a short delay, and a short message turnaround time,
+    you would be faced with repeating that process 4-6 times per day.
+
+Doing that in a menu-based environment could become tiresome quickly,
+
+I would not say it is impossible to act as an effective moderator in
+    that sort of environment, but I would not try it.  I think it would
+    very likely be easier in a less structured environment - such as a
+    shell account.  Contrasting reports from anyone moderating an active
+    newsgroup from an online service are welcome.
+
+up to Table of Contents
+
+end of Moderated Newsgroups FAQ 

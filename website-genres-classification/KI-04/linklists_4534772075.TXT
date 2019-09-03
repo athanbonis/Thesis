@@ -1,0 +1,73 @@
+A biography of Jean Fourier can be found at the excellent MacTutor History of Mathematics Archive A page on Jean Fourier is maintained by Douglas Nunn , with both historical and mathematical information (as well as more links). --> A short paper on Fourier transforms, giving an overview of some of their uses and properties, was placed on-line by Forrest Hoffman . A brief essay by David Mazel on how sinusoids are used to represent arbitrary functions in the Fourier basis, along with a short introduction to the Fourier transform. --> The FFT Demystified is a site by Adrian Hey covering many introductory and not-so-introductory aspects of FFT algorithms. The book Numerical Computing with MATLAB online has a tutorial on Fourier analysis based on Matlab's fft function (which uses FFTW ). A mostly non-mathematical introduction to Fourier transforms at the site of a DSP company with the (hopefully non-descriptive) name of Bores . DSP Dimension , by Stephan M. Bernsee, contains tutorials and other links for Fourier analysis and DSP, focusing on audio processing. dspGuru is a site that is trying to collect various tutorials, FAQs, and other information related to digital signal processing (and FFTs). Another Fourier-transform tutorial has been posted by the Univ. of Strathclyde, containing basic information about DFTs, FFTs, windowing, and interpretation of spectra. A "graphical interpretation" of the DFT and FFT, by Steve Mann. Scanned copies of the original Cooley & Tukey FFT paper , placed online by Charles Chiu Integrate your function times a complex exponential... Read the lyrics and listen to Fourier's Song . The FFT Laboratory site has a neat Java applet for experimenting with the DFT. Miscellaneous FFT Links The AURORA project explores a variety of scientific-computing topics, including FFTs that use SIMD instructions such as Altivec and SSE. Among other things, they have developed variants of FFTW for the AMD 3DNow! and the Intel SSE/SSE2 instruction sets (see also FFTW 3.0). SPIRAL is a project to express FFTs and related algorithms (e.g. Walsh-Hadamard transforms) in terms of a generalized Tensor Product Language (TPL), from which source code, matrix representations, etcetera, can be generated. There is a Parallel FFT group at the Univ. of Houston . The AHPCC Parallel FFT Homepage has some information on parallel FFTs, often specific to their computing center. --> For something a bit farther out, look at Alan Edelman's new algorithm to compute the DFT of very large data sets on parallel architectures. gmeteor is a flexible program for generating optimal FIR filters with an arbitrary frequency response. Other Sites of Interest Netlib is a famous repository of free numerical software. Another source for software is the Scientific Applications for Linux (SAL) page. It indexes and describes code libraries, end-user programs, and web pages. Cilk is an awesome way to write parallel programs on shared-memory machines. For message passing, MPI isn't bad. The Beowulf Project is one good way to build your own parallel machine. NA-Net has a useful weekly digest on topics related to numerical analysis. PhiPAC and ATLAS are projects applying auto-optimization and code-generation techniques to produce fast BLAS matrix routines (somewhat similar in spirit to FFTW). VSIP is an attempt by a consortium of academic, government, and industry participants to create a standard API for vector, signal, and image-processing. --> Go back to the FFTW home page.   --> 
+Go back to the FFTW home page. 
+---------------------------------------------------------------------
+
+Introduction
+
+There are many other places that you can go on the Web to learn more about Fourier Transforms in general and FFTs in particular. Since searching for "FFT" on Alta Vista will yield far too many links, most of them useless (although Google has improved matters somewhat), we decided to list a few of the better ones here. 
+
+Another good place to go when you have signal-processing and/or FFT-related questions is Usenet, and in particular the comp.dsp (digital signal processing), sci.math.num-analysis (numerical analysis and scientific computation), or sci.image.processing (image processing) groups. 
+
+Let us know if you think there are other links that we should include. Last updated: 18 January 2004. 
+
+FFT Source Code
+
+The following are places where you can download source code for FFTs. (There are so many FFT implementations available that we mostly link to sites that are themselves collections of code or links.) 
+
+* The FFTW Home Page: A fast C library for performing the FFT in one or more dimensions, including parallel and real-data transforms. Of course, we have to include ourselves in this list! 
+* FFT Sources: This is the list of all the codes that we included in benchFFT, along with links to where they may be downloaded. It is one of the more complete FFT-software listings available. 
+* Jörg's "Ugly" Page: Jörg Arndt has gathered a menagerie of FFT links and source code, including much of the software that we used in our benchmark. (Somewhat chaotically organized.) 
+* An FFT Page maintained by Steve Kifowit, focusing primarily on Fortran code. 
+* D. J. Bernstein has written an optimized C FFT for the Pentium and UltraSPARC. (Its output is permuted and it is limited to N <= 8192, but this doesn't prevent it from being used e.g. for convolutions. It includes convolution routines for real and complex data.) (See also pfftw.) 
+* PD FFT Page: A collection of several public-domain FFT codes and other links. 
+* NFFT is a free library for non-equispaced discrete Fourier transforms, based on FFTW. ccSHT is a free library for spherical-Harmonic transforms (FFT analogue on a unit sphere), based on FFTW. 
+
+Benchmarks
+
+Sites to help you decide which FFT implementation to use. 
+
+* Our benchFFT package compares performance of many FFT implementations in both C and Fortran (and we have posted speed and accuracy results from a number of machines). 
+* Greg Allen has published benchmarks of Altivec FFTs. 
+* The FFT Processor Information Page by Bevan Baas compares a lot of special-purpose FFT hardware. 
+
+Explanatory Material
+
+Tutorials and introductions to Fourier transforms and FFTs, in no particular order. 
+
+* There is a survey and history of FFT algorithms and related information in the free Wikipedia collaborative encyclopedia. 
+* Numerical Recipes, which is readable on-line, has a decent introduction to Fourier transforms, DFTs, and FFTs (albeit somewhat dated). 
+* For a good description of the FFT literature c. 1997 (with many references), see C. S. Burrus's "Notes on the FFT" (our mirror of the now-missing original). 
+* The Scientist's and Engineer's Guide to Digital Signal Processing is an entire DSP book free online by Steven W. Smith. 
+* The Picture Book of Fourier Transforms by Kevin Cowtan gives an interesting graphical tutorial on the interpretation of 2D FFT output, with a special emphasis on crystallography. There is also a tutorial on Fourier transforms, the convolution theorem, and other material. 
+* DFT Introduction by Paul Bourke, describing the discrete Fourier transform in terms of the continuous transform, with examples of the transforms of various functions. Also has introductions to two-dimensional FFTs, digital filters, image filtering, and other related topics. 
+* A biography of Jean Fourier can be found at the excellent MacTutor History of Mathematics Archive 
+* A short paper on Fourier transforms, giving an overview of some of their uses and properties, was placed on-line by Forrest Hoffman. 
+* The FFT Demystified is a site by Adrian Hey covering many introductory and not-so-introductory aspects of FFT algorithms. 
+* The book Numerical Computing with MATLAB online has a tutorial on Fourier analysis based on Matlab's fftfunction (which uses FFTW). 
+* A mostly non-mathematical introduction to Fourier transforms at the site of a DSP company with the (hopefully non-descriptive) name of Bores. 
+* DSP Dimension, by Stephan M. Bernsee, contains tutorials and other links for Fourier analysis and DSP, focusing on audio processing. 
+* dspGuru is a site that is trying to collect various tutorials, FAQs, and other information related to digital signal processing (and FFTs). 
+* Another Fourier-transform tutorial has been posted by the Univ. of Strathclyde, containing basic information about DFTs, FFTs, windowing, and interpretation of spectra. 
+* A "graphical interpretation" of the DFT and FFT, by Steve Mann. 
+* Scanned copies of the original Cooley & Tukey FFT paper, placed online by Charles Chiu 
+* Integrate your function times a complex exponential... Read the lyrics and listen to Fourier's Song. 
+* The FFT Laboratory site has a neat Java applet for experimenting with the DFT. 
+
+Miscellaneous FFT Links
+
+* The AURORA project explores a variety of scientific-computing topics, including FFTs that use SIMD instructions such as Altivec and SSE. Among other things, they have developed variants of FFTW for the AMD 3DNow! and the Intel SSE/SSE2 instruction sets (see also FFTW 3.0). 
+* SPIRAL is a project to express FFTs and related algorithms (e.g. Walsh-Hadamard transforms) in terms of a generalized Tensor Product Language (TPL), from which source code, matrix representations, etcetera, can be generated. 
+* There is a Parallel FFT group at the Univ. of Houston. 
+* For something a bit farther out, look at Alan Edelman's new algorithm to compute the DFT of very large data sets on parallel architectures. 
+* gmeteor is a flexible program for generating optimal FIR filters with an arbitrary frequency response. 
+
+Other Sites of Interest
+
+* Netlib is a famous repository of free numerical software. 
+* Another source for software is the Scientific Applications for Linux (SAL) page. It indexes and describes code libraries, end-user programs, and web pages. 
+* Cilk is an awesome way to write parallel programs on shared-memory machines. For message passing, MPI isn't bad. The Beowulf Project is one good way to build your own parallel machine. 
+* NA-Net has a useful weekly digest on topics related to numerical analysis. 
+* PhiPAC and ATLAS are projects applying auto-optimization and code-generation techniques to produce fast BLAS matrix routines (somewhat similar in spirit to FFTW). 
+
+---------------------------------------------------------------------
+Go back to the FFTW home page. 

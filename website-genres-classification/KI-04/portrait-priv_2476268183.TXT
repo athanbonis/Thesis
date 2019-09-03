@@ -1,0 +1,89 @@
+
+
+Eugene Charniak
+
+---------------------------------------------------------------------
+
+ec@cs.brown.edu 
+
+Box 1910, Computer Science Department 
+Brown University 
+Providence, RI 02912 
+401-863-7636 (voice) 
+401-863-7657 (fax) 
+---------------------------------------------------------------------
+
+Finger me. 
+---------------------------------------------------------------------
+
+Index: 
+ Books 
+ Recent Publications 
+ Biographical Material 
+CS  241 
+ Natural Language Processing at Brown 
+ Software 
+
+---------------------------------------------------------------------
+
+Books 
+
+---------------------------------------------------------------------
+
+*  Statistical Language Learning, Cambridge: MIT Press  (1993) 
+*  Introduction to Artificial  Intelligence (with Drew McDermott), Reading MA:  Addison-Wesley (1985) 
+*  Artificial Intelligence Programming  (now in a second edition) (with Chris Riesbeck, Drew McDermott, and  James Meehan), Hillsdale NJ: Lawrence Erlbaum Associates (1980, 1987) 
+*  Computational Semantics, (with  Yorick Wilks), Amsterdam: North-Holland (1976) 
+
+---------------------------------------------------------------------
+
+Publications in Statistical Language Processing 
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Parsing and Speech 
+
+* Immediate-Head Parsing for Language Models   Proceedings of the 39th Annual Meeting of the Association for  Computational Linguistics  (2001)  An abstract  and gzipped postscript version are  available. 
+* Edit Detection and Parsing for Transcribed  Speech (with Mark Johnson).  Proceedings of the 2nd Meeting of the North American Chapter of the  Association for Computational Linguistics, pp 118-126 (2001)  An abstract  and gzipped postscript version are  available. 
+
+Lexical Semantics and Anaphora 
+
+* Unsupervised learning of name structure from  coreference data  Proceedings of the 2nd Meeting of the North American Chapter of the  Association for Computational Linguistics, pp 48-54 (2001)  An  abstract and gzipped  postscript version  are available. 
+* Finding parts in very large corpora  (with Matthew Berland),  Proceedings of the 37th Annual Meeting of the Association for  Computational Linguistics, pp 57-64 (1999)  An abstract  and postscript version are  available. 
+* A statistical approach to anaphora resolution,  (with Niyu Ge and John Hale),  Proceedings of the Sixth Workshop on Very Large Corpora  (1998).  An abstract  and postscript version are  available. 
+* Noun-phrase co-occurrence statistics for semi-automatic  semantic lexicon construction,  (with Brian Roark),  Proceedings of the 36th Annual Meeting of the Association for  Computational Linguistics and 17th International Conference on  Computational Linguistics  (1998)  An abstract and  a postscript version are available. 
+
+Efficient Parsing 
+
+* Edge-based best-first chart parsing ,  (with Sharon Goldwater and Mark Johnson),  Proceedings of the Sixth Workshop on Very Large Corpora  (1998)  An abstract  and postscript version are  available. 
+*  New figures of merit for best-first probabilistic chart  parsing , (with Sharon Caraballo)  Computational Linguistics , (1998).  A  postscript version is available. 
+
+Statistical Parsing 
+
+* A Maximum-Entropy-Inspired Parser Proceedings of NAACL-2000  An abstract  and  postscript version are available. 
+*  Statistical techniques for natural language parsing  AI Magazine. (1997).  An abstract  and  postscript version are available. 
+*  Statistical parsing with a context-free grammar and word statistics,  Proceedings of the Fourteenth National Conference on Artificial Intelligence  AAAI Press/MIT Press, Menlo Park (1997).  An abstract  and  postscript version are available. 
+*  Tree-bank grammars,  Technical Report CS-96-02,  Department of Computer Science, Brown University (1996).  An abstract  and  postscript version are available. 
+*  A statistical syntactic disambiguation program and what  it learns, (with  Murat Ersan), TR CS-95-29 Brown University, Department of  Computer Science (1996). (In  Symbolic, Connectionist, and Statistical Approaches  to Learning for Natural Language Processing,  S. Wermter, E. Riloff, and G. Scheler Eds.,  New York: Springer (1996).)  An abstract  and  postscript version are available. 
+
+Part-of-Speach Tagging 
+
+*  Taggers for parsers, (with  Glenn Carroll, John Adcock, Antony Cassandra, Yoshihiko Gotoh,  Jeremy Katz, Michael Littman, and John McCann),  Artificial Intelligence (forthcoming).  An abstract  and postscript version  are available.  The  techreport version is also available. 
+*  Equations for part-of-speech tagging, with  Curtis Hendrickson, Neil Jacobson, and Mike Perkowitz,  Proceedings of the Eleventh National Conference on  Artificial Intelligence,  Menlo Park: AAAI Press/MIT Press (1993) 784-789.  An abstract  and  postscript version are available. 
+
+---------------------------------------------------------------------
+
+Software 
+
+Some of my statistical parsers are available for research use. Please look at the Brown Computer Science Homepage, under Software Catalog, and then under nlparser. Unfortunately I cannot really support them, so I will almost certainly not respond to e-mails for help unless the problem looks particularly interesting. 
+
+To inspire research into parsing, I thought it might be interesting to publicize a list of sentences on which my parser performs poorly. Look here. 
+---------------------------------------------------------------------
+
+Biographical Material
+
+Eugene Charniak is Professor of Computer Science. and Cognitive Science at Brown University. He received an A.B. degree in Physics from University of Chicago and a Ph.D. from M.I.T. in Computer Science. He has published four books: Computational Semantics, with Yorick Wilks (1976); Artificial Intelligence Programming (now in a second edition) with Chris Riesbeck, Drew McDermott, and James Meehan (1980, 1987); Introduction to Artificial Intelligence with Drew McDermott (1985); and Statistical Language Learning (1993). He is a Fellow of the American Association of Artificial Intelligence and was previously a Councilor of the organization. His research has always been in the area of language understanding or technologies which relate to it, such as knowledge representation, reasoning under uncertainty, and learning. Over the last few years he has been interested in statistical techniques for language understanding. His research in this area has included work in the subareas of part-of-speech tagging, probabilistic context-free grammar induction, and, more recently, syntactic disambiguation through word statistics, efficient syntactic parsing, and lexical resource acquisition through statistical means. 
+---------------------------------------------------------------------
+

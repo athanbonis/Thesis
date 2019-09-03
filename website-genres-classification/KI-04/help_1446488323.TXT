@@ -1,0 +1,373 @@
+   The home pages for the Usenet newsgroup soc.culture.nordic  
+[ This page was initially edited in a version suitable to get printed. ] 
+[ Check if Lysator's faster www-server is up and running? ] 
+
+about the news group  - 
+        >>
+
+Introduction: About this FAQ
+
+  
+
+Index
+
+1.1
+An ASCII map of Scandinavia 
+1.2
+So what's this FAQ thing anyway? 
+1.2.1
+A notice to spaghetti publishers 
+1.2.2
+What are FAQs? 
+1.2.3
+The scope of this FAQ 
+1.2.4
+The history of the s.c.nordic FAQ 
+1.2.5
+The future of this FAQ 
+1.2.6
+Where to obtain the s.c.nordic FAQ 
+1.2.7
+Who are the net.gods and goddesses of s.c.n? 
+1.2.8
+Why are all the names and stuff garbled? - about the Nordic alphabets 
+1.2.9
+What should I know about copyright laws and the Usenet? 
+1.3
+Welcome to soc.culture.nordic! 
+1.3.1
+What sort of a group is s.c.n? 
+1.3.2
+What's all this flaming about? 
+1.3.3
+Well, are there any positive things about this group? 
+1.3.4
+Whatever you say. So, what sort of postings are o.k. in here? 
+1.3.5
+What about cross-posting? 
+1.3.6
+What languages are welcome in soc.culture.nordic? 
+1.3.7
+What should I do when someone posts a flamebait? 
+1.3.8
+I have this bridge in Stavanger that I'd like to sell... 
+1.4
+Looking for a Nordic girl-friend?
+- How do I say [ ... ]in your language ? 
+1.4.1
+Contacts through the Net 
+1.5
+Complaining to a person's postmaster - how, when and why? 
+1.6
+The soc.culture.nordic drinking game! 
+1.7
+Which are the related newsgrops? ... 
+1.7.1
+... in international hierarchies? 
+1.7.2
+... in Nordic hierarchies? 
+1.7.3
+@ What about mailing lists? 
+1.9
+About measures and figures 
+1.9.1
+Why is it advisable to use the metric system in s.c.n? 
+1.9.2
+How long is a Nordic mile? 
+1.9.3
+A warning about decimal commas and delimiters 
+1.9.4
+From this discussion in s.c.nordic it's obvious the Scandinavians are... 
+(  @  marks sections intended to be extended )
+(  !  marks sections not yet written )
+
+The faq consists of the following parts:
+
+* Part 1: Introduction
+
+* Part 2: Miscellaneous topics on Norden
+
+* Part 3: Denmark
+
+* Part 4: Finland
+
+* Part 5: Iceland
+
+* Part 6: Norway
+
+* Part 7: Sweden
+
+* Appendix: Related texts 
+
+* Appendix: archived texts 
+
+---------------------------------------------------------------------
+
+ 
+
+ 
+  
+
+Subject: 1.1 
+
+An ASCII map of Scandinavia
+
+Well, if you can't recognise your own country/province/suburb/house on the map (Iceland is tricky!), blame the American Standard Code for Information Interchange, not me. :-)
+
++-----------------+---------------------------------------------------------+
+| ***       **    |                                                         |
+|****  *********  |                      ARCTIC SEA       Nordkapp          |
+|  *****ICELAND** |                                     ////                |
+|   R************ |                            //   //////////++++++        |
+|  *************  |                           /  //////////////+++++++++++  |
+|    ********     |                       L// ///////////####/++++++++++++++|
++-----------------+                      //  ////..###///####+++++++++++++++|
+|                                          ////:::::###########+++++++++++++|
+|                                        ///.:::::::::##########++++    ++++|
+|     ATLANTIC SEA                    /////::::::::::::########++++++       |
+|                                    ////::::::::::::::#########+++++++     |
+|   %                              /////::::::::::::::  ########++++++++++++|
+|  F% %                           /////:::::::::::::   ###########++++++++++|
+|                              ///////.:::::::::::    #############+++++++++|
+|                           //////////:::::::::::   ###############+++++++++|
+|                         ///////////:::::::::     #####FINLAND####+++++++++|
+| Capital cities:         ///NORWAY//:::::::::     ###############+(Russia)+|
+|                         //////////::::::::::.    ##############+++++++++++|
+| C = Copenhagen          ////////O:::::::::::::    ##########++++   +++++++|
+| H = Helsinki             /////// ::::SWEDEN:::: #A  ###H       +++++++++++|
+| O = Oslo                 /////    ::::::::::S:           +++++++++++++++++|
+| R = Reykjavik    NORTH            ::::::::::      + ++++++++++++++++++++++|
+| S = Stockholm     SEA       %      :::::::: .:   ++ +++++(Estonia)++++++++|
+|                           %%%      :::::::  :G        ++++++++++++++++++++|
+|             DENMARK -->  %%%%%  %%% :::          ++   ++++++++++++++++++++|
+| Islands:                 %%%%  %%%C     BALTIC  ++++++++++++++++++++++++++|
+|                           %%%        B%  SEA    ++++(Latvia)++++++++++++++|
+| L = Lofoten Isl.          ++++                 +++++++++++++++++++++++++++|
+| B = Bornholm              +++++++    ++++++  +++++(Lithuania)+++++++++++++|
+| F = Faroe Isl.  ++++  ++++++++++++++++++++++++++++++++++++++++++++++++++++|
+| G = Gotland    ++++++++++++++++++++++++(Poland)+++++++++++++++++++++++++++|
+| A = Aland    +++++++++++++(Germany)+++++++++++++++++++++++++++++++++++++++|
+|             ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++|
++---------------------------------------------------------------------------+
+
+    
+
+Subject: 1.2 
+
+So what's this FAQ thing anyway?
+
+This is the so called Frequently Answered Questions (FAQ) file for the Usenet newsgroup soc .culture .nordic. Its purpose is to introduce new readers to the group, provide some general information about the Nordic countries (Sweden, Finland, Norway, Denmark and Iceland) and to cover some of the topics frequently discussed in the group.
+
+It is organized in seven parts, this introduction and then one part each covering Norden in general, Denmark, Finland, Iceland, Norway and Sweden. Since the texts have grown rather extensive, these parts are posted to the news group, and to the soc.answers and news.answers groups, with rather long intervals. Then there are appendices. The appendices will be posted even less often, if at all.
+
+  
+
+1.2.1 A notice to spaghetti publishers 
+
+A spaghetti publisher [n.] is one whose philosophy at publishing is to throw it to the wall and see if it sticks. Recently, they have been busy putting out badly written Internet books, often exploiting FAQs and other copyrighted material available in the net. Please realize that this FAQ is:
+
+Copyright © 1994 & 1995 by Antti Lahelma
+             1996-2001 by Antti Lahelma & Johan Olofsson,
+             all rights reserved.
+
+It may be freely distributed in impermanent electronic media (like the networks that form the Internet), provided that the content is not edited and the URL (or From:-header) and Last-modified-date are included. 
+
+Including it in a commercial collection or compilation (such as a CD-ROM), or publishing it or parts of it in printed form without the expressed, written permission of the author is illegal. Such a permission should be requested per regular mail to: Johan M. Olofsson, Rådmansgatan 23f, 211 46 Malmö, Sweden.
+
+The editors, authors, and contributors do not assume any responsibility for errors or damages resulting from the use of the information contained herein.   about the news group  - 
+        >>
+
+1.2.2 What are FAQs? 
+
+"FAQ" is an acronym for "Frequently Answered Questions". (Or Frequently Asked Questions, some would say.) These are documents on various topics, forming a veritable library of free information, usually put together by voluntary enthusiasts in order to answer certain questions that constantly come up in some newsgroup (hence the name). They are periodically posted to their home newsgroups and (usually) to news.answers, and archived at numerous sites, some of which are listed below.
+
+There is no guarantee of the accuracy of the information, but usually they are reasonably reliable because of the "social control" of the newsgroup(s) in question. For more information on FAQs, where they are kept, why they are written, how to write one yourself, etc., see the "FAQ About FAQs" at <http://www.faqs.org/faqs/faqs/about-faqs/>.
+
+  about the news group  - 
+        >>
+
+1.2.3 The scope of this FAQ 
+
+This FAQ, like many other soc.culture.*-FAQs, isn't really a proper list of frequently asked questions and their answers; it's more of a fact-file or an introduction brochure than a traditional Usenet FAQ, although some Q&A:s are included and hopefully more will be added in future. Of course, since unlike most soc.culture.*-FAQs it -- instead of a single country & culture -- attempts to cover five, the articles can't go very deep or its size will get simply too overwhelming. The self-evident exception is topics which has been very thoroughly discussed in the newsgroup.
+
+The niche of this FAQ is such topics which are commonly misunderstood by foreigners, and those topics which are commonly disputed inbetween Nordic people, although the first requirement to include a topic here is that some kind of consensus is established among (a large majority of) the participants of the newsgroup. Accordingly the Civil War of Finland, and her "Continuation War" 1941-1944, is not yet covered. 
+
+In some cases an author is noted for a portion of this FAQ. In other cases the text is compiled from several authors' contributions in the group. Intermediate forms occur. This has some detrimental consequences for the coherency of the faq - the good thing is that different Nordic opinions often get represented.
+
+The language in these articles is without doubt colored by the fact that almost all writers have other mother tongues than English - and so it will remain. Nevertheless: proposals for more idiomatic wordings are always cordially welcomed.
+
+  about the news group  - 
+        >>
+
+1.2.4 The history of the s.c.nordic FAQ 
+
+The compilation of the s.c.nordic FAQ was started by Antti Lahelma 24th of May 1994, and continued 1996-98 by Johan Olofsson. As this FAQ was made available to the world wide web in 1995 it was perhaps the best one on the Internet. Today there are governmental sites which without question cover the topics more complete and evenly.
+
+After 1998 only minor corrections (and a few removals of entire FAQ-sections) has taken place. 
+
+Why was this FAQ canned in 1998? 
+- The Net, including Usenet, changed much at that time. The newsgroup was flooded by off-topic articles, most of which were sent to the group due to new users' lack of experience with the software (and flaws in this software). This lead to a diminishing number of on-topic articles aswell as regular contributors. As the World Wide Web grew, the need and frequency diminished for that kind of discussions which the FAQ represents, as people instead could use search engines to find information. 
+The Great Robot Moderation Debate is archived at: <http://www.sqc.fi/~ylikuka/scnordic/rfd.html>. 
+
+At the same time the computer system on which the FAQ is maintained suffered a series of longlasting disturbances, and finally the FAQ maintainer moved to an appartement house where a cable connection to the Internet was ordered and should get installed Real Soon Now, but again and again it has been delayed. :-/>   about the news group  - 
+        >>
+
+1.2.5 The future of this FAQ 
+
+Well... let's see. 
+:->) 
+
+It's not at all probable that the documents comprising this FAQ would be withdrawn from the World Wide Web - that wouldn't be courteous, would it? Possibly the FAQ is able to take itself out of its can and remain connected to its newsgroup. 
+
+The FAQ might look pretty much just a skeleton despite its size. It might lack much information that "should" be there, some of the more irrelevant parts of this FAQ will get deleted, corrections will be made, etc... It's not a finished product. FAQs aren't static. It'll get better with time, but your (yes, *your*) help is required: if you have anything in mind that could be improved or added to the FAQ don't be shy, make your suggestion in the newsgroup!
+
+(A major part of the work to maintain a FAQ like this consists of tracking changed addresses to referred www-documents. Links to "personal" pages, i.e. to pages with a "~"in their url, have proved to be particularly prone to stop working after some time, why such links only exceptionally will be worked into the FAQ.)
+
+All contributions, corrections and suggestions are warmly welcomed. 
+Flames aren't.
+
+  about the news group  - 
+        >>
+
+1.2.6 Where to obtain the s.c.nordic FAQ? 
+
+The latest version of the FAQ can be obtained at the world wide web at  URL: <http://www.lysator.liu.se/nordic/index.html>.
+
+Other sites where the files can be obtained (however maybe not the very newest version - and without the few illustrations and extra tables of the www-version above - and maybe slightly distorted due to the conversion back and forth between html and normal text format?) are:
+
+in Europe:
+<http://sunsite.org.uk/public/usenet/news-faqs/soc.culture.nordic/>
+<http://www.cs.ruu.nl/wais/html/na-dir/nordic-faq/.html>
+
+in North America:
+<http://www.faqs.org/faqs/nordic-faq/>
+<http://www.landfield.com/faqs/nordic-faq/>
+
+...or by sending an e-mail request to your nearest mail-ftp service.
+
+  about the news group  - 
+        >>
+
+1.2.7 Who are the net-gods and goddesses of s.c.n? 
+
+These are some of the people who as regular and reliable contributors to the newsgroup have provided most of the material for the FAQ: Do not forget to treat our net-deities with due respect in case one of them happends to cross your path.
+
+The Unofficial Asgard 
+of soc.culture.nordic
+
+Ruth M. Sylte 
+Jacob Sparre Andersen 
+Halldór Árnason 
+Lars Aronsson 
+Gunnar Blix 
+Stan Brown 
+Jan Böhme 
+Lee Choquette 
+Mats Dahlgren 
+Gunnar Davíðsson 
+Ahrvid Engholm 
+Roger Greenwald 
+Hiski Haapoja 
+Mauri Haikola 
+Eugene Holman 
+Einar Indriðason 
+Arne Kolstad 
+Antti Lahelma 
+Malte Lewan 
+Jens Christian Madsen 
+Nils O. Monaghan 
+Tor Slettnes 
+Kurt Swanson 
+Björn Vennström 
+Kari Yli-Kuha 	
+
+Big thanks to all of you. And apologies to anyone I may have forgotten.
+
+Special thanks to Jens Christian Madsen for providing a lot of the Danish part of the FAQ.
+
+In reality, of course, there's only one true Goddess, but that's another story...
+
+  about the news group  - 
+        >>
+
+1.2.8 Why are all the names and stuff garbled? 
+
+The Nordic alphabets contain letters that aren't in the English alphabet and consequently may cause problems with viewing if your system hasn't been properly set. In this document, they are typed in the ISO-8859-1 multi-lingual 8-bit character set, also known as Latin-1, which is the most available of the 8-bit character set, and also the standard for hypertext HTML documents.
+
+In these www-documents the HTML-standard is followed, despite our knowledge about some faulty browsers for Macintosh and pc-compatibles being incapable of handling the standard character-set (Latin-1). If your system strips the 8th bit, they may appear for example as the letters {fedv}, which can be quite confusing, making e. g. some Nordic place-names appear different from what they should be. In case 8-bit characters don't show well on your screen, please consider testing another www-browser or another setup.
+
+Here's a short guide to the most common of the letters: 
+
+letter      description                        
+-+--+-      -+--+--+---                        
+  ä         'a' diaeresis                      
+  æ         'ae' written as a single letter    
+  ö         'o' diaeresis                      
+  ø         'o' with a slash through it        
+  å         'a' with a ring above it           
+  ð         "eth"; a vertically mirrored '6'   
+            with a slash through the tail      
+  þ         "thorn"; a 'p' with the vertical   
+            line extended above the loop
+
+There are capital letters also
+==============================
+
+Á         capital A-acute (á)
+  Å         capital A-ring (å)
+  Ä         capital A-diaeresis (ä)
+  Æ         capital AE-ligature (æ)
+  Ð         capital eth (ð)
+  É         capital E-acute (é)
+  Í         capital I-acute (í)
+  Ó         capital O-acute (ó)
+  Ø         capital O-slash (ø)
+  Ö         capital O-diaeresis (ö)
+  Þ         capital thorn (þ)
+  Ú         capital U-acute (ú)
+  Ý         capital Y-acute (ý)
+
+---> PLEASE NOTICE <---
+
+If the above letters aren't displayed correctly, read the GRAPHEMES FAQ on how to view them.
+
+The Latin-1 character set is commonly used in s.c.nordic and some other newsgroups. However, the Latin-6 (ISO-8859-10) character set would strictly speaking be more appropriate since it covers also letters neccessary for the Saami and Greenlandish languages.
+
+  about the news group  - 
+        >>
+
+1.2.9 What should I know about copyright laws and the Usenet?
+
+Don't worry, you don't have to wade through law books, but there are a few basic things it is good be aware of. First of all, all material posted to Usenet, no matter how irrelevant or unimportant it may seem, is automatically copyrighted unless it is unambiguously declared to be public domain.
+ There does not have to be any kind of copyright notice, although a notice does strenghten the protection a bit, nor does there have to be financial interests involved. That the author posts it to the net (equivalent to publishing it in a newspaper) does not mean that he or she is giving it away for for anyone to use and exploit as they please. Most countries of the world have signed the Berne convention on which these principles are based, so there isn't very much variation in the legistlation from one country to another.
+
+There are, however, two doctrines that make possible e.g. quoting the material in your own article, reposting it, and most of the other standard Usenet procedures, without violating the poster's copyright: "fair use" and "implied license". Because there are few precedents, it isn't fully clear yet how these apply to Usenet, or if e.g. the possible implied license of net articles extends beyond the net; obviously, these laws weren't made with the internet in mind. But it seems obvious that if for example you wish to publish something posted to the net in printed form, you should contact the author first.
+
+Posting someone's private e-mail without permission, on the other hand, is not only immoral and a serious breach of netiquette, but is also less likely to be acceptable as fair use, and can hardly be considered as having implied license to publish. In addition to violating copyright, it can also get you in legal trouble over issues such as invasion of privacy and public defamamation. You can refer to someone's mail to you and you can summarize the content, but you should never post it without permission.
+
+Of course, these things are highly theoretical (at least so far) and you shouldn't expect to have to worry much about them. But it's a good thing to be aware of, should you e.g. make an enemy out of some notorious kook who could attempt to harass you with legal procedure. Such things have been known to happen. For more information e.g. on the fair use and implied license principles, read the Copyright FAQ by Terry Carroll or the more compact FAQ called 10 Big Myths About Copyright Explained by Brad Templeton.
+
+---------------------------------------------------------------------
+
+- Is the text above really reliable? 
+- See the discussion in section 1.2.2! 	
+about the news group  - 
+        >>	
+
+---------------------------------------------------------------------
+
+© Copyright 1994-2001 by Antti Lahelma and Johan Olofsson. You are free to quote this page as long as you mention the URL.
+ The line of flags is modified after a picture at det Åländska skoldatanätet. This page was last updated March the 20th in the year of 2001.
+ (Oh, by the way, you are guest number 33771 since January 1999, and are sincerely wished Welcome back!)
+  
+---------------------------------------------------------------------
+
+Evaluation of this page
+
+Language Structure Accuracy 
+The English prose above is easy to read and understand. The text above is well structured. The text above seems to be up to date and accurate. 
+The English above is understandable, also when it is obvious the author has another mother tongue. The most central and important facts ought to be easier to find. The text above presents antiquated facts and views. 
+Complicated and unusual words make it unnecessarily hard to read. The text above needs a much clearer structure. The text above is mainly false and/or misleading. 
+The errornous and un-idiomatic English is difficult to understand. Can't tell. I don't know this field well enough to tell the difference. 
+
+

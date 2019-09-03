@@ -1,0 +1,43 @@
+MathCore Engineering provides solutions software and consulting services for modeling and simulation of dynamic systems. We offer code optimization, modeling, and simulation tools that makes it cost effective, not only to develop, but also to maintain model libraries and experiments. Read more about the company here . New version of MathCode MathCode 1.2 for Windows with support for Mathematica 5.0 (and previous Mathematica versions) has been released January 20, 2004. A trial version is now available for download here . > services --> Engineering Tools MathModelica is a powerful engineering tool for virtual model building and simulation of all kinds of physical systems. MathModelica handles any kind of domain as, mechanics, electronics, hydraulics, control systems etc. >> learn about MathModelica > services --> MathCode C++ makes it possible to develop prototypes in the powerful interactive Mathematica environment that can be automatically translated to fast production quality code in C++ and linked to external applications. >> learn about MathCode >> download 30-day trial version Services Other Products Consulting We offer problem solving projects for specific tasks. Customized Simulation Solutions We solve problems for our customers by using our powerful tools in combination with customer inhouse products or products from other software vendors. Read more about our services here . MathPDE Partial Differential Equation solver generator for Mathematica MathCode F90 Mathematica to Fortran90 translator SW2MOD SolidWorks to Modelica translator MVIS Modelica 3D visualisation tool News New version of MathCode MathCode 1.2 for Windows with support for Mathematica 5.0 (and previous Mathematica versions) has been released January 20, 2004. A trial version is now available for download here . --> Questions or comments about the site? Please contact webmaster@mathcore.com . Thanks!   --> 
+
+MathCore - Experts in Modeling and Simulation
+
+MathCore Engineering provides solutions software and consulting services          for modeling and simulation of dynamic systems. We offer code optimization,         modeling, and simulation tools that makes it cost effective, not only to          develop, but also to maintain model libraries and experiments. Read more          about the company here.          
+             
+
+New version of MathCode MathCode 1.2 for Windows with support for Mathematica 5.0       (and previous Mathematica versions) has been released       January 20, 2004. A trial version is now available       for download here.      
+
+Engineering Tools
+
+MathModelica is a powerful engineering tool for virtual model building and simulation of all kinds of physical systems. MathModelica handles any kind of domain as, mechanics, electronics, hydraulics, control systems etc. 
+
+>> learn about MathModelica 
+    
+
+MathCode C++ makes it possible to develop prototypes in the powerful interactive Mathematica environment that can be automatically translated to fast production quality code in C++ and linked to external applications. 
+
+>> learn about MathCode 
+>> download 30-day trial version 
+
+Services
+
+Other Products
+
+Consulting We offer problem solving projects for specific tasks.     
+
+Customized Simulation Solutions We       solve problems for our customers by using our powerful tools in combination with customer inhouse products or products from       other software vendors.     
+
+Read more about our services here.     
+
+MathPDE Partial Differential Equation solver generator for Mathematica 
+
+MathCode F90 Mathematica to Fortran90 translator       
+
+SW2MOD SolidWorks to Modelica translator 
+
+MVIS Modelica 3D visualisation tool 	
+
+---------------------------------------------------------------------
+Questions or comments about the site? Please contact webmaster@mathcore.com. Thanks! 
+
+

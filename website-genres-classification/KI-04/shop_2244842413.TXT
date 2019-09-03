@@ -1,0 +1,97 @@
+   includeHost = 'http://include.ebaystatic.com/';      typeof(writeCBHeader)!= "undefined"?writeCBHeader():'';   
+
+typeof(writeCBBrow)!="undefined"?writeCBBrow():false;      	
+
+home | pay    writeCBSignInLink("register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US","","");          | register    writeCBSignInLink("sign in","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US","sign out","http://signin.ebay.com/aw-cgi/eBayISAPI.dll?SignIn&ssPageName=h:h:sout:US");     | sign in/out | services | site map   | help		
+
+headerpartner('', HdrSponsorEnable, sponsorLink);          	
+
+ Home > eBay Stores > HolyClothingcom	Add to My Favorite Stores	
+
+HolyClothingcom	                      Seller, manage Store	
+       Maintained by       holyclothing.com( 15537)
+
+Best Styles, Best Prices, Best quality Gothic, Celtic, Renaissance and Victorian inspired Dresses, Skirts and Tops on the web. Velvet, Satin, Georgette, Heavy Embroidery - we have it all. www.HolyClothing.com
+
+HolyClothingcom Search    	
+
+in titles & descriptions       	
+
+HolyClothingcom Categories    	
+
+Store home          	
+
+S/M Dresses & Tops (21)	
+
+M/L Dresses & Tops (108)	
+
+XL Dresses & Tops (80)	
+
+Misses Sets (21)	
+
+Misses Skirts (54)	
+
+Misses Pants (11)	
+
+1X Dresses (75)	
+
+1X Tops (42)	
+
+2X Dresses (73)	
+
+2X Tops (28)	
+
+3X Dresses (59)	
+
+3X Tops (55)	
+
+4X Dresses (39)	
+
+4X Tops (40)	
+
+5X Dresses (52)	
+
+5X Tops (51)	
+
+Plus Size Sets (17)	
+
+Plus Size Skirts (87)	
+
+Plus Size Pants (75)	
+
+Other Items (5)	
+
+Display	
+
+Hide Gallery View 	
+
+View ending times
+(Ends PST)	
+
+Store Information	
+
+Store Policies 	
+
+About the Seller 	
+
+ 	
+993 items found in All Categories
+
+View:      All Items | Buy It Now only | Auction only 	
+
+Sort by items: ending first | newly listed | lowest priced | highest priced	
+    ENV.showFeaturedSection = false;    //-->          Click on the specific item(s) you are interested in for up-to-date information.          	eBay official time 18:11:33 PST	
+
+var SBR = ";;;;;;;;;;;;;;;;;;;"; //-->
+
+---------------------------------------------------------------------
+
+Announcements   |   Register   |   Security Center   |   Policies   |   Feedback Forum   |   About eBay
+
+Copyright © 1995-2003 eBay Inc. All Rights Reserved.
+Designated trademarks and brands are the property of their respective owners.
+Use of this Web site constitutes acceptance of the eBay User Agreement and Privacy Policy.
+
+Jan-25 18:09:36 PST Check eBay official time
+     (Use your browser's reload button to see the latest version)      	
+

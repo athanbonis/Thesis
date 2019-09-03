@@ -1,0 +1,453 @@
+Search Engine Sizes By Danny Sullivan , Editor September 2, 2003 Is bigger better, when it comes to the size of a search engine's index? Not necessarily. However, a large index can help those who seek unusual or hard-to-find information. Consequently, when you seek the obscure, consider using a search engine with a large index. However, for general searches or for when looking for information about popular topics, a large index does not necessarily equal better results. Current Size Comparison - Search Engine Sizes Over Time Search Engine Size War I - SW-II - SW-III - SW-IV Related Search Engine Watch Articles Other Search Engine Size Articles - Size Resources Current Size Comparison The size figures below are unaudited and self-reported by each search engine (for audited figures, see the Search Engine Showdown web site listed below , which makes the best attempt at this). Figures show how many textual documents have been indexed, which includes HTML files, text documents, PDF files, Microsoft Office documents and other similar files. Image and multimedia files are not included. Nor are Google Groups discussion posts. Billions Of Textual Documents Indexed As of Sept 2, 2003 KEY : GG=Google, ATW=AllTheWeb, INK=Inktomi, TMA=Teoma, AV=AltaVista. See the Major Search Engines page for links to these services. Search Engine Sizes Over Time The chart below shows how self-reported search engine sizes have changed over the years. Only search engine still crawling the web are shown on the chart. Thus, players such as Northern Light, Excite, Infoseek and others that no longer crawl for their results are not displayed. Billions Of Textual Documents Indexed December 1995-September 2003 KEY: See above . Search Engine Size War I: Sept 1997-June 1999 When AltaVista appeared in December 1995, it used an index much larger than any of the other search engines at that time. Thus, competition forced others to increase their sizes in early 1996. But after these moves, sizes stayed about the same through September 1997. It was then that AltaVista and Inktomi really began the first of the Search Engine Size Wars, competing to claim the bragging rights of being biggest. Inktomi gave up after a couple of months, but Northern Light jumped in to compete with AltaVista to hit the 150 million page mark. MILLIONS Of Textual Documents Indexed December 1995-June 1999 KEY: See above plus NL=Northern Light, EX=Excite, LY=Lycos, GO=GO/Infoseek Search Engine Size War I: December 1997-June 1999 When AltaVista appeared in December 1995, it used an index much larger than any of the other search engines at that time. Thus, competition forced others to increase their sizes in early 1996. After these initial moves, sizes stayed about the same through September 1997. But by the end of that year, AltaVista and Inktomi began the first of the serious Search Engine Size Wars, competing to claim the bragging rights of being biggest. Inktomi failed to keep up, but Northern Light jumped in to compete with AltaVista in pursuit of the 150 million page mark. MILLIONS Of Textual Documents Indexed December 1995-June 1999 KEY: See above plus NL=Northern Light, EX=Excite, LY=Lycos, GO=GO/Infoseek Search Engine Size War II: September 1999-June 2000 Just when AltaVista and Northern Light were celebrating hitting the 150 million document mark, newcomer AllTheWeb appeared with a record-setting index size of 200 million documents. Suddenly, a new round of size escalation began. The title of biggest flip-flopped between AllTheWeb and AltaVista at first. However, Google put a decisive stop to the war in June 2000, when it set a new benchmark of 500 million pages indexed and started growing well past its challengers. MILLIONS Of Textual Documents Indexed September 1999-March 2002 KEY: See above plus NL=Northern Light Search Engine Size War III: June 2002-December 2002 After a long period of being the size king, AllTheWeb grabbed the title back from Google by declaring it had broken the 2 billion document mark. Soon after, Google grew the number of documents it reported indexing up to the 3 billion page mark. Inktomi also released a new version of its search engine that claimed this index level. Billions Of Textual Documents Indexed June 2002-September 2003 KEY: See above Search Engine Size War IV: August 2003-??? In August 2003, AllTheWeb claimed an index of 3.3 billion documents, putting it just past Google's self-reported figure. Google responded within days by increasing its self-reported figure to 3.2 billion. It's likely that over the coming months, new competition to hit the 4 billion document mark may happen. Related Search Engine Watch Articles Bigger is not necessarily better, though it can be for some searches. To better understand the importance of size, be sure to read some past articles from Search Engine Watch that deal with size issues, listed below: Search Engine Size Wars & Google's Supplemental Results SearchDay, Sept. 3, 2003 http://searchenginewatch.com/searchday/article.php/3071371 Who has the biggest index? The search engine size wars have erupted again to dispute this -- and the new Google supplemental index is complicating matters. Google to Overture: Mine's Bigger SearchDay, Aug. 27, 2003 http://www.searchenginewatch.com/searchday/article.php/3069221 Overture and Google have fired new salvos in the search engine size wars, expanding their databases of searchable web pages by millions of pages. FAST Sprints to 2.1 Billion Docs; Google Upgrades Appliance SearchDay, June 17, 2002 http://searchenginewatch.com/searchday/article.php/2160141 Covers the increase by FAST/AllTheWeb past the 2.1 billion document mark. Mapping the 'Dark Net' SearchDay, Jan. 24, 2002 http://searchenginewatch.com/searchday/article.php/2159121 Researchers have discovered that up to 5 percent of the Internet is completely unreachable, impossible to access by web browser or search engine alike. Google Fires New Salvo in Search Engine Size Wars SearchDay, Dec. 11, 2001 http://searchenginewatch.com/searchday/article.php/2158371 Google's web index has grown to more than 3 billion documents, including an unprecedented archive of Usenet newsgroup postings dating back to 1981. Google & FAST Move Up In Size The Search Engine Report, Nov. 3, 2000 Update on size increases by Google and FAST. Invisible Web Gets Deeper The Search Engine Report, Aug. 2, 2000 Covers a survey done to measure how much information exists outside of the search engines' reach. The company behind the survey is also offering up a solution for those who want tap into this "hidden" material. Google Announces Largest Index The Search Engine Report, July 5, 2000 Google breaks the 500 million page mark, but not all partners may tap into the large index. Search Engine Size Test Search Engine Watch, July 2000 http://searchenginewatch.com/sereport/article.php/2162821 Evaluated claims in index size, to see if the search engines measure up. Inktomi Reenters Battle For Biggest The Search Engine Report, June 2, 2000 Inktomi makes moves to again become one of the biggest search engines on the web. AltaVista Launches New Search Site The Search Engine Report, May 3, 2000 AltaVista adopts a crawling system similar to that used by Inktomi, as described in the article below. Numbers, Numbers -- But What Do They Mean? The Search Engine Report, March 3, 2000 A long look at the recent trend of quoting "dual numbers" in relation to index size and how to compare services that do this. FAST Gets Bigger, Partners With Lycos The Search Engine Report, Feb. 3, 2000 Details on FAST breaking the 300 million web page mark. Who's The Biggest Of Them All? The Search Engine Report, Nov. 1, 1999 Discusses the difficulty of verifying index claims. Search Engine Coverage Study Published The Search Engine Report, Aug. 2, 1999 Detailed review of the Nature article about search engine coverage. FAST Announces Largest Search Engine The Search Engine Report, Aug. 2, 1999 Details about FAST claiming to have broken the 200 million web page barrier, with a link to more background about the company. Many Changes At AltaVista The Search Engine Report, July 6, 1999 Mentions that AltaVista plans to continue increasing its size. Google Goes Forward The Search Engine Report, July 6, 1999 Explains how Google can exceed the reach of its index. Northern Light Claims Largest Index The Search Engine Report, Feb. 2, 1999 Northern Light says that if self-reported sizes were audited, it would be number one. More on the issue, along with an update on size growth in general. Search Engine Sizes Scrutinized The Search Engine Report, April 30, 1998 Extensive details and analysis of the April 1998 Science study, which grabbed headlines across the world. The AltaVista Size Controversy The Search Engine Report, July 2, 1997 Recounts a public discussion of how AltaVista was only sampling some web pages completely ignoring other sites. How Big Are The Search Engines Search Engine Watch, June 13, 1997 http://searchenginewatch.com/sereport/article.php/2165301 Article within Search Engine Watch that explains the issues of index size in more depth. Does size really matter? Search Engine Size Articles Google Dominates New Size Showdowns Search Engine Showdown, Jan. 16, 2003 http://www.searchengineshowdown.com/newsarchive/000625.shtml Google leads the pack in terms of size, based on the latest estimates from Greg Notess When size does matter The Guardian, July 18, 2002 http://media.guardian.co.uk/newmedia/story/0,7496,757326,00.html Search Engine Watch associate editor Chris Sherman takes another look at when -- and when not -- index size matters. Openfind touts its efficiency e-Taiwannews.com, July 1, 2002 http://www.etaiwannews.com/Taiwan/2002/07/01/1025492420.htm Openfind, on taking on Google. The company claims an index of 3.5 billion pages. Google processes in the range of 150 million searches per day, by the way, not the 1.5 billion noted in the article. On the size of the World Wide Web Pandia, Oct. 14, 2001 http://www.pandia.com/sw-2001/57-websize.html There are now over 8 million web sites according to researchers at the Online Computer Library Center, but the web's growth has slowed markedly when compared to previous years. The vast majority of web sites are written in English -- 73 percent, with German coming in at second place with 7 percent. Web links that stick BBC, June 14, 2000 http://news.bbc.co.uk/1/hi/sci/tech/790685.stm The average page contains 52 links, and the over 10 percent of the links on the web are broken, according to a company that's developing a link monitoring service. The web is a bow tie Nature, May 11, 2000 http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/v405/n6783/full/405113a0_fs.html Covers research by AltaVista and two other groups that found a "bow tie" pattern to how pages link across the web. Researchers work to eradicate broken hyperlinks News.com, March 7, 2000 http://news.com.com/2100-1023-237651.html Review of "robust" hyperlink system described in technical paper, below. Robust Hyperlinks Cost Just Five Words Each UC Berkeley, January 2000 http://www.cs.berkeley.edu/~phelps/Robust/papers/robust-hyperlinks.html Technical paper on how web pages could be assigned a lexical code to make it easier to locate them. Accessibility and Distribution of Information on the Web Nature, July 1999 http://wwwmetrics.com/ Study by the authors of the 1998 Science magazine study on search engine coverage (see below). September 1998 Search Engine Coverage Update NEC Research Institute, September 1998 http://www.neci.nj.nec.com/homepages/lawrence/websize98.html An update to the findings reported in Science magazine in April 1998, by its authors. It found that coverage was getting worse since the original study. April 1998 Search Engine Coverage Summary NEC Research Institute, April 1998 http://www.neci.nj.nec.com/homepages/lawrence/websize.html A summary of a landmark Science magazine study of search engine coverage. There's also information on requesting reprints of the study and links to numerous news articles that covered the story. Searching the World Wide Web Science, April 3, 1998 http://www.sciencemag.org/cgi/content/abstract/280/5360/98 Summary of the NEC research article on search engine sizes, similar to that above. Full-text available only to Science web site subscribers. March '98 Measurement of Search Engines http://www.research.compaq.com/SRC/whatsnew/sem.html A study by Digital about the size of the web and search engine sizes, similar to the Science magazine study. Lost in cyberspace New Scientist, June 28, 1997 --no longer online-- An excellent look at why some search engines are moving away from an "index everything" attitude and instead adopting an "index the best" or "sample the web" method. Does it make a difference to searchers if some pages aren't included? Search engine execs explain why they believe a sample is good enough. Search Engine Size Resources Search Engine Showdown http://www.searchengineshowdown.com/ This site from search expert Greg Notess provides a survey of search engine sizes, along with dead links estimates and other data. OCLC Web Characterization Project http://wcp.oclc.org/ Research project by the Online Computer Library Center tries to estimate the number of web sites and other statistics. How Much Information: Internet http://www.sims.berkeley.edu/research/projects/how-much-info/internet.html From UC Berkeley, this page summarizes findings from various sources to estimate the size of the web. Search Engine Watch www.searchenginewatch.com Danny Sullivan, Editor; Chris Sherman, Associate Editor Jupitermedia is publisher of the internet.com and EarthWeb.com networks. Copyright 2004 Jupitermedia Corporation All Rights Reserved. Legal Notices ,   Licensing , Reprints , & Permissions ,   Privacy Policy .   --> 
+
+Members Area With Exclusive Content 
+
+Already a member? 
+
+Learn about the benefits: 
+ 	  
+
+>> Departments	 
+
+Search Engine Submission Tips	 
+
+Web Searching Tips	 
+
+Search Engine Listings	 
+
+Reviews, Ratings & Tests	 
+
+Search Engine Resources	 
+
+SearchDay	 
+
+Search Engine Report	 
+
+Members Area	 
+
+>> Site Info	 
+
+Advertising Info	 
+
+About The Site	 
+
+Site Map	 
+
+>> Search 
+Members Area
+ Free Area 	
+Search Engine Watch
+is part of
+
+The Internet & IT Network
+ 
+internet.commerce	 
+Shop Digital Cameras 
+Check Software Prices 
+Internet Jobs 
+Dedicated Hosting 
+Free Virus Scan 
+Shopping Cart 
+Web Design Templates 
+Save on Flat Panel TVs 
+Business Search 
+Free Bandwidth Quote 
+
+internet.com	 
+      Developer
+DevX
+Downloads
+EarthWeb
+Graphics
+Interactive Marketing
+International
+Internet Lists
+Internet News
+Internet Resources
+IT
+Linux/Open Source
+Small Business 
+Windows Technology
+Wireless Internet
+xSP Resources 
+
+Search internet.com
+Advertise
+Corporate Info
+Newsletters
+Tech Jobs
+E-mail Offers
+ 	
+
+More resources from internet.com:
+
+Ad Resource
+ ArtToday.com
+ ChannelSeven
+ ClickZ
+ CyberAtlas
+ Advertising Report
+ Jupiterdirect
+ InternetPRGuide
+ NewMedia
+ Refer-it
+ SEMList
+ SearchEngineWatch
+ TurboAds
+ WirelessAdWatch
+ 	
+
+Search Engine Watch's conference on search engine marketing comes to:
+  March 1 - 4, 2004 New York, NY
+ April 20 - 21, 2004 Tokyo, Japan
+ May 11 - 12, 2004 Toronto, Canada
+ June 2 - 3, 2004 London, England
+ August 2 - 5, 2004 San Jose, CA
+            	      
+    
+
+>> Search Engine Watch Marketplace	 
+
+Find quality traffic and sales here! 	
+Search Engine Optimization Tools and Services 	
+
+Drive targeted traffic to your web site 	
+Reach nearly 70% of all search traffic! 	
+
+Search Engine Marketing Services Free Report 	
+Want More Customers? Click Here! 	
+
+The Best SEO Software: Free Download! 	
+Sign-up for Mamma's non-bidded PPC Program 	
+
+Unleash the Revenue Potential of Your Website 	
+GUARANTEED inclusion- all major engines! 	
+
+>> Search Engine Newsletters	     
+   FREE!
+Over 150,000 readers depend on our free newsletters to keep up with search engines. To join them, enter your email below:
+                    
+                Daily         Monthly
+                        Learn more about the newsletters                 	    
+ 	  
+ 	
+  
+    
+   >> 	   	    
+      Online Search Industry Research    
+
+Get deep analysis and actionable advice from expert analysts
+
+>> Search Engine Research Reports	     
+      Search Engine Watch publisher Jupitermedia offers research reports and briefing papers on various topics about search engines.
+       	    
+ 	  
+ 	     
+   
+
+Search Engine Sizes
+
+By Danny Sullivan, Editor
+September 2, 2003 
+
+Is bigger better, when it comes to the size of a search engine's index? Not necessarily. However, a large index can help those who seek unusual or hard-to-find information. Consequently, when you seek the obscure, consider using a search engine with a large index. However, for general searches or for when looking for information about popular topics, a large index does not necessarily equal better results.
+
+Current Size Comparison - Search Engine Sizes Over Time
+ Search Engine Size War I - SW-II - SW-III - SW-IV
+ Related Search Engine Watch Articles
+ Other Search Engine Size Articles - Size Resources
+
+Current Size Comparison
+
+The size figures below are unaudited and self-reported by each search engine (for audited figures, see the Search Engine Showdown web site listed below, which makes the best attempt at this). Figures show how many textual documents have been indexed, which includes HTML files, text documents, PDF files, Microsoft Office documents and other similar files. Image and multimedia files are not included. Nor are Google Groups discussion posts.
+
+Billions Of Textual Documents Indexed
+ As of Sept 2, 2003
+ 
+KEY: GG=Google, ATW=AllTheWeb, INK=Inktomi, TMA=Teoma, AV=AltaVista. See the Major Search Engines page for links to these services.
+
+Search Engine Sizes Over Time
+
+The chart below shows how self-reported search engine sizes have changed over the years. Only search engine still crawling the web are shown on the chart. Thus, players such as Northern Light, Excite, Infoseek and others that no longer crawl for their results are not displayed.
+
+Billions Of Textual Documents Indexed
+ December 1995-September 2003
+ 
+KEY: See above.
+
+Search Engine Size War I: Sept 1997-June 1999
+
+When AltaVista appeared in December 1995, it used an index much larger than any of the other search engines at that time. Thus, competition forced others to increase their sizes in early 1996. But after these moves, sizes stayed about the same through September 1997. It was then that AltaVista and Inktomi really began the first of the Search Engine Size Wars, competing to claim the bragging rights of being biggest. Inktomi gave up after a couple of months, but Northern Light jumped in to compete with AltaVista to hit the 150 million page mark.
+
+MILLIONS Of Textual Documents Indexed
+ December 1995-June 1999
+ 
+KEY: See above plus NL=Northern Light, EX=Excite, LY=Lycos, GO=GO/Infoseek
+
+Search Engine Size War I:
+ December 1997-June 1999
+
+When AltaVista appeared in December 1995, it used an index much larger than any of the other search engines at that time. Thus, competition forced others to increase their sizes in early 1996. After these initial moves, sizes stayed about the same through September 1997. But by the end of that year, AltaVista and Inktomi began the first of the serious Search Engine Size Wars, competing to claim the bragging rights of being biggest. Inktomi failed to keep up, but Northern Light jumped in to compete with AltaVista in pursuit of the 150 million page mark.
+
+MILLIONS Of Textual Documents Indexed
+ December 1995-June 1999
+ 
+KEY: See above plus NL=Northern Light, EX=Excite, LY=Lycos, GO=GO/Infoseek
+
+Search Engine Size War II:
+ September 1999-June 2000
+
+Just when AltaVista and Northern Light were celebrating hitting the 150 million document mark, newcomer AllTheWeb appeared with a record-setting index size of 200 million documents. Suddenly, a new round of size escalation began. The title of biggest flip-flopped between AllTheWeb and AltaVista at first. However, Google put a decisive stop to the war in June 2000, when it set a new benchmark of 500 million pages indexed and started growing well past its challengers.
+
+MILLIONS Of Textual Documents Indexed
+ September 1999-March 2002
+ 
+KEY: See above plus NL=Northern Light
+
+Search Engine Size War III:
+ June 2002-December 2002
+
+After a long period of being the size king, AllTheWeb grabbed the title back from Google by declaring it had broken the 2 billion document mark. Soon after, Google grew the number of documents it reported indexing up to the 3 billion page mark. Inktomi also released a new version of its search engine that claimed this index level.
+
+Billions Of Textual Documents Indexed
+ June 2002-September 2003
+ 
+KEY: See above
+
+Search Engine Size War IV:
+ August 2003-???
+
+In August 2003, AllTheWeb claimed an index of 3.3 billion documents, putting it just past Google's self-reported figure. Google responded within days by increasing its self-reported figure to 3.2 billion. It's likely that over the coming months, new competition to hit the 4 billion document mark may happen.
+
+Related Search Engine Watch Articles
+
+Bigger is not necessarily better, though it can be for some searches. To better understand the importance of size, be sure to read some past articles from Search Engine Watch that deal with size issues, listed below:
+
+Search Engine Size Wars & Google's Supplemental Results
+ SearchDay, Sept. 3, 2003
+ http://searchenginewatch.com/searchday/article.php/3071371
+
+Who has the biggest index? The search engine size wars have erupted again to dispute this -- and the new Google supplemental index is complicating matters.
+
+Google to Overture: Mine's Bigger
+ SearchDay, Aug. 27, 2003
+ http://www.searchenginewatch.com/searchday/article.php/3069221 
+
+Overture and Google have fired new salvos in the search engine size wars, expanding their databases of searchable web pages by millions of pages.
+
+FAST Sprints to 2.1 Billion Docs; Google Upgrades Appliance
+SearchDay, June 17, 2002
+http://searchenginewatch.com/searchday/article.php/2160141
+
+Covers the increase by FAST/AllTheWeb past the 2.1 billion document mark.
+
+Mapping the 'Dark Net'
+SearchDay, Jan. 24, 2002
+http://searchenginewatch.com/searchday/article.php/2159121
+
+Researchers have discovered that up to 5 percent of the Internet is completely unreachable, impossible to access by web browser or search engine alike.
+
+Google Fires New Salvo in Search Engine Size Wars
+SearchDay, Dec. 11, 2001
+http://searchenginewatch.com/searchday/article.php/2158371
+
+Google's web index has grown to more than 3 billion documents, including an unprecedented archive of Usenet newsgroup postings dating back to 1981.
+
+Google & FAST Move Up In Size
+ The Search Engine Report, Nov. 3, 2000
+
+Update on size increases by Google and FAST.
+
+Invisible Web Gets Deeper
+ The Search Engine Report, Aug. 2, 2000
+
+Covers a survey done to measure how much information exists outside of the search engines' reach. The company behind the survey is also offering up a solution for those who want tap into this "hidden" material.
+
+Google Announces Largest Index
+ The Search Engine Report, July 5, 2000
+
+Google breaks the 500 million page mark, but not all partners may tap into the large index.
+
+Search Engine Size Test
+ Search Engine Watch, July 2000
+ http://searchenginewatch.com/sereport/article.php/2162821
+
+Evaluated claims in index size, to see if the search engines measure up.
+
+Inktomi Reenters Battle For Biggest
+ The Search Engine Report, June 2, 2000
+
+Inktomi makes moves to again become one of the biggest search engines on the web.
+
+AltaVista Launches New Search Site
+ The Search Engine Report, May 3, 2000
+
+AltaVista adopts a crawling system similar to that used by Inktomi, as described in the article below.
+
+Numbers, Numbers -- But What Do They Mean?
+ The Search Engine Report, March 3, 2000
+
+A long look at the recent trend of quoting "dual numbers" in relation to index size and how to compare services that do this.
+
+FAST Gets Bigger, Partners With Lycos
+ The Search Engine Report, Feb. 3, 2000
+
+Details on FAST breaking the 300 million web page mark.
+
+Who's The Biggest Of Them All?
+ The Search Engine Report, Nov. 1, 1999
+
+Discusses the difficulty of verifying index claims.
+
+Search Engine Coverage Study Published
+ The Search Engine Report, Aug. 2, 1999
+
+Detailed review of the Nature article about search engine coverage.
+
+FAST Announces Largest Search Engine
+ The Search Engine Report, Aug. 2, 1999
+
+Details about FAST claiming to have broken the 200 million web page barrier, with a link to more background about the company.
+
+Many Changes At AltaVista
+ The Search Engine Report, July 6, 1999
+
+Mentions that AltaVista plans to continue increasing its size.
+
+Google Goes Forward
+ The Search Engine Report, July 6, 1999
+
+Explains how Google can exceed the reach of its index.
+
+Northern Light Claims Largest Index
+ The Search Engine Report, Feb. 2, 1999
+
+Northern Light says that if self-reported sizes were audited, it would be number one. More on the issue, along with an update on size growth in general.
+
+Search Engine Sizes Scrutinized
+ The Search Engine Report, April 30, 1998
+
+Extensive details and analysis of the April 1998 Science study, which grabbed headlines across the world.
+
+The AltaVista Size Controversy
+ The Search Engine Report, July 2, 1997
+
+Recounts a public discussion of how AltaVista was only sampling some web pages completely ignoring other sites.
+
+How Big Are The Search Engines
+ Search Engine Watch, June 13, 1997
+ http://searchenginewatch.com/sereport/article.php/2165301
+
+Article within Search Engine Watch that explains the issues of index size in more depth. Does size really matter?
+
+Search Engine Size Articles
+
+Google Dominates New Size Showdowns
+Search Engine Showdown, Jan. 16, 2003
+http://www.searchengineshowdown.com/newsarchive/000625.shtml
+
+Google leads the pack in terms of size, based on the latest estimates from Greg Notess
+
+When size does matter
+ The Guardian, July 18, 2002
+ http://media.guardian.co.uk/newmedia/story/0,7496,757326,00.html
+
+Search Engine Watch associate editor Chris Sherman takes another look at when -- and when not -- index size matters.
+
+Openfind touts its efficiency
+ e-Taiwannews.com, July 1, 2002
+ http://www.etaiwannews.com/Taiwan/2002/07/01/1025492420.htm
+
+Openfind, on taking on Google. The company claims an index of 3.5 billion pages. Google processes in the range of 150 million searches per day, by the way, not the 1.5 billion noted in the article.
+
+On the size of the World Wide Web
+Pandia, Oct. 14, 2001
+http://www.pandia.com/sw-2001/57-websize.html
+
+There are now over 8 million web sites according to researchers at the Online Computer Library Center, but the web's growth has slowed markedly when compared to previous years. The vast majority of web sites are written in English -- 73 percent, with German coming in at second place with 7 percent.
+
+Web links that stick
+BBC, June 14, 2000
+http://news.bbc.co.uk/1/hi/sci/tech/790685.stm
+
+The average page contains 52 links, and the over 10 percent of the links on the web are broken, according to a company that's developing a link monitoring service.
+
+The web is a bow tie
+ Nature, May 11, 2000
+ http://www.nature.com/cgi-taf/DynaPage.taf?file=/nature/journal/v405/n6783/full/405113a0_fs.html
+
+Covers research by AltaVista and two other groups that found a "bow tie" pattern to how pages link across the web.
+
+Researchers work to eradicate broken hyperlinks
+ News.com, March 7, 2000
+ http://news.com.com/2100-1023-237651.html
+
+Review of "robust" hyperlink system described in technical paper, below.
+
+Robust Hyperlinks Cost Just Five Words Each
+ UC Berkeley, January 2000
+ http://www.cs.berkeley.edu/~phelps/Robust/papers/robust-hyperlinks.html
+
+Technical paper on how web pages could be assigned a lexical code to make it easier to locate them.
+
+Accessibility and Distribution of Information on the Web
+ Nature, July 1999
+ http://wwwmetrics.com/
+
+Study by the authors of the 1998 Science magazine study on search engine coverage (see below).
+
+September 1998 Search Engine Coverage Update
+ NEC Research Institute, September 1998
+ http://www.neci.nj.nec.com/homepages/lawrence/websize98.html
+
+An update to the findings reported in Science magazine in April 1998, by its authors. It found that coverage was getting worse since the original study.
+
+April 1998 Search Engine Coverage Summary
+ NEC Research Institute, April 1998
+ http://www.neci.nj.nec.com/homepages/lawrence/websize.html
+
+A summary of a landmark Science magazine study of search engine coverage. There's also information on requesting reprints of the study and links to numerous news articles that covered the story.
+
+Searching the World Wide Web
+ Science, April 3, 1998
+ http://www.sciencemag.org/cgi/content/abstract/280/5360/98
+
+Summary of the NEC research article on search engine sizes, similar to that above. Full-text available only to Science web site subscribers.
+
+March '98 Measurement of Search Engines
+ http://www.research.compaq.com/SRC/whatsnew/sem.html
+
+A study by Digital about the size of the web and search engine sizes, similar to the Science magazine study.
+
+Lost in cyberspace
+ New Scientist, June 28, 1997
+ --no longer online--
+
+An excellent look at why some search engines are moving away from an "index everything" attitude and instead adopting an "index the best" or "sample the web" method. Does it make a difference to searchers if some pages aren't included? Search engine execs explain why they believe a sample is good enough.
+
+Search Engine Size Resources
+
+Search Engine Showdown
+http://www.searchengineshowdown.com/
+
+This site from search expert Greg Notess provides a survey of search engine sizes, along with dead links estimates and other data.
+
+OCLC Web Characterization Project
+ http://wcp.oclc.org/
+
+Research project by the Online Computer Library Center tries to estimate the number of web sites and other statistics.
+
+How Much Information: Internet
+ http://www.sims.berkeley.edu/research/projects/how-much-info/internet.html
+
+From UC Berkeley, this page summarizes findings from various sources to estimate the size of the web.
+
+Search Engine Watch 
+www.searchenginewatch.com
+Danny Sullivan, Editor; Chris Sherman, Associate Editor
+     Jupitermedia is publisher of the internet.com and EarthWeb.com networks. 
+---------------------------------------------------------------------
+Copyright 2004 Jupitermedia Corporation All Rights Reserved.
+Legal Notices,  Licensing, Reprints, & Permissions,  Privacy Policy. 
+
+

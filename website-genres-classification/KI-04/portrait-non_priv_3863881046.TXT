@@ -1,0 +1,27 @@
+The Magma Computational Algebra System for Algebra, Number Theory and Geometry Magma is a large, well-supported software package designed to solve computationally hard problems in algebra, number theory, geometry and combinatorics. It provides a mathematically rigorous environment for computing with algebraic, number-theoretic, combinatoric and geometric objects. Recent Notices: April 11, 2003: Magma version V2.10 is now released. See Release Notes V2.10 for the release notes. About Magma What's New Magma on-line help FAQ Links How to get Magma Special Offers Contact Us Download Magma (Registered Users Only) Change Password (Registered Users Only) Online Magma Calculator (external link) Magma is produced and distributed by the Computational Algebra Group within the School of Mathematics and Statistics of the University of Sydney. --> -->   --> 
+
+The Magma Computational Algebra System 
+
+for 
+
+Algebra, Number Theory and Geometry
+
+Magma is a large, well-supported software package designed to solve computationally hard problems in algebra, number theory, geometry and combinatorics. It provides a mathematically rigorous environment for computing with algebraic, number-theoretic, combinatoric and geometric objects. 
+
+Recent Notices: 	
+April 11, 2003: Magma version V2.10 is now released. See Release Notes V2.10 for the release notes. 	
+
+---------------------------------------------------------------------
+About Magma What's New 
+---------------------------------------------------------------------
+Magma on-line help FAQ Links 
+---------------------------------------------------------------------
+How to get Magma Special Offers Contact Us 
+---------------------------------------------------------------------
+Download Magma (Registered Users Only) Change Password (Registered Users Only) 
+---------------------------------------------------------------------
+Online Magma Calculator (external link) 
+---------------------------------------------------------------------
+Magma is produced and distributed by the Computational Algebra Group within the School of Mathematics and Statistics of the University of Sydney. 
+
+

@@ -1,0 +1,73 @@
+Transcript and slides of 1996 Faculty Research Lecture: The Art and Science of Cause and Effect --> --> Transcript and slides of 1999 IJCAI Award Lecture: Reasoning with Cause and Effect --> Technical material supporting the story in 1-2, can be found [postscript] or [pdf] in: (R-282): [postscript] --> [pdf] J. Pearl, "Statistics and Causal Inference: A Review" In Test Journal, Vol. 12(2), pp. 281-345, December 2003 (with discussions). (Click [here] for additional discussion.) --> (R-264): [postscript] [pdf] J. Pearl, ``Simpson's paradox: An anatomy'' Extracted from Chapter 6 of CAUSALITY . (R-218-B): [postscript] [pdf] J. Pearl, "Causal Diagrams for Empirical Research" Biometrika, 82(4), 669--710, December 1995. Other papers related to causality (R-273): --> --> --> --> (R-273-U): [postscript] [pdf] J. Pearl, "Direct and Indirect Effects" UCLA Cognitive Systems Laboratory, Technical Report (R-273), --> --> In Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence , San Francisco, CA: Morgan Kaufmann, 411-420, 2001. (R-266-UAI): [postscript] [pdf] J.Y. Halpern and J. Pearl, "Causes and explanations: A structural-model approach ---Part I: Causes" UCLA Cognitive Systems Laboratory, Technical Report (R-266-UAI), November 2000. --> In Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence , San Francisco, CA: Morgan Kaufmann, 194--202, 2001. (R-266-IJCAI): [postscript] [pdf] J.Y. Halpern and J. Pearl, "Causes and explanations: A structural-model approach ---Part II: Explanations" UCLA Cognitive Systems Laboratory, Technical Report (R-266-IJCAI), November 2000. --> In Proceedings of IJCAI , San Francisco, CA: Morgan Kaufmann, 2001. (R-269): [postscript] [pdf] J. Pearl, "The logic of counterfactuals in causal inference (Discussion of `Causal inference without counterfactuals' by A.P. Dawid)," UCLA Cognitive Systems Laboratory, Technical Report (R-269), April 2000. --> In Journal of American Statistical Association , Vol. 95, No. 450, 428--435, June 2000. (R-271-A): [postscript] [pdf] J. Tian and J. Pearl, "Probabilities of causation: Bounds and identification" UCLA Cognitive Systems Laboratory, Technical Report (R-271-U), May 2000. --> In Craig Boutilier and Moises Goldszmidt (Eds.), Proceedings of the --> San --> In Annals of Mathematics and Artificial Intelligence, Vol. 28, 287--313, 2000. (R-276): [postscript] [pdf] J. Pearl, "Parameter identification: A new perspective" UCLA Cognitive Systems Laboratory, Technical Report (R-276), January 2001. If you wish to learn about additional research at the Cognitive Systems Laboratory, click 4. Other publications   --> 
+
+   	 
+
+JUDEA PEARL 
+
+UCLA Computer Science Department 
+Cognitive Systems Lab 
+4532 Boelter Hall
+tel: (310) 825-3243
+fax: (310) 825-2273 
+
+e-mail to:judea@cs.ucla.edu
+
+---------------------------------------------------------------------
+
+Welcome to my homepage. 
+
+If you are curious about my background, click on: biographical sketch. 
+
+For information on my new book, click CAUSALITY. 
+
+For information on the Daniel Pearl Foundation, click Foundation. 
+
+For a gentle introduction to my current research on causality, click 1 or 2. 
+
+Transcript and slides of 1996 Faculty Research Lecture: The Art and Science of Cause and Effect   
+
+Transcript and slides of 1999 IJCAI Award Lecture: Reasoning with Cause and Effect 
+
+Technical material supporting the story in 1-2, can be found [postscript] or [pdf] in: 
+
+(R-282):    [pdf] 
+J. Pearl, "Statistics and Causal Inference: A Review" 
+In Test Journal, Vol. 12(2), pp. 281-345, December 2003 (with discussions). 
+(R-264):   [postscript] [pdf] 
+J. Pearl, ``Simpson's paradox: An anatomy''  
+Extracted from Chapter 6 of CAUSALITY.
+ 
+(R-218-B):    [postscript] [pdf] 
+J. Pearl, "Causal Diagrams for Empirical Research" 
+Biometrika, 82(4), 669--710, December 1995.
+ 
+
+Other papers related to causality 
+
+(R-273-U):  [postscript] [pdf]  
+J. Pearl, "Direct and Indirect Effects"  
+In Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence, San Francisco, CA: Morgan Kaufmann, 411-420, 2001. 
+(R-266-UAI):  [postscript] [pdf] 
+J.Y. Halpern and J. Pearl, "Causes and explanations: A structural-model approach 
+---Part I:  Causes"  
+In Proceedings of the Seventeenth Conference on Uncertainty in Artificial Intelligence,  San Francisco, CA: Morgan Kaufmann, 194--202, 2001.   
+
+(R-266-IJCAI):  [postscript] [pdf] 
+J.Y. Halpern and J. Pearl, "Causes and explanations: A structural-model approach 
+---Part II: Explanations"  
+        In Proceedings of IJCAI, San Francisco, CA: Morgan Kaufmann, 2001. 
+(R-269):  [postscript] [pdf] 
+J. Pearl, "The logic of counterfactuals in causal inference (Discussion of `Causal inference without counterfactuals' by A.P. Dawid)," 
+In Journal of American Statistical Association, Vol. 95, No. 450, 428--435, June 2000. 
+(R-271-A):   [postscript] [pdf] 
+J. Tian and J. Pearl, "Probabilities of causation: Bounds and identification"  
+In Annals of Mathematics and Artificial Intelligence, Vol. 28, 287--313, 2000.  
+(R-276):  [postscript] [pdf]   
+J. Pearl, "Parameter identification: A new perspective"  
+UCLA Cognitive Systems Laboratory, Technical Report (R-276), January 2001. 
+
+If you wish to learn about additional research at the Cognitive Systems Laboratory, click 4. 
+
+Other publications 
+
+

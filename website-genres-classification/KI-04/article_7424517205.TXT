@@ -1,0 +1,27 @@
+} else { if (scoutTracker != triggerParms["mid"] ) { // get reference to existing window if any window.runningscout = window.open("/scripts/site1/scout.html", "SurveyWindowInformative", "width=1,height=1,top=1000,left=1000"); // close it window.runningscout.close(); // open new window window.runningscout = window.open("/scripts/site1/scout.html", "SurveyWindowInformative", "width=1,height=1,top=3000,left=3000" ); OnExitInstallationInstructions1 } } } else { return; } } var ip = '80.138.92.26' //document . writeln ("
+
+Your IP Address is: " + ip + "."); if (ip.substr(0,5) != "129.6" && ip.substr(0,7) != "132.163") {openScoutInformative();} BODY{ background: white url(/Images/Ban/bkgnds/plsub-bkgnd.jpg); background-repeat: no-repeat} 
+
+Version History   |   Disclaimer 
+
+W.C. Martin, A. Musgrove, S. Kotochigova, and J.E. Sansonetti 
+
+National Institute of Standards and Technology 
+Gaithersburg, MD 20899 
+
+Table of Ground Levels and Ionization Energies for the Neutral Atoms*
+ or
+Periodic Table Format (NIST SP 966)
+[292 kB PDF file - download the reader] 
+
+The ionization energies in the table are based on a recent survey of the literature. A reference to one or another data compilation is given for a number of elements; the cited compilation gives the reference(s) for the original ionization-energy data. The uncertainties are mainly in the range from less than one to several units in the last decimal place, but a few of the values may be in error by 20 or more units in the final place; i.e., the error of some of the two place values could be greater than 0.2 eV. Estimated uncertainties of the ionization energies are usually given in the references. Although no more than four decimal places are given, the accuracies of some of the better known values would, in eV units, be limited only by the uncertainty in the conversion factor, 1.239 842 44(37) × 10-4 eV/cm-1. 
+
+The ground-state electron configurations of elements heavier than neon are shortened in the table by using rare-gas element symbols in brackets to represent the corresponding electrons. The ground levels of all neutral atoms have reasonably meaningful LS-coupling names, the corresponding eigenvector percentages lying in the range from ~55% to 100%. These names are listed in the table, except for Pa, U, and Np; the lowest few ground-configuration levels of these atoms comprise better 5f N(L1S1J1), 6dj7s2 (J1 j) terms than LS-coupling terms. The relatively large spin-orbit interaction of the 6p electrons produces jj-coupling structures for the (6p21/2)0, (6p21/26p3/2)o3/2, and (6p21/26p23/2)2 ground levels of the 6p2, 6p3, and 6p4 configurations of neutral Pb, Bi, and Po, respectively. These jj-coupling names are more appropriate for these atoms than the alternative LS-coupling designations in the table. 
+
+---------------------------------------------------------------------
+*Based on the article "Atomic Spectroscopy," by W. C. Martin and W. L. Wiese in Atomic, Molecular, & Optical Physics Handbook, ed. by G.W.F. Drake (AIP, Woodbury, NY, 1996) Chapter 10, pp. 135-153.
+ 
+
+Inquiries or comments: www@physics.nist.gov. 
+Online: April 1998   -   Last update: September 2003 	
+

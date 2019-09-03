@@ -1,0 +1,84 @@
+Site Awards About this Site Google Field Search Problems July 10, 2003: For more than a month now, the intitle: and inurl: field searches have been broken. I first heard of this on May 27, 2003. The advantage of intitle: and inurl: over the advanced search page Occurrences section or the allintitle: and allinurl: field searches was that they applied to only a single term and could be combined with other search terms that would look through the record. So now, searchers can not do a search that looks for one word in the title and another in the body. A search that tries like "market research" intitle:tourism retrieves many results that do not include 'tourism' in the title. At first I thought this was a temporary glitch from the strange May update, but it has persisted through the June update and has continued for some time. Hopefully it will be correct sometime soon. I've updated the Google Inconsistencies page with this problem and several others long term problems. In addition, I updated several parts of the Google Review , including the addition of several language limits added in early 2002 that I had missed: Croatian, Indonesian, Serbian, Slovak, and Slovenian. Subject(s): Google ; Site Updates by Greg R. Archives October 2003 September 2003 August 2003 July 2003 June 2003 May 2003 April 2003 March 2003 February 2003 January 2003 December 2002 November 2002 October 2002 September 2002 August 2002 July 2002 June 2002 May 2002 April 2002 March 2002 February 2002 January 2002 December 2001 November 2001 October 2001 September 2001 August 2001 July 2001 June 2001 May 2001 April 2001 March 2001 February 2001 January 2001 December 2000 November 2000 October 2000 August 2000 July 2000 Older News: Jan-June 2000 Sept-Dec. 1999 Jan-Aug 1999 By Subject Alerts AlltheWeb AltaVista Ask Jeeves Excite FAST Gigablast Google HotBot Infoseek/Go Inktomi LookSmart Lycos MSN Search Meta Search Engines New Search Engines News Search Engines Openfind Opinion Searching Other News Overture Search Features Site Updates Teoma WiseNut Yahoo! Syndicate [XML] A Notess.com Web Site ©1999-2003 by Greg R. , all rights reserved Search Engine Showdown Greg's Writings Greg's Presentations   --> 
+
+Feature Chart
+SEs by Feature
+News Searches
+Multi-Search
+Directories
+Opinions/Usenet
+Phone Numbers
+Others 
+
+Size
+Freshness
+Inconsistencies
+And more 
+
+Google
+AlltheWeb
+AltaVista
+Gigablast 
+
+News Archive
+Email Lists
+Alerts 
+
+On the Net columns
+Search Strategies
+Books on Searching 
+
+---------------------------------------------------------------------
+
+Site Awards 
+
+About this Site 
+
+Google Field Search Problems
+
+July 10, 2003: 
+
+For more than a month now, the intitle: and inurl: field searches have been broken. I first heard of this on May 27, 2003. The advantage of intitle: and inurl: over the advanced search page Occurrences section or the allintitle: and allinurl: field searches was that they applied to only a single term and could be combined with other search terms that would look through the record. So now, searchers can not do a search that looks for one word in the title and another in the body. A search that tries like "market research" intitle:tourism retrieves many results that do not include 'tourism' in the title. 
+
+At first I thought this was a temporary glitch from the strange May update, but it has persisted through the June update and has continued for some time. Hopefully it will be correct sometime soon. I've updated the Google Inconsistencies page with this problem and several others long term problems.
+
+In addition, I updated several parts of the Google Review, including the addition of several language limits added in early 2002 that I had missed: Croatian, Indonesian, Serbian, Slovak, and Slovenian.
+
+Subject(s): Google ; Site Updates 
+
+by Greg R. Archives October 2003 September 2003 August 2003 July 2003 June 2003 May 2003 April 2003 March 2003 February 2003 January 2003 December 2002 November 2002 October 2002 September 2002 August 2002 July 2002 June 2002 May 2002 April 2002 March 2002 February 2002 January 2002 December 2001 November 2001 October 2001 September 2001 August 2001 July 2001 June 2001 May 2001 April 2001 March 2001 February 2001 January 2001 December 2000 November 2000 October 2000 August 2000 July 2000 Older News: Jan-June 2000 Sept-Dec. 1999 Jan-Aug 1999 
+
+By Subject Alerts
+ AlltheWeb
+ AltaVista
+ Ask Jeeves
+ Excite
+ FAST
+ Gigablast
+ Google
+ HotBot
+ Infoseek/Go
+ Inktomi
+ LookSmart
+ Lycos
+ MSN Search
+ Meta Search Engines
+ New Search Engines
+ News Search Engines
+ Openfind
+ Opinion Searching
+ Other News
+ Overture
+ Search Features
+ Site Updates
+ Teoma
+ WiseNut
+ Yahoo!
+ 
+
+Syndicate [XML] 	
+
+A Notess.com Web Site
+ ©1999-2003 by Greg R. rights reserved	 Search Engine Showdown
+ Greg's Writings
+ Greg's Presentations	 
+

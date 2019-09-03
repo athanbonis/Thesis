@@ -1,0 +1,120 @@
+Technology? You're here because you've probably heard of the word "Java" in some form and want to know more. Let's start with the big picture: The Java TM platform is based on the power of networks and the idea that the same software should run on many different kinds of computers, consumer gadgets, and other devices. Since its initial commercial release in 1995, Java technology has grown in popularity and usage because of its true portability. The Java platform allows you to run the same Java application on lots of different kinds of computers. Any Java application can easily be delivered over the Internet, or any network, without operating system or hardware platform compatibility issues. For example, you could run a Java technology based application on a PC, a Machintosh computer, a network computer, or even new technologies like Internet screen phones. Furthermore, the Java platform was designed to run programs securely on networks, which means that it integrates safely with the existing systems on your network. The idea is simple: Java technology-based software can work just about everywhere. Java technology components don't care what kind of computer, phone, TV, or operating system they run on. They just work, on any kind of compatible device that supports the Java platform. Java technology allows programmers and users to do new things with Web pages that were not possible before. With Java technology, the Internet and private networks become your computing environment. For example, users can securely access their personal information and applications when they're far away from the office by using any computer that's connected to the Internet; soon they'll be able to access tailored applications from a mobile phone based on the Java platform, or even use smart cards as a pass key to everything from the cash machine to ski lifts. Smart Card or Smart Java Card TM ? A smart card is a credit card-sized plastic card with an integrated circuit (IC) inside. The IC contains a microprocessor and memory, which gives smart cards the ability to process, as well as store, more information than was previously possible. In the case of the Java Card platform, applications in the form of byte-code are loaded into the memory zone of the smart card's microprocessor, where they are run by the Virtual Machine. The executable code is platform independent so that any card incorporating a Java Card technology-based interpreter can run the same application. Multiple Java Card technology-based applications can reside on a single card, each allocated to their own secure memory areas to ensure their integrity and eliminate program tampering, either by individuals or through program interference. Read the feature story Java Card Technology Turns Five The Java platform is being built into next-generation telephones, TV set-top boxes, smart cards that fit in your wallet, and many other consumer and business devices. Java technology-based software includes: programs written in the Java programming language can run directly on your computer (without requiring a browser), or on servers, on large mainframe computers, or other devices. For example, Java technology-based software running on servers in large companies monitors transactions and ties together data from existing computer systems. Other companies are using Java technology-based software on their internal Web sites to streamline communication and the flow of information between departments, suppliers and customers. Programs written in the Java programming language run on so many different kinds of systems thanks to a component of the platform called the Java virtual machine or "JVM TM "* -- a kind of translator that turns general Java platform instructions into tailored commands that make the devices do their work. Getting the Java Platform If you're reading this in a Web browser on a personal computer or workstation, you've probably already got the Java platform. It's incorporated into all major Web browsers. In the event that a JVM is not incorporated, Sun provides a fully supported, high-performance virtual machine as part of the Java 2 Runtime Environment, Standard Edition (JRE), available for download from the J2SE TM platform homepage (see below for more information). Ease of Use You don't need to be a mechanic to drive a car. Why should you have to be a "system administrator" to use a computer? With Java software, you don't have to be one. Java technology eliminates many of the problems associated with installing and running applications. That's because generally the Java user does not have to configure, load, or install anything. Instead, computing devices tap into the network and funnel its power to the user. Upgrades are automatic, making installation and configuration obsolete. Ease of Development: Two Real-Life Examples Developing on the Java platform means that projects are completed faster and with less debugging. These two real-life examples serve as testimonials to this claim. Life Time Fitness - Having completed sizable development projects over the last three years, using different technologies, Life Time Fitness has come to endorse only the Java 2 Platform, Enterprise Edition for enterprise Web application development. Read the full Feature Story "Leveraging the J2EE TM [platform's] suite of technologies enabled us to focus more of our technical resources on creating solutions to business problems, rather than laboring to maintain proprietary software from Microsoft or Allaire. In addition, Java technology's underlying object oriented architecture allowed us to design our systems for maximum code reuse," says Wesley Bertch, director of software systems, Life Time Fitness. "We have also taken advantage of Java technology's portability by running our production application on both Windows NT and Solaris TM 8.0 Operating Environment with no code changes." Friendly Giants and BLAM! - Mark Ripley and Jay Minn are two gaming industry seniors, now leaders of small, independent game-development companies, that have created hit titles on their own for over five years using Java technology. Read the full Feature Story "We realized that we could use Java technology to write games once and deploy them across many platforms. The whole idea was to get away from the established gaming community," said Ripley, chief executive of Friendly Giants. "We at BLAM! have always been true believers in Java technology as a viable gaming platform," said Jay Minn, president, BLAM! "By applying our years of development experience, we have been able to produce high quality and immediately accessible, fun games like BUMP! and Golf, based on Java technology, for our audiences." Friendly Giants and BLAM! have taken advantage of the Java platform's portability by leveraging the technology to rapidly construct and later tweak a game or engine environment. As a result, they have saved themselves months of development time, trimming budgets and easing timelines. The Platforms Recognizing that "one size doesn't fit all," Sun has grouped its innovative Java technologies into three editions: Java 2 Platform, Micro Edition (J2ME TM technology), Java 2 Platform, Standard Edition (J2SE TM technology), and the Java 2 Platform, Enterprise Edition (J2EE TM technology). Each edition is a developer treasure chest of tools and supplies that can be used with a particular product. --> Java 2 Platform, Standard Edition (J2SE) The J2SE platform is a fast and secure foundation for building and deploying client-side enterprise applications. In today's .com world of nanosecond response times and information gratification, J2SE technology provides the speedy performance and high functionality that is demanded by Web users. For end users, J2SE technology enables faster and easier use of functionally rich Web applications, such as corporate intranets and interactive shopping aids for eCommerce. For enterprise developers, the improved J2SE technology serves as the base tool for creating sophisticated, valuable applications that can be brought to market quickly. Java 2 Platform, Enterprise Edition (J2EE) J2EE technology simplifies enterprise applications by basing them on standardized, modular and re-usable components Enterprise JavaBeans TM (EJB TM ), providing a complete set of services to those components, and handling many details of application behavior automatically. By automating many of the time-consuming and difficult tasks of application development, J2EE technology allows enterprise developers to focus on adding value, that is, enhancing business logic, rather than building infrastructure. Java 2 Platform, Micro Edition (J2ME) J2ME technology specifically addresses the vast consumer space, which covers the range of extremely tiny commodities such as smart cards or a pager all the way up to the set-top box, an appliance almost as powerful as a computer. J2ME technology enables device manufacturers, service providers, and content creators to gain a competitive advantage and capitalize on new revenue streams by rapidly and cost-effectively developing and deploying compelling new applications and services to their customers worldwide. Interested in learning more about Java technology? Read on! Feature stories about Java technology http://java.sun.com/features/ New to Java Programming Center http://developer.java.sun.com/developer/onlineTraining/new2java The Java Tutorial http://java.sun.com/docs/books/tutorial/ Java technology history What is Java technology - 1996 http://java.sun.com/java2/whatis/1996/ Java technology: An Early History - 1998 http://java.sun.com/features/1998/05/birthday.html Java technology timeline - 2000 http://java.sun.com/features/2000/06/time-line.html Credits: This document was written with contributions from Martin Hardee, Mary Smaragdis, Frank Rimalovski, Casey Cameron, Dave Macias, Bruce Goldberg, Tim Beyers, John Byous, Jennifer Umstattd, Liz Doughty, Tony Welch, Heidi Dailey, Kammie Kayl, Dana Nourie, Adam Wisnewski and Gladina Guinto . *As used on this web site, the terms "Java virtual machine" or "JVM" mean a virtual machine for the Java platform. Company Info | About SDN | Press | Contact Us | Employment How to Buy | Licensing | Terms of Use | Privacy | Trademarks Copyright 1994-2004 Sun Microsystems, Inc. A Sun Developer Network Site Unless otherwise licensed, code in all technical manuals herein (including articles, FAQs, samples) is provided under this License . Content Feeds   --> 
+
+developers.sun.com	  	 » search tips  |  Search: 	 	 	 
+in Developers' Site
+ 
+in Sun.com
+ 
+
+ 	 		
+
+  
+Developers Home > Products & Technologies > Java Technology > Reference > Documentation > 	Profile and Registration | Why Register? 	
+
+  Article Java[tm] 2 Platform 
+
+ 	 
+
+Printable Page	 
+
+Technology? 
+
+You're here because you've probably heard of the word "Java" in some form and want to know more. 
+
+Let's start with the big picture:
+
+The JavaTM platform is based on the power of networks and the idea that the same software should run on many different kinds of computers, consumer gadgets, and other devices. Since its initial commercial release in 1995, Java technology has grown in popularity and usage because of its true portability. The Java platform allows you to run the same Java application on lots of different kinds of computers. 
+
+Any Java application can easily be delivered over the Internet, or any network, without operating system or hardware platform compatibility issues. For example, you could run a Java technology based application on a PC, a Machintosh computer, a network computer, or even new technologies like Internet screen phones. Furthermore, the Java platform was designed to run programs securely on networks, which means that it integrates safely with the existing systems on your network. 
+
+The idea is simple: Java technology-based software can work just about everywhere. Java technology components don't care what kind of computer, phone, TV, or operating system they run on. They just work, on any kind of compatible device that supports the Java platform. 
+
+Java technology allows programmers and users to do new things with Web pages that were not possible before. With Java technology, the Internet and private networks become your computing environment. For example, users can securely access their personal information and applications when they're far away from the office by using any computer that's connected to the Internet; soon they'll be able to access tailored applications from a mobile phone based on the Java platform, or even use smart cards as a pass key to everything from the cash machine to ski lifts. 
+
+Smart Card or
+Smart Java CardTM? 
+
+A smart card is a credit card-sized plastic card with an integrated circuit (IC) inside. The IC contains a microprocessor and memory, which gives smart cards the ability to process, as well as store, more information than was previously possible.
+
+In the case of the Java Card platform, applications in the form of byte-code are loaded into the memory zone of the smart card's microprocessor, where they are run by the Virtual Machine. The executable code is platform independent so that any card incorporating a Java Card technology-based interpreter can run the same application.
+
+Multiple Java Card technology-based applications can reside on a single card, each allocated to their own secure memory areas to ensure their integrity and eliminate program tampering, either by individuals or through program interference.
+
+Read the feature story Java Card Technology Turns Five 
+
+The Java platform is being built into next-generation telephones, TV set-top boxes, smart cards that fit in your wallet, and many other consumer and business devices. Java technology-based software includes: programs written in the Java programming language can run directly on your computer (without requiring a browser), or on servers, on large mainframe computers, or other devices. 
+
+For example, Java technology-based software running on servers in large companies monitors transactions and ties together data from existing computer systems. Other companies are using Java technology-based software on their internal Web sites to streamline communication and the flow of information between departments, suppliers and customers. 
+
+Programs written in the Java programming language run on so many different kinds of systems thanks to a component of the platform called the Java virtual machine or "JVMTM"* -- a kind of translator that turns general Java platform instructions into tailored commands that make the devices do their work. 
+
+Getting the Java Platform
+
+If you're reading this in a Web browser on a personal computer or workstation, you've probably already got the Java platform. It's incorporated into all major Web browsers. In the event that a JVM is not incorporated, Sun provides a fully supported, high-performance virtual machine as part of the Java 2 Runtime Environment, Standard Edition (JRE), available for download from the J2SETM platform homepage (see below for more information). 
+
+Ease of Use
+
+You don't need to be a mechanic to drive a car. Why should you have to be a "system administrator" to use a computer? With Java software, you don't have to be one. Java technology eliminates many of the problems associated with installing and running applications. That's because generally the Java user does not have to configure, load, or install anything. Instead, computing devices tap into the network and funnel its power to the user. Upgrades are automatic, making installation and configuration obsolete. 
+
+Ease of Development: Two Real-Life Examples
+
+Developing on the Java platform means that projects are completed faster and with less debugging. These two real-life examples serve as testimonials to this claim. 
+
+Life Time Fitness - 
+Having completed sizable development projects over the last three years, using different technologies, Life Time Fitness has come to endorse only the Java 2 Platform, Enterprise Edition for enterprise Web application development. 
+
+Read the full Feature Story 	
+
+"Leveraging the J2EETM [platform's] suite of technologies enabled us to focus more of our technical resources on creating solutions to business problems, rather than laboring to maintain proprietary software from Microsoft or Allaire. In addition, Java technology's underlying object oriented architecture allowed us to design our systems for maximum code reuse," says Wesley Bertch, director of software systems, Life Time Fitness. "We have also taken advantage of Java technology's portability by running our production application on both Windows NT and SolarisTM 8.0 Operating Environment with no code changes." 
+
+Friendly Giants and BLAM! - 
+Mark Ripley and Jay Minn are two gaming industry seniors, now leaders of small, independent game-development companies, that have created hit titles on their own for over five years using Java technology. 
+
+Read the full Feature Story 	
+
+"We realized that we could use Java technology to write games once and deploy them across many platforms. The whole idea was to get away from the established gaming community," said Ripley, chief executive of Friendly Giants. "We at BLAM! have always been true believers in Java technology as a viable gaming platform," said Jay Minn, president, BLAM! "By applying our years of development experience, we have been able to produce high quality and immediately accessible, fun games like BUMP! and Golf, based on Java technology, for our audiences." Friendly Giants and BLAM! have taken advantage of the Java platform's portability by leveraging the technology to rapidly construct and later tweak a game or engine environment. As a result, they have saved themselves months of development time, trimming budgets and easing timelines. 
+
+The Platforms
+
+Recognizing that "one size doesn't fit all," Sun has grouped its innovative Java technologies into three editions: Java 2 Platform, Micro Edition (J2METM technology), Java 2 Platform, Standard Edition (J2SETM technology), and the Java 2 Platform, Enterprise Edition (J2EETM technology). Each edition is a developer treasure chest of tools and supplies that can be used with a particular product. 
+
+Java 2 Platform, Standard Edition (J2SE)
+The J2SE platform is a fast and secure foundation for building and deploying client-side enterprise applications. In today's .com world of nanosecond response times and information gratification, J2SE technology provides the speedy performance and high functionality that is demanded by Web users. 
+
+For end users, J2SE technology enables faster and easier use of functionally rich Web applications, such as corporate intranets and interactive shopping aids for eCommerce. For enterprise developers, the improved J2SE technology serves as the base tool for creating sophisticated, valuable applications that can be brought to market quickly. 
+
+Java 2 Platform, Enterprise Edition (J2EE)
+J2EE technology simplifies enterprise applications by basing them on standardized, modular and re-usable components Enterprise JavaBeansTM (EJBTM), providing a complete set of services to those components, and handling many details of application behavior automatically. By automating many of the time-consuming and difficult tasks of application development, J2EE technology allows enterprise developers to focus on adding value, that is, enhancing business logic, rather than building infrastructure. 
+
+Java 2 Platform, Micro Edition (J2ME)
+J2ME technology specifically addresses the vast consumer space, which covers the range of extremely tiny commodities such as smart cards or a pager all the way up to the set-top box, an appliance almost as powerful as a computer. J2ME technology enables device manufacturers, service providers, and content creators to gain a competitive advantage and capitalize on new revenue streams by rapidly and cost-effectively developing and deploying compelling new applications and services to their customers worldwide. 
+
+Interested in learning more about Java technology? Read on!
+
+Feature stories about Java technology
+http://java.sun.com/features/ 
+
+New to Java Programming Center
+http://developer.java.sun.com/developer/onlineTraining/new2java 
+
+The Java Tutorial
+http://java.sun.com/docs/books/tutorial/ 
+
+Java technology history
+
+What is Java technology - 1996
+http://java.sun.com/java2/whatis/1996/ 
+
+Java technology: An Early History - 1998
+http://java.sun.com/features/1998/05/birthday.html 
+
+Java technology timeline - 2000
+http://java.sun.com/features/2000/06/time-line.html 
+
+Credits: This document was written with contributions from Martin Hardee, Mary Smaragdis, Frank Rimalovski, Casey Cameron, Dave Macias, Bruce Goldberg, Tim Beyers, John Byous, Jennifer Umstattd, Liz Doughty, Tony Welch, Heidi Dailey, Kammie Kayl, Dana Nourie, Adam Wisnewski and Gladina Guinto . 
+
+*As used on this web site, the terms "Java virtual machine" or "JVM" mean a virtual machine for the Java platform. 
+
+Company Info  |  About SDN  |  Press  |  Contact Us  |  Employment How to Buy  |  Licensing  |  Terms of Use  |  Privacy  |  Trademarks     Copyright 1994-2004 Sun Microsystems, Inc. 		A Sun Developer Network Site Unless otherwise licensed, code in all technical manuals herein (including articles, FAQs, samples) is provided under this License.    Content Feeds 	
+
+

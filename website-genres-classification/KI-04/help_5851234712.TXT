@@ -1,0 +1,157 @@
+
+Next: 7. The French Revolutionary Up: Frequently Asked Questions about Previous: 5. The Persian Calendar 
+
+Subsections 
+
+* 6.1 What is the origin of the 7-day week? 
+* 6.2 What do the names of the days of the week mean? 
+* 6.3 What is the system behind the planetary day names? 
+* 6.4 Has the 7-day week cycle ever been interrupted? 
+* 6.5 Which day is the day of rest? 
+* 6.6 What is the first day of the week? 
+* 6.7 What is the week number? 
+* 6.8 How can I calculate the week number? 
+* 6.9 Do weeks of different lengths exist? 
+
+---------------------------------------------------------------------
+
+6. The Week 
+
+The Christian, the Hebrew, the Islamic, and the Persian calendars all have a 7-day week. 
+
+6.1 What is the origin of the 7-day week? 
+
+Digging into the history of the 7-day week is a very complicated matter. Authorities have very different opinions about the history of the week, and they frequently present their speculations as if they were indisputable facts. The only thing we seem to know for certain about the origin of the 7-day week is that we know nothing for certain. 
+
+The first pages of the Bible explain how God created the world in six days and rested on the seventh. This seventh day became the Jewish day of rest, the Sabbath, Saturday. 
+
+Extra-biblical locations sometimes mentioned as the birthplace of the 7-day week include: Babylon, Persia, and several others. The week was known in Rome before the advent of Christianity. 
+
+    
+6.2 What do the names of the days of the week mean? 
+
+An answer to this question is necessarily closely linked to the language in question. Whereas most languages use the same names for the months (with a few Slavonic languages as notable exceptions), there is great variety in names that various languages use for the days of the week. A few examples will be given here. 
+
+Except for the Sabbath, Jews simply number their week days. 
+
+A related method is partially used in Portuguese and Russian: 
+
+English	 Portuguese	 Russian	 Meaning of Russian name	 
+Monday	 segunda-feira	 ponedelnik	 After ``do-nothing''	 
+Tuesday	 terça-feira	 vtornik	 Second	 
+Wednesday	 quarta-feira	 sreda	 Middle	 
+Thursday	 quinta-feira	 chetverg	 Fourth	 
+Friday	 sexta-feira	 pyatnitsa	 Fifth	 
+Saturday	 sabado	 subbota	 Sabbath	 
+Sunday	 domingo	 voskresenye	 Resurrection	 
+
+Most Latin-based languages connect each day of the week with one of the seven ``planets'' of the ancient times: Sun, Moon, Mercury, Venus, Mars, Jupiter, and Saturn. French, for example, uses: 
+
+English	 French	 ``Planet''	 
+Monday	 lundi	 Moon	 
+Tuesday	 mardi	 Mars	 
+Wednesday	 mercredi	 Mercury	 
+Thursday	 jeudi	 Jupiter	 
+Friday	 vendredi	 Venus	 
+Saturday	 samedi	 Saturn	 
+Sunday	 dimanche	 (Sun)	 
+
+The link with the sun has been broken in French, but Sunday was called dies solis (day of the sun) in Latin. 
+
+It is interesting to note that also some Asiatic languages (for example, Hindi, Japanese, and Korean) have a similar relationship between the week days and the planets. 
+
+English has retained the original planets in the names for Saturday, Sunday, and Monday. For the four other days, however, the names of Anglo-Saxon or Nordic gods have replaced the Roman gods that gave name to the planets. Thus, Tuesday is named after Tiw, Wednesday is named after Woden, Thursday is named after Thor, and Friday is named after Freya. 
+
+6.3 What is the system behind the planetary day names? 
+
+As we saw in the previous section, the planets have given the week days their names following this order: 
+
+Moon, Mars, Mercury, Jupiter, Venus, Saturn, Sun 
+
+Why this particular order? 
+
+One theory goes as follows: If you order the ``planets'' according to either their presumed distance from Earth (assuming the Earth to be the centre of the universe) or their period of revolution around the Earth, you arrive at this order: 
+
+Moon, Mercury, Venus, Sun, Mars, Jupiter, Saturn 
+
+Now, assign (in reverse order) these planets to the hours of the day: 
+
+1=Saturn, 2=Jupiter, 3=Mars, 4=Sun, 5=Venus, 6=Mercury, 7=Moon, 8=Saturn, 9=Jupiter, etc., 23=Jupiter, 24=Mars 
+
+The next day will then continue where the old day left off: 
+
+1=Sun, 2=Venus, etc., 23=Venus, 24=Mercury 
+
+And the next day will go 
+
+1=Moon, 2=Saturn, etc. 
+
+If you look at the planet assigned to the first hour of each day, you will note that the planets come in this order: 
+
+Saturn, Sun, Moon, Mars, Mercury, Jupiter, Venus 
+
+This is exactly the order of the associated week days. 
+
+Coincidence? Maybe. 
+
+6.4 Has the 7-day week cycle ever been interrupted? 
+
+There is no record of the 7-day week cycle ever having been broken. Calendar changes and reform have never interrupted the 7-day cycles. It very likely that the week cycles have run uninterrupted at least since the days of Moses (c. 1400 BC), possibly even longer. 
+
+Some sources claim that the ancient Jews used a calendar in which an extra Sabbath was occasionally introduced. But this is probably not true. 
+
+6.5 Which day is the day of rest? 
+
+For the Jews, the Sabbath (Saturday) is the day of rest and worship. On this day God rested after creating the world. 
+
+Most Christians have made Sunday their day of rest and worship, because Jesus rose from the dead on a Sunday. 
+
+Muslims use Friday as their day of rest and worship. The Qur'an calls Friday a holy day, the ``king of days''. 
+
+    
+6.6 What is the first day of the week? 
+
+The Bible clearly makes Saturday (the Sabbath) the last day of the week. Therefore it is common Jewish and Christian practice to regard Sunday as the first day of the week (as is also evident from the Portuguese names for the week days mentioned in section 6.2). However, the fact that, for example, Russian uses the name ``second'' for Tuesday, indicates that some nations regard Monday as the first day. 
+
+In international standard ISO-8601 the International Organization for Standardization has decreed that Monday shall be the first day of the week. 
+
+6.7 What is the week number? 
+
+International standard ISO-8601 (mentioned in section 6.6) assigns a number to each week of the year. A week that lies partly in one year and partly in another is assigned a number in the year in which most of its days lie. This means that 
+Week 1 of any year is the week that contains 4 January, 
+
+or equivalently 
+
+Week 1 of any year is the week that contains the first Thursday in January. 
+
+Most years have 52 weeks, but years that start on a Thursday and leap years that start on a Wednesday have 53 weeks. 
+
+Note: This week numbering system is not commonly used in the United States. 
+
+6.8 How can I calculate the week number? 
+
+If you know the date, how do you calculate the corresponding week number (as defined in ISO-8601)? 
+
+1. 
+Using the formulas in section 2.15.1, calculate the Julian Day Number, J. 
+
+2. 
+Perform the following calculations (in which the divisions are integer divisions in which the remainder is discarded): 
+
+(I am very grateful to Stefan Potthast for this algorithm.) 
+
+Note that if the week number is 1, 52, or 53, the week may lie in two different calendar years. However, the week is always considered to lie in the year in which it is counted. Thus, 31 December of year X, may belong to week 1 of year X+1; similarly 1 January of year X may belong to week 52 or 53 or year X-1. 
+
+6.9 Do weeks of different lengths exist? 
+
+If you define a ``week'' as a 7-day period, obviously the answer is no. But if you define a ``week'' as a named interval that is greater than a day and smaller than a month, the answer is yes. 
+
+The ancient Egyptians used a 10-day ``week'', as did the French Revolutionary calendar (see section 7.1). 
+
+The Maya calendar uses a 13 and a 20-day ``week'' (see section 8.2). 
+
+The Soviet Union has used both a 5-day and a 6-day week. In 1929-30 the USSR gradually introduced a 5-day week. Every worker had one day off every week, but there was no fixed day of rest. On 1 September 1931 this was replaced by a 6-day week with a fixed day of rest, falling on the 6th, 12th, 18th, 24th, and 30th day of each month (1 March was used instead of the 30th day of February, and the last day of months with 31 days was considered an extra working day outside the normal 6-day week cycle). A return to the normal 7-day week was decreed on 26 June 1940. 
+
+---------------------------------------------------------------------
+
+Next: 7. The French Revolutionary Up: Frequently Asked Questions about Previous: 5. The Persian Calendar Claus Tøndering - claus@tondering.dk 

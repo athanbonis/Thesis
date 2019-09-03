@@ -1,0 +1,53 @@
+
+
+---------------------------------------------------------------------
+
+Next: 5.2.1 Solution Representation Up: 5 Methods of Last Previous: 5.1.5 SA Algorithm Performance 
+
+---------------------------------------------------------------------
+
+5.2 Genetic Algorithms
+
+  
+
+Kirkpatrick [40] has described SA as ``an example of an evolutionary process modeled accurately by purely stochastic means,'' but this is more literally true of another class of new optimization routines known collectively as Genetic Algorithms (GAs). These attempt to simulate the phenomenon of natural evolution first observed by Darwin [12] and recently elaborated by Dawkins [14]. 
+
+In natural evolution each species searches for beneficial adaptations in an ever-changing environment. As species evolve these new attributes are encoded in the chromosomes of individual members. This information does change by random mutation, but the real driving force behind evolutionary development is the combination and exchange of chromosomal material during breeding. 
+
+Although sporadic attempts to incorporate these principles in optimization routines have been made since the early 1960s (see a review in Chapter 4 of Goldberg [31]), GAs were first established on a sound theoretical basis by Holland [37]. The two key axioms underlying this innovative work were that complicated nonbiological structures could be described by simple bit strings and that these structures could be improved by the application of simple transformations to these strings. 
+
+GAs differ from traditional optimization algorithms in four important respects: 
+
+* They work using an encoding of the control variables, rather than the variables themselves. 
+* They search from one population of solutions to another, rather than from individual to individual. 
+* They use only objective function information, not derivatives. 
+* They use probabilistic, not deterministic, transition rules. 
+Of course, GAs share the last two attributes with SA and, not surprisingly, have found applications in many of the same areas. 
+
+The basic structure of a GA is shown in Figure 20. One minor change from the standard optimization routine flow diagram is the use of the word `population' rather than `solution.' A more major difference is that the usual operation of generating a new solution has been replaced by three separate activities - population selection, recombination and mutation. 
+
+---------------------------------------------------------------------
+Figure 20 The Basic Structure of a Genetic Algorithm. View Figure 
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+* 5.2.1 Solution Representation 
+* 5.2.2 Population Selection 
+* 5.2.3 Population Recombination 
+* 5.2.4 Population Mutation 
+* 5.2.5 Advanced Operators 
+* 5.2.6 Population Assessment 
+* 5.2.7 Control Parameters 
+* 5.2.8 GA Computational Considerations 
+* 5.2.9 GA Algorithm Performance 
+
+---------------------------------------------------------------------
+
+Next: 5.2.1 Solution Representation Up: 5 Methods of Last Previous: 5.1.5 SA Algorithm Performance 
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+verena@csep1.phy.ornl.gov 

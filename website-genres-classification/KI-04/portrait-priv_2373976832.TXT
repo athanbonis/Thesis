@@ -1,0 +1,134 @@
+
+---------------------------------------------------------------------
+
+Lenhart K. Schubert
+
+Professor 
+Computer Science Department 
+Rochester, NY 14627-0226
+ 
+
+Email: schubert@cs.rochester.edu 
+Fax: (585) 273-4556 
+http://www.cs.rochester.edu/u/schubert/ 
+
+Ph.D. (1970) University of Toronto. Assistant Professor (73-77), Associate Professor (77-84), Professor (84-88); University of Alberta. Professor (88-present), University of Rochester. 
+
+My research interests center around language, knowledge representation, inference and planning. These interests are tied together by the general goal of developing agents with common sense and the ability to converse and acquire knowledge through language. Some specific topics my students and I have worked on include 
+
+* very expressive, language-like logics to capture the content of ordinary language and commonsense reasoning as directly as possible; the most recent is called Episodic Logic; 
+* semantics of events/situations, tense/aspect, reference, affixes, mass terms, generic sentences, belief, questions, vagueness; 
+* efficient, specialized inference techniques for taxonomies, part-structure, temporal relations, and other classes of relations that pervade commonsense knowledge and are handled effortlessly by people; 
+* methods of organizing knowledge and inference so that a general-purpose reasoner will easily locate knowledge relevant to a particular task (even for a very large knowledge base), and will smoothly integrate general and specialized inference techniques; 
+* strategies for human-like, error-tolerant natural language parsing and disambiguation, and for mapping syntactic structure to a representation of the underlying meaning (allowing for context); 
+* development of implementations of the above knowledge representations and inference techniques; the latest is called EPILOG, and supports the Episodic Logic knowledge representation and integrates general and specialized inference mechanisms; 
+* Deriving general world knowledge from texts and taxonomies, as an attack on the "knowledge acquisition bottleneck" in AI; 
+* reasoning about plans and actions, in support of both language understanding (e.g., conversation planning and inferring the goals and plans of story characters) and domain reasoning (e.g., formulating plans of action in a transportation domain); automatically discovering invariants in planning domains -- see the DISCOPLAN system; solving the Frame Problem using "explanation closure". 
+
+Office hours, Spring 2004:
+
+Tuesday and Thursday, 1:00-2:00 
+
+Current and recent courses:
+
+CSC 290W (Topics in Computer Science): The Prospect of Artificial Intelligence
+ CSC 244/444: Logical Foundations of Artificial Intelligence
+ CSC 247/447: Natural Language Processing
+ CSC 280: Computer Models and Limitations
+ CSC 242: Artificial Intelligence
+ 
+
+Present research collaborators:
+
+David Ahn: Semantics/pragmatics of adverbially quantified sentences
+ James Allen: Dialogue processing, agents
+ Greg Carlson: (Linguistics) Mining general world knowledge from texts
+ Henry Kyburg: Mining general world knowledge from texts
+ Alfonso Gerevini (U. Brescia): Scalable temporal reasoning, efficient planning, inferring state invariants in planning
+ Proshanto Mukherji: Discovery of state invariants in planning domains by exploration
+ Matthew Tong: Mining general world knowledge from texts
+ Teresa Zollo: Recovery from speech recognition errors
+ 
+
+Some past research collaborators:
+
+Amon Seagull (Ph.D. 2000, now at Wooster College, Ohio):
+ Well-foundedness and reliability in natural language parsing 
+
+Aaron Kaplan:, (Ph.D. 2000, now at XRCE, Grenoble):
+ A computational model of belief 
+
+Mark Core (Ph.D. 2000, now at U. Edinburgh):
+ Dialog parsing: From speech repairs to speech acts 
+
+Marc Light (Ph.D. 1995, now at Mitre):
+ Morphological cues for lexical semantics 
+
+Massimo Poesio (Ph.D. 1994, now at U. of Essex, U.K.):
+ Assigning semantic scope to operators in dialogues 
+
+Chung Hee Hwang (Ph.D. 1992, now at Motorola's Intelligent Systems Lab in Phoenix, AZ):
+ A logical approach to narrative understanding, Episodic Logic 
+
+Alice Kyburg (Ph.D. 1994, now at U. Wisconsin at Oshkosh):
+ Pragmatic and semantic accounts of vagueness 
+
+Stephanie Schaeffer (M.S. 1988, systems prog., 1988-92, U. Alberta): Temporal reasoning, hybrid reasoning, EPILOG development 
+
+Jeffry Pelletier (U. Alberta): Semantic interpretation, semantics of mass terms and generics 
+
+Fahiem Bacchus (Ph.D. 1988, now at U. Toronto):
+ Representing and reasoning about probabilistic knowledge 
+
+Caoan Wang (Ph.D. 1988, now at Memorial U. of Newfoundland):
+ Computational geometry 
+
+Professional activities and awards
+
+KR'98 program co-chair
+ ACL'93 program chair
+ CSCSI'80 program chair
+ JAIR editorial board (1996-pres)
+ Computational Intelligence editorial board (1985-pres)
+ Computational Linguistics editorial board (1983-5) 
+
+Fellow of the AAAI (elected in 1993 for "fundamental contributions in NLP, esp. in the formalization, representation, and practical implementation of non-first order concepts") 
+
+Alexander von Humboldt Fellow (1978-9) 
+
+Associate of the Canadian Institute for Advanced Research (1985-88) 
+
+Outstanding Contribution award for the KR'89 paper (with C.H. Hwang), "An episodic knowledge representation for narrative texts" 
+
+Selected Publications
+
+* L.K. Schubert and M.H. Tong, ``Extracting and evaluating general world knowledge from the Brown corpus", {\it Proc. of the HLT/NAACL 2003 Workshop on Text Meaning}, May 31, Edmonton, Alberta, Canada, (postscript) (pdf). 
+* L.K. Schubert, ``Can we derive general world knowledge from texts?", M. Marcus (ed.), Proc. of the 2nd Int. Conf. on Human Language Technology Research (HLT 2002), March 24-27, San Diego, CA, pp. 94-97, (postscript) (pdf). 
+* L.K. Schubert, "The situations we talk about", in J. Minker (ed.), Logic-Based Artificial Intelligence, Kluwer, Dortrecht, 2000, 407-439 (postscript) (pdf). 
+* A.N. Kaplan and L.K. Schubert, "A computational model of belief", Artificial Intelligence 120(1), June 2000, 119-160. 
+* A. Gerevini and L.K. Schubert, "Discovering state constraints in DISCOPLAN: Some new results", Proc. of the 17th Nat. Conf. on Artificial Intelligence (AAAI'2000), July 30-August 3, 2000, Austin, Texas. 
+* L.K. Schubert and C.H. Hwang, "Episodic Logic meets Little Red Riding Hood: A comprehensive, natural representation for language understanding", in L. Iwanska and S.C. Shapiro (eds.), Natural Language Processing and Knowledge Representation: Language for Knowledge and Knowledge for Language, MIT/AAAI Press, Menlo Park, CA, and Cambridge, MA, 2000, 111-174. See MIT Press website for the book. 
+* L.K. Schubert, "Dynamic Skolemization", in H. Bunt and R. Muskens (eds.), Computing Meaning, vol. 1, Studies in Linguistics & Philosophy Series, Kluwer Academic Press, Dortrecht (also Boston, London), 1999, 219-253. 
+* A. Gerevini and L.K. Schubert, "Inferring state constraints for domain-independent planning", Proc. of the 15th Nat. Conf. on Artificial Intelligence (AAAI-98), July 26-30, Madison, WI, 1998. 
+* M.G. Core and L.K. Schubert, "Implementing parser metarules that handle speech repairs and other disruptions", 11th Int. FLAIRS Conference, Special Track on Natural Language Processing and Human-Computer Interaction, Sundial Beach, Florida, May 17-20, 1998. 
+* M.G. Core and L.K. Schubert, "Handling speech repairs and other disruptions through parser metarules", AAAI Spring Symposium on Computational Models for Mixed Initiative Interaction, Mar. 24-16, Stanford U., 1997. 
+* M. Light and L.K. Schubert, "Knowledge representation for lexical semantics: Is standard first-order logic enough?", in H. Bunt, L. Kievit, R. Muskens, and M. Verlinden (eds.), IWCS II: 2nd Int. Workshop on Computational Semantics, Tilburg University, Netherlands, Jan. 8-10, 1997. 
+* A. N. Kaplan and L.K. Schubert, "Simulative inference in a computational model of belief", in H. Bunt and R. Muskens (eds.), Computational Semantics, Studies in Linguistics & Philosophy Series, to appear. Preliminary version in H. Bunt, L. Kievit, R. Muskens, and M. Verlinden (eds.), IWCS II: Second International Workshop on Computational Semantics, Tilburg University, Netherlands, Jan. 8-10, 1997. Expanded version in Tech. Rep. 636, Dept. of Computer Science, U. Rochester, Rochester, NY 14627-0226, October 1997. 
+* L.K. Schubert, "Framing the donkey: Towards a unification of semantic representations with knowledge representations", AAAI Fall Symp. on Knowledge Representation Systems based on Natural Language, Nov. 9-11, Cambridge, MA, 1996. 
+* A. Gerevini and L.K. Schubert, "Accelerating partial-order planners: Some techniques for effective search control and pruning", J. of Artificial Intelligence Research 5, pp. 95-137, Sept. 1996. 
+* D. Traum, L.K. Schubert, M. Poesio, N. Martin, M. Light, C.H. Hwang, P. Heeman, G. Ferguson, J.F. Allen, "Knowledge representation in the TRAINS-93 conversation system", Int. J. of Expert Systems 9(1), special issue on Knowledge Representation and Inference for Natural Language Processing, pp. 173-223, 1996. 
+* A. Gerevini and L.K. Schubert, "Computing parameter domains as an aid to planning", Proc. of the 3rd Int. Conf. on Artif. Intell. Planning Systems (AIPS-96) (B. Drabble, ed.), May 29-31, Edinburgh, The AAAI Press, Menlo Park, CA, pp. 94-101., 1996. 
+* L.K. Schubert and A. Gerevini, "Accelerating partial order planners by improving plan and goal choices", Proc. of the 7th Int. Conf. on Tools with AI (ICTAI'95), Nov. 5-8, Herndon, VA, 1995, pp. 442-450. 
+* Gerevini, A. and L. K. Schubert. ``Efficient algorithms for qualitative reasoning about time", Artificial Intelligence 74(2), pp. 207-248, 1995. 
+* J.F. Allen, L. K. Schubert, G. M. Ferguson, P. A. Heeman, C. H. Hwang, T. Kato, M. Light, N. G. Martin, B. W. Miller, M. Poesio, and D.R. Traum. "The TRAINS project: A case study in building a conversational planning agent," J. Experimental and Theoretical Artificial Intelligence 7, 7-48, 1995. 
+* C.H. Hwang and L. K. Schubert. "Interpreting tense, aspect, and time adverbials: a compositional, unified approach'', in D.M. Gabbay and H.J. Ohlbach (eds.), Proc. of the 1st Int. Conf. on Temporal Logic, July 11-14, Bonn, Germany, Springer-Verlag, pp. 238-264, 1994. 
+* L.K. Schubert, "Explanation closure, action closure, and the Sandewall test suite for reasoning about change", J. of Logic and Computation 4(5), Special Issue on Actions and Processes, pp. 679-799, 1994. Reprinted with minor changes in H.J. Levesque and F. Pirri (eds.), Logical Foundations for Cognitive Agents: Contributions in Honor of Ray Reiter, Springer, Berlin, 1999, pp. 325-351. 
+* A. Gerevini, L.K. Schubert, and S. Schaeffer. "The temporal reasoning tools TimeGraph-I-II.'' Proc. of the 6th IEEE Int. Conf. on Tools with Artificial Intelligence, Nov. 6-9, New Orleans, Louisiana, 1994. 
+* C.H. Hwang and L.K. Schubert, "Meeting the interlocking needs of LF-computation, deindexing, and inference: An organic approach to general NLU.'' In Proc. 13th Int. Joint Conf. on Artificial Intelligence, August, 1993. 
+* C.H. Hwang and L.K. Schubert, "Episodic Logic: A situational logic for natural language processing," In P. Aczel, D. Israel, Y. Katagiri, and S. Peters (eds.), Situation Theory and its Applications 3 (STA-3), CSLI, 307-452, 1993. 
+* L.K. Schubert, "Monotonic solution of the frame problem in the situation calculus: An efficient method for worlds with fully specified actions," in H. Kyburg, R. Loui and G. Carlson (eds.), Knowledge Representation and Defeasible Reasoning, Kluwer, Dortrecht, pp. 23-67, 1990. (A pdf version is also available.) 
+Back to URCS Faculty directory
+
+Back to URCS Home Page
+
+

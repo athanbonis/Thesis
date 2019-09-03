@@ -1,0 +1,132 @@
+SURPRISE 96
+
+FUZZY LOGIC and ITS USES 
+
+ARTICLE 2 
+
+Fuzzy Logic Introduction
+
+Fuzzy logic starts with and builds on a set of user-supplied human language rules. The fuzzy systems  convert these rules to their mathematical equivalents. This simplifies the job of the system designer and the computer, and results in much more accurate representations of the way systems behave in the real world.
+
+Additional benefits of fuzzy logic include its simplicity and its flexibility. Fuzzy logic can handle problems with imprecise and incomplete data, and it can model nonlinear functions of arbitrary complexity. "If you don't have a good plant model, or if the system is changing, then fuzzy will produce a better solution than conventional control techniques," says Bob Varley, a Senior Systems Engineer at Harris Corp., an aerospace company in Palm Bay, Florida.
+
+You can create a fuzzy system to match any set of input-output data. The Fuzzy Logic Toolbox makes this particularly easy by supplying adaptive techniques such as adaptive neuro-fuzzy inference systems (ANFIS) and fuzzy subtractive clustering. 
+
+Fuzzy logic models, called fuzzy inference systems, consist of a number of conditional "if-then" rules. For the designer who understands the system, these rules are easy to write, and as many rules as necessary can be supplied to describe the system adequately (although typically only a moderate number of rules are needed). 
+
+In fuzzy logic, unlike standard conditional logic, the truth of any statement is a matter of degree. (How cold is it? How high should we set the heat?) We are familiar with inference rules of the form p -> q (p implies q). With fuzzy logic, it's possible to say (.5* p ) -> (.5 * q). For example, for the rule if (weather is cold) then (heat is on), both variables, cold and on, map to ranges of values. Fuzzy inference systems rely on membership functions to explain to the computer how to calculate the correct value between 0 and 1. The degree to which any fuzzy statement is true is denoted by a value between 0 and 1.
+
+Not only do the rule-based approach and flexible membership function scheme make fuzzy systems straightforward to create, but they also simplify the design of systems and ensure that you can easily update and maintain the system over time. 
+
+Fuzzy Sets
+
+Fuzzy Set Theory was formalised by Professor Lofti Zadeh at the University of California in 1965. What Zadeh proposed is very much a paradigm shift that first gained acceptance in the Far East and its successful application has ensured its adoption around the world. 
+
+A paradigm is a set of rules and regulations which defines boundaries and tells us what to do to be successful in solving problems within these boundaries. For example the use of transistors instead of vacuum tubes is a paradigm shift - likewise the development of Fuzzy Set Theory from conventional bivalent set theory is a paradigm shift. 
+
+Bivalent Set Theory can be somewhat limiting if we wish to describe a 'humanistic' problem mathematically. For example, Fig 1 below illustrates bivalent sets to characterise the temperature of a room. 
+
+The most obvious limiting feature of bivalent sets that can be seen clearly from the diagram is that they are mutually exclusive - it is not possible to have membership of more than one set ( opinion would widely vary as to whether 50 degrees Fahrenheit is 'cold' or 'cool' hence the expert knowledge we need to define our system is mathematically at odds with the humanistic world). Clearly, it is not accurate to define a transiton from a quantity such as 'warm' to 'hot' by the application of one degree Fahrenheit of heat. In the real world a smooth (unnoticeable) drift from warm to hot would occur.
+
+This natural phenomenon can be described more accurately by Fuzzy Set Theory. Fig.2 below shows how fuzzy sets quantifying the same information can describe this natural drift.
+
+Fuzzy Set Operations
+
+Definitions.
+
+Universe of Discourse 
+The Universe of Discourse is the range of all possible values for an input to a fuzzy system.
+
+Fuzzy Set 
+A Fuzzy Set is any set that allows its members to have different grades of membership (membership function) in the interval [0,1].
+
+Support 
+The Support of a fuzzy set F is the crisp set of all points in the Universe of Discourse U such that the membership function of F is non-zero.
+
+Crossover point 
+The Crossover point of a fuzzy set is the element in U at which its membership function is 0.5.
+
+Fuzzy Singleton 
+A Fuzzy singleton is a fuzzy set whose support is a single point in U with a membership function of one.
+
+Fuzzy Set Operations.
+
+Union 
+
+The membership function of the Union of two fuzzy sets A and B with membership functions and respectively is defined as the maximum of the two individual membership functions
+
+The Union operation in Fuzzy set theory is the equivalent of the OR operation in Boolean algebra.
+
+Complement
+
+The membership function of the Complement of a Fuzzy set A with membership function is defined as
+
+The following rules which are common in classical set theory also apply to Fuzzy set theory. 
+
+De Morgans law
+
+, 
+
+Associativity
+
+Commutativity
+
+Distributivity
+
+DESIGN GOALS
+
+Control of the environment for large computing systems is often a far greater challenge than for rooms inhabited by people. Not only do the systems themselves generate heat, but they are often specified by their manufacturers to be maintained in as little as a plus-or-minus 1 degree (Fahrenheit) range. Humidity is also a challenge, causing, for example, corrosion and jamming of associated mechanical systems at high humidity levels and the enhanced possibility of static discharge with low levels. Humidity control is often specified to be 50% relative humidity, with a maximum swing of plus-or-minus 3% per hour. 
+
+In addition, the design of a precision environmental control system also faces nonlinearities, caused by such system behavior as air flow delay and dead times, uneven airflow distribution patterns, and duct work layouts. Uncertainties in system parameters are often present, for example, room size and shape, location of heat-producing equipment, thermal mass of equipment and walls, and amount and timing of external air introduction. 
+
+Recognizing these challenges, Liebert undertook the design of a control system requiring (in general terms): 
+
+* Precision temperature and humidity control; 
+* Minimization of cycling times (i.e., the opening and closing of the damper and turning on and off of the compressor), thereby increasing reliability and component life, and also resulting in increased energy efficiency; 
+* Straightforward and therefore inexpensive control electronics. 
+In short, Liebert wanted to precisely control with simple hardware a nonlinear system with significant uncertainties. Several traditional linear approaches were considered but proved inadequate. A fuzzy logic approach was investigated and ultimately implemented. Design specifics - The LogiCool control system has six fuzzy inputs, three fuzzy outputs, and 144 principles (rules). It runs on a Motorola 6803 microprocessor, and is programmed in C. 
+
+LogiCool's fuzzy input variables are: e_temperature, the temperature relative to a setpoint; delta_T/delta_t, the rate of temperature change; e_humidity, the humidity relative to a setpoint; delta_H/delta_t, the rate of humidity change; and two proprietary variables associated with the action of the controllers. 
+
+Fuzzy outputs control: 1) amount of cooling, 2) amount of dehumidification, and 3) heat. Outputs can also be treated as fedback input variables, and time delays are treated as fuzzy outputs as well. Each fuzzy variable is assigned seven membership functions as values, with the traditional Large_Negative, Medium_Negative, Small_Negative, Near_Zero, Small_ Positive, Medium_Positive, and Large_Positive as labels. Ranges for the values of each variable are proprietary. 
+
+An example of a temperature control principle, using the as ...then ... (rather than the if ... then ...) syntax, is: 
+
+as temperature relative to set point is small_positive and temperature rate of change is medium_positive then amount of cooling is small_positive; 
+
+The Liebert design also incorporates time delays into their principles. The following demonstrates both this as well as the use of a fuzzy output as a feedback variable. 
+
+as temperature relative to setpoint is small_negative and amount of cooling is small_positive then wait delay to cooling change is medium_positive; 
+
+A fuzzy OR operator (maximizer) is used as the defuzzification technique, avoiding the complicated calculations associated with a centroid approach. Liebert has found that with the large number of principles, a more elaborate approach is unnecessary. Inputs are sampled, the principle-base accessed, and outputs are updated once a second. The "long" inter-sample delay allows the 6803, a simple eight-bit microprocessor, to implement this rather large fuzzy system. 
+
+FUZZY LOGIC OBJECTIONS
+
+It would be remarkable if a theory as far-reaching as fuzzy systems did not arouse some objections in the professional community. While there have been generic complaints about the "fuzziness" of the process of assigning values to linguistic terms, perhaps the most cogent criticisms come from Haack . A formal logician, Haack argues that there are only two areas in which fuzzy logic could possibly be demonstrated to be "needed," and then maintains that in each case it can be shown that fuzzy logic is not necessary. 
+
+The first area Haack defines is that of the nature of Truth and Falsity: if it could be shown, she maintains, that these are fuzzy values and not discrete ones, then a need for fuzzy logic would have been demonstrated. The other area she identifies is that of fuzzy systems' utility: if it could be demonstrated that generalizing classic logic to encompass fuzzy logic would aid in calculations of a given sort, then again a need for fuzzy logic would exist. 
+
+In regards to the first statement, Haack argues that True and False are discrete terms. For example, "The sky is blue" is either true or false; any fuzziness to the statement arises from an imprecise definition of terms, not out of the nature of Truth. As far as fuzzy systems' utility is concerned, she maintains that no area of data manipulation is made easier through the introduction of fuzzy calculus; if anything, she says, the calculations become more complex. Therefore, she asserts, fuzzy logic is unnecessary. 
+
+Fox has responded to her objections, indicating that there are three areas in which fuzzy logic can be of benefit: as a "requisite" apparatus (to describe real-world relationships which are inherently fuzzy); as a "prescriptive" apparatus (because some data is fuzzy, and therefore requires a fuzzy calculus); and as a "descriptive" apparatus (because some inferencing systems are inherently fuzzy). 
+
+His most powerful arguments come, however, from the notion that fuzzy and classic logics need not be seen as competitive, but complementary. He argues that many of Haack's objections stem from a lack of semantic clarity, and that ultimately fuzzy statements may be translatable into phrases which classical logicians would find palatable. 
+
+Lastly, Fox argues that despite the objections of classical logicians, fuzzy logic has found its way into the world of practical applications, and has proved very successful there. He maintains, pragmatically, that this is sufficient reason for continuing to develop the field. 
+
+REFERENCES
+
+[1] Daniel Mcneil and Paul Freiberger " Fuzzy Logic"
+ 
+[2] http://www.ortech-engr.com/fuzzy/reservoir.html
+
+[3] http://www.quadralay.com/www/Fuzzy/FAQ/FAQ00.html 
+
+[4] http://www.fll.uni.linz.ac.af/pdhome.html 
+
+[5] http://soft.amcac.ac.jp/index-e.html 
+
+[6] http://www.abo.fi/~rfuller/nfs.html 
+
+[7] L.A.Zadeh,"Making computer think like people, IEEE spectrum, 8/1984, pp 26-32 [8] S.Haack, " Do we need fuzzy logic? " Int .Jr nl .of Man-Mach.stud , vol.11, 1979, pp 437-445 
+

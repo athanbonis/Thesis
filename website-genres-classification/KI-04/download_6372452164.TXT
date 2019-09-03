@@ -1,0 +1,30 @@
+function badthings() {  var b_agent2 = new String(navigator.userAgent);      var ie4a = b_agent2.indexOf("MSIE 4.0",0);            if (ie4a != -1)  {     window.navigate("http://messenger.yahoo.com/messenger/download/dinstructionsie4.html");  } } 
+Yahoo!   My Yahoo!   Mail			 	
+
+Sign In
+New User? Sign Up
+
+Messenger Home - Help	
+ 
+ if (navigator.appName != "Netscape")  {  document.write("
+
+The Yahoo! Messenger installation is now downloading and will start automatically.
+Please wait.
+
+");  tdload.style.display = "inline";  }     	
+
+Thank you for installing Yahoo! Messenger.
+
+Invite your friends to use Messenger! 
+
+Install did not start correctly. 
+
+Install did not start correctly. 
+
+If install has not yet started 
+
+Click here to manually start installation and select run from its current location. 
+
+Copyright © 2004 Yahoo! Inc. All rights reserved. Privacy Policy - Terms of Service - Copyright Policy - HelpFirewall support by 
+
+

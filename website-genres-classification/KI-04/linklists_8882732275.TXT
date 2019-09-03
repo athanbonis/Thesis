@@ -1,0 +1,157 @@
+
+
+| Bulletin Board| Police Jobs |Police Gifts | 	// *********************************************** // Get today's current date. var now = new Date(); // Array list of days. var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'); // Array list of months. var months = new Array('Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sept','Oct','Nov','Dec'); // Calculate the number of the current day in the week. var date = ((now.getDate() 	
+
+ Police Jobs	 
+
+Click Here for law enforcement employment center	 
+
+Join Our Law Enforcement Banner Exchange 	Add Our Search Box to Your Site 	
+
+1000's of Law Enforcement Sites
+    
+Search keyword(s), site name, description, or URL 	
+
+Advanced Search
+ Help
+ 		
+
+Amber Alert United States:	 
+Amber Alert Canada:	 	
+Add a Link |  What's New  | What's COOL  | Top Rated Sites | Most Popular | Log In	 
+
+Features	 	
+
+Banner Exchange
+ Bookstore
+ Demo Software
+ Employment Center
+ Gift Shop  
+ Links to our Site
+ Opinion Polls
+ Officer of Month *new Training Calendar 
+ Webmaster Listserv
+ Website Award	 
+
+  
+
+Cop Talk	 	
+
+Bulletin Board       
+ LEO Only Listserv  	 
+
+  
+
+Gift Shop	 	
+
+Click here to find many great law  enforcement related gifts.	 
+
+  
+  
+
+Special Offers	 	
+
+Click here to learn how to receive special offers and advertisements.	 
+
+  
+
+Website Award	 	
+
+Click here to apply for our new website award.  	 
+
+function LinesdownClassic() { clearTimeout(cfunc); var str="
+* "+content[ccap][caption].substr(0,70)+"
+"; var hn=0; var now=new Date(); for(var i=1;i"+content[hn][caption].substr(0,70)+"
+"; } var id=document.getElementById("div_n4s"); id.innerHTML="
+In the Police News          "+now.toLocaleString()+"	
+"+str+"	
+"; ccap=(ccap==0) ? content.length-1 : ccap-1; cfunc=setTimeout("LinesdownClassic()",3000); } ccap=0; cword=0; cfunc='LinesdownClassic'; LinesdownClassic(); 
+More News..	 
+
+Directory of Law Enforcement Related Sites	 	
+
+Speeding Excuse of the Day	 	
+
+"I was tryihg to stay well ahead of the guy tailgating me"	 
+
+  
+
+Earn Money
+
+Click Here to learn how to earn money by joining our free affiliate network.	 
+
+  
+
+  
+
+CopSeek Survey 	
+Are You In Favor of the Death Penalty
+
+Yes
+No
+
+[ View Results ] 
+
+See other Polls	 
+  	
+
+Associations
+ Investigative,  Chiefs, Employees Rep... 	Information Resources 
+ Police Grants, Laws, Directories ... 	
+Education-Training
+ Associations, Commissions, Institutions... 	Internet Stuff 
+ Discussion Forums, Chat, WebRings ... 	
+Intelligence/Statistic
+ Agencies, Gangs, Sex Offenders... 	Miscellaneous   
+Collectors, Just For Fun ,Off. Survival...	 
+Law Enforcement Agencies
+ Canada, United States, Europe ... 	Officer's Home Pages
+ Australia, Canada, Europe, USA ...    	
+Need Public Help
+ Information, Missing Persons, Wanted ...  	Operational Support
+ Dogs, Tactical, Computer, Corrections... 	
+Police & Family Support
+ Family, Spiritual, Stress-Psychology ... 	Private Police 
+Associations, Investigations, Training... 	 
+
+Products & Services Directory	 	
+
+Accident Reconstruction
+ Behaviour Analysis
+ Body Armour 
+Books-Publications
+ Communications Equipment 
+Computers
+ Computer Forensics & Crime
+ Consulting Services
+ Education/Training
+ Employment-Recruiting
+ Electronic Surveillance Equipment 
+Firearms 
+Fitness
+ General Supplies-Equipment 	 Holsters-Leather Products
+ Horse Products
+ Investigative Tools
+ Knives 
+Miscellaneous
+ Plaques-Badges-T Shirts-Novelties
+ Police Dog
+ Police Vehicles-Equipment
+ Restraints 
+Software
+ Tactical-Duty Equipment
+ Traffic
+ Travel 
+Uniforms-Shoes-Hats	 
+
+Add Our Search Box to Your Site 
+
+    	
+
+// (C) 2000 www.CodeLifter.com // http://www.codelifter.com // Free for all users, but leave in this header // message to show in non-IE browsers var txt = "Click Here to Bookmark Us" // url you wish to have bookmarked var url = "http://www.copseek.com/"; // caption to appear with bookmark var who = "CopSeek.com" // do not edit below this line // =========================== var ver = navigator.appName var num = parseInt(navigator.appVersion) if ((ver == "Microsoft Internet Explorer")&&(num >= 4)) { document.write(''+ txt + '') }else{ txt += " (Ctrl+D)" document.write(txt) } 	
+
+Contact US ||Advertisers |Return to CopSeek.com |Suggest A Site |Privacy Policy | FAQs 	
+
+Copyright 2004 © CopSeek.com (Beat Press)
+
+nbsp; 

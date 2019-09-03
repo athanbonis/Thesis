@@ -1,0 +1,312 @@
+
+
+Levenshtein Distance, in Three Flavors
+
+by Michael Gilleland, Merriam Park Software
+
+The purpose of this short essay is to describe the Levenshtein distance algorithm and show how it can be implemented in three different programming languages. 
+
+What is Levenshtein Distance?
+Demonstration
+The Algorithm
+Source Code, in Three Flavors
+References
+Other Flavors 
+
+---------------------------------------------------------------------
+
+What is Levenshtein Distance?
+
+Levenshtein distance (LD) is a measure of the similarity between two strings, which we will refer to as the source string (s) and the target string (t). The distance is the number of deletions, insertions, or substitutions required to transform s into t. For example, 
+
+* If s is "test" and t is "test", then LD(s,t) = 0, because no transformations are needed. The strings are already identical. 
+* If s is "test" and t is "tent", then LD(s,t) = 1, because one substitution (change "s" to "n") is sufficient to transform s into t. 
+The greater the Levenshtein distance, the more different the strings are. 
+
+Levenshtein distance is named after the Russian scientist Vladimir Levenshtein, who devised the algorithm in 1965. If you can't spell or pronounce Levenshtein, the metric is also sometimes called edit distance. 
+
+The Levenshtein distance algorithm has been used in: 
+
+* Spell checking 
+* Speech recognition 
+* DNA analysis 
+* Plagiarism detection 
+
+---------------------------------------------------------------------
+
+Demonstration
+
+The following simple Java applet allows you to experiment with different strings and compute their Levenshtein distance: 
+
+---------------------------------------------------------------------
+
+The Algorithm
+
+Steps
+
+Step Description 
+1	 Set n to be the length of s.
+Set m to be the length of t.
+If n = 0, return m and exit.
+If m = 0, return n and exit.
+Construct a matrix containing 0..m rows and 0..n columns. 	
+2	 Initialize the first row to 0..n. Initialize the first column to 0..m. 	
+3	 Examine each character of s (i from 1 to n).	 
+4	 Examine each character of t (j from 1 to m).	 
+5	 If s[i] equals t[j], the cost is 0.
+If s[i] doesn't equal t[j], the cost is 1.	 
+6	 Set cell d[i,j] of the matrix equal to the minimum of:
+a. The cell immediately above plus 1: d[i-1,j] + 1.
+b. The cell immediately to the left plus 1: d[i,j-1] + 1.
+c. The cell diagonally above and to the left plus the cost: d[i-1,j-1] + cost.
+
+7	 After the iteration steps (3, 4, 5, 6) are complete, the distance is found in cell d[n,m]. 	
+
+Example
+
+This section shows how the Levenshtein distance is computed when the source string is "GUMBO" and the target string is "GAMBOL". 
+
+Steps 1 and 2
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	  	  	  	  	  	 
+A	 2	  	  	  	  	  	 
+M	 3	  	  	  	  	  	 
+B	 4	  	  	  	  	  	 
+O	 5	  	  	  	  	  	 
+L	 6	  	  	  	  	  	 
+
+Steps 3 to 6 When i = 1
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	 0	  	  	  	  	 
+A	 2	 1	  	  	  	  	 
+M	 3	 2	  	  	  	  	 
+B	 4	 3	  	  	  	  	 
+O	 5	 4	  	  	  	  	 
+L	 6	 5	  	  	  	  	 
+
+Steps 3 to 6 When i = 2
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	 0	 1	  	  	  	 
+A	 2	 1	 1	  	  	  	 
+M	 3	 2	 2	  	  	  	 
+B	 4	 3	 3	  	  	  	 
+O	 5	 4	 4	  	  	  	 
+L	 6	 5	 5	  	  	  	 
+
+Steps 3 to 6 When i = 3
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	 0	 1	 2	  	  	 
+A	 2	 1	 1	 2	  	  	 
+M	 3	 2	 2	 1	  	  	 
+B	 4	 3	 3	 2	  	  	 
+O	 5	 4	 4	 3	  	  	 
+L	 6	 5	 5	 4	  	  	 
+
+Steps 3 to 6 When i = 4
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	 0	 1	 2	 3	  	 
+A	 2	 1	 1	 2	 3	  	 
+M	 3	 2	 2	 1	 2	  	 
+B	 4	 3	 3	 2	 1	  	 
+O	 5	 4	 4	 3	 2	  	 
+L	 6	 5	 5	 4	 3	  	 
+
+Steps 3 to 6 When i = 5
+
+ 	  	 G	 U	 M	 B	 O	 
+ 	 0	 1	 2	 3	 4	 5	 
+G	 1	 0	 1	 2	 3	 4	 
+A	 2	 1	 1	 2	 3	 4	 
+M	 3	 2	 2	 1	 2	 3	 
+B	 4	 3	 3	 2	 1	 2	 
+O	 5	 4	 4	 3	 2	 1	 
+L	 6	 5	 5	 4	 3	 2	 
+
+Step 7
+
+The distance is in the lower right hand corner of the matrix, i.e. 2. This corresponds to our intuitive realization that "GUMBO" can be transformed into "GAMBOL" by substituting "A" for "U" and adding "L" (one substitution and 1 insertion = 2 changes). 
+
+---------------------------------------------------------------------
+
+Source Code, in Three Flavors
+
+Religious wars often flare up whenever engineers discuss differences between programming languages. A typical assertion is Allen Holub's claim in a JavaWorld article (July 1999): "Visual Basic, for example, isn't in the least bit object-oriented. Neither is Microsoft Foundation Classes (MFC) or most of the other Microsoft technology that claims to be object-oriented." 
+
+A salvo from a different direction is Simson Garfinkels's article in Salon (Jan. 8, 2001) entitled "Java: Slow, ugly and irrelevant", which opens with the unequivocal words "I hate Java". 
+
+We prefer to take a neutral stance in these religious wars. As a practical matter, if a problem can be solved in one programming language, you can usually solve it in another as well. A good programmer is able to move from one language to another with relative ease, and learning a completely new language should not present any major difficulties, either. A programming language is a means to an end, not an end in itself. 
+
+As a modest illustration of this principle of neutrality, we present source code which implements the Levenshtein distance algorithm in the following programming languages: 
+
+* Java 
+* C++ 
+* Visual Basic 
+
+---------------------------------------------------------------------
+
+Java
+
+public class Distance {
+
+//****************************
+  // Get minimum of three values
+  //****************************
+
+private int Minimum (int a, int b, int c) {
+  int mi;
+
+mi = a;
+    if (b 
+
+---------------------------------------------------------------------
+
+C++
+
+In C++, the size of an array must be a constant, and this code fragment
+causes an error at compile time:
+
+int sz = 5;
+int arr[sz];
+
+This limitation makes the following C++ code slightly more complicated than it would be if the matrix could simply be declared as a two-dimensional array, with a size determined at run-time. 
+
+Here is the definition of the class (distance.h): 
+
+class Distance
+{
+  public:
+    int LD (char const *s, char const *t);
+  private:
+    int Minimum (int a, int b, int c);
+    int *GetCellPointer (int *pOrigin, int col, int row, int nCols);
+    int GetAt (int *pOrigin, int col, int row, int nCols);
+    void PutAt (int *pOrigin, int col, int row, int nCols, int x);
+}; 
+
+Here is the implementation of the class (distance.cpp): 
+
+#include "distance.h"
+#include <string.h>
+#include <malloc.h>
+
+//****************************
+// Get minimum of three values
+//****************************
+
+int Distance::Minimum (int a, int b, int c)
+{
+int mi;
+
+mi = a;
+  if (b 
+
+---------------------------------------------------------------------
+
+Visual Basic
+
+'*******************************
+'*** Get minimum of three values
+'*******************************
+
+Private Function Minimum(ByVal a As Integer, _
+                         ByVal b As Integer, _
+                         ByVal c As Integer) As Integer
+Dim mi As Integer
+                          
+  mi = a
+  If b 
+
+---------------------------------------------------------------------
+
+References
+
+Other discussions of Levenshtein distance may be found at:
+
+* 
+http://www.csse.monash.edu.au/~lloyd/tildeAlgDS/Dynamic/Edit.html (Lloyd Allison)
+
+* 
+http://www.cut-the-knot.com/do_you_know/Strings.html (Alex Bogomolny)
+
+* 
+http://www-igm.univ-mlv.fr/~lecroq/seqcomp/node2.html (Thierry Lecroq)
+
+---------------------------------------------------------------------
+
+Other Flavors
+
+The following people have kindly consented to make their implementations
+of the Levenshtein Distance Algorithm in various languages available here:
+
+* Eli Bendersky has written an implementation in
+Perl.
+
+* Barbara Boehmer has written an
+implementation in Oracle PL/SQL.
+
+* Rick Bourner has written an
+implementation in Objective-C.
+
+* Chas Emerick has written an implementation in
+Java, which avoids
+an OutOfMemoryError which can occur when my Java implementation is used
+with very large strings.
+
+* Joseph Gama has written an implementation in 
+TSQL,
+as part of a
+
+package of TSQL functions at 
+
+Planet Source Code.
+
+* Anders Sewerin Johansen has written an implementation
+in C++, which is more elegant, better optimized,
+and more in the spirit of C++ than mine.
+
+* Lasse Johansen has written an implementation in C#.
+
+* Alvaro Jeria Madariaga has written an implementation in
+Delphi.
+
+* Lorenzo Seidenari has written an implementation in 
+C, and
+Lars Rustemeier has provided a 
+ 
+Scheme wrapper for this
+C implementation 
+as part of 
+
+Eggs Unlimited,
+a library of extensions to the 
+
+Chicken Scheme system. 
+
+* Steve Southwell has written an implementation in 
+Progress 4gl.
+
+* Joerg F. Wittenberger has written an implementation in
+Rscheme.
+
+Other implementations outside these pages include:
+
+* An 
+Emacs Lisp implementation by Art Taylor.
+
+* A 
+Python implementation by Magnus Lie Hetland. 
+
+* A Tcl
+implementation by Richard Suchenwirth (thanks to Stefan Seidler for pointing this out).
+
+

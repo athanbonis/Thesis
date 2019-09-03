@@ -1,0 +1,68 @@
+
+
+Sven Neuhaus' personal homepage
+
+Welcome to Yet Another Homepage.  
+
+I have maintained this homepage since 1994. It now uses strict  HTML 4.01 so use a  standards  conforming browser for the "best value". It should be readable  with any browser, however.
+ Since you came here, you're probably looking for information about me.  So here it goes... 
+
+Work
+
+* Job.  
+I work at Heise Zeitschriften  Verlag doing web software development and network administration.  
+* Studies.  
+ I'm a computer science student at the  University of Dortmund after  graduating from Canfield  High School in 1990 and Leibniz  Gymnasium Dortmund in 1992.  
+
+Hobbies
+
+* Computers & Internet.  
+PING e.V. is Germany's  largest non-commercial club that provides cheap internet access to  private individuals in  the Dortmund area. My involvement  with PING reaches back to its beginnings in 1992. I was on PINGs  managing comittee a few times.
+ I like to hack on my Linux  box at home (perl  rules). I also have a  S/// P800 that I mess around with.  
+* Computer games.  
+Fortunately, I got to do for a living what I love to  do in my spare time: Multiplayer online games. My all time favourite:  Netrek. Another excellent one is  Empire. I'm currently playing  Battlefield 1942  and  Dark Age of Camelot on the Andred PvP server.  My favourite single-player game of all times must be    Elite. I'm still  waiting for a massive multiplayer online version to appear. Meanwhile,  Christian Pinder has used the original BBC sources for an excellent  new version.  
+* Movies.  
+The  University Film Club  shows movies every week during terms. I used to be an active member, now the lack of time is taking its toll.  
+* Sports.  
+I like scuba diving,  Basketball, Badminton, windsurfing and snowboarding among others.  I recently started playing golf.  
+* Travel.  
+I love traveling. Comes handy when you want to go diving  in warm water :-)  
+
+People
+
+* Bettina,  my girlfriend.  
+She's a babe.  
+* Michael,  
+All around nice guy and total UNIX guru. His web page is a bit  lacking at the moment...  
+*  Dirk,  
+(former) Netrek geek, perl  hacker, bigmouth (in the nicest possible way :-).  
+*  Rudolf, big brother.  
+avid surfer, hobbyist cook, wine and jazz fan.  
+* Frosch,  
+hardware wiz, game maniac, former roommate, Windows NT borg.  
+* [MaTT], 
+* Chmul, 
+* I'm trying to find people who spend 1989/1990 in Ohio, USA as Rotary exchange students and attended the Ohio-Erie Rotary bus tour 1990 (big picture). Contact me! 
+* And many more w/out homepages... 
+
+Software
+
+Stuff I've written that I think might be useful for others. 
+
+* DAoC Realm Abilities Configurator  
+JavaScript application for players of Mythic's Dark Age of  Camelot.  
+* Notify  
+Notify your website's visitors of changes to your pages.  
+* Heise Compressor  
+Read the latest (german) Heise  News, all on one page. Nice for mobile browsing.  
+* List of papers  
+A must read.  
+
+Contact
+
+* EMail  
+My email address is <&#115;&#118;&#101;&#110;@&#112;&#105;&#110;&#103;.&#100;&#101;>.  I dislike unsolicited commercial email (UCE, aka spam). Do you?  Try TMDA.  
+* Privacy  
+Use my public key  (GPG)  to encrypt your email. It's also on the  public key servers.  
+Copyright © 1994-2003 Sven Neuhaus. All rights reserved.
+Last modified: 2003-12-08 21:59 CET 

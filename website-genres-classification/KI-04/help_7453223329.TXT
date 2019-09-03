@@ -1,0 +1,231 @@
+Monotype's Times New Roman TrueType font family version 2.50 Microsoft's WingDings font version 2.50 --> Various .FON bitmap fonts --> Additional euro enabled fonts can be downloaded from our Core fonts for the Web page. Support for the euro symbol in Windows 98 Windows 98 has support for the euro and the following fonts some of which are euro enabled. Monotype's Arial TrueType font family 2.45 and 2.50 Monotype's Courier New TrueType font family 2.45 and 2.50 Monotype's Times New Roman TrueType font family 2.45 and 2.50 Microsoft's Tahoma TrueType font (regular and bold) version 2.26 The versions of Arial Black (2.20), Comic Sans MS (1.20), Impact (2.20), Lucida Console (0.91), and Verdana (2.10) that ship with Windows 98 do not include the euro. However euro enabled versions of these fonts can be downloaded from our Core fonts for the Web page. Support for the euro symbol in Windows 2000 Windows 2000 will have support for the euro and come with euro enabled fonts. Support for the euro symbol in Windows NT 3.51 An update for Windows NT 3.51 is now available for download . Additional euro enabled fonts can be downloaded from our Core fonts for the Web page. Support for the euro symbol in Windows 3.1 and 3.11 Microsoft has posted an update that adds limited euro currency symbol support to the Microsoft Windows 3.1 and Windows for Workgroups 3.1 and 3.11 operating systems. Your files will be automatically updated to enable enhanced display font support for the euro symbol, keyboard and printing support for the euro, as well as the ability to use the euro symbol as your default currency. euro links section of this FAQ. --> Support for the euro symbol in Apple's Mac OS Microsoft's Mac based applications will include euro enabled fonts produced in accordance with Apple's recently issued technical white paper . This technical document explains Apple's support for the euro currency symbol. Euro enabled versions of Microsoft's core fonts for the Web have been added to our download page . Accessing the euro symbol in Windows 98, 95, Windows 2000 or Windows NT 4 To access the euro from your keyboard please refer to the following chart. Windows NT 4 users should first download and run the 'NT 4.0 euro product update' or 'Windows NT Service Pack 4'. Windows 95 should run the 'Final Windows 95 product update'. Keyboard layout keystroke(s) BE Belgian (French KBD120) AltGr+e BENE Belgian Dutch 120 AltGr+e CR Croatian/Slovenian AltGr+e CZ Czech AltGr+e CZ1 Czech 101 AltGr+e CZ2 Czech_Programmer's AltGr+e DA Danish AltGr+e NE Dutch - KBD143 AltGr+e EST Estonia AltGr+e FO Faroese AltGr+e FI Finnish AltGr+e FR French AltGr+e GR German AltGr+e GR1 German_IBM AltGr+e HE Greek AltGr+e (epsilon) HE220 Greek IBM 220 AltGr+e (epsilon) HE319 Greek IBM 319 AltGr+e (epsilon) HELA2 Greek IBM 220 Latin AltGr+e (epsilon) HELA3 Greek IBM 319 Latin AltGr+e (epsilon) GKL Greek Latin AltGr+5 HU Hungarian AltGr+u HU1 Hungarian 101 AltGr+u IC Icelandic AltGr+e IR Irish AltGr+4 IT Italian AltGr+e IT142 Italian 142 AltGr+e LV Latvia AltGr+e LV1 Latvia-QWERTY AltGr+4 LT Lithuania AltGr+e LT1 Lithuanian_New AltGr+e MAC Macedonian_Cyrillic AltGr+e NO Norwegian AltGr+e PL Polish AltGr+u PL1 Polish Programmer's AltGr+u PO Portuguese - KBD163 AltGr+e YCL Serbian_Latin AltGr+e YCC Serbian_Cyrillic AltGr+e SL Slovak AltGr+e SL1 Slovak (QWERTY) AltGr+e SP Spanish AltGr+e SW Swedish AltGr+e SF Swiss French AltGr+e SG Swiss German AltGr+e TUF Turkish F 440 AltGr+e TUQ Turkish Q 179 AltGr+e UK United Kingdom AltGr+4 USX US-International AltGr+5 others* ALT+0128 If your keyboard doesn't have an 'AltGr' key use the right 'Alt' key. *On standard US keyboards hold down either Alt key and type 0128 on the numeric keypad part of your keyboard. The AltGr combinations listed are not implemented on US keyboard as users expect both right and left Alt keys to have the same effect. In addition most keyboard manufacturers, including Microsoft, are producing keyboards that have a 'euro-key'. Here are some details provided by Microsoft's hardware group . The Microsoft Natural Keyboard Elite is designed ergonomically to provide a relaxed, comfortable typing position. And now with Windows 98, the Microsoft Natural Keyboard Elite supports the euro currency symbol and USB. The Split keypad is gently sloped to encourage a natural typing position. Plus an Ergonomics Guide is included and provides information on how to use the keyboard for maximum comfort, including tips on setting up a comfortable work space, helpful exercises and recommended work habits. The Microsoft Natural Keyboard with euro currency support is available in Europe. Printing Q Will my printer output the new symbol? A Yes, it should work fine, providing you don't use printer resident fonts that do not include the euro. You may need to adjust your printer setup options as using resident fonts will probably be the default setting. Look for 'print fonts as graphics' or similar settings in your printer setup options. Printing fonts as graphics instead of using resident fonts will often result in slower printing. Check with your printer manufacturer to see if they have updated drivers or print managers that may improve performance. Newer printers may have support for the symbol built into their resident fonts. Font availability Q How about PostScript Type 1 fonts? A Initially Adobe added the euro to their Symbol font. It is encoded at position 240 of the symbol font encoding array. On the 27 May 1998 Adobe released three PostScript type families that include the euro currency symbol. These are available for free download from the Adobe Web site . Q When can we expect the euro to be included in all new fonts? A Microsoft will include the symbol within all the original fonts we produce. We are working to ensure that the fonts supplied with future versions of our applications software will also include the symbol. Many independent font vendors have announced that they will be including the symbol within their new and existing fonts. Euro news and links A special euro related news and links page has been posted in our Links, news and contacts section . this page was last updated 25 April 2000 © 1999 Microsoft Corporation. All rights reserved. Terms of use . comments to the MST group: how to contact us special thanks to John Gray for his help and feedback Microsoft Typography | Features... | FAQ... | The euro currency symbol   --> 
+ 	 	          All Products  |      Support  |      Search  |      microsoft.com Home       	
+ 	 	
+  
+
+Microsoft Typography  | Features...  | FAQ...  | The euro currency symbol 	
+
+The euro currency symbol 
+
+Contents 
+
+* General questions 
+* Unicode and codepage assignments 
+* Euro support in Windows 95 
+* Euro support in Windows NT 4 
+* Euro support in Windows 98 
+* Euro support in Windows 2000 
+* Support for the euro symbol in Windows NT 3.51
+Update posted 
+* Support for the euro symbol in Windows 3.1, 3.11
+Update posted 
+* Euro support for the Mac 
+* Accessing the symbol 
+* Printing 
+* Font availability 
+* Euro links
+Updated Office fonts available for download 
+
+  		
+
+General questions 
+
+Q What is it? 
+
+A The euro is the name given to the single currency of the European Union. According to the European Commission the euro will exist as a currency from 1 January 1999 but will only gradually move into general use, with the introduction of coins and notes in 2002. For more information see the Euro Web site run by the European Commission. 
+
+Q Should the word 'euro' be capitalized? Is the plural form 'euro' or 'euros'? 
+
+A The form varies depending on language. In English 'euro' and 'cent' should not be capitalized, and the plural forms should not include an 's' in official documents. 
+
+An official EU dossier [Adobe pdf format] lists singular and plural forms for each European language. This document notes that the spelling without an 's' may be seen as departing from usual English spelling for currencies. According to a (London) Daily Telegraph report the Bank of England will use 'euros'. 
+
+Q What does the symbol look like, and how was it chosen? 
+
+A According to the information posted on the euro Web site, about thirty draft designs were drawn up internally by the European Commission. The general public assessed ten designs, narrowing the shortlist to two. Jacques Santer, president of the European Commission, and Yves-Thibault de Silguy, the European commissioner in charge of the euro chose the final design. euro in Arial, Times New Roman and Courier New 
+
+Q Why do the symbols shown above look different from the one posted on the official euro site?
+
+A We have chosen to make instances of the euro symbol font and style specific. The design of the symbol takes on the characteristics of the font in which it resides. 
+
+Traditionally numerals and currency symbols are the same width for any given font. This helps values line up properly in tabular applications like spreadsheets. To make the euro symbol the correct width for Arial and Times New Roman it had to be condensed. 
+
+Unicode and codepage assignments 
+
+Q What is the symbol's Unicode assignment? 
+
+A The euro character is encoded in the Unicode Standard as U+20AC EURO SIGN. To avoid confusion, the historical character U+20A0 EURO-CURRENCY SIGN has been updated with an informative note and a cross reference to U+20AC EURO SIGN. See the Unicode Consortium's Unicode Technical Report # 8 for more details. 
+
+Q What is the symbol's Windows codepage location? 
+
+A The symbol has been added to the following codepages at position '0x80'; 1250 Eastern European, 1252 Western, 1253 Greek, 1254 Turkish, 1257 Baltic, 1255 Hebrew, 1256 Arabic, 1258 Vietnamese, 874 Thai. In 1251 Cyrillic the symbol will be added at position '0x88'. Other codepages are controlled by governments or standards bodies. Microsoft is working with these organizations on the placement of the euro. 
+
+Support for the euro symbol in Windows 95 
+
+Final Windows 95 product update 
+The beta 1 update wasn't able to add euro support to Windows 95's hardcoded codepages. It relied on a set of specially encoded core fonts. The final Windows 95 product update updates these codepages allowing the use of any properly encoded TrueType font. 
+
+English, Danish, Dutch, Finnish, French, German, Italian, Norwegian, Portuguese (Brazilian), Portuguese (Iberian), Spanish and Swedish language versions (other localized versions will be released soon) can be downloaded from the Windows euro information page. The update includes keyboard drivers, codepage updates and the following fonts.  
+ 
+* Monotype's Arial Black TrueType font version 2.30  
+* Monotype's Arial TrueType font family version 2.55  
+* Microsoft's Comic Sans TrueType font (regular and bold) version 2.00  
+* Monotype's Courier New TrueType font family version 2.55  
+* Monotype's Impact TrueType font version 2.30  
+* Monotype's Times New Roman TrueType font family version 2.55  
+* Microsoft's Tahoma TrueType font (regular and bold) version 2.30  
+* Microsoft's Verdana TrueType font family version 2.31  
+* Microsoft's MS Sans Serif bitmap fonts  
+
+Additional euro enabled fonts can be downloaded from our Core fonts for the Web page. 
+
+Windows 95 beta 1 euro product update
+This update was replaced with the 'final Windows 95 product update' on 4 November 1998. The beta 1 update included specially encoded Windows core fonts and keyboard drivers. The update installed the following fonts.  
+ 
+* Monotype's Arial TrueType font family version 2.01  
+* Monotype's Courier New TrueType font family version 2.01   
+* Monotype's Times New Roman TrueType font family version 2.01  
+ 
+
+No other specially encoded fonts were produced. Our free euro enabled Core fonts for the Web will not work with this update. 
+
+Support for the euro symbol in Windows NT 4 
+
+NT 4.0 euro product update
+Codepage support, core fonts and keyboard drivers can be added to Windows NT 4 by installing this update posted on the Windows euro information page. The update installs the following fonts.  
+ 
+* Monotype's Arial TrueType font family version 2.50  
+* Monotype's Courier New TrueType font family version 2.50 
+* Monotype's Times New Roman TrueType font family version 2.50  
+
+Windows NT Service Pack 4
+These components along with improved system support and additional fonts are supplied with Service Pack 4. The Service pack installs the following fonts. 
+
+* Monotype's Arial TrueType font family version 2.50  
+* Monotype's Courier New TrueType font family version 2.50  
+* Bigelow and Holmes' Lucida Sans Unicode version 2.00  
+* Bigelow and Holmes' Lucida Console version 1.60   
+* Monotype's Times New Roman TrueType font family version 2.50    
+
+Additional euro enabled fonts can be downloaded from our Core fonts for the Web page. 
+
+Support for the euro symbol in Windows 98 
+
+Windows 98 has support for the euro and the following fonts some of which are euro enabled.  
+ 
+* Monotype's Arial TrueType font family 2.45 and 2.50  
+* Monotype's Courier New TrueType font family 2.45 and 2.50  
+* Monotype's Times New Roman TrueType font family 2.45 and 2.50  
+* Microsoft's Tahoma TrueType font (regular and bold) version 2.26  
+
+The versions of Arial Black (2.20), Comic Sans MS (1.20), Impact (2.20), Lucida Console (0.91), and Verdana (2.10) that ship with Windows 98 do not include the euro. However euro enabled versions of these fonts can be downloaded from our Core fonts for the Web page. 
+
+Support for the euro symbol in Windows 2000 
+
+Windows 2000 will have support for the euro and come with euro enabled fonts. 
+
+Support for the euro symbol in Windows NT 3.51 
+
+An update for Windows NT 3.51 is now available for download. Additional euro enabled fonts can be downloaded from our Core fonts for the Web page. 
+
+Support for the euro symbol in Windows 3.1 and 3.11 
+
+Microsoft has posted an update that adds limited euro currency symbol support to the Microsoft Windows 3.1 and Windows for Workgroups 3.1 and 3.11 operating systems. Your files will be automatically updated to enable enhanced display font support for the euro symbol, keyboard and printing support for the euro, as well as the ability to use the euro symbol as your default currency. 
+
+Support for the euro symbol in Apple's Mac OS 
+
+Microsoft's Mac based applications will include euro enabled fonts produced in accordance with Apple's recently issued technical white paper. This technical document explains Apple's support for the euro currency symbol. Euro enabled versions of Microsoft's core fonts for the Web have been added to our download page. 
+
+Accessing the euro symbol in Windows 98, 95, Windows 2000 or Windows NT 4 
+
+To access the euro from your keyboard please refer to the following chart. Windows NT 4 users should first download and run the 'NT 4.0 euro product update' or 'Windows NT Service Pack 4'. Windows 95 should run the 'Final Windows 95 product update'. 
+
+Keyboard layout	 keystroke(s)	 
+BE	Belgian (French KBD120)	 AltGr+e	 
+BENE	Belgian Dutch 120	 AltGr+e	 
+CR	Croatian/Slovenian	 AltGr+e	 
+CZ	Czech	 AltGr+e	  
+CZ1 	Czech 101	 AltGr+e	 
+CZ2 	Czech_Programmer's	 AltGr+e	 
+DA	Danish	 ltGr+e	 
+NE	Dutch - KBD143 	AltGr+e	 
+EST 	Estonia	 ltGr+e	 
+FO	Faroese	 ltGr+e	 
+FI 	Finnish	 ltGr+e	 
+FR	French	 AltGr+e	 
+GR	German	 AltGr+e	 
+GR1 	German_IBM	 AltGr+e	 
+HE 	Greek	 AltGr+e (epsilon)	 
+HE220 	Greek IBM 220	 AltGr+e (epsilon)	 
+HE319 	Greek IBM 319	 AltGr+e (epsilon)	 
+HELA2 	Greek IBM 220 Latin	 AltGr+e (epsilon)	 
+HELA3 	Greek IBM 319 Latin	 AltGr+e (epsilon)	 
+GKL 	Greek Latin	 AltGr+5	 
+HU	Hungarian	 AltGr+u	 
+HU1 	Hungarian 101	 AltGr+u	 
+IC	Icelandic 	ltGr+e	 
+IR	Irish	 AltGr+4	 
+IT	Italian 	ltGr+e	 
+IT142 	Italian 142	 ltGr+e	 
+LV	Latvia	 ltGr+e	 
+LV1 	Latvia-QWERTY	 AltGr+4	 
+LT	Lithuania	 AltGr+e	 
+LT1 	Lithuanian_New	 AltGr+e	 
+MAC 	Macedonian_Cyrillic	 AltGr+e	 
+NO	Norwegian 	ltGr+e	 
+PL	Polish	 AltGr+u	 
+PL1 	Polish Programmer's	 AltGr+u	 
+PO	Portuguese - KBD163 	ltGr+e	 
+YCL 	Serbian_Latin	 AltGr+e	 
+YCC 	Serbian_Cyrillic	 AltGr+e	 
+SL	Slovak	 AltGr+e	 
+SL1 	Slovak (QWERTY)	 AltGr+e	 
+SP	Spanish	 ltGr+e	 
+SW	Swedish	 ltGr+e	 
+SF	Swiss French 	AltGr+e	 
+SG	Swiss German	 AltGr+e	 
+TUF 	Turkish F 440	 AltGr+e	 
+TUQ 	Turkish Q 179	 AltGr+e	 
+UK	United Kingdom	 AltGr+4	 
+USX 	US-International	 AltGr+5	 
+
+others*	 ALT+0128	 
+If your keyboard doesn't have an 'AltGr' key use the right 'Alt' key. *On standard US keyboards hold down either Alt key and type 0128 on the numeric keypad part of your keyboard. The AltGr combinations listed are not implemented on US keyboard as users expect both right and left Alt keys to have the same effect. 
+
+In addition most keyboard manufacturers, including Microsoft, are producing keyboards that have a 'euro-key'. Here are some details provided by Microsoft's hardware group. 
+
+The Microsoft Natural Keyboard Elite is designed ergonomically to provide a relaxed, comfortable typing position. And now with Windows 98, the Microsoft Natural Keyboard Elite supports the euro currency symbol and USB. The Split keypad is gently sloped to encourage a natural typing position. Plus an Ergonomics Guide is included and provides information on how to use the keyboard for maximum comfort, including tips on setting up a comfortable work space, helpful exercises and recommended work habits. The Microsoft Natural Keyboard with euro currency support is available in Europe. 
+
+Printing 
+
+Q Will my printer output the new symbol? 
+
+A Yes, it should work fine, providing you don't use printer resident fonts that do not include the euro. You may need to adjust your printer setup options as using resident fonts will probably be the default setting. Look for 'print fonts as graphics' or similar settings in your printer setup options. 
+
+Printing fonts as graphics instead of using resident fonts will often result in slower printing. Check with your printer manufacturer to see if they have updated drivers or print managers that may improve performance. Newer printers may have support for the symbol built into their resident fonts. 
+
+Font availability 
+
+Q How about PostScript Type 1 fonts? 
+
+A Initially Adobe added the euro to their Symbol font. It is encoded at position 240 of the symbol font encoding array. On the 27 May 1998 Adobe released three PostScript type families that include the euro currency symbol. These are available for free download from the Adobe Web site. 
+
+Q When can we expect the euro to be included in all new fonts? 
+
+A Microsoft will include the symbol within all the original fonts we produce. We are working to ensure that the fonts supplied with future versions of our applications software will also include the symbol. Many independent font vendors have announced that they will be including the symbol within their new and existing fonts. 
+
+Euro news and links 
+
+A special euro related news and links page has been posted in our Links, news and contacts section. 
+
+this page was last updated 25 April 2000
+ © 1999 Microsoft Corporation. All rights reserved. Terms of use.
+ comments to the MST group:  how to contact us 
+
+special thanks to John Gray for his help and feedback  
+
+  		
+
+Microsoft Typography  | Features...  | FAQ...  | The euro currency symbol 	
+
+

@@ -1,0 +1,264 @@
+
+
+  Frequently Asked Questions	 Home | Site Map | Search 	
+
+Basic Questions
+
+* What is Unicode and why do I need it?   
+* I think my company might want to get involved in Unicode. Is   there any material that I can use to present the case to my management?   
+* Where can I purchase the Unicode software or the Unicode font? 
+* I can't find my character in Unicode. Where do I look? 
+* In the past, we have just handed off our code to a translation agency. What's wrong with that? 
+* What is the modern approach? 
+* How does Unicode play in internationalization? 
+* What was wrong with using classical character sets for application programs? 
+* What was wrong with using classical character sets for databases? 
+* What is different about Unicode? 
+* You talk about Unicode being the right technical approach. But is it being accepted by the market? 
+* What about the Far East support? 
+* So all I need is Unicode, right? 
+* Unicode has all sorts of features: combining marks, bidirectionality, input methods, surrogates, Hangul syllables, etc. Isn't a big burden to support? 
+* What level of support should I look for? 
+* Are there on-line resources to help me with Unicode? 
+* What does Unicode conformance require? 
+* How many languages are covered by Unicode? 
+* Does Unicode encode scripts or languages? 
+* Much of the Unicode Standard is organized into "code blocks" that look like other 7-bit or 8-bit code pages. Does this mean that Unicode is really an assemblage of 8-bit code pages for different languages? 
+* I understand that all Unicode characters are 16 bits, and that the high byte is used to switch between code blocks. Is that correct? 
+* Can applications simply use unassigned characters as they wish? 
+* What about special-purpose implementations that need many code points? 
+* Are surrogate characters the same as supplementary characters? 
+* What is the difference between UCS-2 and UTF-16? 
+
+ 
+
+Q: What is Unicode and why do I need it?
+
+A: For a brief explanation, see the appropriately named "What is Unicode" page.
+
+Q: I think my company might want to get involved in Unicode. Is there any material that I can use to present the case to my management?
+
+A: Yes, there is a white paper outlining the overall value proposition of a Unicode membership to an organization. See Why Join.
+
+Q: Where can I purchase the Unicode software or the Unicode font?
+
+A: The Unicode Standard is not a software program, nor is it a font. It is a character encoding system, like ASCII, designed to help developers who want to create software applications that work in any language in the world. 
+
+If all you need is to create a multilingual text or write a document or send e-mail in another language, then a Unicode-compliant text editor, mail program, or word processing package will do the job. Please see the following pages on our web site for further information about the standard and where to look for help:
+
+* Basic information about "What is Unicode?":
+ http://www.unicode.org/standard/WhatIsUnicode.html 
+* Information about fonts, keyboards, and software:
+ http://www.unicode.org/onlinedat/resources.html 
+* List of products known to support Unicode:
+ http://www.unicode.org/onlinedat/resources.html 
+* Introductory page to the standard itself:
+ http://www.unicode.org/standard/standard.html 
+If you are a developer starting to learn about using Unicode, you should get a copy of The Unicode Standard, Version 4.0 to find out more about Unicode. In addition to the pages listed above, please see:
+
+* Online Edition of The Unicode Standard Version 4.0 
+* Frequently Asked Questions:
+ http://www.unicode.org/faq/ 
+* Unicode mail list (on-line discussion forum):
+ http://www.unicode.org/consortium/distlist.html 
+Q: I can't find my character in Unicode. Where do I look?
+
+A: Look at "Where is my character?"
+
+Q: In the past, we have just handed off our code to a translation agency. What's wrong with that?
+
+A: Often, companies develop a first version of a program or system to just deal with English. When it comes time to produce a first international version, a common tactic is to just go through all the lines of code, and translate the literal strings.
+
+While this may work once, it is not a pattern that you want to follow. Not all literal strings get translated, so this process requires human judgment, and is time-consuming. Each new version is expensive, since people have to go through the same process of identifying the strings that need to be changed. In addition, since there are multiple versions of the source code, maintenance and support becomes expensive. Moreover, there a high risk that a translator may introduce bugs by mistakenly modifying code. [MD]
+
+Q: What is the modern approach?
+
+A: The general technique used now is to internationalize the programs. This means to prepare them so that the code never needs modification--separate files contain the translatable information. This involves a number of modifications to the code: 
+
+* move all translatable strings into separate files called resource files, and make the code access those strings when needed. These resource files can be flat text files, databases, or even code resources, but they are completely separate from the main code, and contain nothing but the translatable data. 
+* change variable formatting to be language-independent. This means that dates, times, numbers, currencies, and messages all call functions to format according to local language and country requirements. 
+* change sorting, searching and other types of processing to be language-independent. 
+Once this process is concluded, you have an internationalized program. To localize that program then involves no changes to the source code. Instead, just the translatable files are typically handed off to contractors or translation agencies to modify. The initial cost of producing internationalized code is somewhat higher than localizing to a single market, but you only pay that once. The costs of simply doing a localization, once your code is internationalized, is a fraction of the previous cost--and avoids the considerable cost of maintenance and source code control for multiple code versions. [MD]
+
+Q: How does Unicode play in internationalization?
+
+A: Unicode is the new foundation for this process of internationalization. Older codepages were difficult to use, and have inconsistent definitions for characters. Internationalizing your code while using the same code base is complex, since you would have to support different character sets--with different architectures--for different markets.
+
+But modern business requirements are even stronger; programs have to handle characters from a wide variety of languages at the same time: the EU alone requires several different older character sets to cover all its languages. Mixing older character sets together is a nightmare, since all data has to be tagged, and mixing data from different sources is nearly impossible to do reliably.
+
+With Unicode, a single internationalization process can produce code that handles the requirements of all the world markets at the same time. Since Unicode has a single definition for each character, you don't get data corruption problems that plague mixed codeset programs. Since it handles the characters for all the world markets in a uniform way, it avoids the complexities of different character code architectures. All of the modern operating systems, from PCs to mainframes, support Unicode now or are actively developing support for it. The same is true of databases, as well. [MD]
+
+Q: What was wrong with using classical character sets for application programs?
+
+A: Different character sets have very different architectures. In many, even simply detecting which bytes form a character is a complex, contextually-dependent process. That means either having multiple versions of the program code for different markets, or making the program code is much, much more complicated. Both of these choices involve development, testing, maintenance, and support problems. These make the non-US versions of programs more expensive, and delay their introduction, causing significant loss of revenue. [MD]
+
+Q: What was wrong with using classical character sets for databases?
+
+A: Classical character sets only handle a few languages at a time. Mixing languages was very difficult or impossible. In today's markets, mixing data from many sources all around the world, that strategy for products fails badly. The code for a simple letter like "A" will vary wildly between different sets, making searching, sorting, and other operations very difficult. There is also the problem of tagging every piece of textual data with a character set, and corruption problems when mixing text from different character sets. [MD]
+
+Q: What is different about Unicode?
+
+A: Unicode provides a unique encoding for every character. Once your data is in Unicode, it can be all handled the same way--sorted, searched, and manipulated without fear of data corruption. [MD]
+
+Q: You talk about Unicode being the right technical approach. But is it being accepted by the market?
+
+A: The industry is converging on Unicode for all internationalization. For example, Microsoft Windows is built on a base of Unicode; AIX, Solaris, HP/UX, and Apple's MacOS all offer Unicode support. All the new web standards; HTML, XML, etc. are supporting or requiring Unicode. The latest versions of Netscape Navigator and Internet Explorer both support Unicode. Sybase, Oracle, DB2 all offer or are developing Unicode support.
+
+Most significant application programs with international versions either support Unicode or are moving towards it. For example, Microsoft's products were rapidly adapted to use Unicode: most of Microsoft's Office suite of applications has supported Unicode for several versions now. This is a good illustration--Microsoft first started by merging their East Asian (Chinese, Japanese, and Korean) plus their US version into a single program using Unicode. They then merged in Middle East and South Asian support, until they had a single executable that could handle all their supported languages. [MD]
+
+Q: What about the Far East support?
+
+A: Unicode incorporates the characters of all the major government standards for ideographic characters from Japan, Korea, China, and Taiwan, and more. The Unicode Standard, Version 4.0 has over 70,000 ideographic characters. The Unicode Consortium actively works with the IRG committee of ISO SC2/WG2 to define additional sets of ideographic characters for inclusion in future versions. [MD]
+
+Q: So all I need is Unicode, right?
+
+A: Unicode is not a magic wand; it is a standard for the storage and interchange of textual data. Somewhere there has to be code that recognizes and provides for the conventions of different languages and countries. These conventions can be quite complex, and require considerable expertise to develop code for and to produce the data formats. Changing conditions and new markets also require considerable maintenance and development. Usually this support is provided in the operating system, or with a set of code libraries. [MD]
+
+Q: Unicode has all sorts of features: combining marks, bidirectionality, input methods, surrogates, Hangul syllables, etc. Isn't a big burden to support?
+
+A: Unicode by itself is not complicated to implement--it all depends on which languages you want to support. The character repertoire you need fundamentally determines the features you need to have for compliance. If you just want to support Western Europe, you don't need to have much implementation beyond what you have in ASCII.
+
+Which further characters you need to support is really dependent on the languages you want, and what system requirements you have (servers, for example, may not need input or display). For example, if you need East Asian languages (in input), you have to have input methods. If you support Arabic or Hebrew characters (in display), then you need the bidirectional algorithm. For normal applications, of course, much of this will be handled by the operating system for you. [MD]
+
+Q: What level of support should I look for?
+
+A: Unicode support really divides up into two categories: server-side support and client-side support. The requirements for Unicode support in these two categories can be summarized as follows (although you may only need a subset of these features for your projects): 
+
+* Full server-side Unicode support consists of: 
+
+* Storage and manipulation of Unicode strings. 
+* Conversion facilities to a full complement of other charsets (8859-x, JIS, EBCDIC, etc.) 
+* A full range of formatting/parsing functionality for numbers, currencies, date/time and messages for all locales you need. 
+* Message cataloging (resources) for accessing translated text. 
+* Unicode-conformant collation, normalization, and text boundary (grapheme, word, line-break) algorithms. 
+* Multiple locales/resources available simultaneously in the same application or thread. 
+* Charset-independent locales (all Unicode characters usable in any locale). 
+
+* Full client-side support consists all the same features as server-side, plus GUI support: 
+
+* Displaying, printing and editing Unicode text. 
+
+* This requires BIDI display if Arabic and Hebrew characters are supported. 
+* This requires character shaping if scripts such as Arabic and Indic are supported. 
+
+* Inputting text (e.g. with Japanese input methods) 
+* Full incorporation of these facilities into the windowing system and the desktop interface. [MD] 
+
+Q: Are there on-line resources to help me with Unicode?
+
+A: Yes. Here is a short table to help you find some of them.
+
+Question Reference 
+
+* What is in each particular version of Unicode? 
+* What is in the latest version of Unicode? 
+
+Versions of the Unicode Standard 
+
+Enumerated Versions	 
+
+* Where can I find code libraries, commercial or open-source, for the following? 
+
+* character conversion 
+* collation 
+* date, time, number, and message formatting 
+* normalization 
+* and the other features mentioned under "What level of support should I look for?" 
+
+Internationalization Libraries on Enabled Products, also see the Using Unicode section on the Useful Resources page.	 
+
+* What should regular expressions do with Unicode? 
+* Can I transmit Unicode text on EBCDIC systems? 
+* How should a word-processor break lines in Unicode text? 
+* Are there ways to normalize Unicode text? 
+* For the Far East, how do I decide which characters should use wide glyphs and which ones narrow? 
+* How should I sort Unicode text? 
+* Is there an update to the BIDI algorithm? 
+* How can I compress Unicode text? 
+
+Unicode Technical Reports	 
+
+*  I want to get online data for implementing Unicode. Where can I find data for: 
+
+* Character properties? 
+* Upper/lower/titlecasing? 
+* Decompositions? 
+* Normalization? 
+* Conversion to other character encodings? 
+* Code for Kanji code conversion with compressed tables? 
+
+Online Data	 
+
+*  Are there conferences or seminars where we can find out more about Unicode? 
+
+Unicode Conferences	 
+
+* Who are the current members of the consortium? 
+* I am interested in joining the consortium. Where can I find out more? 
+
+Membership Information 
+
+Our Members	 
+
+[MD]
+
+Q: What does Unicode conformance require?
+
+A: Chapter 3 discusses this in detail. Here's a very informal version: 
+
+* Unicode characters don't fit in 8 bits; deal with it. 
+* 2 Byte order is only an issue in I/O. 
+* If you don't know, assume big-endian. 
+* Loose surrogates have no meaning. 
+* Neither do U+FFFE and U+FFFF. 
+* Leave the unassigned codepoints alone. 
+* It's OK to be ignorant about a character, but not plain wrong. 
+* Subsets are strictly up to you. 
+* Canonical equivalence matters. 
+* Don't garble what you don't understand. 
+* Process UTF-* by the book. 
+* Ignore illegal encodings. 
+* Right-to-left scripts have to go by bidi rules. [JC] 
+Q: How many languages are covered by Unicode?
+
+A: It's hard to say. Many scripts (especially Latin) are used for a very large number of languages. The easiest answer is that Unicode covers all the languages that can be written in the following scripts: Latin, Greek, Cyrillic, Armenian, Hebrew, Arabic, Syriac, Thaana, Devanagari, Bengali, Gurmukhi, Oriya, Tamil, Telegu, Kannada, Malayalam, Sinhala, Thai, Lao, Tibetan, Myanmar, Georgian, Hangul, Ethiopic, Cherokee, Canadian-Aboriginal Syllabics, Ogham, Runic, Tagalog, HanunÃ³o, Buhid, Tagbanwa, Khmer, Mongolian, Limbu, Tai Le, Han (Japanese, Chinese, Korean ideographs), Hiragana, Katakana, Bopomofo, Yi, Linear B, Old Italic, Gothic, Ugaritic, Deseret, Shavian, Osmanya, and Cypriot.. See also the list of Languages and their Scripts. [MD]
+
+Q. Does Unicode encode scripts or languages?
+
+A. The Unicode Standard encodes characters on a per script basis. So, for example, there is only one set of Latin characters defined, despite the fact that the Latin script is used for the alphabets of thousands of different languages. The same principle applies for any other script (Cyrillic, Arabic, Ethiopic, Devanagari, ...) which is used for writing many different languages. However, the Unicode Standard does not encode scripts per se. For a listing of script names, see UTR #24, Script Names. For the ISO standard for script codes, see ISO/IEC 15924, Code for the Representation of Names of Scripts. For the ISO standard for language codes, see ISO 639, Code for the Representation of Names of Languages. [KW]
+
+Q. Much of the Unicode Standard is organized into "code blocks" that look like other 7-bit or 8-bit code pages. Does this mean that Unicode is really an assemblage of 8-bit code pages for different languages.
+
+A. No, not at all. The character blocks in the Unicode Standard are merely a convenience for exposition of the standard. The Unicode Standard is not an assemblage of code pages, but a single, universal character encoding. All characters are equally accessible, and the blocks have no implementation expression in most Unicode software. The fact that some character blocks, and in particular, the Indic script character blocks, bear a superficial resemblance, in ordering and size, to other standards such as ISCII or the ISO/IEC 8859 series, is primarily to assist people in interpreting the repertoire visually in comparison to legacy encodings, and to make it simpler to develop conversion tables for older character encodings. [KW]
+
+Q. I understand that all Unicode characters are 16 bits, and that the high byte is used to switch between code blocks. Is that correct?
+
+A. Absolutely not! Unicode characters may be encoded at any code point from U+0000 to U+10FFFF. The size of the code unit used for expressing those code points may be 8 bits (for UTF-8), 16 bits (for UTF-16), or 32 bits (for UTF-32) [See UTF & BOM]. Even when Unicode characters are expressed with 16-bit code units, there is no concept of a high byte switching values between "code pages" expressed in the low byte. The entire 16-bit value expresses the entire character, period. [KW]
+
+Q: Can applications simply use unassigned characters as they wish?
+
+A: No! No conformant Unicode implementation can use the un-encoded values outside of the private use area.
+
+Only the values in the private use areas (E000..F8FF, F0000..FFFFD, and 100000..10FFFD) are legal for private assignment. However, this is over 137,000 code points, which should be more than ample for the vast majority of implementations. [F0000..FFFFD and 100000..10FFFD are represented by surrogate pairs with private-use high surrogates (DB80..DBFF).] [MD]
+
+Q: What about special-purpose implementations that need many code points?
+
+A: For a particular implementation, if someone really, really wanted a representation that encoded more characters in a series of 16-bit code units then a series of private-use characters would work. For example, suppose you use a representation that consisted one BMP private-use character followed by one private-use surrogate pair (e.g. three 16-bit units). With such a representation, you can encode 6400 x 131,072 ( = 838,860,800) private use code points. [MD]
+
+Q: Are surrogate characters the same as supplementary characters?
+
+A: This question shows a common confusion. It is very important to distinguish surrogate code points (in the range U+D800..U+DFFF) from supplementary code points (in the completely different range, U+10000..U+10FFFF). Surrogate code points are reserved for use, *in pairs*, in representing supplementary code points in UTF-16.
+
+There are supplementary characters (i.e. encoded characters represented with a single supplementary code point), but there are not and will never be *surrogate characters* (i.e. encoded characters represented with a single surrogate code point). [MD]
+
+Q: What is the difference between UCS-2 and UTF-16?
+
+A: UCS-2 is what a Unicode implementation was up to Unicode 1.1, *before* surrogate code points and UTF-16 were added as concepts to Version 2.0 of the standard. This term should be now be avoided.
+
+When interpreting what people have meant by "UCS-2" in past usage, it is best thought of as not a data format, but as an indication that an implementation does not interpret any supplementary characters. In particular, for the purposes of data exchange, UCS-2 and UTF-16 are identical formats. Both are 16-bit, and have exactly the same code unit representation.
+
+The effective difference between UCS-2 and UTF-16 lies at a different level, when one is interpreting a sequence code units as code points or as characters. In that case, a UCS-2 implementation would not handle processing like character properties, codepoint boundaries, collation, etc. for supplementary characters. [MD] & [KW]
+
+---------------------------------------------------------------------
+
+

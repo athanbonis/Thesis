@@ -1,0 +1,118 @@
+Links Mozilla Firebird Forums Mozilla.org Other Links Mozilla Thunderbird Site Info About This Site Site News Contact © 2002-2003 David Tenser .   --> Mozilla Firebird 
+
+Download Mozilla Firebird
+
+Welcome to the Mozilla Firebird download page! We're glad that you decided to download and try our product. Take note, however, that Mozilla Firebird is still in beta stage and bugs can occur occasionally. We recommend you to install Mozilla Firebird 0.7. You can also try the nightly builds, but these are for testing purposes only. Finally, you can also get the source and build it yourself.
+
+Contents
+
+* Download Mozilla Firebird 0.7  
+* Download Nightly Builds  
+* Get the Source and Build  
+* System Requirements  
+* How To Install 
+
+---------------------------------------------------------------------
+
+Technology Preview: Download Mozilla Firebird 0.7
+
+Official releases from Mozilla.org
+
+Windows (6.0 MB) Linux: GTK (9.1 MB) | GTK2 and XFT (8.6 MB) MacOS X (10.6 MB) 
+* Source Tarball (37 MB) 
+
+Contributed (unofficial) releases
+
+Installer for Windows (5.4 MB) 
+* Other Operating Systems (OS/2, Solaris, BeOS, etc.) 
+* Localized Versions 
+
+Older releases: 0.1 | 0.2 | 0.3 | 0.4 | 0.5 | 0.6
+
+Be sure to read the release notes before installing Mozilla Firebird.
+
+Mozilla Firebird 0.7 is recommended for most users. Mozilla Firebird development is organized around a series of milestone releases. Each milestone adds infrastructure, features, and bug fixes.
+
+The milestones are our most stable builds. If you're new to Mozilla Firebird, be sure to start by installing the latest milestone build.
+
+Testers: Download Nightly Builds
+
+Download the latest nightly build for: Windows with installer or zipped archive Linux with GTK or XFT and GTK2 MacOS X 
+* FreeBSD 
+
+Alternatively, download older builds. None of these experimental builds have installers.
+
+If you are using Windows, you can download the latest nightly build with an installer (unofficial web installer).
+
+Nightly builds are recommended for experienced users. These builds are the least stable but the most up-to-date. Normally, new builds are released on a daily basis. If you download a build and it doesn't work, try the one from the day before or the day after. Remember, this isn't a finished product.
+
+Developers: Get the Source and Build
+
+Mozilla Firebird is open-source software. If you're using Windows, read how to get the source and build Mozilla Firebird.
+
+If you're running Linux and are familiar with building software, the Win32 instructions will probably be helpful, despite being targeted at Windows users.
+
+---------------------------------------------------------------------
+System Requirements
+
+Before installing, make sure your computer meets the system requirements:
+
+* Windows 98 and higher 
+* Mac OS X and higher  
+* Red Hat Linux 7.0 and higher 
+
+For more information, read the detailed system requirements.
+
+How To Install
+
+The official releases don't have installers, which means that you need to install Mozilla Firebird manually. If you're using Windows, you can download an unofficial installer which takes care of this whole process, including the creation of application shortcuts. If you're not using Windows, or if you prefer to download the official binaries, the instructions are as follows:
+
+Once you have downloaded the compressed (zipped) file, use Winzip or gzip to uncompress Mozilla Firebird to an empty folder. Navigate to the folder you placed the files in. If you're running Windows, start the MozillaFirebird.exe file (the one with the red fire icon). If you're running Linux, start the MozillaFirebird script.
+
+Note: Do not unzip Mozilla Firebird to a directory that already contains a previous version of Mozilla Firebird. Either delete the existing directory, move it out of the way or create a new directory. If you install Mozilla Firebird on top of an existing Mozilla Firebird or Mozilla directory you will have problems.
+
+Main Menu  
+Home   
+News
+   
+Features
+   
+Download
+  
+Documentation   
+Keyboard Shortcuts
+   
+Mouse Shortcuts
+   
+
+Options Window
+   
+Tips & Tricks
+   
+Menu Reference
+  
+Support   
+Mozilla Firebird FAQ
+   
+Editing Config. Files
+   
+Reporting Bugs
+  
+Extensions  
+Themes   Links  
+Mozilla Firebird Forums
+  
+Mozilla.org
+  
+Other Links
+  
+Mozilla Thunderbird
+ Site Info  
+About This Site
+  
+Site News
+  
+Contact
+  
+
+© 2002-2003 David Tenser. 

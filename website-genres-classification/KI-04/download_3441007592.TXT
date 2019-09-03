@@ -1,0 +1,178 @@
+Latest Devel Nmap Tarball: Currently none -- use stable Latest Nmapwin Source: nmapwin_1.3.0_src.zip Linux RPM Source and Binaries Many popular Linux distributions (Redhat, Mandrake, Suse, etc) use the RPM package management system. Note that the RPMs don't link to OpenSSL for version detection . X86 (PC) users can install the latest version of Nmap in seconds with these commands: rpm -vhU http://download.insecure.org/nmap/dist/nmap-3.50-1.i386.rpm rpm -vhU http://download.insecure.org/nmap/dist/nmap-frontend-3.50-1.i386.rpm Or you can download the RPMs yourself: Latest Stable X86 Nmap RPM: nmap-3.50-1.i386.rpm Latest Stable X86 NmapFE RPM: nmap-frontend-3.50-1.i386.rpm Latest Stable Source RPM (includes NmapFE): nmap-3.50-1.src.rpm nmap-3.15BETA3-1.i386.rpm --> Latest Development X86 Nmap RPM: Currently none -- use stable nmap-frontend-3.15BETA3-1.i386.rpm --> Latest Development X86 NmapFE RPM: Currently none -- use stable nmap-3.15BETA3-1.src.rpm --> Latest Development Source RPM (includes NmapFE): Currently none -- use stable Windows (95/98/NT/ME/2K/XP) Thanks to the hard work of Ryan Permeh (from eEye ) and Andy Lutomirski, the base Nmap package now builds and functions under Windows! Note that Windows support is not yet as stable or fast as the traditional UNIX version. Command-line zipfile : Every major "stable" Nmap release comes with Windows command-line binaries and associated files in a Zip archive. No graphical interface is included, so you need to run nmap.exe from a DOS/command window. See the screen shot above. Or you can download and install a superior command shell such as those included with the free Cygwin system . Here are the step-by-step instructions for installing and executing the Nmap .Zip binaries: Download the binaries: Latest stable Nmap command-line zipfile: nmap-3.50-win32.zip nmap-3.15BETA3-win32.zip --> Latest development Nmap command-line zipfile: Currently none -- use stable Uncompress the zip-file into the directory you want Nmap to reside in. An example would be C:\Program Files\ . A directory called nmap-VERSION should be created, which includes the Nmap executable and data files. If you do not have a Zip decompression program, there is one (called unzip) in Cygwin , or you can download Winzip or PKZIP from http://www.winzip.com and http://www.pkware.com respectively. These companies may try to direct you to costly software, but you should be able to find a free version. Consider applying the Nmap performance registry changes by clicking on nmap_performance.reg in the new Nmap directory. This increases the number of ephermal ports reserved for user applications (such as Nmap) and decreases the amount of time before a closed connection can be reused. Nmap requires the free WinPcap packet capture library. Obtain and install the latest version from http://winpcap.polito.it . They distribute an executable installer which makes this easy. At the time of this writing, the latest version is 3.01 and is known to work. Downloading the newest version available is recommended. After installing Nmap using the steps above, it can be executed as follows: Make sure the user you are logged in as has administrative privileges in the box (should be in the administrators group). Open a command/DOS Window. On Windows XP, this is in Start Menu -> All Programs -> Accessories -> Command Prompt. That path may vary by Windows version, but it should always be available from the Start menu. Opening a Cygwin window (if you installed it) by clicking on the Cygwin icon on the desktop is fine too, although the necessary commands differ slightly from those shown below. Change to the directory you installed Nmap into. Assuming the example directory name used in the install section above, type: c: cd "\program files\nmap-VERSION" (replace VERSION with the Nmap version number) Execute nmap.exe by typing a command such as nmap -A -T4 scanme.insecure.org . Here is a screen shot . Nmapwin installer : As an alternative to the command-line version of Nmap above, you can try the excellent NmapWin GUI created by Jens Vogt. This is (slightly) easier to install and provides a pretty graphical interface to Nmap. Unfortunately it is rather out of date , still using Nmap 3.00 from July 2002. So for now, the command-line version above is recommended. But if you really prefer this GUI, follow these instructions instead of the ones above: Download the latest NmapWin installer: nmapwin_1.3.1.exe Run the executable (installer program) and follow on-screen prompts Reboot (this is Windows, after all!) Click on the pretty Nmapwin desktop icon. Troubleshooting If you have trouble using either Windows version of Nmap (strange error/compile/install/runtime messages), try the following: Does the error say "INSTMSIA.EXE not found"? Then download and run it from here . If the error asks for "InstMsiW.exe" instead, get it here . You might want to try installing the Windows Network Monitor Driver Protocol . Check for error messages in the Windows event log (On at least WinXP, the Event Viewer can be opened by running "eventvwr"). Consider using the .zip version of Nmap instead of Nmapwin (or vice versa). Consider manually installing/reinstalling the latest version of Winpcap Perhaps someone else has reported the problem. Try reading recent Nmap-dev list archives . If one of the above solutions work, please let me know so that I can work on an automatic solution. If Nmap still doesn't work for you, please mail nmap-dev@insecure.org with a thorough description of the problem as well as the Windows flavor and Nmap version your are using. Other Operating Systems Many other operating systems support Nmap so well that I have no need to create and distribute binary packages myself. You can choose to use the packages below, or compile the source distribution , which is often newer. Solaris Steven Christensen does an excellent job maintaining Nmap (and many other) packages for Solaris at Sunfreeware.Com . Debian GNU/Linux LaMont Jones does a fabulous job maintaining the Nmap .deb packages. The proper upgrade/install command is "apt-get install nmap". Or you can obtain package info at the following URLs: Latest Debian "stable" Nmap: http://packages.debian.org/stable/net/nmap.html Latest Debian development ("unstable") Nmap: http://packages.debian.org/unstable/net/nmap.html Mac OS X Many Mac OS X users obtain Nmap along with many other UNIX tools from the Fink project . An alternative Mac OS X porting project that includes Nmap is DarwinPorts . Thanks to Eric Hall for maintaining the Nmap DarwinPort. If you compile the source distribution instead, be sure to read the Mac OS X note in that section. FreeBSD David O'Brien and Dominic Marks do a superb job keeping the FreeBSD "ports collection" version of Nmap up-to-date! The latest versions are available here . OpenBSD Nmap is included in the OpenBSD ports collection. Further information and instructions are available here . The basic instructions are: If you do not already have a copy of the ports tree, obtain it via CVS using these instructions . As root, execute the following command (replace /usr/ports with your local ports directory if it is different): cd /usr/ports/net/nmap && make install clean NetBSD NetBSD has packaged Nmap for an enormous number of platforms , from normal i386 to Playstation2, powerpc, vax, sparc, mips, amiga, arm, and platforms I have never even heard of! Instructions for dealing with the NetBSD package system are available here . HP-UX HP-UX Nmap binaries are available at The HP-UX Porting and Archive Center . At the time of this writing, the latest version available is 2.53 (very old). Nmap Site Navigation Introduction Documentation Propaganda Download OS Detection Portability In The News Related Projects Thanks To [ Nmap | Tools | Lists | Reading | News | About/Contact | Advertising | Privacy Policy ]   --> 
+
+Nmap Security Scanner
+Intro
+Docs
+Download
+Security Tools
+Good Reading
+Security Lists
+Nmap Hackers
+Nmap Dev
+Bugtraq
+Full Disclosure
+Pen Test
+Vuln Dev
+Basics
+More
+News
+inks
+Exploit World
+Advertising
+About/Contact
+Credits
+
+Introduction	 Documentation	 Propaganda	 
+Download	 OS Detection	 Portability	 
+In The News	 Related Projects	 Thanks To	 
+
+Downloading Nmap
+ 
+Nmap and NmapFE (the graphical X Window front end) are available in several versions and formats. Recent source releases and binary packages are described below. Older version are available from the dist directory. The "stable" versions are for more conservative users, while "devel" packages are for developers and "bleeding-edge" types. GPG-signed MD5 checksums for integrity checking are available from the Nmap-hackers and Nmap-dev mailing lists. Subscription information and a web archive are available at seclists.org. The most important changes (features, bugfixes, etc) in each Nmap version are described in the ChangeLog. Be sure to read the documentation! 
+
+Nmap is distributed with source code under the terms of the GNU General Public License. It includes a slightly modified version of the Libpcap packet capturing libraries and the PCRE perl-compatible regular expression library. 
+Some of the Nmap downloads and images are graciously hosted by VA Software's Source Forge:	 	
+
+Source Distribution
+ 
+
+This is the traditional compile-it-yourself format. The Nmap tarball compiles uder UNIX (including Linux, Solaris, Free/Net/OpenBSD, and Mac OS X) and Windows. It includes NmapFE, the UNIX X Window frontend. Nmapwin is the recommended Windows GUI (developed by Jens Vogt). 
+
+Note that Nmap is now offered in bzip2 format. If you don't have bzip2 nor feel like downloading it, gzip'ed tarballs are still available below or in the dist directory. 
+
+Here are the UNIX instructions for tarball compilation/installation: 
+
+bzip2 -cd nmap-VERSION.tar.bz2 | tar xvf -
+cd nmap-VERSION
+./configure
+make
+su root
+make install
+
+If you are using the gzip-compressed version, substitute 'gzip' for 'bzip2' in the command above. After a default as-root 'make install', Nmap should be available as /usr/local/bin/nmap. The UNIX frontend is /usr/local/bin/nmapfe. 
+
+For Windows source compilation, see the README-WIN32 file in the tarball. Nmapwin source compilation instructions are coming soon. 
+
+Mac OS X users: If you wish to compile from source (as opposed to binaries later on this page), and the normal "./configure" line above does not work for you, try "./configure CPP=/usr/bin/cpp". You also need to install the free Apple Developer Tools [instructions]. If you think the "configure" script is looping, be sure your computer's clock/date is set correctly and wait at least 10 minutes for completion before reporting it. If you still have trouble, let me know. 
+
+Latest Stable Nmap Tarball: nmap-3.50.tar.bz2 (or gzip compressed: nmap-3.50.tgz)
+ Latest Devel Nmap Tarball: Currently none -- use stable 
+Latest Nmapwin Source: nmapwin_1.3.0_src.zip
+
+Linux RPM Source and Binaries
+ 
+
+Many popular Linux distributions (Redhat, Mandrake, Suse, etc) use the RPM package management system. Note that the RPMs don't link to OpenSSL for version detection. X86 (PC) users can install the latest version of Nmap in seconds with these commands: 
+
+rpm -vhU http://download.insecure.org/nmap/dist/nmap-3.50-1.i386.rpm
+rpm -vhU http://download.insecure.org/nmap/dist/nmap-frontend-3.50-1.i386.rpm
+
+Or you can download the RPMs yourself: 
+
+Latest Stable X86 Nmap RPM: nmap-3.50-1.i386.rpm
+Latest Stable X86 NmapFE RPM: nmap-frontend-3.50-1.i386.rpm
+Latest Stable Source RPM (includes NmapFE): nmap-3.50-1.src.rpm
+ Latest Development X86 Nmap RPM: Currently none -- use stable
+ Latest Development X86 NmapFE RPM: Currently none -- use stable
+ Latest Development Source RPM (includes NmapFE): Currently none -- use stable
+ 
+
+Windows (95/98/NT/ME/2K/XP)
+ 
+
+Thanks to the hard work of Ryan Permeh (from eEye) and Andy Lutomirski, the base Nmap package now builds and functions under Windows! Note that Windows support is not yet as stable or fast as the traditional UNIX version. 	
+
+Command-line zipfile: 
+
+Every major "stable" Nmap release comes with Windows command-line binaries and associated files in a Zip archive. No graphical interface is included, so you need to run nmap.exe from a DOS/command window. See the screen shot above. Or you can download and install a superior command shell such as those included with the free Cygwin system. Here are the step-by-step instructions for installing and executing the Nmap .Zip binaries: 
+
+1.  Download the binaries: 
+
+Latest stable Nmap command-line zipfile: nmap-3.50-win32.zip
+ Latest development Nmap command-line zipfile: Currently none -- use stable 
+2.  Uncompress the zip-file into the directory you want Nmap to reside in. An example would be C:\Program Files\. A directory called nmap-VERSION should be created, which includes the Nmap executable and data files. If you do not have a Zip decompression program, there is one (called unzip) in Cygwin, or you can download Winzip or PKZIP from http://www.winzip.com and http://www.pkware.com respectively. These companies may try to direct you to costly software, but you should be able to find a free version. 
+3.  Consider applying the Nmap performance registry changes by clicking on nmap_performance.reg in the new Nmap directory. This increases the number of ephermal ports reserved for user applications (such as Nmap) and decreases the amount of time before a closed connection can be reused. 
+4.  Nmap requires the free WinPcap packet capture library. Obtain and install the latest version from http://winpcap.polito.it. They distribute an executable installer which makes this easy. At the time of this writing, the latest version is 3.01 and is known to work. Downloading the newest version available is recommended. 
+
+After installing Nmap using the steps above, it can be executed as follows: 
+
+1.  Make sure the user you are logged in as has administrative privileges in the box (should be in the administrators group). 
+2.  Open a command/DOS Window. On Windows XP, this is in Start Menu -> All Programs -> Accessories -> Command Prompt. That path may vary by Windows version, but it should always be available from the Start menu. Opening a Cygwin window (if you installed it) by clicking on the Cygwin icon on the desktop is fine too, although the necessary commands differ slightly from those shown below. 
+3.  Change to the directory you installed Nmap into. Assuming the example directory name used in the install section above, type: 
+
+c:
+cd "\program files\nmap-VERSION" (replace VERSION with the Nmap version number)
+
+4.  Execute nmap.exe by typing a command such as nmap -A -T4 scanme.insecure.org. Here is a screen shot. 
+
+Nmapwin installer:
+
+As an alternative to the command-line version of Nmap above, you can try the excellent NmapWin GUI created by Jens Vogt. This is (slightly) easier to install and provides a pretty graphical interface to Nmap. Unfortunately it is rather out of date, still using Nmap 3.00 from July 2002. So for now, the command-line version above is recommended. But if you really prefer this GUI, follow these instructions instead of the ones above: 
+
+1.  Download the latest NmapWin installer: nmapwin_1.3.1.exe 
+2.  Run the executable (installer program) and follow on-screen prompts 
+3.  Reboot (this is Windows, after all!) 
+4.  Click on the pretty Nmapwin desktop icon. 
+
+Troubleshooting 
+
+If you have trouble using either Windows version of Nmap (strange error/compile/install/runtime messages), try the following: 
+
+* Does the error say "INSTMSIA.EXE not found"? Then download and run it from here. If the error asks for "InstMsiW.exe" instead, get it here. 
+* You might want to try installing the Windows Network Monitor Driver Protocol. 
+* Check for error messages in the Windows event log (On at least WinXP, the Event Viewer can be opened by running "eventvwr"). 
+* Consider using the .zip version of Nmap instead of Nmapwin (or vice versa). 
+* Consider manually installing/reinstalling the latest version of Winpcap
+* Perhaps someone else has reported the problem. Try reading recent Nmap-dev list archives. 
+
+If one of the above solutions work, please let me know so that I can work on an automatic solution. If Nmap still doesn't work for you, please mail nmap-dev@insecure.org with a thorough description of the problem as well as the Windows flavor and Nmap version your are using. 
+
+Other Operating Systems
+ 
+
+Many other operating systems support Nmap so well that I have no need to create and distribute binary packages myself. You can choose to use the packages below, or compile the source distribution, which is often newer. 
+
+Solaris 
+
+Steven Christensen does an excellent job maintaining Nmap (and many other) packages for Solaris at Sunfreeware.Com. 
+
+Debian GNU/Linux 
+
+LaMont Jones does a fabulous job maintaining the Nmap .deb packages. The proper upgrade/install command is "apt-get install nmap". Or you can obtain package info at the following URLs: 
+
+Latest Debian "stable" Nmap: http://packages.debian.org/stable/net/nmap.html
+Latest Debian development ("unstable") Nmap: http://packages.debian.org/unstable/net/nmap.html
+
+Mac OS X 
+
+Many Mac OS X users obtain Nmap along with many other UNIX tools from the Fink project. An alternative Mac OS X porting project that includes Nmap is DarwinPorts. Thanks to Eric Hall for maintaining the Nmap DarwinPort. If you compile the source distribution instead, be sure to read the Mac OS X note in that section. 
+
+FreeBSD 
+
+David O'Brien and Dominic Marks do a superb job keeping the FreeBSD "ports collection" version of Nmap up-to-date! The latest versions are available here. 
+
+OpenBSD 
+
+Nmap is included in the OpenBSD ports collection. Further information and instructions are available here. The basic instructions are: 
+
+1.  If you do not already have a copy of the ports tree, obtain it via CVS using these instructions. 
+2.  As root, execute the following command (replace /usr/ports with your local ports directory if it is different): 
+
+cd /usr/ports/net/nmap && make install clean
+
+NetBSD 
+
+NetBSD has packaged Nmap for an enormous number of platforms, from normal i386 to Playstation2, powerpc, vax, sparc, mips, amiga, arm, and platforms I have never even heard of! Instructions for dealing with the NetBSD package system are available here. 
+
+HP-UX 
+
+HP-UX Nmap binaries are available at The HP-UX Porting and Archive Center. At the time of this writing, the latest version available is 2.53 (very old). 
+
+Nmap Site Navigation
+ 
+Introduction	 Documentation	 Propaganda	 
+Download	 OS Detection	 Portability	 
+In The News	 Related Projects	 Thanks To	 
+
+[ Nmap | Tools | Lists | Reading | News | About/Contact | Advertising | Privacy Policy ]
+ 

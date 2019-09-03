@@ -1,0 +1,99 @@
+
+Next: The Perceptron Paradigm Up: 27-642 Artificial Neural Networks Previous: 27-642 Artificial Neural Networks 
+
+Subsections 
+
+* McCulloch and Pitts, 1943 
+
+* The Setting 
+* The Premises 
+* Translation 
+* Some Example Neurons 
+* Degrees of Inhibition 
+* Repercussions 
+
+---------------------------------------------------------------------
+
+A First Artificial Network 
+
+In previous lectures we have seen a general overview of Artificial Neural Networks (ANNs) and the relation of the discipline to Artificial Intelligence (AI). This lectures explores the development of one particular network design from its origins to its current incarnation. 
+
+McCulloch and Pitts, 1943 
+
+The Setting 
+
+* beginnings of single cell recordings 
+* no intracellular recordings 
+* ionic and electrical basis of neural activity unclear 
+* dominant observation: ``all or none action potential'' 
+* no understanding of how thought, intelligence, reasoning, etc.,  occurred in the neural substrate 
+* models of intelligence largely based in logic 
+
+Warren S. McCulloch and Walter Pitts, ``A logical calculus of the ideas immanent in nervous activity'', Bulletin of Mathematical Biophysics, 5: 115-133. 
+
+The Premises 
+
+All based on 1943 understandings of neuro-biology. 
+
+1. 
+The activity of the neuron is an ``all-or-none'' process. 
+2. 
+A certain fixed number of synapses must be excited within the period of latent addition in order to excite a neuron at any time, and this  number is independent of previous activity and position on the  neuron. 
+3. 
+The only significant delay within the nervous system is synaptic delay. 
+4. 
+The activity of any inhibitory synapse absolutely prevents excitation  of the neuron at that time. 
+5. 
+The structure of the net does not change with time. 
+
+Goal: to postulate a mathematical model of networks of neurons that was biologically accurate and could account for high level cognitive tasks (logic). 
+
+Translation 
+
+The mathematical formalism used is very ornate. Minsky (1967), used a more straightforward formulation to develop an entire theory of computation. 
+
+1. 
+The activity is -1 or +1. 
+2. 
+Excitatory connections: 
+
+(1)	 
+
+3. 
+Connections are associated with a delay. 
+4. 
+If an neuron with an inhibitory connection to this neuron is active (+1),  then this neuron does not fire (-1). 
+5. 
+System is static. 
+
+Some Example Neurons 
+
+* No excitatory connections, bi = -1, 1 inhibitory connection. 
+
+NOT. 
+
+* Two excitatory connections, wi,1 = 1, wi,2 = 1, bi = -1/2,  no inhibitory connections. 
+
+OR. 
+
+* Two excitatory connections, wi,1 = 1, wi,2 = 1, bi = +1/2,  no inhibitory connections. 
+
+AND. 
+
+With NOT, OR, and AND gates, any logic circuit can be created. 
+
+Degrees of Inhibition 
+
+McCulloch and Pitts also showed that networks with degrees of inhibition have equivalent computational power. This means for every net with all-or-nothing inhibition, there exists a different net with degrees of inhibition that does exactly the same thing, and vice versa. How would we do this construction? 
+
+Repercussions 
+
+* influenced von Neumann (1945) 
+* Minsky (1967) theory of computation 
+* basis for biological models of neurons 
+* led to generalized artificial neuron models used today (first   perceptron) 
+
+---------------------------------------------------------------------
+
+Next: The Perceptron Paradigm Up: 27-642 Artificial Neural Networks Previous: 27-642 Artificial Neural Networks 
+1999-01-26 

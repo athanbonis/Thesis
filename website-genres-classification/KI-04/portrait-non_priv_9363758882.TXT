@@ -1,0 +1,419 @@
+  function random(num){   var cur=Math.round((num-1)*Math.random())   return cur;   }    function RandomProduct(product_img_src,titext,tilink, product_desc, morelink){   this.product_img_src = product_img_src;   this.titext  = titext;     this.tilink  = tilink;   this.product_desc = product_desc;      this.morelink  = morelink;  }  var random_product1 = new Array();  var random_product2 = new Array();  var random_product3 = new Array();  random_product1[0] = new RandomProduct("images/img_camera.gif" , "Techwin", "http://www.samsungcamera.com/", "An elegant, hand-friendly form that appeals to the user's senses of sight and touch...1","http://www.samsungcamera.com/");  random_product1[1] = new RandomProduct("images/img_camera.gif", "Techwin", "http://www.samsungcamera.com/", "An elegant, hand-friendly form that appeals to the user's senses of sight and touch...1", "http://www.samsungcamera.com/");  random_product2[0] = new RandomProduct("images/img_chip.gif", "Electro-Mechanics", "http://www.sem.samsung.co.kr/kr/products/productOverview.jsp?categoryID=4AFECF11-4629-184E-1B3872409AC42428&navi=overview ", "VCO modules change the frequency transmitted or received based upon the..","http://www.sem.samsung.co.kr/kr/products/productOverview.jsp?categoryID=4AFECF11-4629-184E-1B3872409AC42428&navi=overview");  random_product2[1] = new RandomProduct("images/img_chip.gif", "Electro-Mechanics", "http://www.sem.samsung.co.kr/kr/products/productOverview.jsp?categoryID=4AFECF11-4629-184E-1B3872409AC42428&navi=overview", "VCO modules change the frequency transmitted or received based upon the..","http://www.sem.samsung.co.kr/kr/products/productOverview.jsp?categoryID=4AFECF11-4629-184E-1B3872409AC42428&navi=overview");  random_product3[0] = new RandomProduct("images/img_voc.gif", "SDI", "http://www.samsungsdi.com", "Amid the recent explosive growth of the color mobile phone market and greater....","http://www.samsungsdi.com");  random_product3[1] = new RandomProduct("images/img_voc.gif", "SDI", "http://www.samsungsdi.com", "Amid the recent explosive growth of the color mobile phone market and greater....","http://www.samsungsdi.com");  function print_product(index){   var product_obj = eval("random_product" + index)[random(2)];   document.writeln("
+
+");   document.writeln("
+
+");   document.writeln("
+"+product_obj.titext+"	");   document.writeln("
+"+product_obj.product_desc+"	");   document.writeln("
+
+");   document.writeln("
+
+");   } function Go_global() { var obj = document.global; var url = obj.url.value; if (url == "") { alert("Select a Country"); obj.url.focus(); return; } window.open(url,"","") } 
+ 	        
+     	     	     	     	     	     	       
+ 	
+
+Select a Country
+     
+Argentina 
+    
+Australia 
+    
+Austria 
+    
+Belgium 
+    
+Brazil 
+    
+Canada 
+    
+Chile 
+    
+China (Group) 
+    
+China (Electronics) 
+    
+Colombia 
+    
+Europe 
+    
+Finland 
+    
+France 
+    
+Germany 
+    
+Hong Kong 
+    
+Hungary 
+    
+India 
+    
+Indonesia
+     
+Italy 
+    
+Japan 
+    
+Kazakhstan 
+    
+Korea (Group) 
+    
+Korea (Electronics) 
+    
+Latvia 
+    
+Lithuania 
+    
+Malaysia 
+    
+Mexico 
+    
+Middle East 
+    
+Netherlands 
+    
+Panama 
+    
+Peru 
+    
+Philippines 
+    
+Poland 
+    
+Portugal 
+    
+Russia 
+    
+Singapore 
+    
+South Africa 
+    
+Spain 
+    
+Sweden 
+    
+Taiwan 
+    
+Thailand 
+    
+Turkey 
+    
+United Kingdom 
+    
+United States 
+        
+Ukraine 
+    
+Vietnam 
+    
+
+Sales Locations	 
+
+Service Locations	 
+
+Mobile Phones	
+  	
+ 	
+   
+
+TV, Video & Audio	
+  	
+ 	
+   
+
+Computers & Related Products	
+  	
+ 	
+   
+
+Home Appliances	
+  	
+ 	
+   
+
+Semiconductor	
+  	
+ 	
+   
+
+TFT LCD Modules	
+  	
+ 	
+   
+
+Telecommunication Systems	
+  	
+ 	
+   
+
+Fiberoptics	
+  	
+ 	
+   
+
+CCTV	
+  	
+ 	
+   
+
+Compressors	
+  	
+ 	
+ 
+  	  
+  	 
+
+Home > Products 	
+
+GSM	 
+
+CDMA	 
+
+TDMA	 
+
+Cordless Phone	 
+
+TV	 
+
+DVD Player	 
+
+Camcorder	 
+
+VCR	 
+
+Digital Set Top Box	 
+
+Digital Audio Player 
+
+Home Audio	 
+
+Portable Audio	 
+
+Notebook PCs	 
+
+Hard Disk Drive	 
+
+CD/DVD-Rom	 
+
+CD/DVD-Writer	 
+
+Monitor	 
+
+Printer	 
+
+Multi Function Products	 
+
+Fax	 
+
+ 	 
+
+Refrigerator	 
+
+Air Conditioner	 
+
+Microwave Oven	 
+
+Washing Machine	 
+
+Vacuum Cleaner	 
+
+DRAM	 
+
+Flash & SmartMedia	 
+
+SRAM	      
+
+UtRAM	 
+
+MCP	 
+
+Graphics Memory	 
+
+Mask ROM	 
+
+System LSI	 
+
+ASIC	 
+
+Note PC	 
+
+LCD TV	 
+
+Monitor& Industrial	 
+
+Small & Mediums	 
+
+Recipro Compressor	 
+
+Rotary Compressor	 
+
+CDMA2000 1X	 
+
+CDMA20001xEV-DO	 
+
+W-CDMA	 
+
+NGN Solution	 
+
+Broadband Network Solution	 
+
+Edge/Metro Solution	 
+
+InfoMobile	 
+
+OfficeServ	 
+
+Keyphone	 
+
+Home Infra	 
+
+ 	 
+
+Optical Fibers	 
+
+Fiber Optic Cables	 
+
+Interconnection Products	 
+
+Cameras	 
+
+SmartDome Systems	 
+
+Monitors	 
+
+Network Security	 
+
+Controllers	 
+
+VCRs	 
+
+DVRs	 
+
+Digital Display	 
+
+PDP	 	MDT	 	CDT	 	CPT	 
+
+Mobile Display & Energy 	
+
+LCD(TSP)	 	VFD	 	Battery	 		
+
+Business Software	 
+
+Enterprise Portal(E.R.P.)	 
+
+Enterprise Knowledge Management 	
+
+Unified Communications	 
+
+Graphic Viewer	 
+
+Reporting Tools	 
+
+SmartCard System Solution 	
+
+System Integration and More...	 
+
+Electronic Components	 
+
+MLB(Multi-layer board) 	
+
+BGA (Ball Grid Array) 	
+
+Optical Pick-up 	
+
+Bluetooth	 
+
+Digital Tuner	 
+
+LD	 
+
+LED	 
+
+SAW Filter	 
+
+FEM	 
+
+PAM	 
+
+TCXO	 
+
+Display Materials	 
+
+Glass for TVs & Monitors	 
+
+Frit Glass	 
+
+ITO Coated Glass	 
+
+ITO Glass for PDP	 
+
+Touch Pan el Glass	 
+
+ARAS Glass	 
+
+Coated Film	 
+
+Nano Powder	 
+
+Ceria Nano Powder	 
+
+Ceramics	 
+
+Rotary Transformer	 
+
+Power Supply Ferrite Cores	 
+
+Sputtering Target	 
+
+Camera	 
+
+Digital Camera	 
+
+35mm Camera	 
+
+Web Camera	 
+
+Presenter	 
+
+Semiconductor System	 
+
+Chip Mounter	 
+
+Lead Frame	 
+
+IT Consumables	 
+
+CD-R/RW 	
+
+DVD-R/RW/+RW/RAM	 
+
+CF Card	 
+
+Floppy Diskette 	
+
+Negative Color Film	 
+
+Inkjet & Toner	 
+
+Primary Battery 	
+
+6mm/8mm Digital Tapes	 
+
+Engineering plastics	 
+
+Flame-Retardant ABS	 
+
+Flame-Retardant Hi-Impact PS	 
+
+Electronic Chemical Material	 
+
+Semiconductor materials - EMC,CMP Slurry	 
+
+Display materials - CR,PI	 
+
+Secondary Li-Ion Batteries - Starlyte Electrolyte	 
+
+Functional materials - PASTE, EMS, OPC, INK 	
+
+

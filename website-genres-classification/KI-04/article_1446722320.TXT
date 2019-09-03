@@ -1,0 +1,46 @@
+Programming Languages -- The LOOPS Project (1982-1986)
+
+Main Participants: Daniel Bobrow, Sanjay Mittal, Stanley Lanning, and Mark Stefik.
+
+The LOOPS (Lisp Object-Oriented Language) project was started to support development of expert systems project at PARC. We wanted a language that had many of the features of frame languages, such as objects, annotated values, inheritance, and attached procedures. We drew heavily on Smalltalk-80, which was being developed next door.
+
+Bobrow and Stefik had done frame languages before (KRL and UNITS, respectively). KRL was one of the first frame languges ever and established the paradigm. Units was part of a doctoral dissertation, was heavily used at Stanford, and was subsequently developed by Intellicorp to become KEE. 
+
+Loops was a multiple-paradigm extension to Interlisp-D. It had
+
+* Object-oriented programming. (Classes and objects, class variables, instance variables, methods, multiple-inheritance, interactive class browsers)
+
+* Access-oriented programming. Nestable active values that can be attached to instance variables. Whenever a program puts a value to an instance variable or gets a value from an instance variable to which active values are attached, procedures specified in the active value are triggered. Active values also enabled attaching lists of property values to instance variables. This was  used for creating audit trails and other things.
+
+* Rule-oriented programming. A simple forward-chaining rule language with facilities for leaving an audit trail via active values.
+
+Loops provided "gauges" that could be used for debugging and for monitoring in simulation programs. Gauges were LOOPS objects. They could be attached  to any value of any object in the system and provide a visual indication of program activity.	 
+
+As part of developing LOOPS, we developed a one week course about the language and offered it to research colleagues and Xerox  customers. As part of the pedagogy of that course, students developed a program that participated in a simulation game. The program was called Truckin'. On the last day of the course, programs from all of the students were loaded into a single simulation environment (sometimes across multiple machines). The programs competed with each other in the Truckin' simulation world. The event was called a "knowledge competition." For more about this, click on Truckin' under Past Activities.  
+
+Loops became part of the XSIS software product for the Lisp machines it was selling. The photograph above shows Larry Masinter and Danny Bobrow manning the booth at one of the AI conferences.
+
+In the 1980s, the Lisp community was fragmented into many subcommunities using language variants -- including MIT (Symbolics) Lisp, Interlisp, T, NIL, and a few others. MIT Lisp had its own object-oriented sublanguage known as Flavors. There was a movement to unify the various lisps with a language known as Common Lisp. With Gregor Kiczales, Ken Kahn and others, we redesigned Loops to create Common Loops for Common Lisp. CommonLoops added polymorphism to method invocation, and unified the "message sending" syntax of LOOPS for method invocation with procedure invocation. It also shed the rule language (good idea) and active values (too bad).  During this process we joined with others from the MIT Lisp community and created a unified object language that was known as CLOS (Common Lisp Object System). This language eventually became part of Common Lisp.	 	
+
+ 
+
+Shown (left to right) are Sanjay Mittal, Mark Stefik, and Daniel Bobrow in around 1983. Mittal focused  on the Loops automatic testing suite and coded much of the Truckin' game. Stefik developed the rule language, composite objects, and much of the system documentation. Bobrow did much of work on active values and the heavy lifting in the system underpinnings. Later, Stan Lanning (not shown) rewrote many portions of the system and developed the official documentation used by XSIS in its product.	 
+
+Main Papers 
+
+* Bobrow, D.G., and Stefik, M. J. Perspectives on Artificial Intelligence Programming. Science 231:4741, pp. 951-956, 28 February 1986. (Reprinted in Rich, C. & Waters R.C. (Eds.) Readings in Artificial Intelligence and Software Engineering, pp. 581-587, Los Altos: Morgan Kaufman Publishers, 1986.) 
+
+* Stefik, M. Bobrow, D.G., and Kahn, K. Integrating access-oriented programming into a multiparadigm environment. IEEE Software, 3:1, pp. 10-18, January 1986. (Reprinted in Peterson, G.E. (ed), Object-Oriented Computing, Volume 2: Implementations, IEEE Computer Society Press, pp. 170-179, 1987. Also reprinted in Richer, M.H. (ed.) AI Tools and Techniques, pp. 47-63, Ablex Publishing Corporation, Norwood, New Jersey.) 
+
+* Bobrow, D.G., Kahn, K., Kiczales, G., Masinter, L., Stefik, M., and Zdybel, F. CommonLoops: Merging Lisp and Object-Oriented Programming. OOPSLA '86: Proceedings of the ACM Conference on Object-Oriented Programming Systems, Languages, and Applications, pp. 17-29, Portland, Oregon, September 29 - October 2, 1986, Edited by Normal Meyrowitz, Special Issue of SIGPLAN Notices 21:11, November 1986. (Reprinted in Peterson, G.E. (ed), Object-Oriented Computing, Volume 1: Concepts, IEEE Computer Society Press, pp. 169-181, 1987. Also reprinted in Russian in Agafonov, V. (Ed.), Object-Oriented Programming, MIR publishers, 1990.) 
+
+* Stefik, M. Bobrow, D.G., and Kahn, K. Access-oriented programming for a multiparadigm environment. Proceedings of the Hawaii International Conference on System Sciences, January 1986. (Note: This paper won the best paper award out of 80 papers for the conference. An expanded version of this paper appeared by invitation in IEEE Software. This paper has also been reprinted in various books.) 
+
+* Bobrow, D. G. & Stefik, M. J. LOOPS: Data and Object Oriented Programming for Interlisp. European AI Conference, Orsay, France. 1982. 
+
+* Stefik, M. An examination of a frame-structured representation system.Proceedings of the International Joint Conference on Artificial Intelligence, Tokyo, Japan, pp. 845-852, August 1979. 
+
+* Stefik, M. Bobrow, D.G. Object-oriented programming: Themes and Variations. AI Magazine 6:4, pp. 40-62, Winter 1986. (Reprinted in Peterson, G.E. (ed), Object-Oriented Computing, Volume 1: Concepts, IEEE Computer Society Press, pp. 182-204, 1987. Also reprinted in Richer, M.H. (ed.) AI Tools and Techniques, pp. 3-45, Ablex Publishing Corporation, Norwood, New Jersey.) 
+
+* Bobrow, D. G., Stefik, M. The Loops Manual. Knowledge-Based VLSI Design Group Memo KB-VLSI-81-13. January 1983. 
+

@@ -1,0 +1,45 @@
+Return to Statistics 
+---------------------------------------------------------------------
+
+The Sign Test
+
+Example:
+
+n+ 12, n- 3, p 
+
+n+ 
+n- 
+---------------------------------------------------------------------
+Characteristics:
+Crudest and most insensitive test. It is also the most convincing and easiest to apply. The level of significance can almost be estimated without the help of a calculator or table. If the Sign-test indicates a significant difference, and another test does not, you should seriously rethink whether the other test is valid. 
+
+H0:
+The median value of the distribution is m (generally m = 0), values larger (+) and smaller (-) than the median are equally likely.
+ When matched pairs are used, the probability of observing (A, B) is equal to that of observing (B, A) and the value of A-B has median value 0. 
+
+Assumptions:
+None other than H0. 
+
+Scale:
+Ordinal, but sometimes nominal when it is used as a binomial test 
+
+Procedure:
+Label observations as +/-, positive/negative, greater/smaller, left/right, black/white, male/female, or whatever dichotomy you want to use and count the number of times each label is observed. n+ is the number of times a "+" is observed and n- the number of times a "-" is observed. Ignore all zero or equal observations. 
+
+Level of Significance:
+n+ and n- are binomial distributed with p = q = 1/2 and N = (n+) + (n-).
+If k is the smaller of (n+) and (n-) then:
+p N!/(i!*(N-i)!)}/4
+(with k! = k*(k-1)*(k-2)*...*1 is the factorial of k and 0! = 1) 
+
+Approximation:
+If (n+) + (n-) = N > 25, then Z = (| n+ - n- | - 1)/sqrt( N ) can be approximated with a Standard Normal distribution. In our example, we calculate the exact probabilities upto N = 100.
+For N > 30, the Student t-test can be used. However, the Wilcoxon Matched-Pairs Signed-Ranks test is a better alternative. 
+
+Remarks:
+The Sign-test answers the question: How often?, whereas other tests answer the question How much?. It must be kept in mind that these two questions might have different answers.
+When the problem concerns the sizes of the differences, the Wilcoxon Matched-Pairs Signed-Ranks Test should be preferred. This test is also distribution free, but it is much more sensitive than the Sign-test.
+ Finally, the Sign-test is an almost ideal quick-and-dirty test that can be used to browse datasets or to check the results of other tests (e.g., as in: "All six subjects show an increase, so why does your test insist that p > 0.05?"). 
+
+---------------------------------------------------------------------
+Return to: Statistics 

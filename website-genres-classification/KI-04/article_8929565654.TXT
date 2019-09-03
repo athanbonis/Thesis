@@ -1,0 +1,31 @@
+
+
+Experimental Transition Energies
+
+The experimental portion of this data set was generated to provide the user with a set of up-to-date accurate experimental x-ray energies. The reported values have been corrected for all known errors and are determined using the most recent Recommended Values for the Fundamental Physical Constants: 1998 [115] and appropriate conversion factors. The values are consistent with the International System of measurement. 
+
+The experimental energies included in this database were obtained using the following procedures. 
+
+Directly measured transitions
+
+First, a rather sparse network of x-ray transitions that are directly linked to the International System of measurement was generated. All of these x-ray transitions were measured using diffraction spectroscopy and crystals of known lattice spacing. The crystal lattice spacings were determined using combined x-ray and optical interferometry. These transitions are commonly referred to as the optically based data. 
+
+Transitions linked to the directly measured transitions
+
+In several cases it has been possible to expand the directly measured transitions by considering earlier work in which several elemental spectra were obtained using a common instrument platform and protocol, and at least one member of the collection of lines reported belongs to our directly measured set. In such cases it is relatively easy to re-scale the data reported so that it is consistent with the directly measured transitions. 
+
+Transitions linked to directly measured gamma-ray lines
+
+Some x-ray transitions (primarily in the high-Z region) have been measured relative to gamma-ray transitions that have been determined using calibrated crystals and diffraction spectroscopy (procedures identical to those used to generate the optically based x-ray data). X-ray transitions obtained in this fashion are also consistent with the directly measured transitions. 
+
+Re-scaling of existing earlier databases
+
+In order to generate a more complete all-Z data set, we have used the Bearden database for transitions not included in the above three categories. Because the Bearden database [1] uses the Å* unit (based on the WK1 transition), it is relatively easy to re-scale these data so that they are consistent with the optically based data. 
+
+Reference citations
+
+The numbers in the reference column with the subscript &QUOT;d&QUOT; refer to the experimental transition energies. 
+
+---------------------------------------------------------------------
+
+

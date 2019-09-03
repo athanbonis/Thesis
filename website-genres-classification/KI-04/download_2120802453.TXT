@@ -1,0 +1,51 @@
+      
+---------------------------------------------------------------------
+ Home | About Ircle | Download | Register | Ircle Related Links | Other Useful Links  
+---------------------------------------------------------------------
+
+Ircle 3.1f2, released November 14, 2003. 
+---------------------------------------------------------------------
+Our files are available in Stuffit 7.0 MacBinary (.sit.bin) and Disk Utility (.dmg, OS X only) format. Use the Stuffit Expander to unpack the files after downloading. Stuffit Expander (free!) comes with Mac OS or can be downloaded from Aladdin. The .dmg files are normally automatically unpacked by Mac OS X after downloading. These are Disk Images, created by Disk Utility. 
+
+---------------------------------------------------------------------
+Ircle comes in 3 flavors: Classic 68k, Classic PPC, and Carbon.
+
+The Classic 68k version is meant for (older) Macs with a 68000, 68020, 68030 or 68040 processor.
+It will run on the newer PowerPC Macs, but slower, and some features that the newer Macs offer may be missing. It will not run on OS X.
+
+The Classic PPC version is for PowerPC Macintoshes running Mac OS 7.5 through 9.2.2. It will not run on OS X.
+
+The Carbon version is meant only for Mac OS X 10.1 or newer.
+
+---------------------------------------------------------------------
+ When you are a registered ircle user already, you can use the same license code for this version.
+
+Ircle 3.1 will use your old ircle 3.0 preferences file. When first installed on OS X, it will copy and use your OS 9 preferences and faces files, if any.
+
+Please read the version history for details on what's new and what has been fixed. 
+Also consult the compatibility notes on Panther (OS X 10.3).
+
+Of course, we like to know about what problems you encounter, and we try to fix major bugs immediately.
+
+Start the download of ircle 3.1x by clicking one of the links in this table.
+ With some browsers, you may need to hold the Option key while clicking on that link to start the download.     
+  Language   Flavors   
+  Classic 68k   Classic PPC   Carbon OS X   
+  American English (3.1f2)	         http 1         http 2    	          http 1         http 2   	            http 1         http 2   	  
+  International English (3.1f2)	         http 1         http 2   	       http 1         http 2   	         http 1         http 2   	  
+  Français (3.1f2)	      http 1         http 2   	       http 1         http 2   	         http 1         http 2   	  
+  Deutsch (3.1f2)	      http 1         http 2   	       http 1         http 2   	       http 1         http 2   	  
+  Italiano (3.1f2)	      http 1         http 2   	       http 1         http 2   	         http 1         http 2   	  
+  Spanish	         TBA   	  
+  Portugese	         TBA   	  
+  Japanese	      TBA   	 
+
+http 1: Server hosted by FastWebServer.com, USA
+http 2: Server hosted by AusMac.net, Australia
+ 
+---------------------------------------------------------------------
+© copyright 1995-2004 Onno Tijdgat, all rights reserved - Comments on this site? Contact the Webmaster.
+This site was last updated on January 13, 2004.
+
+---------------------------------------------------------------------
+ 

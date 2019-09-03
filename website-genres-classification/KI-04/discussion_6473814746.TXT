@@ -1,0 +1,270 @@
+      
+  	     Support Tek-Tips | About Us | Contact Us | Site Policies                           	  	 
+ 
+         
+  
+ 
+
+HANDLE
+   
+   
+PASSWORD	    	    
+   Remember Me
+Forgot Password?	 
+  	  	 
+
+Join Us!
+ Keyword Search
+ Browse Forums
+ NEW Tek-Tips Groups
+ Tell A Friend
+ Support Tek-Tips   	  	 
+
+Talk With Other Members	  
+Be Notified Of Responses
+  To Your Posts	  
+Keyword Search	  
+Turn Off Ad Banners	  
+One-Click Access To Your
+  Favorite Forums	  
+Automated Signatures
+  On Your Posts	  
+Best Of All, It's Free!	  
+
+---------------------------------------------------------------------
+
+E-mail* 
+  Handle 
+     
+Select A Type
+    
+MIS
+    
+IS/IT--Management
+    
+Programmer
+    
+ISP
+    
+Instructor
+    
+Vendor
+    
+TechnicalUser
+   
+
+Password 
+Verify P'word *Opt in e-mail system.
+ Click Personal Profile
+after login to opt out.
+
+"Best Of Breed" Forums Add Stickiness To Your Site
+ 
+ (Download This Button Today!)   	  	 
+
+"...Your information in this site is absolutely WONDERFUL. It is the most useful site on the web to me right now. Thank You Thank You..."  More...   	  	 
+
+TopXML
+    DevGuru
+    DevelopersDex
+    ASP Alliance
+    Programmers Heaven
+    VisualBuilder.com
+    SitePoint
+    Developer Fusion
+    Code Project
+    Zvon - Guide to XML
+    Tek-Tips Forums
+    Search partner sites
+    	  	 
+
+ 	     Search 	    	   	   Find A Forum
+ Find An Expert	      
+
+Home > Forums > MIS/IT > Operating Systems - UNIX based > -General UNIX discussion Does windows network users work in Linux system ? thread80-696316 	
+ 
+  	  	  	  	  	   	   	 
+        
+           
+ 
+  Reply	   
+E-mail It	   
+Print It	  
+  
+         
+     vrcatherine (IS/IT--Manageme)	      Nov 2, 2003	        
+       
+     
+I am completely new to Linux.
+
+We have a windows network and all the desktops are windows
+based. Every system has a network user id with which 
+everyone logins.
+
+Now i had installed   Redhat Linux 7.3 on one of the
+newly brought server. I wanted this linux server also
+be a part of our windows network. 
+
+I had samba package also installed in the redhat box.
+
+I have few questions .
+
+1)  The redhat linux box has only ROOT user, can i use
+   some of the windows network userid's to login
+   to this linux box ?
+
+   Or do i have to create seperate users in linux ?
+   
+  
+2) I am trying to login to this linux box from a windows
+   box using  TELNET. Now thru this telnet i am not able
+  to login as ROOT user, so i had created a "TEST" user
+  in linux and granted him everything in redhat box.(including root privilege). Now i can login thru telnet to this redhat box as  TEST user.   
+
+ Can i do a remote SHUTDOWN or REBOOT of this linux box from telnet session ?
+
+3)  In this redhat box , the default boot is TEXT mode 
+    and from there if i want to go to GUI desktop i was  saying STARTX  and geting on.
+
+In the same way can i do the thing thru some TELNET session?
+Like login to the telnet (text mode) from there can i say STARTX and open up the Linux desktop in the telnet session ?
+
+--Thanks
+  CATHY	        
+     	 
+Tek-Tips Forums is Member Supported. Click Here to donate.   
+         
+     akuindia123 (Programmer)	      Nov 3, 2003	        
+       
+     you cannot use windows users on linux ...u have to create users for linux server.
+
+you can login as root from your machine and shutdown or reboot the server .
+
+Install Xmanager on your windows m/c to get the GUI of linux and login thru that
+
+usige (TechnicalUser)	      Nov 3, 2003	        
+       
+     Cathy,
+1st - it is possible to use your windows users under linux. You have a few choices here. You can either use winbind or pam_smb. Here is some high level documentation on winbind ( http://ranger.dnsalias.com/mandrake/samba/Integrating%2... , http://open-projects.linuxcare.com/research-papers/winb... )
+
+2nd - Once you have logged in with a regular user id you can su to root to do the shutdown. You could also setup sudo to allow your admin user id to do a shutdown/reboot. One suggestion is to use ssh instead of telnet. You can find a free ssh program for windowz here: http://www.puttyssh.org/
+
+3rd - As akuindia123 stated you will need an X-Windows server running under winderz if you want to start X on your local machine.	        
+     	 
+  
+         
+     vrcatherine (IS/IT--Manageme)	      Nov 3, 2003	        
+       
+     Thanks for the info.
+
+One more quick question, i am trying to do this 
+on the Linux server which is in windows network.
+
+I have 2 network cards(NIC's) on the linux server
+and
+
+1st NIC ====  Internal IP address ( 10.x.x.x)
+              this is talking to windows domain "ABC"
+
+2nd NIC ===  With some IP address (192.168.x.x)
+             which is directly hooked to some   
+             firewall/router .
+
+So basically i wanted to open up some ports in that firewall/router for this 192.168.x.x address, so that
+the externally ( from internet or from remote place)
+we can access the Linux server.
+
+The 1st NIC is basically to talk to the windows network.
+
+Please suggest me if anything has to be done , whether
+or not this can be accomplished ?
+
+--Thanks
+ Cathy
+
+azrael811 (MIS)	      Nov 5, 2003	        
+       
+     If you want to connect remotely using ssh to the linux machine then you could do the following.
+
+1. Enable port forwading on the router/firewall for port 22 to the IP address of the 2nd  NIC of the linux box.
+
+2. From a remote place use putty the connect to the external IP address of the router/firewall.
+
+If you need help with the port forwarding then do a search on google as there is plenty of good information about it available. 	       
+     	 
+  
+         
+     vrcatherine (IS/IT--Manageme)	      Nov 6, 2003	        
+       
+     
+
+Hi azrael811 ,
+
+So i can go according to the scenario what i have
+given,  2 NIC's  methodology ?
+
+Is it ? 
+
+And i will do the port forwarding as what you had said.
+
+So the Linux server can have  2NIC's  with 2 different
+IP addresses ? Is it ?
+
+azrael811 (MIS)	      Dec 22, 2003	        
+       
+     Yes it can here is an example of how it would look
+
+Windows|
+Network | -------------|Linux|---------------------------|Firewall|
+
+10.x.x.x         10.0.0.10    192.168.0.10      192.168.0.1    <external IP>
+
+Also make sure you close unneeded ports on the external NIC of the linux machine.	        
+     	 
+ 
+  E-mail This Thread To A Friend	   
+  Tek-Tips Forums is Member Supported. Click Here to donate.	  
+      	
+     	                
+
+Start your own
+Tek-Tips Group Today!   	  	 
+
+Back To -General UNIX discussion   	  	 
+
+PHV	
+aigles	
+bi	
+SamBones	
+Salem	
+appi	
+aixmurderer	
+grega	
+fredericofonseca	
+dickiebird	
+   	  	 
+
+Promoting, selling, recruiting and student posting are not allowed in the forums. Click here to find out why.   	  	 
+
+Posting in the Tek-Tips forums is a member-only feature.
+
+Click Here to join Tek-Tips and talk with other members!
+ 	  
+    	    	         
+    	     
+  
+ 
+  	  
+  	  Promoting, selling, recruiting and student posting
+are not allowed in the forums.
+Click here to find out why.	   	  
+  	 
+
+LINK TO THIS FORUM! (Add Stickiness To Your Site By Linking To This Professionally Managed Technical Forum) TITLE:     -General UNIX discussion Forum at Tek-Tips URL:     http://www.tek-tips.com/gthreadminder.cfm/lev2/3/lev3/20/pid/80 DESCRIPTION:     -General UNIX discussion technical support forum and mutual help system for computer professionals. Selling and recruiting forbidden. 	   
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Copyright © 1998-2004 Tecumseh Group, Inc. All rights reserved.
+Unauthorized reproduction forbidden.   	   
+     

@@ -1,0 +1,136 @@
+          
+  Download Center HomeDownload CategoriesGamesDirectXInternetWindows (Security & Updates)Windows MediaDriversOffice and Home ApplicationsMobile DevicesMacintosh & Other PlatformsServer ApplicationsSystem Management ToolsDevelopment ResourcesResourcesDownload Center HelpRelated Download SitesAutomatic Update Services
+
+PowerPoint Viewer 97 for PowerPoint 97, 2000, and 2002 Users
+
+With this release, the Microsoft PowerPoint Viewer 97 supports PowerPoint 95, 97 and certain aspects of PowerPoint 2000 and 2002 files. This viewer allows people who use PowerPoint to share their presentations with people who do not have PowerPoint installed on their computers.
+
+Quick Info	
+File Name:
+
+PPView97.exe
+
+Download Size:
+
+2826 KB
+
+Date Published:
+
+8/27/1999
+
+Version:
+
+2000
+
+Overview
+
+This download is for users who don't have Microsoft PowerPointÂ®; it allows them to view PowerPoint 95, 97, 2000, and 2002 presentations. The PowerPoint Viewer 97 allows people who use PowerPoint to share their presentations with people who do not have PowerPoint installed on their computers. When you post presentations on the Internet, you can include the PowerPoint Viewer to expand your online audience to people who might not have PowerPoint, or to those with different versions. You can use this viewer to view files created in both PowerPoint for WindowsÂ® and PowerPoint for the Macintosh.Notes
+
+* You can view and print presentations, but you cannot edit them in the PowerPoint Viewer. 
+* The PowerPoint Viewer supports all PowerPoint 97 and PowerPoint 95 features. 
+* Some PowerPoint 2000 and 2002 features are not supported by the viewer: 
+
+* Picture bullets 
+* Automatic numbering 
+* Animated GIF pictures 
+* Microsoft Visual BasicÂ® for Applications (VBA) controls 
+* ActiveXÂ® controls are not supported by the viewer
+
+Features
+
+* Provides full fidelity display of PowerPoint 95 and PowerPoint 97 files, including the animations, graphics effects, action settings, hyperlinks, and custom shows.
+* Opens presentations saved in PowerPoint for Windows 2.0 or later and PowerPoint for Macintosh 3.0 or later.
+* Supports printing of PowerPoint presentations.
+* Allows printing and password protection for kiosk-style slide shows.
+* In addition to running as a stand-alone application, the PowerPoint Viewer 97 is optimized for displaying PowerPoint presentations inside Microsoft Internet Explorer 3.x and above.
+* PowerPoint presentations can be displayed within Netscape Navigator 2.x or higher. 
+System Requirements
+
+* A personal computer with a 486 or higher processor
+* Microsoft Windows 95, 98, or 2000 operating system, or Microsoft Windows NT Workstation operating system 3.51 (with Service Pack 5.x or later) or 4.0, or Microsoft Windows ME 
+* 7 MB of hard disk space (9 MB free for installation only) 
+* VGA or higher-resolution video adapter
+* Microsoft Mouse or compatible pointing device 
+
+PowerPoint Viewer 97 for PowerPoint 97, 2000, and 2002 Users
+English
+
+Download	
+
+---------------------------------------------------------------------
+
+Change language
+Chinese (Hong Kong SAR)
+
+Chinese (Simplified)
+
+Chinese (Traditional)
+
+Danish
+
+Dutch
+
+English
+
+Finnish
+
+French
+
+German
+
+Italian
+
+Japanese
+
+Korean
+
+Norwegian
+
+Portuguese (Brazil)
+
+Russian
+
+Spanish
+
+Swedish
+
+Related Resources		
+
+* Trial Software for Office System Products
+* Download Winter Fun Packs for Windows XP
+* PowerPoint Home Page
+* PowerPoint Support
+
+System Requirements
+
+* 
+
+Supported Operating Systems: Windows 2000, Windows 95, Windows 98, Windows NT
+
+* This download works with the following Office applications:
+
+* Powerpoint 2000
+
+---------------------------------------------------------------------
+
+Instructions
+
+To install this download
+
+1.  You may want to print this page to use as a reference when you are offline.
+2.  Download the file from this page by clicking the Download link above and following the instructions in the dialog boxes.
+3.  Close any Windows-based programs that are running.
+4.  Double-click the Ppview97.exe program file on your hard disk to start the setup program.
+5.  Follow the instructions on the screen to complete the installation.
+
+Instructions for use: On the Start menu, point to Programs, and then click Microsoft PowerPoint Viewer 97. The viewer will start and allow you to choose a PowerPoint file to view.To remove this download:
+
+1.  On the Start menu, point to Settings, and then choose Control Panel. Double-click Add/Remove Programs.
+2.  In the list of programs on the Install/Uninstall tab, find Microsoft PowerPoint Viewer 97 and highlight it. Click Add/Remove.
+3.  In the Microsoft PowerPoint Viewer 97 Setup dialog box, click Remove All.
+4.  Confirm that you are certain you want to uninstall this software by clicking Yes.
+5.  Click Restart Windows or Exit Setup in the dialog box.
+
+ Contact Us 	
+ Â©2004 Microsoft Corporation. All rights reserved. Terms of Use | Privacy Statement 	
+    function mnpFooterMouse(el, co)    {     if (el.style) el.style.color = co;    }   

@@ -1,0 +1,304 @@
+
+
+2. INTRODUCTION / MISCELLANEOUS
+
+* 2.1 What is this newsgroup? 
+* 2.2 What is the scope of this FAQ? 
+* 2.3 Where can I find the latest version of this FAQ? 
+* 2.4 How do I access comp.mail.sendmail by email? 
+* 2.5 Where can I ask email-related DNS questions? 
+* 2.6 How can I subscribe to these newsgroups? 
+* 2.7 Which version of sendmail should I run? 
+* 2.8 What is the latest release of sendmail? 
+* 2.9 Where can I find it? 
+* 2.10 What are the differences between Version 8    and other versions? 
+* 2.11 What's the best platform for running sendmail? 
+* 2.12 What is BIND and where can I get the latest    version? 
+* 2.13 What is smrsh and where can I get it? 
+* 2.14 What is smap and where can I get it? 
+* 2.15 What is TCP-Wrappers and where can I get it? 
+* 2.16 Why won't db 1.85 build on my machine? 
+* 2.17 What is makemap and where can I get it? 
+
+---------------------------------------------------------------------
+
+Q2.1 -- What is this newsgroup?
+
+Date: May 28, 1996 
+
+The Usenet newsgroup comp.mail.sendmail is dedicated to the discussion of the program named "sendmail" in all its various forms. It is most commonly found on computers running a flavor of the Operating System known as Unix, or derived from Unix. 
+
+This program has been ported to other OSes, but those versions have typically been ported by a particular vendor and are considered proprietary. There are many versions of sendmail, but the original author (Eric Allman) is continuing development on a particular version typically referred to as "Version Eight" or sometimes just "V8". This is considered by many to be the One True Version. This is also the version that this FAQ is centered around. 
+
+If you have a question that amounts to "How do I send mail to my friend?", then you're in the wrong newsgroup. You should first check with your System or E-Mail Administrator(s), BBS SysOp(s), etc... before you post your question publicly, since the answer will likely be very highly dependent on what software and hardware you have. You also don't want to embarrass yourself publicly, nor do you want to annoy the kinds of people who are likely to be the counterparts of your System or E-Mail Administrator(s), BBS SysOp(s), etc.... If asking them doesn't do you any good, make sure you read this FAQ and the other mail-related FAQs at the archive sites listed below. 
+
+If you have a question about another program similar to sendmail (technically referred to as an "SMTP MTA"), an SMTP Gateway package, or a LAN email package, then you should see if there is another group in the comp.mail hierarchy that more closely matches the particular program you want to ask a question about. For example, the SMTP MTA known as Smail has comp.mail.smail dedicated to it. The Mail User Agent (MUA) Eudora has two newsgroups dedicated to it (comp.mail.eudora.mac and comp.mail.eudora.ms-windows), depending on which hardware platform you use. If there isn't a more appropriate newsgroup, try comp.mail.misc. Again, make sure your question isn't already addressed in one of the mail-related FAQs or other available documentation. See the IMC website (more info below) for a good list of mail-related FAQs. 
+
+If you have a question about an older or vendor-proprietary version of sendmail, be prepared for a lot of answers that amount to "Get V8". Version 8 isn't a panacea, but it does solve many problems known to plague previous versions, as well as having many new features that make it much easier to administer large or complex sites. In many cases, it makes at least possible what was previously virtually impossible, and relatively easy the previously difficult. 
+
+There are, of course, many alternative programs that have sprung up in an attempt to answer one or another weakness or perceived fault of sendmail, but so far, none of them have had the kind of success it would require to unseat it as the de facto standard program for sending Internet mail. Obviously, this forum should not be used to discuss the merits of any of the alternative programs versus sendmail. These kinds of discussions should be taken to comp.mail.misc, or you should agitate to get a new newsgroup or newsgroup hierarchy created where that sort of thing is acceptable (or even the norm, such as a comp.mail.advocacy or news:comp.mail.mta.advocacy newsgroup). 
+---------------------------------------------------------------------
+
+Subject: Q2.2 -- What is the scope of this FAQ?
+
+Date: April 9, 1997 
+
+This FAQ is strongly centered around version 8 sendmail, for many reasons. First and foremost, this is the area of most interest on the part of the maintainers of this FAQ. Secondly, version 8 is where most of the additional development is being concentrated. Version 8 sendmail is also the best documented of all SMTP MTAs, by virtue of the book by Bryan Costales (see entry sendmail-faq//book/ISBN/1-56592-222-0 in Q6.1). 
+
+Other versions of sendmail get mentioned in passing, and some interesting interactions between version 8 and various OSes is also covered. 
+
+This FAQ is aimed primarily at the experienced Unix System Administrator/Postmaster/DNS Domain Administrator. If you're looking for introductory texts, see the references in Q6.1. 
+---------------------------------------------------------------------
+
+Q2.3 -- Where can I find the latest version of this FAQ?
+
+Date: February 20, 1998 
+
+We post changes as they occur to the sendmail FAQ support page at http://www.sendmail.org/faq/. 
+---------------------------------------------------------------------
+
+Q2.4 -- How do I access comp.mail.sendmail by email?
+
+Date: November 24, 1996 
+
+Send email to mxt@dl.ac.uk with the command "sub comp-news.comp.mail.sendmail full-US-ordered-email-address" as the body of the message (with your correct address in place of the "full-US-ordered-email-address", and omitting the double quotes in all cases of this example). 
+
+E-mail you want posted on comp.mail.sendmail should be sent to comp-mail-sendmail@dl.ac.uk 
+---------------------------------------------------------------------
+
+Q2.5 -- Where can I ask email-related DNS questions?
+
+Date: March 23, 1996 
+
+Depending on how deeply they get into the DNS, they can be asked here. However, you'll probably be told that you should send them to the Usenet newsgroup comp.protocols.tcp-ip.domains (DNS in general) or to the Info-BIND mailing list (if the question is specific to that program). 
+---------------------------------------------------------------------
+
+Q2.6 -- How can I subscribe to these?
+
+Date: June 19, 1997 
+
+For comp.protocols.tcp-ip.domains, you have to be on Usenet. They don't have a news-to-mail gateway yet (I'm working on this), but they do have a FAQ. 
+
+Questions from all levels of experience can be found on this newsgroup (as well as people to answer them), so don't be shy about asking a question you think may be too simple. 
+
+Some more information from the BIND 8.1 src/READMEfile: 
+
+Kits, Questions, Comments, and Bug Reports 
+URL Purpose 
+ftp.isc.org/isc/bind/src/cur	 current non-test release	 
+ftp.isc.org/isc/bind/src/testing	 latest public test kit	 
+
+---------------------------------------------------------------------
+
+comp.protocols.dns.bind	 using BIND	 
+comp.protocols.dns.ops	 DNS operations in general	 
+comp.protocols.dns.std	 DNS standards in general	 
+
+---------------------------------------------------------------------
+
+bind-users-request@vix.com	 gw'd to c.p.d.bind	 
+namedroppers-request@internic.net	 gw'd to c.p.d.std	 
+bind-workers-request@vix.com	 code warriors only please	 
+
+---------------------------------------------------------------------
+
+www.isc.org/bind.html	 the BIND home page	 
+bind-bugs@isc.org	 bug reports	 
+
+---------------------------------------------------------------------
+
+Q2.7 -- Which version of sendmail should I run?
+
+Date: April 8, 1997 
+Updated: March 7, 2000 
+
+If you're concerned at all about the security of your machines, you should make sure you're at least running a recent release of version 8 sendmail (either from your vendor or the public version detailed in Q2.8). 
+
+Check the CERT Alerts and Summaries to make sure that you're running a version that is free of known security holes. Just because the sendmail program provided by your vendor isn't listed doesn't mean that you're not vulnerable, however. If your particular vendor or version isn't listed, check with your vendor and on the appropriate Internet mailing lists and Usenet newsgroups to verify. 
+
+If nothing else, the most recent public version is usually a pretty good bet, although you should check comp.mail.sendmail to see if anyone has posted recent comments that haven't yet been folded into a new release. 
+
+That said, you need to look at what the primary function is for the machine. If its primary function is to run some CAD/CAM package on the desk of an engineer, then there's probably not much sense in replacing the vendor-supplied version of sendmail (assuming it's secure, according to the CERT Alerts and Summaries). Just set the machine up to forward all outbound mail to a central mail relay, and then worry about making that central mail relay the best it can be. Also arrange to have all their inbound mail pass through a central Mail eXchanger (probably the same machine as the central Mail Relay), for the same reasons. 
+
+If the primary function for a machine is to act as that central Mail Relay/Mail eXchanger, then we *strongly* recommend the best version of sendmail you can get, and in our opinion that is the latest release of version 8. IDA sendmail is also pretty good, but virtually everything it does, version 8 does better, and version 8 has the additional advantage of having continued development as well. 
+
+If fighting spam is a concern, then by all means upgrade to 8.10.X . 8.9.X has good anti-spam features, but 8.10.X has even more features, and the anti-spam ones are more flexible than those in 8.9.X . 
+
+However, keep in mind that version 8 still hasn't been ported (so far as we know) to some of the older (and perhaps more esoteric) platforms, and if you're stuck using one of them, you may not have much choice. 
+
+Some vendors have started shipping (or announced that they will soon ship) version 8 sendmail pre-configured for their machines. Unfortunately, in most cases this means you get a pre-compiled binary and a sendmail.cf file (that may need a bit of tweaking), but not much else of the "standard" version 8 sendmail installation kit. Silicon Graphics (SGI) and Hewlett-Packard are known to already be shipping version 8 sendmail in this fashion. 
+
+Sun Microsystems did the same with SunOS 5.5, 5.5.1 and 5.6, shipping a version based on 8.6 with their own proprietary config files. Recent patches for 5.5.1 and 5.6, however, upgrade to a version based on 8.8.8 with a sendmail.cf that is only slightly tweaked. More importantly, a cf hierarchy is available under /usr/lib/mail/. More details are available at the Sun migration page. 
+---------------------------------------------------------------------
+
+Q2.8 -- What is the latest release of sendmail?
+
+Date: October 24, 1997 
+Updated: January 25, 2005 
+
+For version 8 sendmail, there are four release trees. 
+
+For those people who, for whatever reason, are unable or unwilling to upgrade to version 8.12.x, releases of versions 8.11, 8.10 and 8.9 sendmail are still available but are not being updated. The last release of version 8.9 sendmail was 8.9.3; the last release of 8.10 was 8.10.2; the last release of 8.11 was 8.11.6 . 
+
+Version 8.12.11 was released on January 18, 2004.
+ Version 8.12.10 was released on September 17, 2003.
+ Version 8.12.9 was released on March 29, 2003.
+ Version 8.12.8 was released on March 3, 2003.
+ Version 8.12.7 was released on December 29, 2002.
+ Version 8.12.6 was released on August 26, 2002.
+ Version 8.12.5 was released on June 25, 2002.
+ Version 8.12.4 was released on June 3, 2002.
+ Version 8.12.3 was released on April 5, 2002.
+ Version 8.12.2 was released on January 13, 2002.
+ Version 8.12.1 was released on October 1, 2001.
+ Version 8.12.0 was released on September 8, 2001.
+ Version 8.11.6 was released on August 20, 2001.
+ Version 8.11.5 was released on July 31, 2001.
+ Version 8.11.4 was released on May 28, 2001.
+ Version 8.11.3 was released on February 27, 2001.
+ Version 8.11.2 was released on December 29, 2000.
+ Version 8.11.1 was released on September 28, 2000.
+ Version 8.11.0 was released on July 19, 2000.
+ Version 8.10.2 was released on June 7, 2000.
+ Version 8.10.1 was released on April 7, 2000.
+ Version 8.10.0 was released on March 7, 2000.
+ Version 8.9.3 was released on February 4, 1999.
+ Version 8.9.2 was released on December 31, 1998.
+ Version 8.9.1 was released on July 2, 1998.
+ Version 8.9.0 was released on May 20, 1998. 
+
+On machines exposed directly to the Internet, you should either already be running sendmail 8.12.11 or plan on upgrading in the immediate future. 8.12.11 is considered "stable", has fixes included that will not be found in any previous release, and therefore supercedes all previous releases. 
+
+There is no further support for previous releases of sendmail. 
+---------------------------------------------------------------------
+
+Q2.9 -- Where can I find it?
+
+Date: January 21, 1997 
+Updated: March 7, 2000 
+
+By anonymous FTP from ftp.sendmail.org in /pub/sendmail, or (in URL form) via ftp://ftp.sendmail.org/pub/sendmail/. If you care, there should be files in this directory that end with the extension ".sig" which you can check with PGP to make sure that corresponding archives haven't been modified. You'll need to have the PGP signing key of Sendmail.ORG on your public keyring to be able to verify these archives with their associated .sig files. 
+
+There are no other known official version 8 sendmail mirrors. 
+
+Check the sendmail home page at http://www.sendmail.org/ for late-breaking updates and other useful information. 
+
+If you want to be notified regarding future updates to sendmail and other items of potential interest, you may want to subscribe to the sendmail-announce mailing list. Address your subscription requests to "majordomo@lists.sendmail.org" with "subscribe sendmail-announce" as the body of the message. 
+---------------------------------------------------------------------
+
+Q2.10 -- What are the differences between Version 8 and  other versions?
+
+Date: March 23, 1996 
+
+See doc/changes/changes.{me,ps} in the distribution. See also RELEASE_NOTES at the top level. 
+---------------------------------------------------------------------
+
+Q2.11 -- What's the best platform for running sendmail?
+
+Date: April 8, 1997 
+
+Generally speaking, I adhere to the old axiom that you should choose what software you want to run first, then choose the platform (hardware and OS) that best runs this software. By this token, if sendmail is the software, then a recent version of BSD Unix would probably be best, since sendmail was developed at UC Berkeley on BSD Unix. FreeBSD and BSD/OS are two known implementations of BSD Unix for Intel-based PC's (among other hardware platforms), and this would make them the most "native" OSes for sendmail. FreeBSD is freely available by anonymous ftp or on CD-ROM, and BSD/OS is a commercial product. 
+
+However, not everyone has this kind of "luxury". If you're on a homogeneous network (i.e., completely composed of only one type of hardware and OS), then you should probably be running the same OS as the rest of the machines on the network, regardless of the axiom stated above. You may have other problems, but you should at least be able to get some local support on the OS for your machine. 
+
+Either way, if the primary function of the machine is to handle "large" quantities of mail (for whatever value you define "large" to be), I strongly recommend getting the latest stable release of version 8 sendmail. 
+
+You may be surprised to find that it is easier for you to support only one version of sendmail across all the various platforms than it is to try to support multiple versions of sendmail, each unique for their particular platform. In that case, the easy solution is to put version 8 sendmail everywhere, and not have to worry about vendor-specific problems with older versions. 
+
+For more information on BSD Unix in general, see the Usenet newsgroups under comp.unix.bsd, comp.bugs.4bsd, comp.os.386bsd. For more information on BSD/OS, see the BSD newsgroups mentioned above, or the BSD/OS Home Page at http://www.bsdi.com/. For more information on FreeBSD, see the Usenet newsgroups under news:comp.unix.bsd.freebsd, or the FreeBSD Home Page at http://www.freebsd.org/. 
+---------------------------------------------------------------------
+
+Q2.12 -- What is BIND and where can I get the latest version?
+
+Date: June 24, 1997 
+
+BIND stands for "Berkeley Internet Name Daemon", and is the Internet de-facto standard program for turning host names into IP addresses. 
+
+The BIND Home Page is at http://www.isc.org/bind.html, which provides pointers to the most recent release of BIND. In May of 1997, the first production version of BIND-8 was released. The ISC has deprecated BIND-4 other than for security related patches. No new features or portability changes will be added to BIND-4. You should be using BIND-8. 
+
+Note that there are bugs in older resolver libraries, which can cause problems getting to large sites (that list more than five IP addresses for a particular name), or represent a huge security hole as they do not check the returned data to see if it will fit in the amount of space pre-allocated for it. 
+
+If at all possible, you should get the most recent "release" version of BIND and make a serious attempt to integrate it into your configuration, since virtually all vendor-provided resolver libraries are woefully out of date. 
+
+Note that since the release of BIND version 8.1, many people building sendmail have experienced problems compiling and linking with the new BIND include files and libraries under /usr/local/. A section in our Compiling Sendmail page explains this. 
+---------------------------------------------------------------------
+
+Q2.13 -- What is smrsh and where can I get it?
+
+Date: July 9, 1996 
+Updated: July 1, 2000 
+
+smrsh is a restricted shell utility that provides the ability  to specify, through a configuration, an explicit list of  executable programs. When used in conjunction with sendmail,  smrsh effectively limits sendmail's scope of program execution  to only those programs specified in smrsh's configuration. 
+
+smrsh has been written with portability in mind, and uses  traditional Unix library utilities. As such, smrsh should  compile on most Unix C compilers. 
+
+The purpose for restricting the list of programs that can be executed in this manner is to keep mail messages (either through an alias or the .forward file in a user's home directory) from being sent to arbitrary programs which are not necessarily known to be sufficiently paranoid in checking their input, and can therefore be easily subverted (this is related to, but different from, the /etc/shells feature discussed in Q3.11). 
+
+More information regarding the CERT-CC can be found at their web site, http://www.cert.org. For more information on CERT Alerts and CERT Summaries, see their advisories and summaries, respectively. 
+
+You can find smrsh in the most recent sendmail source archive. Other very useful programs can be found in http://www.cert.org/other_sources/tool_sources.html. 
+---------------------------------------------------------------------
+
+Q2.14 -- What is smap and where can I get it?
+
+Date: July 5, 1996 
+
+Smap (and smapd) are tools out of the Trusted Information Systems (TIS) Firewall Toolkit (fwtk). They were originally written by firewall expert Marcus Ranum under contract to TIS, and TIS is continuing what maintenance there is. Here is a link to the toolkit. Support questions regarding the toolkit may be sent to fwall-support@tis.com, while you may join their mailing list fwall-users@tis.com by sending electronic mail to fwall-users-request@tis.com. 
+
+The concept of smap and smapd is that sendmail is a huge, monolithic setuid root program that is virtually impossible to verify as being "correct" and free from bugs (historically, sendmail has been rather buggy and an easy mark for system crackers to exploit, although with the advent of version 8 sendmail, this becomes much more difficult). In contrast, smap and smapd are very small (only a few hundred lines long), and relatively easy to verify as being correct and functioning as designed (however, as you will see later, we can question their design). According to the theory, it is therefore safer and "better" to run smap and smapd as "wrappers" around sendmail, which would no longer need to be run setuid root. 
+
+Unfortunately, smap and smapd have a few problems of their own, and don't appear to have been updated since late March 1996. There have been conflicting reports of incompatibilities between smapd and sendmail 8.7.y (both cannot be run on the same machine, although if you're running sendmail 8.6.x and smap/smapd on the local machine, people on the outside can still use sendmail 8.7.y to talk to you). 
+
+For further information on smap and smapd, see the documentation that comes with the TIS Firewall Toolkit. 
+
+For more information on firewalls, see the Firewalls FAQ at http://www.interhack.net/pubs/fwfaq/ 
+---------------------------------------------------------------------
+
+Q2.15 -- What is TCP-Wrappers and where can I get it?
+
+Date: April 8, 1997 
+Updated: April 2, 2001 
+
+TCP-Wrappers is another security enhancement package. The theory is that you take programs being run under inetd (see /etc/inetd.conf) and before you run the program to do the real work (ftpd, telnetd, etc...), you first run the connection attempt through a package that checks to see if the IP address of the source packet is coming from a host known to be either good or bad (you may filter connection attempts by source host name, domain name, raw IP address, port they are attempting to connect to; and either allow known good connections through thus refusing unknown connections, or accept all connections except those known to be bad). 
+
+The practice of TCP-Wrappers actually follows the theory quite well. It is a very useful and important tool in the System Administrator's Bag of Things To Help You Secure Your Machine From Crackers, Spammers, Junkmailers, and Other Undesirables. However, it only works for programs that communicate via TCP packets (not UDP, such as NFS) started up out of inetd. It does not work for RPC-based services, and programs that start up a daemon outside of inetd and just leave it running obviously don't benefit beyond the initial connection that gets the daemon started (however, see the FTP URL below for other packages that can help secure RPC and portmapper-based services). 
+
+However, most sendmail installations tend to start up a daemon and leave it running at all times. If you did run sendmail out of inetd, you'd lose the benefit of the load average checking code that is executed only in daemon mode, and for systems that handle a lot of mail, this is vitally important. 
+
+You can get TCP-Wrappers from ftp://ftp.porcupine.org/pub/security/, a site that has a whole host of other useful security tools, such as securelib, portmap, satan, cops, crack, etc... You can also find pointers to many other useful security tools at http://ciac.llnl.gov/ciac/SecurityTools.html, and the COAST Archive at http://www.cerias.purdue.edu/coast/ is a veritable cornucopia of all things security related. 
+
+For the adventurous, you can get a source patch for version 8 sendmail (created for 8.7.6, but, with work, applicable to older releases) that will take the core TCP-Wrappers code and integrate it into the daemon, so that you get the best of both worlds. However, this isn't as smoothly integrated as it should be, is not for the faint-of-heart, and is certainly not officially supported by the original author of sendmail (Eric Allman). This functionality is integrated in a different fashion into version 8.8.5 sendmail. 
+
+You should be able to find the unsupported patch at ftp://ftp.porcupine.org/pub/security/sendmail-tcpd.patch. 
+---------------------------------------------------------------------
+
+Q2.16 -- Why won't db 1.85 build on my machine?
+
+Date: April 8, 1997 
+Updated: May 20, 1997 
+URL Updated: July 27, 1999 
+
+As of release 8.9.X of sendmail, db 1.85 is no longer needed, as support for db 2.X is included (starting with 2.3.16). More details are given at Q3.25. The rest of this answer only applies if you have not yet upgraded to 8.9.X . 
+
+The db 1.85 package as available from http://www.sleepycat.com/register.html provides Irix support up to Irix 4.05F, but 5.{2,3} need a slightly patched version, as does HP-UX 10.20. Some vendors also provide db standard with their OS (DEC Unix 4.0, for example). 
+
+A tarball incorporating these changes for Irix 5.x is available at ftp://ftp.his.com/pub/brad/sendmail/irix5.tar.gz. This will extract into ./db.1.85/PORT/irix.5.2, with a symbolic link created from ./db.1.85/PORT/irix.5.3 to this same directory. Make sure you extract this archive into the same directory where you extracted the db 1.85 archive as available from ftp.cs.berkeley.edu. (see Q3.5 for more information on getting the db 1.85 package). An ASCII context diff of this same patch is at ftp://ftp.his.com/pub/brad/sendmail/irix4-5.diff. 
+
+A version of db 1.85 that has supposedly been patched to compile under Irix 6.2 has been made available at http://reality.sgi.com/ariel/freeware/#db, but I haven't had a chance to download and check it out yet. 
+
+The context diffs required to get db 1.85 working under HP-UX 10.20 are available at ftp://ftp.his.com/pub/brad/sendmail/hpux.10.20.diff. A tarball incorporating these changes is available at ftp://ftp.his.com/pub/brad/sendmail/hp-ux.10.20.tar.gz. This will extract into ./db.1.85/PORT/hpux.10.20, so make sure you extract this archive into the same directory where you extracted the db 1.85 archive as available from ftp.cs.berkeley.edu. 
+---------------------------------------------------------------------
+
+Q2.17 -- What is makemap and where can I get it?
+
+Date: August 30, 1996 
+
+The program "makemap" is used to build the databases used by version 8 sendmail, for things like the UserDB, mailertables, etc.... 
+
+It is distributed as part of the basic operating system from some vendors, but source code for it is also included at the root level of the sendmail archive (at least, it is for sendmail 8.6.12 and 8.7.5, and presumably will continue to be as newer releases come out). However, it is not considered a "supported" part of version 8 sendmail. Just like the other source provided in the archive, the Makefile will likely need some tweaking for your specific site. 
+
+It turns out that Irix 5.3 doesn't appear to have the dbm or ndbm libraries, but to compile makemap.c, you need to have -DNDBM on the "DBMDEF=" line (some necessary things are defined only in /usr/include/ndbm.h). Try just leaving off "-lndbm" from the "LIBS=" line in the Makefile for makemap. 
+
+If you plan on using makemap with db 1.85 on an SGI machine running a version of Irix later than 4.x, see Q2.16 for some additional steps to get db 1.85 compiled on your machine. 
+
+

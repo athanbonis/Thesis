@@ -1,0 +1,282 @@
+
+
+Global Sites
+ 
+América Latina
+ 
+Australia/New Zealand
+ 
+Belgique/België
+ 
+Bosna i Hercegovina
+ 
+Brasil
+ 
+Bulgariya
+ 
+Ceská Republica
+ 
+Danmark
+ 
+Deutschland
+ 
+España
+ 
+F.Y.R.O.M.
+ 
+France
+ 
+Greece
+ 
+Hong Kong
+ 
+Hrvatska
+ 
+Italia
+ 
+Latvija
+ 
+Lietuva
+ 
+Magyarország
+ 
+México
+ 
+Nederland
+ 
+Norge
+ 
+Polska
+ 
+Portugal
+ 
+România
+ 
+Slovenija
+ 
+Slovensko
+ 
+Suomi
+ 
+Sverige
+ 
+Turkiye
+ 
+Ukraine
+ 
+United Kingdom/Ireland
+ 
+United States/Canada
+
+Find a product
+ 
+Client/Server Suite
+ 
+Client/Server - SMB
+ 
+Client/Server/Messaging Suite
+ 
+Client/Server/Messaging - SMB
+ 
+Control Manager
+ 
+Damage Cleanup Services
+ 
+GateLock 3000
+ 
+GateLock 5000
+ 
+HouseCall
+ 
+InterScan AppletTrap
+ 
+InterScan eManager
+ 
+InterScan Messaging Security
+ 
+InterScan VirusWall
+ 
+InterScan VirusWall - SMB
+ 
+InterScan WebProtect ICAP
+ 
+InterScan WebProtect ISA
+ 
+InterScan Web Security Suite
+ 
+NeatSuite
+ 
+OfficeScan Corp. Edition
+ 
+PC-cillin Internet Security
+ 
+PC-cillin for Wireless
+ 
+PortalProtect
+ 
+ScanMail eManager
+ 
+ScanMail for Microsoft Exchange
+ 
+ScanMail for Lotus Notes
+ 
+ServerProtect for EMC
+ 
+ServerProtect for Linux
+ 
+ServerProtect for NetApp
+ 
+ServerProtect Windows/NetWare
+ 
+Spam Prevention Solution
+
+Knowledge Base	 		
+
+FAQs	 		
+
+Update Center 
+" border="0">	ActiveSupport	
+" border="0">	ActiveUpdate	
+" border="0">	Client/ Server/ Messaging Suite for SMB	
+" border="0">	Client/Server Suite	
+" border="0">	Client/Server Suite for SMB	
+" border="0">	Client/Server/ Messaging Suite	
+" border="0">	Control Manager	
+" border="0">	Damage Cleanup Engine / Template	
+" border="0">	Damage Cleanup Services	
+" border="0">	Emergency Rescue Disks	
+" border="0">	InterScan AppletTrap	
+" border="0">	InterScan eManager	
+" border="0">	InterScan Messaging Security Suite	
+" border="0">	InterScan VirusWall	
+" border="0">	InterScan VirusWall for SMB	
+" border="0">	InterScan Web Security Suite	
+" border="0">	InterScan WebManager	
+" border="0">	InterScan WebProtect for ICAP	
+" border="0">	InterScan WebProtect for ISA	
+" border="0">	Legacy Products	
+" border="0">	NeatSuite	
+" border="0">	OfficeScan Corp. Edition	
+" src="/global/common/images/carat-on.gif" width=8 border=0>	PC-cillin for Wireless	
+" border="0">	PC-cillin Internet Security	
+" border="0">	PortalProtect for Sharepoint	
+" border="0">	Scan Engines	
+" border="0">	ScanMail eManager 	
+" border="0">	ScanMail for Lotus Notes	
+" border="0">	ScanMail for Microsoft Exchange	
+" border="0">	ServerProtect for EMC Celerra	
+" border="0">	ServerProtect for Linux	
+" border="0">	ServerProtect for Microsoft Windows/Novell NetWare	
+" border="0">	ServerProtect for Network Appliance filers	
+" border="0">	Spam Prevention Solution	
+" border="0">	Virus Pattern Files	 
+ 		
+
+Supported Versions	 		
+
+Beta Programs	 		
+
+Virus Response Service	 		
+
+Submission Wizard	 		
+
+Premium Support	 		
+
+Online Registration	 		
+
+Home > Support > Update Center > PC-cillin for Wireless     
+  
+
+Update CenterPC-cillin for Wireless	  
+
+Product Updates 
+
+Product	   Version	   Size	   Languages	 Release Date	   User Guides	    
+    
+  		pccipalm.zip   
+Palm   	  
+  	  PDA	   32.1KB
+(1 min
+@ 28.8 Kbps)	   English	   May 16, 2002	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+pc-cillin_for_pocket_pc_arm.exe   
+Pocket PC - ARM CPU
+Pocket PC - Compaq iPAQ 3630/3650   	  
+  	  PDA	   535.7KB
+(3 mins
+@ 28.8 Kbps)	   English	   May 16, 2001	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+pc-cillin_for_pocket_pc_mips.exe   
+Pocket PC - Casio Cassiopeia E-115/E-500
+Pocket PC - Compaq Aero 1550
+Pocket PC - Leo E-300
+Pocket PC - MIPS CPU   	  
+  	  PDA	   612.6KB
+(3 mins
+@ 28.8 Kbps)	   English	   May 16, 2001	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+pc-cillin_for_pocket_pc_sh3.exe   
+Pocket PC - SH3 CPU - HP Jornada 545/548   	  
+  	  PDA	   561.6KB
+(3 mins
+@ 28.8 Kbps)	   English	   May 16, 2001	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+pc-cillin_for_pocket_pc.exe   
+-   	  
+  	  PDA	   1.4MB
+(7 mins
+@ 28.8 Kbps)	   English	   May 16, 2001	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+pcciepoc.sis   
+EPOC   	  
+  	  PDA	   150.0KB
+(1 min
+@ 28.8 Kbps)	   English	   May 15, 2001	   
+
+FAQ	
+
+ReadMe	
+
+User's Guide	
+
+Not sure which Pocket PC version to download? 
+
+1.  Download pc-cillin_for_pocket_pc.exe 
+2.  Double-click on the software, and the correct version of the software will be installed for you. 
+
+       	  	  	  	  	  	  	 
+   
+  	  	  	  	  	  	  	  
+
+Copyright 1989-2004 Trend Micro, Inc. All rights reserved. Legal Notice and Privacy Policy	 
+

@@ -1,0 +1,147 @@
+Get Access To: 1,700+ online books DevX premium content CoDe Mag Subscription CoDe Mag archives 20% off eLearning $ 9.99 per month Featured Product: Janus .NET Controls Suite Get Access To: GridEX Timeline Control ButtonBar Control ExplorerBar Controls & more Only $ 452.93! Featured Product END RED HEADER--> eLearning Subscriptions MCSE Certification Web Development General Programming Hundreds of courses! Only $ 249! Featured Product END RED HEADER--> Exclusive information about all the major search engines, including submission tips. A 6 month membership is $ 69, and full year membership is only $ 99...save $ 39! More Information Featured Product END RED HEADER--> The most comprehensive library of Windows-based Drivers and Security Updates. Updated Daily. Starting at $ 4.95 for a daily pass. A one-year Membership Rate is $ 29.95. More Information Featured Product END RED HEADER--> Web site statistics and reports on browser usage, screen resolution, operating systems, and site referrers all for only $ 21.95/year More Information • Code Creation and Editing • Database Management • Debugging and Testing • eCommerce Components • Encryption Components • Search • Software Licensing • SQL Components • VBA and Scripting • Web Site • XML Components • .NET • Active Server Pages • DB2 • Java Programming • JavaScript • Network Security • SQL Server • Visual Basic • Web Security • Web Services • XML Home | Books | Tools and Components | eLearning | Magazines | Customer Service Please Note: MarketPlace prices are subject to change without notice. Copyright © 2003 DevX, Inc. . All Rights Reserved. DevX privacy policy .   --> /******************************************************************************** Copyright (C) 1999 Thomas Brattli This script is made by and copyrighted to Thomas Brattli at www.bratta.com Visit for more great scripts. This may be used freely as long as this msg is intact! I will also appriciate any links you could give me. ********************************************************************************/ //Default browsercheck, added to all scripts! function checkBrowser(){  this.ver=navigator.appVersion  this.dom=document.getElementById?1:0  this.ie5=(this.ver.indexOf("MSIE 5")>-1 && this.dom)?1:0;  this.ie4=(document.all && !this.dom)?1:0;  this.ns5=(this.dom && parseInt(this.ver) >= 5) ?1:0;  this.ns4=(document.layers && !this.dom)?1:0;  this.bw=(this.ie5 || this.ie4 || this.ns4 || this.ns5)  return this } bw=new checkBrowser() /************************************************************************************ Making cross-browser objects ************************************************************************************/ function makeMenuObj(obj,nest,img,offimage,onimage){  nest=(!nest) ? '':'document.'+nest+'.'            this.css=bw.dom? document.getElementById(obj).style:bw.ie4?document.all[obj].style:bw.ns4?eval(nest+"document.layers." +obj):0;    this.el=bw.dom?document.getElementById(obj):bw.ie4?document.all[obj]:bw.ns4?eval(nest+'document.'+obj):0;   this.ref=bw.dom || bw.ie4? document:bw.ns4?this.css.document:0;    this.x=(bw.ns4 || bw.ns5)? this.css.left:this.css.offsetLeft;  this.y=(bw.ns4 || bw.ns5)? this.css.top:this.css.offsetTop;    this.height=bw.ns4?this.ref.height:this.el.offsetHeight;    this.hideIt=b_hideIt; this.showIt=b_showIt; this.movey=b_movey  this.status=0;   this.swap=b_swap  if(onimage)this.onimage=onimage.src  this.offimage=offimage  if(img)this.img=this.ref.images[img]  return this } function b_showIt(){this.css.visibility="visible"; this.status=1} function b_hideIt(){this.css.visibility="hidden"; this.status=0} function b_movey(y){this.y=y; this.css.top=this.y}  function b_swap(on){  if(this.onimage && on){    this.img.src=this.onimage  }else if(this.onimage && !on){   this.img.src=this.offimage  } } /******************************************************************************** Making menuobjects ********************************************************************************/ function foldoutMenuObj(name){  this.menus=new Array()  this.name=name;  this.makeStyle=fold_style  this.make=fold_make  this.construct=fold_construct  this.fold=fold  this.foldstay=fold_stay  this.foldsub=fold_sub  this.foldsubstay=fold_sub_stay  this.foldsub2=fold_sub2  this.foldsub2stay=fold_sub2_stay  this.foldsub3=fold_sub3  this.foldsub3stay=fold_sub3_stay  this.foldsub4=fold_sub4  this.foldsub4stay=fold_sub4_stay  this.placeAll=fold_placeAll;  this.menus=new Array()  this.a=0; this.b; this.c; this.d; this.e; this.f  this.initexec=''  this.opn=fold_opn; } /******************************************************************************** Initiating page, making objects.. ********************************************************************************/ function fold_construct(){  this.container=new makeMenuObj('div'+this.name+'Cont')  this.menu=new Array()  menuheight=0;  for(i=0;i-1) this.initexec+="this.fold("+a+","+this.substay+");"  if(b>-1) this.initexec+="this.foldsub("+a+","+b+","+this.sub2stay+");"  if(c>-1) this.initexec+="this.foldsub2("+a+","+b+","+c+","+this.sub3stay+");"  if(d>-1) this.initexec+="this.foldsub3("+a+","+b+","+c+","+d+","+this.sub4stay+");"  if(e>-1) this.initexec+="this.foldsub4("+a+","+b+","+c+","+d+","+e+","+this.sub5stay+");"  if(f>-1) this.initexec+="this.foldsub5("+a+","+b+","+c+","+d+","+e+","+f+","+this.sub6stay+");" } /******************************************************************************** The first sub menus ********************************************************************************/ function fold_stay(a){  for(z=0;z\n\n\n'  document.write(str) } function fold_make_link(text,lnk,target,offimage,id,cl,ev,acl){  str2='\t'  if(offimage) str2+=''  str2+=text+'
+\n'  return str2 } function fold_make(type,text,lnk,target,offimage,onimage,fc,opn,end){  str="" ; fc=fc?fc+'; ':'';  if(!offimage) offimage=""; if(!onimage) onimage=""  if(this.a==0) str='\n'  if(type=="top"){   id=this.name+this.a   str+=fold_make_link(text,lnk,target,offimage,this.name+this.a,this.name,fc+this.name+'.fold('+this.a+','+this.name+'.substay)',this.name)   this.menus[this.a]=new Array()   this.menus[this.a].subs=0   if(onimage){ this.menus[this.a].onimage=new Image(); this.menus[this.a].onimage.src=onimage; this.menus[this.a].offimage=offimage; this.menus[this.a].img='img'+id}   this.a++; this.b=0; if(opn) this.opn(this.a)  }else if(type=="sub"){   id=this.name+(this.a-1)+'_'+(this.b),this.name+'Sub'   str+=fold_make_link(text,lnk,target,offimage,id,this.name+'Sub',fc+this.name+'.foldsub('+(this.a-1)+','+(this.b)+','+this.name+'.sub2stay)',this.name+'1')   if(opn) this.opn(this.a-1,this.b)   this.menus[this.a-1][this.b]=new Array()   if(onimage){ this.menus[this.a-1][this.b].onimage=new Image(); this.menus[this.a-1][this.b].onimage.src=onimage; this.menus[this.a-1][this.b].offimage=offimage; this.menus[this.a-1][this.b].img='img'+id}   this.b++; this.menus[this.a-1].subs=this.b; this.c=0  }else if(type=="sub2"){   id=this.name+(this.a-1)+'_'+(this.b-1)+'_'+(this.c)   str+=fold_make_link(text,lnk,target,offimage,id,this.name+'Sub2',fc+this.name+'.foldsub2('+(this.a-1)+','+(this.b-1)+','+(this.c)+','+this.name+'.sub3stay)',this.name+'2')   if(opn) this.opn(this.a-1,this.b-1,this.c)   this.menus[this.a-1][this.b-1][this.c]=new Array()   if(onimage){ this.menus[this.a-1][this.b-1][this.c].onimage=new Image(); this.menus[this.a-1][this.b-1][this.c].onimage.src=onimage; this.menus[this.a-1][this.b-1][this.c].offimage=offimage; this.menus[this.a-1][this.b-1][this.c].img='img'+id}   this.c++; this.menus[this.a-1][this.b-1].subs=this.c; this.d=0  }else if(type=="sub3"){   id=this.name+(this.a-1)+'_'+(this.b-1)+'_'+(this.c-1)+'_'+(this.d)   str+=fold_make_link(text,lnk,target,offimage,id,this.name+'Sub3',fc+this.name+'.foldsub3('+(this.a-1)+','+(this.b-1)+','+(this.c-1)+','+this.d+','+this.name+'.sub4stay)',this.name+'3')   if(opn) this.opn(this.a-1,this.b-1,this.c-1,this.d)   this.menus[this.a-1][this.b-1][this.c-1][this.d]=new Array()   if(onimage){ this.menus[this.a-1][this.b-1][this.c-1][this.d].onimage=new Image(); this.menus[this.a-1][this.b-1][this.c-1][this.d].onimage.src=onimage; this.menus[this.a-1][this.b-1][this.c-1][this.d].offimage=offimage; this.menus[this.a-1][this.b-1][this.c-1][this.d].img='img'+id}   this.d++; this.menus[this.a-1][this.b-1][this.c-1].subs=this.d; this.e=0  }else if(type=="sub4"){   id=this.name+(this.a-1)+'_'+(this.b-1)+'_'+(this.c-1)+'_'+(this.d-1)+'_'+(this.e)   str+=fold_make_link(text,lnk,target,offimage,id,this.name+'Sub4',fc+this.name+'.foldsub4('+(this.a-1)+','+(this.b-1)+','+(this.c-1)+','+(this.d-1)+','+this.e+','+this.name+'.sub5stay)',this.name+'4')   if(opn) this.opn(this.a-1,this.b-1,this.c-1,this.d-1,this.e)   this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e]=new Array()   if(onimage){ this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e].onimage=new Image(); this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e].onimage.src=onimage; this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e].offimage=offimage; this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e].img='img'+id}   this.e++; this.menus[this.a-1][this.b-1][this.c-1][this.d-1].subs=this.e; this.f=0  }else if(type=="sub5"){   str+='\t\t\t'+text+'
+\n'   if(opn) this.opn(this.a-1,this.b-1,this.c-1,this.d-1,this.e-1,this.f)   this.f++; this.menus[this.a-1][this.b-1][this.c-1][this.d-1][this.e-1].subs=this.f  }  if(end) str+=""  document.write(str) }  
+    
+DevX Home	 Marketplace      Books      Components and Tools    Free Magazines     Premier Club     Skill Building     	
+  	
+
+/******************************************************************************** Calling the write functions and setting variables ********************************************************************************/ //Variables to set oFoldMenu=new foldoutMenuObj('oFoldMenu') oFoldMenu.substay=false //Should the sub menus stay folded? oFoldMenu.sub2stay=false //Should the sub2 menus stay folded? oFoldMenu.sub3stay=false //Should the sub3 menus stay folded? oFoldMenu.sub4stay=false //Should the sub4 menus stay folded? oFoldMenu.sub5stay=false //Should the sub5 menus stay folded? oFoldMenu.sub6stay=false //Should the sub6 menus stay folded? oFoldMenu.menubetween=15 //The pixel value between the foldoutmenus oFoldMenu.left=5 //The left position of the menu oFoldMenu.top=15 //The top position of the menu oFoldMenu.width=130 //The width of the menu oFoldMenu.maxheight=370 //The maxheight of the menu, be sure to set this one high enough //Setting styles oFoldMenu.clFold="" //Regular styles for the topDivs oFoldMenu.clSub="left:10" //Styles for the subDivs oFoldMenu.clSub2="left:20" //Styles for the sub2Divs oFoldMenu.clSub3="left:30" //Styles for the sub3Divs oFoldMenu.clSub4="left:40" //Styles for the sub4Divs oFoldMenu.clSub5="left:60" //Styles for the sub5Divs oFoldMenu.clCont="position:relative;" //The cont layer, set position to relative if you want to try and have it inside a layer or whatever oFoldMenu.clFoldLinks="font-family:Verdana; color:#000099; font-size:11; font-weight:normal; text-decoration:none" //The style for the toplinks oFoldMenu.clSubLinks="font-family:Arial, Helvetica, sans-serif; color:#000099; font-size:11px; font-weight:normal" //The style for the sublinks oFoldMenu.clSub2Links="font-family:Arial, Helvetica; font-size:12px; text-decoration:none; color:#000099" //The style for the sub2links oFoldMenu.clSub3Links="font-family:Arial, Helvetica; font-size:11px; text-decoration:none; color:#000099" //The style for the sub3links oFoldMenu.clSub4Links="font-family:Arial, Helvetica; font-size:10px; text-decoration:none; color:#000099" //The style for the sub4links oFoldMenu.clSub5Links="font-family:Arial, Helvetica; font-size:10px; text-decoration:none; color:#000099" //The style for the sub5links //Do not change this line! oFoldMenu.makeStyle() //Making menus /*ARGUMENTS: type = what type of menu this item is (top,sub,sub2,sub3,sub4,sub5) text = the text for the item lnk = the link for the item (not needed if submenus) target = the target for the link (not needed if no target or no link) offimage = the default "arrow" image for this element (if you spesify no text, you can use the image only) onimage = the image to swap to when clicked (not needed if you don't want a swap image) fc = if you want the item to execute another javascript function aswell use this opn = if you want this particilar item to be opened on load set this to 1 (0,1) */ //Stores  oFoldMenu.make('top','
+STORES',' ')  //Line Breaks  oFoldMenu.make('top','
+',' ')     //Premier Club  oFoldMenu.make('top','Premier Club','http://www.devx.com/free/premierclub/premierclub.asp','_top')   //eLearning  oFoldMenu.make('top','eLearning','http://www.devx.com/elearning/','_top')  //Books X. oFoldMenu.make('top','Books','http://www.devx.com/marketplace/Link/9792','_top')  //Components X. oFoldMenu.make('top','Components & Tools','/componentsource.asp','_top')    //IBM oFoldMenu.make('top','FREE-IBM Downloads','http://www.devx.com/ibm/Door/6836','_top')  //Nokia  oFoldMenu.make('top','FREE-Nokia Toolkits','http://www.devx.com/Nokia/WidgetContainer/6573','_top')                           //NetLine  oFoldMenu.make('top','FREE-Magazines','http://devx.tradepub.com/','_top')  //Search Engine  oFoldMenu.make('top','Search Engine Tips','http://searchenginewatch.com/','_top')  //NetLine  oFoldMenu.make('top','DriversSecurity Updates','http://www.windrivers.com/','_top')  //NetLine  oFoldMenu.make('top','Web Site Analysis Tool','http://thecounter.com/','_top')    //Partner Network  oFoldMenu.make('top','
+PARTNER NETWORK',' ')  //Line Breaks  oFoldMenu.make('top','
+',' ')  //Shipping Info  oFoldMenu.make('top','Shipping Info',0,0,'/images/falsered.gif','/images/truered.gif')   oFoldMenu.make('sub','General Info','/shippinginfo.asp','_top')    oFoldMenu.make('sub','Books','/shippinginfo.asp#books','_top') oFoldMenu.make('sub','Components & Tools','/shippinginfo.asp#componentsource','_top') //Customer Service  oFoldMenu.make('top','Customer Service','/customerservice.asp','_top')  //Return Policy  oFoldMenu.make('top','Return Policy',0,0,'/images/falsered.gif','/images/truered.gif')  oFoldMenu.make('sub','Premier Club','/customerservice.asp#PremierClub','_top')   oFoldMenu.make('sub','Books','/customerservice.asp#books','_top') //About DevX  oFoldMenu.make('top','About DevX',0,0,'/images/falsered.gif','/images/truered.gif')   oFoldMenu.make('sub','Who We Are','http://www.devx.net/','_top')   oFoldMenu.make('sub','Enterprise Portal Solutions','http://www.devx.net/portals/corp_portals.asp','_top')   oFoldMenu.make('sub','Advertising Information','http://www.devx.net/advertiser/default.asp','_top')   oFoldMenu.make('sub','Press Center','http://www.devx.net/press/default.asp','_top')   oFoldMenu.make('sub','DevX Staff','http://www.devx.com/free/help/devx_staff.asp','_top')   oFoldMenu.make('sub','Careers at DevX','http://www.devx.net/jobs/default.asp','_top')   oFoldMenu.make('sub','Contact DevX','http://www.devx.net/company_contact.asp','_top')   oFoldMenu.make('sub','DevX Editor Discussions','http://news.devx.com/cgi-bin/dnewsweb.exe?cmd=xover&group=talk.editors.devx','_top')  oFoldMenu.construct() 	   
+  	
+
+ 	   
+
+Shop our partner network for great selection and prices! 	
+ 
+ 	      
+
+ 	 
+Get Access To:
+ 
+* 1,700+ online books 
+* DevX premium content
+
+* CoDe Mag Subscription
+
+* CoDe Mag archives
+
+* 20% off eLearning
+
+$9.99 per month 	
+
+ 	
+ 	
+
+ 	  Featured Product: 
+Janus .NET Controls Suite
+ Get Access To:
+ 
+* GridEX 
+* Timeline Control
+
+* ButtonBar Control
+
+* ExplorerBar Controls & more
+
+Only $452.93! 	
+
+ 	
+  	
+   
+
+ 	 eLearning Subscriptions
+ 
+* MCSE Certification
+
+* Web Development
+
+* General Programming
+ 
+Hundreds of courses! 
+
+Only $249! 	
+
+ 	
+ 	
+
+ 	  
+ 	        
+
+ 	 Exclusive information about all the major search engines, including submission tips.
+
+A 6 month membership is $69, and full year membership is only $99...save $39!
+ 
+ 
+
+More Information 	
+
+ 	
+ 	
+
+ 	 The most comprehensive library of Windows-based Drivers and Security Updates. Updated Daily.
+
+Starting at $4.95 for a daily pass. A one-year Membership Rate is $29.95.
+ 
+ 
+
+More Information 	
+
+ 	
+ 	
+
+ 	 Web site statistics and reports on browser usage, screen resolution, operating systems, and site referrers all for only $21.95/year 
+ 
+
+More Information 	
+
+ 	
+ 	
+
+ 	 
+ 	 
+ 	 	 	 
+ 	 
+ 	 
+ 	
+ 	  	 
+
+  • Code Creation and Editing
+  • Database Management
+  • Debugging and Testing
+  • eCommerce Components
+  • Encryption Components
+  • Search
+  • Software Licensing
+   • SQL Components 
+  • VBA and Scripting
+   • Web Site 
+  • XML Components
+ 	
+    • .NET
+   • Active Server Pages
+   • DB2
+    • Java Programming
+   • JavaScript
+   • Network Security
+    • SQL Server
+   • Visual Basic
+        • Web Security
+   • Web Services
+   • XML 
+ 	
+
+ 	 
+ 	 
+
+Home |   Books | Tools and Components |   eLearning |    Magazines |   Customer Service   	 
+
+ Please Note: MarketPlace prices are subject to change without notice. 
+  	 
+
+Copyright © 2003 DevX, Inc..
+  All Rights Reserved. DevX privacy policy.   	 
+  	 
+

@@ -1,0 +1,983 @@
+--> Technical Window System and Motif WWW Sites Copyright © 1995-2004 by Kenton Lee , Palo Alto, California, USA. All Rights Reserved. Last modified January 1, 2004. This page contains over 700 technically-oriented X Window System WWW links. All the links are on this page, so it may take a minute to load. If you're looking for a specific item, use your WWW browser's search or find function to search this page for specific keywords. If your browser supports HTML frames, you may find the framed version of this page easier to use: http://www.rahul.net/kenton/xsites.framed.html . A version without frames is: http://www.rahul.net/kenton/xsites.html . This information is updated frequently. Recent additions are marked with . Unless otherwise indicated, all listed sites are in HTML and English. Please send me any corrections, additions, comments, and suggestions. Kenton Lee , kenton @ rahul.net Contents X Window System Open Group/Motif X Frequently Asked Questions (FAQs) USENET newsgroups related to X X user groups and popular technologies Common Desktop Environment (CDE) X internationalization (I18N/L10N) On-line X magazines On-line X technical papers On-line X tutorials X/Motif for UNIX/Linux PCs X/Motif for Microsoft Windows, Macintosh, and other OSs General human-computer interaction X-based applications and tools (commercial and free) Lists of more X-related WWW sites Comment form Kenton Lee's home page X Window System official sites: X Window System home page X.org takes over X Window System X Consortium source archive information (FTP text) X Consortium unsupported archive (misc. programs and documentation sometimes not included in commercial releases) Information on the X11R6.6 release (April 4, 2001): X11R6.6 press release X11R6.6 release notes Downloading X11R6.6 X11R6.6 specifications (standards, applications, servers, etc.) X11R6.6 specifications (extensions) X11R6.6 specifications (in PostScript) X11R6.6 public patches X11R6.6 man pages Information on the X11R6.5.1 release (August 20, 2000): X11R6.5.1 release notes Downloading X11R6.5.1 X11R6.5.1 specifications (standards, applications, servers, etc.) X11R6.5.1 specifications (extensions) X11R6.5.1 specifications (in PostScript) X11R6.5.1 public patches X11R6.5.1 man pages Information on the X11R6.4 release (March 31, 1998): X11R6.4 release notes Downloading X11R6.4 X11R6.4 specifications (PostScript) X11R6.4 public patches Information on the Broadway project (X over the WWW): Broadway home page Broadway plug-ins X is more than you think ... Broadway slides from X Technical Conference (FTP 2.8MB PostScript file) Information on the X11R6.3 (a.k.a. Broadway ) release (December 23, 1996): How to get X11R6.3 (official FTP sites for X11R6.3) X11R6.3 Release Notes (discusses changes from X11R6.1) Tarred X11R6.3 source tree (ftp.x.org) (ftp.cs.columbia.edu) (ftp.eu.net) (sunsite.sut.ac.jp) Information on earlier X releases: X11R5 (1991) release notes (FTP text) X11R5 contrib manifest (FTP nroff source) X11R4 (1989) release notes (FTP text) FTP source code for earlier X releases: X10R3 , X10R4 , X11R1 , X11R2 , X11R3 , X11R4 , X11R5 X11R6 X11R6.1 X11R6.3 X11R6.4 The X Consortium's X Technical Conference was held annually between 1987 and 1996. Some presentations and conference reviews are on-line: Slides from some 1996 X Conference presentations (FTP) Slides from some 1995 X Conference presentations (FTP) Slides from some 1994 X Conference presentations (FTP) Jean-Michel Léon: Compte Rendu 10th (1996) X Technical Conference (French) Kenton Lee: 1996 X Technical Conference Review (from The X Advisor ) Susan Liebeskind and Miles O'Neal: Review of 1995 X Technical Conference Miles O'Neal: Review of 1994 X Technical Conference X Consortium public review documents (FTP) X protocol request to Xlib function mapping X Window System glossary (no frames version) (frames version) X Inter-Client Communication Conventions Manual (ICCCM) (HTML) (FTP PostScript) X11R6 Xlib manual in HTML X11R6 manuals in PDF format (from HP) X11R6 man pages in HTML format (from XFree86) logo (FTP PostScript) X and Motif documentation translated into Russian Back to table of contents Open Group/Motif sites: comp.windows.x.motif FAQ (HTML and text) Kenton Lee: Where to Get Motif Open Motif (Motif 2.2 open source) home page Open Motif 2.2 released January 29, 2002 Open Motif FAQ Open Motif documentation set on-line ICS MotifZone support for OpenMotif OpenMotif CVS archive (MotifZone) OpenMotif bug database (MotifZone) OpenMotif developer's mailing list (MotifZone) Some editorials on Open Motif: Antony Fountain (O'Reilly) Eric Foster-Johnson (Linux Programming) Linux Weekly News Open Group/Motif home page Open Group/Motif test tools Year 2000 statement for X and Motif The Open Group Desktop Technologies overview CDE/Motif release schedule CDE/Motif FAQ CDE/Motif 2.1 announcement CDE/Motif 2.1 data sheet Motif 2.0 technical overview Motif Press Releases CDE/Motif questions and answers Open Group publications (specs for CDE, Motif, etc.) Official Motif manuals (published by Prentice-Hall) Official Motif documentation on-line (PDF and PostScript) Open Group Events Calendar Open Group Press Releases Official OSF/Motif 2.1 manuals on-line (HTML format, courtesy of HP, search for Motif) O'Reilly Motif books (Motif 1.2, troff format) O'Reilly Motif books (updated for Motif 2.1, HTML and PDF formats) Vania Joloboff: Motif Drag and Drop Protocol Kenton Lee: Motif widget class hierarchy reference sheet Antony Fountain, Paula Ferguson: New Features in Motif 2.1 and 2.0 Third-party Motif-compatible widgets: Widgets FAQ Falconer: Survey of widget sets Freeware/shareware widgets: ftp.x.org contrib/widgets/motif archive (FTP) Marc de Courville: annotated list of free Xt widgets XmHTML (free HTML widget) Xbae matrix widget Xg widget set Fermi histo-scope plotting widget set Some commercial widget sets: Computer Generation Integrated Computer Solutions Interactive Network Technologies KL Group XRT widgets X and Motif documentation translated into Russian Back to table of contents User groups and popular X-based technologies: Image handling: Koala project home page XPM (color graphics file format and library) home page XPM tutorial (FTP) Syd Logan's XIE and XIElib Home Page Imlib image library George Staplin: Xlib JPEG Display George Staplin: GXV Image Viewer libAfterImage image manipulation library Advanced graphics and text: SGI: OpenGL WWW Center Mesa: a free OpenGL clone libxmi - drawing package library extracted from sample X server Fresco InterViews Juliusz Chroboczek: Truetype Font Support For X FreeType Project - TrueType engine for X and other platforms X-TrueType (X-TT) Server Project (English and Japanese) XFree86 Font De-uglification HOWTO Keith Packard: X rendering extension Keith Packard: papers X ADA APIs: X11/Ada 95 Programmer's Home Page Resources for Ada (including many X library bindings) X11Ada binding for X/Motif X11Ada (Belgium) AdaPower X on Ada Project Scripting: Scriptics: Tcl/Tk Tcl/Tk Consortium Tcl/Tk Resources Tcl FAQ Jean-Michel Leon: Scripting Graphical User Interfaces Jan Newmarch: Programming X using command languages (Tcl/Tk) (PostScript) Tom Yager: introduction to the windowing Korn shell X for the disabled: DACX: The Disability Action Committee for X Mercator: Providing Access to GUIs for Computer Users Who Are Blind UltraSonix screen reader for X X Accessibility: Access X AcessX for X Window SGI AcessX Access to DECwindows for People with Disabilities Java and WWW: Igor Boukanov: A pure Java X client Eugene O'Neil: XTC - X protocol implemented in Java WeirdX - a pure Java X server SSH: secure shell and X11 protocol forwarding program XSwallow: generic plugin for Unix Netscape Escher: X API in Java Groupware: SUCCEED: Overview of Groupware software for X Brown University: XMX - X Protocol Multiplexor (application sharing) Stanford University: X-based Collaboratory System RealVNC: Virtual Network Computing More VNC distributions F. Fluckiger: A Vision on an Integrated Meeting Environment (using Shared-X) Emory University: Collaborative Computing Frameworks for Natural Sciences Research x0rfbserver - export X desktop via RFB protocol X server add-ons: X-Software meta-X and big-X servers Unix Insider - Xvfb dxpc - Differential X Protocol Compressor NoMachine X protocol compression Motif utilities: VDX Motif GUI builder VXE Motif GUI builder Xmt Motif tools ICS Embedded Open Motif Popular non-Motif GUI toolkits: KDE - the K Desktop Environment GTK - the GIMP toolkit GNOME - the GNU desktop QT - Trolltech toolkit Freedesktop.org - X Desktop Group Freedesktop.org - GNOME and KDE window manager specification project XawPlus widget set O'Reilly Open Look and XView manuals on-line Record and replay: Xnee event record and playback system Android event record and playback system TkReplay: Record and Replay in Tk Paul DuBois: imake Software and Documents Scott Sadler: MDI for Motif (distribution) Xprint - advanced printing for X Back to table of contents Common Desktop Environment (CDE): CDE/Motif 2.1 announcement CDE home page CDE 2.1 data sheet CDE manuals on-line (scroll down to CDE section) Official CDE 2.1 manuals (published by Prentice-Hall) Open Group publications (specs for CDE, Motif, etc.) X/Open public presentations on CDE (from Uniform, Fed Unix, UNIX Expo, etc.) (HTML and PDF) alt.windows.cde FAQ comp.unix.cde FAQ (HTML) IBM AIX CDE Desktop IBM CDE FAQ HP-CDE papers Novell CDE for UnixWare 2 Sun CDE Overview Xi Graphics (formerly XInside) CDE for Linux and FreeBSD Manumit CDE for Linux Xi Graphics CDE from Delix (German) HP Journal special issue on CDE (article text is Acrobat PDF): A Common Desktop Environment for Platforms Based on the UNIX) Operating System CDE Application Programming Interfaces Accessing and Administering Applications in CDE Application Servers and Clients in CDE The CDE Action and Data Typing Services Migrating HP VUE Desktop Customizations to CDE A Media-Rich Online Help System Managing a Multicompany Software Development Project Design and Development of the CDE 1.0 Test Suite Synlib: The Core of CDE Tests Hale and Dorr: Welcome To The Common Desktop Environment (user's tutorial) CDE FAQ (HTML) Back to table of contents X Internationalization (I18N) and Localization (L10N) information: FAQs Multilingual Software Digest MicroImage: Internationalization (I18N) and localization (L10N) references CEN: European character set technology The Human-Languages Page The Language Page Progamming for internationalization FAQ Multilingual information Roman Czyborra: Unicode in the UNIX environment Roman Czyborra: The ISO 8859 Alphabet Soup Unicode home page Unicode fonts and tools for X11 MULE BDF fonts: many languages (Japan FTP site) MULE BDF fonts: many languages (US FTP site) Caslon ISO 8859 fonts (many languages) NTT: Multi-Localization Enhancement of NCSA Mosaic for X Linux sites all over the world Fonts & Things African and Middle Eastern information Isam Ishaq: Arabic fonts for X LanBox International: Arabic fonts for X Hebrew HOWTO Yair Rajwan: Hebrew fonts for X El-Mar Software: Hebrew support for X-Windows and Motif Asian information Chinese HOWTO Chin-Tang Chang: Chinese Big5 fonts for X ChinaSite: GB and Big5 fonts for X/UNIX/Netscape Cathay.net: GB and Big5 fonts for X/UNIX/Netscape University of Washington: Japanese on UNIX and X Kyoto University: Japanese (Kanji) fonts for X Vector: Japanese fonts for X Taiji Yamada: Japanese (localized) X clients Monash University Nihongo archive (Japanese language software for UNIX) KAIST: Korean (Hangul) fonts for X Jungshik Shin: FAQ - Hangul under Unix NECTEC: Lao fonts for X Thai HOWTO NECTEC: Thai fonts for X NACSIS: Thai fonts for X ZzzThai: Thai fonts for X TriChlor: Vietnamese VISCII fonts for X European information Unicode HOWTO Primoz Peterlin: Latin 2 (ISO 8859-2, for Central Europe) fonts for X Biznet: Latin 2 (ISO 8859-2, for Central Europe) fonts for X Croatian True Type fonts SovInformBureau: Cyrillic (KOI-8) fonts for X Sergei Naoumov: Cyrillic (KOI-8) fonts for X More Cyrillic fonts KIA archive: Cyrillic fonts for X CYR_RFX: Cyrillic fonts for X Czech Linux Czech fonts for X Danish HOWTO Finnish HOWTO French HOWTO German Georgian for X German Georgian for X German HOWTO Dimitris Violetis: Greek fonts for X WebHellas: Greek fonts for X Hungarian Linux Italian HOWTO Lithuanian Linux Polish HOWTO Polska klawiatura wX11 Spanish HOWTO Back to table of contents X Frequently Asked Questions (FAQs): FTP all X Window System FAQs (FTP text) comp.windows.x FAQ (HTML) (FTP text) comp.windows.x.apps FAQ (HTML) (FTP text) Window managers FAQ comp.windows.x.intrinsics FAQ (HTML) (FTP text) X Toolkit widgets FAQ (HTML) (Text) comp.windows.x.motif FAQ (HTML and text) comp.graphics.api.pexlib FAQ (HTML) comp.windows.x.i386unix FAQ (HTML) (FTP text) XFree86 (X for PCs) FAQ (HTML) X11R6 on SPARC FAQ CDE FAQ (HTML) comp.windows.open-look FAQ (HTML) Tcl/Tk Resources Tcl FAQ comp.lang.perl.tk Perl/Tk Toolkit FAQ (HTML) comp.graphics.api.opengl FAQ (HTML) comp.windows.misc Portable GUI FAQ (HTML) a2x (speech input to X) FAQ (HTML) (FTP Text) Graphic utilities FAQ (HTML) comp.fonts FAQ on X11 fonts (HTML) Imake FAQ (HTML) xterm FAQ (HTML) Broadway, X Web, and LBX FAQ Xprint FAQ comp.human-factors FAQ (HTML) BSD's list of UNIX OS and hardware FAQs Internet FAQ Consortium Infinite Ink: FAQ on finding FAQs X-related Linux HOWTOs . These are intended for users of X on Linux, but much of the material applies to other X implementations as well. X Window User HOWTO XFree86 HOWTO XFree86 video timings HOWTO XFree86 touch screen HOWTO International keyboard HOWTO Xinerama (MultiHead X) HOWTO LBX mini-HOWTO Remote X applications mini-HOWTO X11-big-cursor mini-HOWTO XFree-to-XInside mini-HOWTO X terminal mini-HOWTO More X Window System HOWTO's Back to table of contents USENET newgroups related to X: Before posting questions to these newsgroups, I recommend that you read the newgroup FAQs . Note that some of these groups, especially those not in the comp.* hierarchy, may not be universally available. Contact your system administrator for more information. comp.windows.x.announce - moderated announcements about X, mostly about new releases comp.windows.x - general X discussion comp.windows.x.apps - X-based applications comp.windows.x.intrinsics - X Toolkit intrinsics and the Athena widget set comp.windows.x.motif - Motif widget set and window manager comp.windows.open-look - Open Look toolkits and window manager news:comp.windows.x.i386unix - X for UNIX PCs comp.windows.x.pex - PHIGS extension to X (3D graphics extension to the X protocol) comp.graphics.api.pexlib - programming library for PEX comp.graphics.opengl - OpenGL (another 3D graphics toolkit) comp.graphics.api.opengl - OpenGL programming libraries comp.unix.cde - the Common Desktop Environment alt.windows.cde - obsolete group, superceeded by comp.unix.cde comp.os.linux.x - X Window System for the Linux operating system linux.dev.x11 - similar to the above comp.sources.x - defunct moderated group for X source code ba.windows.x - defunct San Francisco Bay Area X User's Group comp.windows.misc - supposedly about window system cross-platform portability, but high noise level comp.windows.ui-builders.teleuse - the TeleUse user interface builder comp.windows.ui-builders.uimx - the UIM/X user interface builder comp.windows.interviews - the InterViews (aka Fresco) toolkit comp.lang.tcl - Tcl programming language comp.lang.perl.tk - Perl/Tk toolkit comp.infosystems.www.browsers.x - WWW browsers based on X comp.human-factors - human factors and user interface design (not programming) Also, check the newgroups dedicated to specific hardware or operating systems. Back to table of contents On-line X-related magazines : I have published X-related articles in a number of magazines. Copies are available here. The Motif Developer is a new on-line magazine with many of the same writers as The X Advisor . It also has copies of many of the old The X Advisor articles. Other on-line magazines with some X content: Digital Technical Reports (Cambridge Research Lab) (Western Research Lab) HP Journal Linux Journal SunWorld Online Le journal du X (French) Back to table of contents On-line X technical papers: For more papers, see also the on-line X magazines listing in the previous section. Bookstore bibliographies of X Window System books for sale: Abyss Books (formerly Compubooks) intertain.com libHiTech.a Amazon - X Amazon - Motif Computer Bookshops (UK) PC Bookshop (UK) Yahoo: other on-line bookstores (many have search facilities) Reference material: James Gettys: Design Overview of the X Window System Version 11 (PostScript) James Gettys: The X Window System is 10 years old today! Dangerous X virus (from 1989 SIGGRAPH) Joel McCormack's papers on X servers: Writing Fast X Servers for Dumb Color Frame Buffers Smart Code, Stupid Memory A Fast X Server for a Dumb Color Frame Buffer A Smart Frame Buffer David Berry: Integrating A Color Management System with a Unix and X11 Environment (FTP PostScript) Writing a graphics device driver and DDX for the Digital UNIX X Server John Danskin's papers on X network performance: Compression Performance of the Xremote Protocol Higher Bandwidth X Profiling the X Protocol HP: X Window System white papers: Understanding X Visuals and Colormaps Multiple Display Technologies IBM: Making X Extensions Dynamically Loadable Keith Packard's papers on the X server (internals and extensions) Programming and debugging techniques: Kenton Lee's papers on X programming: Kenton Lee: The 40 Most Common X Programming Errors (and How To Avoid Repeating Them) Kenton Lee: X Application Performance Tuning Kenton Lee: Debugging X Protocol Error Messages Kenton Lee: more papers on X and Motif programming SGI Motif 2.1 porting guide Stephen Gildea: Writing Portable X Code Paul DuBois: Using imake with Motif Jim Fulton: Configuration Management in the X Window System (imake, etc.) Eric Johnson: X Window Managers Erik Borälv: New Interface Primitives - Extending the OSF/Motif widget set Jordan Hayes & Charles Ocheret: The Xt Intrinsics as a General Purpose Application Development Platform GUI tools and toolkits: Joel Bartlett: Don't Fidget with Widgets, Draw! Doug Young: ViewKit Library Technical Report ViewKit homepage and white papers X-Designer and C++ code generation Adobe: Display PostScript System Introduction - Perspective for Software Developers (Acrobat PDF) Adobe: Display PostScript NX Software Concepts and Facilities (Acrobat PDF) Scott Wingo: Implementing the Windows API on UNIX/Motif Bristol: Windows Controls Vs. Motif Widgets Jean-Michel Léon: Toolkits Graphiques sous X (French) Lori Houston and Anthony Fountain: Is Motif Dead? No Way! Graphics and multimedia: Silicon Graphics: using OpenGL with Xlib and with Motif Francis Lapique: La technologie OpenGL: un standard de fait (French) Mark Kilgard: Integrating OpenGL with X: OPen GL and X book More papers on X and OpenGL Gunnar Rønning, et al : Å (awe), an interpreted animation language for the Web Klaus Wolf, et al : Multimedia Application Sharing in a Heterogeneous Environment Administering and customizing X: Win Treese: X Through the Firewall CIAC: Securing X Windows CERN Security Handbook: X Security NIST: Security in Open Systems (including X) Claude Gross: Les outils de securite sur X11 (French) More tutorials on X security Miles O'Neal: Taming The X Display Manager Jean-Michel Léon: End-User Customization of Xt Applications Guide for the Usage of X Window at CERN (X Window System and X Terminals) UnixWare's X Window System for System Administrators Ranier Klute: X11-Administration - eine Einführung (FTP PostScript, German) Case studies: Walker et al: Making the X Window System Accessible to People with Disabilities University of Arizona: An X Window System Implementation of Blackboard-based Information Retrieval Design (BIRD) Berthold Hug, et al : User Interaction in HP PE/SolidDesigner (7MB PostScript file) An X Window System Implementation of Blackboard-based Information Retrieval Design Misc. papers: Rob Pike: 8½, the Plan 9 Window System E. Solomita, J. Kempf, and D. Duchamp: Xmove: A Pseudoserver for X Window Movement (PostScript) Ethan Solomita: Re-engineering the CDE/Motif Graphical User Interface for Pen Computing with X (FTP PostScript) Eric Mandel & Ralph Swick: The X Public Access Mechanism Jean-Michel Léon: Histoire d'X (French) Tristan Richardson: Teleporting - Mobile X Sessions Stelios Xanthakis: X Copy-Paste mini-HOWTO More collections of on-line X papers: Kenton Lee's papers on X and Motif programming Miles O'Neal's publications Bristol's publications on porting between MS-Windows and X Rick Kazman's publications on user interface software design and architecture MotifZone reference library Back to table of contents On-line X programming tutorials: Cardiff University: Dave Marshall's tutorial on X and Motif (UK web site) (Russia web site) (Spain web site) (US web site) LUPG: Basic Graphics Programming With The Xlib Library Christophe Tronche: Xlib programming tutorial Grant Edwards: X programming introduction De Montfort University (UK) X/Motif Notes Cambridge University (UK): X Windows - A Concise Description Saint Joseph's University: The Design of Graphic User Interfaces University of Strathclyde (UK): Introduction to X Windows Oregon State University: Looking through X Windows Marshall Brain's Motif tutorial (Canada web site) (Mexico web site) (Russia web site) (UK web site) Eric Johnson: Introduction to X and Motif George Staplin: Beginner Xlib tutorial Jaap Boender: How to program using the X Window System Leon Heller: Getting Started with X/OpenMotif Sinica: X Window (Chinese) Michal Brandejs: X Window System pro uplneho zacatecnika (Czech) Frank Anemaet: Xlib tutorial (Dutch) CSC: X-ikkunointi (Finnish) ESSI: Cours X-Window/MOTIF (French) INRIA: Eléments de programmation avec X11 (FTP tar file, French text and C examples) Pierre Ficheux: Introduction à la programmation Xlib (French) F. U. Berlin: Das X Window System (German) T. U. München: X11 -- Unix / Erste Schritte zur Benutzung (German) Ranier Klute: Mit X Erweiterungen (German) Rainer Klute: Das X-Window-System am Fachbereich Informatik (German) Rainer Krienke: Eine Einführung in X an der Uni - Koblenz (German) Gerd Heide: Das X Window System (German) N. T. U. of Athens: X Window System using & programming tutorial (Greek) Csizmazia Balazs: Programozás az OSF/Motif könyvtárral (Hungarian) Kyushu Institute of Technology: Motif tutorial (Japanese) Kim Bum Chul: X/Motif programming advise (Korean) Fernando Pérez Costoya: Curso del sistema de ventanas X (Spanish) WOOM: Thai Xlib tutorial (Thai) Xmtutor: An Interactive OSF/Motif Tutorial Back to table of contents X/Motif/CDE for UNIX/Linux PCs: Kenton Lee: Developing Motif Application Programs on Your Home PC (from The X Advisor ) Update to "Developing Motif Application Programs on Your Home PC" , October, 1996. Rich Kaszeta: X Window System Terminals - A New Use for Old and Outdated PCs, April, 1998 Kenton Lee: Sources of Motif for PC UNIX xwin.org: X developer community forum XFree86 (X for PC UNIX, Mach, OS/2, etc.): XFree86 home page (with release information) XFree86 FAQ (including list of known bugs) XFree86 release plans XFree86 for OS/2 Linux XFree86 HOWTO XGGI multithreaded X server based on XFree86 XFree86 benchmarks (xbench) smallX/tinyX (X Window System in 4MB) Linux Software Map (HTML) Linux on laptops MobiliX: Linux laptop HOWTO Linux Installation Guide: The X Window System Linux User's Guide: The X Window System Linux Journal: Motif for Linux reviews LessTif (free Motif clone, still in development) LessTif for OS2 Harry Albrecht: Inside Lesstif book Free ICS ViewKit for Linux Hungry ViewKit (free SGI ViewKit clone) ViewKlass (another free SGI ViewKit clone) Xdenu: turn your PC into an X terminal (boots from two floppies) iX-Terminal: build a diskless X terminal from PC hardware Motif for Linux vendors: Apps2Go Motif 2.1 ICS Open Motif Everywhere for Linux InfoMagic Moo-tiff Metro Link Motif 2.1 Metro Link Motif from CheapBytes Metro Link Motif from S.u.S.e (Germany) Xi Graphics (formerly XInside) Motif for Linux SoftStar Motif (Italy) CDE for Linux: Xi Graphics (formerly XInside) CDE for Linux and FreeBSD Manumit CDE for Linux Xi Graphics CDE from Delix (German) X servers for Linux and FreeBSD: XFree86 MetroLink Xi Graphics (formerly XInside) AcceleratedX servers FreeBSD handbook (with chapter on X) X/Motif for commercial PC UNIX: Caldera Network Desktop SCO OpenServer Sun Solaris x86 OpenGL for Linux: MetroLink Xi Graphics Back to table of contents X/Motif for Microsoft Windows, Macintosh, and other OSs: Note: an alternative (and usually much cheaper) way to run X on a IBM PC is to run a PC UNIX in place of or in addition to your Microsoft OS. See the previous solution for more information. X servers for Microsoft Windows and MS-DOS: A possibly cheaper alternative to MS-Windows X servers is running UNIX on your PC. More info is in the previous section. Reviews and tutorials: Windows 2000 Magazine review of PC X-servers Michael Kearney: X Window System Servers for MS-Windows Federal Computer Week: X-Terminal Alternatives - We Review Five Windows NT-Based Packages Interex: X Window System and NT Interoperability PCWeek: Tarantella scales up, but needs balance IX: Tutorium - PC-basierte X-Server vs. X-Terminals (FTP PostScript) (German) Mellingen & Skrivervik: Produktgjennomgang PC/X-tjenere - X-tjenere for Intel-baserte PCer og Windows (Norweigan) Hummingbird white papers and technical documents Frontier Technologies white papers (PDF) Network World: VNC is free remote control Starnet online tutorial APC: Windows Onto Linux tutorial Products: LabF WinaXe (formerly X-WinPro, our sponsor) HOBLink X11 (our sponsor) StarNet X-Win32 (our sponsor) Astec-X (Japanese) (English) Attachmate KEA! X Cygwin/XFree86 X server for Microsoft Windows (free) Cygwin/XFree86 FAQ Distinct IntelliTerm X Server Frontier Technologies SuperX GraphOn GO-Global Hummingbird Exceed Intergraph eXalt JCraft WeirdX - a pure Java X server (GPL) MI/X: X server for MS-Windows MultiView/X NCD PC-Xware NetManage ViewNow X Server Netsarang Xmanager Novell LAN WorkPlace Pexus X-Deep/32 Powerlan (formerly White Pine) WebTerm X Softway OpenNT X server Sun Solstice PC-Xware Tarantella XVision Eclipse WRQ Reflection X XLink Omni-X Xtreme X-Appeal (for MS-DOS) RealVNC: Virtual Network Computing More VNC distributions Motif-Microsoft porting and compatibility tools: Bristol Wind/U (MFC API and Motif look & feel) DataFocus NuTCRACKER Motif for Microsoft Windows NT Hummingbird Motif for Microsoft Windows NT and Windows 3.1 MainSoft MainWin Studio SCO Wintif (Motif API and Microsoft Windows look & feel) Softway OpenNT (X/UNIX environment for NT) Software UNO WM_MOTIF (Microsoft Windows API and Motif look & feel) Willows TWIN (Microsoft Windows binary interperter for X/UNIX) GNU-Win32 Project (free UNIX-to-Microsoft porting tools) MKS UNIX to Microsoft porting toolkit (including Motif) X11R6.3 binaries for GNU-Win32 Win32-X11 The Wine Project (Microsoft Windows emulator for x86 UNIX) wxWindows cross-platform development for Unix/Windows/MacOS XVT cross-platform toolkit (proprietary) QT cross-platform toolkit (proprietary) Hybrid X software for PCs (most of these support running X and MS-Windows software in mixed environments): Citrix MetaFrame for UNIX MainSoft X-Ray Bruce MacDowell Maggs: Software for DESQview/X Tarantella SCO Merge NeTraverse Win4Lin Neoware netOS VMware MS-Win emulator for Linux Tera ez-Win RealVNC: Virtual Network Computing (free) ATT VNC: Virtual Network Computing (free) More VNC distributions rdesktop: A remote desktop protocol client X/Motif for OS/2: XFree86/OS2 project Hummingbird Exceed X server Hummingbird Exceed X development toolkit IBM: TCP/IP for OS/2 LessTif (free Motif clone, still in development) X servers for Apple Macintosh: Reviews and tutorials: Macworld comparison of Macintosh X servers (May, 1996) Macworld Online - X Window for Mac Catches Up (Jan., 1995) Hans Mehlin: Xwindow servers for Mac Macinstart.com: XTen 6.1: New X Window Server for Mac OS Products: MkLinux (Linux for Power Macintosh, with X11R6) Powerlan (formerly White Pine) eXodus Tenon XTen (English) (Japanese) Tenon Xtools for MacOS X Linux and X for PowerPC home page Linux for m68k Macintosh home page NetBSD for Macintosh home page XFree86 on Darwin and Mac OS X Darwin: BSD UNIX (including X) for Mac OS X XDarwin home page OpenMac projects X11 for Mac OS X opendarwin.org X/Motif for other operating systems: XServers-NonUNIX (may be out of date) VisiCom VX-Windows (X and Motif for real-time embedded processes) Peritek X server STonX: Atari emulator for X Stella: Another Atari emulator XZX: Sinclair emulator for X Tim Mann: XTRS - TRS-80 emulator for X X4PCs: X for Amiga, Atari, etc. (may be out of date) Helius X server for Novell NetWare Bowden Systems: X/Motif for Tandem X-Cell X graphics accelerators Intuitive Systems: X Window System for NextStep X Window System for QNX Gnome Computers: X server for NC and Acorn PCs eXport Ventures: X/Motif for AS/400 Back to table of contents General human-computer interaction links (not all X related): ACM Interactions magazine: Resources on HCI The GUI Toolkit/Framework Page Brad Myers: User Interface Software Tools (US web site) (Austria web site) Vertical Research: HCI Reference List WWW Virtual Library: Human-Computer Interaction SEL-HPC: Human-Computer Interaction Archive Hans de Graaff: Human-Computer Interaction Index Mikael Ericsson: Human-Computer Interaction Resources comp.human-factors FAQ (HTML) Back to table of contents Lists of X-based applications and products: This web site lists only the basic X products, such as X servers, Motif, and CDE. The following pages have (much) more information on commercial and non-commercial X-based applications and products. Kenton Lee: Where to Get Motif Keith Packard's X software CVS repository comp.windows.x.apps FAQ Graphic utilities FAQ Freedom Software: list of Motif GUI development tools Steven Baum: review of UNIX GUI and graphics development software Steven Baum: Linux Software Encyclopedia Linux Applications and Utilities Page Applications and Utilities for newer Linux users Eric Johnson: Programming X APIs Justin Kibell: X11 Games (out-of-date) Jeff Garzik: X11 Games Yahoo: X11 Games CERN X Terminal Guide Yahoo: X terminals Yahoo: X software UNIX Review buyer's guide (searchable) Freshmeat: X applications listing MotifZone software map More X-related sites: Many of these contain more listings of X-related sites. These overlap with this page, but you may find their organization of the material to be useful. See also the FAQs for more X-related links. xwin.org: X developer community forum XFree86 home page ICS Motif Zone Motifdeveloper.com X/Motif Software by Jan Newmarch Anthony Thyssen: Tower Floor - X Window System Brandon Harris: X - End of Story Doug Rand: X and Motif Question List X11 Bits and Pieces CERN: X11 Working Group Howard Fear: X Window System technical library USAIL: X Window System web sites MIT Athena Consulting: stock X Window System answers Linux in action (screen shots from several users) Iztok Umek: Collection of Root X Windows (more screen shots) Garden of the Internet Gurus: X Window System All-Linux X Window System links Some referal links to this web site Back to table of contents Please send me your comments on this page: Name: E-Mail: Thank you for your comments and suggestions. Back to table of contents Kenton Lee , kenton @ rahul.net   --> 
+
+Please support our sponsors:
+ 
+
+Technical Window System and Motif WWW Sites
+
+---------------------------------------------------------------------
+Copyright © 1995-2004 by Kenton Lee, Palo Alto, California, USA. All Rights Reserved. Last modified January 1, 2004. 
+---------------------------------------------------------------------
+This page contains over 700 technically-oriented X Window System WWW links. All the links are on this page, so it may take a minute to load. If you're looking for a specific item, use your WWW browser's search or find function to search this page for specific keywords. 
+
+If your browser supports HTML frames, you may find the framed version of this page easier to use: http://www.rahul.net/kenton/xsites.framed.html. A version without frames is: http://www.rahul.net/kenton/xsites.html. 
+
+This information is updated frequently. Recent additions are marked with . Unless otherwise indicated, all listed sites are in HTML and English. Please send me any corrections, additions, comments, and suggestions. 
+
+Kenton Lee, kenton @ rahul.net 
+
+---------------------------------------------------------------------
+Contents 
+
+* X Window System 
+* Open Group/Motif 
+* X Frequently Asked Questions (FAQs) 
+* USENET newsgroups related to X 
+* X user groups and popular technologies 
+* Common Desktop Environment (CDE) 
+* X internationalization (I18N/L10N) 
+* On-line X magazines 
+* On-line X technical papers 
+
+* On-line X tutorials 
+* X/Motif for UNIX/Linux PCs 
+* X/Motif for Microsoft Windows, Macintosh, and other OSs 
+* General human-computer interaction 
+* X-based applications and tools (commercial and free) 
+* Lists of more X-related WWW sites 
+* Comment form 
+* Kenton Lee's home page 
+
+---------------------------------------------------------------------
+
+X Window System official sites:
+
+* X Window System home page 
+* X.org takes over X Window System 
+* X Consortium source archive information (FTP text) 
+* X Consortium unsupported archive (misc. programs and documentation sometimes not included in commercial releases) 
+* Information on the X11R6.6 release (April 4, 2001): 
+
+* X11R6.6 press release 
+* X11R6.6 release notes 
+* Downloading X11R6.6 
+* X11R6.6 specifications (standards, applications, servers, etc.) 
+* X11R6.6 specifications (extensions) 
+* X11R6.6 specifications (in PostScript) 
+* X11R6.6 public patches 
+* X11R6.6 man pages 
+
+* Information on the X11R6.5.1 release (August 20, 2000): 
+
+* X11R6.5.1 release notes 
+* Downloading X11R6.5.1 
+* X11R6.5.1 specifications (standards, applications, servers, etc.) 
+* X11R6.5.1 specifications (extensions) 
+* X11R6.5.1 specifications (in PostScript) 
+* X11R6.5.1 public patches 
+* X11R6.5.1 man pages 
+
+* Information on the X11R6.4 release (March 31, 1998): 
+
+* X11R6.4 release notes 
+* Downloading X11R6.4 
+* X11R6.4 specifications (PostScript) 
+* X11R6.4 public patches 
+
+* Information on the Broadway project (X over the WWW): 
+
+* Broadway home page 
+* Broadway plug-ins 
+* X is more than you think ... 
+* Broadway slides from X Technical Conference (FTP 2.8MB PostScript file) 
+
+* Information on the X11R6.3 (a.k.a. Broadway) release (December 23, 1996): 
+
+* How to get X11R6.3 (official FTP sites for X11R6.3) 
+* X11R6.3 Release Notes (discusses changes from X11R6.1) 
+* Tarred X11R6.3 source tree  (ftp.x.org)  (ftp.cs.columbia.edu)  (ftp.eu.net)  (sunsite.sut.ac.jp) 
+
+* Information on earlier X releases: 
+
+* X11R5 (1991) release notes (FTP text) 
+* X11R5 contrib manifest (FTP nroff source) 
+* X11R4 (1989) release notes (FTP text) 
+* FTP source code for earlier X releases:  X10R3,  X10R4,  X11R1,  X11R2,  X11R3,  X11R4,  X11R5  X11R6  X11R6.1  X11R6.3  X11R6.4 
+
+* The X Consortium's X Technical Conference was held annually between 1987 and 1996. Some presentations and conference reviews are on-line: 
+
+* Slides from some 1996 X Conference presentations (FTP) 
+* Slides from some 1995 X Conference presentations (FTP) 
+* Slides from some 1994 X Conference presentations (FTP) 
+* Jean-Michel Léon: Compte Rendu 10th (1996) X Technical Conference (French) 
+* Kenton Lee: 1996 X Technical Conference Review (from The X Advisor) 
+* Susan Liebeskind and Miles O'Neal: Review of 1995 X Technical Conference 
+* Miles O'Neal: Review of 1994 X Technical Conference 
+
+* X Consortium public review documents (FTP) 
+* X protocol request to Xlib function mapping 
+* X Window System glossary (no frames version) (frames version) 
+* X Inter-Client Communication Conventions Manual (ICCCM) (HTML) (FTP PostScript) 
+* X11R6 Xlib manual in HTML 
+* X11R6 manuals in PDF format (from HP) 
+* X11R6 man pages in HTML format (from XFree86) 
+* logo (FTP PostScript) 
+* X and Motif documentation translated into Russian 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+Open Group/Motif sites:
+
+* comp.windows.x.motif FAQ (HTML and text) 
+* Kenton Lee: Where to Get Motif 
+* Open Motif (Motif 2.2 open source) home page 
+* Open Motif 2.2 released January 29, 2002 
+* Open Motif FAQ 
+* Open Motif documentation set on-line 
+* ICS MotifZone support for OpenMotif 
+* OpenMotif CVS archive (MotifZone) 
+* OpenMotif bug database (MotifZone) 
+* OpenMotif developer's mailing list (MotifZone) 
+* Some editorials on Open Motif: 
+
+* Antony Fountain (O'Reilly) 
+* Eric Foster-Johnson (Linux Programming) 
+* Linux Weekly News 
+
+* Open Group/Motif home page 
+* Open Group/Motif test tools 
+* Year 2000 statement for X and Motif 
+* The Open Group Desktop Technologies overview 
+* CDE/Motif release schedule 
+* CDE/Motif FAQ 
+* CDE/Motif 2.1 announcement 
+* CDE/Motif 2.1 data sheet 
+* Motif 2.0 technical overview 
+* Motif Press Releases 
+* CDE/Motif questions and answers 
+* Open Group publications (specs for CDE, Motif, etc.) 
+* Official Motif manuals (published by Prentice-Hall) 
+* Official Motif documentation on-line (PDF and PostScript) 
+* Open Group Events Calendar 
+* Open Group Press Releases 
+* Official OSF/Motif 2.1 manuals on-line (HTML format, courtesy of HP, search for Motif) 
+* O'Reilly Motif books (Motif 1.2, troff format) 
+* O'Reilly Motif books (updated for Motif 2.1, HTML and PDF formats) 
+* Vania Joloboff: Motif Drag and Drop Protocol 
+* Kenton Lee: Motif widget class hierarchy reference sheet 
+* Antony Fountain, Paula Ferguson: New Features in Motif 2.1 and 2.0 
+* Third-party Motif-compatible widgets: 
+
+* Widgets FAQ 
+* Falconer: Survey of widget sets 
+* Freeware/shareware widgets: 
+
+* ftp.x.org contrib/widgets/motif archive (FTP) 
+* Marc de Courville: annotated list of free Xt widgets 
+* XmHTML (free HTML widget) 
+* Xbae matrix widget 
+* Xg widget set 
+* Fermi histo-scope plotting widget set 
+
+* Some commercial widget sets: 
+
+* Computer Generation 
+* Integrated Computer Solutions 
+* Interactive Network Technologies 
+* KL Group XRT widgets 
+
+* X and Motif documentation translated into Russian 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+User groups and popular X-based technologies:
+
+* Image handling: 
+
+* Koala project home page 
+* XPM (color graphics file format and library) home page 
+* XPM tutorial (FTP) 
+* Syd Logan's XIE and XIElib Home Page 
+* Imlib image library 
+* George Staplin: Xlib JPEG Display 
+* George Staplin: GXV Image Viewer 
+* libAfterImage image manipulation library 
+
+* Advanced graphics and text: 
+
+* SGI: OpenGL WWW Center 
+* Mesa: a free OpenGL clone 
+* libxmi - drawing package library extracted from sample X server 
+* Fresco 
+* InterViews 
+* Juliusz Chroboczek: Truetype Font Support For X 
+* FreeType Project - TrueType engine for X and other platforms 
+* X-TrueType (X-TT) Server Project (English and Japanese) 
+* XFree86 Font De-uglification HOWTO 
+* Keith Packard: X rendering extension 
+* Keith Packard: papers 
+
+* X ADA APIs: 
+
+* X11/Ada 95 Programmer's Home Page 
+* Resources for Ada (including many X library bindings) 
+* X11Ada binding for X/Motif 
+* X11Ada (Belgium) 
+* AdaPower X on Ada Project 
+
+* Scripting: 
+
+* Scriptics: Tcl/Tk 
+* Tcl/Tk Consortium 
+* Tcl/Tk Resources 
+* Tcl FAQ 
+* Jean-Michel Leon: Scripting Graphical User Interfaces 
+* Jan Newmarch: Programming X using command languages (Tcl/Tk) (PostScript) 
+* Tom Yager: introduction to the windowing Korn shell 
+
+* X for the disabled: 
+
+* DACX: The Disability Action Committee for X 
+* Mercator: Providing Access to GUIs for Computer Users Who Are Blind 
+* UltraSonix screen reader for X 
+* X Accessibility: Access X 
+* AcessX for X Window 
+* SGI AcessX 
+* Access to DECwindows for People with Disabilities 
+
+* Java and WWW: 
+
+* Igor Boukanov: A pure Java X client 
+* Eugene O'Neil: XTC - X protocol implemented in Java 
+* WeirdX - a pure Java X server 
+* SSH: secure shell and X11 protocol forwarding program 
+* XSwallow: generic plugin for Unix Netscape 
+* Escher: X API in Java 
+
+* Groupware: 
+
+* SUCCEED: Overview of Groupware software for X 
+* Brown University: XMX - X Protocol Multiplexor (application sharing) 
+* Stanford University: X-based Collaboratory System 
+* RealVNC: Virtual Network Computing 
+* More VNC distributions 
+* F. Fluckiger: A Vision on an Integrated Meeting Environment (using Shared-X) 
+* Emory University: Collaborative Computing Frameworks for Natural Sciences Research 
+* x0rfbserver - export X desktop via RFB protocol 
+
+* X server add-ons: 
+
+* X-Software meta-X and big-X servers 
+* Unix Insider - Xvfb 
+* dxpc - Differential X Protocol Compressor 
+* NoMachine X protocol compression 
+
+* Motif utilities: 
+
+* VDX Motif GUI builder 
+* VXE Motif GUI builder 
+* Xmt Motif tools 
+* ICS Embedded Open Motif 
+
+* Popular non-Motif GUI toolkits: 
+
+* KDE - the K Desktop Environment 
+* GTK - the GIMP toolkit 
+* GNOME - the GNU desktop 
+* QT - Trolltech toolkit 
+* Freedesktop.org - X Desktop Group 
+* Freedesktop.org - GNOME and KDE window manager specification project 
+* XawPlus widget set 
+* O'Reilly Open Look and XView manuals on-line 
+
+* Record and replay: 
+
+* Xnee event record and playback system 
+* Android event record and playback system 
+* TkReplay: Record and Replay in Tk 
+
+* Paul DuBois: imake Software and Documents 
+* Scott Sadler: MDI for Motif (distribution) 
+* Xprint - advanced printing for X 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+Common Desktop Environment (CDE):
+
+* CDE/Motif 2.1 announcement 
+* CDE home page 
+* CDE 2.1 data sheet 
+* CDE manuals on-line (scroll down to CDE section) 
+* Official CDE 2.1 manuals (published by Prentice-Hall) 
+* Open Group publications (specs for CDE, Motif, etc.) 
+* X/Open public presentations on CDE (from Uniform, Fed Unix, UNIX Expo, etc.) (HTML and PDF) 
+* alt.windows.cde FAQ 
+* comp.unix.cde FAQ (HTML) 
+* IBM AIX CDE Desktop 
+* IBM CDE FAQ 
+* HP-CDE papers 
+* Novell CDE for UnixWare 2 
+* Sun CDE Overview 
+* Xi Graphics (formerly XInside) CDE for Linux and FreeBSD 
+* Manumit CDE for Linux 
+* Xi Graphics CDE from Delix (German) 
+* HP Journal special issue on CDE (article text is Acrobat PDF): 
+
+* A Common Desktop Environment for Platforms Based on the UNIX) Operating System 
+* CDE Application Programming Interfaces 
+* Accessing and Administering Applications in CDE 
+* Application Servers and Clients in CDE 
+* The CDE Action and Data Typing Services 
+* Migrating HP VUE Desktop Customizations to CDE 
+* A Media-Rich Online Help System 
+* Managing a Multicompany Software Development Project 
+* Design and Development of the CDE 1.0 Test Suite 
+* Synlib: The Core of CDE Tests 
+
+* Hale and Dorr: Welcome To The Common Desktop Environment (user's tutorial) 
+* CDE FAQ (HTML) 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+X Internationalization (I18N) and Localization (L10N) information:
+
+* FAQs 
+
+* Multilingual Software Digest 
+* MicroImage: Internationalization (I18N) and localization (L10N) references 
+* CEN: European character set technology 
+* The Human-Languages Page 
+* The Language Page 
+* Progamming for internationalization FAQ 
+
+* Multilingual information 
+
+* Roman Czyborra: Unicode in the UNIX environment 
+* Roman Czyborra: The ISO 8859 Alphabet Soup 
+* Unicode home page 
+* Unicode fonts and tools for X11 
+* MULE BDF fonts: many languages (Japan FTP site) 
+* MULE BDF fonts: many languages (US FTP site) 
+* Caslon ISO 8859 fonts (many languages) 
+* NTT: Multi-Localization Enhancement of NCSA Mosaic for X 
+* Linux sites all over the world 
+* Fonts & Things 
+
+* African and Middle Eastern information 
+
+* Isam Ishaq: Arabic fonts for X 
+* LanBox International: Arabic fonts for X 
+* Hebrew HOWTO 
+* Yair Rajwan: Hebrew fonts for X 
+* El-Mar Software: Hebrew support for X-Windows and Motif 
+
+* Asian information 
+
+* Chinese HOWTO 
+* Chin-Tang Chang: Chinese Big5 fonts for X 
+* ChinaSite: GB and Big5 fonts for X/UNIX/Netscape 
+* Cathay.net: GB and Big5 fonts for X/UNIX/Netscape 
+* University of Washington: Japanese on UNIX and X 
+* Kyoto University: Japanese (Kanji) fonts for X 
+* Vector: Japanese fonts for X 
+* Taiji Yamada: Japanese (localized) X clients 
+* Monash University Nihongo archive (Japanese language software for UNIX) 
+* KAIST: Korean (Hangul) fonts for X 
+* Jungshik Shin: FAQ - Hangul under Unix 
+* NECTEC: Lao fonts for X 
+* Thai HOWTO 
+* NECTEC: Thai fonts for X 
+* NACSIS: Thai fonts for X 
+* ZzzThai: Thai fonts for X 
+* TriChlor: Vietnamese VISCII fonts for X 
+
+* European information 
+
+* Unicode HOWTO 
+* Primoz Peterlin: Latin 2 (ISO 8859-2, for Central Europe) fonts for X 
+* Biznet: Latin 2 (ISO 8859-2, for Central Europe) fonts for X 
+* Croatian True Type fonts 
+* SovInformBureau: Cyrillic (KOI-8) fonts for X 
+* Sergei Naoumov: Cyrillic (KOI-8) fonts for X 
+* More Cyrillic fonts 
+* KIA archive: Cyrillic fonts for X 
+* CYR_RFX: Cyrillic fonts for X 
+* Czech Linux 
+* Czech fonts for X 
+* Danish HOWTO 
+* Finnish HOWTO 
+* French HOWTO 
+* German Georgian for X 
+* German Georgian for X 
+* German HOWTO 
+* Dimitris Violetis: Greek fonts for X 
+* WebHellas: Greek fonts for X 
+* Hungarian Linux 
+* Italian HOWTO 
+* Lithuanian Linux 
+* Polish HOWTO 
+* Polska klawiatura wX11 
+* Spanish HOWTO 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+X Frequently Asked Questions (FAQs):
+
+* FTP all X Window System FAQs (FTP text) 
+* comp.windows.x FAQ (HTML) (FTP text) 
+* comp.windows.x.apps FAQ (HTML) (FTP text) 
+* Window managers FAQ 
+* comp.windows.x.intrinsics FAQ (HTML) (FTP text) 
+* X Toolkit widgets FAQ (HTML) (Text) 
+* comp.windows.x.motif FAQ (HTML and text) 
+* comp.graphics.api.pexlib FAQ (HTML) 
+* comp.windows.x.i386unix FAQ (HTML) (FTP text) 
+* XFree86 (X for PCs) FAQ (HTML) 
+* X11R6 on SPARC FAQ 
+* CDE FAQ (HTML) 
+* comp.windows.open-look FAQ (HTML) 
+* Tcl/Tk Resources 
+* Tcl FAQ 
+* comp.lang.perl.tk Perl/Tk Toolkit FAQ (HTML) 
+* comp.graphics.api.opengl FAQ (HTML) 
+* comp.windows.misc Portable GUI FAQ (HTML) 
+* a2x (speech input to X) FAQ (HTML) (FTP Text) 
+* Graphic utilities FAQ (HTML) 
+* comp.fonts FAQ on X11 fonts (HTML) 
+* Imake FAQ (HTML) 
+* xterm FAQ (HTML) 
+* Broadway, X Web, and LBX FAQ 
+* Xprint FAQ 
+* comp.human-factors FAQ (HTML) 
+* BSD's list of UNIX OS and hardware FAQs 
+* Internet FAQ Consortium 
+* Infinite Ink: FAQ on finding FAQs 
+* X-related Linux HOWTOs. These are intended for users of X on Linux, but much of the material applies to other X implementations as well. 
+ 
+* X Window User HOWTO  
+* XFree86 HOWTO  
+* XFree86 video timings HOWTO  
+* XFree86 touch screen HOWTO  
+* International keyboard HOWTO  
+* Xinerama (MultiHead X) HOWTO  
+* LBX mini-HOWTO  
+* Remote X applications mini-HOWTO  
+* X11-big-cursor mini-HOWTO  
+* XFree-to-XInside mini-HOWTO  
+* X terminal mini-HOWTO  
+* More X Window System HOWTO's 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+USENET newgroups related to X:
+
+Before posting questions to these newsgroups, I recommend that you read the newgroup FAQs. 
+
+Note that some of these groups, especially those not in the comp.* hierarchy, may not be universally available. Contact your system administrator for more information. 
+
+* comp.windows.x.announce - moderated announcements about X, mostly about new releases 
+* comp.windows.x - general X discussion 
+* comp.windows.x.apps - X-based applications 
+* comp.windows.x.intrinsics - X Toolkit intrinsics and the Athena widget set 
+* comp.windows.x.motif - Motif widget set and window manager 
+* comp.windows.open-look - Open Look toolkits and window manager 
+* news:comp.windows.x.i386unix - X for UNIX PCs 
+* comp.windows.x.pex - PHIGS extension to X (3D graphics extension to the X protocol) 
+* comp.graphics.api.pexlib - programming library for PEX 
+* comp.graphics.opengl - OpenGL (another 3D graphics toolkit) 
+* comp.graphics.api.opengl - OpenGL programming libraries 
+* comp.unix.cde - the Common Desktop Environment 
+* alt.windows.cde - obsolete group, superceeded by comp.unix.cde 
+* comp.os.linux.x - X Window System for the Linux operating system 
+* linux.dev.x11 - similar to the above 
+* comp.sources.x - defunct moderated group for X source code 
+* ba.windows.x - defunct San Francisco Bay Area X User's Group 
+* comp.windows.misc - supposedly about window system cross-platform portability, but high noise level 
+* comp.windows.ui-builders.teleuse - the TeleUse user interface builder 
+* comp.windows.ui-builders.uimx - the UIM/X user interface builder 
+* comp.windows.interviews - the InterViews (aka Fresco) toolkit 
+* comp.lang.tcl - Tcl programming language 
+* comp.lang.perl.tk - Perl/Tk toolkit 
+* comp.infosystems.www.browsers.x - WWW browsers based on X 
+* comp.human-factors - human factors and user interface design (not programming) 
+
+Also, check the newgroups dedicated to specific hardware or operating systems. Back to table of contents
+
+---------------------------------------------------------------------
+
+On-line X-related magazines:
+
+* I have published X-related articles in a number of magazines. Copies are available here. 
+* The Motif Developer is a new on-line magazine with many of the same writers as The X Advisor. It also has copies of many of the old The X Advisor articles. 
+* Other on-line magazines with some X content: 
+
+* Digital Technical Reports  (Cambridge Research Lab)  (Western Research Lab) 
+* HP Journal 
+* Linux Journal 
+* SunWorld Online 
+* Le journal du X (French) 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+On-line X technical papers:
+
+For more papers, see also the on-line X magazines listing in the previous section. 
+
+* Bookstore bibliographies of X Window System books for sale: 
+ 
+* Abyss Books (formerly Compubooks)  
+* intertain.com  
+* libHiTech.a  
+* Amazon - X  
+* Amazon - Motif  
+* Computer Bookshops (UK)  
+* PC Bookshop (UK)  
+* Yahoo: other on-line bookstores (many have search facilities) 
+
+* Reference material: 
+
+* James Gettys: Design Overview of the X Window System Version 11 (PostScript) 
+* James Gettys: The X Window System is 10 years old today! 
+* Dangerous X virus (from 1989 SIGGRAPH) 
+* Joel McCormack's papers on X servers:  
+ 
+* Writing Fast X Servers for Dumb Color Frame Buffers  
+* Smart Code, Stupid Memory A Fast X Server for a Dumb  Color Frame Buffer  
+* A Smart Frame Buffer  
+
+* David Berry: Integrating A Color Management System with a Unix and X11 Environment (FTP PostScript) 
+* Writing a graphics device driver and DDX for the Digital UNIX X Server 
+* John Danskin's papers on X network performance:  
+ 
+* Compression Performance of the Xremote Protocol  
+* Higher Bandwidth X  
+* Profiling the X Protocol  
+
+* HP: X Window System white papers:  
+ 
+* Understanding X Visuals and Colormaps  
+* Multiple Display Technologies  
+
+* IBM: Making X Extensions Dynamically Loadable 
+* Keith Packard's papers on the X server (internals and extensions) 
+
+* Programming and debugging techniques: 
+
+* Kenton Lee's papers on X programming:  
+ 
+* Kenton Lee: The 40 Most Common X Programming Errors (and How To Avoid Repeating Them)  
+* Kenton Lee: X Application Performance Tuning  
+* Kenton Lee: Debugging X Protocol Error Messages  
+* Kenton Lee: more papers on X and Motif programming  
+
+* SGI Motif 2.1 porting guide 
+* Stephen Gildea: Writing Portable X Code 
+* Paul DuBois: Using imake with Motif 
+* Jim Fulton: Configuration Management in the X Window System (imake, etc.) 
+* Eric Johnson: X Window Managers 
+* Erik Borälv: New Interface Primitives - Extending the OSF/Motif widget set 
+* Jordan Hayes & Charles Ocheret: The Xt Intrinsics as a General Purpose Application Development Platform 
+
+* GUI tools and toolkits: 
+
+* Joel Bartlett: Don't Fidget with Widgets, Draw! 
+* Doug Young: ViewKit Library Technical Report 
+* ViewKit homepage and white papers 
+* X-Designer and C++ code generation 
+* Adobe: Display PostScript System Introduction - Perspective for Software Developers (Acrobat PDF) 
+* Adobe: Display PostScript NX Software Concepts and Facilities (Acrobat PDF) 
+* Scott Wingo: Implementing the Windows API on UNIX/Motif 
+* Bristol: Windows Controls Vs. Motif Widgets 
+* Jean-Michel Léon: Toolkits Graphiques sous X (French) 
+* Lori Houston and Anthony Fountain: Is Motif Dead? No Way! 
+
+* Graphics and multimedia: 
+
+* Silicon Graphics: using OpenGL with Xlib and with Motif 
+* Francis Lapique: La technologie OpenGL: un standard de fait (French) 
+* Mark Kilgard: Integrating OpenGL with X: 
+ 
+* OPen GL and X book  
+* More papers on X and OpenGL 
+
+* Gunnar Rønning, et al: Å (awe), an interpreted animation language for the Web 
+* Klaus Wolf, et al: Multimedia Application Sharing in a Heterogeneous Environment 
+
+* Administering and customizing X: 
+
+* Win Treese: X Through the Firewall 
+* CIAC: Securing X Windows 
+* CERN Security Handbook: X Security 
+* NIST: Security in Open Systems (including X) 
+* Claude Gross: Les outils de securite sur X11 (French) 
+* More tutorials on X security 
+* Miles O'Neal: Taming The X Display Manager 
+* Jean-Michel Léon: End-User Customization of Xt Applications 
+* Guide for the Usage of X Window at CERN (X Window System and X Terminals) 
+* UnixWare's X Window System for System Administrators 
+* Ranier Klute: X11-Administration - eine Einführung (FTP PostScript, German) 
+
+* Case studies: 
+
+* Walker et al: Making the X Window System Accessible to People with Disabilities 
+* University of Arizona: An X Window System Implementation of Blackboard-based Information Retrieval Design (BIRD) 
+* Berthold Hug, et al: User Interaction in HP PE/SolidDesigner (7MB PostScript file) 
+* An X Window System Implementation of Blackboard-based Information Retrieval Design 
+
+* Misc. papers: 
+
+* Rob Pike: 8½, the Plan 9 Window System 
+* E. Solomita, J. Kempf, and D. Duchamp: Xmove: A Pseudoserver for X Window Movement (PostScript) 
+* Ethan Solomita: Re-engineering the CDE/Motif Graphical User Interface for Pen Computing with X (FTP PostScript) 
+* Eric Mandel & Ralph Swick: The X Public Access Mechanism 
+* Jean-Michel Léon: Histoire d'X (French) 
+* Tristan Richardson: Teleporting - Mobile X Sessions 
+* Stelios Xanthakis: X Copy-Paste mini-HOWTO 
+
+* More collections of on-line X papers: 
+
+* Kenton Lee's papers on X and Motif programming 
+* Miles O'Neal's publications 
+* Bristol's publications on porting between MS-Windows and X 
+* Rick Kazman's publications on user interface software design and architecture 
+* MotifZone reference library 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+On-line X programming tutorials:
+
+* Cardiff University: Dave Marshall's tutorial on X and Motif (UK web site) (Russia web site) (Spain web site) (US web site) 
+* LUPG: Basic Graphics Programming With The Xlib Library 
+* Christophe Tronche: Xlib programming tutorial 
+* Grant Edwards: X programming introduction 
+* De Montfort University (UK) X/Motif Notes 
+* Cambridge University (UK): X Windows - A Concise Description 
+* Saint Joseph's University: The Design of Graphic User Interfaces 
+* University of Strathclyde (UK): Introduction to X Windows 
+* Oregon State University: Looking through X Windows 
+* Marshall Brain's Motif tutorial (Canada web site) (Mexico web site) (Russia web site) (UK web site) 
+* Eric Johnson: Introduction to X and Motif 
+* George Staplin: Beginner Xlib tutorial 
+* Jaap Boender: How to program using the X Window System 
+* Leon Heller: Getting Started with X/OpenMotif 
+* Sinica: X Window (Chinese) 
+* Michal Brandejs: X Window System pro uplneho zacatecnika (Czech) 
+* Frank Anemaet: Xlib tutorial (Dutch) 
+* CSC: X-ikkunointi (Finnish) 
+* ESSI: Cours X-Window/MOTIF (French) 
+* INRIA: Eléments de programmation avec X11 (FTP tar file, French text and C examples) 
+* Pierre Ficheux: Introduction à la programmation Xlib (French) 
+* F. U. Berlin: Das X Window System (German) 
+* T. U. München: X11 -- Unix / Erste Schritte zur Benutzung (German) 
+* Ranier Klute: Mit X Erweiterungen (German) 
+* Rainer Klute: Das X-Window-System am Fachbereich Informatik (German) 
+* Rainer Krienke: Eine Einführung in X an der Uni - Koblenz (German) 
+* Gerd Heide: Das X Window System (German) 
+* N. T. U. of Athens: X Window System using & programming tutorial (Greek) 
+* Csizmazia Balazs: Programozás az OSF/Motif könyvtárral (Hungarian) 
+* Kyushu Institute of Technology: Motif tutorial (Japanese) 
+* Kim Bum Chul: X/Motif programming advise (Korean) 
+* Fernando Pérez Costoya: Curso del sistema de ventanas X (Spanish) 
+* WOOM: Thai Xlib tutorial (Thai) 
+* Xmtutor: An Interactive OSF/Motif Tutorial 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+X/Motif/CDE for UNIX/Linux PCs:
+
+* Kenton Lee: Developing Motif Application Programs on Your Home PC (from The X Advisor) 
+
+* Update to "Developing Motif Application Programs on Your Home PC", October, 1996. 
+
+* Rich Kaszeta: X Window System Terminals - A New Use for Old and Outdated PCs, April, 1998 
+* Kenton Lee: Sources of Motif for PC UNIX 
+* xwin.org: X developer community forum  
+* XFree86 (X for PC UNIX, Mach, OS/2, etc.): 
+
+* XFree86 home page (with release information) 
+* XFree86 FAQ (including list of known bugs) 
+* XFree86 release plans 
+* XFree86 for OS/2 
+* Linux XFree86 HOWTO 
+* XGGI multithreaded X server based on XFree86 
+* XFree86 benchmarks (xbench) 
+* smallX/tinyX (X Window System in 4MB) 
+
+* Linux Software Map (HTML) 
+* Linux on laptops 
+* MobiliX: Linux laptop HOWTO 
+* Linux Installation Guide: The X Window System 
+* Linux User's Guide: The X Window System 
+* Linux Journal: Motif for Linux reviews 
+* LessTif (free Motif clone, still in development) 
+* LessTif for OS2 
+* Harry Albrecht: Inside Lesstif book 
+* Free ICS ViewKit for Linux 
+* Hungry ViewKit (free SGI ViewKit clone) 
+* ViewKlass (another free SGI ViewKit clone) 
+* Xdenu: turn your PC into an X terminal (boots from two floppies) 
+* iX-Terminal: build a diskless X terminal from PC hardware 
+* Motif for Linux vendors: 
+
+* Apps2Go Motif 2.1 
+* ICS Open Motif Everywhere for Linux 
+* InfoMagic Moo-tiff 
+* Metro Link Motif 2.1 
+* Metro Link Motif from CheapBytes 
+* Metro Link Motif from S.u.S.e (Germany) 
+* Xi Graphics (formerly XInside) Motif for Linux 
+* SoftStar Motif (Italy) 
+
+* CDE for Linux: 
+
+* Xi Graphics (formerly XInside) CDE for Linux and FreeBSD 
+* Manumit CDE for Linux 
+* Xi Graphics CDE from Delix (German) 
+
+* X servers for Linux and FreeBSD: 
+
+* XFree86 
+* MetroLink 
+* Xi Graphics (formerly XInside) AcceleratedX servers 
+* FreeBSD handbook (with chapter on X) 
+
+* X/Motif for commercial PC UNIX: 
+
+* Caldera Network Desktop 
+* SCO OpenServer 
+* Sun Solaris x86 
+
+* OpenGL for Linux: 
+
+* MetroLink 
+* Xi Graphics 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+X/Motif for Microsoft Windows, Macintosh, and other OSs:
+
+Note: an alternative (and usually much cheaper) way to run X on a IBM PC is to run a PC UNIX in place of or in addition to your Microsoft OS. See the previous solution for more information. 
+
+* X servers for Microsoft Windows and MS-DOS: 
+
+* A possibly cheaper alternative to MS-Windows X servers is running UNIX on your PC. More info is in the previous section. 
+* Reviews and tutorials: 
+
+* Windows 2000 Magazine review of PC X-servers 
+* Michael Kearney: X Window System Servers for MS-Windows 
+* Federal Computer Week: X-Terminal Alternatives - We Review Five Windows NT-Based Packages 
+* Interex: X Window System and NT Interoperability 
+* PCWeek: Tarantella scales up, but needs balance 
+* IX: Tutorium - PC-basierte X-Server vs. X-Terminals (FTP PostScript) (German) 
+* Mellingen & Skrivervik: Produktgjennomgang PC/X-tjenere - X-tjenere for Intel-baserte PCer og Windows (Norweigan) 
+* Hummingbird white papers and technical documents 
+* Frontier Technologies white papers (PDF) 
+* Network World: VNC is free remote control 
+* Starnet online tutorial 
+* APC: Windows Onto Linux tutorial 
+
+* Products: 
+
+* LabF WinaXe (formerly X-WinPro, our sponsor) 
+* HOBLink X11 (our sponsor) 
+* StarNet X-Win32 (our sponsor) 
+* Astec-X (Japanese) (English) 
+* Attachmate KEA! X 
+* Cygwin/XFree86 X server for Microsoft Windows (free) 
+* Cygwin/XFree86 FAQ 
+* Distinct IntelliTerm X Server 
+* Frontier Technologies SuperX 
+* GraphOn GO-Global 
+* Hummingbird Exceed 
+* Intergraph eXalt 
+* JCraft WeirdX - a pure Java X server (GPL) 
+* MI/X: X server for MS-Windows 
+* MultiView/X 
+* NCD PC-Xware 
+* NetManage ViewNow X Server 
+* Netsarang Xmanager 
+* Novell LAN WorkPlace 
+* Pexus X-Deep/32 
+* Powerlan (formerly White Pine) WebTerm X 
+* Softway OpenNT X server 
+* Sun Solstice PC-Xware 
+* Tarantella XVision Eclipse 
+* WRQ Reflection X 
+* XLink Omni-X 
+* Xtreme X-Appeal (for MS-DOS) 
+* RealVNC: Virtual Network Computing 
+* More VNC distributions 
+
+* Motif-Microsoft porting and compatibility tools: 
+
+* Bristol Wind/U (MFC API and Motif look & feel) 
+* DataFocus NuTCRACKER Motif for Microsoft Windows NT 
+* Hummingbird Motif for Microsoft Windows NT and Windows 3.1 
+* MainSoft MainWin Studio 
+* SCO Wintif (Motif API and Microsoft Windows look & feel) 
+* Softway OpenNT (X/UNIX environment for NT) 
+* Software UNO WM_MOTIF (Microsoft Windows API and Motif look & feel) 
+* Willows TWIN (Microsoft Windows binary interperter for X/UNIX) 
+* GNU-Win32 Project (free UNIX-to-Microsoft porting tools) 
+* MKS UNIX to Microsoft porting toolkit (including Motif) 
+* X11R6.3 binaries for GNU-Win32 
+* Win32-X11 
+* The Wine Project (Microsoft Windows emulator for x86 UNIX) 
+* wxWindows cross-platform development for Unix/Windows/MacOS 
+* XVT cross-platform toolkit (proprietary) 
+* QT cross-platform toolkit (proprietary) 
+
+* Hybrid X software for PCs (most of these support running X and MS-Windows software in mixed environments): 
+
+* Citrix MetaFrame for UNIX 
+* MainSoft X-Ray 
+* Bruce MacDowell Maggs: Software for DESQview/X 
+* Tarantella 
+* SCO Merge 
+* NeTraverse Win4Lin 
+* Neoware netOS 
+* VMware MS-Win emulator for Linux 
+* Tera ez-Win 
+* RealVNC: Virtual Network Computing (free) 
+* ATT VNC: Virtual Network Computing (free) 
+* More VNC distributions 
+* rdesktop: A remote desktop protocol client  
+
+* X/Motif for OS/2: 
+
+* XFree86/OS2 project 
+* Hummingbird Exceed X server 
+* Hummingbird Exceed X development toolkit 
+* IBM: TCP/IP for OS/2 
+* LessTif (free Motif clone, still in development) 
+
+* X servers for Apple Macintosh: 
+
+* Reviews and tutorials: 
+
+* Macworld comparison of Macintosh X servers (May, 1996) 
+* Macworld Online - X Window for Mac Catches Up (Jan., 1995) 
+* Hans Mehlin: Xwindow servers for Mac 
+* Macinstart.com: XTen 6.1: New X Window Server for Mac OS 
+
+* Products: 
+
+* MkLinux (Linux for Power Macintosh, with X11R6) 
+* Powerlan (formerly White Pine) eXodus 
+* Tenon XTen  (English)  (Japanese) 
+* Tenon Xtools for MacOS X 
+* Linux and X for PowerPC home page 
+* Linux for m68k Macintosh home page 
+* NetBSD for Macintosh home page 
+* XFree86 on Darwin and Mac OS X 
+* Darwin: BSD UNIX (including X) for Mac OS X 
+* XDarwin home page 
+* OpenMac projects 
+* X11 for Mac OS X 
+* opendarwin.org 
+
+* X/Motif for other operating systems: 
+
+* XServers-NonUNIX (may be out of date) 
+* VisiCom VX-Windows (X and Motif for real-time embedded processes) 
+* Peritek X server 
+* STonX: Atari emulator for X 
+* Stella: Another Atari emulator 
+* XZX: Sinclair emulator for X 
+* Tim Mann: XTRS - TRS-80 emulator for X 
+* X4PCs: X for Amiga, Atari, etc. (may be out of date) 
+* Helius X server for Novell NetWare 
+* Bowden Systems: X/Motif for Tandem 
+* X-Cell X graphics accelerators 
+* Intuitive Systems: X Window System for NextStep 
+* X Window System for QNX 
+* Gnome Computers: X server for NC and Acorn PCs 
+* eXport Ventures: X/Motif for AS/400 
+
+Back to table of contents
+
+---------------------------------------------------------------------
+
+General human-computer interaction links (not all X related):
+
+* ACM Interactions magazine: Resources on HCI 
+* The GUI Toolkit/Framework Page 
+* Brad Myers: User Interface Software Tools (US web site) (Austria web site) 
+* Vertical Research: HCI Reference List 
+* WWW Virtual Library: Human-Computer Interaction 
+* SEL-HPC: Human-Computer Interaction Archive 
+* Hans de Graaff: Human-Computer Interaction Index 
+* Mikael Ericsson: Human-Computer Interaction Resources 
+* comp.human-factors FAQ (HTML) 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+Lists of X-based applications and products:
+
+This web site lists only the basic X products, such as X servers, Motif, and CDE. The following pages have (much) more information on commercial and non-commercial X-based applications and products. 
+
+* Kenton Lee: Where to Get Motif 
+* Keith Packard's X software CVS repository  
+* comp.windows.x.apps FAQ 
+* Graphic utilities FAQ 
+* Freedom Software: list of Motif GUI development tools 
+* Steven Baum: review of UNIX GUI and graphics development software 
+* Steven Baum: Linux Software Encyclopedia 
+* Linux Applications and Utilities Page 
+* Applications and Utilities for newer Linux users 
+* Eric Johnson: Programming X APIs 
+* Justin Kibell: X11 Games (out-of-date) 
+* Jeff Garzik: X11 Games 
+* Yahoo: X11 Games 
+* CERN X Terminal Guide 
+* Yahoo: X terminals 
+* Yahoo: X software 
+* UNIX Review buyer's guide (searchable) 
+* Freshmeat: X applications listing 
+* MotifZone software map 
+
+---------------------------------------------------------------------
+
+More X-related sites:
+
+Many of these contain more listings of X-related sites. These overlap with this page, but you may find their organization of the material to be useful. See also the FAQs for more X-related links. 
+
+* xwin.org: X developer community forum  
+* XFree86 home page 
+* ICS Motif Zone 
+* Motifdeveloper.com 
+* X/Motif Software by Jan Newmarch 
+* Anthony Thyssen: Tower Floor - X Window System 
+* Brandon Harris: X - End of Story 
+* Doug Rand: X and Motif Question List 
+* X11 Bits and Pieces 
+* CERN: X11 Working Group 
+* Howard Fear: X Window System technical library 
+* USAIL: X Window System web sites 
+* MIT Athena Consulting: stock X Window System answers 
+* Linux in action (screen shots from several users) 
+* Iztok Umek: Collection of Root X Windows (more screen shots) 
+* Garden of the Internet Gurus: X Window System 
+* All-Linux X Window System links  
+* Some referal links to this web site 
+Back to table of contents
+
+---------------------------------------------------------------------
+
+Please send me your comments on this page:
+
+Name: 
+E-Mail: 
+Thank you for your comments and suggestions. Back to table of contents
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Kenton Lee, kenton @ rahul.net
+ 

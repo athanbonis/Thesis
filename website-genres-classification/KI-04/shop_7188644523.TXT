@@ -1,0 +1,42 @@
+--> Sailnet Sailing Store Standard Horizon CP150 Chartplotter The compact CP150 is the most affordable WAAS GPS chartplotter on the market. And it's a mere 4.4" (110mm) high, so you can mount it in the tightest spaces. Combines the outstanding accuracy of the new WAAS GPS (to within 6') with the processing speed and screen resolution of chartplotters costing twice as much. $ 375.95 Origo Portable Heat Pal Alcohol Heater/Stove ONLY $ 89.95 Raymarine ST4000 Plus MK II Wheel Pilot ONLY $ 819.95 Shurflo Blaster Washdown Pump ONLY $ 79.95 Zodiac Cadet C285 FR Inflatable Boat ONLY $ 1529.95 ACR Globalfix 406 EPIRB Category 1 w/ Integral GPS, Automatic Deployment with Free Safety Pack! ONLY $ 999.95 ACR 39611 RapidFire Automatic PFD Strobe Light for Life Jacket ONLY $ 24.95 About Us | Advertising | Affiliate Program | AirForce Sails | Catalog Contact Us | Customer Service | Home | Online Shopping | Privacy | Sales Tax SailPerks | Shipping | Site Map | Sponsorship | Store Home Store Index | Special Orders ©1995-2004, MarineNet, Inc., All Rights Reserved. Copying without permission is expressly forbidden. SailNet is a Registered Trademark of MarineNet, Inc. Charters Online is a Trademark of MarineNet, Inc. The Internet Sailing Community, the Sailing Directory, BoatCheck and BoatLender are Servicemarks of MarineNet, Inc.   -->              var loginwindow; function popupLogin() { var page=""; var page=document.location; if(!loginwindow || loginwindow.closed) { loginwindow=window.open('http://www.sailnet.com/registration/sidebar_login.cfm?page='+page+'','subwindow','height=150,width=200,alwaysLowered=0,alwaysRaised=0,channelmode=0,dependent=0,directories=0,fullscreen=0,hotkeys=1,location=0,menubar=0,resizable=0,scrollbars=0,status=0,titlebar=1,toolbar=0,z-lock=0'); } else { loginwindow.focus(); } } function popupLogout() { var page=document.location; if (!confirm("Do you wish to Log Off?")) {return;} else {window.location = "http://www.sailnet.com/logout.cfm?page=" + page } }   function getpage(){ document.pageurl.page.value=document.location; return true;} 
+
+ 	 
+
+ 	 
+
+Standard Horizon CP150 Chartplotter	 
+
+The compact CP150 is the most affordable WAAS GPS chartplotter on the market. And it's a mere 4.4" (110mm) high, so you can mount it in the tightest spaces. Combines the outstanding accuracy of the new WAAS GPS (to within 6') with the processing speed and screen resolution of chartplotters costing twice as much. 	
+$375.95	 
+ 
+                 
+Origo Portable Heat Pal Alcohol Heater/Stove
+ ONLY $89.95
+---------------------------------------------------------------------
+
+Raymarine ST4000 Plus MK II Wheel Pilot
+ ONLY $819.95
+---------------------------------------------------------------------
+
+Shurflo Blaster Washdown Pump
+ ONLY $79.95
+---------------------------------------------------------------------
+
+Zodiac Cadet C285 FR Inflatable Boat
+ ONLY $1529.95
+---------------------------------------------------------------------
+
+ACR Globalfix 406 EPIRB Category 1 w/ Integral GPS, Automatic Deployment with Free Safety Pack!
+ ONLY $999.95
+---------------------------------------------------------------------
+
+ACR 39611 RapidFire Automatic PFD Strobe Light for Life Jacket
+ ONLY $24.95
+---------------------------------------------------------------------
+
+About Us | Advertising | Affiliate Program | AirForce Sails | Catalog
+ Contact Us | Customer Service | Home | Online Shopping | Privacy | Sales Tax
+ SailPerks | Shipping | Site Map | Sponsorship | Store Home 
+Store Index | Special Orders 
+©1995-2004, MarineNet, Inc., All Rights Reserved. Copying without permission is expressly forbidden. SailNet is a Registered Trademark of MarineNet, Inc. Charters Online is a Trademark of MarineNet, Inc. The Internet Sailing Community, the Sailing Directory, BoatCheck and BoatLender are Servicemarks of MarineNet, Inc. 	
+ 

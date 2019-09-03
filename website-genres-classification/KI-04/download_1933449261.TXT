@@ -1,0 +1,35 @@
+
+* News 
+* Introduction 
+* Download 
+* FAQ 
+* Documentation 
+* Press 
+* Donate! 
+
+Current version: 3.3, released on 2003-09-24. This is a major enhancement. Everyone should upgrade, and people hosting torrents should encourage their users to upgrade.
+
+Available downloads:
+
+* Windows installer (plus CompleteDir for seeders to create .torrent files) 
+* Mac OS X image (3.3a now works on Panther.) 
+* Debian package: testing or unstable 
+* Red Hat package: try a search 
+* Python source: tar.gz, zip or cvs 
+
+New in 3.3:
+
+* Files now only get allocated as they're downloaded and don't fragment the hard drive 
+* Large torrents no longer hose the CPU 
+* Better network utilization and more consistent download rates 
+* Poorly seeded torrents get out faster 
+* Several important bug fixes 
+
+New in 3.2:
+
+* Better network utilization 
+* More even and consistent download rates 
+* Read-only files now supported for seeding 
+* The Windows build now takes command line arguments 
+* Several bug fixes 
+

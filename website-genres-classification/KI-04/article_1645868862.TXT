@@ -1,0 +1,261 @@
+
+
+Percent and Probability
+
+Percent 
+What is a percent? 
+Percent as a fraction 
+Percent as a decimal 
+Estimating percents 
+Interest 
+Simple interest 
+Compound interest 
+Percent increase and decrease 
+Percent discount 
+
+Chances and probability 
+What is an event? 
+Possible outcomes of an event 
+Probability 
+
+   
+     Math Contests        School League Competitions    	     Contest Problem   Books        Challenging, fun math practice    	     Educational   Software        Comprehensive Learning Tools    	 
+
+Visit the Math League 
+
+---------------------------------------------------------------------
+
+What is a Percent?
+
+A percent is a ratio of a number to 100. A percent can be expressed using the percent symbol %. 
+
+Example: 10 percent or 10% are both the same, and stand for the ratio 10:100. 
+
+---------------------------------------------------------------------
+
+Percent as a fraction
+
+A percent is equivalent to a fraction with denominator 100. 
+
+Example: 5% of something = 5/100 of that thing. 
+
+Example: 2 1/2% is equal to what fraction? 
+Answer:
+ 2 1/2% = (2 1/2)/100 = 5/200 = 1/40 
+
+Example: 52% most nearly equals which one of 1/2, 1/4, 2, 8, or 1/5?
+ Answer: 52% = 52/100. This is very close to 50/100, or 1/2. 
+
+Example: 13/25 is what %?
+ We want to convert 13/25 to a fraction with 100 in the denominator: 13/25 = (13 × 4)/(25 × 4) = 52/100, so 13/25 = 52%. 
+Alternatively, we could say: Let 13/25 be n%, and let us find n. Then 13/25 = n/100, so cross multiplying, 13 × 100 = 25 × n, so 25n = 13 × 100 = 1300. Then 25n &#247&nbsp;25 = 1300 &#247&nbsp;25, so n = 1300 &#247&nbsp;25 = 52. So 13/25 = n% = 52%. 
+
+Example: 8/200 is what %?
+ Method 1: 8/200 = (4 × 2)/(100 × 2), so 8/200 = 4/100 = 4%.
+ Method 2: Let 8/200 be n%. Then 8/200 = n/100, so 200 × n = 800, and 200n &#247&nbsp;200 = 800 &#247&nbsp;200 = 4, so n% = 4%. 
+
+Example: Write 80% as a fraction in lowest terms.
+ 80% = 80/100, which is equal to 4/5 in lowest terms. 
+---------------------------------------------------------------------
+
+Percent as a decimal
+
+Percent and hundredths are basically equivalent. This makes conversion between percent and decimals very easy. 
+
+To convert from a decimal to a percent, just move the decimal 2 places to the right. For example, 0.15 = 15 hundredths = 15%. 
+
+Example: 
+
+0.0006 = 0.06% 
+
+Converting from percent to decimal form is similar, only you move the decimal point 2 places to the left. You must also be sure, before doing this, that the percentage itself is expressed in decimal form, without fractions.
+
+Example: 
+
+Express 3% in decimal form. Moving the decimal 2 to the left (and adding in 0's to the left of the 3 as place holders,) we get 0.03. 
+
+Example: 
+
+Express 97 1/4% in decimal form. First we write 97 1/4 in decimal form: 97.25. Then we move the decimal 2 places to the left to get 0.9725, so 97 1/4% = 0.9725. This makes sense, since 97 1/4% is nearly 100%, and 0.9725 is nearly 1. 
+---------------------------------------------------------------------
+
+Estimating percents
+
+When estimating percents, it is helpful to remember the fractional equivalent of some simple percents. 
+
+100% = 1
+ (100% of any number equals that number.) 
+
+50% = 1/2 = 0.5
+ (50% of any number equals half of that number.) 
+
+25% = 1/4 = 0.25
+ (25% of any number equals one-fourth of that number.) 
+
+10% = 1/10 = 0.1
+ (10% of any number equals one-tenth of that number.) 
+
+1% = 1/100 = 0.01
+ (1% of any number equals one-hundredth of that number.) 
+
+Because it is very easy to switch between a decimal and a percent, estimating a percent is as easy as estimating a fraction as a decimal, and converting to a percent by multiplying by 100. 
+
+Example: 
+
+Estimate 19 as a percent of 80.
+ As a fraction, 19/80  20/80 = 1/4 =0.25 = 25%. The step used to estimate the percent occurred when we estimated 19/80 as 20/80. 
+The exact percent is actually 23.75%, so the estimate of 25% is only 1.25% off. (About 1 part in 100.) 
+
+Example: 
+
+Estimate 7 as a percent of 960.
+ As a fraction, 7/960  7/100 = 0.007 = 0.7%. The step used to estimate the percent occurred when we estimated 7/960 as 7/1000. 
+The exact percent, to the nearest thousandth of a percent, is actually 0.729%.
+ To estimate the percent of a number, we may convert the percent to a fraction, if useful, to estimate the percent. 
+
+Example: 
+
+Estimate 13% of 72.
+ Twice 13% is 26%, which is very close to 25%, and 25%=1/4. We may multiply both sides by 1/2 to get an estimate for 13%: 13%  12.5% = 1/2 × 25% = 1/2 × 1/4 = 1/8. Using our estimate of 1/8 for 13%, 1/8 × 72 = 9, so we get an estimate of 9 for 13% of 72. 
+If we had calculated this exactly, 13% of 72 equals 9.36. It may look like we did a lot more work to get the estimate of 9 that just multiplying 72 by 0.13, but with practice, keeping in mind some simple percents and the fractions they are equal to will enable you to estimate some number combinations very quickly. 
+
+Example: 
+
+Estimate 9.6% of 51.
+ Method 1: We could estimate 9.6% of 50. It would be easy to estimate 9.6% of 100, which is just 9.6. Since 50 is half of 100, we can just take half of 9.6, which is 4.8. The actual value of 9.6% of 51 is 4.896, so an estimate of 4.8 is pretty good. 
+
+Method 2: We could estimate 10% of 51, which is just 5.1. This is not as close an estimate as method 1, but is still a good estimate of the actual answer of 4.896. 
+---------------------------------------------------------------------
+
+Interest
+
+Interest is a fee paid to borrow money. It is usually charged as a percent of the total amount borrowed. The percent charged is called the interest rate. The amount of money borrowed is called the principal. There are two types of interest, simple interest and compound interest. 
+
+Example: A bank charges 7% interest on a $1000 loan. It will cost the borrower 7% of $1000, which is $70, for each year the money is borrowed. Note that when the loan is up, the borrower must pay back the original $1000. 
+---------------------------------------------------------------------
+
+Simple Interest
+
+Simple interest is interest figured on the principal only, for the duration of the loan. Figure the interest on the loan for one year, and multiply this amount by the number of years the money is borrowed for.
+
+Example: A bank charges 8% simple interest on a $600 loan, which is to be paid back in two years. It will cost the borrower 8% of $600, which is $48, for each year the money is borrowed. Since it is borrowed for two years, the total charge for borrowing the money will be $96. After the two years the borrower will still have to pay back the original $600. 
+---------------------------------------------------------------------
+
+Compound Interest
+
+Compound interest is interest figured on the principal and any interest owed from previous years. The interest charged the first year is just the interest rate times the amount of the loan. The interest charged the second year is the interest rate, times the sum of the loan and the interest from the first year. The interest charged the third year is the interest rate, times the sum of the loan and the first two years' interest amounts. Continue figuring the interest in this way for any additional years of the loan. 
+
+Example: A bank charges 8% compound interest on a $600 loan, which is to be paid back in two years. It will cost the borrower 8% of $600 the first year, which is $48. The second year, it will cost 8% of $600 + $48 = $648, which is $51.84. The total amount of interest owed after the two years is $48 + $51.84 = $99.84. Note that this is more than the $96 that would be owed if the bank was charging simple interest. 
+
+Example: A bank charges 4% compound interest on a $1000 loan, which is to be paid back in three years. It will cost the borrower 4% of $1000 the first year, which is $40. The second year, it will cost 4% of $1000 + $40 = $1040, which is $41.60. The third year, it will cost 4% of $1040 + $41.60 = $1081.60, which is $43.26 (with rounding). The total amount of interest owed after the three years is $40 + $41.60 + 43.26 = $124.86. 
+---------------------------------------------------------------------
+
+Percent increase and decrease
+
+Percent increase and decrease of a value measure how that value changes, as a percentage of its original value. 
+
+Example: A collectors' comic book is worth $120 in 1994, and in 1995 its value is $132. The change is $132 - $120 = $12, an increase in price of $12; since $12 is 10% of $120, we say its value increased by 10% from 1994 to 1995. 
+
+Example: A bakery makes a chocolate cake that has 8 grams of fat per slice. A new change in the recipe lowers the fat to 6 grams of fat per slice. The change is 8g - 6g = 2g, a decrease of 2 grams; since 2 grams is 25% of 8, we say that the new cake recipe has 25% less fat, or a 25% decrease in fat. 
+
+Example: Amy is training for the 1500 meter run. When she started training she could run 1500 meters in 5 minutes and 50 seconds. After a year of practice her time decreased by 8%. How fast can she run the race now? Her old time was 5 × 60 + 50 = 350 seconds, and 8% of 350 is 28, so she can run the race in 350 - 28 = 322 seconds (5 minutes and 22 seconds). 
+
+Example: A fishing magazine sells 110000 copies each month. The company's president wants to increase the sales by 6%. How many extra magazines would they have to sell to reach this goal? This problem is easy, since it only asks for the change in sales: 6% of 110000 equals 6600 more magazines. 
+---------------------------------------------------------------------
+
+Percent Discount
+
+A discount is a decrease in price, so percent discount is the percent decrease in price.
+
+Example: Chocolate bars normally cost 80 cents each, but are on sale for 40 cents each, which is 50% of 80, so the chocolate is on sale at a 50% discount. 
+
+Example: A compact disc that sells for $12 is on sale at a 20% discount. How much does the disc cost on sale? The amount of the discount is 20% of $12, which is $2.40, so the sale price is $12.00 - $2.40 = $9.60. 
+
+Example: Movie tickets sell for $8.00 each, but if you buy 4 or more you get $1.00 off each ticket. What percent discount is this? We figure $1 as a percentage of $8: $1.00/$8.00 × 100% = 12.5%, so this is a 12.5% discount. 
+---------------------------------------------------------------------
+
+What is an event?
+
+An event is an experiment or collection of experiments. 
+
+Examples: 
+
+The following are examples of events. 
+
+1) A coin toss.
+ 2) Rolling a die.
+ 3) Rolling 5 dice.
+ 4) Drawing a card from a deck of cards.
+ 5) Drawing 3 cards from a deck.
+ 6) Drawing a marble from a bag of different colored marbles.
+ 7) Spinning a spinner in a board game.
+ 8) Tossing a coin and rolling a die. 
+---------------------------------------------------------------------
+
+Possible Outcomes of an Event
+
+Possible outcomes of an event are the results which may occur from any event. (Remember, they may not occur.) 
+
+Examples: 
+
+The following are possible outcomes of events. 
+
+1) A coin toss has two possible outcomes. The outcomes are "heads" and "tails".
+ 2) Rolling a regular six-sided die has six possible outcomes. You may get a side with 1, 2, 3, 4, 5, or 6 dots.
+ 3) Drawing a card from a regular deck of 52 playing cards has 52 possible outcomes. Each of the 52 playing cards is different, so there are 52 possible outcomes for drawing a card.
+ 4) How many different outcomes are there for the color of marble that may be drawn from a bag containing 3 red, 4 green, and 5 blue marbles? This event has 3 possible outcomes. You may get a red marble, a green marble, or a blue marble. Even if the marbles are different sizes, the outcome we are considering is the color of the marble that is drawn. 
+5) How many different outcomes are there for the colors of two marbles that may be drawn from a bag containing 3 red, 4 green, and 5 blue marble? This event has 6 possible outcomes: you may get two reds, two greens, two blues, a red and blue, a red and green, or a blue and green.
+ 6) Rolling two regular dice, one of them red and one of them blue, has 36 possible outcomes. The outcomes are listed in the table below. 
+
+Red Die   	
+ 	 Result:	  Red1 	 Red2	  Red3	  Red4	  Red5	  Red6 	
+ 	 Blue1	  Blue1, Red1 	 Blue1, Red2	  Blue1, Red3	  Blue1, Red4	  Blue1, Red5	  Blue1, Red6 	
+ 	 Blue2	  Blue2, Red1 	 Blue2, Red2	  Blue2, Red3	  Blue2, Red4	  Blue2, Red5	  Blue2, Red6 	
+    Blue 
+  Die   	 Blue3	  Blue3, Red1	  Blue3, Red2	  Blue3, Red3	  Blue3, Red4 	 Blue3, Red5	  Blue3, Red6	 
+ 	 Blue4	  Blue4, Red1 	 Blue4, Red2	  Blue4, Red3	  Blue4, Red4	  Blue4, Red5	  Blue4, Red6 	
+ 	 Blue5	  Blue5, Red1 	 Blue5, Red2	  Blue5, Red3	  Blue5, Red4	  Blue5, Red5	  Blue5, Red6 	
+ 	 Blue6	  Blue6, Red1 	 Blue6, Red2	  Blue6, Red3	  Blue6, Red4	  Blue6, Red5	  Blue6, Red6 	
+
+Note that the event tells us how to think of the outcomes. Even though there are 12 different marbles in example 4, the event tells us to count only the color of the die, so there are three outcomes. In example 6, the two dice are different, and there are 36 possible outcomes. Suppose we don't care about the color of the dice in example 6. Then we would only see 21 different outcomes: 1-1, 1-2, 1-3, 1-4, 1-5, 1-6, 2-2, 2-3, 2-4, 2-5, 2-6, 3-3, 3-4, 3-5, 3-6, 4-4, 4-5, 4-6, 5-5, 5-6, and 6-6. (We think of a 1 and a 2, a 1-2, as being the same as a 2 and a 1.) 
+---------------------------------------------------------------------
+
+Probability of an Outcome
+
+The probability of an outcome for a particular event is a number telling us how likely a particular outcome is to occur. This number is the ratio of the number of ways the outcome may occur to the number of total possible outcomes for the event. Probability is usually expressed as a fraction or decimal. Since the number of ways a certain outcome may occur is always smaller or equal to the total number of outcomes, the probability of an event is some number from 0 through 1. 
+
+Example: 
+
+Suppose there are 10 balls in a bucket numbered as follows: 1, 1, 2, 3, 4, 4, 4, 5, 6, and 6. A single ball is randomly chosen from the bucket. What is the probability of drawing a ball numbered 1? There are 2 ways to draw a 1, since there are two balls numbered 1. The total possible number of outcomes is 10, since there are 10 balls. 
+
+The probability of drawing a 1 is the ratio 2/10 = 1/5. 
+
+Example: 
+
+Suppose there are 10 balls in a bucket numbered as follows: 1, 1, 2, 3, 4, 4, 4, 5, 6, and 6. A single ball is randomly chosen from the bucket. What is the probability of drawing a ball with a number greater than 4? There are 3 ways this may happen, since 3 of the balls are numbered greater than 4. The total possible number of outcomes is 10, since there are 10 balls. The probability of drawing a number greater than 4 is the ratio 3/10. Since this ratio is larger than the one in the previous example, we say that this event has a greater chance of occurring than drawing a 1. 
+
+Example: 
+
+Suppose there are 10 balls in a bucket numbered as follows: 1, 1, 2, 3, 4, 4, 4, 5, 6, and 6. A single ball is randomly chosen from the bucket. What is the probability of drawing a ball with a number greater than 6? Since none of the balls are numbered greater than 6, this can occur in 0 ways. The total possible number of outcomes is 10, since there are 10 balls. The probability of drawing a number greater than 6 is the ratio 0/10 = 0. 
+
+Example: 
+
+Suppose there are 10 balls in a bucket numbered as follows: 1, 1, 2, 3, 4, 4, 4, 5, 6, and 6. A single ball is randomly chosen from the bucket. What is the probability of drawing a ball with a number less than 7? Since all of the balls are numbered greater than 7, this can occur in 10 ways. The total possible number of outcomes is 10, since there are 10 balls. The probability of drawing a number less than 7 is the ratio 10/10 = 1.
+ Note in the last two examples that a probability of 0 meant that the event would not occur, and a probability of 1 meant the event definitely would occur. 
+
+Example: 
+
+Suppose a card is drawn at random from a regular deck of 52 cards. What is the probability that the card is an ace? There are 4 different ways that the card can be an ace, since 4 of the 52 cards are aces. There are 52 different total outcomes, one for each card in the deck. The probability of drawing an ace is the ratio 4/52 = 1/13. 
+
+Example: 
+
+Suppose a regular die is rolled. What is the probability of getting a 3 or a 6? There are a total of 6 possible outcomes. Rolling a 3 or a 6 are two of them, so the probability is the ratio of 2/6 = 1/3. 
+
+Visit the Math League 
+ 
+ 
+
+© 1997-2001 by Math League Multimedia 
+ This page may not be mirrored or reproduced on any other internet site.
+ Last updated March 2001 by Mark Motyka.
+ 

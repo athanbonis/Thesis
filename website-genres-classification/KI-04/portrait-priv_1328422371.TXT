@@ -1,0 +1,56 @@
+
+
+James F. Allen, URCS Faculty Member
+
+b. 1950. Ph.D. (1979) University of Toronto. Assistant Professor (79-84), Associate Professor (84-87), Department Chair (87-90), Professor (87-present), Dessauer Chair (92-present); University of Rochester. Editor-in-Chief, Computational Linguistics (83-93; Presidential Young Investigator (84-89); author of Natural Language Understanding, Benjamin Cummings (87), 2nd edition (1995); Reasoning About Plans, Morgan Kaufmann (91); co-editor of Readings in Planning, Morgan Kaufmann (90); Fellow of the AAAI. 
+
+James Allen's research interests span a range of issues covering natural language understanding, discourse, knowledge representation, common-sense reasoning and planning. A paper about the current state of AI given at the 1998 AAAI conference can be found here These areas of research are combined in the TRAINS project, a long term effort co-directed with Len Schubert. The TRAINS system is an intelligent planning assistant that can converse in spoken natural language with a person to create, discuss and evaluate various plans involving freight shipments by train. In particular, Allen's research breaks down into two main subareas, broadly classified as research in discourse and research in plan reasoning. 
+
+The research in discourse is focused on two-person extended dialogs in which the speakers have specific tasks to accomplish. An emphasis in this work is the representation and use of the context of the dialog to solve problems in semantic interpretations and the recognition of the intentions underlying the speakers' utterances. Work in this area has included developing the first computational model of speech acts, the development of a multi-level plan-based analysis involving discourse-level plans as well as domain-level plans, and the development of several different discourse-plan recognition algorithms. In addition, we are exploring how prosody and intonation signals discourse intentions and how this interacts with the plan-based dialog model. While it is important for work to be formally well-defined and understood, it is equally important that computational theories can lead to effective implementations. As a result, a considerable amount of effort has also been made in developing an expressive hybrid knowledge representation system that can support complex reasoning about plans and actions. 
+
+The research in plan reasoning draws much of its motivation from the dialog work. In particular, the representation of plans must support a wide range of different forms of reasoning: plan construction (i.e. traditional planning), plan recognition, plan evaluation, and the communication of plans between agents. Much of our work in this area has focused on the representation of time and action, and we have reformulated the planning problem as a problem in temporal reasoning. Within this framework, we have developed a representation of plans that is temporally explicit and supports plan construction, recognition and communication. We are also exploring methods of temporal reasoning that are viable even with large data sets of temporal information. 
+
+Selected Publications on Temporal Reasoning
+
+* Allen, J.F. ``Maintaining Knowledge about Temporal Intervals.'' Communications of the ACM 26, 11, 832-843, November 1983. 
+* Allen, J.F. ``A General Model of Action and Time.'' Artificial Intelligence 23, 2, July 1984. 
+* Allen, J.F. and P.J. Hayes. ``Moments and Points in an Interval-Based Temporal Logic.'' Computational Intelligence, January 1990. 
+* Allen, J.F. "Time and time again: The many ways to represent time," Int'l. Jr. of Intelligent Systems 6, 4, 341-356, July 1991. 
+* Allen, J.F. and Ferguson, G. Actions and Events in Interval Temporal Logic, J. Logic and Computation 4, 5, 1994. 
+
+Selected Publications in Planning and Plan Recognition
+
+* Kautz, H. and Allen, J.F. "Generalized Plan Recognition" In Proc., Proc., AAAI Nat'l. Conf. on Artificial Intelligence, Philadelphia, PA, 1986 
+* Allen, J.F. Planning as Temporal Reasoning. In Proc., 2nd Principles of Knowledge Representation and Reasoning, Morgan Kaufmann, 1991. 
+* Allen, J.F. et al. Reasoning About Plans, Morgan Kaufmann, 1991. 
+* George Ferguson, James Allen, and Brad Miller, TRAINS-95: Towards a Mixed-Initiative Planning Assistant Proc. Third Conference on Artificial Intelligence Planning Systems (AIPS-96), Edinburgh, Scotland, 29-31 May, 1996, 70-77. 
+
+Selected Publications in Natural Language and Dialogue
+
+* Allen, J.F. Natural Language Understanding, Benjamin Cummings, 1987, Second Edition, 1994. 
+* Allen, J.F. ``Natural Language, Knowledge Representation and Logical Form.'' In M. Bates, R. Weischedel (eds.), Challenges in Natural Language Processing, Cambridge University Press, 1993. 
+* Allen, J.F. and D.J. Litman. ``A Plan Recognition Model for Subdialogues in Conversations.'' Cognitive Science 11, 2, 163-200, 1987. 
+* Allen, J.F. and D.J. Litman. ``Discourse Processing and Common sense Plans.'' in P.R. Cohen, J. Morgan, and M. Pollack, Intentions and Communication, MIT Press, 1990. 
+* Hinkelman, E. and J.F. Allen. ``Two Constraints on Speech Act Ambiguity.'' In Proc., 27th Meeting of the Assoc. for Computational Linguistics, 1989. 
+* A study on prosody and discourse structure in cooperative dialogs (with S. Nakajima), Phonetica, 1993. 
+* Traum, D. and Allen, J.F. "Discourse Obligations in Dialogue Processing" Proc. 32nd Meeting of the Assoc. for Computational Linguistics, 1994. 
+* Allen, J.F. et al, The TRAINS Project: A Case Study in Defining a Conversational Planning Agent, Journal of Experimental and Theoretical AI, 1995. 
+* Allen, J.F., B. Miller, E. Ringger and T. Sikorski A Robust System for Natural Spoken Dialogue, Proc. 34th Meeting of the Assoc. for Computational Linguistics, 1996. 
+* Heeman, P. and Allen, J.F. Intonational Boundaries, Speech Repairs and Discourse Markers: Modeling Spoken Dialog, Proc. 35th Meeting of the Assoc. for Computational Linguistics, 1997. 
+* George Ferguson and James F. Allen, TRIPS: An Integrated Intelligent Problem-Solving Assistant, Proceedings of the Fifteenth National Conference on AI (AAAI-98), Madison, WI, 26--30 July, 1998. 
+* Peter Heeman and James Allen, Speech Repairs, Intonational Phrases and Discourse Markers: Modeling Speakers' Utterances in Spoken Dialog, Computational Linguistics, Vol. 25-4, 1999. 
+* Allen, J., Byron, D., Dzikovska, M., Ferguson, G., Galescu, L. and Stent, A., Towards a Generic Dialogue Shell, Natural Language Engineering,6(3) 2000. pp1-16 
+* James Allen, Donna Byron, Myroslava Dzikovska, George Ferguson, Lucian Galescu, and Amanda Stent, "Towards Conversational Human-Computer Interaction," AI Magazine, 2001. [PDF] 
+* James Allen, George Ferguson, and Amanda Stent, "An architecture for more realistic conversational systems," in Proceedings of Intelligent User Interfaces 2001 (IUI-01), pages 1-8, Santa Fe, NM, January 14-17, 2001. [PDF] 
+
+Software Available
+
+I have two parsing systems available, both in Common Lisp. The first is a basic parser written to illustrate the bottom up parsing algorithms in Natural Language Understanding, Second Edition. It is designed to be as simple as possible, so it can be used by students to try the grammars in the book, develop their own small grammars, and to program extensions to the parser. 
+
+The second is the parser from the TRAINS system, which is also a bottom-up chart parser that closely follows Natural Language Understanding, Second Edition, but is written more for efficiency and has additional capabilities that help construct larger scale grammars. The Users Manual gives more information on this system and instructions on how to obtain it. 
+
+Back to URCS Faculty directory
+
+Back to URCS Home Page
+
+

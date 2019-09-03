@@ -1,0 +1,186 @@
+
+
+Black Holes FAQ
+
+(Frequently Asked Questions)
+
+List
+
+by Ted Bunn
+
+---------------------------------------------------------------------
+
+* What is a black hole? 
+* How big is a black hole? 
+* What would happen to me if I fell into a black hole? 
+* My friend Penelope is sitting still at a safe distance, watching me fall into the black hole. What does she see? 
+* If a black hole existed, would it suck up all the matter in the Universe? 
+* What if the Sun became a black hole? 
+* Is there any evidence that black holes exist? 
+* How do black holes evaporate? 
+* Won't the black hole have evaporated out from under me before I reach it? 
+* What is a white hole? 
+* What is a wormhole? 
+* Where can I go to learn more about black holes? 
+
+---------------------------------------------------------------------
+What is a black hole?
+ --------------------- 
+Loosely speaking, a black hole is a region of space that has so much mass concentrated in it that there is no way for a nearby object to escape its gravitational pull. Since our best theory of gravity at the moment is Einstein's general theory of relativity, we have to delve into some results of this theory to understand black holes in detail, but let's start of slow, by thinking about gravity under fairly simple circumstances. 
+
+Suppose that you are standing on the surface of a planet. You throw a rock straight up into the air. Assuming you don't throw it too hard, it will rise for a while, but eventually the acceleration due to the planet's gravity will make it start to fall down again. If you threw the rock hard enough, though, you could make it escape the planet's gravity entirely. It would keep on rising forever. The speed with which you need to throw the rock in order that it just barely escapes the planet's gravity is called the "escape velocity." As you would expect, the escape velocity depends on the mass of the planet: if the planet is extremely massive, then its gravity is very strong, and the escape velocity is high. A lighter planet would have a smaller escape velocity. The escape velocity also depends on how far you are from the planet's center: the closer you are, the higher the escape velocity. The Earth's escape velocity is 11.2 kilometers per second (about 25,000 m.p.h.), while the Moon's is only 2.4 kilometers per second (about 5300 m.p.h.). 
+
+Now imagine an object with such an enormous concentration of mass in such a small radius that its escape velocity was greater than the velocity of light. Then, since nothing can go faster than light, nothing can escape the object's gravitational field. Even a beam of light would be pulled back by gravity and would be unable to escape. 
+
+The idea of a mass concentration so dense that even light would be trapped goes all the way back to Laplace in the 18th century. Almost immediately after Einstein developed general relativity, Karl Schwarzschild discovered a mathematical solution to the equations of the theory that described such an object. It was only much later, with the work of such people as Oppenheimer, Volkoff, and Snyder in the 1930's, that people thought seriously about the possibility that such objects might actually exist in the Universe. (Yes, this is the same Oppenheimer who ran the Manhattan Project.) These researchers showed that when a sufficiently massive star runs out of fuel, it is unable to support itself against its own gravitational pull, and it should collapse into a black hole. 
+
+In general relativity, gravity is a manifestation of the curvature of spacetime. Massive objects distort space and time, so that the usual rules of geometry don't apply anymore. Near a black hole, this distortion of space is extremely severe and causes black holes to have some very strange properties. In particular, a black hole has something called an 'event horizon.' This is a spherical surface that marks the boundary of the black hole. You can pass in through the horizon, but you can't get back out. In fact, once you've crossed the horizon, you're doomed to move inexorably closer and closer to the 'singularity' at the center of the black hole. 
+
+You can think of the horizon as the place where the escape velocity equals the velocity of light. Outside of the horizon, the escape velocity is less than the speed of light, so if you fire your rockets hard enough, you can give yourself enough energy to get away. But if you find yourself inside the horizon, then no matter how powerful your rockets are, you can't escape. 
+
+The horizon has some very strange geometrical properties. To an observer who is sitting still somewhere far away from the black hole, the horizon seems to be a nice, static, unmoving spherical surface. But once you get close to the horizon, you realize that it has a very large velocity. In fact, it is moving outward at the speed of light! That explains why it is easy to cross the horizon in the inward direction, but impossible to get back out. Since the horizon is moving out at the speed of light, in order to escape back across it, you would have to travel faster than light. You can't go faster than light, and so you can't escape from the black hole. 
+
+(If all of this sounds very strange, don't worry. It is strange. The horizon is in a certain sense sitting still, but in another sense it is flying out at the speed of light. It's a bit like Alice in "Through the Looking-Glass": she has to run as fast as she can just to stay in one place.) 
+
+Once you're inside of the horizon, spacetime is distorted so much that the coordinates describing radial distance and time switch roles. That is, "r", the coordinate that describes how far away you are from the center, is a timelike coordinate, and "t" is a spacelike one. One consequence of this is that you can't stop yourself from moving to smaller and smaller values of r, just as under ordinary circumstances you can't avoid moving towards the future (that is, towards larger and larger values of t). Eventually, you're bound to hit the singularity at r = 0. You might try to avoid it by firing your rockets, but it's futile: no matter which direction you run, you can't avoid your future. Trying to avoid the center of a black hole once you've crossed the horizon is just like trying to avoid next Thursday. 
+
+Incidentally, the name 'black hole' was invented by John Archibald Wheeler, and seems to have stuck because it was much catchier than previous names. Before Wheeler came along, these objects were often referred to as 'frozen stars.' I'll explain why below. 
+
+Back to Black Hole Question List 
+
+How big is a black hole?
+ ------------------------ 
+There are at least two different ways to describe how big something is. We can say how much mass it has, or we can say how much space it takes up. Let's talk first about the masses of black holes. 
+
+There is no limit in principle to how much or how little mass a black hole can have. Any amount of mass at all can in principle be made to form a black hole if you compress it to a high enough density. We suspect that most of the black holes that are actually out there were produced in the deaths of massive stars, and so we expect those black holes to weigh about as much as a massive star. A typical mass for such a stellar black hole would be about 10 times the mass of the Sun, or about 10^{31} kilograms. (Here I'm using scientific notation: 10^{31} means a 1 with 31 zeroes after it, or 10,000,000,000,000,000,000,000,000,000,000.) Astronomers also suspect that many galaxies harbor extremely massive black holes at their centers. These are thought to weigh about a million times as much as the Sun, or 10^{36} kilograms. 
+
+The more massive a black hole is, the more space it takes up. In fact, the Schwarzschild radius (which means the radius of the horizon) and the mass are directly proportional to one another: if one black hole weighs ten times as much as another, its radius is ten times as large. A black hole with a mass equal to that of the Sun would have a radius of 3 kilometers. So a typical 10-solar-mass black hole would have a radius of 30 kilometers, and a million-solar-mass black hole at the center of a galaxy would have a radius of 3 million kilometers. Three million kilometers may sound like a lot, but it's actually not so big by astronomical standards. The Sun, for example, has a radius of about 700,000 kilometers, and so that supermassive black hole has a radius only about four times bigger than the Sun. 
+
+Back to Black Hole Question List 
+
+What would happen to me if I fell into a black hole?
+---------------------------------------------------- 
+Let's suppose that you get into your spaceship and point it straight towards the million-solar-mass black hole in the center of our galaxy. (Actually, there's some debate about whether our galaxy contains a central black hole, but let's assume it does for the moment.) Starting from a long way away from the black hole, you just turn off your rockets and coast in. What happens? 
+
+At first, you don't feel any gravitational forces at all. Since you're in free fall, every part of your body and your spaceship is being pulled in the same way, and so you feel weightless. (This is exactly the same thing that happens to astronauts in Earth orbit: even though both astronauts and space shuttle are being pulled by the Earth's gravity, they don't feel any gravitational force because everything is being pulled in exactly the same way.) As you get closer and closer to the center of the hole, though, you start to feel "tidal" gravitational forces. Imagine that your feet are closer to the center than your head. The gravitational pull gets stronger as you get closer to the center of the hole, so your feet feel a stronger pull than your head does. As a result you feel "stretched." (This force is called a tidal force because it is exactly like the forces that cause tides on earth.) These tidal forces get more and more intense as you get closer to the center, and eventually they will rip you apart. 
+
+For a very large black hole like the one you're falling into, the tidal forces are not really noticeable until you get within about 600,000 kilometers of the center. Note that this is after you've crossed the horizon. If you were falling into a smaller black hole, say one that weighed as much as the Sun, tidal forces would start to make you quite uncomfortable when you were about 6000 kilometers away from the center, and you would have been torn apart by them long before you crossed the horizon. (That's why we decided to let you jump into a big black hole instead of a small one: we wanted you to survive at least until you got inside.) 
+
+What do you see as you are falling in? Surprisingly, you don't necessarily see anything particularly interesting. Images of faraway objects may be distorted in strange ways, since the black hole's gravity bends light, but that's about it. In particular, nothing special happens at the moment when you cross the horizon. Even after you've crossed the horizon, you can still see things on the outside: after all, the light from the things on the outside can still reach you. No one on the outside can see you, of course, since the light from you can't escape past the horizon. 
+
+How long does the whole process take? Well, of course, it depends on how far away you start from. Let's say you start at rest from a point whose distance from the singularity is ten times the black hole's radius. Then for a million-solar-mass black hole, it takes you about 8 minutes to reach the horizon. Once you've gotten that far, it takes you only another seven seconds to hit the singularity. By the way, this time scales with the size of the black hole, so if you'd jumped into a smaller black hole, your time of death would be that much sooner. 
+
+Once you've crossed the horizon, in your remaining seven seconds, you might panic and start to fire your rockets in a desperate attempt to avoid the singularity. Unfortunately, it's hopeless, since the singularity lies in your future, and there's no way to avoid your future. In fact, the harder you fire your rockets, the sooner you hit the singularity. It's best just to sit back and enjoy the ride. 
+
+Back to Black Hole Question List 
+
+My friend Penelope is sitting still at a safe distance, watching me fall into the black hole. What does she see?
+------------------------------------------------------------------- 
+Penelope sees things quite differently from you. As you get closer and closer to the horizon, she sees you move more and more slowly. In fact, no matter how long she waits, she will never quite see you reach the horizon. 
+
+In fact, more or less the same thing can be said about the material that formed the black hole in the first place. Suppose that the black hole formed from a collapsing star. As the material that is to form the black hole collapses, Penelope sees it get smaller and smaller, approaching but never quite reaching its Schwarzschild radius. This is why black holes were originally called frozen stars: because they seem to 'freeze' at a size just slightly bigger than the Schwarzschild radius. 
+
+Why does she see things this way? The best way to think about it is that it's really just an optical illusion. It doesn't really take an infinite amount of time for the black hole to form, and it doesn't really take an infinite amount of time for you to cross the horizon. (If you don't believe me, just try jumping in! You'll be across the horizon in eight minutes, and crushed to death mere seconds later.) As you get closer and closer to the horizon, the light that you're emitting takes longer and longer to climb back out to reach Penelope. In fact, the radiation you emit right as you cross the horizon will hover right there at the horizon forever and never reach her. You've long since passed through the horizon, but the light signal telling her that won't reach her for an infinitely long time. 
+
+There is another way to look at this whole business. In a sense, time really does pass more slowly near the horizon than it does far away. Suppose you take your spaceship and ride down to a point just outside the horizon, and then just hover there for a while (burning enormous amounts of fuel to keep yourself from falling in). Then you fly back out and rejoin Penelope. You will find that she has aged much more than you during the whole process; time passed more slowly for you than it did for her. 
+
+So which of these two explanation (the optical-illusion one or the time-slowing-down one) is really right? The answer depends on what system of coordinates you use to describe the black hole. According to the usual system of coordinates, called "Schwarzschild coordinates," you cross the horizon when the time coordinate t is infinity. So in these coordinates it really does take you infinite time to cross the horizon. But the reason for that is that Schwarzschild coordinates provide a highly distorted view of what's going on near the horizon. In fact, right at the horizon the coordinates are infinitely distorted (or, to use the standard terminology, "singular"). If you choose to use coordinates that are not singular near the horizon, then you find that the time when you cross the horizon is indeed finite, but the time when Penelope sees you cross the horizon is infinite. It took the radiation an infinite amount of time to reach her. In fact, though, you're allowed to use either coordinate system, and so both explanations are valid. They're just different ways of saying the same thing. 
+
+In practice, you will actually become invisible to Penelope before too much time has passed. For one thing, light is "redshifted" to longer wavelengths as it rises away from the black hole. So if you are emitting visible light at some particular wavelength, Penelope will see light at some longer wavelength. The wavelengths get longer and longer as you get closer and closer to the horizon. Eventually, it won't be visible light at all: it will be infrared radiation, then radio waves. At some point the wavelengths will be so long that she'll be unable to observe them. Furthermore, remember that light is emitted in individual packets called photons. Suppose you are emitting photons as you fall past the horizon. At some point, you will emit your last photon before you cross the horizon. That photon will reach Penelope at some finite time -- typically less than an hour for that million-solar-mass black hole -- and after that she'll never be able to see you again. (After all, none of the photons you emit *after* you cross the horizon will ever get to her.) 
+
+Back to Black Hole Question List 
+
+If a black hole existed, would it suck up all the matter in the Universe?
+--------------------------------------------------------------- 
+Heck, no. A black hole has a "horizon," which means a region from which you can't escape. If you cross the horizon, you're doomed to eventually hit the singularity. But as long as you stay outside of the horizon, you can avoid getting sucked in. In fact, to someone well outside of the horizon, the gravitational field surrounding a black hole is no different from the field surrounding any other object of the same mass. In other words, a one-solar-mass black hole is no better than any other one-solar-mass object (such as, for example, the Sun) at "sucking in" distant objects. 
+
+Back to Black Hole Question List 
+
+What if the Sun became a black hole?
+------------------------------------ 
+Well, first, let me assure you that the Sun has no intention of doing any such thing. Only stars that weigh considerably more than the Sun end their lives as black holes. The Sun is going to stay roughly the way it is for another five billion years or so. Then it will go through a brief phase as a red giant star, during which time it will expand to engulf the planets Mercury and Venus, and make life quite uncomfortable on Earth (oceans boiling, atmosphere escaping, that sort of thing). After that, the Sun will end its life by becoming a boring white dwarf star. If I were you, I'd make plans to move somewhere far away before any of this happens. I also wouldn't buy any of those 8-billion-year government bonds. 
+
+But I digress. What if the Sun *did* become a black hole for some reason? The main effect is that it would get very dark and very cold around here. The Earth and the other planets would not get sucked into the black hole; they would keep on orbiting in exactly the same paths they follow right now. Why? Because the horizon of this black hole would be very small -- only about 3 kilometers -- and as we observed above, as long as you stay well outside the horizon, a black hole's gravity is no stronger than that of any other object of the same mass. 
+
+Back to Black Hole Question List 
+
+Is there any evidence that black holes exist?
+--------------------------------------------- 
+Yes. You can't see a black hole directly, of course, since light can't get past the horizon. That means that we have to rely on indirect evidence that black holes exist. 
+
+Suppose you have found a region of space where you think there might be a black hole. How can you check whether there is one or not? The first thing you'd like to do is measure how much mass there is in that region. If you've found a large mass concentrated in a small volume, and if the mass is dark, then it's a good guess that there's a black hole there. There are two kinds of systems in which astronomers have found such compact, massive, dark objects: the centers of galaxies (including perhaps our own Milky Way Galaxy), and X-ray-emitting binary systems in our own Galaxy. 
+
+According to a recent review by Kormendy and Richstone (to appear in the 1995 edition of "Annual Reviews of Astronomy and Astrophysics"), eight galaxies have been observed to contain such massive dark objects in their centers. The masses of the cores of these galaxies range from one million to several billion times the mass of the Sun. The mass is measured by observing the speed with which stars and gas orbit around the center of the galaxy: the faster the orbital speeds, the stronger the gravitational force required to hold the stars and gas in their orbits. (This is the most common way to measure masses in astronomy. For example, we measure the mass of the Sun by observing how fast the planets orbit it, and we measure the amount of dark matter in galaxies by measuring how fast things orbit at the edge of the galaxy.) 
+
+These massive dark objects in galactic centers are thought to be black holes for at least two reasons. First, it is hard to think of anything else they could be: they are too dense and dark to be stars or clusters of stars. Second, the only promising theory to explain the enigmatic objects known as quasars and active galaxies postulates that such galaxies have supermassive black holes at their cores. If this theory is correct, then a large fraction of galaxies -- all the ones that are now or used to be active galaxies -- must have supermassive black holes at the center. Taken together, these arguments strongly suggest that the cores of these galaxies contain black holes, but they do not constitute absolute proof. 
+
+Two very recent discovery has been made that strongly support the hypothesis that these systems do indeed contain black holes. First, a nearby active galaxy was found to have a "water maser" system (a very powerful source of microwave radiation) near its nucleus. Using the technique of very-long-baseline interferometry, a group of researchers was able to map the velocity distribution of the gas with very fine resolution. In fact, they were able to measure the velocity within less than half a light-year of the center of the galaxy. From this measurement they can conclude that the massive object at the center of this galaxy is less than half a light-year in radius. It is hard to imagine anything other than a black hole that could have so much mass concentrated in such a small volume. (This result was reported by Miyoshi et al. in the 12 January 1995 issue of Nature, vol. 373, p. 127.) 
+
+A second discovery provides even more compelling evidence. X-ray astronomers have detected a spectral line from one galactic nucleus that indicates the presence of atoms near the nucleus that are moving extremely fast (about 1/3 the speed of light). Furthermore, the radiation from these atoms has been redshifted in just the manner one would expect for radiation coming from near the horizon of a black hole. These observations would be very difficult to explain in any other way besides a black hole, and if they are verified, then the hypothesis that some galaxies contain supermassive black holes at their centers would be fairly secure. (This result was reported in the 22 June 1995 issue of Nature, vol. 375, p. 659, by Tanaka et al.) 
+
+A completely different class of black-hole candidates may be found in our own Galaxy. These are much lighter, stellar-mass black holes, which are thought to form when a massive star ends its life in a supernova explosion. If such a stellar black hole were to be off somewhere by itself, we wouldn't have much hope of finding it. However, many stars come in binary systems -- pairs of stars in orbit around each other. If one of the stars in such a binary system becomes a black hole, we might be able to detect it. In particular, in some binary systems containing a compact object such as a black hole, matter is sucked off of the other object and forms an "accretion disk" of stuff swirling into the black hole. The matter in the accretion disk gets very hot as it falls closer and closer to the black hole, and it emits copious amounts of radiation, mostly in the X-ray part of the spectrum. Many such "X-ray binary systems" are known, and some of them are thought to be likely black-hole candidates. 
+
+Suppose you've found an X-ray binary system. How can you tell whether the unseen compact object is a black hole? Well, one thing you'd certainly like to do is to estimate its mass. By measuring the orbital speed of visible star (together with a few other things), you can figure out the mass of the invisible companion. (The technique is quite similar to the one we described above for supermassive black holes in galactic centers: the faster the star is moving, the stronger the gravitational force required to keep it in place, and so the more massive the invisible companion.) If the mass of the compact object is found to be very large very large, then there is no kind of object we know about that it could be other than a black hole. (An ordinary star of that mass would be visible. A stellar remnant such as a neutron star would be unable to support itself against gravity, and would collapse to a black hole.) The combination of such mass estimates and detailed studies of the radiation from the accretion disk can supply powerful circumstantial evidence that the object in question is indeed a black hole. 
+
+Many of these "X-ray binary" systems are known, and in some cases the evidence in support of the black-hole hypothesis is quite strong. In a review article in the 1992 issue of Annual Reviews of Astronomy and Astrophysics, Anne Cowley summarized the situation by saying that there were three such systems known (two in our galaxy and one in the nearby Large Magellanic Cloud) for which very strong evidence exists that the mass of the invisible object is too large to be anything but a black hole. There are many more such objects that are thought to be likely black holes on the basis of slightly less evidence. Furthermore, this field of research has been very active since 1992, and the number of strong candidates by now is larger than three. 
+
+Back to Black Hole Question List 
+
+How do black holes evaporate?
+ ----------------------------- 
+This is a tough one. Back in the 1970's, Stephen Hawking came up with theoretical arguments showing that black holes are not really entirely black: due to quantum-mechanical effects, they emit radiation. The energy that produces the radiation comes from the mass of the black hole. Consequently, the black hole gradually shrinks. It turns out that the rate of radiation increases as the mass decreases, so the black hole continues to radiate more and more intensely and to shrink more and more rapidly until it presumably vanishes entirely. 
+
+Actually, nobody is really sure what happens at the last stages of black hole evaporation: some researchers think that a tiny, stable remnant is left behind. Our current theories simply aren't good enough to let us tell for sure one way or the other. As long as I'm disclaiming, let me add that the entire subject of black hole evaporation is extremely speculative. It involves figuring out how to perform quantum-mechanical (or rather quantum-field-theoretic) calculations in curved spacetime, which is a very difficult task, and which gives results that are essentially impossible to test with experiments. Physicists *think* that we have the correct theories to make predictions about black hole evaporation, but without experimental tests it's impossible to be sure. 
+
+Now why do black holes evaporate? Here's one way to look at it, which is only moderately inaccurate. (I don't think it's possible to do much better than this, unless you want to spend a few years learning about quantum field theory in curved space.) One of the consequences of the uncertainty principle of quantum mechanics is that it's possible for the law of energy conservation to be violated, but only for very short durations. The Universe is able to produce mass and energy out of nowhere, but only if that mass and energy disappear again very quickly. One particular way in which this strange phenomenon manifests itself goes by the name of vacuum fluctuations. Pairs consisting of a particle and antiparticle can appear out of nowhere, exist for a very short time, and then annihilate each other. Energy conservation is violated when the particles are created, but all of that energy is restored when they annihilate again. As weird as all of this sounds, we have actually confirmed experimentally that these vacuum fluctuations are real. 
+
+Now, suppose one of these vacuum fluctuations happens near the horizon of a black hole. It may happen that one of the two particles falls across the horizon, while the other one escapes. The one that escapes carries energy away from the black hole and may be detected by some observer far away. To that observer, it will look like the black hole has just emitted a particle. This process happens repeatedly, and the observer sees a continuous stream of radiation from the black hole. 
+
+Back to Black Hole Question List 
+
+Won't the black hole have evaporated out from under me before I reach it?
+--------------------------------------------------------------------- 
+We've observed that, from the point of view of your friend Penelope who remains safely outside of the black hole, it takes you an infinite amount of time to cross the horizon. We've also observed that black holes evaporate via Hawking radiation in a finite amount of time. So by the time you reach the horizon, the black hole will be gone, right? 
+
+Wrong. When we said that Penelope would see it take forever for you to cross the horizon, we were imagining a non-evaporating black hole. If the black hole is evaporating, that changes things. Your friend will see you cross the horizon at the exact same moment she sees the black hole evaporate. Let me try to describe why this is true. 
+
+Remember what we said before: Penelope is the victim of an optical illusion. The light that you emit when you're very near the horizon (but still on the outside) takes a very long time to climb out and reach her. If the black hole lasts forever, then the light may take arbitrarily long to get out, and that's why she doesn't see you cross the horizon for a very long (even an infinite) time. But once the black hole has evaporated, there's nothing to stop the light that carries the news that you're about to cross the horizon from reaching her. In fact, it reaches her at the same moment as that last burst of Hawking radiation. Of course, none of that will matter to you: you've long since crossed the horizon and been crushed at the singularity. Sorry about that, but you should have thought about it before you jumped in. 
+
+Back to Black Hole Question List 
+
+What is a white hole?
+ --------------------- 
+The equations of general relativity have an interesting mathematical property: they are symmetric in time. That means that you can take any solution to the equations and imagine that time flows backwards rather than forwards, and you'll get another valid solution to the equations. If you apply this rule to the solution that describes black holes, you get an object known as a white hole. Since a black hole is a region of space from which nothing can escape, the time-reversed version of a black hole is a region of space into which nothing can fall. In fact, just as a black hole can only suck things in, a white hole can only spit things out. 
+
+White holes are a perfectly valid mathematical solution to the equations of general relativity, but that doesn't mean that they actually exist in nature. In fact, they almost certainly do not exist, since there's no way to produce one. (Producing a white hole is just as impossible as destroying a black hole, since the two processes are time-reversals of each other.) 
+
+Back to Black Hole Question List 
+
+What is a wormhole?
+ ------------------- 
+So far, we have only considered ordinary "vanilla" black holes. Specifically, we have been talking all along about black holes that are not rotating and have no electric charge. If we consider black holes that rotate and/or have charge, things get more complicated. In particular, it is possible to fall into such a black hole and not hit the singularity. In effect, the interior of a charged or rotating black hole can "join up" with a corresponding white hole in such a way that you can fall into the black hole and pop out of the white hole. This combination of black and white holes is called a wormhole. 
+
+The white hole may be somewhere very far away from the black hole; indeed, it may even be in a "different Universe" -- that is, a region of spacetime that, aside from the wormhole itself, is completely disconnected from our own region. A conveniently-located wormhole would therefore provide a convenient and rapid way to travel very large distances, or even to travel to another Universe. Maybe the exit to the wormhole would lie in the past, so that you could travel back in time by going through. All in all, they sound pretty cool. 
+
+But before you apply for that research grant to go search for them, there are a couple of things you should know. First of all, wormholes almost certainly do not exist. As we said above in the section on white holes, just because something is a valid mathematical solution to the equations doesn't mean that it actually exists in nature. In particular, black holes that form from the collapse of ordinary matter (which includes all of the black holes that we think exist) do not form wormholes. If you fall into one of those, you're not going to pop out anywhere. You're going to hit a singularity, and that's all there is to it. 
+
+Furthermore, even if a wormhole were formed, it is thought that it would not be stable. Even the slightest perturbation (including the perturbation caused by your attempt to travel through it) would cause it to collapse. 
+
+Finally, even if wormholes exist and are stable, they are quite unpleasant to travel through. Radiation that pours into the wormhole (from nearby stars, the cosmic microwave background, etc.) gets blueshifted to very high frequencies. As you try to pass through the wormhole, you will get fried by these X-rays and gamma rays. 
+
+Back to Black Hole Question List 
+
+Where can I go to learn more about black holes?
+----------------------------------------------- 
+Let me begin by acknowledging that I cribbed some of the above material from the article about black holes in the Frequently Asked Questions list for the Usenet newsgroup sci.physics. The sci.physics FAQ is posted monthly to sci.physics and is also available by anonymous ftp from rtfm.mit.edu (and probably other places). The article about black holes, which is excellent, was written by Matt McIrvin. The FAQ contains other neat things too. 
+
+There are lots of books out there about black holes and related matters. Kip Thorne's "Black Holes and Time Warps: Einstein's Outrageous Legacy" is a good one. William Kaufmann's "Black Holes and Warped Spacetime" is also worth reading. R. Wald's "Space, Time, and Gravity" is an exposition of general relativity for non-scientists. I haven't read it myself, but I've heard good things about it. 
+
+Both of these books are aimed at readers without much background in physics. If you want more "meat" (i.e., more mathematics), then you probably start with a book on the basics of relativity theory. The best introduction to the subject is "Spacetime Physics" by E.F. Taylor and J.A. Wheeler. (This book is mostly about special relativity, but the last chapter discusses the general theory.) Taylor and Wheeler have been threatening for about two years now to publish a sequel entitled "Scouting Black Holes," which should be quite good if it ever comes out. "Spacetime Physics" does not assume that you know vast amounts of physics, but it does assume that you're willing to work hard at understanding this stuff. It is not light reading, although it is more playful and less intimidating than most physics books. 
+
+Finally, if "Spacetime Physics" isn't enough for you, you could try any of several introductions to general relativity. B. Schutz's "A First Course in General Relativity" and W. Rindler's "Essential Relativity" are a couple of possibilities. And for the extremely valiant reader with an excellent background in physics, there's the granddaddy of all books on general relativity, Misner, Thorne, and Wheeler's "Gravitation." R. Wald's book "General Relativity" is at a comparable level to "Gravitation," although the styles of the two books are enormously different. What little I know about black-hole evaporation comes from Wald's book. Let me emphasize that all of these books, and especially the last two, assume that you know quite a lot of physics. They are not for the faint of heart. 
+
+Back to Black Hole Question List 
+
+---------------------------------------------------------------------
+September 1995 
