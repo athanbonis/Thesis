@@ -1,0 +1,68 @@
+
+=====================================================================
+CMM: Links Hotlist
+=====================================================================
+  function goto_url(form) {   if (form.search_text.value == "") {    alert("You have not entered any text");    return false;   }   var url = form.search_select[form.search_select.selectedIndex].value +   escape(form.search_text.value);      //Uncomment this lines if you want the current window to change   document.location = url;   // Uncomment this line if you want the search in a new window     //search_window = window.open(url);     return false;   } //This script detects what platform and browser the user has, and then applies th relevent style sheet //tmtC_cssOnPlatform tmt_css_Mac_Netscape = "http://www.uq.edu.au/templates/css/uq-mac-netscape.css"; tmt_css_Mac_Explorer = "http://www.uq.edu.au/templates/css/uq-mac-explorer.css"; tmt_css_Win_Netscape = "http://www.uq.edu.au/templates/css/uq-win-netscape.css"; tmt_css_Win_Explorer = "http://www.uq.edu.au/templates/css/uq-win-explorer.css"; var browser_type=navigator.appName var browser_version=parseInt(navigator.appVersion) if((navigator.appVersion.indexOf("Mac")!= -1) || (navigator.appVersion.indexOf("MacPPC")!= -1) || (navigator.platform == "MacPPC")){   if (browser_type=="Netscape"&&browser_version>=4) {   document.write("");     } else {   document.write("");    } } else {   if (browser_type=="Netscape"&&browser_version>=4) {    document.write("");    } else {    document.write("");      } } //tmtC_cssOnPlatformEnd 
+  Microscopy & Microanalysis	 Search UQ: 	
+The CMM	 
+            
+Research 	
+    
+Instrumentation 	
+Resources 	
+Links 	            
+   
+General Sciences	  
+Microscopy	 
+Nanoworld Hotlist	  
+Conferences	  
+Nanoworld Awarders	 
+         
+ 
+Nanoworld's Hotlist
+This is a list of WWW sites that we think that you might enjoy!
+Alta Vista Translation Service 
+Translate text from one language to another!
+AltaVista's Translation Assistant provides a free service to the Internet community. The world is a big place and, although the Web has helped to bring us all together, until now, we haven't been able to communicate across language barriers. AltaVista and Systran, a leader in the field of Machine Translations, hope to change that.
+Biographical Dictionary : Notable citizens of the planet earth 
+This dictionary contains biographical information on over 18,000 people from ancient times to the present day. These are the notable men and women who have shaped our world. 
+Information contained in the Dictionary includes birth and death years, professions, positions held, literary and artistic works and other achievements. The Dictionary is searchable by these, and other, categories using keywords.
+Guide to Australia 
+This GUIDE TO AUSTRALIA project aims to compile links to all available on-line information resources about Australia for distribution via World Wide Web. Our aim is that ultimately it will grow into an on-line, hypertext encyclopaedia. Please advise the editors of any pertinent information or service that you think should be included in the Guide. 
+Internet Hoax Busters 
+The Internet is constantly being flooded with information about computer viruses and Trojans. However, interspersed among real virus notices are computer virus hoaxes. While these hoaxes do not infect systems, they are still time consuming and costly to handle. At CIAC, we find that we are spending much more time de-bunking hoaxes than handling real virus incidents. This page describes many of the hoax warnings that are found on the Internet today. We will also address some of the history of hoaxes on the Internet, how to identify a new hoax warning, how to identify a validated warning and what to do if you think a message is a hoax. 
+Another site worth looking at is http://www.datafellows.com/news/hoax.htm
+Mike's Electric Stuff
+A totally amazing site for anyone fascinated by electric things.
+* Antique Glass stuff 
+* Tesla coils and high-voltage stuff 
+* Miscellaneous electric & science stuff 
+Each of the three main sections has a 'tour' facility for easier navigation through the pages - clicking on the small icons at the corners of each page will move to the next or previous page in that section. 
+Milky Way Webpage 
+View the Milky Way at 10 million light years from the Earth. Then move through space towards the Earth in successive orders of magnitude until you reach a tall oak tree just outside the buildings of the National High Magnetic Field Laboratory in Tallahassee, Florida. After that, begin to move from the actual size of a leaf into a microscopic world that reveals leaf cell walls, the cell nucleus, chromatin, DNA and finally, into the subatomic universe of electrons and protons.
+OneLook Dictionaries 
+More dictionaries than you could ever need - covering an enormous range of subject areas.
+Small Comets 
+Every few seconds a "snowball" the size of a small house breaks up as it approaches Earth and deposits a large cloud of water vapor in Earth's upper atmosphere. The addition of quantities of water from space can account for all the water in the oceans, which upsets most previous theorizing about the origin of ocean water.
+TripleJ 
+Extraordinary Radio - Australia's BEST radio station has a web site! Check out Signal to Noise for a taste! 
+Webcam Index 
+World Atlas 
+Search Over 230,000 maps!
+World Wide Webcam Sites 
+Over 250 links to live cameras located around the world! See what is happening on another part of your planet!! 
+ 
+Bookings
+CyberSTEM
+Image Gallery
+Training
+Information Guide
+Registration Form
+privacy | feedback 	
+©2004 The University of Queensland, Brisbane Australia	 
+ABN 63 942 912 684	 
+University Provider Number: 00025B	 
+Authorised by: Deputy Director of CMM	 
+Maintained by: D.Waddell@uq.edu.au	 
+ 	 Last Updated: 11 January 2005	 
+

@@ -1,0 +1,155 @@
+
+=====================================================================
+Adactio: Journal
+=====================================================================
+ 
+adactio
+{Skip navigation} 
+* Journal 
+* Portfolio 
+* Articles 
+* About 
+* Contact 
+Monday, March 14th 2005
+And then, this one time at geek camp...
+I'm having an absolute ball here at SXSW. By day, I'm filling up my brain with incredibly useful information and ideas. By night, I'm meeting great people and generally having a fun time.
+Yesterday's speaker schedule had a great one-two punch by Eric and Tantek. They were both talking about microformats and XHTML. It really got my creative juices flowing. In fact, when I should have been paying more attention to a panel called "Building your brand with blogs", I was quickly knocking together a little DOM script to create a Met-roll on the fly.
+There's a lot of creative energy flying around and there's one point that keeps coming across in all the panels, no matter how technical the subject matter, which is: "it's all about people". At the end of the CSS panel called "How to be beautiful: more hi-fi design with CSS", Doug related a very powerful and touching story that really drove the point home.
+I thought I knew what to expect from this conference but I was wrong. It's exceeding all my expectations.
+The only down-side is that Jessica isn't here. Still, she was able to vicariously share the geekiness via iSight. Everyone waved hello from Austin to Arizona.
+06:15pm GMT
+Sunday, March 13th 2005
+Trial by fire
+'Tis done. Andy and I delivered our banter to a room full of unsuspecting South by SouthWest attendees yesterday. You can look through the slides if you like.
+I'm quite pleased with how it went. We got some laughs which was our main aim. Apart from dropping my bluetooth connection to Salling Clicker, everything went pretty smoothly.
+Once the talk was over, I was able to relax a bit more and really let my hair down. The opening party by Frog Design was a heady mixture of live music, free beer, scantily clad dancing girls and sword swallowers... it was as if the dot com bubble never burst.
+The festival is well underway now and I'm probably going to spend most of the time running around like a headless chicken trying to get to all the panels I want to see, which is a physical impossibility unless I clone myself.
+Gotta run...
+03:13pm GMT
+Friday, March 11th 2005
+Austin update
+I've arrived in Austin. The South by SouthWest festival hasn't started yet and I'm already having a great time meeting some wonderful people.
+Andy has already chronicled our transatlantic journey (which was mercifully uneventful) as well as our first evening's exploration of Austin's nightlife.
+Today, we've been registering for the festival and gathering the Brit pack together. After some misadventures along the way, Jon and Andy have made it here.
+If you're here in Austin and you'd like to meet up, get in touch. I'll be wandering the corridors during the day and sampling the local brews once the sun goes down.
+10:49pm GMT
+Wednesday, March 9th 2005
+Perfect timing
+Just in time for South by SouthWest, the Washington post has published an article called "Texas Eat 'Em" about barbecue in the Lone Star State:
+"But what defines Texas barbecue is beef. And the king of the plate is smoked brisket - usually unsauced. That's a characteristic specific to central Texas barbecue - its aversion to sauce. They'll serve it (usually). But invariably on the side. Sauce, the pitman will tell you, is just used to cover up inferior barbecue."
+Equally handy, here's the unofficial geek guide to getting over yourself at SxSW Interactive 2005.
+It even looks like the weather is going to behave for the duration of the festival.
+11:13am GMT
+Tuesday, March 8th 2005
+Obligatory SxSW blather
+The RSS-o-sphere is fairly humming with postings from bloggers announcing their imminent departure for Austin, Texas. Who am I to buck the trend?
+I'll be catching a flight out of Gatwick on Thursday morning. Andy, Richard and Dunstan will be on the same 'plane, forming the vanguard of the British invasion.
+Once I get there, I'm planing to attend as many panels as is humanly possible without cloning myself, introduce myself to many people I only know virtually and, most importantly of all, enjoy some good ol' Texas barbecue.
+If you're going to be at South by SouthWest, let me know. I'm hoping that my mobile phone will work over there (here's my vcard if you want to call me). Fortunately, I hear that Austin is fairly swimming in WiFi so you can also iChat me or Skype me (can we use skype as a verb yet?).
+Unfortunately, I won't be sticking around for the music portion of the festival. It sounds like there are going to be some great bands playing. I downloaded the excellent, if somewhat large, SxSW showcase for my iPod. It integrates really nicely with a schedule that you can drop into the notes folder.
+It's probably the second coolest download for an iPod that I've come across. The first would have to be the podcasted commentary by the producer of Battlestar Galactica, designed to be synchronised with the television broadcast (if you haven't seen it yet, be sure to watch the first episode, streamed in its entirety on the website).
+I've also got my iPod loaded up with a complete schedule of the interactive portion of South by SouthWest, courtesy of Jeremy Flint.
+Speaking of cool things to do with your iPod, remember all the fuss about the iPodDownload programme which could transfer songs from an iPod to a computer directly from iTunes? The Apple lawyers were very quick to knock it on the head and subsequent releases of iTunes disabled the plug-in.
+Well, it turns out that you can achieve the exact same results using a clever little AppleScript. Who knew?
+10:59pm GMT
+On procrastination
+The other day, Jessica said:
+"I made a resolution not to put off 'till later what I can do now."
+To which I responded:
+"Yeah. I need to make a resolution like that sometime."
+09:39pm GMT
+Progressive enhancement with Ajax
+The excitement over Ajax shows no signs of dying down anytime soon. The Man In Blue has weighed in with his thoughts on the matter:
+"It would be nice if Google Maps were accessible by non-JavaScript enabled user agents, but in practice this must be weighed up against market forces - is an acceptable proportion of your target market likely to have JavaScript enabled, or is your service so useful that people will go out of their way to acquire JavaScript capabilities to use it?"
+This is where I feel that Google and others are approaching the whole issue of Ajax (and JavaScript in general) in a back-asswards manner.
+To me, it makes sense to first build your application using old-fashioned server-side technology to do all the work with old-fashioned page refreshes to display updated information. Once you've got that built, you can then apply JavaScript to make a better, richer, more usable application. By intercepting the default actions with JavaScript and replacing them with XMLHttpRequest calls, you can add a lovely layer of instant interaction. But, and this is the kicker, you know that your smooth, slick application will degrade gracefully in browsers that don't support JavaScript.
+It's called progressive enhancement and it's how we should all be building our web applications. The concept forms the basis of applying CSS correctly. Ideally, we should be following through on this idea whenever we decide to wield the scalpel of JavaScript.
+For example, I love the way the JavaScript on the Panic shop works but if the principle of progressive enhancement had been applied in the planning of the shopping cart, it would degrade gracefully for shoppers without JavaScript.
+I've heard all the arguments about market forces and browser statistics informing a "JavaScript only, please" decision on building web apps but they make little sense to me. With a little bit of forethought, you can build an application that can be used by everybody whilst giving the majority an enhanced experience.
+Think about it: you have to build all the server-side logic anyway so why not it build it in such a way that it can be used equally well by a refreshing web page as by a call via XMLHttpRequest?
+That was the way I went about adding the recent enhancements to The Session. I made sure that the server-side functions responsible for executing searches and returning results were abstracted enough so that they could be re-used easily by an Ajax script. If you wanted to follow this process of abstraction to its logical conclusion, then I guess you could have all data returned as XML. Then you could build your regular website, add a nice layer of Ajax enhancements and provide an API for web services as nice little bonus.
+To develop directly for Ajax might seem to save time and costs but ultimately, it will work out a lot more time consuming in the long run if you ever decide to build a non-JavaScript version.
+Ajax is an interesting technology. It straddles the worlds of client-side and server-side scripting, a combination reminiscent of Kipling's poem:
+"East is East, and West is West, and never the twain shall meet"
+To use this technology correctly, developers need to understand both worlds. The concept of progressive enhancement is probably a new one to server-side programmers while the idea of data abstraction may be new to client-side developers.
+Which reminds me...
+If PHP is your server-side language of choice, the future is looking quite rosy thanks to a helping hand from IBM:
+"IBM is putting its corporate heft behind a popular open-source Web development technology called PHP, in a move meant to reach out to a broader set of developers."
+04:38pm GMT
+Sunday, February 27th 2005
+S'more DOM Scripting
+Speaking of cool JavaScript applications...
+Dave Shea has redesigned his Bright Creative website and he's using my slideshow script for his design portfolio. I'm glad to see that it scales up to having multiple slideshows on one page.
+And now it's time for me to eat humble pie. Google Maps, contrary to my expectations, is clearly being developed continuously. It is now working flawlessly in Safari.
+Note, for example, this page of directions from the hotel where I'll be staying during South by SouthWest to the venue where Kings of Leon will be playing that week.
+11:23pm GMT
+Applied Ajax
+Finally, I no longer have to use the tongue-twisting phrase XMLHttpRequest every time I want to talk about a web app that uses JavaScript to make calls to a web server. Jesse James Garrett has coined the term Ajax: Asynchronous JavaScript and XML.
+I like it. It's certainly a lot easier to say than ex emm ell aitch tee tee pee request. I also like the idea of a web technology that shares its name with a Greek warrior from the Trojan war (even if the name also conjures up images of cleaning products).
+I've just introduced a bunch of Ajax enhancements over at The Session. If you go to any of the main site sections (the tunes section, for instance), there are tabs for the newest tunes, the newest comments and a search form. You can navigate through these lists with previous/next links as well as page numbers. I've used JavaScript to intercept these links and then conjure up the Ajax magic.
+Here's the source code. When one of those links is intercepted, the current content is deleted and replaced with a loading image. Then the XMLHttpRequest does all the work and gets the next set of results. Those then get inserted into the page.
+There are couple of teeth-grinding moments where I have to fork the code but overall it's pretty straightforward. The end result works quite nicely. It's a snappy way of moving through multi-page lists without requiring a page refresh.
+If you don't have JavaScript enabled, everything continues to work with old-fashioned server-side magic. It works quite nicely in Lynx.
+This Ajax is pretty powerful stuff. Web developers just need to realise that with great power, yada, yada, yada, responsibility.
+10:44pm GMT
+Friday, February 25th 2005
+Age++
+That Richard Rutter is a jolly good egg. He found himself with a spare ticket for a Wedding Present concert and kindly offered it me.
+The band were on top form and, courtesy of Richard, I had a thoroughly enjoyable time.
+I'll be going out again tonight but not for rock'n'roll. Instead, Jessica is taking me to the wonderful Seven Dials restaurant here in Brighton. Together, we will celebrate the anniversary of my birth.
+I share my birthday with George Harrison and Pierre-Auguste Renoir (both dead) and I'm just one day too late to share it with Steve Jobs (not dead).
+As for my age... well, let's just say that I'm now more than a third of a century old.
+05:16pm GMT
+More information
+Current Status
+I'm off to Austin, Texas for South by SouthWest.
+Customise
+If your browser was up to it, you'd be able to Choose a theme... 
+default
+ 
+tatemodern
+ 
+hi-tech
+ 
+seaside
+ 
+zeldman
+ 
+adactizilla
+ 
+sci-fi
+ 
+renaissance
+ 
+hirnlego
+ 
+This is the plain vanilla look.
+Archive
+March 2005 
+SunMonTueWedThuFriSat 
+ 	 	1	2	3	4	5	 
+6	7	8	9	10	11	12	 
+13	14	15	16	17	18	19	 
+20	21	22	23	24	25	26	 
+27	28	29	30	31	 	 	 
+Peruse the whole archive.
+Search
+Search the archive: 
+Pictures
+Take a look at galleries of pictures that I've taken. There are 40 galleries in total.
+Newest Pictures
+The newest gallery is called Baltimore Wedding and it contains 11 pictures.
+Random Image
+Irish Spring: Jeb In McGanns
+Music
+Last iTunes track:O Children from the album "The Lyre Of Orpheus" by Nick Cave And The Bad Seeds.
+Amazon     
+Extras
+Headlines
+Read the latest headlines from some of my favourite sites.
+Help yourself to my RSS feed.
+Receive notification via AIM or iChat when my journal is updated.
+© 1998 - 2005 Jeremy Keith.
+Veni, vidi, validatio. Et tu, CSS?.
+Accessibility statement
+

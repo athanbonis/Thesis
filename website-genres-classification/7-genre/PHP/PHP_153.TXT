@@ -1,0 +1,31 @@
+
+=====================================================================
+John B. Carter
+=====================================================================
+ 
+---------------------------------------------------------------------
+John B. Carter
+Associate Professor
+School of Computing
+University of Utah
+Professor Carter joined the Department of Computer Science in January 1993. His research interests include operating systems, parallel and distributed computing, and multiprocessor computer architecture. Of particular interest are memory system designs, both hardware and software. Professor Carter is also very interested in the problems associated with developing and managing high-tech startup companies. 
+---------------------------------------------------------------------
+Teaching
+* Spring 2004: Advanced Operating Systems 
+* Fall 2003: Operating Systems 
+---------------------------------------------------------------------
+Research
+Ultraviolet and beyond: Professor Carter led the Univ of Utah portion of SGI's Ultraviolet systems project as part of the DARPA HPCS effort. The Ultraviolet team consisted of architects, systems programmers, and application developers from SGI, Utah, MIT, Minnesota, and GWU. As part of this effort, we designed a peta-scale system (petabytes of DRAM/petaflops of aggregate compute capability) targeted for the 2010 timeframe. As a follow-up to this work, Professor Carter's research group is working with researchers at SGI and the NSA to design and evaluate a variety of design ideas for enhancing the performance of large-scale shared memory multiprocessors. 
+Impulse Adaptable Memory System Project: Professor Carter is the principal investigator of the Impulse project, the goal of which is to design and build an adaptable main memory controller (AMMC) that will significantly increase processor cache utilization and reduce memory bus contention. The Impulse AMMC can dynamically remap physical memory to support scatter/gather store/(pre)fetch operations to discontiguous data structures, create shadow superpages that can be mapped to a single TLB entry from discontiguous physical pages, prefetch sparse pointer-connected data structures into dense cache regions, and aggressively in the memory controller without danger of cache pollution due to inaccurate prefetching heuristics. 
+Khazana Project: The goal of the Khazana effort is to build a common infrastructure for sharing state between distributed services or applications. Most distributed applications have similar needs: location transparency, high availability, scalability, and performance. Such applications tend to satisfy these needs using a combination of caching and replication. Currently there is no common set of tools for handling the myriad of problems that arise (node and net failures, distributed resource management, heterogeneous end systems, application evolution, etc.), so each application "rolls its own" solution. We are designing and building a wide area backbone to serve as this common caching and replication layer for distributed applications. In essence, we are attempting to raise the common layer of Internet applications from IP to that of a widely available shared state (at least, when appropriate). Khazana is part of the Flux project umbrella. Past Projects Selected Publications 
+---------------------------------------------------------------------
+Work Address 
+50 South Central Campus Drive, Room 3190 
+School of Computing 
+University of Utah 
+Salt Lake City, Utah 84112 
+Email: retrac@cs.utah.edu 
+Phone: (801) 585-5474 
+Fax: (801) 581-5843 
+---------------------------------------------------------------------
+Last modified Jan 12, 2004. 

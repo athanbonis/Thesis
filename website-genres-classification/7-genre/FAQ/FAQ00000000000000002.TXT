@@ -1,0 +1,33 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Basic Definitions Page | Back to Main FAQ Page    
+Subject: A10) How do tropical cyclones form ? 
+To undergo tropical cyclogenesis, there are several favorable pre cursor environmental conditions that must be in place (Gray 1968,1979) : 
+1.  Warm ocean waters (of at least 26.5°C [80°F]) throughout a sufficient depth (unknown how deep, but at least on the order of 50 m [150 ft]). Warm waters are necessary to fuel the heat engine of the tropical cyclone.
+2.  An atmosphere which cools fast enough with height such that it is potentially unstable to moist convection. It is the thunderstorm activity which allows the heat stored in the ocean waters to be liberated for the tropical cyclone development.
+3.  Relatively moist layers near the mid-troposphere (5 km [3 mi]). Dry mid levels are not conducive for allowing the continuing development of widespread thunderstorm activity.
+4.  A minimum distance of at least 500 km [300 mi] from the equator. For tropical cyclogenesis to occur, there is a requirement for non-negligible amounts of the Coriolis force to provide for near gradient wind balance to occur. Without the Coriolis force, the low pressure of the disturbance cannot be maintained.
+5.  A pre-existing near-surface disturbance with sufficient vorticity and convergence. Tropical cyclones cannot be generated spontaneously. To develop, they require a weakly organized system with sizable spin and low level inflow.
+6.  Low values (less than about 10 m/s [20 kts 23 mph]) of vertical wind shear between the surface and the upper troposphere. Vertical wind shear is the magnitude of wind change with height. Large values of vertical wind shear disrupt the incipient tropical cyclone and can prevent genesis, or, if a tropical cyclone has already formed, large vertical shear can weaken or destroy the tropical cyclone by interfering with the organization of deep convection around the cyclone center. 
+Having these conditions met is necessary, but not sufficient as many disturbances that appear to have favorable conditions do not develop. Recent work (Velasco and Fritsch 1987, Chen and Frank 1993, Emanuel 1993) has identified that large thunderstorm systems (called mesoscale convective complexes [MCC]) often produce an inertially stable, warm core vortex in the trailing altostratus decks of the MCC. These mesovortices have a horizontal scale of approximately 100 to 200 km [75 to 150 mi], are strongest in the mid-troposphere (5 km [3 mi]) and have no appreciable signature at the surface. Zehr (1992) hypothesizes that genesis of the tropical cyclones occurs in two stages: 
+* stage 1 occurs when the MCC produces a mesoscale vortex. 
+* stage 2 occurs when a second blow up of convection at the mesoscale vortex initiates the intensification process of lowering central pressure and increasing swirling winds. 
+   Back to Basic Definitions Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

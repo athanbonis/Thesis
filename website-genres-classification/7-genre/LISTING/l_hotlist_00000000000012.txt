@@ -1,0 +1,23 @@
+
+=====================================================================
+Hotlist: Kids Did This!
+=====================================================================
+ 
+ 	  function setImage(name, source) { document.images[name].src = source; return true; }     
+  	    
+      
+      	     
+                                      	  
+Kids Did This! Hotlist
+It's a challenge to keep up with kids on the Internet, but we're trying. Our hotlist of student-produced stuff became too long for one page! Explore the topics that interest you.
+Science
+Art
+Social Studies
+Mathematics
+Language Arts
+School Newspapers
+Miscellaneous
+ 
+---------------------------------------------------------------------
+Back to Hotlists
+

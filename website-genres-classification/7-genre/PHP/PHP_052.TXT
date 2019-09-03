@@ -1,0 +1,72 @@
+
+=====================================================================
+Peter Andersen
+=====================================================================
+ 
+Homepage of
+Peter Andersen
+Peter Andersen
+TAP, M.Sc. 	
+Phone: 		+45 89 42 56 68	 
+Fax: 		+45 89 42 32 55	
+Institute of Computer Science
+University of Aarhus
+Aabogade 34
+Building Hopper-335
+DK-8200 Århus N
+Denmark
+Calendar 	
+Web: 		www.daimi.au.dk/~datpete	 
+E-mail: 		datpete-nospam@daimi.au.dk (remove -nospam)	 
+ 	 
+Lookup DAIMI person 
+Name: 
+Phone
+Userid
+Finger 	
+Current Research Projects
+I am currently employed at the Object-Oriented Software Systems research group at Computer Science Department at Aarhus University. My primary research projects for the moment are 
+* BETA.Net - porting of the BETA programming language to Microsoft .NET. Part of the Object-Oriented Language Interoperability project. 
+* Palpable Computing
+ 
+* Stuff from kick-off in Grindelwald, January 2004 
+* Photos from joint meeting in Aarhus, June 2004 
+Previous projects (not complete): 
+* Component Based Architectures and Development, a 3 year research project at Center for Object Technology under Center for Information Technology. 
+* CPN2000, a sub-project of HP-CPN, which is a a four year research project sponsored by Hewlett-Packard and Center for Information Technology 
+* Distributed Objects in Embedded System 
+* Åben Digital Bygningsmodel (danish) 
+Publications
+P. Andersen, K. Jensen Møller, J. Rask: 
+Bifrost - An Interactive Object Oriented Device Independent Graphics System
+DAIMI IR-100
+Computer Science Department, Aarhus University, February 1992. 
+The thesis is available in PDF format: 
+* Full thesis (575K) 
+or (if you prefer) as 3 separate parts: 
+* Main part of thesis (341K) 
+* Abstract Description of library plus demo programs (117K) 
+* Interface Description of library (50K) 
+The source code is available as a part of the latest release of The Mjølner System. It can be downloaded via FTP: 
+* Gzipped Tar (.tar.gz) 
+* Compressed Tar (.tar.Z) 
+P. Andersen, K. Jensen Møller: 
+Bifrost - An Interactive Object Oriented Device Independent Graphics System. 
+Chapter 12 in Object-Oriented Environments - The Mjølner Approach, J. Lindskov Knudsen, M. Löfgren, O. Lehrmann Madsen, B. Magnusson (Red.), Prentice Hall, 1993, ISBN 0-13-009291-6. 
+P. Andersen, O. Lehrmann Madsen, B. Gabelgaard (Red.): 
+Aspects of Programming Environments.
+DAIMI FN-35.
+Computer Science Department, Aarhus University, January 1990. 
+P. Andersen, K. Jensen Møller, J. Rask: 
+Macintosh Programming Environments.
+Chapter 12 in Aspects of Programming Environments, see above. 
+René Elmstrøm et. al.: 
+Evaluation of COM support in Development Environments
+COT Case 3 report. Abstract PDF (59 K). 
+René Elmstrøm et. al.: 
+The COM Pilot Application
+COT Case 3 report. Abstract, PDF (24 K). 
+You will need Acrobat Reader to read the PDF (Portable Document Format) files. 
+Links
+See also my homepage at Mjølner Informatics . 
+

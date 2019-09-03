@@ -1,0 +1,205 @@
+
+=====================================================================
+Frequently Asked Questions - 10.3 Mutual Funds (Costs, Distributions, etc.)
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+10.3 Capital Gains, Losses/Sale of Home: Mutual Funds (Costs, Distributions, etc.)
+If I sell one mutual fund and use the proceeds to buy another, do I have to report the capital gains or can I wait until I sell and don't buy another fund? Does it matter if I stay within the same family of funds?
+You would have to report any capital gains realized on the sale. Even assuming this transaction meets the requirements of an exchange, rather than a sale, the exchange of shares of one fund for those of another is a taxable exchange. This is true even if both funds are within the same family of funds. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+If my children have mutual funds, how are the dividends and capital gains reported?
+If a child is 14 years old or older and has a requirement to file an income tax return, he or she would report dividends and capital gains no differently than any other taxpayer. If the child is under age 14 and his or her only income is from interest and dividends (including capital gain distributions), the child's parents can make an election to include the income on the parent's return. If the parents make this election, then the child does not have to file a return. The election is made on Form 8814 (PDF), Parent's Election To Report Child's Interest and Dividends. 
+In order to make the election under Form 8814, 
+* the child must be required to file a return, 
+* the dividend and interest income cannot exceed $7,500 
+* there must be no estimated tax payment made for the year and no prior overpayment applied to the tax year under the child's name and social security number, 
+* there must be no federal tax taken out of the child's income under the backup withholding rules, and 
+* the parent must be the parent whose return is used for the special tax rules for children under 14. 
+If a child under the age of 14 has investment income and the parents do not make the above election, the child reports the income as any other taxpayer would. Special rules on how the investment income is taxed, however, may apply. A child under the age of 14 with investment income (interest, dividends, capital gains, etc.) of more than $1,500 may be subject to the parents' tax rate. The special tax computation is figured on Form 8615 (PDF), Tax for Children Under Age 14 Who Have Investment Income of More Than $1,500. 
+For more information, refer to Publication 929, Tax Rules for Children and Dependents
+References: 
+* Form 8814 (PDF), Parent's Election To Report Child's Interest and Dividends 
+* Form 8615 (PDF), Tax for Children Under Age 14 Who Have Investment Income of More Than $1,400 
+* Publication 929, Tax Rules for Children and Dependents 
+I have both purchased and sold shares in a money-market mutual fund. The fund is managed so the share price is constant. All gain is reported as dividends. Do I have to report the sale of these shares?
+Yes, you report the sale of your shares on Form 1040, Schedule D (PDF), Capital Gains and Losses. Generally, whenever you sell, exchange, or otherwise dispose of a capital asset, you report it on Schedule D. 
+If the share price were constant, you would have neither a gain nor a loss when you sell shares because you are selling the shares for the same price you purchased them. 
+If you actually owned shares that were later sold, the fund or the broker should have issued a Form 1099-B There is no requirement with that form that there be gain or loss on the sale, only a sale or exchange of an investment asset and sales proceeds. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I find out my cost basis for mutual funds if I do not have all of the records?
+You need to reconstruct your records the best that you can. Contact your broker or the mutual fund company for assistance. 
+Another source of information is your prior year tax returns. If your mutual fund has been reinvesting dividends, those reinvested dividends (which have been used to purchase additional shares in the fund) should have been reported as dividend income on your tax return each year. To compute your total basis, add to the cost of the original shares purchased the amount of all dividends automatically reinvested that were previously reported as income on your prior tax returns and any shares you subsequently purchased. 
+You can usually also add acquisition fees and load charges you've paid to your basis in your mutual fund shares. If you sell your shares and the sales commission is not subtracted from the sales proceeds on Form 1099-B, Broker and Barter Exchanges, you can add the commission to the basis of the shares sold. If you receive a distribution that is identified as a return of capital, you must reduce your total basis by that amount. 
+Refer to Keeping Track of Your Basis in Publication 564, Mutual Fund Distributions. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+If I do not have the records showing each dividend reinvestment, how do I calculate the basis of my shares in a mutual fund that I acquired years ago?
+Unless you have acquired shares through gifts or inheritances, your basis is what the shares cost you. Your mutual fund company can often provide you with this information upon request. Another source of information is your broker, if the fund was purchased through a broker. You cannot calculate your basis in your mutual fund shares accurately without this information. You can only claim the amount of basis that you can establish and substantiate with records. You may lose a large part of your basis if you cannot establish the amount of dividends that were reinvested. This is why keeping records is so important. 
+Another source of information on reinvested dividends is your prior year tax returns. If your mutual fund has been reinvesting dividends, those reinvested dividends should have been reported as dividend income on your tax return each year. 
+For more information, refer to Publication 564, Mutual Fund Distributions. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+Do the dividends and/or capital gains I report affect my cost basis of the individual mutual fund shares I own?
+They would affect your total basis and total number of shares if they were reinvested in the mutual fund. Add the reinvested dividends and capital gains that you have reported as income on your tax return to your total basis. You will also own additional shares in the fund because the dividends and capital gains have been used to purchase shares. Keep good records. If you are going to be using an average basis method to determine per-share basis on sales, be sure and keep records of all your mutual fund activity until you no longer own any shares in that fund. 
+There is a worksheet to help you keep track of your number of shares and your basis in Publication 564, Mutual Fund Distributions.
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do return of principal payments affect my cost basis when I sell mutual funds?
+A return of principal (or return of capital) reduces your basis in your mutual fund shares. Unlike a dividend or a capital gain distribution, a return of capital is a return of part of your investment (cost). However, basis cannot be reduced below zero. Once your basis reaches zero, any return of principal is capital gain and must be reported on Form 1040 Schedule D (PDF), Capital Gains and Losses. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I show a return of principal payment from my Form 1099-DIV on my tax return?
+You do not normally have to report a return of principal (or return of capital) on your tax return. You must reduce your basis in the fund, which should be recorded in your records. However, basis cannot be reduced below zero. Once your basis reaches zero, any return of principal is capital gain and must be reported on Form 1040, Schedule D (PDF), Capital Gains and Losses. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+* Form 1040, Schedule D (PDF) 
+Do I have to specify to my broker which specific shares to sell in order to use specific share identification to determine cost basis for mutual funds? Do I need confirmation from my broker?
+You are referring to meeting the requirement for "adequate identification." If you can definitively identify the shares sold, you do not need to use the adequate identification rules. You can use the adjusted basis of those particular shares to figure your gain or loss. 
+The "adequate identification" rules allow you to control which shares are considered sold, even though you may not control which shares are actually sold. If you specify to your broker which shares you want sold prior to or at the time of the sale and they confirm within a reasonable time in writing, then you are considered to be able to "adequately identify" the shares sold, even if the broker actually sells different shares. The confirmation by the mutual fund must be given to you within a reasonable period of time and state that you instructed the broker to sell particular shares. 
+If you cannot identify the specific shares and you do not want to use an average basis, then you must use the first-in first-out method (FIFO). These two methods are both cost basis methods. You may not use either cost basis method if you have previously used an average basis method for that mutual fund on a tax return. Refer to Publication 564, Mutual Fund Distributions. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+I have used the FIFO method to determine the cost basis for a sale of a portion of a mutual fund holding. Must I continue to use this method for all future sales of this fund?
+No. If you subsequently sell some shares in that mutual fund and can identify the shares sold, you can switch to the specific share identification method. Both of these methods are cost basis methods. 
+To switch to an average basis method, you must have acquired the shares at various times and prices, and left the shares on deposit in an account handled by a custodian or agent who acquires or redeems those shares. Once you elect to use an average basis method, you must continue to use it for all accounts in the same fund. However, you may use a different method for shares in other funds, even those within the same family of funds. 
+Before using an average basis, be sure your records reflect the disposition of the shares that were reported using the cost basis method (FIFO). 
+References: 
+* Publication 564, Mutual Fund Distributions 
+If I previously sold shares of a mutual fund and reported the gains or losses using the FIFO method, can I switch to an average basis method?
+Yes, you can. The only requirement for using an average basis is that you acquired the shares at various times and prices, and you left the shares on deposit in an account handled by a custodian or agent who acquires or redeems those shares. An average basis method, once adopted, must be disclosed on your tax return and the method cannot be changed back without permission from the Commissioner of the Internal Revenue Service. 
+Before computing the basis of shares sold using an average basis, ensure that you have reduced your previous total basis by the cost of the shares accounted for using the FIFO method. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+If I previously reported my mutual fund sales using the FIFO method and switched to an average basis method, do I include only those shares remaining after the previous sales to determine the average cost?
+Yes. You would include in your average basis calculations only those shares that were still held at the time of the sale you are reporting. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I calculate the average basis for the sale of mutual fund shares?
+In order to figure your gain or loss using an average basis, you must have acquired the shares at various times and prices and have left them on deposit in a managed account. 
+There are two average basis methods: 
+* Single-category method, and 
+* Double-category method. 
+Single-category method. First, add up the cost of all the shares you own in the mutual fund. Divide that result by the total number of shares you own. This gives you your average per share. Multiply that number by the number of shares sold. 
+Double-category method. First, divide your shares into two categories, long-term and short-term. Then use the steps above to get an average basis for each category. The average basis for that category is then the basis of each share in the sale from that category. 
+Once you elect to use an average basis method, you must continue to use it for all accounts in the same fund. You must clearly identify on your tax return the average basis method that you have elected to use. You do this identification by including "AVGB" in column (a) of Form 1040, Schedule D (PDF) . 
+Refer to Publication 564 , Mutual Fund Distributions, Sales, Exchanges and Redemptions . 
+References: 
+* Publication 564, Mutual Fund Distributions 
+* Instructions for Form 1040, Schedule D 
+If I own some mutual fund shares less than a year and other shares more than a year, do I need to do two separate computations for an average basis method?
+If you are electing or have previously elected to use the double-category method for that mutual fund, you need to do two separate computations; one for long-term and one for short-term-only. The single-category method requires only one computation of average basis. 
+For more information, refer to Publication 564, Mutual Fund Distributions, Sales, Exchanges, and Redemptions. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I tell the IRS I used an average basis method in reporting the gain or loss from my mutual funds?
+Either write the name of the average basis method used as a notation on Form 1040, Schedule D (PDF), Capital Gains and Losses , or attach a sheet to the Schedule D showing in detail how you computed the basis of the shares sold. Whenever you attach a statement to your return, include your name(s) and social security number(s). Also include "AVGB" in column (a) of Schedule D. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+* Instructions for Form 1040, Schedule D 
+If I used an average basis method for shares of one mutual fund I sold, do I have to use it for all mutual funds I sell?
+No, you may use a different method, as long as you have not used an average basis method for that fund previously. Once you have elected to use an average basis method to compute the gain or loss on shares in a mutual fund, you must use that same method for the sale of shares from any account in that same fund. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+If I use an average basis method for computing basis of mutual fund shares upon sale, how do I determine the holding period for those shares?
+How you determine the holding period of mutual fund shares you sold depends on which of the two average basis methods you are electing to use. Once you have elected a method, you must use that method for determining the basis of any shares sold in the future from that fund. 
+You may specify top your broker the category from which the deemed shares are sold. Shares will be deemed sold from that category so long as your broker provides you with confirmation of the sale. If you do not specify or if the broker fails to provide confirmation shares will be deemed sold first from the long-term category. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+After the first partial sale of mutual fund shares, are the sold shares no longer used when updating an average basis method for future sales?
+If you used the single-category method, the average per-share basis is the same for the shares you still hold as the ones you sold. The next time you sell shares, the per-share basis will remain the same unless you acquired additional shares in the meantime. 
+If you subsequently sell some shares and have acquired additional shares since the last sale, you recompute the average basis. Divide the total cost of the shares that you hold at the time of sale by the number of shares you hold at the time of sale. 
+If you previously used the double-category method to compute an average basis, you need to transfer from the short-term category to the long-term category any shares that have been held longer than one year at the time of a subsequent sale. Transfer the shares at the per-share basis for the short-term category computed at the time of the last sale, then recompute the average basis for the two categories. Use the new total cost and total number of shares for each category. 
+For more information, refer to Publication 564, Mutual Funds. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I calculate the average cost method of a mutual fund if the fund price splits?
+If your mutual fund splits, or adjusts its price, it is treated like a stock split. Your total basis doesn't change after the split, but since you now own more shares without paying any more money, your per-share basis will decrease. To calculate your per-share basis, divide the total cost that you have invested in the fund (minus any shares previously sold) by the current number of shares that you hold. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+What affect does a stock split for a stock in my mutual fund have on my cost basis when I am using an average basis method?
+If a stock within your mutual fund splits, it has no affect on your basis because the shares you own are shares in the mutual fund, not in the stock that split. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How do I receive permission to change my cost basis calculation to adopt an average basis method?
+You do not need permission to elect an average basis method for a particular mutual fund when you have used a cost basis previously to report the sale of shares in the fund. If you meet the conditions to use an average basis, then you just need to clearly indicate on the return for which you want the election to be in effect that you are making the election. You also need to indicate which average basis method you are using and that none of the shares are gift shares. If there are gift shares in the account and the fair market value of the shares at the time of the gift was not more than the donor's basis, you must include a statement that the basis for gift shares when figuring the average basis is the fair market value at the time of the gift. 
+If you have already reported the sale using a cost basis, you cannot make this election unless you can do it on an amended return before the due date of the tax return being amended. 
+However, you do need the consent of the IRS to use a cost basis or to change your average basis method once you have made this election to use an average basis method. This would be considered a change in an accounting method. You would need to request consent to change your method on Form 3115 (PDF), Application for Change in Accounting Method. 
+For more information, refer to Publication 564, Mutual Fund Distributions, Publication 538, Accounting Periods and Methods, Instructions for Form 3115, Application for Change in Accounting Method, Revenue Procedure 97-27, and Section 9.03 of Revenue Procedure 2003-1. 
+References: 
+* Publication 538, Accounting Periods and Methods 
+* Publication 564, Mutual Fund Distributions 
+* Form 3115 (PDF), Application for Change in Accounting Method 
+* Instructions for Form 3115, Application for Change in Accounting Method 
+I received a 1099-DIV showing a capital gain. Why do I have to report capital gains from my mutual funds if I never sold any shares?
+A mutual fund is a regulated investment company that pools funds of investors allowing them to take advantage of a diversity of investments and professional asset management. You own shares in the fund, but the fund owns assets such as shares of stock, corporate bonds, government obligations, etc. One of the ways the fund makes money for its investors is to sell these assets at a gain. If the asset was held by the mutual fund for more than one year, the nature of the income is capital gain, which gets passed on to you. These are called capital gain distributions, which are distinguished on Form 1099-DIV (PDF) , from income that is from other profits, called ordinary dividends. 
+Capital gains distribution are taxed as long term capital gains regardless of how long you have owned the shares in the mutual fund. If your capital gains distribution is automatically reinvested, the reinvested amount is the basis of the additional shares purchased. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+Where are mutual fund short-term capital gain distributions reported?
+Capital gain distributions from a mutual fund are by definition long-term. That's why they appear only in Part II of Form 1040, Schedule D (PDF), Capital Gains and Losses. The annual statement you receive from your mutual fund may list short-term capital gains, but your Form 1099-DIV will show those amounts as ordinary dividends in box 1a. 
+Ordinary dividends (which include the mutual fund's profits from short term capital gains) are reported on Form 1040, Schedule B (PDF), Interest & Dividend Income , or Form 1040A, Schedule 1 (PDF), Interest and Ordinary Dividends, if the total is over $1500. In addition, you enter the total ordinary dividends on line 9a of Form 1040 or line 9a of Form 1040A. 
+The 2003 Form 1099-DIV has added box 1b "Qualified Dividends." This box shows the portion of the amount in box 1a may be eligible for the new 15% or 5% capital gains rates. See the instructions for Form 1040/1040A for how to determine the eligible amount and report this amount on line 9b of your Form 1040 or 1040A . 
+Refer to the line 13 instructions of Form 1040 for exceptions when you can enter capital gain distributions directly on line 13 of Form 1040 without having to file Schedule D. 
+References: 
+* Publication 564, Mutual Fund Distributions 
+My end-of-year statement from a mutual fund company showed amounts in 4 categories: (1) capital gains, (2) short-term capital gains, and (3) ordinary dividend and (4) qualified dividends. When my Form 1099-DIV came, the short-term capital gains were lumped in with ordinary dividends. Which is correct and where do I list the short-term capital gains?
+Your Form 1099-DIV is correct, but so is your annual statement. For the purpose of reporting taxable income on your tax return, capital gain distributions are defined as long-term capital gains only. Short-term capital gains are taxed as ordinary income and are therefore treated as ordinary dividends on Form 1099-DIV (PDF) . 
+Box 1b of your Form 1099-DIV shows the portion of the amount in box 1a that may be eligible for the new 15% or 5% capital gain rates. See the Instructions for Form 1040 and Instructions for Form 1040A for how to determine the eligible amount and report this amount on line 9b of your, Form 1040 (PDF) Form 1040A (PDF) . 
+The short-term capital gains will be in box 1a "ordinary dividends" on 1099-DIV. These will be reported on line 9a of 1040/1040A. 
+Report the fund's short-term capital gains as part of your total ordinary dividends on line 9 of your Form 1040 or 1040A. (You may have to also report them on Form 1040, Schedule B (PDF), Interest & Dividend Income or Form 1040A, Schedule 1 (PDF), Interest and Ordinary Dividends . Refer to the instructions to the schedule.) 
+References: 
+* Publication 564, Mutual Fund Distributions 
+How can I use mutual fund short-term capital gains, which are reported on Form 1099-DIV in Box 1a as "Ordinary Dividends," to help offset short-term capital losses?
+You cannot. You did not sell the assets that produced this income, the mutual fund did. All income that is taxed as ordinary income flows through to you as ordinary dividends, whether the income is from interest, dividends, or the sales of short-term capital assets. 
+In the same manner, you report capital gain distributions as long-term capital gains on your return regardless of how long you have owned the shares in the mutual fund. This is because the asset was held and then sold by, the mutual fund, not by you. 
+Report your total ordinary dividends (including the short-term capital gains in your mutual fund) on Form 1040, line 9a, or Form 1040A, line 9a, with your other ordinary dividends, if any. You may also have to file Form 1040, Schedule B (PDF) , Interest & Dividend Income or Form 1040A, Schedule 1 (PDF), Interest and Ordinary Dividends. 
+References: 
+* Tax Topic 409, Capital gains and losses 
+* Publication 550, Investment Income and Expenses 
+How do you list gains from mutual funds on Schedule D and Form 1040 when some mutual funds list short-term capital gains separately and others lump short-term capital gains and taxable dividends together as dividends?
+Only the capital gain distributions are reported on Form 1040, Schedule D (PDF), Capital Gains and Losses . They are reported in Part II as long-term capital gains. Short-term capital gains are taxed as ordinary income and are therefore treated as ordinary dividends on Form 1099-DIV. They are reported on line 9a of Form 1040 (PDF) or Form 1040A (PDF). 
+Because many mutual fund companies send out annual fund statements as well as Forms 1099-DIV, or "consolidated statements," some confusion has arisen regarding short-term capital gains. The purpose of Form 1099-DIV is to provide you with information to report income correctly on your tax return. 
+The annual report often breaks down the income from fund activity as dividends, tax-exempt dividends, short-term capital gains, long-term capital gains, returns of capital, and undistributed capital gains. Form 1099-DIV, on the other hand, will show only ordinary dividends (which includes the fund's short-term capital gains), capital gain distributions, and returns of capital (nontaxable distributions), and qualified dividends. 
+Mutual fund companies may combine the annual fund information with the Form 1099-DIV information into a consolidated statement. If this is what you receive, look for the part of the statement identified as the Form 1099-DIV or that contains language such as "in lieu of Form 1099-DIV." 
+References: 
+* Tax Topic 409, Capital gains and losses 
+* Publication 564, Mutual Fund Distributions 
+If a mutual fund's assets earned tax-free dividends, are capital gains tax free when the fund is sold?
+No. The kind of income the assets in the fund earn is tax-free. When you sell your shares in the fund, a taxable gain or deductible loss is realized on the sale. This is the true also for the sale of tax-exempt securities such as municipal bonds. 
+References: 
+* Tax Topic 409, Capital gains and losses 
+* Publication 564, Mutual Funds Distribution 
+On December 20, I received a large mutual fund distribution. Due to the large distribution I'm going to owe $7000 when I file my return. Is it okay to just pay the $7000 when I file my return?
+If the $7,000 in tax is a result of a distribution not covered by prepayments of tax, either through income tax withholding or estimated tax payments, you should make an estimated tax payment by January 15th of the next year. If you wait to pay the $7,000 with your return, you may be penalized for an underpayment of estimated taxes. Even if you make an adequate payment of tax by January 15th, you may be assessed an estimated tax penalty by the IRS service center when your return is processed. This is because estimated tax payments are normally made in four equal installments and the IRS will not know your liability occurred in the fourth quarter unless you file Form 2210 (PDF), Underpayment of Estimated Tax by Individuals, Estates and Trusts.
+You may be subject to the penalty if you owe at least $1,000 in tax after subtracting your withholding from your estimated tax liability, and you did not prepay at least 90% of your current year's tax or an amount equal to 100% of your previous year's tax. (The latter percentage is higher for higher-income taxpayers with adjusted gross incomes from the previous year of more than $150,000.) 
+If you make an adequate payment by January 15th but made no earlier estimated tax payments, use Form 2210 (PDF), Underpayment of Estimated Tax by Individuals, Estates and Trusts, to compute your penalty. Check the box on the front page selecting the Annualized Income Installment method, and then complete Schedule AI on page 3. When you compute the penalty on page 2 of that form using the numbers from Schedule AI, your penalty will be $0. Even if you did not make the January 15th payment, the annualized income method on Form 2210 may significantly reduce the estimated tax penalty if the income for which there was no prepayment of tax was earned in the third or fourth quarters of the year. 
+For more information on estimated tax payments and the underpayment of estimated tax penalty, refer to Publication 505, Tax Withholding and Estimated Tax.
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Form 2210 (PDF), Underpayment of Estimated Tax by Individuals, Estates and Trusts 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

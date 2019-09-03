@@ -1,0 +1,42 @@
+
+=====================================================================
+Thomas Bataillon
+=====================================================================
+ 
+Thomas Bataillon 
+Office: 	090.116 	
+Phone (Office): 	+45-8942-3132 	
+E-mail: 	tbata@daimi.au.dk	 
+Postal address: 	BiRC - Bioinformatics Research Center
+University of Aarhus 
+Ny Munkegade, Bldg. 540 
+DK-8000 Aarhus C, Denmark 
+I am a visiting researcher at the Bioinformatics Research Center, Aarhus University. I have a research position at INRA (French National Institute for Agronomic Research). My position is located in the Montpellier area, within Jacques David's group. 
+---------------------------------------------------------------------
+JOURNAL CLUB on recombination is here
+---------------------------------------------------------------------
+ Joelle, Anne, Magalie, les resultats des simuls MSTRAT sur la collection sont ici 
+Isa, le repertoire avec les resultats de simulations de Fc avec incertitude sur les Ne est ici 
+---------------------------------------------------------------------
+Research interests & Selected publications 
+A complete list of my publications is available here
+Estimation of genome-wide mutation rates.
+* Keightley, P. D. , Bataillon T. 2000. Multigeneration maximum-likelihood analysis applied to mutation- accumulation experiments in Caenorhabditis elegans. Genetics 154: 1193-201. [pdf] [Program] 
+* Bataillon, T., 2000 Estimation of spontaneous genome-wide mutation rate parameters: whither beneficial mutations ? Heredity 84: 497-501. [pdf] 
+* T. Bataillon. Shaking the deleterious mutation dogma ? 2003 Trends in Ecology & Evolution , 18(7):315-317 [pdf] 
+Consequences of deleterious mutations...
+* Schoen, D. J., J. L. David and T. M. Bataillon. 1998 Deleterious mutation accumulation and the regeneration of genetic resources. PNAS 95:394-399 [pdf] 
+* Bataillon, T., Kirkpatrick M. 2000 Inbreeding depression due to mildly deleterious mutations in finite populations: size does matter. Genet Res 75: 75-81. [pdf] 
+* Glemin, S., J. Ronfort and T. Bataillon. 2003 Patterns of inbreeding depression and architecture of the load in subdivided populations Genetics [pdf] 
+SI plants and their funny dynamics...
+* Glemin, S., Bataillon, T., Ronfort, J., Mignot, A., & Olivieri, I. 2001 "Inbreeding depression in small populations of self-incompatible plants." Genetics 159: 1217-29 [pdf] 
+* J. Bechsgaard, T. Bataillon, and M.H. Schierup 2004 Uneven segregation of sporophytic self-incompatibility alleles in Arabidopsis lyrata. JEB in press [pdf] 
+The optimal sampling of genetic variation: core collection
+* Bataillon,T. M.,J.L. David & D.J. Schoen. 1996. Neutral Genetic Markers and Conservation Genetics: Simulated Germplasm Collections. Genetics 144:409-417. [pdf] 
+* Gouesnard, B., T. M. Bataillon, et al. 2001. "MSTRAT: an algorithm for building germ plasm core collections by maximizing allelic or phenotypic richness." J Hered 92: 93-4 [pdf] [MSTRAT C source & Tcl/Tk interface] 
+* Heather I. McKhann, Christine Camilleri, Aurélie Bérard, Thomas Bataillon, Jacques L. David, Xavier Reboud, Valérie Le Corre, Christophe Caloustian, Ivo G. Gut, Dominique Brunel 2004 Nested core collections maximizing genetic diversity in Arabidopsis thaliana The Plant Journal in press 
+Detecting the footprints of selection in genomes ...
+Teaching
+* DEA "Ressources génétiques et Interactions" (in French) 
+* PhD Course- Introduction to Quantitative Genetics (in French) 
+

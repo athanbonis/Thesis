@@ -1,0 +1,203 @@
+
+=====================================================================
+Medicare.gov - Nursing Home Checklist
+=====================================================================
+  
+Search Frequently Asked Questions
+function navigateTo(sLink, bprint){  document.frmNavigate.action = sLink;  if (bprint == true) document.frmNavigate.PrinterFriendly.value = 'True';  else document.frmNavigate.PrinterFriendly.value = 'False';  document.frmNavigate.submit();  }  /* This is a generic select all function, that is called onclick for a select all button for a set of check boxes. You must pass the function references to the check box item and the name of the submit button */ function selectAllOnClick(chkCheckBoxRef, btnSubmitRef) {  // if there is more than 1 check box, loop through them, selecting each one  if (chkCheckBoxRef.length) {   for (i=0; i function WriteJavaScriptDetectionCookie (){  /*This function uses JavaScript to write a cookie*/  /*The existence of this cookie implies that JavaScript is on */  /*The absence of this cookie implies that either JavaScript is off or cookies are off*/  /*Cookies exist for an entire session*/  /*If you have JS on and turn it off, the cookie will remain and it will appear like JS is on */  /*If you have JS off and turn it on, everything will work fine*/  var sCookieValueBefore;  var sCookieValueAfter;  sCookieValueBefore = getCookie("JavaScriptOn");  /*document.write ("CookieValueBefore : |" + sCookieValueBefore+ "|");*/  /*Check for a missing Javascript cookie. This should only happen on first page */  if (sCookieValueBefore == null) {   /*document.write ("No JS Cookie Found..writing cookie");*/   setCookie("JavaScriptOn", "TRUE");   sCookieValueAfter = getCookie("JavaScriptOn");   /*Are cookies enabled?. If the cookie has not changed, then cookies are disabled*/   if (sCookieValueBefore != sCookieValueAfter) {    window.location.reload(); /*This line causes problems when Javascript is on but cookies are off*/      }  }   return true; } WriteJavaScriptDetectionCookie(); function addHiddenParamToForm(frmTo, sName, sValue) {  /*This function is used to add/modify a hidden parameter client-side to a form*/  /*It can be used to persist a parameter client-side into a form such as frmNavigate or frmTabs*/   var objTempNode;  var objThisElement;  var bFound;  var i;   bFound = false;    if(frmTo) {   for (i=0; i                       d    
+ 	                       Home |                       Screen Reader Version |         Printable-Version         |&nbsp               Español        	               
+                     The Official U.S. Government Site for People with Medicare              	          
+             Help   |         Frequently Asked Questions         |                Mailing List         |         Search Tools       	               
+                           
+       	                                                                                                                                                                                 	         
+                                           
+Nursing Homes
+Nursing Home Checklist
+Printable-Version	 	
+ 
+Checklists can help you evaluate the nursing homes that you call or visit. Use a new checklist for each home you call or visit. Then, compare the scores. This will help you select a nursing home that is a good choice for you or your relative. 
+Nursing Home Name: _________________________________________ 
+Date Visited: __________________________ 
+Address: ______________________________________________ 
+1.    Basic Information   
+2.  Is the facility Medicare certified?:____(yes) _____(no) 
+3.  Is the facility Medicaid certified?:____(yes) _____(no) 
+4.  Is this a skilled nursing facility?:____(yes) _____(no)
+5.  Is the facility accepting new patients?:____(yes) _____(no)
+6.  Is there a waiting period for admission?:____(yes) _____(no)
+7.  Is a skilled bed available to you?:____(yes) _____(no)     
+Useful Tips   
+* Generally, skilled nursing care is available only for a short period    of time after a hospitalization. Custodial care is for a much    longer period of time. If a facility offers both types of care, learn    if residents may transfer between levels of care within the nursing    home without having to move from their old room or from the    nursing home. 
+* Nursing homes that only take Medicaid residents might offer    longer term but less intensive levels of care. Nursing Homes that    don't accept Medicaid payment may make a resident move when    Medicare or the resident’s own money runs out. 
+* An occupancy rate is the total number of residents currently living    in a nursing home divided by the home’s total number of beds.    Occupancy rates vary by area, depending on the overall number of    available nursing home beds.   
+     
+ 
+*   Nursing Home Information:   
+1.  Is the home and the current administrator licensed?:____(yes)     _____(no)
+2.  Does the home conduct background checks on all staff?:____(yes)    _____(no)
+3.  Does the home have special services units?:____(yes) _____(no)
+4.  Does the home have abuse prevention training?:____(yes) _____(no)   
+Useful Tips   
+* LICENSURE: The nursing home and its administrator should be   licensed by the State to operate. 
+* BACKGROUND CHECKS: Do the nursing home’s procedures to screen   potential employees for a history of abuse meet your State’s   requirements? Your State’s Ombudsman program might be able to   help you with this information. 
+* SPECIAL SERVICES: Some nursing homes have special service units    like rehabilitation, Alzheimer's, and hospice. Learn   if there are separate waiting periods or facility guidelines for when   residents would be moved on or off the special unit.
+* STAFF TRAINING: Do the nursing home’s training programs educate   employees about how to recognize resident abuse and neglect,   how to deal with aggressive or difficult residents, and how to deal   with the stress of caring for so many needs? Are there clear   procedures to identify events or trends that might lead to abuse   and neglect, and on how to investigate, report, and resolve your   complaints? 
+* LOSS PREVENTION: Are there policies or procedures to safeguard   resident possessions?   
+  
+For Sections III through VI, give the nursing home a grade from one to   five. One is worst, five is best.  
+ 
+* Quality of Life:  
+       Worst                           Best     
+1. Residents can make choices about     their daily routine. Examples are     when to go to bed or get up, when to     bathe, or when to eat.
+1	 2	 3	 4	 5	 
+2. The interaction between staff and     patient is warm and respectful.
+1	 2	 3	 4	 5	 
+3. The home is easy to visit for     friends and family.
+1	 2	 3	 4	 5	 
+4. The nursing home meets your     cultural, religious, or language     needs.
+1	 2	 3	 4	 5	 
+5. The nursing home smells and     looks clean and has good lighting.
+1	 2	 3	 4	 5	 
+6. The home maintains comfortable     temperatures.
+1	 2	 3	 4	 5	 
+7. The resident rooms have personal     articles and furniture.
+1	 2	 3	 4	 5	 
+8. The public and resident rooms     have comfortable furniture.
+1	 2	 3	 4	 5	 
+9. The nursing home and its dining     room are generally quiet.
+1	 2	 3	 4	 5	 
+10. Residents may choose from a     variety of activities that they like.
+1	 2	 3	 4	 5	 
+11. The nursing home has outside     volunteer groups.
+1	 2	 3	 4	 5	 
+12. The nursing home has outdoor     areas for resident use and helps     residents to get outside.
+1	 2	 3	 4	 5	 
+          TOTAL: _____________
+   (Best Possible Score: 60)   
+ 
+* Quality of Care:    
+ Worst   Best 1. The facility corrected any Quality   of Care deficiencies that were in the   State inspection report.
+1	 2	 3	 4	 5	 
+2. Residents may continue to see   their personal physician.
+1	 2	 3	 4	 5	 
+3. Residents are clean, appropriately    dressed, and well groomed.
+1	 2	 3	 4	 5	 
+4. Nursing Home staff respond    quickly to requests for help.
+1	 2	 3	 4	 5	 
+5. The administrator and staff seem   comfortable with each other and with   the residents.
+1	 2	 3	 4	 5	 
+6. Residents have the same care   givers on a daily basis.
+1	 2	 3	 4	 5	 
+7. There are enough staff at night   and on week-ends or holidays to care   for each resident.
+1	 2	 3	 4	 5	 
+8. The home has an arrangement for   emergency situations with a nearby   hospital. 
+1	 2	 3	 4	 5	 
+9. The family and residents councils   are independent from the nursing   home's management.
+1	 2	 3	 4	 5	 
+10. Care plan meetings are held at   times that are easy for residents and   their family members to attend.
+1	 2	 3	 4	 5	 
+      TOTAL: _____________
+   (Best Possible Score: 50)   Useful Tips   
+* Good care plans are essential to good care. They should be put   together by a team of providers and family and updated as often   as necessary. 
+ 
+* Nutrition and Hydration (Diet and Fluids):   
+ Worst   Best 
+1. The home corrected any   deficiencies in these areas that were   on the recent state inspection report. 
+1	 2	 3	 4	 5	 
+2. There are enough staff to assist   each resident who requires help with   eating.
+1	 2	 3	 4	 5	 
+3. The food smells and looks good   and is served at proper   temperatures.
+1	 2	 3	 4	 5	 
+4. Residents are offered choices of   food at mealtimes.
+1	 2	 3	 4	 5	 
+5. Residents’ weight is routinely   monitored.
+1	 2	 3	 4	 5	 
+6. There are water pitchers and   glasses on tables in the rooms.
+1	 2	 3	 4	 5	 
+7. Staff help residents drink   if they are not able to do so on their   own.
+1	 2	 3	 4	 5	 
+8. Nutritious snacks are available   during the day and evening.
+1	 2	 3	 4	 5	 
+9. The environment in the dining room   encourages residents to relax,   socialize, and enjoy their food.
+1	 2	 3	 4	 5	 
+      TOTAL: _____________
+   (Best Possible Score: 45)   Useful Tips   
+* Ask the professional staff how the medicine a resident takes can   affect what they eat and how often they may want something to   drink. 
+* Visit at mealtime. Are residents rushed through meals or do they   have time to finish eating and to use the meal as an opportunity   to socialize with each other? 
+* Sometimes the food a home serves is fine, but a resident still   won't eat. Nursing home residents may like some control over   their diet. Can they select their meals from a menu or select their   mealtime? 
+* If residents need help eating, do care plans specify what type of   assistance they will receive?   
+    
+ 
+* Safety    
+ Worst   Best 
+1. There are handrails in the   hallways and grab bars in the   bathrooms.
+1	 2	 3	 4	 5	 
+2. Exits are clearly marked.	 1	 2	 3	 4	 5	 
+3. Spills and other accidents are   cleaned up quickly. 
+1	 2	 3	 4	 5	 
+4. Hallways are free of clutter and   have good lighting.
+1	 2	 3	 4	 5	 
+5. There are enough staff to help   move residents quickly in an   emergency. 
+1	 2	 3	 4	 5	 
+6. The nursing home has smoke   detectors and sprinklers.
+1	 2	 3	 4	 5	 
+      TOTAL: _____________
+   (Best Possible Score: 30)     
+ 
+* Useful Tips Relating to Information in Nursing Home Compare    
+Nursing Home Compare contains summary information about nursing   homes from their last state inspection. It also contains information   that was reported by the nursing homes prior to the last State   inspection including nursing home and resident characteristics. If you   have questions or concerns about the information on a nursing home,   you should discuss them during your visit. This section contains useful   tips and questions that you may want to ask the nursing home staff,   family members and residents of the nursing home during your visit.     Nursing Home Compare Information on Results of Nursing Home   Inspections   
+* Bring a copy of the Nursing Home Compare inspection results for   the nursing home. Ask whether the deficiencies have been   corrected. 
+* Ask to see a copy of the most recent nursing home inspection   report.   
+    Nursing Home Compare Information on Resident and Nursing   Home Characteristics   
+1.  For the Measure: Residents with Physical Restraints
+2.  Does it appear that there is sufficient staff to assist      residents who need help in moving or getting in and out      of chairs and bed? 
+3.  Ask the Director of Nursing who is involved in the      decisions about physical restraints. 
+4.  When physical restraints are used, do the staff remove the      physical restraints on a regular basis to help residents with      moving, and with activities of daily living? 
+5.  Do the staff help residents with physical restraints to get in and      out of bed and chairs when they want to get up? 
+6.  Do staff help residents with physical restraints to move as much      as they would like to?      
+7.  For the Measure: Residents with Pressure (Bed) Sores 
+8.  Ask the staff how they identify if a resident is at risk for     skin breakdown. Ask them what they do to prevent     pressure sores for these residents.
+9.  Ask the staff about the percentage of their residents     that have pressure sores and why.
+10. Do you see staff helping residents change their     positions in wheelchairs, chairs, and beds?     
+        
+11. For the Measure: Residents with Bowel and Baldder Incontinence 
+12. Does the nursing home smell clean? 
+13. Ask the staff what steps they take to prevent    bowel and bladder incontinence for residents who are at risk.     
+        
+14.      For the Measure: Residents Who Are Very Dependent in      Eating
+15. Look at your response to Question 2 in Section V above.
+16. Observe residents who need help in eating. Are they       able to finish their meals or is the food returned to the       kitchen uneaten?       
+            
+17.      For the Measure: Residents Who Are Bedfast
+18. Ask the Director of Nursing how staff are assigned to      care for these residents.      
+             
+19.       For the Measure: Residents With Restricted Joint      Motion
+20. Ask the Director of Nursing how the nursing home cares       for residents with restricted joint motion. 
+21. Do the residents get help with getting out of chairs and       beds when they want to get up?      
+            -
+22. For the Measure: Residents with Unplanned Weight    Gain or Loss
+23. Look at your responses to Questions 2, 3, 4, 5, 8, and 9     in section V above.     
+   
+24. For the Measure: Residents with Behavioral Symptoms 
+25. What management and/or medical approaches for    behavioral symptoms are being used by the nursing    home? 
+26. How does staff handle residents that have behavioral    symptoms such as calling out or yelling? 
+27. Ask whether residents with behavioral symptoms are    checked by a doctor or behavioral specialist.
+28. Ask whether staff get special training to help them to    provide care to residents with behavioral symptoms.    
+  
+Nursing Home Compare Information on Nursing Staff
+Caring, competent nursing staff who respect each resident and family member are   very important in assuring that residents get needed care and enjoy the best   possible quality of life. Adequate nursing staff is needed to assess resident needs,   plan and give them care, and help them with eating, bathing and other activities.   Some residents (e.g., those who are more dependent in eating or who are bedfast) need   more help than other residents depending on their conditions.
+The combinations of registered nurses (RNs), licensed practical and   vocational nurses (LPNs/LVNs), and certified nursing assistants (CNAs)that nursing   homes may have vary depending on the type of care that residents need and the number   of residents in the nursing home.
+* Look at your responses to Questions 2 and 5 in section III above and    Questions 4, 5, and 10 in section IV above. Also look at your responses to    Questions 2 and 7 in section V above.
+* Are nursing staff members courteous and friendly to residents and to other    staff?
+* Do nursing staff respond timely to residents calls for assistance such as    help getting in and out of bed, dressing and going to the bathroom? 
+* Observe meal times. Do all residents who need assistance with eating get    help? Do staff give each resident enough time to chew food thoroughly and    complete the meal?
+* Which nursing staff members are involved in planning the residents    individual care? (Are they the same ones who give the care to residents?)
+* Ask questions about staff turnover. Is there frequent turnover among    certified nursing assistants (CNAs)? What about nurses and supervisors,    including the Director of Nursing and the Administrator? If staff changes    frequently, ask why.
+* While the number of nursing staff is important to good care, also consider    other factors, such as education and training. How many registered nurses (RNs)    are on the staff, and how many available on each shift? What kind of training    do certified nursing assistants (CNAs) receive? How does the nursing home ensure    that all staff receive continuing education and keep their knowledge and skills    up-to-date?
+Top of page     
+  
+ 	       
+       Frequently Asked Questions |       Contact Us |      Website Privacy |      Website Policies         Freedom of Information Act |      FirstGov.gov    	    
+         115    	      
+           Centers for Medicare & Medicaid Services |       U.S. Department of Health and Human Services    	      
+

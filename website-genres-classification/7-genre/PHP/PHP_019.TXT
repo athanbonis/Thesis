@@ -1,0 +1,47 @@
+
+=====================================================================
+About Me
+=====================================================================
+ var cm_role = "live"var cm_host = "tripod.lycos.com"var cm_taxid = "/memberembedded" 
+if (objAdMgr.isSlotAvailable("banner")) { objAdMgr.renderSlot("banner");} 	
+Check out the NEW Hotbot	 Tell me when this page is updated	
+ if (objAdMgr.isSlotAvailable("leaderboard")) { objAdMgr.renderSlot("leaderboard")} 
+Home
+About Me	 
+Family - 1	 
+Family - 2	 
+Seven Meadows Farm 	
+Re-hashed humour	 
+Notes:	
+Scott D. Bain	 
+About Me	 
+Who am I?
+My better 3/4.
+Scott D. Bain 
+born: North Bay Ont. in 1961 
+near-life-time resident of Toronto 
+Occupation: Software developer/wanabee-farmer 
+Family:(1) wife, (2) kids... 
+By the "what you drive is what you are" philosophy: 
+Mini-van (my kids), 
+Jag (my wife), 
+Wheel Horse 16hp tractor (me) 
+Hobbies: too busy with the farm to have any real hobbies 
+(carpentry, plumbing, digging, weeding, mowing, burning, cleaning, tractor fixin', moving heavy things around, plastering, straightening, painting, filling, undoing, redoing, roofing, climbing really high ladders, falling, hurting ...) 
+"If I get the time" hobbies: 
+hiking, 
+wood-working, 
+designing "widgets", 
+mountain-biking, 
+horses 
+What I do
+I work within the world of business application software, you know, the stuff that makes people's jobs easier. I work on my farm for pleasure (doesn't everybody?)because there are countless opportunities to be creative and innovative -- and all on a budget! 
+Farming is the only business in the world where you buy retail and sell wholesale.
+Favourites -- 
+People: Sandy, Jamie & Laura 
+Heroes: Wayne Gretsky(not for the hockey-despite it), Chuck Yeager, Albert Einstien(for harnessing his own hidden potential), Malcolm Little (X-for not maintaining the status quo). 
+Sport: Single tracking it(mountain biking) in the high country 
+Hobbies: Restoring, rebuilding, inventing 
+music by: P.Tchaikovsky, A.Dvorjak, Blue Rodeo, L.Bethoveen, Sex Pistols, The 'eew and all the other good stuff from the seventies that nobody will touch these days, Enya, The Bare-Naked Ladies (before they were famous), B. Marley. 
+Poets: William Blake, T.S. Elliot, Robert Frost, Robert Burns.
+

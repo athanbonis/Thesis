@@ -1,0 +1,108 @@
+
+=====================================================================
+Linux hotlist
+=====================================================================
+ 
+Linux hotlist
+These links give information about the Linux operating system. This is the operating system used by the server at Alpha Omega. 
+---------------------------------------------------------------------
+News sites (for some definition of news), tech oriented. 
+* SlashDot 
+* NewsForge 
+* Linux Today 
+* Linux Daily News 
+* Computer security news 
+* Linux Weekly News 
+* SegFault 
+* Linux Programming 
+* Linux User's Group of Davis 
+Other news sites: 
+* C|Net news.com 
+* InfoWorld 
+* Register 
+* Reuters 
+* CNN 
+* NPR 
+* Time 
+* Fox News 
+* The Washington Post 
+* National Enquirer 
+* NBC 
+Source repositories for Linux. 
+* Source Forge 
+* Freshmeat 
+* Linux kernels by Linus 
+* Games for linux 
+This section of Linux links point to various sources of documentation and information for Linux. 
+* Serving with Linux 
+* Linux documentation 
+* Linux printing information 
+* ISO Images of many Linux distributions 
+* Links to many Linux distributions 
+* Linux Planet 
+* Linux info 
+* Linux Now a comprehensive linux site. 
+* Linux 2.0 overview 
+* The Linux Resources 
+* Linux Gazette 
+* How Micro$oft views Linux 
+* RPM Finder 
+* t=grl,p=StabGuide2, Interrupt latency 
+* Software packages for Linux 
+* Where did that penguin come from? 
+* Linux quotes 
+* Doom as sysadm tool 
+* Linux HOWTO documents 
+* System Administrtor's Guide [SAG] 
+* A simple paper on Linux security 
+* Linux man pages 
+* Linux Documentation Project 
+* The Linux Networking Project 
+---------------------------------------------------------------------
+This section of links gives pointers to major packages used on our Linux system. This gives easy access to various home pages for documentation, archives of mailing lists, and new versions of the software. 
+* XFree86 Free X server for Linux 
+* Majordomo 
+* Free sendmail 
+* For pay sendmail 
+* SAMBA Access to Micro$oft networking. 
+* SMB protocol information 
+* netatalk - the AppleTalk Protocol Suite for Unix  Access to Apple networking 
+* netatalk - Another source 
+* The FVWM HomePage  Fvwm is a nice window manager. There are links on this page to other FVWM pages as well. 
+* INNd The news server 
+* Internet Software Consortium [bind, dhcp, inn] 
+* Knews Home Page This is a news reader. 
+* HylaFax / Linux information page 
+* Linux Router Project 
+* Maxwell - A word processor 
+---------------------------------------------------------------------
+This section of links discusses various aspects of Linux system security. Some of these are for security products. Other links are give information on keeping your system secure. 
+* Los Altos Technologies, Inc. 
+* X/OS - Linux IP firewall and accounting 
+* Commercial Linux based firewall 
+* Linux FreeS/WAN Authentication and encryption. 
+---------------------------------------------------------------------
+This section has links to web pages with significant Linux content. Some of these are simply peoples home page with Linux sections, others are somewhat more specialized. 
+* Sander Alberink's Linux homepage 
+* Specialized Systems Consultants (SSC) 
+---------------------------------------------------------------------
+A number of vendors distribute Linux on CD. A list of these vendors can be found at: linux.org. 
+Other vendors of note include: 
+* Bootable business card Debian Linux 
+---------------------------------------------------------------------
+There are a number of hardware vendors who are building products which support Linux, or are building Linux machines to order. 
+* Comtrol Corporation 
+* Emerging Technologies, Inc.: Home Page 
+---------------------------------------------------------------------
+Finally, there are some Linux pages which are not easy to put into a category, so they all get tossed together in a Misc section. Some of these are program references, some are to pieces of information. 
+* iX Magazine Linux homepage 
+* Multiuser, Multitasking Magazine 
+* Linux Software Map 
+* Linux Software Map [searchable] 
+* Linux Mall 
+* Build a rackmount machine 
+---------------------------------------------------------------------
+Written by: Dave Regan
+Home page: http://www.ao.com/~regan/
+ 
+

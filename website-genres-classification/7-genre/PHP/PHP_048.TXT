@@ -1,0 +1,95 @@
+
+=====================================================================
+Home page of Marianne Graves Petersen
+=====================================================================
+ @font-face {  font-family: Verdana; } @font-face {  font-family: Times; } @page Section1 {size: 595.3pt 841.9pt; margin: 85.05pt 56.7pt 85.05pt 56.7pt; mso-header-margin: 35.4pt; mso-footer-margin: 35.4pt; mso-columns: 2 not-even 223.25pt 35.4pt 223.25pt; mso-paper-source: 0; } @page Section2 {size: 594.95pt 841.9pt; margin: 70.9pt 56.7pt 99.25pt 56.7pt; mso-header-margin: 35.45pt; mso-footer-margin: 35.45pt; mso-paper-source: 0; } @page Section3 {size: 595.3pt 841.9pt; margin: 85.05pt 56.7pt 85.05pt 56.7pt; mso-header-margin: 35.4pt; mso-footer-margin: 35.4pt; mso-paper-source: 0; } P.MsoNormal {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman" } LI.MsoNormal {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman" } DIV.MsoNormal {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-style-parent: ""; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman" } H1 {  FONT-WEIGHT: bold; FONT-SIZE: 16pt; MARGIN: 12pt 0pt 3pt; FONT-FAMILY: Arial; mso-pagination: widow-orphan; mso-style-next: Normal; mso-outline-level: 1; mso-font-kerning: 16.0pt } H3 {  FONT-WEIGHT: bold; FONT-SIZE: 13pt; MARGIN: 12pt 0pt 3pt; FONT-FAMILY: Arial; mso-pagination: widow-orphan; mso-style-next: Normal; mso-outline-level: 3 } A:link {  COLOR: #6f8ca7; TEXT-DECORATION: none; mso-text-animation: none; text-underline: none; text-line-through: none } SPAN.MsoHyperlink {  COLOR: #6f8ca7; TEXT-DECORATION: none; mso-text-animation: none; text-underline: none; text-line-through: none } A:visited {  COLOR: purple; TEXT-DECORATION: underline; text-underline: single } SPAN.MsoHyperlinkFollowed {  COLOR: purple; TEXT-DECORATION: underline; text-underline: single } P {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-pagination: widow-orphan; mso-fareast-font-family: "Times New Roman" } P.NormalNew {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-pagination: widow-orphan; mso-fareast-font-family: Times; mso-style-name: NormalNew; mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB } LI.NormalNew {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-pagination: widow-orphan; mso-fareast-font-family: Times; mso-style-name: NormalNew; mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB } DIV.NormalNew {  FONT-SIZE: 12pt; MARGIN: 0pt; FONT-FAMILY: "Times New Roman"; mso-pagination: widow-orphan; mso-fareast-font-family: Times; mso-style-name: NormalNew; mso-bidi-font-size: 10.0pt; mso-ansi-language: EN-GB } SPAN.SpellE {  mso-style-name: ""; mso-spl-e: yes } SPAN.GramE {  mso-style-name: ""; mso-gram-e: yes } DIV.Section1 {  page: Section1 } DIV.Section2 {  page: Section2 } DIV.Section3 {  page: Section3 } 
+Marianne Graves Petersen
+Dept. of Computer Science, University of Aarhus
+IT-parken, Aabogade 34
+DK-8200 Aarhus N
+89 42 56 39 / 23 38 22 84
+mgraves@daimi.au.dk
+                                                                                                                             
+ 
+EDUCATION
+Ph.D. from Computer Science Department. University of Aarhus Ph. D. thesis: “Designing for Learning in Use of Everyday Artefacts” (1998-2002)
+Masters degree (Cand.Scient.) Computer Science Department, University of Aarhus (1991-1997). Thesis: “Towards Usability Evaluation of Multimedia Applications” (grade 11)
+Masters Degree (with Distinction) in Human Computer Interaction. University of London, QMW College England (1995-1996)
+ 
+EMPLOYMENT
+Assistant professor, Computer Science Department. University of Aarhus (2002- )
+               Ph.d. student, Computer Science Department. University of Aarhus (1998-2002)
+ 
+RESEARCH PROJECTS
+INTERACTIVESPACES (2003- ) iHOME project: Aesthetic interaction and context-aware computing for the home. A research project which aims to establish visions and technologies for the interactive home of the future, grounded in everyday lives of people. The project is a collaboration between researchers from Aarhus School of Architecture, Computer Science dept. at University of Aarhus, and Bang & Olufsen. (www.interactivespaces.net). 
+INTERACTIVE ROOMS AND BUILDINGS (2001) Designing interactive rooms to support design work. With the purpose of supporting cross disciplinary collaboration in design work, I have taken part in the development of use-scenarios, concepts and prototypes for integrated wall-, table- and mobile technologies. The project was a collaboration between Aarhus School of Architecture and Computer Science Department, University of Aarhus.
+Ph.D project (1998-2002) Designing for learning in use of domestic technologies. I have studied long-term use of Bang & Olufsen integrated TV, video and link systems focusing on how such everyday technologies help users learn to use the product. The study concluded that product concepts as conveyed through sales and marketing should be followed up in the interaction design and in the physical design of the product. One of the results of this study was a set of design guidelines for designing for learning in use of domestic technologies. Developing approaches to designing domestic technologies. I have organised a series of workshop in private homes, where families constructed mock-ups of future technologies and kept the models and developed these over time
+BIDI Project (1998-2000) (Usability work in Danish Industry (Brugbarhedsarbejde I Dansk Industri)) From Usability test to Usability design. In a collaboration among usability groups at Danfoss, Bang & Olufsen, Kommunedata, and researchers from Aarhus University, I have contributed to developing usability from evaluation and tests towards more design oriented activities. The work comprises approaches to support both creativity and innovation in design work as well as collaboration in a multidisciplinary design team (1998-2000, part of the BIDI project – 
+ 
+PROJECT MANAGEMENT
+The IHome project under the ISIS Katrinebjerg, Center for Interactive Spaces (2003 - ). The industrial partner is Bang & Olufsen and the total budget is 6,6 mio DDKr. The project co-funds a PhD project and involves 2 programmers and a number of students.
+ 
+PUBLICATIONS
+DISSERTATIONS
+ 
+Petersen, M. G. (2003) Designing For Learning in Use Of Everyday Artefacts.  Ph.D. dissertation, Århus Universitet [pdf]
+ 
+Petersen, M. G. (1997) Towards Usability Evaluation of Multimedia Applications – Experiences from an Empirical Study of Current Evaluation Methods. Masters Thesis, Department of Computer Science, University of Aarhus. (Conclusions presented in Petersen, M. G. (1998) Towards Usability Evaluation of Multimedia Applications. In ACM Crossroads – Students Magazine. http://www.acm.org/crossroads/xrds4-4/usability.html.)
+ 
+JOURNAL PAPERS
+ 
+Baillie, L., Benyon, D., Macaulay, C., and Petersen, M. G. (2003) Investigating Design Issues in Household Environments, Cognition, Technology and Work, Volume 5, Issue 1, pp 33-43 [pdf]
+Petersen, M. G., Madsen, K. H. and Kjær, A. (2002) Usability of Everyday Technology – Emerging And Fading Opportunities. In ACM Transactions on Computer-Human Interaction, Vol. 9, No. 2, June 2002, pp. 74-105 [pdf]
+ 
+Bødker, S. & Petersen, M. G. (2000) Design for Learning in Use. In Scandinavian Journal of Information Systems, vol. 12, pp. 61-80
+ 
+REVIEWED CONFERENCE PAPERS
+ 
+Petersen, M. G., Ludvigsen, M., Jensen, H. F., and Thomsen, A. (accepted for the European Conference on Cognitive Ergonomics, ecce’12) Embracing Values in Designing Domestic Technologies
+Petersen, M.G., Iversen, O., Krogh, P., Ludvigsen, M. (accepted for DIS 2004) Aesthetic Interaction - A Pragmatist Aesthetics of Interactive Systems
+ 
+Petersen, M. G. (2004) Remarkable Computing – the Challenge of Designing for the Home. In Proceedings of CHI’2004, ACM Press, pp. 1445 – 1449 [pdf]
+ 
+Bech, C. W., Bouvin, N.O., Petersen, M. G., and Grønbæk, K. (accepted for EDMedia 04) An Open Portal for Blended Learning 
+ 
+Petersen M. G. (2003) Everyday artefacts - Challenges and opportunities for HCI. Presented at Home IT conference, University of California, Irvine, US. http://www.crito.uci.edu/noah/HOIT/index.htm.
+ 
+Bødker, S., Krogh, P. G. and Petersen, M. G. (2001) Interactive Design Collaboratorium. In Proceedings of Interact2001. ACM Press, pp. 51-58 [pdf]
+ 
+Bødker, S., Nielsen, C. & Petersen, M. G. (2000) Creativity, Cooperation and Interactive Design. In DIS’00 Designing Interactive Systems, New York, 17 – 19   August 2000, ACM Press, pp. 252-262 
+ 
+Kjær, A., Madsen, K. H. & Petersen, M. G. (2000) Methodological Challenges in The Study Of Technology Use at Home. In Home Informatics and Telematics: Information, Technology and Society,  Sloane, A. and van Rijn, F. (Eds.) Boston: Klüwer Academic Publishers, pp.45-60
+ 
+Petersen, M. G. & Madsen, K. H. (1999) Supporting Collaboration In Multimedia Design. In Brewster, S., Cawsey, A. & Cockton, G. (eds.) Human-Computer Interaction - INTERACT’99 (Volume II), pp. 185-190
+ 
+WORKSHOP PAPERS
+ 
+Kristensen, J. F., Eriksen, M. A., Iversen, O. S., Kanstrup, A. M., Nielsen, C., and Petersen, M. G. (2003) Young People in Old Cars - Challenges for Cooperative Design. Proceedings of IRIS’2003 conference. Jüväskylä, Finland. Best Theme Paper Award 2003 [pdf]
+ 
+Iversen, Ole S., Krogh, P. G., Petersen, M. G. (2003) The Fifth Element - promoting the perspective of aesthetic interaction. In Hertzum, M., and Heilesen, S. (Eds.) Proceedings of the third Danish Human-Computer Interaction Research Symposium. Roskilde University, pp. 45-50. 
+ 
+Petersen, M.G. (2002) Time and learning in HCI. In Frøkjær, E., and Hornbæk, K. (Eds.) Proceedings of the Second Danish Human-Computer Interaction Research Symposium, nov. 2002, Technical Report no. 2002/19, pp. 42-45
+ 
+Baillie, L. and Petersen, M. G. (2001) Emerging Themes in Designing Household Environments. In Proceedings of the OIKOS2001 Workshop, Aarhus University Press, pp. 44-46
+ 
+Petersen, M. G. and Baillie, L. (2001) Methodologies for Designing Future Household Technologies. In Proceedings of the OIKOS2001 Workshop, Aarhus University Press, pp. 47-49
+ 
+WORK IN PROGRESS
+ 
+Petersen, M. G. and Grønbæk, K. (in preparation for Hypertext 04) Domestic Hypermedia – Folding Hyperspaces into Households
+Petersen, M. G., and Grønbæk, K. (submitted for EUSAI 2004 – European Symposium on Ambient Intelligence) Shaping the Ambience of Homes with Domestic Hypermedia
+Iversen, O. S., Kanstrup, A., and Petersen M. G. (submitted for NordiCHI 04): On Emancipation, Quality & Democracy in Design 
+TEACHING
+Taught eDesign – a crossdisciplinary design course with participants from Aarhus School of Architecture and the multimedia education, University of Aarhus (2002 - )
+Taught courses in Hypermedier and Human Computer Interaction at University of Aarhus (2001-2003).
+Developed teaching concepts for IT-supported learning (2003) 
+ 
+BOARDS AND COMMITTEES
+Member of reviewing committee for 2nd European Symposium on Ambient Intelligence (EUSAI 2004), Eindhoven, The Netherlands
+Member of programme committee for HomeIT2003, Home Oriented Informatics and Telematics, University of California.
+Member of Programme Committee of Oikos2001: Working Conference - Methodological Issues in the Design of Household Technologies March 12 - 13, 2001, Aarhus, Denmark, http://www.dcs.napier.ac.uk/~lynne/oikos/
+Member of the board SIGCHI.dk – a Danish interest group on Human-Computer Interaction www.sigchi.dk (1999-2004)
+ 
+Last updated 20 May 2004
+ 
+

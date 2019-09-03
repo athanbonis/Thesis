@@ -1,0 +1,83 @@
+
+=====================================================================
+All Things Web: Checklist-Based User Testing
+=====================================================================
+   
+Text Index 
+Search ATW 
+Feedback 
+Home 
+Next 
+ 
+Sections in ATW:
+The Usable Web 
+Need for Speed 
+Interface Elements 
+Testing &
+ Quality Assurance  
+Compatibility & 
+Accessibility 
+Design Fundamentals 
+Technical Tips 
+HTML Watch 
+Webmaster's Corner 
+About ATW 
+ 
+User Testing Techniques - 
+A Reader-Friendliness Checklist
+---------------------------------------------------------------------
+Periodic user testing is an important element in developing and maintaining a reader-friendly Website. But formal usability tests are expensive and time-consuming -- often prohibitively so. Happily, inspection-based user testing methods, ranging from a free-form site review to more structured approaches, provide a cost-effective means of assessing (and thus improving) the usability of almost any Website. 
+One of the most effective forms of inspection-based user testing involves the use of a "usability checklist." Checklist-based user testing is extremely inexpensive to implement, and requires a surprisingly small number of testers to be effective. It's also easy to schedule; it can be used at virtually any time throughout the development cycle, from the earliest prototype screens to a full-blown Website.
+Setting the Stage
+Here's the basic method for employing a checklist-based user test.
+Step 1. Preliminary Self-Appraisal
+No author can view his or her own work with dispassion. Still, there are certain things that inevitably make for an unfriendly Web page. (See Ten Things to Avoid and Ten More Things to Avoid for examples.) You can save considerable time, both for yourself and for your evaluators, if you start with a basic sweep of your site for known usability problems. View this self-appraisal as a preliminary step, however, and not as a substitute for user testing methods.
+Step 2: Provide checklists to your testers
+The more independent and autonomous your testers are, the more valuable the feedback they can provide. A topical site will probably want to enlist the aid of volunteer testers with some interest in the subject of the site. Corporate sites should strongly consider using agency-based temporary employees for user testing. 
+One important consideration is: how many testers are enough? There's no hard-and-fast rule, but inspection-based testing methods provide a surprisingly quick payback, even with a small number of evaluators. Even a single tester can probably uncover the most common usability problems on your site. And a handful (4 or 5) is more than adequate to ensure a generally reader-friendly Website. 
+It's also crucial to include 'Net novices in your test group. After all, many of your site's readers will be new to the Internet and to the Web. 
+Step 3: Provide some brief instructions
+Understand that your evaluators will naturally assume that the problems they encounter in using your site are the result of some fault on their part, rather than a flaw in the design of the site itself. It is therefore vitally important for you to explain to your testers that you need them to make note of any problems they encounter, regardless of what they believe the underlying cause to be. 
+Step 4: Leave
+In formal usability experiments, the experimenter typically remains in the room to observe and record testers' behavior. But unless you're a trained usability professional, your presence will likely as not serve to inhibit your evaluators, and thus compromise their ability to test your site. Unless you're planning on providing a personally-supervised guided tour of your site to all your readers, leave your tester to the business of testing your site. Allow your tester sufficient time to test your site. (What's "sufficient" will obviously vary, depending on the content and nature of the site. Allow at least 2-3 minutes per page, but let your evaluator decide when the test is finished.) 
+A Skeletal Checklist
+Obviously, there is no "one-size-fits-all" reader-friendliness checklist that's universally applicable to all the Websites in the world. Still, you will get the best results from user testing if you ask your testers to focus on a limited number (6-10 is probably ideal) of fairly specific questions and criteria. (Readers interested in learning more about basic guidelines for creating friendly Web pages may want to check out another article in this series, What Is "Reader-Friendly"?)
+Some suggested starting points for a reader-friendliness checklist include:
+* Clarity of Communication
+Does the site convey a clear sense of its intended audience?
+Does it use language in a way that is familiar to and comfortable for its readers?
+Is it conversational in its tone?
+* Accessibility
+Is load time appropriate to content, even on a slow dial-in connection?
+Is it accessible to readers with physical impairments?
+Is there an easily discoverable means of communicating with the author or administrator?
+* Consistency
+Does the site have a consistent, clearly recognizable "look-&-feel"?
+Does it make effective use of repeating visual themes to unify the site?
+Is it visually consistent even without graphics?
+* Navigation
+Does the site use (approximately) standard link colors?
+Are the links obvious in their intent and destination?
+Is there a convenient, obvious way to maneuver among related pages, and between different sections?
+* Design & maintenance
+Does the site make effective use of hyperlinks to tie related items together?
+Are there dead links? Broken CGI scripts? Functionless forms?
+Is page length appropriate to site content?
+* Visual Presentation
+Is the site moderate in its use of color?
+Does it avoid juxtaposing text and animations?
+Does it provide feedback whenever possible?
+(for example, through the use of an easily recognizable ALINKcolor, or a "reply" screen for forms-based pages) 
+Obtaining Feedback
+A basic truism of usability testing is that there is basically no such thing as a "user error." For every problem your testers identify, make sure you ask enough clarifying questions to allow you to understand the nature of the difficulties they encountered. At all costs, however, avoid the temptation to argue with your tester, or to "explain away" the problems identified during testing. If an evaluator found something confusing, then it's a safe bet that some percentage of your overall readership finds it equally unclear.
+The Ultimate User Test
+If you're ever lucky enough to have have the chance, simply watch someone navigate your site. Don't prompt them, coach them, or correct them. Merely observe. Even for seasoned systems and usability professionals, it's a profoundly humbling experience. 
+Top of Page 
+ 	 Next 
+If you liked this ATW feature, you may also like
+ Effective Corporate Websites 	
+---------------------------------------------------------------------
+Copyright 1996,1997,1998 Terry Sullivan (terry@pantos.org)
+ URL: http://www.pantos.org/atw/35317.html
+ (Last updated Thursday, September 12, 1996) 		
+

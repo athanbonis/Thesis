@@ -1,0 +1,118 @@
+
+=====================================================================
+Hypertext Markup Language - 2.0 - Table of Contents
+=====================================================================
+ 
+Hypertext Markup Language - 2.0 
+September 22, 1995 
+T. Berners-Lee (1) D. Connolly (1) (1) MIT/W3C 
+* Introduction 
+* Scope 
+* Conformance 
+* Documents 
+* Feature Test Entities 
+* User Agents 
+* Terms 
+* HTML as an Application of SGML 
+* SGML Documents 
+* HTML Lexical Syntax 
+* Data Characters 
+* Tags 
+* Names 
+* Attributes 
+* Comments 
+* HTML Public Text Identifiers 
+* Example HTML Document 
+* HTML as an Internet Media Type 
+* text/html media type 
+* HTML Document Representation 
+* Undeclared Markup Error Handling 
+* Conventional Representation of Newlines 
+* Document Structure 
+* Document Element: HTML 
+* Head: HEAD 
+* Title: TITLE 
+* Base Address: BASE 
+* Keyword Index: ISINDEX 
+* Link: LINK 
+* Associated Meta-information: META 
+* Next Id: NEXTID 
+* Body: BODY 
+* Headings: H1 ... H6 
+* Block Structuring Elements 
+* Paragraph: P 
+* Preformatted Text: PRE 
+* Example and Listing: XMP, LISTING 
+* Address: ADDRESS 
+* Block Quote: BLOCKQUOTE 
+* List Elements 
+* Unordered List: UL, LI 
+* Ordered List: OL 
+* Directory List: DIR 
+* Menu List: MENU 
+* Definition List: DL, DT, DD 
+* Phrase Markup 
+* Idiomatic Elements 
+* Citation: CITE 
+* Code: CODE 
+* Emphasis: EM 
+* Keyboard: KBD 
+* Sample: SAMP 
+* Strong Emphasis: STRONG 
+* Variable: VAR 
+* Typographic Elements 
+* Bold: B 
+* Italic: I 
+* Teletype: TT 
+* Anchor: A 
+* Line Break: BR 
+* Horizontal Rule: HR 
+* Image: IMG 
+* Characters, Words, and Paragraphs 
+* The HTML Document Character Set 
+* Hyperlinks 
+* Accessing Resources 
+* Activation of Hyperlinks 
+* Simultaneous Presentation of Image Resources 
+* Fragment Identifiers 
+* Queries and Indexes 
+* Image Maps 
+* Forms 
+* Form Elements 
+* Form: FORM 
+* Input Field: INPUT 
+* Text Field: INPUT TYPE=TEXT 
+* Password Field: INPUT TYPE=PASSWORD 
+* Check Box: INPUT TYPE=CHECKBOX 
+* Radio Button: INPUT TYPE=RADIO 
+* Image Pixel: INPUT TYPE=IMAGE 
+* Hidden Field: INPUT TYPE=HIDDEN 
+* Submit Button: INPUT TYPE=SUBMIT 
+* Reset Button: INPUT TYPE=RESET 
+* Selection: SELECT 
+* Option: OPTION 
+* Text Area: TEXTAREA 
+* Form Submission 
+* The form-urlencoded Media Type 
+* Query Forms: METHOD=GET 
+* Forms with Side-Effects: METHOD=POST 
+* Example Form Submission: Questionnaire Form 
+* HTML Public Text 
+* HTML DTD 
+* Strict HTML DTD 
+* Level 1 HTML DTD 
+* Strict Level 1 HTML DTD 
+* SGML Declaration for HTML 
+* Sample SGML Open Entity Catalog for HTML 
+* Character Entity Sets 
+* Numeric and Special Graphic Entity Set 
+* ISO Latin 1 Character Entity Set 
+* Security Considerations 
+* References 
+* Acknowledgments 
+* Authors' Addresses 
+* The HTML Coded Character Set 
+* Proposed Entities 
+---------------------------------------------------------------------
+This document was generated using the texi2html translator version 1.36.
+

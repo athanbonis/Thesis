@@ -1,0 +1,19 @@
+
+=====================================================================
+Java Security: Hotlist
+=====================================================================
+ 
+Java Security Hotlist Categories
+Books | Researchers | FAQs
+Papers | Talks/Articles | Hostile Applets
+Commercial | Mostly Harmless
+Complete Listing 
+Return to Java Security... 	
+Search the text of the pages on this hotlist.
+ Find: 
+---------------------------------------------------------------------
+Note: The opinions expressed on this page are the opinions of Gary McGraw and Ed Felten.
+Statements made on this page should not be construed as having come from our employers or our publishers.
+We welcome correspondence, see the Java Security page for e-mail addresses. 
+Copyright © 1996-9, Gary McGraw and Edward Felten 		
+

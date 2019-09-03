@@ -1,0 +1,47 @@
+
+=====================================================================
+Pricing Money: Table of Contents
+=====================================================================
+ 
+ Main index	  Chapter 1: Money Markets	  About author	 
+---------------------------------------------------------------------
+Pricing Money: A Beginner's Guide to Money, Bonds, Futures and Swaps
+PRICING MONEY: A Beginner's Guide to Money, Bonds, Futures and Swaps is an introduction to the fixed-income markets. It explains the purpose and design of the most important financial instruments, including deposits, bonds, futures and swaps, and how these instruments are used by the various players in the financial system. The book is for new recruits and potential new recruits in financial markets (consider reading it before rather than after the interview), as well as accountants, lawyers, and those wishing to understand finance. The style is engaging, accessible and non-mathematical, and hence comprehensible by those with no prior financial knowledge. 
+Pricing Money can be purchased from Amazon.co.uk, Amazon.com, Buy.com, Amazon.fr, Amazon.de, Amazon.co.jp, B&N (same day delivery in Manhattan), as well as other bookshops: cite ISBN 0-471-48700-7. 
+Below is the Table of Contents, made available at jdawiseman.com with the permission of the publisher, Wiley; the usual disclaimer applies. Also available on the web is the Chapter 1: Money Markets. 
+---------------------------------------------------------------------
+Pricing Money: Table of Contents
+Part 1: A Beginner's Toolkit	 
+Chapter 1: Money markets
+What is money?; Why there is a money market?; Choosing a maturity; Repo; Central-bank money-market operations; Two money markets; The euro; Writing money; Settlement details; Summary. 	
+Chapter 2: Government bonds
+Introduction; The concept of yield; Example yield calculations; Coupon and yield; The yield curve; Primary dealers; Government bond markets; Repo as part of the government-bond market; Accrued interest; STRIPS; Other tradable government debt; Non-government debt; Rating agencies; Summary. 	
+Chapter 3: Futures
+The gold miner's problem; The gold miner's solution; Contract specification; Credit and margin; Cash settlement; Cash-settling other contracts; The fixings; The 3-month interest rate future; Price action; The strip and TED spreads; Arbitrage; Some trading jargon; Summary. 	
+Chapter 4: Swaps
+Introduction; An example; Asset swaps; A typical swap in detail; Credit risk in swaps; Trading jargon; Swaps and interest rate futures; Myth and reality; Summary. 	
+Chapter 5: Options
+Introduction; Puts and calls; What is the option worth?; Combinations; Underlyings; Embedded options; Implied volatility; Summary. 	
+Chapter 6: Foreign exchange
+The basic rationale; Size and conventions; Forwards; Shake the dice; Summary. 	
+Chapter 7: Players
+Governments; Pseudo-government issuers; Non-financial corporations; Pension funds; Insurers; Mutual funds; Hedge funds; Commercial banks; Mortgage lenders; Central banks; Private investors; Summary. 	
+Chapter 8: People
+Introduction; Proprietary traders; Market makers; Brokers; Salespeople; Researchers; Back office and middle office; Investment bankers; Summary. 	
+Chapter 9: Price action
+Why do prices move?; Necessity never made a good bargain; Stability and leverage; Fixed-income prices; A stylised crash in fixed income; Forwards, zeros and par yields; Trading the crash; Market irrationality; Summary. 	
+Part 2: More detail	 
+Chapter 10: Swaps revisited
+Introduction; Credit risk in swaps; Reducing the credit risk; Cross-currency basis swaps; The price of a basis swap; A cross-currency issue; Reducing credit risk in basis swaps; Forward rate agreements; Summary. 	
+Chapter 11: Non-government issuance
+Introduction; Bringing a deal to market; The syndicate; Book-building: taking orders; Pricing a swapped deal; Pricing an unswapped deal; Some legal details; Free to trade; An example issue; Opportunistic reopenings; Summary. 	
+Chapter 12: Yield, duration, repo and forward bond prices
+Measuring risk; Yields: compounding frequencies; Duration continued; Definition of DV01; How coupon affects duration and DV01; An example yield curve; A 3s10s flattener; A flattener generates cash; A forward flattener; What happens if nothing happens?; Weighting the forward flattener; A barbell; Carry and slide; Summary. 	
+Chapter 13: Bond futures
+Introduction; Specification; Delivery day; The delivery process; Cheapest to deliver: at par; Cheapest to deliver: far from par; CTD calculations before delivery; Delivery tail; Summary. 	
+Chapter 14: Basic fixed-income arithmetic
+The proportion of a year; Yield to price and price to yield; Semi to annual: halve and square; Forward yield; Forward asset swap; Summary. 	
+Index	 
+---------------------------------------------------------------------
+Main index	  Top	  About author	 
+

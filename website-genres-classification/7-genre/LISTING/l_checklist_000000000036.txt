@@ -1,0 +1,30 @@
+
+=====================================================================
+Fine Points Checklist
+=====================================================================
+ 
+This page is to help you look at the aesthetic fine points of your page and pinpoint the little things to fix that will make your good pages into great ones. You can use it to look at your own project or you can ask someone else to provide you with a peer review. Any line that doesn't have Yes checked suggests that there might be something to fix. Each item is keyed to the appropriate section of the Fine Points page.
+Checklist
+Project Name:
+ Project Author:
+ Checked By:
+ Date:
+Notes:
+No 	? 	Yes 	
+Aspect
+Fine Point 1. The lines in the page are constrained so that they never exceed 8 to 15 words per line.
+Fine Point 2. Paragraphs are no longer than 8 lines of text in a row. Bulleted and numbered lists are used appropriately.
+Fine Point 3. Sans-serif fonts are used for body text.
+Fine Point 4. Fonts are used consistently. Any change in font is used to indicate a change in the purpose or source of the information.
+Fine Point 5. The reading level of the text seems appropriate for the intended audience.
+Fine Point 6. The only underlined words are hyperlinks.
+Fine Point 7. Each page has a meaningful title in the Title Bar.
+Fine Point 8. Transparency is used in graphics appropriately.
+Fine Point 9. There is a 2 to 10 pixel space between graphics and text.
+Fine Point 10. Backgrounds don't interfere with the readability of the text.
+Fine Point 11. There is a 2 to 10 pixel space between text and any page or table boundaries.
+Fine Point 12. Graphics and text are put side by side where appropriate to minimize long scrolling pages.
+Fine Point 13. Graphics that are hotlinked are chosen to look like links and do not have a link-colored border around them.
+Fine Point 14. Graphics have an ALT Text tag to make them accessible to the visually impaired.
+© Bernie Dodge, 1999. May be freely used by non-profit educational organizations.
+

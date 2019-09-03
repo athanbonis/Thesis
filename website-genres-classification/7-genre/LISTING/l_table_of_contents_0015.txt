@@ -1,0 +1,61 @@
+
+=====================================================================
+Euclid's Elements, Table of Contents
+=====================================================================
+ 
+Table of Contents
+Prematter 
+Introduction 
+Using the Geometry Applet 
+About the text 
+Euclid 
+A quick trip through the Elements 
+References to Euclid's Elements on the Web 
+Subject index 	
+  
+Book I. The fundamentals of geometry: theories of triangles, parallels, and area. 
+Definitions (23) 
+Postulates (5) 
+Common Notions (5) 
+Propositions (48) 
+Book II. Geometric algebra. 
+Definitions (2) 
+Propositions (13) 
+Book III. Theory of circles. 
+Definitions (11) 
+Propositions (37) 
+Book IV. Constructions for inscribed and circumscribed figures. 
+Definitions (7) 
+Propositions (16) 
+Book V. Theory of abstract proportions. 
+Definitions (18) 
+Propositions (25) 
+Book VI. Similar figures and proportions in geometry. 
+Definitions (11) 
+Propositions (37) 	
+Book VII. Fundamentals of number theory. 
+Definitions (22) 
+Propositions (39) 
+Book VIII. Continued proportions in number theory. 
+Propositions (27) 
+Book IX. Number theory. 
+Propositions (36) 
+Book X. Classification of incommensurables. 
+Definitions I (4) 
+Propositions 1-47 
+Definitions II (6) 
+Propositions 48-84 
+Definitions III (6) 
+Propositions 85-115 
+Book XI. Solid geometry. 
+Definitions (28) 
+Propositions (39) 
+Book XII. Measurement of figures. 
+Propositions (18) 
+Book XIII. Regular solids. 
+Propositions (18) 	
+---------------------------------------------------------------------
+Copyright © 1996, 1997. (June, 1997.) 
+D.E.Joyce 
+Clark University 
+These pages are located at http://aleph0.clarku.edu/~djoyce/ java/elements/elements.html. 

@@ -1,0 +1,27 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 
+   Subject: C5) Why don't we try to destroy tropical cyclones by seeding them with silver iodide:
+ Actually for a couple decades NOAA and its predecessor tried to weaken hurricanes by dropping silver iodide - a substance that serves as a effective ice nuclei - into the rainbands of the storms. The idea was that the silver iodide would enhance the thunderstorms of the rainband by causing the supercooled water to freeze, thus liberating the latent heat of fusion and helping the rainband to grow at the expense of the eyewall. With a weakened convergence to the eyewall, the strong inner core winds would also weaken quite a bit. Neat idea, but it, in the end, had a fatal flaw: there just isn't much supercooled water available in hurricane convection - the buoyancy is fairly small and the updrafts correspondingly small compared to the type one would observe in mid-latitude continental super or multicells. The few times that they did seed and saw a reduction in intensity was undoubtedly due to what is now called "concentric eyewall cycles".
+Willoughby et al.(1985) 
+Concentric eyewall cycles naturally occur in intense tropical cyclones (wind > 50 m/s [100 kt, 115 mph]). As tropical cyclones reach this threshold of intensity, they usually - but not always - have an eyewall and radius of maximum winds that contracts to a very small size, around 10 to 25 km [5 to 15 mi]. At this point, some of the outer rainbands may organize into an outer ring of thunderstorms that slowly moves inward and robs the inner eyewall of its needed moisture and momentum. During this phase, the tropical cyclone is weakening (i.e. the maximum winds die off a bit and the central pressure goes up). Eventually the outer eyewall replaces the inner one completely and the storm can be the same intensity as it was previously or, in some cases, even stronger. A concentric eyewall cycle occurred in Hurricane Andrew (1992) before landfall near Miami: a strong intensity was reached, an outer eyewall formed, this contracted in concert with a pronounced weakening of the storm, and as the outer eyewall completely replaced the original one the hurricane reintensified.
+Thus nature accomplishes what NOAA had hoped to do artificially. No wonder that the first few experiments were thought to be successes. To learn about the STORMFURY project as it was called, read Willoughby et al. (1985). To learn more about concentric eyewall cycles, read Willoughby et al. (1982) and Willoughby (1990).
+Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

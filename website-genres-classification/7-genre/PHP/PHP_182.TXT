@@ -1,0 +1,11 @@
+
+=====================================================================
+GavinGirl's Very Own WebPage!
+=====================================================================
+ var cm_role = "live"var cm_host = "angelfire.lycos.com"var cm_taxid = "/memberembedded" if (objAdMgr.isSlotAvailable("leaderboard")) { objAdMgr.renderSlot("leaderboard")} 
+GavinGirl's Very Own WebPage!
+One of my pages- THE KEWL LIST OF BAND NAMES!
+Another one of my pages- BUSH!
+Yet another one of my pages- LEONARDO DiCAPRIO!
+Yup, my 4th page- PARTY of FIVE!
+Email: glomslorf@aol.com 

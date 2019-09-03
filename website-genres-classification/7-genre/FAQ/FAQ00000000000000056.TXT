@@ -1,0 +1,72 @@
+
+=====================================================================
+PubMed FAQs 
+=====================================================================
+PubMed	 	
+Entrez	 PubMed	 Nucleotide	 Protein	 Genome	 Structure	 OMIM	 PMC	 Journals	 Books	 
+PubMed FAQs 
+Last Updated: March 2, 2005 
+Note: Most of the FAQs answers link to Help. 
+* How do I find articles about a disease or condition? 
+* I found a citation in PubMed. How can I get the full article? 
+* How can I import citations into my reference management program? 
+* What is the difference between MEDLINE and PubMed? 
+* When I print the right side of text is cut off. Do you have any suggestions? 
+* What is a cookie and how can I tell if my system is not accepting them? 
+* What is LinkOut? 
+* Why isn't there a link to the full-text for the citation I've retrieved? 
+* Why is the link to the full-text not working? 
+* What order are the citations displayed in PubMed, and can I sort my results? 
+* How do I limit my retrieval to a specific date range, age group, language, type of article, etc.? 
+* Where can I get a list of the journals in PubMed? 
+* How can I find a journal, issue, or citation for a specific article? 
+* How do I save my search results? 
+* How can I save my search strategies? 
+* I found an error in a citation. Can this be corrected? 
+* My name is misspelled on a citation. Can this be corrected? 
+* Can I use PubMed on my handheld device? 
+* After I look at an abstract, I use my browser's back function to return to the total retrieval, but I get an error message such as, "Warning, this page has expired?" Do you have any suggestions? 
+How do I find articles about my disease or condition? 
+The National Library of Medicine (NLM) cannot provide specific medical advice. NLM urges you to consult a qualified health care professional for answers to your medical questions. NLM does not have pamphlets or other materials to mail. 
+NLM's MEDLINEplus is an easy-to-understand resource for the public that includes links to self-help groups, access to National Institute of Health consumer-related organizations, clearinghouses, health-related organizations, and clinical trials. Click on Consumer Health under Related Resources on the PubMed sidebar to access MEDLINEplus. 
+I found a citation in PubMed. How can I get the full article? 
+PubMed does not include the full-text of articles, however, the following options are available to obtain a copy of an article: 
+Full-Text Links: 
+Links are available for journal publishers and full-text providers that participate in LinkOut. Publishers who electronically supply their data to PubMed may include an icon link to a Web site providing the full-text on the Abstract and Citation formats.  For example, enter a search for the Journal of Biological Chemistry (J Biol Chem) and display the results in the Abstract format. Next, click the "JBC Online" icon to go to the publisher's web site.  These web sites may require a subscription or fee in order to view the full-text of an article. The list of journals with links to full-text is available from PubMed's Journals Database. Links to other full-text providers appear on the LinkOut display format.
+Document Ordering via Loansome Doc: 
+Order under the Send to menu allows you to order documents from a library in your area using the Loansome Doc feature of PubMed. 
+Prior to using this program you must establish an agreement with a Loansome Doc participating library, and register online. Please note, there may be applicable fees. For information on the medical libraries in your area (or country) that can provide the Loansome Doc service and to register, click on the Go button from the Loansome Doc Registration screen. 
+Once you have registered with Loansome Doc, you can order citations by clicking on the check box to the left of each citation. When you have finished marking your selections (you may move to other pages within your results), select Order from the Send to pull-down menu and click the Send to button .  You may also use the Clipboard to collect items from multiple searches before ordering. 
+Why isn't there a link to the full-text for the citation I've retrieved? 
+Links are only available for journal publishers and full-text providers that participate in LinkOut. Publishers who electronically supply their data to PubMed may include an icon link to a site providing the full-text.  The provider's icon is displayed on the Abstract and Citation formats. 
+How can I find a journal, issue, or citation for a specific article? 
+PubMed's Single Citation Matcher is a fill-in-the-blank form that allows you to enter partial journal citation information to locate a record for a specific single article, or items indexed from a particular volume or issue of a journal. The Single Citation Matcher is available from PubMed's sidebar. 
+I found a misspelling in the citation. Can this be corrected? 
+Citations that carry the tag, [PubMed - in process] or [PubMed - as supplied by publisher] have not yet gone through NLM's quality control procedures and indexing process. It is during this process that errors are identified and corrected. It is not necessary to notify NLM of an error at this stage. However, if the error is still present when the above tags are no longer on the citation, please report it to the NLM Help Desk and include the information below (or as much as possible). 
+* The journal name, volume, issue, and page number. 
+* The title the of article, or the PMID number (e.g., PMID: 1234567). 
+* A description of the error. 
+Your report will be forwarded to NLM's Quality Assurance for further investigation. If a change to the database is warranted, the MEDLINE citation will be corrected. Please understand that due to the large volume of requests we are unable to answer individual error reports. 
+NLM leases its data to vendors around the world. Other products and services containing MEDLINE data will not necessarily reflect corrections made to records at NLM right away. If you search MEDLINE through a vendor's system, please contact your vendor about their maintenance schedules. 
+My name is misspelled on a citation. Can this be corrected? 
+The National Library of Medicine (NLM) displays the author's name as it appears in the article at the time of publication, only the last name plus the first two initials (e.g., Fauci AS) are used. Corrections for the misspelling of author names are handled as follows: 
+NLM's Typographical Error: 
+Citations that carry the tag, [PubMed - in process] or [PubMed - as supplied by publisher] have not yet gone through NLM's quality control procedures and indexing process. It is during this process that errors are identified and corrected. It is not necessary to notify NLM of an error at this stage. However, if the error is still present when the above tags are no longer on the citation, please report it to the NLM Help Desk and include the information below (or as much as possible). 
+* The journal name, volume, issue, and page number. 
+* The title the of article, or the PMID number (e.g., PMID: 1234567). 
+* The correct name using the format, last name initials (e.g., Jones JA). 
+Your report will be forwarded to NLM's Quality Assurance for further investigation. If a change to the database is warranted, the citation will be corrected. Please understand that due to the large volume of requests we are unable to answer individual error reports. 
+NLM leases its data to vendors around the world. Other products and services will not necessarily immediately reflect corrections made to records at NLM. If you search MEDLINE through a vendor's system, please contact your vendor about their maintenance schedules. 
+Author's Name Printed Incorrectly in the Publication: 
+If the author's name was printed incorrectly at the time of publication, then the journal in which the article appeared must publish an erratum before NLM will make the correction in MEDLINE. If this is the case, please contact the journal publisher. 
+It is NLM's policy that errata are acknowledged only if they are printed in a citable form; that is, an erratum notice must appear on a numbered page in the journal that originally published the article. Error notices that are inserted unbound into a journal issue or "tipped in" will not be considered part of the permanent bibliographic record. NLM does not make changes in the database in response to letters from authors or editors, unless such letters indicate that a substantive published erratum is forthcoming. 
+For additional information on how NLM handles errors in MEDLINE, please review the NLM Errata, Retraction, Duplicate Publication, and Comment Policy fact sheet. 
+Can I use PubMed on my handheld device?
+Yes. The Text Version will work with your handheld, but try PubMed for Handhelds which in addition to PubMed searching, offers PubMed’s Systematic Reviews subset and the Clinical Queries filters. The URL for mobile phones with WAP browsers is: http://pubmedhh.nlm.nih.gov/indexw.html.
+Another interface for handhelds, PubMed on Tap, is a product being evaluated and runs on the Palm and PocketPC operating systems. Both of these products are free to use. User feedback is encouraged.
+After I look at an abstract, I use my browser's back function to return to the total retrieval, but I get an error message such as, "Warning, this page has expired?" Do you have any suggestions?
+Try clearing the cache (deleting temporary files) of your web browser. Please consult your browser's Help or check with your computer or IT support staff for assistance. 
+   Write to the Help Desk 
+NCBI | NLM | NIH 
+Department of Health & Human Services 
+Freedom of Information Act | Disclaimer 

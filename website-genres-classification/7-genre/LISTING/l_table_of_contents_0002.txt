@@ -1,0 +1,108 @@
+
+=====================================================================
+Introduction to HTML - Table of Contents
+=====================================================================
+ 
+Other Documentation Areas: 	Overview | HTML | CGI | HTTP | HTML DTDs | SGML | HTML&#160Tools | Specs | Groups 	
+---------------------------------------------------------------------
+ToC ~ Up ~ Prev ~ Next ~ Index	 Introduction to HTML
+ Last Update: 20 September 2000	 
+---------------------------------------------------------------------
+Introduction to HTML -- Table of Contents
+New: January 2000 -- Differences between XHTML and HTML New: September 2000 -- Cascading Style Sheet Cheat Sheet 
+(Yeah, I know this is an HTML tutorial -- but if you do CSS, this cheat sheet can be very useful! )
+* Table of Contents/ToC (this page) 
+* List of mirror sites 
+1.  Introduction to the Collection 
+2.  My books on XHTML, HTMLand Web design, and
+ other Web-technology books I have written. 
+* Introduction to HTML 
+1.  HTML Elements 
+2.  HTML Document Structure 
+3.  HTML Document Naming Scheme 
+4.  Version and history of HTML 
+5.  XHTML and the differences from HTML  (New -- Jan/2000) 
+6.  CSS and HTML/XHTML  (New -- Jan/2000) 
+* HEAD of an HTML Document 
+1.  BASE 
+2.  ISINDEX 
+3.  ISINDEX enhancements 
+* LINK 
+* META 
+* NEXTID 
+* TITLE 
+* SCRIPT 
+* STYLE 
+* BODY of an HTML Document
+ 
+1.  Organization of Elements in the BODY 
+2.  Hn (Headings) 
+3.  P (Paragraphs) 
+4.  ADDRESS 
+5.  BLOCKQUOTE 
+6.  DIV 
+7.  Lists 
+8.  DL (Glossary) Lists 
+9.  Regular (UL, OL, DIR, MENU) Lists 
+10. Extended List Properties (UL, OL) 
+* HR (Horizontal Rule) 
+* PRE (Preformatted) 
+* FORMs 
+* TABLEs 
+1.  TABLEs Introduction 
+2.  Netscape TABLE Element Attributes 
+3.  TR - Table Rows and Cell Alignment 
+4.  Table Cell COLSPAN and ROWSPAN Attributes 
+5.  TABLEs within TABLEs 
+* Text Emphasis/Highlighting 
+* Hypertext Anchors (A) 
+1.  Link to an object (HREF) 
+2.  Link froman object (NAME) 
+3.  Relationship between objects (REL) 
+4.  Relationship between objects (REV) 
+5.  URN 
+6.  TITLE 
+7.  How to link (METHODS) 
+* Line Breaks (BR) 
+* Inlined Images (IMG) 
+1.  Examples of Images 
+* Special Characters (Entities) 
+* Missing Features - Equations 
+* Miscellaneous 
+1.  Comments in HTML documents 
+* Stylesheets 
+* Netscape & Microsoft Extensions, and Advanced HTML Elements 
+1.  CENTER 
+2.  FONT 
+3.  BASEFONT 
+4.  APPLET 
+5.  MARQUEE 
+6.  MAP 
+7.  FRAME 
+8.  EMBED & NOEMBED 
+9.  OBJECT (Advanced HTML 4.0) 
+10. MULTICOL 
+11. SPACER 
+12. NOBR & WBR 
+* Uniform Resource Locator (URL) 
+1.  HTTP 
+2.  Gopher 
+3.  Ftp 
+4.  WAIS searches 
+5.  Telnet 
+6.  News 
+7.  Mailto 
+* Interaction with Server (with examples) 
+1.  ISINDEX Searches 
+2.  ISMAP Image Maps 
+3.  cgi-bin scripts 
+4.  FORMs 
+5.  Server-Side includes 
+* Bibliography and References 
+* Keyword Index 
+IF YOU LIKE THIS SITE, THEN BUY THE BOOK! I have written several books on XHTML, HTML, URLs, HTTP, CSS, and CGI. If you found this online material useful, please have a look at some descriptions of these books, to see if any of these might be of interest to you. 
+---------------------------------------------------------------------
+ToC ~  Up ~  Prev ~  Next ~  Index	 Introduction to HTML
+ © 1994-1998 by Ian Graham
+ Last Update: 20 September 2000	 
+

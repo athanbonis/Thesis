@@ -1,0 +1,193 @@
+
+=====================================================================
+Electronic Voting Hotlist
+=====================================================================
+ Lorrie Cranor's 
+Electronic Voting Hot List
+This page contains a list of links to Internet sites with electronic-voting related information. It is intended as a resource list for those doing research on electronic voting and those interested in implementing electronic voting systems.
+When I first started compiling this list I included only links related to electronic voting over public computer networks. However, I have since added links to a variety of related issues.
+Let me know if you find a good link I missed. Please send suggestions for additional links to lorrie@acm.org. Sorry there are so many broken links here, I haven't had time to do a thorough update in a while. 
+'New to this subject and wondering what you should read first? Here's what I recommend:
+* Voting After Florida: No Easy Answers - December 2000 by Lorrie Faith Cranor 
+* National Science Foundation Internet Voting Workshop Report - March 2001 
+* California Internet Voting Task Force Report - January 2000 
+* Examining Internet Voting in Washington - by David M. Elliott, Assistant Director of Elections, State of Washington 
+* Security Considerations for Remote Electronic Voting over the Internet - by Avi Rubin 
+* Electronic Voting - Evaluating the Threat and Paper v. Electronic Voting Records - An Assessment by Michael Shamos, papers presented at CFP'93 and CFP2004 respectively 
+* Security Criteria for Electronic Voting - by Peter G. Neumann, 1993 
+* Voting, Computers and the Human-Computer Interface from Computer Professionals for Social Responsibility 
+* Rebecca Mercuri's evoting page 
+* Accuracy, Integrity, and Security in Computerized Vote-Tallying - by Roy G. Saltman, 1988 (this is the National Bureau of Standards report that told us that hanging chad were bad news over a decade before the 2000 US Presidential election) 
+* Online Voting - four page report from the UK Parliamentary Office of Science and Technology, May 2001 
+* California Ad Hoc Touch Screen Task Force Report - July 2003 
+* VerifiedVoting.org 
+* Douglas Jones' Voting and Elections Site 
+* Michael Shamos' Electronic Voting course web page 
+Index
+* Available Online Voting Systems 
+* Experimental Electronic Voting System Descriptions and Software 
+* Electronic Voting Protocol Papers 
+* Real Internet Polls 
+* Risks and Reliability of Electronic Voting - includes risks related to automated vote tabulation 
+* Vote by Phone - the telephone, rather than the computer, can also be used to submit electronic ballots 
+* Vote by Mail - another alternative to traditional ballot collection methods 
+* Electronic Democracy/Direct Democracy - made more feasible by electronic voting 
+* General Information 
+* Related Information 
+* Election Information (not necessarily electronic) 
+* Voting Equipment and Services Vendors 
+Available Online Voting Systems
+While there's been a lot of research on electronic voting systems, there isn't much software available that you can purchace or download and use to run an election immediatly. The systems described in this section may be useful to those running an election for a non-governmental organization.
+* VoteAgent 
+* SAVIOC Voting System 
+* SZTAKI Voting and Survey System 
+* Free Referenda & Elections Electronically (FREE) - open source system for conducting electronic votes 
+* eVote - voting software designed to be used in conjunction with the Majordomo electronic mailing list system. As of August 1998, a shareware version was available for Majordomo running under Linux. It costs $80 to register. According to the Web site, the authors will also do custom ports to other operating systems and mailing list managers for a fee. 
+* TrueBallot, Inc. Democratic Governance Systems - actually, TrueBallot does not offer online products, but they do offer electronic voting booth, vote-by-mail, and vote-by-phone products for use in non-governmental elections 
+* Active Websurvey 
+* See also Voting Equipment and Services Vendors 
+* Other solutions for running a non-governmental election: 
+* Call up your local governmental election office and see if you can borrow voting equipment from them. 
+* Hire someone (perhaps a computer science student from a local college) to setup a Web-based system for your group. 
+Experimental Electronic Voting System Descriptions and Software
+* Secure Voting Using Disconnected, Distributed Polling Devices - by David Clausen, Daryl Puryear, and Adrian Rodriguez, Stanford University, Department of Computer Science 
+* Vivarto Voting Systems - a new idea on how to combine efficiency, democracy and expertise in governing large organizations with the help of modern information and communication technology 
+* Sensus - description and source code for Sensus, an electronic polling system developed by Lorrie Cranor, based on a paper by Atsushi Fujioka, Tatsuaki Okamoto, and Kazuo Ohta. 
+* Another implementation based on the Fujioka, Okamoto, and Ohta paper - by Ronald L. Rivest, Mark Herschberg, Ben Adida, and Randy Milbert. Unlike Sensus, this implementation continues to be maintained and improved. 
+* Report on Electronic Voting for the Harvard Undergraduate Council (UC): Design, Implementation, and Results - unfortunately the design and implementation sections were never written, but you can get a vague idea about how the system worked from this report [used to be at http://hcs.harvard.edu/~eekim/nextleve/evote/ - link no longer available] 
+* The Open Voting Consortium 
+Electronic Voting Protocol Papers
+See also Rachel Greenstadt's electronic voting bibliography
+* Receipt-Free Homomorphic Elections and Write-in Ballots by Alessandro Acquisti. Technical Report 2004/105, International Association for Cryptologic Research, May 2, 2004, and Carnegie Mellon Institute for Software Research International, CMU-ISRI-04-116, 2004. 
+* A LAN Voting Protocol by Vesna Hassler and Reinhard Posch [link no longer available] 
+* An untraceable, universally verifiable voting scheme by Michael J. Radwin 
+Real Internet Polls
+* Costa Rica Electronic Voting Trial - CyberTimes article 
+* Online voting in January 1999 Alaska Republican straw poll - Standard article 
+Despite the fact that these appear to be serious efforts at gauging public opinion, at last check the sites below had few if any mechanisms in place for guaranteeing both security and privacy.
+* August 1996 -- The Reform Party appears to be the first US political party to allow voters to cast their ballots via the Internet (or telephone or postal mail or in person at the convention). However, they make no promises about privacy. According to a party spokesperson, 1.13 million ballots were sent out, and 2500 people attended the convention. Ballots were returned as follows: 43,202 paper ballots (by mail or at convention), 3963 telephone ballots, 2101 Internet ballots. It's interesting to note that most of the ballots were mailed, despite the fact that voters had to supply their own postage! There were toll free numbers for telephone voting, but they were not printed in the voting instructions (they were announced at the convention, on CNN, and in press reports). 
+* IPT Interactive Voting Booth - U.S. Presidential poll 
+* Presidential CyberPoll - U.S. Presidential poll 
+* Votelink - polls on global, U.S., and city issues 
+General Electronic Voting Information
+* Rebecca Mercuri's evoting page 
+* Voting, Computers and the Human-Computer Interface from Computer Professionals for Social Responsibility 
+* SecurePoll.com - contains a collection of information about Internet voting 
+* The Bell - Safevote Newsletter on Privacy, Security and Technology in Internet Voting 
+* California Internet Voting Task Force Report - January 2000 
+* Examining Internet Voting in Washington - by David M. Elliott, Assistant Director of Elections, State of Washington 
+* Election Automation -- Types of computerized voting systems - by Lorrie Cranor in ACE Project 
+* Electronic Voting: Computerized polls may save money, protect privacy - by Lorrie Cranor in Crossroads April 1996 
+* Ballot Collection - In Declared-Strategy Voting: An Instrument for Group Decision-Making. Dissertation by Lorrie Cranor. December 1996. An overview of electronic voting, vote-by-mail, vote-by-phone, etc. 
+* From Dark Corner to DOT-COM: The Road Ahead for Online Voting - by M. Glenn Newkirk 
+* The Internet and the Electoral Process - a report from the International Institute for Democracy and Electoral Assistance 
+* The Business of Elections by Rebecca Mercuri, paper presented at CFP'93 
+* NH State Republican Convention Computerized Voting Standard Resolution - from Risks Digest Volume 7: Issue 81, 21 November 1988 
+* Open Voting Systems by Irwin Mann, paper presented at CFP'93 
+* Overview of Computers and Elections by Eva Waskell, paper presented at CFP'93 
+Risks and Reliability
+* Security Considerations for Remote Electronic Voting over the Internet - by Avi Rubin 
+* Security Criteria for Electronic Voting - by Peter Neumann 
+* Vulnerability of Computerized Vote-Counting Systems -by Doug Ihde, Minnie Ingersoll, Emily Lewis, and Joe Newsum of Stanford University 
+* Assuring Accuracy, Integrity and Security in National Elections : The Role of the U.S. Congress by Roy G. Saltman, paper presented at CFP'93 
+* California to escrow electronic vote counting software - from Risks Digest Volume 9: Issue 9, 14 August 1989 
+* Computer causes chaos in Brazilian Election - actually, the officials were probably more responsible for the chaos than the computers - from Risks Digest Volume 4: Issue 5, 5 November 1986 
+Follow-up - from Risks Digest Volume 4: Issue 8, 9 November 1986 
+* Computerized Voting -- No Standards and a Lot of Questions - summary of a talk by Eva Waskell - from Risks Digest Volume 2: Issue 42, 14 April 1986 
+* Decision Threatens Punch-Card Elections - from the St. Louis Post-Dispatch - reprinted in Risks Digest Volume 6: Issue 4, 6 January 1988 
+Follow-up - from Risks Digest Volume 6: Issue 21, 6 February 1988 
+Follow-up - from Risks Digest Volume 6: Issue 23, 9 February 1988 
+Follow-up - from Risks Digest Volume 6: Issue 33, 29 February 1988 
+* Electronic Voting - Evaluating the Threat by Michael Ian Shamos, Ph.D., J.D., paper presented at CFP'93 
+* Use of computers in elections raises security questions - Boston Globe article - reprinted in Risks Digest Volume 3: Issue 42, 25 August 1986 
+Vote by Phone
+* Voting by Phone: Empowering the People! - includes a variety of articles, editorials, and case studies about voting by phone including Televote: A New Civic Communication System by Vincent Campbell and Janet Santos, February 1975 
+* Voting from home electronically - a variety of view points from Risks Digest Volume 10: Issue 64, 21 November 1990 
+Follow-up - from Risks Digest Volume 10: Issue 67, 7 December 1990 
+Follow-up - from Risks Digest Volume 10: Issue 72, 19 December 1990 
+Follow-up - from Risks Digest Volume 10: Issue 78, 22 January 1991 
+Follow-up - from Risks Digest Volume 11: Issue 1, 4 February 1991 
+Follow-up - from Risks Digest Volume 11: Issue 3, 6 February 1991 
+* Vote-by-Phone - Promises and Pitfalls by Roy G. Saltman - from Risks Digest Volume 11: Issue 75, 29 May 1991 
+Follow-up - from Risks Digest Volume 11: Issue 76, 30 May 1991 
+Follow-up - from Risks Digest Volume 11: Issue 77, 31 May 1991 
+Follow-up - from Risks Digest Volume 11: Issue 78, 3 June 1991 
+Follow-up - from Risks Digest Volume 11: Issue 80, 4 June 1991 
+* Phone voting in NM - from Risks Digest Volume 14: Issue 2, 9 November 1992 
+* Voting by Phone in the Netherlands - also includes a note about the possibility of voting by phone in Chicago - from the Risks Digest Volume 17: Issue 32, 6 September 1995 
+Vote by Mail
+Although this is not directly related to electronic voting, this section is included because it deals with an alternative form of voting that is starting to gain acceptance for governmental elections. Studying the path to acceptance of vote-by-mail may provide insight into how electronic voting may gain acceptance.
+"It's a step into the information age; it fits with voters' lifestyles." -- Oregon State Senator Randy Miller
+* Vote by mail - about January 1995 Oregon Senator election - from the Risks Digest Volume 17: Issue 37, 28 September 1995 
+* Democrat wins Oregon Senate seat - CNN, January 31, 1996 
+* Voters Pamphlet, State of Oregon Presidential Primary Election March 12, 1996 - information about Oregon's first-ever vote-by-mail presidential preference primary, includes Q&A about Vote-by-Mail 
+* Oregon Secretary of State Executive Office - includes a variety of vote-by-mail info including contacts, statistics, history, and turnout and cost comparisons 
+* FINAL REPORT SURVEY OF VOTE-BY-MAIL ELECTION IN THE STATE OF OREGON - by Priscilla L. Southwell, Department of Political Science, University of Oregon, April 3, 1996 
+* In some states where vote-by-mail or absentee ballots are optional, candidates, governmental organizations, and others are making ballot applications available over the Internet. You still have to print them out, sign them and return them in person or via postal mail, however. 
+Electronic Democracy
+* Teledemocracy Action News + Network -- dedicated to the creative use of modern technologies and face-to-face deliberative techniques in all forms that directly empower citizens to have authentic input into political systems 
+* Canadian Direct Democracy 
+* Smart Initiatives Project - web site for an organization that is trying to establish the right to submit digitally-signed petitions in California 
+* Democracies Online - Promoting the development and sustainability of online civic participation and democracy efforts around the world through experience, outreach, and education. 
+* EFF "Electronic Voting & Digital Democracy" Archive 
+* Electronic Democracy Annotated Bibliography compiled by Scott London, 1994 (also see his Kettering Foundaton paper on electronic democracy) 
+* Swiss Direct Democracy 
+* A Blueprint for Real Democracy -- Draft Manifesto of the Movement for Real Democracy -- as best I can tell, Bill Buffam, is the whole movement 
+Related Issues
+* Federal Election Reform Network 
+* Florida Select Elections Task Force 
+* Proposed US Federal Legislation related to voting and Election legislation with momentum from the International Association of Clerks, Recorders, Election Officials and Treasurers (IACREOT) 
+* Center for Voting and Democracy - information about proportional representation 
+* Proportional Representation Society of Australia 
+* Illinois Citizens for Proportional Representation 
+* Vote by Fax Plan Before [CA] Legislature - from the Risks Digest Volume 11: Issue 9, 14 February 1991 
+* The Sensus protocol assumes the assistance of anonymous Web forwarders. The Anonymizer provides such a service. 
+* GovAccess is an edited mailing list distributed by Jim Warren which deals with issues related to electronic access to government 
+* Surveys are a close cousin of elections. MIT hosted a Workshop on Internet Survey Methodology and Web Demographics in January 1996 
+* Declared-Strategy Voting is a novel group decision-making procedure in which preference is specified using voting strategies 
+* Accurate Democracy - discusses problems with many traditional voting rules and proposes some new ones; also offers free and for-sale voting simulation software 
+* Voting Systems - The Government's Proposals 31 July 1998 - A research paper that describes the UK Government's proposals for new systems of voting for the European Parliament, the Scottish Parliament, the Welsh National Assembly, the new Northern Ireland Assembly and the Greater London Authority 
+* SDR Technologies offers electronic filing systems for government elections and ethics agencies 
+* Electoral Studies - An International Journal on Voting and Electoral Systems and Strategy 
+* Voting Equipment Used in Washington State 
+Election Information
+* ELECnet - Election Administration Resources on the Internet 
+* Election Center - an international service association of election and voter registration officials -- see also their Internet Voting page 
+* The Freedom Channel 
+* The International Foundation for Election Systems (IFES) - a private, nonprofit organization established in 1987 to support electoral and other democratic institutions in emerging, evolving, and experienced democracies 
+* Administration and Cost of Elections (ACE Project) -- an electronic encyclopedia of elections -- see also the ACE Project Electronic Information Resources Index 
+* International Institute for Democracy and Electoral Assistance - an organization whose objective is "to promote and advance sustainable democracy and to improve and consolidate electoral processes world-wide" 
+* Web White and Blue - election information 
+* California Voter Foundation 
+* Federal Election Commission 
+* Vote Smart Web 
+* Florida Divisition of Elections 
+* Leage of Women Voters Non-Partisan Information on Silican Valley's Elections 
+* Electoral Calendar 
+Voting Equipment and Services Vendors
+* IFES Buyer's Guide to Election Suppliers 
+* eBallot - online voting and election management solution for universities, associations, realtor associations, high school and middle schools, and municipalities 
+* Software Improvements eVACS electronic voting system 
+* Voting Technologies International 
+* SureVote - "Voting technology that lets you be sure your vote is counted" 
+* Diebold voting terminals -- used for voting in Brazil 
+* Safevote.com - "private AND secure Internet voting" 
+* Election.com - "The Global Election Company" 
+* Electoral Products - from the ACE Project Website 
+* VoteHere.net - "the secure internet voting company" 
+* Xtol - manufacturer of a "portable wireless keypad system that is used to ask multi-choice questions of groups of people in a variety of training, presentation, surveys and teaching situations" 
+* Fidlar & Chambers Co. - voting equipment and services vendor 
+* Election Systems & Software - voting equipment and services vendor 
+* Guardian Voting Systems ELECTronic 1242 Voting System - information about an electronic voting booth product 
+* Diversified Dynamics, Inc. - a company that produces "electronic voting systems" and "ballot software" 
+* Microvote - developers of electronic voting tabulation software and distributers of DRE units. 
+* TrueBallot, Inc. Democratic Governance Systems - information about electronic voting booth, vote-by-mail, and vote-by-phone products 
+* Surveys International - manufactures a double-sided, full-face ballot DRE, plus an electronic "Optical Mark" version of the now infamous punchcard Votomatic system 
+* Millennium Technology Inc. - "specializes in state of the art, electronic voting systems which are custom designed for corporations and municipal governments" 
+* DRS Data & Research Services plc 
+* Reply Wireless Response Systems - "The Reply family of audience response/voting products is used for small and large group voting" 
+* Voting Solutions - vendor of a program for processing choice voting (STV) and other ranked-ballot elections (such as IRV) 
+---------------------------------------------------------------------
+Last updated 21 October 2004 (last major update November 2003) by Lorrie Faith Cranor
+http://lorrie.cranor.org/voting/hotlist.html
+

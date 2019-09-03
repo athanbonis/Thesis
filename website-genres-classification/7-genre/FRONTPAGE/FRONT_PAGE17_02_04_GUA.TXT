@@ -1,0 +1,281 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home	    	  	  	 Archive search	    	  	  	 Arts	    	  	  	 Books	    	  	  	 Business	    	  	  	 Education	    	  	  	 Film	    	  	  	 Football	    	  	  	 Jobs	    	  	  	 Life	    	  	  	 Media	      
+Money	    	  	  	 Observer	    	  	  	 Online	    	  	  	 Politics	    	  	  	 Shopping	    	  	  	 Society	    	  	  	 Sport	    	  	  	 Talk	    	  	  	 Travel	    	  	  	 UK news	    	  	  	 World news	 
+ 	 Search this site	 
+Archive search    	     
+Today's picks		 
+- David Aaronovitch: Was I wrong about Iraq?
+- Martin Kettle: Why Tony Blair fears President Kerry
+- Melissa Auf Der Maur, the Kevin Bacon of rock
+This week 
+- Win a trip to Peru and round-the-world tickets
+- Your guide to the Six Nations
+- All you need to know about PC security
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- George Monbiot
+- Zoe Williams
+- David Walker
+- Martin Kettle
+- Linda Polman
+- Mary Kenny
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+Crossword
+Diary
+G2
+Feedback
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+In pictures
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Tuesday February 17 2004 	
+               
+   
+* Vodafone withdraws from bidding war for AT&T Wireless
+* Disney turns down £35bn Comcast offer
+* Police to be given new data protection guidelines on storing information on suspects
+* House prices rise as demand outstrips supply    
+          
+Diploma on the cards for 14 to 19s
+School curriculum review recommends replacing A-levels and GCSEs with an overarching diploma.
+Teachers welcome proposals
+Comment: Donald MacLeod
+Key points of the report
+Interview: Mike Tomlinson
+Talk about it
+Special report: The baccalaureate
+EducationGuardian.co.uk	
+ 	
+Blair holds EU migration brainstorm
+PM summons ministers to hammer out government policy ahead of May 1 accession.
+Special report: European integration
+Guardian Unlimited Politics	
+ 	
+Death at the salon
+Julie Bindel talks to Rena Salmon, the 'beauty salon killer' who shot dead her husband's pregnant mistress.
+Special report: crime	
+ 	
+Audio | Email services | Interactive guides | Weblog | Steve Bell | Comment | Talk | Crossword	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+New best friends
+Berlin dispatch: With two visits to Berlin in less than a week, Tony Blair appears to be getting cosy with Gerhard Schröder, notes Luke Harding.
+Matthew Tempest: Three's a crowd
+More exclusive reports from our foreign correspondents	
+ 	
+Police to be given new data guidelines
+UK: Police are to be issued with new guidelines on how to use and store information on suspects in accordance with the Data Protection Act, it emerged today.
+Records lost for fear of data law, say police
+Special report: child protection
+More UK news	
+ 	
+Vodafone quits AT&T race
+Business: Mobile phone giant pulls out of bidding war for US company. 
+Special report: mobile phones
+More business news	
+ 	
+Saudi terrorist attack imminent, Foreign Office says
+World: Terrorists could be in the final stages of planning an attack on Saudi Arabia, the Foreign Office warned last night. 
+Special report: Saudi Arabia
+More world news	
+ 	
+Dishing the dirt
+US elections: The media storm over John Kerry's alleged affair is just another example of the journalist playing the role of the propagandist, write Albert and John Scardino.
+Leader: It's Bush, stupid
+Timeline: the race for the White House
+Weblog: US Vote 2004
+Special report: US elections 2004	
+ 	
+Nuts about Cocoa
+Travel: The limpid waters, delectable seafood and impeccable service at Cocoa Island leave Gwyn Topham quietly ecstatic.
+Guardian Unlimited Travel	
+ 	
+Disney turns down Comcast offer
+Media: The directors of US media giant Disney have rejected the £35bn offer made last week by cable company Comcast.
+MediaGuardian.co.uk	
+ 	
+Paying to drive
+Interactive: London's congestion charge zone is a year old. Our graphic shows what it is and how it works.
+More interactive guides	
+ 	
+Cutting back
+Press review: What the UK papers had to say about Oliver Letwin's proposed cuts in public spending.
+Tories' strategy for power
+Can he pull it off? Our panel assesses Letwin's speech
+Special report: the Conservative party	
+ 	
+Oil cash funded campaigns
+Special investigation: Money siphoned from Iraq UN deals handed on to pressure groups run by Galloway and Dalyell.
+How Iraqi oil fuelled UK campaigns
+Special report: politics and Iraq	
+ 	
+Monbiot quits anti-war coalition over threat to Greens
+Politics: Blow to anti-war coalition Respect as cofounder George Monbiot resigns over decision to fight seats against Greens.
+Guardian Unlimited Politics	
+ 	
+FSA cracks down on shoddy advertising
+Money: The Financial Services Authority was forced to order changes to more than 70 misleading advertising campaigns over the last six months.
+Guardian Unlimited Money	
+ 	
+Aid agencies warn of Haiti crisis
+Society: A humanitarian crisis is looming in Haiti, which is on the brink of a civil war, say aid agencies.
+SocietyGuardian.co.uk	
+ 	
+Gene cheats: the new risk posed to world sport
+Sport: Gene therapy that could treat muscular dystrophy could be hijacked by 'genetically enhanced' athletes, scientists warn. 
+Special report: ethics of genetics
+Guardian Unlimited Sport	
+ 	
+Suspected Viking burial fills a hole in English history
+Art: Swords, ship nails and a silver Baghdad coin found in a Yorkshire field. 
+Guardian Unlimited Arts	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+-Events & offers		 
+- Win a trip to Peru and round-the-world tickets
+- Write topical haiku and win Penguin classics
+- Win a long weekend in the Loire valley
+Information		 
+- Contact us
+- Feedback
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2004
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

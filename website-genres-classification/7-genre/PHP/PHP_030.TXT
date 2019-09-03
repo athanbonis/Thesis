@@ -1,0 +1,60 @@
+
+=====================================================================
+Frank Moore's Web Page
+=====================================================================
+ 
+Frank Moore's Webpage
+Hellllloooo! I am just beginning my third year as a graduate student in mathematics at the University of Nebraska. My research interests are in commutative algebra, in particular the homological algebra of commutative rings, and I am working under the direction of Lucho Avramov. Below are a few neat math links and also links to my notes and homework sets in some of the classes that I have taken. In addition, there are links to the current courses I am teaching.
+Schedule
+Here is what my course schedule looks like for Summer 2004. As you can see, I have lots of time to read papers this summer!
+Monday 	Tuesday 	Wednesday	 Thursday 	Friday 	
+8:30 - 9:00	 &nbsp	 &nbsp	 &nbsp	 &nbsp	 &nbsp	 
+9:00 - 9:30	 
+10:00 - 10:30	 
+10:30 - 11:00	 
+11:00 - 11:30	 
+11:30 - 12:00	 
+12:00 - 12:30	 
+12:30 - 1:00	 
+1:00 - 1:30	 Math 918  
+Representation Theory
+Bessey Hall 108	 Math 918  
+Representation Theory
+Bessey Hall 108	 Math 918  
+Representation Theory
+Bessey Hall 108	 Math 918  
+Representation Theory
+Bessey Hall 108	 
+1:30 - 2:00	 
+2:00 - 2:30	 
+2:30 - 3:00	 
+3:00 - 3:30	 
+3:30 - 4:00	 &nbsp 	&nbsp 	&nbsp 	&nbsp 	
+4:00 - 4:30	 
+4:30 - 5:00	 
+Courses I Have Instructed
+Below is a list of the classes that I have taught. I also tought three Math 106 Recitations last year, but I didn't have a webpage for those classes. I am not teaching this academic year in order to focus on research.
+ Class Webpages 
+* Math 100A (Fall 2003) 
+* Math 100A (Spring 2004) 
+Math Links
+www.planetmath.org 
+Neat startup, especially cool because anyone can contribute and it's open source.
+mathworld.wolfram.com 
+Also cool, but not open source.
+www.commalg.org 
+A neat Commutative Algebra site maintained by Graham Leuschke(UNL Alum, University of Syracuse), Sean Sather-Wagstaff (visiting at UNL), and Moira McDermott (Gustavas Adolphus College and has a great mathy site of her own).
+Class Notes and Projects
+Algebra 901 and 902 (from Lang's Algebra, and a fair bit from Atiyah and Macdonald's Introduction to Commutative Algebra once we were into 902)
+Topics in Algebra - Cryptography (from Koblitz's A Course in Number Theory and Cryptography) 
+Papers
+The papers listed below stem from my honors thesis that I did for my Honors Mathematics degree at the University of Texas at Arlington under the direction of Dave Jorgensen. Eventually I will have links to stuff pertaining to my thesis here, but that is at least a year away. 
+Essential intersections and vanishing (co)homology, (with D. Jorgensen) Preprint 
+* ps or pdf 
+Building Modules with Prescribed Cohomological Support Set, (with D. Jorgensen) Preprint 
+* dvi or pdf 
+What Springer-Verlag GTM are you?
+If I were a Springer-Verlag Graduate Text in Mathematics, I would be Frank Warner's Foundations of Differentiable Manifolds and Lie Groups.
+I give a clear, detailed, and careful development of the basic facts on manifold theory and Lie Groups. I include differentiable manifolds, tensors and differentiable forms. Lie groups and homogenous spaces, integration on manifolds, and in addition provide a proof of the de Rham theorem via sheaf cohomology theory, and develop the local theory of elliptic operators culminating in a proof of the Hodge theorem. Those interested in any of the diverse areas of mathematics requiring the notion of a differentiable manifold will find me extremely useful. 
+Which Springer GTM would you be? (Thanks Steve for the link) The Springer GTM Test
+

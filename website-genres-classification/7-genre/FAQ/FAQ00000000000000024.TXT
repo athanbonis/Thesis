@@ -1,0 +1,27 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 
+   Subject: C5) Why don't we try to destroy tropical cyclones by adding a water absorbing substance ?:
+ "Dyn-O-Gel" is a special powder (produced by Dyn-O-Mat) that absorbs large amounts of moisture and then becomes a gooey gel. It has been proposed to drop large amounts of the substance into the clouds of a hurricane to dissipate some of the clouds thus helping to weaken or destroy the hurricane. 
+At HRD we tried the one possible way that "Dyn-O-Gel" could weaken a hurricane in the MM5 numerical model. We saw an effect but it was small (~1 m/s). The argument was that the glop would make raindrops lumpy (i. e., non-aerodynamic) they would fall slower and increase condensate loading, thus weakening the eyewall updraft. If, by contrast, one increases the fall speed of the hydrometeors, the storm strengthens (again by only ~1 m/s). In the numerical experiments "decrease" meant reduce the fall velocity to half the real value, and "increase" meant double the real value. The foregoing effect is larger than anything one could hope to produce in the real atmosphere. 
+The observation that the experiment that Dyn-O-Gel  conducted actually "dissipated" clouds is problematic. Did they watch any unmodified clouds ? Isolated Florida cumuli have short lifetimes, and these are just the ones an experimenter would logically pick. 
+Accepting for the sake of argument that they actually did have an effect, the descriptions seem more consistent with an increase in hydrometeor fall speed and accelerated collision coalescence, which the numerical model results argue would strengthen the hurricane, but not much. If this speculation proves to be correct, Dyn-O-Gel might be useful for rainmaking during a dry spell, unlike glaciogenic seeding which (in the tropics at least) tends to make rainy days even more rainy--if it does anything at all. 
+One of the biggest problems is, however, that it would take a LOT of the stuff to even hope to have an impact. 2 cm of rain falling over 1 square kilometer of surface deposits 20,000 metric tons (tons) of water. At the 2000-to-one ratio that the Dyn-O-Gel folks advertise, each square km would require 10 tons of goop. If we take the eye to be 20 km in diameter surrounded by a 20km thick eyewall, that's 3,769.91 square kilometers, requiring 37,699.1 tons of Dyn-O-Gel. A C-5A heavy-lift transport airplane can carry a 100 ton payload. So that treating the eyewall would require 377 sorties. A typical average reflectivity in the eyewall is about 40 dB(Z), which works out to 1.3 cm/h rain rate. Thus to keep the eyewall doped up, you'd need to deliver this much Dyn-O-Gel every hour-and-a-half or so. If you crank the reflectivity up to 43 dB(Z) you need to do it every hour. (If the eyewall is only 10 km thick, you can get by with 157 sorties every hour-and-a-half at the lower reflectivity.)" Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

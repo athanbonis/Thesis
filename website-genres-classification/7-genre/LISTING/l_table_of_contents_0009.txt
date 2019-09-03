@@ -1,0 +1,67 @@
+
+=====================================================================
+HTML 2.0: Forms and Obscurities: Table of Contents
+=====================================================================
+ 
+HTML 2.0: Forms and Obscurities
+ Table of Contents 
+---------------------------------------------------------------------
+This tutorial is the sequel to a more basic tutorial, Introduction to HTML, which is meant for people who don't yet know HTML-- so if that describes you, go there first. If you're past an introduction and are looking for information on tables, text color, backgrounds, and other nifty things, try HTML 3.2: Here's Wilbur!. 
+If you have created a link to this tutorial, please take a moment to review the copyright notice, especially the registration section. Thank you! 
+---------------------------------------------------------------------
+Contents
+* Foreword 
+* Introduction 
+* Requirements 
+1.  Latin-1 Character Entities 
+2.  Background 
+3.  Text Entities 
+4.  Numeric Entities 
+5.  Even More Style Tags 
+6.  Logical Style Tags 
+7.  Preformatted Text 
+8.  Even More Header Elements 
+9.  BASE HREF 
+10. META 
+11. Forms Theory 
+12. Where The Data Goes... 
+13. No Two Names Alike 
+14. And Then... 
+15. The FORM Tag 
+16. Forms: INPUT, Part I 
+17. INPUT 
+18. Text INPUT 
+19. Password INPUT 
+20. Forms: INPUT, Part II 
+21. Radio Buttons 
+22. Checkboxes 
+23. Loading Your Questions 
+24. Forms: SELECT 
+25. SELECT 
+26. OPTION Tags 
+27. The SIZE Attribute 
+28. The MULTIPLE Attribute 
+29. SELECTED 
+30. Forms Cleanup 
+31. TEXTAREA wrap 
+32. INPUT Redux 
+33. Hidden 
+34. Submit and Reset 
+35. Speaking of Values... 
+* Conclusion 
+* Acknowledgements 
+* Appendices 
+* A. Tag Summary 
+* B. Example Form 
+* C. References 
+* Glossary 
+* Index 
+---------------------------------------------------------------------
+Next -- Foreword 
+Glossary 
+Index 
+Search tutorial 
+Tutorial FAQ 
+Accolades for this tutorial 
+Feedback 
+Eric A. Meyer -- About this server -- Copyright CWRU & Eric A. Meyer -- Unauthorized use prohibited 

@@ -1,0 +1,109 @@
+
+=====================================================================
+Jon-Lark Kim's World
+=====================================================================
+    
+(sitting in a blue uniform in the first row. I miss  NoSoYaDae )
+Research Assistant Professor 
+Jon-Lark Kim 
+The University of Nebraska, Lincoln, 
+The Department of Mathematics 
+810 Oldfather Hall, 
+Lincoln, NE, 68588-0323
+Office : 936 OldH  Tel (402) 472-7253,  Fax (402) 472-8466 
+Email :   jlkim@math.unl.edu 
+---------------------------------------------------------------------
+Ph. D in Math from the University of Illinois at Chicago, May 2002
+Recent photos 
+        1 2 at  the desert of Arizona from 3/10 -3/16, 2000 
+        3 5 6 7 8  at Yamagata University from 10/2-10/4, 2000 
+        9 10 11   at Zao Onsen, Yamagata from 10/5-10/8. 2000 
+        12  at Dongwoo's birthday, Jan. 13, 2001 
+        13  14 at Oaxaca, Mexico, May, 2001 
+        more photos at Allerton house at Urbana-Champaign, May, 2002 
+        15  at Charlottesville, May 24, 2003 
+---------------------------------------------------------------------
+Teaching (Spring, 2004)
+(1) Graph Theory (Math 452) , MWF, 9:30-10:20 at M&N 206 ( course information ) 
+Textbook : Introduction to Graph Theory by D. West, Second Ed., Prentice Hall, 2000. (Same as Math 852) 
+(2) Calculus III (Math 208), MWRF, 11:30-12:20 at HENZ 201 ( course information ) 
+---------------------------------------------------------------------
+Coding Theory Seminar (Every Tuesday 2:30-3:20 pm at Oldfather 207). If you are willing to give a talk, please let me know. We also welcome outside speakers too.
+---------------------------------------------------------------------
+Teaching (Fall, 2003)
+(1) Combinatorics (Math 850) , MWF, 9:30-10:20 at M&N B7 ( course information ) 
+Textbook : Combinatorics : Topics, Techniques, Algorithms, by Peter J. Cameron, First Ed., Cambridge University Press, 1994. 
+References : 
+1. Introductory Combinatorics by Richard A. Brualdi, 
+2. A Course in Combinatorics by Van Lint and Wilson 
+(2) Calculus III (Math 208), MWRF, 12:30-1:20 at Oldfather Hall 204 ( course information ) 
+---------------------------------------------------------------------
+Teaching (Summer (July 14 - Aug 15), 2003)
+(1) Topics in Algebra : Number Theory and Cryptography (Math 918), MTWR, 1:15-3:15 at BH 108. 
+Textbook : A course in Number Theory and Cryptography by Neal Koblitz, Springer-Verlag. This book should be available at the Union Bookstore. 
+References : 
+1. Introduction to Cryptography with Coding Theory by Lawrence C. Washington, Wade Trappe 
+2. Cryptography: Theory and Practice (Discrete Mathematics and Its Applications) by Douglas R. Stinson (Hardcover) 
+3. Elliptic Curves: Number Theory and Cryptography by L.C. Washington (useful for Elliptic Curve Cryptosystem) 
+4. Handbook of Applied Cryptography by Alfred J. Menezes, et al
+Assignment I, II, III (due 8/4/03) 
+---------------------------------------------------------------------
+Area of Interest :
+Discrete Math/Combinatorics with applications to Algebraic Coding Theory. Number Theory with applicatons to Cryptography 
+ Curriculum Vita (pdf file) 
+Thesis Advisor : Vera Pless 
+Thesis Title : CONSTRUCTION OF NEW SELF-DUAL CODES AND QUANTUM CODES AND THEIR CONNECTIONS,  Summary of Thesis (full version available by request) 
+---------------------------------------------------------------------
+ List of Publications
+---------------------------------------------------------------------
+ Selected Talks
+  20. The math department talk at the Wright State University at Dayton (Feb. 23, 04) 
+  19. The math department talk at the University of Wyoming at Laramie (Feb. 19, 04) 
+  18. The math department talk at the WPI (Worcester Polytechnic Institute), (Feb. 17, 04) 
+   What color is my hat? talk for undergraduate students. slide (ps) 
+  17. The math department talk at the University of Virginia at Charlottesville (Feb. 7, 04) 
+  16. The 2003 Mathematics of Public-Key Cryptography, at the University of Illinois - Chicago (Nov. 7-9, 03) 
+   on ``Code-based public-key cryptosystems'', slide (pdf) 
+  15. Fall 2003 Department Colloquium (Oct. 23, 2003) at the University of Nebraska - Lincoln, 
+      on ``Codes, Graphs, and Generalized Polygons.''
+  14. The 2003 AMS sectional meeting at the University of Colorado, Boulder (Oct 2-4, 03) 
+   on ``Nonbinary quantum error-correcting codes from algebraic curves''. 
+  13. The conference and Workshop on Coding theory and Quantum Computing (May 20-24, 03) at the University of Virginia, Charlottesville, 
+   on ``Nonbinary Quantum Error-Correcting Codes from Algebraic Curves''. 
+  12. The seventh conference on Finite Fields and Applications (May 5-9, 03), Toulouse, France, 
+   on ``Projections of binary linear codes onto larger fields''. 
+  11. One hour talk (April, 14, 03) at the department of Mathematics, Smith College, 
+   on ``Codes on grphas''. 
+  10. Two one hour talks (1/6-1/7, 03) at Postech, 
+   on ``Codes on graphs'' and ``cyclic codes and exponential sums''. 
+  9. The 40th Allerton  Conference on Communication, Control, and Computing (10/2-10/4, 02) at Allerton, IL,
+   on ``Dual cyclic codes with two zeros&#8217;&#8217;.
+   8. Special department colloquium (4/30, 02) at Iowa State University, IA, 
+      on ``Application of exponential sums to coding theory.'' 
+   7. The 969th Amer. Math. Soc. central section on Codes and Designs  (9/21 -23, 01) at Columbus, OH, 
+     on ``Assmus-Mattson theorem on additive codes over GF(4)''. 
+  6. International Symposium on Information Theory,  (6/24-6/29, 01) at Washington DC, 
+     on ``New good Hermitian self-dual codes over GF(4)''. 
+  5. The 6th International Conference on Finite Fields and Applications  (5/21 -25, 01) at Oaxaca, Mexico, 
+    on ``New self-dual code over GF(4) with the highest known minimum weights''. 
+  4. International Workshop on Combinatorics, 12th Franco-Japanese Conference (Oct.5 - 8, 00) at Zao, Yamagata, Japan, 
+   on ``New extremal Type I codes over GF(4)''. 
+  3. Codes, Lattices, Modular Forms, and VOA (Oct.2 - 4, 00) at Yamagata Univ., Japan, 
+    on ``Additive self-dual codes over GF(4) and lattices''. 
+  2. Com2Mac  (7/3 - 7, 00) at Postech in Korea, 
+   on ``A method to build up binary self-dual codes''. 
+  1. The XXVth Ohio State-Denison conference (5/18 - 21, 00) at OSU, 
+   on ``New extremal self-dual codes of lengths 36,38, and 58''. 
+Coming Conferences 
+    1.  Joint AMS-SMM International Meeting, Special Session on "Coding Theory and Cryptography" (May 13-15, 2004) at Houston, TX. 
+    2.  2004 IMA PI Summer Program for Graduate Students on "Coding and Cryptography" (June 8-26, 2004) at the University of Notre Dame. 
+    3.  2004 IEEE International Symposium on Information Theory (June 27- July 2, 2004) at Chicago Downtown, IL. 
+    4.  2004 Com2Mac Conference on "Association Schemes, Codes, and Designs" (July 19-23, 2004) at Pohang, Korea. 
+---------------------------------------------------------------------
+ Favorate Links
+Yahoo(Search engine) Coding People | Jaffe | Harada |  Munemasa |  Betsumiya Best Minimum Distance of [n,k] codes over GF(q) MathSciNet Search | The Mathnet Korea MAGMA(useful in coding programming) |  GAP POSTECH | Com2Mac at Postech | Postech Alumni | PosMath 89 | KGSA Dongailbo |  Hangyere | Young-Hoon Kiem(Yale) | Hanjin Lee(Columbia) Math Genealogy | Rankings of Mathematics Programs Soccer in SNU(NoSoYaDae) U. of Kentucky ,  AT&T Labs Journals and books on Discrete Math. Joyner's Maple Programs 
+---------------------------------------------------------------------
+ Essay(Korean) 
+ Novel(Korean) 
+ last modified : 8/22/2003 
+

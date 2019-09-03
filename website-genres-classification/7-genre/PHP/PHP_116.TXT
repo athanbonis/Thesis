@@ -1,0 +1,22 @@
+document.write("" + day + month); document.write(myweekday + ", " + year + ""); 
+About me	 My hometown	 
+Photo Album	 My Malaysia	 
+Links	 My Location	 
+View Guestbook 1 | Sign Guestbook 1
+View Guestbook 2 |View Guestbook 3| Sign Guestbook 2 
+---------------------------------------------------------------------
+Got your own Homepage? Rate your Homepage. Know how good your website is! 
+  
+---------------------------------------------------------------------
+"Search for Malaysia Web site"
+ Searching Guide
+ List by Category 
+Case Sensitive 
+"Search for person"
+ Searching Guide
+ Case Sensitive 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+This page hosted by Get your own Free Home Page 
+  Last update : Saturday, May 25, 2002
+

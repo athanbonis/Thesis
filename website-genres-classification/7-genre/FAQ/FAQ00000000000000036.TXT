@@ -1,0 +1,24 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Winds Page | Back to Main FAQ Page 
+Subject: D9) What causes each hurricane to have a different maximum wind speed for a given minimum sea-level pressure ? 
+The basic horizontal balance in a tropical cyclone above the boundary layer is between the sum of the Coriolis 'acceleration' and the centripetal 'acceleration', balanced by the horizontal pressure gradient force. This balance is referred to as gradient balance, where the Coriolis 'acceleration' is defined as the horizontal velocity of an air parcel, v, times the Coriolis parameter , f. Centripetal 'force' is defined as the acceleration on a parcel of air moving in a curved path, directed toward the center of curvature of the path, with magnitude v2/r, where v is the horizontal velocity of the parcel and r the radius of curvature of the path. The centripetal force alters the original two-force geostrophic balance and creates a non-geostrophic gradient wind. The reason that different peak winds can result in different central pressures is caused by the fact that the radius, r, of the peak wind varies. A storm with 40 m/s peak winds with a 100 km RMW will have a much lower pressure drop than one with a 25 km RMW. 
+Back to Tropical Cyclones Winds Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

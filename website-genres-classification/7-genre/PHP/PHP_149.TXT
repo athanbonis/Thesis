@@ -1,0 +1,49 @@
+
+=====================================================================
+www.rjcarpenter.com
+=====================================================================
+ function SwitchMenu(obj){ if(document.getElementById){ var el = document.getElementById(obj); var ar = document.getElementById("cont").getElementsByTagName("DIV");  if(el.style.display == "none"){   for (var i=0; i 
+Home
+Web Log
+Ron
+Ron's Page
+E-Mail Ron
+Ron's Pictures Beth
+Beth's Page
+E-Mail Beth
+Beth's Pictures RJ
+RJ's Page
+RJ's Pictures
+RJ's Art
+Video of RJ Baby
+Pictures
+Ron's Gallery
+Beth's Gallery
+RJ's Gallery
+Baby's Gallery
+The Rons
+RJ's Art
+Bradford Family
+Carpenter Family
+McCartney Family
+Christmas 2003
+Easter 2004 Contact Us
+For our Friends
+E-Mail Ron
+E-Mail Beth Web Mail
+Welcome!
+I am all done updating the web site, complete with a new menu! This should help the pages load faster for those of you using a dial up connection. 
+For baby updates please visit the baby's page.
+Our TV is on the fritz, and we are in dire need of a new one. If you would like to donate to our cause, please let me know.
+We have new video of the boy. For a full size version (3M), please ask me and I will send it to you.
+ 
+E-Mail Ron	 
+E-Mail Beth 	
+"It cannot be emphasized too strongly or too often that this great nation was founded not by religionists but by Christians, not on religions but on the Gospel of Jesus Christ." Patrick Henry
+"We have staked the whole of all our political institutions upon the capacity of mankind for self-government, upon the capacity of each and all of us to govern ourselves, to control ourselves, to sustain ourselves according to the Ten Commandments of God." James Madison, the fourth president, known as "The Father of Our Constitution"
+Questions? Comments. Concerns! E-mail the WEBMASTER.
+This site was last updated aturday, July 10, 2004
+"A family is a unit composed not only of children but of men, women, an occasional animal, and the common cold." 
+Ogden Nash
+© 2004 www.rjcarpenter.com. Content rights reserved.
+

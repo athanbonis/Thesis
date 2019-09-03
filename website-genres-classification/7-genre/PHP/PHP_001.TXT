@@ -1,0 +1,33 @@
+
+=====================================================================
+Nguyen Quang Huy's Homepage 
+=====================================================================
+Nguyen Quang Huy
+PhD in Computer Science
+PROTHEO group - LORIA & INRIA Lorraine (until August 2003)
+I have moved to Formal Methods & Security Group
+ (Schlumberger Advanced Research on Smartcards)
+ 		
+---------------------------------------------------------------------
+Contact Address 
+LORIA 
+BP 219, 54600 Villers-lès-Nancy 
+FRANCE 
+Office: 
+Mobile: 
+Office: 
+Quang-HuydotNguyenatloriadotfr 
+Research Interests 
+Formal methods 
+Term rewriting & Rewriting calculus 
+Theorem proving & Type theory 
+Software 
+An ELAN-based tactic for AC rewriting in Coq is available here 
+A Coq/ELAN interface for equational reasoning in Coq is available here 
+Publications 
+PhD dissertation 
+CV (and here is a printer-friendly version) 
+Wanna see my son ?
+---------------------------------------------------------------------
+Last Modified on May 2004	 Readlog	 
+

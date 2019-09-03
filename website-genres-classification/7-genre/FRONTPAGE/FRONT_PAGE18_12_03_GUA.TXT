@@ -1,0 +1,262 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Rebecca Blood on the weblog phenomenon
+- Libby Brooks: Does guilt drive people to charity at Christmas?
+- David McKie: Sermon from the rectory
+This week
+- Best books of 2003
+- Observer Music Monthly
+- Nominate your article of the year
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- David Hart
+- Martin Kettle
+- Jackie Ashley
+- Johnjoe McFadden
+- Madeleine Bunting
+- David McKie
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Thursday December 18 2003 	
+Blunder after blunder
+Ian Huntley could have been stopped if vetting worked.
+Leader: Accounting for Huntley
+Failures let caretaker slip through net
+Police own up to flaws
+Lies hid a violent, bitter man
+Huntley's past
+Special report: Soham murder trial	
+ 	
+'You showed no mercy'
+Hushed courtroom hears Soham trial verdicts. 
+Maxine Carr: a skilful alibi provider
+Blake Morrison: what did Carr know?
+Comment: Martin Kettle
+How Huntley mixed it with media
+Timeline: Soham trial day-by-day	
+ 	
+The best of British blogging
+Simon Waldman hands out the accolades for this year's Guardian weblog awards. 
+Full list: the winners
+Special report: weblogs	
+ 	
+ 	
+ Christmas charity appeal | Crossword | Cartoons | Steve Bell | Martin Rowson | Interactive guides | Comment | Weblog | Talk | Audio | Email services	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Lift services, but not tax, town halls told 
+Society: Government puts further pressure on town halls to cut spending and curb council taxes Audit Commission report shows that authorities improved services in past year. 
+Interactive: full council league tables
+Explained: how the tables were compiled
+SocietyGuardian.co.uk	
+ 	
+Blood recipients may be barred from donating
+UK: Transfusion may have given vCJD victim the disease.
+Special report: BSE and CJD
+More UK news	
+ 	
+Israelis shoot dead four 'militants'
+World: Israeli soldiers killed four suspected Palestinian militants during gun battles in the West Bank city of Nablus early today.
+Special report: Israel & the Middle East
+More world news	
+ 	
+Listeners warned radio station over Soham comments
+Media: The Shropshire radio station being investigated by the attorney general for its reporting of the Soham murder trial was told by its own listeners it could be risking contempt of court.
+MediaGuardian.co.uk	
+ 	
+Blunkett defies Labour rebellion on asylum bill
+Politics: The home secretary, David Blunkett, yesterday beat off a sizeable backbench rebellion over his latest asylum plans.
+Special report: refugees
+Guardian Unlimited Politics
+SocietyGuardian.co.uk	
+ 	
+Royal Society warns on science education
+Education: Falling pupil and teacher numbers 'disastrous for Britain's future'.
+EducationGuardian.co.uk	
+ 	
+World's worst musical set to take West End by storm
+Arts: UK cast revealed for the show that captured New York.
+Guardian Unlimited Arts	
+ 	
+Angel helps banish the Blues
+Football: Villa put Chelsea out of Carling Cup as Spurs go out to Boro on penalties.
+Guardian Unlimited Football	
+ 	
+EC seeks boundless tax breaks
+Money: The European commission yesterday ordered four member states to change their tax laws to help create a pan-European market for pensions. 
+Guardian Unlimited Money	
+ 	
+Brown faces tax challenge
+Business: Forecaster says chancellor got his maths badly wrong in the pre-budget report.
+More business news	
+ 	
+Secularism gone mad
+Comment, Madeleine Bunting: Chirac's determination to ban Muslim headscarves from schools will cause years of confrontation.
+More comment	
+ 	
+A regional peace forecast
+Middle East dispatch: Palestinians and Israelis are weary of conflict. But in Iraq, it could be just beginning, writes Brian Whitaker.
+Andrew Osborn in Brussels: Fishermen v fish stocks
+More exclusive reports from our foreign correspondents	
+ 	
+A haven to rebuild damaged lives
+Christmas charity appeal: Nia Project offers hope to abused women. 
+More on the Christmas charity appeal	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+-Events & offers		 
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

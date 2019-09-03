@@ -1,0 +1,258 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Oliver James: The trouble with girls
+- Susan Sarandon: How I fell out with my mother
+- Andrew Rawnsley: How Labour lost its way
+This week
+- Iraq: memorial to the dead
+- Help us write a book on ethical living
+- Video: James Astill's report from Congo
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Julie Burchill
+- Mark Lawson
+- Judith Williamson
+- Smallweed
+- Martin Kettle
+- Chris Haskins and Kevin Watkins
+- Ian Mayes
+- Marina Hyde
+- John Newbury
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+Steve Bell
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Sunday June 01 2003 	
+Blair: I have secret proof 
+Prime Minister Tony Blair last night insisted he had secret proof that weapons of mass destruction will be found in Iraq.
+Focus: When spies meet spin...
+Leader: A question of trust
+Special report: Iraq
+Today's Observer in full	
+ 	
+Parent power boost in school reforms
+Too many schools in 'leafy suburbs' are coasting and failing to motivate students, according to new data from the Government. 
+EducationGuardian.co.uk
+Guardian Unlimited Politics	
+ 	
+'I'm a black player 100 per cent'
+In a revealing interview, Serena Williams talks about race and relationships - and how she realised she could eclipse her sister.
+Observer Sport Monthly	
+ 	
+Weblog | Interactive guides | Email services | Audio | Crossword | Talk | Steve Bell | Comment	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Labour morality guru compares fox-hunting to rape
+UK: Hunting is morally equivalent to rape, child abuse and torture, according to one of Britain's leading Christian experts, who is closely connected to Labour's religious establishment. 
+More UK news	
+ 	
+Row over water access boils over
+World:More than a billion people around the world have no clean water, leading to the death of a child every 15 seconds. Gaby Hinsliff and Mark Townsend report on the hot topic in Evian
+Special report: G8
+More world news	
+ 	
+Revealed: the cluster bombs that litter Iraq
+Iraq: The shocking extent of unexploded cluster bombs dropped by American and British planes, which litter Iraq eight weeks after the conflict, is revealed in detail for the first time today. 
+Talk about it
+Iraq: Observer special	
+ 	
+Henman fails to go the distance 
+Sport: The British No1 cannot cash in on a bright start as Ferrero hits back in crushing style.
+Guardian Unlimited Sport	
+ 	
+Big Brother is key to winning next election
+Politics: Politicians must learn from reality TV in battle to get voters off the sofa and into ballot booths.
+Talk: What can politics learn from Big Brother?
+Guardian Unlimited Politics	
+ 	
+Bryson books a wry look at the Arabs
+Books: The Arab world is lined up as the next target for the spectacularly popular sardonic travel writing of Bill Bryson. 
+Guardian Unlimited Books	
+ 	
+Let's vote for no vote
+Comment: A referendum on the European Convention would be daft. There are far bigger issues at stake, says David Aaronovitch 
+Special report: European integration	
+ 	
+Harvey's boss eyes Harrods
+Business: Harvey Nichols's owner, Dickson Poon, is eyeing Harrods with a view to controlling the two best-known British luxury retailers, virtually neighbours in London's Knightsbridge. 
+Tycoons join sale queue at Harrods
+More business news	
+ 	
+If you really want to know, ask a blogger
+Online: Print media practitioners are becoming increasingly exercised about 'blogging'. What are they frightened of, asks John Naughton 
+More from the Online team	
+ 	
+Hold the front page. We have a point to make
+Media: Broadsheets are borrowing a trick from the tabloids to great effect, writes Sarah Ryle.
+MediaGuardian.co.uk	
+ 	
+Can the Hulk cut it? Has Lara had her day? 
+Film: Now The Matrix has raised the blockbuster stakes, someone's sure to catch a summer cold.
+Guardian Unlimited Film	
+ 	
+Storm in paradise
+Travel: Euan Ferguson wasn't going to let a little thing like a cyclone spoil his dream holiday to the Indian Ocean - but the minibar bill was a different matter...
+Guardian Unlimited Travel	
+ 	
+The trouble with girls
+Review: For many girls now sitting GCSEs, being bright and pretty is not enough: they have to be the brightest and the prettiest. What drives this obsessive perfectionism? And how dangerous is it?
+Observer Review 	
+ 	
+The Worst Read
+Talk: Debate the issues on the web's liveliest talkboards.
+Are video games good for you?
+Has Everest become too crowded?
+Share your favourite Bob Hope jokes
+More discussions	
+ 	
+The War We Could Not Stop
+Guardian Books: The War We Could Not Stop: The Real Story of the Battle for Iraq is published by Guardian Books and Faber. To order a copy for £7.99 inc UK p&p, call 0870 066 7850	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Car hire	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live discussions		 
+- Wed June 4: Peter Oborne on Afghanistan
+- Fri Jun 6: euro debate with Larry Elliott and Will Hutton
+- More online chats
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+Events & offers		 
+- Win £1,000 to spend on art
+- Become a student brand manager
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

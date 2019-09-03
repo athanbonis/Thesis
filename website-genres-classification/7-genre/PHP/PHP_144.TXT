@@ -1,0 +1,16 @@
+
+=====================================================================
+benton lambert duncan
+=====================================================================
+ function box (boxname,menustate){ if (document.getElementById) {document.getElementById(boxname).style.visibility = menustate;} else {document[boxname].visibility = menustate} }  
+    	       
+teaching
+on this page you will find      information about my teaching      including my: a link to my math      106 page, a description of my      teaching philosophy, my schedule,      contact information, and teaching links
+vita, etc
+here you will find information      pertinent to my job search      such as my: curriculum vita,      teaching statement, research statement,      sample teaching documents,      preprints, and contact information      
+miscellany
+i have included here      some miscellaneous links and      information, including: pictures,      a short biography, and other stuff           
+research
+here is a discussion of      my current mathematical research      interests. in particular      a quick summary, an in-depth      research statement, current preprints      some research links and      my mathematical genealogy      
+benton lambert duncan   	    	    	
+

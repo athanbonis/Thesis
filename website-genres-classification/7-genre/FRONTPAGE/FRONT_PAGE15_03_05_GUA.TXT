@@ -1,0 +1,339 @@
+
+=====================================================================
+Guardian Unlimited
+=====================================================================
+       
+Skip to main content
+Read today's paper     function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  Sign in Register 	Go to: 
+Guardian Unlimited home
+UK news
+World news
+Newsblog
+----------------------
+Archive search
+Arts
+Books
+Business
+EducationGuardian.co.uk
+Film
+Football
+The Guide
+Jobs
+Life
+MediaGuardian.co.uk
+Money
+The Observer
+Online
+Politics
+Shopping
+SocietyGuardian.co.uk
+Sport
+Talk
+Travel
+----------------------
+Audio
+Email services
+Special reports
+The Guardian
+The northerner
+The wrap
+----------------------
+Advertising guide
+Crossword
+Soulmates dating
+Headline service
+Syndication services
+Events / offers
+Help / contacts
+Feedback
+Information
+GNL press office
+Living our values
+Newsroom
+Notes & Queries
+Reader Offers
+Style guide
+Travel offers
+TV listings
+Weather
+Web guides
+Working at GNL
+----------------------
+Guardian Weekly
+Money Observer
+Public
+ 	
+Best daily newspaper
+on the world wide web		
+Home	    	  	  	 Arts	    	  	  	 Books	    	  	  	 Business	    	  	  	 Education	    	  	  	 Feedback	    	  	  	 Film	    	  	  	 Football	    	  	  	 The Guide	    	  	  	 Jobs	    	  	  	 Media	      
+Money	    	  	  	 Newsblog	    	  	  	 Observer	    	  	  	 Online	    	  	  	 Politics	    	  	  	 Science	    	  	  	 Society	    	  	  	 Sport	    	  	  	 Travel	    	  	  	 UK news	    	  	  	 World news	 
+ 	 Search this site	 
+Archive search      	     
+  
+ 
+ 
+ 
+Today's picks		 
+- David Aaronovitch: Leave our abortion laws alone
+- Jeremy Rifkin: This time, science has gone too far
+- Clare Dyer on new rights for unmarried couples
+ 
+Blogs 
+- Newsblog
+- Onlineblog
+- Gamesblog
+- Guideblog
+- The Observer blog
+ 
+This week 
+- Budget 2005
+- Junk the junk food at your child's school
+- Hear Africa 05		
+ 
+How to use our RSS feeds
+ 	Digital Editions	  	
+ 
+ 	 Subscribe today 
+The Guardian 
+The Observer 
+Browse the demo	
+        
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Northerner
+The Wrap
+World news guide
+US elections 2004
+World dispatch
+Economic dispatch
+Issues explained
+ 
+- Comment, analysis, leaders, letters, diary, obituaries, corrections & clarifications
+- Martin Kettle
+- Joseph Stiglitz
+- Simon Tisdall
+- Jeremy Rifkin
+- Austen Mitchell
+- Zoe Williams
+- David Aaronovitch
+- Dina Rabinovitch
+- Marcel Berlins
+- Tanya Gold
+- Margaret McCartney
+- Analysis: Kirsty Milne
+- Diary: Marina Hyde
+- Columnists
+ 
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+- David Austin
+In pictures
+Crossword
+G2
+Feedback
+Friday Review
+Guardian Century
+Interactive guides
+News quiz
+Net notes
+Notes & Queries
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+ 
+Other sites 
+- Guardian Weekly
+- Money Observer		
+ 
+ 	  Tuesday March 15 2005 	
+               
+   
+* Black-cab passengers to get in-car TV    
+          
+NHS faces huge equal pay claims
+Unison wins the biggest ever equal pay award to compensate a group of underpaid women hospital workers, with some nurses receiving £200,000.
+Special report: gender issues
+SocietyGuardian.co.uk	
+ 	
+McGuinness warns McCartneys
+Martin McGuinness warns family of IRA murder victim not to be used as political pawns.
+Special report: Northern Ireland	
+ 	
+'Why you never should have died'
+In a letter to her husband, Nina Bawden recalls the aftermath of the Potters Bar train crash that killed him.
+Special report: transport in Britain	
+ 	
+Audio | Email services | Interactive guides | Newsblog | Steve Bell | Comment | Talk | Crossword	
+ 	
+More news and comment
+---------------------------------------------------------------------
+Meter's running for taxi TV
+Media: Black-cab drivers may be famous for their conversation, but passengers will soon be getting an alternative - in-car TV.
+MediaGuardian.co.uk	
+ 	
+'Angel sent from God' wins surrender of gunman
+World: Police praise Atlanta hero's courage and negotiating skills.
+Timetable of manhunt 
+Special report: United States
+More world news	
+ 	
+Cabinet to sacrifice ID cards
+Politics: Government resigned to losing ID card bill but will fight to save gambling reforms.
+Winners and losers
+Special report: identity cards
+Guardian Unlimited Politics	
+ 	
+Support Tories over abortion, cardinal tells Catholics
+UK: The head of the Catholic church in England and Wales breaks with tradition by questioning Labour policy.
+Comment: Zoe Williams
+Special report: gender issues
+More UK news	
+ 	
+Brown to lift stamp duty threshold
+Money: Gordon Brown to raise the threshold for stamp duty as a populist measure aimed at helping first-time buyers. 
+Special report: Budget 2005
+Guardian Unlimited Money	
+ 	
+Finance chiefs are must-have purchase
+Business: M&S and Sainsbury's both appoint new money men while Boots is left with a vacancy in the boardroom.
+Special report: Marks & Spencer
+More business news	
+ 	
+Lack of care costs stroke victims' lives
+Society: About 5,000 people die prematurely each year after a stroke, the Stroke Association estimates.
+Special report: medicine and health
+SocietyGuardian.co.uk	
+ 	
+Lions fears as Wilkinson out for 10 weeks 
+Sport: Jonny Wilkinson's chances of touring New Zealand with the Lions are all but over.
+Comment: Robert Kitson
+Guardian Unlimited Sport	
+ 	
+Savage walks out on Wales
+Football: Robbie Savage decides to retire from international football after being told he will no longer be called up.
+Guardian Unlimited Football	
+ 	
+Software glitches hit hundreds of schools
+Education: Capita attacked as upgrade loses pupil records and timetables.
+EducationGuardian.co.uk	
+ 	
+Biker chick rides on to Orange prize longlist
+Books: A triumph of the skills of experience over the ambitions of youth is reflected in the Orange prize longlist.
+Extract: Billie Morgan by Joolz Denby
+Guardian Unlimited Books	
+ 	
+Permission to die
+Cartoon: Steve Bell on the army's treatment of its recruits.
+More cartoons by Steve Bell	
+ 	
+Back to hell
+Film: Raoul Peck explains why he wanted to revisit the Rwandan genocide in his new film, Sometimes in April.
+Special report: Rwanda
+Guardian Unlimited Film	
+ 	
+Dyson starts his Ball rolling
+Shopping: James Dyson's latest invention, the Ball, also known as the DC15, goes on sale tomorrow across the UK.
+Guardian Unlimited Shopping	
+ 	
+St Helena prepares to see the flights
+Travel: The fortunes of the sub-tropical island of St Helena are to be transformed by a new multi-million pound airport. 
+Special report: the airline industry
+Guardian Unlimited Travel	
+ 	
+Stubbs exhibition shows his human side
+Arts: The curator of a new exhibition is confident George Stubbs' reputation transcends his four-legged subject matter. 
+Guardian Unlimited Arts	
+ 	
+Guardian Student Media Awards 2005
+Awards: Your chance to nurture your talent and show that you've got what it takes to develop a media career.
+Comment: Amanda Platell	
+ 
+What you've been reading
+---------------------------------------------------------------------
+ 
+A selection of the most popular articles on Guardian Unlimited, March 2 - 9.
+1) Buffett attacks American spending junkies 2) Necrophilia among ducks ruffles research feathers 3) Champions League: Chelsea v Barcelona 4) Champions League: Arsenal v Bayern 5) Robert Crumb: 'When I was four, I knew I was weird' 6) Terry carries Chelsea through 7) Champions League: Leverkusen v Liverpool 8) Outrage as US soldiers kill hostage rescue hero 9) Champions League: Milan 1-0 Manchester United 10) Italian hostage accuses US of trying to kill her
+Austin on ...
+... Cheltenham being named as the deadliest course for horses.
+Read the news story	
+ 
+ 
+ 
+ 
+ 	Services	  	
+ 
+ 	 -  Ad-free site 
+-  Crosswords 
+-  Digital editions 
+-  Email services 
+-  Text alerts & PDA 
+
+-  The Wrap	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+Sponsored features		 
+- How energy efficient are you?
+- Win a digital photography course
+- Win 2 tickets to a Lufthansa European destination		
+ 
+Events & offers		 
+- Go sea-kayaking on the west coast of Scotland
+- Win a box set of the R Crumb Handbook and signed print
+- Win Park Chan-Wook's Oldboy on DVD
+- Win a weekend in Scotland and Finding Neverland on DVD
+- Win a Sony PSP from Stuff Magazine
+- Get four free issues of the New Statesman with the Wrap
+- Win a four-star week for two in Cape Town
+- Free £15 Virgin Wines introductory voucher for registered users
+- The Lecture List
+- Send us a snap and win a Rough Guide
+- Write topical haiku and win Penguin classics		
+     
+Information		 
+- Contact us
+- Feedback
+- Press office
+- Reader offers
+- Living our values
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor		
+ 
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2005
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

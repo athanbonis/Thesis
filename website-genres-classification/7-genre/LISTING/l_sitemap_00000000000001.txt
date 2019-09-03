@@ -1,0 +1,353 @@
+
+=====================================================================
+eBay Site Map
+=====================================================================
+  
+  includeHost = 'http://include.ebaystatic.com/';    ebay.oDocument._getControl("headerCommon")._exec("writeStyleSheet");      ebay.oDocument._getControlEx("cobrandCollection")._exec("writeHeader");   
+ebay.oDocument._getControlEx("cobrandCollection")._exec("writeBrow");		
+home | payebay.oDocument._getControl("signIn")._exec("writeLink","register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US","","",false,true); | register  ebay.oDocument._getControl("signIn")._exec("writeLink","sign in","https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US","sign out","https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ssPageName=h:h:sout:US",false,true); | sign in/out | services | site map		ebay.oDocument._getControl("greetings")._exec("writePersonalHeader","Sign in","https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&ssPageName=h:h:sin:US", "register","http://cgi4.ebay.com/aw-cgi/eBayISAPI.dll?RegisterShow&ssPageName=h:h:reg:US", "Sign out","https://signin.ebay.com/ws/eBayISAPI.dll?SignIn",'Hello! ##1## or ##2##.','Hello, ##1##! (##2##.)','Hello, ##1##! (Not you? ##2##.)','Hello! Sign in/out.');Hello! Sign in/out.	
+Visit the new Beta Site Map 
+---------------------------------------------------------------------
+Buy
+· Buy
+· Themes
+· eBay Keywords
+· Stores
+· eBay Pulse
+· Categories
+ 	 
+ 	 Antiques | Art
+Automotive (eBay Motors)
+Baby
+Books
+Business & Industrial
+Cameras & Photo
+Cell Phones
+Clothing, Shoes & Accessories
+Coins | Collectibles
+Computers & Networking
+Consumer Electronics
+Crafts
+Dolls & Bears
+DVDs & Movies
+eBay Giving Works (Charity) 
+eBay Live Auctions 
+Entertainment Memorabilia
+Gift Certificates
+Health & Beauty
+Home & Garden
+Jewelry & Watches
+Music
+Musical Instruments
+Pottery & Glass
+Real Estate
+Specialty Services
+Sporting Goods
+Sports Mem, Cards & Fan Shop
+Stamps
+Tickets | Travel
+Toys & Hobbies
+Video Games
+Everything Else
+ 	 
+ 	
+ · Featured 
+· Big Ticket
+· Gallery
+· All Categories
+· New Today
+· Ending First
+· Popular Products
+· Completed Listings
+· General Category List
+· eBay Official Time
+Sell
+· Sell Your Item Form
+· Learn how to sell
+· Seller Central
+· Turbo Lister
+· eBay Selling Manager
+· eBay Seller's Assistant
+· eBay Solutions Directory
+· eBay Giving Works (Charity) 
+Search
+· Search for Items
+· Search Want It Now 
+· Search for Members
+· Search for a Trading Assistant
+· Favorite Searches
+· Item Specifics
+· Product Keywords 
+Help
+· Basics
+· Buyer Guide
+· Seller Guide
+· eBay Education
+· Your eBay Account
+· Invoicing and Payments
+· Rules & Safety
+· User to User eBay Q&A Board
+· Images/HTML Board
+· Is my item allowed on eBay?
+· eBay Toolbar 
+ 	 
+ 	 	 
+ 
+ Services
+· Services Overview
+· eBay Education: Learn all about eBay
+· Registration
+ 	 
+ 	 Register now
+Confirm registration
+I forgot my password
+I forgot my User ID
+ 	 
+ 	
+ · Buying and Selling	 
+ 	 
+Manage My Items for Sale
+Where is an item
+Revise my item
+Add to my item description
+Manage/Edit my Andale.com counters
+Promote your item
+Fix my gallery image
+Promote your listings with link buttons
+Cancel bids on my item
+End my listing
+Report an Unpaid Item
+Dispute Console
+Relist my item
+ Blocked Bidder/Buyer List
+Pre-approved Bidder/Buyer List
+Buyer Block Exemption List
+ View the status of all my cross-promotions
+ 
+PowerSeller Program
+Features and Benefits
+ 
+Seller Accounts
+Check my seller account status
+Make payments toward my account
+Select or choose a payment option for my eBay seller fees
+Sign up to use PayPal for seller fees
+Sign up/update eBay Direct Pay for seller fees
+Place or update my credit card on file with eBay
+Request final value fee credit
+Cash out your credit balance
+Change your billing currency
+View my PayPal account
+ 
+Selling Tools
+eBay Sales Reports 
+Turbo Lister
+eBay Selling Manager
+eBay Seller's Assistant
+Seller Services 
+eBay Solutions Directory 
+Shipping Calculator
+Shipping Education Center
+eBay Live Auctions 
+Trading Assistant Program
+eBay Giving Works (Charity) 
+ 
+Buyer Tools
+eBay Toolbar 
+eBay Solutions Directory
+My eBay - Buying
+eBay Anywhere Wireless
+PayPal for buyers
+Retract my bid
+Item Not Received or Significantly Not as Described Process
+Escrow
+eBay Anything Points 
+eBay Gift Certificates 
+eBay Giving Works (Charity) 
+Post to Want It Now 
+ 	 
+ 	
+ · My eBay	 
+ 	 All About My eBay
+Change my User ID
+Change my password
+Change my registration information
+Change my email address
+Change of E-mail Address Confirmation
+Add/Change my wireless email address
+Change my notification preferences
+Create my Secret Question and Answer
+Change my Secret Question and Answer
+Change my Checkout preferences
+Change my shipping addresses
+Change my cross-promotion preferences
+Upgrade to Selling Manager
+ 	 
+ 	
+ 	
+ · SafeHarbor (Rules & Safety)	 
+ 	 eBay Standard Purchase Protection Program
+Escrow services
+Authentication
+Investigations
+ID Verify
+SquareTrade
+ 	 
+ 	
+ · eBay Stores	 
+ 	 Learn About eBay Stores
+Open an eBay Store
+Manage/Edit my eBay Store
+Sell items within your store
+Upgrade your Store Subscription
+ 	 
+ 	
+ · eBay Affiliate Program	 
+ 	 Join the Program
+How It Works
+Toolbox
+Best Practices
+Community
+Help / Assistance
+ 	 
+ 	
+ · Refer a Friend	 
+ 	 Program Overview	 
+ 	
+ · Certified Provider Program	 
+ 	
+ · eBay Developers Program	 
+ 	 Business Benefits
+Developer Technology
+Membership
+News, Events, Training
+Options for Non-Developers
+ 	 
+ 	 	 
+ 
+ Community
+· Community Overview
+· News & Announcements
+ 	 
+ 	 Calendar
+ 	 
+ 	
+ · eBay Groups
+· Regions
+· Consumer Panel
+· Answer Center
+· Discussion, Help and Chat
+ 	 
+ 	 
+eBay User to User Discussion Boards
+New to eBay Board
+The Front Porch
+The Homestead
+The Park
+eBay Town Square
+The Soapbox
+Night Owl's Nest
+eBay Live 2005
+Talk to others about your eBay Live experience, hopefully we will see you all in San Jose, in 2005.
+ 
+eBay Category-Specific Discussion Boards
+Animals | Antiques
+Art & Artists | Bears and Plush
+Book Readers | Booksellers | Business & Industrial
+Clothing, Shoes & Accessories | Coins & Paper Money
+Collectibles | Comics
+Computers, Networking & I.T.
+Cooks Nook | Dolls
+Decorative & Holiday
+eBay Motors | eBay Giving Works (Charity) 
+Health & Beauty
+Historical Memorabilia
+Hobbies & Crafts | Home & Garden
+Jewelry, Gemstones & Watches Discussion Board
+Motorcycle Boulevard | Movies & Memorabilia
+Music & Musicians | Needle Arts & Vintage Textiles | Outdoor Sports
+Photography | Pottery, Glass & Porcelain
+Real Estate & Timeshares | Science & Mystery | Services 
+Sports Cards, Memorabilia & Fan Shop
+Toys & Hobbies
+Travel, Vacation & Adventure
+Vintage Clothing & Accessories
+ 
+eBay Workshops
+Workshops board
+ 
+Community Help
+Auction Listings
+Bidding
+PayPal
+Checkout
+eBay Stores
+Escrow/Insurance
+Feedback
+International Trading
+Live Auctions 
+Miscellaneous
+My eBay
+Packaging & Shipping
+Photos/HTML
+Policies/User Agreement
+Registration
+Search
+Seller Central 
+Technical Issues
+Tools - SA Basic
+Tools - SA Pro
+Tools - Selling Manager
+Tools - Selling Manager Pro 
+Tools - Turbo Lister
+Trading Assistant
+Trust & Safety (SafeHarbor)
+ 
+Chat Rooms
+The eBay Cafe
+The AOL Cafe
+Discuss eBay's Newest Features
+Giving Board
+Holiday Board
+Emergency Contact 
+eBay International
+ 
+Category-Specific Chat
+Advertising Collectibles 
+Antiques 
+Barbie Bulletin Board 
+Beanie Babies, Books 
+Car Chat, Clothing, Coins 
+Comics, Computers, Diecast 
+Dolls, Elvis, Furbies 
+Glass, Jewelry, Gemstones, Movies 
+Music, Photo Equipment 
+Pottery, Porcelain, Sci-Fi, Shop Talk 
+Sports, Stamps 
+Toys, Trading Cards 
+ 	
+ 	
+  · Community Chatter
+ · Newsletter
+ · eBay Foundation™
+ · eBay Giving Works (Charity) 
+ · Shop eBay-o-rama
+ · Suggestion Box
+ · About eBay
+ 	 
+ · About Me
+· Feedback Forum
+ 	 
+ 	 View a member's feedback record
+ Leave feedback on a member
+ Leave feedback for a single transaction
+ Review and follow up on feedback you have left about others
+ Review feedback others have left about you
+ 
+Make feedback changes public or private
+ 	 
+ 	
+About eBay | Announcements | Security Center | Policies | Site Map | Help 	
+Copyright © 1995-2005 eBay Inc. All Rights Reserved. Designated trademarks and brands are the property of their respective owners. Use of this Web site constitutes acceptance of the eBay User Agreement and Privacy Policy.	 
+eBay official time	 
+

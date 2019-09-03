@@ -1,0 +1,70 @@
+
+=====================================================================
+Rich Easterbrooks's Place on the web
+=====================================================================
+ function showlayer(layerid)  { var layer = document.getElementById(layerid); layer.style.visibility = "visible"; }      function hidelayer(layerid)  { var layer = document.getElementById(layerid); layer.style.visibility = "hidden"; } 
+Welcome, Enjoy your Stay 
+Family Dad's Site
+Daughter's Site
+See Pauline Grow
+Brother's Family
+Whiskers
+My Links Bio
+Pictures
+Favorite Links
+Smile
+Miscellaneous Deep Thoughts
+Tao of Pooh
+Collected Thoughts
+The sky was falling and streaked with blood
+I heard you calling me, then you disappeared into the dust
+Up the stairs, into the fire
+Up the stairs, into the fire
+I need your kiss, but love and duty called you some place higher
+Somewhere up the stairs, into the fire
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love give us love
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love bring us love
+You gave your love to see, in fields of red and autumn brown
+You gave your love to me and lay your young body down
+Up the stairs, into the fire
+Up the stairs, into the fire
+I need you near, but love and duty called you someplace higher
+Somewhere up the stairs, into the fire
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love give us love
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love give us love
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love give us love
+It was dark, too dark to see, you held me in the light you gave
+You lay your hand on me
+Then walked into the darkness of your smoky grave
+Up the stairs, into the fire
+Up the stairs, into the fire
+I need your kiss, but love and duty called you someplace higher
+Somewhere up the stairs, into the fire
+May your strength give us strength
+May your faith give us faith
+May your hope give us hope
+May your love give us love
+  	I have chosen to put up a website that reflects who I am and what is important to me. I will try to fill it with information that interests me in the hopes that it might interest you.   	
+Website Design by: 	
+The Last Dinosaur 	
+Personal Web Services 	
+FastCounter by bCentral
+  	Internet Access provided by: 	  	
+Copyright © 1998-2002 Last Dinosaur Enterprises All rights reserved. Revised: March 16, 2002 	
+Download AOL Instant Messenger 	
+

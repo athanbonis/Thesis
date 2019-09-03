@@ -1,0 +1,258 @@
+
+=====================================================================
+The Foundation Center - Site Map
+=====================================================================
+ function makeRemote() { remote = window.open("","remotewin","width=800,height=600,scrollbars=yes"); remote.location.href = "http://fdncenter.org/about/01ar/cover.html"; if(remote.opener == null) remote.opener = window; } function makeRemote2() { remote = window.open("","remotewin","width=635,height=485, resizable=no, scrollbars=no"); remote.location.href = "http://fdncenter.org/history/index.html"; if(remote.opener == null) remote.opener = window; } // --> 
+=====================================================================
+The Foundation Center - Your gateway to philanthropy on the World Wide Web
+=====================================================================
+  
+     	     	     	     	  
+     	     	     	  
+     	     	 
+else document.write(" 
+=====================================================================
+Untitled Document
+=====================================================================
+ } else { document.write('}return true;}LoadMenus(); 
+   Guide to the Foundation Center's Web Site 	
+---------------------------------------------------------------------
+Databases
+The Foundation Directory Online
+Foundation Grants to Individuals Online
+Foundation Finder
+---------------------------------------------------------------------
+Philanthropy News Digest
+Recent News
+  
+Tsunami Relief
+ 
+9/11 Response
+ 
+NPO Spotlight
+ 
+Newsmakers
+ 
+Connections
+ 
+Conference Calendar
+ 
+On the Web
+ 
+Off the Shelf
+ 
+The Sustainable Nonprofit
+ 
+Nonprofits by Design
+  
+Special Issues
+  
+Job Corner
+RFP Bulletin
+PND Archives
+About PND
+PND Talk Message Board
+Arts Talk Message Board
+ 
+---------------------------------------------------------------------
+Finding Funders
+Foundation Finder
+ 
+Grantmaker Web Sites
+ 
+Private Foundations
+ 
+Corporate Grantmakers
+ 
+Grantmaking Public Charities
+ 
+Community Foundations
+  
+Sector Search
+990-PF Search
+990 Search
+Grantseeker Tools
+ 
+Common Grant Applications
+ 
+Prospect Worksheets
+ 
+Proposal Writing Short Course
+  
+The Foundation Directory Online
+Foundation Grants to Individuals Online
+---------------------------------------------------------------------
+Learning Lab
+Virtual Classroom
+ 
+Orientation to Grantseeking
+ 
+Guide to Funding Research
+ 
+Proposal Budgeting Basics
+ 
+Proposal Writing Short Course
+ 
+Curso breve para escribir propuestas  
+Cours succinct de la rédaction d'une proposition  
+Foundations and Their Role in Philanthropy  
+Finding Foundation Support for Your Education  
+Demystifying the 990-PF
+ 
+The Foundation Directory Online Guided Tour
+ 
+Foundation Grants to Individuals Online Guided Tour
+ 
+FC Search Guided Tour
+ 
+Advanced FC Search: Strategies & Techniques
+ 
+Establishing a Nonprofit Organization
+ 
+Foundations Today Tutorial
+ 
+LNPS Online Guided Tour
+  
+Resources
+ 
+Frequently Asked Questions
+ 
+User Aids
+ 
+Online Librarian
+ 
+Topical Resource Lists
+ 
+Online Bookshelf
+ 
+Glossary
+ 
+Message Board
+  
+Training Opportunities
+ 
+Atlanta
+ 
+Cleveland
+ 
+New York
+ 
+San Francisco
+ 
+Washington, D.C.
+  
+Cooperating Collections
+---------------------------------------------------------------------
+Researching Philanthropy
+PubHub: A Repository of Foundation-Sponsored Reports
+Funding Trends
+FC Stats
+Top Funders
+Literature of the Nonprofit Sector Online
+Nonprofit Links
+Grants Classification
+Response to 9/11
+---------------------------------------------------------------------
+Marketplace
+Associates Program 
+Funding Directories and Databases
+ 
+National
+ 
+Regional
+ 
+International
+ 
+Subject
+  
+Fundraising
+Nonprofit Management
+Research
+Training Courses
+---------------------------------------------------------------------
+My Profile
+Register
+Log In
+View Profile
+Edit Profile
+ 
+---------------------------------------------------------------------
+For Grantmakers
+Get Answers
+Stay Current
+Spread the Word
+Refer Your Grantees
+Funding the Center
+---------------------------------------------------------------------
+For Individual Grantseekers
+FAQs for Individuals
+Online Orientation to Grantseeking
+Guide to Fiscal Sponsorship and Affiliation
+Seeking Funding For... 
+---------------------------------------------------------------------
+For People with Disabilities
+---------------------------------------------------------------------
+For the Media
+Media FAQs
+Statistics on Foundations and Their Giving
+Press Releases
+Philanthropy Linkds
+About the Center
+Media Feedback
+---------------------------------------------------------------------
+For International Visitors
+---------------------------------------------------------------------
+For Children and Youth — 
+Youth in Philanthropy
+Your Stories
+About Philanthropy
+About the Foundation Center
+Famous and Celebrity Philanthropists
+Links to Get Involved
+Scholarship Information
+For Adults in Youth Service
+---------------------------------------------------------------------
+Library Web Sites
+New York
+Washington, D.C.
+Atlanta
+Cleveland 
+San Francisco 
+Cooperating Collections 
+---------------------------------------------------------------------
+Focus On...
+Celebrating Philanthropy
+International Philanthropy
+Arts Funding
+Health Funding
+Education Funding
+Funding for Children and Youth
+Nonprofits and Technology
+ 
+---------------------------------------------------------------------
+Helpful Tools
+SearchZone
+FAQs
+Online Librarian
+Newsletters
+My Profile
+---------------------------------------------------------------------
+About the Foundation Center
+Helping Grantseekers Succeed
+Locations
+History
+2003 Annual Report
+2002 Annual Report
+2001 Annual Report
+Job Openings
+Press Releases
+Funding the Center
+Contact Us 
+PND | Finding Funders | Learning Lab | Researching Philanthropy | Marketplace 
+For Grantmakers | For Individual Grantseekers | For People with Disabilities | For the Media 
+Atlanta | Cleveland | New York | San Francisco | Washington D.C. | Cooperating Collections 
+SearchZone | FAQs | Online Librarian | Newsletters | About the Center 
+Home | Site Map | Feedback 
+Copyright ©2005 
+The Foundation Center 	
+

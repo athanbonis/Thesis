@@ -1,0 +1,51 @@
+﻿ 
+=====================================================================
+Homepage of Arun A Tharuvai
+=====================================================================
+ 
+About me
+I graduated in June 2002 from the Massachusetts Institute of Technology (MIT) with a Bachelor's of Science (SB) in Economics . I got very interested in computer science, and have since enrolled at Villanova University, where I am working towards a Master's degree in Computer Science.
+I am currently looking for a full time position in Software Development. 
+MIT Groups I am or have been very actively involved with.
+I lived on THiRD EAst a hall of East Campus/Fred The Dorm from 1997 to 2001 
+OLC - Athena Online Consulting (I worked there part time for 2.5 years, so I'll list it here.
+MIT Media Lab
+SIPB MIT Student Information Processing Board. It's the volunteer student group concerned with computing at MIT.
+LSC Though it's the Lecture Series Committee, its main focus is showing 35mm movies (7 showings every weekend during term). And of course it brings in speakers of interest to the MIT community on a regular basis.
+ILTFP - I Love This "" Place. A group of students and alumni concerned about the direction of MIT's policies.
+ISO - MIT International Students Office. I try to help out during International Orientation, time permitting.
+ISA - MIT International Students Association. 
+Projects
+Here are a few projects I've been working on. For longer descriptions, go here
+libxindic - a library for adding basic, though correct Indic unicode rendering for X windows 
+http://alf-mushpie.mit.edu/ A searchable, querieable database of public zephyr fora.
+IMAPmh - An (eventually) mostly complete set of command and option compatible replacements for the Rand MH and NMH mail suites, for use with IMAP mail servers.
+Obligatory Links
+Computer Software I use or have an interest in
+ 
+GNU Emacs - Much more than just a text editor
+Several distributions based upon the Linux kernel, primarily Debian GNU/Linux and Redhat Linux.
+Fetchmail - a pretty nifty mail-retrieval and forwarding utility that I use in my mail setup. 
+Mutt - The program that I use to read my email. 
+Zephyr (An authenticated, relatively secure instant messanging system developed by MIT for use with Project Athena), and 
+VT - A text based MUD client with support for zephyr 
+Gaim - a multiprotocol instant messenging client under X-windows.
+Technical/Political News/Discussion forums
+ 
+Slashdot - News for nerds, stuff that matters. Its web forum has too high of a noise to signal ratio though.
+Kuro5hin - More politically oriented that Slashdot and a much lower noise to signal ratio.
+General News Sources
+ 
+BBC News
+The Times Of India
+New York Times
+Rediff Online
+This webpage complies with HTML 4.01. Does yours? 
+Email address - aatharuv (at) mit (dot) edu 
+This page is available at: 
+* http://web.mit.edu/aatharuv 
+* http://www.mit.edu/~aatharuv 
+* http://www.mit.edu/people/aatharuv 
+* and so on..... 
+Last modified $Date: 2004/02/24 22:31:16 $ by $Author: aatharuv $ 
+

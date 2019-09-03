@@ -1,0 +1,143 @@
+
+=====================================================================
+Frequently Asked Questions - 1.16 W&#8211;4 - Allowances, Excess FICA, Students, Withholding
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+1.16 IRS Procedures: W&#8211;4 - Allowances, Excess FICA, Students, Withholding
+I changed jobs this year. At my first job, I was over the yearly Social Security FICA limit. My employer at my second job also withheld Social Security taxes even though I was over the limit. How do I get the excess Social Security FICA back?
+If you have more than one employer and your wages were over the annual social security wage limit of $87,000.00 for 2003, you probably had too much social security tax withheld. (There is no wage limit for Medicare tax.) 
+You can take a credit for the excess withheld in the "Payments" section of Form 1040 or Form 1040A. Since it is credited in the payment section, it is a refundable credit and is applied like a payment. It will either be applied against any tax owed or refunded to you. The maximum social security tax for the tax year can be found in the Instructions for Form 1040 (General Inst.) for the "Payments" section under "Excess Social Security and RRTA Tax Withheld," or in Publication 505, Tax Withholding and Estimated Tax . 
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Tax Topic 608, Excess social security and RRTA tax withheld 
+* Instructions for Form 1040 (General Inst.) 
+I have a part-time job and a full-time job. My wages at the full-time job always exceed the FICA limit. Does my part-time employer have to withhold FICA taxes on my part-time wages?
+Yes, if your part-time job is with a different employer. Each employer is responsible for withholding on wages subject to social security up to the annual wage limit which is $87,000.00 for the 2003 tax year. They are not responsible for determining any amount withheld by another employer. Consequently, with two or more employers, too much social security will be withheld if your total wages exceed the annual wage limit. (The wage limit is adjusted annually for inflation.) That is the reason there is a credit for excess social security and RRTA withheld. It is in the "Payments" section of Forms 1040 and 1040A so that if it is not needed to apply against tax owed, it is refunded to you. 
+The Medicare tax has no annual wage limit.
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Tax Topic 608, Excess social security and RRTA tax withheld 
+Why are Social Security and Medicare taxes deducted from my earnings even through I am already collecting Social Security? Can I get these taxes back?
+Generally, employee wages are subject to social security and medicare taxes regardless of the employee's age or whether he or she is receiving social security benefits. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+For the first half of the year I was self-employed. I have now started employment with a new company and realized that they will be withholding for social security, too. Am I responsible for paying the social security part up to the limit twice?
+No, social security tax is paid up to the annual wage base limit regardless of whether your income is derived from self employment income, wages and tips, or a combination of both. For 2003, this dollar amount is $87,000. When computing Form 1040, Schedule SE (PDF) , Self-Employment Tax , the annual wage base amount is addressed to prevent over payment of the social security tax. 
+References: 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+If I have overpaid to Social Security or Medicare, can I get that money back?
+If you worked for two or more employers, the credit for excess social security withheld is claimed on Form 1040 (PDF) line 64. If you file Form 1040A (PDF), include the credit in the total of line 43 and put "Excess SST" and the amount of the credit in the space to the left of the line. If you are filing a joint return, you figure the credit separately for you and your spouse. For complete instructions, refer to Credit for Excess Social Security Tax or Railroad Retirement Tax Withheld in Chapter 38 of Publication 17, Your Federal Income Tax . 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 213 (PDF), Check Your Withholding 
+We had too much social security tax taken out this year. What form do we need to fill out to request some of these monies back?
+Credit for excess social security withheld is claimed on page 2 of Form 1040, U.S. Individual Income Tax Return. Refer to Credit for Excess Social Security Tax or Railroad Retirement Tax Withheld in Chapter 38 of Publication 17, Your Federal Income Tax.
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 213 (PDF), Check Your Withholding 
+Can you claim 99 withholdings on a W-4 form?
+You can claim the number of withholding allowances that you are entitled to based on the Form W-4 (PDF), Employee's Withholding Allowance Certificate, worksheets. You can claim less than you are entitled, but not more. You may not arbitrarily pick a number with the goal of avoiding income tax withholding. The law provides for a civil penalty of $500 for filing a false statement on Form W-4. 
+If at the time the Form W-4 is submitted, the employee has made any statement indicating that the W-4 is false in any way, it is invalid. The employer would then be required to treat the submitted form as invalid and withhold as if the employee were single claiming no allowances. 
+Employers are required to submit any Forms W-4 with more than 10 allowances claimed to the service center's Form W-4 coordinator. The W-4 coordinator will review the employee's most recent tax returns and make a determination as to whether to notify the employer to withhold based on a lesser number of allowances. 
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Tax Topic 753, Form W-4 employee's withholding allowance certificate 
+I would like to overpay my taxes so I get a larger refund. Is there a problem in claiming less exemptions on my W-4 than are shown when I use the Personal Allowance Worksheet?
+You may claim fewer allowances than you are entitled to claim, but you may not claim more than you are entitled to claim. If you only complete the Personal Allowance Worksheet on the front of Form W-4 (PDF), Employee's Withholding Allowance Certificate, you may not have accurately determined the number of allowances you are entitled to claim. There are more worksheets (the Deductions and Adjustments Worksheet and the Two-Earner/Two Job Worksheet) on the back of Form W-4. Complete all applicable worksheets to determine the number of allowances you can claim. 
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 213 (PDF), Check Your Withholding 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Publication 919 , How do I Adjust my Withholding 
+Is there a table available where I can calculate how much will actually be withheld from my paycheck when I make a change on my W-4?
+Yes, there is. It is the same table, or tables, that employers use to determine how much to withhold based on the Form W-4 (PDF), Employee's Withholding Allowance Certificate. In Publication 15, Circular E, Employer's Tax Guide, there are two sets of income tax withholding tables: the Percentage Method Tables and the Wage Bracket Method Tables. The wage bracket method is probably the most commonly used method. There are separate tables under each method based on marital status and payroll period. These tables are not to be used to decide how many allowances should be claimed. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 919, Is My Withholding Correct for 2001? 
+* Publication 213 (PDF), Check Your Withholding 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+Do I put the same number of exemptions on my tax return as I put on my W-4 form?
+What you put on your Form W-4 (PDF), Employee's Withholding Allowance Certificate, are withholding allowances, not exemptions. An exemption is allowed on your tax return for yourself, your spouse (if married filing jointly), and qualifying dependents (if you are an U.S. citizen or resident alien). Each exemption merits a withholding allowance on the Form W-4 Personal Allowance Worksheet. 
+However, there are two more worksheets that may affect the final number of allowances, and under some circumstances, you get more allowances than you have exemptions. Some things that will be on your tax return, such as itemized deductions, tax credits, and losses add allowances to the total number of allowances. Some circumstances reduce the number of allowances, such as non-wage income, having two jobs, or having two earners in the family. For a more detailed discussion of withholding allowances, refer to Publication 505, Tax Withholding and Estimated Tax.
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 213 (PDF), Check Your Withholding 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+As a full-time student, am I exempt from federal taxes?
+Every U.S. citizen or resident must file a U.S. income tax return if certain income levels are reached. There is no exemption from tax for full-time students. If you are a full-time student, you may not be working full time. Factors that determine whether you have an income tax filing requirement include: 
+* the amount of your income (earned and unearned), 
+* whether you are able to be claimed as a dependent, 
+* your filing status, and 
+* your age. If your income is below the filing requirement for your age, filing status, and dependency status, you will not owe income tax on the income and will not have to file a tax return. You may choose to file if you have withholding that you would like refunded to you. 
+You may have given your employer a Form W-4 (PDF), Employee's Withholding Allowance Certificate, claiming exemption from withholding. To claim exemption from withholding, you generally would have to have had no tax liability the previous year and expect none in the current year. An exemption certificate is good for the calendar year. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+I am a full-time college student, can I claim exemption from withholding on my W-4 form?
+You are not automatically exempt from federal income tax withholding because you are a full-time student. To claim exemption from withholding, the following two statements must be true: 
+* For the previous year, you had a right to a refund of ALL Federal income tax withheld because you had no tax liability, and 
+* For the current year, you expect a refund of all Federal income tax withheld because you expect to have no tax liability. 
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+What can be done if an employer will not withhold income taxes, social security, and Medicare from my pay?
+Generally, in situations such as this, the employer is not considering you to be an employee. Rather, you are being treated as an independent contractor (self-employed person). If you cannot resolve this matter with your employer, and if you feel that an employer-employee relationship exists, you should submit a Form SS-8 (PDF), Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding. The factors used to determine if an employer-employee relationship exists are covered in Chapter 2 of Publication 15-A (PDF), Employer's Supplemental Tax Guide. 
+If your status as an employee is not at issue, it may be that you are in a category of employment whose earnings are not defined as wages under U.S. social security law. Find out from your employer the reason that social security and Medicare taxes are not being withheld from your pay. If you have further questions, contact the IRS at 800-829-1040 or visit an IRS walk-in office for assistance. 
+References: 
+* Form SS-8 (PDF) , Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+* Publication 15-A (PDF) , Employer's Supplemental Tax Guide 
+* Publication 1779 (PDF) , Independent Contractor or Employee 
+Can an employer take out taxes if a W-4 was never filed?
+Yes, an employer can. Employers should ask all employees to submit a signed Form W-4 (PDF), Employee's Withholding Allowance Certificate, when they start work. It should be effective the first pay period. If the employee does not submit a Form W-4, the employer should withhold as if the employee were single claiming no allowances. 
+An employee may submit a Form W-4 at any time. The employer should base the employee's income tax withholding on the most recently submitted Form W-4, unless the IRS has notified the employer to withhold based on a different number of allowances, or unless the W-4 is invalid. If an employee submits a new Form W-4, the employer should start withholding based on that W-4 no later than the start of the first payroll period ending on or after the 30th day from the day the new W-4 is submitted. 
+References: 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Tax Topic 753, Form W-4 employee's withholding allowance certificate 
+I am a graduate student and serve as a teaching assistant. I would like to know whether FICA taxes need to be withheld from my paychecks?
+Students who perform services for the school, college, or university where they are enrolled and regularly attend classes are usually not subject to social security and Medicare taxes. 
+If the student works for a public school, college or university which is subject to a section 218 agreement, the student's services are automatically subject to social security and Medicare taxes if the state has chosen to cover students under its section 218 agreement with the Social Security Administration. The employer can tell you whether its students' services are subject to social security and Medicare taxes under a section 218 agreement. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Federal Regulation section 31.3121(b)(10)-1 
+As I understand the law, student stipends are exempt from FICA and Medicare taxes. If my university takes these taxes out of my stipend income, can these taxes be recovered in some way?
+If you are not performing a service for the university, your stipend would be subject to income tax only if it does not meet the qualified scholarship rules. Please refer toPublication 970 Tax Benefits for Education, for information on when a stipend would be a qualified scholarship, which would not be subject to social security and Medicare taxes. If you are performing a service for the university, your income is taxable for income tax purposes, but would generally be exempt from social security and Medicare taxes if you are enrolled and regularly attending classes unless you are covered under a section 218 agreement. Refer to Publication 15, Employer's Tax Guide.
+If your employer has been withholding social security and Medicare taxes from your stipend, the employer should refund the withheld tax. If the employer refuses to do so, Form 843 (PDF), Claim For Refund and Request For Abatement, can be filed to claim credit for the incorrectly withheld tax. 
+References: 
+* Publication 970, Tax Benefits for Education 
+* Publication 15, Employer's Tax Guide 
+* Form 843 (PDF), Claim For Refund and Request For Abatement 
+Is the housing allowance for a minister subject to Social Security Tax and Medicare Tax under FICA?
+The entire amount of a minister's housing allowance is subject to social security and Medicare taxes, even though it may be excluded from taxable income for income taxes. A minister's compensation for services as an employee, as well as from self-employment, is subject to Self-Employment Contributions Act (SECA) taxes, not the Federal Insurance Contributions Act (FICA). Under SECA the self-employed person pays all the taxes while under FICA the employer and employee each pay half of the taxes. 
+However, if you are a duly ordained Commissioned, or licensed minister, or member of a religious order not under a vow of poverty, or a Christian Science Practitioner who elected and was approved for exemption from Social Security coverage and self-employment tax, your housing allowance would not be subject to social security or Medicare taxes under SECA. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Form 4361 (PDF), Application for Exemption from Self-Employment Tax for Use by Ministers, Members of Religious Orders 
+* Tax Topic 417, Earnings for clergy 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

@@ -1,0 +1,156 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Real Time Information Page | Back to Main FAQ Page 
+Subject: I9) What computer software is available for tracking tropical cyclones? 
+(Descriptions kindly provided by Tom Berg and via the authors.
+ 
+Note that this does not constitute an endorsement of any product.) 
+Free Tropical Cyclone Tracking programs
+---------------------------------------------------------------------
+Eye of the Storm
+Latest version 1.01, 1999
+Eye of the Storm is a Windows based hurricane tracking program for your Windows based personal computer (Windows 95 or later). With Eye of the Storm, you can monitor the path of Atlantic and Pacific tropical storms using an interactive 3D map. Storms and storm tracks are plotted against a three dimensional projection of the east and west coasts of the United States. 
+Price 
+* Personal Edition FREE
+* Advanced Edition - $21.45
+Platforms -- Windows 95/98/NT
+Online internet service for advisories - YES
+ http://www.starstonesoftware.com/eots/ 
+StarstoneSoftware
+100 State Road 419, Suite 280
+Winter Springs, FL 32708 
+---------------------------------------------------------------------
+* StormTrakker -- StormTrakker is a plotter/database program for tracking Atlantic basin tropical cyclones. Among its many features are over 30 regional and detailed maps covering the tropical Atlantic basin, Gulf of Mexico, the Caribbean and all US mainland coastal areas in detail. TPC/NHC forecasts are supported. Databases are included for all tropical cyclones from 1900-1998 for the historical searching and plotting options. Tropical storm and hurricane force wind radii are also supported. Also provides the capability to enter the computer model forecasted positions for plotting. 
+Web site for download -- http://www.flinet.com/~mbryson/stormtrk.htm 
+---------------------------------------------------------------------
+* Tropical Storm Tracker (DOS) -- A DOS-based tropical storm tracking package for the Atlantic only. 
+Web site for download -- http://users.nbn.net/~fweaver/trak/atpctrkr.zip 
+---------------------------------------------------------------------
+* EZTrack (Windows) -- A Windows-based tropical storm tracking package for the Atlantic only. 
+Web site for download -- America Online 
+---------------------------------------------------------------------
+* JStrack (Windows/UNIX) -- JStrack is a freeware hurricane tracking program for Unix and Windows 9x/ME/NT/2k/XP. It should also run on a Mac, (feedback from Mac users requested!). 
+Version 2.0.0 on 20 Oct 2002 
+Key features include: 
+* automatic data updates via incoming e-mail (WX-ATLAN) or FTP from NHC/TPC server (a filter "reads" the NHC products and extracts the data) 
+* three maps, courtesy of Ron Murphy, NWS Birmingham: Overall picture, US East Coast, and US Gulf Coast + S. FL. 
+* plots wind radii (default is for current/forecast positions only). After all, you need to know where the storm's WINDS are, not just where the eye is. 
+* plots NHC/TPC probabilities data (via menu---see next item) 
+* menu associated with any past/current storm position from which you can plot/remove forecast positions, wind radii, and probabilities, view details on the storm (wind speeds, course, etc.), view the NHC/TPC products associated with that time/position, and so on. 
+* given user's home coordinates, 'X' plotted at that point on the map 
+* given user's home coordinates, JStrack can warn the user if the storm is currently within a given number (def. 60) of nautical miles, or is forecast to come within that distance (this part assumes a straight line between forecast points, and should not be considered 100% accurate!) 
+* ability to run user-defined commands when storm data is updated for a storm currently on the screen and/or for a new storm, and/or for situations where the storm is, or is forecast to be, within the above distance in nautical miles. This can be used to wake you up in a situation where the storm is a potential threat, and missing an advisory could put you in a dangerous situation. It has also been used by at least three web sites to do a screen capture and update a web page (for 24x7 ops). 
+For more info, screen pics, etc., see http://www.purl.org/net/jstrack or contact Jim Graham. 
+---------------------------------------------------------------------
+Priced Tropical Cyclone Tracking programs
+---------------------------------------------------------------------
+* Eye of the Storm (Internet Edition) -- Eye of the Storm is a Windows based hurricane tracking program for your Windows based personal computer (Windows 95 or later). With Eye of the Storm, you can monitor the path of Atlantic and Pacific tropical storms using an interactive 3D map. Storms and storm tracks are plotted against a three dimensional projection of the east and west coasts of the United States. 
+Web site for download -- http://www.starstonesoftware.com/eots/ 
+StarstoneSoftware
+100 State Road 419, Suite 280
+Winter Springs, FL 32708
+Cost -- $ 19.95 
+---------------------------------------------------------------------
+* Global Tracks (Windows) -- Global Tracks contains over 10,000 historical tracks of hurricanes and typhoons, dating back as far as 1886. This can be helpful tool in forecasting a hurricane's future track. The software automatically ingests the current hurricane and typhoon information from different hurricane agencies and plots directly onto your desktop. There is a distance calculator that will tell you the precise distance from the eye to any point on the map you choose. You can create your own color maps or use a predefined map from Global Tracks library. It also displays the closest point of approach to any selected city. 
+Global Tracks
+Latest version 6.11 
+Price 
+* $35.95 for new users for a CD 
+* $32.95 for new users download 
+Platforms -- Windows 98 or higher 486MHZ processor and modem with internet access
+Online internet service for advisories - YES
+ Web site for download -- www.extremewx.com/ 
+---------------------------------------------------------------------
+* Hurricane Watch 2000 -- An easy method for recording and displaying hurricane information. Storm tracks are displayed on a world view high resolution globe that can be easily zoomed to any location. Bearing, distance and ETA to your home or any geographic location can be instantly displayed. 
+Hurricane Watch 2000
+Latest version 1.4, 1999
+Price - $20.00
+Platforms -- Windows 95/98/NT
+Online internet service for advisories - YES
+Web site for download -- http://members.aol.com/jgraff/hcane.htm 
+---------------------------------------------------------------------
+* HurrTrak -- Shareware version of most detailed tracking software available. Price listed is for latest full version, 10.0, actual price. 
+HURRTRAK
+Latest version 10.0, 1999
+Price $330.00
+Platforms -- Windows 95/98/NT
+ Online internet service for advisories - YES
+$300.00 per year Web site for download -- http://www.pcwp.com/ 
+---------------------------------------------------------------------
+* Merlin -- MERLIN graphically displays storm track/intensity on-screen, utilizing color and b/w tracking maps. Combine this with MERLIN's neural net (artificial intelligence) and mathematical modeling (RITA) capability, to generate forecasts of future storm activity. MERLIN's advisory, history and statistics are updated automatically with each new data entry. 
+Merlin
+Latest version 2.3c, 1999
+Price - $39.00
+Platforms -- Windows 3.1/95/98
+Online Internet service for advisories - NO
+Web site for download -- http://www.tmparker.com/merlin/ 
+---------------------------------------------------------------------
+* Tempest Hunter (Windows) -- Tempest Hunter is a Tropical Storm / Hurricane Tracker and Analysis Program for Windows 3.x . Some features include: 
+* Plot 1 storm in detailed observation mode or in auto mode. 
+* Plot and Compare 2 Tropical Systems. 
+* Plot all Tropical Systems for a Year. 
+* Analyze past storm track to within 1 degree, Wave Prediction and City Analysis. 
+* Text Plot a Tropical System or an entire season. 
+* Save Map Plots to File or Printer. 
+* Contains a Database of over 800 Tropical Storms and Hurricanes 
+* Add / Edit new Tropical System Data. 
+Web site for download -- http://www.alberts.com/authorpages/00013278/prod_703s.htm 
+Cost -- $ 10.00 
+---------------------------------------------------------------------
+* Tracking the Eye -- View the movement of the storm on a map of the eastern United States and the Caribbean. Graph and full color printing. Track storm information including type of storm, storm coordinates, wind speed and pressure, direction and speed of travel, date and time of coordinates, damage, and more. Print your storm map. Track up to 40 storms at once. Includes data for over 750 historical storms from 1900 to 1996. 
+Tracking The Eye
+Latest version 5.5, 1999
+Price - $24.95
+Platforms -- Windows 95/98/NT
+Online Internet service for advisories - YES
+$24.95 first year, $9.95 per year thereafter
+Web site for download -- http://www.hurricanesoftware.com/hurricane/hurricane.htm 
+---------------------------------------------------------------------
+* Tropical Cyclone Tracker -- Track world-wide hurricanes (Atlantic in the shareware version). It will get a wide variety of info directly from the internet. It can forecast the course quite accurately and will calculate arrival times. Comes with storm tracks back to 1886. 
+Tropical Cyclone Tracking System (TCT)
+ Latest version 2.1, 1998
+ Price - $29.95
+ Platforms -- Windows 95/98
+ Online Internet service for advisories - YES
+ Free
+ Web site for download -- http://members.tripod.com/~Tr 
+---------------------------------------------------------------------
+opicalWx/TCTMain.html 
+* WinStorm (Windows) -- WinStorm is a hurricane tracking application for MS Windows. You enter the data, and it plots the track. The historical record contains over 900 tracks from the present back to 1886. You can create new tracks and plot those, plot any or all of the old ones, and print the tracks you have plotted. 
+WinStorm
+Latest version 2.25a, 1998
+Price - $25.00
+Platforms -- Windows 95/98
+Online Internet service for advisories - NO
+Web site for download -- http://www.ghg.net/kingram/ 
+---------------------------------------------------------------------
+* Go' Canes (DOS) -- GO 'CANES is a DOS program. It was designed to be as fast and as configurable as possible. It includes eight preconfigured plotting maps (including one for the Eastern Pacific), plus two user configurable maps. It will plot single storms as well as lists of storms. There is a tag feature for building storm lists. 
+Go 'Canes
+Latest version 1.1, 1995
+Price - $15.00
+Platforms -- DOS
+ Online internet service for advisories - NO
+Web site for download -- ftp://www.hcane.com/software/gcanes.zip 
+---------------------------------------------------------------------
+* Storm (DOS) -- Storm is a DOS-based program. Storm tracks can be stored in files on disk for future use. Storm data can be entered and reports printed on the storm's location by date and time. In addition, graphical tracking maps showing the storm's position and track can be generated. STORM generates hardcopy plots using an Epson or Laserjet printer or an HP Plotter. You can track to one of 47 included cities or enter the coordinates of your own city. 
+Web site for download -- http://casi.simplenet.com/wxsoftware/storm61.zip 
+Cost -- $ 25.00 
+Back to Real Time Information Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

@@ -1,0 +1,260 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Suzanne Goldenberg: The horse that won America's heart
+- David Aaronovitch: sex and the British
+- How vitamin B could save your life
+This week
+- Talk to Larry Elliott and Will Hutton about the euro
+- Latest news from the Guardian Hay Festival
+- Video: James Astill's report from Congo
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- George Monbiot
+- Zoe Williams
+- Roy Greenslade
+- Matthew Engel
+- Hugo Young
+- John McDonnell
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+Steve Bell
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Tuesday June 03 2003 	
+No 10 rejects calls for WMD inquiry
+3pm: Tony Blair returns from the G8 summit to face mounting pressure for an independent inquiry into Britain's build-up to war on Iraq.
+Cabinet's secret war briefings
+Leader: The inquiry we need
+Special report: Iraq
+Guardian Unlimited Politics	
+ 	
+Bush optimistic on Middle East peace
+3.30pm: US president meets Arab leaders in Egypt before summit with Israeli and Palestinian PMs.
+Special report: Israel & Middle East	
+ 	
+Serena too strong for Mauresmo
+Tennis: Serena Williams beats Amelie Mauresmo in straight sets at French Open.
+Guardian Unlimited Sport	
+ 	
+Weblog | Interactive guides | Email services | Audio | Crossword | Talk | Steve Bell | Comment	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Aslef pledges support for Livingstone
+Politics: A leading union is set on a collision course with Labour after deciding to support the re-election of Ken Livingstone as London mayor.
+Guardian Unlimited Politics	
+ 	
+DTI proposals target fat cat pay
+UK: Government announces plans to prevent chief executives walking away from failing firms with large payoffs.
+Notebook: Hewitt's all bark and no bite
+Special report: executive pay
+More UK news	
+ 	
+Strike 'brings Zimbabwe's economy to standstill'
+World: Second day of protest against rule of President Robert Mugabe.
+Special report: Zimbabwe
+More world news	
+ 	
+Ucas apologises for admissions upset
+Education: University admissions service says sorry to 9,000 students who were wrongly told they had lost their places.
+EducationGuardian.co.uk	
+ 	
+G8 meeting proves a predictable drama
+G8: Most of the action, at counter-conferences and demonstrations, took place in the shadow of the Evian summit, reports Gideon Burrows.
+Full text: the G8 final statement
+Special report: G8	
+ 	
+It isn't exactly rocket science ...
+Online: An inventor from New Zealand is building a cruise missile in his garage using parts bought over the internet.
+More from the Online team	
+ 	
+LA misses the basket
+LA dispatch: Los Angelinos are feeling a painful absence as their famous sports teams, the Lakers and the Dodgers, fail to make the grade, writes Duncan Campbell.
+More exclusive reports from our foreign correspondents	
+ 	
+Explained: the GM crops debate
+Q&A: The government's much-criticised consultation over the growing of genetically modified crops in the UK begins today. Ian Sample outlines the issues.
+Public urged to join debate on GM crops
+Special report: GM food debate	
+ 	
+Mass demonstrations in France
+Audio: Rain has added to commuters' woes in Paris as strikes against pension reforms hit public transport, reports Paul Webster from the French capital. (2min)
+Special report: France
+More audio reports	
+ 	
+Liar, liar ...
+Cartoon: Steve Bell on Tony Blair and weapons of mass destruction.
+More Steve Bell cartoons on Iraq	
+ 	
+Callers vote with their fingers
+Money: The number of telephone users who are dialling alternatives to BT's 192 directory inquiries service is continuing to rise, telecoms regulator says.
+Guardian Unlimited Money	
+ 	
+Ryanair profits soar
+Business: Budget airline pledges to 'destroy the airline business as we know it'.
+Special report: the airline industry
+More business news	
+ 	
+Gallo: I never apologised for The Brown Bunny
+Film: Actor-director denies apologising for derided road movie.
+Guardian Unlimited Film	
+ 	
+Health reforms stalled by cash crisis
+Society: Government plans to shift care from hospitals to the community are foundering, according to GPs.
+SocietyGuardian.co.uk	
+ 	
+England risk boot, Beckham tells fans
+Football: David Beckham appeals to England supporters to refrain from violence and racist behaviour or risk seeing team thrown out of European Championships in Portugal if they qualify. 
+Guardian Unlimited Football	
+ 	
+Untold stories of those who died during the war on Iraq
+Iraq memorial: We will probably never know how many people died in the Iraq war, let alone much about them. We have spoken to relatives of the deceased of all nationalities, and here we tell their life stories.	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Car hire	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live discussions		 
+- Wed Jun 4: discuss the problems facing the south-west
+- Wed Jun 4: Peter Oborne on Afghanistan
+- Fri Jun 6: euro debate with Larry Elliott and Will Hutton
+- More online chats
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+Events & offers		 
+- Become a student brand manager
+- Win the Samuel Johnson Prize shortlist
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

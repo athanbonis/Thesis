@@ -1,0 +1,381 @@
+
+=====================================================================
+NAS Parallel Tools Group Hotlist
+=====================================================================
+ 
+NAS Parallel Tools Group Hotlist 
+This information is kept for the handy reference of the NAS Parallel Tools team, and is made available here in the chance that it may be useful to others. 
+See also the Information Power Grid Hotlist. 
+Icon Legend 
+* Requirements/Design/Analysis 
+* Formal Methods 
+* Templates & Skeletons 
+* Requirements 
+* Cleanroom 
+* Programming 
+* Visual/Graphical/Animation and CASE 
+* Functional/Dataflow 
+* Object Oriented (& C++) 
+* SIMD and Collective Operations 
+* Message Passing (PVM, MPI) 
+* I/O 
+* Application Libraries 
+* Portable Parallel Programming & Distributed Shared Memory 
+* (Low-level) Run-time Systems 
+* Distributed Arrays 
+* Other Programming Approaches 
+* Process Control (Scheduling/Queuing/Checkpointing/Migration) 
+* Debugging and Performance Analysis/Visualization 
+* Tools 
+* Benchmarks and Performance Comparisons 
+*  High-Speed (Low-Cost?) Parallel Systems 
+* Indexes, Bibliographies, Archives 
+* Vendor-Specific Info 
+* Schools, Centers, Consortia 
+* Conferences, Workshops 
+* Education 
+* Reports, Books 
+* People 
+* Other 
+* Visual Programming & Visualization 
+* CS Indexes, Bibliographies, Archives 
+To NAS Parallel Tools Team To NAS Home Page 
+Currently maintained by: David DiNucci 
+Responsible official: Cathy Schulbach 
+Send questions, comments and requests for more information to dinucci@nas.nasa.gov 
+Last modified: February 10, 1997 
+Icon Legend
+*  Organized around a software package 
+*  Organized around a person 
+*  Organized around institution or place 
+*  Organized around company (money-making institution) 
+*  A paper/report 
+*  Links to other WWW sites 
+*  Archive 
+*  FAQ, to answer questions on some topic 
+*  Information about a book or the book itself 
+*  Textual bibliographic listing 
+*  Announcement/Call for Papers 
+*  Discussion Group/Mailing List Archive 
+Requirements/Design/Analysis 
+* Formal Methods 
+*    The SPIN Model Checker(Bell Labs) 
+*    Model Checking at CMU 
+*    Formal Methods (Oxford) 
+*    The B-Technologies 
+*    Vaughan Pratt (Stanford, Concurrency theory) 
+*    Robin Milner (Concurrency theory) 
+*    NASA Langley Formal Methods Program 
+*    What is Formal Methods 
+*    Journal of Systems and Software, Special Issue on FM 
+*    Larch Frequently Asked Questions 
+*    Formal Aspects of Computing Journal 
+*    Formal Methods Europe HUB 
+*    Formal Methods for Real-Time Safety Critical Systems (Ostroff) 
+*    Petri Nets 
+*    Statecharts 
+*    CUI -- Computing theory Group (Geneva)  
+* Templates & Skeletons 
+*    Skeletal Parallelism Homepage 
+*    Skeletons Bibliography 
+*    Archetypes for Parallel Scientific Computing 
+*    Patterns 
+* Requirements 
+*    Guidelines for Writing System Software and Tools Requirements 
+* Cleanroom 
+*   Cleanroom Software Engineering 
+*   IBM's Cleanroom Software Technology Center 
+Programming 
+* Visual/Graphical/Animation and CASE 
+*    MPIMap: Graphical MPI Type Display 
+*    PVaniM 
+*    VPE: A Visual Parallel Programming Environment (U Tenn Knoxville) 
+*    PADE: Parallel Applications Development Environment (NIST) 
+*    Pampa Project(IRISA, France) 
+*    Enterprise Distributed Computing (U. Alberta) 
+*    Proceedings - 11th Intl. Symposium on Visual Languages 
+*    PGM2.0 Specification 
+*    Made With Prograph 
+* Functional/Dataflow 
+*    Sisal Parallel Language (Livermore Nat. Lab.) 
+*    The Dataflow Web Page 
+*    Ptolemy Project 
+*    GLU Parallel Programming Toolkit 
+*    Software Synthesis from Dataflow Graphs (S. S. Bhattacharyya,  P. K. Murthy, and E. A. Lee) 
+*    IFIP WG 2.8 - Functional Programming 
+* Object Oriented (& C++) 
+
+*    Mentat (Virginia) 
+*    Dome: Distributed Object Migration Environment (CMU) 
+*    Parallel C++ Projects Archive 
+*    Parallel Programming Using C++ (Book) 
+*    Object-Orientation FAQ 
+*    Software Design/OO Methodology Research 
+*    Para++: C++ Bindings for Message-Passing Libraries 
+*    Inferno (Bell labs)  
+* SIMD and Collective Operations 
+*    ECO: Effective Collective Ops (Built upon PVM, CMU) 
+*    iCC: Interprocessor Collective Communications Library 
+* Message Passing (PVM, MPI) 
+*   MPI: Message Passing Interface  (     Argonne )  (     Miss. State )  (     LAM @ OSC )  (     HP ) 
+*    PVM: Parallel Virtual Machine 
+*    Active Messages (UC Berkeley) 
+*    Philip J. Mucci's Home page (AM on PVM & other good links)  
+*    PVMPI : PVM integrating MPI applications (UTK) 
+* I/O 
+*    MPI-IO: Standard for Parallel I/O 
+*    Parallel I/O Archive (Dartmouth) 
+* Application Libraries 
+*    BLACS: Basic Lin. Alg. Comm. Subprograms (U. Tenn. Knoxville) 
+*    PETSc: Portable, Extensible, Toolkit for Scientific Computing (ANL) 
+*    MPI-RGL: A Regular Grid Library for MPI 
+*    Linux Software for Scientists 
+* Portable Parallel Programming & Distributed Shared Memory 
+*    CDS: Cooperative Data Sharing (Portable Comm Lib) (NAS, NASA Ames) 
+*    HPF: High Performance Fortran (HPFF) 
+*    Linda (Yale) 
+*    Schooner: Interconnecting Heterogeneous HPC Scientific Applications   (U Arizona) 
+*    Distributed Shared Memory Home Pages 
+*    Honghui Lu (Treadmarks papers & benchmarks)  
+*    Shared Memory Consistency Models: A Tutorial 
+*    Dream: Distributed Shared Memory on PVM 
+*    WWT: Wisconsin Wind Tunnel 
+* (Low-level) Run-time Systems 
+*    PORTS: POrtable RunTime System (PORTS Consortium, U. Oregon) 
+*    The Nexus Multithreaded Runtime System (Argonne) 
+*    Threads(Sun) 
+*    A Survey of Mutual-Exclusion Algorithms for Multiprocessor Operating Systems  
+*    James Anderson - Papers (Lots of stuff on low-level locks)  
+* Distributed Arrays 
+*   Global Array Toolkit  (   PNL )  (   PSC ) 
+*    Scalable Distributed Dynamic Grids: A Survey of Existing Support 
+* Other Programming Approaches 
+*    MPP Fortran Programming Model (Cray) 
+*    BSP: Bulk Synchronous Parallel (Carleton, Harvard, Oxford) 
+*    IEEE Books on Parallel and High-Performance Computing 
+*    Papers on Coordination in Parallel Programs (Berkeley) 
+*    Strategic Directions in Computing Resrch: Concurrency WG 
+*    Proteus 
+Process Control (Scheduling/Queuing/Checkpointing/Migration) 
+*    CoCheck: Checkpointing and Process Migration 
+*    Prospero Resource Monitor 
+*    Job Management and Scheduling 
+*    Batch Queuing Systems 
+*    API Standards for Parallel Job/Resource Scheduling (NASA Ames) 
+Debugging and Performance Analysis/Visualization 
+* Tools 
+*    AIMS: Automated Instrumentation and Monitoring System  (NAS, NASA Ames) 
+*    NTV: NAS Trace Visualizer (NAS, NASA Ames) 
+*    P2D2: Portable Parallel/Distributed Debugger (NAS, NASA Ames) 
+*    Paradyn Parallel Performance Tools (U. Wisc.) 
+*    Pablo (U. Ill.) 
+*    The TraceInvader  
+*    HPD (High Perf. Debug.) Forum - White Paper  
+*   PGPVM: Performance Visualization for PVM (     GA Tech version)  (     Singapore version) 
+* Benchmarks and Performance Comparisons 
+*    Message-Passing Performance Report (Dongarra, Dunigan@utk) 
+*    World's most powerful computing sites 
+*    Impala: IMplicitly PArallel LAnguage Application Suite (in ID) 
+*    SPEC 
+*    NAS Parallel Benchmarks 
+*    STREAM: Sustainable Bandwidth in HPC 
+*    TOP500 Supercomputer sites (based on Linpack benchmark) 
+High-Speed (Low-Cost?) Parallel Systems 
+*    Linux in High-Performance Computing 
+*    Linux Parallel Processing HOWTO 
+*    MOSIX - Multicomputer Operating System for UNIX 
+*    Beowulf Project 
+*    PAPERS: Purdue Adapter for Parallel Exec. & Rapid Sync. 
+*    RSFQ Laboratory (Advanced Device Technology) 
+*    WWW Computer Architecture Home Page 
+*    MEMORY CHANNEL 
+*    Reinventing Computing Home Page (MIT) 
+*    Real World Computing Partnership Home Page (Japan) 
+*    Stored Program Optical Computer Home Page  
+*    Quantum computing  
+Other Parallel Indexes, Bibliographies, Archives
+*     Archive of comp.parallel newsgroup 
+*    National HPCC Software Exchange (NHSE, Netlib) 
+*     Supercomputing and Parallel Computing Resources (CMU) 
+*    Concurrent Systems (Oxford) 
+*    Distributed Algorithms & Systems (CWI) 
+*    David A. Bader's Parallel Sites (U. Maryland) 
+*    Jonathan Wang's Bookshelf (Yale) 
+*    Nan's Parallel Computing Page (Rochester IT) 
+*    Supercomputing Resources (U. Maryland Balt. Cnty) 
+*    Parallel Computing Archive (HENSA) 
+*    Archive for parallel computing (ZDV Tübingen) 
+*    SEL-HPC Article Archive 
+*    U. Toronto Parallel System Publications 
+*    CPU Info Center (Berkeley)  
+Vendor-Specific Info
+(This partial list does not represent endorsement) 
+*    Apple Research Laboratories 
+*    Adaptive Solutions 
+*    Avalon 
+*    BBN 
+*    Bell Labs Computing Sciences Research Center  
+*    Continuum Software, Inc.  
+*    Convex 
+*    Cray Research 
+*    Cray Research Resource Guide (Unofficial) 
+*    DEC HPC Products 
+*    Dolphin ICS 
+*    Fujitsu Supercomputing 
+*    HP Labs 
+*    IBM SP2 
+*    Integrated Computing Engines 
+*    Intel SSD 
+*    Meiko 
+*    Myricom Home Page 
+*    NEC SX-4 
+*    NEC HNSX Marketing Home Page 
+*    Parallel Performance Group, Inc 
+*    The Portland Group, Inc 
+*    Silicon Graphics 
+*    Tandem (e.g. ServerNet) 
+*    Tera Computer Company 
+Schools, Centers, Consortia
+*    Supercomputing and Parallel Computing Research Groups (Scandal, CMU) 
+*    Center for Advanced Computing Research (Caltech) 
+*    U. Edinburgh -- Parallel Computing Centre 
+*    Kepler U. -- GUP Linz 
+*    Center for Parallel Computers (Sweden) 
+*    Oregon Grad. Inst. -- Distributed Systems Research 
+*    University of Delaware 
+*    Prog Envs and Tools Group (Tech. Univ. Munich) 
+*    The Task Parallelism Forum 
+*    Large-Scale Parallel Software (MIT) 
+*    NASA High Performance Computing and Communications Program 
+*    US Executive Office of Science and Technology Policy 
+*    The Parallel Tools Consortium 
+*    PORTS Consortium Home Page 
+*    NASA System Software and Tools Working Group 
+*    German Scientific Computing (University of Augsburg) 
+*    NIST Parallel Processing 
+*    DARPA Information Technology Office Home Page 
+*    Agency of Industrial Science and Technology (MITI Japan) 
+*    ASCI Tera-Scale Computing 
+*    The NRL Advanced Information Technology (AIT) Branch 
+*    STC: Society for Technical Communication 
+*    Software Forum 
+*    UCSD Science & Engineering Library - Computer Science 
+*    SymbolicNet: Sym. Math. Computation Info Center (Kent State)  
+*    HPCC ASTA: Adv. Software Tech. & Algorithms ('95?)  
+*    Computing Research Association  
+*    INRIA: French Nat. Inst. for Research in CS  
+*    The ACM  
+*    San Francisco Bay Area Chapter, ACM  
+Conferences, Workshops (Always out of date)
+*    Conferences and Journals (CMU) 
+*    Upcoming Compiler and Parallel Computing Conferences (Rice) 
+*    Upcoming Conferences and Workshops (MIT) 
+*    Congressos/Conferences  
+*    PACT 97: Par. Arch. & Compiling Techniques  
+*    ISACC'97: Int'l Symp. on App. Corporate Computing  (Monterrey, Mexico) 
+*    PDSE'97: 2nd Int'l Wkshp on Soft. Eng. for Par. & Dist. Systems  
+*    Supercomputer '97 - SuParCup '97 (Germany)  
+*    10th International Conference of Z Users - ZUM'97 (UK) 
+*    ICPADS '97: Int'l Conf. on Par. & Dist. Systems (Korea) 
+*    PDPTA: Int'l Conf. on Par. & Dist. Proc. Techniques & Appl. 
+*    Coordination'97 (Berlin) 
+*    POPL97: Principles of Programming Languages 
+*    PODC '97: Priniciples of Distributed Computing 
+*    SPAA '97: Symp. on Par. Algs. & Architectures 
+*    TACAS'97 
+*    Cluster Computing Conference (CCC '97) 
+*    IOPADS '97 
+*    Parco97 Home Page 
+*    FMOODS 97 - CFP and index 
+*    Welcome to IPPS '97 
+*    SVASE Next Meeting 
+*    Cornell Theory Center Virtual Workshops 
+*    Supercomputing '96 Home Page 
+*    COORDINATION'96 Call for Papers 
+*    VL '96: 1996 IEEE Symposium on Visual Languages 
+*    SPDT '96 Home Page 
+*    Frontiers '96 
+*    Euro-Par'96 
+*    EURO-PAR'95 Conference Information 
+*    SC'95 Proceedings 
+*    SC'96 Proceedings 
+*    Parallel Object-Oriented Methods and Applications Workshop '94 
+*   MPI Developer's Conf  ( 1st  2nd ) 
+*    Third Workshop on Languages, Compilers and Run-Time Systems for Scalable Computers 
+*    Scalable Parallel Libraries Conference III (SPLC96) 
+Education
+*    Forum on Parallel Computing Curricula 
+*    Future of PhDs (Science Magazine) 
+Reports and Books
+*    The CAS 1995 Annual Report 
+*    NASA HPCC FY 1995 Top Level Accomplishments 
+*    Task Force on the Future of the NSF Supercomputer Centers Program 
+*    Cluster Computing Review 
+*    Practical Reusable UNIX Software (ed Krishnamurthy) 
+*    Designing and Building Parallel Programs (Foster) 
+*    Parallel Computing Works (Fox, Williams, Messina) 
+*    ARIANE 5 Failure - Full Report 
+*     The Schatz Report 
+Other (Generally non-parallel)
+* Visual Programming & Visualization 
+*   VPLus Visual Programming System 
+*   Visual Programming 
+*   VPE: A Visual Parallel Programming Environment 
+*   Pancode/Boxcharts 
+*   Visualizing Time-Varying Data 
+*   VL '96: 1996 IEEE Symposium on Visual Languages 
+*   Visual Programming 
+*   Cocoa (was KidSim) Pictorial Programming System (Apple) 
+*   Graph Drawing Tools 
+*   daVinci Graph Visualization System 
+* CS Indexes, Bibliographies, Archives, Bookstores 
+* A Collection of Computer Science Bibliographies  ( In Germany)  (  Mirror in Canada ) 
+*   Computer Science Technical Reports Archive Sites 
+*   Unified CS TR Index (UCSTRI) 
+*   InfoSeek Home Page 
+*   ALIWEB 
+*   Lecture Notes in Computer Science Bibliography 
+*   Langley Technical Report Server (LTRS) 
+*   ESO On-Line Information System 
+*   MIT Document Services' Resource Page 
+*   Skeletons Bibliography 
+*   High Performance Computing 
+*   Computer Science Links 
+*   Larch bibliography (MIT) 
+*   B Method bibligraphy 
+*   Z Bibliography 
+*   VDM (Vienna Development Method) Bib 
+*   College and University Home Pages 
+*   STO Patent Search System 
+*   Powell's Technical Bookstore 
+*   Comp Lit Bookstores 
+The refiling shelf 
+*     International Journal of Digital Libraries 
+*    Other WWW Sites about POWERparallel and Related topics 
+*    PowerPC info (IBM) 
+*    Society for Technical Communication (STC) Home Page 
+*    Computing Dictionary 
+*    Federation of American Scientists 
+*    The International Computer Science Institute (Berkeley, CA) 
+*    IPv6: The New Internet Protocol 
+*    Lists of lists 
+*    Peter van Eijk -- Professionally 
+*    A tribute to Seymour Cray. Supercomputing '96, November 19, 1996 
+*    What is Information? 
+*    Calypso NT 1.0 Parallel Processing for Networked Computers 
+*    Calypso Project Home Page 
+*    WWW Sites about POWERparallel and Related topics (Cornell) 
+*    Directory of /pub/palsberg/papers (Palsberg) 
+*    IPv6: The New Internet Protocol (IEEE) 
+*    Concurrent Programming in Java 
+*    Superconductive Computing Devices 
+*    Welcome to the NCIC 
+*    Juan's Publications and Papers 
+*    ARC Commercial Technology Projects Fund (CTPF): FY 97 Call for Proposals 
+*    John Gustafson  
+To NAS Parallel Tools Team To NAS Home Page 
+Currently maintained by: David DiNucci 
+Responsible official: Cathy Schulbach 
+Send questions, comments and requests for more information to dinucci@nas.nasa.gov 
+Last modified: February 10, 1997 
+

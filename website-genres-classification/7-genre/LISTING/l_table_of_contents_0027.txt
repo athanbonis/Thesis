@@ -1,0 +1,93 @@
+   
+=====================================================================
+Remote Sensing Tutorial Table of Contents
+=====================================================================
+     
+TABLE OF CONTENTS
+Home Page (as appears in the Internet version)
+Homepage
+Foreword
+Dedication and Foreword
+Overview of Remote Sensing 
+Overview; Quiz 
+Introduction: Theoretical, and Technical Perspectives of Remote Sensing; Special Applications 
+The Concept of Remote Sensing 
+Geophysical Remote Sensing: External Fields; Magnetics / Geophysical Remote Sensing: Gravity / Geophysical Remote Sensing: Crustal Dynamics; Seismology 
+The Electromagnetic Spectrum: The Photon / Transmittance, Absorptance, and Reflectance / The Electromagnetic Spectrum: Distribution of Radiant Energies / Spectral Signatures 
+Sensor Technology 
+Processing and Classification of Remotely Sensed Data; Pattern Recognition; Approaches to Data/Image Interpretation 
+History of Remote Sensing; Remote Sensing Systems:
+ 
+In the Beginning; Launch Vehicles / Table: History of Remote Sensing into the 1970s/ Multispectral Images / Film as a Recording Medium / Color & False Color Composites / Apollo 9 Multispectral Images / Earth Resources Technology Satellite (ERTS-1) / Multi-Spectral Scanner (MSS) / A Landsat Image / MSS Histograms / Table: Best MSS Bands for Identifying Surface Features / Thematic Mapper (TM) / Examples of TM Imagery / Other Remote Sensing Systems: MOMS and SPOT / IRS-1, JERS, RESURS, OKEAN, CBERS, and MicroSat (AlSat-1) Series / Hyperspectral Imaging / Radar and Thermal Systems / Meteorological, Oceanographic, and Earth Systems Satellites / Humans in Space: Long Term Mobile and Fixed Stations / The Commercialization of Space / The Systems (Multisource) Approach to Remote Sensing / Military Intelligence Satellites / Medical Applications of Remote Sensing 
+Concluding Remarks 
+Section 1: Image Processing and Interpretation - Morro Bay, California
+Morro Bay, California in context; TM Band 3 Image of Morro Bay / Ground and Aerial Photographs of Morro Bay area / Thematic Mapper Bands / Analysis of the Morro Bay Scene / Mystery Feature / Band Information Characteristics / False Color View / The Mystery Feature up Close / True Color View / Other Color Combos / Prelude to Computer Processing; Preprocessing / Contrast Stretching and Density Slicing / Spatial Filtering / Principal Components Analysis / Ratioing / Unsupervised Classification / Supervised Classification / Minimum Distance Classification / Maximum Likelihood Classification / FIRST EXAM 
+Section 2: Geologic Applications I - Stratigraphy & Structure
+General Background / Some General Concepts underlying the Science of Geology / Using Landsat for Geological Studies / Geologic Map of Waterpocket Fold / Specialized Images of Waterpocket Fold / Maximum Likelihood Classification of the Waterpocket Fold / Geologic Folds in General / Recognition of Faults & Joints / Lineaments & Fractures / Several Case Studies of Fracture Analysis 
+Section 3: Vegetation Applications - Agriculture, Forestry, and Ecology; Other Ecology Examples
+General Principles for Recognizing Vegetation / The SPOT Satellite; Kenya & Rift Valley of Africa / South West Kansas, U.S.A. and Morocco / The Vegetation Index: Africa and other Scenes / Forest Applications; Amazon Rain Forests; Deforestation / Ecological Damage: Natural and Manmade: Non-geological Events / Ecological Damage: Natural Geological Events 
+Section 4: Urban and Land Use Applications - From Los Angeles to Beijing
+Los Angeles, San Diego, Tucson, Las Vegas, and Honolulu / New York, Miami, Atlanta, New Orleans, Dallas-Fort Worth and St.Louis / The U.S. Capital: Washington D.C.; Baltimore, MD; Philadelphia, PA / Buenos Aires; Paris, France; Munich, Germany; Budapest, Hungary; Florence, Italy; Riyahd, Saudia Arabia; Beijing and Shanghai; China / Dallas-Fort Worth, First MSS Landsat (ERTS) Scene; Archaeological Studies 
+Section 5: Geologic Applications II - Mineral & Petroleum Exploration
+Geological Setting at White Mountain, Utah / Ratio, PCA & Maximum Likelihood Analysis of the Utah Site / The Goldfield, Nevada Study / Finding Oil & Gas in Oklahoma 
+Section 6: Space Flight Across the U.S - Boston to Denver to San Francisco; Landsat Tours the World
+The U.S. Flight: General Background / Boston, MA / Pennsylvania, Appalachians / Chicago, Illinois / The Kansas Great Plains / Denver, Colorado, and Front Range / Four Corners - Colorado, New Mexico, Arizona, and Utah / Nevada: the Basin and Range / San Francisco Bay Area, California; the West Coast / GEOGRAPHY QUIZ GAME / Canada / The Caribbean; Central and South America / Europe (including Rome) / Middle East and Africa / Asia / Australia and New Zealand 
+Section 7: Regional Studies - Use of Mosaics from Landsat
+How Mosaics are Made / Photographic, MSS, and DEM Mosaics of parts of the Western U.S. / MSS Mosaic of the U.S.A., Alaska, Mexico; International Mosaics 
+Section 8: Radar and Microwave Remote Sensing
+Radar Defined / How RADAR works / Harrisburg, Pennsylvania, and Nigeria/Cameroon / Foreshortening and Layover; Effect of Illumination Direction / Harrisburg, Pennsylvania; Polarization; Radar Penetration / Seasat Images / SIR-A, -B, and -C on the Space Shuttle; TOPEX/Poseidon; Radarsat, ERS, ALMAZ, and JERS / Passive Microwave; Lidar 
+Section 9: The Warm Earth - Thermal Remote Sensing
+Planck Blackbody Law / The Wien Displacement Law and Emissivity Effects / Heat Capacity, Thermal Conductivity, Thermal Inertia Defined / Diurnal Heating Effects / Thermal Properties of Water; Thermal Sensors / White Mountain Thermal Features; Lakes Erie/Ontario TM Band 6 / Death Valley TM Data; Mauna Loa, Hawaii, TIMS Data / The Heat Capacity Mission; Weather Satellites / Thermography; Night Vision 
+Section 10: Aerial Photography as Primary & Ancillary Data Sources
+Elements of Aerial Photography / The Photographic Process / Photogrammetry 
+Section 11: The Earth's Surface in 3D - Stereo Systems and Topographic Mapping
+Ways to Characterize the Earth's Surface in Maps / The Display of Contours   / Seeing in Stereo / Measuring Heights from Individual and Paired Images / Digital Elevation Models (DEMs) and Viewing Modes / The GPS System / Altimetry / Radar Stereo/Interferometry / Stereo Pairs from Space / Additional Examples of Stereo from Space / The Shuttle Radar Topography Mission 
+Section 12: The Human Remote Senser in Space - Astronaut Photography
+ Guest Writer: Dr. Paul D. Lowman Jr.
+Mercury and Gemini / Apollo Photography / Skylab and Apollo-Soyuz / Shuttle Photography; Kosmos / A Gallery of Photos from Space 
+Section 13: Collecting Data at the Surface - Ground Truth; The "Multi" Concept; Hyperspectral Imaging Spectroscopy
+Rationale for Surface Observations / Training Sites; Mixed Pixels / Accuracy Assessment / Field Instruments and Measurements; Data Collection Platforms / The "Multi" Concept: Multiplatforms and Multilevels / Multisensors/ Multitemporal Coverage; Kuwait Study/ The "Multi" Concept: A Case Study of Mt. Etna in Sicily/ Hyperspectral Imaging Spectroscopy /Principles of Spectroscopy / Absorption Processes / Factors that Modify or "Confound" Spectral Curves; Data Analysis / AVIRIS and other Imaging Spectrometers / Examples of Imaging Spectrometer Products; Multisensor Analysis 
+Section 14: The Water Planet - Meteorological, Oceanographic and Hydrologic Applications of Remote Sensing
+Hydrologic Cycle; Meteorological Satellites (General) / Meteorology - Weather and Climate: A Primer / Metsat Instrumentation: AVHRR / Atmospheric Sounders; Classes of Metsats / TIROS and Nimbus / ESSA, DMSP, SSM/I, TRMM / NOAA Series / Geostationary Satellites; GOES; Insat, Meteosat; GMS / International Meteorological Satellites / / ERBS, UARS; ADEOS / Hurricane Andrew; 1993 Storm of the Century; Hurricanes and Tornadoes; Lightning / Oceanographic Observations; El Niño / Seasat; TOPEX-Poseidon; NSCAT; SeaWinds / CZCS; SeaWiFS / Ice Monitoring / Hydrologic Applications: Drought, Snow Cover; Flooding / Hydrologic Applications: Mapping Floods 
+Section 15: Geographic Information Systems - The GIS Approach to Decision Making
+Maps and Attributes / Data Elements and Models / GIS Defined / A GIS Case Study in Africa / Decision Making; Suitability Determination / Conducting a GIS Analysis / The PP&L Siting Problem / A GIS/Remote Sensing Case Study in Archaeology: Burgundy, France / References
+ 
+Section 16: Earth Systems Science - Earth Science Enterprise and the EOS Program
+ Guest Writer: Dr. Mitchell K. Hobish
+Overview of ESE and EOS; Global Changes / Possible Degradation of the Earth's Atmosphere / Earth System Science / Earth System Cycles / National and International Programs / Mission to Planet Earth / EOS Platforms/Sensors; Mission Profiles / Data Handling: EOSDIS / Terra is Now Operational; MODIS and MISR / Terra is Now Operational: ASTER, MOPITT, and CERES / Aqua is Now Operational; Envisat / Satellite Formation Flying; NPOESS / Background Readings 
+Section 17: Use of Remote Sensing in Basic Science Studies I - Mega-Geomorphology
+MegaGeomorphology Defined; Geomorphic Maps / "Geomorphology from Space" / Tectonic/Volcanic Landforms / Fluvial/Deltaic/Coastal Landforms / Karst/Lacustrine/Aeolian/Glacial Landforms / Terranes as Terrains: The Klamath, Oregon Study / The Klamaths from Space / Terranes in TM Imagery; Ridges and Elevations / Geomorphic Parameters from Maps / Summary of the Klamath Terrane Project 
+Section 18: Basic Science II: Impact Cratering
+Distribution of Craters / Cratering Mechanics / Shock Metamorphism / Crater Morphology; Major Impact Structures / Remote Sensing of Craters
+ 
+Section 19: Planetary Remote Sensing - The Exploration of Extraterrestrial Bodies
+Remote Sensing Techniques / Intoduction to Planetary Bodies; Solar System Parameters / Earth as a Planet / Pre-Apollo Exploration of the Moon / Early Spacecraft Visits to the Moon / Unmanned Lunar Landers; Lunar Stratigraphy / The Apollo Program - Man on the Moon / Apollo Instrument Experiments / Post-Apollo Lunar Exploration / Mercury and Venus / The Magellan Mission / Mars; The Red Planet / The Martian Atmosphere; Ice at the Poles / Martian Landscapes: Linear Features, Volcanoes, and Impact Craters; Exotic Terrains; Martian Stratigraphy / Life on Mars; Resumption of Martian Exploration; / Martian Missions in the Third Millenium; MERS; Future Plans for Mars; The Martian Satellites / Overview of the Outer Planets / Jupiter / The Galilean Satellites / Saturn and Its Moons / The Cassini-Huygens Mission /Uranus, Neptune and Their Satellites / Asteroids and Comets / Comet Shoemaker-Levy 
+Section 20: Astronomy and Cosmology: The Description, Origin, and Development of the Universe
+Preface (including a review of Relativity and Quantum Physics) / Origin and Early Development of the Universe; Big Bang Eras; Expansion of Space / The Hubble Space Telescope; Galaxies / Images of Galaxies and Stars outside the Visible Light Range. / Special Features of Galaxies: Colliding Galaxies; Galactic Gases; Starbursts and Active Galactic Nucleus / Birth, Life, and Death of Stars / The Genesis Mission / Novae and Supernovae; Pulsars, Quasars, and Black Holes; Gamma Ray Bursts; and Colliding Stars / Spectral Analysis of Star Composition; Element Synthesis in Stars / Space-Time and Expansion / Evidence for the Big Bang; the Redshift; Galactic Distances; Age of the Universe; Cosmic Background Radiation; Expansion Models; Dark Matter and Energy / Recent Innovations about the Concept of "Universe": Dark Energy and an Accelerating Universe?; Varieties of Universes (Multiverses); Philosophical Implications / Origin of Planetary Systems / Origin and Nature of Life on Planetary Bodies; Some Additional (Metaphysical) Comments / Letters by N.M. Short regarding Creationism and Intelligent Design 
+Section 21: Remote Sensing into the 21st Century
+ Guest Writer: William E. Stoney
+Outlook for the Future; FINAL EXAM / Exam Questions / Exam Answers 
+Appendix A: Modern History of Space
+Guest Writer: J. Rosalanka 
+The 1970's
+ Introduction / American Space Policy / American Civilian Space Program (NASA) / American Military Space Program: Initial Military Operations / Russian Space Program / European, Asian, and Commercial Space Programs 
+The 1980's
+ Introduction / American Space Policy / American Civilian Space Program (NASA) / American Military Space Program: Initial Military Operations / Russian Space Program / European, Asian, and Commercial Space Programs 
+The 1990's
+ Introduction & American Space Policy/ American Civilian Space Program (NASA) / American Military Space Program: Initial Military Operations / Russian Space Program / European, Asian, and Commercial Space Programs   
+Appendix B: Interactive Image Processing
+Guest Writer: J. Love
+Introduction / The Nature of Satellite Digital Data / Digitization / Image Processing / Introduction to PIT / Installing PIT from the Internet / Installing PIT from the CD-ROM / General Overview of PIT / Displaying Images / Histograms and Scatter Plots / Ratioing and Principal Components / Unsupervised Classifications / Supervised Classifications / Conclusion 
+Appendix C: Principal Components Analysis
+ Guest Writer: Dr. Jon W Robinson
+Introduction / Linear Combinations / Singular Matrices / Space / Standardizing Sets 
+Appendix D: Glossary
+Guest Writer: J. Weissel
+  
+---------------------------------------------------------------------
+Direct any questions concerning Tutorial Content to the Primary Author: Nicholas M. Short, Sr. email: nmshort@ptd.net 
+Contributor Information
+ 
+Last Updated: July 15, 2004 
+The Tutorial is hosted by the EOS-Goddard Program Office (Code 420). Please direct any questions or comments regarding the Website to John Bolton of that office.
+

@@ -1,0 +1,186 @@
+
+=====================================================================
+Frequently Asked Questions - 14. Electronic Filing (e-file) and TeleFile
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+14.1 Electronic Filing (e-file) and TeleFile: Age/Name/SSN Rejects, Errors, Correction Procedures
+What software is approved for IRS e-file?
+The IRS does not endorse or warrant software, but has provided links to electronic filing software web sites at On-line Filing Software Companies. Also, consider IRS e-file by filing through an Authorized IRS e-file Provider. To learn more, refer to our Electronic Services information. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* On-line Filing Software Companies 
+* Tax Topic 252, Electronic filing 
+* Electronic Services 
+We will be filing a joint tax return. Can we file our return electronically?
+Yes. Filing your return electronically is faster, safer, and more accurate than mailing your tax return because it is transmitted over telephone lines directly to an IRS computer. Refer to Tax Topic 252, Electronic Filing, for more information. 
+References: 
+* Tax Topic 252, Electronic Filing 
+How can I participate as an electronic filing Provider?
+To participate in the e-file program, you must first choose the Authorized IRS e-file options that are best for you. An Authorized IRS e-file Provider can be an Electronic Return Originator, Intermediate Service Provider, Transmitter or Software Developer. 
+Submit Form 8633 (PDF), Application to Participate in the IRS e-file Program. Submit your application to the appropriate Service Center as shown on Form 8633. Publication 1345 (PDF), Handbook for Authorized IRS E-File Providers Individual Income Tax Returns, provides you with the information you need to apply to participate in the e-file Program. Technical information can be found in Publication 1346, Electronic Return File Specifications and Record Layouts for Individual Income Tax Returns. Updates to this publication will appear on the Electronic Filing System Bulletin Board. You can also contact the Andover Service Center at 1-800-691-1894 (toll free) for assistance. 
+Pass a Suitability Background check. If you apply to become an ERO, Transmitter or Intermediate or Intermediate Service Provider, the IRS conducts a background check on all principals of your firm and responsible officials listed on the application to determine their suitability to be an Authorized IRS e-file Provider. If you apply to be a Software Developer only, a suitability check is not required. 
+References: 
+* e-file Providers Web Page 
+* Form 8633 (PDF), Application to Participate in the IRS e-file Program 
+* Publication 1345 (PDF), Handbook for Electronic Filers of Individual Income Tax Returns 
+* Publication 1346 (PDF) Electronic Return File Specifications and Record Layouts for individual Income Tax Return 
+* Tax Topic 252, Electronic Filing 
+I filed electronically but my tax return was rejected. What do I do now?
+Your next action depends on the reason your return was rejected. If you made a mistake in entering the social security number or misspelled a name, you can fix these errors and have the return sent again to the IRS. There are other errors that will cause you to have to file using a paper return. If you have further questions, you can call our Customer Service number at 1-800-829-1040. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+We tried to file electronically and the tax return was rejected because my wife's name did not match her social security number. What should we do?
+If the name on her social security card differs from what was provided on the tax return, the electronic transmission will be rejected. This means the return has not been filed. You need to either use the name exactly as shown on her social security card or change her card at the Social Security Administration and allow two weeks before resubmitting your return electronically. 
+You can contact the Social Security Administration at 1-800-772-1213 or visit your local Social Security Administration office and follow their procedures to correct your records. 
+For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic filing 
+* Electronic Services 
+How long after I change my name with social security will I be able to file my tax return electronically?
+Generally, two weeks after you change your name with the Social Security Administration, the IRS should have the information and you should be able to file electronically. If you do not have two weeks to wait before the due date for filing your return timely, you will need to file a paper return. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+My electronic tax return keeps getting rejected for a dependent's social security number used more than once or on another return. I have verified the social security numbers of all my dependents with the Social Security Administration and no one else is authorized to claim our children on their taxes. How do I correct this error so that an e-file return will go through?
+Unfortunately, you will need to file a paper return this year. Do not send any documents that are not required with your tax return. Whether the cause of this rejection is the result of a typo on another return or an attempt by another party to claim your dependent, the IRS has security measures in place to ensure the accuracy of returns submitted. In such cases, the IRS will question the dependency exemptions claimed by any other party using the wrong social security number. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I have electronically filed my tax return and it has not been accepted because a dependent's social security number and last name do not match the IRS records. I have checked with the Social Security Administration office and the information is correct as it appears on their social security cards. What do I do now?
+Unfortunately, you will need to file a paper return this year. Do not send any documents other than the required form. You should also attach documentation supporting the social security numbers in question for the dependents and a copy of the e-file rejection notice. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+Could you explain the electronic filing error message: Primary social security number was previously used as a dependent's social security number on another tax return?
+The social security number in question appeared as a dependent on another tax return for this same year. Whether the cause of this rejection is the result of a typo on another return or an attempt by another party to claim a dependent using your primary social security number, the IRS has security measures in place to ensure the accuracy of returns submitted. In such cases, the IRS will question the dependency exemptions claimed by any other party using the wrong social security number. If you have verified this primary social security number and found no errors, you need to file a correct paper return. You should mail you tax return in and any required forms and schedules but do not attach any additional information; if needed the lRS will contact you by mail for any supporting documentation. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+Could you explain the electronic filing error message: Dependent's social security number was used as primary and claimed self as an exemption on another tax return?
+This message means the social security number for the person whose exemption is being claimed on this tax return as a dependent has already been filed on another tax return as the primary taxpayer claiming the exemption. This may occur when your child has filed his or her own return and not checked the box that someone else can claim him or her as a dependent, or may be the result of a typo on another return. The IRS has security measures in place to ensure the accuracy of returns submitted. In such cases, the IRS will question the exemptions claimed by any other party using the wrong social security number. If you have verified the dependent's social security number and found no errors and your dependent has not filed a return and claimed an exemption, you need to file a correct paper return. For general information about e-file, refer to Tax Topic 252, Electronic Filing.
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic filing 
+* Electronic Services 
+I am concerned that someone else may be using my social security number to file taxes without my knowledge and would like to know what to do?
+Your concern may be the result of having had your e-file tax return rejected with an error message that your social security number has already been used on another return, for the same tax year. The cause of this rejection might be that someone is using your social security number to file a return, but also might be the result of a typo on another return. The IRS has security measures in place to verify the accuracy of tax returns and validity of social security numbers submitted. If you received this electronic filing error message and you have verified your social security number and have found no errors, you need to file a correct paper return. Send only your tax return and all required forms and schedules; please do not attach any other documents. If necessary, the IRS will contact you by mail for additional information. 
+You are entitled to file your return correctly. If, however, you have knowledge of tax fraud being committed, you may make an anonymous report by calling 1-800-829-0433. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+How can I make sure no one files under my name using my social security number?
+Your concern may be the result of having had your e-file tax return rejected with an error message that your social security number has already been used on another return for the same tax year. The cause of this rejection might be that someone is filing a return using your home and your social security number, but also might could be the result of a typo on another return. The IRS has security measures in place to verify the accuracy of tax returns and validity of social security numbers submitted. If you received this electronic filing error message and you have verified your social security number and have found no errors, you need to file a correct paper return. Send only your tax returns and all required forms and schedules. Do not attach any other documents. If necessary, the IRS will contact you for additional information. If, however, you have knowledge of tax fraud being committed, you may make an anonymous report by calling 1-800-829-0433. For general information about e-file, refer to Tax Topic 252 , Electronic Filing . 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I corrected my date of birth with the Social Security Administration and received my new social security card in the mail. However, my tax return is still being rejected due to the date of birth. How should I proceed?
+Allow two weeks for our records to be corrected. If it is still a problem, call 1-800-829-1040 to see what our records still show. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+We electronically filed our tax return and it came back stating that it was rejected for an error with my husband's date of birth not matching his social security number. There has never been a problem before this year and it does have the correct date. What do we do?
+Unfortunately, you will need to file a paper return this year. Contact the Social Security Administration (SSA) at 1-800-772-1213 to verify the accuracy of your date of birth as recorded with SSA. For general information about e-file, refer to Tax Topic 252, Electronic Filing . 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+14.2 Electronic Filing (e-file) and TeleFile: Amended Returns
+Can I file an amended Form 1040X electronically?
+At this time, the Form 1040X is not accepted electronically. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+14.3 Electronic Filing (e-file) and TeleFile: Due Dates & Extension Dates for e-file
+I'm in the process of getting a name and social security number mismatch error corrected with the Social Security Administration. In the meantime, what can I do to avoid a penalty notice for not filing my tax return on time?
+If there is not enough time before the due date to get the IRS records updated from the Social Security Administration, you will need to file a paper return by mail. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I don't owe taxes. Can I file electronically after April 15th?
+Yes, you can electronically file your return after April 15th, however to do so you must file Form 4868 (PDF), an Application for an Extension of Time to File, on or before April 15th . If the extension is timely filed, you have until August 15th to file your return. If the 15th falls on a weekend or federal holiday, you have until midnight the following business day to submit your extension or your tax return. If additional time is needed please refer to the instruction for Form 2688 (PDF), Application for Additional Time to File US Individual Income Tax Return. Please note that the Form 2688 is not an automatic extension and must be approved by IRS; if it is approved you may have until October 15th to file your return electronically. 
+References: 
+* Tax Topic 304, Extension of Time to File Your Tax Return 
+* Electronic Services 
+* Form 4868 (PDF), Application for Automatic Extension of Time to File US Individual Income Tax Return 
+* Form 2688 (PDF), Application for Additional Time to File US Individual Income Tax Return 
+How can I send in my tax return before April 15th when e-file won't accept a wrong social security number?
+You can file a paper return. You will still need to fix the problem with the social security number in order to file electronically in the future. Contact the Social Security Administration at 1-800-772-1213. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Social Security Administration 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+14.4 Electronic Filing (e-file) and TeleFile: Forms W&#8211;2 & Other Attachments
+If I file electronically, what do I do with my W-2 forms?
+When filing electronically you must provide Form W-2 (PDF) to the authorized IRS e-file provider before the provider sends the electronic return to the IRS. In addition, you should keep them in a safe place with a copy of your tax return. For general information about e-file, refer to Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+14.5 Electronic Filing (e-file) and TeleFile: TeleFile
+What is TeleFile?
+TeleFile is an interactive computer program that calculates your taxes and begins the electronic filing process over the phone. IRS automatically sends a special TeleFile package to those who may be eligible to use it. Only those receiving the package can use TeleFile. This year, many taxpayers who filed Form 1040EZ (PDF), Income Tax Return for Single and Joint Filers With No Dependents, or by TeleFile last year will receive a special TeleFile tax package that allows them to file their taxes electronically by phone. TeleFile is easy, fast, and free. It's available 24 hours a day, with nothing to mail in. TeleFile is a great way for students to file their tax returns. Refer to Tax Topic 255, TeleFile, for more information. 
+References: 
+* Tax Topic 255, TeleFile 
+Can I TeleFile or e-file if I am deducting student loan interest?
+You cannot use TeleFile if you are claiming the student loan interest deduction. However, you can e-file by personal computer or by filing through an Authorized IRS e-file Provider. To learn more, refer to our Electronic Services information. For general information about TeleFile or e-file, refer to Tax Topic 255, TeleFile, or Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 255, TeleFile 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+Where can I get a TeleFile form?
+If you file a paper tax return for the current year and qualify to TeleFile, the IRS should send you a TeleFile package in the mail by January 20th of the following year, which will include your PIN number. If you qualify and do not receive the package, call (800) 829-1040 and request one. If you do not qualify, you can still receive all of the benefits that IRS e-file has to offer by using a personal computer or filing through an Authorized IRS e-file Provider. To learn more, refer to our Electronic Services information. For general information about TeleFile or e-file, refer to Tax Topic 255, TeleFile, or Tax Topic 252, Electronic Filing.
+References: 
+* Tax Topic 255, TeleFile 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I have not received a TeleFile tax package. Is there a way I can order this form?
+If you have met the criteria for using Telefile, i.e., filed TeleFile or a paper 1040 EZ the current year and have not changed your address or filing requirements, you should receive a package. If you do not receive the TeleFile tax package or if you lost or misplaced it, you can call the IRS at (800) 829-1040 and request another package be mailed to you. Also, consider IRS e-file using a personal computer or filing through an Authorized IRS e-file Provider. To learn more, refer to our Electronic Services information. For general information about TeleFile or e-file, refer to Tax Topic 255, TeleFile, or Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 255, TeleFile 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I received a Form 1099-MISC as well as some W-2s. Can I still use TeleFile?
+If you received other income such as nonemployee compensation that must be reported on Form 1040 or supporting schedules, you cannot use TeleFile. However, consider IRS e-file using a personal computer or filing through an Authorized IRS e-file Provider. To learn more, refer to our Electronic Services information. For general information about TeleFile or e-file, refer to Tax Topic 255, TeleFile, or Tax Topic 252, Electronic Filing. 
+References: 
+* Tax Topic 255, TeleFile 
+* Tax Topic 252, Electronic Filing 
+* Electronic Services 
+I don't owe taxes. Can I file using TeleFile after April 15th?
+Yes, you can TeleFile until August 15th. If August 15th falls on a weekend or federal holiday, you have until midnight of the following business day to submit your return. That being said, to file after April 15th, you need to apply for an extension of time to file your return prior to April 15th. For information about applying for an extension, see Form 4868 (PDF), Application for Automatic of Time to File US Individual Income Tax Return. For general information about TeleFile, refer to Tax Topic 255, TeleFile. 
+References: 
+* Tax Topic 255, TeleFile 
+* Form 4868 (PDF), Application for Automatic Extension of Time to File US Individual Income Tax Return 
+What is a 1040PC tax return?
+The 1040PC was an alternative to filing a conventional paper tax return. It was a computer generated tax return that prints out only the lines on which you made an entry. The IRS no longer accepts paper returns in the 1040PC format. 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

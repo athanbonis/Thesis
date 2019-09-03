@@ -1,0 +1,52 @@
+
+=====================================================================
+Allan Donsig's Home Page
+=====================================================================
+ 
+Allan Donsig
+Associate Professor
+ Department of Mathematics 
+University of Nebraska--Lincoln
+ 
+Office: Avery 307 
+Office Phone: 402-472-8128 
+Dept. Phone: 402-472-3731 
+Dept. Fax: 402-472-8466 
+E-mail: adonsig at math dot unl dot edu (Forgive the non-machine readable address) 
+Office Hours: by appointment 
+To make an appointment please send email. (It is fine to drop by but I may be busy.) 
+Note that the Mathematics Department has moved to Avery Hall. 	
+---------------------------------------------------------------------
+Teaching -- Fall 2004
+I will be on leave for the fall semester. 
+---------------------------------------------------------------------
+Research
+My research interests are in operator algebra and operator theory. In particular, most of my papers are about limit algebras, infinite-dimensional operator algebras that are limits of finite-dimensional algebras. In spite of being "almost finite-dimensional", they have some quite suprising properties.
+I've put more information, including abstracts of my papers, on a separate page.
+There is a local semi-annual conference in functional analysis, the Nebraska-Iowa Functional Analysis Seminar which I help arrange.
+Jointly with Michael Lamoureux of the University of Calgary, I organized a workshop on Coordinate Methods in Nonselfadjoint Operator Algebras in December of 2003 at the Banff International Research Station for Mathematical Innovation and Discovery.
+---------------------------------------------------------------------
+Real Analysis with Real Applications 
+Together with Kenneth R. Davidson of the University of Waterloo, I have written an introductory analysis textbook, called Real Analysis with Real Applications. The publisher, Prentice Hall, has a webpage for the book.
+There is a pdf file available here containing the table of contents and the preface for the book.
+The second printing of the book is scheduled for January of 2004. We have two lists of errata, the first for errors found since the second printing and the second for errors fixed in the second printing.
+Feel free to email us with comments on the book.
+---------------------------------------------------------------------
+Pi Mu Epsilon 
+I am faculty advisor for the Nebraska Alpha chapter of Pi Mu Epsilon, a national honorary society dedicated to mathematics. 
+---------------------------------------------------------------------
+Operator Algebras Seminar 
+I am organizer for the Operator Algebras Seminar, which meets on Wednesdays at 2:30 in Oldfather 827. I send out emails giving advance announcements of the seminar; if you want to recieve these emails, let me know (ideally, by email). 
+---------------------------------------------------------------------
+TeX, LaTeX, and AMS-LaTeX 
+These are typesetting programs that are defacto standards for mathematics and physics papers. The hardest part of getting started with them is finding good model documents to modify. In the absence of good models, I offer a few documents of my own, listed here, including a documentclass file for unl theses, unlthesis.cls, and short sample thesis using this class file. 
+There are a multitude of good sites on TeX. I would particularly recommend the Comprehensive TeX Archive Network and the American Mathematical Society's page on TeX Resources. 
+There are two books I would particularly recommend: 
+* LaTeX: A Document Preparation System by Leslie Lamport,  Second Edition, Addison-Wesley, ISBN: 0-201-52983-1. 
+* A Guide to LaTeX 2e by Helmut Kopka and Patrick W. Daly,  Second Edition, Addison-Wesley, ISBN: 0-201-42777-X. 
+The first is the original user's manual by the author of LaTeX. 
+---------------------------------------------------------------------
+But what matters most to me, personally, is being able to communicate to others my sense of what mathematical research is all about--the quest for truth and the inner joy that comes from surrendering oneself to it. 1 
+Alain Connes, Fields Medalist in Operator Algebras
+---------------------------------------------------------------------
+

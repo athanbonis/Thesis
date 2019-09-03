@@ -1,0 +1,268 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Naomi Klein: The poor of Argentina fight back
+- Audrey Gillan investigates Jamaican drug mules
+- Simon Hoggart: Blair's self-watering speech
+This week
+- Labour conference 2003
+- Observer Music Monthly
+- Exclusive survey: how much do public sector bosses earn?
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Andrew Anthony
+- Jonathan Freedland
+- Naomi Klein
+- Paul Foot
+- Richard Norton-Taylor
+- Polly Toynbee
+- Andy Rickell
+- Matthew Norman
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+Steve Bell
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Wednesday October 01 2003 	
+Blair faces defeat in hospitals debate
+Conference could produce an embarrassing vote on Blair's foundation hospitals plan.
+The man is not for turning
+Full text: Blair's speech
+Leader: Set on the true path
+Audio: Michael White
+Sketch: Simon Hoggart
+Special report: Labour conference
+Guardian Unlimited Politics	
+ 	
+Bush aide accused of CIA leak
+Reporters told wife of former US ambassador was an agent.
+Special report: United States	
+ 	
+Mr Blair, we're here to help...
+Ahead of Tony Blair's speech, a team of campaigners took to the streets to rally support for the embattled leader. Oliver Burkeman reports.
+Get your own 'We Love Tony' placard	
+ 	
+Audio | Crossword | Talk | Steve Bell | Weblog | Comment | Email services | Interactive guides	
+ 	
+Labour conference
+---------------------------------------------------------------------
+Respect from centre, but unions dismissive
+Warm response reassures Blairites that party has not transferred loyalty to chancellor.
+Comment: Jonathan Freedland
+Comment: Polly Toynbee	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Israel arrests Islamic Jihad leader
+World: Israeli commandos today arrested a senior leader of Palestinian militant group Islamic Jihad in a West Bank refugee camp. 
+Israeli pilot rebels accused of mutiny
+Special report: Israel & the Middle East
+More world news	
+ 	
+All-night tube to aid London's bid to host Olympics
+UK: London's underground trains may run around the clock as part of the capital's effort to win the 2012 Olympics. 
+Special report: transport in Britain
+More UK news	
+ 	
+Hutton inquiry boosts BBC's reputation in Europe
+Media: The standing of the BBC in Europe has increased since the Hutton inquiry but has taken a battering in the US.
+MediaGuardian.co.uk	
+ 	
+Struggle for survival that forces women to risk drug run
+Special investigation: Audrey Gillan travels to Kingston, Jamaica, to uncover the terrible price paid by the women's families and the desperation.
+Comment: Alan Travis
+First part of Audrey Gillan's investigation of cocaine mules
+Special report: drugs in Britain	
+ 	
+British Energy rescue likely
+Business: Nuclear power generator asks creditors to swap debt for equity to avert collapse.
+Transco to escape blackout fines
+More business news	
+ 	
+First woman takes over at Cambridge
+Education: New vice-chancellor fights shy of top-up fees and sees funding shake-up for higher education as a wake-up call for universities.
+EducationGuardian.co.uk	
+ 	
+Recount builds better economic view
+Money: City investors bet on early rise in interest rates after radical rewrite of official data shows the economy bouncing back far more strongly than policymakers had thought. 
+Guardian Unlimited Money	
+ 	
+Scientist in rethink over drug link to suicide
+Society: Scientist who led latest trial of an antidepressant drug given to children has conceded that drug's potential to cause suicidal thinking needs to be investigated. 
+SocietyGuardian.co.uk	
+ 	
+Cash crisis threatens National Gallery
+Arts: Big rise in grant is vital if closures are to be averted, officials warn.
+Blockbuster hopes are pinned on El Greco
+Guardian Unlimited Arts	
+ 	
+Crisis talks could spell end for Reid
+Football: Peter Reid is facing the sack as members of the Leeds board meet in London to decide their manager's immediate future. 
+Guardian Unlimited Football	
+ 	
+Coroner's plea over chatrooms
+Online: A coroner yesterday called for greater public vigilance to combat the danger of internet chatrooms. 
+More from the Online team	
+ 	
+Is Gordon Brown behind all the good things about Labour?
+Talk: Join the debate on the web's liveliest talkboards.
+The fuel tax
+EastEnders: the return of Dirty Den
+Does the Royal Navy need rebranding?
+More discussions	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Car hire	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live online		 
+- John Vidal: how to solve world's water problems
+- Weds Oct 1: Alan Milburn MP
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+Events & offers		 
+- Buy a signed Jane Bown print
+- Win Harry Potter on audio CD
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

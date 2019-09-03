@@ -1,0 +1,83 @@
+
+=====================================================================
+Jet Set Europe
+=====================================================================
+ BlogThis!   
+//JavaScript generator under the GNU General Public License var today = new Date; var Future0 = new Date; ThisYear = 2005; var FutureMonth = 4; var FutureDate = 10; var faraevent = "i'm back in the states!"; Future0.setMonth(FutureMonth, FutureDate); Future0.setFullYear(ThisYear); today1 = Date.parse(today); future1 = Date.parse(Future0); secleft = future1 - today1; miliday = 24 * 60 * 60 * 1000; daysleft = secleft/miliday; daysleftint = Math.round(daysleft); if (daysleftint > 1) document.write("There are ", daysleftint, " days until ", faraevent , "! "); else if (daysleftint == 1) document.write(faraevent, " is tomorrow! "); else if (today1 == future1) document.write(faraevent, " is today! "); 
+***note to all: please watch your language when leaving a message...i have young swimmers who may be looking at this! thanks!*** Tuesday, March 15, 2005
+on my way...  
+tomorrow i leave for the cities.the day after, for europe.i never thought it would come.i still don't think it's coming.i'm not excited yet, but i will be. once we pull up to that airport...next stop...europe! posted by andi at 11:29 PM |&nbsp&nbsp&nbsppostCount('111095824790011757');   
+Tuesday, March 08, 2005
+Wow.  
+Eight more days. I have to get this blog up to date by then! I'm leaving for home on Monday, the 14th to see my grandparents, my parents, pack and the sorts. Then my parents are bringing me to the airport for the flight that leaves at 4:50 on St. Patty's day. I also got my Easter Break plans figured out. My friend Susanna (she graduated from high school with me and was my cousin's foreign exchange student) and her family have invited me over to Berlin. I'm excited! Although, it took some trouble getting the plane ticket as I found out I should not be allowed to book tickets. Let's just say it was a $200 life lesson. O my. But yeah. One more weekend of Eurospring workshops and then I'm outta Btown for 2 months...and then I get to move into the new house! yay!Well, I'm outie...I've got to get this blog in shape but it won't be tonight...*yawn* posted by andi at 11:39 PM |&nbsp&nbsp&nbsppostCount('111035424817946110');   
+Wednesday, September 08, 2004
+the first letter  
+To: All 2005 BSU Eurospring participantsFrom: Louise Mengelkoch, Academic DirectorHello everyone! I wanted to make contact with you early in the semester togive you an idea of what to expect during the next few months before ouroverseas adventure. I'm so excited and I'm sure you are too!The first upcoming event (which is very soon!) is the annual visit of Dr.Allan Chapman, our main lecturer at Oxford University. If you haven'texperienced a Chapman lecture yet, you're in for a real treat. (Even if youhave, you're still in for a treat!) His public lecture is Monday, Sept. 20at 3 p.m. in HS 100. Even if you have a class at that time, most professorsare happy to excuse you for this event. Some of them even take their entireclass to Chapman's talk. I hope to see you there. Please find me andintroduce yourself. I'd love to meet all of you as soon as possible.Beginning about mid-October we'll be meeting 3-4 times before semesterbreak. We'll be spending time on logistics, such as registration, passports,etc., but also academic preparation. These meetings are a part of thepre-trip workshop, for which you will receive academic credit and receive agrade for spring semester. We hope to get full participation. With that inmind, I'd like to hear from each of you regarding your fall schedule. I'mconsidering 4 meetings (2 hours each time) on weekday evenings. My scheduleallows me to meet any evening but Wednesdays. Would you please respond andlet me know which evenings would work for you (or late afternoons).This is going to be the experience of a lifetime and I look forward toenjoying it with each one of you. Hope your fall semester is starting offwell, and I hope to hear from you as soon as possible.Regards,--Louise Mengelkoch posted by andi at 8:48 AM |&nbsp&nbsp&nbsppostCount('109465856635164379');   
+Friday, August 20, 2004
+jet set europe  
+so in a few months i will be making my way over to europe for a great adventure! studying and touring is what is in store for me. i'll post everything here for all to read. posted by andi at 1:08 PM |&nbsp&nbsp&nbsppostCount('109303259095486350');   
+About Me
+my name: andi
+ my destination: europe
+email me
+mailing address:
+ Wycliffe Hall
+ Andrea Kroll Rm. 11
+ 54 Banbury Rd.
+ Oxford OX2 6 PW
+ UK
+ 
+Links
+my blog
+ eurospring info
+ oxford university 
+Schedule
+10-19-04: First Fall Meeting
+ 10-23-04: Second Fall Meeting
+ 11-16-04: Third Fall Meeting
+ 11-30-04: Fouth, and final, Fall Meeting
+1-22-23-05: First Eurospring Workshop
+ 2-26-27-05: Second Eurospring Workshop
+ 3-13-14-05: Third, and final, Eurospring Workshop
+3-17-05: Leave Minneapolis
+ for Oxford
+ -Study at Oxford 
+for next 5 weeks-
+ 4-21-05: Oxford/Dover/
+Paris
+ 4-22-04: Paris
+ 4-24-04: Paris/Lucerne
+ 4-25-04: Lucerne
+ 4-26-04: Lucerne/Pisa/
+Florence
+ 4-27-04: Florence
+ 4-28-04: Florence/Rome
+ 4-29-04: Rome
+ 4-30-04: Rome/Venice
+ 5-01-04: Venice
+ 5-02-04: Venice/Salzburg
+ 5-03-04: Salzburg/
+Mauthausen/Vienna
+ 5-04-04: Vienna
+ 5-05-04: Vienna/Prague
+ 5-06-04: Prague
+ 5-07-04: Prague/Nuremberg
+ 5-08-04: Nuremberg/
+Heidelberg/Ruedesheim
+ 5-09-04: Ruedesheim/
+Rhine Cruise
+ 5-10-04: Ruedesheim/
+Frankfurt/USA
+ ***Welcome Home!***
+Previous Posts
+* on my way... 
+* Wow. 
+* the first letter 
+* jet set europe 
+Archives
+* August 2004   
+* September 2004   
+* March 2005  
+---------------------------------------------------------------------
+nbsp;
+

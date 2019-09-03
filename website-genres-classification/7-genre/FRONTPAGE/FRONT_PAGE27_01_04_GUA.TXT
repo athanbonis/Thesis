@@ -1,0 +1,266 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Today's picks		 
+- Daniel Ellsberg: Leak against the Iraq war
+- Stephen Moss: Is my degree worth £9,000?
+- Albert and John Scardino on Bush's election strategy
+This week 
+- The Hutton report
+- Q&A: top-up fees
+- Celebrate our fifth birthday and win a holiday to Marrakech
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Daniel Ellsberg
+- Stephen Moss
+- Max Hastings
+- Mary Kenny
+- Martin Kettle
+- Zoe Williams
+- Matthew Norman
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+In pictures
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Tuesday January 27 2004 	
+               
+   
+* Radiohead top NME awards nominations
+* Holocaust day rally condemns racism in Belfast
+* Labour threatens to cut ties with founding union
+* Safin ousts Roddick in five-set epic
+* Plans to withhold housing benefit from nuisance neighbours are axed    
+          
+Clarke opens crucial fees debate
+2pm: Education secretary begins Commons debate on university top-up fees, buoyed by support of chief rebel Nick Brown.
+Fee rebel leader switches sides
+Comment: Martin Salter
+University heads back fees
+Talk about it
+Guardian Unlimited Politics	
+ 	
+Short influenced BBC broadcast
+ Ex-minister spoke to editor before Gilligan report on Iraqi dossier.
+Your verdict on the Hutton inquiry
+Weblog special: the Hutton inquiry
+Special report: the Hutton inquiry	
+ 	
+Rings leads Oscar nominations
+The Return of the King wins 11 nominations for this year's Academy awards.
+Full list of Oscar nominations	
+ 	
+Crossword | Steve Bell | Interactive guides | Comment | Weblog | Talk | Audio | Email services	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Runner wins image rights battle
+Media: David Bedford wins case against 118 118 directory inquiries service.
+MediaGuardian.co.uk	
+ 	
+Holocaust day rally condemns racism in Belfast
+UK: An anti-racism rally outside Belfast's city hall is the main focus of today's annual UK Holocaust memorial day.
+More UK news	
+ 	
+UN ready to send elections team to Iraq
+World: Kofi Annan says a team will be sent to Iraq to determine the feasibility of holding elections before the summer.
+Special report: Iraq
+More world news	
+ 	
+Propaganda by numbers
+US elections: The Bush team will be watching New Hampshire with keen interest as they prepare their own campaign, write Albert and John Scardino.
+Edward Miliband on the Democratic candidacy race
+Jess Cartner-Morley on candidates' hair
+Monika Stedul on Kerry and Dean
+Special report: US elections 2004	
+ 	
+War of words
+Tokyo dispatch: Japan's deployment of troops in Iraq has led to conflict between the press, who want to tell the real story, and the government, who would rather they didn't, says Justin McCurry. 
+More exclusive reports from our foreign correspondents	
+ 	
+Labour threatens to cut ties with founding union
+Politics: Labour's ruling national executive committee is to give the RMT union two weeks to break its links with other political parties or be disaffiliated.
+Guardian Unlimited Politics	
+ 	
+Home drawn
+Travel: Vermeer's Girl with a Pearl Earring is even more captivating in real life, discovers Imogen Tilden in The Hague.
+Guardian Unlimited Travel	
+ 	
+Cambridge abandons animal testing laboratory plan
+Education: Cambridge University scraps plans for a government-backed primate research centre because of security costs.
+EducationGuardian.co.uk	
+ 	
+Lottery fund faces curbs on grants for big projects
+Society: Lottery funding for major projects on a par with the Eden Project's distinctive domes is set to be limited to just two or three schemes a year, MPs heard.
+SocietyGuardian.co.uk	
+ 	
+Parmalat admits real debt is 14bn euros
+Business: Parmalat's real debts last year were over &euro;14bn, almost eight times more than the bankrupt company's former executives had admitted. 
+Special report: Parmalat
+More business news	
+ 	
+Radiohead top NME awards nominations
+Arts: With five nominations in this year's NME awards, Radiohead have confirmed once again that they are still the UK's most vital and popular act. 
+Guardian Unlimited Arts	
+ 	
+Building seized by LSE group
+From our archive: On January 27 1969 students from the London School of Economics occupied a students union building. This is how the Guardian reported events. 
+More from the Guardian archive	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live online		 
+- Post a question for Ursula Le Guin
+- Post a question for Mark Haddon
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+-Events & offers		 
+- The big five: win a trip for two to Marrakech
+- Win the Whitbread winners
+- Win an Andalucian holiday
+- 2 for 1 flights to the Americas
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2004
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

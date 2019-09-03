@@ -1,0 +1,39 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Forecasting Page | Back to Main FAQ Page 
+Subject: F2) What are those track and intensity models that the Atlantic forecasters are talking about in the hurricane and tropical storm Discussions? 
+(Contributed by Sim Aberson)
+A variety of hurricane track forecast models are run operationally for the Atlantic hurricane basin:
+Some updates: 
+1.  The basic model that is used as a "no-skill" forecast to compare other models against is CLIPER (CLImatology and PERsistence), which is a multiple regression statistical model that best utilizes the persistence of the current motion and also incorporates climatological track information (Aberson 1998). Surprisingly, CLIPER was difficult to beat with numerical model forecasts until the 1980s. 
+2.  A statistical-dynamical model, NHC90 (McAdie 1991), uses geopotential height predictors from the Aviation model to produce a track forecast four times per day. The primary synoptic time NHC90 forecasts (00 and 12 UTC) are based upon 12 h old Aviation runs. A special version of NHC90, NHC90-LATE, is run at primary synoptic times with the current Aviation run, and is available a number of hours after NHC90. Both versions of NHC90 have been run operationally since 1990. An update to this model, NHC98, was implemented in 1998. 
+3.  The Beta and Advection Model (BAM), follows a trajectory in the pressure-weighted vertically-averaged horizontal wind from the Aviation model beginning at the current storm location, with a correction that accounts for the beta effect (Marks 1992). Three versions of this model, one with a shallow-layer (BAMS), one with a medium-layer (BAMM), and one with a deep-layer (BAMD), are run. BAMS runs using the 850-700 mb layer,BAMM with the 850-400 mb layer, and BAMD with the 850-200 mb layer. The deep-layer version was run operationally for primary synoptic times in 1989; all three versions have been run four times per day since 1990. 
+4.  A nested barotropic hurricane track forecast model (VICBAR) has been run four times daily since 1989. The primary synoptic time runs are run from current NCEP analyses, the off-time runs are run from six hour old data (Aberson and DeMaria 1994). Another barotropic model, LBAR, for Limited-Area Barotropic Model, is also being run operationally every 6 hours which performs slightly worse than VICBAR, but is available earlier for use by the NHC forecasters. 
+5.  The NCEP Aviation and MRF models (Lord 1993) has been used for track forecasting since the 1992 hurricane season. These are global models. 
+6.  A triply-nested movable mesh primitive equation model developed at the Geophysical Fluid Dynamics Laboratory (Bender et al 1993), known as the GFDL model, has provided forecasts since the 1992 hurricane season. 
+7.  The United Kingdom Meterological Office's global model (UKMET) is utilized for forecasting the track of tropical cyclones around the world (Radford 1994). The National Hurricane Center starting receiving these operationally during 1996. 
+8.  The United States Navy Operational Global Atmospheric Prediction Systems (NOGAPS) is also a global numerical model that shows skill in forecasting tropical cyclone track (Fiorino et al. 1993). This model was also first received operationally at the National Hurricane Center during 1996. 
+Despite the variety of hurricane track forecast models, there are only a few models that forecast intensity change for the Atlantic basin: 
+1.  Similar to the CLIPER track model, the SHIFOR (Statistical Hurricane Intensity Forecast model) is used as a "no-skill" intensity change forecast. It is a multiple regression statistical model that best utilizes the persistence of the intensity trends and also incorporates climatological intensity change information (Jarvinen and Neumann 1979). SHIFOR has been difficult to exceed until recent years. 
+2.  A statistical-synoptic model, SHIPS (Statistical Hurricane Intensity Prediction Scheme ), has been available to the National Hurricane Center since the mid-1990s (DeMaria and Kaplan 1994). It takes current and forecasted information on the synoptic scale on the sea surface temperatures, vertical shear, moist stability, etc. with an optimal combination of the trends in the cyclone intensity. 
+3.  The GFDL model, described above in the track forecasting models, also issues forecasts of intensity change for the National Hurricane Center. 
+4.  A new statistical scheme for estimating the probability of rapid intensification has been developed (Kaplan and DeMaria 1999) and is now being used operationally. The RI scheme employs synoptic and persistence information from the SHIPS model to estimate the probability of rapid intensification (24 h increase in maximum wind of 35 mph or greater) every 6 hours. 
+Back to Tropical Cyclones Forecasting Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

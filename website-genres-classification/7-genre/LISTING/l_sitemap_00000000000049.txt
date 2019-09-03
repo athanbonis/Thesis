@@ -1,0 +1,146 @@
+
+=====================================================================
+Contact us : Site index -- ContraCostaTimes.com
+=====================================================================
+ _krdDartOrd = new Date().getTime(); _krdDartInc = 0; var navReady = false; var toolsReady = false;var onLoadScript="";function Browser() {var b=navigator.appName; if (b=="Netscape") this.b="ns"; else if ((b=="Opera") || (navigator.userAgent.indexOf("Opera")>0)) this.b = "opera"; else if (b=="Microsoft Internet Explorer") this.b="ie"; // I have disabled the following line, but something similar might be useful later, // but launching a popup window is more polite than this alert. //if (!b) alert(''Unidentified browser./nThis browser is not supported,''); this.version=navigator.appVersion; this.v=parseInt(this.version); this.ns=(this.b=="ns" && this.v>=4); this.ns4=(this.b=="ns" && this.v==4); this.ns6=(this.b=="ns" && this.v==5); this.ie=(this.b=="ie" && this.v>=4); this.ie4=(this.version.indexOf('MSIE 4')>0); this.ie4up = (this.ie && this.v>= 4); this.ns5up = (this.ns && this.v>= 5); this.ie5=(this.version.indexOf('MSIE 5')>0); this.ie5up = (this.ie5); this.ie55=(this.version.indexOf('MSIE 5.5')>0); this.opera=(this.b=="opera"); this.def=(this.ie||this.dom);var ua=navigator.userAgent.toLowerCase(); this.mac = (ua.indexOf("mac")!=-1);if (ua.indexOf("win")>-1) this.platform="win32"; else if (ua.indexOf("mac")>-1) this.platform="mac"; else this.platform="other"; } var is = new Browser(); // tiny extra css. these are ONLY used by old browsers. // VAST majority of users will NEVER request these files. // Even NS4 is around 7% of market and falling if (is.ns4 && is.mac==false) { var css = "\n"; document.write(css); } if (((is.ns4)||(is.ie4))&&( is.mac)) { var css = "\n"; document.write(css); } if (is.ie4 && is.mac==false) { var css = "\n"; document.write(css); } function LayerObject(divId) { this.name = divId; if (is.ns4) this.ob = eval("document." +divId); else if (is.ie4) this.ob = document.all(divId); else this.ob = document.getElementById(divId); this.x = 0; this.y = 0; this.width = this.getWidth(); this.height = this.getHeight(); } LayerObject.prototype.px = (is.version>=5)?"px":""; LayerObject.prototype.hideSyntax = (is.ns4)? "hide":"hidden"; LayerObject.prototype.showSyntax = "visible";// NS4:: Unbelievable, but document.layername.document.imgname works for img-in-layer-in document // and it works for img in layer in table in document. // but it doesnt work for img in layer in table in table in document. // Maybe a workaround exists, but it seems unlikely at this point. // The images MUST therefore be nested only one deep.... LayerObject.prototype.getInlineLeft = function() { if (is.ns4) return this.ob.pageX; else if ((is.ie) || (is.opera)) { var elem = this.ob; var xPos = 0; var yPos = 0; while (elem.offsetParent != null) { xPos += elem.offsetLeft; yPos += elem.offsetTop; elem = elem.offsetParent; } if (is.mac) xPos += 2; return xPos; } else return (this.ob.offsetLeft + document.body.offsetLeft); } LayerObject.prototype.getInlineTop = function() { if (is.ns4) return this.ob.pageY; else if ((is.ie) || (is.opera)) { var elem = this.ob; var yPos=0; while (elem.offsetParent != null) { yPos += elem.offsetTop; elem = elem.offsetParent; } if (is.mac) yPos += 2; return yPos; } else return (this.ob.offsetTop+ document.body.offsetTop); } //getWidth and getHeight works for both inline and positioned divs. LayerObject.prototype.getWidth = function () { if (is.ns4) return this.ob.clip.width; else if (is.opera) return this.ob.style.pixelWidth; else return this.ob.offsetWidth; } LayerObject.prototype.getHeight = function () { if (is.ns4) return this.ob.clip.height; else if (is.opera) return this.ob.style.pixelHeight; else return this.ob.offsetHeight; } LayerObject.prototype.hide = function() { if (is.ns4) this.ob.visibility = this.hideSyntax; else this.ob.style.visibility = this.hideSyntax; } LayerObject.prototype.show = function() { if (is.ns4) this.ob.visibility = this.showSyntax; else this.ob.style.visibility = this.showSyntax; } LayerObject.prototype.moveLayerTo = function(toX, toY) { this.x = toX; this.y = toY; } LayerObject.prototype.updateLayer = function() { if (is.ns4) { this.ob.left = Math.round(this.x) + this.px; this.ob.top = Math.round(this.y)+ this.px ; } else { this.ob.style.left = Math.round(this.x) + this.px; this.ob.style.top = Math.round(this.y) + this.px; } } //----------------- function roll(divName, imgName, which) { var suffix = (which==1)?"on":"off" if ((is.ns4)&&(divName!=0)) { var imgObject = eval("document." + divName +".document.images['"+imgName +"']"); imgObject.src = eval(imgName + "_" + suffix + ".src"); } else { document.images[imgName].src = eval(imgName + "_" + suffix + ".src"); } } function init() { if (onLoadScript) eval(onLoadScript); } // Workaround for the netscape resize problem -- // namely, on resize ns looses div positioning and // styles from css files. // This checks to see if the window''s dimensions have // actually changed (because Netscape often fires a // false onResize event when it forms scrollbars); // if the dimensions have changed, page is reloaded function resizefix(){ if((document.resizeFix.initWidth != window.innerWidth) || (document.resizeFix.initHeight != window.innerHeight)) { document.location = document.location; } } // This code creates a new object with properties // to hold the current window width & height to be // used in the event of a netscape resize document.resizeFix = new Object(); if(is.ns4){ document.resizeFix.initWidth = window.innerWidth; document.resizeFix.initHeight = window.innerHeight; window.onresize=resizefix; } function initMenus(){ //alert("DEBUG = not use nav channel") ; } function showResults(siteSurveyKey) { var url="/mld/templates/contentModules/poll-results-popup.jsp"+ "?siteSurveyKey=" + siteSurveyKey; window.open(url, 'Title'); } function openWin(URL) { aWindow = window.open(URL, 'thewindow','width=500,height=400,resizable=yes,scrollbars=yes'); } function getSite(){ foundSite = false; site=document.location.hostname; endPos=site.indexOf(".com"); if (endPos>= 1) { foundSite = true; site = site.substr(0, endPos); startPos = site.lastIndexOf("."); site = site.substr(startPos + 1); } return site; } function getPublication(){ publication=document.location.pathname; startPos=publication.indexOf("/mld/"); publication=publication.substr(startPos+5); endPos=publication.indexOf("/"); publication=publication.substr(0,endPos); return publication; } function openSlideshow(url,width,height) { y=Math.floor((screen.availHeight-height)/2); x=Math.floor((screen.width-width)/2); window.open(url,'slideshow','width='+width+',height='+height+',top='+y+',left='+x+',scrollbars=yes,resizable=yes').focus(); } 
+Subscriber Services 		
+Complete Forecast 		
+function searchFormSubmit(form) { if (form.searchSelect[1].checked == true) { window.location = "http://www.newslibrary.com/nlsearch.asp?forceTheme=RealCities&s_site=contracostatimes&search_mode=all&action=search&date_mode=year&year=last+180+days&sort=d%3Ah&nitems=10&region=cc&dbquery=" + form.query.value; return false; } return true; } 
+ 	
+ 	
+ 	
+ 
+Search  Recent News  Archives  Web   for     	
+ Jobs  Cars  Real Estate  Apartments  Local Shopping  •  Find Sales & Deals & •  Shop Local Stores  All Classifieds  Personals News   •  Breaking News   •  Today's Times   •  Obituaries Sports Entertainment Living   •  Home & Garden   •  Food   •  Health   •  Travel Business Opinion Columnists Other editions Hills Newspapers Special Reports Special Sections ONLINE EXTRAS Archives Maps & Directions Newsletters Traffic Reports Weather Yellow Pages Discussion Boards Photo store Newspaper Ads SITE SERVICES Contact Us Feedback Site Map Advertise Print Services 		
+Back to Home >  Contact us > 	Wednesday, Mar 16, 2005	
+ 
+Site index		 	
+Here is an alphabetical list of all the features on ContraCostaTimes.com. If you have other questions about the site, try our Frequently Asked Questions page. 
+Alameda County 
+Alameda Journal 
+Anniversaries
+ Arts & Entertainment 
+Auto Plus 
+Barney, Chuck, TV critic 
+Bay & State 
+Berkeley Voice 
+Boer, Nicholas, food editor 
+Bogue, Gary, pets and wildlife 
+Books 
+Breaking News 
+Business 
+Cal
+ Calendars
+ Campaign against Iraq
+ CareerBuilder 
+Celebrations 
+Chalfant, Anne, travel editor 
+Classifieds 
+Columnists 
+Comics & Games 
+Commuter Page 
+Concord Transcript 
+Contra Costa County
+ Craig, Pat, theater critic 
+Crime & Courts 
+Dance 
+Danville Life 
+Dining 
+Discussion boards 
+East Bay Biz Buzz 
+Eddie's photos from the front
+ Editorials 
+Education 
+El Cerrito Journal 
+Engagements 
+Entertainment Search
+ Event listings 
+Financial Markets
+ Fine Arts 
+Food 
+Forums 
+Frequently Asked Questions
+ Gilbert, Andrew, jazz critic 
+Gilmore, Eric sports columnist 
+Golden State Warriors 
+Growth 
+Hayes, Neil, sports columnist 
+Health 
+Hicks, Tony, pop music critic 
+High School sports 
+Home & Garden
+   Home & Design
+   Home Video 
+Horoscopes 
+Iraq 
+Joan's World 
+Job listings
+ Jobs at the Contra Costa Times
+ Theresa Keegan, opinion page columnist 
+Ledger Dispatch 
+Letters to the Editor 
+Life in Perspective 
+Money Matters 
+Montclarion 
+Mood of America
+ Morris, Joan, Joan's World Q&A 
+Movie times
+ Movies 
+Music 
+New Homes
+ Newspaper accout information 
+Newspaper subscriptions
+ Newspaper delivery problems 
+Oakland A's 
+Oakland Raiders
+ Obituaries 
+Opinion
+ People
+ Personal Technology 
+Personals
+ Perspective 
+Peterson, Gary, sports 
+Piedmonter 
+Pizza Guys, The
+ Pols, Mary F., movie critic 
+Prep sports 
+Real Estate
+ Recall election 
+Recipes
+ Restaurant listings 
+Rowe, Georgia, classical music critic 
+San Francisco 49ers 
+San Francisco Giants 
+San Ramon Valley Times 
+San Jose Sharks
+ Science & Environment 
+Shippen, Julie, Home & Garden editor 
+Special Reports 
+Special Sections
+ Sports
+ St. Mary's College
+ Stanford University
+ Stocks listings 
+Stop your newspaper subscription 
+Subscribe to the Times 
+Sullivan, Denise, The show must go on 
+Television 
+Theater 
+TimeOut 
+Times Book Club 
+Transportation 
+Travel 
+University of California, Berkeley 
+Video & DVD 
+Walnut Creek Journal 
+Want ads 
+War on Terror
+ Weather 
+Weddings
+ Weekly sections 
+West County Times 
+West County Weekly 
+Where We Live 
+News | Sports | TimeOut | Business | Shop Local | Classifieds | Jobs | Cars | Homes 
+About The Contra Costa Times | About the Real Cities Network | Terms of Use & Privacy Statement | About Knight Ridder | Copyright 
+

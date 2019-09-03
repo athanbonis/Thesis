@@ -1,0 +1,404 @@
+   
+=====================================================================
+Bret Pettichord's Software Testing Hotlist
+=====================================================================
+             Software Testing Hotlist
+  Resources for Professional Software Testers   
+Bret Pettichord , editor 
+  Updated 7 August 2001 
+Contents	       
+         
+      
+* Test Automation       
+* Test Tools       
+* Using Silk       
+* Testing Strategy       
+* Risk-Based Testing       
+* Reporting and Tracking Defects       
+* Code Coverage       
+* Exploratory Testing       
+* Software Testability       
+* Working with Developers       
+* Using Expect       
+* Notorious Bugs       
+* In the News       
+* Testing and Quality Assurance       
+* A Career in Software Testing       
+* Software Process       
+* Forums       
+* Interesting Sites       
+* Recommended Books       
+* About the Editor      
+    	     
+---------------------------------------------------------------------
+  
+Test Automation 
+Techniques and ideas for automating software testing.
+Test Automation Frameworks, Carl Nagle    
+A solid description of the design, purpose and options for data driven testing frameworks. This is part of a larger project to place framework code in the public domain.    
+Hey Vendors, Give Us Real Scripting Languages, Bret Pettichord    
+Why you'd want a standard scripting language with your test tool, instead of a vendorscript. (February 2001)    
+Getting a Late Start on Test Automation, Bret Pettichord    
+What can you do if you don't start test automation early? (January 2001)    
+Three Keys to Test Automation, Bret Pettichord    
+How can you get your test automation project off on the right foot? (December 2000)    
+A UML Testing Framework, Martin Fowler, Software Development, April 1999    
+Uses UML to describe the JUnit test harness.    
+Intelligent Test Automation, Harry Robinson, STQE Magazine, September 2000.    
+Describes how to create state models for software and use them to generate tests. Accessible introduction to the technique.    
+TestTalk, A Comprehensive Testing Language, Chang Liu    
+Describes a syntax for test description that can be compiled into various test execution languages. Part of research program .    
+Seven Steps to Test Automation Success, by Bret Pettichord    
+Important steps for planning and running a test automation project. Cites pitfalls of GUI test automation.    
+Automating Testing, by Brian Marick    
+Describes the evolution of test tools.    
+Software Test Automation and the Product Life Cycle, by Dave Kelly    
+Advice on test automation focusing on when to start automating.    
+Lessons in Test Automation, by Elfrieda Dustin    
+Test managers often can find themselves surprised at the difficulty of test automation. This article collects lessons learned on various projects after they started using automated tools. Corrective actions are suggested.    
+When Should a Test be Automated?, by Brian Marick    
+Considers relevant factors in deciding which tests to automate.    
+Integrated, Effective Test Design and Automation, by Ed Kit    
+Describes "third generation" table-driven test automation. Includes spreadsheet templates.    
+How to Automate Testing of Graphical User Interfaces, by Tilo Linz and Matthias Daigl    
+Describes important considerations in the development of test procedure libraries.    
+Totally Data-Driven Automated Testing, by Keith Zambelich    
+Evaluates two useful architectures for test automation.    
+When to Automate Testing: A Cost-Benefit Analysis, by James Hancock    
+Common sense about what tests should be automated.    
+Styles for Making Test Automation Work, by Mike Powers    
+Coding standards and techniques for test automation.    
+Improving the Maintainability of Automated Test Suites, by Cem Kaner    
+Descriptions of the pitfalls and challenges of automated testing.    
+Classic Testing Mistakes, by Brian Marick    
+A litany of mistakes made in testing, including a section on test automation mistakes.    
+Test Automation Snake Oil, by James Bach    
+An argument against some of the naive claims made for test automation by someone who has been burned many times. A newer version of article is available in PDF.    
+Success with Test Automation, by Bret Pettichord    
+Description of the development of test automation that used a table-driven approach.    
+Automated Software Testing - A Perspective, by Kerry Zallar     
+Other listings of articles on test automation.
+Papers on Automated Testing, from Automated Testing Specialists    
+Papers for Automated Testing, from the Chinese Association for Software Quality        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Test Tools
+Comparing and selecting various test tools.
+SilkTest and WinRunner Feature Descriptions, by Horwath, Green & Lawler, 2000    
+Report describing the differences between these two test tools by independent test automation consultants. Focuses on detailed comparisons of specific features; avoids any kind of general recommendations.    
+Choosing a Test Tool, Mark Fewster and Dorothy Graham.    
+Short sharp advice about how to choose a testing tool.    
+Making the Right Choice: The Features you Need in a GUI Test Automation Tool, by Elisabeth Hendrickson    
+An excellent guide to selecting a GUI test tool. (PDF format)    
+Evaluating Tools, Elizabeth Hendrickson.    
+A tool selection process to help with selecting a tool for your team.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Using Silk 
+Silk is a tool for automating GUI test execution, developed and published by Segue Software. Earlier versions of the tool have been called called QA Partner, SilkTest, or QualityWorks. It uses a proprietary language called 4Test.
+4test Web Spider, by John Moore, 1999    
+Installation Testing, by A.J. Alhait, 1999.    
+Describes how to write tests to drive an InstallShield installer.    
+Processing Lists of Records for SilkTest, by Andrew Issaenko, 1999    
+Describes functions for sorting lists of records in 4test.    
+Classes, Objects, Dynamic Instantiation and Constructors by Jeff Hemsley, 1999    
+If you've used Silk's 4test language much, you've noticed that it has some object-oriented capabilities. But the only objects allowed are window objects, and even these may only be defined at compile time using window declarations. Or so you might think. Actually general purpose objects can be created during runtime using some clever, previously undocumented techniques. These were discovered and developed by Jeff Hemsley of Autodesk. He describes them in this paper published at Segue's website. (Access requires Segue customer account.)    
+Using Object Oriented Design for Testing Custom Tree Controls, Cynthia Sadler, 1999    
+(Access requires Segue customer account.) 
+   Describes how rich support was provided for a custom control.    
+How to Create an Expert System from the Recovery System, by Gerry Lyon, 1999    
+(Access requires Segue customer account.)
+   Describes an expert system for software verification.    
+Parsing Resource Files to Create and Maintain an Automation Test Library, Amy Groves, 1998?    
+Describes a method for automatically generating window declarations for Visual Basic or C++ applications.    
+Easy to use GUI generates QA Partner scripts, Tony Venditti, 1998    
+Describes his Script Wizard, a tool which facilitates the maintenance and developed of Silk testscripts. The Script Wizard is available for download.    
+Automated Testing with Segue's QualityWorks, Elisabeth Hendrickson, 1998    
+Suggests a high-level outline for using Silk on a project.    
+Implementing Associative Arrays, Richard Weth, 1997    
+Documents his Dictionary Class, a rich supporting persistent associative arrays. The class library is available for download.     
+Other sites featuring information about Silk.
+Automation Expertise    
+John Green's web site contains sample code, tips, and an FAQ.    
+Tony Venditti's Silk Automation Page    
+Includes source code and the archives of QAPUSER and SILKTEST    
+Tony Venditti's Silk/QA Partner Automation Home Page    
+Features his Script Wizard, a tool for assisting with testscript development.    
+David Reed's QA Partner Page    
+4Test code and tips.    
+Charlie Hedstrom's TestMap Extensions    
+Describes a commercial add-on to Silk. Also includes tips and 4test code for download.    
+Mr. Cluey's Kludge Page    
+A handy collection of tips and libraries.     
+Forums for Silk Users
+BetaSoft SilkTest Forum    
+Silktest mailing list        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Testing Strategy
+Quality Cost Analysis: Benefits and Risks, Cem Kaner    
+Does testing save your company money or is it just another expense? Quality cost analysis describes the metrics you need to find out.    
+It Depends: Deciding on the Correct Ratio of Developers to Testers, by Johanna Rothman.    
+It would be nice if we could calculate the size of the required testing staff based on the number of developers on the team. This paper discusses the relevant factors to be considered by discussing several case studies.    
+What Is Software Testing? And Why Is It So Hard? by James A. Whittaker    
+An excellent overview of software testing with solid examples.    
+Why Software Fails, James Whittaker and Alan Jorgensen    
+Provides an novel classification for software bugs.    
+The Testing Team's Motto, by Brian Marick    
+A testing team's mission is to reduce the uncertainty regarding the quality of the software.    
+Software Testing Best Practices, by Ram Chillarege    
+This consise report describes 28 best practices for software testing listed in order of implementation.    
+Negotiating Testing Resources: A Collaborative Approach, by Cem Kaner    
+System Test Pattern Language, by David DeLano and Linda Rising        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Risk Analysis
+Risk-Based Testing, James Bach    
+Describes several methods for using information about risk to help direct testing.    
+Risk-Based Testing, Keith McMahon        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Reporting and Tracking Defects
+Failure Improvement, by Brian Marick    
+A list of things to look for when analyzing a software failure and writing up a defect report.    
+Software Defect Isolation, by Prathibha Tammana and Danny Faught    
+Discusses techniques for isolating, reproducing and reporting defects.    
+Gauging Software Readiness with Defect Tracking, by Steve McConnell    
+A brief list of techniques for estimating defects.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Code Coverage
+How to Misuse Code Coverage, by Brian Marick    
+Common ways to misuse code coverage tools, by the author of the GCT coverage tool.    
+Software Negligence and Testing Coverage, by Cem Kaner    
+How many different ways can you assess testing coverage? What are you legally required to do?    
+Code Coverage Analysis, by Steve Cornett    
+Good description of the different categories of code coverage measurements (statement, condition, path...).    
+Incomplete Tests are Worse Than None At All, by Edward Miller    
+Essay argues for the necessity of module and call-pair coverage.    
+Experience with the Cost of Different Coverage Goals for Testing, by Brian Marick    
+Describes experiences at Motorola of using code coverage measures of unit tests.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Exploratory Testing
+What Is Exploratory Testing?, by James Bach    
+   
+A nice description of a test approach that high-performing teams have been using for years.    
+General Functionality and Stability Test Procedure, by James Bach    
+An exploratory testing methodology used for Windows 2000 application certification.    
+Exploratory Modeling, Harry Robinson    
+Describes the purpose and context for exploratory testing.    
+An Exploratory Testing Workshop Report, by Bret Pettichord.    
+Report describing exploratory techniques reviewed at a workshop.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Software Testability
+I Want My Test API, Linda Hayes    
+Suggests that a bit of added code to software can greatly facilitate automated testing; argues against feeble objections to doing this. (Datamation, Dec 2000)    
+Do Tool Criteria Tie Tester's Hands?, Joel Maslyn & Bret Pettichord    
+Notices that a purportedly comprehensive article on requirements for GUI development tools made absolutely no mention of testability concerns. (IEEE Software, Nov 1997)    
+Adding Test Support Code, by Brian Marick    
+A case study for making small changes to a program to improve its testability.    
+Improving Software Testability, by Joy Shafer    
+Indentifies factors affecting the ability to test software        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Working with Developers
+Top Five (Wrong) Reasons You Don't Have Testers, Joel Spolsky    
+A developer argues for hiring more testers, revealing some common (wrong) attitudes in the process.    
+Testers and Developers, by Bret Pettichord and Carol Dekkers.    
+   
+Radio interview discussion of the different ways that testers think. (February 2000)    
+Taking the Heat, by Bret Pettichord.    
+Is it the testers' job to take some of the heat off of developers? (Stickyminds.com, October 2000)    
+Testers and Developers Think Differently, by Bret Pettichord.    
+Describes different perspectives that testers and developers bring to the team. (STQE Magazine, January 2000)        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Using Expect
+Expect is a Unix tool for testing command line interfaces. 
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Notorious Bugs
+Are there still major computer system failures caused by software bugs?    
+A long list of software failures from the Software QA/Test Resource Center.    
+10 Great Bugs of History, by Cnet.    
+Part of a special series on bugs.     
+Ariane 5, June 1996. The maiden launch of the Ariane 5 rocket blew up 40 seconds from liftoff. The rocket and it's four satellites were uninsured and worth $500 million. The proximate cause of the crash was an overflow error due to an attempt to convert a 64 bit floating point value into a 16 bit integer. This error occurred in code that was non-functional after liftoff, when the error occurred. The Inquiry Board report provides details regarding the software failure and the design policies that lead to it. A note in the Risks Digest indicates that a complete system test would have found the problem but was vetoed for budgetary reasons. 
+Therac-25, June 1985 - January 1987. The Therac-25 medical linear accelerator was responsible for six accidents involving massive overdoses of radiation, three of which lead to deaths. The proximate causes of the accidents were eventually attributed to two separate and hard-to-reproduce faults caused by race conditions in the data entry system. IEEE Computer published a summary report by Nancy Leveson and Clark Turner. Nancy Leveson also published a detailed account as a chapter in her book Safeware: System Safety and Computers.
+Boris Beizer's List. Boris Beizer has said, "Remember that the most notorious bugs in the history of software development were all unit bugs -- bugs that would have been found by proper unit testing." (Letter to swtest-discuss, 10 June 1997). Here is his list: 
+1.  The Voyager bug (sent the probe into the sun).    
+2.  The AT&T bug that took out 1/3 of US telephones.    
+3.  The DCS bug that took out the other 1/3 a few months later.    
+4.  The Intel Pentium chip bug (it was software, not hardware).    
+5.  The Ariane V bug.   
+In a later letter, he agreed that the Therac 25 bug was also notorious, but not really a unit bug. 
+John Shore collected a number of reports, often apocryphal, of famous bugs. 
+BACK TO TOP
+---------------------------------------------------------------------
+  
+In the News
+Software defects and testing discussed in the news.
+High tech's missionaries of sloppiness, by Cheryll Aimee Barron, Salon.com, Dec 2000.    
+Discusses how buggy software is the consequence of business strategies that focus on innovation over reliability. Good quotes.    
+Your Call is Important to Us, Joe Salkowski, Feb 2000.    
+Software nowadays is so unreliable that internet companies can avoid potentially embarrassing consequences of call avoidance strategies by claiming to be victims of "insignificant" software bugs.    
+Software Testing Gets New Respect, Billie Shea, Information Week, July 3, 2000    
+Suggests that internet companies have recently been more successful at justifying the expense of automated testing.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Testing and Quality Assurance
+Notes on the difference between software testing and software quality assurance.
+What is Software Quality Assurance and What is Software Testing?, from the Software QA/Test Resource Center        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+A Career in Software Testing
+Clearing a Career Path for Software Testers, by Elaine J. Weyuker et al.    
+Defines steps AT&T is taking to define a career path for testers and encourage certification. (requires subscription)    
+Software Tester Salaries, by the Software Testing Institute        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Software Process
+Ideas on how to organize software development. 
+The Challenge of "Good Enough" Software, by James Bach    
+This article describes an alternate discipline for delivering quality products in a timely fashion.    
+The Immaturity of the CMM, by James Bach    
+This article criticizes the Capability Maturity Model as a useful methodology for organizing software development.        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Forums 
+Discussing testing and bugs. 
+QA Forums    
+Lively discussions of automated testing and other testing topics.    
+BugNet    
+This newsletter tracks bugs in commercial PC software. Can you find problems like these before your product ships?    
+Software Testing and Quality Engineering, formerly Software QA Magazine.    
+A magazine for the professional tester. The articles are written by experienced professionals. I get all kinds of ideas from this.    
+The moderated newsgroup comp.risks contains concise and technically precise descriptions of software failures, especially when loss of life is involved. This is an excellent place to learn about the kinds of systemic problems that plague software. 
+The newsgroup comp.software.testing has lively debates on topics such as the proper relationship between testers and developers. This is a place where testers and testing managers go to for advice when they get squeezed particularly hard. Many experienced and helpful software testers frequent this newsgroup. The group's list of frequently asked questions contains much useful information.
+SQA Suite Users Mailing List        
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Interesting Sites
+Sites with essays, articles or lists of general interest. 
+Software Dioxide    
+A portal for information about software engineering and quality assurance    
+QA City    
+Hung Nguyen's collection of links and articles. Like the Software Testing Hotlist, only easier on the eyes.    
+Automated Testing    
+Herb Isenberg's site contains several papers on automated testing.    
+BD Online    
+This website is a case study 1402eb software testing. It contains a sample test plan and requirements document.    
+The Bug Hunter    
+A weblog on software quality assurance by Stan Taylor.    
+Stickyminds.com    
+Website features weekly columns, archives of papers, and other current information on software testing and quality assurance.    
+Data Kinetics Software Testing Conference    
+Online conference featuring online presentations and links to resources.    
+Rex Black's Publications    
+Several papers on testing and test management.    
+Testing Papers Announce    
+   
+A listing of software testing papers recently published on the web. A primary reference used by this hotlist.    
+Methods & Tools    
+A quarterly newsletter covering software testing and other software development topics.    
+SQATester.com    
+Eugene Vinsky's grab bag of information about software testing    
+Grove Consultants    
+Automated Testing Specialists    
+Includes index to articles on automated testing and other testing topics    
+Bret Pettichord    
+Features papers on test automation and other testing topics.    
+Danny Faught    
+Includes FAQ's on software testing as well as articles on testing, Unix and Perl.    
+Satisfice, James Bach's consulting company    
+Includes many of Bach's articles on software testing and process.    
+Software Research, Inc., a test tool vendor.    
+Includes Quality Techniques Newsletter (formerly Testing Techniques Newsletter) and Software Quality HotList.    
+CenterLine Software, a test tool vendor.    
+Rational, a test tool vendor that gobbled up Pure, Atria and MS test.    
+Includes dozens of technical papers, including Quality on Time, by Aki Fujimura, an interesting article on scheduling development and testing.    
+Data Dimensions, consulting and contracting company.    
+Includes a collections of articles from their newsletter, The Testers Network    
+Brian Marick's writings    
+Includes many of his papers and essays.    
+RBSC Corporation., consulting, training and contracting.    
+Includes lots of information about object-oriented testing: articles by Bob Binder, a bibliography, and a list of resources.    
+Cigital, Inc. (formerly Reliable Software Technologies), consulting and research in software risk management    
+Includes a few hundred papers documenting original research and the Software Risk Management Hotlist.    
+Cem Kaner, Testing Consultant, Attorney at Law, and Professor of Computer Science    
+Includes papers on software testing and the law of software quality.    
+Software Testing Stuff, by Kerry Zallar    
+This web site also includes links to other QA resources.    
+Johanna Rothman    
+Includes papers on software testing and risk management    
+Rice Consulting Services    
+Includes a couple articles.    
+Systeme Evolutif    
+Includes testing resources, available to registered visitors.    
+Software Quality Engineering    
+Online catalog of software quality books, David Gelperin    
+4QA, also known as SVP.    
+Includes sample test code for QA Partner.    
+Software Testing Institute    
+Includes a salary survey    
+Technical Thoughts, by Howard Fear    
+Short essays on software engineering and testing.    
+Quality Tree Consulting    
+Articles and short essays ("ruminations") on software quality and testing by Elisabeth Hendrickson.    
+The Center for Software Engineering Research at Florida Tech    
+Harry Robinson's Model-Based Testing home page    
+Contains a comprehensive index to papers on using state models to generate software tests.    
+Harry Robinson's papers    
+Includes papers on model-based testing and international testing.    
+Chinese Association for Software Quality (CASQ)    
+A comprehensive web site. Includes excellent linked bibliographies. Automated Software Testing.    
+Aptest, providing test automation services    
+Includes Software Testing Resources    
+BetaSoft, providing test automation services    
+Includes forums and downloads for popular test tools. Also contains a job board.    
+Tantara Management Services, software process improvement and quality assurance consulting.    
+Includes a hotlist of reources.     
+Other Commercial Sites
+Note: The Software Testing Hotlist no longer lists commercial websites unless they contain articles or other information of interest to the industry. 
+* Yahoo's directory of software testing companies    
+* Software QA/Test Resource Center    
+* Software Methods and Tools listing of test and test management tools   
+     
+BACK TO TOP
+---------------------------------------------------------------------
+  
+Recommended Books
+I most frequently find myself recommending the following books to people who are new to software testing. 
+Testing Computer Software, by Kaner, Falk & Nguyen 
+If you read only one book on software testing, read this book. Many books will tell you how to test when you have enough time and cooperation. This book tells you what to do when the schedule is tight, the specification is missing, and the developers are tired of your focus on problems. It has sound advice and is a pleasure to read. I keep coming back to it. Feel like you have an impossible job? Read this book. 
+BACK TO TOP
+---------------------------------------------------------------------
+  
+About the Editor 
+Bret Pettichord is a speaker, writer and consultant with Pettichord Consulting, specializing in software testing and test automation. Familiar with many test technologies, he develops test automation strategies, tools and test suites. He specializes in GUI test automation, scripting languages and test methodology. Since 1992, he has developed automated tests for such companies as Interleaf, Segue, BMC Software, IBM/Tivoli, Netpliance and WhisperWire. As an consulting affiliate with Satisfice, his clients have included Rational Software and Texas Instruments. 
+Bret is the founder and editor of the Software Testing Hotlist and frequently delivers papers and presentations. He is the founder of the Austin Workshop on Test Automation and a founding participant in the Los Altos Workshop for Software Testing. He sits on the advisory board of Software Testing and Quality Engineering magazine and is certified in software quality engineering by the American Society of Quality. (However, he is not licensed to practice engineering by the State of Texas.) He is also a member of the IEEE Computer Society. He has a bachelor's degree in philosophy and mathematics from New College of the University of South Florida. 
+He lives in Austin, Texas, with his wife and two children. He has previously lived and worked in Massachusetts, California, North Carolina, Florida and New York.
+Please send updates and comments to the editor at bret@pettichord.com
+BACK TO TOP	       
+         
+---------------------------------------------------------------------
+     	      
+    www.testinghotlist.com   |   Software Testing Hotlist, Copyright © 1995 - 2001 Bret Pettichord	      
+   

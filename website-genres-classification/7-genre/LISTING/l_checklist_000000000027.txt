@@ -1,0 +1,48 @@
+
+=====================================================================
+Drip or Trickle Irrigation Systems:An Operations and Troubleshooting Checklist
+=====================================================================
+ 
+Drip or Trickle Irrigation Systems:
+An Operations and Troubleshooting Checklist 
+Revised 1/01 -- Author Reviewed 1/01 HIL-33-B
+Douglas C. Sanders
+Extension Horticultural Specialist
+Department of Horticultural Science
+College of Agriculture & Life Sciences
+North Carolina State University
+ 
+ 
+This leaflet is intended to assist growers in troubleshooting drip or trickle irrigation systems. For major problems consult an irrigation specialist or irrigation company that designs and installs drip or trickle irrigation systems. (For more complete information, see Extension Bulletin AG-489, Plasticulture for Commercial Vegetables.)
+Water Sources - Water sources include municipalities, wells, ponds, reservoirs, canals, ditches, streams or rivers. Clean water is essential if it is to be used successfully with the small orifices of trickle emission devices. Line and emitter clogging by physical and chemical contaminants in the water is the single biggest trickle irrigation problem.
+Ground water from wells is generally of good quality and should be used when possible. It may contain sand or chemical precipitates. Surface water such as streams, springs and ponds can be used, but it is contaminated with bacteria, algae and other aquatic life. Thorough, and often expensive, multi-stage filtration or chemical treatment of surface water is required. All water sources contain bacteria or the elements to support bacterial growth.
+CHECKLIST
+1.  Pump's suction pipe is elevated above bottom of pond. (Float the inlet 18 to 24 inches below the water surface.) 
+2.  Pond does not contain excessive amounts of algae. If so, then treat with a non-phytotoxic algaecide recommended in the N.C. Agricultural Chemicals Manual. 
+3.  Record water meter reading in log book, because decreased flow can mean stoppage. 
+4.  Zone valves between secondary filter and pressure regulator are open. 
+5.  Turn system on. 
+6.  Once the pipes fill up, check all gauges. Check pressure reading on gauges number 1 and 2 on either side of primary sand filters and if the difference in pressure is 5 lb or greater, the filters need to be backwashed. 
+7.  Check pressure reading on gauges number 3 and 4 on either side of the secondary filter. If there is more than 5 lb difference between the gauges, clean secondary filter. 
+8.  Check pressure reading on gauge number 5 located on the field side of the pressure regulator.
+ a. If pressure is too low or less than the normal operating pressure for the system, check for leaks in the system.
+ b. If no leaks are found, check for faulty pressure regulator.
+ c. If pressure is too high, then pressure regulator is faulty. 
+9.  Check pressure reading on gauge number 4.
+ a. If pressure reading is too high, there may be clogging of drip lines in the field. Usually the pressure will gradually rise over several waterings.
+ b. If pressure reading is too low, then the secondary filter is probably clogged and needs to be flushed or completely cleaned.
+ c. If pressure readings on both gauge number 3 and 4 are low, the primary sand filters may be clogged, or there may be a break in the mainline prior to that point, or the pump may be defective. 
+10. Pressure check points number 6 and 7 should be at correct operating pressure, approximately 6 to 8 PSI for row crops. 
+11. Open a random sample of the ends of row laterals 3 times a week. If there is an appreciable deposit of material, all row laterals should be flushed. It is important to check all row laterals during each 2 week period. 
+12. Record tensiometer (Irrometer) readings at the same time each morning. Service tensiometers once a week to ensure proper operation. 
+13. Open the end plug (or flush valve) and flush all manifold lines once a week. 
+14. Inject chlorine (household bleach-sodium hypochlorite or swimming pool chloride-calcium hypochlorite) during the last 30 minutes of an irrigation cycle (or time required to fill all lines) so that 1 ppm of free residual chlorine remains at the end of the line. 1 ppm is equal to 2.6 ounces of household bleach in 1,000 gal of water. Sodium hypochlorite is preferred over calcium hypochlorite for hard water to reduce calcium carbonate precipitation in the lines. Keep the pH down to 7.0 by using a metering pump to inject an inexpensive acid like a food grade phosphoric acid. Acid injection for a short duration, followed by a rinse period, has not been found harmful to drip system. The frequency of this treatment will depend on water quality and contaminant levels. 
+15. Sample the water source regularly to monitor any changes in water quality. 
+---------------------------------------------------------------------
+Recommendations for the use of chemicals are included in this publication as a convenience to the reader. The use of brand names and any mention or listing of commercial products or services in this publication does not imply endorsement by the North Carolina Cooperative Extension Service nor discrimination against similar products or services not mentioned. Individuals who use chemicals are responsible for ensuring that the intended use complies with current regulations and conforms to the product label. Be sure to obtain current information about usage and examine a current product label before applying any chemical. For assistance, contact an agent of the North Carolina Cooperative Extension Service in your county. 
+---------------------------------------------------------------------
+Published by the North Carolina Cooperative Extension Service
+---------------------------------------------------------------------
+Distributed in furtherance of the Acts of Congress of May 8 and June 30, 1914. Employment and program opportunities are offered to all people regardless of race, color, national origin, sex, age, or disability. North Carolina State University at Raleigh, North Carolina A&T State University, U.S. Department of Agriculture, and local governments cooperating.
+---------------------------------------------------------------------
+

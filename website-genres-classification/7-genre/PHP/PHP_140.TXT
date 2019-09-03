@@ -1,0 +1,52 @@
+
+=====================================================================
+index
+=====================================================================
+ var PUpage="76001078"; var PUprop="geocities"; function getScale(c, height) { var t = Math.sqrt(2 * height / c.gravity); var scale = 4 * height / sqr(t); return scale;}function sqr(x) { return x * x;}function updateBounce(c) { var bottom = getViewYOffset() + getViewHeight() - c.imageHeight; for (var i = 0; i 0) y = bottom - y; else y = bottom; var bounds = outOfBounds(c, x, y, c.imageWidth, c.imageHeight); if (bounds & 1) { // left x = 2 * getViewXOffset() - x; c.xSpeed[name] = -c.xSpeed[name] * c.elasticity; } if (bounds & 2) { // right x = 2 * (getViewXOffset() + getViewWidth() - c.imageWidth) - x; c.xSpeed[name] = -c.xSpeed[name] * c.elasticity; } moveLayer(name, x, y); if ((c.pIndex[name] += 0.5) > c.pLimit[name]) { c.xSpeed[name] *= 1 - c.friction; c.pIndex[name] -= Math.sqrt(c.pHeight[name] / scale); c.pHeight[name] = Math.max(0.25, c.pHeight[name] * c.elasticity); c.pIndex[name] = -(c.pLimit[name] = Math.sqrt(c.pHeight[name] / scale)); if (c.pHeight[name] function updateLock(c) { var x = getViewXOffset() + c.xAnchor * (getViewWidth() - c.imageWidth) / 2 + c.xOffset * (c.xAnchor == 2 ? -1 : 1); var y = getViewYOffset() + c.yAnchor * (getViewHeight() - c.imageHeight) / 2 + c.yOffset * (c.yAnchor == 2 ? -1 : 1); moveLayer(c.prefix + 0, x, y); setTimeout('updateLock(c' + c.uid + ')', c.updateInterval);} if (layerSupport()) {c8899 = new config();c8899.uid = 8899;c8899.prefix = "y_bounce8899";c8899.image = "";c8899.imageWidth = ** ERROR:java.lang.NullPointerException;c8899.imageHeight = ** ERROR:java.lang.NullPointerException;c8899.imageCount = 3;c8899.gravity = 1;c8899.friction = 0.1;c8899.elasticity = 0.65;c8899.topWall = 0;c8899.xSpeed = new Array();c8899.pHeight = new Array();c8899.pIndex = new Array();c8899.pScale = new Array();c8899.pLimit = new Array();c8899.kickThreshold = 5;c8899.kickOpt = 1;for (var i = 0; i if (layerSupport()) {c8901 = new config();c8901.uid = 8901c8901.prefix = "y_lock8901";c8901.image = "";c8901.imageWidth = ** ERROR:java.lang.NullPointerException;c8901.imageHeight = ** ERROR:java.lang.NullPointerException;c8901.startOnScreen = false;c8901.xAnchor = 1;c8901.yAnchor = 2;c8901.xOffset = 0;c8901.yOffset = 0;writeImages(c8901);setTimeout('updateLock(c8901)', c8901.updateInterval); } 
+CV
+Photo pages: Me, 
+                  Minorca, 
+                  My 21st Birthday
+                 Winnie the poos travels
+       	
+Laura Davies	
+ 
+Yahoo!
+Yahoo! Chat
+Yahoo! Finance
+Friends Reunited
+Ask Jeeves
+Advice
+'The potential of the average person is like a hugh ocean unsailed, a new continent unexplored, a world of possibilities waiting to be released and channelled toward some great good'	
+ 
+ABOUT ME	
+ 
+FAVOURITE LINKS TO ALTERNATIVE SITES	
+ 
+FOOD	
+ 
+DRINK	
+ 
+ENTERTAINMENT	
+ 
+SHOPPING	
+ 
+ARTS & HUMANITIES	
+ 
+NEWS & MEDIA	
+ 
+RECREATION & SPORT	
+ 
+EDUCATIONAL	
+ 
+CAREERS	
+ 
+HOME & GARDEN	
+ 
+INSPIRATIONAL QUOTES
+ROMANTIC IDEAS
+FAIRIES
+ANGELS
+You need Java to see this applet.	 	
+options 		
+

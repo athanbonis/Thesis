@@ -1,0 +1,145 @@
+
+=====================================================================
+Windows 2000 Installation Security Checklist
+=====================================================================
+ 
+Home | About Us | Search |	 Last Updated ecember 10, 2003	 
+Windows 2000 Security Checklist 
+Windows 2000 includes a number of improved security features and options, and when properly configured it can be a very secure Operating System. Keep in mind that there is a trade off between increased security levels and usability for any Operating System. Assess your potential risks, and balance your needs.  Microsoft includes a Security Configuration Toolkit, security analyzer, and a number of default security templates with Windows 2000 that can help you pick the level of security you need. Below is a checklist we've compiled of recommended security practices for locking down a Windows 2000 Professional or Server installation. This is a "live" document which will be updated over time as new security recommendations are published by Microsoft. We have tried to make the checklist as complete as possible, however if you have any suggestions or feedback, please e-mail bernie@labmice.net 
+    
+INFORMATION PROVIDED IN THIS DOCUMENT IS PROVIDED 'AS IS' WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND FREEDOM FROM INFRINGEMENT. The user assumes the entire risk as to the accuracy and the use of this document. This document may be copied and distributed subject to the following conditions:
+ 1. All text must be copied without modification and all pages must be included
+ 2. All copies must contain LabMice.net's llogo and copyright notice and any other notices provided therein (including this one)
+ 3. This document may not be distributed for profit.	 
+Home > Security > Securing Network Resources	 
+Security Checklist	  	 
+Basic Security Considerations	 
+Provide Physical Security for the machine
+ Most security breaches in corporate environments occur from the inside. Culprits can be well meaning "power users" who configure their co-workers PCs, to disgruntled employees, or they can be full blown corporate spies that are working at your company. It may not be practical to physically secure every workstation in your environment, but your servers need to be in a locked room with monitored access. Consider placing surveillance cameras in your server rooms and keeping the tapes for 30 days. For desktops, install a lock on the CPU case, keep it locked, and store the key safely away from the computer at a secure location. (i.e. a locked cabinet in the server room)	 
+Disable the Guest Account
+ Windows 2000 finally disables the guest account by default, but if you didn't build the image yourself, always double check to make sure the guest account is not enabled. For additional security assign a complex password to the account anyway, and restrict its logon 24x7. 	 
+Limit the number of unnecessary accounts
+ Eliminate any duplicate user accounts, test accounts, shared accounts, general department accounts, etc., Use group policies to assign permissions as needed, and audit your accounts regularly. These generic accounts are famous for having weak passwords (and lots of access) and are at the top of every hacker's list of accounts to crack first. This can be a big problem at larger companies with understaffed IT departments. An audit at a Fortune 10 company I worked for revealed that 3,000 of their 15,000 active user accounts were assigned to employees who no longer worked for the company. To make matters worse, we were able to crack the passwords on more than half of those inactive accounts. 	 
+Create 2 accounts for Administrators
+ I know this goes against the previous caveat, but this is the exception to the rule. Create one regular user account for your Administrators for reading mail and other common tasks, and a separate account (with a more aggressive password policy) for tasks requiring administrator privileges. Have your Administrators use the "Run As" command available with Windows 2000 to enable the access they need. This prevents malicious code from spreading through your network with admin privileges. 	 
+Rename the Administrator Account
+ Many hackers will argue that this won't stop them, because they will use the SID to find the name of the account and hack that. Our view is, why make it easy for them. Renaming the Administrator account will stop some amateur hackers cold, and will annoy the more determined ones. Remember that hackers won't know what the inherit or group permissions are for an account, so they'll try to hack any local account they find and then try to hack other accounts as they go to improve their access. If you rename the account, try not to use the word 'Admin" in its name. Pick something that won't sound like it has rights to anything.	 
+Consider creating a dummy Administrator account
+ Another strategy is to create a local account named "Administrator", then giving that account no privileges and impossible to guess +10 digit complex password. This should keep the script kiddies busy for a while. If you create a dummy Administrative account, enabled auditing so you'll know when it is being tampered with.	 
+Replace the "Everyone" Group with "Authenticated Users" on file shares
+ "Everyone" in the context of Windows 2000 security, means anyone who gains access to your network can access the data. Never assign the "Everyone" Group to have access to a file share on your network, use "Authenticated Users" instead. This is especially important for printers, who have the "Everyone" Group assigned by default.	 
+Password Security
+ A good password policy is essential to your network security, but is often overlooked. In large organizations there is a huge temptation for lazy administrators to create all local Administrator accounts (or worse, a common domain level administrator account) that uses a variation of the company name, computer name, or advertising tag line. i.e. %companyname%#1, win2k%companyname%, etc. Even worse are new user accounts with simple passwords such as "welcome", "letmein", "new2you", that aren't required to changed the password after the first logon. Use complex passwords that are changed at least every 60 -90 days. Passwords should contain at least eight characters, and preferably nine (recent security information reports that many cracking programs are using the eight character standard as a starting point). Also, each password must follow the standards set for strong passwords .	 
+Password protect the screensaver
+ Once again this is a basic security step that is often circumvented by users. Make sure all of your workstations and servers have this feature enabled to prevent an internal threat from taking advantage of an unlocked console. For best results, choose the blank screensaver or logon screensaver. Avoid the OpenGL and graphic intensive program that eat CPU cycles and memory. Make sure the wait setting is appropriate for your business. If you can get your users in the habit of manually locking their workstations when they walk away from their desks, you can probably get away with an idle time of 15 minutes or more. You can keep users from changing this setting via Group Policy.  	 
+Use NTFS on all partitions
+ FAT and FAT32 File systems don't support file level security and give hackers a big wide open door to your system. Make sure all of your system partitions are formatted using NTFS.	 
+Always run Anti-Virus software
+ Again, this is something that is considered a basic tenet of security, but you would be surprised at how many companies don't run Anti-Virus software, or run it but don't update it. Today's AV software does more than just check for known viruses, many scan for other types of malicious code as well.	 
+Secure your Backup tapes
+ It's amazing how many organizations implement excellent platform security, and then don't encrypt and/or lock up their backup tapes containing the same data. It's also a good idea to keep your Emergency Repair Disks locked up and stored away from your servers.	 
+---------------------------------------------------------------------
+Mid Level Security Measures	 
+Use the Security Configuration Toolset included with Windows 2000 to configure policies.
+ Microsoft provides a Security Configuration Toolset which provides plug in templates for the MMC that allow you to easily configure your policies based on the level of security you require. The template includes a long list of configurable options (many of which appear on this checklist) and also includes a useful security analysis tool. For more information, download the documentation here.  If your workstation is not part of a domain, you can still enable policies by using the Poledit.exe file from the Windows 2000 Server CD-ROM. For more information, check out Microsoft Knowledge Base Article: 269799 - How to Secure Windows 2000 Professional in a Non-Domain Environment.	 
+Don't allow unmonitored modems in your environment
+ One of the easiest hacks in the world is finding a company's phone number prefix and suffix range and wardialing for a modem that picks up. After weeding through the fax machines, you can either look for an unsecured workstation with RAS enabled, or one with Symantec's PC Anywhere loaded on it. If either one is configured incorrectly, you can easily gain access to the local machine and work up from there. If you have a digital phone system, get a list of every analog line that comes into your workplace and find out where it goes! Every PC hooked to a modem is a security risk. Make sure they're configured correctly and audited regularly.	 
+Shut down unnecessary services
+ Unnecessary services take up system resources and can open holes into your operating system. IIS, RAS, and Terminal Services have security and configuration issues of their own, and should be implemented carefully if required. There are also several malicious programs that can run quietly as services without anyone knowing. You should be aware of all the services that all run on your servers and audit them periodically. The default services allowed in a Windows NT 4.0 C2 certified installation are: 
+Computer Browser	 
+Microsoft DNS Server 	 
+Netlogon	 
+NTLM SSP	 
+RPC Locator	 
+RPC Service	 
+TCP/IP NetBIOS Helper	 
+Spooler	 
+Server	 
+WINS	 
+Workstation	 
+Event Log	 
+Windows 2000 has not been submitted for C2 certification by Microsoft, so an updated list of services is not available. What services are deemed unnecessary may vary based on the function of your server and/or workstations. Please test your specific configuration in a lab environment before enabling it in your production network. A list of services available in Windows 2000 Server (as well as their default settings) can be found here	 
+Shut down unnecessary ports
+ This is a judgment call based on your needs and risks. Workstations aren't normally at risk behind a firewall, but never assume your servers are safe!  A hackers first attempt at rattling the doors and windows usually involves using a port scanner. You can find out a list of open ports on your local system by opening the file located at %systemroot%\drivers\etc\services. You can configure your ports via the TCP/IP Security console located in the TCP/IP properties (Control Panel > Network and Dial Up Connections > Local Area Connection > Internet Protocol (TCP/IP) > Properties > Advanced > Options > TCP/IP Filtering) To allow only TCP and ICMP connections, configure the UDP and IP Protocol check boxes to "Permit Only" and leave the fields blank. A list of default ports for Windows 2000 Domain Controllers can be found here	 
+Enable Auditing
+ The most basic form of Intrusion Detection for Windows 2000 is to enable auditing. This will alert you to changes in account policies, attempted password hacks, unauthorized file access, etc.,  Most users are unaware of the types of doors they have unknowingly left open on their local workstation, and these risks are often discovered only after a serious security breach has occurred. At the very minimum, consider auditing the following events: 
+Event Level of Auditing 
+Account logon events	 Success, failure	 
+Account management	 Success, failure	 
+Logon events	 Success, failure	 
+Object access	 Success	 
+Policy change	 Success, failure	 
+Privilege use	 Success, failure	 
+System events	 Success, failure	 
+Set permissions on the security event log
+ The event log files are not protected by default, so permissions should be set on the event log files to allow access to Administrator and System accounts only. 	 
+Store all sensitive documents on file servers
+ Although most new workstations come with some very large drives, you should consider storing all of a users data (documents, spreadsheets, project files, etc.,) on a secured server, where the data is backed up regularly. Modify the parameters for the "My Documents" folder to always point to the users network share on a secured server. For laptop users, enable the "Make available offline" capabilities to synchronize the folder's content.	 
+Prevent the last logged-in user name from being displayed
+ When you press Ctrl-Alt-Del, a login dialog box appears which displays the name of the last user who logged in to the computer, and makes it easier to discover a user name that can later be used in a password-guessing attack. This can be disabled using the security templates provided on the installation CD, or via Group Policy snap in. For more information, see Microsoft KB Article Q310125	 
+Check Microsoft's web site for the latest hotfixes
+ Nobody writes 30 million lines of code and is going to have it perfect the first time, so updating service packs and hotfixes can go a long way to plug security holes. The problem is that hotfixes and service packs aren't regression-tested as thoroughly as service packs and can come with bugs of their own. You should always test them on a comparable, non production system before deploying them. Check Microsoft's TechNet Security Page frequently for the latest hotfixes and decide which ones you need to roll out. Tip: Our home page at LabMice.net always features Microsoft's latest hotfix to save you time.	 
+---------------------------------------------------------------------
+Advanced Security Settings	 
+Set a power on password
+ This should be mandatory for all laptop users, but is rarely done in most environments for servers and workstations because it doesn't allow you to remotely log on and reboot a machine to the point that the Operating System will restart. Keep in mind that an intruder who can physically open your computer's central processing unit (CPU) can adjust hardware switches to disable the power-on password, and could also temporarily install a drive and boot another OS, bypassing all of your security settings. If this is a concern for your company, consider locking the case (if the model permits it) or using removable hard drives that are locked up every night.	 
+Disable DirectDraw
+ This prevents direct access to video hardware and memory which is required to meet the basic C2 security standards. Disabling DirectDraw may impact some programs that require DirectX (games), but most business applications should be unaffected. To disable it edit the Registry HKLM\SYSTEM\CurrentControlSet\Control\GraphicsDrivers\DCI and set the value for Timeout (REG_DWORD) to 0	 
+Disable the default shares
+ Windows NT and Windows 2000 open hidden shares on each installation for use by the system account. (Tip: You can view all of the shared folders on your computer by typing NET SHARE from a command prompt.) You can disable the default Administrative shares two ways. One is to stop or disable the Server service, which removes the ability to share folders on your computer. (However, you can still access shared folders on other computers.) When you disable the Server service (via Control Panel > Administration Tools > Services), be sure to click Manual or Disabled or else the service will start the next time the computer is restarted. The other way is via the Registry by editing HKeyLocal Machine\SYSTEM\CurrentControlSet\Services\LanManServer\Parameters. For Servers edit AutoShareServer with a REG_DWORD Value of 0. For Workstations, the edit AutoShareWks. Keep in mind that disabling these shares provide an extra measure of security, but may cause problems with applications. Test your changes in a lab before disabling these in a production environment. The default hidden shares are: 
+  Share	 Path and Function	 
+C$ D$ E$	 Root of each partition. For a Windows 2000 Professional computer, only members of the Administrators or Backup Operators group can connect to these shared folders. For a Windows 2000 Server computer, members of the Server Operators group can also connect to these shared folders	 
+ADMIN$	 %SYSTEMROOT%  This share is used by the system during remote administration of a computer. The path of this resource is always the path to the Windows 2000 system root (the directory in which Windows 2000 is installed: for example, C:\Winnt).	 
+FAX$	 On Windows 2000 server, this used by fax clients in the process of sending a fax. The shared folder temporarily caches files and accesses cover pages stored on the server.	 
+IPC$	 Temporary connections between servers using named pipes essential for communication between programs. It is used during remote administration of a computer and when viewing a computer's shared resources	 
+NetLogon	 This share is used by the Net Logon service of a Windows 2000 Server computer while processing domain logon requests.	 
+PRINT$	 %SYSTEMROOT%\SYSTEM32\SPOOL\DRIVERS  Used during remote administration of printers.	 
+Disable Dump File Creation
+ A dump file can be a useful troubleshooting tool when either the system or application crashes and causes the infamous "Blue Screen of Death". However, they also can provide a hacker with potentially sensitive information such as application passwords. You can disable the dump file by going to the Control Panel > System Properties > Advanced > Startup and Recovery and change the options for 'Write Debugging Information" to None. If you need to troubleshoot unexplained crashes at a later date, you can re-enable this option until the issue is resolved but be sure to disable it again later and delete any stored dump files.	 
+Enable EFS (Encrypting File System)
+ Windows 2000 ships with a powerful encryption system that adds an extra layer of security for drives, folders, or files. This will help prevent a hacker from accessing your files by physically mounting the hard drive on another PC and taking ownership of files. Be sure to enable encryption on Folders, not just files. All files that are placed in that folder will be encrypted. For more information check out our EFS Resource Center	 
+Encrypt the Temp Folder
+ Applications use the temp folder to store copies of files while they are being updated or modified, but they don't always clean the folder when you close the program. Encrypting the temp folder provides an extra layer of security for your files.	 
+Lock down the Registry
+ In Windows 2000, only Administrators and Backup Operators have default network access to the registry, however you may wish to tighten this down even further. To restrict network access to the registry, follow the steps listed in TechNet Article Q153183	 
+Clear the Paging File at shutdown
+ The Pagefile is the temporary swap file Windows NT/2000 uses to manage memory and improve performance. However, some 3rd party programs may store store unencrypted passwords in memory, and there may be other sensitive data cache as well. You can clear the pagefile at shutdown by editing the Registry Key HKLM\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management and changing the data value of the ClearPageFileAtShutdown value to 1 	 
+Disable the ability to boot from a floppy or CD ROM on physically unsecured systems.
+ There are a number of 3rd party utilities that pose a security risk if used via a boot disk (including resetting the local administrator password.) If your security needs are more extreme, consider removing the floppy and CD drives entirely.  As an alternative, store the CPU in a locked external case that still provides adequate ventilation. 	 
+Disable AutoRun for CD-ROM drives on physically unsecured systems.
+ One of the easiest ways for a hacker with physical access to a company's PC's to distribute malicious code is via the CD-ROM. By creating a custom CD with a payload set to launch from the autorun feature in any machine, a hacker can affect any number of unlocked systems without ever leaving a fingerprint or touching a keyboard. Or he/she can simply leave a few of these lying around the office marked "MP3's", or "Payroll Data" and wait for an unsuspecting user to simply pick it up and insert it into their machine. You can disable this function by editing the Registry and changing the HKEY_LOCAL_MACHINE \SYSTEM \CurrentControlSet \Services Cdrom subkey and set the AutoRun value to 0	 
+Remove the OS/2 and POSIX Subsystems
+ If you are not using these subsystems (and people rarely do), removing them may improve performance and also closes a potential security risk.
+ 
+To remove the OS/2 and POSIX subsystems:
+ 1. Delete the \winnt\system32\os2 directory and all of its subdirectories.
+ 2. Use the Registry Editor to remove the following registry entries:
+ 
+Key:	 HKEY_LOCAL_MACHINE\SOFTWARE	 
+Subkey:	 Microsoft\OS/2 Subsystem for NT	 
+Entry:	 delete all subkeys	 
+---------------------------------------------------------------------
+Key:	 HKEY_LOCAL_MACHINE\SYSTEM	 
+Subkey:	 CurrentControlSet\Control\Session Manager\Environment	 
+Entry:	 Os2LibPath	 
+Value:	 delete entry	 
+---------------------------------------------------------------------
+Key:	 HKEY_LOCAL_MACHINE\SYSTEM	 
+Subkey:	 CurrentControlSet\Control\Session Manager\SubSystems	 
+Entry:	 Optional	 
+Values:	 delete entry	 
+---------------------------------------------------------------------
+Key:	 HKEY_LOCAL_MACHINE\SYSTEM	 
+Subkey:	 CurrentControlSet\Control\Session Manager\SubSystems	 
+Entry:	 delete entries for OS2 and POSIX	 
+ 	  	 
+The changes take effect the next time the computer is started. You might want to update the emergency repair disk to reflect these changes.
+Consider using SmartCard or Biometric devices instead of passwords.
+ The more stringent your password policy is, the more likely your users will begin keeping paper password lists in their desk drawers, or taped to the bottom of their keyboard. Windows 2000 supports these devices, so consider the costs vs. risks of your most sensitive data.	 
+Consider implementing IPSec
+ Basically, IPSec provides encryption for network sessions using the Internet Protocol (IP) and promises to offer transparent and automatic encryption of network connections. For more information, click here	 
+---------------------------------------------------------------------
+Send us your feedback!
+ If you have any questions, comments, or suggestions that would help us improve this page, please drop us a line and let us know!	 
+This page and its contents are Copyright 1999-2003 by LabMice.net. Microsoft, NT, BackOffice, MCSE, and Windows are registered trademarks of Microsoft Corporation. Microsoft Corporation in no way endorses or is affiliated with LabMice.net. The products referenced in this site are provided by parties other than LabMice.net. LabMice.net makes no representations regarding either the products or any information about the products. Any questions, complaints, or claims regarding the products must be directed to the appropriate manufacturer or vendor. This document is for informational purposes only. LABMICE.NET MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.	 
+

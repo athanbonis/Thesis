@@ -1,0 +1,177 @@
+
+=====================================================================
+NDLP Project Planning Checklist
+=====================================================================
+ 
+NDLP Project Planning Checklist
+Library of Congress, National Digital Library Program
+Last updated January 1997
+---------------------------------------------------------------------
+This document outlines the production process for historical collections at the Library of Congress and reflects that institution's administrative structure and procedures. Not every collection requires all of the steps listed; some collections require additional steps not listed. In practice, many of the operations are carried out in parallel and not sequentially.
+---------------------------------------------------------------------
+ 
+* I. Select a collection for digital conversion 
+* A. Analyze Collection 
+* 1. Determine scope or extent of digitization (entire or subset?) 
+* 2. Assess status of custodial division processing and housing 
+* 3. Assess the status of access aids (degrees of completion, readiness, & format) 
+* 4. Assess best format, e.g. full text conversion, scanned page images 
+* 5. Assess the physical condition and readiness for scanning 
+* 6. Assess restrictions and copyright
+ 
+* B. Consensus on collection among custodial div, NDLP team, & Library admin
+ 
+* II. Plan the approach to digitization 
+* A. Develop method and resource plans for collection preparation & digitization 
+* 1. Develop plan for required processing by custodial division 
+* 2. Develop preservation treatment plan 
+* 3. Complete evaluation of physical condition with recommendations 
+* 4. Determine formats for capture, archiving and presentation 
+* 5. Determine physical size ( number of characters, images) & special production requirements
+ 
+* B. Determine repository requirements 
+* 1. Determine scheme for file name assignment 
+* 2. Register aggregate name for collection 
+* 3. Estimate required storage space for digital collection 
+* 4. Update NDL forecast for storage 
+* 5. Evaluate existing finding aids or bib records and develop plan for access aid 
+* 6. Develop plan for framework 
+* 7. Develop restriction plan & implementation (copyright, terms of gift, publicity and privacy) 
+* a) Find and record restriction facts at collection level 
+* (1) Search collection files, copyright records, exchange and gift records... 
+* (2) Create a narrative "findings" statement
+ 
+* b) Find and record restriction facts at the item level 
+* (1) Search item files, copyright records, exchange and gift records... 
+* (2) Create fielded/tagged note in access aid
+ 
+* c) Draft proposal for actions to be taken prior to and at the "release" time 
+* (1) Pre-release: seek required permissions 
+* (2) Pre-release: Add notices to all restricted items 
+* (3) Release-time: provide only local or licensed-site access for restricted items 
+* (4) Release-time: provide no access to items restricted until a given date
+ 
+* d) Draft restriction statement to accompany online collection 
+* e) Review copyright restrictions 
+* (1)Review facts 
+* (2) Draft proposal for actions 
+* (3) Draft restriction statements with advisors in Copyright Office 
+* (4) Forward findings, action proposal and draft restriction statements to General Counsel for approval 
+* (5) Revise action proposal and restriction statements after General Counsel review
+ 
+* f) Implement action plans 
+* (1) Implement pre-release actions, e. g. , seek & obtain permissions 
+* (2) Implement release-time actions; provide access to collection
+* 8. Workplan for digitization and access aid completed
+ 
+* III. Produce digital collection and access aid 
+* A. Process and house collection 
+* B. Implement preservation treatment plan 
+* C. Item Capture 
+* 1. Preparation 
+* a) Prepare targets 
+* b) Prepare scanning instructions specific to collection
+ 
+* 2. Image Capture 
+* a) Scan collection 
+* b ) Process scanned images 
+* c) Review images for quality 
+* d) Coordinate rework 
+* e) Notify contractor of acceptance of images
+ 
+* 3. Archive images in repository 
+* 4. Text Capture 
+* a) Prepare keying instructions specific to collection or batch 
+* b) Mark up and key text 
+* c) Review completed text for quality 
+* d) Coordinate rework 
+* e) Process text into final form
+ 
+* 5. Archive text in repository 
+* 6. Audio Capture 
+* a) Create preservation and working copy 
+* b) Determine sample rate and resolution 
+* c) Select digital audio file format 
+* d) Analyze storage requirements 
+* e) Acquire temporary storage space 
+* f) Perform analog to digital conversion 
+* g) Edit digital files removing "dead air" at cue-up points 
+* h) Perform quality review 
+* (1) Inspect graphic waveforms for truncation and peak 
+* (2) Audition percentage of sound files
+* 7. Video capture
+ 
+* D. Access Aid Development 
+* 1. Modify existing finding aid 
+* a) Develop keying instructions 
+* b) Photocopy and mark up existing printed aid 
+* c) Coordinate off-site keying 
+* d) Mark up according to EAD 
+* e) Review finding aid for accuracy and completeness
+ 
+* 2. Create new finding aid 
+* a) Verify final processing and arrangement of collection 
+* b) Draft finding aid 
+* c) Mark up according to EAD 
+* d) Review finding aid for accuracy and completeness
+ 
+* 3. Item-level finding aid (Bib record-style) 
+* a) Set up Minaret database and import item-level records 
+* b) Upgrade preMARC or MARC records 
+* c) Download available preMARC or MARC records 
+* d) Add supplementary notes into Minaret records
+ 
+* 4. Incorporate basic-level links 
+* 5. Add enhanced-access links or subject terms 
+* 6. Prepare collection-level MARC record for future inclusion in MUMS
+ 
+* E. Access Aid Complete
+ 
+* IV. Store in digital archive 
+* A. Store files in directories as specified by naming scheme 
+* B. Register items in URN handle-server (when in use) 
+* C. Deposit items in digital repository (when in use) 
+* D. All items stored
+ 
+* V. Create Framework 
+* A. Draft framework components 
+* B. Review completed framework components 
+* C. Create mockup of HTML document 
+* D. HTML mockup approved 
+* E. Develop and insert hypertext links 
+* F. Coordinate search engine link with ITS 
+* G. Insert final links 
+* H. Add graphic enhancements to HTML pages 
+* I. Mount HTML pages on LCWEB server 
+* J. Review framework for accuracy and completeness 
+* K. Framework completed
+ 
+* VI. Assemble digital collection 
+* A. Store access aids in directories as specified by naming scheme 
+* B. Register document-style access aids in URN handle-server(when in use) 
+* C. Deposit document-style access aids in digital repository(when in use) 
+* D. Generate indexes for related MARC records 
+* E. Generate indexes for textual items in collection 
+* F. Prepare customized scripts associated with searching indexes and displaying results 
+* G. Add relevant viewers to supported configuration for WWW access in reading rooms 
+* H. Assembly completed
+ 
+* VII. Test and refine 
+* A. Review assembled collection for accuracy and completeness 
+* B. Test links 
+* C. Make any necessary changes 
+* D. Testing completed
+ 
+* VIII. Release Collection 
+* A. Move HTML pages to production area of LCWEB server 
+* B. Provide links to new collection from appropriate points in LCWEB structure 
+* C. Add collection-level MARC record with pointer in 856 field to MUMS 
+* D. Release digital collection to public
+ 
+* IX. Update
+---------------------------------------------------------------------
+ Other American Memory Documents
+ 
+---------------------------------------------------------------------
+American Memory Home Page
+ am 02-12-97 

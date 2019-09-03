@@ -1,0 +1,28 @@
+
+=====================================================================
+Ken's Home on the Web
+=====================================================================
+ 
+This is me and my plane  	  Hi, due to yet another change in service providers, I was forced to once again change e-mail   addresses so I finally decided to register a permanent name. Well when I did that, I got this   free web space, so I figured, why not create a page. Please check back as I am still building   the page.  	
+---------------------------------------------------------------------
+Some of My Interests 
+Guitar
+    I enjoy playing guitar and have begun building a small collection of nice guitars.   	   Phish
+  I collect and trade live Phish shows, also interested in Trey Anastasio Band, Oysterhead, Vida Blue, Gov't Mule, others?   	    Flying         
+  I am a pilot and own Piper Warrior N9483C, a great little machine for punching holes in the sky  	
+   Hockey       
+   I used to play for the Warthogs hockey club in Hamilton, NJ. Currently I am not playing, but hopefully will be soon   	   Soccer
+  I used to play for Berkely Heights Soccer Club. Since moving to CT, I have not found a new team yet.
+I also play for the Cottages once a year at the US Hall of Fame Legends Tournament. We currently hold the championship both on the field and in the pub. We all look forward to next year   	   Mountain Biking
+  I love to mountain bike.   	 
+     Resume
+    	   Links
+  Just some places I think are worth checking out!   	      Contact Me
+    
+    	
+This site developed by
+ 
+Zaldo Computing Solutions
+Hosted by directNIC.com
+if (!document.layers&&!document.all) event="test" function showtip(current,e,text){ if (document.all){ thetitle=text.split('
+') if (thetitle.length>1){ thetitles='' for (i=0;i'+text+'') document.linktips.document.close() document.linktips.left=e.pageX+5 document.linktips.top=e.pageY+5 document.linktips.visibility="show" } } function hidetip(){ if (document.layers) document.linktips.visibility="hidden" } 

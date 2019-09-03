@@ -1,0 +1,22 @@
+
+=====================================================================
+Table of Contents
+=====================================================================
+ 
+Table of Contents 
+Welcome to the exciting world of biosequence comparison! These hypertext documents are intended to summarize the basic workings and concepts behind some popular programs, as well as to point out necessary cautions. It is not a substitute for reading the original literature. For an excellent print review which provides overlapping and complementary coverage, see Altschul et al, Nature Genetics 6:119-129. 1994. Geoffrey Barton has written an excellent on-line document (also available in PostScript form) 
+* Databases 
+*  Accessing 
+* Search Algorithms 
+*  BLAST 
+*  FASTA 
+*  Unusual &  non-traditional search methods 
+* Cautionary notes 
+*  Contamination of  sequence databases 
+*  Finding frameshifts 
+* Filters 
+* Substitution Matrices 
+* Documenting Searches 
+* Further Reading 
+---------------------------------------------------------------------
+This document is intended to serve as a guide to using certain bioinformatics programs. It cannot be guaranteed to be free of errors or completely up-to-date (particularly at this time -- it is an unfinished work-in-progress and many documents or headings are just reminders of things yet-to-be-done). I apologize in advance for all the dead-ends that you will encounter due to unfinished or careless work. If you know of errors or other shortcomings of this document, please mail them to Keith Robison KRobison@nucleus.harvard.edu 

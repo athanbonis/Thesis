@@ -1,0 +1,602 @@
+
+=====================================================================
+Frequently Asked Questions - 4. Interest/Dividends/Other Types of Income
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+4.1 Interest/Dividends/Other Types of Income: 1099&#8211;DIV Dividend Income
+How do I report this 1099-DIV from my mutual fund?
+Enter the ordinary dividends from Form 1099-DIV (PDF), box 1, on line 9 of Form 1040 (PDF), U.S. Individual Income Tax Return. Enter the total capital gain distributions from box 2a on line 13, column (f) of Form 1040, Schedule D (PDF). Enter the 28% rate gain portion of your capital gain distributions from box 2b on line 13, column (g) of Schedule D. If you have an amount in box 2c or box 2d, refer to Instructions for Form 1040, Schedule D. Nontaxable distributions, box 3, that are return of capital distributions, reduce your cost basis and are not taxable until your basis is reduced to zero. If no amount is shown in boxes 2b through 2d, and your only capital gains and losses are capital gain distributions, refer to Instructions for Form 1040 for line 13. 
+References: 
+* Form 1040, Schedule D (PDF), Capital Gains and Losses 
+* Instructions for Form 1040 
+* Instructions for Form 1040, Schedule D 
+Do I have to pay tax on reinvested dividends?
+Dividend reinvestment plans let you choose to use your dividends to buy (through an agent) more shares of stock in the corporation instead of receiving the dividends in cash. If you are a member of this type of plan and use your dividends to buy more stock at a price equal to its fair market value, you must report the dividends as income. 
+If you are a member of a dividend reinvestment plan that lets you buy more stock at a price less than its fair market value, you must report as income the fair market value of the additional stock on the dividend payment date. 
+Other rules may apply. For additional information, refer to Chapter 9 of Publication 17, Your Federal Income Tax, and Tax Topic 404, Dividends. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 564, Mutual Fund Distributions 
+* Tax Topic 404, Dividends 
+I received dividends from my credit union. How do I report this income?
+Certain distributions commonly referred to as dividends are actually interest. They include "dividends" on deposits or share accounts in cooperative banks, credit unions, domestic savings and loan associations, and mutual savings banks. 
+Report interest income on line 8a of Form 1040 (PDF) or Form 1040A (PDF), or line 2 of Form 1040EZ (PDF). If your taxable interest income is more than $1,500, be sure to show that income on Schedule B of Form 1040, or on Schedule 1 of Form 1040A. You cannot file Form 1040EZ if your interest income is more than $1,500. Refer to Tax Topic 403, Interest Received, for additional information on interest income. 
+References: 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040A (PDF), U.S. Individual Income Tax Return 
+* Form 1040EZ (PDF), U.S. Individual Income Tax Return for Single and Joint Filers with No Dependents 
+* Tax Topic 403, Interest Received 
+4.2 Interest/Dividends/Other Types of Income: 1099&#8211;INT Interest Income
+How do I report interest received on an installment sale?
+If you receive interest on an installment sale, report the entire amount on line 8a of Form 1040 (PDF) or Form 1040A (PDF), or line 2 of Form 1040EZ (PDF). If your taxable interest income is more than $1,500, be sure to show that income on Schedule B of Form 1040, or on Schedule 1 of Form 1040A. You cannot file Form 1040EZ if your interest income is more than $1,500. Refer to Tax Topic 403, Interest Received, for additional information on interest income Form 1040, Schedule B (PDF). For additional information on installment sales, refer to Tax Topic 705, or Publication 537, Installment Sales. 
+References: 
+* Publication 537, Installment Sales 
+* Form 1040, Schedule B (PDF). Interest and Dividend Income 
+* Tax Topic 705, Installment sales 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040A (PDF), U.S. Individual Income Tax Returnn 
+* Form 1040EZ (PDF), U.S. Individual Income Tax Return for Single and Joint Filers with No Dependents 
+* Tax Topic 403, Interest Received 
+4.3 Interest/Dividends/Other Types of Income: 1099&#8211;MISC, Independent Contractors, and Self-employed
+I received a Form 1099-MISC instead of a Form W-2. I'm not self-employed, I do not have a business. How do I report this income?
+If payment for services you provided is listed in box 7 of Form 1099-MISC, you are being treated as a self-employed worker, also referred to as an independent contractor. You do not necessarily have to "have a business," but simply perform services as a nonemployee to have your compensation treated this way. The payer has determined that an employer-employee relationship does not exist in your case. That determination is complex, but is essentially made by examining the right to control how, when, and where you perform those services. It is not based on how you are paid, how often you are paid, nor whether you work part-time or full-time. There is no statutory definition of an employee, but from common law three basic areas have been identified: 
+* behavioral control, 
+* financial control, and 
+* type of relationship. 
+For more information on employer-employee relationships, refer to Chapter 2 of Publication 15-A (PDF), Employer's Supplemental Tax Guide. If you think that you were, or are, an employee and you would like the IRS to issue a determination, you may submit Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding. 
+Unless you have requested a determination by filing Form SS-8, you generally have to report your nonemployee compensation on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You also need to complete Form 1040, Schedule SE (PDF), Self-Employment Tax, and pay self-employment tax on your net earnings from self-employment, if you had net earnings from self-employment of $400 or more. This is the manner by which self-employed persons pay into the social security and Medicare trust funds. Employees pay these payroll taxes, as well as income tax withholding, through deductions from their paychecks. Generally, there are no tax withholdings on this income. Thus, you may have been subject to the requirement to make quarterly estimated tax payments. If you did not make estimated tax payments, you may be charged an underpayment of estimated tax penalty. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 533, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 15-A (PDF) , Employer's Supplemental Tax Guide 
+* Tax Topic 762, Independent contractor vs. employee 
+* Tax Topic 407, Business Income 
+* Tax Topic 355, Estimated tax 
+I thought I was an employee and thought my employer was withholding tax from my pay. My former employer sent me a Form 1099-MISC and didn't withhold any taxes. Is there a procedure to have the situation reviewed and possibly make the former employer pay the taxes due? What can I do?
+You can ask the IRS to make a determination as to whether an employer-employee relationship exists by filing Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding. If the IRS finds that an employer incorrectly treated an employee as a nonemployee, the employer will be liable for the social security and Medicare tax withholding that he or she failed to withhold and pay. (There are some exceptions to this noted in Publication 15-A (PDF), Employer's Supplemental Tax Guide). 
+Holding the employer liable for the tax that was not withheld does not relieve you from the liability for your share of social security and Medicare taxes. To pay your portion, attach Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tip Income, to your individual income tax return and report the employee share of social security and Medicare on page 2 of Form 1040. Cross out the word "Tip" and insert the word "Wages" at the top of the Form 4137 and also at the top of Schedule U, U.S. Schedule of Unreported Tip Income, which is attached to the bottom of Form 4137. Also notate on the Form 4137 that a Form SS-8 has been filed. You may call us at 1 800-829-1040, the toll-free information number if further clarification of the procedure is necessary. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tip Income 
+* Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+* Tax Topic 762, Independent contractor vs. employee 
+The instructions for Form 1099-MISC, Box 7, say if you are not self-employed, call the IRS for information about how to report any social security and Medicare taxes. I need to know how do I report social security and Medicare taxes if I received income reported on a Form 1099-MISC, but was not self-employed?
+You need to use Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tip Income. Cross out the word "Tip" and insert the word "Wages" at the top of the form and also at the top of Schedule U, which is attached to the bottom of the form. Follow the instructions on Form 4137 to compute your share of your social security and Medicare taxes. Attach Form 4137 to your Form 1040. You may call us at 1 800-829-1040 if further clarification of the procedures is necessary. 
+You may want to file Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding. This form requests the IRS to make an official determination of whether or not you were an employee. To make this determination, the IRS will need information from you and your employer. 
+References: 
+* Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tip Income 
+* Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+I received a Form 1099-MISC for an employee bonus. How do I report it?
+Employee bonuses should be reported on Form W-2, not on Form 1099-MISC. Contact your employer and ask them to issue the correct form. If they will not issue you a Form W-2 for the bonus, complete Form 4852 (PDF), Substitute for Form W-2, Wage and Tax Statement. The bonus amount is reported on Line 7 on your Form 1040 or 1040A or line 1 of Form 1040EZ (PDF). 
+References: 
+* Publication 15, Employer's Tax Guide 
+* Instructions for Form 1099-MISC 
+* Form 4852 (PDF), Substitute for Form W-2, Wage and Tax Statement 
+* Instructions for Form 1040 
+* Instructions for Form 1040A 
+* Instructions for Form 1040EZ 
+I am self-employed. How do I report my income and how do I pay Medicare and social security taxes?
+You are a sole proprietor if you are the sole owner of a business that is not a corporation. Report your income and expenses from your sole proprietorship on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or on Form 1040, Schedule C-EZ (PDF), Net Profit from Business. 
+If the total of your net profit from all businesses is $400 or more, you must pay into the Social Security and Medicare systems by filing Form 1040, Schedule SE (PDF), Self-Employment Tax. Self-Employment tax consists of the Old-Age, Survivors, and Disability Insurance (social security) and the Hospital Insurance (Medicare) taxes. For more information on this, refer to Publication 533, Self-Employment Tax. 
+The Federal tax system is based on a pay-as-you-go plan. Tax is generally withheld from your wages or salary before you get it. However, tax is generally not withheld from self-employment income. Thus, you may be required to make estimated tax payments. Publication 505, Tax Withholding and Estimated Tax, provides information on making estimated tax payments. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business (Sole Proprietorship) 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Publication 533, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+My son is a newspaper carrier. I would like to know if this income is subject to Social Security and Medicare tax and if I must file a Schedule C for him?
+Your son may be liable to pay into the Social Security and Medicare system by paying self-employment tax. However, if your son is under the age of 18 he exempt from self-employment tax. Persons engaged in the trade or business of delivering or distributing newspapers or shopping news (including any services directly related to such delivery or distribution) are considered by statute as nonemployees and are treated as self-employed for all Federal tax purposes, including income and employment taxes. 
+Independent contractors report their income on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) , or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business . See Form 1040, Schedule SE (PDF), Self-Employment Tax , which must be filed if net earnings from self-employment are $400 or more. If your child is a newspaper carrier under the age of 18, he is exempted from self-employment tax. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Instructions for Form 1040, Schedule SE 
+* Publication 334, Tax Guide for Small Business 
+* Tax information for Business 
+What is the difference between a Form W-2 and a Form 1099-MISC?
+Both of these forms are called information returns. The Form W-2 is used by employers to report wages, tips and other compensation paid to an employee. The form also reports the employee's income tax and Social Security and Medicare taxes withheld and any advanced earned income credit payments. The Form W-2 is provided by the employer to the employee and the Social Security Administration. A Form 1099-MISC is used by a person engaged in a trade or business to report payments made in the course of such trade or business to another person or business who is not an employee. The form is required when payments of $10 or more in gross royalties or $600 or more in rents or services are paid. The form is provided by the payor to the IRS and the person or business that received the payment. 
+References: 
+* Tax Topic 752, Form W-2 - where, when, and how to file 
+* Instructions for Form W-2 and W-3 
+* Instructions for Form 1099-MISC 
+How do you determine if a person is an employee or an independent contractor?
+The determination is complex, but is essentially made by examining the right to control how, when, and where the person performs services. It is not based on how the person is paid, how often the person is paid, nor whether the person works work part-time or full-time. There is no statutory definition of what an employee is, but from common law three basic areas have been identified: 
+* behavioral control, 
+* financial control, and 
+* type of relationship. 
+For more information on employer-employee relationships, refer to Chapter 2 of Publication 15-A (PDF), Employer's Supplemental Tax Guide. If you would like the IRS to determine whether services are performed as an employee or independent contractor, you may submit Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding. 
+Unless you have requested a determination by filing Form SS-8, you generally have to report your nonemployee compensation on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You also need to complete Form 1040, Schedule SE (PDF), Self-Employment Tax, and pay self-employment tax on your net earnings from self-employment, if you had net earnings from self-employment of $400 or more. This is the method by which self-employed persons pay into the social security and Medicare trust funds. Generally, there are no tax withholdings on this income. Thus, you may have been subject to the requirement to make quarterly estimated tax payments. If you did not make timely estimated tax payments, you may be assessed a penalty for an underpayment of estimated tax. Employees pay into the social security and Medicare trust funds, as well as income tax withholding, through payroll deductions. 
+References: 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+* Publication 533, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Tax Topic 762, Independent contractor vs. employee 
+* Tax Topic 407, Business Income 
+* Tax Topic 355, Estimated tax 
+I received a Form 1099-MISC with an amount in box 7, (nonemployee compensation). What forms and schedules should be used to report income earned as an independent contractor?
+Independent contractors report their income on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business (Sole Proprietorship). You should also be aware of Form 1040, Schedule SE (PDF), Self-Employment Tax, which must be filed if net earnings from self-employment are $400 or more. This form is used to figure your social security and Medicare tax which is based on your net self-employment income. You may also need to file Form 2210, Underpayment of Estimated Tax by Individuals, Estates & Trusts, if you do not make estimated tax payments. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Instructions for Form 1040, Schedule SE 
+* Publication 533, Self-employment Tax 
+* Publication 334, Tax Guide for Small Business 
+* Tax information for Business 
+* Form 2210 (PDF) Underpayment of Estimated Tax 
+If I am an independent contractor, am I considered self-employed?
+Generally, an independent contractor is considered self-employed. Refer to Chapter 5, Business Income, of Publication 334, Tax Guide for Small Business, for a definition and examples of income from self-employment. Refer to Chapter 2, Employee or Independent Contractor, of Publication 15-A (PDF), Employer's Supplemental Tax Guide, for more information on independent contractors. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 15-A (PDF) ,Employer's Supplemental Tax Guide 
+* Publication 533, Self-Employment Tax 
+* Tax Topic 554, Self-employment tax 
+* Tax Topic 355, Estimated tax 
+* Tax Topic 407, Business Income 
+I work as an independent contractor, but I do not own a business and do not perform services in the name of a business. Can I file my tax return without filing Schedule C or Schedule SE?
+The income you earn as an independent contractor generally will be considered income from self-employment and you will need to file Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to file Form 1040, Schedule SE (PDF), Self-Employment Tax, if you had net earnings from self-employment of $400 or more. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Information for Business 
+What, if any, quarterly forms must I file to report income as an independent contractor?
+There are no quarterly income reporting requirements for Federal income tax purposes. However, because you will have no withholding taken from your income, you may need to make quarterly estimated tax payments. You use Form 1040-ES (PDF), Estimated Tax for Individuals. 
+You need to be aware that there may be state and local requirements for estimated tax payments. You can start looking for information at How to Contact Us. You may want to go to your state's individual Web site for additional information. To access the state you need go to our Alphabetical State Index. 
+References: 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Tax Topic 355, Estimated Tax 
+* Publication 334, Tax Guide for Small Business 
+* Alphabetical State Index 
+* Tax Information for Business 
+I made several thousand dollars moonlighting as an independent contractor. What taxes do I need to pay?
+You are responsible for Federal income tax and self-employment taxes on your income as an independent contractor. Self-employment taxes are your contributions to Social Security and Medicare. Your self-employment income and expenses will be reported on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax, to compute and report your social security and Medicare tax, if you had net earnings from self-employment of $400 or more. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Publication 334, Tax Guide for Small Business 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Tax Topic 355, Estimated Tax 
+* Tax Information for Business 
+* Publication 505,Tax Withholding and Estimated Tax 
+I received a Form 1099-MISC from a company that paid all employees this way. Will my income go on line 21 of Form 1040 as Other Income or on Schedule C?
+Since your income was reported to you on a Form 1099-MISC, box 7, the company has treated you as an independent contractor and your income is treated as self-employment income. You will need to report that income, and any related expenses, on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax, to compute and report your Social Security and Medicare tax, if you had net earnings from self-employment of $400 or more. You may also need to make quarterly estimated tax payments. You would use Form 1040-ES (PDF), Estimated Tax for Individuals, for this. 
+If you feel that you were an employee and not self-employed, you can file Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes. This will enable the IRS to make a determination as to whether you are an employee or an independent contractor. To do this the IRS will need information from you and your employer. 
+For information about determining whether you are an employee or an independent contractor, please see Chapter 2 of Publication 15-A (PDF), Employer's Supplemental Tax Guide. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Form SS-8 (PDF), Determination of Worker Status for Purposes of Federal Employment Taxes and Income Taxes 
+* Publication 334, Tax Guide for Small Business 
+* Publication 15-A (PDF), Employer's Tax Guide to Fringe Benefits 
+* Tax Information for Business 
+* Tax Topic 355, Estimated Tax 
+4.4 Interest/Dividends/Other Types of Income: 1099 Information Returns (All Other)
+I received a Form 1099-G, for my state tax refund. Do I have to include this amount as income on my return?
+I received a Form 1099-G (PDF) , for my state tax refund. Do I have to include this amount as income on my tax return? 
+If you did not itemize your deductions on your Federal tax return for the same year as the state or local tax refund applies to, do not report any of the refund as income. 
+If you itemized deductions on your Federal tax return for 2002, and received a refund of state or local taxes in 2002, you may have to include all or part of the refund as income on your 2003 tax return. Report your taxable State or Local Refunds on Form 1040, Line 10. You cannot use Form 1040A or 1040EZ. Refer to Tax Topic 405, Refund of State and Local Taxes , and Publication 505 , Taxable and Nontaxable Income , for further information. 
+References: 
+* Publication 505, Taxable and Nontaxable Income 
+* Tax Topic 405, Refund of State and Local Taxes 
+* Instructions for Form 1040 
+How do I report income received as a prize or award?
+If you win a prize in a lucky number drawing, television or radio quiz program, beauty contest, or other event, you must include it in your income. For example, if you win a $50 prize in a photography contest, you must report this income on line 21 (other income), Form 1040. If you receive merchandise, you must report the fair market value of the item(s) as income. Refer to Chapter 13 of Publication 17, Your Federal Income Tax, for additional information. 
+References: 
+* Publication 17, Your Federal Income Tax 
+I won $250 in a charity raffle. Where do I show this on my return?
+Gambling winnings are fully taxable and must be reported on your tax return. You must file Form 1040 (PDF) and include all your winnings on line 21 (other income). For information on deducting gambling losses. Refer to Tax Topic 419, Gambling Income and Expenses, or Publication 529, Miscellaneous Deductions, . 
+References: 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Tax Topic 419, Gambling Income and Expenses 
+* Publication 529, Miscellaneous Deductions 
+My house was foreclosed on and the lender has sent me a Form 1099. What do I do? Must I report this?
+You may have received either a Form 1099-A (PDF), Acquisition or Abandonment of Secured Property, or Form 1099-C (PDF), Cancellation of Debt, or both. You may not have to report gain on the sale of property and, depending on the circumstances, you may have cancellation of indebtedness as well. You have cancelled debt income if the debt cancelled, as a result of the foreclosure and it exceeds the fair market value of the property at the time of he transfer. Cancelled debt income is taxable as other income on line 21 (other income) of Form 1040 (PDF). Refer to Publication 544, Sales and Other Disposition of Assets. Complete Table 1-2, Worksheet for Foreclosure & Repossessions to determine if there is income from cancellation of debt or gain or loss from foreclosure or repossession. 
+You may be able to exclude all or part of the cancelled debt income if all or part of the debt was discharged in bankruptcy; if you were insolvent immediately before the transfer; or if the debt is a qualified farm debt or qualified real property indebtedness. Refer to Publication 908, Bankruptcy Tax Guide. 
+You may be required to compute gain on the disposition of the property and, under certain circumstances, may be eligible to claim a loss as well. The tax treatment of he disposition may be affected by whether the debt was recourse or nonrecourse. 
+If the debt was nonrecourse (you were not personally liable for payment), the amount realized for purposes of computing gain is the sum of the amount of money received, the fair market value of any other property received incident to the transfer of the property subject to foreclosure, and the amount of any nonrecourse debt on the property. The difference between the amount realized and your basis is your gain or loss. No portion of the gain on property subject only to nonrecourse debt is income from discharge of indebtedness. 
+If the debt was recourse (you could have been held personally liable for payment), the proper treatment depends on the amount of the debt and whether you were discharged as a result of the transaction. If the debt was less than the fair market value of the property, the amount realized is equal to the sum of the amount received and the fair market value of any other property received incident to the transfer of the property subject to foreclosure, and the amount of any debt discharged as the result of the transaction. On the other hand, if the debt was more than the fair market value of the property and it was discharged as result of the transaction, for example, if you gave the creditor a deed in lieu of foreclosure, then the difference between the FMV of the property and the amount of the debt up to the FMV of the property is considered to be the amount realized and the excess debt is considered to be income from discharge of indebtedness. Your gain or loss would be computed by the difference between the FMV of the property and your basis; the balance would be ordinary income reportable on Line 21. If the debt was not discharged because of the foreclosure and the creditor could collect the difference from you, there would be no discharge of indebtedness income until such time as the debt was actually discharged or the statute of limitations expired. In such case, you might only have to report your gain on the disposition of the property. 
+References: 
+* Publication 523, Selling Your Home 
+* Publication 537, Installment Sales 
+* Publication 544, Sales and Other Dispositions of Assets 
+* Publication 908, Bankruptcy Tax Guide 
+* Form 982 (PDF), Reduction of Tax Attributes Due to Discharge of Indebtedness 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040, Schedule D (PDF), Capital Gains and Losses 
+* Form 1099-A (PDF), Acquisition or Abandonment of Secured Property 
+* Form 1099-C (PDF), Cancellation of Debt 
+* Form 4797 (PDF), Sales of Business Property 
+4.5 Interest/Dividends/Other Types of Income: Alimony, Child Support, Court Awards, Damages
+Are alimony payments considered taxable income?
+Alimony, separate maintenance, and similar payments from your spouse or former spouse are taxable to you in the year received. The amount is reported on line 11 of Form 1040 (PDF). You cannot use Form 1040A (PDF) or Form 1040EZ (PDF). Refer to Tax Topic 406, Alimony Received, or Publication 504, Divorced or Separated Individuals. 
+To help determine if these payments are or are not alimony, please read the following: 
+The following rules apply to payments under divorce or separation instruments executed after 1984. They also apply to instruments that were modified after 1984 to: 
+(1) Specify that these rules will apply or 
+(2) Change the amount or period of payment or to add or delete any contingency or condition. 
+For the rules for alimony payments under pre-1985 instruments, please see Publication 504, Divorced or Separated Individuals. 
+A payment to or for a spouse or former spouse under a divorce or separation instrument is alimony, if the spouses do not file a joint return with each other, if the following conditions are met: 
+(1) The payment must be made by cash, check, money order, etc.
+(2) The instrument does not designate the payments as "not alimony."
+(3) The spouses are not members of the same household at the time the payments are made. 
+(4) There is no liability for payments after the death of the recipient spouse. 
+(5) The payment is not treated as child support.
+For an explanation of these requirements please see, Publication 504, Divorced or Separated Individuals. 
+References: 
+* Publication 504, Divorced or Separated Individuals 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040A (PDF), U.S. Individual Income Tax Return 
+* Form 1040EZ (PDF), U.S. Individual Income Tax Return for Single and Joint Filers with No Dependents 
+* Tax Topic 406, Alimony Received 
+Are child support payments considered taxable income?
+No. Some types of income taxpayers receive are not taxable and child support is one of them. When you total your gross income to see if you are required to file a tax return, do not include your nontaxable income. For additional information, refer to Tax Topic 422, Nontaxable Income, or Publication 525, Taxable and Nontaxable Income. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Publication 504, Divorced or Separated Individuals 
+* Tax Topic 422, Nontaxable Income 
+I received damages for emotional distress suffered as a result of employment discrimination. Is the money I received taxable?
+Emotional distress is not considered a physical injury or physical sickness; therefore, damages for emotional distress are includible in income except to the extent they are paid for medical care attributable to emotional distress. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 422, Nontaxable Income 
+* Revenue Ruling 96-65 
+Because of my age, my employer wanted to terminate my employment. I signed a statement not to sue and received a lump-sum payment from my employer for age discrimination. Is this payment taxable?
+A lump-sum payment for cancellation of your employment is taxable income in the year you receive it and must be reported with your other salary and wages. This is true even if the payment was received (by suit or agreement) as settlement under the Age Discrimination in Employment Act. 
+Refer to Publication 525, Taxable and Nontaxable Income, for more details. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 422, Nontaxable Income 
+* Revenue Ruling 96-65 and Commissioner v. Schleier, 515 US 323 (1995) 
+Is the money received from my settlement taxable?
+For court awards and damages, to determine if settlement amounts you receive by compromise or judgment must be included in your income, you must consider the item which the settlement replaces. Include the following as ordinary income: 
+* Interest on any award. 
+* Compensation for lost wages or lost profits in cases other than those where the payments are for wages lost as a result of physical injury. 
+* Punitive damages. (But see below) 
+* Amounts received in settlement of pension rights (if you did not contribute to the plan). 
+* Damages for: (A) Patent or copyright infringement. (B) Breach of contract. (C) Interference with business operations. 
+* Any recovery under the Age Discrimination in Employment Act. 
+* Injury to your reputation . 
+* Alienation of affection. 
+Do not include in your income compensatory damages for personal physical injury or physical sickness (whether received in a lump sum or installments). 
+Damages for emotional distress due to a physical injury or physical sickness are not taxable. 
+Punitive damages are taxable. It does not matter if they relate to a physical injury or a physical sickness. 
+For additional information, refer to Publication 525, Taxable and Nontaxable Income, or Tax Topic 422, Nontaxable Income. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 422, Nontaxable Income 
+4.6 Interest/Dividends/Other Types of Income: Employee Reimbursements, Form W&#8211;2, Wage Inquiries
+Is tuition reimbursement for school a form of taxable income or not? 
+If you receive educational assistance benefits from your employer under an educational assistance program, you can exclude up to $5,250 of those benefits each year. This means your employer should not include the benefits with your wages, tips, and other compensation shown in box 1 of your Form W-2. You do not have to include the benefits on your income tax return. The exclusion also applies to educational assistance for graduate level courses. 
+To qualify as an educational assistance program, the plan must be written and must meet certain other requirements. Your employer can tell you whether there is a qualified program where you work. 
+Tax-free educational assistance benefits include payments for tuition, fees and similar expenses, books, supplies, and equipment. The payments do not have to be for work-related courses. Educational assistance benefits do not include payments for the following items: 
+(1) Meals, lodging, transportation, or tools or supplies (other than textbooks) that you can keep after completing the course of instruction. 
+(2) Education involving sports, games, or hobbies unless the education has a reasonable relationship to the business of your employer, or is required as part of a degree program. 
+References:
+For further information, please see,Publication 970 , Tax Benefits for Education . 
+Tax Topic 513 Tax Topic 513, Education Expenses 
+References: 
+* Tax Topic 513, Educational Expenses 
+* Publication 970, Tax Benefits for Education 
+My employer is including amounts paid graduate school related expenses on my Form W-2. Where do I claim education expenses on my Form 1040?
+The law changed in 2002 to allow up to $5,250 in graduate school related expenses paid by educational assistance program to be excluded from gross income. If your employer has included amounts paid for graduate school related expenses amounting to $5,250 or less with your wages, tips, and other compensation shown in box 1 of your W-2, ask your employer for a corrected W-2. If you have received amounts for graduate school related expenses that are includable in gross income, you may deduct expenses attributable to those amounts on Form 1040, Schedule A (PDF), Itemized Deductions. 
+References: 
+* Publication 970, Tax Benefits for Education 
+* Tax Topic 513, Educational expenses 
+On my Form W-2, why would line 1, wages, tips, other compensation, be different from line 3, social security wages, and line 5, medicare wages and tips?
+When the amount in box 1 is less than the amount in boxes 3 and 5, you have received some employee compensation that is not subject to Federal income tax but is subject to Social Security and Medicare taxes. The most common example of this is deferred compensation, e.g. contributions to a 401(k) plan. Another example is an employee benefit plan that provides for the contribution of pretax dollars (e.g. cafeteria plan, flexible spending arrangement, dependent care plan, etc.). 
+When the amount in box 1 is more than the amount in boxes 3 and 5, you have received some employee compensation that is not defined as wages for the purpose of social security and Medicare taxes. An example of this would be when a child works for his or her parent in the parent's trade or business and is under age 18. 
+References: 
+* Instructions for Form W-2 and W-3 
+* Publication 15, Employer's Tax Guide 
+Is my employer supposed to include mileage reimbursement as a part of my gross income on my Form W-2, and do I include it on my return as wages, tips & salaries?
+That depends on whether you were reimbursed under an accountable plan or under a nonaccountable plan. Generally, an employer will have an accountable plan if it pays business expenses that would otherwise be deductible by the employee, requires the employee to substantiate the expense, and does not permit the employee to keep any reimbursements that exceed expenses. If the employer does not use an accountable plan, mileage reimbursement would be included in your wages on Form W-2. For more information on reimbursements and accountable plans, refer to Chapter 6 of Publication 463, Travel, Entertainment, Gift, and Car Expenses. 
+If your mileage reimbursement is included in box 1 on Form W-2, you need to enter that amount on the "wages, salaries, and tips" line of your tax return. If you itemize your deductions on Form 1040, Schedule A (PDF), Itemized Deductions, you may deduct the business transportation expense as an employee business expense, subject to the 2% limitation of adjusted gross income. You may usually deduct either your actual business automobile expenses or use the standard mileage rate. For more information on when you may use the standard mileage rate, refer to Chapter 4 of Publication 463, Travel, Entertainment, Gift, and Car Expenses.
+References: 
+* Publication 463, Travel, Entertainment, Gift, and Car Expenses 
+* Publication 529, Miscellaneous Deductions 
+* Tax Topic 501, Should I itemize? 
+* Tax Topic 510, Business use of car 
+* Tax Topic 514, Employee business expenses 
+Is there any amount of wages too low to report on my tax return?
+There is no wage amount too low that you would not include in gross income on your tax return. If your total income were below your filing requirement, however, you would not have to file a tax return. However, you may wish to file to claim a refund of withheld taxes. For information on filing requirements, please refer to the instructions for your income tax form. 
+References: 
+* Instructions for Form 1040EZ 
+* Instructions for Form 1040A 
+What box on the Form W-2 do I use to determine my income to go on my tax return? What are all of these other boxes for? Does the amount from any other box go anywhere on my tax return?
+For most people, only the amount in box 1 (wages, tips, other compensation) needs to be reported as income on your tax return. If you are an employee who receives tips, you may have to include the amount from box 8 (allocated tips) as income on your return. 
+Any employer-provided dependent care benefits listed in box 10 that are not excludable from income must be reported as wages on line 7 of the Form 1040. Any credit taken for child and dependent care expenses must be reported on line 44 of the Form 1040. Refer to Form 2441 (PDF), Child and Dependent Care Expenses, to determine the amount, if any, of the exclusion or credit. 
+Employer-provided adoption benefits that must be included on line 18 of Form 8839 (PDF), Qualified Adoption Expenses, appear in box 12 with a code T. Employer contributions to a medical savings account (MSA), which you report on line 3b of Form 8853 (PDF), Medical Savings Accounts and Long-Term Care Insurance Contracts, also appear in box 12 with a code R. Employer-provided benefits may be taxable as compensation under certain conditions. Refer to the relevant form instructions. 
+If you received advanced earned income credit payments from your employer (box 9), you must include the amount on your individual income tax return Form 1040 or 1040A. 
+The other boxes either display information that the employer wanted to provide to you, or contain information that must be reported to the Social Security Administration or to the IRS. 
+References: 
+* Instructions for Form W-2 and W-3 
+* Instructions for Form 1040 (General Inst.) 
+* Instructions for Form 1040A 
+What is meant by "dependent care benefits" (Box 10 of Form W-2)?
+Dependent care benefits are amounts your employer paid directly to either you or your care provider for the care of your qualifying person(s) while you worked. They also include the fair market value of care in a day-care facility provided or sponsored by your employer. Dependent care benefits include amounts placed into a flexible spending account under a salary reduction arrangement if the benefit provided was day care. If you have an amount in Box 10 of the Form W-2 (PDF), you must complete Form 2441, Child and Dependent Care Expenses (PDF) when you file the Form 1040. If you file the Form 1040A (PDF), complete Schedule 2. 
+References: 
+* Form 2441 (PDF), Child and Dependent Care Expenses 
+* Instructions for Form 2441, Child and Dependent Care Expenses 
+Should Line 10, Dependent Care Benefits, of my Form W-2 be included when calculating my income?
+A portion of the amount in Box 10 of the Form W-2 may be includable in your income. Please refer to the Instructions for Form 2441, Child and Dependent Care Expenses, to determine how much, if any, of the dependent care benefits may be excluded. If you meet the requirements described in Form 2441 (PDF), Child and Dependent Care Expenses, you can exclude up to $5,000 of dependent care benefits provided under a qualified employer plan. However, this amount is reduced or eliminated if your earned income (or your spouse's earned income) is less than $5,000, or if your child is not under age 13. Any benefits that exceed the exclusion limit ($5,000) are also includable in your income, and your employer should have included these amounts in Boxes 1, 3, and 5 of your Form W-2 in addition to reporting these amounts in Box 10. The amount you can exclude is figured and claimed by completing Part III of Form 2441 or Schedule 2 of Form 1040A. 
+References: 
+* Publication 503, Child and Dependent Care Expenses 
+* Form 2441 (PDF), Child and Dependent Care Expenses 
+* Instructions for Form 2441, Child and Dependent Care Expenses 
+Is severance pay taxable?
+Amounts you receive as severance pay are taxable. A lump-sum payment for cancellation of your employment contract is income in the tax year you receive it and must be reported with your other salaries and wages. For additional information on wages, salaries, and other earnings, refer to Publication 17, Your Federal Income Tax, in Chapter 6, or Tax Topic 401, Wages and Salaries. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Tax Topic 401, Wages and Salaries 
+4.7 Interest/Dividends/Other Types of Income: Gifts & Inheritances 
+Are gifts, bequests, or inheritances taxable?
+Generally, property you receive as a gift, bequest, or inheritance is not included in your income. However, if property you receive this way later produces income such as interest, dividends, or rentals, that income is taxable to you. For additional information, refer to Publication 17, Your Federal Income Tax, Chapter 13. If you inherit an Individual Retirement Arrangement (IRA) or proceeds from a retirement (pension) plan, special rules apply. Refer to Publication 590, Individual Retirement Arrangements (IRAs), or Publication 575, Pension and Annuity Income, for further information. 
+For additional information on this subject see Gifts. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Publication 575, Pensions and Annuity Income 
+* Publication 590, Individual Retirement Arrangements (IRAs) 
+Is the money received from the sale of inherited property considered taxable income?
+To determine if the sale of inherited property is taxable, you must first determine your basis in the property. The basis of inherited property is generally one of the following: 
+(1) The fair market value (FMV) of the property on the date of the decedent's death. 
+(2) The FMV of the property on the alternate valuation date if the executor of the estate chooses to use alternate valuation. See Form 706 (PDF), United States Estate (and Generation-Skipping Transfer) Tax Return.
+(3) The special use valuation for estate tax purposes of qualified real property used for farming purposes or in a trade or business other than farming. However, if an interest in such property is disposed of or ceases to be used in a qualified use during the 10 year period following the decedent's death, additional estate tax is imposed. If the qualified heir elects to pay interest on the additional estate tax, the adjusted basis of the property will be deemed to have been increased, immediately before disposition, by an amount equal to the excess of its fair market value on the date of the decedent's death over its special use value. See Form 706 (PDF), U.S. Estate (and Generation-Skipping Transfer) Tax Return and section 2032A of Internal Revenue Code. 
+(4) If an election is made to exclude a portion of the value of land from a decedent's gross estate section 2031 (c) (regarding the transfer of qualified conservation easement), the decedent's adjusted basis in the land to the extent the value of the land was excluded from the decedent's gross estate under 2031(c) by reason of the transfer of a qualified conservation easement plus the fair market value of the land to the extent the value of the land was included in the gross estate. For more information on qualified conservation easement see the Instructions for Form 706, U. S. Estate (and Generation-Skipping Transfer) Tax Returnand section 2031(c) of the Internal Revenue Code. 
+If you or your spouse gave the property to the descendent within one year of their death, see Publication 551, Basis of Assets. 
+Report the sale on Form 1040, Schedule D (PDF), Capital Gain and Losses. If you sell the property for more than your basis, you have a taxable gain. For information on how to report the sale on Schedule D, please see Publication 550, Investment Income and Expenses. 
+References: 
+* Publication 551, Basis of Assets 
+* Tax Topic 703, Basis of assets 
+* Tax Topic 422, Nontaxable income 
+4.8 Interest/Dividends/Other Types of Income: Grants, Scholarships, Student Loans, Work Study
+Is money from student loans considered taxable income?
+A school loan is not taxable at the time you get the money and should not be included as income on your return. A loan is not income because you are expected to repay the amount borrowed (plus interest). If, at a later date, any part of the loan is forgiven, the amount forgiven would be income in that year. Under certain circumstances, student loans forgiven are not income. For more information, refer to Exceptions under Canceled Debts in Publication 525, Taxable and Nontaxable Income. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 422, Nontaxable income 
+I received an academic scholarship that is designated to be used for tuition and books. Is this taxable?
+Qualified scholarships and fellowships are treated as tax-free amounts if all of the following conditions are met: 
+* You are a candidate for a degree at an educational institution, 
+* Amounts you receive as a scholarship or fellowship are used for tuition and fees required for enrollment or attendance at the educational institution, or for books, supplies, and equipment required for courses of instruction, and 
+* The amounts received are not a payment for your services. 
+For additional information on Scholarship and Fellowship Grants, refer to Tax Topic 421, and Publication 970, Tax Benefits for Education . 
+References: 
+* Publication 970, Tax Benefits for Education 
+* Tax Topic 421, Scholarship and fellowship grants 
+Can I exclude any scholarship or grant from being taxed?
+If you received a scholarship or fellowship, all or part of it may be taxable, even if you did not receive a Form W-2. Generally, the entire amount is taxable if you are not a candidate for a degree. 
+If you are a candidate for a degree, you generally can exclude from income that part of the grant used for: 
+* Tuition and fees required for enrollment or attendance, or 
+* Fees, books, supplies, and equipment required for your courses. 
+Taxable scholarships are reported on line 7 of Form 1040 (PDF) or Form 1040A (PDF) or line 1 of Form 1040EZ (PDF). If you did not receive a Form W-2, please write "SCH" and the taxable amount to the left of the line. 
+References: 
+* Publication 970,Tax Benefits for Education 
+* Tax Topic 421, Scholarship and Fellowship Grants 
+Can I exclude from taxable income the room and board portion of a grant or fellowship?
+No, you cannot exclude from income any part of the grant used for room and board. A scholarship generally is an amount paid for the benefit of a student at an educational institution to aid in the pursuit of studies. The student may be in either a graduate or an undergraduate program. A fellowship grant generally is an amount paid for the benefit of an individual to aid in the pursuit of study or research. Report this amount on line 7 Form 1040 (PDF) or Form 1040A (PDF) or line 1 of 1040EZ. If you did not receive a Form W-2, please write "SCH" and the dollar amount to the left of the line. 
+References: 
+* Publication 970 , Tax Benefits for Education 
+* Tax Topic 421, Scholarship and Fellowship Grants 
+* Tax Topic 513, Educational Expenses 
+Do I need to report income made as a work study student at my college?
+If you are enrolled in a state or local work-training program, payments you receive as compensation for services are wages and includable in gross income. Report these payments as wages on line 7 of Form 1040 (PDF) or Form 1040A (PDF) or line 1 of Form 1040EZ (PDF). 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 401, Wages and salaries 
+4.9 Interest/Dividends/Other Types of Income: Life Insurance & Disability Insurance Proceeds
+Are proceeds paid under a life insurance contract as defined in IRC 7702 taxable and do they have to be reported as income?
+Generally, if you receive the proceeds under a life insurance contract because of the death of the insured person the benefits are not taxable income and do not have to be reported. Any interest you receive would be taxable and would need to be reported just like any other interest received. 
+However, if the policy was transferred to you for valuable consideration, the amount excluded from gross income, pursuant to IRC 101 (a) (1), shall not exceed an amount equal to the sum of the value of the consideration you paid for the transfer of the policy and other amounts you subsequently paid by the transferee. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Tax Topic 422, Nontaxable Income 
+I am receiving long-term disability. Is it considered taxable?
+Generally, you must report as income any amount you receive for your disability through an accident or health insurance plan paid for by your employer. 
+If both you and your employer have paid the premiums for the plan, only the amount you receive for your disability that is due to your employer's payments is reported as income. If you pay the entire cost of a health or accident insurance plan, do not include any amounts you receive for your disability as income on your tax return. If you pay the premiums of a health or accident insurance plan through a cafeteria plan, and the amount of the premium was not included as taxable income to you; the premiums are considered paid by your employer, and the disability benefits are fully taxable. 
+Refer to Publication 525, Taxable and Nontaxable Income, for more details. If the amounts are taxable, you can submit a Form W-4S (PDF), Request for Federal Income Tax Withholding, to the insurance company, or make estimated tax payments by filing Form 1040-ES (PDF), Estimated Tax for Individuals. 
+Amounts you receive from your employer while you are sick or injured are part of your salary or wages. Report the amount you receive on line 7, Form 1040 (PDF); line 7, Form 1040A (PDF); or line 1, Form 1040EZ (PDF). You must include in your income sick pay from any of the following: 
+* A welfare fund. 
+* A state sickness or disability fund. 
+* An association of employers or employees. 
+* An insurance company, if your employer paid for the plan. 
+Payments you receive from qualified long-term care insurance contracts will generally be excluded from income as reimbursement of medical expenses received for personal injury or sickness under an accident and health insurance contract. Also, certain payments received under a life insurance contract on the life of a terminally or chronically ill individual (accelerated death benefits) can be excluded from income. Refer to Publication 17, Your Federal Income Tax, Chapter 13, Other Income. 
+You may be able to deduct your out of pocket expenses for medical care above any reimbursements, if you are eligible to itemize your deductions. You will need to review Publication 502, Medical and Dental Expenses. 
+For more information, refer to Publication 907, Tax Highlights for Persons with Disabilities.
+References: 
+* Publication 502, Medical and Dental Expenses 
+* Publication 525, Taxable and Nontaxable Income 
+* Publication 907, Tax Highlights for Persons with Disabilities 
+* Tax Topic 422, Nontaxable Income 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040A (PDF), U.S. Individual Income Tax Return 
+* Form 1040EZ (PDF), U.S. Individual Income Tax Return for Single and Joint Filers with No Dependents 
+* Form W-4S (PDF), Request for Federal Income Tax Withholding 
+4.10 Interest/Dividends/Other Types of Income: Ministers' Compensation & Housing Allowance
+A minister receives a salary plus a housing allowance. Is the housing allowance income? Where do the minister report it?
+A minister's housing allowance, sometimes called a parsonage allowance or a rental allowance, is excludable from gross income for income tax purposes, but not for self-employment tax purposes. 
+If you are a minister and receive as part of your pay for your services as a minister an amount officially designated as a rental allowance, you can exclude the allowance from income if the amount is used to provide or rent a home. However, the exclusion is limited to the lesser of the fair market rental value (including furnishing, utilities, garage, etc.) the amount officially designated (in advance of payment) as a rental or housing allowance, or the actual amount used to provide a home, and cannot exceed what is reasonable pay for your services. 
+If housing is furnished to you by your congregation as pay for your services as a minister, the exclusion cannot be more than what is reasonable pay for your services, and is limited to the fair market rental value (including furnishings, utilities, garage, etc.) of the home. 
+If you own your home and you receive a housing allowance as part of your pay, for your services as a minister, the exclusion cannot be more than the smaller of the following: 
+* the amount actually used to provide a home, 
+* the amount officially designated (in advance of payment) as a rental or housing allowance, or 
+* the fair market rental value of the home, including furnishings, utilities, garage, etc. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Tax Topic 417, Earnings for clergy 
+Are housing allowances taxable to ministers?
+A housing allowance paid to you as part of your salary is excluded from gross income to the extent you use it, in the year received, to provide a home or to pay utilities for a home with which you are provided. The amount of the housing allowance that you can exclude from your income cannot be more than the reasonable compensation for your services as a minister. The church or organization that employs you must officially designate the payment as a housing allowance before the payment is made. A definite amount must be designated; the amount of the housing allowance cannot be determined at a later date. Other provisions may apply. While not subject to income tax, the housing allowance will included in income for self-employment tax purposes. However, a minister may request exemption from self-employment tax. For additional information on housing allowances, refer to Chapter 6 of Publication 17, Your Federal Income Tax or Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers. For information on earnings for clergy, refer to Tax Topic 417. 
+References: 
+* Publication 17, Your Federal Income Tax 
+* Tax Topic 417, Earnings for clergy 
+For a minister, is the housing allowance included in box 1 with wages?
+No. The church would enter the amount of any parsonage allowance and any utilities allowance in box 14 of Form W-2. If the housing allowance exceeds the minister's qualified expenses, the minister would add the excess to the wage amount and enter the sum on line 7 of Form 1040. 
+References: 
+* Instructions for Form W-2 and W-3 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Tax Topic 417, Earnings for clergy 
+As a minister, what do I do if my household expenses are greater than my housing allowance?
+Usually, the total of household expenses is only used as a limit to the amount of excludable parsonage allowance (for an ordained, commissioned, or licensed minister). A parsonage allowance or the fair rental value of a parsonage provided as pay for a minister's services is excluded from gross income for income tax purposes only, not for the computation of self-employment tax. 
+While the excess cannot be deducted, it is helpful to prepare a worksheet like the one labeled "Attachment 1," shown as part of the comprehensive example at the end of Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers. This worksheet, when completed, reflects the amount of income you've received, your qualified expenses, and your tax-free (excluded) income. If your expenses exceeded the amount of your parsonage allowance, your allowance will be fully excludable for income tax purpose provided the amount would not exceed an amount which represented reasonable pay for your services as a minister. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Tax Topic 417, Earnings for clergy 
+As a minister, what do I do if my household expenses are less than my housing allowance?
+To the extent that your household expenses are less than your parsonage allowance, your allowance is taxable income for income tax purposes. 
+If you receive as a portion of your pay for your services as a minister an amount officially designated as a rental allowance, you can exclude the allowance if the amount is used to provide or rent a home. However, the exclusion is limited to the lesser of the fair market rental value (including furnishings, utilities, garage, etc.), the amount officially designated as a rental or housing allowance (prior to payment), or the actual amount used to provide a home, and cannot exceed what is reasonable pay for your services. 
+If housing is furnished to you by your congregation as pay for your services as a minister, the exclusion cannot be more than what is reasonable pay for your services, and is limited to the fair market rental value ( including furnishings, utilities, garage, etc.) of the home. 
+If you own your home and you receive a housing allowance as part of your pay, for your services as a minister the exclusion cannot be more than the smaller of the following: 
+* the amount actually used to provide a home, 
+* the amount officially designated as a rental or housing allowance, or 
+* the fair market rental value of the home, including furnishings, utilities, garage, etc. 
+* an amount which represents reasonable pay for your services as a minister. 
+The amount of the allowance that cannot be excluded should be entered with your wages on line 7 of Form 1040, U.S. Individual Income Tax Return. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Tax Topic 417, Earnings for clergy 
+Are all ministers treated as self-employed for social security purposes?
+Services that a minister performs in the exercise of his or her ministry are covered under the Self-Employment Contributions Act (SECA). That means they are exempt from Social Security and Medicare withholding, but they are responsible for paying self-employment tax on their net earnings from self-employment. 
+There are some members of religious orders, ministers, and Christian Science practitioners who have requested and been granted exemption from self-employment tax. There are also members of religious orders who have taken a vow of poverty and ministers who are covered solely by the social security laws of another country under a social security agreement between the United States and that other country. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Tax Topic 417, Earnings for clergy 
+I am a licensed minister. What are the procedures to follow to file for Exemption from (Self Employment ) Social Security Taxes?
+The procedures to request an exemption from self-employment tax are listed in Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers. 
+References: 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+* Form 4361 (PDF), Application for Exemption from Self-Employment Tax for Use by Ministers, Members of Religious Orders, and Christian Science Practitioners 
+* Tax Topic 417, Earnings for clergy 
+As a minister, I previously elected, and was approved for, an exemption from social security coverage. Can I revoke this election?
+These exemptions are generally irrevocable. To make this election, you must have completed Form 2031, Revocation of Exemption Tax for Use by Ministers, Members of Religious Orders and Christian Science Practitioners, by April 15, 2002. This period is extended beyond April 15, 2002, if you have a valid extension to file your 2001 Federal Income Tax Return. See the references below for additional information. 
+References: 
+* Form 2031 (PDF), Revocations of Exemption from Self-Employment Tax for Use by Ministers, Members of Religious Orders, and Christian Science Practitioners 
+* Publication 517, Social Security and Other Information for the Members of the Clergy and Religious Workers 
+4.11 Interest/Dividends/Other Types of Income: Savings Bonds
+I cashed some Series E, Series EE and Series I savings bonds, how do I report the interest?
+If your total taxable interest for the year is more than $1500, you report (and separately identify) the interest on Schedule B of Form 1040 or Schedule 1 of Form 1040A. If your total interest is not more than $1500 for the year, report the savings bond interest with your other interest on the "Interest" line of your tax return. If you do not report the increase in the redemption value of the bonds as interest each year, you must report all of the interest in the year they are cashed or otherwise disposed of. 
+References: 
+* Publication 550, Investment Income and Expenses 
+How do I determine how much interest to report on U.S. savings bonds I inherited?
+You may have choices, but it will depend on several factors. Before your question can be answered, you'll need to know: 
+* the date of death of the deceased, 
+* the type of bond you inherited (Series EE, Series E, Series I, or Series HH, or Series H), 
+* whether the deceased was reporting the interest yearly or not, and 
+* whether any of the interest was included on the decedent's final income tax return. 
+Once you have these facts, you can find your answer and any options that may be available by reading the appropriate section of Publication 550, Investment Income, Chapter 1, or call 800-829-1040. 
+References: 
+* Publication 550, Investment Income and Expenses 
+Is deferred interest on a U.S. savings bond (series EE, E, or I) that I inherited taxable to the deceased owner's estate, to the deceased on his or her final tax return, or to me when I cash them?
+The deferred interest is not taxable to the estate. It is going to either be reported on the final return of the decedent or be reported by you, depending on the choice you make. If you are the surviving spouse, the choice is made by the executor or administrator of the decedent's estate as to who is responsible for filing the decedent's final return. 
+You may have choices, but it will depend on several factors. Before your question can be answered, you'll need to know: 
+* the date of death of the deceased, 
+* the type of bond you inherited (Series EE, Series E, Series I, or Series HH, or Series H), 
+* whether the deceased was reporting the interest yearly or not, and 
+* whether any of the interest was included on the decedent's final income tax return. Once you have these facts, you can find your answer and any options that may be available by reading the appropriate section of Publication 550, Investment Income, Chapter 1, or call 1-800-829-1040. 
+References: 
+* Publication 550, Investment Income and Expenses 
+Can interest from some inherited U.S. savings bonds be included on the decedent's final income tax return and interest from other inherited U.S. savings bonds be included as interest to the beneficiary?
+The same method of reporting interest must be used for all saving bonds owned by an individual. If the surviving spouse or executor of the decedent's estate elected to report accrual interest on bonds owned by the decedent and the decedent had not reported interest on saving bonds prior to their disposition or maturity, the surviving spouse executor of the decedent's estate would be required to treat all savings bonds owned by the decedent the same way. If you receive Series EE or Series I bonds from an estate in satisfaction of a specific dollar amount legacy and the decedent was a cash method taxpayer who did not elect to report interest each year, the interest earned after you receive the bonds is your income. The income earned to the date of death plus any further interest earned to the date of distribution of the bonds to you is income to (and reportable by) the estate. You have a choice. You can report the interest on the series EE or series I bonds, which you received in satisfaction of specific legacy, each year or you can report the interest which accrues from the date the bonds were distributed to you until the date you cash the bonds as interest in the taxable year in which you cash the bonds. If you have other series EE or series I bonds, you will be required to treat the interest on the saving bonds received in satisfaction of the specific legacy in the same way that you treat interest on the other savings bonds. 
+You may have other choices, that will depend on several factors. Before your question can be answered, you'll need to know: 
+* the date of death of the deceased, 
+* the type of bond you inherited (Series EE, Series E, Series I, or Series HH, or Series H), 
+* whether the deceased was reporting the interest yearly or not, and 
+* whether any of the interest was included on the decedent's final income tax return. Once you have these facts, you can find your answer and any options that may be available by reading the appropriate section of Publication 550, Investment Income, Chapter 1. If additional clarification is needed, you can call 1-800-829-1040. 
+References: 
+* Publication 559, Survivors, Executors, and Administrators 
+* Publication 550, Investment Income and Expenses 
+4.12 Interest/Dividends/Other Types of Income: Tips
+My Form W-2 includes allocated tips. What are they and how are they taxed?
+Certain employers must allocate tips if the percentage of tips reported by employees falls below a required minimum percentage of gross sales. To "allocate tips" means to assign an additional amount as tips to each employee whose reported tips are below the required percentage. For additional information on how the rules for tip allocation work, refer to Chapter 7 of Publication 17, Your Federal Income Tax. All tips you receive are taxable. If you do not have adequate records for your actual tips, you must include the allocated tips shown on your Form W-2 (PDF) as additional tip income on your return. You must also complete and attach Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tips. For more information on the requirements, refer to Tip Allocation in Publication 531, Reporting Tip Income. Refer to Tax Topic 402, Tips, for other important information.
+References: 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 17, Your Federal Income Tax 
+* Publication 531, Reporting Tip Income 
+* Form W-2 (PDF), Wage and Tax Statement 
+* Tax Topic 402, Tips 
+My employer included allocated tips on my W-2 in box 1. The allocated tips included were higher than I actually received. Do I have to pay taxes on money I never received?
+Allocated tips are reported in box 8 of Form W-2 and should not be included in the amount in box 1. If they have been included in box 1, you need to get a corrected Form W-2 from your employer. 
+By including the tip amount in box 1, the employer has indicated that this is the tip amount you reported monthly and that Social Security tax and Medicare taxes have been withheld (unless an amount indicating otherwise appears in box 12). Your copies of your monthly tip reports and your daily tip log will enable you to document that you reported a different tip amount if the W-2 income continues to be disputed. If you do not receive a corrected W-2, enter the amount of wages and tips you believe to be correct on line 7 of Form 1040. Keep your tip records to support the amount you reported. 
+You normally must report allocated tips (box 8, Form W-2) as income on line 7 of your Form 1040 unless you have a daily tip record documenting that you actually received less tips than the amount allocated to you. If you have adequate documentation of your actual tip amount, include only the amount of tips that were actually received and reported to your employer. This additional amount of tip income, whether it is allocated tips or unreported tips, has not had income tax, social security tax or Medicare taxes withheld. To correct this, the tips should also be entered on Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tips. Enter the tax from Form 4137 on line 56 of Form 1040 and attach Form 4137 to your return. 
+References: 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 531, Reporting Tip Income 
+* Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tips 
+* Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer 
+* Tax Topic 402, Tips 
+Is it legal for my employer to require me to report 10% of my total sales as tips rather than reporting my actual tips?
+No. When you report the actual tips you have received in the form of cash, check, or charge, in a signed and dated report, you are complying with your legal requirement. Your employer cannot legally ask you to do otherwise. Please see Publication 531, Reporting Tip Income, for further information. 
+References: 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 531, Reporting Tip Income 
+* Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tips 
+* Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer 
+* Tax Topic 402, Tips 
+Of my allocated tips, I tip out 15% to the busboy and 5% to the bar. Where do I deduct this on my tax return?
+You cannot deduct tip-outs (the tips you split with other employees) on your tax return. Nor can you deduct them from your allocated tips. The practice of tipping-out is one of the reasons you should keep a detailed daily log of your tips. If you document that you tip out, and you reported all your tips to your employer, then you do not include in your income the allocated tips in box 8 of Form W-2. 
+Tipping-out, by itself, should not cause an allocated tip situation. First, when you report the cash tips you receive, you should report the total tips, then the amount tipped out. Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer, includes Forms 4070 and 4070A, Employee's Report of Tips to Employer that provides the following lines: 
+* Cash tips received, line 1 
+* Credit card tips received, line 2 
+* Tips paid out, line 3 
+* Net tips (lines 1 + 2 - 3), line 4 
+The detail of the information provided should enable your employer to develop a reasonable, fair, and accurate method for determining whether tips need to be allocated, and, if so, how much. Employers who operate large food and beverage establishments are only required to allocate tips if the total tips reported by all the employees who customarily receive tips are less than 8% of gross sales. Thus, when there is a tip-splitting arrangement, it is important that all tips, including those received through tip-splitting, be reported to the employer by each employee who receives $20 or more in a month. 
+For more information, refer to Publication 531, Reporting Tip Income. 
+References: 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 531, Reporting Tip Income 
+* Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer 
+* Tax Topic 402, Tips 
+If the reported tips from employees are more than 8% of sales, must an employer still allocate tips to the employees?
+No. Employers who operate "large food or beverage establishments" must allocate tips among the employees who receive tips only if the reported tips are less than 8% of the gross receipts from sales for that establishment for a given period. Employers can also petition for a lower rate, for additional information refer to Publication 531, Tip Income. 
+References: 
+* Instructions for Form 8027, Employer's Annual Information Return of Tip Income and Allocated Tips 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 531, Reporting Tip Income 
+* Tax Topic 402, Tips 
+Can the 8%, normally used for allocated tips, be a matter agreed upon as reported tips between the employer and employees, so that the employees do not have to report the exact amount of their tips?
+No. The law requires that the employee who receives tips must report the actual tip amount to his or her employer if the amount is $20 or more for that calendar month. The 8% figure is not a simplified reporting method. If an employee is customarily tipped between 10% and 20%, reporting only 8% of his or her sales would not only lead to underreporting of income, but also an underpayment of your of Social Security and Medicare taxes. 
+The employee should keep a tip record of his or her daily tips. A daily tip record can relieve the employee from having to include allocated tips in his or her income by documenting that the amount of tips the employee reported were the actual amount received. 
+For more information on tip reporting for employees, refer to Chapter 7 of Publication 17, Your Federal Income Tax (For Individuals), or Publication 531, Reporting Tip Income. 
+References: 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Publication 531, Reporting Tip Income 
+* Form 4137 (PDF), Social Security and Medicare Tax on Unreported Tips 
+* Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer 
+* Publication 17, Your Federal Income Tax (For Individuals) 
+* Tax Topic 402, Tips 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

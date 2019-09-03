@@ -1,0 +1,927 @@
+
+=====================================================================
+Frequently Asked Questions - 12. Small Business/Self-Employed/Other Business 
+=====================================================================
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+12.1 Small Business/Self-Employed/Other Business : Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation
+Can a husband and wife run a business as a sole proprietor or do they need to be a partnership?
+It is possible for either the husband or the wife to be the owner of the sole proprietor business. The other person could work in the business as an employee. If the spouses intend to carry on the business together and share in the profits and losses, then they have formed a partnership. See Rev. Proc. 2002-69 for Special Rules for Spouses in Community States. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 541, Partnerships 
+Are partners considered employees of a partnership or are they self-employed?
+Partners are considered to be self-employed. If you are a member of a partnership that carries on a trade or business, your distributive share of its income or loss from that trade or business is net earnings from self-employment. Limited partners are subject to self-employment tax only on guaranteed payments, such as salary and professional fees for services rendered. 
+References: 
+* Instructions for Form 1065, U.S. Partnership Return of Income 
+* Publication 533, Self-Employment Tax 
+* Revenue Ruling 69-184 
+* Publication 541 , Partnerships 
+I recently formed a limited liability company (LLC). The LLC has no employees. Do I need a separate Federal Tax ID number for the LLC?
+No, you will not need a separate Federal Tax ID number for the LLC if you are the sole owner of the LLC and the LLC has no, employees. If you are not the sole owner of the LLC or if the LLC has employees, you will need a separate Federal Tax ID number for the LLC. 
+References: 
+* Publication 1635 (PDF), Understanding your EIN - Employer identification Number - IRS 
+* Form SS-4 (PDF), Application for Employer Identification Number 
+* Form 8832 (PDF), Entity Classification Election 
+As a Domestic LLC (limited liability company), what forms do I use to file a return?
+The form you use will depend on what kind of entity your business is for Federal tax purposes. Following are some general guidelines and the forms which go with each entity: 
+* If your business has only one owner, it will automatically be considered to be a sole proprietorship (referred to as an entity to be disregarded as separate from its owner) unless an election is made to be treated as a corporation. A sole proprietorship files Form 1040 (PDF), U.S. Individual Income Tax Return and will include Form 1040, Schedule C (PDF), Profit or Loss from Business, or Form 1040, Schedule C-EZ (PDF) and Form 1040, Schedule SE (PDF) , if net income $400.00. If an election is made to be treated as a corporation, Form 1120 (PDF), U.S. Corporation Income Tax Return, is filed. 
+* If your business has two or more owners, it will automatically be considered to be a partnership unless an election is made to be treated as a corporation. A partnership files Form 1065 (PDF), U.S. Partnership Return of Income. If an election is made to be treated as a corporation, Form 1120 (PDF), U.S. Corporation Income Tax Return, is filed. The election referred to is made by filing Form 8832 (PDF), Entity Classification Election. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 103, Small Business Tax Education Program 
+* Publication 542, Corporations 
+* Publication 541, Partnerships 
+* Form 8832 (PDF), Entity Classification Election 
+For IRS purposes, how do I classify a limited liability company? Is it a sole proprietorship, partnership or a corporation?
+A limited liability company (LLC) is an entity formed under state law by filing articles of organization as an LLC. Unlike a partnership, none of the members of an LLC are personally liable for its debts. An LLC may be classified for Federal income tax purposes as a sole proprietorship (referred to as an entity to be disregarded as separate from its owner), partnership or a corporation. If the LLC has only one owner, it will automatically be considered to be a sole proprietorship (referred to as an entity to be disregarded as separate from its owner), unless an election is made to be treated as a corporation. If the LLC has two or more owners, it will automatically be considered to be a partnership unless an election is made to be treated as a corporation. If the LLC does not elect its classification, a default classification of partnership (multi-member LLC) or sole proprietorship (single member LLC) will apply. The election referred to is made using the Form 8832 (PDF), Entity Classification ElectionIf a taxpayer does not file Form 8832 (PDF) , a default classification will apply. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 103, Small Business Tax Education Program 
+* Publication 542, Corporations 
+* Publication 541, Partnerships 
+* Form 8832 (PDF), Entity Classification Election 
+Must a partnership or corporation file a tax form even though it had no income for the year?
+A domestic partnership must file an income tax form unless it neither receives gross income nor pays or incurs any amount treated as a deduction or credit for federal tax purposes. 
+A domestic corporation must file an income tax form whether it has taxable income or not. 
+References: 
+* Publication 541, Partnerships 
+* Instructions for Form 1065, U.S. Partnership Return of Income 
+* Publication 542, Corporations 
+* Instructions for Form 1120, U.S. Corporation Income Tax Return 
+How do I set up a company as a subchapter S corporation?
+Once you have established your corporation according to your state's requirements, you elect S corporation status for federal tax purposes by filing Form 2553 (PDF), Election by a Small Business Corporation. Several requirements must be met before you can elect S corporation status. Instructions for Form 2553, Election by a Small Business Corporation, provides the information on these requirements. 
+References: 
+* Form 2553 (PDF), Election by a Small Business Corporation 
+* Instructions for Form 2553, Election by a Small Business Corporation 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+I have a C corporation. What is the procedure to change it to an S corporation?
+Once you have established your corporation according to your state's requirement, to convert from a C corporation to an S corporation, you must meet the same requirements as a newly formed corporation electing S corporation status. You must meet the requirements of a "small business corporation" which are, in general: 
+* Be a domestic corporation organized under the law of any state or U.S. territory; 
+* Have only individuals, estates or certain trust as shareholders (no partnerships or corporations as shareholders; 
+* Have only citizens or residents of the United States as shareholders; 
+* Have only one class of stock (differences in voting rights are OK) 
+The S corporation can have no more than 75 shareholders and must make the election to be an S corporation on Form 2553 (PDF), Election by a Small Business Corporation, before the 16th day of the third month following the close of the C corporation's tax year if the election is to be effective for the current tax year. The C corporation must qualify as an eligible corporation during those 2 1/2 months and all shareholders during those 2 1/2 months must consent, even if they do not own stock at the time of the election. If the election is filed after the 15th day of the third month of the tax year, the election will be in effect for the next tax year and all shareholders at the time of the election must consent. For late elections that qualify for treatment as timely filed see Rev. Prov. 98-55. S-Corporation file Form 1120S for the tax year the election takes effect. 
+References: 
+* Form 2553 (PDF), Election by a Small Business Corporation 
+* Instructions for Form 2553, Election by a Small Business Corporation 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+What is the procedure for revoking subchapter S election for a corporation?
+Voluntary termination of an S election is made by filing a statement with the Service Center where the original election was properly filed. A revocation may be made only with the consent of shareholders who, at the time the revocation is made, hold more than one-half of the number of issued and outstanding shares of stock (including nonvoting stock) of the corporation. There is specific information that must be included in the statement and this information is outlined in Regulations section 1.1362-6(a)(3) and in Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation. 
+The revocation may state an effective date as long as it is on or after the date the revocation is filed. If no date is specified and the revocation is filed before the 15th day of the third month of the tax year, the revocation will be effective for the current tax year. If the revocation is filed after the 15th day of the third month of the tax year, the revocation will be effective for the next tax year. 
+You may want to consult the IRS Customer Service phone line at 1-800-829-4933 or you may wish to consult with a tax professional to be certain you have all the necessary information to file a proper revocation. 
+The S corporation election terminates automatically under certain conditions. Refer to Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation. 
+References: 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+* Treas. Reg. section 1.1362-6(a)(3) 
+* Treas. Reg. section 1.1362-2(a) 
+Can you give me plain English definitions for the following: (1) a closely held corporation, (2) a personal holding corporation, and (3) a personal service corporation?
+Generally, a closely held corporation is a corporation that, in the last half of the tax year, has more than 50% of the value of its outstanding stock owned (directly or indirectly) by 5 or fewer individuals. The definitions for the terms "directly or indirectly" and "individual" are in Publication 542, Corporations. Generally, closely held corporations are subject to additional limitations in the tax treatment of items such as passive activity losses, at-risk rules, and compensation paid to a corporate officers. 
+A personal holding company is defined in Internal Revenue Code section 542. Basically, a corporation is a personal holding company if both of the following requirements are met: 
+* Personal Holding Company Income Test. At least 60% of the corporation's adjusted ordinary gross income for the tax year is from dividends, interest, rent, and royalties. 
+* Stock Ownership Requirement. At any time during the last half of the tax year, more than 50% in value of the corporation's outstanding stock is owned, directly or indirectly, by 5 or fewer individuals. Refer to the Instructions for Form 1120, Schedule PH for more information and a list of exceptions. 
+A personal service corporation is a corporation where the main work of the company is to perform services in the fields of health, law, engineering, architecture, accounting, actuarial science, the performing arts, or consulting. Examples may be law firms and medical clinics. Also, substantially all of the stock is owned by employees, retired employees, or their estates. 
+References: 
+* Publication 542, Corporations 
+* Instructions for Form 1120/1120A 
+* Instructions for Form 1120, Schedule PH 
+12.2 Small Business/Self-Employed/Other Business : Form 1099&#8211;MISC & Independent Contractors
+I received a Form 1099-MISC from a company that paid all workers this way. Will my income go on line 21 of Form 1040 as Other Income or on Schedule C?
+Do not report the income reported on Form 1099-MISC, box 7 on line 21 if the income is self employment income. If your income was reported to you on a Form 1099-MISC, in box 7, the company has treated you as an independent contractor and your income is treated as self-employment income. You will need to report that income, and any related expenses, on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax to compute and report your social security and Medicare tax. You may also need to make quarterly estimated tax payments. You would use Form 1040-ES (PDF), Estimated Tax for Individuals, for this. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 355, Estimated Tax 
+What is the difference between a Form W-2 and a Form 1099-MISC?
+Both of these forms are called information returns. The Form W-2 is used by employers to report wages, tips and other compensation paid to an employee. The form also reports the employee's income tax and Social Security taxes withheld and any advanced earned income credit payments. The Form W-2 is provided by the employer to the employee and the Social Security Administration. A Form 1099-MISC is used to report payments made in the course of a trade or business to another person or business who is not an employee. The form is required among other things, when payments of $10 or more in gross royalties or $600 or more in rents or services are paid. The form is provided by the payor to the IRS and the person or business that received the payment. 
+References: 
+* Tax Topic 752, Form W-2 - where, when, and how to file 
+* Instructions for Form W-2 and W-3 
+* Instructions for Form 1099-MISC 
+How do you determine if a person is an employee or an independent contractor?
+The distinction between whether a worker is an employee or an independent contractor has important tax consequences. Worker classification affects how you pay your Federal income tax, social security and Medicare taxes, and how you file your tax return. The classification also affects your eligibility for employee benefits. Those who should be classified as employees, but aren't, may lose out on workers' compensation, unemployment benefits, and, in many cases, group insurance (including life and health), and retirement benefits. 
+Certain workers are considered employees by statute for purposes of the Federal Insurance Contributions Act (FICA), the Federal Unemployment Tax Act (FUTA), or for federal income tax withholding from wages. Examples of workers considered employees by statute include corporate officers, certain agent, or commision-drivers, full-time life insurance sales persons, certain home workers, certain traveling of city sales persons. 
+Where there is no controlling statute, a worker's status is determined by applying the common law test, which applies for purposes of FICA, FUTA, Federal income tax withholding, and the Railroad Retirement Tax Act. A worker's status under the common law test is determined by applying relevant facts that fall into three main categories: behavioral control, financial control, and the type of relationship itself. In each case, it is very important to consider all the facts - no single fact provides the answer. 
+BEHAVIORAL CONTROL: These facts show whether there is a right to direct or control how the worker does the work. A worker is an employee when the business has the right to direct and control the worker. The business does not have to actually direct or control the way the work is done -- as long as the employer has the right to direct and control the work. For example: 
+* Instructions -- if you receive extensive instructions on how work is to be done, this suggests that you may be an employee. Instructions can cover a wide range of topics, for example: how, when, or where to do the work, what tools or equipment to use, what assistants to hire to help with the work, and where to purchase supplies and services. If you receive less extensive instructions about what should be done, but not how it should be done, you may be an independent contractor. For instance, instructions about time and place may be less important than directions on how the work is performed. 
+* Training -- if the business provides you with training about required procedures and methods, this suggests that the business wants the work done in a certain way, and you may be an employee. 
+FINANCIAL CONTROL: These facts show whether there is a right to direct or control the business part of the work. For example: 
+* Significant Investment -- if you have a significant investment in your work, you may be an independent contractor. While there is no precise dollar test, the investment must have substance. However, a significant investment is not necessary to be an independent contractor. 
+* Expenses -- if you are not reimbursed for some or all business expenses, then you may be an independent contractor, especially if your unreimbursed business expenses are high. 
+* Opportunity for Profit or Loss -- if you can realize a profit or incur a loss, this suggests that you are in business for yourself and that you may be an independent contractor. 
+RELATIONSHIP OF THE PARTIES: These are facts that illustrate how the business and the worker perceive their relationship. For example: 
+* Employee Benefits -- if you receive benefits, this is an indication that you are an employee. If you do not receive benefits, however, you could be either an employee or an independent contractor. 
+* Written Contracts -- a written contract may show what both you and the business intend. This may be very significant if it is difficult, if not impossible, to determine status based on other facts. 
+If you are not sure whether you are an independent contractor or an employee, complete Form SS-8 (PDF), Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding. Publication 1779 (PDF), Employee Independent Contractor Brochure, andPublication 15-A (PDF) , Employer's Supplemental Tax Guide, provide additional information on independent contractor or employee status. 
+For information on the tax responsibilities of self-employed persons, refer to Publication 505, Tax Withholding and Estimated Tax, and Publication 533, Self-Employment Tax. 
+References: 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self-Employment Tax 
+* Publication 1779, Employee Independent Contractor Brochure 
+* Form SS-8 (PDF), Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+* Tax Topic 762, Independent contractor vs. employee 
+I work as an independent contractor, but I do not own a business and do not perform services in the name of a business. Can I file my tax return without filing Schedule C or Schedule SE?
+The income you earn as an independent contractor generally will be considered income from self-employment and you will need to file Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax, if you had net earnings from self-employment of $400 or more. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Information for Business 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Publication 1779 (PDF), Employee Independent Contract Brochure 
+* Publication 533, Self Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 334, Tax Guide for Small Business 
+I made several thousand dollars moonlighting as an independent contractor. What taxes do I need to pay?
+You are responsible for Federal income tax and self-employment taxes on your income as an independent contractor. Self-employment taxes are your contributions to social security and Medicare. Your self-employment income and expenses will be reported on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will use Form 1040, Schedule SE (PDF), Self-Employment Tax, to compute and report your social security and Medicare tax. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Publication 334, Tax Guide for Small Business 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Tax Topic 355, Estimated Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self Employment Tax 
+In addition to my regular job, I had a part-time business fixing cars. Do I have to report the money I made fixing cars?
+Yes. This is self-employment income. You must report it on Form 1040 Schedule C (PDF), Profit or Loss from Business or Form 1040, Form 1040, Schedule C-EZ (PDF) Net Profit from Business. You may also have to file Form 1040 Schedule SE (PDF) and pay Self-Employment Tax. For more information, refer to Tax Topic 554, or Publication 533, Self-Employment Tax. Since there is no withholding on your Self-Employment Income, you may need to make quarterly Estimated Tax Payments. This is done using a Form 1040-ES (PDF) Estimated Tax for Individuals. 
+References: 
+* Publication 533, Self-Employment Tax 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Topic 554, Self-Employment 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+I did some carpentry work in exchange for dental services. Do I report this on my federal tax return?
+When you exchange goods for services, it is called bartering. The goods or services exchanged have a fair market value that results in gross income that should be included in income by both parties. If you are a member of a barter club and you receive credits for goods or services rendered to other members, the value of these credits are included in income. For information reporting, barter income is reported on Form 1099-B (PDF), Proceeds From Barter Exchange Transactions. 
+For more detailed information on bartering refer to Tax Topic 420 , Bartering Income, and Publication 525, Taxable and Nontaxable Income. 
+References: 
+* Tax Topic 420, Bartering Income 
+* Form 1099-B (PDF) , Proceeds From Broker and Barter Exchange Transactions 
+* Publication 525 , Taxable and Nontaxable Income 
+I made some money repairing radios and television sets last year. How do I report this income?
+A person with income from Self-Employment files Form 1040, Schedule C (PDF), Profit or Loss from Business, or in some cases, files Form 1040, Schedule C-EZ (PDF), Net Profit from Business to report the profit or loss from the business, and files Form 1040, Schedule SE (PDF), Self-Employment Tax to figure Social Security and Medicare Tax. Refer to Tax Topic 407, Business Income, Publication 533, Self-Employment Tax, and Publication 334, Tax Guide for Small Business, for additional information. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals.
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 533, Self-Employment Tax 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business (Sole Proprietorship) 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Topic 407, Business Income 
+* Form 1040-ES (PDF) Estimated Tax for Individuals 
+What forms and schedules should be used to report income earned as an independent contractor?
+Independent contractor report their income on Form 1040, Schedule C (PDF), Profit or Loss from Business, or they may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. Independent contractors should also be aware of Form 1040, Schedule SE (PDF), Self-Employment Tax. This form is used to figure social security and Medicare tax which is based on self-employment income. Also, see Form 1040-ES (PDF) Estimated Tax For Individuals, as you may need to make quarterly estimated tax payments. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Instructions for Form 1040, Schedule SE 
+* Publication 533, Self-Employment Tax 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 554, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Tax information for Business 
+What, if any, quarterly forms must I file to report income as an independent contractor?
+There are no quarterly income reporting requirements for Federal income tax purposes. However, because you will have no Federal Income Tax withheld from your income, you may need to make quarterly estimated tax payments. You use Form 1040-ES (PDF), Estimated Tax for Individuals, for this purpose. 
+You may be subject to a penalty for underpaying your estimated tax installments. For more information refer to Publication 505, Tax Withholding and Estimated Tax. You need to be aware that there may also be state and local quarterly reporting requirements. You can start looking for information at How to Contact Us. You may want to go to your state's individual web site for additional information. To access the state you need to direct your question to, please go to our Alphabetical State Index. 
+References: 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Form 2210, (PDF) Underpayment of Estimated Tax by Individuals, Estates & Trusts 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self-Employment Tax 
+* Tax Topic 355, Estimated Tax 
+* Publication 334, Tax Guide for Small Business 
+* Tax Information for Business 
+* Alphabetical State Index 
+What do I do when I cannot get the social security number or address of subcontractors for their 1099 forms?
+If the person fails to provide you with their social security number, you are required to backup withhold on the payments made to that person. The current backup withholding rate is 28%. You may also be subject to a penalty of up to $50 per information return that is filed without the necessary information. That penalty may be waived for reasonable cause, generally, if you requested the subcontractor's social security number and the contractor failed to provide it to you. You will have reasonable cause for not including the SSN on your 1099. 
+In addition, the $50 penalty does not apply to any failure that does not hinder the IRS from processing the return, from correlating the information required to be shown on the return with the information shown on the payee's tax return, or from otherwise putting the return to its intended use. 
+References: 
+* Form 1099-MISC (PDF) & Instructions 
+* Publication 1679 (PDF), A Guide to Backup Withholding 
+* Publication 1281 (PDF), Backup Withholding on Missing and Incorrect Name/TINs. 
+* Publication 1586 (PDF), Reasonable Cause Regulations & Requirements for Missing & Incorrect TINs 
+* Treas. Reg. section 301.6721-1 (c) (1); 301.6724-1 
+12.3 Small Business/Self-Employed/Other Business : Form W&#8211;2, FICA, Medicare, Tips, Employee Benefits
+If my part-time employees receive less than $20 a month in tips, are they required to report them to me?
+Employees who receive less than $20 per month in tips are not required to report the tips to the employer, but they must include them in gross income on their tax return. For additional information on tip withholding and reporting requirements, refer to Tax Topic 761 , Tips - withholding and reporting and/or Publication 15, Circular E, Employer's Tax Guide. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Tax Topic 761, Tips - withholding and reporting 
+As an employer, do I have any liability if my employees receive tips but don't report them to me?
+Employees who customarily receive tips are required to report their cash tips to their employers at least monthly, if they receive $20 or more in the month. Cash tips are tips received directly in cash or by check, and charged tips. You have a liability to withhold and pay Social Security and Medicare tax on your employees' reported tips, to the extent that wages or other employee funds are available. If the employee does not report tips to you, it places you at risk of possible assessment of the employer's share of the Social Security and Medicare taxes on the unreported tips. If you are a large food or beverage establishment (more than 10 employees on a typical day and food or beverages consumed on the premises), you are required to allocate tips if the total tips reported to you are less than 8% of gross sales. Report the allocated amount on the employee's w-2 at the end of the year. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 531, Reporting Tip Income 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+If the reported tips from employees are more than 8% of sales, must an employer still allocate tips to the employees?
+No. Tip allocation is required when the amount of tips reported by employees of a large food or beverage establishment is less than 8% (or an approved lower rate) of the gross receipts, other than nonallocable receipts, for the given period. If the employees are reporting more than the 8%, there would be no allocated tip amount. However, the employer must still file Form 8027 (PDF), Employer's Annual Information Return of Tip Income and Allocated Tips. 
+References: 
+* Form 8027 (PDF), Employer's Annual Information Return of Tip Income and Allocated Tips 
+* Instructions for Form 8027, Employer's Annual Information Return of Tip Income and Allocated Tips 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+* Tax Topic 402, Tips 
+Can the 8% - normally used for allocated tips - be a matter agreed upon as reported tips between the employer and employees, so that the employees do not have to report the exact amount of their tips?
+No. The law requires that the employee who receives tips must report the actual tip amount to his or her employer if the amount is $20 or more for that calendar month. The 8% figure is not a simplified reporting method. 
+The employee should keep a record of his or her daily tips. A daily tip record can relieve the employee from having to include allocated tips in income by documenting that the amount of tips the employee reported was the actual amount received. 
+References: 
+* Instructions for Form 8027, Employer's Annual Information Return of Tip Income and Allocated Tips 
+* Publication 3148 (PDF), Tips on Tips, A Guide to Tip Income Reporting (Employees) 
+* Publication 3144 (PDF), Tips on Tips, A Guide to Tip Income Reporting (Employers) 
+* Publication 1244 (PDF), Employee's Daily Record of Tips and Report to Employer 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+Can an employer add the reported tips to just one payroll a month, even a special payment separate from the regular wage payment, and pay only the wage amount on the other payroll dates?
+An employer can report an employee's tip income and withhold taxes once a month or more often than once a month. The two items of practical consideration, besides the sophistication of your payroll system, are the employees' tip reports and the charged tips. 
+The employees are required by law to report their cash tips only once a month, by the 10th day of the month following the month for which they are reporting. The employer may require the employees to report their tips more often. This would facilitate withholding on tips and the reporting of the tips as income on the employees' pay stubs. 
+When an employer makes the charged tips available to the employee may depend on the employer's policy. The employee monthly tip report should include information about charged tips that the employer has paid to the employee during the reporting period, as well as tips paid directly to the employee. 
+It would be most practical for withholding purposes for the employer to report the tip income for each employee when all the tip information is available and the payments for charged items are available. If, when the employee is paid, there is not enough money available to withhold all taxes owed on wages and tips, the employer can withhold the remaining amount from the next paycheck or the employee can give money to the employer to cover the withholding. 
+For more information, refer to Publication 15, Circular E, Employer's Tax Guide and Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 1872 (PDF), Tips on Tips - A Guide to Tip Income Reporting for Employees in the Food and Beverage Industry 
+Does a household employer have to pay social security and Medicare for all household employees if only one employee makes more than $1,400 in the year?
+No. The employer only has to pay social security and Medicare tax for the employee(s) who receive $1,400 or more in wages for the year. If the amount paid to any employee in a calendar year is less than $1,400, no social security or Medicare tax is owed for that employee. If social security and Medicare tax must be paid, the employee's portion of the social security and Medicare tax should be withheld also, unless the employer chooses to pay both the employer's share and the employee's share. 
+References: 
+* Publication 926, Household Employer's Tax Guide; Do You Need to Pay Employment Taxes? 
+* Tax Topic 756, Employment Taxes for Household Employees 
+I started a new business. I need information on how to file Forms W-2?
+First of all, Form W-2 (PDF) should be furnished to your employees by January 31. It is also your responsibility as an employer to file Forms W-2 with the Social Security Administration (SSA) for your employees, showing wages paid and taxes withheld for the year. You must send Copy A to the SSA with Form W-3 (PDF) by February 28. If you file electronically (not by magnetic media) the due date is March 31. Form W-3 shows the total of all W-2s being sent. The address is listed in the Instructions for Form W-2 and W-3. Refer to Tax Topic 752, Form W-2 - Where, When and How to File, or Publication 15, Circular E, Employer's Tax Guide. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-2 (PDF), Wage and Tax Statement 
+* Instructions for Form W-2 and W-3 
+* Form W-3 (PDF), Transmittal of Wage and Tax Statements 
+* Tax Topic 752, Form W-2 - where, when. and how to file 
+I sold my business and the new owners kept the employees. What is my requirement as the former owner for filing Forms W-2 for the employees?
+If the new owner acquired substantially all of your business property and retained your employees, you may need to file a final Form 941 (PDF), Employers Quarterly Federal Tax Return . The final Form 941 generally must be filed on or before the last day of the first calendar month following the quarter for which the return is made. You will need to furnish Forms W-2 to your employees by the time you are required to file the final Form 941. You will also need to file Forms W-2 and W-3 on or before the last day of the second calendar month following the period for which the final Form 941 is filed. 
+If you and the new owner agree, you can be relieved of furnishing Forms W-2 to the employees and filing Forms W-2 and W-3 with the Social Security Administration. Such an agreement would be allowed if the employees will be paid wages by the new owner in the same calendar year and the Forms W-2 furnished to these employees will contain the required information , i.e. wages paid and taxes withheld, from both employers. The new employer will furnish Forms W-2 to the employees and will also file the required Forms W-2 and W-3 with the Social Security Administration. These actions will follow the normal end-of-year time lines. You will remain responsible for the Form W-2 and W-3 reporting obligations for the employees who are not employed by the new owner. 
+Please refer to Revenue Procedure 96-60 for a full discussion of this situation. 
+References: 
+* Form 941 (PDF), Employers Quarterly Federal Tax Return 
+* Instructions for Form W-2 and W-3 
+* Publication 15, Circular E, Employer's Tax Guide 
+* IRS Revenue Procedure 96-60, 1996-2 C.B. 399, 1`996 -53, I.R.B. 24 
+* Tax Topic 752, Form W-2 - Where, When, and How to File 
+Is it possible to get an extension for sending out W-2 forms? I was told the deadline is February 28th.
+There are two deadlines for sending our Form W-2. You must furnish Form W-2 to your employees by January 31. To get an extension of the time to furnish your employees with Form W-2 you must send a letter on or before January 31st requesting the extension. Refer to the Instructions for Form W-2 and W-3 for the information that must be in the letter and mailing instructions. 
+The deadline for sending Forms W-2 with a Form W-3 to the Social Security Administration is the last day of February. If you terminate your business the date may be different. To get an extension of time to mail the Forms W-2 to the Social Security Administration file Form 8809 (PDF), Request for Extension of Time to File Information Returns, before the due date of the Forms W-2. If approved, you will have an additional 30 days to file. 
+References: 
+* Instructions for Form W-2 and W-3 
+* Form 8809 (PDF), Request for Extension of Time to File Information Returns 
+What publications are available that would explain the taxation policy for Cafeteria Plans and Health Care Flexible Spending Accounts ?
+Information on Health Care Flexible Spending Accounts and Cafeteria Plans can be found in the following sources listed below: 
+References: 
+* Publication 15-B (PDF) , Employer's Tax 'Guide to Fringe Benefits 
+* How does a cafeteria plan work? 
+* Questions & Answers regarding Cafeteria Plans 
+* Health Care Flexible Spending Accounts 
+* Questions & Answers on HSA 
+When an employer provides day care assistance, should the employer's contribution be reported in box 10 of Form W-2?
+Yes. An employer reports dependent care assistance payments in box 10 on Form W-2.
+References: 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Publication 15-B (PDF) , Employer's Tax Guide to Fringe Benefits 
+* Publication 535, Business Expenses 
+* Form W-2 (PDF), Wage and Tax Statement 
+Is an employer required to provide the IRS with a signed receipt from a dependent care provider in order to release funds that are withheld from an employee's pretax salary and deposited to a dependent care flexible spending account?
+The Internal Revenue Service does not specify a method for the documentation of reimbursable expenditures. Good accounting and business practices should dictate the type and sufficiency of documentation provided by employees who claim reimbursable expenses. Please review the plan document to determine if it specifies the type(s) of documentation acceptable. 
+References: 
+* Publication 583, Starting a Business and Keeping Records 
+* Publication 15-B (PDF), Employer's Tax Guide to Fringe Benefits 
+* Tax Topic 305, Recordkeeping 
+Can an employer pay for health care costs of an employee as a fringe benefit?
+Yes, generally an employer may pay for health care costs of an employee as a nontaxable fringe benefit. Refer to Publication 535, Business Expenses , for a complete discussion of employee benefit programs. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 15-B (PDF) , Employer's Tax Guide to Fringe Benefits 
+If our company pays for the employee's health care costs directly to the medical facility, as opposed to a reimbursement, is the employee benefit reported on Form W-2 and subject to social security withholding?
+Health care costs paid directly to the medical facility is normally a nontaxable employee benefit provided that it is paid as part of an accident and health plan. Refer to Publication 535, Business Expenses, for more information on employee benefit programs. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 15-B (PDF) , Employer's Tax Guide to Fringe Benefits 
+If an employer pays health insurance benefits for the employee and dependents, are both the employee's and the dependent's benefits income to the employee?
+If an employer provides health insurance for the employees, the benefit provided is generally not taxable to the employee. An employer can generally deduct the cost of a group health plan on the "employee benefit programs" line of their business income tax return. 
+Group health plan defined: This (including a self-insured plan) is a plan that provides medical care to your employees, former employees, and their spouses and dependents. The plan can provide care directly or through insurance, reimbursement, or otherwise. The employer can exclude the cost of providing group health insurance to an employee from his or her wages. 
+References: 
+* Publication 525, Taxable and Nontaxable Income 
+* Publication 535, Business Expenses 
+* Publication 15-B (PDF) , Employer's Tax Guide to Fringe Benefits 
+If we give an employee a monthly car allowance, must it be included in the employee's taxable wages on their Form W-2?
+Generally yes, unless paid under an accountable plan.
+To be an accountable plan, your reimbursement or expense allowance arrangement must meet the qualifying requirements, explained later. A reimbursement or expense allowance arrangement is a system by which you substantiate and pay the advances, reimbursements, and charges for your employees' business expenses. If you make a single payment to your employees and it includes both wages and an expense reimbursement, you must specify the amount of the reimbursement. 
+Qualifying requirements. To qualify as an accountable plan, your reimbursement or expense allowance arrangement must require your employees to meet all of the following rules: 
+* They must have paid or incurred deductible expenses while performing services as your employees, 
+* They must adequately account to you for these expenses within a reasonable period of time, and 
+* They must return any excess reimbursement or allowance within a reasonable period of time. Please refer to Publication 535, Business Expenses, for additional information about accountable and nonaccountable plans. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 463 , Travel, Entertainment, Gift and Car Expense 
+If our business pays for an employee's airfare on a business trip, but the employee does not submit an expense form relating to the travel, do we need to issue a Form 1099-MISC?
+No, you should report the amounts as wages on Form W-2. Generally, Form 1099-MISC is not issued to employees. Payments to your employee for travel and other necessary expenses of your business under a nonaccountable plan are wages and subject to income tax withholding and payment of social security, Medicare, and FUTA taxes. Your payments are treated as paid under a nonaccountable plan if: 
+* Your employee is not required to or does not substantiate timely those expenses to you with receipts or other documentation, or 
+* You advance an amount to your employee for business expenses and your employee is not required to or does not return timely any amount he or she does not use for business expenses. The amount of the airfare should be included on the employee's Form W-2. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF) , Employer's Supplemental Tax Guide 
+How should a tuition reimbursement program for employees be reported as income to an employee? Should the employee be taxed at the 27%, 25% rate for payments made after May 28, 2003, rate for supplemental payments on the next pay check after successful completion of the course or is this something that we just include on the W-2?
+If the tuition reimbursements do not qualify as a tax free fringe benefit under the rules for Educational Assistance Programs or as a Working Condition Fringe Benefit, the tuition reimbursement is wages for Federal Income Tax, Social Security, and Medicare Tax purposes. 
+For employment tax and withholding purposes, you can treat fringe benefits as paid on a pay period, a quarter, a semiannual, annual, or other basis as long as the benefits are treated as paid no less frequently than annually. You do not have to choose the same period for all employees. 
+You can change the period as often as you like as long as you treat all the benefits provided in a calendar year as paid no later than December 31. You can also treat the value of a single fringe benefit as paid on one or more dates in the same calendar year, even if the employee receives the entire benefit at one time. 
+You can add the value of fringe benefits to regular wages for a payroll period and figure income tax withholding on the total, or you can withhold Federal income tax on the value of fringe benefits at the flat 27% (25% rate for payments made after May 28, 2003) applicable to supplemental wages. You must withhold the applicable income, social security, and Medicare taxes on the date or dates you chose to treat the benefits as paid. Deposit the amounts withheld as discussed in section 11 of Publication 15, Circular E, Employer's Tax Guide . 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF) , Employer's Supplemental Tax Guide 
+* Publication 15-T (PDF) , New Withholding Tables (For wages paid through December 2004) 
+How do I figure the amount of advance earned income credit to include in an employee's pay?
+To figure the amount of the advance EIC payment to include with the employee's pay, you must consider: 
+* Wages, including reported tips, for the same period. Generally, figure advance EIC payments using the amount of wages subject to income tax withholding. If an employee's wages are not subject to income tax withholding, use the amount of wages subject to withholding for social security and Medicare taxes. 
+* Whether the employee is married or single. 
+* Whether a married employee's spouse has a Form W-5 in effect with an employer. 
+To figure the advance EIC payment, you may use either the Wage Bracket Method or the Percentage Method explained in Publication 15, Circular E, Employer's Tax Guide . You may use other methods for figuring advance EIC payments if the amount of the payment is about the same as it would be using tables in Publication 15. See the tolerance allowed in the chart in section 9 of Publication 15-A (PDF) , Supplemental Employer's Tax Guide. See section 10 in Publication 15 for an explanation of the advance payment of the EIC. 
+Add the advance earned income credit payments to the employee's net pay for the pay period. Since this amount isn't wages, you do not withhold any income, social security, or Medicare taxes from the payment. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF) , Employer's Supplemental Tax Guide 
+* Form W-5 (PDF), Advance Earned Income Credit 
+* Tax Topic 754, Advance earned income credit 
+12.4 Small Business/Self-Employed/Other Business : Form W&#8211;4 & Wage Withholding
+Can an employer take out taxes if a Form W-4 was never filed?
+Yes, the employer is required to withhold income taxes. Publication 15, Circular E, Employer's Tax Guide, states that if an employee does not give you a completed Form W-4 (PDF), Employee's Withholding Allowance Certificate, withhold tax as if he or she is single, with no withholding allowances. 
+The employer is also required to withhold social security and Medicare taxes.
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Tax Topic 753, Form W-4 - employee's withholding allowance certificate 
+If an employee claims more than 10 exemptions on their Form W-4, does the employer have to report this to the IRS?
+Yes, if you receive a Form W-4 (PDF), Employee's Withholding Allowance Certificate, on which the employee claims more than 10 withholding allowances, you must send a copy of that Form W-4 to the IRS service center with your next employment tax return. 
+Also, if an employee claims exemption from withholding and his or her wages would normally be expected to exceed $200 or more a week, you must also send a copy of that Form W-4 to the service center with your next employment tax return. 
+If you want to submit the Form W-4 earlier, you can send a copy of the Form W-4 to the IRS with a cover letter, including your name, address, employer identification number, and the number of forms included. The service center will send you further instructions if it determines that you should not honor the Form W-4. 
+References: 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Tax Topic 753, Form W-4 - employee's withholding allowance certificate 
+One of my employees gave me a W-4 form claiming exemption from withholding. Do I have to send the W-4 to the IRS?
+If you receive a Form W-4 (PDF) on which an employee claims: 
+* exemption from withholding and his or her wages would normally be expected to exceed $200 or more a week, or 
+* more than 10 withholding allowances, you must send a copy of that W-4 to the IRS service center with your next Form 941 (PDF) return or with a cover letter that includes yours name, address, EIN, and number of forms included. The IRS will send you further instructions if it is determined that you should not honor the Form W-4. For additional information on Form W-4, refer to Tax Topic 753 and/or Publication 15, Circular E, Employer's Tax Guide.
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Form 941 (PDF), Employer's Quarterly Federal Tax Return 
+* Tax Topic 753, Form W-4 - employee's withholding allowance certificate 
+If we received a Form W-4 with a blank in the number of withholding exemptions. How should we handle this?
+This should be treated as claiming zero withholding allowances. If the employee has completed the remainder of and signed the Form W-4 (PDF), Employee's Withholding Allowance Certificate, and indicated that he or she is single or married, withhold from the single or married table as indicated on the employee's form with zero withholding allowances. If the employee has not indicated that he or she is single or married, or if the employee has not signed the Form W-4 and otherwise completed the Form W-4, withhold as if he or she is single with zero withholding allowances. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Tax Topic 753, Form W-4 - employee's withholding allowance certificate 
+I hired a babysitter to care for my children in my home. Do I need to withhold taxes on her wages?
+Household employees include housekeepers, maids, baby-sitters, gardeners, and others who work in or around your private residence as your employees. If you pay a household employee cash wages of $1,400 or more in 2003, you generally must withhold social security and Medicare taxes from all cash wages you pay to that employee. For specific information, refer to Tax Topic 756, Employment Taxes for Household Employees , or Publication 926, Household Employer's Tax Guide . 
+References: 
+* Publication 926, Household Employer's Tax Guide (For Wages Paid in 2002) 
+* Tax Topic 756, Employment taxes for household employees 
+12.5 Small Business/Self-Employed/Other Business : Form SS&#8211;4 & Employer Identification Number (EIN)
+Is an employer ID number the same as a tax ID number?
+Yes, an employer identification number, or EIN, is also known as a taxpayer identification number, or TIN. A sole proprietorship that has no employees and files no excise or pension tax returns is the only business that does not need an employer identification number. In this instance, the sole proprietor uses his or her social security number as the taxpayer identification number. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+As a sole proprietor, do I need an employer identification number (EIN)?
+As a sole proprietor, you would need to obtain an identification number if either of the following apply: (1) you pay wages to one or more employees, or (2) you file pension or excise tax returns. If these conditions do not apply, your social security number is your taxpayer identification number. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+Is an employer identification number (EIN) required if the husband and wife are the only persons working in the business?
+If both of you carry on a business together and share in the profits and losses, you are a partnership and each would receive a Form 1065, Schedule K-1 (PDF) that is important for determining your self-employment income. If you work for your spouse, you should receive a Form W-2, showing taxes withheld and the owner spouse would claim the wages paid to you as a deduction. Both a partnership and a sole proprietor with an employee must have an EIN. 
+References: 
+* Publication 541, Partnerships 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+Does a small company need a tax ID number?
+A sole proprietor who does not have any employees and who does not file any excise or pension plan tax returns is the only business person who does not need an employer identification number. In this instance, the sole proprietor uses his or her social security number as the taxpayer identification number. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+* Tax Information for Business. 
+How do I apply for an employer identification number (EIN)?
+By Telephone or Mail To obtain an EIN, you must complete Form SS-4 (PDF), Application for Employer Identification Number. After you have completed the Form SS-4, you can get the EIN by mail, or by phone. The instructions for Form SS-4 provide both an IRS service center address and a phone number to apply under the Tele-TIN program. 
+Online You may also apply online. Once an EIN has been successfully completed and submitted, an EIN will be issued. Use the attached linked for processing instruction Apply Online. 
+Through Your State OfficeSome states participate in a program called the Fedstate Federal Employer Identification Number (EIN) project. This allows you to apply directly from your state. Visit the attached link to determine if your state take part in this program Fedstate Program. 
+For more information, refer to Tax Topic 755, Employer Identification Number (EIN) - How to Apply, or Publication 1635 (PDF), Understanding Your EIN. 
+References: 
+* Publication 1635 (PDF), Understanding Your EIN 
+* Form SS-4 (PDF), Application for Employer Identification Number 
+* Tax Topic 755, Employer identification number (EIN) - how to apply 
+* Tax Information for Business 
+I would like to submit Form SS-4, Application for Employer Identification Number, by fax. What is the fax number?
+You can find the fax telephone numbers by calling the IRS at 1-800-829-1040 or refer to Tax Information for Business. This can be found on the IRS website www.irs.gov under Businesses. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+* Form SS-4 (PDF), Application for Employer Identification Number 
+* Tax Information for Business 
+Under what circumstances am I required to change my employer identification number (EIN)?
+If you already have an EIN, and the organization or ownership of your business changes, you may need to apply for a new number. Some of the circumstances under which a new number is required are as follows: 
+* An existing business is purchased or inherited by an individual who will operate it as a sole proprietorship 
+* A sole proprietorship changes to a corporation or a partnership, 
+* A partnership changes to a corporation or a sole proprietorship, 
+* A corporation changes to a partnership or a sole proprietorship, or 
+* An individual owner dies, and the estate takes over the business. 
+This list is not all inclusive. Please refer to the website www.irs.gov under Business, then Employer ID Numbers. 
+References: 
+* Publication 1635 (PDF), Understanding Your EIN 
+* Tax Information for Business 
+If I have an employer identification number (EIN) and do not need it, how can I revoke the EIN?
+If you do not need to retain your EIN and wish the EIN to be revoked, you can write to the Entity Control Unit at the IRS Service Center where you would normally file your returns and make that request. Make sure that either the President or other Principal Officer signs the statement, if it is a corporation, or a managing member, if it is a limited liability company, or a general partner, if it is a partnership. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 1635 (PDF), Understanding Your EIN 
+* Tax Information for Business 
+Do businesses have to obtain the taxpayer identification number (TIN) from vendors and keep it somewhere on file?
+In general, businesses are required to obtain the TIN from vendors if they are required to file any return, document or other statement that calls for the taxpayer identification numbers (TINs) of other taxpayers. Form W-9 (PDF), Request for Taxpayer Identification Number and Certification, can be used to make the request. The business should also maintain the verification of these numbers in their records. 
+References: 
+* Form W-9 (PDF), Request for Taxpayer Identification Number and Certification 
+* Instructions for Form 1099 General 
+12.6 Small Business/Self-Employed/Other Business : Forms 941, 940, Employment Taxes
+If you do not have any employees for a particular quarter, do you have to file an Employer's Quarterly Federal Tax Return Form 941?
+Seasonal employers are not required to file for quarters when they regularly have no tax liability because they have paid no wages. To alert the IRS that you will not have to file a return for one or more quarters during the year, check the seasonal employer box above line 1 on Form 941. The IRS will mail two Forms 941 to you once a year after March 1. The preprinted name and address information will not include the date the quarter ended. You must enter the date the quarter ended when you file the return. The IRS generally will not inquire about unfiled returns if at least one return showing tax due is filed each year. However, you must check the seasonal employer box on each quarterly return you file. Otherwise, the IRS will expect a return to be filed for each quarter. 
+For any employer, who no longer has employees, a final return should be filed for the last quarter during which you had employees. 
+References: 
+* Instructions for Form 941, Employer's Quarterly Federal Tax Return 
+All of the Forms 941 that I can find ask for the number of employees on record as of March 12th. Is there a similar form for the second quarter?
+The Form 941 is the same for all 4 quarters. Only on the January-March calendar quarter Form 941 should you enter the number of employees on your payroll during the pay period that includes March 12. You do not need to answer this question on the Forms 941 for the other 3 quarters. 
+References: 
+* Instructions for Form 941, Employer's Quarterly Federal Tax Return 
+We are about to hire employees and need to know how much tax to take out and where to send this money?
+You will need to secure a completed Form W-4 (PDF), Employee's Withholding Allowance Certificate, from each employee. You will need Publication 15, Circular E, Employer's Tax Guide, and Publication 15-A (PDF), Employer's Supplemental Tax Guide, to determine the amount of withholding and for directions on depositing the withholding amounts and other employment taxes. Publication 15T, New Withholding Tables contains the revised withholding tables. The change is a result of the Jobs and Growth Tax Relief Reconciliation Act of 2003. This publication is a supplement to Publication 15. 
+Generally, employers will quarterly file Form 941 (PDF), Employer's Quarterly Federal Tax Return, and annually file Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return (FUTA), and Form W-2 (PDF), Wage and Tax Statement, with Form W-3 (PDF), Transmittal of Income and Tax Statements. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Form 941 (PDF), Employer's Quarterly Federal Tax Return 
+* Form W-2 (PDF), Wage and Tax Statement 
+* Form W-3 (PDF), Transmittal of Income and Tax Statements 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Publication 15-T (PDF) , New Withholding Tables (For wages Paid Through December 2004) 
+What is the federal unemployment tax rate for 2003?
+The federal unemployment tax rate for 2003 remains at 6.2% and is still figured on the first $7,000 of wages you paid each employee in 2003. However, if you have timely paid state unemployment contributions on the same wages, you can be eligible for a credit. For specific information, refer to Tax Topic 760, Form 940 (PDF) or Form 940EZ (PDF) - Employer's Annual Federal Unemployment Tax Returns , or Publication 15, Circular E, Employer's Tax Guide . 
+References: 
+* Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Form 940EZ (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Tax Topic 760, Form 940/940-EZ - Employer's annual federal unemployment tax return 
+* Publication 15, Circular E, Employer's Tax Guide 
+If a new employee has reached the limit for social security wage base with a previous employer in the same year, does the new employer need to withhold FICA taxes on wages paid for both the company and employee?
+Yes, the social security wages base limit is applied to each separately employer. The individual employee is subject to social security taxes up to the maximum amount from each employer. As a result of an employee working for two or more employers in the same year, social security tax in excess of the maximum wage base may be withheld from his or her pay. An employee can claim the excess of social security tax withheld from pay resulting from working for two or more employers as a credit against the employee's income tax when filing Form 1040 (PDF), U.S. Individual Income Tax Return. However, there is no provision for an employer to get a credit for the employer portion of social security tax paid in this situation. There is no wage limit on the Hospital Insurance tax. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+We have an employee who has reached the limit for social security tax. We understand that this limits withholding requirements on the employee's portion of social security tax. However, is the employer still required to contribute their portion of the social security tax for this employee?
+The employer is subject to the same social security tax rate and wage base limits as the employee. When the employee reaches their limitation, the employer also reaches the limitation and no longer has to pay social security taxes for that employee. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+If an employee is collecting social security benefits, is the employer required to take out social security and medicare taxes?
+Yes, the employer is required to follow the withholding requirements for social security and medicare taxes even if an employee is collecting social security benefits. Per Chapter 9 of Publication 15, Circular E, Employer's Tax Guide, employee wages are subject to social security and Medicare taxes regardless of the employee's age or whether he or she is receiving social security benefits. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+What are the maximum wages subject to social security and the maximum social security tax to be withheld for 2003?
+The maximum wages subject to social security is $87,000 for 2003 resulting in a maximum for the employee portion of social security tax of $5,394.00 (of course, there is no limit on wages subject to medicare tax). Additional information can be found at the Social Security Administration web site. 
+References: 
+* Social Security Administration 
+* Publication 15, Circular E, Employer's Tax Guide 
+Are housing allowances for ministers subject to social security and Medicare taxes?
+Yes, housing allowances for ministers are subject to social security and Medicare taxes, under the Self-Employment Contributions Act. However, if you are a duly ordained, commissioned, or licensed minister of a church, a member of a religious order not under a vow of poverty, or a Christian Science practitioner who elected and was approved for exemption from social security coverage and self-employment tax, your housing allowance would not be subject to social security or Medicare taxes. Refer to Publication 517, Social Security and Other Information for Members of the Clergy and Religious Workers, for additional information. 
+References: 
+* Publication 517, Social Security and Other Information for Members of the Clergy and Religious Workers 
+* Form 4361 (PDF), Application for Exemption from Self-Employment Tax for Use by Ministers, Members of Religious Orders, and Christian Science Practitioners 
+We hired a nanny to look after our baby while we work. We would like to make it all legal, i.e. pay her social security taxes and so forth. How do we do this?
+A nanny is considered a household employee. A household employer only has to pay social security and Medicare tax for the employee(s) that receive $1,400 or more in cash wages for the year 2003. If the amount paid is less than $1,400, no social security or Medicare tax is owed. The taxes are 15.3% of cash wages. Your share is 7.65% and the employee's share is 7.65%. You can choose to pay the employee's share yourself and not withhold it. You may also be responsible for paying federal unemployment taxes. For directions on household employees, refer to Publication 926, Household Employer's Tax Guide. 
+References: 
+* Publication 926, Household Employer's Tax Guide 
+* Form 1040, Schedule H (PDF), Household Employment Taxes 
+* Tax Topic 756, Employment taxes for household employees 
+12.7 Small Business/Self-Employed/Other Business : Income & Expenses
+I gave my friend a loan to do business, but the business went bankrupt and she did not pay me back. Can I deduct this bad loan?
+If someone owes you money that you cannot collect, you have a bad debt. Bad debts are deductible only if the amount owed has been previously included in your income. For a discussion of what constitutes a valid debt, see Publication 535, Business Expenses and Publication 550, Investment Income and Expenses . If you are a cash basis taxpayer, as most individuals are, you may not take a bad debt deduction for expected income you have not received, since it was never included in your income. There are two kinds of bad debts - business and nonbusiness. 
+A business bad debt, generally, is one that comes from operating your trade or business. A business deducts its bad debts from gross income when figuring its taxable income. Business bad debts may be deducted in part or in full. 
+All other bad debts are nonbusiness. Nonbusiness bad debts must be totally worthless to be deductible. You cannot deduct a partially worthless nonbusiness bad debt. You must establish that you have taken reasonable steps to collect the debt and that the debt is worthless. It is not necessary to go to court if you can show that a judgment from the court would be uncollectible. You may take the deduction only in the year the debt becomes worthless. A debt becomes worthless when the surrounding facts and circumstances indicate there is no longer any chance the amount owed will be paid. You do not have to wait until the debt comes due. 
+A nonbusiness bad debt is reported on Form 1040, Schedule D (PDF) , Capital Gains and Losses, as a short-term capital loss. It is subject to the capital loss limit of $3,000 per year. This limit is $1,500 if you are married filing a separate return. A nonbusiness bad debt requires a separate detailed statement attached to the schedule D. For more information on nonbusiness bad debts, refer to Publication 550, Investment Income and Expenses . For more information on business bad debts, refer to Publication 535, Business Expenses . 
+References: 
+* Publication 535, Business Expenses 
+* Publication 550, Investment Income and Expenses 
+* Form 1040, Schedule D (PDF), Capital Gains and Losses 
+How do you distinguish between a business and a hobby?
+Since hobby expenses are deductible only to the extent of hobby income, it is important to distinquish hobby expenses from expenses incurred in an activity engaged in for profit. In making this distinction, all facts and circumstances with respect to the activity are taken into account and no one factor is determinative. Among the factors which should normally be taken into account are the following: 
+* Whether you carry on the activity in a businesslike manner 
+* Whether the time and effort you put into the activity indicate you intend to make it profitable 
+* Whether you depend on income from the activity for your livelihood 
+* Whether your losses are due to circumstances beyond your control (or are normal in the startup phase of your type of business) 
+* Whether you change your methods of operation in an attempt to improve profitability 
+* Whether you, or your advisors, have the knowledge needed to carry on the activity as a successful business 
+* Whether you were successful in making a profit in similar activities in the past 
+* Whether the activity makes a profit in some years, and how much profit it makes 
+* Whether you can expect to make a future profit from the appreciation of the assets used in the activity 
+Additional information on this topic is available in section 1.183-2 (b) of the federal tax regulations. 
+References: 
+* Treas. Req. 1.183-2 (b) 
+* Publication 535, Business Expenses 
+If I pay personal expenses out of my business bank account, should I count the money used as part of my income, or can I write these expenses off?
+You would include the money in income and you would not write the amounts off as expenses. Only business related expenses can be deducted from your business income. It is recommended that you not mix business and personal accounts. This makes it easier to keep records. 
+References: 
+* Publication 535, Business Expenses 
+For business travel, are there limits on the amounts deductible for meals?
+Meal expenses are deductible only if your trip is overnight or long enough that you need to stop for sleep or rest to properly perform your duties. The amount of the meal expenses must be substantiated, but instead of keeping records of the actual cost of your meal expenses you can generally use a standard meal allowance ranging from $30 to $50 in 2003 depending on where and when you travel. 
+Generally, the deduction for unreimbursed business meals is limited to 50% of the cost that would otherwise be deductible. 
+For more information on business travel expenses and restrictions, refer to Tax Topic 511 , or Publication 463, Travel, Entertainment, Gift, and Car Expenses, and Publication 1542, Per Diem Rates . 
+References: 
+* Publication 463, Travel, Entertainment, Gift, and Car Expenses 
+* Tax Topic 511, Business travel expenses 
+* Publication 1542, Per Diem Rates 
+What are the standard mileage rates for 2003, 2002, and 2001?
+2003 
+* The standard mileage rate for business use of an automobile declined to 36 cents per mile for 2003. 
+* The standard mileage rate for moving or medical reasons declined to 12 cents per mile for 2003. 
+* The standard mileage rate for charitable contributions is unchanged at 14 cents per mile for 2003. 
+2002 
+* The standard mileage rate for business use of an automobile was 36.5 cents per mile for 2002. 
+* The standard mileage rate for moving or medical reasons was 13 cents per mile for 2002. 
+* The standard mileage rate for charitable contributions was 14 cents per mile for 2002. 
+2001 
+* The standard mileage rate for business use of an automobile was 34.5 cents per mile for 2001. 
+* The standard mileage rate for moving or medical reasons was 12 cents per mile for 2001. 
+* The standard mileage rate for charitable contributions was 14 cents per mile for 2001. 
+The rates for 2004 will be announced in a new revenue procedure updating revenue procedure 2002-61 and should be issued in early fall 2003. 
+References: 
+* Publication 463, Travel, Entertainment, and Gift Expenses 
+* Tax Topic 510, Business Use of Car 
+* Publication 521 , Moving Expenses 
+* Publication 502, Medical and Dental Expenses 
+Where can I find the per diem rates for foreign countries?
+The federal per diem rates for foreign locations (outside the continental United States, abbreviated as OCONUS, and including the per diem rates for Alaska, Hawaii, Puerto Rica, the Northern Mariana Islands, U. S. possessions, and all foreign locates) are published monthly in the Maximum Travel Per Diem Allowances for Foreign Areas. Your employer may have these rates available, or you can purchase the publication from the: Superintendent of Documents 
+U.S. Government Printing Office
+ P.O. Box 371954
+ Pittsburgh, PA 15250-7954
+ 
+You can also access the federal per diem rates for CONUS localities on the Internet at http://www.policyworks.gov/perdiem . This website also provides a link to rates for localities OCONUS.. 
+References: 
+* Revenue Procedure 2002-63 SEC 3.02 
+* Publication 1542, Per Diem Rates 
+I use my home for business. Can I deduct the expenses?
+To deduct expenses related to the business use of part of your home, you must meet specific requirements. Even then, your deduction may be limited. 
+Your use of the business part of your home must be: 
+* Exclusive (see *exceptions below), 
+* Regular, 
+* For your trade or business, AND 
+The business part of your home must be one of the following: 
+* Your principal place of business, 
+* A place where you meet or deal with patients, clients, or customers in the normal course of your trade or business, or 
+* A separate structure (not attached to your home) you use in connection with your trade or business. 
+Additional tests for employee use. If you are an employee and you use a part of your home for business, you may qualify for a deduction use. You must meet the tests discussed above plus: 
+* Your business use must be for the convenience of your employer, and 
+* You do notrent any part of your home to your employer and use the rented portion to perform services as an employee. 
+Whether the business use of your home is for your employer's convenience depends on all the facts and circumstances. However, business use is not considered to be for your employer's convenience merely because it is appropriate and helpful. 
+*exceptions
+You do not have to meet the exclusive use test if either of the following applies. 
+* You use part of your home for the storage of inventory of product samples. 
+* You use part of your home as a day-care facility. 
+Form 1040, Schedule C (PDF) filers calculate the business use of home expenses and limits on Form 8829 (PDF) . The deduction is claimed on line 30 of Schedule C. Employees claim deduction for business use of home as an itemized deduction on Form 1040, Schedule A (PDF) . 
+For more information refer to Tax Topic 509 , Business Use of Home, or Publication 587 , Business Use of Your Home (Including Use by Day-Care Providers). 
+References: 
+* Publication 587, Business Use of Your Home (Including Use by Day-Care Providers) 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 8829 (PDF), Expenses for Business Use of Your Home 
+* Tax Topic 509, Business Use of Home 
+I use part of my living room as an office. Can I take a deduction for business use of my home?
+In general, if you use a part of your home for both personal and business purposes, no expenses for business use of that part are deductible. Exceptions apply for qualified day-care providers and for the storage of inventory or product samples used in your business. For additional information on business use of your home, refer to Tax Topic 509, or Publication 587, Business Use of Your Home (Including Use by Day-Care Providers).
+References: 
+* Publication 587, Business Use of Your Home (Including Use by Day-Care Providers) 
+* Tax Topic 509, Business use of home 
+If you lease a vehicle, can you deduct the cost of the lease payments plus the standard mileage rate?
+No, if you lease a car you use in business, you may use either the standard mileage rate or claim actual expenses, which would include lease payments. You cannot use both the standard mileage rate and the lease payments. 
+References: 
+* Publication 463, Travel, Entertainment, Gift, and Car Expenses 
+* Tax Topic 510, Business use of car 
+Is the state sales tax paid on the purchase of an automobile an allowed deduction?
+State and local sales tax paid on personal items is no longer an allowable itemized deduction on Form 1040, Schedule A (PDF), Itemized Deductions. If the auto is a business asset it is generally added to the basis and recovered through depreciation. 
+References: 
+* Publication 17, Your Federal Income Tax (For Individuals) 
+* Publication 535, Business Expenses 
+Are excise taxes for a vehicle deductible?
+It has to be a personal property tax, not an excise tax, in order to deduct it. Deductible personal property taxes are only those based on the value of personal property such as a boat or car. The tax must be charged to you on a yearly basis, even if it is collected more than once a year or less than once a year. To be deductible, the tax must be charged to you and must have been paid during your tax year. Taxes may be claimed only as an itemized deduction on Form 1040, Schedule A (PDF), Itemized Deductions. 
+References: 
+* Publication 17, Your Federal Income Tax (For Individuals) 
+* Form 1040, Schedule A (PDF), Itemized Deductions 
+We leased an auto for a small business. How much (if any) of the down payment is tax deductible in the year the automobile is leased?
+You must spread any advance lease payments over the entire lease period. You cannot deduct any payments you make to buy a car even if the payments are called lease payments. If you lease a car that you use in your business, you can deduct the part of each lease payment that is for the use of the car in your business. You cannot deduct any part of a lease payment that is for commuting to your regular job or for any other personal use of the car. 
+References: 
+* Publication 463, Travel, Entertainment, Gift and Car Expenses 
+If I buy down the lease (pay a lump sum up-front) of a vehicle for my new business, how would this up-front payment be treated for tax purposes?
+You must spread any advance lease payments over the entire lease period. You cannot deduct any payments you make to buy a car even if the payments are called lease payments. If you lease a car that you use in your business, you can deduct the part of each lease payment that is for the use of the car in your business. You cannot deduct any part of a lease payment that is for commuting to your regular job or for any other personal use of the car. 
+References: 
+* Publication 463, Travel, Entertainment, Gift and Car Expenses 
+If you lease purchase a piece of equipment, like a forklift or boom truck, do you deduct the lease or do you depreciate it?
+There may be instances in which you must determine whether your payments are for rent or for the purchase of the property. You must first determine whether your agreement is a lease or a conditional sales contract. If, under the agreement, you acquired or will acquire title to or equity in the property, you should treat the agreement as a conditional sales contract. Payments made under a conditional sales contract are not deductible as rent expense. 
+Whether the agreement is a conditional sales contract depends on the intent of the parties. Determine intent based on the facts and circumstances that exist when you make the agreement. 
+In general, an agreement may be considered a conditional sales contract rather than a lease if any of the following is true: 
+* The agreement applies part of each payment toward an equity interest that you will receive. 
+* You get title to the property upon the payment of a stated amount required under the contract. 
+* The amount you pay to use the property for a short time is a large part of the amount you would pay to get title to the property. 
+* You pay much more than the current fair rental value for the property. 
+* You have an option to buy the property at a nominal price compared to the value of the property when you may exercise the option. Determine this value when you make the agreement. 
+* You have an option to buy the property at a nominal price compared to the total amount you have to pay under the lease. 
+* The lease designates some part of the payments as interest, or part of the payments are easy to recognize as interest. 
+References: 
+* Publication 535, Business Expenses 
+If you lease office equipment and machinery with the option to buy, when do you depreciate the purchase price?
+If you lease equipment with the option to later buy the equipment, you must first determine whether your agreement is a lease agreement or a conditional sales contract. If, under the agreement, you acquired or will acquire title to or equity in the property, you should treat the agreement as a conditional sales contract. Payments made under a conditional sales contract are not deductible as rent expense. You would start depreciating the equipment on the date you acquired the equipment. 
+Whether the agreement is a conditional sales contract depends on the intent of the parties. Determine intent based on the facts and circumstances that exist when you make the agreement 
+In general, an agreement may be considered a conditional sales contract rather than a lease if any of the following is true. 
+* The agreement applies part of each payment toward an equity interest that you will receive. 
+* You get title to the property upon the payment of a stated amount required under the contract. 
+* The amount you pay to use the property for a short time is a large part of the amount you would pay to get title to the property. 
+* You pay much more than the current fair rental value for the property. 
+* You have an option to buy the property at a nominal price compared to the value of the property when you may exercise the option. Determine this value when you make the agreement. 
+* You have an option to buy the property at a nominal price compared to the total amount you have to pay under the lease. 
+* The lease designates some part of the payments as interest, or part of the payments are easy to recognize as interest. 
+References: 
+* Publication 535, Business Expenses 
+Are business gifts deductible?
+If you give business gifts in the course of your trade or business, you can deduct the cost subject to special limits and rules. In general, you can deduct no more than $25 for business gifts you give directly or indirectly to any one person during your tax year. Exceptions may apply. For additional information, refer to Tax Topic 512 and Chapter 28 of Publication 17, Your Federal Income Tax . 
+For additional information on this subject seeGifts. 
+References: 
+* Publication 463 , Travel, Entertainment , Gift, and Car Expense 
+* Tax Topic 512, Business entertainment expenses 
+Can I deduct my investment expenses as business expenses?
+In order to properly determine the correct treatment income and expenses, it is first necessary to classify the type of investment activity occurring. 
+An Investor buys and sells securities solely for their own account. They are not engaged in a trade or business. An investor's investment expenses are taken as miscellaneous itemized deductions on Form 1040, Schedule A (PDF) , subject to the 2% AGI limitations (with the exception of investment interest which is not a miscellaneous deduction but subject to its own special limitations). An investor's sale of securities results in capital gains and losses. 
+A Dealer in securities has inventories of securities that they hold for sale to customers in the ordinary course of their trade or business. Their business expenses are deductible as ordinary business expenses. A dealer doing business as a sole proprietor would deduct their expenses on 1040 Schedule C. A Dealer's sale of securities is reported as ordinary income. 
+A third classification is Trader . A Trader is in the trade or business of buying and selling securities for their own account. You are a trader in securities if you meet all of the following conditions: 
+* You must seek to profit from daily market movements in the prices of securities and not from dividends, interest, or capital appreciation. 
+* Your activity must be substantial. 
+* You must carry on the activity with continuity and regularity. 
+The following facts and circumstances should be considered in determining if your activity is a securities trading business: 
+* Typical holding periods for securities bought and sold. 
+* The frequency and dollar amount of your trades during the year. 
+* The extent to which you pursue the activity to produce income for a livelihood 
+* The amount of time you devote to the activity. : 
+A trader's business expense are reported on Form 1040, Schedule C (PDF) , not as itemized deductions on 1040 Schedule A. The deductions are not subject to the limitations that apply to Schedule A (2% AGI limitation and special limits on investment interest). A trader gain or loss on sale of securities is reported as capital gain or loss on Form 1040, Schedule D (PDF) unless they have made the mark-to-market election. 
+If a trader has made a mark-to-market election, gains and losses are reported on part II of Form 4797 (PDF) as ordinary income. For information regarding the manner and timing of making the mark-to-market election, see Publication 550 , Investment Income and Expense or Revenue Procedure 99-17, 1999-1 CB 503. 
+The proper classification of your investment activities is important to determine how income and expenses are to be reported. Investors trade solely for their own account and do not carry on a trade or business. Their securities sales result in capital gain or loss and their deductible expenses are itemized deductions. Dealers sell securities to customers in the ordinary course of trade or business. Their sales result in ordinary gain or loss and their deductible expenses are trade or business expenses. Traders buy and sell securities frequently but have no customers. Their purchases and sales result in capital gain and loss, and their deductible expenses are trade or business expenses. 
+Even if you engage in extensive securities activities, you are an investor, not a dealer or trader, if you do not seek profit primarily in swings in daily market movements, and do not personally engage in or direct the purchases or sales. An investor trades for profit-motivated reasons such as long-term appreciation, dividends and interest. Whether the activities of an individual constitute trade or business or investment is determined from the facts in each case. These distinctions have been established through court cases. 
+If your trading activity is a business, your trading expenses would be reported on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) instead of Form 1040, Schedule A (PDF), Itemized Deductions. Your gains or losses, however, would be reported on Form 1040, Schedule D (PDF), Capital Gains and Losses, unless you file an election to change your method of accounting. 
+If your trading activity is a business and you elect to change to the mark-to-market method of accounting, you would report both your gains or losses on Part II of Form 4797 (PDF), Sales of Business Property . 
+A change in your method of accounting requires the consent of the Commissioner and can not be revoked without the consent of the Secretary. Though there is no publication specific to day traders, the details for traders in securities and commodities are covered in Internal Revenue Code Section 475 (f) and Revenue Procedure 99-17. 
+References: 
+* Publication 535, Business Expenses 
+* Form 3115 (PDF), Application for Change in Accounting Method 
+12.8 Small Business/Self-Employed/Other Business : Schedule C & Schedule SE
+I am self-employed. How do I report my income and how do I pay Medicare and social security taxes?
+Your self-employment income is reported on Form 1040, Schedule C (PDF), Profit or Loss from Business, or on Form 1040, Schedule C-EZ (PDF), Net Profit from Business. 
+Your Medicare and social security taxes are reported on Form 1040, Schedule SE (PDF), Self-Employment Tax. 
+As a self-employed person, you pay your Medicare and social security taxes the same way you pay your income taxes. If you expect to owe less than $1,000 in total taxes, you can pay them when you file your income tax return. If you expect to owe $1,000 or more in total taxes, you will need to make estimated tax payments. These payments are made quarterly using Form 1040-ES (PDF), Estimated Tax for Individuals. You will need to figure these taxes at the beginning of the year. To learn about figuring and making estimated tax payments, please refer to Publication 505, Tax Withholding and Estimated Tax. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Topic 554, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+I am a sole proprietor. Can I use Schedule C-EZ instead of Schedule C?
+You can use Form 1040, Schedule C-EZ (PDF) to determine your net profit if you have only one sole proprietorship and you meet all of the following requirements: your business expenses were not more than $2,500, and you did not have a net loss from your business, you use the cash method of accounting, and you did not have an inventory during the year. There are other requirements. Refer to page 1 of Schedule C-EZ to see if you qualify. Additional information is also available in Tax Topic 408, Sole Proprietorship. 
+References: 
+* Form 1040, Schedule C-EZ (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Tax Topic 408, Sole Proprietorship 
+I buy and sell stocks as a day trader using an online brokerage firm. Can I treat this as a business and report my gains and losses on Schedule C?
+A business is generally an activity carried on for a livelihood or in good faith to make a profit. Rather than defined in the tax code, exactly what activities are considered business activities has long been the subject of court cases. The facts and circumstances of each case determine whether or not an activity is a trade or business. Basically, if your day trading activity goal is to profit from short-term swings in the market rather than from long-term capital appreciation of assets, if your income is primarily from the sale of securities rather than from dividends and interest paid on securities, and if you expect this income to be your primary income for meeting your personal living expenses, i.e. you do not have another regular job, then your trading activity might be a business. 
+For details about not-for-profit activities, refer to Publication 535, Business Expenses. That chapter explains how to determine whether your activity is carried on to make a profit and how to figure the amount of loss you can deduct. 
+If your trading activity is a business, your trading expenses would be reported on Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) , instead of Form 1040, Schedule A (PDF), Itemized Deductions. Your gains or losses, however, would be reported on Form 1040, Schedule D (PDF), Capital Gains and Losses , unless you file an election to change you method of accounting. 
+If your trading activity is a business and you elect to change to the mark-to-market method of accounting, you would report both your gains or losses and your trading expenses in Part II of Form 4797, Sale of Business Property. See Publication 550, Investment Income and Expenses , for details. 
+A change in your method of accounting requires the consent of the Commissioner and can not be revoked without the consent of the Secretary. Though there is no publication specific to day traders, the details for traders in securities and commodities are covered in Internal Revenue Code Section 475 (f) and Revenue Procedure 99-17. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 550, Investment Income and Expenses 
+* Form 3115 (PDF), Application for Change in Accounting Method 
+If you have run a small business in the past, but this year there is no income or expenses, is it necessary to file a Schedule C?
+If your sole proprietorship business is inactive during the full year, it is not necessary to file a Form 1040, Schedule C (PDF), Profit or Loss from Business, for that year. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+12.9 Small Business/Self-Employed/Other Business : Starting or Ending a Business
+I invested personal funds to start a new corporation last year. How can I get credit for this on my personal income tax return?
+If you invest your personal funds to start a corporation, this is your basis in the stock of the corporation. Your stock basis will show on the balance sheet of the corporation's Form 1120 (PDF), U.S. Corporation Income Tax Return. Your investment will not show up on your personal income tax return until you sell the stock or until the corporation goes out of business. 
+References: 
+* Form 1120 (PDF), U.S. Corporation Income Tax Return 
+* Publication 542, Corporations 
+I am starting a small business. What assistance can IRS give me?
+If you are starting or already have a small business and need information on taxes, recordkeeping, accounting practices, completing Federal business and employment tax returns, and meeting other Federal tax obligations, there is help available. Much of the assistance is free. The service is called Small Business Tax Education Program, or STEP. Go to Around the Nation for seminars in your area or check out Tax Info For Business on the IRS web site. You can find out more about this program for small business by referring to Publication 1066 (PDF), Small Business Tax Workshop, or Tax Topic 103 , Small Business Tax Education Program (STEP). 
+References: 
+* Publication 1066 (PDF), Small Business Tax Workshop 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 103, Small Business Tax Education Program (STEP) 
+* Tax Info For Business 
+I want to start my own business. Do I need a business license?
+The IRS does not require or issue business licenses. Whether or not the particular type of business or service you provide is regulated by licensing requirements is a question for your state, city, or local government agencies. To access the state you need to direct your question to, please go to our Alphabetical State Index. 
+How do I find out about whether or not my business needs to collect sales tax?
+Your question is a state tax question. Your state revenue department should provide information regarding sales tax to you. To access the state you need to direct your question to, please go to our Alphabetical State Index. 
+What forms do you use when you have a small business?
+The annual income tax forms that you would use to report you business activity to the IRS would depend on the type of entity you operate your business under. 
+* Sole Proprietorships use Form 1040, Schedule C (PDF), Profit and Loss from Business (Sole Proprietorship) or Form 1040, Schedule C-EZ (PDF), Net Profit from Business and Form 1040, Schedule SE (PDF), Self-employment Tax. 
+* Partnerships use Form 1065 (PDF), U.S. Partnership Return of Income and Schedule K-1. 
+* Corporations use Form 1120 (PDF), U.S. Corporation Income Tax Return. 
+* S Corporations use Form 1120S (PDF), U.S. Income Tax Return for an S Corporation. 
+* Limited Liability Companies use one of the choices above according to their structure. If you hired employees to work in your business, if you are liable for excise tax, or heavy highway vehicle use tax, other forms and publications would come into play. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 541, Partnerships 
+* Publication 542, Corporations 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Form 1065 (PDF), U.S Partnership Return of Income 
+* Form 1120 (PDF), U.S. Corporation Income Tax Return 
+* Form 1040, Schedule C (PDF) 
+* Form 1040, Schedule C-EZ (PDF) 
+* Form 1040 Schedule SE (PDF) 
+If you start your own business and send in your quarterly estimated income taxes, must you also file a personal income tax return at the end of the year?
+If you have $400 or more of net profit from your business, you will have to file a Form 1040 with a Form 1040, Schedule C (PDF), Profit and Loss from Business (Sole Proprietorship) or Form 1040, Schedule C-EZ (PDF), Net Profit form Business and Form 1040, Schedule SE (PDF), Self-employment Tax . 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Form 1040, Schedule C (PDF), Profit and Loss from Business (Sole Proprietorship 
+* Form 1040, Schedule SE (PDF), Self-employment Tax 
+I just started a small business and want to know if I have to file my income taxes quarterly or at the end of the year?
+The Federal Income Tax return is filed annually. As a self-employed individual, if after deducting withholding and credits you expect to owe $1,000.00 at the end of the year, you should make estimated tax payments on a quarterly basis. Form 1040-ES (PDF) , Estimated Tax for Individuals , will assist you in determining if estimated tax payment are due and how they are paid. 
+When you file the income tax return at the end of the year, you include the income from the business on the return. The forms to be filed are Form 1040 (PDF), U.S. Individual Income Tax Return , Form 1040, Schedule C (PDF), Profit or Loss from Business Form 1040, Schedule SE (PDF), Self-Employment Tax . If estimated tax payments where made during the year, they will be claimed on the individual income tax return as payments. See the Form 1040, Line 62. 
+References: 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Form 1040 (PDF), U.S. Individual Income Tax Return 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Form 1040, Schedule SE (PDF), Self-employment Tax 
+How do I report the closing of a sole proprietorship business?
+When a sole proprietor ends a business, the last Form 1040, Schedule C (PDF), Profit or Loss from Business, filed for that business does not require notation as a final return because the business is not a separate entity from the sole proprietor. You simply quit filing a Schedule C with your income tax return. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 544, Sales and Other Dispositions of Assets 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+I went out of business this year and still have inventory on hand. Can I take a deduction for inventory that I cannot sell?
+Generally inventory losses and gains must be run through the business (shown as sold on Form 1040, Schedule C (PDF), Profit or Loss from Business) when sold even after the business closes. If you cannot sell inventory because it has become obsolete or you have formed the intent to give up possession of the inventory without passing it on to someone else and suffer a loss, you may deduct such losses. If you use any remaining inventory for personal use after you go out of business, you cannot take a deduction for that inventory. If you give the remaining inventory away to a nonprofit organization, claim your deduction on Form 1040, Schedule A (PDF), Itemized Deductions. When you have business related expenses after your business has closed, you still may deduct these expenses. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 544, Sales and Other Dispositions of Assets 
+Which form do I use to file my business income tax return?
+To determine which form you should file for your business entity, select one of the following links: 
+. Publication 541, Partnerships
+. Publication 542, Corporations
+. Publication 3402 (PDF), Tax Issues for LLCs
+. Publication 334, Tax Guide for Small Business 
+. Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation
+References: 
+* Publication 541, Partnerships 
+* Publication 542, Corporations 
+* Publication 3402 (PDF), Tax Issues for LLCs 
+* Publication 334 Tax Guide for Small Business 
+* Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation 
+Can you help me fill out my forms
+Unfortunately, the Internal Revenue Service can only provide general information and instructions for preparing tax returns. Many entries on tax rely upon entries from several schedules or forms. In addition, a clear picture of a business entity is needed to adequately prepare a return. If the publications or instructions for a form are unclear and you need help completing several sections and/or lines on the return, it may be best to seek the advice of a tax professional. 
+I need help with Form K-1. How do I report this on my income return.
+If you are a partner in a partnership and have received a 1065 K-1, Please see Instructions for Form 1065, Schedule K-1 for help in preparing your form. 
+If you are a shareholder in an S-Corporation and have received a 1120S K-1, please see Instructions for Form 1120S, Schedule K-1 for help in preparing your form. 
+References: 
+* Publication 542, Partnership 
+* Publication 3402 (PDF), Tax Issues For LLCs 
+* Publication 334, Tax Guide for Small Business 
+* Entities: Sole Proprietor, Partnership Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S-Corporation 
+What deductions can I take on my partnership or S Corporation return
+In general, ordinary and necessary business expenses are deductible on business return. However, there are some items that partnership and S Corporation do not deduct at the business entity level but rather at the partner or shareholder level. These are referred to as separately stated items. For a more complete explanation of business in general, see Publication 535 , Business Expenses Publication 541, Partnerships, and Instructions for Form 1120S. 
+References: 
+* Publication 535, Business Expenses 
+* Publication 541, Partnership 
+* Instructions for Form 1120S 
+* Instructions for Form 1065 
+How do I terminate or close down a corporation (S or C)?
+The process for closing a corporation consists of many steps that need to be followed in a specific order and within specified time frames. See Small Business/Self Employed - Closing a Business for information to properly terminate your business entity with the Internal Revenue Service. 
+References: 
+* Small Business/Self Employed - Closing a Business Instructions for Form 1120/1120A 
+* Instructions for Form 1120S 
+* Form 966 (PDF) , Corporate Dissolution or Liquidation 
+I am waiting for K-1s to file my return. What is due date for sending a K-1 to the partners/shareholders?
+The due date for a K-1 is the same as the due date of a Partnership or S Corporation return that created the K-1. For example, if you are a partner in a partnership and the partnership return has a due date of April 15, 2004, then the due date for the K-1 is also April 15, 2004. You may wish to file an extension if you do not believe you will receive your K-1 in time to adequately prepare your return. 
+References: 
+* Publication 541, Partnerships 
+* Publication 542, Corporation 
+* Instructions for Form 1065, Schedule K-1 , 
+* Form 7004 (PDF) , Application for Automatic Extension to File Corporations Income Tax Return 
+* Form 8736 (PDF) , Application for Automatic Extension of Time to File U.S. Return For a Partnership, REMIC, or For Certain Trusts. 
+What do I need to do to become a Corporation?
+Corporation are formed at the state level first. For additional information on requirements at the federal level, please see Publication 542, on Corporation . 
+References: 
+* Publication 542, Corporation 
+Where is a loss reported on my return and how much can I deduct?
+The place where your loss is reported depends on how much is deductible, the type of loss, and the type of return you are filing. If your business deductions are more than your business income for the year, you may have a Net Operating Loss (NOL). You can use an NOL by deducting it from your income in another year or years. Partnerships and S Corporations generally cannot use an NOL. But partners or shareholders can use their separate shares of the partnership's of S Corporation's business deductions to their individual NOLs. For additional help, see Publication 541, Partnership, Publication 542, Corporation, Publication 925, Passive Activities and At-Risk Rules, and Publication 536, Net Operating Losses (NOLs) for individuals, Estates, and Trusts. 
+If you have a Capital Loss, it is generally from the sale or loss of investment property, a business, or a capital asset used in a business. Publication 544, on Sales and Other Disposition of Assets, will provide additional information on this subject. 
+Special Situations 
+S Corporations 
+In general, if an S corporation purchases a C Corporation at the end of the year and the C Corporation has a loss, the S Corporation does not get to claim the C Corporation loss. A C Corporation is a taxable entity in itself and gains and losses do not flow through to the shareholders. 
+S Corporation shareholder who hold stock at any time during the year may claim their proportionate share of corporate losses on their individual tax returns subject to certain limits. For more information about the limitations, see the instruction for Instructions for Form 1120S, Schedule K-1. 
+Partnerships 
+In general, a partner loss is allocated base on his/her percentage of ownership of the year. This percentage is referred to as the partner's distributive share. The partners' distributive share of items is reported to the partner on Schedule K-1 (Form 1065). A partner's distributive share of partnership loss is allowed only to the extent of the adjusted basis of the partner's partnership interest. A loss that is more than the partner's adjusted basis is not deductible. For additional deductibility of partnership losses, see Publication 541, Partnership, and Publication 925, Passive Activities and At-Risk Rules 
+References: 
+* Publication 541, Partnership 
+* Publication 542, Corporation 
+* Publication 925, Passive Activities and At-risk Rules 
+* Publication 536, Net Operating Losses (NOLs) for individuals, Estates, and Trusts 
+* Publication 544, Sales and Other Dispositions of Assets 
+How does a corporation deduct a capital loss?
+Subchapter C Corporation 
+This type of corporation can deduct capital losses only up to the amount of capital gains. If capital losses exceed capital gains, the excess is first carried back three years prior to the loss year and used to offset capital gains. Then, any unused loss is carried forward up to five years from the loss year to offset capital gains in those years. If the corporation is dissolved, the loss is not carried to any other year or return, it is simply lost. 
+A corporation may not carry a capital loss from or to a year in which it operates as a Subchapter S Corporation. 
+Rules for Carryback and Carryforward
+When carrying a capital loss from one year to another, the following rules apply:
+1. When figuring the current year capital loss, you cannot combine it with a capital loss carried another year. In other words, you can carry capital losses only to years that would otherwise have a net capital gain. 
+2. If you carry capital losses from 2 or more years to the same year, deduct the loss from the earliest year first. 
+3. You cannot use a capital loss carried from another year to produce or increase a net operating loss in the year to which you carry it back. 
+Corporation must include capital gain in full in gross but only to the extent they exceed capital losses. A corporation is taxed on net capital gain at the regular tax rate, including the additional phase-out rates for high-income corporations. See Instructions for Form 1120/1120A, U.S. Corporation Income Tax Return, and Publication 542, Corporations for additional information. 
+Subschapter S Corporations
+An S Corporation generally passes gains and losses through to the shareholders based on their percentage of ownership (distributive share). For more information on how to calculate and report these losses, see Instructions for Form 1120S, Schedule K-1, Form 4797 (PDF), Sales of a Business, Form 1120S (PDF), U.S. Income Tax Return for an S Corporation, Entities: Sole Proprietorship, Limited Liability Company/Partnership (LLC/LLP, Corporation, Subchapter S Corporation. 
+References: 
+* Instructions for Form 1120/1120A, U.S. Corporation Income Tax Return 
+* Instructions for Form 1120S, Schedule K-1 
+* Form 4797 (PDF), Sale of a Business 
+* Instructions for Form 4797, Sales of Business Property 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation 
+How do I terminate a Partnership?
+A partnership terminates when one of the following events takes place.
+1. All operations are discontinued and no part of any business, financial operation, or venture is continued by any of its partners in a partnership, or 
+2. At least 50% of the total interest in the partnership capital and profits is sold or exchanged within a 12-month period, including a sale or exchange to another partner. 
+Regardless of the method of termination, the final Form 1065 (PDF) , U.S. Return of Partnership Income of a partnership and the corresponding Form 1065, Schedule K-1 (PDF) should be marked as "Final Return". This notifies the IRS that the partnership has been terminated. See Treasury Regulation 1.708-1 (b) for additional information on the termination of a partnership. 
+The partnership's tax year ends on the date of termination. If a partnership is terminated before the end of the tax year, Form 1065 must be filed for the short period, which is the period from the beginning of the tax year through the date of termination. Publication 541 Partnership, for additional information. 
+References: 
+* Form 1065 (PDF), Partnerships 
+* Form 1065, Schedule K-1 (PDF) 
+* Publication 541, Partnerships 
+What type of entity am I?
+If you an unincorporated business by yourself, you are considered a sole proprietor. However, if you are the sole member of a domestic limited liability company (LLC), you are not a sole proprietor if you elect by filing Form 8832 (PDF) , Entity Classification Election, to treat the LLC as a corporation. 
+An husband or wife may be sole proprietor with the spouse an employee.
+An unincorporated organization with two or more members is generally classified as a partnership for federal tax purposes if it members carry on a trade, business, financial operation or venture and divide its profits. 
+If a husband and wife jointly own and operate a business and share in the profits and losses, they are partners in a partnership. 
+The following businesses are taxed as corporations: 
+* A business formed under a federal or state law that refers to it as a corporation, body corporate, or body politic. 
+* A business formed under a state law that refers to it as a joint-stock company or joint-stock Company. 
+* Insurance Company 
+* Certain banks 
+* A business wholly owned by a state or local government. 
+* A business specifically required to be taxed as a corporation by the Internal Revenue Code (for example, certain publicly traded partnerships). 
+* Certain foreign business 
+* Any other business that elects to be taxed as a corporation by filing Form 8332. 
+References: 
+* Publication 541, Partnerships 
+* Publication 542, Corporations 
+* Publication 3402 (PDF), Tax Issues For LLCs 
+* Publication 334, Tax Guide for Small Business 
+* Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation Form 8332 (PDF) , Release for Claimed to Exemption for Child or Divorced or Separated Parents 
+What is the due date for business returns?
+Some forms and entities have due dates other than the well-known April 15th due date. The instructions for the each type of form used will have the appropriate due date(s) noted. In general, sole proprietor's schedule of income and expenses is attached to the 1040. Therefore, the due date is the same as the 1040. 
+A Corporation must generally use the calendar year, unless the entity can establish a business purpose for having a different tax year. The due date is usually March 15th. 
+A partnership generally must conform its tax year of the partners unless the partnership can establish a business purpose for having a different tax year. The tax year is the same as one or more partners that own (in total) more than a 50-percent interest in partnership profits and capital. If there is no majority interest tax year, the partnership must adopt the same tax year as that of its principal capital holder. Where neither condition is met, a partnership must use the calendar year. A limited Liability Company reporting as a partnership has the same tax year as a majority of its partners. 
+References: 
+* Publication 541, Partnerships 
+* Publication 542, Corporation 
+* Publication 334, Tax Guide for Small Business 
+* Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation 
+How is the withdrawal of a partner handled?
+Unfortunately, the answer to this question has many variables. Publication 541, Partnerships "Disposition of Partner's Interest" on Partnerships should provide the information needed. 
+References: 
+* Publication 541, Partnerships 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

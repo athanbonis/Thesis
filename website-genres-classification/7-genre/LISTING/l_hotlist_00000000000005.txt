@@ -1,0 +1,97 @@
+
+=====================================================================
+Hotlist: Mathematics and Computer Science
+=====================================================================
+ 
+ 	  function setImage(name, source) { document.images[name].src = source; return true; }     
+  	    
+      
+      	     
+                                      	  
+Mathematics and Computer Science Hotlist
+* The Franklin Institute's Online Math Collection 
+* ScienceMaster's Tech Learning Home Page 
+* The MacTutor History of Mathematics archive 
+* Mathematics: Ancient Science and Its Modern Fates 
+* History of Mathematics 
+General Mathematics
+* Math Goodies 
+* Ole Miss Problems of the Week 
+* Math in Daily Life 
+* Exponential and Logarithmic Functions 
+* Statistics: Cast Your Vote 
+* Math Power 
+* Math Puzzles 
+* 7th. Grade Math 
+* A+ Math 
+* Word Problems for Kids 
+* Favorite Mathematical Constants 
+* Olympiad Math Madness 
+* Mathland 
+* Basket Math 
+* Measure 4 Measure - Universal Conversions 
+* Monty Hall Problem 
+* Problems of The Week 
+* Convert It 
+* Math League Help Topics 
+* Plane Math 
+* Circles of Light: The Mathematics of Rainbows 
+* Abacus: The Art of Calculation with Beads 
+* Math Resources for Elementary Teachers 
+* Helping Your Child Learn Math 
+* Mathmania 
+* The Math Man 
+* Mathcounts 
+* Smile Program Math Index 
+* Math from The Chicago Systemic Initiative 
+* Knot A Braid of Links 
+* Magic Squares 
+* Appetizers and Lessons for Math and Reason 
+* Helping Your Child Learn Math 
+* Fun With Numbers 
+* Math Magic 
+* Math Puzzles 
+* Math Puzzles 
+* Knot Theory 
+* Clever Games for Clever People 
+* Area and Perimeter Software 
+* HTML Mazes 
+* The Slide Rule Page 
+* Puzzle Archive 
+* The Math Forum 
+* Mega-Mathematics 
+* The Pi Page 
+* Math Puzzles 
+* Ask Dr. Math 
+* Calculus-Help.com 
+* MASSIVE (Math and Science Song Information, Viewable Everywhere) 
+* The Maths Internet Guide 
+Mathematicians
+* Archimedes 
+* Erastosthenes 
+* Biographies of Women Mathematicians 
+Geometry, symmetry, pattern
+* The Encyclopedia of Polyhedra 
+* Ancient Geometry 
+* Symmetry and The Shape of Space 
+* Geometry - Symmetry 
+* Gallery of Interactive Geometry 
+* WWW Spirograph 
+* Symmetry and Pattern: The Art of Oriental Carpets: from Swarthmore Math Forum 
+* Fractal Gallery 
+Computing
+History 
+* The History of Computers 
+* Computing History from 350 Million BC to 1997 CE 
+* Chronology of Events in The History of Microcomputers 
+* Computer History 
+* The Museum of HP Calculators 
+* The History of Computing 
+* Museum of Obsolete Computers 
+Computer Scientists
+* Past Notable Women of Computing 
+Internet
+* Internet Architecture 
+---------------------------------------------------------------------
+Back to Hotlists
+

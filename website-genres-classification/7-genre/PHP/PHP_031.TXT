@@ -1,0 +1,28 @@
+
+=====================================================================
+Wendy Hines
+=====================================================================
+ 
+Hi! I'm Wendy Hines. I am an assistant professor of mathematics at UNL. I began
+here in Fall 1993. Before that, I received my PhD from Georgia Tech.
+ 
+Research
+My research is in the area of dynamical systems. Currently I am working on
+discretized delay equations and continuity of attractors and Morse sets with
+respect to the disctretization timestep. This work is in my paper with Tomas
+Gedeon entitled Continuity of Morse Sets With Respect to the Discretization
+Parameter.
+ 
+Summer Camp
+This summer I am teaching a summer math camp for high school girls. 
+I'm teaching a course on Iterations of Functions. Soon we will be doing
+stairstep diagrams to graphically show the orbit of an iterated function.
+Here's an example.
+ 
+We will also be doing bifurcation diagrams. Here's the bifurcation diagram for
+the logistic equation.
+ 
+You can find the notes for this in Iterations. 
+ 
+It's a great experience! It is not very often that a teacher gets to teach 14 students who really 
+want to learn! 

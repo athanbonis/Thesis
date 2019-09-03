@@ -1,0 +1,160 @@
+
+=====================================================================
+Site Map | The Register 
+=====================================================================
+Skip to content
+Jobs
+* EventsDownloads
+* Windows software
+* Mac software
+ 
+SetUpDropMenu('DownloadsMenuItem', 'DownloadsMenu'); Biting the hand that feeds IT 
+EnterpriseSoftwarePersonalInternetMobileSecurityManagementChannelOdds & Sods 
+Odds and Sods:
+ScienceBOFHBootnotesLetters 
+---------------------------------------------------------------------
+Ads_kid=0;Ads_bid=0;Ads_xl=0;Ads_yl=0;Ads_xp='';Ads_yp='';Ads_opt=0;Ads_wrd='';Ads_prf='';Ads_par='';Ads_cnturl='';Ads_sec=0; 
+Search
+SetPromptText('q', 'Search'); 
+Reg Shops
+* Cash&#8217;n&#8217;Carrion 
+* Reg Mobile Gadgets 
+* Reg Books 
+* Reg Software Shop 
+* Hosting 
+* Reg Offers 
+News Services
+* Reg Newsletters 
+* Week's Headlines 
+* Reg Mobile Edition 
+* Reg Archive 
+* Desktop News Panel 
+* Reader Studies 
+* International Edition 
+* 
+Top Stories
+1.  Hollywood threatens to sue UK BitTorrent man for millions 
+2.  Dual-core AMD Athlon 64 benchmarks emerge 
+3.  The unsavoury world of PC licences and Firefox exploits 
+4.  Apple wins iTunes.co.uk case 
+5.  Banks 'wasting millions' on two-factor authentication 
+The Register Â» Odds and Sods Â» About Us Â» 
+Site Map
+By Team RegisterPublished Monday 5th April 2004 21:58Â GMT 
+Homepages
+* UK Edition 
+* International Edition 
+Tools/Services
+* The Register Mobile 
+* Desktop News Panel 
+* Newsletter 
+* Reader Studies 
+* Top Ten 
+* Archive 
+* RSS Feeds 
+* Content Services 
+* Advertising 
+* Contact Us 
+Shops
+* Reg Merchandise 
+* Bookshop 
+* Mobile Shop 
+Misc
+* Training and Events Directory 
+* Jobs 
+* Privacy Policy 
+* Contact Us 
+* About Us 
+Content Channels
+* Enterprise 
+* Servers 
+* Storage 
+* Data Networking 
+* Software 
+* Operating Systems 
+* Applications 
+* Developer 
+* Personal 
+* PCs 
+* Peripherals 
+* Mac Channel 
+* Consoles 
+* Reviews 
+* Internet 
+* Broadband 
+* eCommerce 
+* ISPs/Telcos 
+* Digital Rights/Piracy 
+* eGovernment 
+* Wild Wild Web 
+* Mobile 
+* Operators 
+* Applications 
+* Devices 
+* 3G 
+* WLAN 
+* Security 
+* Network 
+* Anti-Virus 
+* Spam 
+* Identity 
+* Management 
+* Financial News 
+* Small Biz 
+* Employment 
+* IT Director 
+* Channel 
+* Market News 
+* Distribution 
+* System Builder 
+* Reseller 
+* Odds and Sods 
+* Science 
+* BOFH 
+* Bootnotes 
+* Letters 
+* Site News 
+* About Us 
+Ads_kid=0;Ads_bid=0;Ads_xl=0;Ads_yl=0;Ads_xp='';Ads_yp='';Ads_opt=0;Ads_wrd='';Ads_prf='';Ads_par='';Ads_cnturl='';Ads_sec=0;Ads_channels=''; 
+* rand = Math.floor(Math.random()*4); switch (rand) { case 0 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=147466&dat=176491&opt=0&rdm=20050301">Register for Free TechNet Flash Newsletter\x3C/a>'); break; case 1 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=147470&dat=176491&opt=0&rdm=20050301">Hook Up Your Network Using Microsoft Technologies\x3C/a>'); break; case 2 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=147472&dat=176491&opt=0&rdm=20050301">Microsoft Security Newsletter\x3C/a>'); break; case 3 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=147474&dat=176491&opt=0&rdm=20050301">Technet\'s Tip of the Week\x3C/a>'); break; } Register for Free TechNet Flash Newsletter 
+* document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=148837&bid='); rand = Math.floor(Math.random()*4); switch (rand) { case 0 : document.write('577928&dat=176491&opt=0&rdm=20050307">Cross-platform C++ development framework. Try Qt!\x3C/a>'); break; case 1 : document.write('577932&dat=176491&opt=0&rdm=20050307">Code less. Create more. Target all platforms. Try Qt!\x3C/a>'); break; case 2 : document.write('577933&dat=176491&opt=0&rdm=20050307">Building cross-platform C++ applications? Try Qt!\x3C/a>'); break; case 3 : document.write('577934&dat=176491&opt=0&rdm=20050307">Build native cross-platform C++ applications? Try Qt!\x3C/a>'); break; } Cross-platform C++ development framework. Try Qt! 
+* The Xerox Phaser 8400 - Now Only £619 
+* Free HP White Papers - No More Storage Headaches 
+* Only £749 for a Centrino laptop: chose NEC now! 
+* X-PRO has built a peerless reputation throughout the IT industry for supplying trade customers with quality peripherals. 
+* document.write('\x3Ca href="http://go.theregister.com/k/hosting_tl">'); rand = Math.floor(Math.random()*3); switch (rand) { case 0 : document.write('At Rackpace Managed Hosting we\'re passionate about the hosting business and we\'re here to stay - Click Here'); break; case 1 : document.write('Rackspace, The Managed Hosting Specialist - its all we do! - Click here to find out more'); break; case 2 : document.write('At Rackspace We\'re built to handle highly-customised hosting environments - Click Here'); break; default : document.write('We answer 99.6% of all support calls within 5 seconds. Rackspace Managed Hosting with Fanatical Support'); break; } document.write('\x3C/a>'); At Rackpace Managed Hosting we're passionate about the hosting business and we're here to stay        
+* rand = Math.floor(Math.random()*4); switch (rand) { case 0 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=151386&bid=585475&dat=176491&opt=0&rdm=20050315">Unified Threat Management & Integrated Security Appliances - FREE White Paper\x3C/a>'); break; case 1 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=151386&bid=585475&dat=176491&opt=0&rdm=20050315">WatchGuard . Truly Scaleable Integrated Security Appliances - White Paper\x3C/a>'); break; case 2 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=151560&bid=585985&dat=176491&opt=0&rdm=20050315">Spyware, Adware & Phishing - Threats & Countermeasures - FREE White Paper\x3Ca>'); break; case 3 : document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=151560&bid=585985&dat=176491&opt=0&rdm=20050315">DayZero Protection from even Unknown Internet Threats - FREE White Paper\x3C/a>'); break; } 
+* Intel® Centrino&trade; mobile technology. Learn more. 
+* Climate change and business? Call the Carbon Trust 
+* BT network solutions enable organisations to be more effective 
+* Enterprise level Patch, Spyware and Malware vulnerability and remediation - click here for free trial. 
+* Data recovery, computer forensics, UK, NL, NZ 
+* document.write('\x3Ca href="http://sel.as-eu.falkag.net/sel?cmd=lnk&kid=137155&bid=539361&dat=176491&opt=0&rdm=20040105">\x3Cimg src="http://sel.as-eu.falkag.net/sel?cmd=ban&kid=137155&bid=539361&dat=176491&opt=0&rdm=20040105" width="0" height="0" alt="" />'); rand = Math.floor(Math.random()*6); switch (rand) { case 0 : document.write('You\'re good, You\'re very good - Jobsite, The best people for the job'); break; case 1 : document.write('The best people for the job - Jobsite'); break; case 2 : document.write('You inspire awe - Jobsite, The best people for the job'); break; case 3 : document.write('IT gurus seek Your counsel - Jobsite, The best people for the job'); break; case 4 : document.write('UK IT recruitment specialists - Jobsite'); break; case 5 : document.write('Search the latest IT jobs - Jobsite'); break; default : document.write('UK Jobs @ Jobsite'); break; } document.write('\x3C/a>'); UK Jobs @ Jobsite 
+Latest Mobile Gadgets IT & Business Books Find Your Perfect Job 
+* Navman 4420 Bluetooth GPS 
+* Route 66 Mobile Britain 2005 Symbian Bluetooth GPS Kit (GB) 
+* Pryme Advance PrymeNav Navigation Software (EU) 
+* Navman PiN 300 Pocket PC + GPS V3 (UK) 
+* TomTom GO GPS Car Navigation System (UK) 
+* Centrex Linkmaster 1500 Media Control Device 
+* HP iPAQ Navigation System v2 (UK/Ireland) 
+* Web Wizard's Guide to Web Design, The 
+* Cisco ISP Essentials 
+* Using Microsoft PowerPoint 97 
+* Design of Sites, The, Patterns, Principles, and Processes for Crafting a Customer-Centered Web Experience 
+* Shaping Web Usability, Interaction Design in Context 
+* Designing Web Usability 
+* Design for Community 
+* Internet Development Manager (Neg, Hounslow) 
+* PeopleSoft Financials Consultant (Excellent, London,UK Any) 
+* Account Manager (Client Site) (£35-45,000 + Bon + Ben, London) 
+* Account Manager (Client Site) (£35-45,000 + Bon + Ben, London) 
+Ads_kid=0;Ads_bid=0;Ads_xl=0;Ads_yl=0;Ads_xp='';Ads_yp='';Ads_opt=0;Ads_wrd='';Ads_prf='';Ads_par='';Ads_cnturl='';Ads_sec=0; 	
+Join the Reg SETI group Join Reg Cancerbusters © Copyright 2005 
+* Privacy Policy
+* Advertising
+* Site Map
+* Contact Us
+* About Us
+* Syndication 
+

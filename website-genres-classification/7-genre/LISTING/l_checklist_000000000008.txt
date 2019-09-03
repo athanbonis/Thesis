@@ -1,0 +1,98 @@
+
+=====================================================================
+Checklist of Internet Research Tips
+=====================================================================
+ 
+Back to Internet Tutorials 
+Checklist of Internet Research Tips
+---------------------------------------------------------------------
+1.  The Internet is a self-publishing medium. It is not a library of evaluated publications selected by professionals. Rather, the Internet is a bulletin board containing everything from the definitive to the spurious. Everything, everything must be analyzed for its appropriateness for research use. For guidelines on how to do this, see Evaluating Internet Resources. 
+2.  Before you select a search tool, always think about your topic and what you are trying to find. For a few ideas on this strategy, see Getting Started: Selecting a Tool for Your Search. Once you begin your research, be sure to try out a handful of sites. Don't rely on a single site or type of site. 
+3.  Google is great, but there are other useful tools on the Web too. Google has become so popular that many people use this tool exclusively, and miss out on others that might be more useful for their particular search. Think again about the approach suggested in point #2 before starting your next search. 
+4.  Three major resources for locating Internet materials are the subject directory, the search engine, and content on the deep Web. These are useful for different types of queries. Be sure you understand the differences. 
+SUBJECT DIRECTORY
+For general, research oriented queries, involving an exploration of a topic, and when you want to view sites often recommended by experts, use a subject directory. 
+Definition: A subject directory is a service that offers a collection of links to Internet resources submitted by site creators or evaluators and organized into subject categories. Directory services use selection criteria for choosing links to include, though the selectivity varies among services. Most directories are searchable. 
+When using subject directories, keep in mind that: 
+* There are two basic types of directories: academic and professional directories often created and maintained by subject experts to support the needs of researchers, and directories contained on commercial portals that cater to the general public and are competing for traffic. Be sure you use the directory that appropriately meets your needs. 
+* Subject directories differ significantly in selectivity. Consider the policies of any directory that you visit. One challenge to this is the fact that not all directory services are willing to disclose either their policies or the names and qualifications of site reviewers. This is especially true of directories located on commercial portals. 
+* Many people don't make enough use of subject directories, but instead go straight to search engines. Keep in mind that academic subject directories contain carefully chosen and annotated lists of quality Internet sites. Don't overlook subject directories when searching for quality on the Internet. 
+INFOMINE, from the University of California, is a good example of an academic subject directory. Yahoo is a good example of a commercial portal--but its directory should never be used for serious research. A more complete list of both types of directories may be found on the page Internet Subject Directories. 
+SEARCH ENGINES
+For targeted, multi-concept, and sometimes general queries, use a search engine. 
+Definition: A search engine is a searchable database of Internet files collected by a computer program (called a wanderer, crawler, robot, worm, spider). Indexing is created from the collected files, e.g., title, full text, size, URL, etc. There is no selection criteria for the collection of files, though evaluation can be applied to the ranking of results. 
+A search engine might well be called a search engine service or a search service. As such, it consists of three components: 
+* Spider: Program that traverses the Web from link to link, identifying and reading pages 
+* Index: Database containing a copy of each Web page gathered by the spider 
+* Search engine mechanism: Software that enables users to query the index and that usually returns results in relevancy ranked order 
+HotBot is a good example of a search engine. A more complete list may be found on the page Internet Search Engines. 
+DEEP WEB
+For targeted queries, when you are looking for non-textual information, use the DEEP WEB. 
+Definition: The deep Web consists of information stored in searchable databases mounted on the Web. Information stored in these databases is accessible by user query. These databases usually search a targeted topic or aspect of a topic, though entire Web sites may be contained within a database. Search engine spiders cannot or will not index this information. 
+The deep Web also consists of multimedia and image files, and files created in non-standard file types such as Portable Document Format (PDF). Many search services offer separate search options for locating these files. AltaVista, Excite, HotBot and Lycos are just a few examples of services that offer specialized media searches, while Google integrates searches of PDF and other non-HTML files into its general search service. 
+When dealing with the deep Web, keep in mind that: 
+* Many databases on the Web are searchable from their own sites. Therefore, a good directory will link to these sites. In addition, search engine results will also turn up database sites. Once you connect to the site, you can then search the database. 
+* There are Web sites that specialize in collecting links to databases available on the Web. One such site is called Invisible-web.net and links to high quality Web-accessible databases. You may also want to visit other sites that collect links to Web databases. 
+* Topical coverage on the Invisible Web is extremely varied. This presents a challenge, since it is impossible to anticipate what might turn up in a database. In addition, this coverage will be fluid as databases proliferate on the Web. 
+* Information that is dynamically changing in content will appear on the Invisible Web. Examples include news, job postings, available airline flights, etc. 
+* Directories are a part of the deep Web. Examples include phone books and other "people finders," list of professionals such as doctors and lawyers, patents, dictionary definitions, company data, etc. 
+* Yahoo is one of the most popular sites on the Web. It is one of the Web's largest commercial portals. When you search Yahoo, you get results from the general Web (currently via Google) and also from its own directory. The Yahoo directory is not a reliable or adequate research tool and should not be used for this purpose. Beware of the drawbacks of the Yahoo directory: 
+* The directory is merely the passive recipient of sites submitted to it 
+* The directory's staff does not carefully evaluate content when choosing to add items to the database; therefore scholarly sites are haphazardly mixed in with everything else 
+* The directory tends to index only the major landing page of a site; therefore, any significant subsidiary pages on a related or different topic may not show up on this site 
+* The editors at the Yahoo directory don't have time to review all submitted sites. Many sites are not added to the directory because there simply isn't enough time. 
+* It is very helpful to understand the principles of Boolean search logic when using a search engine on the Web. This search logic is manifested in three distinct ways on Web search engines. Review Boolean Searching on the Internet. 
+* Other search strategies are also useful to examine in order to make accurate use of Web search engines. Be sure to check these out. 
+* When you enter more than one word in a Web search engine, the space between the words has a logical meaning that directly affects your results. This is known as the default syntax. For example: 
+In Google, a search on the words 
+birds     migration 
+means that you will get back documents that contain both the words birds and migration. This is because the space between the words defaults to the Boolean AND. Most search tools nowadays default to AND logic. 
+If you wish to use Boolean OR logic to search for something like 
+"global warming"     "greenhouse effect" 
+you will need to select OR logic from a search template or use an advanced search option that gives you additional choices. 
+* When using Web search engines, a de facto search language has emerged especially for basic search (i.e., main screen) interfaces. When in doubt, use the following syntax: 
+* + for mandatory words:  +birds    +migration 
+* phrases within quotations:  "human rights" 
+* Search engines offer numerous features that help you hone in on what you want. For a review of some of these features, and the search engines that support them, see How to Choose a Search Engine or Directory. 
+* Search engines return results in a schematic order. Most search engines use various criteria to construct a term relevancy rating of each hit and will present your search results in this order. Criteria can include: search terms in the title, URL, first heading, HTML META tag; number of times search terms appear in the document; search terms appearing early in the document; search terms appearing close together; etc. This is known as "on the page" ranking and applies to many long-standing first generation search services. There aren't too many search engines any more that use this technique exclusively. 
+* One of the most interesting developments in search engine technology is the organization of search results by peer ranking, concept, site and domain, rather than by term relevancy. This type of ranking looks at "off the page" information to determine the order of your search results. Search engines that employ this alternative may be thought of as second generation search services. For example: 
+* Google ranks by the number of links from a high number of pages ranked high by the service 
+* Teoma ranks by the number of links from pages on the same topic for one of its results options 
+* Vivisimo sorts results into categories representing concepts derived from your search 
+A more detailed look at second generation search services may be found in the tutorial Second Generation Searching on the Web. 
+* Take advantage of second generation tools that return results in a horizontal presentation. Most search tools return results in one long, vertical list. In contrast to this, there is a group of search tools that use concept processing to return results in a horizontal organization. With these tools, you can first review concept categories retrieved by your search before examining the results within particular categories. This can make it easier to zero in on the aspects of your topic that interest you. Examples of these tools include Accumo, Query Server and Vivisimo. 
+* Don't be impressed--or even necessarily worried-- by a large number of hits in response to a well-formulated search. Often multiple pages are returned from a single site because they all contain your search terms. AltaVista and AlltheWeb are among those that avoid this by a technique called results grouping, whereby all the results from one site are clustered together into one result. You are then given the opportunity to view all the retrieved pages from that site if you choose. With these engines, you may get a smaller number of results from a search, but each result is coming from a different site. 
+* If you have too many search results, or results that are not relevant: 
+* Add concept words 
+* Use vocabulary that is specific to your topic, e.g., Honda rather than cars. 
+* Link appropriate terms with the Boolean AND ( + ) so that each term is required to appear in the record 
+* Use term proximity operators if they are available 
+* Narrow your search to individual parts of the Web page such as title, first page level, etc. 
+* Use the Boolean NOT to keep out records containing terms you don't want 
+* If you have too few search results: 
+* Drop off the least important concept(s) to broaden your subject 
+* Use more general vocabulary 
+* Add alternate terms or spellings for individual concepts and connect with the Boolean OR 
+* Try the option available on some engines to find related documents to one or more of your relevant hits. Google, ProFusion and Raging Search all offer this type of feature. 
+* Meta search engines simultaneously search multiple search engines. They are also referred to as parallel search engines, multithreaded search engines, or or mega search engines. These are useful when: 
+* you have an obscure topic 
+* you are not having luck finding anything when you search 
+* your search is not complex 
+* you want to retrieve a relatively small number of relevant results 
+There are two types of meta search engines: 
+1.  One type searches a number of engines and does not collate the results. This means you must look through a separate list of results from each engine that was searched; you will often see the same result more than once. Some engines require you to visit each site to view your results, while others will fetch the results back to their own sites. When results are brought back to the site, a certain limitation is placed on what is allowed to be retrieved (more on this in the next point). With this type of meta search engine, you can retrieve comprehensive, and sometimes overwhelming, results. An example of this type of engine is YW Metasearch. 
+2.  The other type is more common and returns a single list of results, often with the duplicate hits removed. This type of meta engine always brings the results back to its own site for viewing. In these cases, the engine retrieves a certain maximum number of documents from the individual engines it has searched, cut off after a certain point as the search is processed. The cut-off may be determined by the number of documents retrieved, or by the amount of time the meta engine spends at the other sites. Some of these services give the user a certain degree of control over these factors. All of this has two implications: 
+* These meta search engines return only a portion of the documents available to be retrieved from the individual engines they have searched 
+* Results retrieved by these engines can be highly relevant, since they are usually grabbing the first items from the relevancy-ranked list of hits returned by the individual search engines 
+The better meta search engines remove duplicate files and give you some information along with the document title. To see a list of meta search engines, visit Internet Search Engines. 
+* Keep in mind that search engines do not index all the documents available on the Web. For example, most search engines cannot index files to password-protected sites, behind firewalls, or configured by the host server to be left alone. Still other Web pages may not be picked up if they are not linked to other pages, and are therefore missed by a search engine spider as it crawls from one page to the next. Search engines rarely contain the most recent documents posted to the Internet; do not look for yesterday's news on a search engine. 
+* Finally, watch for converging content. Many well-known sites now contain information from an array of sources. This can increase the usefulness of search sites, but also create confusion in terms of the information source. For example: 
+* Spider gathered index: The mechanism for searching a spider-gathered index is the feature people usually associate with a search engine. 
+* Results from other search services: It is increasingly common for a search engine to return results from other services with which it has partnered. Each partner service offers an enhancement over the more traditional term ranked results. This represents an interesting combination of first and second generation search technologies appearing on the same site. 
+* Directory: Many search services offer a directory on their sites. This directory may be a name brand such as LookSmart or the Open Directory Project, or a directory compiled by a site's own editors. Results from the directory may appear automatically with results from the spider-crawled Web, or the directory may be searched or browsed separately. 
+* Deep Web: Many search services offer the option to search databases offering specific content. Included may be news, business, shopping, multimedia files, and so on. These databases constitute a small subset of the deep Web. 
+Return to Top
+---------------------------------------------------------------------
+Updated: July 21, 2004 
+Send comments to nospam('lcohen','uamail.albany.edu','Laura Cohen','Send comments to Laura Cohen'); 
+

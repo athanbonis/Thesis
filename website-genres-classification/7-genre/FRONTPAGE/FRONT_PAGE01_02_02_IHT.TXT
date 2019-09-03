@@ -1,0 +1,100 @@
+    
+=====================================================================
+International Herald Tribune
+=====================================================================
+   
+Front Page	    Friday February 1, 2002  	
+Sections  	
+ Front Page  	
+ Business  	
+ Arts & Leisure  	
+ Travel  	
+ Technology  	
+ Health & Science  	
+ Sports  	
+ Editorials & Opinion  	
+ Money Report  	
+ Special Reports  	
+ Article Index  	
+  	
+ Regions  	
+ Africa & Middle East  	
+ Americas  	
+ Asia - Pacific  	
+ Europe
+ 	
+  Publishing Partners  	
+ Ha'aretz, Kathimerini, Italy Daily, Frankfurter Allgemeine Zeitung, JoongAng Ilbo, The Daily Star  	
+   	
+ Services  	
+ Currency Converter  	
+ Weather  	
+ Sponsored Sections  	
+ Classifieds  	
+ Help 	
+  	  
+ Articles by Day  	
+ Monday  	
+ Tuesday  	
+ Wednesday  	
+ Thursday  	
+ Friday  	
+ Weekend  	 
+ 
+Pashtun fighers taking cover during clashes between forces of rival Afghan warlords in Gardez on Thursday.  AP Photo/Enric Marti  	  
+  
+2 Afghan Warlords Battle for Province
+After two months of rising tensions between rival warlords across much of Afghanistan, Gardez, a strategic city 130 kilometers south of Kabul has erupted in heavy fighting that continued Thursday with bursts of mortar, rocket and rifle fire, and smoke from exploding ammunition. 
+IHT INSIGHT Lengthy Elf Inquiry Nears Explosive Finish
+An explosive eight-year investigation of corruption at the French oil giant Elf-Aquitaine is expected to produce a last roar next week, as magistrates file a final report naming roughly 40 executives, politicians and intermediaries as parts of a pervasive network that allegedly bilked nearly 3 billion francs from Elf in the early 1990s. 
+Turbulence Ahead for 'Open Skies'
+The European Union's senior legal officer declared Thursday that "open skies" aviation agreements between several EU governments and the United States are illegal, opening the way to an eventual revolution in European and trans-Atlantic air transport.
+WORLD ECONOMIC FORUM Japan's Woes Cast Pall Over Forum
+International financial leaders are growing increasingly concerned about Japan's huge debt and dire economic condition, even to the point of suggesting that further deterioration could trigger global financial instability.
+Genetic Test for Colon Cancer Can Detect It at a Very Early Stage
+A new screening test for colon cancer, based on detecting a gene that is disrupted very early in the course of the disease, could prevent many thousands of deaths each year, researchers reported Thursday. 
+U.S. Stock Quotes 
+  	
+Look Up Symbols 	
+Quotes provided by: 
+IHT Global Roundup A local view on international news 	
+imageArray = new Array();     imageArray[0] = "/images/misc/html_kathimerini.gif";   imageArray[1] = "/images/misc/html_faz.gif";   imageArray[2] = "/images/misc/html_haaretz.gif";   imageArray[3] = "/images/misc/html_dstar.gif";   imageArray[4] = "/images/misc/html_italydaily.gif";   imageArray[5] = "/images/misc/html_jai.gif";       counter = 0;     function replaceImage()    {    document.images["pubPart"].src = imageArray[counter];    counter++;    //alert(imageArray[counter]);    if (counter > imageArray.length-1) counter = 0;    }       timer = setInterval("replaceImage()",2000);     	
+E-mail Alerts   	    
+   Sign up to receive the    IHT's latest headlines via e-mail with our News, Tech, and Travel Alerts.   	
+ 	
+In Depth  	  
+Beating the Drum for Passenger Profiling	  
+Booking Online	  
+Off to Hong Kong? Suit Yourself	  
+ 	    
+ Editorials & Opinions  	  
+The Limits of Power	  
+Hating the West Isn't New	  
+What Has the U.S. Done to Deserve Torture TV?	  
+ 	 
+Of Special Interest  	  
+Firefighters Piece Together What Went Wrong Sept. 11	  
+Singapore Faces a Rival Next Door	  
+Storm Clouds Loom Over the Louvre	  
+ 	  
+  Special Reports   	    
+    Men's Fashion     	
+   
+    Sponsored Sections   	    
+    Nigeria : Democratic Dividends     	
+ 	 
+  
+International Bonds
+In Our Pages
+Today's Front Page [pdf]    
+  	
+ 	   
+   International Funds
+paid advertisements    
+   
+   Education & Careers   	
+ 	 
+Subscriptions  E-mail Alerts	   About the IHT :  Privacy & Cookies :  Contact the IHT  	  	
+Copyright © 2001 the International Herald Tribune All Rights Reserved
+ Terms of Use | Contributor Policy	
+  

@@ -1,0 +1,257 @@
+ 
+=====================================================================
+Dave Cryer, Cave Dryer
+=====================================================================
+ /* THIS EXPLAINS HOW THESE STYLE MAP WITH THE COLORS THE USER CHOSES ON SCREEN 5.12 SIDEBAR BG applies to the styles sidebar, sidebar_top_right, sidebar_top_left, sidebar_bottom_right, sidebar_bottom_left PAGE BG applies to the styles content_narrow, content, spacer_color HEADINGS BG applies to the style date, tall_date, tall_date_bottom, panel (border-color), panel_bottom, panel_top, hr_solid TEXT applies to the styles body, td LINK applies to the styles a, a:visited, a:hover HEADLINE applies to the style h1, h3 PLEASE NOTE THAT CUSTOM.CSS MUST COME AFTER MAIN.CSS IN THE HTML FOR THE STYLES TO CASCADE CORRECTLY */ h1 {font-family: arial; font-size:18px; color: 000000; font-weight:bold; margin-top:0; margin-bottom:0; display: inline;} h3 {font-family: verdana; font-size:10px; color: 000000; margin-top:0; margin-bottom:0; padding-top:5px;} .sidebar { float:left; width:152px; background-color:800000;} .sidebar_top_right {width:152; height:11; background-color:800000;} .sidebar_bottom_right {width:152; height:11; background-color:800000;} .sidebar_top_left {width:152; height:11; background-color:800000;} .sidebar_bottom_left {width:152; height:11; background-color:800000;} #blogtitle {height:69px; padding-left:20; padding-right:20;} .spacer_color {background-color:FFFFFF;} #date { background-color:800000; height:26px; width:100%; padding:5 0 0 20; } #tall_date { background-color:800000; height:36px; width:100%;} #bottom_bar { background-color:800000; height:10px; } #bottom { background-color:FFFFFF; height:40px; padding:0 20 0 20; } .panel { background-color:FFFFFF; width:140px; text-align:left; border-style:solid; border-width:2px; border-color:800000; } .panel_bottom { background-color:800000; width:140px; height:2px;} .panel_top_white { background-color:FFFFFF; width:140px; height:9px;} .panel_top { background-color:800000; width:140px; height:22px; text-align:center; } .hr_solid { background-color:800000; height:2px; margin-top:10px; margin-bottom:10px; } .hr_dotted { background-image:url(images/blog_dottedline_tile.gif); background-repeat:repeat-x; height:2px; margin-top:10px; margin-bottom:10px; } .hr_double { background-image:url(images/blog_doubleline_tile.gif); background-repeat:repeat-x; height:5px; margin-top:10px; margin-bottom:10px; } #content_narrow { background-color:FFFFFF;} #content { background-color:FFFFFF;} a {text-decoration:none; color:0000FF;} a:visited {text-decoration:none; color:0000FF;} a:hover {text-decoration:underline; color:0000FF;} body {color:000000;} td {color:000000;} 
+Hometown Main | Search | Help 	
+ 
+  
+Dave Cryer, Cave Dryer
+A journal into the unknown	             
+                	           Older Entries            	       
+                	           Alert Me as Entries are Posted      	       
+     	 
+ 
+   	  	 
+All About Me
+Writer and teacher from Huddersfield.
+Enjoy reading.
+Keep writing.
+Email me Poems Stories Daves of Old Hire me
+Recent Entries
+24/12/04
+A Yuletide Blog 
+ 
+24/12/04
+London Calls 
+ 
+22/12/04
+Happy Christmas to You All. 
+ 
+05/12/04
+Snore Bits 
+ 
+16/11/04
+Shifting Sand 
+ 
+11/11/04
+Draughty Flat Drafts: taster for a poem  
+ 
+09/11/04
+The Child is Father to the Man: taster for a poem  
+ 
+04/11/04
+Behold the Permafrost King: A taster for a poem  
+ 
+03/11/04
+Ich Haf Bin in Berlin: 2. Tom, Dick and Harry  
+ 
+02/11/04
+Bats: A taster for a poem  
+ 
+24 December 2004 17:15:30 o'clock GMT A Yuletide Blog   
+It's just gone 5pm here in the UK, so we're into the evening of Christmas Eve. Sam is asleep downstairs on the sofa at the moment, having finished work at lunchtime. We went into town to buy a couple of stocking fillers for each other, then came back to tidy up a few things. Our in-laws and nephews made an impromptu visit last night and now it's just us for four days.
+In a minute, I shall go downstairs to wake Sam and we'll have showers and get togged up for our night out. At six we'll walk round to The Woolpack, where Steve the barman will give us a welcoming smile, then pour me a pint of Bombardier or maybe Guinness and a mini bottle of dry white wine for Sam. We'll sit over by the photo of Humphrey Bogart and no doubt say hello to the old chap who sits in there, sideways on, paper spread on the seat beside him, dog curled up beneath his table.
+Then, at Seven, we'll walk round past the church where we got married and down to the restaurant where we had our reception. A perfect evening. A quiet Christmas for us this year, just the two of us.
+American bloggers will be making their final preparations as I write. What will you be doing tonight? I wonder. Wherever you are and whatever you do this Christmas Eve, enjoy yourself, enjoy your family and friends and enjoy the rest, the peace, the bustle of Christmas Day.
+Cheers!
+Dave.
+Written by davobarbus (Link to this entry) This entry has 7 comments: Show Recent | Add your own
+09:49:14 o'clock GMT London Calls So. A London literary agent rang me up yesterday. There are some moments in life, just one or two, that you know are key moments of shift. This was one
+ 
+I had emailed him earlier in the day, following up his encouraging words on my first novel. He didn't think he could sell it, but asked me to send more ideas. So I emailed and told him about a second novel, half-written, that he might be interested in, suggesting that I could email the first couple of chapters. I gave him my phone number in the wild hope that he would ring me. I just couldn't believe it when at ten past two, that ludicrous hope of mine came true.
+ 
+He was going to email me back, he said, but then he thought, well I might as well ring him. I'm not the greatest of talkers and was floundering a little as he fired a few questions at me about the second novel. He said the idea was too whacky and that he didn't think commissioning editors would be able to see the market for it. I didn't do too well in fighting for the cause. He explained to me how these editors will get a gut feeling for whether they want to go for a book and how, in the vast majority of cases, when they don't want a book, they will readily come up with a reason why. He was giving me the reason why.
+ 
+He then told me that I was 'clearly very inventive' and that if I had any new ideas, I should run them by him. I misconstrued him at this point, thinking he was giving me the green light to pitch stuff at him for a while. No, not now, he said stopping me in mid-gush. Oops. I asked him if I could email the two chapters. If you get that gut feeling that the story stands up, I said, then I'll press on with the work now. If you don't, I'll shelve it for now and start something else. He thought this would be a good move. 
+ 
+So I emailed him the two chapters. Then buzzed around the house on tip-toes for the entire afternoon, willing him to email or phone with a response. He didn't. And he's not in the office until Tuesday now
+ 
+I am in a state of raised anticipation. If he likes the two chapters, I will furiously finish the novel. If he doesn't, I'll drag out a third novel idea that's in one of my piles. It's a novel I planned out chapter by chapter. A ghost tale. Not one word of it is written, but the characters and the plot are meticulously scripted, ready for me to return and write the narrative. If he doesn't go for that, then there's a one-page idea buried in my notebook that I'll dig out. And if he doesn't go for that… you get the picture
+ 
+He's my man. I know he's my man. This is a changing point in my life. A shift of gear. Watch this space.
+ 
+And thank you, all you visitors for watching this space already. When people believe in your writing, it makes you believe more. And now someone that might commission work from me believes. I am in an unknown state of euphoria.
+ 
+Merry Christmas All,
+ 
+Dave.
+ 
+Written by davobarbus (Link to this entry) This entry has 10 comments: Show Recent | Add your own
+22 December 2004 12:07:21 o'clock GMT Happy Christmas to You All. 
+I shall be getting ready to drive into Holmfirth shortly to search again for Sam's present. It's proven elusive this year as I have two things fixed in my mind. I shall say no more in case she's reading. I'll be calling for my teacher friend Jez and we'll take a look at the second-hand bookshops and have a coffee while we're there.
+Have been busy with writing stuff. Finished the Plumbs in Paris sketch for pupils at school, then completed another for the staff called A Midsummer Night's Drumming. Have had some encouraging words from an agent in London about my children's fiction. Have been having some great fun with a character I invented called Trixie Clixie on a blogging paysite I use called Blogit You compete against the other subscribers for rankings. Trixie 'took over' one of my blogs and is now doing far better than I ever was with my writing on there.
+Christmas is almost upon us. Sam finishing on Friday, then we're off out for a meal Christmas Eve, a few days together, then a trip up to somewhere near Aviemore for New Year.
+Happy Christmas to you all and have a great 2005.
+Dave.
+Written by davobarbus (Link to this entry) This entry has 8 comments: Show Recent | Add your own
+05 December 2004 08:43:14 o'clock GMT Snore Bits  
+Half Eight, Sunday morning. Have been awake since five, up since half six. I knew I should have got up at five, really. I never can go back to sleep once I've woken.
+ 
+Loads to report really I suppose, but what on earth have I been doing for the last couple of weeks? It's hard to remember sometimes.
+ 
+We finished our Christmas shopping. We went to see Journey's End in Bradford. We polished off several bottles of wine. We got sucked into I'm a Celebrity Get Me Out of Here, even though we swore we'd never watch it again. We voted for Denise Lewis on Strictly Ballroom. We voted for G4 on The X Factor. We sang Postman Pat in the style of G4 down the telephone to Paul and Jo. Just normal stuff, you know.
+ 
+And I've been writing. Just about to get back to it. A sketch for some pupils at school to perform. The Plumbs in Paris it's provisionally called. Twelve characters. Eight minutes. A tough challenge actually, but I'm half-way there.
+ 
+I've posted a new poem on my poetry blog. It might be a little obscure for some. Depends whether or not you've ever been kept awake all night in a hospital ward by a multiplicity of snoring. 
+ 
+Perhaps it should be subtitled Nostril-damn-us. Click through if you fancy it. See you back here soon if you don't.
+ 
+Happy Blue Peter Advent Thingy,
+ 
+Dave.
+ 
+*******************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+*******************************************************
+Written by davobarbus (Link to this entry) This entry has 12 comments: Show Recent | Add your own
+16 November 2004 08:36:56 o'clock GMT Shifting Sand 
+There's a rather macabre ballad posted for you today in my poetry blog. Click through to poems below if you fancy reading it.
+Huddersfield is miserable and wet today as I begin work at the typeface. 
+I have a number of writing-related projects to crack on with. First will be a 'Feedback Pack' on a writing day I delivered in school. Second will be a programme for a Reader's Group day which I will be hosting at a school in Doncaster in December. Third, a return to a neglected project which also promises to pay. 
+Hard to believe in some ways - working on writing projects that pay. The sand is shifting a little. It used to just be writing for the love of it, like on here, but bit by infinitesimal bit, the balance is tipping.
+Hope your days treat you well, wherever you are.
+ 
+*******************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+*******************************************************
+Written by davobarbus (Link to this entry) This entry has 6 comments: Show Recent | Add your own
+11 November 2004 10:04:34 o'clock GMT Draughty Flat Drafts: taster for a poem 
+Poems, like old selves, hold the answer.
+They also hold the question.
+Look through the letterbox into the hall of your old self.
+Maybe you can see the future there.
+***
+For a poem and a pic from 1988, click through to my poems.
+To avoid the shock, please plug in to a different socket.
+ 
+*******************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+*******************************************************
+ 
+Written by davobarbus (Link to this entry) This entry has 0 comments: Add your own
+09 November 2004 17:59:21 o'clock GMT The Child is Father to the Man: taster for a poem 
+Sheets that tell a story...
+If you met yourself at the door...
+At the end of the day...
+What would you say?
+My latest poetic offering explores this idea.
+Click through to poems if you fancy it.
+ 
+ 
+**********************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+ 
+**********************************************************
+Written by davobarbus (Link to this entry) This entry has 3 comments: Show Recent | Add your own
+04 November 2004 14:39:53 o'clock GMT Behold the Permafrost King: A taster for a poem 
+'...you are a mammoth 
+you are spectacular 
+you are a king of ice...'
+ 
+Have you ever written a poem deliberately in praise of yourself?
+We run ourselves down often enough.
+Click through to my poems to see what this beastie is all about.
+Then why not have a go yourself?
+**********************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+ 
+**********************************************************
+Written by davobarbus (Link to this entry) This entry has 5 comments: Show Recent | Add your own
+03 November 2004 10:51:16 o'clock GMT Ich Haf Bin in Berlin: 2. Tom, Dick and Harry 
+Well, I'd learnt my numbers and I was particularly looking forward to einundzwanzig.
+ 
+How many beers? 
+ 
+Einundzwanzig bitte. 
+ 
+Unfortunately, because of Fawlty Towers and Dad's Army, the English going to Germany can't help speaking in a mock and shrill Gestapo accent and saying 'Don't mention the war.' Fortunately, though, Jockeybard codenamed A had fluent German and would solve many a problem during our stay.
+ 
+The first problem came on the S-Bahn train from Schonefeld airport to the centre. A train was about to leave. The next wasn't for half an hour. There weren't any rail workers checking tickets. We'll just get on, we decided. You're bound to be able to buy a ticket on the train. And if not, we can just plead Stupid English. We joked about being banged up in Colditz. Vat iz your name?
+ 
+We settled into our seats, broad on-holiday smiles tinged with a slight worry about the rosy ticketing situation. S was reading the guidebook, sitting opposite me. I was taking in the passing countryside and houses, noting the colourful and ubiquitous graffiti. Suddenly S let out one of his half-giggles and gave me his naughty-boy look. He passed me the guidebook, tapping his forefinger on a passage entitled 'Tickets'. He shook his head and, in pantomime fashion, silently mouthed 'Don't tell anyone' then  sat there fightinghis wriggling mirth while I read: 
+ 
+'Vending machines stand at the entrance to all stations. Validation machines are at the entrance to platforms. You must validate your ticket before boarding. You may notice that there are no gates or guards to stop ticketless free-loaders trying their luck on the trains, but attempting to travel free of charge in Berlin is a rather risky business. Trains are patrolled by inspectors in plain clothes. They tend not to accept any excuses; fines for not having a ticket are high.'
+ 
+'Oops,' I said to S and we both cracked up, laughing like slightly bigger schoolboys who aren't too bothered about getting caught. 
+ 
+I passed the book to Sam who was sitting next to me. S and I were laughing like Muttley now as the passage was passed around the Jockeybards. Not one of us said a word. We all just laughed. 
+ 
+Then we hatched our cunning plan. We'd swap to the U-Bahn (underground train) at Alexanderplatz instead of the bigger more-likely-to-have-kommandants station at Potsdamer Platz. Owning up was too risky. Whistling the Great Escape and shaking earth from our trouser legs, we sauntered off the target platform as planned, then moved up a couple of gears to a scuttle. The Switzerland of the U-Bahn was before us. 
+ 
+We were safe. We bought tickets for the U-Bahn and trotted off like a contented camel-train. We were obeying the laws now; and we'd got one over on the Germans, pretty much like the 5-1 footie defeat on German soil. It wasn't until the next day that we realised that we hadn't validated the tickets. We could have been caught and heavily fined anyway.
+ 
+Oh well, 2-0 to the Jockeybards.
+ 
+**********************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+**********************************************************
+ 
+Written by davobarbus (Link to this entry) This entry has 9 comments: Show Recent | Add your own
+02 November 2004 13:47:38 o'clock GMT Bats: A taster for a poem My latest poetry blog post accompanies this pic if you fancy it.
+Just click through to Poems below. 
+ 
+ 
+**********************************************************
+Home Email me Web journal Poems Stories Daves of Old Hire me Guestbook
+ 
+**********************************************************
+Written by davobarbus (Link to this entry) This entry has 0 comments: Add your own
+This Journal has been read times since its creation on 09 June 2004 
+Favourite Sites
+* *Me on Blogit 
+* Blogit Home 
+* *BBC Get Writing 
+* My stuff at the BBC 
+* *Guardian Haiku Competition - a daily challenge with a weekly prize 
+* *The Write Idea - friendly forums dealing in all kinds of writing 
+* *Local Writing Groups (Listed in areas by author.co.uk) 
+* *BBC Writers Room - Opportunities and Tips 
+* *The Weblog Review - good place for finding non-AOL blogs 
+* *Toowrite - runs an excellent ongoing competition for those with a true tale to tell 
+* *Write Words - for UK writers. Looks like a great site, but I haven't been bold enough to join it yet. £35 to join. 
+* *Top 100 Journals - they might all be US ones - haven't looked at them all yet 
+* *Index of My Writing - one of the finest pieces of engineering since Trevithick invented that steam-roller thingy 
+* *Guestbook - for non-aol visitors to leave comments 
+Other Journals
+* Shooting From the Lip 
+* Et Omnia Vanitas 
+* Victoria Parker's TOP SECRETS - Keep Out! 
+* A Last Cigarette 
+* You Are Here 
+* Can I Play With Madness 
+* Lyn's Jottings 
+* La Dolce Vita 
+* The Laughing Sonneteer 
+* Specimen Days 
+* A Pennies Worth (USA) 
+* The Meaning of Life but I Could be Wrong 
+* Driving Without Brakes 
+* One Girl's Head Noise (USA) 
+* List of Journals - very useful for a jolly old global ramble (by Pamela,USA, above) 
+* An Irishman in London 
+* Jeannette's Jottings 
+* Confessions of a Madman(USA) 
+* Random Thoughts of a Domestic Diva (USA) 
+* Starlighter (USA) 
+* Bill's Musings (USA) - for some Ove 
+* Amused (Los Angeles) 
+* Come an Have a Nose - a rollercoaster read 
+* One Summer's Day 
+* The Faces of AOL J-Land 
+* Sara's Days 
+* John M Scalzi's 'By the Way' - a top US blogger with plenty of good tips and links 
+* Moondawg's Parking Lot (USA) - this Knoxville trucker writes with wit and candour. Go visit. 
+ 	     
+Older Entries 	
+    	   Alert Me as Entries are Posted  	
+Get the Feed (Atom/RSS) 	
+  	 
+

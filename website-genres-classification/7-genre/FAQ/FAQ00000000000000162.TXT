@@ -1,0 +1,39 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Real Time Information Page | Back to Main FAQ Page 
+Subject: I1) Where can I get real-time advisories for tropical cyclones? There are two good ways to get these. Either have the advisories sent directly to you via email or visit sites via the World Wide Web. 
+* Option 1: Advisories automatically sent to you
+WX-ATLAN was created for people who want receive, as an email, tropical bulletins originating from the US National Hurricane Center on Atlantic tropical systems. To get information as to how to sign up onto WX-ATLAN, ftp to po.uiuc.edu/wx-talk and use anonymous FTP to retrieve the file WX-TALK.DOC . If you don't have ftp access, contact either Chris Novy or Charley Kline . WX-TROPL is for people who want receive, as an email, tropical bulletins on systems in other basins from the US National Hurricane Center, the Central Pacific Hurricane Center, and the Joint Typhoon Warning Center. To get information as to how to sign up onto WX-TROPL, ftp to po.uiuc.edu/wx-talk and use anonymous FTP to retrieve the file WX-TALK.DOC . If you don't have ftp access, contact either Chris Novy or Charley Kline . 
+* Option 2: Get the advisories via surfing the Web
+The World Wide Web is a great source for real-time tropical cyclone advisories. For brevity here are some reliable http sites (provided by Gary Gray): 
+National Hurricane Center graphics (Advisories, discussions, and analyses)
+ Atlantic Tropical Weather Center (Everything)
+ Weather Underground (Everything)
+ IWIN Tropical Page (Full advisory list)
+ U-Hawaii (Forecast maps for Atlantic and Pacific)
+ IH2000 (Advisories, discussions, images, links, TX info)
+ SUNY Brockport Hurricane Page (Search tool for text products)
+ Terrapin Associates (JAVA animated storm tracking)
+ Storm 2000 (News, advisories, images, etc.)
+ Puerto Rico NWS (Advisories in English & Spanish)
+ U-Hawaii (Advisories, probabilities, maps - all basins)
+ Tampa Bay Online (Local info and advisories)
+Back to Real Time Information Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

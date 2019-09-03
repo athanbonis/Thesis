@@ -1,0 +1,150 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Main FAQ Page 
+   
+version 3.0
+October 16, 2002
+Foreign language versions 
+en español 
+en français 
+Recommended by 
+This is currently a multi-part FAQ (Frequently Asked Questions report) that is in its seventeenth incarnation (version 3.0). However, there may be some errors or discrepancies that have not yet been found. If you do see an item that needs correction, OR if you have any additional questions that you think should be added to this FAQ, please contact me directly. This file contains various definitions, answers for some specific questions, information about the various tropical cyclone basins, provides sites that you can access both real-time information about tropical cyclones, what is available on-line for historical storms, as well as good books to read and various references for tropical cyclones. Keep in mind that this FAQ is not considered a reviewed paper to reference. Its main purpose is to provide quick answers for (naturally) frequently asked questions as well as to be a pointer to various sources of information. 
+I'd like to thank various people for helping to put together this FAQ: Sim Aberson, Jack Beven, Gary Padgett, Tom Berg, Julian Heming, Neal Dorst, Gary Gray, Stephen Caparotta, Steven Young, D. Walston all provided substantial bits to this FAQ. Also thanks to the many people who provided additional questions and information for this FAQ: Bill McCaul, Val Hendry, Marian Jones, Joseph Carobene, Eric Swartz, Ilana Stern, Dave Pace, Dave Blanchard, Ken Fung, James (I R A Aggie) Stricherz, Mike Dettinger, Jan Schloerer, Eric Blake, Jeff Kepert, Frank Woodcock, Roger Edson, Bill Cherepy, Stephen Jascourt, Kelly Dean, Malcolm ???, Jon Gill, Ken Waters, Derek West, Gert van Dijken, George Gumbert III, Edward Reid, Tim Trice, Michael Scott, Kerry Emanuel, George Sambataro, James Lewis Free, Sam Biller, David Faciane, Eric Gross, Jeff Hawkins, Mike Fiorino, Madeleine Hall, Mike Schneider, Jennifer Collins, dhmuzz, Alan Gregersen, Hugh Willoughby and David Roth. Many thanks also to Jan Null for providing the first .html version of the FAQ. If I didn't get to all the suggested FAQs, I'll try to include them in future versions. 
+Much of the on-line information is pulled from Ilana Stern's wonderful "Sources of Meteorological Data FAQ" and I acknowledge the time and effort she has put in in originally compiling this information. Also Gary Gray has put together a very comprehensive listing of tropical cyclone Web sites that I've included here with his permission. 
+Chris Landsea
+Stan Goldenberg 
+Table of Contents
+A : BASIC DEFINITIONS
+A1) What is a hurricane, typhoon, or tropical cyclone?
+ A2) What are "Cape Verde"-type hurricanes?
+ A3) What is a super-typhoon? What is a major hurricane ? What is an intense hurricane ? Updated 
+A4) Where do these easterly waves come from and what causes them?
+ A5) What is a sub-tropical cyclone?
+ A6) How are tropical cyclones different from mid-latitude storms?
+ A7) What is storm surge and how is it different from tidal surge ?
+ A8) What does the acronym "CDO" in a discussion of tropical cyclones mean?
+ A9) What is a TUTT?
+ A10) How do tropical cyclones form ? Updated 
+A11) What is the "eye" ? How is it formed and maintained ?
+ A12) What is a moat in a hurricane ? New 
+B : TROPICAL CYCLONE NAMES
+B1) Why are tropical cyclones named?
+B2) What are the upcoming tropical cyclone names ?
+B3) What names have been retired in the Atlantic basin?
+B4) What is the origin of the name 'hurricane' ? 
+C : TROPICAL CYCLONE MODIFICATION AND MYTHS
+C1) Doesn't the low pressure in the tropical cyclone center cause the storm surge?
+ C2) Doesn't the friction over land kill tropical cyclones?
+ C3) Aren't big tropical cyclones also intense tropical cyclones?
+ C4) Has there ever been an attempt or experiment to reduce the strength of a hurricane ?
+ C5) Why don't we try to destroy tropical cyclones by: (pick one or more) Updated 
+1.  seeding them with silver iodide ? 
+2.  placing a substance on the ocean surface ? 
+3.  nuking them ? 
+4.  adding water absorbing substances ? 
+5.  other means ? 
+C6) During a hurricane are you supposed to have the windows and doors on the storm side closed and the windows and doors on the lee side open ?
+ C7) Should I tape my windows when a hurricane threatens? 
+D : TROPICAL CYCLONE WINDS
+D1) How are Atlantic hurricanes ranked?
+D2) How are Australian tropical cyclones ranked?
+D3) Why do tropical cyclones' winds rotate counter-clockwise (clockwise) in the Northern (Southern) Hemisphere?
+D4) How do I convert from mph to knots (to m/s) and from inches of mercury to mb (to hPa)?
+D5) How does the damage that hurricanes cause increase as a function of wind speed?
+D6) Why are the strongest winds in a hurricane typically on the right side of the storm?
+D7) How much energy does a hurricane release?
+D8) What are "concentric eyewall cycles" (or "eyewall replacement cycles") and why do they cause a hurricane's maximum winds to weaken ? New
+D9) What causes each hurricane to have a different maximum wind speed for that given minimum sea-level pressure? New 
+E : TROPICAL CYCLONE RECORDS
+E1) Which is the most intense tropical cyclone on record?
+ E2) Which tropical cyclone intensified the fastest? Updated 
+E3) Which tropical cyclone has produced the highest storm surge?
+ E4) What are the largest rainfalls associated with tropical cyclones?
+ E5) Which are the largest and smallest tropical cyclones on record?
+ E6) Which tropical cyclone lasted the longest?
+ E7) Which tropical cyclones have caused the most deaths and most damage?
+ E8) What are the average, most, and least tropical cyclones occurring in each basin?
+ E9) What are the most and least tropical cyclones occurring in the Atlantic basin and striking the USA?
+ E10) For the USA, what are the 30 most intense, 30 costliest, and 30 highest death toll hurricanes on record ?
+ E11) What tropical storms and hurricanes have moved from the Atlantic to the Northeast Pacific or visa versa?
+F : TROPICAL CYCLONE FORECASTING
+F1) What regions around the globe have tropical cyclones and who is responsible for forecasting there? Updated 
+F2) What are those track and intensity models that the Atlantic forecasters are talking about in the Inter-Governmental messages?
+F3) What are the various forecasts that are being issued for seasonal tropical cyclone activity around the world ?
+F4) What is Prof. Gray's seasonal hurricane forecast for this year and what are the predictive factors?
+F5) How has Dr. Gray done in previous years of forecasting hurricanes?
+F6) What is the official U.S. Government (NOAA) seasonal hurricane outlook for the Atlantic basin for this year and what are the predictive factors ?
+F7) How has the official U.S. Government (NOAA) seasonal hurricane outlook done in previous years ?
+G : TROPICAL CYCLONE CLIMATOLOGY
+G1) When is hurricane season?
+ G2) How does El Niño-Southern Oscillation affect tropical cyclone activity around the globe?
+ G3) What may happen with tropical cyclone activity in a 2xCO2 world?
+ G4) Are we getting stronger and more frequent hurricanes, typhoons, and tropical cyclones in the last several years?
+ G5) Why do tropical cyclones occur primarily in the summer and autumn?
+ G6) What determines the movement of tropical cyclones?
+ G7) Why doesn't the South Atlantic Ocean experience tropical cyclones?
+ G8) Does an active June and July mean the rest of the season will be busy too?
+ G9) Why do hurricanes hit the East coast of the U.S., but never the West coast?
+ G10) How much lightning occurs in tropical cyclones?
+ G11) What is the 20th century hurricane record for each U.S. coastal state and county?
+ G12) What is my chance of being struck by a tropical storm or hurricane?
+ G13) What is my chance of having a tropical storm or hurricane strike by each month? 
+G14) What is the average number of tropical storms and hurricanes to affect my town? 
+G15)What is the peak number of tropical storms and hurricanes to affect my town? 
+H : TROPICAL CYCLONE OBSERVATION
+H1) What is the Dvorak technique and how is it used?
+ H2) Who are the "Hurricane Hunters" and what are they looking for?
+ H3) What is it like to fly into a hurricane?
+ H4) Can I get a seat on a hurricane flight? New 
+I : REAL TIME INFORMATION
+I1) Where can I get real-time advisories for tropical cyclones?
+ I2) Where can I get real-time tropical weather analyses?
+ I3) Where can I get real-time ship and buoy data?
+ I4) Where can I get real-time sea surface temperature data?
+ I5) Where can I get real-time satellite pictures and satellite products?
+ I6) Where can I get real-time radar data?
+ I7) Where can I get real-time hurricane aircraft reconnaissance data?
+ I8) Where can I get real-time forecasts of tropical cyclone motion?
+ I9) What computer software is available for tracking tropical cyclones? Updated 
+J : HISTORICAL INFORMATION
+J1) Where can I get historical data on tropical cyclones ?
+ J2) What journals have regular articles on tropical cyclones ? Updated 
+J3) What books have been written about tropical cyclones ?
+ J4) What refereed articles were written in recent years on tropical cyclones ?
+K : HURRICANE PREPARATION
+K1) What steps should I take when a hurricane watch/warning is posted?
+ K2) What can I do to make my home/business more disaster resistant? 
+K3) What kind of hurricane shutters are available ?
+ 
+L : HURRICANES versus TORNADOES
+New Section
+ L1) How are tropical cyclones different from tornadoes?
+ L2) Why do tropical cyclones spawn tornadoes?
+ L3) What percentage of tropical cyclones spawn tornadoes?
+ L4 What parts of a tropical cyclone are most favored for tornado formation?
+ L5) How long after landfall are TC tornadoes a threat?
+ L6) Are TC tornadoes weaker than midlatitude tornadoes?
+ L7) What is the largest known outbreak of TC tornadoes?
+ L8) What is the deadliest single TC-spawned tornado? 
+L9) What is the most damaging single TC-spawned tornado? 
+L10) Why are TC tornadoes especially difficult to deal with?
+ 
+Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

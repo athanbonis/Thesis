@@ -1,0 +1,40 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Winds Page | Back to Main FAQ Page 
+   Subject: D5) How does the damage that hurricanes cause increase as a function of wind speed? 
+Or to rephrase the question: Would a minimal 74 mph hurricane cause one half of the damage that a major hurricane with 148 mph winds? No, the amount of damage (at least experienced along the U.S. mainland) does not increase linearly with the wind speed. Instead, the damage produced increases exponentially with the winds. The 148 mph hurricane (a category 4 on the Saffir-Simpson Scale) may produce - on average - up to 250 times the damage of a minimal category 1 hurricane!
+Pielke and Landsea (1998) analyzed the damage caused by various categories of U.S. landfalling tropical storms and hurricanes after normalizing by the inflation rate, increases in wealth and coastal population changes. Tropical cyclones from 1925 through 1995 were tabulated in terms of 1995 U.S. dollars. 
+The following table summarizes the findings: 
+Intensity	 Cases	 Median Damage	 Potential Damage *	 
+Tropical/Subtropical Storm	 118	 less than $1,000,000	 0 	
+Hurricane Category 1	 45	 $33,000,000	 1 	
+Hurricane Category 2	 29	 $336,000,000	 10 	
+Hurricane Category 3	 40	 $1,412,000,000	 50 	
+Hurricane Category 4	 10	 $8,224,000,000	 250 	
+Hurricane Category 5	 2	 $5,973,000,000	 500 	
+* The "Potential Damage" values just provide a reference value if one assigns the median damage caused by a category 1 hurricane to be "1". The rapid increase in damage as the categories go up is apparent. (The value for Category 5 hurricanes in brackets may not be representative of true amounts because of the very small sample [two] available.)
+ Other interesting findings: 
+* Mean annual damage in mainland US is $4,900,000,000. 
+* The worst U.S. hurricane damage - after normalizing to today's population, wealth and dollars - is no longer Hurricane Andrew, but is instead the 1926 Great Miami Hurricane. If this storm hit in the mid-1990s, it is estimated that it would cause over $70 BILLION in South Florida and then an additional $10 BILLION in the Florida panhandle and Alabama. 
+* The United States has at least a 1 in 6 chance of experiencing losses related to hurricanes of at least $10 BILLION on average. 
+* Even though the major hurricanes (the category 3, 4 and 5 storms) comprise only 21% of all US landfalling tropical cyclones, they account for 83% of all of the damage. 
+* Damages have NOT been on the increase once one normalizes for inflation, wealth, and coastal population changes. Instead one sees that hurricane damages that were fairly low during the first two decades of the 20th Century, quite high in the 1920s and 1940s to 1960s, and substantially lower in the 1970s and 1980s. Only during the early 1990s does damage approach the high level of impacts seen back in the 1940s through the 1960s. Thus recent hurricane damages are NOT unprecedented. 
+Back to Tropical Cyclones Winds Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

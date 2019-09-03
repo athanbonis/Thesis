@@ -1,0 +1,104 @@
+
+=====================================================================
+Eric Aaron's Home Page
+=====================================================================
+ 
+Eric Aaron 
+eaaron@cs.rutgers.edu 	
+Research Assistant Professor
+Center for Biomedicine, Imaging, and Modeling (CBIM) and 
+Department of Computer Science
+Division of Computer & Information Sciences
+Rutgers University
+---------------------------------------------------------------------
+* Research Interests
+* CV/List of Publications
+* Primary Research Focus 
+* Animations/Demos 
+* Other Research Areas
+* Other Noteworthy Publications
+* Contact Information
+* Non-academic Stuff
+ 
+---------------------------------------------------------------------
+Research Interests
+Intelligent Virtual Agents, Reasoning About Navigation, Behavioral Animation/Robotics, Hybrid Systems, Applied Logic, Cognitive Modeling, Automated Reasoning and Verification, Eyetracking and Visual Attention 
+---------------------------------------------------------------------
+CV/List of Publications
+My CV is available in PDF and PS formats. 
+There is also a text/html list of my publications, some of which are briefly described in other sections of my web pages. 
+A few recent papers: 
+* Hybrid System Models of Navigation Strategies for Games and Animations.
+E. Aaron, F. Ivancic, and D. Metaxas.
+Proceedings of Hybrid Systems: Computation and Control, LNCS 2289, 7-20, 2002. 
+* Scalable Nonlinear Dynamical Systems for Agent Steering and Crowd Simulation.
+S. Goldenstein, M. Karavelas, D. Metaxas, L. Guibas, E. Aaron, and A. Goswami.
+Computers And Graphics, 25(6), 983-998, 2001. 
+* A Framework for Reasoning about Animation Systems.
+E. Aaron, D. Metaxas, F. Ivancic, and O. Sokolsky.
+Proceedings of the Third International Workshop on Intelligent Virtual Agents, LNAI 2190, 47-60, 2001. 
+---------------------------------------------------------------------
+Primary Research Focus: Verifiable Dynamic Actors
+Motivated by animation, video game development, and robotics, we are developing models of autonomous intelligent actors (e.g., animated agents, navigating robots) that jointly satisfy three goals: 
+* Models capture the low-level evolution of an actor's physical and cognitive states as it moves through its world. 
+* Models can be designed in keeping with natural abstractions that designers wish to apply. 
+* Models support automated assistance in verifying dynamic properties of these actors in dynamic worlds (e.g., with moving targets/goals and moving obstacles). 
+Our modeling approach is based upon the theoretical framework of hybrid dynamical systems (hybrid systems, for short), i.e., systems that combine continuous and discrete dynamics. Hybrid system-based models allow access to low-level dynamics within a state-transition framework. Spatio-temporal properties of the models may be formalized in expressive modal logic formulas for which there are established procedures for verification (model checking). 
+We began by making a concrete connection between hybrid system theory and animation: We directly applied the general-purpose hybrid system modeling tool CHARON to generate multi-agent animations with respect to well-understood theoretical system models. This was a novel, systems-level understanding of navigation strategy for autonomous actorsand a proof of concept that the two disparate disciplines could be productively related. 
+Motivated by the hybrid systems framework, we also designed and implemented a novel high-level navigation system in CHARON. In particular, our system guides the high-level behavior of actors moving through a virtual city. (We contrast global, high-level behavior with local, low-level behavior. For instance, avoiding immediate obstacles and other tasks on the order of local perception are low-level; street selection is high-level.) Each actor has its own mental map and subjective perception of attributes of the world around it. Each actor makes its own navigation decisions in real time, based on the dynamically changing values of attributes in the world around it and its dynamically changing priorities. We coupled this high-level navigation system with the low-level system described above, creating a single hierarchical hybrid system for navigating intelligent virtual agents. 
+We are also exploring ways to apply tools and methods for verifying hybrid systems to verify animation systems. In particular, having employed approximation and abstraction techniques to avoid decidability restrictions on our complex dynamical systems, we are creating a verifier (in MATLAB) that performs model-checking on reachability properties of our hybrid system models. With it, we can answer questions about areas such as: 
+* Collision-avoidance of actors in dynamic worlds; 
+* Quantifiable relative difficulty of different worlds (with multiple metrics); 
+* Cinematographic constraints for animation. 
+I often consider this work from a languages-oriented perspective: We are utilizing hybrid system approximation and abstraction techniques to create a little language with a semantic structure that supports the above kinds of analysis. We are continuing to enrich our semantic tools and formalize the syntax of this language, to improve the tractability of verification and make the language more useful for designers of navigating actors, animations, and video games. Our primary focus is on animations, but our work also has natural potential applications for robotics. 
+---------------------------------------------------------------------
+Animations/Demos
+As part of our research, we generated some multi-agent animations using MATLAB or the hybrid system specification and simulation tool CHARON. 
+For the most part, these animations are cited in our publications, such as: 
+* Supplementary material for A Hybrid Dynamical Systems Approach to Intelligent Low-Level Navigation.
+E. Aaron, H. Sun, F. Ivancic, and D. Metaxas.
+Proceedings of Computer Animation 2002, 154-163, 2002. 
+* Supplementary material for Hybrid System Models of Navigation Strategies for Games and Animations.
+E. Aaron, F. Ivancic, and D. Metaxas.
+Proceedings of Hybrid Systems: Computation and Control, LNCS 2289, 7-20, 2002. 
+* Supplementary material for A Framework for Reasoning about Animation Systems.
+E. Aaron, D. Metaxas, F. Ivancic, and O. Sokolsky.
+Proceedings of the Third International Workshop on Intelligent Virtual Agents, LNAI 2190, 47-60, 2001. 
+Supplementary materials for papers often include CHARON output and other information as well as animations. 
+---------------------------------------------------------------------
+Other Research Areas and Interests
+Cognitive Logical Inference and Student Modeling
+Before turning my attention to intelligent virtual agents and animation systems, I developed formalized mathematical tactics for cognitive inference modeling. Like the Verifiable Dynamic Actors work, this is also Verification-Motivated Intelligence Modeling; this area, too, involves developing models of complex intelligent behavior in a framework that supports fine-grained, detailed analysis. Unlike the hybrid systems and model checking frameworks for Verifiable Dynamic Actors, however, these models utilize the highly rigorous methods of tactic-based automated theorem proving. 
+I concentrated in particular on developing a model of undergraduate students carrying out logical proofs in a structured framework, but the ideas underlying the work are not student-specific. The many facets of this work are described in my dissertation, Tactic-Based Modeling of Cognitive Inference on Logically Structured Notation. I have also written papers on its components, which range from logic and formalized mathematics (Justifying calculational logic by a conventional metalinguistic semantics) to cognitive science and eyetracking research (Insight into theorem proving via eye movements). To conserve space here, I put a brief but significantly more descriptive introduction to my dissertation research on a separate page. 
+Explanation
+Related to all the research areas noted above, I am also interested in the phenomenon of explanation, effectively expressing and evaluating the results of analysis. Explanation has a particularly interesting connection to verification: The full depth and detail of verification may not be necessary for explaining the results of analysis to every possible audience, but a verification-oriented analysis provides a rich foundation for a range of possible explanations. 
+Explanation is a high-level goal, built on top of the models of intelligence. The Verifiable Dynamic Actors project is not yet able to support explanation-oriented results, although that is an eventual goal. In the Student Modeling work, there is a persistent concern with explanation: We build up from simple axioms and rules to complex tactics that capture how students explain their inference (in accord with externally specified, normative standards). 
+In addition, my paper Frequency vs. probability formats: Framing the three doors problem (more description) touches upon the topic in an experimental psychology context. It investigates how well people understand how they arrive at their answer when confronted with "The Monty Hall Problem." 
+---------------------------------------------------------------------
+Other Noteworthy Publications
+* Modal Logic Semantics
+One way to avoid difficulties with partial functions is by employing the notion of underspecification. In modal logic S5 and some semantically related logics, underspecification preserves validity, so incorporating underspecification into their semantics does not change the classes of valid formulae. A formalization of underspecification and results for these modal logics are concisely presented in Formal justification of underspecification for S5. (co-author: David Gries) 
+* The Three Doors Problem
+ The notorious brainteaser "The Three Doors Problem" (also called "The Monty Hall Problem") is the source of much debate. Would people be more likely to correctly perform the underlying mathematics if the puzzle were presented in a frequency format rather than a probability format? Would people be more likely to arrive at the correct answer? Results are reported in Frequency vs. probability formats: Framing the three doors problem (PDF version). (co-author: Michael Spivey) 
+* Nuprl
+Most documentation about the Nuprl automated reasoning system has been written from an "insider's" perspective. I used the system but was not involved in its development; I have a user's perspective. My A User-Level Introduction to the Nuprl Proof Development System (PS version) was solicited by the Nuprl group at Cornell University. 
+---------------------------------------------------------------------
+Contact Information
+Eric Aaron
+Department of Computer Science 
+Rutgers University 
+110 Frelinghuysen Road
+Hill Center - Busch Campus
+Piscataway, NJ 08854
+Email: eaaron@cs.rutgers.edu 
+Phone: (732) 445-2380 
+Fax: (732) 445-0537
+ Office: 137 CBIM
+Office: A122 RUCCS
+http://www.cs.rutgers.edu/~eaaron 	
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Non-academic stuff
+Music is one of my most important non-academic interests. I have written about music (album reviews and features), broadcast as a jazz DJ (a weekly commercial radio show), and played in a few rock bands that successfully made it out of the garage. 		
+---------------------------------------------------------------------
+Eric Aaron, eaaron@cs.rutgers.edu 

@@ -1,0 +1,128 @@
+
+=====================================================================
+CERT/CC Intruder Detection Checklist
+=====================================================================
+ 
+ 	 
+Options
+Advisories
+US-CERT Vulnerability Notes Database
+Incident Notes
+Current Activity 
+ Related 	
+Summaries
+Tech Tips
+AirCERT
+Employment Opportunities 
+ more links	 
+CERT Statistics
+Vulnerability Disclosure Policy
+CERT Knowledgebase
+System Administrator courses
+CSIRT courses
+Other Sources of Security Information
+Channels 
+ Message	 
+Visit wap.cert.org for wireless advisories. 
+Related Sites	 
+CERT&reg Coordination Center
+Intruder Detection Checklist
+---------------------------------------------------------------------
+Introduction 
+* Look for Signs That Your System May Have Been Compromised 
+* Examine log files 
+* Look for setuid and setgid Files 
+* Check system binaries 
+* Check for packet sniffers 
+* Examine files run by 'cron' and 'at'. 
+* Check for unauthorized services 
+* Examine /etc/passwd file 
+* Check system and network configuration 
+* Look everywhere for unusual or hidden files 
+* Examine all machines on the local network 
+* Review Other CERT Documents 
+* CERT Summaries 
+* "Steps for Recovering from a UNIX Root Compromise" 
+* Contacting CERT/CC 
+Revision History 
+---------------------------------------------------------------------
+This document outlines suggested steps for determining if your system has been compromised. System administrators can use this information to look for several types of break-ins. We encourage you to review all sections of this document and modify your systems to close potential weaknesses. 
+In addition to the information in this document, we provide three companion documents that may help you: 
+* http://www.cert.org/tech_tips/unix_configuration_guidelines.html
+ contains suggestions for avoiding common UNIX system configuration problems that have been exploited 
+* http://www.cert.org/tech_tips/root_compromise.html
+ contains suggested steps for recovering from a root compromise on a UNIX system 
+* http://www.cert.org/tech_tips/security_tools.html
+ contains descriptions of tools that can be used to help secure a system and deter break-ins 
+We also encourage you to check with your vendor(s) regularly for any updates or new patches that relate to your systems. 
+---------------------------------------------------------------------
+* Look For Signs That Your System May Have Been Compromised 
+Note that all action taken during the course of an investigation should be in accordance with your organization's policies and procedures. 
+* Examine log files for connections from unusual locations or other unusual activity. For example, look at your 'last' log, process accounting, all logs created by syslog, and other security logs. If your firewall or router writes logs to a different location than the compromised system, remember to check these logs also. Note that this is not foolproof unless you log to append-only media; many intruders edit log files in an attempt to hide their activity. 
+* Look for setuid and setgid files (especially setuid root files) everywhere on your system. Intruders often leave setuid copies of /bin/sh or /bin/time around to allow them root access at a late time. The UNIX find(1) program can be used to hunt for setuid and/or setgid files. For example, you can use the following commands to find setuid root files and setgid kmem files on the entire file system: 
+find / -user root -perm -4000 -print
+        find / -group kmem -perm -2000 -print
+Note that the above examples search the entire directory tree, including NFS/AFS mounted file systems. Some find(1) commands support an "-xdev" option to avoid searching those hierarchies. For example: 
+find / -user root -perm -4000 -print -xdev
+Another way to search for setuid files is to use the ncheck(8) command on each disk partition. For example, use the following command to search for setuid files and special devices on the disk partition /dev/rsd0g: 
+ncheck -s /dev/rsd0g
+* Check your system binaries to make sure that they haven't been altered. We've seen intruders change programs on UNIX systems such as login, su, telnet, netstat, ifconfig, ls, find, du, df, libc, sync, any binaries referenced in /etc/inetd.conf, and other critical network and system programs and shared object libraries. Compare the versions on your systems with known good copies, such as those from your initial installation media. Be careful of trusting backups; your backups could also contain Trojan horses. 
+Trojan horse programs may produce the same standard checksum and timestamp as the legitimate version. Because of this, the standard UNIX sum(1) command and the timestamps associated with the programs are not sufficient to determine whether the programs have been replaced. The use of cmp(1), MD5, Tripwire, and other cryptographic checksum tools is sufficient to detect these Trojan horse programs, provided the checksum tools themselves are kept secure and are not available for modification by the intruder. Additionally, you may want to consider using a tool (PGP, for example) to "sign" the output generated by MD5 or Tripwire, for future reference.
+* Check your systems for unauthorized use of a network monitoring program, commonly called a sniffer or packet sniffer. Intruders may use a sniffer to capture user account and password information. For related information, see CERT advisory CA-94:01 available in http://www.cert.org/advisories/CA-94.01.ongoing.network.monitoring.attacks.html 
+* Examine all the files that are run by 'cron' and 'at.' We've seen intruders leave back doors in files run from 'cron' or submitted to 'at.' These techniques can let an intruder back on the system (even after you believe you had addressed the original compromise). Also, verify that all files/programs referenced (directly or indirectly) by the 'cron' and 'at' jobs, and the job files themselves, are not world-writable. 
+* Check for unauthorized services. Inspect /etc/inetd.conf for unauthorized additions or changes. In particular, search for entries that execute a shell program (for example, /bin/sh or /bin/csh) and check all programs that are specified in /etc/inetd.conf to verify that they are correct and haven't been replaced by Trojan horse programs. 
+Also check for legitimate services that you have commented out in your /etc/inetd.conf. Intruders may turn on a service that you previously thought you had turned off, or replace the inetd program with a Trojan horse program. 
+* Examine the /etc/passwd file on the system and check for modifications to that file. In particular, look for the unauthorized creation of new accounts, accounts with no passwords, or UID changes (especially UID 0) to existing accounts. 
+* Check your system and network configuration files for unauthorized entries. In particular, look for '+' (plus sign) entries and inappropriate non-local host names in /etc/hosts.equiv, /etc/hosts.lpd, and in all .rhosts files (especially root, uucp, ftp, and other system accounts) on the system. These files should not be world-writable. Furthermore, confirm that these files existed prior to any intrusion and were not created by the intruder. 
+* Look everywhere on the system for unusual or hidden files (files that start with a period and are normally not shown by 'ls'), as these can be used to hide tools and information (password cracking programs, password files from other systems, etc.). A common technique on UNIX systems is to put a hidden directory in a user's account with an unusual name, something like '...' or '.. ' (dot dot space) or '..^G' (dot dot control-G). Again, the find(1) program can be used to look for hidden files, for example: 
+find / -name ".. " -print -xdev
+find / -name ".*" -print -xdev | cat -v
+Also, files with names such as '.xx' and '.mail' have been used (that is, files that might appear to be normal). 
+* Examine all machines on the local network when searching for signs of intrusion. Most of the time, if one host has been compromised, others on the network have been, too. This is especially true for networks where NIS is running or where hosts trust each other through the use of .rhosts files and/or /etc/hosts.equiv files. Also, check hosts for which your users share .rhosts access. 
+* Review Other CERT Documents 
+* For further information about the types of attack that have recently been reported to the CERT Coordination Center and for a list of new or updated files that are available for anonymous FTP, see our past CERT Summaries, available in the directory 
+http://www.cert.org/summaries/ 
+* If you suspect that your system has been compromised, please review the suggested steps in "Steps for Recovering from a UNIX Root Compromise," available from 
+http://www.cert.org/tech_tips/root_compromise.html 
+Also review other appropriate files in our tech_tips directory. 
+* To report a computer security incident to the CERT Coordination Center, please complete and return a copy of our Incident Reporting Form, available from 
+http://www.cert.org/ftp/incident_reporting_form 
+The information on the form helps us provide the best assistance, as it enables us to understand the scope of the incident, to determine if your incident may be related to any other incidents that have been reported to us, and to identify trends in intruder activities. 
+---------------------------------------------------------------------
+This document is available from: http://www.cert.org/tech_tips/intruder_detection_checklist.html 
+---------------------------------------------------------------------
+CERT/CC Contact Information
+Email: cert@cert.org
+Phone: +1 412-268-7090 (24-hour hotline)
+Fax: +1 412-268-6989
+Postal address:
+CERT Coordination Center
+Software Engineering Institute
+Carnegie Mellon University
+Pittsburgh PA 15213-3890
+U.S.A.
+CERT/CC personnel answer the hotline 08:00-17:00 EST(GMT-5) / EDT(GMT-4) Monday through Friday; they are on call for emergencies during other hours, on U.S. holidays, and on weekends. 
+Using encryption
+We strongly urge you to encrypt sensitive information sent by email. Our public PGP key is available from 
+http://www.cert.org/CERT_PGP.key 
+If you prefer to use DES, please call the CERT hotline for more information. 
+Getting security information
+CERT publications and other security information are available from our web site 
+http://www.cert.org/ 
+* "CERT" and "CERT Coordination Center" are registered in the U.S. Patent and Trademark Office. 
+---------------------------------------------------------------------
+NO WARRANTY
+Any material furnished by Carnegie Mellon University and the Software Engineering Institute is furnished on an "as is" basis. Carnegie Mellon University makes no warranties of any kind, either expressed or implied as to any matter including, but not limited to, warranty of fitness for a particular purpose or merchantability, exclusivity or results obtained from use of the material. Carnegie Mellon University does not make any warranty of any kind with respect to freedom from patent, trademark, or copyright infringement. 
+---------------------------------------------------------------------
+Conditions for use, disclaimers, and sponsorship information 
+Copyright Carnegie Mellon University 1999
+---------------------------------------------------------------------
+Revision History 	
+Oct 03, 1997
+Feb 12, 1999
+Jul 20, 1999
+Initial Release
+Converted to new web format
+Converted ftp:// URL's to http:// URL's
+---------------------------------------------------------------------
+

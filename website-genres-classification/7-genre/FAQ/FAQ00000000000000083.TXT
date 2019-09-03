@@ -1,0 +1,87 @@
+
+=====================================================================
+Frequently Asked Questions - 12.6 Forms 941, 940, Employment Taxes
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+12.6 Small Business/Self-Employed/Other Business : Forms 941, 940, Employment Taxes
+If you do not have any employees for a particular quarter, do you have to file an Employer's Quarterly Federal Tax Return Form 941?
+Seasonal employers are not required to file for quarters when they regularly have no tax liability because they have paid no wages. To alert the IRS that you will not have to file a return for one or more quarters during the year, check the seasonal employer box above line 1 on Form 941. The IRS will mail two Forms 941 to you once a year after March 1. The preprinted name and address information will not include the date the quarter ended. You must enter the date the quarter ended when you file the return. The IRS generally will not inquire about unfiled returns if at least one return showing tax due is filed each year. However, you must check the seasonal employer box on each quarterly return you file. Otherwise, the IRS will expect a return to be filed for each quarter. 
+For any employer, who no longer has employees, a final return should be filed for the last quarter during which you had employees. 
+References: 
+* Instructions for Form 941, Employer's Quarterly Federal Tax Return 
+All of the Forms 941 that I can find ask for the number of employees on record as of March 12th. Is there a similar form for the second quarter?
+The Form 941 is the same for all 4 quarters. Only on the January-March calendar quarter Form 941 should you enter the number of employees on your payroll during the pay period that includes March 12. You do not need to answer this question on the Forms 941 for the other 3 quarters. 
+References: 
+* Instructions for Form 941, Employer's Quarterly Federal Tax Return 
+We are about to hire employees and need to know how much tax to take out and where to send this money?
+You will need to secure a completed Form W-4 (PDF), Employee's Withholding Allowance Certificate, from each employee. You will need Publication 15, Circular E, Employer's Tax Guide, and Publication 15-A (PDF), Employer's Supplemental Tax Guide, to determine the amount of withholding and for directions on depositing the withholding amounts and other employment taxes. Publication 15T, New Withholding Tables contains the revised withholding tables. The change is a result of the Jobs and Growth Tax Relief Reconciliation Act of 2003. This publication is a supplement to Publication 15. 
+Generally, employers will quarterly file Form 941 (PDF), Employer's Quarterly Federal Tax Return, and annually file Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return (FUTA), and Form W-2 (PDF), Wage and Tax Statement, with Form W-3 (PDF), Transmittal of Income and Tax Statements. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Form 941 (PDF), Employer's Quarterly Federal Tax Return 
+* Form W-2 (PDF), Wage and Tax Statement 
+* Form W-3 (PDF), Transmittal of Income and Tax Statements 
+* Form W-4 (PDF), Employee's Withholding Allowance Certificate 
+* Publication 15-T (PDF) , New Withholding Tables (For wages Paid Through December 2004) 
+What is the federal unemployment tax rate for 2003?
+The federal unemployment tax rate for 2003 remains at 6.2% and is still figured on the first $7,000 of wages you paid each employee in 2003. However, if you have timely paid state unemployment contributions on the same wages, you can be eligible for a credit. For specific information, refer to Tax Topic 760, Form 940 (PDF) or Form 940EZ (PDF) - Employer's Annual Federal Unemployment Tax Returns , or Publication 15, Circular E, Employer's Tax Guide . 
+References: 
+* Form 940 (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Form 940EZ (PDF), Employer's Annual Federal Unemployment Tax Return 
+* Tax Topic 760, Form 940/940-EZ - Employer's annual federal unemployment tax return 
+* Publication 15, Circular E, Employer's Tax Guide 
+If a new employee has reached the limit for social security wage base with a previous employer in the same year, does the new employer need to withhold FICA taxes on wages paid for both the company and employee?
+Yes, the social security wages base limit is applied to each separately employer. The individual employee is subject to social security taxes up to the maximum amount from each employer. As a result of an employee working for two or more employers in the same year, social security tax in excess of the maximum wage base may be withheld from his or her pay. An employee can claim the excess of social security tax withheld from pay resulting from working for two or more employers as a credit against the employee's income tax when filing Form 1040 (PDF), U.S. Individual Income Tax Return. However, there is no provision for an employer to get a credit for the employer portion of social security tax paid in this situation. There is no wage limit on the Hospital Insurance tax. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+We have an employee who has reached the limit for social security tax. We understand that this limits withholding requirements on the employee's portion of social security tax. However, is the employer still required to contribute their portion of the social security tax for this employee?
+The employer is subject to the same social security tax rate and wage base limits as the employee. When the employee reaches their limitation, the employer also reaches the limitation and no longer has to pay social security taxes for that employee. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+If an employee is collecting social security benefits, is the employer required to take out social security and medicare taxes?
+Yes, the employer is required to follow the withholding requirements for social security and medicare taxes even if an employee is collecting social security benefits. Per Chapter 9 of Publication 15, Circular E, Employer's Tax Guide, employee wages are subject to social security and Medicare taxes regardless of the employee's age or whether he or she is receiving social security benefits. 
+References: 
+* Publication 15, Circular E, Employer's Tax Guide 
+What are the maximum wages subject to social security and the maximum social security tax to be withheld for 2003?
+The maximum wages subject to social security is $87,000 for 2003 resulting in a maximum for the employee portion of social security tax of $5,394.00 (of course, there is no limit on wages subject to medicare tax). Additional information can be found at the Social Security Administration web site. 
+References: 
+* Social Security Administration 
+* Publication 15, Circular E, Employer's Tax Guide 
+Are housing allowances for ministers subject to social security and Medicare taxes?
+Yes, housing allowances for ministers are subject to social security and Medicare taxes, under the Self-Employment Contributions Act. However, if you are a duly ordained, commissioned, or licensed minister of a church, a member of a religious order not under a vow of poverty, or a Christian Science practitioner who elected and was approved for exemption from social security coverage and self-employment tax, your housing allowance would not be subject to social security or Medicare taxes. Refer to Publication 517, Social Security and Other Information for Members of the Clergy and Religious Workers, for additional information. 
+References: 
+* Publication 517, Social Security and Other Information for Members of the Clergy and Religious Workers 
+* Form 4361 (PDF), Application for Exemption from Self-Employment Tax for Use by Ministers, Members of Religious Orders, and Christian Science Practitioners 
+We hired a nanny to look after our baby while we work. We would like to make it all legal, i.e. pay her social security taxes and so forth. How do we do this?
+A nanny is considered a household employee. A household employer only has to pay social security and Medicare tax for the employee(s) that receive $1,400 or more in cash wages for the year 2003. If the amount paid is less than $1,400, no social security or Medicare tax is owed. The taxes are 15.3% of cash wages. Your share is 7.65% and the employee's share is 7.65%. You can choose to pay the employee's share yourself and not withhold it. You may also be responsible for paying federal unemployment taxes. For directions on household employees, refer to Publication 926, Household Employer's Tax Guide. 
+References: 
+* Publication 926, Household Employer's Tax Guide 
+* Form 1040, Schedule H (PDF), Household Employment Taxes 
+* Tax Topic 756, Employment taxes for household employees 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

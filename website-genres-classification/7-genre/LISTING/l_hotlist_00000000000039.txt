@@ -1,0 +1,1489 @@
+
+=====================================================================
+Gerald's Big, Bad, and Ugly Hotlist
+=====================================================================
+ 
+Gerald's Big, Bad, and Ugly Hotlist
+Current | HTML docs | HTML style | Web docs | Web scripts | Searching | Jobs | Perl | Literature | Information | Documentation | Gateways | Cool sites | Travel | Ideas/images to steal | Site lists | Commercial | HURL-related | Other | Misc. Search this list for: 
+More than half of this tome is in the "Unclassified" section now... ugh. One day I'll get around to reorganizing it; in the meantime I find stuff I want using the search form... 
+World Wide Web stuff:
+* HTML documentation: 
+* HTML Quick Reference (05/25/94) 
+* ISO Latin 1 Entities in HTML 
+* HTML Design Notebook 
+* Mosaic for X version 2.0 Fill-Out Form Support 
+* Fill-Out Form Example w/ Hidden Elements (#13) 
+* HTML Server Side Include Directives 
+* NCSA httpd Image Mapping 
+* JHU/APL's WWW & HTML Developer's JumpStation - ver 1.5 (12 June 1994) 
+* Standard Generalized Markup Language (SGML) 
+* Kali-Jot -- Symmetry Drawing Program for the Web 
+* Transparent Background Images 
+* SGML Web Page 
+* SGML 
+* Gopher server 
+* perlSGML 
+* A biased review of SGML 
+* HTML style: 
+* Elements of HTML Style 
+* Bad Style Page 
+* The HTML Sins according to Gabe 
+* How to write HTML files 
+* Web documentation: 
+* Mosaic 2.0 X Resources 
+* Getstats 
+* The W3Kit Object Library for Interactive WWW Applications 
+* Mosaic User Authentication Tutorial 
+* World Wide Web FAQ 
+* Virtual Library/CyberWeb: WWW Development 
+* Mailing Lists about the World-Wide Web maintained outside CERN 
+* Hyper-G W3 Entry Point (Informationssystem der TU Graz / DVR: 008 1833) 
+* World Wide Web FAQs and Guides 
+* Third International World-Wide Web Conference 
+* Becoming a Web-Head 
+* GNN Best of the Net Honorees 
+* HTML 2.0 Specification (draft) 
+* HTML Specification Review Materials 
+* Remote file ftp.isri.unlv.edu/pub/mirror/infosystems 
+* Remote file ftp.denet.dk/pub/infosys/www/doc 
+* Web scripts: 
+* Contents of scripts 
+* The LaTeX2HTML Translator 
+* World Wide Web Tools 
+* HTML converters 
+* wusage 3.2 
+* Verify Web Links 
+* Gopher server (link checking program is here) 
+* Graphic wwwstat --- gwstat 
+* Un-CGI version 1.1 
+* Contents of scripts 
+* Executing Shell Scripts Inside Mosaic 
+* Using Mosaic by Remote Control 
+* Your client info 
+* The Creative Internet: Script Demos 
+* Remote file ftp.tdb.uu.se/pub/sources/html2ps 
+* Cardiff's usage statistics in graph form 
+* Perl Scripts 
+* Weblint Home Page 
+* Weblint 
+* HTML Validation Service 
+* Contents of scripts 
+* SCG Script Archive 
+* Remote file ftp.denet.dk/pub/infosys/www/dev 
+* gd 1.0 - A graphics library for fast GIF creation 
+* Web-related software: 
+* Remote file ftp.ncsa.uiuc.edu/Web/httpd/Unix/ncsa_httpd 
+* Remote file freehep.scri.fsu.edu/freehep/networking_email_news/midaswww 
+* City University, HTML Editor. 
+* Phoenix 0.1.7 Announcement 
+* WN -- a server for the HTTP 
+* htmlchek HTML syntax and cross-reference checker version 3.0, December 1 1994 
+Search Engines:
+* W3 Search Engines 
+* JumpStation II Server Scanner Page 
+* Query Interface to the WWW Home Pages Harvest Broker 
+* Oldenburg Archie Gateway 
+* Usenet FAQ Search 
+* Yahoo Search 
+* XFIND index of CERN 
+* Lycos search: 
+* ArchiePlexForm 
+* The Lycos Home Page: Hunting WWW Information 
+* JumpStation II Document Search Page 
+* WebCrawler Searching 
+* Interactive RFC Index 
+* JumpStation II Front Page 
+* JumpStation II Document Search Page 
+* Usenet FAQ Search 
+* Yahoo - A Guide to WWW 
+Jobs:
+* Papyrus Media Careers On Line - Job Search 
+* The SPAN Consultancy Beginners Guide to Contracting 
+* Hewlett Packard Graphics Lab Openings 
+* The CyberWeb: Jobs 
+* CyberWeb SoftWare 
+* JOB SEEKER'S HELP 
+* Untitled, URL http://view.ubc.ca/0/admin-and-campus/job-postings/professional 
+* Untitled, URL http://www.io.org/~jwsmith/listing.html 
+* Jason Smith's TechnoCycle WWW Pages 
+* CareerMosaic Page 1 
+Perl:
+* PERL 
+* Perl reference materials 
+* The PERL programming language 
+* Remote file ftp.funet.fi/pub/languages/perl/doc/ora/llama/learning_perl 
+* Remote file ftp.funet.fi/pub/languages/perl 
+* Remote file ftp.funet.fi/pub/languages/perl/doc/info/lwall-quotes 
+Online literature:
+* Verbiage Magazine Issue #1 
+* Umneys Last Fall 
+* TOPICAL FIELDS 
+* Publishers' Catalogs Home Page 
+* The Hacker Crackdown 
+* The English Server 
+* The Devil's Dictionary 
+* The ETEXT Archives 
+* Project Gutenberg 
+* Books On-line, Listed by Title 
+* As We May Think 
+* Entertainment:Books:Authors 
+* Art:Literature:Classics:Jane Austen 
+* Art:Literature 
+* Entertainment:Books 
+* Humanities 
+* The On-line Books Page 
+* The Devil's Dictionary 
+* Library WWW Servers 
+* Virtual Reference Desk 
+* Literary Kicks 
+Online information / statistics:
+* WWW Drug Information Server (at Paranoia) 
+* SunSITE-based Government Documents 
+* GVU Center NSFNET Statistics 
+* Internet Domain Survey, July 1994 
+* Internet Domain Survey 
+* Geographic Name Server/Xerox Map Gateway 
+* List of USENET FAQs 
+* U. S. Bureau of the Census Home Page 
+* Phone, E-mail, X.400, X.500 Directories 
+* Keyword Search of the U.S. Patent and Trademark Office Data 
+* Untitled, URL http://www.nw.com/zone/iso-country-codes 
+* Statistics Canada 
+* Index of /zone/ 
+* Library of Historical Documents 
+* Government of Canada electronic publications 
+* Constitutional documents 
+* Open Government - Gouvernement Ouvert 
+* (Spider's Web) Grolier's Encyclopedia 
+* Untitled, URL http://www.interlog.com/eye/News/Eyenet/Canter-Siegel/godwin.txt 
+* IMPORTANT PROCLAMATION: THE FUTURE OF THE NET IS AT HAND! 
+* Maps of the Matrix and of the Internet, MIDS. 
+* Remote file ftp.cs.wisc.edu/connectivity_table 
+* Remote file ftp.supernet.ab.ca/pub/docs/usenet/acronyms.txt 
+* The Role of Unix in the Development of the Net 
+* Computing Dictionary 
+* The Internet Index 
+* The Hacker Test 
+* Appendix F: Weights and Measures 
+* CNN News 
+* GVU Center NSFNET Statistics 
+* Web66 Statistical Ramble 
+* GNN's: Measuring the Net 
+Online documentation:
+* Perl Manual (Texinfo version) - Table of Contents 
+* Free On-line Dictionary of Computing 
+* Internet Request For Comments (RFC) 
+* UF/NA Perl Archive 
+* SGML (Standard Generalized Markup Language) 
+* CSUWEB: RTFM, Web Style 
+* UNIXhelp for users 
+* LEARN C/C++ TODAY 
+* Remote file alf.uib.no/pub/vi 
+* Remote file alf.uib.no/pub/vi/comp.editors 
+* CERN AFS User's Guide version 1.0 
+* Help On LaTeX 
+Gateways:
+* Hypertext Webster Interface 
+* Say... 
+* WWW-Finger Gateway with Faces 
+* English-German Dictionary 
+* Untitled, URL http://www.eps.mcgill.ca/jargon/jargon.htm 
+* roget's thesaurus 
+Cool sites:
+* Hypertext front-end to the rec.arts.movies (Cardiff UK) 
+* Geometry Center Software 
+* Experimental Stock Market Data 
+* Security APL Quote Server 
+* WWW Projects at Penn 
+* UWI's Web's Edge 
+* WX-GIF's to go 
+* GRN USENET virtual newsgroups 
+* IKE - IBM Kiosk for Education 
+* Trojan Room Coffee Machine 
+* Computer Vision Home Page 
+* SurfNet 
+* Canadian Geographic Names -- Querying (Short Form) 
+* The Human-Languages Page 
+* Upcoming guests on "Late Show with David Letterman" (U.S. schedule) 
+* Web Wide World of Music 
+* The Ultimate Band List - Main Page 
+* Wide World Web Wonder Widget -- Mozilla Printing 
+* Resources for Building with Straw Bales 
+* International MPEG Bizarre 1st Film Festival (I'M B1FF!) 
+* The Tragically Hip Homepage 
+* Canadiana -- The Canadian Resource Page 
+* Guide to Lock Picking 
+* Browse Late Night Talk Show Monologues 
+* Gabriel's Hype Catalogue 
+* Mr. Potato Head 
+* Useless WWW Pages 
+* Travels with Samantha Table of Contents 
+* Duck hunt 
+* Indicateur des métros / Subway navigator 
+* Virtually Reality Home Page 
+* Netstuff Home Page 
+* Stupid HTTP Proxy Tricks 
+* Poster Children of the Apocalypse 
+* Coolest Hostnames on the Net 
+* Untitled, URL http://www.seas.upenn.edu/~mengwong/humour/gmhelp.txt 
+* The Nine Planets 
+* Insect Recipes 
+* The Internet Fax Server 
+* The Gallery 
+* ADULT HEAD FROZEN TISSUE SECTIONS 
+* Strange mutants 
+* Beavis and Butt-Head Home Page 
+* The GNN/Koblas Currency Converter 
+* Julia's Home Page 
+* The Asylum 
+* Zarf's List of Interactive Games on the Web 
+* SurfNet 
+* The Nine Planets 
+* Bill Gates is my friend... 
+Travel information:
+* Remote file ftp.cc.umanitoba.ca/rec-travel/europe 
+* Singapore Online Guide 
+* Travelers' Tales Resource Center 
+* Guide to Australia 
+* Travel 
+* Pictures from Paris 
+* Young People's Guide to Munich 
+* PARIS.METRO 
+* PARIS 
+Ideas/images to steal:
+* GSQL - a Mosaic-SQL gateway 
+* Acronyms 
+* Index of /hypertext/WWW/Icons 
+* IMAGES, ICONS AND FLAGS 
+* Edmonton , Alberta 
+* Edmonton , Alberta 
+* Beer labels and Coasters (images here for home page) 
+* Department of Computer Science: Icon Browser 
+* Image and Multimedia Library 
+* Department of Computer Science: Icon Browser 
+Good site lists:
+* Even More Comprehensive HTTP SiteList 
+* Subjective Electronic Information Repository 
+* Untitled, URL http://www.cs.colorado.edu/home/mcbryan/WWWW_title.html 
+* nj's Hotlist 
+* Andrew's Hotlist 
+* What's Hot and Cool 
+* Netsurfer Digest 
+* Yahoo - A Guide to WWW 
+* Special Internet Connections: Last update 9/1/94 
+* Gopher servers added lately to the net 
+* Gopher Jewels... 
+* MIT Home Pages 
+* Companies and Organizations on the WWW 
+* The Awesome List 1.25 
+* Adam and the gang's favorite web pages 
+* User Hotlists 
+* santa cruz geek houses 
+* The InterNIC InfoGuide Home Page 
+* Rob Berry's List Of Links 
+* Previous Cool Sites of the Day 
+* Tezcat's Vast, Funky Index 
+* Christian's favourite links 
+* World Wide Web Robots, Wanderers, and Spiders 
+* College and University Home Pages 
+* Ducky's List Of Pointers 
+* Cool Site of the Day 
+* TAG Online Mall's listing of Other Interesting WWW Pages 
+* Interesting WWW Links 
+* The Whole Internet Catalog 
+Commercial sites (and other organizations):
+* AT&T 
+* Digital Equipment Corporation 
+* Hewlett-Packard 
+* IBM 
+* Microsoft Corporation 
+* NASA 
+* Novell Inc. 
+* O'Reilly & Associates, Inc. 
+* SGI 
+* Sun Microsystems 
+* Wired Magazine 
+* Oceania -- The Atlantis Project 
+* CRTC Home Page 
+* CBC Radio on The Internet 
+* IBM Internet Connection - Home 
+* Central Intelligence Agency Home Page 
+* Apple Computer Home Page 
+* NeXT Computer Home Page 
+* OSF Home Page 
+* OSF Research Institute 
+* Andersen Consulting 
+* Sony 
+* Pathfinder Home Page 
+* Microsoft Corporation World-Wide-Web Server 
+* Welcome to ISO Online 
+HURL-Related Things:
+* Similar projects, software I can use, interface ideas, etc.: 
+* Glimpse Working Group - University of Arizona, CS Dept. 
+* Binary News Archive. 
+* Usenet and Email Hypertext 
+* STO's Internet Patent Search System 
+* Semi-Automatic News HREFs 
+* Result for query "marijuana" 
+* AIDS Patents Search Page 
+* Remote file ftp.isri.unlv.edu/pub/mirror/infosystems/Z39.50/Introductory_documents/Z39.50_In_Plain_English 
+* WWW Collaboration Projects 
+* NEWSLIST (a program to assist HTTP browsing of newsgroups) 
+* Virtual Library/CyberWeb: Usenet_News 
+* w e b N e w s 
+* Usenet News via WWW 
+* talk.bizarre message 132@buster.ddmi.com 
+* talk.bizarre message MJD.91Jan15191835@saul.cis.upenn.edu 
+* talk.bizarre message MJD.91May20153030@saul.cis.upenn.edu 
+* talk.bizarre message 9110230046.AA06560@saul.cis.upenn.edu 
+* talk.bizarre message 9207062001.AA02756@saul.cis.upenn.edu 
+* talk.bizarre message 9204021652.AA06019@saul.cis.upenn.edu 
+* talk.bizarre message MJD.93Apr7165323@saul.cis.upenn.edu 
+* talk.bizarre message 127853@netnews.upenn.edu 
+* News archives: 
+* Where is the archive for newsgroup X? 
+* USENET rec.juggling Newsgroup 
+* Remote file eddie.mit.edu/pub/alt.callahans 
+* WWW HTML Jul 94 - Present: Index & full-text archive of these lists 
+* Remote file ftp.switch.ch/news-archive/News_on_CD-ROM 
+* Remote file relay.cs.toronto.edu/pub/emv/news-archives/comp.robotics 
+* Remote file relay.cs.toronto.edu/pub/emv/news-archives/ 
+* Remote file ftp.cs.umb.edu/pub/news/ 
+* Welcome to the comp.newprod archives. 
+* SEARCH 
+* sci.astro.hubble Homepage 
+* Usenet IBM-related newsgroups 
+* The World-Wide Web Virtual Library: Formal Methods 
+* Forum News Gateway 
+* Tcl/Tk Resources 
+* Remote file wuarchive.wustl.edu/usenet 
+* Usenet 
+* Newsgroups available in Oxford 
+* comp.text.sgml 
+* Remote file xmission.com/pub/users/mgm/shenanigans 
+* Mailing-Listen Archive 
+* Remote file ftp.msen.com/pub/emv/news-archives 
+* Newsgroup-related WAIS index servers 
+* Mailing Lists at CERN about the World-Wide Web 
+* Index of /hypertext/WWW/Archive/www-talk 
+* Mailing Lists at CERN about the World-Wide Web 
+* Mailing Lists Archives for the World-Wide Web 
+* Remote file sunsite.unc.edu/pub/archives 
+* Remote file sunsite.unc.edu/pub/archives/../Linux/docs/linux-announce.archive 
+* RISKS-LIST: RISKS-FORUM Digest 
+* Remote file svr-ftp.eng.cam.ac.uk/pub/comp.speech/archive/ 
+* Remote file ftp.std.com/pub/alt.religion.kibology 
+* Remote file olive.kek.jp/pub/tcl/News/ 
+* Remote file wuarchive.wustl.edu/usenet/rec.food.recipes/ 
+* Remote file archive.orst.edu/pub/usenet/comp.archives/ 
+* Remote file archive.orst.edu/pub/usenet/alt.drugs/ 
+* Remote file ftp.sgi.com/comp.sys.sgi/ 
+* Remote file ftp.funet.fi/pub/archive/rec.food.recipes/ 
+* Remote file ftp.uu.net/usenet/rec.arts.movies.reviews/ 
+* Remote file unix.hensa.ac.uk/pub/parallel/internet/usenet/ 
+* Remote file csc.canberra.edu.au/pub/motif/comp.windows.x.motif/ 
+* Kylie Monogue mailing list (duh)/ 
+* Remote file ftp.cis.ufl.edu/pub/perl/comp.lang.perl/monthly/ 
+* Remote file ftp.switch.ch/news-archive/archives/ 
+* Remote file ftp.ics.uci.edu/usenet/comp.protocols.iso.x400 
+* Remote file ftp.ics.uci.edu/mh/mh-users/ 
+* Remote file ftp.cs.toronto.edu/list-archives/ 
+* Asci file: ual_faq 
+* Remote file godzilli.cs.sunysb.edu/pub/ngf 
+* Remote file ftp.csd.uwo.ca/pub/news/alt.backrubs 
+Sites whose existence on the net surprises me, if that makes any sense:
+* The Klingon Language Institute 
+* 0826 Greenpeace Gopher 
+* Rolls Royce of Beverly Hills, AutoPages of Internet 
+* Pizza Hut 
+* Playboy Magazine 
+* The Rolling Stones 
+* Hawaii's Treasures 
+* Untitled, URL http://www.bmo.com/ 
+* Ontario Science Centre 
+* Smithsonian Table of Contents 
+* Untitled, URL http://www.gallup.com/ 
+* Buena Vista MoviePlex 
+* Seattle Mariners Home Plate 
+* Welcome To Planet Reebok 
+* Organic Online 
+* Barcode Server 
+* Zima home page 
+* Canadian Airlines International Ltd. 
+* The Buena Vista Pictures Web 
+* The Rolling Stones Web Site 
+* Welcome to the White House 
+* The NetAxis Advertiser 
+Things that are probably only of interest to me:
+* talk.bizarre message gerald.734673106@gerald 
+* NASA Technical Report Server (NTRS) 
+* The Edmonton Public Library Catalogue 
+* Edmonton On the Net 
+* Remote file ftp.sra.co.jp/pub/doc/PCTE 
+* An Overview of PCTE: A Basis for a Portable Common Tool Environment 
+* Remote file ftp.sra.co.jp/pub/doc/PCTE/PCTE_products/IBM/PCTE6000News.930623 
+* Facts about the U of A 
+Miscellaneous:
+* Article about PRT in Research Review 
+* Instructional Software for Downloading 
+* 1984 NSA T-Shirt 
+* Comet Shoemaker-Levy Home Page (JPL) 
+* QuarkWeb Nodes 
+* BoWeb '94 Award Recipients 
+* Paranoia Home Page 
+* Hot Topic: Internet 25th Anniversary 
+* Interesting WWW Uses 
+* WebWorld 
+* International MPEG Bizarre 1st Film Festival (I'M B1FF!) 
+* Live Television Sources 
+* StrategyWeb 
+* KNET - Rave Radio 
+* Internet Society Home Page 
+* Index of /~beck/sound/ 
+* (Jobs) Jason Smith's TechnoCycle WWW Pages 
+* Over The Coffee 
+* Untitled, URL http://www.umd.umich.edu/~nhughes/htmldocs/pc.html 
+* Rayshade Pictures 
+* The Beer Page 
+* Graphics, Visualization, and Usability Center General Information Survey Form 
+* GLIS 
+* Robert Hartill 
+* Power Express Notebook Products/Battery Pack (Ba - Co) 
+* Internet Font Browser 
+* -|-|-|-|-|-|- No More Secrets! -|-|-|-|-|-|- 
+* URouLette 
+* Mentos Stuff 
+* The Mentos FAQ v1.1 
+* Hypertext front-end to the rec.arts.movies (Mississippi US) 
+* Juggling Information Service 
+* Welcome to Condom Country 
+Unclassified:
+* Computer Graphics 
+* Flash Information (latest issue) 
+* Ta poll mor im'cheann 
+* Mosaic Rulesz 
+* Internet Direct Usage Info 
+* Brian Pollacks Home Page 
+* Prepare yourself 
+* Four11 Directory Services (SLED) 
+* An Index to Stuff at the GALCIT WebHome 
+* Fuz's Home Page 
+* Michael Toy's Web Page 
+* The World Wide Web Unleashed Support Web 
+* Great Moments in Advertizing: Symantec 
+* E-Resume 
+* Rocket Science Home Page 
+* Geodetic Survey of Canada - World Wide 
+* MHonArc Home Page 
+* Monster Board! 
+* Bradford Robotic Telescope Operations Menu 
+* _Other U.S. Government Gopher Servers 
+* Farside directory (alphabetically) 
+* News Page 
+* You have found us 
+* Remote file ftp.switch.ch/news-archive/sources/unix/volume28/krusty-0.79 
+* Remote file ftp.switch.ch/ 
+* Netsurfer Digest Home Page 
+* Legal Care for Your Software Home Page 
+* talk.bizarre message gooleyCz0Jz8.HI0@netcom.com 
+* CGI Script output 
+* Browser Statistics for the Random Yahoo Link 
+* Web66 Statistical Ramble 
+* Slipknot -- INFO 
+* Untitled, URL http://www.artnet.org/iamfree 
+* Course Catalog - Computer Science (C S) 
+* GNN Best of the Net Honorees 
+* Untitled, URL http://www.primus.com/staff/paulp/one-book.txt 
+* Scott Pakin's automatic complaint-letter generator 
+* Physical 
+* TNS Technology Demonstrations 
+* The Web Experts 
+* The STC Bunch 
+* Departmental Affairs> 
+* Untitled, URL http://turnbull.sk.tsukuba.ac.jp/saraki-list.html 
+* Info-Mac Mirror Sites 
+* BookLink Technologies Home Page 
+* Untitled, URL http://www.hip.com/franklin/online-dir/internet/mail/mailing-list.html 
+* Steve Franklin - The Newbie's Guide to the Net 
+* WAIS databases served by SunSITE.unc.edu 
+* Authorization Required 
+* hype! Toronto - Media, Arts, Entertainment & Useful Information 
+* MindSource Opportunities 
+* CUSI 
+* MOTORCYCLE ONLINE 
+* The Bible of Usenet Home 
+* A pointer page about Z39.50 Resources 
+* Untitled, URL http://www.dra.com/ 
+* Index of /packages/dbperl 
+* Index of /usenet/ 
+* The Bible of Usenet 2nd Home Page Future 
+* The Bible of Usenet 2nd Home 
+* ungeek 
+* ungeek 
+* WAIS, Inc. - Forbes Article 
+* Index of /wais-dbs/ 
+* WAIS Network Publishing using Z3950 
+* Introduction -- Style 
+* OneWorld/SingNet WWW & HTML Developer's JumpStation - ver 2.0 (21 Oct 1994) 
+* The HPA Price Guide 
+* FESTIVALSKE NAGRADE / FESTIVAL AWARDS 
+* The Oxford English Dictionary 
+* What is SGML (Burnard) 
+* Untitled, URL http://www.cimtegration.com/ent/music/hip/hip.htm 
+* Perl Program for Retrieving Web Documents 
+* Text to HTML converter 
+* HTML Converters 
+* Untitled, URL http://www11.w3.org/hypertext/WWW/MarkUp/html3-dtd.txt 
+* Index of /hypertext/WWW/Archive/www-html 
+* Keirsey Temperament Sorter- Meyers-Briggs Personality 
+* Jobs 
+* The Web Academy 
+* Z39.50: Table of Contents 
+* URI Mail Archives 
+* Danny Yee's USENET Information Page 
+* HipLinc - the archive 
+* MHonArc Home Page 
+* wuftpd mail list archive 
+* List of NNTP Servers 
+* Untitled, URL http://www10.w3.org/hypertext/WWW/MarkUp/Elements/LINK.html 
+* Untitled, URL http://www.blarg.com/webweavers 
+* The Clearinghouse for Subject-Oriented Internet Resource Guides 
+* Shakespeare Homepage 
+* PCL Map Collection 
+* News Rack 
+* Sanjay's Internet Resources/Sites 
+* HTML Documentation Table of Contents 
+* The Web Experts 
+* National Atlas Information Service 
+* NAISMap Home Page 
+* Maps 
+* Map-Related Web Sites 
+* ClariNet Home 
+* Welcome to WordPerfect 
+* The Consummate Winsock Apps List 
+* Compact Disc Music Clubs (BMG & Columbia House) 
+* htmltoc Home Page 
+* Where in the World is Talk.Bizarre?! 
+* Virtual Reality Modeling Language (VRML) Forum 
+* Remote file mail.boku.ac.at/www/news/read.me 
+* Open Government - Gouvernement Ouvert 
+* SGML and Information Retrieval on the Internet 
+* htmlchek HTML syntax and cross-reference checker version 4.0, January 17 1995 
+* Perl Meta-FAQ 
+* URI Mail Archives 
+* BABEL: A Glossary of Computer Related Abbreviations and Acronyms 
+* The Netizens and the Wonderful World of the Net Book and other References 
+* Welcome to the Sports Illustrated Swimsuit Issue 
+* BCARS HOME PAGE 
+* Usenet Group Archives 
+* System P Table of Contents 
+* The World Wide Web- tools for aspiring web weavers 
+* HTML DTD Reference 
+* Remote file ftp.nl.net/pub/comp/programming/languages/perl 
+* SIMBA Media Daily: INTERNET 
+* The WWW Virtual Keyboard 
+* The InfoPad WWW Server Statistics Plots Page 
+* The Tragically Hip - Merchandise 
+* Cyber-Sex-Toys 
+* Remote file ciac.llnl.gov/pub/ciac/ciacdocs/ciac2308.txt 
+* UNIXhelp for users 
+* rfc1738 
+* Untitled, URL http://www.penthousemag.com/ 
+* The World Wide Weed 
+* Freeway Speeds 
+* Style Tips 
+* Home Pages 
+* Untitled, URL http://www.media.mit.edu/people/rnewman/Good_Netkeeping_Seal 
+* Remote file ftp.primus.com/pub/sun386/mailing-list-archives 
+* USENET Cabal 
+* A CGI Programmer's Reference 
+* Virtual Reality Modeling Language (VRML) Forum 
+* Carlos' Coloring Book Home 
+* The Scott List 
+* Remote file ftp.sterling.com/rkive/ 
+* See if we give a shit 
+* Leonardo da Vinci 
+* Yale C/AIM WWW Style Manual 
+* Christine Quinn's quotes 
+* Guides to Writing HTML Documents 
+* Cyberview 3D Document Generator 
+* The WebOOGL Home Page 
+* JCPenney Home Page 
+* UofA WWW User Group 
+* Virtual Frog Dissection Kit Info Page 
+* talk.bizarre message 629@gatech.CSNET 
+* Sun Glossary 
+* Wetware Web Gang 
+* Sound Bytes: WWW Sound Theme Home Page : By Patrick G. Kenny 
+* The Hermes Project 
+* Stupid Netscape Tricks 
+* What's New from comp.info.systems.www.announce 
+* InfoSeek Query 
+* The Creative Internet: Script Demos 
+* Untitled, URL http://ume.med.ucalgary.ca/~watanabe/ 
+* Remote file ftp.best.com/pub/craig/games 
+* Untitled, URL http://meer.net/~mtoy/baby.html 
+* Resources for WWW Page Publishing 
+* talk.bizarre message 1543@inews.intel.com 
+* The Webhound WWW Interface 
+* The MIT Home Page 
+* Automatic News HREFs 
+* SIPB Documents 
+* Untitled, URL http://www.netgen.com/cgi/comprehensive 
+* W3 Search Engines 
+* Index of Perl/HTML archives 
+* Welcome to the CityInteractive Homepage 
+* talk.bizarre message D4L4HD.2tv@iceonline.com 
+* Interesting WWW Links 
+* SGML Open Home Page 
+* FEDEX HOME PAGE 
+* SGML Goodies on the Web 
+* SGML Open Home Page 
+* Rec.Juggling Archive, by Date 
+* Internet Domain Survey 
+* Art on the Net 
+* Remote file ftp.w3.org/mnt/afs/w3.org/ftp/pub/www/arena 
+* ECHO - EURODICAUTOM 
+* Remote file ftp.best.com/pub/craig/winsock_apps/00index.txt 
+* Netscape Animation Contest 
+* FinanceNet WWW Home Page 
+* Remote file journal.biology.carleton.ca/pub/ht_lit/list-archive 
+* ht_lit 
+* Hyperlatex Manual 
+* Kool-Aid FAQ List 
+* The Saturn Site 
+* Untitled, URL http://indigo.eosc.osshe.edu/physics/Sci_Physics_FAQ/Sci_Physics_FAQ_4.text 
+* W.E.D.J.E.E. equipment list 
+* The Jihad To Destroy Barney on the Worldwide Web 2.0 
+* love rage fire oceans suspenders and a bra 
+* Welcome to the World of Classical Music 
+* PhoNETic 
+* ABELL: Home Page 
+* Results - Jeffrey's J/E Dictionary 
+* The HTML Authoring Mailing List 
+* Welcome to Northumberland County 
+* Keyword index for Comp.Sys.Amiga.Reviews 
+* Keyword index for Comp.Sys.Amiga.Reviews 
+* Search 5 Days Usenet News 
+* HTML 3.0 Test Pages 
+* IETF - HyperText Markup Language (HTML) Working Group 
+* The Enhanced for Netscape Hall of Shame 
+* Web Development Tools 
+* Netscape Client APIs (NCAPIs) 
+* Demonstrations of New Netscape 1.1 Features 
+* Froggy Page 
+* Remote file ftp.canberra.edu.au/pub/motif/comp.windows.x.motif 
+* IETF - HyperText Markup Language (HTML) Working Group 
+* Proposed alt.current-events.net-abuse FAQ 
+* HOTT.BOB 
+* Untitled, URL http://indigo.eosc.osshe.edu/physics/Sci_Physics_FAQ/Sci_Physics_FAQ_4.text 
+* W.E.D.J.E.E. equipment list 
+* The Jihad To Destroy Barney on the Worldwide Web 2.0 
+* love rage fire oceans suspenders and a bra 
+* Welcome to the World of Classical Music 
+* WebCrawler Searching 
+* PhoNETic 
+* ABELL: Home Page 
+* Results - Jeffrey's J/E Dictionary 
+* The HTML Authoring Mailing List 
+* Why Are There So Few Female Computer Scientists 
+* Subway system of Edmonton (Canada) 
+* Ergonomics 
+* RLIN Z39.50 Test Server 
+* City.Net Browser Checkup 
+* Script Demo: WWW Poll Version 1.0 
+* 1000 by 2000 
+* WWW NewsLink - (c) 1995 by NewsLink Associates 
+* Form to Figure out a Domain Name 
+* Remote file ftp.isi.edu/in-notes/iana/assignments 
+* Pantless Productions Web Services...center of the known Universe 
+* Cocaine Anonymous Home Page 
+* Taos Mountain Software 
+* talk.bizarre message MJD.92May24202302@saul.cis.upenn.edu 
+* WWW Authoring Information 
+* html-wg-95q1: Re: Pythia: Really bad ideas 
+* HTML Validation Service 
+* WebTechs and HTML 
+* HTML: Table Deployment Strategy 
+* Table of Contents: Plexus HTTP 
+* IETF - HyperText Markup Language (HTML) Working Group 
+* IETF Home Page 
+* IETF - Hypertext Transfer Protocol (HTTP) Working Group 
+* Penises of the Animal Kingdom 
+* Ragú Presents -- Mama's Cucina 
+* Technology Review Home Page 
+* Remote file umcc.umich.edu/pub/users/seraphim/doc/nethist8.txt 
+* News Index Gateway at MIT LCS 
+* Fourth International World Wide Web Conference 
+* Multithreaded query page 
+* The Noam Chomsky Archive 
+* RISKS-LIST: RISKS-FORUM Digest 
+* A malt whisky tour 
+* A malt whisky tour 
+* Public Windows Interface 
+* Tables 
+* WebRunner Home Page 
+* Remote file bond.edu.au/pub/Minerva/msql 
+* Home Page of www-cal 
+* Department of Biology - WWW Calendar 
+* GNA Course: Introduction to Object Oriented Programming Using C++ 
+* Untitled, URL http://www.hpl.hp.co.uk/people/dsr/html/html3.dtd 
+* Stoli Cipher 
+* Remote file ftp.zoo.toronto.edu/pub/news.txt.Z 
+* HEROES Homepage 
+* Introducing CXX2HTML 
+* Idea Futures 
+* Untitled, URL http://bongo.cc.utexas.edu/~neuroses/cwsa.html 
+* Forte Agent Home Page 
+* mailing list archive request form 
+* LIBIDO 
+* Welcome to UMI!! 
+* SUL Z3950 search for ERIC Page 
+* HTML: Hypertext Mark-up Language 
+* Remote file src.doc.ic.ac.uk/usenet 
+* Beta Test Registration 
+* Welcome to WebLib! 
+* Chinook 
+* Use of Netscape tags in HTML 
+* NCSA Mosaic X Resources 
+* All elements in HTML 2.0 DTD 
+* HyperText Mark-up Language Quick Reference, December 1994 
+* Perl Resources 
+* Books On-line, Listed by Author 
+* The Comic Strip 
+* What the World Wants ...and how to pay for it... 
+* NECTEC USENET Archives 
+* HENSA Unix Parallel Archive: /parallel/internet/usenet/ 
+* HTML Developer's Info 
+* Jihad Codes[tm] v1.0.3 
+* Welcome to PBS 
+* Raves R Us 
+* Ambient Music mailing list archives (text) 
+* Movie Review Query Engine 
+* SWISH Documentation 
+* Remote file ftp.mantis.co.uk/pub/doom/rec-articles/art-418 
+* talk.bizarre message 2kmveq$qgp@snake.CS.Berkeley.EDU 
+* The Great Renaming FAQ 
+* Untitled, URL http://www.access.digex.net/~werbach/barebone.txt 
+* UseNet Group Mentors 
+* English-to-Spanish Dictionary 
+* Untitled, URL http://www.primus.com/staff/paulp/one-book.txt 
+* THE LOVEGRID! 
+* Guides to Writing HTML Documents 
+* NCSA httpd Release 1.4 BETA2 Source and Binaries 
+* Gopher server at gopher.enews.com 
+* TicketMaster Home Page 
+* NCSA httpd Overview 
+* The World Wide Web Dating Game 
+* Congratulations: You found the Important Stuff! 
+* XBoing Home Page 
+* INFACT's Tobacco Industry Campaign 
+* ITRE Home Page 
+* Beta Test Bug Reports & Updates 
+* San Jose Sharks Media Guide 
+* Complete List of Dog-Related Email Lists 
+* The Harvest httpd accelerator 
+* talk.bizarre message dhalgrenD5tHFs.5J5@netcom.com 
+* The Culture of the Internet and Usenet 
+* All About Bob! 
+* Untitled, URL http://www.seas.upenn.edu/~mengwong/humour/macsvsunix.html 
+* Yes ! 
+* The OCLC Fred Home Page 
+* OneWorld/SingNet WWW & HTML Developer's JumpStation - ver 2.0 (21 Oct 1994) 
+* The World Wide Web- tools for aspiring web weavers 
+* The Web Developer's Virtual Library 
+* Images of the Internet 
+* Numeric Character References in HTML 
+* The HTML Writers Guild Homepage 
+* GNN's: Measuring the Net 
+* Mox.Perl.COM Home Page 
+* Perl Resources 
+* Far More That Everything You've Always Wanted to Know About Sorting 
+* Index to the HTML 2.0 Specification 
+* HyperText Markup Language (HTML) 
+* alt.folklore.computers FAQ 
+* NAFTAnet Home Page 
+* Guide to the 1996 Olympic Games 
+* VRML*Tech - The Virtual Reality Modeling Language Technical Forum 
+* Lines - Graphic Element Samples 
+* Open Text Corporation 
+* The Open Text Web Index 
+* W3 Search Engines 
+* usenet-addresses index 
+* Interesting WWW Links 
+* Acronym list 
+* World Wide Web FAQ 
+* What's New Too! 
+* The Great Renaming FAQ 
+* Gopher server 
+* Beamish Genuine Irish Stout 
+* HTML-Bibliography 
+* CGI Form Handling in Perl 
+* The ITV i-Way 
+* The Internet Sleuth 
+* The Common Gateway Interface 
+* The Galaxy of Coca-Cola - The Coca-Cola Company 
+* mw3s: Multi Webserver Statistics Tool (v1.1) 
+* HTML Reference 
+* The WWW Bible Gateway 
+* Reverend Fun 
+* RFC 1341 Table of Contents 
+* CGI Tutorial: Start 
+* Perl tutorial: Start 
+* Apache HTTP Server Project 
+* Unified Field Theory of Design 
+* Girvies Davis' Clemency Home Page 
+* Remote file src.doc.ic.ac.uk/packages/www/asWedit/ 
+* Toronto Blue Jays 
+* NCSA httpd tutorials 
+* Mapedit 
+* The wadtoiv home page 
+* DoomGate 
+* Amsterdam Sex Shop 
+* BlooperWorld 
+* Into the Wardrobe: The C. S. Lewis WWW Page 
+* Web Tools 
+* Performance of Several HTTP Demons on an HP 735 Workstation 
+* Country maps from W3 servers 
+* Pittsburgh Map Database from the Scandal Project 
+* Spain Internet Resources Map 
+* Technical Web links 
+* Chuck Farnham's Weird World 
+* Submit It! 
+* Unix WWW Development Resources 
+* WWW Developer - Documentation 
+* This week's TIME Magazine 
+* Farside directory (alphabetically) 
+* Gifs directory (alphabetically) 
+* COMP.SYS.IBM.PC.RT: - Hardware - Frequently Asked Questions 
+* Untitled, URL http://www.eece.ksu.edu/IGR/ 
+* The great GIF Licensing Controversy 
+* RFC Index Search Form 
+* The Human-Languages Page 
+* OneWorld/SingNet WWW & HTML Developer's JumpStation - Page 1 
+* Virtual Library/CyberWeb: Images_and_Icons 
+* HTML Documentation Table of Contents 
+* Extending WebSTAR 
+* Web 66: Cookbook 
+* Mapedit 
+* Graham Toal's Homepage 
+* How To Create an Alt Newsgroup 
+* WebSter's Dictionary 
+* HTML reference sources 
+* Solaris 2 Frequently Asked Questions 
+* Remote file perl.com/pub/csh/atrocities/csh.whynot.gz 
+* Remote file perl.com/pub/Toms_Exrc 
+* Remote file perl.com/pub/quotes 
+* WWW Servers Comparison Chart 
+* Design Center 
+* UNIX Reference Desk 
+* Emily Postnews Answers Your Questions on Netiquette 
+* Inert Net Grave Near Mars 
+* World Wide Web FAQ 
+* Introduction to HTML documentation 
+* Introduction to HTML documentation 
+* Internet Conference Calendar 
+* The 216 colors of Netscape 
+* Nick's Bandwidth Killer on the InfoSchlong! 
+* The Lycos Home Page: Hunting WWW Information 
+* Bare Bones Guide to HTML 
+* ColorEditor for HTML 
+* Remote file ftp.ncsa.uiuc.edu/Web/httpd/Unix/ncsa_httpd/cgi/ 
+* NetNews Overview Index 
+* The Legal Domain Network 
+* CGI.pm - a Perl5 CGI Library 
+* export-a-crypto-system sig 
+* Why Validate Your HTML 
+* The Scout Report 
+* Harvard Espresso Company Homepage 
+* Extending WebSTAR 
+* UN-L R.S.I. Page 
+* SGML on the Web 
+* Concordance... it's fast! 
+* Really Quick Guide to Good HTML 
+* Test HTML Document 
+* HTML Reference 
+* Bare Bones Guide to HTML 
+* Scandals of the Clinton Administration 
+* St. Louis SPJ Online Resources for Journalists 
+* The Crossroads Homepage 
+* Columbia University: Project Bartleby 
+* Realm Directory 
+* HOWTO: Finger Tracing - III 
+* A CGI Programmer's Reference 
+* Oh No! The Lemmings Games Web Page 
+* UNICEF 
+* The World Bank Home Page 
+* IFRC Home Page 
+* World Health Organization WWW Home Page 
+* Hotlist from Kristin Buxton 
+* "Saturday Night" Archives 
+* PhoNETic 
+* Free-Art 
+* talk.bizarre message 18JUL91225029@acad3.alaska.edu 
+* The qform and qscore programs 
+* Le Monde du Tarantino - TarantinoWorld, You Crazy Kids! 
+* (Bob Allison's Home Page) Tips For Web Spinners 
+* Untitled, URL http://knight3.cit.ics.saitama-u.ac.jp/faq/inline-image.faq 
+* HTML Writers Guild message "Inline Image FAQ (was Backgrounds lose bit depth?)" by Gene Gotimer at PortInfo 
+* Growth 
+* 3Wiz - World Wide Web Consultancy 
+* Transparent Background Images 
+* Jon's WWW Development Page 
+* Transparent/Interlaced GIF Resources 
+* Mailing List WWW Gateway 
+* ANVIL GRAPHICS SPECIAL HOTT.BOB SHIRTS 
+* HTML Reference Manual 
+* Weblint Home Page 
+* Weblint 
+* The Bitch and Moan Page 
+* CRAYON 
+* Interesting Sites 
+* Welcome to Netscape 
+* Picons Archive 
+* KRAPI Electronics Ltd. 
+* David Elliott's Land of the Squishy 
+* Link Finder 
+* Level 0 HTML Tag Summary 
+* WebAnts Home Page 
+* SGML Open Home Page 
+* HTML 3.0 Test Pages 
+* HTML 3.0 and Netscape 1.1N 
+* Manufacturer Directory 
+* Teach Yourself Web Publishing with HTML in a Week: Chapter Three 
+* The Bandwidth Conservation Society 
+* pgperl Home Page 
+* Abigail's WWW dream 
+* Spacing in HTML 
+* HTML 3.0 Scratchpad 
+* Wanderer - Web Writing 
+* Making Software More Accessible for People with Disabilities 
+* Usenet-Web 1.0.1 
+* Testing some tables 
+* Martin Ramsch - iso8859-1 table 
+* CGI.pm - a Perl5 CGI Library 
+* collection: The Web Society 
+* Carl Davis--HTML Editor Reviews 
+* Some thoughts on proprietary markup 
+* mfx's Page On HTML, SGML, And All That Stuff 
+* Hustler Online 
+* The Sober Witness has been 
+* Composing Good HTML 
+* WebMuseum: Technical: Setting Properly your Web reader 
+* Bad words en Español 
+* Totally Not Free Shopping Area 
+* WARNING! Abandon hope, all ye who enter here. 
+* Notes on Information Retrieval 
+* GD.pm 
+* Inria Sophia Antipolis Research Unit 
+* Heeeeere's Johnny! 
+* Remote file ds.internic.net/rfc/rfc1808.txt 
+* A List of HTML Tags. 
+* Search News Database 
+* Help on using Perl regular expression when searching 
+* Sleuth Search Results 
+* Beavis' Home Page 
+* Butthead's Home Page 
+* Earth Viewer 
+* Good Quotes 
+* Funky Site of the Day 
+* Fun and Informative Resources 
+* The Similarities Engine 
+* MIT DCNS CGI programs 
+* WordNet Home Page 
+* Remote file crl.nmsu.edu/CLR/catalog 
+* Vi Editor Faq 
+* IETF - HyperText Markup Language (HTML) Working Group 
+* Usenet Newsgroup Creation Trend 
+* HTML3 -> HTML2 Conversion Page 
+* Untitled, URL http://www.crl.com/~jenglish/html-spec.txt 
+* Why We Don't Use Netscape Tags 
+* Majordomo Frequently Asked Questions (FAQ) 
+* Platform Independent Virtual Reality 
+* SunSITE Stats Search Results 
+* SunSITE Stats Search Results 
+* SunSITE Stats Search Results 
+* The myth of Netscape and HTML 3.0 
+* Another Roadside Attraction - Home Page 
+* Declaration of War 
+* Untitled, URL http://www.mn.interact.net/users/eileen/misc_stuff/ungeek2 
+* HomePage 
+* Welcome To The Gallup Organization 
+* The OCLC Fred Home Page 
+* List-Managers 
+* College of Computing HTML Validation Service 
+* UdiWWW Test Verzeichnis 
+* Walgreens Home Page 
+* SGML PRIMER: Introduction 
+* What is HTML? An Opinion 
+* Crash course on writing documents for the Web 
+* Crash course on writing documents for the Web 
+* HTML Demo Page 
+* The CGI Frequently Asked Questions (FAQ) List 
+* Untangling the World-Wide Web 
+* Untitled, URL http://www.c3.lanl.gov/~cim/webgreat/first.html 
+* FLY WITH US! 
+* BLIND RELATED LINKS 
+* Examples of common HTML bugs 
+* =Cowles/SIMBA Media Daily: Internet Information= 
+* SIMBA Media Daily: INTERNET 
+* =Cowles/SIMBA Media Daily: Internet Information= 
+* =Cowles/SIMBA Media Daily: Internet Information= 
+* How far is it? 
+* Foyer Page - The CyberChâteau 
+* World of Weasels 
+* PCWEEK Mar 7, 1994 
+* ESPNET SportsZone 
+* WIK - Annotated Table of Characters 
+* HEAD Request Form 
+* Happy Puppy Software Games Onramp Home Page 
+* DIGZONE 
+* Untitled, URL http://www.cis.ohio-state.edu/hypertext/faq/usenet/jpeg-faq/top.html 
+* Topic: pubs/news/ 
+* Advanced HTML: Tables 
+* Untitled, URL http://www.13engines.com/13engines 
+* Image Links 
+* Yikes! 
+* Untitled, URL http://www.wg.omron.co.jp/~jfriedl/perl/webget 
+* Remote file ds.internic.net/internet-drafts/draft-ietf-html-tables-00.txt 
+* Comparison of Web Browsers 
+* NewsPage Home Page 
+* Remote file ds.internic.net/rfc/rfc1437.txt 
+* Remote file ds.internic.net/rfc/rfc1438.txt 
+* Arena: Inspiration 
+* World Wide Web FAQs and Guides 
+* Converting BOOKIE to HTML 
+* WWW-Talk and WWW-HTML Mail Archives 
+* WWW HTML Jul 95 - Present: Re: color: NCSA Mosaic, Netscape, and HTML3 
+* DPIBrowse 
+* Nelson H. F. Beebe's Home Page 
+* PNG (Portable Network Graphics) Home Page 
+* ELM - Using PGP 
+* Perl CGI Exmaples 
+* WebCopy Documentation 
+* Remote file bond.edu.au/pub/Minerva/msql 
+* The Whirlwind Guide to SGML Tools 
+* Index of /public/perl/contrib/lib/CGI 
+* HTML LEARNING NEXUS 
+* WebMaster Magazine 
+* Remote file snorri.chem.washington.edu/hypertex/hypertex-faq 
+* ISO8859-1/HTML stuff 
+* wwwgrab 
+* VIA Rail Canada Inc. 
+* Onset Online 2.1 TOC 
+* TMS Experimental Browser 
+* Gopher server at gopher.mic.ucla.edu 
+* Gopher server at gopher.mic.ucla.edu 
+* Netscape - Unsafe at Any Speed 
+* ARTFL Project: King James Bible Search Form 
+* The Netscape-B-Gon(R) page 
+* Welcome to Molson On-Line! 
+* talk.bizarre message 2kmveq$qgp@snake.CS.Berkeley.EDU 
+* Stroud's CWSApps List - Main Menu 
+* Global Encyclopedia 
+* Accel Partners Home Page 
+* talk.bizarre message BqzIKC.LsB@watserv1.waterloo.edu 
+* HTML-WG Mail Archives 
+* Space Moose's home page 
+* WWW Test Pattern 
+* Frito-Lay Main Menu 
+* sgmlspl: a simple post-processor for SGMLS and NSGMLS 
+* The DBPerl Specification - Version 0.5 
+* The PERL programming language 
+* DATE and TIME conversion/manipulation 
+* Ford Worldwide Connection Home Page 
+* The Web100 
+* The Economist 
+* Remote file ftp.techno.com/pub/HyTime 
+* Desktop Publishing Contents Page 
+* MapMaker 
+* wwwgrab 
+* CME's Cryptography Timeline 
+* InterQuote Home Page 
+* Lombard Home Page 
+* Stock Picks - Canada 
+* HTML 3 Reference Table of Conetents 
+* PNG, Portable Network Graphics 
+* Lynx2-4-FM sources 
+* The URI::URL Perl 5 Module 
+* WWW VL: Human-Computer Interaction 
+* Singular "their" in Jane Austen and elsewhere: Anti-pedantry page 
+* Useful Information on Hypertext and Multimedia Systems 
+* hyptxt & lit theory 
+* Hypertext Theory As If the WWWeb Matters 
+* The Geek Zone 
+* v5n8 Nov/Dec 1994 Entry Level 
+* Computer Information from Around the World 
+* Information Systems Page 
+* Resource Discovery and Reliable Links (Web Research) 
+* HTML 2.0 Public Text 
+* Networks behind the User Interface 
+* Arena: Inspiration 
+* Rick's Webtools page 
+* Characterizing Browsing Strategies in the World-Wide Web 
+* pgperl FORMS demo 
+* Report 
+* Remote file franz.ww.tu-berlin.de/pub/perl 
+* HyperNews: NCSA HTTPd 1.5 Beta Reports 
+* Yet another Tragically Hip Web Page 
+* Remote file ftp.vis.colostate.edu/pub/nate/htget/htget.gz 
+* Hope Enterprises 
+* Netbook: The Netizens and the Wonderful World of the Net 
+* News Article Format and Transmission 
+* Comp.Software.Testing Archive: Main Index 
+* mailing list archive request form 
+* CITRI's MG Pages 
+* Features Missing in Current Web Browsers 
+* Quotes from Usenet 
+* CyberWire Dispatch, by Brock N. Meeks 
+* DPIBrowse 
+* Untitled, URL http://vivarin.pc.cc.cmu.edu/cgi-bin/lyr.groups?tragically.hip 
+* Member bodies 
+* Quantum Corporation WWW Server 
+* Publicly Accessible Mailing Lists 
+* WWW Seminar: Essential Concepts 
+* Geek Site of the Day 
+* Gareth's style guide 
+* Tree fiction on the World Wide Web 
+* Book Stacks - The Book Cafe 
+* ESYS 
+* talk.bizarre message 4al7fh$2fp@numbers.wetware.com 
+* Legal Information Links 
+* Canadian Constitutional Documents and Proposals 
+* Gopher Menu 
+* Ministère de la Justice (Canada) 
+* COPYRIGHT ACT OF 1976, AS AMENDED 
+* Well-done Corporate Sites 
+* Welcome to Sequent Computer Systems, Inc. 
+* Earthquake Information 
+* Quote.Com Chart for Netscape 
+* BLOCKBUSTER Home Page 
+* Untitled, URL http://theory.physics.missouri.edu/~georges/Josh/squat/ 
+* HTML Comment Parser Test 
+* Cascading Style Sheets: a draft specification 
+* The Rift (main page) 
+* HOTT.BOB BOB-cam! 
+* Fortune 500 
+* Untitled, URL http://www.hal.com/services/juggle/news/majordomo/ORA 
+* Majordomo Configuration 
+* Rocky Mountain Nat'l Park 
+* Majordomo mail list and archive site 
+* HTML Writers Guild message "Re: imagemap programs for jpeg's" by Dave Andersen 
+* Regex Manual 
+* talk.bizarre message 6460@hplabsz.HPL.HP.COM 
+* Remote file cert.org/pub/papers 
+* Untitled, URL http://www.stuff.com/~bcutter/home/programs/w3new/w3new.html 
+* WWW-Talk and WWW-HTML Mail Archives 
+* Linux Installation and Getting Started 
+* Siva 
+* WWW Viewer Test Page 
+* GIFMOM 
+* UR* and The Names and Addresses of WWW objects 
+* WIRED 3.06: "The Curse of Xanadu" by Gary Wolf 
+* Welcome to Worlds Inc. 
+* Welcome To HotWired! 
+* From Webspace to Cyberspace 
+* Welcome to Fox! 
+* Hierarchy of Content Models in the HTML 2.0 DTD 
+* U.S. Department of Education 
+* BME: Piercing 
+* Lonely Planet online 
+* Joe Boxer MegaCorp 
+* Volvo - Home Page 
+* SAGE Job Descriptions 
+* USENET News 
+* Remote file ftp.uu.net/usenet/news.answers/mail/list-admin/software-faq 
+* VISA Home Page 
+* MasterCard International Pointers 
+* The Virtual Community by Howard Rheingold: Table of Contents 
+* Rubbermaid Online! 
+* HTML & CGI Unleashed 
+* CNN Interactive 
+* NBC HTTV 
+* Give me a title 
+* MONEY QUICK QUOTES 
+* About NA2WWW 
+* About USA TODAY(September 9, 1995 12:33 AM) 
+* rec.games.pinball Database 
+* Untitled, URL http://www.cs.duke.edu/~dsb/httpfetch 
+* The Unofficial HALSoft Validator FAQ 
+* Icons and Images for Use in HTML Documents 
+* Welcome to InfoWorld 
+* Mosaic User Authentication Tutorial 
+* Lynx-Dev Mailing List Archives 
+* Portraits in Cyberspace 
+* Paul's web Page 
+* Submit It! 
+* Bill Gates: The Myth, The Man, The Lovin' Machine: 
+* MircoSoft Hate Page 
+* 15 questions to ask Microsoft about Windows 95 
+* The official Anti-Microsoft homepage 
+* Career Resources 
+* New Civilization Network 
+* Computer History and Folklore 
+* Toward a Formalism for Communication On the Web 
+* Toward Closure on HTML 
+* David LaMacchia Defense Fund 
+* Mathematics For Computer Generated Spoken Documents 
+* WHAT'S ON TONITE! 
+* Rodney Dangerfield 
+* Ski America Home Page 
+* HTML3 Tables 
+* RFC 1123 -- see sec 1.2.2 for the Internet Robustness Principle 
+* Crystal Palace Networking Registration Services 
+* Internet Info (Domain Name Analyses) 
+* Stroud's CWSApps List - Main Menu 
+* Writing HTML, SGML, TEI, etc. 
+* Salvador Dali Virtual Museum 
+* Hypertext links in HTML 
+* Ben & Jerry's Homemade Inc. 
+* Ye Home Page of ye Inner Circle [alt.fan.warlord] 
+* Central Source Yellow Pages 
+* TSN Online 
+* Schedules for Route 9 
+* Schedules for Route 37 
+* Search for Mailing Lists 
+* UCS Knowledge Base 
+* A taxonomy of SGML entities 
+* Eric Miller's Home Page [HTML, Web links] 
+* A Lexical Analyzer for HTML and Basic SGML 
+* The Weather Page 
+* Canadian Constitutional Documents and Proposals 
+* INDEX.HTM 
+* UdiWWW - HTML3 Browser 
+* Welcome to Arena 
+* Counter -- counters -- counters 
+* Web Server Resource Guide 
+* Roberts Rules 
+* Welcome to the NHL OPEN NET 
+* The 9 Types of Web Page Creators 
+* The 9 Types of Web Page Creators 
+* Mag's SGML Resources 
+* Marc Andreessen's Interoperability quote (was WWW Talk Oct 94-present: Re: Netscape v NCSA, Progress?) 
+* The original DIV proposal (was: WWW Talk Oct 94-present: CENTER element [Was: Netscape & New HTML]) 
+* WWW-Courseware by thread 
+* Centre D'affaires Bonjour-Quebec 
+* Edupage Digest 
+* Levi Strauss & Co. - Welcome! 
+* M&M's Chocolate Mini Baking Bits 
+* Untitled, URL http://www.joltcola.com/ 
+* Volkswagen 
+* Rock & Roll Hall of Fame + Museum 
+* Unsolved Mysteries - Television Show 
+* ISBN searching (was: Amazon.com Search Language) 
+* bobaworld, shmobaworld 
+* Welcome to Toys"R"Us 
+* L'eggs Online Store 
+* The MGD Tap Room 
+* wacky wacky wacky wacky 
+* SpinnWebe 
+* Engineering Positions Available at EIT 
+* The Canadian Information Processing Society 
+* Canadian Information Processing Society (Edmonton Section) 
+* Welcome to The Computer Paper 
+* Angst Game 
+* AFS distributed filesystem FAQ 
+* The Princess Bride 
+* Anchor Checker 
+* Half-QWERTY: Typing With One Hand Using Your Two-handed Skills 
+* Karen's Organized Hotlist 
+* The Unofficial HALSoft Validator FAQ 
+* Filtering the Web using WebFilter 
+* W3 Access for Blind People 
+* infoMarket Search Welcome home page 
+* As We May Think 
+* Majordomo List Owner's Guide 
+* Novell Publications Server [neato on-the-fly DocBook SGML conversion] 
+* The Condition of Education 1995 - Title Page 
+* Home Automation stuff 
+* JDS Technologies - Home Page 
+* DocBook DTD 
+* Query Interface to the comp.infosystems.harvest Broker 
+* Plan 9 Index 
+* Plan 9 from Bell Labs 
+* Plan 9 from AT&T Bell Laboratories FAQ 
+* Social Implications of Information Technologies 
+* HOTT.BOB pictures pages 
+* WWLib - Searchable Classified Catalogue of UK Web sites [Dewey Decimal based Web classification system] 
+* The Artistic License 
+* MOMspider -- Distribution Information 
+* libwww-perl: Distribution Information 
+* SGML Declarations 
+* James Clark SGML Parser (SP) 
+* SGMLS.pm: a perl5 class library for handling output from the SGMLS and NSGMLS parsers 
+* Linuxdoc-SGML User's Guide 
+* Digital Libraries '95 On-Line Proceedings 
+* SIGLINK: Web on Hypertext 
+* SIGLINK Home Page 
+* Hoffman and Novak (1995), Marketing in a Hypermedia CME: Conceptual Foundations 
+* A Talk.Bizarre Sampler 
+* U.S. Department of Education 
+* The Weather Channel ® Home Page 
+* Hypertext Publishing and the Evolution of Knowledge 
+* Welcome to CareerPath.com 
+* Rock & Roll Hall of Fame + Museum 
+* W3 Access for Blind People 
+* Leonardo da Vinci Museum 
+* The Grail Browser Home Page 
+* MMM [Web browser] Home Page 
+* The Greater Edmonton Visitor Guide 
+* World Wide Web of Sports 
+* CMP Publications (InformationWeek, InteractiveAge, NetGuide, CommunicationsWeek, ... ) 
+* Quotes 
+* RFC 1602 -- the Internet Standards Process 
+* A complicated .elm/filter-rules file (Sven Guckes') 
+* RFC 1855: Netiquette Guidelines 
+* The Netrek-Java Project 
+* Trail Map: The Java Programmer's Guide 
+* Brewing Java: A Tutorial 
+* Speaking words of wisdom... 
+* Graph of Netscape Communications Corporation (NSCP) 
+* Typing Injury FAQ Home Page 
+* Repetitive Strain Injuries - The Hidden Cost of Computing 
+* Welcome to Hugo Boss Word Slam 
+* Unix Tutorial - Introduction 
+* AFS Beginners Guide - Table of Contents 
+* The Similarities Engine 
+* Baywatch! 
+* Fortune 500 
+* Discography: Tragically Hip 
+* The Better Business Bureau Web Server: Home Page 
+* Current Internet-Drafts 
+* The Internet Standards Process -- Revision 3 
+* STUN GUNS 
+* Hollywood's Coming: Waterworld 
+* What Sn00z? Page 
+* Page francaise des simpsons : France 
+* The Simpsons Archive 
+* Dark Side of the HTML 
+* gf 
+* As We May Think 
+* The Computers of Tomorrow 
+* PC PowerGlove Page 
+* The American Dental Association 
+* Welcome to Statistics Canada 
+* {PowerGlove FAQ} 
+* IHTFP Hack Gallery: Gallery Menu 
+* Wal-Mart Stores, Inc. 
+* SNL INDEX 
+* World Wide Waltons 
+* The Java Cup International 
+* The Java Language Specification 
+* Trail Map: The Java Programmer's Guide 
+* The Web Wanderer's List of Linux Applications 
+* Welcome to X Industries 
+* HTTP-WG Mailing List Archive for Q4, 1995: Keep-Alive Notes 
+* GNU Make - Table of Contents 
+* Gnuplot   
+* NCSA HTTPd Library 
+* BrowserCaps 
+* Reference Information 
+* Welcome to U.S.News Online 
+* 555-1212.com 
+* Internet Address Finder 
+* AT&T Bell Laboratories Voices © 1995 AT&T 
+* On-Line Query System (OLQS) 
+* RTF-Tools -- RTF software and documentation 
+* RTF 1.0 Specification 
+* RTF viewer 
+* CGI specification 
+* HTML Validation Tools 
+* HyperText Design Issues: Navigational techniques 
+* HTML to the Max 
+* ARPA Knowledge Sharing Effort public library 
+* The Sociable Web 
+* Visual Who 
+* Collaboration, Knowledge Representation and Automatability 
+* WWW Collaboration Projects 
+* The Global Positioning System (GPS) 
+* Navigational System for the Visually Impaired 
+* The Talk.Bizarre 'Web Page Thing 
+* MAP07: NETIQUETTE 
+* Butterball 
+* Civil Liberties in Cyberspace 
+* John's Simpsons Sounds & Links 
+* Internet Info / NetWatch Internet Millionaires Page 
+* [ nonprofit organizations ] NPO-FAQ List of Sections 
+* ELETTRA Synchrotron Radiation Facility 
+* nonprofit.net 
+* Java Über Alles? 
+* Untitled, URL http://www.metronet.com/1h/perlinfo/perl5/berkeley.db.interface 
+* Remote file ftp.cis.ufl.edu/pub/perl/CPAN/modules/by-authors/id/MUIR/modules/Time/README 
+* Remote file ftp.cis.ufl.edu/pub/perl/CPAN/ 
+* Ferrari Official Web Site 
+* Panorama Resort, BC - Canada (Welcome) 
+* SGMLUG SGML History 
+* Weather-Edmonton, Alberta 
+* UIUC Programs of Study: Table of Contents 
+* Extropians and other Transhumans 
+* Frequently Answered Questions about Extropians (release 0.092) 
+* Edmonton Space & Science Centre 
+* West Edmonton Mall Home Page 
+* Discover Edmonton, Alberta - Designed for the Traveller visiting Alberta 
+* Downhill Riders Ski & Travel Co. Ltd. 
+* Online Job Searching 
+* Albums by Tragically Hip, The 
+* Campbell Soup Company 
+* Discuss->WWW gateway home page 
+* Inktomi Web Services 
+* IGA Home Page 
+* "Welcome to the Riviera" 
+* Welcome to Duracell USA 
+* Budweiser On-Line 
+* All About Trademarks -- Welcome to the GGMARK Home Page! 
+* NBA.com 
+* Directory Tree of doomgate.cs.buffalo.edu/ 
+* INTELLiCast: Edmonton Weather 
+* TEI Guidelines for Electronic Text Encoding and Interchange 
+* Introduction to the Hacker's Dictionary 
+* Gone Web Hacking [lots of good advice on work habits] 
+* Web Technology and Beyond 
+* The GIMP: an overview 
+* WorldWideWeb: Proposal for a HyperText Project 
+* Webhackers - Webhackers Home Page 
+* Content Models in the HTML 2.0 and HTML 3.0 DTDs 
+* ASWedit and asWedit HTML editors 
+* A Modular DTD for HTML 
+* Welcome to The Metropolitan Museum of Art 
+* Index of /pub/WWW/MarkUp/html-pubtext/ 
+* Alta Vista: Main Page 
+* Watchmen Home Page 
+* _My_ AntiNetscape Page 
+* HTTP Server Statistic Pages 
+* The InfoPad WWW Server Statistics Plots Page 
+* The InfoPad WWW Server Statistics Page 
+* Gwstat Server Traffic Summary 
+* Graphic wwwstat --- gwstat 
+* SunSITE Classic Server Traffic Summary 
+* [iistat] Traveler's HTTP server statistics 
+* iisstat -- Distribution Information 
+* Cardiff's usage statistics in graph form 
+* Chemical Process Engineering Eindhoven, Statistics 
+* getgraph.pl 
+* HyperGrammar 
+* Inter-Language Unification -- ILU 
+* KGV: HTML Validation Results for http://www.ics.uci.edu/pub/ietf/html/ 
+* Web Review: Comment -- A Tribute To Yuri Rubinsky 
+* talk.bizarre message "Re: Forwarded mail... (fwd)(fwd)(fwd)" by The Boundary Condition 
+* talk.bizarre message "kitty kitty kitty kitty" by Dan Quayle 
+* Superconducting Maglev Project 
+* Punch Rush Limbaugh Home Page 
+* Majordomo mail list and archive site 
+* Welcome to Symposia Home Page ["WYSIWYG" Authoring Tool for the World Wide Web] 
+* SGML: A Basic Introduction 
+* SoftQuad: SGML: Your Multi-Platform Publishing and Information Management Solution 
+* Untitled, URL http://www.imc.org/usenet-writing 
+* Collaborative Hypermedia: http://sensemedia.net/papers 
+* WWW-Talk 1992: Virtual newsgroups and creating the memory of Usenet via www and wais 
+* WWW-Talk 1992: rethinking the HTML DTD. 
+* WWW-Talk 1992: Re: rethinking the HTML DTD. 
+* WWW-Talk 1992: Lets keep the web together 
+* Al's Picks 
+* GNU OpenStep Homepage 
+* LinuxNET: Mailing List Archives 
+* Designing an Accessible Web 
+* MKStats - WWW Log Analaysis Program 
+This is an attempt at sorting the massive hotlist that I've accumulated. Please note that this is the only hotlist in the world that does not contain a link to the Doctor Fun page. 
+I'm not quite happy with this breakdown, but it's better than nothing. If you can think of a better way to organize it, please send me e-mail. You can also see my current (Mosaic) hotlist (which is a list of stuff that hasn't been added to this list yet), or my small, practical hotlist. 
+---------------------------------------------------------------------
+Gerald Oskoboiny (gerald@amisk.cs.ualberta.ca) 

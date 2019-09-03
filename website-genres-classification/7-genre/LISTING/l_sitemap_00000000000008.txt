@@ -1,0 +1,95 @@
+
+=====================================================================
+Sitemap
+=====================================================================
+ 
+Resource Guide  Complete resource listing and descriptions
+ Alphabetical List of major or commonly used resources
+    Entrez Database   Entrez Database subset (filtered query)
+Nucleotides	 			   						Literature Databases	 		
+GenBank	 		   							 PubMed	 		
+RefSeq (Reference Sequences)	 		   							 PubMed Central	 		
+dbEST (Expressed Sequence Tags)	 		   							 OMIM	 		
+ dbGSS (Genome Survey Sequences)	 		   							 Books	 		
+dbMHC (Major Histocompatibility Complex)	 		   										
+dbSNP (Single Nucleotide Polymorphisms)	 		   							Molecular Databases	 		
+dbSTS (Sequence Tagged Sites)	 		   							Nucleotide Sequences	 		
+TPA (Third Party Annotation Database)	 		   							Protein Sequences	 		
+Trace Archive	 		   							Structures	 		
+UniSTS (Sequence Tagged Sites)	 		   							Genes	 		
+PopSet (Evolutionary Relatedness)	 		   							Gene Expression	 		
+UniVec (Vector Sequences)	 		   							Taxonomy	 		
+WGS (Whole Genome Shotgun Sequences)	 		   		   								  
+Genomes	 		
+Proteins	 		   							 Entrez Genome	 		  
+RefSeq (Reference Sequences)	 		   							 Entrez Genome Project	 		
+CDD (Conserved Domain Database)	 		   							 Map Viewer	 		
+Cancer Chromosomes	 		
+MMDB (Molecular Modeling DataBase)	 		   			   				SKY/M-FISH & CGH Database	 		
+3D Domains	 		   										
+PubChem BioAssay	 		   										  PubChem Compound	 		   										  PubChem Substance	 		   										  
+Gene	 		   										
+UniGene	 		   										
+HomoloGene	 		   										
+GEO (Gene Expression Omnibus)	 		   										
+Entrez GEO Profiles	 		   										
+Entrez GEO DataSets	 		   										
+GENSAT	 		   										  
+TaxBrowser	 		   										
+Entrez Taxonomy	 		   										
+BankIt (submissions and updates via WWW)	 		   							Nucleotide Sequences	 		
+Sequin (software for submissions and updates)	 		   							GenBank (general submission tools)	 		
+GenBank (specialized submissions)	 		
+dbEST (Expressed Sequence Tags)	 		   										
+dbGSS (Genome Survey Sequences)	 		   							Polymorphisms	 		
+dbSTS (Sequence Tagged Sites)	 		   							dbSNP (Single Nucleotide Polymorphisms)	 		
+Genomes	 		   										
+Alignments	 		   							Expression	 		
+WGS (Whole Genome Shotgun Sequences)	 		   							GEO (Gene Expression Omnibus)	 		
+TPA (Third Party Annotations)	 		   										
+Cytogenetic Data	 		
+SKY/M-FISH & CGH Database	 		
+Trace Data	 		
+Trace Archive	 		
+Entrez Tools	 
+Query all Entrez Databases	   
+Entrez Data Model	 
+My NCBI (Cubby)	 
+LinkOut	 
+Batch Entrez Nucleotides	 
+Batch Entrez Proteins	 
+Citation Matcher 	
+Batch Citation Matcher	 
+Entrez Utilities	 
+Data Analysis Tools	 
+Similarity Searching (BLAST)	 
+Nucleotide Sequence Analysis	 
+Protein Sequence Analysis and Proteomics	 
+Molecular Structure Analysis	 
+Genome Analysis	 
+Gene Expression	 
+FTP	 
+Databases and Software	 
+   
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+x	 	
+News	 
+NCBI News 	
+What's New	 
+Announcement Mailing Lists	 
+Bookshelf	 
+Coffee Break	 
+Genes and Disease	 
+NCBI Handbook	 
+Resources	 
+Tutorials, Courses, and more	 
+

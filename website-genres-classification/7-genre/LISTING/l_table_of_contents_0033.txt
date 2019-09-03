@@ -1,0 +1,327 @@
+
+=====================================================================
+Table of Contents: the Standard Template Library
+=====================================================================
+ 
+Table of Contents: the Standard Template Library
+1.  Introduction to the STL  
+2.  How to use the documentation  
+3.  Containers  
+ 
+4.  Concepts  
+  
+5.  General concepts   
+  
+6.  Container   
+7.  Forward Container   
+8.  Reversible Container   
+9.  Random Access Container   
+* Sequences   
+  
+1.  Sequence   
+2.  Front Insertion Sequence   
+3.  Back Insertion Sequence   
+* Associative Containers   
+  
+1.  Associative Container   
+2.  Simple Associative Container   
+3.  Pair Associative Container   
+4.  Sorted Associative Container   
+5.  Hashed Associative Container   
+6.  HashFunction   
+7.  Unique Associative Container   
+8.  Multiple Associative Container   
+9.  Unique Sorted Associative Container   
+10. Multiple Sorted Associative Container   
+11. Unique Hashed Associative Container   
+12. Multiple Hashed Associative Container   
+* Container classes  
+  
+1.  Sequences   
+  
+2.  vector   
+3.  deque   
+4.  list 
+5.  slist   
+6.  bit_vector   
+* Associative Containers   
+  
+1.  set   
+2.  map   
+3.  multiset   
+4.  multimap   
+5.  hash_set   
+6.  hash_map   
+7.  hash_multiset   
+8.  hash_multimap   
+9.  hash   
+* String package 
+1.  Character Traits 
+2.  char_traits 
+3.  basic_string 
+* rope   
+* Container adaptors   
+  
+1.  stack   
+2.  queue   
+3.  priority_queue   
+* bitset  
+* Iterators  
+ 
+1.  Introduction  
+2.  Concepts  
+  
+3.  Trivial Iterator   
+4.  Input Iterator   
+5.  Output Iterator   
+6.  Forward Iterator   
+7.  Bidirectional Iterator   
+8.  Random Access Iterator  
+* Iterator Tags  
+  
+1.  Introduction   
+2.  iterator_traits   
+3.  iterator_category   
+4.  distance_type   
+5.  value_type   
+6.  Iterator tag classes   
+  
+7.  input_iterator_tag   
+8.  output_iterator_tag   
+9.  forward_iterator_tag   
+10. bidirectional_iterator_tag   
+11. random_access_iterator_tag   
+* Iterator base classes   
+  
+1.  input_iterator   
+2.  output_iterator   
+3.  forward_iterator   
+4.  bidirectional_iterator   
+5.  random_access_iterator   
+* Iterator functions  
+  
+1.  distance   
+2.  advance  
+* Iterator classes  
+  
+1.  istream_iterator   
+2.  ostream_iterator   
+3.  front_insert_iterator   
+4.  back_insert_iterator   
+5.  insert_iterator   
+6.  reverse_iterator   
+7.  reverse_bidirectional_iterator   
+8.  raw_storage_iterator   
+9.  sequence_buffer  
+* Algorithms  
+ 
+1.  Non-mutating algorithms  
+  
+2.  for_each   
+3.  find   
+4.  find_if   
+5.  adjacent_find   
+6.  find_first_of   
+7.  count   
+8.  count_if   
+9.  mismatch   
+10. equal   
+11. search   
+12. search_n   
+13. find_end  
+* Mutating algorithms  
+  
+1.  copy   
+2.  copy_n   
+3.  copy_backward   
+4.  Swap   
+  
+5.  swap   
+6.  iter_swap   
+7.  swap_ranges   
+* transform   
+* Replace   
+  
+1.  replace   
+2.  replace_if   
+3.  replace_copy   
+4.  replace_copy_if   
+* fill   
+* fill_n   
+* generate   
+* generate_n   
+* Remove   
+  
+1.  remove   
+2.  remove_if   
+3.  remove_copy   
+4.  remove_copy_if   
+* unique   
+* unique_copy   
+* reverse   
+* reverse_copy   
+* rotate   
+* rotate_copy   
+* random_shuffle   
+* random_sample   
+* random_sample_n   
+* partition   
+* stable_partition  
+* Sorting  
+  
+1.  Sort   
+  
+2.  sort   
+3.  stable_sort   
+4.  partial_sort   
+5.  partial_sort_copy   
+6.  is_sorted   
+* nth_element   
+* Binary search   
+  
+1.  lower_bound   
+2.  upper_bound   
+3.  equal_range   
+4.  binary_search   
+* merge   
+* inplace_merge   
+* Set operations on sorted ranges   
+  
+1.  includes   
+2.  set_union   
+3.  set_intersection   
+4.  set_difference   
+5.  set_symmetric_difference   
+* Heap operations   
+  
+1.  push_heap   
+2.  pop_heap   
+3.  make_heap   
+4.  sort_heap   
+5.  is_heap   
+* Minimum and maximum   
+  
+1.  min   
+2.  max   
+3.  min_element   
+4.  max_element   
+* lexicographical_compare   
+* lexicographical_compare_3way   
+* next_permutation   
+* prev_permutation  
+* Generalized numeric algorithms  
+  
+1.  iota   
+2.  accumulate   
+3.  inner_product   
+4.  partial_sum   
+5.  adjacent_difference   
+6.  power  
+* Function Objects  
+ 
+1.  Introduction  
+2.  Concepts  
+  
+3.  Generator   
+4.  Unary Function   
+5.  Binary Function   
+6.  Adaptable Generator   
+7.  Adaptable Unary Function   
+8.  Adaptable Binary Function   
+9.  Predicates   
+  
+10. Predicate   
+11. Binary Predicate   
+12. Adaptable Predicate   
+13. Adaptable Binary Predicate   
+14. StrictWeakOrdering   
+* Monoid Operation   
+* Random Number Generator  
+* Predefined function objects  
+  
+1.  Arithmetic operations   
+  
+2.  plus   
+3.  minus   
+4.  multiplies (formerly called "times")   
+5.  divides   
+6.  modulus   
+7.  negate   
+* Comparisons   
+  
+1.  equal_to   
+2.  not_equal_to   
+3.  less   
+4.  greater   
+5.  less_equal   
+6.  greater_equal   
+* Logical operations   
+  
+1.  logical_and   
+2.  logical_or   
+3.  logical_not   
+* Generalized identity operations   
+  
+1.  identity   
+2.  project1st   
+3.  project2nd   
+4.  select1st   
+5.  select2nd   
+* subtractive_rng  
+* Function object adaptors  
+  
+1.  binder1st   
+2.  binder2nd   
+3.  ptr_fun   
+4.  pointer_to_unary_function   
+5.  pointer_to_binary_function   
+6.  unary_negate   
+7.  binary_negate   
+8.  unary_compose   
+9.  binary_compose 
+10. Member function adaptors 
+11. mem_fun 
+12. mem_fun_ref 
+13. mem_fun1 
+14. mem_fun1_ref 
+* Utilities  
+ 
+1.  Concepts  
+  
+2.  Assignable   
+3.  Default Constructible   
+4.  Equality Comparable   
+5.  LessThan Comparable  
+* Functions  
+  
+1.  Relational Operators  
+* Classes  
+  
+1.  pair  
+* Memory Allocation  
+ 
+1.  Classes  
+  
+2.  Allocators   
+3.  raw_storage_iterator  
+* Functions  
+  
+1.  construct   
+2.  destroy   
+3.  uninitialized_copy   
+4.  uninitialized_copy_n   
+5.  uninitialized_fill   
+6.  uninitialized_fill_n   
+7.  temporary_buffer   
+8.  get_temporary_buffer   
+9.  return_temporary_buffer  
+* Design documents 
+1.  Thread safety 
+2.  The meaning of complexity specifications 
+3.  Representations of strings 
+* Categorized Index  
+* Full Index 
+STL Home 
+Using this site means you accept its terms of use | privacy policy	   | 	  trademark information	   
+ Copyright © 1993-2003 Silicon Graphics, Inc. All rights reserved.	   | 	  contact us	   
+

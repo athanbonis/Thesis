@@ -1,0 +1,25 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Hurricanes versus Tornadoes Page | Back to Main FAQ Page 
+Subject: L1) How are tropical cyclones different from tornadoes? 
+While both tropical cyclones and tornadoes are atmospheric vortices, they have little in common. Tornadoes have diameters on the scale of 100s of meters and are produced from a single convective storm (i.e. a thunderstorm or cumulonimbus). A tropical cyclone, however, has a diameter on the scale of 100s of *kilometers* and is comprised of several to dozens of convective storms. Additionally, while tornadoes require substantial vertical shear of the horizontal winds (i.e. change of wind speed and/or direction with height) to provide ideal conditions for tornado genesis, tropical cyclones require very low values (less than 10 m/s [20 kt, 23 mph]) of tropospheric vertical shear in order to form and grow. These vertical shear values are indicative of the horizontal temperature fields for each phenomenon: tornadoes are produced in regions of large temperature gradient, while tropical cyclones are generated in regions of near zero horizontal temperature gradient. Tornadoes are primarily an over-land phenomena as solar heating of the land surface usually contributes toward the development of the thunderstorm that spawns the vortex (though over-water tornadoes have occurred). In contrast, tropical cyclones are purely an oceanic phenomena - they die out over-land due to a loss of a moisture source. Lastly, tropical cyclones have a lifetime that is measured in days, while tornadoes typically last on the scale of minutes. For more information on tornadoes you can go to the Storm Prediction Center's FAQ maintained by Roger Edwards. 
+An interesting side note is that tropical cyclones at landfall often provide the conditions necessary for tornado formation. As the tropical cyclone makes landfall and begins decaying, the winds at the surface die off quicker than the winds at, say, 850 mb. This sets up a fairly strong vertical wind shear that allows for the development of tornadoes, especially on the tropical cyclone's right side (with respect to the forward motion of the tropical cyclone). For the southern hemisphere, this would be a concern on the tropical cyclone's left side - due to the reverse spin of southern hemisphere storms. (Novlan and Gray 1974)
+Back to Hurricanes versus Tornadoes Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

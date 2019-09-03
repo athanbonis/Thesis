@@ -1,0 +1,174 @@
+
+=====================================================================
+Mithralinde
+=====================================================================
+ BlogThis!  Mithralinde  
+It´s just my life... And a lot of dog talk. 
+Tuesday, March 15, 2005
+Nice suprise for Easter, huh? 
+posted by Mithralinde at 18:25 | 0 comments   
+Yes, this is our KITCHEN FLOOR! 
+posted by Mithralinde at 18:22 | 0 comments   
+Water in water. 
+posted by Mithralinde at 18:21 | 0 comments   
+More 
+posted by Mithralinde at 18:20 | 0 comments   
+Water water water. 
+posted by Mithralinde at 18:19 | 0 comments   
+does this need any explaining... ? 
+posted by Mithralinde at 18:17 | 0 comments   
+The black parts are water. Squeeze and you will get water in your glass. 
+posted by Mithralinde at 18:16 | 0 comments   
+Things start to reveal itself. 
+posted by Mithralinde at 18:13 | 0 comments   
+The smell is just awfull... 
+posted by Mithralinde at 15:34 | 0 comments   
+Water Damage coming from our bathroom. 
+posted by Mithralinde at 15:25 | 0 comments   
+Water Damage 
+posted by Mithralinde at 15:22 | 0 comments   
+Water Damage! 
+posted by Mithralinde at 15:19 | 0 comments   
+Friday, March 11, 2005
+Eye of Seven 
+posted by Mithralinde at 17:48 | 0 comments   
+Networking  
+"All you people calling with completely empty profiles, why dont you go and call somebody else with an empty profile"I have been doing a lot of networking expat-wise this week. (I have been home sick with a some sort of virus). I found several Finnish expat-groups and forums, and chatted with some people as well! So nice. I got a message from work that they expect me to work on Monday, like I had a choise over my fever. It is not much, but I still have a head-ache, muscle aches etc. Crap! I need to call the doctor again on Monday...Seven is bored, I can see it from her that she doesnt like this situation, she is only at home, doing nothing interesting, and me being around sick... poor gal.Updated my web-page. I hope someone would visit too, and write to the damn guestbook... 
+posted by Mithralinde at 17:31 | 0 comments   
+Monday, March 07, 2005
+Wolf. 
+posted by Mithralinde at 13:22 | 0 comments   
+Saturday, March 05, 2005
+Alan's Ramblings: SSH on the Nokia 6820  
+Screw you Tele2. They sent me incorrect settings for GPRS. I ordered them twice. Then I called them 3 times before they managed to send me the ones they thought were "correct". NAAH. It didn´t work. So, I ordered the ones from Nokia.com, but they didn´t work either. So I found this blog, which told me exactly how to configure my, yes again, NEW Nokia, 6820 for GPRS and email. If you need help for your Tele2 configuration, it goes as follows:1. Go to Menu -> Services -> Settings -> Connection settings -> Active service settings and pick an empty service settings slot.2. Choose "Edit active service settings" then edit as follows:Setting's Name: I called mine "Tele2 Minna"Homepage: I set mine to wap.tele2.noProxies: DisableData bearer: GPRS3. Choose "Bearer settings, then configure as follows:GPRS access point: internet.tele2.noAuthentication type: NormalLogin type: AutomaticUser name: leave blankPassword: leave blankNote: Some websites recommend you use "web" as the username/password, but it doesn't seem to be needed.4. Now exit the configuration screens, select "Services -> Home" and the phone should create a GPRS connection and display the Tele2 Wap-homepage.The original text by Alan:Alan's Ramblings: SSH on the Nokia 6820If you need help with your email settings by Tele2.no GPRS. Do the following, this is for IMAP, but if you are even a little proficient in email configuration, you should be able to do it with POP as well:1 . Menu -> Messages -> Message settings -> E-mail messages -> Edit active e-mail settings and configure as follows:Mailbox name: "Whatever you want to call it"E-mail address: yourname@email.xxMy name: Your NameOutgoing (SMTP) server: smtp or mail.yourisp.xxIncoming server type: IMAP4Incoming (IMAP4) server: imap or mail.yourisp.xxIMAP4 user name: yourusername (sometimes requires the whole xxx@yourisp.xx )IMAP4 password: yourpasswordThen go into the "Other settings" submenu and configure as follows:Use SMTP authorisation: YesSMTP user name: yournameSMTP password: yourpasswordThen go into the "SMTP connection settings" submenu and configure as follows:Proxies: DisableData bearer: GPRSThen go into the "Bearer settings submenu" and configure as follows:GPRS access point: InternetAuthentication type: NormalLogin type: AutomaticUsername: leave blankPassword: leave blankThen select "back" twice and go into the "IMAP4 connections settings" submenu and configure exactly the same as the "SMTP connection settings".The original configuration can be found at Alans:http://bleaklow.com/blog/archive/000136.htmlKeywords: Tele2, Norway, GPRS, email, configuration, problems, Nokia, 6820, manuell, oppsett, manuelle innstillinger 
+posted by Mithralinde at 10:03 | 0 comments   
+Wednesday, March 02, 2005
+BBspot - Microsoft's AntiSpyware Tool Removes Internet Explorer  
+Excellent. If you know where to get this tool, please send me a copy of it, or a hint where I can write to get it. I have been trying to get rid of Internet Explorer for a few days, now and I ended up un-installing the whole Windows. ... Now I need to reinstall it, but I cannot seem to get rid of the big bad IE. BBspot - Microsoft's AntiSpyware Tool Removes Internet Explorer 
+posted by Mithralinde at 16:09 | 0 comments   
+Friday, February 25, 2005
+At work  
+Well... it is Friday, and we are at work at half past seven, washing the place. There is of course some fuel in the system (5x6-packs) and it is quite nice actually... never has washing windows been this cool. Of course I finished already so I sneaked to my office and wanted to write a few words.I applied a customer service job in Praha. They needed someone who speaks Norwegian and English. The salary would be 800-1000e, I am not sure if that is good or bad on the Czech standard. They called me today and said they`ll interview me next week... I am not sure if I really want that job, but at least there are some options. It would be cool though, but it would mean that I would move to the city together with Seven, and Tony would stay in Oslo. I think it might be a too long distance to have a "productive" relationship, but of course, one year would be maybe OK?It is an interesting idea though... 
+posted by Mithralinde at 19:22 | 0 comments   
+Thursday, February 10, 2005
+a piece of dead meat on my mouth, and it is mine  
+Okay okay. My loyal fan(s) have been complaining I havent updated in a while. .. so here goes.The title of this post is related to my dentist visit today. The anaesthesia has just worn out, and the filling is a bit uncomfortable, but it should disappear in a day or two. Isn´t it funny when you´ve had anaesthesia in your mouth, it feels like that part of it is not yours at all? I poked my gums with my tongue the whole past two hours and it felt so funny, I had to stick my finger in my mouth and feel my gums. Yeah, they were there, and towards my finger they felt exactly the same like the gums on the right side. LOL.Work is pretty OK. I am not supposed to complain after only 2 months, so I am not doing it. Let´s just say that in a company with 2 gals out of 9, means usually at the two gals take care of the cleaning and hardest physical work... Let´s see what we can do about it. I am really looking forward to our intern Home-PC case, where we´ll all pick our own pcs via our own company... I haven´t a clue what I would like to have... maybe a media projector or a 23" screen... good for game playing. We just upgraded my pc so I don´t think I need anything for it now. Well... my flat screen is only 15", so a bigger would of course be nice... hehe. There is also a pretty nice variety of digital cameras, regular and video ones... I will end up with a huge list in the end, and then my salary won´t even cover all that.Tonys brother and his father have put up a construction company together. They are fixing our kitchen, that was his fathers X-mass present to us. They came over yesterday and we got some intial plans down. Yay! I cannot believe we can finally get rid of that crap we have as furniture right now. I will definitely take before and after photos! Hehe.My mom and my sister are coming over in May! Really nice. My sister has already been here twice during my 4,5 Norway years, but it will be the first time for my mother. I will try to find something cool for them to do here, and I will also try to get some holidays. ...Thats all folks.Oh, another thing, my penpal Anne Marit from north of Norway just threw me a suggestion, that maybe we/I could be interested in having an Abyssinian cat on food-contract. Anne Marit is planning on breeding on Abyssinians, and she will eventually need to place the cats she wants to keep for shows and breeding, unless she wants to keep 10´s of them. I got really exited about this idea. I can hardly wait! We were planning a friend for Anakin anyway, so... ? 
+posted by Mithralinde at 15:41 | 0 comments   
+Friday, January 21, 2005
+Fake your beauty  
+Yeii... a sack of beer a pizza in the oven and a free weekend ahead of me. Well, of course your bitch is becoming in heat and the cat toilet smells and you have clothes for the whole army that needs to be washed. This is real life. I have been working at the Homies for a month and a half now, and I have pretty much come into the system now. SAP has started to reveal its secrets to me little by little, and I have ended up teaching Tony in some occassions. LOL. But he doesn´t work with it full-time like I do, so ... and I have more user priviledges in it than he has so on most occasions I need to fix some installations, etc. for him because he cannot access those functions.Today I have been clearing out our support log, went down from 120 support calls to 88, and even the support guys were impressed! Ha ha. I mostly took a telephone and just called the customer, and everything was already cleared out, so I only needed to close down their activity logs and thats that. I am really happy, I feel like I am putting my leg between the door, if you know what I mean. I have quite a broad view over all the transactions according to routers, pci-cards and all the customer transactions ... I mean here all the phone calls they make to us and we make out, trying to fix an installation date, reclamations of defect goods etc.I am pretty happy, and if we didn´t have Seven and Anakin, I am afraid I would spent most of my time in the office... (I am so embarassed to even admit this, especially that I am complaining to Tony about his hours, he is working around 2h more per day than I am, and I am working generally 9 hours a day. ...)Thank Goddess we can have Seven at work with us, and everyone seems to be growing into her, but now I am worried about Anakin. Maybe we should start looking for another cat? He spends most of his evenings on our lap watching TV and nights on our feet together with Seven, so I see that he is missing our companionship. Poor thing, he is usually home alone 10-11 hours a day! That is not good... He gets lots of cuddles when we are home, but of course he has a lot of free time during days. And he has drastically gotten fatter too... hehe. 
+posted by Mithralinde at 19:48 | 0 comments   
+Saturday, January 15, 2005
+www.plemix.com: OKwap i516 Hello Kitty 30th Years Edition  
+Or maybe here ... North Europeans are slow pokes regardin Sanrio... www.plemix.com: OKwap i516 Hello Kitty 30th Years Edition 
+posted by Mithralinde at 18:05 | 0 comments   
+OKWAP A267 Hello Kitty Camera Phone  
+Yeii. My next mobile phone is here! OKWAP A267 Hello Kitty Camera Phone 
+posted by Mithralinde at 18:04 | 0 comments   
+Friday, January 07, 2005
+I just chatted with my new assigned "job-partner" at work, and he told me I won´t get the table PC after all!!!! And why not!? Because they want me to have a completely new PC, a table one, and it is already ordered, delivered and put on it´s place! So, it is there waiting for me on Monday... hehe. Kewl to think that they guys have been thinking about me there while I was gone, but I R E A L L Y wanted to have that Compaq tablet pc... I now need to use another means of transporting my mp3 files to my work pc...I thought it would have been so neat to just carry the Compaq home and fill it up and then listen to stuff at work... 
+posted by Mithralinde at 16:22 | 0 comments   
+Year 2004 sum up  
+To demonstrate how bad the year 2004 actually was for me, I decided to put up this list. Hope you enjoy it as much as I have shed tears/lost nerves over these things. 
+In Noveber 2003 we had a water leakage in our apt. at Uranienborgveien. The shit water pipe from toilets, of course, what else would have been appropriate? So actually the bad luck started from there, but I see Sierra being the bad amulet that causes everything...
+1.  January 2004 started with Seven having Hot Spots on her back. She was shaved.
+2.  1 March 2004, we were supposed to move to Moss. The landlord there changed his mind a week before, and we already had given up the lease in Uranienborgveien, the new people had signed their lease and prepared their move. We had also given up our Elixia training center subscriptions, broadband subsriptions, I had ordered new addresslabels, made official change of address to the Post Office, and alltogether I ended up doing 3 more... We were homeless for about a week. (NOTE: Problems going on at work, in the shop)
+3.  Due to the above, we were forced to move to Kløfta. It is a small village north from Oslo, 40 km. Landlady was sneaking inside our apartment and smoked there. Haha, but she was afraid of Seven. HAHA. This was the only apt. we came up with in a crisis situation. We were there the month of March. 
+4.  Due to living in Kløfta, we needed a car. We used our short-time savings, 1600e for that. It was 5 km to the nearest grocery shop from there, and I had impossible working hours due to the buses going only 6 times a day. So, Sierra brought a relief for a while. Little did we know...
+5.  Since we didnt have an Internet subsription, we ended up having a total of 8500NOK = 1000e as mobile phone bills. Yes, for ONE MONTH!!! 
+6.  The yearly fee for the car was not paid, although we verbally were given this idea by the shop that sold the Sierra. = 320e extra in payments. And do not forget the moving car Uranienborgveien - Kløfta, and again Kløfta - Hauketoveien. I guess it was around 400e for that. 
+7.  We bought our own apartment and moved there 1 April. I list this as a problem, since we made the decision in a crisis situation, I got a too small loan and we needed to get out of Kløfta. This apartment needs renovation badly, which we knew we couldnt afford any time soon since Tony was unemployed, and it is too small. It was too small already when we moved in, and it will be too small even if we get rid of half of our belongings. 
+8.  11 April. On the way home from North Norway from Tonys grandfather, Sierras back axel got broken and we had to leave the car to Rena, around 278km north from Oslo. Extra payments ca. 206e. 
+9.  24 April 04 or around there, our Sierra was vandalized for the first time. 3 broken windows.
+10. 6 May -> I get sick-leave due to depression because of my job-situation. 10 days. 
+11. May 2004. Sierra needed the yearly controll (EU-controll) and didn´t pass due to a lot of rust on the bottom. Tony went to north Norway and his Grandfather fixed it. Needless to say, the car was supposed to be okay to next year, ie. the controll should have already been done! 
+12. 31 June is my last day as a shop manager. The stress, fighting, crying and pressure is too much for me. Let alone the 6 others who quit before and after this date. 
+13. Sierra got vandalised again: someone keyed the body. September 2004
+14. Sierra got vandalised the last time, 1 smashed window, and all sides have been kicked in. December 2004. 
+15. I have a migraine pushing up, while compiling this list. 
+what am I forgetting... ` 
+posted by Mithralinde at 14:16 | 0 comments   
+BCC  
+What is it with these people who still don´t know how to use BCC when emailing to a lot of people? I just hate it, and I have replied quite harshly to anyone who is stupid enough not to use it, and they send email to a 2+ people...I once requested "additional information" from IB-school here in Oslo via their online - form on the website, and I ended up receiving an email attachment that was sent to like 80 people and all the names were on the TO: -line revealing them to everyone! I got so pissed, that I replied to the lady (I feel sorry for her now) that she above all should know better (it was about a MBA Executive manager programme)! Working in a school like that!The worst thing is that I have seen that being done in banks, IT-companies, customer care companies and by customer care professionals...The truth is, that computers and everything IT-related is here to stay, and people SHOULD be taught how to use computers. I went through primary, secondary and high school never receiving any formal training in computers. I even studied my BBA and the only thing we had was word processing and touch, and as I knew them already, I didnt need to attend. And now people tell me that I am good on this because I went to school for that. Fuck them! They know nothing about the todays schools, that teach about computers only if that is a computer related study programme. And even then, it is not about the NETIQUETTE!!!And I am not an expert on this, I just have been 99% spam free on my ISP email the past 2 years, and I receive spam only on my Yahoo accounts, except now TODAY I have received 3 spam mails to my ISP account because some people sent me ONLINE E-CARDS TO THEM!!!!Geez, thanks for reading this, and letting me lunge this out. 
+posted by Mithralinde at 13:02 | 0 comments   
+Wednesday, January 05, 2005
+Sick  
+I am sick... I hate being at home already. I have been officially at my work for two days, and the third, I must stay home. Blah. I suspect I have either bronchitis or pneumonia, or similar lunge infection. I don´t have a clue how long I´ve had fever, since I have been measuring nothing since Sunday, but this morning I tried another thermometer which jumped right up, and the other one still showed nothing... so I have been using a broken thermometer for 3 days... I was already wondering. I was feeling so miserable and yet, the thing showed no fever, and I just thought, OK, I must be hallucinating.I miss my new PC.*LOL* 
+posted by Mithralinde at 18:40 | 0 comments   
+Tuesday, January 04, 2005
+Tony is now fixing me this kind of PC at work. It is used by the manager actually, but he wanted a new pc, (table one) so I will receive this, as I need one. I am very happy, as said before, I am so fond of gadgets, and this is a very special gadget... hehe. 
+posted by Mithralinde at 19:50 | 0 comments   
+My new work PC! Yiee! 
+posted by Mithralinde at 19:48 | 0 comments   
+Friday, December 31, 2004
+Office dog  
+Yey. Now I am officially hired. Well, I dont have a contract yet, but we have discussed the terms, and the contract will be signed as soon as possible. I get 5 weeks holiday, my salary is ca. 2429e per month, plus my bonus, and overtime.They want/wish me to work ca. 50 hours a week... so I told them it is not possible due to our having a dog. So, "but the dog can get to work as well", and "we need a company mascot", so Seven had her first working day yesterday. 10,5 hours, that was nice. And she immediately got more food on the table. LOL. HAHA. (We finally went and bought a 15kg Hills sack again late yesterday).They even mentioned that "Homies" may pay for her crate, I mean Seven needs her own place where to retire to sleep and have some private time. I am not a crate positive person otherways, but I think she needs a place of her own, if there are 9 people in the office daily, it might get stressfull sometimes. Besides, she does need her beauty sleep, and she cannot just sleep on front of the door, can she? I dont know what kind of working space I will get, the desk and the size of it, and whether there is space under it for her, and it is most likely we will open up a few rooms there, remove some walls that is, to create a larger space, and then her crate would be offering the "4 walls" she needs. Besides, I could always throw a blanket over it, too. I could never even imagine it would be possible to have your dog at your work, and I think at this moment I am more exited about the dog-at-office thing than getting the job itself. HAH! Well, it is excellent anyway! 
+posted by Mithralinde at 17:39 | 0 comments   
+Sunday, December 26, 2004
+We spent the X-mas eve at Tonys stepsisters place. Her name is Kaia, and it was just the four of us, Kaia, Tony, Seven and me. Anakin stayed home, poor fella, but he is not so keen on train or any kind of traveling for that matter. It was cozy, some red wine, good food, and opening the presents of course. Sending a lot of SMS to all friends and family. No complaints, but I have used to a way more people around me during Christmas, so it felt a bit "quiet" in a way. Next year we need to go to Finland again, it´s been two Christmases that we haven´t been at my parents. That is terrible. 
+posted by Mithralinde at 14:05 | 0 comments   
+Previous Posts
+* Nice suprise for Easter, huh? 
+* Yes, this is our KITCHEN FLOOR! 
+* Water in water. 
+* More 
+* Water water water. 
+* does this need any explaining... ? 
+* The black parts are water. Squeeze and you will ge... 
+* Things start to reveal itself. 
+* The smell is just awfull... 
+* Water Damage coming from our bathroom. 
+Archives
+* January 2003   
+* February 2003   
+* March 2003   
+* April 2003   
+* May 2003   
+* June 2003   
+* July 2003   
+* September 2003   
+* October 2003   
+* November 2003   
+* May 2004   
+* June 2004   
+* July 2004   
+* August 2004   
+* September 2004   
+* October 2004   
+* November 2004   
+* December 2004   
+* January 2005   
+* February 2005   
+* March 2005  
+About Me
+Name:Mithralinde 
+Location:Oslo, Norway 
+I´m 29, Finnish citizen, engaged and we have a 1,5 year old GSD called Seven, and 6 months old black cat Anakin. I am currently residing in Oslo, Norway. 
+View my complete profile 
+PINK JESUS
+Guestbook
+Contact me!
+ 
+---------------------------------------------------------------------
+Photos 
+Gallery I 
+Gallery II 
+Gallery III
+---------------------------------------------------------------------
+ Other Journals 
+Aileen
+Cinoss
+Faete
+Kirana
+Lilith
+Melissa
+Ricky
+Rusty Spoon (lil´sis)
+Viviana 
+---------------------------------------------------------------------
+---------------------------------------------------------------------
+Daily Cartoon 
+More Penpals - Penpals and Swappers 
+---------------------------------------------------------------------
+nbsp;
+

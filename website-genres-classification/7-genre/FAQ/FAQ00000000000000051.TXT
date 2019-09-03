@@ -1,0 +1,32 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Forecasting Page | Back to Main FAQ Page 
+Subject: F4) What is Prof. Gray's seasonal hurricane forecast for this year and what are the predictive factors? 
+Prof. Bill Gray at Colorado State University in Fort Collins, Colorado (USA) has issued seasonal hurricane forecasts for the Atlantic basin since 1984. Dr. Gray and his forecast team issues seasonal forecasts in late November, early June, and early August of each year with a verification of the forecasts given in late November. Click here to obtain these forecasts. You can also see the status of previous forecasts by selecting the year at the top and clicking 'GO'. 
+Details of his forecasting technique can be found in Gray (1984a,b) and Gray et al. (1992, 1993, 1994) . Landsea et al. (1994) also provides verifications of the first 10 years of forecasting. A quick summary of the components follows:
+* El Niño/Southern Oscillation (ENSO) - During El Niño events (ENSO warm phase), tropospheric vertical shear is increased inhibiting tropical cyclone genesis and intensification. La Nina events (ENSO cold phase) enhances activity. 
+Gray,W.M. (1984)
+* African West Sahel rainfall - In years of West Sahel drought conditions, the Atlantic hurricane activity is much reduced - especially the major hurricane activity (Landsea and Gray 1992). Wet West Sahel years mean a higher chance of low-latitude "Cape Verde"-type hurricanes. This is also due to higher tropospheric vertical shear in the drought years, though there may also be changes in the structure of African easterly waves as well to make them less likely to go through tropical cyclogenesis. 
+* Stratospheric quasi-biennial oscillation (QBO) - During the 12 to 15 months when the equatorial stratosphere has the winds blowing from the east (east phase QBO), Atlantic basin tropical cyclone activity is reduced. The east phase is followed by 13 to 16 months of westerly winds in the equatorial stratosphere where the Atlantic activity is increased. It is believed (but not demonstrated) that the reduced activity in east years is due to increased lower stratospheric to upper tropospheric vertical shear which may disrupt the tropical cyclone structure. 
+Gray,W.M. (1984) 
+* Caribbean sea level pressure anomalies (SLPA) - During seasons of lower than average surface pressure around the Caribbean Sea, the Atlantic hurricane activity is enhanced. When it is higher than average, the tropical cyclone activity is diminished. Higher pressure indicates either a weaker Inter-tropical Convergence Zone (ITCZ) or a more equatorward position of the ITCZ or both. 
+* Caribbean 200 mb zonal wind anomalies (ZWA) - The 200 mb winds around the Caribbean are often reflective of the ENSO or West Sahelian rainfall conditions (i.e. westerly ZWA corresponds to El Niños and West Sahel drought conditions). However, the winds also provide some independent measure of the tropospheric vertical shear, especially in years of neutral ENSO and West Sahel rainfall. 
+Gray,W.M. (1984) Back to Tropical Cyclones Forecasting Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

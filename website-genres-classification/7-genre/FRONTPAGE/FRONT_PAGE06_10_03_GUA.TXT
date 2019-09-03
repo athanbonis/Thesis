@@ -1,0 +1,254 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Emma Brockes meets John Mortimer
+- Pete Proudfoot: Addicted to personal ads
+- The rise and rise of black British theatre
+This week
+- Labour conference 2003
+- Observer Music Monthly
+- Exclusive survey: how much do public sector bosses earn?
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Gary Younge
+- Peter Preston
+- Natasha Walter
+- David Hirst
+- Roy Hattersley
+- Nick Coleman
+- George Galloway
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+Steve Bell
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Monday October 06 2003 	
+Duncan Smith faces fight of his life
+Make or break week for leader in Blackpool.
+Another year, same problem
+Comment: Roy Hattersley
+Leader: Decline and fall-out
+Conservative conference 2003
+Guardian Unlimited Politics	
+ 	
+Israeli jets hit Syria
+Israel launches its deepest raid into Syria in 30 years to attack a Palestinian 'terrorist training base'.
+Special report: Israel & the Middle East	
+ 	
+Answers please, Mr Bush
+Michael Moore has got George Bush in his sights. In the second extract from his new book he asks his old enemy seven awkward questions.
+Special report: United States	
+ 	
+Audio | Crossword | Talk | Steve Bell | Weblog | Comment | Email services | Interactive guides	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Ministers round on Cook over diaries serialisation
+Politics: Former foreign secretary, Robin Cook, was facing attacks over claims in his diaries that Tony Blair knew Saddam Hussein had no viable weapons of mass destruction.
+Comment: Peter Preston
+Guardian Unlimited Politics	
+ 	
+Jarvis blamed for derailment
+UK: Employee suspended after investigation into King's Cross incident reveals failure by major contractor.
+Special report: transport in Britain
+More UK news	
+ 	
+China sets sights on the moon
+World: Plans for lunar landing in 2010 as officials step up space race.
+Special report: China
+More world news	
+ 	
+Barrett to quit Barclays
+Business: Bank's chief executive spurns chance to take chairman's job.
+More business news	
+ 	
+Granada and Carlton will merge with few curbs
+Media: The Competition Commission is believed to have agreed that Granada and Carlton Communications should be allowed to merge with only light restrictions on advertising.
+ITV merger rings alarm bells at BBC
+MediaGuardian.co.uk	
+ 	
+School meals attacked by report
+Education: More money is spent on prison food than school lunches, according to a report out today.
+Creative catering leaves pupils crying out for their greens
+EducationGuardian.co.uk	
+ 	
+Pensioner groups attack £14.79 top-up
+Money: More than 2 million pensioners will see their incomes rise from today following the official launch of the government's scheme to boost support for the elderly.
+Comment: Andrew Smith
+Guardian Unlimited Money	
+ 	
+One in four GPs lack training to spot breast cancer signs
+Society: One in four family doctors feel they lack the proper training to identify suspected cases of breast cancer, according to research released today. 
+SocietyGuardian.co.uk	
+ 	
+Treasure i-land 
+Online: The largest vault of TV and radio programmes in the world is on the verge of being put online by the BBC. But there are problems, reports Dominic Timms.
+More from the Online team	
+ 	
+For better - or worse
+Comment: The anti-war movement failed to stop the attack on Iraq, but it has already had a decisive impact on politics, says Gary Younge.
+More comment	
+ 	
+A brush with controversy at St Paul's
+Arts: Critics attack 'technically insane' cathedral restoration.
+Guardian Unlimited Arts	
+ 	
+Classy Crespo rises above Boro siege
+Football: Hernan Crespo came off the bench to bag the points with an unlikely late winner to keep a deeply unconvincing Chelsea in touch with Arsenal.
+Guardian Unlimited Football	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Car hire	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live online		 
+- John Vidal: how to solve the world's water problems
+- Tue Oct 7: Discuss the rugby world cup with the Observer's Eddie Butler
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+Events & offers		 
+- Buy a signed Jane Bown print
+- Win a copy of The Complete Maus
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

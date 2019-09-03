@@ -1,0 +1,236 @@
+
+=====================================================================
+Site map - canada.com network
+=====================================================================
+ 
+function checkEmpty1() { if (document.searchform1.searchfor.value.length == 0){ alert("Please enter your search criteria!"); return false; } } function checkEmpty2() { if (document.searchform2.searchfor.value.length == 0){ alert("Please enter your search criteria!"); return false; } } 
+CANADA.COM	 
+»	 About Us	 
+&#149	 Profile	 
+•	 Job Postings	 
+»	 Contact us	 
+»	 Advertising	 
+»	 Scholarships	 
+»	 Privacy	 
+»	 Terms	 
+»	 FAQ	 
+»	 Site Map	 
+»	 Our Partners	 
+»	 Our Cities	 
+»	 US Cities	 
+SITE MAP	 
+canada.com
+» About Us
+» Contact Us
+» Advertising
+» Privacy
+» Terms
+» FAQ
+» Site Map
+» Our Cities
+» U.S. Cities
+» Contests 
+» Forums
+ 
+Utilities 
+» E-mail Login
+» E-mail Sign up
+» Email FAQ
+» Email "How to Guide"
+» Email Technical Support
+» Email Upgrades
+» canada.com Membership
+» Newsletters
+» Headlines
+» Weather
+» Super Search 
+» Find a Business
+» Find a Person
+» Maps
+» Add URL 
+» Lotteries
+» Horoscopes
+» What's on TV
+» Mobile
+» Make Us Your
+    Home Page
+Business Centre
+Classifieds 
+Connecting 
+DRIVING (Autos)
+» Vehicles for Sale
+» Deals of the Week
+» Compare Vehicles
+» Profiles
+» Road Tests
+» Calculators
+Homes 
+Auctions 
+Careers
+News
+» National
+» World
+» Business
+» Sports
+» Entertainment
+» Health
+» Technology
+» Oddities
+» Agriculture
+» National Post 
+Sports
+» Hockey
+» Football
+» Basketball
+» Baseball
+» Soccer
+» Tennis
+» Golf
+» Auto
+» Skiing
+Finance
+» Mutual Funds
+» Stock Centre
+» News
+» Money Library
+» Spotlight
+» Key Numbers
+» Market Movers
+» Rates
+» Entrepreneur
+» Calculators
+Entertainment
+» Books
+» Movies
+» Music
+» TV Listings
+» New TV Channels
+» TV Shows
+   • Consumer Smart
+   • Global National
+   • Global Sunday
+   • Survivor
+   • Weather Whys
+» TV Times 
+Health
+» Body & Health
+» My Guides
+Technology
+» Web Junkie
+Travel
+» Book a Trip
+» Destination: Canada
+» Destination: US
+» Destinations: World
+Victoria
+» Around Town
+» Sports
+   • BC Lions
+» Victoria Times Colonist
+» CH Victoria
+Vancouver
+   • BC Lions
+   • Canucks
+» Vancouver Province
+» Vancouver Sun
+» Global TV BC
+» Best of B.C. Eating
+Calgary
+» Around Town
+» Sports
+   • Flames
+   • Hitmen
+   • Stampeders
+   • Roughnecks
+» Calgary Herald
+   • Business Section
+ » Global TV Calgary
+Edmonton
+» Around Town
+» Sports
+   • Oilers
+   • Eskimos
+» Edmonton Journal
+   • Business Section
+» Global TV Edmonton
+Regina
+» Around Town
+» Sports
+   • Regina Pats
+   • Roughriders
+» Regina Leaderpost 
+» Global TV Regina
+ 
+Saskatoon
+» Around Town
+» Sports
+   • Blades
+   • Roughriders
+» Saskatoon StarPhoenix
+» Global TV Saskatoon
+ 
+Winnipeg
+» Around Town
+» Sports
+   • Blue Bombers
+» Global TV Winnipeg
+ 
+Hamilton / CH Hamilton
+» Tiger-Cats
+Toronto
+» Around Town
+» Sports
+   • Leafs
+   • Argonauts
+   • Raptors
+   • Blue Jays
+» Global TV Ontario
+Ottawa
+» Around Town
+» Sports
+   • Senators
+   • Renegades
+» Ottawa Citizen
+    • eProfiles
+   • Who's Who in
+      High Tech
+» Global TV Ontario
+Montreal
+ » Events Listings
+» Sports
+    • Alouettes
+    • Canadiens
+    • Expos
+    • Impact
+» Montreal Gazette
+    • Business
+    • Arts & Life
+    • Columnists
+    • Aislin
+    • 7-Day Archive 
+   • Births & Deaths
+    • Customer Service 
+» Global TV Quebec
+ 
+Maritimes
+ » Atlantic news
+ » Global Maritimes 
+   • What's On Global
+    • Cindy Day's
+    Weather Whys
+British Columbia » Dawson Creek
+» Fort St. John
+» Kamloops
+» Kelowna
+» Nanaimo
+» Prince George
+» Prince Rupert
+» Trail
+Alberta » Lethbridge
+» Red Deer
+Ontario » Windsor
+Search canada.com | About Us | Advertise | Site Map | Privacy | Terms | FAQ | Our Partners	 
+Copyright © document.write((new Date()).getFullYear()); CanWest Interactive Inc. All rights reserved.
+CanWest Interactive Inc. is an affiliate of CanWest Global Communications Corp.
+Copyright & Permission Rules 	
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')       //-->             

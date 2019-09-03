@@ -1,0 +1,174 @@
+
+=====================================================================
+Site map for Debian web pages
+=====================================================================
+ Select a server near you: 
+Australia
+ 
+Austria
+ 
+Brazil
+ 
+Bulgaria
+ 
+China
+ 
+France
+ 
+Germany
+ 
+Hong Kong
+ 
+Indonesia
+ 
+Italy
+ 
+Japan
+ 
+Netherlands
+ 
+Russia
+ 
+South Africa
+ 
+Spain
+ 
+Ukraine
+ 
+United Kingdom
+ 
+United States
+ 
+Site map for Debian web pages
+About Debian 
+* About Debian 
+* Debian Social Contract, Version 1.0 
+* What Does Free Mean? 
+* Reasons to Choose Debian 
+* Debian's Organizational Structure 
+* Donations to Software in the Public Interest 
+* Getting in Contact with Us 
+* Debian web site in different languages 
+* Latest News 
+* Debian Weekly News 
+* Major events related to Debian 
+* Donations of equipment and services to Debian 
+* Debian Partners 
+* Sponsors of the official Debian mirrors 
+Getting Debian 
+* Debian Releases 
+* Debian GNU/Linux 3.0 &ldquo;woody&rdquo; Release Information 
+* Debian &ldquo;sarge&rdquo; Release Information 
+* Packages 
+* Getting Debian 
+* Installing Debian GNU/Linux via the Internet 
+* Network install from a minimal CD 
+* Booting from floppy disks and installing using the network 
+* Debian GNU/Linux on CDs 
+* Frequently Asked Questions about Debian CDs 
+* Vendors of Debian CDs 
+* Installing Debian GNU/Linux via CD images 
+* Downloading Debian CD images via HTTP/FTP 
+* Downloading Debian CD images with jigdo 
+Support 
+* Support 
+* Debian International 
+* Consultants 
+* Computer vendors that pre-install Debian 
+* Documentation 
+* Debian FAQ 
+* Debian Books 
+* Debian Documentation Project 
+* DDP Users' Manuals 
+* DDP Developers' Manuals 
+* DDP Miscellaneous Manuals 
+* Security Information 
+* Debian Security Audit Project 
+* Mailing Lists 
+* debian-announce Mailing List Subscription 
+* Mailing List Subscription 
+* Mailing List Unsubscription 
+* Mailing List Archives 
+* Archives for users' mailing lists 
+* Archives for developers' mailing lists 
+* Archives for i18n/l10n mailing lists 
+* Archives for ports' mailing lists 
+* Archives for mailing lists of the Bug tracking system 
+* Archives for miscellaneous mailing lists 
+Development 
+* Debian bug tracking system 
+* Debian BTS - reporting bugs 
+* Debian BTS - control server 
+* Debian BTS - request server 
+* Debian BTS - developer info 
+* Release Critical Bugs 
+* Debian Policy Manual 
+* Developers' Reference 
+* New Maintainers' Guide 
+* Ports 
+* Alpha Port 
+* ARM Port 
+* PA-RISC Port 
+* IA-64 Port 
+* Motorola 680x0 Port 
+* MIPS Port 
+* PowerPC Port 
+* S/390 Port 
+* SPARC Port 
+* Quality Assurance 
+* Lintian Reports 
+* Package Tracking System 
+* Debian Developer's Packages Overview 
+* Debian Developers' Corner 
+* Debian Constitution 
+* Project Participants 
+* Developer Locations 
+* Developer Database 
+* How You Can Help 
+* Developer Miscellanea 
+* Debian New Maintainers' Corner 
+* Work-Needing and Prospective Packages 
+* Helping with the Debian web pages 
+* Translating Debian web pages 
+* Alioth &ndash; Debian GForge 
+* Debian Jr. Project 
+* Debian-Med 
+* Debian-Edu project 
+* Debian on the Desktop 
+* Debian-Lex 
+* Debian Non-Profit 
+* Debian-Accessibility 
+* Debian Voting Information 
+* Debian Voting - Submitting a proposal 
+* Standard Resolution Procedure 
+Miscellaneous 
+* Debian mirrors 
+* Mirror Size 
+* Submit Mirror Information 
+* Setting up a Debian archive mirror 
+* Becoming a mirror for Debian CD images 
+* Official Debian mirrors 
+* Mirrors of the Debian web site 
+* Debian logos 
+* Debian banners 
+* Artwork for Debian CDs 
+* Debian Merchandise 
+* Related Links 
+* Awards 
+* Debian GNU/Hurd 
+* Debian GNU/NetBSD 
+* Debian GNU/kFreeBSD 
+* Beowulf Project 
+* Debian on the Go 
+Search
+---------------------------------------------------------------------
+Back to the Debian Project homepage.
+---------------------------------------------------------------------
+This page is also available in the following languages:
+&#1593;&#1585;&#1576;&#1610;&#1577; (Arabiya) &#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080; (B&#601;lgarski) català &#269;esky dansk Deutsch &#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940; (Ellinika) español Esperanto français &#54620;&#44397;&#50612; (Hangul) hrvatski Indonesia Italiano Lietuvi&#371; magyar Nederlands &#26085;&#26412;&#35486; (Nihongo) norsk (bokmål) polski Português român&#259; &#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; (Russkij) Sloven&#269;ina sloven&#353;&#269;ina suomi svenska Türkçe &#1091;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; (ukrajins'ka) &#20013;&#25991;(&#31616;) &#20013;&#25991;(HK) &#20013;&#25991;(&#32321;) 
+---------------------------------------------------------------------
+To report a problem with the web site, e-mail debian-www@lists.debian.org. For other contact information, see the Debian contact page.
+Last Modified: Thu, Mar 10 18:48:27 UTC 2005 
+Copyright © 1997-2005 SPI; See license terms
+ Debian is a registered trademark of Software in the Public Interest, Inc. 
+

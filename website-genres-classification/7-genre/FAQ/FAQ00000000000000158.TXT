@@ -1,0 +1,52 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclone Observation Page | Back to Main FAQ Page 
+Subject: H1) What is the Dvorak technique and how is it used? 
+The Dvorak technique is a methodology to get estimates of tropical cyclone intensity from satellite pictures. Vern Dvorak developed the scheme using a pattern recognition decision tree in the early 1970s (Dvorak 1975, 1984) .
+Utilizing the current satellite picture of a tropical cyclone, one matches the image versus a number of possible pattern types: Curved band Pattern, Shear Pattern, Eye Pattern, Central Dense Overcast (CDO) Pattern, Embedded Center Pattern or Central Cold Cover Pattern. If infrared satellite imagery is available for Eye Patterns (generally the pattern seen for hurricanes, severe tropical cyclones and typhoons), then the scheme utilizes the difference between the temperature of the warm eye and the surrounding cold cloud tops. The larger the difference, the more intense the tropical cyclone is estimated to be. From this one gets a "T-number" and a "Current Intensity (CI) Number". CI numbers have been calibrated against aircraft measurements of tropical cyclones in the Northwest Pacific and Atlantic basins. On average, the CI numbers correspond to the following intensities:
+Current Intensity Numbers 
+CI Number	 Maximum Sustained 
+One Minute Winds
+(kts)	 Central Pressure
+(mb)	 
+Atlantic	NW Pacific	 
+0.0	----	----	 
+0.5	25	----	----	 
+1.0	25	----	----	 
+1.5	25	----	----	 
+2.0	30	1009	1000	 
+2.5	35	1005	997	 
+3.0	45	1000	991	 
+3.5	55	994	984	 
+4.0	65	987	976	 
+4.5	77	979	966	 
+5.0	90	970	954	 
+5.5	102	960	941	 
+6.0	115	948	927	 
+6.5	127	935	914	 
+7.0	140	921	898	 
+7.5	155	906	879	 
+8.0	170	890	858	 
+Note that this estimation of both maximum winds and central pressure assumes that the winds and pressures are always consistent. However, since the winds are really determined by the pressure gradient, small tropical cyclones (like the Atlantic's Andrew in 1992, for example) can have stronger winds for a given central pressure than a larger tropical cyclone with the same central pressure. Thus caution is urged in not blindly forcing tropical cyclones to "fit" the above pressure- wind relationships. (The reason that lower pressures are given to the Northwest Pacific tropical cyclones in comparison to the higher pressures of the Atlantic basin tropical cyclones is because of the difference in the background climatology. The Northwest Pacific basin has a lower background sea level pressure field. Thus to sustain a given pressure gradient and thus the winds, the central pressure must accordingly be smaller in this basin.)
+The errors for using the above Dvorak technique in comparison to aircraft measurements taken in the Northwest Pacific average 10 mb with a standard deviation of 9 mb (Martin and Gray 1993). Atlantic tropical cyclone estimates likely have similar errors. Thus an Atlantic hurricane that is given a CI number of 4.5 (winds of 77 kt and pressure of 979 mb) could in reality be anywhere from winds of 60 to 90 kt and pressures of 989 to 969 mb. These would be typical ranges to be expected; errors could be worse. However, in the absence of other observations, the Dvorak technique does at least provide a consistent estimate of what the true intensity is.
+While the Dvorak technique was calibrated for the Atlantic and Northwest Pacific basin because of the aircraft reconnaissance data ground truth, the technique has also been quite useful in other basins that have limited observational platforms. However, at some point it would be preferable to re-derive the Dvorak technique to calibrate tropical cyclones with available data in the other basins. 
+Lastly, while the Dvorak technique is primarily designed to provide estimates of the current intensity of the storm, a 24 h forecast of the intensity can be obtained also by extrapolating the trend of the CI number. Whether this methodology provides skillful forecasts is unknown.
+Back to Tropical Cyclone Observation Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

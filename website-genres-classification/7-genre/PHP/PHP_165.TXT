@@ -1,0 +1,30 @@
+
+=====================================================================
+=====================================================================
+Andrew A. Bennett
+Research Associate/Doctoral Candidate, MIT Department of Ocean Engineering. 
+Research Interests 
+€ Sensor data fusion in marine robotic systems 
+€ Navigation and control of autonomous underwater vehicles (AUVs) 
+€ Integration of remote sensing systems with in-situ observation platforms.
+€ Distributed, physically-based, interactive ocean simulation
+Thesis Title 
+"Feature Relative Navigation of Autonomous Underwater Vehicles"
+Thesis Committee 
+€ Prof. John J. Leonard
+€ Prof. Henrik Schmidt 
+€ Prof. Michael S. Triantafyllou
+Publications 
+(1) Sclater, J. G., L. Meinke, A. Bennett, C. Murphy, "The Depth of the Ocean Through the Neocene," CENOP publication, March 1984.
+(2) Bennett, A., "Combining Planning With Reactive Architectures in an Autonomous Underwater Vehicle," UUST Conference Proceedings, October 1993.
+(3) Bennett, A., Leonard, J.J., Bellingham, J.G., "Bottom Following for Survey Class Autonomous Underwater Vehicles," UUST Conference Proceedings, September 1995.
+(4) Bennett, A., Leonard, J.J., "Autonomous Mapping With an AUV: An Approach for Ground Truthing of Remote Sensing Data," Oceans '96 Conference Proceedings, September 1996. 
+Resume 
+Contact Information 
+MIT Dept. of Ocean Engineering 
+77 Mass Ave., Room 5-424 
+Cambridge, Massachusetts 02139 
+Telephone: (617) 253-7950 
+Fax: (617) 253-8125 
+Email: abennett@mit.edu
+Last modified: 9 December, 1996 / abennett@mit.edu 

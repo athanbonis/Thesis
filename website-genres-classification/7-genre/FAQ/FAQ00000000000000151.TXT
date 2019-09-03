@@ -1,0 +1,43 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Climatology Page | Back to Main FAQ Page 
+   Subject: G3) What may happen with tropical cyclone activity due to global warming? The United Nation's Intergovernmental Panel on Climate Change (IPCC) has speculated that climate change due to increasing amounts of anthropogenic "greenhouse" gases may result in increased tropical sea surface temperatures (SSTs) and increased tropical rainfall associated with a slightly stronger intertropical convergence zone (ITCZ) (Houghton et al., 1990, 1992, 1996). Because tropical cyclones extract latent and sensible heat from the warm tropical oceans and release the heat in its upper tropospheric outflow to fuel the storm's spin up, early work of the IPCC expressed concern that warmer SSTs will lead to more frequent and intense hurricanes, typhoons and severe tropical cyclones. These concerns prompted the IPCC (Houghton et al. 1990) to suggest in 1990 that: 
+"There is some evidence from model simulations
+  and empirical considerations that the frequency
+  per year, intensity and area of occurrence of
+  tropical disturbances may increase [in a
+  doubled carbon dioxide world], though it is
+  not yet compelling."
+However, any changes in tropical cyclone activity are intrinsically also tied to large-scale changes in the tropical atmosphere. As a result, SSTs by themselves cannot be considered without corresponding information regarding the moisture and stability in the tropical troposphere. What has been identified in the current climate as being necessary for genesis and maintenance for tropical cyclones (e.g. SSTs of at least 26.5°C [80°F] - Gray 1968) would change in an enhanced doubled CO2 world because of possible changes in the moisture or stability. It is quite reasonable that an increase in tropical and subtropical SSTs would be also accompanied by an increase in the SST threshold value needed for cyclogenesis because of compensating changes in the tropospheric moist static stability (Emanuel 1995). In addition to the thermodynamic variables, changes in the tropical dynamics also play a large role in determining changes in tropical cyclone activity. For example, if the vertical wind shear over the tropical North Atlantic moderately increased during the hurricane season in an increased CO2 world - as what is typically seen during El Nino-Southern Oscillation warm phases (El Nino events), then we would most likely see a significant decrease in tropical cyclone activity. This is due to the Atlantic basin having a marginal climatology for tropical cyclone activity because of its sensitivity to changes in vertical wind shear and lack of an oceanic monsoon trough (Gray et al. 1993). In other less marginal tropical cyclone basins, changes in the vertical shear profile typically result in alterations in the preferred location of development (e.g. Nicholls 1979, Chan 1985, Revell and Goulter 1986, and Lander 1994). These complications along with conflicting global circulation modeling (GCM) runs compelled the 1995 IPCC (Houghton et al. 1996) to express greater uncertainty about the nature of tropical cyclones in an enhanced CO2 environment: 
+"The formation of tropical cyclones depends not
+  only on sea surface temperature (SST), but also
+  on a number of atmospheric factors.  Although
+  some models now represent tropical storms with
+  some realism for present day climate, the state
+  of the science does not allow assessment of
+  future changes."
+Most recently, Henderson-Sellers et al. (1998) addressed a few of the tropical cyclone-greenhouse warming problems. The first is that "there is no evidence to suggest any major changes in the area or global location of tropical cyclone genesis in greenhouse conditions." This conclusion is based upon Holland's (1997) thermodynamic tropical cyclone model which does show that in a greenhouse-warmed climate there is an upward alteration in the minimum SST from 26.5° to 28°C (80° to 83°F) needed for tropical cyclogenesis. The additional conclusion from Henderson-Sellers et al. (1998) suggests "an increase in [maximum potential intensity] MPI of 10%-20% [in central pressure or 5%-10% in maximum sustained winds] for a doubled CO2 climate but the known omissions (ocean spray, momentum restriction, and possibly also surface to 300 hPa lapse rate changes) all act to reduce these increases." This second finding is also based upon the thermodynamic models of Emanuel (1986) and Holland (1997), which also appear to corroborate similar findings for Northwest Pacific typhoons from a "downscaled" GCM to mesoscale model approach by Knutson et al. (1998). Henderson-Sellers et al. (1998) does not provide guidance for possible changes in tropical cyclone frequency, mean intensity, or area of occurrence. The most helpful paper that may predict changes in hurricane and typhoon frequency with some realism is the recent work by Royer et al. (1998). Based upon alterations to the large scale atmospheric and oceanic conditions (vertical shear, vorticity and thermodynamic stability), they suggest that only small changes to the tropical cyclone frequencies may result: up to 10% increase in numbers in the Northern Hemisphere (primarily in the Northwest Pacific) and up to a 5% decrease in numbers in the Southern Hemisphere. These values should be considered very preliminary. To summarize, our current assessment of how global warming may alter hurricanes, typhoons and tropical cyclones is as follows (from Henderson-Sellers et al. 1998, Knutson et al. 1998, and Royer et al. 1998): 
+* There is no evidence to suggest tropical cyclones will have any major changes in WHERE they form or occur. 
+* Preliminary analyses hint that only small to no change in the NUMBER of tropical cyclones may occur, and that regionally there may be areas that have small increases or small decreases in frequency. 
+* The PEAK INTENSITY of tropical cyclones may increase by 5-10% in wind speeds, but this may be an overestimate because of simplifications in the calculations. 
+* Little is known as to how the AVERAGE INTENSITY or SIZE of tropical cyclones may change due to global warming. 
+* Overall, these suggested changes are quite small compared to the observed large natural variability of hurricanes, typhoons and tropical cyclones. However, more study is needed to better understand the complex interaction between these storms and the tropical atmosphere/ocean. 
+Back to Tropical Cyclones Climatology Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

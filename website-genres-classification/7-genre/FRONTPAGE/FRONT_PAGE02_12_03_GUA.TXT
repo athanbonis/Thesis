@@ -1,0 +1,253 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Cartoon: Steve Bell on Ian Paisley
+- George Monbiot: The world is running out of oil
+- Ann Furedi: Trust doctors on abortion, not lawyers
+This week
+- Christmas charity appeal
+- Finish writing our baton story
+- England v Sri Lanka: 1st Test
+- Turner prize: people's poll
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Zoe Williams
+- George Monbiot
+- Martin Kettle
+- Ann Furedi
+- Mike Aaronson
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+Steve Bell
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Tuesday December 02 2003 	
+Huntley loses temper in dock
+Prosecution accuses Ian Huntley of holding Holly Wells under the water in his bath and watching her drown.
+Huntley admits his shame
+I did not touch girls, says Huntley
+Caretaker panicked over deaths
+Girlfriend 'not told' girls died in house
+Special report: Soham murder trial	
+ 	
+FO announces 10-year priorities
+Foreign Office says greatest challenges will come from international terrorism and climate change.
+Guardian Unlimited Politics	
+ 	
+No ifs, no butts
+Los Angeles dispatch: Draconian measures banning smoking in public places appear to work, reports Duncan Campbell.
+More exclusive reports	
+ 	
+ 	
+ Christmas charity appeal | Audio | Crossword | Talk | Steve Bell | Weblog | Comment | Email services | Interactive guides	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Swimming the Channel 
+Net notes: Gertrude Ederle, the first woman to swim the English Channel, has died aged 98. We provide a tributary web guide to cross-Channel swimming 
+More stories in links	
+ 	
+Beyond bull
+Economic dispatch: The US economy may look buoyant but sky-high balance of payments deficits point to a coming crisis, writes William Keegan.
+Special report: United States
+More economic dispatches	
+ 	
+14 arrested in anti-terrorist raids across UK
+UK: Fourteen people were arrested today under anti-terror laws after dawn raids on homes and businesses in three separate areas of England.
+Special report: terrorism threat to UK
+More UK news	
+ 	
+Radical plan for Middle East
+World: More than 300 dignitaries gather to promote a radical Middle East peace initiative.
+Leader: A moment to be seized
+Special report: Israel & Middle East
+More world news	
+ 	
+Gender spending
+Politics: Can the might of the Treasury really deliver equality for women, asks Helen McCarthy.
+Guardian Unlimited Politics	
+ 	
+Heads lock horns with press over school photos
+Education: Headteachers today called on newspapers not to name children in published pictures for fear of making them vulnerable to paedophiles. 
+EducationGuardian.co.uk	
+ 	
+Atkins gets fat on Tube business
+Business: Atkins has turned a small loss into a substantial profit thanks to a lucrative contract to maintain and renew the London Underground, figures released today show.
+More business news	
+ 	
+Breaking down the barriers
+Tbilisi dispatch: Despite the wealth of problems that lie ahead, Georgia's bloodless revolution could usher in an influential new era. Nick Paton Walsh explains.
+Special report: Georgia
+More exclusive reports from our foreign correspondents	
+ 	
+Most GPs will ditch night visits, shows survey
+Society: More than 80% of family doctors are planning to opt out of providing care for their patients outside surgery hours, according to a new survey.
+SocietyGuardian.co.uk	
+ 	
+BBC to get no advance warning of Hutton report
+Media: Tony Blair and the BBC will be given only hours to react to the report into the inquiry into Andrew Gilligan and the death of David Kelly.
+MediaGuardian.co.uk	
+ 	
+Christmas will be followed by 'debt dieting'
+Money: Britain's average bank account needs a pre-Christmas stash of £602, according to a national survey of this year's spending plans.
+Special report: Christmas 2003
+Guardian Unlimited Money	
+ 	
+Give generously
+Christmas appeal: This year we focus on Médecins Sans Frontières and domestic violence charities. Find out more and donate online.
+Launch of annual charity appeal 	
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live online		 
+- Thu Dec 4: George Monbiot
+- Fri Dec 12: Ofsted head David Bell
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+Events & offers		 
+- Win a study holiday in Florence
+- Win a family trip to the Eden Project
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

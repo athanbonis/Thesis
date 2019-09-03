@@ -1,0 +1,78 @@
+
+=====================================================================
+Glenn Ledder's Homepage
+=====================================================================
+ 
+Glenn Ledder 
+---------------------------------------------------------------------
+Vital Info Classes Office Hours 
+MAPLE Worksheets Written Documents Model Teaching Portfolio 
+---------------------------------------------------------------------
+Vital Info
+Glenn Ledder 
+334 Avery Hall 
+Department of Mathematics and Statistics 
+University of Nebraska--Lincoln 
+Voice: (402)-472-7382 
+FAX: (402)-472-8466 
+e-mail:gledder@math.unl.edu 
+Return to Top
+---------------------------------------------------------------------
+Classes
+I am not teaching in the Summer 2004 session. The courses and office hours that follow are from Spring 2004.
+Math 208 MTWF 10:30-11:20 Nebraska Hall W183 Calculus III 
+Math/CS 447/847 MWF 12:30-1:20	 Burnett 205	 Numerical Analysis of ODEs 
+Return to Top
+---------------------------------------------------------------------
+Office Hours
+* MWF 1:30-2:30, T 12-1 
+Return to Top
+---------------------------------------------------------------------
+MAPLE Worksheets
+Calculus Demonstrations
+secant-tangent gives a visual demonstration of how the tangent line is approximated by a sequence of secant lines.
+ 
+Basic Maple tutorials (with exercises)
+primer1 is an introduction to Maple designed for users who have no Maple experience. 
+Release 4 or Release 5 or Release 7,8 
+primer 2 is a demonstration of the use of formulas to represent functions and introduces basic commands for differentiation and integration. 
+Release 4 or Release 5 or Release 7,8 
+Click here for the solutions to the exercises in primer 2. 
+Differential Equations tutorials (with exercises)
+DEtools1 is a demonstration of the use of the DEtools package to plot direction fields and solutions for first order equations. 
+Release 4 or Release 5 or Release 7,8 
+DEtools2 is a demonstration of the use of the DEtools package to plot direction fields and solution curves for systems of two first order equations. 
+Release 4 or Release 5 or Release 7,8 
+odes is a demonstration of Maple commands for obtaining and graphing analytical and numerical solutions for differential equations and systems. 
+Release 4 or Release 5 or Release 7,8 
+Differential Equations
+Euler is a simple worksheet designed to make it easy to experiment with Euler's method on various differential equations.
+Release 4 or 5
+Partial Differential Equations
+HeatIVP is a worksheet that prepares graphs and animations for solutions of the Cauchy problem for the heat equation. 
+WaveIVP is a worksheet that prepares graphs and animations for solutions of the Cauchy problem for the wave equation. 
+DiffusionDisk is a worksheet that illustrates the use of Maple to solve homogeneous linear PDE's with constant coefficients on a bounded domain by the method of separation of variables. The worksheet solves the problem of radial diffusion in a disk. The worksheet assumes that the user knows the correct Sturm-Liouville equation and can solve the equation for the time-dependent factors by hand. (One can of course add more code to automate some of these simpler features.)
+ 
+Linear Programming
+simplex is a worksheet for the simplex algorithm.
+ Return to Top
+---------------------------------------------------------------------
+Written Documents
+Calculus III
+Derivative Concept is a handout that briefly summarizes the concept of the derivative for functions of 1 variable, with emphasis on the geometric significance of the derivative. 
+Directional Slope is a handout that lays the groundwork for the development of the directional derivative by considering the slope in a given direction of a linear function. Exercises are included. 
+Optimization is a handout that summarizes the theory and methods for for finding local and global extrema for functions of two variables.
+ Return to Top
+---------------------------------------------------------------------
+Model Teaching Portfolio
+Portfolio is my teaching portfolio for my Spring 1999 Differential Equations course. This portfolio was prepared in May 2000 for the Peer Review project.
+ 
+---------------------------------------------------------------------
+Feel free to use any of my materials for courses at other schools. I would appreciate being informed about which of my materials have been used where. 
+---------------------------------------------------------------------
+Mail to: gledder@math.unl.edu
+Last changed: July 1, 2004 
+Return to Top
+---------------------------------------------------------------------
+Designed by Becky Ledder
+

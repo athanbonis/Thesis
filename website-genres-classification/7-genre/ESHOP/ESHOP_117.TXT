@@ -1,0 +1,145 @@
+                              
+=====================================================================
+Language courses that work | LINGUAPHONE UK | Order online and learn a language today!
+=====================================================================
+                         Learn a Language the easy way! LINGUAPHONE language courses.       Call us on 0800 136 973                                    
+       basket review     home          register / login         contact us     help                                                   
+                         I want to learn...           
+Choose your language:
+              
+Afrikaans
+              
+Albanian
+              
+Amharic
+              
+Arabic
+              
+Bulgarian
+              
+Cambodian
+              
+Cantonese
+              
+Chinese Mandarin
+              
+Croatian
+              
+Czech
+              
+Danish
+              
+Dutch
+              
+English
+              
+Estonian
+              
+Finnish
+              
+French
+              
+German
+              
+Greek
+              
+Hardware
+              
+Hebrew
+              
+Hindi
+              
+Hungarian
+              
+Icelandic
+              
+Indonesian
+              
+Irish
+              
+Italian
+              
+Japanese
+              
+Korean
+              
+Latvian
+              
+Lithuanian
+              
+Malay
+              
+Mongolian
+              
+Norwegian
+              
+Persian
+              
+Polish
+              
+Portuguese
+              
+Portuguese (Brazilian)
+              
+Romanian
+              
+Russian
+              
+Scots Gaelic
+              
+Slovak
+              
+Slovene/Slovenian
+              
+Spanish
+              
+Spanish Latin American
+              
+Swahili
+              
+Swedish
+              
+Tamil
+              
+Thai
+              
+Turkish
+              
+Ukrainian
+              
+Vietnamese
+              
+Welsh
+            
+    	             	                                     your basket is empty                	            
+  // Make sure the user has chosen a language before allowing them to continue  function checkiwanttolearndropdownform(form){   if(form.iwanttolearn[form.iwanttolearn.selectedIndex].value != 0)    return true;   else {    alert("Please choose the language you wish to learn.");    return false;   }  }                                                                                        
+                                                                    
+     	          Learn a new language with Linguaphone     	          
+      	               
+With over 100 years of experience, we know that anybody who can speak one language has the ability to learn another.  
+Our proven method - Listen, Understand, Speak has helped over 7 million people speak a new language in a natural and effective way.  
+From the basic phrases through to fluent conversation, you'll be surprised at how quickly a second language becomes second nature.  
+And whether you're learning for holidays, business, travel or education, you can sure there's a course to suit you.  
+Use the "I want to learn..." drop down menu above to choose your new language.  
+ 	          Register with us for...     	          
+      	                
+. . . access to 'My Linguaphone', free handy travel phrases, online language quizzes, verb conjugators and more.   In addition signup for our newsletter and special offers.     
+ 	              register with 'my linguaphone'  	                                             
+                       
+     	          Holiday this summer?     	          
+      	                
+Get more out of your trip by learning the language.  
+Save up to 20% in this July promotion.  
+ 	              more info  	                                             
+                       
+     	          Exclusive offer from Linguaphone and the YHA     	          
+      	                 
+Get 2 years membership for the price of 1!   Accommodation, attractions, discounted travel and equipment... and much more.           
+ 	              find out more  	                                             
+                      
+     	          Linguaphone's top ten...     	          
+      	                   Arabic      French      German      Greek      Italian      Portuguese      Russian      Spanish      Thai      Turkish            	                          
+       	               	                                             
+                   	       
+                 
+       Linguaphone International          about us         our courses          become an affiliate         privacy policy     terms and conditions                 

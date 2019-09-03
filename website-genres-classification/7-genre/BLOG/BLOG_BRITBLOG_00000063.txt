@@ -1,0 +1,53 @@
+
+=====================================================================
+IMM 391
+=====================================================================
+ BlogThis! 
+IMM 391  
+Tuesday, March 15, 2005
+Week 7  
+emissions, rube designThis week I kept working on the Rube Goldberg machine and put together a presentation for class to show what research I have been doing so far in MAYA. I tried to add some more effects to the project that I created in recent tutorials. I am still in the process of finding more effects to add to the project. I was also able to work a little bit with advanced particle systems and effects. Although I have not gotten very far I did some exercises with curve emissions. The exercise included:- using curves as control for particle emitting objects- drawing where particles need to be emitted- controlling the attributes of individual emitters (each point on the curve) 
+posted by Christine @ 7:26 PM 0 comments   
+Tuesday, February 22, 2005
+Week 5  
+handRight now I am trying to combine all of the projects I have been working on to create a simple simulation of a machine that Rube Goldberg would make. Each component of the machine offsets another part much like the domino effect. I will have to do some more experiments to see what other animations and effects in MAYA I can add to this project. I would like to add more particle effects and I think the explosion tutorial can fit in somewhere.The newest tutorial I am working on deals with joints and animating the joints to simulate movements of a human hand. The hand's fingers move up and down. There is still a lot to learn but it is a good starting point for now. 
+posted by Christine @ 10:25 PM 0 comments   
+Tuesday, February 15, 2005
+Week 4  
+Explosion, BlobFor this week I completed two tutorials in MAYA dealing with more transformers and particles. The first project consists of a "jumping slime". It is created like the bouncing ball object using translation and scale. The deformers used for this tutorial include:- Lattice, bend, squash and jiggleThe second project is meant to simulate an explosion using particles. I decided to take two pictures to show the progression of the project. The first picture shows the basic explosion event before more detail is added as in the second. The project consisted of:- creating emitters and changing it's type, direction/distance, spread, and rate attributes.- creating a particle trail and editing it's attributes (spread, lifespan etc)- using fields such as gravity, turbulence, and air- creating new expressions in the attribute editor and adding dynamic attributes (radiusPP field and creating a Ramp)- creating a cloud-like appearance with Cloud[s/w] attribute and editing it 
+posted by Christine @ 5:04 PM 0 comments   
+Wednesday, February 09, 2005
+Week 3  
+water wheel and space shipI decided to continue working with rigid and soft body dynamics as well as particles. The first experiment consisted of simulating rain hitting a body of water. I learned how to use:- a volume particle emitter and edit it’s attributes- gravity and magnitude attributes and edit them- air field and edit the attributes- soft/rigid bodies (create spring) effects
+I had some problems with this project, since the soft body of water does not interact with the particles. It is possible that some attributes just need to be adjusted.
+The second experiment was a waterwheel simulation. The tutorial provided the waterwheel, but it guided me through the steps to allow the particles to interact and collide with the wheel object. I was able to use:- a volume particle emitter- resilience and mass attribute settings- particle collision effect as well as gravity- hinge constraint to allow the wheel to move when it collides with the particles For the last project I decided to do some basic modeling to get the hang of it. I’m not quite done yet but the book showed me how to model a spaceship by:- using CV curves- using the loft tool and surface attachment tool- organizing the project with display layers- some sculpting of the CV’s- using isoparms and hull 
+posted by Christine @ 12:08 PM 0 comments   
+Wednesday, February 02, 2005
+Week 2  
+effects, chain, and wavesFor this week I decided to jump ahead in the book and work on rigid and soft body dynamics. I have decided that I can incorporate a series of small projects into one large one by modeling it after a Rube Goldberg machine where one effect will offset another. In the first project I experimented with:- the gravity field effect- hinge constraint- active/passive body collisions. 
+The second project simulated a chain with rigid body constraints. I learned how to use:- the pin and nail constraints- gravity field
+The last project dealt with soft body dynamics. It is supposed to simulate water waves using:- turbulence field- goal weight attribute changes- magnitude attribute changes 
+posted by Christine @ 9:07 AM 0 comments   
+Wednesday, January 26, 2005
+Week 1  
+sun and tea cupSince this is the first week of class I have decided to practice working with the user interface in MAYA. It has been a while since I worked with this program so my goal was to become familiar with it again. For the independent study I’m using MAYA 6 The Complete Reference. The first tutorial I worked on included:
+- a scene that contains three NURBS spheres (sun, earth, moon)- editing their attributes, grouping them and putting them in a hierarchy- animating them (having the objects rotate around each other as they do in real life) as well as editing their colors The second project consisted of working with curves and the CV Curve tool. The tutorial also helped to understand how to use the revolve tool as well as attaching curves.
+The last project I worked on for this week was an animated a soft bouncing ball that changed in shape according to how hard/fast it bounced against a hard surface. I learned how to:
+- edit and set keyframes- use the time slider- use the graph editor and edit the curves as it enters the keyframe and create a more realistic animation 
+posted by Christine @ 8:59 AM 0 comments   
+About Me
+Name:Christine 
+View my complete profile 
+Previous Posts
+* Week 7 
+* Week 5 
+* Week 4 
+* Week 3 
+* Week 2 
+* Week 1 
+Archives
+* January 2005   
+* February 2005   
+* March 2005  
+ 
+

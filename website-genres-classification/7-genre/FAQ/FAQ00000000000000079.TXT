@@ -1,0 +1,155 @@
+
+=====================================================================
+Frequently Asked Questions - 12.2 Form 1099&#8211;MISC & Independent Contractors
+=====================================================================
+ 
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+12.2 Small Business/Self-Employed/Other Business : Form 1099&#8211;MISC & Independent Contractors
+I received a Form 1099-MISC from a company that paid all workers this way. Will my income go on line 21 of Form 1040 as Other Income or on Schedule C?
+Do not report the income reported on Form 1099-MISC, box 7 on line 21 if the income is self employment income. If your income was reported to you on a Form 1099-MISC, in box 7, the company has treated you as an independent contractor and your income is treated as self-employment income. You will need to report that income, and any related expenses, on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax to compute and report your social security and Medicare tax. You may also need to make quarterly estimated tax payments. You would use Form 1040-ES (PDF), Estimated Tax for Individuals, for this. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 355, Estimated Tax 
+What is the difference between a Form W-2 and a Form 1099-MISC?
+Both of these forms are called information returns. The Form W-2 is used by employers to report wages, tips and other compensation paid to an employee. The form also reports the employee's income tax and Social Security taxes withheld and any advanced earned income credit payments. The Form W-2 is provided by the employer to the employee and the Social Security Administration. A Form 1099-MISC is used to report payments made in the course of a trade or business to another person or business who is not an employee. The form is required among other things, when payments of $10 or more in gross royalties or $600 or more in rents or services are paid. The form is provided by the payor to the IRS and the person or business that received the payment. 
+References: 
+* Tax Topic 752, Form W-2 - where, when, and how to file 
+* Instructions for Form W-2 and W-3 
+* Instructions for Form 1099-MISC 
+How do you determine if a person is an employee or an independent contractor?
+The distinction between whether a worker is an employee or an independent contractor has important tax consequences. Worker classification affects how you pay your Federal income tax, social security and Medicare taxes, and how you file your tax return. The classification also affects your eligibility for employee benefits. Those who should be classified as employees, but aren't, may lose out on workers' compensation, unemployment benefits, and, in many cases, group insurance (including life and health), and retirement benefits. 
+Certain workers are considered employees by statute for purposes of the Federal Insurance Contributions Act (FICA), the Federal Unemployment Tax Act (FUTA), or for federal income tax withholding from wages. Examples of workers considered employees by statute include corporate officers, certain agent, or commision-drivers, full-time life insurance sales persons, certain home workers, certain traveling of city sales persons. 
+Where there is no controlling statute, a worker's status is determined by applying the common law test, which applies for purposes of FICA, FUTA, Federal income tax withholding, and the Railroad Retirement Tax Act. A worker's status under the common law test is determined by applying relevant facts that fall into three main categories: behavioral control, financial control, and the type of relationship itself. In each case, it is very important to consider all the facts - no single fact provides the answer. 
+BEHAVIORAL CONTROL: These facts show whether there is a right to direct or control how the worker does the work. A worker is an employee when the business has the right to direct and control the worker. The business does not have to actually direct or control the way the work is done -- as long as the employer has the right to direct and control the work. For example: 
+* Instructions -- if you receive extensive instructions on how work is to be done, this suggests that you may be an employee. Instructions can cover a wide range of topics, for example: how, when, or where to do the work, what tools or equipment to use, what assistants to hire to help with the work, and where to purchase supplies and services. If you receive less extensive instructions about what should be done, but not how it should be done, you may be an independent contractor. For instance, instructions about time and place may be less important than directions on how the work is performed. 
+* Training -- if the business provides you with training about required procedures and methods, this suggests that the business wants the work done in a certain way, and you may be an employee. 
+FINANCIAL CONTROL: These facts show whether there is a right to direct or control the business part of the work. For example: 
+* Significant Investment -- if you have a significant investment in your work, you may be an independent contractor. While there is no precise dollar test, the investment must have substance. However, a significant investment is not necessary to be an independent contractor. 
+* Expenses -- if you are not reimbursed for some or all business expenses, then you may be an independent contractor, especially if your unreimbursed business expenses are high. 
+* Opportunity for Profit or Loss -- if you can realize a profit or incur a loss, this suggests that you are in business for yourself and that you may be an independent contractor. 
+RELATIONSHIP OF THE PARTIES: These are facts that illustrate how the business and the worker perceive their relationship. For example: 
+* Employee Benefits -- if you receive benefits, this is an indication that you are an employee. If you do not receive benefits, however, you could be either an employee or an independent contractor. 
+* Written Contracts -- a written contract may show what both you and the business intend. This may be very significant if it is difficult, if not impossible, to determine status based on other facts. 
+If you are not sure whether you are an independent contractor or an employee, complete Form SS-8 (PDF), Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding. Publication 1779 (PDF), Employee Independent Contractor Brochure, andPublication 15-A (PDF) , Employer's Supplemental Tax Guide, provide additional information on independent contractor or employee status. 
+For information on the tax responsibilities of self-employed persons, refer to Publication 505, Tax Withholding and Estimated Tax, and Publication 533, Self-Employment Tax. 
+References: 
+* Publication 15-A (PDF), Employer's Supplemental Tax Guide 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self-Employment Tax 
+* Publication 1779, Employee Independent Contractor Brochure 
+* Form SS-8 (PDF), Determination of Employee Work Status for Purposes of Federal Employment Taxes and Income Tax Withholding 
+* Tax Topic 762, Independent contractor vs. employee 
+I work as an independent contractor, but I do not own a business and do not perform services in the name of a business. Can I file my tax return without filing Schedule C or Schedule SE?
+The income you earn as an independent contractor generally will be considered income from self-employment and you will need to file Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship), or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will also need to use Form 1040, Schedule SE (PDF), Self-Employment Tax, if you had net earnings from self-employment of $400 or more. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Information for Business 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Publication 1779 (PDF), Employee Independent Contract Brochure 
+* Publication 533, Self Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 334, Tax Guide for Small Business 
+I made several thousand dollars moonlighting as an independent contractor. What taxes do I need to pay?
+You are responsible for Federal income tax and self-employment taxes on your income as an independent contractor. Self-employment taxes are your contributions to social security and Medicare. Your self-employment income and expenses will be reported on Form 1040, Schedule C (PDF), Profit or Loss from Business, or you may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. You will use Form 1040, Schedule SE (PDF), Self-Employment Tax, to compute and report your social security and Medicare tax. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Publication 334, Tax Guide for Small Business 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Tax Topic 355, Estimated Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self Employment Tax 
+In addition to my regular job, I had a part-time business fixing cars. Do I have to report the money I made fixing cars?
+Yes. This is self-employment income. You must report it on Form 1040 Schedule C (PDF), Profit or Loss from Business or Form 1040, Form 1040, Schedule C-EZ (PDF) Net Profit from Business. You may also have to file Form 1040 Schedule SE (PDF) and pay Self-Employment Tax. For more information, refer to Tax Topic 554, or Publication 533, Self-Employment Tax. Since there is no withholding on your Self-Employment Income, you may need to make quarterly Estimated Tax Payments. This is done using a Form 1040-ES (PDF) Estimated Tax for Individuals. 
+References: 
+* Publication 533, Self-Employment Tax 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Topic 554, Self-Employment 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+I did some carpentry work in exchange for dental services. Do I report this on my federal tax return?
+When you exchange goods for services, it is called bartering. The goods or services exchanged have a fair market value that results in gross income that should be included in income by both parties. If you are a member of a barter club and you receive credits for goods or services rendered to other members, the value of these credits are included in income. For information reporting, barter income is reported on Form 1099-B (PDF), Proceeds From Barter Exchange Transactions. 
+For more detailed information on bartering refer to Tax Topic 420 , Bartering Income, and Publication 525, Taxable and Nontaxable Income. 
+References: 
+* Tax Topic 420, Bartering Income 
+* Form 1099-B (PDF) , Proceeds From Broker and Barter Exchange Transactions 
+* Publication 525 , Taxable and Nontaxable Income 
+I made some money repairing radios and television sets last year. How do I report this income?
+A person with income from Self-Employment files Form 1040, Schedule C (PDF), Profit or Loss from Business, or in some cases, files Form 1040, Schedule C-EZ (PDF), Net Profit from Business to report the profit or loss from the business, and files Form 1040, Schedule SE (PDF), Self-Employment Tax to figure Social Security and Medicare Tax. Refer to Tax Topic 407, Business Income, Publication 533, Self-Employment Tax, and Publication 334, Tax Guide for Small Business, for additional information. Since there is no withholding on your self-employment income, you may need to make quarterly estimated tax payments. This is done using a Form 1040-ES (PDF), Estimated Tax for Individuals.
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 533, Self-Employment Tax 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business (Sole Proprietorship) 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business (Sole Proprietorship) 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Tax Topic 407, Business Income 
+* Form 1040-ES (PDF) Estimated Tax for Individuals 
+What forms and schedules should be used to report income earned as an independent contractor?
+Independent contractor report their income on Form 1040, Schedule C (PDF), Profit or Loss from Business, or they may qualify to use Form 1040, Schedule C-EZ (PDF), Net Profit from Business. Independent contractors should also be aware of Form 1040, Schedule SE (PDF), Self-Employment Tax. This form is used to figure social security and Medicare tax which is based on self-employment income. Also, see Form 1040-ES (PDF) Estimated Tax For Individuals, as you may need to make quarterly estimated tax payments. 
+References: 
+* Form 1040, Schedule C (PDF), Profit or Loss from Business 
+* Form 1040, Schedule C-EZ (PDF), Net Profit from Business 
+* Instructions for Form 1040, Schedule C 
+* Form 1040, Schedule SE (PDF), Self-Employment Tax 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Instructions for Form 1040, Schedule SE 
+* Publication 533, Self-Employment Tax 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 554, Self-Employment Tax 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Tax information for Business 
+What, if any, quarterly forms must I file to report income as an independent contractor?
+There are no quarterly income reporting requirements for Federal income tax purposes. However, because you will have no Federal Income Tax withheld from your income, you may need to make quarterly estimated tax payments. You use Form 1040-ES (PDF), Estimated Tax for Individuals, for this purpose. 
+You may be subject to a penalty for underpaying your estimated tax installments. For more information refer to Publication 505, Tax Withholding and Estimated Tax. You need to be aware that there may also be state and local quarterly reporting requirements. You can start looking for information at How to Contact Us. You may want to go to your state's individual web site for additional information. To access the state you need to direct your question to, please go to our Alphabetical State Index. 
+References: 
+* Form 1040-ES (PDF), Estimated Tax for Individuals 
+* Form 2210, (PDF) Underpayment of Estimated Tax by Individuals, Estates & Trusts 
+* Publication 505, Tax Withholding and Estimated Tax 
+* Publication 533, Self-Employment Tax 
+* Tax Topic 355, Estimated Tax 
+* Publication 334, Tax Guide for Small Business 
+* Tax Information for Business 
+* Alphabetical State Index 
+What do I do when I cannot get the social security number or address of subcontractors for their 1099 forms?
+If the person fails to provide you with their social security number, you are required to backup withhold on the payments made to that person. The current backup withholding rate is 28%. You may also be subject to a penalty of up to $50 per information return that is filed without the necessary information. That penalty may be waived for reasonable cause, generally, if you requested the subcontractor's social security number and the contractor failed to provide it to you. You will have reasonable cause for not including the SSN on your 1099. 
+In addition, the $50 penalty does not apply to any failure that does not hinder the IRS from processing the return, from correlating the information required to be shown on the return with the information shown on the payee's tax return, or from otherwise putting the return to its intended use. 
+References: 
+* Form 1099-MISC (PDF) & Instructions 
+* Publication 1679 (PDF), A Guide to Backup Withholding 
+* Publication 1281 (PDF), Backup Withholding on Missing and Incorrect Name/TINs. 
+* Publication 1586 (PDF), Reasonable Cause Regulations & Requirements for Missing & Incorrect TINs 
+* Treas. Reg. section 301.6721-1 (c) (1); 301.6724-1 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

@@ -1,0 +1,27 @@
+A { text-decoration: none;} A: HOVER { color: #000000; } 
+=====================================================================
+FAQ : HURRICANES, TYPHOONS, AND TROPICAL CYCLONES
+=====================================================================
+ 
+ Hurricane FAQ
+  Atl. TC Outlook
+  Storm Shutters
+  Weather Room
+  Current Weather
+  Hurr. Awareness 
+National Hurricane Center 
+NOAA Aircraft Operations Center 	
+Site Map
+Staff	 Data Center	 Contact  Information	 Research Divisions
+---------------------------------------------------------------------
+Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 
+   Subject : C2) Doesn't the friction over land kill tropical cyclones? 
+(Parts of this section are written by Sim Aberson.)
+No. During landfall, the increased friction over land acts - somewhat contradictory - to both decrease the sustained winds and also to increase the gusts felt at the surface (Powell and Houston 1996). The sustained (1 min or longer average) winds are reduced because of the dampening effect of larger roughness over land (i.e. bushes, trees and houses over land versus a relatively smooth ocean). The gusts are stronger because turbulence increases and acts to bring faster winds down to the surface in short (a few seconds) bursts.
+However, after just a few hours, a tropical cyclone over land will begin to weaken rapidly - not because of friction - but because the storm lacks the the moisture and heat sources that the ocean provided. This depletion of moisture and heat hurts the tropical cyclone's ability to produce thunderstorms near the storm center. Without this convection,the storm rapidly fills.
+An early numerical simulation (Tuleya and Kurihara 1978) had shown that a hurricane making landfall over a very moist region (i.e. mainly swamp) so that surface evaporation is unchanged, intensification may result. However, a more recent study (Tuleya 1994) that has a more realistic treatment of surface conditions found that even over a swampy area a hurricane would weaken because of limited heat sources. Indeed, nature conducted this experiment during Andrew as the hurricane traversed the very wet Everglades, Big Cypress and Corkscrew Swamp areas of southwest Florida. Andrew weakened dramatically: peak winds decreased about 33% and the sea level pressure in the eye filled 19 mb (Powell and Houston 1996).
+Back to Tropical Cyclones Myths Page | Back to Main FAQ Page 	
+  Disclaimer | Privacy Notice
+   DOC/NOAA/AOML/HRD	 hrdwebmaster@aoml.noaa.gov  
+ 
+

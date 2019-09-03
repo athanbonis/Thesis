@@ -1,0 +1,111 @@
+
+=====================================================================
+Frequently Asked Questions - 12.1 Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation 
+=====================================================================
+Home   |   Tax Stats   |   About IRS   |   Careers   |   FOIA   |   The Newsroom   |   Accessibility   |   Site Map   |   Español   |   Help 	
+Search IRS Site for:
+Search Forms and 
+Publications for:
+Tips for successful searching
+Home      >      Frequently Asked Questions
+Individuals
+Businesses
+Charities & Non-Profits
+Government Entities
+Tax Professionals
+Retirement Plans
+e-file
+Forms and Publications
+Where To File
+Contact My Local Office
+Frequently Asked Questions
+Taxpayer Advocate
+   
+Frequently Asked Questions 	   	 
+ 	 
+12.1 Small Business/Self-Employed/Other Business : Entities: Sole Proprietor, Partnership, Limited Liability Company/Partnership (LLC/LLP), Corporation, Subchapter S Corporation
+Can a husband and wife run a business as a sole proprietor or do they need to be a partnership?
+It is possible for either the husband or the wife to be the owner of the sole proprietor business. The other person could work in the business as an employee. If the spouses intend to carry on the business together and share in the profits and losses, then they have formed a partnership. See Rev. Proc. 2002-69 for Special Rules for Spouses in Community States. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Publication 541, Partnerships 
+Are partners considered employees of a partnership or are they self-employed?
+Partners are considered to be self-employed. If you are a member of a partnership that carries on a trade or business, your distributive share of its income or loss from that trade or business is net earnings from self-employment. Limited partners are subject to self-employment tax only on guaranteed payments, such as salary and professional fees for services rendered. 
+References: 
+* Instructions for Form 1065, U.S. Partnership Return of Income 
+* Publication 533, Self-Employment Tax 
+* Revenue Ruling 69-184 
+* Publication 541 , Partnerships 
+I recently formed a limited liability company (LLC). The LLC has no employees. Do I need a separate Federal Tax ID number for the LLC?
+No, you will not need a separate Federal Tax ID number for the LLC if you are the sole owner of the LLC and the LLC has no, employees. If you are not the sole owner of the LLC or if the LLC has employees, you will need a separate Federal Tax ID number for the LLC. 
+References: 
+* Publication 1635 (PDF), Understanding your EIN - Employer identification Number - IRS 
+* Form SS-4 (PDF), Application for Employer Identification Number 
+* Form 8832 (PDF), Entity Classification Election 
+As a Domestic LLC (limited liability company), what forms do I use to file a return?
+The form you use will depend on what kind of entity your business is for Federal tax purposes. Following are some general guidelines and the forms which go with each entity: 
+* If your business has only one owner, it will automatically be considered to be a sole proprietorship (referred to as an entity to be disregarded as separate from its owner) unless an election is made to be treated as a corporation. A sole proprietorship files Form 1040 (PDF), U.S. Individual Income Tax Return and will include Form 1040, Schedule C (PDF), Profit or Loss from Business, or Form 1040, Schedule C-EZ (PDF) and Form 1040, Schedule SE (PDF) , if net income $400.00. If an election is made to be treated as a corporation, Form 1120 (PDF), U.S. Corporation Income Tax Return, is filed. 
+* If your business has two or more owners, it will automatically be considered to be a partnership unless an election is made to be treated as a corporation. A partnership files Form 1065 (PDF), U.S. Partnership Return of Income. If an election is made to be treated as a corporation, Form 1120 (PDF), U.S. Corporation Income Tax Return, is filed. The election referred to is made by filing Form 8832 (PDF), Entity Classification Election. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 103, Small Business Tax Education Program 
+* Publication 542, Corporations 
+* Publication 541, Partnerships 
+* Form 8832 (PDF), Entity Classification Election 
+For IRS purposes, how do I classify a limited liability company? Is it a sole proprietorship, partnership or a corporation?
+A limited liability company (LLC) is an entity formed under state law by filing articles of organization as an LLC. Unlike a partnership, none of the members of an LLC are personally liable for its debts. An LLC may be classified for Federal income tax purposes as a sole proprietorship (referred to as an entity to be disregarded as separate from its owner), partnership or a corporation. If the LLC has only one owner, it will automatically be considered to be a sole proprietorship (referred to as an entity to be disregarded as separate from its owner), unless an election is made to be treated as a corporation. If the LLC has two or more owners, it will automatically be considered to be a partnership unless an election is made to be treated as a corporation. If the LLC does not elect its classification, a default classification of partnership (multi-member LLC) or sole proprietorship (single member LLC) will apply. The election referred to is made using the Form 8832 (PDF), Entity Classification ElectionIf a taxpayer does not file Form 8832 (PDF) , a default classification will apply. 
+References: 
+* Publication 334, Tax Guide for Small Business 
+* Tax Topic 103, Small Business Tax Education Program 
+* Publication 542, Corporations 
+* Publication 541, Partnerships 
+* Form 8832 (PDF), Entity Classification Election 
+Must a partnership or corporation file a tax form even though it had no income for the year?
+A domestic partnership must file an income tax form unless it neither receives gross income nor pays or incurs any amount treated as a deduction or credit for federal tax purposes. 
+A domestic corporation must file an income tax form whether it has taxable income or not. 
+References: 
+* Publication 541, Partnerships 
+* Instructions for Form 1065, U.S. Partnership Return of Income 
+* Publication 542, Corporations 
+* Instructions for Form 1120, U.S. Corporation Income Tax Return 
+How do I set up a company as a subchapter S corporation?
+Once you have established your corporation according to your state's requirements, you elect S corporation status for federal tax purposes by filing Form 2553 (PDF), Election by a Small Business Corporation. Several requirements must be met before you can elect S corporation status. Instructions for Form 2553, Election by a Small Business Corporation, provides the information on these requirements. 
+References: 
+* Form 2553 (PDF), Election by a Small Business Corporation 
+* Instructions for Form 2553, Election by a Small Business Corporation 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+I have a C corporation. What is the procedure to change it to an S corporation?
+Once you have established your corporation according to your state's requirement, to convert from a C corporation to an S corporation, you must meet the same requirements as a newly formed corporation electing S corporation status. You must meet the requirements of a "small business corporation" which are, in general: 
+* Be a domestic corporation organized under the law of any state or U.S. territory; 
+* Have only individuals, estates or certain trust as shareholders (no partnerships or corporations as shareholders; 
+* Have only citizens or residents of the United States as shareholders; 
+* Have only one class of stock (differences in voting rights are OK) 
+The S corporation can have no more than 75 shareholders and must make the election to be an S corporation on Form 2553 (PDF), Election by a Small Business Corporation, before the 16th day of the third month following the close of the C corporation's tax year if the election is to be effective for the current tax year. The C corporation must qualify as an eligible corporation during those 2 1/2 months and all shareholders during those 2 1/2 months must consent, even if they do not own stock at the time of the election. If the election is filed after the 15th day of the third month of the tax year, the election will be in effect for the next tax year and all shareholders at the time of the election must consent. For late elections that qualify for treatment as timely filed see Rev. Prov. 98-55. S-Corporation file Form 1120S for the tax year the election takes effect. 
+References: 
+* Form 2553 (PDF), Election by a Small Business Corporation 
+* Instructions for Form 2553, Election by a Small Business Corporation 
+* Form 1120S (PDF), U.S. Income Tax Return for an S Corporation 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+What is the procedure for revoking subchapter S election for a corporation?
+Voluntary termination of an S election is made by filing a statement with the Service Center where the original election was properly filed. A revocation may be made only with the consent of shareholders who, at the time the revocation is made, hold more than one-half of the number of issued and outstanding shares of stock (including nonvoting stock) of the corporation. There is specific information that must be included in the statement and this information is outlined in Regulations section 1.1362-6(a)(3) and in Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation. 
+The revocation may state an effective date as long as it is on or after the date the revocation is filed. If no date is specified and the revocation is filed before the 15th day of the third month of the tax year, the revocation will be effective for the current tax year. If the revocation is filed after the 15th day of the third month of the tax year, the revocation will be effective for the next tax year. 
+You may want to consult the IRS Customer Service phone line at 1-800-829-4933 or you may wish to consult with a tax professional to be certain you have all the necessary information to file a proper revocation. 
+The S corporation election terminates automatically under certain conditions. Refer to Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation. 
+References: 
+* Instructions for Form 1120S, U.S. Income Tax Return for an S Corporation 
+* Treas. Reg. section 1.1362-6(a)(3) 
+* Treas. Reg. section 1.1362-2(a) 
+Can you give me plain English definitions for the following: (1) a closely held corporation, (2) a personal holding corporation, and (3) a personal service corporation?
+Generally, a closely held corporation is a corporation that, in the last half of the tax year, has more than 50% of the value of its outstanding stock owned (directly or indirectly) by 5 or fewer individuals. The definitions for the terms "directly or indirectly" and "individual" are in Publication 542, Corporations. Generally, closely held corporations are subject to additional limitations in the tax treatment of items such as passive activity losses, at-risk rules, and compensation paid to a corporate officers. 
+A personal holding company is defined in Internal Revenue Code section 542. Basically, a corporation is a personal holding company if both of the following requirements are met: 
+* Personal Holding Company Income Test. At least 60% of the corporation's adjusted ordinary gross income for the tax year is from dividends, interest, rent, and royalties. 
+* Stock Ownership Requirement. At any time during the last half of the tax year, more than 50% in value of the corporation's outstanding stock is owned, directly or indirectly, by 5 or fewer individuals. Refer to the Instructions for Form 1120, Schedule PH for more information and a list of exceptions. 
+A personal service corporation is a corporation where the main work of the company is to perform services in the fields of health, law, engineering, architecture, accounting, actuarial science, the performing arts, or consulting. Examples may be law firms and medical clinics. Also, substantially all of the stock is owned by employees, retired employees, or their estates. 
+References: 
+* Publication 542, Corporations 
+* Instructions for Form 1120/1120A 
+* Instructions for Form 1120, Schedule PH 
+ 	 
+IRS Privacy Policy  |  Contact Us
+

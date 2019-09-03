@@ -1,0 +1,13 @@
+
+=====================================================================
+Definition: hotlist
+=====================================================================
+ 
+hotlist
+---------------------------------------------------------------------
+ hotlist: A list of frequently used web locations and URLs (Uniform Resource Locators). Note: Hotlists may consist of a) lists of bookmarks accessed by a browser or b) lists of URLs at a web site for linking to other relevant web sites. Synonyms bookmark list, go list, history list. 
+---------------------------------------------------------------------
+These definitions were prepared by ATIS Committee T1A1.  For more information on the work related to these definitions, please visit the ATIS website.
+This HTML version of Telecom Glossary 2K was last generated on February 28, 2001. References can be found in the Foreword.
+---------------------------------------------------------------------
+

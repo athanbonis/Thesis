@@ -1,0 +1,39 @@
+       
+=====================================================================
+Mathematical Sciences, Noel J. Walkington
+=====================================================================
+                
+     	        
+     	     	        
+     	     	        
+     	     	        
+     	       
+          
+     	        
+     	     	     	     	     	        
+     	        
+     	       
+         
+     	     	     	        
+           Faculty
+      Visiting Faculty
+      Staff
+      Graduate Students
+      
+      
+      Home      	     	           
+Noel J. Walkington
+Professor
+       Ph.D., The University of Texas at Austin 
+Office: Wean Hall 6208 
+       Phone: (412) 268-6291 
+       E-mail: noelw@andrew.cmu.edu
+Research
+My research interests concern the numerical approximation of partial differential equations used to model physical phenomena. One continuing project involves the study of rates of convergence of finite element methods for the Stefan problem (which models heat transfer in the presence of a phase change). Another area of research involves the construction of algorithms to predict the structure of complex materials such as shape memory alloys. These materials exhibit a very fine structure. However, this structure can be characterized so that the finest scales do not need to be simulated directly. 
+Most numerical schemes for approximating partial differential equations require a domain to be divided into cells or elements. The accuracy of the approximation is very sensitive to the geometry of the underlying mesh. While the automatic generation of suitable two-dimensional meshes is possible, three-dimensional mesh generation is not easy to automate. My recent work with colleagues in computer science to circumvent this problem has lead to some interesting algorithms and analyses. 
+Selected Publications
+Walkington, N. J. and Rulla, J., "Optimal Rates of Convergence for Degenerate Parabolic Problems in Two Dimensions," SINUM, Volume 33, Number 1, February 1996, pp. 56–67. 
+Nicolaides, R. A. and Walkington, N. J., "Strong Convergence of Numerical Solutions to Degenerate Variational Problems," Math. Comp., Volume 64, Number 209, January 1995, pp. 117–127. 
+Ma, L. and Walkington, N. J., "On Algorithms for Non-Convex Optimization," SIAM J. Numer. Anal. , Volume 32, Number 3, June 1995, pp. 900–923. 
+Mathematical Sciences Home      Mellon College of Science       Carnegie Mellon University
+

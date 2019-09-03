@@ -1,0 +1,256 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home	    	  	  	 Archive search	    	  	  	 Arts	    	  	  	 Books	    	  	  	 Business	    	  	  	 Education	    	  	  	 Film	    	  	  	 Football	    	  	  	 Jobs	    	  	  	 Life	    	  	  	 Media	      
+Money	    	  	  	 Observer	    	  	  	 Online	    	  	  	 Politics	    	  	  	 Shopping	    	  	  	 Society	    	  	  	 Sport	    	  	  	 Talk	    	  	  	 Travel	    	  	  	 UK news	    	  	  	 World news	 
+ 	 Search this site	 
+Archive search    	     
+Today's picks		 
+- Hywel Williams: Wales is in deep distress
+- David Aaronovitch on the two Kerrys
+-  Martin Kettle: Ousting Blair won't solve Labour's problems
+This week 
+- Win a trip for two to Dubai
+- Your guide to the Six Nations
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- David Aaronovitch
+- Paul Barker
+- Isabel Hilton
+- Martin Kettle
+- Naomi Klein
+- Matthew Norman
+- Hywel Williams
+- Zoe Williams
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+Crossword
+Diary
+G2
+Feedback
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+In pictures
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Tuesday February 10 2004 	
+              
+Europe's allergy epidemic
+Half of all Europeans may be suffering from some sort of allergy by 2015 if the escalating epidemic remains unchecked, as scientists try to find out why the UK has the third-highest rate of child asthma in the world.
+Special report: medicine and health	
+ 	
+Royal sympathy for Bam
+Prince's visit distracts bereft families from daily struggles.
+Leader: The prince of politics
+Special report: Iran	
+ 	
+Going down?
+How is Leeds coping with its only football club's spectacular collapse? Andy Beckett reports.
+Guardian Unlimited Football	
+ 	
+Audio | Email services | Interactive guides | Weblog | Steve Bell | Comment | Talk | Crossword	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Howard endorses gay partnerships
+UK: Tory leader softens hardline image with vision of inclusive society.
+Full text: Michael Howard's speech
+Special report: gay rights
+More UK news	
+ 	
+Legal bid to block West Bank barrier
+World: Rights groups tell Israeli supreme court 'immoral' West Bank barrier breaks local and international law.
+Special report: Israel & the Middle East
+More world news	
+ 	
+Labour in retreat on targets
+Politics: The government will today signal a change of direction ahead of a possible third Labour term, promising to lift the dead hand of central control.
+Guardian Unlimited Politics	
+ 	
+Overlong, overrated, unmoving: Roddy Doyle on Ulysses
+Books: Ireland's best-known modern writer has put literary Dublin in a tizz by confessing that he can't be bothered with James Joyce's masterpiece Ulysses.
+Genius or fallen idol? Critics give their views on Ulysses
+Guardian Unlimited Books	
+ 	
+Jubilant BA climbs to 12-year profit high
+Business: Airline 'back in the game' against no-frills carriers, says Eddington.
+Special report: British Airways
+More business news	
+ 	
+Ex-Kitten crowned queen of the jungle
+Media: So, Kerry wins it. Not the race for the Democrat nomination, but the real contest. The one that 11 million Britons care about: McFadden, not John. 
+Comment: David Aaronovitch
+MediaGuardian.co.uk	
+ 	
+Bad timing for Brits as single sales show biggest fall
+Arts: Record industry bosses have been trying to delay the announcement of the biggest ever drop in singles sales to avoid bad publicity in advance of the Brit Awards. 
+Guardian Unlimited Arts	
+ 	
+Quest for head of 'British FBI'
+Crime: Police organisations welcome establishment of elite agency to counter international crime syndicates.
+Leader: Britain's new G-men
+Q&A: the new crime force
+Special report: crime	
+ 	
+Minnow takes on the mighty Microsoft
+Online: A small Norwegian company is planning a stock market listing as part of its plans to go head to head with Microsoft. 
+More from the Online team	
+ 	
+Population 'time bomb' disputed
+Society: The charity Age Concern says recent research has debunked the myth that the ageing of Britain's population is a 'demographic time bomb' threatening to wreck the economy.
+SocietyGuardian.co.uk	
+ 	
+Pensioners miss out
+Money: Almost half of the 4.9 million pensioners eligible to claim the government's pension credit are missing out, according to the latest official figures.
+Guardian Unlimited Money	
+ 
+Austin on ...
+EU immigration and the search for a new BBC chairman
+UK opens door to migrants
+BBC tempts with kudos
+Latest Guardian cartoons	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+-Events & offers		 
+- Free DVD rental with Friday Review
+- The big five: win a trip for two to Dubai
+- Write topical haiku and win Penguin classics
+Information		 
+- Contact us
+- Feedback
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2004
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 

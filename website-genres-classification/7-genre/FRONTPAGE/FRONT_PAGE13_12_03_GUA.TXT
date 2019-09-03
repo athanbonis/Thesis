@@ -1,0 +1,257 @@
+      
+=====================================================================
+Guardian Unlimited
+=====================================================================
+    
+function URLStack_getCookie(name) {  if (!document.cookie) {   return '';  }  var dc = document.cookie;  var prefix = name + "=";  var begin = dc.indexOf("; " + prefix);   if (begin == -1) {   begin = dc.indexOf(prefix);   if (begin != 0) return null;  } else   begin += 2;  var end = document.cookie.indexOf(";", begin);  if (end == -1)  end = dc.length;  return unescape(dc.substring(begin + prefix.length, end)); } function URLStack_setCookie(name, value) { var curCookie = name + "=" + escape(value) + "; domain=.guardian.co.uk; path=/" document.cookie = curCookie; } function URLStack_push(url) {  var cookie = URLStack_getCookie('GU_ST');  var stack = cookie ? cookie.split('|') : new Array();  if(stack.length == 0 || (stack.length > 0 && stack[stack.length-1] != url)) {   stack[stack.length] = url;   URLStack_setCookie('GU_ST',stack.join('|'));  }  return true; } function URLStack_pop() {  var cookie = '|' + URLStack_getCookie('GU_ST');  var x = cookie.lastIndexOf('|');  var url = cookie.substring(x + 1);  URLStack_setCookie('GU_ST',cookie.substring(0, x));  return url; } function URLStack_peek() {  var cookie = '|' + URLStack_getCookie('GU_ST');  return cookie.substring(cookie.lastIndexOf('|') + 1); } function URLStack_kill() {  if (URLStack_getCookie('GU_ST') != '') {   URLStack_setCookie('GU_ST','');  } }  URLStack_kill(); document.write('Sign in'); document.write(' '); document.write(' Register '); Sign in Register 	Go to:   
+Guardian Unlimited home  
+UK news  
+World news  
+----------------------  
+Archive search  
+Arts  
+Books  
+Business  
+EducationGuardian.co.uk  
+Film  
+Football  
+Jobs  
+Life  
+MediaGuardian.co.uk  
+Money  
+The Observer  
+Online  
+Politics  
+Shopping  
+SocietyGuardian.co.uk  
+Sport  
+Talk  
+Travel  
+----------------------  
+Audio  
+Email services  
+Special reports  
+The Guardian  
+The weblog  
+The informer  
+The northerner  
+The wrap  
+----------------------  
+Advertising guide  
+Crossword  
+Dating  
+Headline service  
+Syndication services  
+Events / offers  
+Help / contacts  
+Information  
+Newsroom  
+Notes & Queries  
+Reader Offers  
+Style guide  
+Travel offers  
+TV listings  
+Weather  
+Web guides  
+Working at GNL  
+----------------------  
+Guardian Weekly  
+Money Observer
+  	
+Best daily newspaper
+on the world wide web		
+Home		 			Archive search		 			Arts		 			Books		 			Business		 			Education		 			Film		 			Football		 			Jobs		 			Life		 			Media		 
+Money		 			Observer		 			Online		 			Politics		 			Shopping		 			Society		 			Sport		 			Talk		 			Travel		 			UK news		 			World news		 
+ 	 Search this site	 
+Archive search      	   
+Our picks		 
+Today
+- Lyn Gardner on the trouble with dead playwrights
+- JM Coetzee revisits Defoe
+- Myles Quin enters the world of the live-action-role-player
+This week
+- Nominate your article of the year
+- The best Christmas shows
+- Spam: everything you need to know
+- Christmas shopping ideas
+News		 
+UK latest
+World latest
+Pop-up headlines
+ 
+All Guardian headlines
+Audio reports
+Business
+Online
+Special reports
+The Guardian
+The Observer
+The Informer
+The Northerner
+The Wrap
+World news guide
+World dispatch
+Economic dispatch
+Issues explained
+ 
+Today's comment
+- Julie Burchill
+- Alexander Chancellor
+- Tariq Ali
+- Mark Lawson
+- David Clark
+- Ros Coward and Michael Harvey
+- Richard Dawkins and R Elisabeth Cornwell
+- Smallweed
+- Marina Hyde
+- The columnists
+Talk 
+- Join our talkboards
+- Live online
+ 
+Cartoons
+- Steve Bell
+- Martin Rowson
+Crossword
+Diary
+G2
+Guardian Century
+Interactive guides
+Leaders
+Letters
+News quiz
+Net notes
+Notes & Queries
+Picture galleries
+Public voices
+Reviews
+Soulmates
+TV
+Weather
+Weblog
+Weekend
+Other sites 
+- Guardian Weekly
+- Money Observer
+ 	  Saturday December 13 2003 	
+Judge's death exposed fatal flaws
+Nick Davies looks at an extraordinary, inconclusive case in the latest in his series on criminal justice.
+Criminal justice: a special investigation by Nick Davies	
+ 	
+Talks fail to break deadlock
+EU leaders are heading for a deadlock over voting rights after a day of tense and frustrating summit negotiations.
+Leader: Leading the new Europe
+Special report: European integration	
+ 	
+Just the job
+Renée Zellweger tells Zoe Williams why there's more to happiness than money, fame or even love.
+Guardian Unlimited Film	
+ 	
+ 	
+ Christmas charity appeal | Crossword | Cartoons | Talk | Steve Bell | Martin Rowson | Audio | Interactive guides | Comment | Email services | Weblog	
+ 	
+Other news and comment
+---------------------------------------------------------------------
+Cheney oil firm accused of overcharging $61m in Iraq
+World: A Pentagon audit has found that Halliburton overcharged the government by $61m (about £35m) for delivering petrol to Iraq. 
+Special report: United States
+Special report: Iraq
+More world news	
+ 	
+Notorious tycoon turns good Samaritan
+UK: Nicholas van Hoogstraten, the property baron who was freed from prison on Tuesday, has joined the Samaritans.
+More UK news	
+ 	
+Ofcom gets tough on telecoms industry
+Business: BT cool on first post-privatisation market study.
+Special report: Ofcom
+More business news	
+ 	
+Labour revolt over Blairite choice puts seat at risk
+Politics: Labour leaders are warned that the party risks losing the South Wales parliamentary seat of Nye Bevan and Michael Foot over the imposition of a women-only shortlist. 
+Guardian Unlimited Politics	
+ 	
+Soham jury asks to see bath again after retiring
+Soham murder trial: Jury retires to consider its verdicts against Ian Huntley and Maxine Carr. 
+Soham murder trial timeline
+Special report: the Soham murder trial	
+ 	
+Threat to BSkyB Premiership monopoly
+Media: European commission wants Murdoch group to sub-license one of four packages to rival broadcaster.
+MediaGuardian.co.uk	
+ 	
+A defining education moment is near
+Education: As top-up university fees bring the prospect of a serious backbench revolt, Blair loyalists wonder at the PM's unwavering commitment.
+EducationGuardian.co.uk	
+ 	
+At last, a gig at the palace for Sir Michael
+Arts: Rolling Stone Mick Jagger, former scourge of the establishment, puts on a suit and tie to receive a knighthood. 
+The life and times of a Rolling Stone
+Net notes: Pop stars with honours
+Guardian Unlimited Arts	
+ 	
+Courts are not failing fathers, says judge
+Society: Feuds over divorce are alienating children, not 'pro-mother' courts.
+SocietyGuardian.co.uk	
+ 	
+New fertility law divides Italy
+Rome dispatch: Legislation on reproductive rights has been welcomed by anti-abortion campaigners, reports John Hooper.
+Ian Black: EU aims to secure better world
+More exclusive reports from our foreign correspondents
+Guardian Unlimited Football	
+ 	
+Holm comforts
+Travel: Lindsay Baker finds the Swedish flair for design reflected in all aspects of life in the nation's capital.
+Guardian Unlimited Travel	
+ 	
+When all you can do is run for your life
+Christmas appeal: Place of healing for women beaten by their partners.
+More on the Christmas appeal	
+ 
+ 	Paid-for services	  	
+ 
+ 	 -  Crosswords 
+-  The Wrap 
+-  The Informer 
+-  Ad-free 
+-  All paid-for services	
+ 
+ 	Book now	 	
+ 	- Flights	 	
+ 	- Holidays	 	
+ 	- City breaks	 	
+ 	- Skiing	 	
+ 	- Hotels	 	
+ 	- Late deals	 	
+ 	- Ferries	 	
+ 	- Extras	 	
+Wheels		 
+- Search Autotrader for used cars
+Live online		 
+- Tue Dec 16: Martian landing specialist Dr Monica Grady
+Services		 
+- Email services
+- Headline service
+- Text alerts and PDA
+-Events & offers		 
+- Write topical haiku and win Penguin classics
+- Win a Gameboy for Christmas
+Information		 
+- Contact us
+- Newsroom
+- Style guide
+- Advertising guide
+- Privacy policy
+- Terms and conditions
+- The Guardian
+- Guardian readers' editor
+- The Observer
+- Observer readers' editor
+ 	 
+ 	 
+Privacy policy  |  Terms & conditions  |  Advertising guide  |  Style guide
+ 	 
+Guardian Unlimited © Guardian Newspapers Limited 2003
+Registered in England and Wales. No. 908396.
+Registered office: 164 Deansgate, Manchester M60 2RR
+ 
