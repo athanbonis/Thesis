@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you refer to this work, please cite the thesis."
+title: "Text Categorization Based on Fine-tuning of Pre-trained Language Models"
+type: software
+authors:
+  - family-names: Bonis
+    given-names: Athanasios
+  - family-names: Dimopoulos
+    given-names: Georgios
+date-released: 2019-09-01
+url: "https://hellanicus.lib.aegean.gr/items/f79c6c6c-fcf2-4985-b396-8a1117c06b4b"
+repository-code: "https://github.com/athanbonis/Thesis"
+preferred-citation:
+  type: thesis
+  title: "Text Categorization Based on Fine-tuning of Pre-trained Language Models"
+  authors:
+    - family-names: Bonis
+      given-names: Athanasios
+    - family-names: Dimopoulos
+      given-names: Georgios
+  institution:
+    name: "University of the Aegean, Department of Information and Communication Systems Engineering"
+  year: 2019
+  month: 9
+  thesis-type: "Undergraduate thesis"
+  url: "https://hellanicus.lib.aegean.gr/items/f79c6c6c-fcf2-4985-b396-8a1117c06b4b"

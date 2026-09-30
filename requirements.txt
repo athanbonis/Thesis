@@ -1,0 +1,5 @@
+# Archived 2019 environment (not maintained). The code targets the fastai v1 API,
+# which was replaced by fastai v2 in 2020; use Python 3.6/3.7.
+fastai>=1.0,<2.0
+scikit-learn
+pandas
