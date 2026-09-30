@@ -2,6 +2,9 @@
 
 *Ταξινόμηση Κειμένων με Προσαρμογή Προ-εκπαιδευμένων Γλωσσικών Μοντέλων*
 
+[![Status: archived](https://img.shields.io/badge/status-archived%20%282019%29-lightgrey)](#)
+[![Follow-up: genre-and-authorship-bench](https://img.shields.io/badge/follow--up-genre--and--authorship--bench-2a78d6)](https://github.com/athanbonis/genre-and-authorship-bench)
+
 Undergraduate thesis, Department of Information and Communication Systems Engineering,
 University of the Aegean, September 2019.
 
@@ -11,6 +14,11 @@ University of the Aegean, September 2019.
   [Hellanicus institutional repository](https://hellanicus.lib.aegean.gr/items/f79c6c6c-fcf2-4985-b396-8a1117c06b4b)
 
 > **Archived.** This repository is kept as the 2019 record of the thesis and is not maintained.
+>
+> **Follow-up work:** the questions studied here are being rebuilt from scratch as an open,
+> reproducible benchmark in
+> [athanbonis/genre-and-authorship-bench](https://github.com/athanbonis/genre-and-authorship-bench),
+> with a plain-language explainer at [whowrotethis.athanbonis.com](https://whowrotethis.athanbonis.com).
 
 ## Abstract
 
