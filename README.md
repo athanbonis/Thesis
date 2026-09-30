@@ -10,7 +10,7 @@ University of the Aegean, September 2019.
 - **Thesis (PDF):** [`docs/thesis.pdf`](docs/thesis.pdf) (in Greek) ·
   [Hellanicus institutional repository](https://hellanicus.lib.aegean.gr/items/f79c6c6c-fcf2-4985-b396-8a1117c06b4b)
 
-> (private while in development).
+> **Archived.** This repository is kept as the 2019 record of the thesis and is not maintained.
 
 ## Abstract
 
