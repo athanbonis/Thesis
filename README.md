@@ -12,7 +12,8 @@ University of the Aegean, September 2019.
 
 > **Archived.** This repository is kept as the 2019 record of the thesis and is not maintained.
 > A new, independent rebuild of this line of work, which uses this thesis as its starting point,
-> lives at **[TODO: link to the new repository]**.
+> lives at **[athanbonis/genre-and-authorship-bench](https://github.com/athanbonis/genre-and-authorship-bench)**
+> (private while in development).
 
 ## Abstract
 
