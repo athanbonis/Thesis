@@ -10,9 +10,6 @@ University of the Aegean, September 2019.
 - **Thesis (PDF):** [`docs/thesis.pdf`](docs/thesis.pdf) (in Greek) ·
   [Hellanicus institutional repository](https://hellanicus.lib.aegean.gr/items/f79c6c6c-fcf2-4985-b396-8a1117c06b4b)
 
-> **Archived.** This repository is kept as the 2019 record of the thesis and is not maintained.
-> A new, independent rebuild of this line of work, which uses this thesis as its starting point,
-> lives at **[athanbonis/genre-and-authorship-bench](https://github.com/athanbonis/genre-and-authorship-bench)**
 > (private while in development).
 
 ## Abstract
